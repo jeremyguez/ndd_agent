@@ -1,0 +1,367 @@
+{
+  "articles_found": {
+    "clinical": 22,
+    "model_organism": 20,
+    "biological": 23
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Abrogation of MAP4K4 protein function causes congenital anomalies in humans and zebrafish (PMID: 37126546)",
+        "num_patients": 21,
+        "variants": [
+          {
+            "description": "Multiple rare variants (specific variants not detailed in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "Neurodevelopmental differences",
+              "Multiple congenital anomalies",
+              "Developmental defects (zebrafish model)"
+            ]
+          },
+          {
+            "description": "Multiple rare variants (specific variants not detailed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "Neurodevelopmental differences",
+              "Multiple congenital anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variants demonstrated to be loss-of-function or dominant-negative alleles; zebrafish models showed developmental defects with decreased Map4k4 activity; variants abrogate MAP4K4 function",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Integrated exome and transcriptome analysis prioritizes MAP4K4 de novo frameshift variants in autism spectrum disorder as a novel disease-gene association (PMID: 36469137)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Two novel frameshift variants in coding exons (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "Autism spectrum disorder",
+              "Neurodevelopmental disorder",
+              "Non-syndromic and syndromic neurodevelopmental disorders"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo frameshift variants predicted to generate nonsense-mediated decay; transcriptome analysis demonstrated deleterious effect on MAP4K4 mRNA splicing and stability",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Syndromic craniosynostosis caused by a novel missense variant in MAP4K4: Expanding the genotype-phenotype relationship in RASopathies (PMID: 38679877)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_001242559:c.569G>T, p.Gly190Val",
+            "type": "missense",
+            "phenotypes": [
+              "Craniofacial dysmorphism",
+              "Language delay",
+              "Congenital heart defects",
+              "Genitourinary anomalies",
+              "Sagittal craniosynostosis",
+              "Syndromic craniosynostosis"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant located in hotspot of protein kinase domain; identified by trio exome sequencing; expands phenotypic association of MAP4K4-related disorder",
+        "center_country": "Korea",
+        "cohort": null
+      },
+      {
+        "citation": "Perturbations of BMP/TGF-\u03b2 and VEGF/VEGFR signalling pathways in non-syndromic sporadic brain arteriovenous malformations (BAVM) (PMID: 30120215)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "MAP4K4 variant (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "Brain arteriovenous malformation (BAVM)",
+              "Non-syndromic sporadic BAVM"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified as likely pathogenic heterozygous variant in whole-exome trio sequencing of BAVM patient; potential oligogenic inheritance with ENG variant",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - Variants in MAP4K4 cause a novel and potentially treatable form of neurologic dysfunction with cardiac anomalies",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "Three variants expected to lead to early truncation (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "Neurologic dysfunction",
+              "Cardiac anomalies",
+              "Developmental delay (moderate to severe)",
+              "Pulmonary artery stenosis",
+              "Tricuspid and pulmonary valve insufficiency",
+              "Patent foramen ovale",
+              "Atrial and ventricular septal defects",
+              "Noonan-like syndrome phenotype"
+            ]
+          },
+          {
+            "description": "One missense variant in highly conserved region (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "Neurologic dysfunction",
+              "Cardiac anomalies",
+              "Developmental delay",
+              "Noonan-like syndrome phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants; MAP4K4 gene extremely intolerant to missense variation (Z score 4.01); maximum pLI score of 1; phenotype resembles RASopathy",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Abrogation of MAP4K4 protein function causes congenital anomalies in humans and zebrafish (PMID: 37126546)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "developmental defects",
+          "neurodevelopmental differences",
+          "multiple congenital anomalies",
+          "impaired RAS signaling regulation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 is involved in the neuronal development of retinal photoreceptors (PMID: 37290629)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "homozygous lethality",
+          "neural tube malformation",
+          "impaired photoreceptor neurite formation",
+          "vulnerability of photoreceptor neurites",
+          "imbalance in neurogenesis-related factors",
+          "reduced c-JUN phosphorylation"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 and cancer: ready for the main stage? (PMID: 37223681)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "embryonic lethality",
+          "impaired somite development"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 and IL-6(+) Th17 cells play important roles in non-obese type 2 diabetes (PMID: 28061846)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "enhanced IL-6+ Th17 cell population",
+          "insulin resistance",
+          "type 2 diabetes development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4Ks inhibition promotes retinal neuron regeneration from M\u00fcller glia in adult mice (PMID: 37443319)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "loss of M\u00fcller glia reprogramming capacity",
+          "impaired retinal progenitor cell-like state entry",
+          "reduced retinal neuron transdifferentiation",
+          "YAP-dependent phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Machine learning-based prediction reveals kinase MAP4K4 regulates neutrophil differentiation through phosphorylating apoptosis-related proteins (PMID: 40096134)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "neutropenia",
+          "impeded neutrophil differentiation in bone marrow",
+          "altered STAT5A phosphorylation",
+          "dysregulated cell apoptosis during neutrophil differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 negatively regulates CD8 T cell-mediated antitumor and antiviral immunity (PMID: 32220977)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "enhanced LFA-1 activation on CD8 T cells",
+          "improved CD8 T cell adherence to APCs",
+          "increased CD8 T cell priming",
+          "enhanced antigen-dependent activation",
+          "increased proliferation and cytokine production",
+          "enhanced cytotoxic activity",
+          "impaired tumor growth",
+          "improved response to viral infection",
+          "tolerated in adult animals under homeostatic conditions"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dichotomous role of the serine/threonine kinase MAP4K4 in pancreatic ductal adenocarcinoma onset and metastasis through control of AKT and ERK pathways (PMID: 38229581)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "accelerated tumor initiation and progression",
+          "overactivation of ERK and AKT signaling",
+          "reduced metastatic burden",
+          "reduced metastatic seeding"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Map4k4 impairs energy metabolism in endothelial cells and promotes insulin resistance in obesity (PMID: 28611026)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "ameliorated metabolic dysfunction in obesity",
+          "chylous ascites",
+          "increased adipose tissue lymphocyte content",
+          "protection from skeletal muscle microvascular rarefaction",
+          "reduced endothelial cell senescence",
+          "increased metabolic capacity in primary ECs",
+          "improved glucose homeostasis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Endothelial protein kinase MAP4K4 promotes vascular inflammation and atherosclerosis (PMID: 26688060)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced aortic macrophage accumulation",
+          "reduced atherosclerotic plaque development",
+          "attenuated cell surface adhesion molecule expression",
+          "reduced nuclear localization and activity of NF\u03baB"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Abrogation of MAP4K4 protein function causes congenital anomalies in humans and zebrafish (PMID: 37126546)",
+        "evidence_subtype": "function",
+        "summary": "MAP4K4 negatively regulates RAS signaling in early embryos. Loss-of-function and dominant-negative variants in MAP4K4 cause developmental defects in zebrafish models and are associated with neurodevelopmental differences and multiple congenital anomalies in 21 human families.",
+        "sample_size": "21 families",
+        "significance": null
+      },
+      {
+        "citation": "RAP2 mediates mechanoresponses of the Hippo pathway (PMID: 30135582)",
+        "evidence_subtype": "pathway",
+        "summary": "MAP4K4 is activated by RAP2 GTPase in response to low ECM stiffness and stimulates LATS1/2 kinases to inhibit YAP and TAZ, thereby integrating mechanical signals into the Hippo tumor suppressor pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 exacerbates cardiac microvascular injury in diabetes by facilitating S-nitrosylation modification of Drp1 (PMID: 38724987)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MAP4K4 is upregulated in diabetic cardiomyopathy and promotes S-nitrosylation of Drp1 by inhibiting GPX4 expression, leading to mitochondrial dysfunction and endothelial ferroptosis. MAP4K4 inhibition via DMX-5804 reduced ferroptosis and improved cardiac function in db/db mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 aggravates microvascular anomalies in diabetic retinopathy in a YTHDF2-dependent manner (PMID: 40072537)",
+        "evidence_subtype": "expression",
+        "summary": "MAP4K4 is predominantly expressed in retinal endothelial cells and upregulated in proliferative diabetic retinopathy. YTHDF2 regulates MAP4K4 mRNA stability, and MAP4K4 promotes endothelial dysfunction through NF-\u03baB signaling pathway activation.",
+        "sample_size": "8 PDR patients, 11 controls",
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 and cancer: ready for the main stage? (PMID: 37223681)",
+        "evidence_subtype": "function",
+        "summary": "MAP4K4 is a serine/threonine kinase that activates pro-proliferative pathways (JNK and MLK3), promotes tumor cell proliferation and invasion, and alters cytoskeleton/actin function. MAP4K4 knockout is embryonic lethal due to impaired somite development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The molecular basis of the dichotomous functionality of MAP4K4 in proliferation and cell motility control in cancer (PMID: 36568222)",
+        "evidence_subtype": "pathway",
+        "summary": "MAP4K4 functions as an upstream integrator of extracellular cues with dual roles: activating JNK signaling for proliferation while also activating the Hippo tumor suppressor pathway, creating a dichotomous pro-metastatic and growth-suppressive functionality.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cooperation of Striatin 3 and MAP4K4 promotes growth and tissue invasion (PMID: 35941177)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MAP4K4 interacts with striatin 3 and 4 (STRN3/4) scaffolding proteins. STRN3 couples MAP4K4 to PP2A phosphatase and enables PKC\u03b8-mediated phosphorylation of VASPS157 by MAP4K4, promoting cell invasion while STRN3 suppresses MAP4K4's growth-repressing Hippo signaling activities.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 expression in cardiomyocytes: multiple isoforms, multiple phosphorylations and interactions with striatins (PMID: 34032269)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MAP4K4 is regulated within STRIPAK complexes in cardiomyocytes through association with all three striatin family members. Alternative splicing produces multiple MAP4K4 isoforms, and the kinase is regulated by PP2A-mediated dephosphorylation within these complexes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAP4K4 regulates forces at cell-cell and cell-matrix adhesions to promote collective cell migration (PMID: 37369604)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MAP4K4 is a central regulator of collective cell migration that controls protrusion/retraction dynamics, remodels actomyosin cytoskeleton, and promotes focal adhesion disassembly through moesin phosphorylation while disassembling adherens junctions through a moesin-independent mechanism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Variants in MAP4K4 cause a novel and potentially treatable form of neurologic dysfunction with cardiac anomalies (E.J. Bhoj et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "Seven individuals from four families carry MAP4K4 variants (nonsense and missense) causing neurologic dysfunction and cardiac anomalies resembling rasopathies. MAP4K4 is extremely intolerant to missense variation (Z-score 4.01, pLI=1), and MAP4K4 inhibition may be therapeutically mitigated by integrin \u03b15\u03b21 inhibition.",
+        "sample_size": "7 individuals from 4 families",
+        "significance": null
+      }
+    ]
+  }
+}

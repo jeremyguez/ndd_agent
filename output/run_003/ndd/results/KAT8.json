@@ -1,0 +1,304 @@
+{
+  "articles_found": {
+    "clinical": 22,
+    "model_organism": 20,
+    "biological": 22
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Lysine acetyltransferase 8 is involved in cerebral development and syndromic intellectual disability (PMID: 31794431)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "Multiple variants altering chromobarrel and catalytic domains of KAT8 (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "seizures",
+              "autism",
+              "dysmorphisms",
+              "other anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variants altered chromobarrel and catalytic domains of KAT8, impairing nucleosomal H4K16 acetylation; functional evidence provided",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Routine Diagnostics Confirm Novel Neurodevelopmental Disorders (PMID: 36553572)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified in abstract",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reported in routine diagnostics as strengthening confirmation of KAT8 as a gene with limited but relevant evidence for pathogenicity",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "The Genetic Basis of Neurological Disorders: Missense and Nonsense Variants in Three Pakistani Families With Syndromic Intellectual Disability (PMID: 41347281)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.649A>C; p.Met217Leu (NM_182958.4) in KAT8, homozygous",
+            "type": "missense",
+            "phenotypes": [
+              "Li-Ghorbani-Weisz-Hubshman syndrome (LIGOWS)",
+              "syndromic intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel homozygous missense variant identified by exome sequencing; bioinformatic prediction tools confirmed deleterious effect; segregation analysis consistent with autosomal recessive inheritance; first reported AR KAT8-related disorder",
+        "center_country": "Pakistan",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2 (PMID: 38961108)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Trophoblast-specific deletion of Kat8 leads to extraembryonic ectoderm abnormalities",
+          "Embryonic lethality",
+          "Impaired trophoblast stem cell self-renewal",
+          "Reduced CDX2 expression",
+          "Reduced H4K16ac in trophoblast cells",
+          "Placental developmental defects"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone acetyltransferase KAT8 is essential for mouse oocyte development by regulating reactive oxygen species levels (PMID: 28506985)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Female infertility",
+          "Follicle development failure at secondary and preantral follicle stages",
+          "Significant downregulation of antioxidant genes in oocytes",
+          "Increased reactive oxygen species levels",
+          "Defective follicle and oocyte development rescued by N-acetylcysteine injection"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lysine acetyltransferase 8 is involved in cerebral development and syndromic intellectual disability (PMID: 31794431)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Cerebral hypoplasia in neocortex and hippocampus",
+          "Improper neural stem and progenitor cell (NSPC) development",
+          "Faulty proliferation of cerebrocortical neuroepithelia",
+          "Aberrant neurogenesis",
+          "Massive apoptosis in cerebrocortical neuroepithelia",
+          "Scant H4K16 propionylation",
+          "Poor neurosphere formation by mutant NSPCs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone acetyltransferase activity of MOF is required for adult but not early fetal hematopoiesis in mice (PMID: 27827827)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Critical role in hematopoietic cell maintenance in adults",
+          "Impaired HSC engraftment capacity in adult hematopoiesis",
+          "Reduced clonogenic capacity of HSCs and progenitors (requires acetyltransferase activity)",
+          "Dramatic loss of global H4K16ac",
+          "Fetal steady-state hematopoiesis at E14.5 not affected by homozygous Mof deletion",
+          "Hematopoietic defects begin manifesting at E17.5"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MOF Acetyl Transferase Regulates Transcription and Respiration in Mitochondria (PMID: 27768893)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Hypertrophic cardiomyopathy",
+          "Cardiac failure",
+          "Severe mitochondrial degeneration in cardiomyocytes",
+          "Deregulation of mitochondrial nutrient metabolism",
+          "Deregulation of oxidative phosphorylation pathways",
+          "Catastrophic consequences for tissues with high-energy consumption"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mitochondrial MOF regulates energy metabolism in heart failure via ATP5B hyperacetylation (PMID: 39392752)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Overexpression of mitochondria-targeted MOF results in mitochondrial dysfunction",
+          "Cardiac remodeling",
+          "Heart failure",
+          "SIRT3 knockout aggravates mtMOF-induced cardiac damage",
+          "Impaired mitochondrial respiration and energy metabolism via ATP5B K201 acetylation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of Activin A-Mediated KAT8 Expression in Regulating Ferroptosis During Mycobacterium tuberculosis Infection (PMID: 40976643)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Pharmacological inhibition of KAT8 restricts Mycobacterium tuberculosis burden in vivo",
+          "Limits bacterial dissemination",
+          "Ameliorates tuberculosis pathology"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KAT8 Knockdown Reverses hucMSC Senescence and Enhances Diabetic Wound Healing Efficacy (PMID: 40816295)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "KAT8-knockdown hucMSCs significantly promoted wound healing in type 1 diabetic mouse model",
+          "Superior therapeutic efficacy of KAT8-knockdown hucMSCs compared to controls",
+          "Improved wound closure rates",
+          "Enhanced histological outcomes (H&E, Masson staining)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Protocol for KAT8 conditional knockout mice generation and its application in 4NQO-induced esophageal tumor model (PMID: 41739644)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Esophagus-specific KAT8 knockout mice generated",
+          "Used in 4NQO-induced esophageal squamous cell carcinoma model",
+          "Validated by western blotting, H&E staining, and immunohistochemistry"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KAT8: A Promising Biomarker for the Prognosis of Hepatitis B Virus-Related Acute-on-Chronic Liver Failure (PMID: 41792982)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Significantly decreased KAT8 expression in liver tissues from carbon tetrachloride/LPS/D-galactosamine-induced ACLF mouse model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p < 0.001"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "KAT8-catalyzed lactylation promotes eEF1A2-mediated protein synthesis and colorectal carcinogenesis (PMID: 38359291)",
+        "evidence_subtype": "function",
+        "summary": "KAT8 was identified as a pan-lysine lactyltransferase (Kla writer) that installs lactylation on multiple protein substrates, including eEF1A2 at K408, boosting translation elongation and protein synthesis to promote colorectal cancer tumorigenesis. Deletion of KAT8 inhibited CRC tumor growth, especially in high-lactic tumor microenvironments. KAT8 is proposed as a potential therapeutic target for CRC.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Disrupting the phase separation of KAT8-IRF1 diminishes PD-L1 expression and promotes antitumor immunity (PMID: 36894639)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "In response to IFN\u03b3, KAT8 undergoes liquid-liquid phase separation with IRF1 to form biomolecular condensates that upregulate PD-L1 expression. KAT8-IRF1 condensation promotes IRF1 K78 acetylation and its binding to the CD274 (PD-L1) promoter, enriching the transcription apparatus. A blocking peptide (2142-R8) that disrupts KAT8-IRF1 condensate formation inhibits PD-L1 expression and enhances antitumor immunity in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2 (PMID: 38961108)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Trophoblast-specific deletion of Kat8 in mice caused extraembryonic ectoderm abnormalities and embryonic lethality. In trophoblast stem cells, KAT8 regulates transcriptional activation of the stemness marker CDX2 via H4K16 acetylation, and CDX2 overexpression partially rescues Kat8 knockout defects. Reduced KAT8, CDX2, and H4K16ac expression were associated with recurrent pregnancy loss in clinical samples.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Stabilization of MOF (KAT8) by USP10 promotes esophageal squamous cell carcinoma proliferation and metastasis through epigenetic activation of ANXA2/Wnt signaling (PMID: 38317006)",
+        "evidence_subtype": "pathway",
+        "summary": "KAT8 (MOF) is highly expressed in ESCC tumors and its depletion impedes tumor growth and metastasis in vitro and in vivo; catalytically inactive KAT8 (E350Q mutant) fails to promote ESCC progression, indicating acetyltransferase activity is essential. USP10 deubiquitinates KAT8 at K410 to prevent its proteasomal degradation, and stabilized KAT8 promotes H4K16ac enrichment at the ANXA2 promoter to activate ANXA2 transcription and downstream Wnt/\u03b2-catenin signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHI-KAT8i5 suppresses ESCC tumor growth by inhibiting KAT8-mediated c-Myc stability (PMID: 39772391)",
+        "evidence_subtype": "function",
+        "summary": "KAT8 is identified as a prognostic and therapeutic biomarker in ESCC; esophageal-tissue-specific KAT8 deletion in mice reduced tumor burden after 4-NQO-induced tumorigenesis. KAT8 directly binds c-Myc to regulate its protein stability, and a specific KAT8 inhibitor (CHI-KAT8i5) significantly attenuates tumor growth in CDX and PDX models in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mitochondrial MOF regulates energy metabolism in heart failure via ATP5B hyperacetylation (PMID: 39392752)",
+        "evidence_subtype": "function",
+        "summary": "KAT8 (MOF) is upregulated in mitochondria during heart failure, and overexpression of mitochondria-targeted MOF in mouse models causes mitochondrial dysfunction, cardiac remodeling, and heart failure. KAT8 acetylates ATP5B at K201, co-regulated with SIRT3, impairing mitochondrial respiration and energy metabolism. These findings reveal a non-histone, mitochondrial role for KAT8 in cardiac pathology.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KAT8 is upregulated and recruited to the promoter of Atg8 by FOXO to induce H4 acetylation for autophagy under 20-hydroxyecdysone regulation (PMID: 38309506)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In the lepidopteran insect Helicoverpa armigera, the transcription factor FOXO promotes KAT8 expression and recruits KAT8 to the Atg8 promoter to increase H4K16ac and enable autophagy during metamorphosis. RNAi knockdown of Kat8 delayed pupation, repressed midgut autophagy, and decreased H4K16ac levels, while KAT8 overexpression promoted autophagy. KAT8 also acetylates FOXO at K180/K183 to further promote autophagy gene transcription.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting KAT8 alleviates self-RNA-driven skin inflammation by modulating histone H4 lysine 16 acetylation in psoriasis (PMID: 40691280)",
+        "evidence_subtype": "expression",
+        "summary": "H4K16ac levels are significantly elevated in macrophages of lesional skin from psoriasis patients and mice, positively correlating with self-RNA accumulation and disease pathology. KAT8 is responsible for self-RNA/TLR7-driven H4K16ac modification and is selectively recruited to promoters of pathogenic chemokines (Cxcl2, Ccl3) via interaction with the AP-1 transcription complex. KAT8 deficiency in macrophages or pharmacological inhibition restricted pro-inflammatory chemokine secretion and ameliorated experimental psoriasis and arthritis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - Variant-to-gene mapping for Alzheimer's disease using 3D genomics in an activated microglia human cell line (ASHG 2019)",
+        "evidence_subtype": "GWAS",
+        "summary": "Using Capture C chromatin conformation and ATAC-seq in IFN\u03b3-activated human microglia (HMC3), a chromatin loop was identified connecting an AD GWAS locus to the KAT8 promoter, implicating KAT8 as a candidate effector gene for an Alzheimer's disease GWAS signal. This interaction was only observed in activated (not resting) microglia, suggesting context-dependent regulatory relevance. Follow-up functional studies were noted as required to validate this finding.",
+        "sample_size": "45 AD independent sentinel SNPs analyzed",
+        "significance": null
+      },
+      {
+        "citation": "Lysine butyrylation of HSP90 regulated by KAT8 and HDAC11 confers chemoresistance (PMID: 37460462)",
+        "evidence_subtype": "function",
+        "summary": "KAT8 acts as the writer enzyme for lysine butyrylation (Kbu) of HSP90 at K754 in esophageal squamous cell carcinoma, cooperating with HDAC11 as the eraser to regulate this modification. Kbu of HSP90 K754 leads to HSP90 overexpression and contributes to 5-FU chemoresistance, with elevated levels in relapse samples predicting poor prognosis. This identifies KAT8 as a writer for a non-acetyl acylation mark on a non-histone substrate linked to drug resistance.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

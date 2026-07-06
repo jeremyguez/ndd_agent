@@ -1,0 +1,294 @@
+{
+  "articles_found": {
+    "clinical": 20,
+    "model_organism": 10,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2023 - Deciphering the genetic architecture of autism spectrum disorder using chromosomal microarray and whole exome sequencing in patient-parent trios in India (PMID: not provided)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo SNV in FOXP2 (specific variant notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variant detected via whole exome sequencing in ASD patient-parent trio; FOXP2 listed among previously known ASD genes",
+        "center_country": "India",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2014 - High burden of deleterious variants and the genetic basis of speech sound disorders (PMID: not provided)",
+        "num_patients": 11,
+        "variants": [
+          {
+            "description": "FOXP2 variants (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "Childhood apraxia of speech (CAS)",
+              "Speech sound disorders (SSD)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Analysis of FOXP2 in exome sequenced (n=11 CAS) and genotyped (n=135 SSD and CAS) samples; no single variant or CNVs identified as causative mutations; study examined overall variant burden rather than specific pathogenic variants",
+        "center_country": "Cleveland, OH, USA",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Tubular FoxP2 and Kidney Fibrosis (PMID: 39656554)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Attenuated kidney inflammation in UUO model",
+          "Reduced tubulointerstitial fibrosis in UUO and UIRI models",
+          "Reduction in cell cycle arrest",
+          "Suppressed TGF-\u03b2-induced EMT in tubular cells",
+          "Reduced extracellular matrix protein accumulation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Thalamic Foxp2 regulates output connectivity and sensory-motor impairments in a model of Huntington's Disease (PMID: 37987826)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout and overexpression",
+        "phenotypes": [
+          "Overexpression of Foxp2 in thalamus rescued motor coordination",
+          "Overexpression rescued sensory skills",
+          "Overexpression ameliorated neuropathological features",
+          "Overexpression repaired structural and functional thalamo-striatal connectivity",
+          "Overexpression restored neurotransmitter release",
+          "Reduction of thalamic Foxp2 in wild-type mice induced HD-like phenotypes",
+          "Aberrant thalamo-striatal connectivity in HD models"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Foxp2 Is Required for Nucleus Accumbens-mediated Multifaceted Limbic Function (PMID: 38354901)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Increased c-Fos positive cells at basal levels in NAc",
+          "Abnormal social novelty without preference for strangers vs. familiar mice",
+          "Failed to learn time expectancy of food delivery in appetitive reward learning",
+          "Abnormal increases in freezing in fear conditioning",
+          "Altered extinction of fear response",
+          "No effect on locomotion",
+          "No effect on motor coordination",
+          "No effect on thermal pain sensation",
+          "No effect on anxiety-like behaviors",
+          "No effect on depression-like behaviors"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Knockout of Foxp2 disrupts vocal development in mice (PMID: 26980647)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Severe abnormalities in courtship song",
+          "Reduced vocalization compared to wildtype",
+          "Produced shorter syllable sequences",
+          "Abnormal syllable inventory",
+          "Irregular rhythmic structure in song",
+          "Abnormal developmental trajectories of vocalizations"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Diminished FoxP2 levels affect dopaminergic modulation of corticostriatal signaling important to song variability (PMID: 24268418)",
+        "organism": "zebra finch",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Disrupted developmental modulation of song variability",
+          "Disrupted social modulation of song variability",
+          "Interfered with D1R-dependent modulation of activity propagation in corticostriatal pathway",
+          "Reduced D1R protein levels",
+          "Reduced DARPP-32 protein levels",
+          "Prevented social modulation of singing-related activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mu-opioid receptor knockout on Foxp2-expressing neurons reduces aversion-resistant alcohol drinking (PMID: 38077082)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Increased sensitivity to quinine-adulterated ethanol",
+          "Reduced alcohol consumption during final sessions of intermittent access task",
+          "Reduced operant responding for sucrose under FR3 schedule",
+          "Reduced baseline locomotor activity",
+          "Reduced locomotor activity following morphine injection",
+          "No impairment in learning to respond for reward",
+          "No impairment in developing conditioned aversion to morphine withdrawal"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Human FOX gene family (PMID: 15492844)",
+        "evidence_subtype": "function",
+        "summary": "FOXP2 is a member of the FOX family of transcription factors and is classified as a class 2 FOX protein. FOXP2 gene mutations are associated with human congenital speech and language disorders.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Molecular and cellular evolution of the primate dorsolateral prefrontal cortex (PMID: 36007006)",
+        "evidence_subtype": "expression",
+        "summary": "FOXP2 shows human-specific expression in microglia and primate-specific expression in layer 4 granular neurons of the dorsolateral prefrontal cortex, a brain region centrally involved in cognition.",
+        "sample_size": ">600,000 single-nucleus transcriptomes from human, chimpanzee, macaque, and marmoset",
+        "significance": null
+      },
+      {
+        "citation": "FOXP2 (PMID: 24765219)",
+        "evidence_subtype": "function",
+        "summary": "FOXP2 is the first gene implicated in a speech and language disorder. The review discusses molecular function of FOXP2 including functional and gene expression studies, and studies of FOXP2 orthologs in species capable of vocal communication.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Thalamocortical organoids enable in vitro modeling of 22q11.2 microdeletion associated with neuropsychiatric disorders (PMID: 38382530)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In human pluripotent stem cell-derived thalamic organoids, 22q11.2 microdeletion causes elevated FOXP2 expression and mediates thalamic axon overgrowth in a FOXP2-dependent manner, with ROBO2 identified as a molecular mediator of FOXP2 effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DNA binding and mitotic phosphorylation protect polyglutamine proteins from assembly formation (PMID: 40239647)",
+        "evidence_subtype": "function",
+        "summary": "FOXP2 is a glutamine-rich transcription factor that avoids pathogenic protein aggregation through DNA binding during interphase and mitotic phosphorylation during mitosis. Human-specific amino acid substitutions in FOXP2 linked to speech evolution map to a mitotic phospho-patch and reduce assembly propensity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tubular FoxP2 and Kidney Fibrosis (PMID: 39656554)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In cultured kidney tubular epithelial cells, TGF-\u03b2 upregulates Foxp2 expression through Smad3 signaling. Foxp2 overexpression inhibits cell proliferation and induces G2/M cell cycle arrest. ChIP-seq identified Foxp2 target genes enriched in PI3K/AKT and TGF-\u03b2 signaling pathways, directly regulating collagen-1, E-cadherin, and p21.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A primate nigrostriatal atlas of neuronal vulnerability and resilience in a model of Parkinson's disease (PMID: 37980356)",
+        "evidence_subtype": "expression",
+        "summary": "FOXP2 is part of a FOXP2-centered regulatory pathway associated with neuronal resilience in PD-resistant dopaminergic neurons and glutamatergic excitatory neurons, with this pathway conserved between humans and nonhuman primates.",
+        "sample_size": "250,173 cells from substantia nigra and putamen of MPTP-induced parkinsonian macaques and controls",
+        "significance": null
+      },
+      {
+        "citation": "From songbird to humans: The multifaceted roles of FOXP2 in speech and motor learning (PMID: 39510218)",
+        "evidence_subtype": "function",
+        "summary": "FOXP2 is a transcription factor implicated in speech learning and execution. Brain FOXP2 expression shows consistent patterns across species in regions associated with motor learning and execution. Genes regulated by FOXP2 are related to neural differentiation, connectivity, and synaptic plasticity. Animal models expressing mutated FOXP2 show impaired motor learning and vocalization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cerebellar organoids model cell type-specific FOXP2 expression during human cerebellar development (PMID: 41236144)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using CRISPR-based gene editing in human cerebellar organoids with a fluorescent FOXP2 reporter, FOXP2 expression was identified in early human Purkinje cells and cerebellar nuclei neurons. Transcriptomic profiling identified potential downstream targets of FOXP2 in the developing cerebellum.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Deciphering the genetic architecture of autism spectrum disorder using chromosomal microarray and whole exome sequencing in patient-parent trios in India",
+        "evidence_subtype": "GWAS",
+        "summary": "De novo SNVs in FOXP2 were identified in ASD patients as part of a cohort where de novo variants in known ASD genes (MECP2, SCN2A, KCNQ2, TBL1XR1, CNTNAP2, TCF4, CAMK2A, NF1, AUTS2, FOXP2, NLGN3) were found in 27 of 30 WES-diagnosed cases.",
+        "sample_size": "101 patient-parent trios with ASD from India",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Single-cell multi-omic dissection of opioid use disorder reveals gene regulatory circuitry changes across multiple brain regions",
+        "evidence_subtype": "expression",
+        "summary": "In single-cell multiomics profiling of human postmortem prefrontal cortex and nucleus accumbens from OUD and control individuals, Foxp2 was identified as a conserved marker of a specific medium spiny neuron subtype expressing high levels of OPRM1, with cross-species conservation between human and mouse.",
+        "sample_size": "26 OUD and 26 control individuals; >1 million snRNA cells and >1 million snATAC cells",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - Genome-and environment-wide study of sleep quality in 23andMe research participants of European descent",
+        "evidence_subtype": "GWAS",
+        "summary": "A FOXP2 variant (rs34291892) was significantly associated with sleep duration and being a morning person in a large GWAS of sleep quality (\u03b2 = -0.010, P=2.7x10^-10), with replication in UK Biobank data.",
+        "sample_size": "340,195 23andMe research participants of European descent",
+        "significance": "P=2.7x10^-10"
+      },
+      {
+        "citation": "ASHG 2019 - Genome wide association analysis suggests three novel genetic associations with specific language impairment in a large DNA biobank",
+        "evidence_subtype": "GWAS",
+        "summary": "Previous linkage analyses demonstrated association between FOXP2 gene abnormalities and specific language impairment (SLI), providing a potential causative pathway, though most SLI patients have no FOXP2 abnormalities, suggesting additional genetic components.",
+        "sample_size": "247 SLI cases and 1,235 total sample size in preliminary analysis",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Genome-wide association of word reading: Overlap with risk genes for neurodevelopmental disorders",
+        "evidence_subtype": "GWAS",
+        "summary": "FOXP1, which forms heterodimers with FOXP2, was identified in GWAS for word reading with overlap to autism spectrum disorder risk genes, suggesting shared genetic contributions to language difficulties between reading disability and ASD.",
+        "sample_size": "624 children from Toronto sample and 4,629 individuals from Philadelphia Neurodevelopmental Cohort",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Interpreting human genomic regions depleted of archaic hominin ancestry",
+        "evidence_subtype": "other",
+        "summary": "The largest region depleted of archaic (Neandertal and Denisovan) sequence in the modern human genome contains the FOXP2 gene, which is associated with speech and language and carries a regulatory change unique to modern humans.",
+        "sample_size": "503 European, 504 East Asian, and 27 Melanesian individuals",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - An approximate full-likelihood coalescent method for detecting genomic sites under selection",
+        "evidence_subtype": "other",
+        "summary": "The FOXP2 gene was used as a test case for inferring selection strength and genomic location of selected alleles using an approximate full-likelihood test for selection, demonstrating evidence of positive selection on FOXP2 in human evolution.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - In-depth analysis of genomics and epigenomics identifies a novel susceptibility lncRNA GCLET for gastric cancer",
+        "evidence_subtype": "pathway",
+        "summary": "The long noncoding RNA GCLET elevates FOXP2 expression by competing with miR-27a-3p, linking FOXP2 to gastric cancer risk through a competing endogenous RNA mechanism.",
+        "sample_size": "three-stage and multi-ethnic populations",
+        "significance": "P = 5.34\u00d710^-7"
+      },
+      {
+        "citation": "ASHG 2016 - Novel genetic variants in X-linked genes identified in children with apraxia of speech",
+        "evidence_subtype": "other",
+        "summary": "Whole genome sequencing of 21 childhood apraxia of speech (CAS) cases identified no known or novel variants in FOXP2, despite it being previously identified for dyspraxia of speech, illustrating genetic heterogeneity underlying CAS.",
+        "sample_size": "21 CAS cases and 21 unaffected family members",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Variants in FAT2 and FAT3 are associated with autism and childhood apraxia of speech",
+        "evidence_subtype": "pathway",
+        "summary": "Pathway analysis of FAT2 and FAT3 proteins identified genetic links to key regulators of speech development including FOXP1, FOXP2, FOXP4, and CNTNAP2, suggesting FAT genes connect to FOXP-mediated language development pathways.",
+        "sample_size": "ASD cases with clinical exome sequencing, 5% with CAS comorbidity",
+        "significance": null
+      }
+    ]
+  }
+}

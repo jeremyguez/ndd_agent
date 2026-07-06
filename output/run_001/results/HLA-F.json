@@ -1,0 +1,126 @@
+{
+  "articles_found": {
+    "clinical": 11,
+    "model_organism": 8,
+    "biological": 23
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Extended lifespan and reduced adiposity in mice lacking the FAT10 gene (PMID: 24706839)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "increased median lifespan (20%)",
+          "increased overall lifespan",
+          "elevated metabolic rate",
+          "preferential use of fat as fuel",
+          "dramatically reduced adiposity",
+          "increased AMP kinase activity in skeletal muscle",
+          "increased \u03b2-oxidation in skeletal muscle",
+          "increased uncoupling in skeletal muscle",
+          "decreased triglyceride content in skeletal muscle",
+          "reduced circulating glucose levels",
+          "reduced circulating insulin levels",
+          "enhanced insulin sensitivity in metabolic tissues",
+          "elevated IL-10 in skeletal muscle and serum"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The ubiquitin-like modifier FAT10 is not essential for MHC-I antigen presentation (PMID: 40821782)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "no effect on MHC-I surface expression",
+          "no effect on MHC-I recovery",
+          "no effect on generation of endogenous MHC-I epitopes",
+          "no effect on generation of virus-derived MHC-I epitopes",
+          "unchanged cytotoxic T cell response to viruses compared to wild-type"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Single-cell profiling reveals immune disturbances landscape and HLA-F-mediated immune tolerance at the maternal-fetal interface in preeclampsia (PMID: 37854606)",
+        "evidence_subtype": "cell_culture",
+        "summary": "HLA-F overexpression in Jar trophoblast cells promoted cell proliferation, invasion, and migration, while underexpression had opposite effects. In NK-92MI cells, HLA-F overexpression increased secretion of immunoregulatory cytokines (CSF1, CCL22) and promoted adaptive NKG2C+ NK cell transformation.",
+        "sample_size": "101,250 cells analyzed by scRNA-seq",
+        "significance": null
+      },
+      {
+        "citation": "HLA-F regulates the proliferation of trophoblast via PKM2-dependent glycolysis in the pathogenesis of preeclampsia (PMID: 40251569)",
+        "evidence_subtype": "pathway",
+        "summary": "HLA-F regulates trophoblast proliferation through PKM2-dependent glycolysis. HLA-F binds the PKM promoter to regulate PKM2 transcription and promotes PKM2 enzyme activity by downregulating lactylation at K305 residue, enhancing glycolytic flux and cell proliferation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Immunity at maternal-fetal interface: KIR/HLA (Allo)recognition (PMID: 35610960)",
+        "evidence_subtype": "function",
+        "summary": "HLA-F is a non-classical oligomorphic HLA molecule expressed on trophoblasts at the maternal-fetal interface. It participates in KIR-HLA interactions with decidual NK cells, contributing to immune recognition and tolerance of the semi-allogeneic fetus.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A role for both HLA-F and HLA-G in reproduction and during pregnancy? (PMID: 31558330)",
+        "evidence_subtype": "function",
+        "summary": "HLA-F can be expressed as open conformers binding multiple KIRs on NK cells, and as peptide-bound HLA-F binding to inhibitory receptors ILT2 and ILT4. HLA-F has potential roles in viral infections, cancer immunology, and fertility/reproduction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The involvement of HLA-E and -F in pregnancy (PMID: 16487601)",
+        "evidence_subtype": "expression",
+        "summary": "HLA-F is expressed on the surface of extravillous trophoblast that has invaded the maternal decidua, a unique expression site in human development. HLA-F likely contributes collectively with HLA-E and HLA-G to enable fetal development through receptor-ligand interactions.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HLA-F transcriptional and protein differential expression according to its genetic polymorphisms (PMID: 37166140)",
+        "evidence_subtype": "expression",
+        "summary": "HLA-F mRNA is detected in most cell types with protein localized in ER and Golgi apparatus. HLA-F reaches the membrane upon activation of primary cells and cell lines. SNPs rs1362126, rs2523405, and rs2523393 in HLA-F-AS1 region are associated with HLA-F mRNA expression with double-dose effects.",
+        "sample_size": "1000 Genomes Project samples",
+        "significance": null
+      },
+      {
+        "citation": "HLA Class Ib-receptor interactions during embryo implantation and early pregnancy (PMID: 35234898)",
+        "evidence_subtype": "function",
+        "summary": "HLA-F interacts with inhibitory/activating ILT2 and ILT4 receptors and KIRs on uterine NK cells. HLA-F fluctuates during the menstrual cycle with high levels during the implantation window, and its expression correlates with CD56+ NK cell numbers in mid-secretory endometrium.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tetrameric complexes of HLA-E, HLA-F, and HLA-G (PMID: 12213342)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "HLA-F tetrameric complexes bind to ILT2 and ILT4 receptors on immune cells, demonstrating direct receptor-ligand interactions. This methodology enabled identification of HLA-F ligands and functional characterization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - Identification of multiple genetic variants related to nasopharyngeal carcinoma predisposition through genome-wide scan (W. Su, K. Tse, M. Yang, Y. Chang, Y. Shugart)",
+        "evidence_subtype": "GWAS",
+        "summary": "Two HLA-F SNPs (rs3129055 and rs9258122) showed significant association with nasopharyngeal carcinoma predisposition in a GWAS of 277 NPC patients and 285 controls, with p-values of 7.36\u00d710\u207b\u00b9\u00b9 and 3.33\u00d710\u207b\u00b9\u2070 respectively.",
+        "sample_size": "277 NPC patients, 285 controls",
+        "significance": "p = 7.36\u00d710\u207b\u00b9\u00b9 and 3.33\u00d710\u207b\u00b9\u2070"
+      },
+      {
+        "citation": "HLA-F and LILRB1 Genetic Polymorphisms Associated with Alloimmunisation in Sickle Cell Disease (PMID: 37686397)",
+        "evidence_subtype": "GWAS",
+        "summary": "HLA-F genetic polymorphisms in regulatory regions are associated with alloimmunization susceptibility in sickle cell disease patients. HLA-F polymorphisms influence protein expression levels and modulate inflammatory and immune responses through LILRB1 receptor interactions.",
+        "sample_size": "37 adult SCD patients",
+        "significance": null
+      }
+    ]
+  }
+}

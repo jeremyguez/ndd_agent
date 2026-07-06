@@ -1,0 +1,474 @@
+{
+  "articles_found": {
+    "clinical": 25,
+    "model_organism": 20,
+    "biological": 33
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A Novel De Novo Gain-of-Function CACNA1D Variant in Neurodevelopmental Disease With Congenital Tremor, Seizures, and Hypotonia. (PMID: 39246741)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.3506G>A, NM_000720.4, p.(G1169D)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "prenatal-onset tremor",
+              "congenital respiratory insufficiency requiring CPAP ventilation",
+              "sensorineural deafness",
+              "hypoglycemia",
+              "variable aldosterone:renin ratios",
+              "seizures",
+              "autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "c.3506G>A, NM_000720.4, p.(G1169D) (putative mosaic)",
+            "type": "missense",
+            "phenotypes": [
+              "less severe neurodevelopmental phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo gain-of-function variant; patch-clamp electrophysiology confirmed pronounced activity-enhancing gating changes including hyperpolarized shifts in activation and inactivation, impaired inactivation and deactivation",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "De novo CACNA1D Ca(2+) channelopathies: clinical phenotypes and molecular mechanism. (PMID: 32583268)",
+        "num_patients": 12,
+        "variants": [
+          {
+            "description": "9 distinct high-risk pathogenic CACNA1D variants (specific notations not individually listed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "developmental delay",
+              "epilepsy/seizures",
+              "neurological abnormalities",
+              "primary aldosteronism",
+              "hyperinsulinemic hypoglycemia",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo germline missense variants; in vitro electrophysiology demonstrated gain-of-function gating changes indicating enhanced Ca2+ influx; somatic mutation data from aldosterone-producing adenomas used to predict pathogenicity",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Germline de novo variant F747S extends the phenotypic spectrum of CACNA1D Ca2+ channelopathies. (PMID: 36208199)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.F747S",
+            "type": "missense",
+            "phenotypes": [
+              "jittering/prominent jittering phenotype",
+              "developmental delay",
+              "elevated aldosterone level",
+              "transient hypoglycemia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo missense variant; whole-cell patch-clamp confirmed largest activation shift (-28 mV) reported for CACNA1D germline mutations, plus slowed inactivation, slowed deactivation, and shifted inactivation to more negative voltages; in silico modelling supported gain-of-function via novel inter-domain hydrogen bond",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Biophysical classification of a CACNA1D de novo mutation as a high-risk mutation for a severe neurodevelopmental disorder. (PMID: 31921405)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "p.S652L",
+            "type": "missense",
+            "phenotypes": [
+              "severe neurodevelopmental disorder",
+              "autism spectrum disorder",
+              "intellectual disability",
+              "seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant identified in twins in the Deciphering Developmental Disorders Study; patch-clamp confirmed gain-of-function: hyperpolarized shifts in activation (~13-17 mV) and inactivation, increased window currents, slowed tail currents, increased Ca2+ during action potential-like stimulations; 3-4-fold increased isradipine sensitivity",
+        "center_country": null,
+        "cohort": "DDD"
+      },
+      {
+        "citation": "CACNA1D de novo mutations in autism spectrum disorders activate Cav1.3 L-type calcium channels. (PMID: 25620733)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "p.A749G",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability"
+            ]
+          },
+          {
+            "description": "p.G407R",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo mutations present only in probands, absent in unaffected parents and siblings; whole-cell patch-clamp demonstrated gain-of-function: p.A749G shifted activation and inactivation ~15 mV to more negative voltages; p.G407R caused pronounced slowing of current inactivation",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Case Report: Clinical delineation of CACNA1D mutation: New cases and literature review. (PMID: 37122292)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "NM_001128840.3: c.2015C>T, p.Ser672Leu (also referred to as S652L in other publications)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "severe intellectual disability",
+              "hyperactivity",
+              "aggressive impulsive behaviors",
+              "major depressive disorder with catatonic features",
+              "nihilistic delusion",
+              "rapidly progressive dementia",
+              "prolonged seizures",
+              "bipolar disorder",
+              "psychosis",
+              "sleep disorders",
+              "primary aldosteronism",
+              "neurological abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous likely pathogenic missense variant identified by whole exome sequencing; previously functionally characterized as gain-of-function; variant segregated with affected individuals in the family (father, proband, sister); consistent with autosomal dominant primary aldosteronism, seizures, and neurological abnormalities",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2015 - Identification of rare disruptive variants in voltage-gated channel genes (CACNA1C, CACNA1D, CACNA1S, CACNA1I) in Japanese samples of schizophrenia and autism spectrum disorder using Ion Torrent PGM platform.",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "p.C1471* in CACNA1D",
+            "type": "LoF",
+            "phenotypes": [
+              "schizophrenia or autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "p.E1675del in CACNA1D",
+            "type": "other",
+            "phenotypes": [
+              "schizophrenia or autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare variants not in dbSNP or with MAF <1% in East-Asian samples; predicted damaging by in silico tools; confirmed by Sanger sequencing; segregation analysis performed where parental samples available",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "Pathogenicity of de novo CACNA1D Ca(2+) channel variants predicted from sequence co-variation. (PMID: 38553610)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "p.V584I",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder (inferred)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Co-variation analysis predicted pathogenicity; electrophysiological testing confirmed significant gain-of-function gating changes; variant re-classified based on evolutionary co-variation score",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2013 - Recurrently mutated genes contribute to the risk for developing sporadic autism spectrum disorder.",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "CACNA1D variants (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent de novo mutations identified by MIP-based resequencing in >4,000 ASD probands; CACNA1D implicated as novel risk locus with severe mutations in ASD probands",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Aberrant calcium signaling and neuronal activity in the L271H CACNA1D (Cav1.3) iPSC model of neurodevelopmental disease. (PMID: 41513972)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.L271H",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "increased spontaneous calcium transients in NPCs",
+              "depolarized resting membrane potential",
+              "reduced neuronal excitability",
+              "impaired cortical organoid cellular organization",
+              "accelerated neuronal differentiation"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Patient-derived iPSC model; gain-of-function variant; functional characterization showed increased spontaneous calcium transients, aberrant neuronal activity, and distorted neurodevelopment in patient-derived cells; transcriptomic dysregulation of CNS development and neurogenesis genes",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Zebrafish Larvae Carrying a Splice Variant Mutation in cacna1d: A New Model for Schizophrenia-Like Behaviours? (PMID: 33057948)",
+        "organism": "zebrafish",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Heterozygous (haploinsufficiency): 50% reduction of splice variants 201 and 202",
+          "Hyperlocomotion in larvae",
+          "No thigmotaxis defects (anxiety ruled out)",
+          "No epileptiform-like discharges",
+          "Psychosis-like behavior: altered locomotor activity under constant light, during light-dark transition, and in startle response to dark flashes",
+          "Hyperactivity reversed by antipsychotics risperidone and haloperidol",
+          "Homozygous: increased transcript levels of variant 201 above wild type (gain-of-function); low homozygote viability"
+        ],
+        "mendelian_ratio": "sub-Mendelian (low homozygote viability reported)",
+        "lethality": "viable (heterozygotes); reduced viability in homozygotes",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion of the voltage-gated calcium channel, CaV1.3, causes deficits in motor performance and associative learning. (PMID: 35044095)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Deficits in rotarod learning despite normal locomotor function",
+          "Impaired gait adaptation on the Erasmus Ladder",
+          "Impaired associative learning on the Erasmus Ladder",
+          "No impairments in anxiety-like behavior",
+          "No impairments in depression-like behavior",
+          "No impairments in social preference behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The L-type calcium channel Cav1.3 is required for proper hippocampal neurogenesis and cognitive functions. (PMID: 26459417)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Severe impairments in dentate gyrus neurogenesis",
+          "Significantly smaller dentate gyrus volume",
+          "Reduced survival of newly generated cells",
+          "Reduced neuronal differentiation",
+          "Impairment in hippocampus-dependent object location memory test",
+          "Cav1.3 expressed in Nestin+ neural stem cells and mature NeuN+ granular neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Retrocochlear function of the peripheral deafness gene Cacna1d. (PMID: 22678062)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Dramatic volume reduction (43-47%) of major nuclei in the superior olivary complex (SOC)",
+          "Reduced cell number in SOC nuclei (decline by 46-56%)",
+          "Abnormal formation of the lateral superior olive already present at P4",
+          "Decreased auditory brainstem response amplitude in the auditory nerve between 50-75 dB stimulation",
+          "Increased amplitudes in central auditory processing centers",
+          "Reduced expression of Kv1.2 in central auditory system",
+          "No changes in Kv1.1, KCC2, or choline acetyltransferase"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cochlea-Specific Deletion of CaV1.3 Calcium Channels Arrests Inner Hair Cell Differentiation and Unravels Pitfalls of Conditional Mouse Models. (PMID: 31178698)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Profound hearing loss",
+          "Lack of BK channels in inner hair cells (IHCs)",
+          "Persistence of SK2 channels in IHCs",
+          "Arrest of IHC differentiation (immature IHC phenotype)",
+          "Recapitulation of systemic Cav1.3-/- phenotype in cochlea-specific knockout",
+          "GFP toxicity in homozygous conditional mice leading to death of basal coil IHCs",
+          "Reduction in Cav1.3 channel cluster sizes and currents in heterozygous control allele mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaBP1 and 2 enable sustained CaV1.3 calcium currents and synaptic transmission in inner hair cells. (PMID: 39718549)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Strongly enhanced CaV1.3 inactivation in Cabp1/2 double-knockout IHCs",
+          "Slowed recovery from inactivation",
+          "Impaired sustained exocytosis",
+          "Reduced availability of channels to trigger synaptic transmission during mild IHC activation",
+          "Strikingly reduced spontaneous and sound-evoked responses of spiral ganglion neurons in vivo",
+          "Strong dependence of responses on stimulation rates",
+          "Transgenic CaBP2 expression led to substantial recovery of IHC synaptic function and hearing sensitivity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CACNA1D is a circadian gene and causes familial advanced sleep phase. (PMID: 40460120)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Normal circadian period under constant darkness",
+          "Altered phase shifts in response to light in the subjective night at circadian time (CT) 16 and CT22",
+          "Altered entrainment to light"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic dissection of horizontal cell inhibitory signaling in mice in complete darkness in vivo. (PMID: 26024096)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "No abnormal rod manganese uptake phenotype (CACNA1D knockout did not impair horizontal cell inhibitory signaling)",
+          "Ca(v)1.3(-/-) + diltiazem-treated mice showed compensatory contribution from Ca(v)1.2 LTCCs in rods and inner retina"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lack of the transcription factor Nfix causes tachycardia in mice sinus node and rats neonatal cardiomyocytes. (PMID: 37186371)",
+        "organism": "rat",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Downregulation of Nfix by shRNA in neonatal rat ventricular cardiomyocytes increased spontaneous beating rate",
+          "Increased L-type calcium current (ICaL) including Cacna1d upregulation",
+          "Phenotype mirrors Nfix-null mouse tachycardia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Differential Roles for L-Type Calcium Channel Subtypes in Alcohol Dependence. (PMID: 27905406)",
+        "organism": "rat",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "No changes in Cacna1d mRNA in alcohol-dependent rats during protracted abstinence compared to naive controls",
+          "Cacna1d not implicated in alcohol-seeking behavior (Cav1.2, not Cav1.3, mediates alcohol-seeking behavior)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "A Novel De Novo Gain-of-Function CACNA1D Variant in Neurodevelopmental Disease With Congenital Tremor, Seizures, and Hypotonia (PMID: 39246741)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Patch-clamp electrophysiology of the p.(G1169D) CACNA1D variant in tsA201 cells revealed pronounced activity-enhancing gating changes, including shifts of channel activation and inactivation to more hyperpolarized potentials, as well as impaired channel inactivation and deactivation. This gain-of-function variant was identified de novo in two children with neurodevelopmental disease of variable severity. The variant retained sensitivity to the Ca2+ channel blocker isradipine in vitro, though no beneficial clinical effects were observed.",
+        "sample_size": "2 patients",
+        "significance": null
+      },
+      {
+        "citation": "CACNA1D-Related Channelopathies: From Hypertension to Autism (PMID: 36592224)",
+        "evidence_subtype": "function",
+        "summary": "CACNA1D encodes the pore-forming \u03b11 subunit of Cav1.3 L-type voltage-gated Ca2+ channels; loss of function causes deafness and bradycardia, while de novo gain-of-function missense variants cause a neurodevelopmental syndrome including autism spectrum disorder, epilepsy, primary aldosteronism, and hyperinsulinemic hypoglycemia. In vitro electrophysiological studies of multiple de novo variants revealed activity-enhancing gating changes consistent with enhanced Ca2+ influx as the disease mechanism. Dihydropyridine L-type Ca2+ channel blockers have been explored as potential therapeutic options.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CACNA1D overexpression and voltage-gated calcium channels in prostate cancer during androgen deprivation (PMID: 36949059)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CACNA1D and CaV1.3 protein are overexpressed in prostate tumours; in androgen-sensitive LNCaP cells, androgen deprivation therapy (ADT) or enzalutamide treatment increased CACNA1D expression and enabled depolarization/Bay K 8644-evoked nifedipine-sensitive Ca2+ transients and detectable CaV1.3 currents. CACNA1D knockdown reduced the subpopulation of treated LNCaP cells with CaV1.3 activity. These findings suggest that physiological and genomic CACNA1D/CaV1.3 mechanisms become active during hormone therapy in prostate cancer.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nutrient-sensitizing drug repurposing screen identifies lomerizine as a mitochondrial metabolism inhibitor of chronic myeloid leukemia (PMID: 38865484)",
+        "evidence_subtype": "expression",
+        "summary": "Transcriptome analysis revealed increased expression of voltage-gated CACNA1D in CML leukemic stem cells (CD34+CD38-) compared with normal counterparts, correlating with increased ER mass and elevated ER and mitochondrial Ca2+ content. CACNA1D knockdown in CML cells led to ER and mitochondrial Ca2+ depletion, inhibited mitochondrial isocitrate dehydrogenase activity, and sensitized CML LSCs to imatinib treatment. These findings implicate CACNA1D-mediated Ca2+ influx in supporting mitochondrial oxidative metabolism in CML stem cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dominant role of CACNA1D exon mutations for blood pressure regulation (PMID: 35142739)",
+        "evidence_subtype": "other",
+        "summary": "CRISPR-Cas9-engineered Sprague-Dawley rats carrying the CACNA1D p.D307G mutation showed elevated systolic blood pressure, increased circulating ET-1, and vascular/cardiac/renal remodeling over 32 weeks. Increased Cav1.3 protein expression and calcineurin phosphatase activity were observed in VSMCs, and ET-1 expression was elevated in aortic endothelial cells from mutant rats. Double heterozygosity (p.D307G/p.R1516Q or p.D307G/p.V936I) further accelerated SBP rise, and isradipine or BQ-123 reduced BP in double-mutant rats.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaBP1 and 2 enable sustained CaV1.3 calcium currents and synaptic transmission in inner hair cells (PMID: 39718549)",
+        "evidence_subtype": "function",
+        "summary": "In Cabp1/2 double-knockout mice, CaV1.3 (encoded by CACNA1D) showed strongly enhanced inactivation, slowed recovery from inactivation, and impaired sustained exocytosis at inner hair cell ribbon synapses. Spontaneous and sound-evoked responses of spiral ganglion neurons were strikingly reduced, demonstrating that CaBP1 and CaBP2 cooperatively suppress voltage- and calcium-dependent inactivation of IHC CaV1.3 channels to support fast, temporally precise sound encoding. Transgenic expression of CaBP2 substantially rescued IHC synaptic function and hearing sensitivity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic causes of primary aldosteronism (PMID: 31695023)",
+        "evidence_subtype": "pathway",
+        "summary": "Somatic driver mutations in CACNA1D (encoding the \u03b11 subunit of L-type voltage-gated calcium channel CaV1.3) are found in a substantial portion of aldosterone-producing adenomas, implicating intracellular calcium signaling as a key pathway in aldosterone overproduction. Rare germline variants of CACNA1D have also been reported in familial hyperaldosteronism. These mutations lead to altered ion transport, cell membrane depolarization, activation of voltage-gated calcium channels, and increased aldosterone synthase transcription.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - African ancestry genome- and transcriptome-wide association study of blood pressure detects nine novel loci in a large cohort from the Million Veteran Program",
+        "evidence_subtype": "GWAS",
+        "summary": "In the largest single-cohort GWAS of African Americans (N~59,900), the most significant SNP for diastolic blood pressure after meta-analysis with COGENT BP Consortium data was at the CACNA1D locus (p-value = 1.26\u00d710-12). This finding identifies CACNA1D as a novel locus for diastolic blood pressure in African Americans. Transcriptome-wide association analysis suggested that reduced expression of nearby TMEM110 in nucleus accumbens-basal ganglia may be the relevant functional signal for the SBP association in that region.",
+        "sample_size": "~59,900 (MVP) + ~31,000 (COGENT)",
+        "significance": "p=1.26\u00d710-12"
+      },
+      {
+        "citation": "ASHG 2015 - Epigenomic profiling of prostate cancer identifies differentially methylated genes in TMPRSS2:ERG fusion positive versus negative tumors",
+        "evidence_subtype": "expression",
+        "summary": "In a population-based cohort of 496 prostate cancer patients, CACNA1D was among the top 25 differentially methylated CpGs (FDR \u22641.53\u00d710-29) between TMPRSS2:ERG fusion-positive and fusion-negative tumors. CACNA1D showed gene body hypomethylation and mRNA overexpression in fusion-positive prostate cancer, and is described as a known ERG target gene. These findings suggest CACNA1D is epigenetically regulated downstream of the T2E fusion and may represent a therapeutic target.",
+        "sample_size": "496 prostate cancer patients",
+        "significance": "FDR \u22641.53\u00d710-29"
+      },
+      {
+        "citation": "ASHG 2014 - Exome analyses reveal new autism genes in synaptic, transcriptional, and chromatin networks",
+        "evidence_subtype": "GWAS",
+        "summary": "Whole-exome sequencing of 3,871 autism cases and 9,937 controls identified CACNA1D (encoding the Ca2+ channel CaV1.3) among 107 high-confidence ASD risk genes enriched for de novo loss-of-function mutations (FDR<0.30). CACNA1D was specifically highlighted as a critical synaptic gene involved in neuronal pacemaking and excitability-transcription coupling. The study implicated synaptic development as a major theme in ASD risk, with CACNA1D as a key voltage-gated ion channel component.",
+        "sample_size": "3,871 ASD cases, 9,937 controls",
+        "significance": "FDR<0.30"
+      }
+    ]
+  }
+}

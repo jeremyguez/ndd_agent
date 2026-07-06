@@ -1,0 +1,110 @@
+# CAMK4 – Literature Evidence Report for Neurodevelopmental Disorder Gene Assessment
+
+---
+
+## 1. GENE SUMMARY
+
+CAMK4 (Calcium/Calmodulin-Dependent Protein Kinase IV) encodes a nuclear serine/threonine kinase that is activated downstream of calcium-calmodulin signaling and phosphorylates key transcriptional regulators, most notably CREB, to control gene expression in neurons and immune cells (PMID: 38615920). It is highly expressed in the brain, particularly in cerebellar Purkinje cells and other neuronal populations, where it plays critical roles in synaptic plasticity, neuronal maturation, and transcriptional responses to calcium influx.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports/series:** At least four independent publications describe CAMK4 variants in patients with neurodevelopmental and/or hyperkinetic movement disorders (PMID: 30262571; PMID: 33211350; PMID: 37070062; PMID: 39442785), with an additional study identifying CAMK4-containing copy number variants (CNVs) in an autism spectrum disorder (ASD) cohort (PMID: 34664255).
+
+**Total approximate number of patients:** Across the identified studies, at least 8–10 individuals with likely pathogenic CAMK4 variants have been described. The most detailed single-patient report involves one proband with a de novo splice-site variant (PMID: 30262571). A 2021 case series (PMID: 33211350) describes additional patients with clustering missense variants, and a 2024 review (PMID: 39442785) summarizes a total of 7 individuals: 3 with likely pathogenic variants associated with hyperkinetic movement disorder and comorbid ASD, and 4 with variants associated with ASD alone. A further case report (PMID: 37070062) describes at least one additional individual with a hyperkinetic movement disorder.
+
+**Most common phenotypes observed:** The core phenotypic spectrum across reports includes:
+- Hyperkinetic movement disorder (dystonia, chorea, ataxia) — present in the majority of cases
+- Intellectual disability / global developmental delay / neurodevelopmental disorder
+- Autism spectrum disorder (ASD)
+- Mixed features including milestone delay and, in the index case, severe generalized dystonia
+
+**Predominant variant type:** Both loss-of-function (LoF) and missense variants have been reported. The index case (PMID: 30262571) carries a de novo splice-site variant (c.981+1G>A, predicted p.Lys303Serfs*28) that was functionally demonstrated to produce a constitutively active (gain-of-function) kinase through aberrant splicing and confirmed by biochemical studies in proband-derived cells. The 2024 review (PMID: 39442785) classifies 3 variants as LoF with monogenic effect and 4 as missense variants associated with ASD. The 2021 series (PMID: 33211350) describes clustering missense variants. Notably, the mechanistic basis in the index case is gain-of-function despite a LoF-type splice variant, which has important implications for inheritance modeling.
+
+**Cohort affiliation:** None of the reported patients are explicitly identified as belonging to established large diagnostic cohorts such as UDN, GREGoR, DDD, RUMC, or GEL based on the available data. The CNV study (PMID: 34664255) draws on a Brazilian neurodevelopmental disorder cohort, the MSSNG cohort, and the Canadian TCAG database for replication, but CAMK4 CNVs were of uncertain significance in that context.
+
+**Strength of clinical evidence: MODERATE**
+The evidence is supported by multiple independent publications, de novo occurrence, functional validation in the index case, and phenotypic consistency across reports. However, the total number of well-characterized patients remains small (fewer than 15 across all studies), variant-level details are unavailable for most cases beyond the index report, and the mechanistic distinction between gain-of-function and loss-of-function pathogenicity has not been fully resolved across the case series.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** CAMK4 has been extensively studied in the mouse (*Mus musculus*), with both full germline knockouts and conditional knockouts reported across multiple independent research groups. Functional data from *C. elegans* (CMK-1 homolog) are also available (PMID: 40359038).
+
+**Key phenotypes from knockouts:**
+
+- *Neurological/cerebellar:* Homozygous Camk4-knockout mice display prominent locomotor defects consistent with cerebellar dysfunction, a significant reduction in the number of mature Purkinje neurons, reduced calbindin D28k expression, deficits in CREB phosphorylation at Ser-133, multiple innervation by climbing fibers, and enhanced parallel fiber synaptic currents — collectively indicating immature Purkinje cell development and altered excitatory neurotransmission (PMID: 11069976). These findings are directly relevant to the ataxia and movement disorder phenotypes observed in human patients.
+
+- *Viability and fertility:* Camk4-knockout mice are viable and born at expected Mendelian ratios, indicating no embryonic lethality. However, male mice are infertile due to impaired spermiogenesis and disrupted chromatin remodeling in late elongating spermatids (PMID: 10932193).
+
+- *Hematopoietic:* Full knockout mice exhibit hematopoietic stem cell failure with increased apoptosis and proliferation of progenitor cells, decreased CREB phosphorylation, and reduced Bcl-2 levels (PMID: 16020540) — consistent with CaMK4's role in CREB-mediated survival signaling.
+
+- *Immune/inflammatory:* Multiple studies demonstrate roles in T-cell differentiation, Th17 biology, lupus, psoriasis, and atherosclerosis (PMID: 22942433; PMID: 24667640; PMID: 35869084; PMID: 40336480), though these phenotypes are less directly relevant to the neurodevelopmental disorder context.
+
+**Consistency with human phenotype:** The cerebellar and locomotor phenotypes in Camk4-knockout mice (PMID: 11069976) are highly consistent with the ataxia, hyperkinetic movement disorder, and Purkinje cell-related dysfunction implied by the human cases. The CREB phosphorylation deficit in knockout mice mirrors the proposed molecular mechanism of pathogenicity in human patients. The *C. elegans* data further support a conserved role for CaMK4 in neuronal signaling and proteostasis (PMID: 40359038).
+
+**Strength of model organism evidence: STRONG**
+Multiple independent mouse knockout studies consistently demonstrate neurological phenotypes (locomotor deficits, Purkinje cell abnormalities, CREB signaling disruption) that are mechanistically and phenotypically concordant with the human neurodevelopmental disorder presentation.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:** CaMK4 is a calcium-activated nuclear kinase that functions as a master regulator of CREB-dependent transcription (PMID: 38615920). It is activated by the upstream kinase CaMKK2 and phosphorylates CREB at Ser-133, driving expression of pro-survival and neuroplasticity genes. Additional substrates and interactors include CREM-α (regulating IL-17 and Tfh cell biology), 14-3-3β (regulating synaptopodin stability in podocytes), and components of the AKT/mTOR pathway (PMID: 24667640; PMID: 29985166). In lung cancer stem cells, a CREB-TIPRL-CaMKK2-CaMK4-CREB positive feedback loop has been characterized (PMID: 39076120), illustrating the broader role of CaMK4 in CREB-driven transcriptional amplification.
+
+**Expression pattern and neurodevelopmental relevance:** CaMK4 is highly expressed in the brain, with particular enrichment in cerebellar Purkinje cells, consistent with the cerebellar phenotypes observed in both mouse knockouts and human patients. The 2024 review (PMID: 39442785) identifies CAMK4 as a convergence point for at least 12 autism-associated signaling pathways and 3 environmental ASD risk factors, underscoring its centrality to neurodevelopmental biology. Reduced CaMK4 expression in the human frontal cortex has also been associated with longevity, further supporting brain-enriched expression (PMID: 40359038).
+
+**Key experimental findings:**
+- Biochemical studies in proband-derived cells confirmed that the index splice-site variant produces a constitutively active CaMK4 kinase, structurally analogous to synthetic gain-of-function mutants (PMID: 30262571).
+- Loss of CAMKK2-CAMK4 signaling in CRISPR-deleted HEK293 cells disrupts intracellular calcium homeostasis and transferrin/iron trafficking, with corresponding iron dyshomeostasis in mouse cerebellum and liver (PMID: 32460794) — a potentially relevant mechanism for neuronal dysfunction.
+- CaMK4 is proposed as a convergence node for ASD-associated signaling, with multiple upstream ASD risk genes feeding into CaMK4-dependent pathways (PMID: 39442785).
+
+**Strength of biological evidence: STRONG**
+CaMK4 has a well-characterized molecular function in neuronal CREB signaling, is expressed in brain regions relevant to the observed human phenotypes, and has been functionally validated in the index patient's cells. Its role as a convergence point for ASD-associated pathways further strengthens biological plausibility.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+- Multiple independent publications (at least 4 case-level reports/series) describe de novo CAMK4 variants in individuals with a consistent phenotype of hyperkinetic movement disorder, intellectual disability, and/or ASD (PMID: 30262571; PMID: 33211350; PMID: 37070062; PMID: 39442785).
+- The index case includes rigorous functional validation demonstrating a gain-of-function mechanism via aberrant splicing, confirmed in proband-derived cells (PMID: 30262571).
+- Mouse knockout studies provide strong, mechanistically concordant neurological phenotypes — particularly Purkinje cell loss, locomotor deficits, and CREB signaling disruption — that parallel the human presentation (PMID: 11069976).
+- CaMK4's role as a hub in neuronal calcium-CREB signaling and as a convergence point for ASD-associated pathways is well-supported by independent biological evidence (PMID: 39442785; PMID: 38615920).
+
+**Key gaps and limitations:**
+- The total number of molecularly and clinically well-characterized patients remains small, and detailed variant-level data (HGVS notation, segregation, functional studies) are unavailable for most reported cases beyond the index patient.
+- The inheritance mechanism is not fully resolved: the index case suggests gain-of-function pathogenicity from a heterozygous variant, but it is unclear whether all reported variants act through the same mechanism, and whether haploinsufficiency alone is sufficient to cause disease.
+- No patients have been reported from large, well-characterized diagnostic cohorts (e.g., DDD, GEL, UDN), and independent replication in unrelated cohorts with full clinical and molecular data is limited.
+
+**Conclusion:** CAMK4 is a biologically plausible and emerging neurodevelopmental disorder gene, supported by multiple independent case reports of de novo variants causing a consistent syndrome of hyperkinetic movement disorder, intellectual disability, and ASD, with functional validation in the index case and strong mechanistic support from mouse models and neuronal biology. The evidence currently meets a MODERATE threshold for gene-disease association under an autosomal dominant (likely gain-of-function) model, and further case ascertainment with detailed functional characterization of additional variants is needed to elevate this to a STRONG classification.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. A unique de novo gain-of-function variant in CAMK4 associated with intellectual disability and hyperkinetic movement disorder (PMID: 30262571)
+2. A Neurodevelopmental Disorder With Dystonia and Chorea Resulting From Clustering CAMK4 Variants (PMID: 33211350)
+3. CAMK4-related Case of Hyperkinetic Movement Disorder (PMID: 37070062)
+4. Convergence on CaMK4: A Key Modulator of Autism-Associated Signaling Pathways in Neurons (PMID: 39442785)
+5. Copy number variations in a Brazilian cohort with autism spectrum disorders highlight the contribution of cell adhesion genes (PMID: 34664255)
+
+### Model Organism Evidence
+1. Cerebellar defects in Ca2+/calmodulin kinase IV-deficient mice. (PMID: 11069976)
+2. Spermiogenesis and exchange of basic nuclear proteins are impaired in male germ cells lacking Camk4. (PMID: 10932193)
+3. Calmodulin-dependent protein kinase IV regulates hematopoietic stem cell maintenance. (PMID: 16020540)
+4. Calcium/calmodulin-dependent protein kinase IV suppresses IL-2 production and regulatory T cell activity in lupus. (PMID: 22942433)
+5. CaMK4-dependent activation of AKT/mTOR and CREM-α underlies autoimmunity-associated Th17 imbalance. (PMID: 24667640)
+6. Calcium/calmodulin-dependent protein kinase IV promotes imiquimod-induced psoriatic inflammation via macrophages and keratinocytes in mice. (PMID: 35869084)
+7. Impaired CAMK4 Activity Limits Atherosclerosis and Reprograms Myelopoiesis. (PMID: 40336480)
+8. CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease. (PMID: 29985166)
+
+### Biological Evidence
+1. CaMK4: Structure, physiological functions, and therapeutic potential (PMID: 38615920)
+2. CaMK modulates sensory neural activity to control longevity and proteostasis (PMID: 40359038)
+3. TIPRL Regulates Stemness and Survival in Lung Cancer Stem Cells through CaMKK2-CaMK4-CREB Feedback Loop Activation (PMID: 39076120)
+4. CAMKK2-CAMK4 signaling regulates transferrin trafficking, turnover, and iron homeostasis (PMID: 32460794)

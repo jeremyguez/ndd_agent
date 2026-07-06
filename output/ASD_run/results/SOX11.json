@@ -1,0 +1,308 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 11,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Novel variants in the SOX11 gene: clinical description of seven new patients (PMID: 39333428)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "Five missense variants (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "autism/ADHD",
+              "microcephaly",
+              "short stature",
+              "hypotonia",
+              "clinodactyly of 5th fingers"
+            ]
+          },
+          {
+            "description": "One nonsense variant (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "autism/ADHD",
+              "microcephaly",
+              "short stature",
+              "hypotonia",
+              "clinodactyly of 5th fingers"
+            ]
+          },
+          {
+            "description": "Whole-gene deletion",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "autism/ADHD",
+              "microcephaly",
+              "short stature",
+              "hypotonia",
+              "clinodactyly of 5th fingers"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants; most are novel; associated with IDDMOH phenotype (intellectual developmental disorder with microcephaly, with or without ocular malformations or hypogonadotropic hypogonadism)",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Impaired communication ability in SOX11 syndrome (PMID: 37916390)",
+        "num_patients": 13,
+        "variants": [
+          {
+            "description": "SOX11 variants (specific types and notations not provided)",
+            "type": "other",
+            "phenotypes": [
+              "significant communication difficulties",
+              "impaired language structure (speech, syntax, semantics, coherence)",
+              "pragmatic language impairment (inappropriate initiation, stereotyped language use, poor use of context, non-verbal communication deficits)",
+              "autistic features (social relations and interests impairment)",
+              "age range 5-19 years"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Diagnosed with SOX11 syndrome; verbal individuals selected for study",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Short report: Behavioural characterisation of SOX11 syndrome (PMID: 37924570)",
+        "num_patients": 21,
+        "variants": [
+          {
+            "description": "SOX11 variants (specific types and notations not provided)",
+            "type": "other",
+            "phenotypes": [
+              "borderline to mild adaptive behaviour impairment (33% borderline, 39% mild)",
+              "communication difficulties",
+              "daily living difficulties",
+              "autistic traits (90% with clinically relevant levels, 62% in severe range)",
+              "social motivation as relative strength",
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Diagnosed with SOX11 syndrome; standardized behavioral assessment",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Mitotic WNT signalling orchestrates neurogenesis in the developing neocortex (PMID: 34431536)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced neurogenesis in developing neocortex",
+          "Drastically decreased basal progenitors",
+          "Reduced asymmetric division in apical progenitors",
+          "Increased apical-basal astral microtubules",
+          "Sox11 identified as direct GSK3 target stabilized by WNT/STOP signalling during mitosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Xenopus Sox11 Partner Proteins and Functional Domains in Neurogenesis (PMID: 38397232)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Sox11 promotes neural fate during neural development",
+          "Sox11 promotes neural differentiation",
+          "Sox11 promotes neuron maturation in central nervous system",
+          "Sox11 co-localizes and interacts with Pou3f2 and Neurog2",
+          "N-terminus including HMG domain necessary for protein interactions",
+          "Novel role for N-terminal 46 amino acids in placodal progenitor specification"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sox11 genes affect neuronal differentiation in the developing zebrafish enteric nervous system (PMID: 40789027)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Loss of sox11a and sox11b reduces number of neurons expressing inhibitory motor neuron marker adcyap1b",
+          "No effect on cell proliferation or death",
+          "Sox11 binding sites identified in adcyap1b enhancer",
+          "Role in neuronal subtype specification in developing enteric nervous system"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cardiovascular Mettl3 Deficiency Causes Congenital Cardiac Defects and Postnatal Lethality in Mice (PMID: 40303284)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Sox11 identified as regulatory target of METTL3-catalyzed m6A RNA methylation",
+          "Mettl3 deficiency causes downregulation of Sox11 expression in embryonic hearts",
+          "Sox11 involved in right ventricle and outflow tract development",
+          "Congenital cardiac defects including left pulmonary stenosis, ventricular septal defects, and right ventricular hypoplasia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Androgens Drive SOX9 Upregulation in Injured Proximal Tubular Cells (PMID: 41279940)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Sox11 equally upregulated and protective in both sexes during acute kidney injury",
+          "Sox11 deletion did not worsen injury in either sex (unlike Sox9, Zfp24, or Vgf)",
+          "Sox11 involved in tubular repair response to ischemic and nephrotoxic injury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unraveling the SOX11-IGF2 signaling axis in early lung development: implications for lung disease (PMID: 40481144)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Pulmonary malformations during branching morphogenesis",
+          "Defective epithelial-mesenchymal condensation",
+          "Reduced intercellular spacing",
+          "Disrupted bronchial morphogenesis by E18.5",
+          "Impaired alveolar epithelial maturation",
+          "Igf2 downregulated in Sox11-/- mice",
+          "Pathways related to lung development significantly enriched"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cochlear nerve deficiency in SOX11-related Coffin-Siris syndrome (PMID: 35642566)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Hearing impairment in heterozygous knockout mice",
+          "Grossly normal inner ear structures",
+          "Homozygous ablation results in reduction in sensory neuron survival",
+          "Homozygous ablation results in decreased axonal growth",
+          "Sox11 essential for sensory neuron survival and maturation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - De novo SOX11 mutations cause Coffin-Siris syndrome (PMID: N/A)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "sox11a/b knockdown causes brain abnormalities",
+          "Brain phenotype potentially explains intellectual disability in CSS patients",
+          "Sox11 is downstream transcriptional factor of PAX6-BAF complex",
+          "Sox11 important in BAF complex and transcriptional network in brain development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Integrative Single-Cell and Spatial Transcriptomics Analysis Reveals ECM-remodeling Cancer-associated Fibroblast-Derived POSTN as a Key Mediator in Pancreatic Ductal Adenocarcinoma Progression (PMID: 40520021)",
+        "evidence_subtype": "expression",
+        "summary": "SOX11 was identified as a key transcription factor in ECM-remodeling fibroblasts, a subpopulation enriched in pancreatic ductal adenocarcinoma tumors and associated with poor prognosis. SOX11+ fibroblasts were located at the terminal stage of the fibroblast pseudotime trajectory and interact with epithelial cells through the POSTN-ITGAV/ITGB5 axis.",
+        "sample_size": "large-scale single-cell and spatial transcriptomics dataset",
+        "significance": null
+      },
+      {
+        "citation": "Molecular Pathogenesis of Mantle Cell Lymphoma (PMID: 32861278)",
+        "evidence_subtype": "function",
+        "summary": "SOX11 expression determines an aggressive phenotype in mantle cell lymphoma (MCL) associated with accumulation of chromosomal alterations and somatic gene mutations. SOX11-negative leukemic non-nodal MCL follows an indolent clinical evolution, while SOX11-positive conventional MCL exhibits aggressive behavior.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Human fetal cerebellar cell atlas informs medulloblastoma origin and oncogenesis (PMID: 36450980)",
+        "evidence_subtype": "expression",
+        "summary": "SOX11 was identified as a transcriptional determinant in transitional cerebellar progenitors that are enriched in aggressive medulloblastoma subgroup 3 and metastatic tumors. Single-cell multi-omics revealed that SOX11 is part of a regulatory network controlling MYC-targeted super-enhancers, and SOX11 expression correlates with clinical prognosis in group 3 medulloblastomas.",
+        "sample_size": "human fetal cerebella and medulloblastoma single-cell profiles",
+        "significance": null
+      },
+      {
+        "citation": "SOX11 as a potential prognostic biomarker in hepatocellular carcinoma linked to immune infiltration and ferroptosis (PMID: 39246708)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SOX11 was significantly elevated in hepatocellular carcinoma (HCC) tumors. Decreased SOX11 levels in HepG2 and HuH7 cell lines resulted in reduced proliferation and migration. SOX11 levels correlated with HCC stage, histologic grade, and independently predicted overall and disease-specific survival.",
+        "sample_size": "TCGA-LIHC dataset; HepG2 and HuH7 cell lines",
+        "significance": "p<0.05 for survival associations"
+      },
+      {
+        "citation": "Specification of claustro-amygdalar and palaeocortical neurons and circuits (PMID: 39814878)",
+        "evidence_subtype": "function",
+        "summary": "SOX11, together with SOX4 and TFAP2D, has a pivotal role in the development and identity of ventrolateral pallial excitatory neurons. Loss of SOX4 and SOX11 in post-mitotic excitatory neurons results in marked reduction in the size of the basolateral amygdala complex, claustrum, and piriform cortex, with altered PFC connectivity and learned threat-response behaviors.",
+        "sample_size": "mouse models with genetic knockouts",
+        "significance": null
+      },
+      {
+        "citation": "Single-Cell and Spatial Transcriptome Analysis of Dermal Fibroblast Development in Perinatal Mouse Skin (PMID: 38072389)",
+        "evidence_subtype": "expression",
+        "summary": "Sox11 was identified as a putative key driver gene for the dermal papilla fibroblast trajectory during skin development, with expression detected in spatially identified dermal papilla cell types across embryonic and postnatal developmental stages.",
+        "sample_size": "time-series single-cell RNA-seq from embryonic days 13.5-16.5 and postnatal days 0-4",
+        "significance": null
+      },
+      {
+        "citation": "SOX11, CD70, and Treg cells configure the tumor-immune microenvironment of aggressive mantle cell lymphoma (PMID: 34189576)",
+        "evidence_subtype": "function",
+        "summary": "SOX11 expression in mantle cell lymphoma is associated with an immunosuppressive microenvironment. SOX11+ MCL had significantly lower T-cell intratumoral infiltration and reduced expression of MHC and T-cell costimulation transcripts. CD70 was identified as a SOX11 direct target gene, whose overexpression in SOX11+ tumor cells was induced by CD40L in vitro and associated with increased Treg cell infiltration.",
+        "sample_size": "730 immune-related genes analyzed; primary nodal MCL cases",
+        "significance": "p<0.05 for T-cell infiltration differences"
+      },
+      {
+        "citation": "SOX11: friend or foe in tumor prevention and carcinogenesis? (PMID: 31210798)",
+        "evidence_subtype": "pathway",
+        "summary": "Comprehensive review establishing SOX11 as a transcription factor with dual roles in cancer: elevated expression in many tumors correlates with increased cancer cell survival, inhibited differentiation, and tumor progression through induction of metastasis and angiogenesis, though in limited malignancies SOX11 functions as a tumor suppressor.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - SOX11 is necessary for development of the bony labyrinth (E.D. Sperry et al.)",
+        "evidence_subtype": "function",
+        "summary": "Sox11 is necessary for proper development of the inner ear bony labyrinth. Sox11 heterozygous and homozygous knockout mice exhibited lateral and posterior semicircular canal dysplasia. Sox11 mutant ears showed spatiotemporal misregulation of genes critical for ear morphogenesis (Bmp4, Otx1, Shh). Sox11 may mediate effects of CHD7 during inner ear development, relevant to Coffin-Siris and CHARGE syndromes.",
+        "sample_size": "Sox11+/- (N=10/26) and Sox11-/- (N=12/12) E14.5 ears",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Deciphering Transcriptional Regulatory Elements during Inhibitory Interneuron Differentiation using Deep Learning (R. Birnbaum et al.)",
+        "evidence_subtype": "expression",
+        "summary": "SOX11 motifs were enriched in active enhancers of human interneuron progenitors. SOX4 and SOX11 factors show cooperativity in controlling active enhancers of neuronal progenitors, identified through deep learning analysis of ATAC-seq and H3K27ac/me3 ChIP-seq data from human interneuron progenitors.",
+        "sample_size": "human interneuron progenitor regulatory element datasets",
+        "significance": null
+      }
+    ]
+  }
+}

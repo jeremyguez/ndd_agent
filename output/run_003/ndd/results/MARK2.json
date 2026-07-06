@@ -1,0 +1,401 @@
+{
+  "articles_found": {
+    "clinical": 21,
+    "model_organism": 20,
+    "biological": 22
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "MARK2 variants cause autism spectrum disorder via the downregulation of WNT/\u03b2-catenin signaling pathway. (PMID: 39419027)",
+        "num_patients": 31,
+        "variants": [
+          {
+            "description": "Multiple LoF variants (frameshift, nonsense, splice-site) - predominant (81% of cases)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorders",
+              "distinctive facial features"
+            ]
+          },
+          {
+            "description": "Missense variants (minority of cases, ~19%)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorders",
+              "distinctive facial features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Loss-of-function variants predominate; computational analysis and in vitro expression assays supported loss-of-function effect for missense variants; iPSC and mouse models demonstrated neuronal developmental deficits consistent with MARK2 loss",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Identification of a de Novo MARK2 gene variant in a patient with autism spectrum disorder, epilepsy, and neurodevelopmental delay. (PMID: 40542891)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.645_646insA, p.(Ala216Serfs*12)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "epilepsy",
+              "developmental delay",
+              "abnormal EEG with sharp and slow waves in right occipital and posterior temporal regions",
+              "normal brain MRI"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant confirmed by Sanger sequencing; frameshift leading to premature stop codon; classified per ACMG guidelines; absent from population databases at pathogenic frequency",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Loss-of-function variants in MARK2 cause neurodevelopmental disorder. (PMID: 41918168)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "p.Val231Met",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "p.Gly135Arg",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "p.Ala80Val",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "p.His167Pro",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "p.Lys224Glu",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "Truncating variants (multiple, unspecified)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Functional assessment in Drosophila model; truncating variants showed reduced protein levels and loss-of-function mechanism; most missense variants showed partial loss of function (hypomorphic); familial case included; p.Lys224Glu classified as not pathogenic in fly model",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Integrating de novo and inherited variants in 42,607 autism cases identifies mutations in new moderate-risk genes. (PMID: 35982159)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare loss-of-function variants (unspecified)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Exome-wide significant association (P < 2.5 \u00d7 10-6) with autism; MARK2 identified as new moderate-risk gene; de novo and inherited rare coding variants analyzed in large cohort",
+        "center_country": null,
+        "cohort": "SPARK"
+      },
+      {
+        "citation": "Deleterious coding variation associated with autism is shared across ancestries. (PMID: 41912808)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Deleterious coding variants (unspecified)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Genome-wide significant (FDR < 0.05) association with ASD across Latin American and European cohorts; highly constrained gene showing consistent signal across populations",
+        "center_country": "Latin America",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2013 - De novo and inherited retrotransposon insertions associated with autism revealed by whole genome sequencing. (ASHG 2013)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo retrotransposon insertion in MARK2",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo retrotransposon insertion identified by whole genome sequencing; MARK2 previously reported to contain de novo functional mutations in large-scale exome studies of autism",
+        "center_country": "China/USA",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Neuronal connectivity, behavioral, and transcriptional alterations associated with the loss of MARK2. (PMID: 39436150)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Changes in dendritic spine morphology",
+          "Decreased excitatory synaptic transmission",
+          "Impairments in learning and memory",
+          "Reduced anxiety",
+          "Defective social behavior",
+          "Heightened seizure susceptibility",
+          "Neuronal hyperexcitability in hippocampal slices",
+          "Transcriptional changes in genes regulating synaptic transmission and ion homeostasis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of the Par-1b/MARK2 polarity kinase leads to increased metabolic rate, decreased adiposity, and insulin hypersensitivity in vivo. (PMID: 17372192)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Lean body composition",
+          "Insulin hypersensitivity",
+          "Resistance to high-fat diet-induced weight gain",
+          "Hypermetabolic state",
+          "Increased glucose uptake into white and brown adipose tissue",
+          "Normal glucose uptake in skeletal muscle"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Impairment of spatial learning and memory in ELKL Motif Kinase1 (EMK1/MARK2) knockout mice. (PMID: 17196307)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Impaired spatial learning in radial water maze",
+          "Impaired re-learning of new platform position",
+          "Poor long-term retention performance",
+          "Normal locomotion in activity cages",
+          "Normal anxiety in elevated plus maze"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of Par1b/MARK2 primes microglia during brain development and enhances their sensitivity to injury. (PMID: 30654821)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Increased microglia density",
+          "Hypertrophic microglia morphology",
+          "Increased phagocytosis of neuronal particles early in development",
+          "Decreased surveillance of brain parenchyma",
+          "Lower threshold for microglial activation upon injury",
+          "Primed microglial phenotype",
+          "Enhanced neuroinflammatory response to cortical impact injury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulation of glucose homeostasis by KSR1 and MARK2. (PMID: 22206009)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Increased rate of glucose disposal in response to exogenous insulin",
+          "Increased glucose tolerance",
+          "Resistance to diet-induced obesity",
+          "Reversal of insulin hypersensitivity when combined with KSR1 knockout (double knockout)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Discovery of MARK2 as a physiological kinase for PER2 in the mammalian clock. (PMID: 41812650)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Shortened circadian period in Mark2-deficient cells (S662-dependent)",
+          "Phase advancement",
+          "Period shortening in neuronal-specific Mark2 knockout mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MARK2 regulates C9orf72 repeat-associated non-AUG translation. (PMID: 41231952)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Significant suppression of RAN translation",
+          "Neuroprotection under proteotoxic conditions"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Enhancing intestinal epithelial microtubule stability could alleviate IBD symptoms. (PMID: 40462136)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decreased acetylated alpha-tubulin expression",
+          "Increased paracellular permeability",
+          "Exacerbated colitis symptoms",
+          "Epithelial barrier dysfunction"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Signaling crosstalk between TGF\u03b2 and Dishevelled/Par1b. (PMID: 22576663)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Impaired TGF\u03b2/BMP signaling in mesoderm development",
+          "Disrupted Dvl/Par1b/Smad4 complex assembly",
+          "Altered Wnt5a-mediated TGF\u03b2 responsiveness"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MARK2 phosphorylates eIF2\u03b1 in response to proteotoxic stress. (PMID: 33705388)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Altered eIF2\u03b1 phosphorylation under proteotoxic stress",
+          "Activation of MARK2 and PKC\u03b4 in proteotoxicity-associated neurodegenerative mouse models"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "MARK2 variants cause autism spectrum disorder via the downregulation of WNT/\u03b2-catenin signaling pathway (PMID: 39419027)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using proband-derived and CRISPR-engineered isogenic iPSCs, MARK2 loss was shown to cause early neuronal developmental deficits including anomalous polarity in neural rosettes and imbalanced proliferation/differentiation in neural progenitor cells. Mark2+/- mice showed abnormal cortical formation and ASD-like behavior. RNA-seq and lithium treatment linked MARK2 loss to downregulation of the WNT/\u03b2-catenin signaling pathway.",
+        "sample_size": "31 individuals with MARK2 variants",
+        "significance": null
+      },
+      {
+        "citation": "MARK2/MARK3 Kinases Are Catalytic Codependencies of YAP/TAZ in Human Cancer (PMID: 39058094)",
+        "evidence_subtype": "pathway",
+        "summary": "Paralog cotargeting CRISPR screens identified MARK2/3 as absolute catalytic requirements for YAP/TAZ function in diverse carcinoma and sarcoma contexts. MARK2/3 directly phosphorylate NF2 and YAP/TAZ, reversing the tumor suppressive activity of Hippo module kinases LATS1/2. A CagA-based catalytic inhibitor of MARK2/3 was shown to regress established tumors in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MARK2 phosphorylates KIF13A at a 14-3-3 binding site to polarize vesicular transport of transferrin receptor within dendrites (PMID: 38709923)",
+        "evidence_subtype": "function",
+        "summary": "MARK2 phosphorylates the kinesin-3 family member KIF13A at a 14-3-3 binding motif, strengthening KIF13A interaction with 14-3-3 and causing it to dissociate from transferrin receptor (TfR)-containing vesicles, preventing their entry into axons. Knockout of MARK2 leads to axonal missorting of TfR-containing vesicles, demonstrating MARK2's role in polarized dendritic vesicle transport.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ER-phagy restrains inflammatory responses through its receptor UBAC2 (PMID: 39284914)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MARK2 was identified as a kinase that phosphorylates the ER-phagy receptor UBAC2 at serine 223 upon ER stress or autophagy activation, promoting UBAC2 dimerization. Dimerized UBAC2 interacts more strongly with GABARAP, facilitating selective ER degradation. This MARK2-UBAC2 axis regulates ER-phagy and restrains inflammatory responses including acute ulcerative colitis in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Antagonistic effects of doublecortin and MARK2/Par-1 in the developing cerebral cortex (PMID: 19036994)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In utero electroporation experiments showed that reduced MARK2 levels resulted in multipolar neurons stalled at the intermediate zone border during cortical radial migration, with MARK2 reduction stabilizing microtubules. Co-reduction of MARK2 and DCX partially restored normal neuronal migration phenotype in vivo, revealing antagonistic roles between MARK2/Par-1 and doublecortin in cortical development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Proximity labeling of DAF-16 FOXO highlights aging regulatory proteins (PMID: 41381452)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In C. elegans, the PAR-1/MARK ortholog forms a complex with the FOXO transcription factor DAF-16 under active insulin signaling conditions, inhibiting DAF-16 accumulation and promoting phosphorylation at S249. Human MARK2 was shown to phosphorylate DAF-16 at S249 in vitro at a conserved motif, and PAR-1 knockdown or DAF-16 S249A mutation prolongs lifespan.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MARK2 regulates chemotherapeutic responses through class IIa HDAC-YAP axis in pancreatic cancer (PMID: 35780183)",
+        "evidence_subtype": "pathway",
+        "summary": "A kinome-wide screen identified MARK2 as a critical regulator of paclitaxel chemosensitivity in pancreatic ductal adenocarcinoma (PDAC); MARK2 is phosphorylated by CDK1 during mitosis and in response to antitubulin chemotherapeutics. MARK2 directly phosphorylates HDAC4, which promotes YAP activation and controls expression of YAP target genes induced by paclitaxel. MARK2, HDACs, and YAP expression levels are upregulated and positively correlated in PDAC patients.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Integrating de novo and inherited variants in 42,607 autism cases identifies mutations in new moderate-risk genes (PMID: 35982159)",
+        "evidence_subtype": "GWAS",
+        "summary": "Analysis of rare de novo and inherited coding variants in 42,607 autism cases identified MARK2 as a new autism risk gene with exome-wide significance (P < 2.5 \u00d7 10-6). MARK2 was among five newly identified risk genes, with loss-of-function variants contributing to autism risk.",
+        "sample_size": "42,607 autism cases",
+        "significance": "P < 2.5 \u00d7 10-6"
+      },
+      {
+        "citation": "MARK2 regulates Golgi apparatus reorientation by phosphorylation of CAMSAP2 in directional cell migration (PMID: 40333320)",
+        "evidence_subtype": "function",
+        "summary": "MARK2 interacts with and phosphorylates the microtubule-anchoring protein CAMSAP2 at serine-835, affecting CAMSAP2's interaction with the Golgi-associated protein USO1. This phosphorylation event is critical for anchoring microtubules to the Golgi during cell migration, altering microtubule polarity distribution and facilitating Golgi reorientation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MARK2 enhances cisplatin resistance via PI3K/AKT/NF-\u03baB signaling pathway in osteosarcoma cells (PMID: 32509178)",
+        "evidence_subtype": "pathway",
+        "summary": "MARK2 was found significantly upregulated in osteosarcoma cells compared to normal cells, and its overexpression enhanced cisplatin resistance in vitro and in vivo. Mechanistically, MARK2 overexpression enhanced P-glycoprotein expression and decreased apoptosis through PI3K/AKT/NF-\u03baB signaling pathway activation. High MARK2 expression was associated with poor prognosis in GEO dataset analyses.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

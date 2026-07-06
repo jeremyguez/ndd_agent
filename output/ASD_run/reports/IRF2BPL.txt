@@ -1,0 +1,128 @@
+# LITERATURE EVIDENCE REPORT: IRF2BPL GENE
+
+## 1. GENE SUMMARY
+
+IRF2BPL (Interferon Regulatory Factor 2 Binding Protein Like) is a zinc finger/RING finger transcriptional modulator with predicted ubiquitin ligase activity that functions as an E3 ligase regulating multiple cellular pathways including Wnt signaling and transcriptional control. The gene is highly intolerant to loss-of-function variants (pLI=0.97) with no nonsense variants found in gnomAD, indicating strong selective constraint against null alleles in the general population.
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of Studies and Patient Cohort:**
+Four independent clinical studies were identified, encompassing approximately 50 patients total (10 patients in PMID: 39843638; 33 patients in PMID: 39031186; 7 patients in ASHG 2019 PgmNr 3148; additional cases in ASHG 2019 PgmNr 1279).
+
+**Most Common Phenotypes:**
+The clinical presentation is dominated by neurodevelopmental features:
+- Seizures/Epilepsy (present in all studies)
+- Developmental delay/Global developmental delay (all studies)
+- Severe neurological regression (PMID: 39843638; ASHG 2019 PgmNr 1279; ASHG 2019 PgmNr 3148)
+- Loss of speech/Dysarthria (PMID: 39031186; ASHG 2019 PgmNr 1279; ASHG 2019 PgmNr 3148)
+- Abnormal movements/Movement disorder (PMID: 39031186; ASHG 2019 PgmNr 1279; ASHG 2019 PgmNr 3148)
+- Autism spectrum disorder (ASHG 2019 PgmNr 1279; ASHG 2019 PgmNr 3148)
+- Psychiatric symptoms including catatonia, affective disorders, and psychotic symptoms (PMID: 39031186)
+
+**Predominant Variant Types:**
+Both loss-of-function (LoF) and missense variants are pathogenic. Truncating variants (nonsense and frameshift) are associated with more severe phenotypes including severe regression, loss of intentional movements, and loss of fine motor skills (ASHG 2019 PgmNr 1279; ASHG 2019 PgmNr 3148). Missense variants present with milder phenotypes including developmental delay and autism spectrum disorder without prominent regression (ASHG 2019 PgmNr 1279; ASHG 2019 PgmNr 3148). In the largest clinical series (PMID: 39843638), eight of nine identified variants were novel, with five missense variants, one in-frame indel, and three truncating variants identified across 10 patients.
+
+**Cohort Information:**
+No patients were explicitly identified as belonging to known diagnostic cohorts (UDN, GREGoR, DDD, RUMC, GEL). All variants identified were de novo or novel, consistent with autosomal dominant inheritance.
+
+**Strength of Clinical Evidence: STRONG**
+
+The evidence is strong based on: (1) multiple independent case series totaling ~50 patients; (2) consistent phenotypic pattern across studies; (3) predominantly de novo variants indicating pathogenicity; (4) high proportion of novel variants (8 of 9 in PMID: 39843638); (5) clear genotype-phenotype correlation with LoF variants causing more severe disease; and (6) recent systematic review synthesizing the phenotypic spectrum (PMID: 39031186).
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms Studied:**
+Zebrafish and Drosophila have been the primary model organisms used to study IRF2BPL function.
+
+**Key Phenotypes from Loss-of-Function Models:**
+
+*Zebrafish knockdown:*
+- Neurological defects with increased Wnt signaling (PMID: 35044823)
+- Reduced body length, spontaneous ictal-like and interictal-like discharges, and electrographic seizures (PMID: 38481258)
+
+*Drosophila (pits ortholog):*
+- Complete loss of pits is embryonic lethal, indicating essential developmental function (PMID: 30057031)
+- Neuronal knockdown with RNAi leads to neurodegeneration (PMID: 30057031)
+- Heterozygous truncations display progressive motor defects that are ameliorated by CuATSM treatment (PMID: 36476864)
+- Nonsense variants behave as severe loss-of-function alleles while missense variants produce milder phenotypes (PMID: 30057031)
+
+**Consistency with Human Phenotype:**
+The model organism phenotypes show strong consistency with human disease. Seizure-like activity in zebrafish directly parallels the prominent seizure phenotype in patients. Progressive neurodegeneration and motor defects in Drosophila align with the regression, loss of intentional movements, and movement disorders observed in patients. The genotype-phenotype correlation (LoF variants causing severe phenotypes) is recapitulated in flies.
+
+**Strength of Model Organism Evidence: STRONG**
+
+The evidence is strong based on: (1) multiple independent model systems (zebrafish and Drosophila) showing consistent neurological phenotypes; (2) direct recapitulation of human seizure phenotype in zebrafish; (3) demonstration that patient-derived variants produce predicted loss-of-function effects in flies; (4) clear correlation between variant severity and phenotypic severity across models; and (5) functional rescue experiments (CuATSM treatment) demonstrating mechanistic insight.
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known Pathways and Molecular Function:**
+
+IRF2BPL functions through multiple interconnected pathways:
+
+1. **Wnt Signaling Regulation:** IRF2BPL and its Drosophila ortholog Pits repress Wnt transcription by functioning as an E3 ubiquitin ligase that ubiquitinates β-catenin to regulate Wnt target gene transcription (PMID: 35044823; ASHG 2019 PgmNr 3148). Loss of IRF2BPL/pits increases Wnt levels, leading to excess Wnt signaling that contributes to neurodegeneration. IRF2BPL physically and genetically interacts with the Wnt antagonist CKIα.
+
+2. **Protein Aggregation and Mitochondrial Dysfunction:** Truncated IRF2BPL variants sequester wild-type protein to the cytoplasm causing aggregation (PMID: 36476864). Patient-derived astrocytes exhibit aberrant mitochondria and respiratory dysfunction, with failure to support neuronal survival in coculture.
+
+3. **Transcriptional Regulation:** IRF2BPL acts as a transcriptional modulator with both repressive and activating functions depending on context. In cancer models, it regulates the FOSL2/PI3K/AKT/mTOR axis and promotes IGFBP2 transcription (PMID: 40834975; PMID: 41413713).
+
+**Expression Pattern:**
+The Drosophila ortholog pits is broadly expressed including in the nervous system (PMID: 30057031), indicating neurological relevance. Patient-derived astrocytes and neurons have been successfully used to model disease mechanisms, confirming expression in relevant cell types.
+
+**Key Experimental Findings:**
+
+- **Patient-derived cell models (PMID: 36476864):** Skin fibroblasts reprogrammed to astrocytes and neurons from IRF2BPL patients show truncated variants sequestering wild-type protein, aberrant mitochondria, respiratory dysfunction, and impaired neuronal support. These defects are rescued by CuATSM treatment, identifying a potential therapeutic strategy.
+
+- **Drosophila functional studies (PMID: 36476864; ASHG 2019 PgmNr 3148):** Co-expression of full-length and truncated IRF2BPL results in cytoplasmic accumulation of full-length protein. Heterozygous truncations display progressive motor defects ameliorated by CuATSM. Functional analysis in Drosophila allows tissue-specific assessment of patient variants.
+
+- **Pathway validation (PMID: 35044823):** Loss of Pits in neurons leads to increased wingless (wg) levels and axonal loss, while inhibition of Wnt signaling is neuroprotective, establishing excess Wnt signaling as a pathogenic mechanism.
+
+**Strength of Biological Evidence: STRONG**
+
+The evidence is strong based on: (1) multiple mechanistic pathways identified and validated in model systems; (2) patient-derived cellular models demonstrating disease-relevant phenotypes; (3) identification of a potential therapeutic target (CuATSM) with functional rescue; (4) clear molecular mechanism linking variants to cellular dysfunction; (5) consistent findings across multiple experimental approaches (cell culture, Drosophila, zebrafish); and (6) high gene constraint metrics (pLI=0.97) supporting pathogenicity of loss-of-function variants.
+
+## 5. OVERALL ASSESSMENT
+
+**Overall Evidence Level: STRONG**
+
+**Key Strengths:**
+
+1. **Robust Clinical Evidence:** Approximately 50 patients across multiple independent case series with consistent phenotypic presentation, predominantly de novo variants, and clear genotype-phenotype correlation.
+
+2. **Mechanistic Understanding:** Multiple complementary pathways identified (Wnt signaling, protein aggregation, mitochondrial dysfunction) with validation in patient-derived cells and multiple model organisms.
+
+3. **Model Organism Validation:** Consistent neurological phenotypes across zebrafish and Drosophila, with direct recapitulation of human seizure phenotype and demonstration that patient variants produce predicted functional effects.
+
+4. **Therapeutic Insight:** Identification of CuATSM as a potential therapeutic agent with functional rescue in patient-derived cells and Drosophila models.
+
+5. **Genetic Constraint:** Extreme intolerance to loss-of-function variants (pLI=0.97) with absence of nonsense variants in gnomAD, providing strong population genetic support for pathogenicity.
+
+**Key Gaps and Limitations:**
+
+1. **Limited Functional Characterization of Missense Variants:** While LoF variants are well-characterized, the specific molecular mechanisms by which missense variants cause disease remain incompletely understood, though they appear to produce milder phenotypes.
+
+2. **Incomplete Phenotypic Characterization:** Some clinical studies lack detailed phenotypic descriptions or specific variant notations, limiting precision of genotype-phenotype correlations.
+
+3. **Lack of Cohort Enrollment:** Patients have not been enrolled in large diagnostic cohorts (UDN, GREGoR, DDD), which could provide additional standardized phenotypic and genetic data.
+
+4. **Limited Longitudinal Data:** Most reports are cross-sectional case series without detailed longitudinal follow-up documenting disease progression and natural history.
+
+**Conclusion:**
+
+IRF2BPL is a well-established neurodevelopmental disorder gene with strong evidence supporting pathogenicity of heterozygous de novo variants. The clinical phenotype is characterized by seizures, developmental delay, and progressive neurological regression, with loss-of-function variants causing more severe disease than missense variants. Multiple mechanistic pathways have been identified and validated in patient-derived cells and model organisms, with excess Wnt signaling and mitochondrial dysfunction emerging as key pathogenic mechanisms. The identification of CuATSM as a potential therapeutic agent provides a promising avenue for clinical translation.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Clinical and genetic spectrum of patients with IRF2BPL syndrome (PMID: 39843638)
+2. Expanding the phenotype of NEDAMSS with a psychiatric perspective: analysis of a new case, and a systematic review of the literature (PMID: 39031186)
+
+### Model Organism Evidence
+1. Loss of IRF2BPL impairs neuronal maintenance through excess Wnt signaling (PMID: 35044823)
+2. De novo variants of IRF2BPL result in developmental epileptic disorder (PMID: 38481258)
+
+### Biological Evidence
+1. IRF2BPL Is Associated with Neurological Phenotypes (PMID: 30057031)
+2. Mechanisms of IRF2BPL-related disorders and identification of a potential therapeutic strategy (PMID: 36476864)
+3. IRF2BPL inhibits proliferation, migration and invasion of osteosarcoma cells by inhibiting FOSL2-mediated PI3K/AKT pathway activation (PMID: 40834975)
+4. IRF2BPL transcriptionally regulates IGFBP2 to promote tumor progression and suppresses immune cell infiltration in esophageal squamous cell carcinoma (PMID: 41413713)

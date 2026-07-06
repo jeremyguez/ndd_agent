@@ -1,0 +1,214 @@
+{
+  "articles_found": {
+    "clinical": 11,
+    "model_organism": 3,
+    "biological": 15
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Clinical and Genetic Analysis of SMARCC2-Related Diseases in Three Chinese Patients (PMID: 41532374)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "c.1311-3C>G",
+            "type": "LoF",
+            "phenotypes": [
+              "mild to moderate developmental delay",
+              "mild intellectual disability",
+              "facial dysmorphism",
+              "mild speech delay",
+              "hypotonia",
+              "feeding difficulties",
+              "brain abnormalities",
+              "ADHD",
+              "autistic behaviors"
+            ]
+          },
+          {
+            "description": "c.347G>A, p.Arg116His",
+            "type": "missense",
+            "phenotypes": [
+              "mild to moderate developmental delay",
+              "mild intellectual disability",
+              "facial dysmorphism",
+              "mild speech delay",
+              "hypotonia",
+              "feeding difficulties",
+              "brain abnormalities",
+              "ADHD",
+              "autistic behaviors"
+            ]
+          },
+          {
+            "description": "c.346C>T, p.Arg116Cys",
+            "type": "missense",
+            "phenotypes": [
+              "mild to moderate developmental delay",
+              "mild intellectual disability",
+              "facial dysmorphism",
+              "mild speech delay",
+              "hypotonia",
+              "feeding difficulties",
+              "brain abnormalities",
+              "ADHD",
+              "autistic behaviors"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants identified by whole exome sequencing; variants at same codon (Arg116) suggest hotspot; clinical presentation consistent with SMARCC2-related neurodevelopmental disorder",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Long-read sequencing identifies a novel de novo inversion in SMARCC2 in a pediatric patient with Coffin-siris syndrome 8: a case report (PMID: 41291750)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "233 kb inversion on chromosome 12 with breakpoint 1 disrupting SMARCC2 between exons 16 and 17",
+            "type": "other",
+            "phenotypes": [
+              "speech difficulties",
+              "behavioral issues",
+              "autism spectrum disorder",
+              "obsessive-compulsive disorder",
+              "attention-deficit/hyperactivity disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo structural variant identified by long-read whole-genome sequencing; breakpoint disrupts SMARCC2 predicted to cause loss of function and haploinsufficiency; first reported structural variant in CSS8",
+        "center_country": "Not specified",
+        "cohort": null
+      },
+      {
+        "citation": "Exome sequencing in severe non-syndromic specific learning and language disorders in a French cohort (PMID: 41168819)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "SMARCC2 variants (2 patients, specific variants not detailed)",
+            "type": "unknown",
+            "phenotypes": [
+              "severe specific learning disorder",
+              "no intellectual disability",
+              "no autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "pathogenic/likely pathogenic variants identified by exome sequencing in patients with severe non-syndromic specific learning disorders",
+        "center_country": "France",
+        "cohort": null
+      },
+      {
+        "citation": "Cognitive and Synaptic Impairment Induced by Deficiency of Autism Risk Gene Smarcc2 and its Rescue by Histone Deacetylase Inhibition (PMID: 40492195)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "SMARCC2 diminishment in iPSC-derived neurons from idiopathic ASD patients",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "impaired working memory",
+              "synaptic transmission deficits",
+              "impaired GABAergic and glutamatergic synaptic currents"
+            ]
+          }
+        ],
+        "diagnostic_reason": "SMARCC2 significantly diminished in iPSC-derived neurons from idiopathic ASD patients; genome-wide RNA-seq analysis; one of top-ranking risk genes for ASD",
+        "center_country": "Not specified",
+        "cohort": null
+      },
+      {
+        "citation": "DNA/RNA hybrid profiling in autistic patients: A focus on mRNA and non-coding RNA variations (PMID: 41183059)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "SMARCC2 (upregulated in DNA/RNA hybrid analysis)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "impaired social interaction",
+              "communication deficits",
+              "restricted or stereotyped behaviors"
+            ]
+          }
+        ],
+        "diagnostic_reason": "SMARCC2 confirmed upregulation by qRT-PCR validation in ASD patients; associated with DNA/RNA hybrids; differential expression analysis showed significant upregulation in ASD samples",
+        "center_country": "Not specified",
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "The functional landscape of the human phosphoproteome (PMID: 31819260)",
+        "evidence_subtype": "function",
+        "summary": "Machine learning analysis of 119,809 human phosphosites identified regulatory phosphosites in SMARCC2, a member of the SWI/SNF chromatin-remodeling complex, with a validated role in neuronal differentiation.",
+        "sample_size": "6,801 proteomics experiments from 104 cell types/tissues",
+        "significance": null
+      },
+      {
+        "citation": "Elucidating the clinical and molecular spectrum of SMARCC2-associated NDD in a cohort of 65 affected individuals (PMID: 37551667)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Co-immunoprecipitation and proximity-ligation assays demonstrated altered BAF-subunit interactions for missense variants in SMARCC2, with 3D protein modeling showing decreased protein expression for N-terminal missense variants similar to loss-of-function variants.",
+        "sample_size": "65 affected individuals (41 novel, 24 previously published)",
+        "significance": null
+      },
+      {
+        "citation": "SMARCC2 silencing suppresses oncogenic activation through modulation of chromatin accessibility in breast cancer (PMID: 38852505)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SMARCC2 silencing in breast cancer cells suppressed tumorigenesis and reduced cancer stem cell features via downregulation of the Ras-PI3K signaling pathway, demonstrated through cell proliferation assays, mammosphere formation, RNA-seq, ATAC-seq, and ChIP analyses.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cognitive and Synaptic Impairment Induced by Deficiency of Autism Risk Gene Smarcc2 and its Rescue by Histone Deacetylase Inhibition (PMID: 40492195)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RNA-seq of iPSC-derived neurons from ASD patients showed significant diminishment of SMARCC2; ChIP-seq demonstrated SMARCC2 binding to multiple ASD risk genes involved in transcriptional regulation, and Smarcc2 deficiency in mouse prefrontal cortex impaired working memory with downregulation of synaptic transmission genes.",
+        "sample_size": "iPSC-derived neurons from idiopathic ASD patients; adolescent mice",
+        "significance": null
+      },
+      {
+        "citation": "Therapeutic targeting of CNBP phase separation inhibits ribosome biogenesis and neuroblastoma progression via modulating SWI/SNF complex activity (PMID: 37186134)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Co-immunoprecipitation and mass spectrometry identified SMARCC2 as a direct interaction partner of CNBP; CNBP liquid condensates repress SWI/SNF core subunit activity (SMARCC2/SMARCC1/SMARCA4) via interaction with SMARCC2, with low SMARCC2 levels associated with poor neuroblastoma patient survival.",
+        "sample_size": "NB cell lines; patient cohort",
+        "significance": null
+      },
+      {
+        "citation": "FBXO28 promotes proliferation, invasion, and metastasis of pancreatic cancer cells through regulation of SMARCC2 ubiquitination (PMID: 37348029)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Immunoprecipitation-mass spectrometry identified SMARCC2 as a target of E3 ligase FBXO28; FBXO28 promotes pancreatic cancer progression by increasing SMARCC2 ubiquitination and protein degradation, with SMARCC2 upregulation reversing FBXO28-mediated oncogenic effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A novel SWI/SNF complex promotes triple-negative breast cancer progression (PMID: 40890601)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Mass spectrometry analysis identified SMARCC2 as an interacting protein of ARID1B; SMARCC2 forms a novel SWI/SNF complex with ARID1B and SMARCB1 that transcriptionally represses ZNF382 and promotes TNBC proliferation and migration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Proteomic analysis reveals chromatin remodeling as a potential therapeutical target in neuroblastoma (PMID: 40011918)",
+        "evidence_subtype": "pathway",
+        "summary": "Weighted gene co-expression network analysis (WGCNA) of neuroblastoma proteomic profiles identified SMARCC2 as one of 15 hub genes in a core prognostic module primarily related to chromatin remodeling and mRNA metabolic processes, associated with unfavorable subtype and high mitotic index.",
+        "sample_size": "NB tissue samples with pathological comparisons",
+        "significance": null
+      },
+      {
+        "citation": "SMARCC2 combined with c-Myc inhibits the migration and invasion of glioma cells via modulation of the Wnt/\u03b2-catenin signaling pathway (PMID: 34080022)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SMARCC2 overexpression in glioma cells significantly inhibited migration and invasion through co-immunoprecipitation-validated binding with c-Myc, downregulating c-Myc expression and suppressing Wnt/\u03b2-catenin signaling components (N-cadherin, vimentin, snail, \u03b2-catenin).",
+        "sample_size": "U87MG and LN229 glioma cell lines",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Expanding the spectrum of BAF-related disorders \u2013 de novo variants in SMARCC2 cause a syndrome with intellectual disability, developmental delay and growth retardation",
+        "evidence_subtype": "function",
+        "summary": "Identified 15 individuals with de novo heterozygous SMARCC2 variants causing neurodevelopmental delay and growth retardation; variants in conserved DNA-interacting domains (SANT and SWIRM) presented more severe phenotypes; transcriptomic analysis of patient fibroblasts identified differentially expressed genes (H19, SCRG1, RELN, CACNB4) involved in neuronal development.",
+        "sample_size": "15 individuals with SMARCC2 variants",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 4,
+    "biological": 23
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2017 - ARID4A de novo variants identified by exome sequencing among individuals with neurodevelopmental disorders (K.G. Monaghan et al.)",
+        "num_patients": 6,
+        "variants": [
+          {
+            "description": "1 frameshift variant (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "behavior abnormalities",
+              "developmental regression",
+              "autism",
+              "tone abnormalities",
+              "intellectual disability",
+              "brain anomalies"
+            ]
+          },
+          {
+            "description": "5 missense variants (specific notations not provided; one possibly paternally mosaic)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "behavior abnormalities",
+              "developmental regression",
+              "autism",
+              "tone abnormalities",
+              "intellectual disability",
+              "thin corpus callosum",
+              "absent septum pellucidum",
+              "holoprosencephaly",
+              "pontocerebellar atrophy",
+              "facial dysmorphism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo occurrence (5 confirmed de novo, 1 possibly paternal mosaic); missense variants had damaging in-silico predictors and occurred in evolutionarily conserved amino acids; no prior ARID4A sequence variants published; haploinsufficiency mechanism supported by prior 14q23.1q23.3 deletion case",
+        "center_country": "GeneDx, USA (and collaborating institutions)",
+        "cohort": null
+      },
+      {
+        "citation": "A novel heterozygous missense variant of the ARID4A gene identified in Han Chinese families with schizophrenia-diagnosed siblings that interferes with DNA-binding activity. (PMID: 35365808)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "c.1231C>G, p.His411Asp",
+            "type": "missense",
+            "phenotypes": [
+              "schizophrenia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by whole-exome sequencing in Han Chinese families with schizophrenia-diagnosed siblings; functional studies showed reduced dsDNA-binding ability, conformational change in ARID domain, and altered cell cycle (decreased G0-G1 arrest, increased G2-M progression, promoted cell proliferation)",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Multiple congenital anomalies-intellectual disability (MCA-ID) and neuroblastoma in a patient harboring a de novo 14q23.1q23.3 deletion. (PMID: 24665034)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo 14q23.1-q23.3 microdeletion (includes ARID4A among other genes)",
+            "type": "other",
+            "phenotypes": [
+              "neuroblastoma",
+              "spherocytosis",
+              "congenital heart defect",
+              "cryptorchidism",
+              "hypoplasia of corpus callosum",
+              "epilepsy",
+              "developmental delay",
+              "multiple congenital anomalies",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo microdeletion; ARID4A haploinsufficiency discussed as potentially contributing to clinical spectrum; MAX haploinsufficiency considered as predisposing factor for neuroblastoma",
+        "center_country": "Not explicitly stated (likely France based on context)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Identification of chromatin remodeling genes Arid4a and Arid4b as leukemia suppressor genes. (PMID: 18728284)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ineffective hematopoiesis in all lineages (ages 2-5 months)",
+          "Monocytosis with severe anemia and thrombocytopenia (beyond 5 months)",
+          "Bone marrow failure with myelofibrosis",
+          "Splenomegaly and hepatomegaly",
+          "Progression to chronic myelomonocytic leukemia (CMML)-like myelodysplastic/myeloproliferative disorder",
+          "Transformation to acute myeloid leukemia (AML) in 5/42 Arid4a-/- mice",
+          "Transformation to AML in 10/12 Arid4a-/-Arid4b+/- mice",
+          "Decreased expression of Hox genes (Hoxb3, Hoxb5, Hoxb6, Hoxb8) in bone marrow",
+          "Reduced FoxP3 expression in Arid4a-/-Arid4b+/- bone marrow",
+          "Increased histone trimethylation of H3K4, H3K9, and H4K20 in bone marrow"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": "42 Arid4a-/- mice; 12 Arid4a-/-Arid4b+/- mice",
+        "significance": "95% CI reported for histone trimethylation fold increases"
+      },
+      {
+        "citation": "ARID4A and ARID4B regulate male fertility, a functional link to the AR and RB pathways. (PMID: 23487765)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Progressive loss of male fertility in Arid4a-/-Arid4b+/- mice",
+          "Hypogonadism",
+          "Seminal vesicle agenesis/hypodysplasia",
+          "Spermatogenic arrest at meiotic spermatocyte and postmeiotic haploid spermatid stages",
+          "Increased permeability of seminiferous tubules (impaired blood-testis barrier)",
+          "Sertoli cell dysfunction",
+          "Dysregulation of AR- and RB-responsive downstream target genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of ARID4A and ARID4B promote tumor progression and directly regulated by microRNA-30d in patient with prostate cancer. (PMID: 29797600)",
+        "organism": null,
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Knockout of ARID4A promoted prostate cancer cell proliferation in vitro",
+          "Knockout of ARID4A promoted prostate cancer cell migration in vitro",
+          "Knockout of ARID4A promoted prostate cancer cell invasion in vitro"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "TDP-43 gains function due to perturbed autoregulation in a Tardbp knock-in mouse model of ALS-FTD. (PMID: 29556029)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Downregulation of Arid4a was associated with improved behavioral phenotype in TDP-43Q331K knock-in mice",
+          "Arid4a identified as a candidate suppressor of neurodegeneration based on transcriptomic stratification by phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "ARID4A and ARID4B regulate male fertility, a functional link to the AR and RB pathways. (PMID: 23487765)",
+        "evidence_subtype": "function",
+        "summary": "ARID4A and ARID4B function as transcriptional coactivators for androgen receptor (AR) and retinoblastoma protein (RB) in Sertoli cells. Mice with Arid4a(-/-)Arid4b(+/-) showed spermatogenic arrest, blood-testis barrier disruption, hypogonadism, and seminal vesicle agenesis, phenocopying Sertoli cell-specific AR and RB knockouts. Several AR- and RB-responsive genes were identified as downstream targets of ARID4A and ARID4B.",
+        "sample_size": "Arid4a(-/-)Arid4b(+/-) mouse model",
+        "significance": null
+      },
+      {
+        "citation": "Identification of chromatin remodeling genes Arid4a and Arid4b as leukemia suppressor genes. (PMID: 18728284)",
+        "evidence_subtype": "function",
+        "summary": "Arid4a-deficient mice progressed from ineffective hematopoiesis to CMML-like myelodysplastic/myeloproliferative disorder and then to AML; 10/12 Arid4a(-/-)Arid4b(+/-) mice developed AML. Loss of Arid4a reduced expression of Hox genes (Hoxb3, Hoxb5, Hoxb6, Hoxb8) and FoxP3 in bone marrow, and caused marked increases in histone trimethylation of H3K4, H3K9, and H4K20. These findings identify ARID4A as a leukemia suppressor gene acting through epigenetic chromatin remodeling.",
+        "sample_size": "42 Arid4a(-/-) mice, 12 Arid4a(-/-)Arid4b(+/-) mice",
+        "significance": "95% CI reported for histone trimethylation fold increases"
+      },
+      {
+        "citation": "Deficiency of Rbbp1/Arid4a and Rbbp1l1/Arid4b alters epigenetic modifications and suppresses an imprinting defect in the PWS/AS domain. (PMID: 17043311)",
+        "evidence_subtype": "pathway",
+        "summary": "ARID4A (RBBP1) interacts with ARID4B and with the Snrpn promoter as part of an epigenetic complex regulating genomic imprinting at the PWS/AS domain. Combined Arid4a homozygous and Arid4b heterozygous deficiency reduced trimethylation of H4K20 and H3K9 and reduced DNA methylation at the PWS-IC, shifting the maternal allele toward a paternal epigenotype. Mutations in Arid4a, Arid4b, or Rb suppressed an Angelman syndrome imprinting defect caused by an AS-IC mutation.",
+        "sample_size": "Mouse knockout models",
+        "significance": null
+      },
+      {
+        "citation": "Arid4a Suppresses Breast Tumor Metastasis by Enhancing MTSS1 Expression via mRNA Stability. (PMID: 40066676)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ARID4A functions as an RNA-binding protein (RBP) that stabilizes metastasis-suppressing transcripts including MTSS1, TIMP2, Rb1, and PTEN by binding conserved structural RNA elements in their 3'UTRs. Gain-of-function and silencing experiments in breast cancer cells confirmed that ARID4A inhibits tumor metastasis in vitro and in vivo, and its ARID domain is required for mRNA stabilization. Low ARID4A expression correlated with poor prognosis in breast cancer patients.",
+        "sample_size": "In vitro and in vivo (xenograft) models; human breast tumor tissue samples",
+        "significance": null
+      },
+      {
+        "citation": "Alterations of BRMS1-ARID4A interaction modify gene expression but still suppress metastasis in human breast cancer cells. (PMID: 18211900)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ARID4A interacts with the metastasis suppressor BRMS1 as part of SIN3-histone deacetylase chromatin remodeling complexes in human breast cancer cells. BRMS1 mutants that disrupted direct ARID4A interaction altered transcriptional repression profiles and differentially regulated osteopontin and EGFR expression. Despite altered complex composition, metastasis suppression was retained in MDA-MB-231 and MDA-MB-435 xenograft models.",
+        "sample_size": "MDA-MB-231 and MDA-MB-435 human breast cancer cell lines; xenograft models",
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of ARID4A and ARID4B promote tumor progression and directly regulated by microRNA-30d in patient with prostate cancer. (PMID: 29797600)",
+        "evidence_subtype": "expression",
+        "summary": "ARID4A is significantly downregulated in prostate cancer tissues with high Gleason scores, PSA failure, and short biochemical recurrence-free survival, and is a direct target of miR-30d. miR-30d expression was negatively correlated with ARID4A mRNA (Pearson r = -0.313, P = 0.001), while ARID4A and ARID4B were positively correlated (r = 0.865, P < 0.001). Knockout of ARID4A in prostate cancer cells promoted proliferation, migration, and invasion in vitro, supporting a tumor suppressor role.",
+        "sample_size": "Prostate cancer tissue cohort (n not specified in abstract)",
+        "significance": "P = 0.001 (miR-30d vs ARID4A correlation); P = 0.005 (Gleason score)"
+      },
+      {
+        "citation": "miR-376c promotes carcinogenesis and serves as a plasma marker for gastric carcinoma. (PMID: 28486502)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ARID4A is a direct target of miR-376c in gastric carcinoma; miR-376c is upregulated in tumor tissue and suppresses ARID4A expression. Knockdown of endogenous ARID4A increased oncogenicity (proliferation, migration, anchorage-independent growth) of gastric carcinoma cells, while ARID4A mRNA was drastically downregulated in tumor tissue. miR-376c and ARID4A mRNA levels showed opposing expression patterns in tumor tissue.",
+        "sample_size": "Gastric carcinoma patient tissue samples and cell lines",
+        "significance": null
+      },
+      {
+        "citation": "A novel heterozygous missense variant of the ARID4A gene identified in Han Chinese families with schizophrenia-diagnosed siblings that interferes with DNA-binding activity. (PMID: 35365808)",
+        "evidence_subtype": "function",
+        "summary": "A novel heterozygous missense variant ARID4A c.1231C>G (p.His411Asp) was identified by whole-exome sequencing in Han Chinese families with schizophrenia. Crystal structure of the PWWP-ARID tandem domain revealed a supramodule assembly; the p.His411Asp mutant adopted a less compact conformation with weaker dsDNA-binding. The mutation decreased G0-G1 cell cycle arrest and promoted HEK293T cell proliferation, suggesting ARID4A is a susceptibility gene for schizophrenia.",
+        "sample_size": "Han Chinese families with schizophrenia; HEK293T cell experiments",
+        "significance": null
+      },
+      {
+        "citation": "Reactive oxygen species mediate microRNA-302 regulation of AT-rich interacting domain 4a and C-C motif ligand 5 expression during transitions between quiescence and proliferation. (PMID: 22732186)",
+        "evidence_subtype": "expression",
+        "summary": "ARID4A mRNA is a direct target of miR-302, which is decreased ~4-fold during quiescence in normal human fibroblasts; reduced miR-302 leads to increased ARID4A expression. Ionizing radiation and hydrogen peroxide decreased miR-302 levels with a corresponding increase in ARID4A mRNA, identifying ARID4A as an ROS-sensitive gene. Overexpression of miR-302 suppressed ARID4A mRNA and increased the percentage of S-phase cells, linking ARID4A regulation to cell cycle control.",
+        "sample_size": "Normal human fibroblasts",
+        "significance": "4-fold decrease in miR-302 during quiescence"
+      },
+      {
+        "citation": "ASHG 2017 - ARID4A de novo variants identified by exome sequencing among individuals with neurodevelopmental disorders. (K.G. Monaghan et al.)",
+        "evidence_subtype": "other",
+        "summary": "Trio-based clinical exome sequencing of 11,649 probands with neurodevelopmental disorders identified de novo ARID4A variants (1 frameshift, 5 missense) in 6 unrelated individuals. All 6 had developmental delays and behavioral abnormalities; common features included autism (4/6), tone abnormalities (4/6), developmental regression (3/6), and brain anomalies on MRI (2/4 tested). These findings suggest de novo ARID4A variants are associated with a neurodevelopmental syndrome including intellectual disability, autism, and brain structural anomalies, consistent with a haploinsufficiency mechanism.",
+        "sample_size": "6 individuals identified from 11,649 probands",
+        "significance": null
+      }
+    ]
+  }
+}

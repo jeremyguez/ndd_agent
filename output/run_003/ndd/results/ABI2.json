@@ -1,0 +1,193 @@
+{
+  "articles_found": {
+    "clinical": 20,
+    "model_organism": 17,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Missense ABI2 variants linked to a neurodevelopmental disorder with intellectual disability, epilepsy, hypoplasia of the corpus callosum, and white matter abnormalities (PMID: 40475134)",
+        "num_patients": 8,
+        "variants": [
+          {
+            "description": "p.Tyr491Cys (recurrent, in SH3 domain)",
+            "type": "missense",
+            "phenotypes": [
+              "severe neurodevelopmental delay",
+              "moderate to severe motor delay",
+              "absent or delayed expressive language",
+              "intellectual disability",
+              "seizures",
+              "autistic traits",
+              "macrocephaly",
+              "thinning of the corpus callosum",
+              "white matter signal abnormalities"
+            ]
+          },
+          {
+            "description": "additional heterozygous ABI2 missense variants (not individually specified beyond p.Tyr491Cys)",
+            "type": "missense",
+            "phenotypes": [
+              "severe neurodevelopmental delay",
+              "moderate to severe motor delay",
+              "absent or delayed expressive language",
+              "intellectual disability",
+              "seizures",
+              "autistic traits",
+              "macrocephaly",
+              "thinning of the corpus callosum",
+              "white matter signal abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo occurrence in cases where parental testing was available; variants in highly conserved SH3 domain; identified through exome sequencing and international collaboration; recurrence of p.Tyr491Cys in six unrelated individuals",
+        "center_country": "International collaboration (multiple centers)",
+        "cohort": null
+      },
+      {
+        "citation": "Mapping autosomal recessive intellectual disability: combined microarray and exome sequencing identifies 26 novel candidate genes in 192 consanguineous families (PMID: 28397838)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "ABI2 loss-of-function mutation (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "non-syndromic intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified via homozygosity-by-descent mapping and whole exome sequencing in consanguineous families; ABI2 listed among 26 novel ARID candidate genes with loss-of-function mutations",
+        "center_country": "Pakistan and Iran (consanguineous families)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "ABI2-deficient mice exhibit defective cell migration, aberrant dendritic spine morphogenesis, and deficits in learning and memory (PMID: 15572692)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Defective secondary lens fiber orientation and migration in the eye",
+          "No detectable defects in proliferation, differentiation, or apoptosis in the lens",
+          "Abi2 localized at adherens junctions in developing lens",
+          "Downregulation of WAVE actin-nucleation promoting factor upon Abi loss",
+          "Impaired adherens junction formation",
+          "Cell migration defects in the neocortex and hippocampus",
+          "Abnormal dendritic spine morphology and density",
+          "Severe deficits in short-term memory",
+          "Severe deficits in long-term memory"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Analysis of genome-wide knockout mouse database identifies candidate ciliopathy genes (PMID: 36456625)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ocular abnormalities",
+          "Renal or reproductive trait abnormalities",
+          "Histological and morphological evidence of ciliopathy-like phenotypes",
+          "Candidate ciliopathy gene based on protein interaction with known ciliopathy proteins"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The thyroid hormone responsive protein (THRP) has a critical role in the embryogenesis of Xenopus laevis (PMID: 21095221)",
+        "organism": "Xenopus",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Overexpression of THRP (Abi-2 ortholog) halted growth in early neurulation in most animals",
+          "Few surviving animals developed into grossly malformed tadpoles",
+          "Control animals reached late embryonic stage 25",
+          "Overexpression not compatible with completion of early embryogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Regulators of PP2C phosphatase activity function as abscisic acid sensors (PMID: 19407143)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ABI2 (a type 2C protein phosphatase) was identified as a negative regulator of ABA responses in Arabidopsis. RCAR1 was shown to bind ABA and mediate ABA-dependent inactivation of ABI2 in vitro, and other RCARs also mediated ABA-dependent regulation of ABI2, consistent with combinatorial assembly of receptor complexes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The ABI1 and ABI2 protein phosphatases 2C act in a negative feedback regulatory loop of the abscisic acid signalling pathway (PMID: 11208021)",
+        "evidence_subtype": "function",
+        "summary": "ABI2 encodes a protein serine/threonine phosphatase 2C (PP2C) that acts as a negative regulator of ABA signaling in Arabidopsis. A reduction-of-function allele (abi2-1R1) with ~100-fold lower phosphatase activity, combined with a loss-of-function ABI1 allele, produced plants more responsive to ABA than either single mutant. PP2C activity of ABI2 increases in response to ABA, indicating ABI2 acts in a negative feedback regulatory loop.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ABI INSENSITIVE 2 promotes flowering by inhibiting OST1/ABI5-dependent FLOWERING LOCUS C transcription in Arabidopsis (PMID: 38280208)",
+        "evidence_subtype": "function",
+        "summary": "ABI2 is the only phosphatase from the ABA-signaling core that positively regulates flowering transition in Arabidopsis; loss-of-function abi2-2 mutants show significantly delayed flowering under both long and short day conditions. ABI2 promotes flowering by dephosphorylating ABI5, reducing its stability and capacity to induce FLC expression. OST1 and ABI5 loss-of-function mutations are epistatic to abi2-2, rescuing the late-flowering phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phytocytokine signalling reopens stomata in plant immunity and water loss (PMID: 35508659)",
+        "evidence_subtype": "pathway",
+        "summary": "SCREW peptides sensed by the NUT receptor kinase trigger NUT-dependent phosphorylation of ABI2 (and ABI1), increasing ABI2 phosphatase activity toward OST1 kinase and reducing S-type anion channel activity, thereby promoting stomatal reopening. This places ABI2 as a key node linking immune phytocytokine signaling to ABA-mediated stomatal regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ethylene antagonizes ABA responses in stomatal movement and seed germination by upregulating ABI1 and ABI2 at both the transcript and protein levels (PMID: 40811817)",
+        "evidence_subtype": "function",
+        "summary": "Ethylene upregulates ABI2 gene expression and protein accumulation in the presence of ABA via the EIN2-EIN3 signaling pathway, with ethylene-responsive factors directly regulating ABI2 transcription. Ethylene also enhances ABI2 protein stability by inhibiting ABA-induced degradation. Loss-of-function abi2 mutants demonstrate that ABI2 is a principal PP2C mediating ethylene-ABA crosstalk in stomatal movement and seed germination.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PIM1 phosphorylates ABI2 to enhance actin dynamics and promote tumor invasion (PMID: 37042842)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In prostate cancer cells, ABI2 (Abl-interactor 2) was identified as a PIM1 kinase substrate via unbiased proteomics; phosphorylation of ABI2 at Ser183 by PIM1 increased ABI2 protein levels and enhanced Wave Regulatory Complex (WRC) formation, resulting in increased protrusive activity and cell motility. Cell protrusion induced by hypoxia and/or PIM1 was dependent on ABI2, and in vivo smooth muscle invasion assays showed PIM1 overexpression increased tumor invasion depth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ABI2-deficient mice exhibit defective cell migration, aberrant dendritic spine morphogenesis, and deficits in learning and memory (PMID: 15572692)",
+        "evidence_subtype": "other",
+        "summary": "Homozygous deletion of murine Abi2 caused defective secondary lens fiber migration, cell migration defects in the neocortex and hippocampus, abnormal dendritic spine morphology and density, and severe deficits in short- and long-term memory. Abi2 localizes to adherens junctions and dendritic spines, and its loss correlated with downregulation of the Wave actin-nucleation promoting factor, supporting a role in cytoskeletal dynamics critical for intercellular connectivity and cognitive function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of ABI2 ubiquitination-dependent degradation suppresses TNBC cell growth via down-regulating PI3K/Akt signaling pathway (PMID: 38937761)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ABI2 is expressed at low levels in triple-negative breast cancer (TNBC) tumors and functions as a tumor suppressor by controlling cell cycle and inhibiting TNBC cell migration, invasion, and proliferation. E3 ligase CBLC promotes ubiquitination-dependent degradation of ABI2, and ABI2 inhibits the PI3K/Akt signaling pathway through interaction with Rho GTPase RAC1. FDA-approved drug Colistimethate sodium was identified as suppressing TNBC proliferation by targeting ABI2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of ABI2 expression by EBV-miR-BART13-3p induces epithelial-mesenchymal transition of nasopharyngeal carcinoma cells through upregulation of c-JUN/SLUG signaling (PMID: 31907338)",
+        "evidence_subtype": "cell_culture",
+        "summary": "EBV-miR-BART13-3p directly targets ABI2 in nasopharyngeal carcinoma (NPC) cells, reducing ABI2 expression and driving epithelial-mesenchymal transition (EMT) via activation of c-JUN/SLUG signaling. Silencing ABI2 phenocopied EBV-miR-BART13-3p overexpression (increased migration and invasion), while reconstitution of ABI2 reversed these effects. ABI2 expression levels in NPC tissue samples correlated with N stages of NPC patients.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - GxG interactions potentially account for the blood pressure linkage peak on chromosome 2 in the Old Order Amish (Montasser et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "In a fine-mapping study of a diastolic blood pressure QTL on chromosome 2q31-34 in 762 Old Order Amish individuals, intronic SNPs in ABI2 were among 19 SNPs showing gene-by-gene interaction evidence. A combination of 6 SNP pairs (including the ABI2 intronic SNP) accounted for 18% of total DBP variation and reduced the linkage LOD score by 85%.",
+        "sample_size": "762",
+        "significance": "LOD score reduced by up to 34% per pair; combination reduced LOD by 85%"
+      }
+    ]
+  }
+}

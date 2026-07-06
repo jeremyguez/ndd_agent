@@ -1,0 +1,124 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 10,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "SOBP is mutated in syndromic and nonsyndromic intellectual disability and is highly expressed in the brain limbic system (PMID: 21035105)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "truncating mutation in SOBP (specific notation not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "anterior maxillary protrusion",
+              "strabismus",
+              "MRAMS syndrome",
+              "temporal lobe epilepsy",
+              "psychosis",
+              "subclinical cochlear hearing loss"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Truncating mutation segregating with syndromic and nonsyndromic intellectual disability in the same family; autosomal recessive inheritance; functional studies in mouse model (jc/jc) supporting pathogenicity",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Sobp modulates the transcriptional activation of Six1 target genes and is required during craniofacial development (PMID: 34414417)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Disrupted formation of ectodermal domains at neural plate stages",
+          "Disrupted otic vesicle development",
+          "Craniofacial cartilage defects",
+          "Altered pre-placodal ectoderm formation",
+          "Disruption of neural border and placode gene expression domains"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Sobp modulates the transcriptional activation of Six1 target genes and is required during craniofacial development. (PMID: 34414417)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Co-immunoprecipitation and immunofluorescence experiments demonstrate that Sobp binds to and colocalizes with Six1 in the cell nucleus. Luciferase assays show that Sobp interferes with the transcriptional activation of Six1+Eya1 target genes, indicating Sobp acts as a modulator of Six1 transcriptional activity. Sobp is thus identified as a potential co-factor in the Six1/Eya1 pathway relevant to Branchio-oto-renal syndrome.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sobp modulates the transcriptional activation of Six1 target genes and is required during craniofacial development. (PMID: 34414417)",
+        "evidence_subtype": "other",
+        "summary": "In Xenopus embryos, knockdown or overexpression of Sobp disrupts formation of ectodermal domains at neural plate stages, impairs otic vesicle development, and causes craniofacial cartilage defects. Expression of a Xenopus Sobp construct carrying a human disease variant disrupts the pre-placodal ectoderm similarly to full-length Sobp but with distinct additional changes. These results establish Sobp as required for vertebrate craniofacial development and as a candidate gene for Branchio-oto-renal syndrome.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOBP is mutated in syndromic and nonsyndromic intellectual disability and is highly expressed in the brain limbic system. (PMID: 21035105)",
+        "evidence_subtype": "expression",
+        "summary": "In situ RNA expression studies in postnatal mouse brain showed strong SOBP expression in the limbic system during the period of active synaptogenesis, a pattern unusual among genes mutated in intellectual disability. SOBP encodes a nuclear zinc finger protein, and its expression in limbic circuits suggests a role in learning, memory, and affective behavior.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOBP is mutated in syndromic and nonsyndromic intellectual disability and is highly expressed in the brain limbic system. (PMID: 21035105)",
+        "evidence_subtype": "function",
+        "summary": "A truncating mutation in SOBP was identified as the cause of both syndromic (MRAMS syndrome with anterior maxillary protrusion and strabismus) and nonsyndromic intellectual disability with psychosis in the same family. Proteomic comparison of +/jc versus jc/jc mouse brains identified 24 proteins with >1.5-fold expression differences, including dynamin and pacsin1, implicating SOBP in neuronal protein networks. One patient also exhibited subclinical cochlear hearing loss, consistent with SOBP's known role in cochlear development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Jxc1/Sobp, encoding a nuclear zinc finger protein, is critical for cochlear growth, cell fate, and patterning of the organ of corti. (PMID: 18579736)",
+        "evidence_subtype": "function",
+        "summary": "The mouse Jxc1/Sobp gene encodes a nuclear protein with two FCS-type zinc finger domains and nuclear localization signals; wild-type protein localizes to the nucleus while mutant isoforms are mislocalized to the cytoplasm. In jc (Jackson circler) mutant mice, cochlear duct growth arrests at E13.5, and the organ of Corti shows supernumerary hair cells, mirror-image duplications, and ectopic vestibular-like hair cells. These findings establish Jxc1/Sobp as critical for cochlear growth, cell fate determination, and patterning of the organ of Corti.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Jxc1/Sobp, encoding a nuclear zinc finger protein, is critical for cochlear growth, cell fate, and patterning of the organ of corti. (PMID: 18579736)",
+        "evidence_subtype": "expression",
+        "summary": "Jxc1/Sobp mRNA was detected in inner ear sensory hair cells, supporting cells, and acoustic ganglia in mice. Expression was also found in the developing retina, olfactory epithelium, trigeminal ganglion, and hair follicles, indicating broad expression in sensory organs during development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Recurrent intragenic exon rearrangements of SOBP and AUTS2 in non-Hodgkin B-cell lymphoma. (PMID: 31686349)",
+        "evidence_subtype": "other",
+        "summary": "Intragenic exon rearrangements (IERs) involving SOBP exons 2 and 3 (at chromosomal locus 6q21) were identified as tumor-specific molecular lesions in non-Hodgkin B-cell lymphoma (B-NHL). These SOBP IERs were frequently detected across multiple B-NHL samples, suggesting they may contribute to tumorigenesis and serve as potential genetic biomarkers for B-NHL.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of MEG8/miR-378d/SOBP axis as a novel regulatory network and associated with immune infiltrates in ovarian carcinoma by integrated bioinformatics analysis. (PMID: 33742531)",
+        "evidence_subtype": "pathway",
+        "summary": "Integrated bioinformatics analysis of ovarian cancer datasets identified lower SOBP expression as an independent prognostic factor for inferior prognosis. Downregulation of SOBP was associated with enhanced infiltration of B cells, CD8+ T cells, macrophages, neutrophils, and dendritic cells, and GSEA linked low SOBP to activation of immune-related pathways. A novel MEG8/miR-378d/SOBP regulatory axis was proposed, whereby this lncRNA-miRNA-mRNA network affects ovarian cancer progression through cytokine pathway regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chicken sine oculis binding protein homolog (sobp), a novel gene that may regulate feather development. (PMID: 22802190)",
+        "evidence_subtype": "expression",
+        "summary": "In chickens, sobp mRNA (~5 kb) and SOBP protein (~96 kDa) are expressed in many tissues and continuously throughout embryonic development. Expression is higher in the dorsal skin and feather follicle of White Leghorn compared to Chinese Silky chickens, suggesting sobp may regulate distinct feather type development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zmym2 Alters Expression of Key Craniofacial Genes. (PMID: 40448369)",
+        "evidence_subtype": "function",
+        "summary": "Zmym2 was identified based on sequence similarity to domains found in Sobp (sine oculis-binding protein), a bona fide Six1 co-factor. Unlike Sobp, Zmym2 did not co-immunoprecipitate with Six1 and did not affect Six1+Eya1 transcriptional activity in cultured cells, but overexpression in Xenopus embryos indirectly antagonized Six1 function during cranial placode development. This study contextualizes Sobp's unique role as a genuine Six1 interactor by contrast with the non-interacting Zmym2.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

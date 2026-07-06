@@ -1,0 +1,298 @@
+{
+  "articles_found": {
+    "clinical": 22,
+    "model_organism": 21,
+    "biological": 27
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2022 - Systematic analysis of nonsense-mediated decay escaping protein-truncating variants in 97,728 clinical exomes identifies new Mendelian disease genes (R. Torene et al.)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "PTVesc de novo mutations (protein-truncating variants escaping nonsense-mediated decay, specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "syndromic neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo protein-truncating variants escaping NMD; statistically enriched in NDD cohort; HDAC2 is a histone modifier, a known mechanism of NDD pathogenesis; high phenotypic similarity among cases",
+        "center_country": "GeneDx, USA",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2015 - Aggregated analysis of developmental disorders reveals novel risk genes and improves genetic diagnosis (K. Retterer et al.)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Likely gene disrupting (LGD) or damaging missense de novo variants (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "undiagnosed developmental disorder",
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo rare variants identified in NDD patients; gene reached statistical significance (FDR < 0.1) as candidate risk gene; plausible mechanism via histone modification",
+        "center_country": "GeneDx, USA",
+        "cohort": null
+      },
+      {
+        "citation": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants (PMID: 35468861)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "De novo SNVs and/or CNVs (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Statistically significant enrichment of de novo deleterious variants in NDD cases (5% FDR); identified as high-confidence candidate NDD gene with >90% true-positive probability by deep learning model; functional similarity to known NDD genes",
+        "center_country": null,
+        "cohort": "DDD"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Neuronal susceptibility to beta-amyloid toxicity and ischemic injury involves histone deacetylase-2 regulation of endophilin-B1. (PMID: 30028551)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced brain injury in middle cerebral artery occlusion with reperfusion (MCAO/R) model of cerebral ischemia",
+          "Enhanced neuronal survival after ischemia",
+          "Minimized loss of Endophilin-B1 (Endo-B1) expression",
+          "Normalized expression of mitofusin2 (Mfn2) after ischemia",
+          "Enhanced Endo-B1 expression in knockout neurons",
+          "Prevention of beta-amyloid-induced loss of histone H3 acetylation (in knockdown experiments)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC2 Facilitates Pancreatic Cancer Metastasis. (PMID: 34903606)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Impaired metastasis formation of HDAC2-deficient pancreatic ductal adenocarcinoma (PDAC) cells in vivo",
+          "Reduced cell cycle progression in vitro",
+          "Altered expression of prosurvival receptor tyrosine kinases (PDGFR\u03b1, PDGFR\u03b2, EGFR)",
+          "Disabled tumor-suppressive arm of TGF\u03b2 pathway",
+          "Reduced capacity for systemic dissemination in undifferentiated mesenchymal PDAC cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC2 enhances the antimicrobial activity of neutrophils by promoting the formation of neutrophil extracellular traps (NETs) in sepsis. (PMID: 40850685)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced inflammation in non-infectious (LPS-induced) sepsis",
+          "Improved organ function in non-infectious sepsis",
+          "Decreased survival in infectious (CLP-induced) sepsis",
+          "Significantly reduced neutrophil extracellular trap (NET) formation",
+          "Impaired antimicrobial activity against E. coli infection",
+          "Reduced H3R17 citrullination in neutrophils",
+          "Altered histone modifications (H3K18 acetylation changes)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Down-regulation of histone deacetylase 2 attenuates ventricular arrhythmias in a mouse model of cardiac hypertrophy through up-regulation of Kv channel-interacting protein 2 expression. (PMID: 39870585)",
+        "organism": "rat",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Heart-specific knockdown (HKD) of HDAC2 increased fast transient outward K+ current (Ito,f) in cardiomyocytes",
+          "Shortened action potential duration (APD)",
+          "Decreased susceptibility to ventricular arrhythmia in TAC (transverse aortic constriction) model",
+          "Increased KChIP2 (Kv channel-interacting protein 2) expression",
+          "Increased H3K4me3 abundance at Kcnip2 promoter",
+          "Decreased KDM5 (H3K4me3 demethylase) expression",
+          "Increased CNOT4 expression and CNOT4-KDM5 interactions leading to KDM5 degradation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC1 acts as a tumor suppressor in ALK-positive anaplastic large cell lymphoma: implications for HDAC inhibitor therapy. (PMID: 40175628)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "T cell-specific deletion of Hdac2 significantly accelerated NPM::ALK-driven lymphomagenesis in ALCL mouse model",
+          "Accelerated lymphoma development compared to controls",
+          "Perturbed T cell differentiation and signaling transcriptional programs",
+          "Upregulation of multiple oncogenic signaling pathways"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC1 Regulates Neuronal Differentiation. (PMID: 35095417)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Conditional deletion of HDAC2 in neural stem cells (Nestin+ cells) impairs neuronal differentiation in adult hippocampus",
+          "HDAC2 expressed in all cellular stages during hippocampal neurogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NUCKS1 promotes invasion and metastasis of colorectal cancer by stabilizing HDAC2 and activating AKT. (PMID: 40527876)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "HDAC2 knockdown suppressed NUCKS1 overexpression-induced lung and liver metastasis in nude mouse tail vein injection model",
+          "Reduced CRC cell metastasis to lung and liver"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of HDAC2 sensitises antitumour therapy by promoting NLRP3/GSDMD-mediated pyroptosis in colorectal cancer. (PMID: 38804602)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "HDAC2 knockout promotes H3K27ac-mediated recruitment of BRD4-p-P65 complex to enhance NLRP3 transcription",
+          "Increased chromatin accessibility at NLRP3 promoter",
+          "Enhanced pyroptosis in CRC xenograft-bearing animals when combined with antitumour agents"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC2-mediated recruitment of METTL3 to chromatin regulates human embryonic stem cell differentiation. (PMID: 41066234)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "HDAC2 knockout reduces METTL3 chromatin binding",
+          "Reduced m6A levels on HDAC2 target genes linked to lineage differentiation",
+          "Significantly impaired human embryonic stem cell differentiation",
+          "Decreased RNA stability and translation of target genes",
+          "Disrupted stem cell lineage differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Epigenetic Reader PHF23 Is Required for Embryonic Neurogenesis. (PMID: 40447447)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "PHF23 knockout results in cortical developmental defects due to differentiation blockade of radial glial cells (RGCs)",
+          "PHF23 binds HDAC2 and inhibits its deacetylation activity on H3K27ac, promoting neuronal differentiation gene expression (Tcf4, Eya1)",
+          "Loss of PHF23-HDAC2 interaction leads to impaired neurogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "HDAC2 promotes autophagy-associated HCC malignant progression by transcriptionally activating LAPTM4B (PMID: 39147759)",
+        "evidence_subtype": "function",
+        "summary": "HDAC2 expression is elevated in HCC tissues and is an independent predictor of poor prognosis. HDAC2 binds to four distinct sites on the LAPTM4B promoter to transcriptionally activate it, thereby promoting autophagy and malignant progression in HCC. Selective HDAC2 inhibition alleviated malignant HCC development in vitro and in vivo.",
+        "sample_size": "105 human HCC samples",
+        "significance": "multivariate Cox regression, independent predictor"
+      },
+      {
+        "citation": "HDAC2 Facilitates Pancreatic Cancer Metastasis (PMID: 34903606)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using genetically defined models, HDAC2 was shown to be a cellular fitness factor controlling cell cycle in vitro and metastasis in vivo, particularly in undifferentiated mesenchymal PDAC cells. HDAC2 maintained expression of prosurvival receptor tyrosine kinases (PDGFR\u03b1, PDGFR\u03b2, EGFR) and disabled the tumor-suppressive arm of the TGF\u03b2 pathway. HDAC2-deficient PDAC cells showed impaired metastasis formation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuronal susceptibility to beta-amyloid toxicity and ischemic injury involves histone deacetylase-2 regulation of endophilin-B1 (PMID: 30028551)",
+        "evidence_subtype": "expression",
+        "summary": "HDAC2 is highly expressed in adult brain and its levels are elevated in Alzheimer's disease brain. HDAC2 suppresses neuron-specific Endophilin-B1 (Endo-B1) expression; HDAC2 knockdown or knockout enhances Endo-B1 expression while overexpression decreases it. HDAC2 knockout mice showed reduced injury in a cerebral ischemia model, with enhanced neuronal survival and normalized mitochondrial dynamics genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "YTHDC1 is downregulated by the YY1/HDAC2 complex and controls the sensitivity of ccRCC to sunitinib by targeting the ANXA1-MAPK pathway (PMID: 35974388)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "HDAC2 forms a complex with the transcription factor YY1 to transcriptionally repress YTHDC1 in clear cell renal cell carcinoma. This YY1/HDAC2/YTHDC1/ANXA1 axis modulates ccRCC progression and chemosensitivity to sunitinib. HDAC2 inhibitors were shown to resensitize ccRCC cells to tyrosine kinase inhibitors.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HRD1-mediated ubiquitination of HDAC2 regulates PPAR\u03b1-mediated autophagy and alleviates metabolic-associated fatty liver disease (PMID: 38815686)",
+        "evidence_subtype": "pathway",
+        "summary": "HDAC2 acts as a transcriptional repressor of PPAR\u03b1 by binding to its promoter, thereby suppressing autophagy in hepatocytes under hypoxic conditions. The E3 ubiquitin ligase HRD1 mediates proteasomal degradation of HDAC2, relieving PPAR\u03b1 repression and restoring autophagy. This HRD1/HDAC2/PPAR\u03b1 axis was validated in a hypoxia-induced MAFLD mouse model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PIM1-HDAC2 axis modulates intestinal homeostasis through epigenetic modification (PMID: 39027246)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PIM1 kinase physically interacts with HDAC2 and downregulates its protein level via phosphorylation in colonic epithelial cells. This PIM1-mediated reduction of HDAC2 alters epigenetic profiles of Wnt signaling pathway genes, impairing goblet cell differentiation and promoting susceptibility to colitis and colitis-associated colorectal cancer. The findings were validated in ulcerative colitis patient samples and murine models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CoREST3 exhibits isoform specific expression in Alzheimer's disease and regulation of HDAC2 (PMID: 40817058)",
+        "evidence_subtype": "expression",
+        "summary": "HDAC2 protein levels were significantly decreased by >50% in the superior temporal gyrus, precuneus, and primary visual cortex of Alzheimer's disease post mortem brain tissue. CoREST3 binds upstream of the HDAC2 transcription start site in iPSC-derived cortical neurons and regulates HDAC2 in an isoform-specific manner: CoREST3 isoform A overexpression increased HDAC2 protein twofold, while isoform F reduced it by 48%. Dysregulated CoREST3 expression in AD may contribute to altered HDAC2 levels involved in AD pathogenesis.",
+        "sample_size": null,
+        "significance": "p<0.01 (knockdown); p<0.05 (isoform A overexpression)"
+      },
+      {
+        "citation": "ASHG 2018 - Large-scale trans-ethnic genome-wide association study reveals novel loci, causal molecular mechanisms and effector genes for kidney function (A.P. Morris et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "Integration of eGFR GWAS signals with functional and regulatory annotation revealed that association signals were jointly enriched in binding sites for HDAC2 and EZH2 in kidney tissue. Class I histone deacetylases including HDAC2 are noted to be required for embryonic kidney gene expression, growth, and differentiation. This implicates HDAC2 binding sites as regulatory elements underlying genetic associations with kidney function.",
+        "sample_size": "up to 312,468 individuals",
+        "significance": "p<5x10-8 (genome-wide significance)"
+      },
+      {
+        "citation": "ASHG 2022 - Systematic analysis of nonsense-mediated decay escaping protein-truncating variants in 97,728 clinical exomes identifies new Mendelian disease genes (R. Torene et al.)",
+        "evidence_subtype": "other",
+        "summary": "Nine cases with syndromic neurodevelopmental disorders (NDD) carried protein-truncating variants that escape nonsense-mediated decay (PTVesc) de novo mutations in HDAC2, identifying it as a candidate NDD disease gene. HDAC2 is a histone modifier, a known mechanism of NDD pathogenesis, and was identified through systematic analysis of de novo mutations in clinical exomes. The finding suggests PTVesc in HDAC2 may act as a hypomorph, antimorph, or neomorph mechanism.",
+        "sample_size": "97,728 clinical exomes including 29,031 trios",
+        "significance": "binomial p<0.001"
+      },
+      {
+        "citation": "ASHG 2012 - Expression patterns of histone acetylation modifier genes in gastric cancer (F. Wisnieski et al.)",
+        "evidence_subtype": "expression",
+        "summary": "HDAC2 mRNA expression was significantly higher in primary gastric adenocarcinoma tumor tissue compared to adjacent non-tumor tissue by RT-qPCR. HDAC2 expression was also higher in intestinal-type than diffuse-type gastric cancer. These findings suggest HDAC2 may serve as a biomarker for gastric cancer diagnosis or a target for gene therapy.",
+        "sample_size": "38 matched gastric tumor and non-tumor tissue pairs",
+        "significance": "p=0.04"
+      }
+    ]
+  }
+}

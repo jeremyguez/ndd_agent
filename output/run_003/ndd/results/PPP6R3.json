@@ -1,0 +1,134 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 3,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "PPP6R3-mediated dephosphorylation regulates mRNA translation during spermatogonial differentiation (PMID: 40721635)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Abnormal spermatogonial differentiation",
+          "Male infertility",
+          "Translation inhibition in KIT+ spermatogonia",
+          "Decreased non-phosphorylated EIF3C and EIF4G1 levels",
+          "Increased phosphorylation and degradation of EIF3C and EIF4G1",
+          "Upregulated phosphorylation at EIF3CS39 and EIF4G1S1217",
+          "Reduced enrichment of differentiation-associated mRNAs on translation machinery"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of ppp6r3 in zebrafish gonadal differentiation and gametogenesis (PMID: 40962474)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "All mutant fish develop as male (sex ratio skewed to all-male)",
+          "Male infertility - unable to fertilize wild-type eggs",
+          "Blocked transition of spermatocytes to mature sperm",
+          "Disrupted spermatogenesis",
+          "Defects in gonadal differentiation and gametogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Removal of developmentally regulated microexons has a minimal impact on larval zebrafish brain morphology and function (PMID: 41252186)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Mild neural phenotypes in ppp6r3 microexon mutants",
+          "Altered larval brain activity (specific region not detailed beyond mild phenotype)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The protein phosphatase PP6 promotes RIPK1-dependent PANoptosis (PMID: 38807188)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PPP6R3, along with PPP6R1 and PPP6R2, acts as a regulatory subunit of the PP6 holoenzyme with redundant roles in regulating TAK1 inhibitor-induced PANoptosis; combined depletion of all three regulatory subunits was required to block cell death. Mechanistically, PPP6R3 and its paralogs promoted pro-death S166 auto-phosphorylation of RIPK1 and reduced pro-survival S321 phosphorylation. These findings were identified through a cell death-based CRISPR screen.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transcriptome-wide association study and eQTL colocalization identify potentially causal genes responsible for human bone mineral density GWAS associations (PMID: 36416764)",
+        "evidence_subtype": "other",
+        "summary": "PPP6R3 was identified as the gene with the strongest support from combined TWAS and eQTL colocalization analysis for bone mineral density (BMD) GWAS associations, and was not previously implicated in BMD regulation. Ppp6r3 deletion in mice decreased BMD, providing in vivo functional validation. This study demonstrates PPP6R3 as a putatively causal BMD GWAS gene.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of ppp6r3 in zebrafish gonadal differentiation and gametogenesis (PMID: 40962474)",
+        "evidence_subtype": "fly_worm",
+        "summary": "CRISPR/Cas9-generated ppp6r3 mutant zebrafish developed exclusively as males, indicating a role in gonadal sex determination. In the testes of mutants, the transition from spermatocytes to mature sperm was blocked, disrupting spermatogenesis. This establishes PPP6R3 as a regulator of germ cell differentiation and sex determination in zebrafish.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Interactome analysis of the influenza A virus transcription/replication machinery identifies protein phosphatase 6 as a cellular factor required for efficient virus replication (PMID: 25187537)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PPP6R3 was identified as one of three PP6 subunits (along with PPP6C and PPP6R1) that co-purified with the influenza A virus RNA-dependent RNA polymerase (RdRP) in infected human cells via affinity purification and mass spectrometry. PP6 was found to interact directly with the PB1 and PB2 subunits of the viral RdRP. siRNA-mediated knockdown of the PP6 catalytic subunit reduced viral RNA accumulation and attenuated virus growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Meta-Analysis of Genomewide Association Studies Reveals Genetic Variants for Hip Bone Geometry (PMID: 30888730)",
+        "evidence_subtype": "GWAS",
+        "summary": "A SNP near PPP6R3 (rs7102273) at chromosome 11q13 reached genome-wide significance for femoral neck geometry phenotypes in a meta-analysis of up to 18,719 individuals. The same SNP was associated with any-type fracture (p=7.5\u00d710\u207b\u2075) and was identified as an eQTL for PPP6R3 expression in bone transcriptome data (p=0.0007). This implicates PPP6R3 in hip bone geometry and fracture risk.",
+        "sample_size": "18719",
+        "significance": "p=0.0007 (eQTL); p=7.5\u00d710\u207b\u2075 (fracture)"
+      },
+      {
+        "citation": "Bivariate genome-wide association meta-analysis of pediatric musculoskeletal traits reveals pleiotropic effects at the SREBF1/TOM1L2 locus (PMID: 28743860)",
+        "evidence_subtype": "GWAS",
+        "summary": "A variant in the PPP6R3/LRP5 locus was identified as one of eight loci with pleiotropic effects on both total-body lean mass and total-body bone mineral density in a bivariate GWAS meta-analysis of 10,414 children. This locus was among seven established BMD loci showing shared genetic effects on lean mass. The finding highlights PPP6R3 as a candidate gene at this locus influencing musculoskeletal traits.",
+        "sample_size": "10414",
+        "significance": "p<5\u00d710\u207b\u2078"
+      },
+      {
+        "citation": "PPP6R3-USP6 amplification: Novel oncogenic mechanism in malignant nodular fasciitis (PMID: 27113271)",
+        "evidence_subtype": "other",
+        "summary": "A novel PPP6R3-USP6 gene fusion was identified in a case of malignant nodular fasciitis with multiple recurrences and metastatic behavior over 10 years. Amplification of this fusion resulted in transcriptional upregulation of USP6 mRNA, supporting an oncogenic role. This represents the first documented case of PPP6R3 involvement in a gene fusion driving malignant mesenchymal neoplasia.",
+        "sample_size": "1",
+        "significance": null
+      },
+      {
+        "citation": "AKIRIN1: A Potential New Reference Gene in Human Natural Killer Cells and Granulocytes in Sepsis (PMID: 31075840)",
+        "evidence_subtype": "expression",
+        "summary": "PPP6R3 was identified as a candidate reference gene in natural killer (NK) cells from patients with SIRS and sepsis, based on stable expression across disease conditions in microarray discovery and branched DNA assay validation. Its stable expression in NK cells under inflammatory conditions suggests constitutive expression in immune cell types. PPP6R3 was among several genes (AKIRIN1, TAX1BP1, ADRBK1) validated as potential reference genes in this context.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Removal of developmentally regulated microexons has a minimal impact on larval zebrafish brain morphology and function (PMID: 41252186)",
+        "evidence_subtype": "fly_worm",
+        "summary": "CRISPR/Cas9 deletion of a microexon in ppp6r3 in zebrafish resulted in mild neural phenotypes in larval brain activity or morphology assessments. This finding was part of a systematic screen of 45 microexons, with ppp6r3 being one of several genes showing subtle but notable phenotypes. The result suggests that the PPP6R3 microexon contributes to brain development or function in zebrafish.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2012 - The PPP6R3/LRP5 locus influences lean mass in children of different ethnic background and highlights pleiotropic effects on muscle-bone interactions",
+        "evidence_subtype": "expression",
+        "summary": "PPP6R3 is described as a gene of unknown function that is ubiquitously expressed across tissues, including bone and muscle. A GWAS SNP at the PPP6R3/LRP5 locus was genome-wide significantly associated with total body lean mass (p=2.9\u00d710\u207b\u2078) and nominally with BMD in 4,096 children. The authors note the difficulty in distinguishing whether the signal arises from PPP6R3 or LRP5 due to high regional LD.",
+        "sample_size": "4096",
+        "significance": "p=2.9\u00d710\u207b\u2078"
+      }
+    ]
+  }
+}

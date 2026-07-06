@@ -1,0 +1,95 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 0,
+    "biological": 8
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A Patient With Intellectual Disability, Agenesis of Corpus Callosum, and Congenital Heart Disease Associated With Chromosome 10p11.2 Microdeletion (PMID: 41622991)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Chromosome 10p11.23-p11.21 microdeletion (~4.2 Mb) including ZNF438",
+            "type": "other",
+            "phenotypes": [
+              "Intellectual disability",
+              "Agenesis of corpus callosum",
+              "Congenital heart disease"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Microdeletion identified in patient with developmental delay and multiple congenital anomalies; ZNF438 included in deleted region but phenotype attributed to haploinsufficiency of multiple genes (ZEB1, EPC1, KIF5B, NRP1) rather than ZNF438 specifically",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Identification of a novel human zinc finger gene, ZNF438, with transcription inhibition activity (PMID: 17669267)",
+        "evidence_subtype": "function",
+        "summary": "ZNF438 is a C2H2 type zinc finger protein containing five zinc finger domains that functions as a transcriptional repressor. Dual luciferase assay demonstrated transcriptional repression activity when ZNF438 was transfected into mammalian cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of a novel human zinc finger gene, ZNF438, with transcription inhibition activity (PMID: 17669267)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF438 is ubiquitously expressed across 18 human adult tissues as determined by RT-PCR analysis. The protein localizes to the nucleus when exogenously expressed as a Flag-tagged construct in COS-7 cells.",
+        "sample_size": "18 human adult tissues",
+        "significance": null
+      },
+      {
+        "citation": "DNA methylation and cardiovascular disease in humans: a systematic review and database of known CpG methylation sites (PMID: 36991458)",
+        "evidence_subtype": "GWAS",
+        "summary": "CpG site cg01656216 near ZNF438 was identified as one of only two CpG sites referenced in \u22656 publications in a systematic review of DNA methylation in cardiovascular disease, with associations to vascular disease and epigenetic age.",
+        "sample_size": "87,827 individuals across 99 studies",
+        "significance": null
+      },
+      {
+        "citation": "Investigating the shared genetic structure between rheumatoid arthritis and stroke (PMID: 39953635)",
+        "evidence_subtype": "GWAS",
+        "summary": "ZNF438 was identified as one of five common risk genes shared between rheumatoid arthritis and stroke through genome-wide association study and transcriptome-wide association analysis. These genes are involved in immune-inflammatory pathways.",
+        "sample_size": "8,255 RA cases, 409,001 controls, 43,132 stroke cases and controls",
+        "significance": "p = 0.0015 for chr2 region containing ZNF438"
+      },
+      {
+        "citation": "Comprehensive Analysis of a Zinc Finger Protein Gene-Based Signature with Regard to Prognosis and Tumor Immune Microenvironment in Osteosarcoma (PMID: 35281811)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ZNF438 was identified as one of seven prognosis-related zinc finger protein genes in osteosarcoma. Lower expression of ZNF438 was correlated with high risk and worse overall survival, and was associated with altered immune cell populations and immune function signatures.",
+        "sample_size": "osteosarcoma patient cohorts (internal and external validation)",
+        "significance": "Kaplan-Meier survival analysis showed lower ZNF438 expression associated with worse overall survival"
+      },
+      {
+        "citation": "Genome-wide DNA methylation investigation of glucocorticoid exposure within buccal samples (PMID: 30821055)",
+        "evidence_subtype": "GWAS",
+        "summary": "ZNF438 was identified as one of five genes with genome-wide significant DNA methylation changes (>10%) in buccal samples following synthetic glucocorticoid (dexamethasone) treatment in humans.",
+        "sample_size": "30 tooth extraction surgery patients receiving 10 mg dexamethasone",
+        "significance": "genome-wide significant DNAm changes >10%"
+      },
+      {
+        "citation": "Study of FN1 and ZNF438 gene expression negatively regulated by androgen receptor in androgen-independent LNCaP cells (PMID: 27122218)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ZNF438 is a negatively regulated target gene of the androgen receptor (AR) in androgen-independent LNCaP prostate cancer cells. ChIP-PCR confirmed AR binding to ZNF438, and DHT stimulation decreased ZNF438 expression while AR knockdown increased it.",
+        "sample_size": null,
+        "significance": "t(ZNF438)=128.377, P<0.05 for AR-ChIP enrichment; t(ZNF438)=5.905, P<0.05 for DHT effects; t(ZNF438)=3.184, P<0.05 for AR knockdown effects"
+      },
+      {
+        "citation": "[Spatial Organization of Chromatin of ZEB1 Gene Promoter Region in Pancreatic Ductal Adenocarcinoma Cells] (PMID: 41391024)",
+        "evidence_subtype": "function",
+        "summary": "ZNF438 is proposed as a candidate transcriptional repressor of the ZEB1 gene in pancreatic ductal adenocarcinoma cells based on chromatin conformation capture (4C-seq) analysis showing differential contact patterns between differentiated and poorly differentiated PDAC cells.",
+        "sample_size": "Capan2 and MIA PaCa2 PDAC cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Constructing a 10-core genes panel for diagnosis of pediatric sepsis (PMID: 33274532)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF438 was identified as one of the top 20 genes in the blue module of WGCNA co-expression analysis in pediatric sepsis, showing close correlation with disease and enrichment in neutrophil degranulation pathways.",
+        "sample_size": "three sepsis expression datasets (GSE13904, GSE25504, GSE26440)",
+        "significance": null
+      }
+    ]
+  }
+}

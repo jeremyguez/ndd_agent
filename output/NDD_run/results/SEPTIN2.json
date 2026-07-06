@@ -1,0 +1,193 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 7,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A functional role for septin-2 in the maintenance of the axon initial segment and in human cognitive development (PMID: 41408595)",
+        "num_patients": 6,
+        "variants": [
+          {
+            "description": "Multiple mutations in SEPTIN2 (specific variants not detailed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "cognitive impairment",
+              "neuronal polarity defects",
+              "axon initial segment dysfunction",
+              "axonal shortening",
+              "electrophysiological hypoexcitability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mutations found in five unrelated human individuals and one mother-daughter duo; predicted to cause dominant negative blockade on septin octamers by precluding Septin-2 homodimerization; loss of Ankyrin G in AIS and aberrant MAP2 localization observed in mutant-expressing neurons",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Hypoxia exposure impairs male fertility via inhibiting Septin2-mediated spermatogonial proliferation (PMID: 40487848)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "impaired spermatogenesis",
+          "reduced sperm quality",
+          "spermatogonial proliferation defects",
+          "G1-S phase arrest in spermatogonia",
+          "reduced fertility",
+          "altered testicular histopathology"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": "n=3-5 per intervention group for mechanistic studies; n=5 for hypoxic chamber model",
+        "significance": "p<0.05 (implied from study design)"
+      },
+      {
+        "citation": "SUN5 interacts with nuclear membrane LaminB1 and cytoskeletal GTPase Septin12 mediating the sperm head-and-tail junction (PMID: 38870534)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "acephalic spermatozoa syndrome (ASS)",
+          "decaudated sperm",
+          "decapitated sperm",
+          "malformed sperm",
+          "separation of sperm head and tail",
+          "disruption of head-to-tail junction",
+          "male infertility"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Folate-dependent methylation of septins governs ciliogenesis during neural tube closure (PMID: 28432198)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "neural tube defects (NTD)",
+          "impaired neural tube closure",
+          "ciliogenesis defects",
+          "abnormal cilium structure and function",
+          "disrupted septin2-6-7 complex formation",
+          "altered GTP binding activity of septin2"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutations in DZIP1L, which encodes a ciliary-transition-zone protein, cause autosomal recessive polycystic kidney disease (PMID: 28530676)",
+        "organism": "mouse",
+        "knockout_type": "loss-of-function",
+        "phenotypes": [
+          "polycystic kidney disease",
+          "ciliary dysfunction",
+          "compromised ciliary-membrane translocation of polycystin-1 and polycystin-2",
+          "defective periciliary diffusion barrier"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CDC42-Effector Proteins Regulate Higher Order Structure of Septins Required for CNS Myelin Integrity (PMID: 41616085)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "myelin pathology with outfoldings",
+          "depletion of myelin septins",
+          "disorganized septin filaments in myelin",
+          "disrupted myelin structural integrity",
+          "reduced abundance of SEPTIN2, SEPTIN4, SEPTIN7, and SEPTIN8"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "S-Nitrosylation of Septin2 Exacerbates Aortic Aneurysm and Dissection by Coupling the TIAM1-RAC1 Axis in Macrophages (PMID: 38357802)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Septin2 is S-nitrosylated at cysteine 111 in aortic tissue from aortic dissection patients and Apoe-/- mice. SNO-Septin2 reduces its interaction with TIAM1, activating the TIAM1-RAC1 axis and NF-\u03baB signaling, leading to macrophage-mediated inflammation and extracellular matrix degradation in aortic aneurysm and dissection.",
+        "sample_size": "Human aortic tissue from surgery patients; Apoe-/- mice",
+        "significance": "Mechanistic validation through biotin-switch assay, LC-MS/MS, and coimmunoprecipitation"
+      },
+      {
+        "citation": "SEPTIN2 suppresses an IFN-\u03b3-independent, proinflammatory macrophage activation pathway (PMID: 37978190)",
+        "evidence_subtype": "pathway",
+        "summary": "SEPTIN2 acts as a negative regulator of IFN-\u03b3-independent macrophage autoactivation. ER stress induces SEPT2 expression, which balances acetylation and ubiquitination of heat shock protein 5 (HSP5) at lysine 327, alleviating ER stress and constraining M1-like polarization and proinflammatory cytokine release.",
+        "sample_size": "High-content screening; macrophage cell models",
+        "significance": "Identified through high-content screening; mechanistic validation through protein modification analysis"
+      },
+      {
+        "citation": "Septin2 regulates ARHGAP25-mediated suppression of lamellipodia formation and cell spreading (PMID: 40205813)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Septin2 interacts with ARHGAP25, a GTPase-activating protein for Rac1, at lamellipodia. Septin2 regulates ARHGAP25 function to suppress Rac-dependent lamellipodia formation and cell spreading, controlling cell morphology through actin cytoskeletal organization.",
+        "sample_size": "Mammalian cell culture models",
+        "significance": "Validated through colocalization, overexpression, and depletion studies"
+      },
+      {
+        "citation": "Lysyl hydroxylase LH1 promotes confined migration and metastasis of cancer cells by stabilizing Septin2 to enhance actin network (PMID: 36721170)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "LH1 binds and stabilizes Septin2 to enhance actin polymerization and promote confined migration and metastasis in hepatocellular carcinoma and pancreatic ductal adenocarcinoma. High expression of both LH1 and SEPT2 correlates with poorest prognosis in HCC and PDAC patients.",
+        "sample_size": "HCC and PDAC patient tissues; orthotopic liver injection mouse model",
+        "significance": "Validated through immunoprecipitation, LC-MS, FRET, and in vivo imaging; poor prognosis correlation demonstrated"
+      },
+      {
+        "citation": "Coupling function of cyclin-dependent kinase 2 and Septin2 in the promotion of hepatocellular carcinoma (PMID: 30444001)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CDK2 and SEPT2 show similar dynamic expression during the cell cycle with highest levels in G2/M phase. CDK2 interacts with and stabilizes SEPT2 in HCC. High expression of both CDK2 and SEPT2 correlates with tumor differentiation, microvascular invasion, and poor prognosis in HCC patients.",
+        "sample_size": "8 pairs of fresh HCC tissues; 100 HCC patient panel",
+        "significance": "Western blot and immunohistochemistry validation; independent prognostic factor in 100-patient cohort"
+      },
+      {
+        "citation": "Septin2 mediates podosome maturation and endothelial cell invasion associated with angiogenesis (PMID: 31865373)",
+        "evidence_subtype": "function",
+        "summary": "Septin2, along with Septin6 and Septin7, is required for maturation of nascent endothelial podosomes into matrix-degrading organelles. Septin2 localizes around the podosome perimeter and its phosphoinositide-binding residues are required for podosome function and endothelial cell invasion during angiogenesis.",
+        "sample_size": "Endothelial cell culture models",
+        "significance": "Validated through immunofluorescence, functional assays, and phosphoinositide-binding mutant analysis"
+      },
+      {
+        "citation": "Hypoxia exposure impairs male fertility via inhibiting Septin2-mediated spermatogonial proliferation (PMID: 40487848)",
+        "evidence_subtype": "pathway",
+        "summary": "Hypoxia downregulates Sept2 transcription in spermatogonia by interfering with POLR2A binding to the Sept2 promoter. Reduced Sept2 stabilizes PP2A B56\u03b3 regulatory subunit, leading to AKT dephosphorylation and G1-S phase arrest. PP2A inhibitors restore spermatogonial proliferation and male fertility in hypoxic mice.",
+        "sample_size": "24 high-altitude residents, 6 pathological hypoxia patients, 19 controls; hypoxic mouse model (n=5); spermatogonial cell lines",
+        "significance": "Transcriptomic profiling, dual-luciferase reporter assay, co-immunoprecipitation, TMT-based quantitative proteomics; fertility assessment in mice"
+      },
+      {
+        "citation": "SEPTIN2 and STATHMIN Regulate CD99-Mediated Cellular Differentiation in Hodgkin's Lymphoma (PMID: 26000982)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SEPTIN2 expression is inversely correlated with CD99 expression in Hodgkin's lymphoma cells. SEPTIN2 knockdown with siRNA substantially alters cellular cytoskeleton in L428 cells and promotes differentiation of H/RS cells toward terminal B-cells, suggesting SEPTIN2-mediated cytoskeletal rearrangement contributes to H/RS cell differentiation.",
+        "sample_size": "L428 classical HL cells; A20 murine B lymphoma cells",
+        "significance": "Identified through MALDI-TOF MS proteomics; validated through siRNA knockdown and functional analysis"
+      },
+      {
+        "citation": "Repression of Septin9 and Septin2 suppresses tumor growth of human glioblastoma cells (PMID: 29724999)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SEPT9 and SEPT2 are elevated in glioma tissues and cell lines. Knockdown of both SEPT9 and SEPT2 synergistically inhibits GBM cell proliferation, arrests cell cycle in S phase, decreases invasive capability, and impairs xenograft growth. The mechanism involves p53/p21 axis and MEK/ERK signaling pathways.",
+        "sample_size": "A172 and U87-MG GBM cell lines; nude mouse xenografts",
+        "significance": "Identified through integrated multi-omics analysis; RNAi knockdown demonstrates synergistic effects on proliferation and invasion"
+      },
+      {
+        "citation": "Expression of Septin2 in Hodgkin lymphoma cell line L428 and its role in promoting H/RS cells' redifferentiation to B lymphocytes (PMID: 28279038)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Septin2 expression is downregulated in L428 cells when CD99 is overexpressed. Septin2 siRNA transfection decreases cell size, reduces proliferation activity, reconstructs F-actin cytoskeleton, and promotes H/RS cell redifferentiation to B lymphocytes by downregulating H/RS markers (CD30, CD15) and upregulating B cell markers (CD19, CD10, CD38).",
+        "sample_size": "L428 Hodgkin's lymphoma cell line",
+        "significance": "RT-qPCR, Western blot, confocal microscopy, CCK8 assay, and flow cytometry validation; p<0.001 for proliferation changes"
+      }
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "articles_found": {
+    "clinical": 11,
+    "model_organism": 10,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism (PMID: 40166812)",
+        "num_patients": 18,
+        "variants": [
+          {
+            "description": "c.247C>T, p.Arg83Trp",
+            "type": "missense",
+            "phenotypes": [
+              "cerebellar ataxia",
+              "progressive neurodegenerative disorder"
+            ]
+          },
+          {
+            "description": "c.272A>G, p.Tyr91Cys",
+            "type": "missense",
+            "phenotypes": [
+              "cerebellar ataxia"
+            ]
+          },
+          {
+            "description": "loss-of-function variants (unspecified)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental phenotype",
+              "ataxia features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Linkage in large dominant ataxia family; computational genetic association in 100,000 Genomes Project; de novo occurrence; reduced GTPase-activating protein (GAP)-dependent GTP hydrolysis for Arg83Trp and Tyr91Cys; failed to rescue synaptic phenotype in Drosophila Rab3 loss-of-function model; differential changes in variant-specific interactions with RAB3A regulatory and effector proteins",
+        "center_country": null,
+        "cohort": "GEL"
+      },
+      {
+        "citation": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia (PMID: 41492970)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.247C>T, p.Arg83Trp",
+            "type": "missense",
+            "phenotypes": [
+              "adult-onset cerebellar ataxia",
+              "progressive cerebellar symptoms",
+              "mild gait spasticity",
+              "tremors",
+              "neurodevelopmental disorder features",
+              "cerebellar atrophy (vermis accentuated)",
+              "cerebellar cortical degeneration"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mutation in conserved switch II region critical for effector interaction; failed to bind key effector proteins RIM1 and Rabphilin-3A; diffuse cytoplasmic mislocalization in PC12 cells; structural analysis supports functional importance of R83 in effector complex formation",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Developmental coordination disorder: What can we learn from RI mice using motor learning tasks and QTL analysis (PMID: 37553802)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rab3a (mouse ortholog)",
+            "type": "other",
+            "phenotypes": [
+              "developmental coordination disorder-like phenotype",
+              "motor learning deficits",
+              "gross motor skill difficulties",
+              "fine motor skill difficulties"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Emerged as high likelihood candidate gene for horizontal ladder rung task in QTL analysis; associated with brain and skeletal muscle development",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Biochemical, molecular and behavioral phenotypes of Rab3A mutations in the mouse (PMID: 16734774)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Deficit in cued fear conditioning",
+          "Reduced anxiety-like behavior in elevated zero-maze test",
+          "Reduced response to stress in forced swim test",
+          "Reduced GTP and GDP binding capacity",
+          "Reduced protein levels of Rab3A and rabphilin3A",
+          "Subtle differences in gene expression in cortex and hippocampus"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab3a promotes brain tumor initiation and progression (PMID: 24965146)",
+        "organism": "mouse",
+        "knockout_type": "not applicable - overexpression study",
+        "phenotypes": [
+          "Increased cell proliferation via cyclin D1 expression",
+          "Increased resistance to anti-cancer drug and irradiation",
+          "Accelerated foci formation in soft agar",
+          "Tumor formation in nude mice",
+          "Augmented tumorsphere-forming ability",
+          "Increased expression of stem cell markers"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Small Rab GTPases in Intracellular Vesicle Trafficking: The Case of Rab3A/Raphillin-3A Complex in the Kidney (PMID: 34299299)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Profound cytoskeletal changes in podocytes",
+          "Altered podocyte structure in high glucose-fed animals"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Synaptic localization of C9orf72 regulates post-synaptic glutamate receptor 1 levels (PMID: 31651360)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Pre-synaptic Rab3a protein levels remained stable compared to wild-type",
+          "Complete loss of post-synaptic Smcr8 protein levels",
+          "Significant downregulation of post-synaptic Rab39b",
+          "Concomitant upregulation of GluR1 in post-synaptic preparations",
+          "Downregulation of Rab39b and GluR1 upregulation confirmed in dorsal hippocampus"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The RAB3-RIM Pathway Is Essential for the Release of Neuromodulators (PMID: 31679900)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Inactivation of all four RAB3 genes nearly ablated dense-core vesicle exocytosis",
+          "Re-expression of RAB3A restored DCV exocytosis deficit",
+          "Essential for neuropeptide and neurotrophin release from dense-core vesicles"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab3 proteins and cancer: Exit strategies (PMID: 33982832)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Knockout of a single Rab3 isoform does not affect viability"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism (PMID: 40166812)",
+        "evidence_subtype": "function",
+        "summary": "RAB3A encodes a small GTP-binding protein abundant in brain synaptic vesicles that is crucial for neurotransmitter release and synaptic plasticity. Identified 18 individuals from 10 families with cerebellar ataxia carrying rare heterozygous RAB3A variants, with 9 families sharing the recurrent p.Arg83Trp variant. GAP-dependent GTP hydrolysis was reduced for missense variants in the GAP-binding domain.",
+        "sample_size": "18 individuals from 10 families",
+        "significance": null
+      },
+      {
+        "citation": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia (PMID: 41492970)",
+        "evidence_subtype": "function",
+        "summary": "The c.247C>T p.(Arg83Trp) variant in RAB3A causes adult-onset progressive cerebellar ataxia. The R83W mutation lies in the conserved switch II region critical for effector interaction; the mutant retained GTP-binding affinity but failed to bind key effector proteins RIM1 and Rabphilin-3A, resulting in diffuse cytoplasmic mislocalization rather than vesicle/neurite-tip localization.",
+        "sample_size": "2 families",
+        "significance": null
+      },
+      {
+        "citation": "zDHHC9 Regulates Cardiomyocyte Rab3a Activity and Atrial Natriuretic Peptide Secretion Through Palmitoylation of Rab3gap1 (PMID: 37325411)",
+        "evidence_subtype": "pathway",
+        "summary": "RAB3A plays a central role in regulated exocytosis and secretion. zDHHC9-mediated palmitoylation of Rab3gap1 causes spatial segregation from Rab3a, elevation of Rab3a-GTP levels, formation of Rab3a-positive peripheral vesicles, and impairment of exocytosis that limits atrial natriuretic peptide release.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Molecular and functional interactions of alpha-synuclein with Rab3a (PMID: 35809645)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Alpha-synuclein interacts with GTP-bound Rab3a via its C-terminus, with interaction strengthened on membrane surfaces. Alpha-synuclein inhibits GTP hydrolysis by Rab3a, and phosphorylation of a-Syn at Ser129 (associated with Parkinson's disease) enhances interaction with Rab3a and increases inhibition of Rab3a GTP hydrolysis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab3a-Bound CD63 Is Degraded and Rab3a-Free CD63 Is Incorporated into HIV-1 Particles (PMID: 28900422)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rab3a interacts with CD63 tetraspanin to induce its degradation via lysosomal and proteasomal pathways. Rab3a-free CD63 (but not Rab3a-bound CD63) is incorporated into HIV-1 particles. Overexpression or silencing of Rab3a moderately reduced HIV-1 virion formation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RAB3A-mediated BAG6 translocation promotes non-small cell lung cancer tumorigenesis and progression (PMID: 41123819)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RAB3A is upregulated in NSCLC and high levels correlate with poor overall survival. RAB3A knockdown enhanced nuclear translocation of BAG6-EP300, leading to acetylation of p53 and Rb and suppression of NSCLC progression. RAB3A facilitates BAG6 transportation to mitochondria, promoting mitophagy and cisplatin resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Association of variants in the KIF1A gene with amyotrophic lateral sclerosis (PMID: 36284339)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "KIF1A motor protein transports presynaptic vesicle precursors containing RAB3A, VAMP2, and synaptophysin. ALS-associated KIF1A variants in the C-terminal cargo-binding region preferentially enhanced binding of SVPs containing RAB3A, with enhanced colocalization of RAB3A with KIF1A motor in cultured neurons.",
+        "sample_size": "941 ALS patients",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Identification of interactions in the MADD PTPRN RAB3 complex with type 2 diabetes in multiple populations",
+        "evidence_subtype": "GWAS",
+        "summary": "Gene-gene interactions among MADD, PTPRN/PTPRN2, and RAB3A/RAB3C were identified in association with type 2 diabetes across eight independent multi-ethnic studies. RAB3A/RAB3C proteins form a complex with MADD and PTPRN that links to insulin-containing dense core secretory vesicles and influences insulin release.",
+        "sample_size": "15,502 participants across 8 studies",
+        "significance": "p=3.1\u00d710^-5 to p=1.9\u00d710^-8 across studies"
+      },
+      {
+        "citation": "Rab3 proteins and cancer: Exit strategies (PMID: 33982832)",
+        "evidence_subtype": "function",
+        "summary": "Rab3A is one of four Rab3 isoforms expressed almost exclusively in neurons and secretory cells. Overexpression of Rab3A was observed in gliomas; increased expression is related to increased proliferation, migration, and invasiveness. Rab3 isoform-dependent activation of the AKT pathway has been observed in several cancer types.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - RIMS2, a novel gene responsible for syndromic congenital cone-rod synaptic disorder associated with neurodevelopmental and pancreatic involvement",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RIMS2 encodes RAB3A-interacting molecule 2 (RIM2), a protein regulating synaptic membrane exocytosis in photoreceptors and brain, and insulin secretion by pancreatic islets. Biallelic RIMS2 loss-of-function variants cause congenital cone-rod synaptic disorder with neurodevelopmental and pancreatic involvement, demonstrating RAB3A's role in regulated exocytosis across multiple tissues.",
+        "sample_size": "6 patients from 3 families",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 1,
+    "biological": 19
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo variants in ATXN7L3 lead to developmental delay, hypotonia and distinctive facial features (PMID: 38753057)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "c.340C>T; p.(Arg114Ter)",
+            "type": "LoF",
+            "phenotypes": [
+              "global motor developmental delay",
+              "language developmental delay",
+              "hypotonia",
+              "hypertelorism",
+              "epicanthal folds",
+              "blepharoptosis",
+              "small nose",
+              "small mouth",
+              "low-set posteriorly rotated ears"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous variants identified by exome sequencing; recurrent nonsense variant with reduced ATXN7L3 protein levels in fibroblasts and increased H2Bub1 levels consistent with loss of DUB activity; absent from gnomAD or present at very low frequency; GeneMatcher used to aggregate cases",
+        "center_country": "Not explicitly stated; multiple centers via GeneMatcher",
+        "cohort": null
+      },
+      {
+        "citation": "A Novel ATXN7L3 De Novo Variant Underlies Harel-Tora Neurodevelopmental Syndrome (HATONS) With Pre-Axial Polydactyly (PMID: 41760364)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.236G>A; p.(Trp79*)",
+            "type": "LoF",
+            "phenotypes": [
+              "global developmental delay",
+              "hypotonia",
+              "speech impairment",
+              "distinctive facial dysmorphism",
+              "pre-axial polydactyly"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo nonsense variant identified by whole-genome sequencing and confirmed by Sanger sequencing; segregates with disease phenotype; RT-qPCR showed marked reduction in ATXN7L3 transcript levels; 3D protein modeling showed substantial structural distortions and loss of C-terminal domain",
+        "center_country": "Not explicitly stated",
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "ATXN7L3 and ENY2 Coordinate Activity of Multiple H2B Deubiquitinases Important for Cellular Proliferation and Tumor Growth (PMID: 27132940)",
+        "evidence_subtype": "function",
+        "summary": "ATXN7L3 is a non-enzymatic component of the SAGA deubiquitination module (DUBm) that coordinates the activity of multiple H2B deubiquitinases (USP22, USP27X, USP51). Depletion of ATXN7L3 results in increased global H2Bub1 levels (in contrast to USP22 depletion which reduces H2Bub1), and ATXN7L3 competes with USP22 for binding to USP27X and USP51. ATXN7L3 depletion suppresses tumor cell growth, implicating it in cancer-relevant proliferation pathways.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone H2Bub1 deubiquitylation is essential for mouse development, but does not regulate global RNA polymerase II transcription (PMID: 33731875)",
+        "evidence_subtype": "other",
+        "summary": "Atxn7l3 knockout mice show developmental delay as early as embryonic day 7.5 and are embryonic lethal, demonstrating ATXN7L3 is essential for normal mouse development. Atxn7l3-null embryos and derived cell lines show strongly increased global H2Bub1 levels, confirming ATXN7L3 as the key coordinator of multiple DUBs targeting H2Bub1. Transcriptomic analyses of Atxn7l3-/- mouse embryonic stem cells and fibroblasts show that ATXN7L3-related DUB activity regulates only a subset of genes, and increased H2Bub1 does not correlate with global changes in RNA Polymerase II occupancy or elongation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The tightly controlled deubiquitination activity of the human SAGA complex differentially modifies distinct gene regulatory elements (PMID: 21746879)",
+        "evidence_subtype": "pathway",
+        "summary": "ATXN7L3 is a subunit of the human SAGA deubiquitination module (DUBm) that allosterically regulates USP22 activity through interactions with ATXN7 and ENY2. Downregulation of ATXN7L3 by shRNA specifically inactivates SAGA deubiquitination activity, leading to a strong increase in global H2Bub1 and moderate increase in H2Aub1, establishing SAGA as the major H2Bub deubiquitinase in human cells. ATXN7L3-dependent DUB activity is required for full activation of SAGA-dependent inducible genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cytoplasmic ATXN7L3B Interferes with Nuclear Functions of the SAGA Deubiquitinase Module (PMID: 27601583)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ATXN7L3 is a nuclear adaptor protein of the SAGA DUB module that binds ENY2 and is required for USP22-mediated H2Bub1 deubiquitination; overexpression of ATXN7L3 decreases H2Bub1 levels. ATXN7L3B (a cytoplasmic paralog sharing 74% identity with the N-terminal region of ATXN7L3) competes with ATXN7L3 for ENY2 binding in vitro, and a USP22-ATXN7L3B-ENY2 complex cannot efficiently deubiquitinate H2Bub1. This competition mechanism reveals that ATXN7L3's interaction with ENY2 is critical for its function in the SAGA DUBm.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ATXN7L3 positively regulates SMAD7 transcription in hepatocellular carcinoma with growth inhibitory function (PMID: 33186807)",
+        "evidence_subtype": "expression",
+        "summary": "ATXN7L3 is expressed at lower levels in hepatocellular carcinoma (HCC) tumor samples compared to normal tissue, and lower ATXN7L3 expression positively correlates with poor clinical outcome in HCC patients. ATXN7L3 functions as a coactivator for ER\u03b1-mediated transactivation and is recruited to the SMAD7 gene promoter, where it regulates histone H2B ubiquitination to enhance SMAD7 transcription. In vitro colony formation and in vivo xenograft experiments demonstrate that ATXN7L3 suppresses HCC tumor growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Enhancer retargeting of CDX2 and UBTF::ATXN7L3 define a subtype of high-risk B-progenitor acute lymphoblastic leukemia (PMID: 35192684)",
+        "evidence_subtype": "other",
+        "summary": "A focal deletion of exons 18-21 of UBTF at 17q21.31 results in a chimeric UBTF::ATXN7L3 fusion transcript, which together with CDX2 deregulation defines a novel high-risk B-ALL subtype. This fusion arises from aberrant recombination-activating gene (RAG) activation and is found in 17 newly diagnosed and 5 relapsed B-ALL cases with a distinct gene expression profile. Patients with this CDX2/UBTF subtype had high-risk clinical features including 56.3% with relapse or MRD >1% after induction.",
+        "sample_size": "3221 newly diagnosed and 177 relapsed B-ALL cases",
+        "significance": null
+      },
+      {
+        "citation": "Concurrent CDX2 cis-deregulation and UBTF::ATXN7L3 fusion define a novel high-risk subtype of B-cell ALL (PMID: 35316324)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The 17q21.31 microdeletion in B-ALL results in a UBTF::ATXN7L3 fusion transcript encoding a chimeric protein, co-occurring with CDX2 cis-deregulation via PAN3 enhancer hijacking (validated by 4C-sequencing and CRISPR interference). CDX2/UBTF ALL patients (n=17/723 adult Ph- B-ALL) showed dramatically poor treatment response, with 93% having MRD \u226510-4 post-induction and a 75% cumulative incidence of relapse. The subtype was enriched in young females (median age 31, male/female ratio 0.2).",
+        "sample_size": "723 adult Ph- B-ALL patients",
+        "significance": "p=0.002 (sex enrichment); p=0.004 (relapse incidence)"
+      },
+      {
+        "citation": "let-7b and let-7c microRNAs promote histone H2B ubiquitylation and inhibit cell migration by targeting multiple components of the H2B deubiquitylation machinery (PMID: 28604753)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ATXN7L3 mRNA is a direct target of let-7b and let-7c microRNAs, which bind and inhibit its expression, leading to increased H2Bub1 levels in multiple cell lines. ATXN7L3 knockdown increases H2Bub1 levels and reduces cell migration in mammary epithelial and breast cancer cells, an anti-migratory effect abolished by simultaneous RNF20 knockdown. These findings identify ATXN7L3 as a component of the H2B deubiquitylation machinery through which let-7 miRNAs exert tumor-suppressive effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Metformin ameliorates trophoblastic immunometabolic disorders via attenuating TLR4/NF-\u03baB signaling through ATXN7L3-mediated histone H2B monoubiquitination (PMID: 40209519)",
+        "evidence_subtype": "function",
+        "summary": "ATXN7L3 was identified via proteomic screening as a mediator of metformin's effects in trophoblasts, where it regulates TLR4/NF-\u03baB signaling through H2B monoubiquitylation. Pharmacologic doses of metformin (10 \u03bcM) corrected trophoblastic glycometabolic reprogramming and attenuated excessive inflammation via ATXN7L3-mediated H2Bub1. Chromatin immunoprecipitation and co-immunoprecipitation assays confirmed ATXN7L3's mechanistic role in epigenetic regulation of this inflammatory pathway in placental cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone H2Bub dynamics in the 5' region of active genes are tightly linked to the UV-induced transcriptional response (PMID: 36659919)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ATXN7L3-containing DUB module knockdown cells were used to demonstrate that deficient ATXN7L3-mediated DUB activity leads to increased RNA Polymerase II elongation rates in both non-irradiated and UV-irradiated conditions. H2Bub levels and patterns depend on intron-exon architecture and closely mirror post-UV dynamics of elongating RNAPII, with ATXN7L3-DUB activity ensuring faithful elongation speed during the DNA damage transcriptional response. These findings establish ATXN7L3 as a key regulator of H2Bub dynamics that couples histone modification to transcription elongation fidelity.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

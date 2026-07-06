@@ -1,0 +1,228 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 8,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B. (PMID: 41033306)",
+        "num_patients": 14,
+        "variants": [
+          {
+            "description": "Multiple de novo or loss-of-function variants in EIF3B (specific variants not detailed in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "Cardiac defects",
+              "Craniofacial dysmorphisms",
+              "Mild developmental delays",
+              "Behavioral abnormalities",
+              "Thin heart tubes (zebrafish model)",
+              "Lack of craniofacial cartilage (zebrafish model)",
+              "Embryonic lethality (zebrafish model)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants, loss-of-function annotation, genes highly constrained against loss of function, animal models demonstrate developmental defects, EIF3B located in minimally overlapping region implicated in 7p22.3 microdeletion cardiac anomalies",
+        "center_country": "International matchmaking efforts (multiple centers)",
+        "cohort": null
+      },
+      {
+        "citation": "Delineation of a less than 200 kb minimal deleted region for cardiac malformations on chromosome 7p22. (PMID: 21671376)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo interstitial deletion <400 kb on chromosome 7p22, may include upstream regulatory elements of EIF3B",
+            "type": "other",
+            "phenotypes": [
+              "Tetralogy of Fallot",
+              "Bilateral second branchial arch remnants",
+              "Mild dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo deletion, not detected in parents, deletion encompasses or includes regulatory elements of EIF3B and other genes in minimal deleted region for cardiac malformations",
+        "center_country": "Not specified",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B (PMID: 41033306)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown/mutation",
+        "phenotypes": [
+          "thin heart tubes",
+          "lack of craniofacial cartilage",
+          "developmental abnormalities",
+          "embryonic lethality"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "EIF3B promotes cancer progression in pancreatic cancer (PMID: 33459066)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "suppressed tumor progression",
+          "reduced xenograft tumor growth"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Eukaryotic initiation factor 3b regulates the development and progression of breast cancer (PMID: 37293180)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "inhibited tumor growth",
+          "reduced pulmonary metastasis",
+          "suppressed xenograft tumor growth"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Eukaryotic translation initiation factor 3 subunit b is a novel oncogenic factor in prostate cancer (PMID: 32556998)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "inhibited xenograft tumor growth"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "eIF3b regulates the cell proliferation and apoptosis processes in chronic myelogenous leukemia cell lines via regulating the expression of C3G (PMID: 32236758)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "suppressed tumor formation",
+          "decreased C3G expression in tumor tissues"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Eukaryotic Initiation Factor 4E (eIF4E) as a Target of Anti-Psoriatic Treatment (PMID: 37865179)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "downregulation of eIF3B expression",
+          "abolished psoriatic inflammation",
+          "normalized cellular proliferation",
+          "reduced epidermal hyperplasia",
+          "decreased proinflammatory cytokines"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CD133(+)-Derived Exosomes Carrying EIF3B Mediate Cell Metastasis and Stemness in Colorectal Cancer (PMID: 40660438)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "reduced proliferation and migration-promoting effects",
+          "reduced tumorigenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "FOXA1-dependent PUS1 regulates EIF3b stability in a non-enzymatic pathway mediating prostate cancer bone metastasis (PMID: 39247811)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3b acts as a downstream effector of PUS1 in the FOXA1/PUS1/EIF3b signaling axis. PUS1 protects EIF3b from ubiquitin-mediated degradation through a non-enzymatic mechanism. Overexpression of EIF3b counters metastasis suppression caused by PUS1 knockdown, indicating EIF3b is critical for prostate cancer bone metastasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "YTHDF2 Is a Therapeutic Target for HCC by Suppressing Immune Evasion and Angiogenesis Through ETV5/PD-L1/VEGFA Axis (PMID: 38247171)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3B (eukaryotic translation initiation factor 3 subunit B) is recruited by YTHDF2 to facilitate translation of ETV5 mRNA in hepatocellular carcinoma. YTHDF2 recognizes m6A modification in the 5'-UTR of ETV5 and recruits EIF3B to enhance ETV5 translation, which promotes immune evasion and angiogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "New TIPARP inhibitor rescues mitochondrial function and brain injury in ischemic stroke (PMID: 39547463)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3B is a direct target of TIPARP (TCDD inducible PARP). TIPARP interacts with EIF3B through nucleoplasmic redistribution, leading to mitochondrial dysfunction. Knockdown of Tiparp and TIPARP inhibition restore mitochondrial homeostasis by preventing EIF3B-mediated dysfunction in ischemic stroke models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "EIF3B\u2011METTL3 complex promotes cell proliferation, invasion and EGFR/AKT signaling in cervical cancer (PMID: 40576144)",
+        "evidence_subtype": "cell_culture",
+        "summary": "EIF3B is elevated in cervical cancer cell lines and directly interacts with METTL3 to form a functional complex. EIF3B overexpression accelerates proliferation, invasion, and activates EGFR/AKT signaling, while knockdown suppresses these effects. The EIF3B-METTL3 complex, not EIF3B alone, drives cancer-promoting functions.",
+        "sample_size": "HeLa and SiHa cervical cancer cell lines",
+        "significance": null
+      },
+      {
+        "citation": "EIF3B stabilizes MAP2K2 to activate the ERK pathway and promote the progression of laryngeal squamous cell carcinoma (PMID: 40691141)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3B is upregulated in laryngeal squamous cell carcinoma and stabilizes MAP2K2 via direct interaction with its P3 domain, inhibiting VHL-mediated ubiquitination at K169. EIF3B-driven ERK phosphorylation and downstream oncogenic signaling depend on MAP2K2 kinase activity. EIF3B overexpression accelerates tumor growth, which is rescued by MAP2K2 knockdown.",
+        "sample_size": "LSCC patient samples and xenograft models",
+        "significance": "p<0.05 for survival correlation; xenograft model validation"
+      },
+      {
+        "citation": "eIF3b-driven autophagy and Wnt/\u03b2-catenin crosstalk: a novel regulatory axis in adriamycin resistance of breast cancer (PMID: 41089706)",
+        "evidence_subtype": "pathway",
+        "summary": "eIF3b is significantly overexpressed in adriamycin-resistant breast cancer tissues and cell lines. eIF3b acts as an upstream regulator of autophagy to promote adriamycin resistance. Downregulation of eIF3b suppresses autophagy and sensitizes resistant breast cancer cells to adriamycin, with potential crosstalk involving the Wnt/\u03b2-catenin pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "TEX9 and eIF3b functionally synergize to promote the progression of esophageal squamous cell carcinoma (PMID: 31481019)",
+        "evidence_subtype": "cell_culture",
+        "summary": "eIF3b binds to TEX9 mRNA and functionally synergizes with TEX9 to promote proliferation and migration while inhibiting apoptosis in esophageal squamous cell carcinoma cells. The eIF3b-TEX9 axis activates AKT signaling pathway to drive ESCC progression.",
+        "sample_size": "ESCC cell lines and xenograft models",
+        "significance": null
+      },
+      {
+        "citation": "Shared molecular biomarkers and therapeutic targets in rheumatoid arthritis and osteoarthritis: Focus on EIF3B, KHSRP, NCL, PDCD1LG2, and SLC25A37 (PMID: 40592131)",
+        "evidence_subtype": "expression",
+        "summary": "EIF3B is identified as a hub gene differentially expressed in both rheumatoid arthritis and osteoarthritis synovial membranes. EIF3B shows higher expression in RA compared to OA (p<0.01) and is downregulated in both RA and OA mouse models compared to controls (p<0.01). EIF3B demonstrates good diagnostic potential with AUC of 0.795-0.958.",
+        "sample_size": "117 synovial membrane samples (33 healthy, 50 OA, 34 RA); mouse models",
+        "significance": "p<0.01 for RA vs OA; FDR<0.05 for DEG identification"
+      },
+      {
+        "citation": "A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B (PMID: 41033306)",
+        "evidence_subtype": "other",
+        "summary": "Loss-of-function variants in EIF3B cause a distinct autosomal-dominant neurodevelopmental syndrome characterized by cardiac defects, craniofacial dysmorphisms, developmental delays, and behavioral abnormalities. EIF3B is a core subunit of the eIF3 complex critical for mRNA binding to the 40S ribosomal subunit during translation initiation. Zebrafish models with eif3ba mutations show developmental abnormalities including thin heart tubes and lack of craniofacial cartilage.",
+        "sample_size": "18 individuals with EIF3B variants (14 cases); zebrafish models",
+        "significance": null
+      },
+      {
+        "citation": "EIF3B stabilizes PTGS2 expression by counteracting MDM2-mediated ubiquitination to promote the development and progression of malignant melanoma (PMID: 36050601)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3B is abundantly expressed in malignant melanoma and stabilizes PTGS2 by inhibiting MDM2-mediated ubiquitination. EIF3B depletion blocks melanoma progression in vitro and in vivo, while overexpression increases proliferation and migration. PTGS2 silencing reverses EIF3B overexpression effects, indicating PTGS2 is the critical driver of EIF3B's oncogenic function.",
+        "sample_size": "MM patient samples and xenograft models",
+        "significance": "Strong correlation with lymphatic metastasis and pathological stage"
+      }
+    ]
+  }
+}

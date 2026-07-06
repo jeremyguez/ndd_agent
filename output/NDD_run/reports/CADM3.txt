@@ -1,0 +1,115 @@
+# CADM3 GENE EVIDENCE REPORT: NEURODEVELOPMENTAL DISORDER ASSESSMENT
+
+## 1. GENE SUMMARY
+
+CADM3 (Cell Adhesion Molecule 3), also known as Necl-1, is a cell adhesion molecule belonging to the immunoglobulin superfamily that mediates both homophilic and heterophilic cell-cell interactions. CADM3 plays critical roles in axon-glial interactions, myelination, synaptic organization, and neuroepithelial cell proliferation control throughout the developing and mature nervous system.
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent case reports/series:** 2 distinct clinical reports identified
+
+**Total approximate number of patients:** Approximately 6 patients across identified studies (3 families with CADM3 Tyr172Cys mutation; additional cases referenced in HMN discovery)
+
+**Most common phenotypes observed:**
+- Axonal Charcot-Marie-Tooth disease type 2 (CMT2) with upper limb predominance
+- Motor neuropathy with pyramidal signs
+- Hereditary motor neuropathies (HMN)
+
+**Predominant variant type:** Missense mutation (Tyr172Cys creating novel disulfide bond) identified in familial cases; whole exome/genome sequencing identified CADM3 in HMN pathogenesis
+
+**Known cohort participation:** No explicit mention of recruitment from major cohorts (UDN, GREGoR, DDD, RUMC, GEL)
+
+**Key clinical findings:** The Tyr172Cys mutation alters protein conformation, increases endoplasmic reticulum retention, and reduces co-localization with CADM4 at the plasma membrane, disrupting critical axon-glial interactions (ASHG 2019 - Mutation in CADM3 cause upper limb predominant neuropathy with pyramidal signs). The variant is absent in 230,000 gnomAD alleles, supporting pathogenicity. Additionally, CADM3-derived peptides are significantly downregulated in cerebrospinal fluid of ALS patients, suggesting CADM3 dysfunction in motor neuron disease (PMID: 40681694).
+
+**Strength of clinical evidence: LIMITED**
+
+The clinical evidence is limited by small sample size (6 patients across identified studies), lack of systematic ascertainment from large clinical cohorts, and absence of multiple independent loss-of-function variants. However, the mechanistic evidence linking the identified missense variant to disrupted protein-protein interactions is compelling.
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Mouse (2 studies) and zebrafish (2 studies)
+
+**Key phenotypes from knockouts:**
+
+*Mouse models (full knockouts):*
+- Abnormal distribution of Caspr and Kv1 potassium channels in peripheral nervous system (PMID: 33397712)
+- Defects in myelinated axon organization and axonal organization abnormalities (PMID: 33397712)
+- Formation of multimyelinated axons with overgrowth of myelin away from axon (PMID: 31451613)
+- Paranodal loops above or underneath compact myelin, indicating defects in accurate myelin sheath placement by oligodendrocytes (PMID: 31451613)
+- Impaired cone synapse formation with dislocated synapses and mislocalized AMPA receptors; impaired optokinetic responses (PMID: 38623325)
+
+*Zebrafish models (knockdown/disruption):*
+- Expanded clones of retinal progenitor cells with increased total retinal cell number (PMID: 37022761)
+- Disrupted cell number homeostasis in developing neuroepithelia through loss of homophilic CADM3 interaction (PMID: 37022761)
+
+**Lethality and Mendelian ratios:** All knockouts are viable; no Mendelian ratio deviations reported
+
+**Consistency with human phenotype:** Strong consistency. Mouse knockout phenotypes directly parallel human clinical findings: defects in axon-glial organization and myelination align with the CMT2/motor neuropathy phenotype observed in patients. The identification of CADM3 as the main axonal ligand for glial CADM4 (PMID: 33397712) provides mechanistic explanation for how the Tyr172Cys mutation disrupts axon-glial interactions in patients.
+
+**Strength of model organism evidence: STRONG**
+
+Multiple independent mouse knockout studies demonstrate consistent, specific neurological phenotypes directly relevant to human motor neuropathy. The mechanistic findings regarding axon-glial interactions and myelination defects provide clear biological plausibility for the human disease phenotype.
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+
+CADM3 functions in multiple critical pathways:
+
+1. **Axon-glial interactions and myelination:** CADM3 serves as the main axonal ligand for glial CADM4, functioning in a hierarchical adhesion code with CADM1 and CADM2 to mediate essential axon-glia interactions (PMID: 33397712). This interaction is critical for accurate myelination and paranodal organization.
+
+2. **Synaptic organization:** CADM3/Necl-1 localizes to cone photoreceptors and type 4 OFF cone bipolar cells, regulating cone synapse formation and short-wavelength light signal transmission (PMID: 38623325).
+
+3. **Cell proliferation control:** CADM3 homophilic interactions provide an intercellular mechanism for coordinated cell proliferation in developing neuroepithelia, controlling cell number homeostasis (PMID: 37022761).
+
+4. **Signal transduction:** CADM3 regulates MAPK pathway activation (negatively regulating ERK1/2 and JNK1 phosphorylation) and participates in AKT/ERK pathway activation (PMID: 38515057; PMID: 36502948).
+
+**Expression pattern:** CADM3 is expressed throughout the nervous system of developing and larval organisms, with largely nonoverlapping expression patterns relative to cadm2a in developing retina and spinal cord (PMID: 21456004). Expression is particularly prominent in motor neurons, retinal neurons, and oligodendrocytes—tissues directly relevant to the observed human phenotypes.
+
+**Key experimental findings:**
+- CADM3 is identified as a novel gene in hereditary motor neuropathies through whole exome and genome sequencing (PMID: 32796276)
+- The Tyr172Cys mutation creates a novel disulfide bond, altering protein conformation and increasing ER retention, reducing co-localization with CADM4 at the plasma membrane (ASHG 2019)
+- CADM3-derived peptides are significantly downregulated in cerebrospinal fluid of ALS patients (AUC=0.98 in discriminating ALS from controls) (PMID: 40681694)
+- CADM3 expression is significantly lower in cancer tissues but negatively regulates cell proliferation and migration when expressed (PMID: 38515057)
+
+**Strength of biological evidence: STRONG**
+
+Extensive functional characterization across multiple model systems demonstrates CADM3's critical roles in myelination, synaptic organization, and cell proliferation. The mechanistic understanding of how specific mutations disrupt protein-protein interactions and cellular localization is well-established. Expression patterns align with tissues affected in human disease.
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+1. Clear mechanistic link between identified CADM3 mutations and disrupted axon-glial interactions, directly explaining the motor neuropathy phenotype
+2. Robust model organism evidence from multiple independent studies demonstrating consistent neurological phenotypes
+3. Strong biological evidence for CADM3's critical role in myelination and axonal organization
+4. Identification of CADM3 in hereditary motor neuropathies through unbiased genomic approaches
+5. Rare variant status (absent in 230,000 gnomAD alleles) supporting pathogenicity
+
+**Key gaps and limitations:**
+1. Limited clinical evidence: Only 6 patients identified across studies, with no large case series from systematic cohort screening
+2. Lack of segregation data in families to confirm autosomal dominant inheritance pattern
+3. No functional validation studies demonstrating that heterozygous carriers of pathogenic variants show intermediate phenotypes
+4. Absence of de novo variant identification, which would strengthen autosomal dominant disease hypothesis
+5. No systematic screening of large neurodevelopmental disorder cohorts (DDD, GREGoR, UDN) for CADM3 variants
+
+**Conclusion:**
+
+CADM3 demonstrates MODERATE evidence as a neurodevelopmental disorder gene with heterozygous pathogenic variants. The identified Tyr172Cys missense mutation in families with CMT2 and motor neuropathy with pyramidal signs, combined with strong mechanistic evidence from model organisms and functional studies, establishes biological plausibility for CADM3-related disease. However, the limited number of clinically characterized patients and lack of systematic ascertainment from large cohorts prevent classification as STRONG evidence. Expanded clinical screening and functional validation of additional CADM3 variants in neurodevelopmental disorder cohorts would substantially strengthen the evidence base.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. Differential Contribution of Cadm1-Cadm3 Cell Adhesion Molecules to Peripheral Myelinated Axons (PMID: 33397712)
+2. Coordinated internodal and paranodal adhesion controls accurate myelination by oligodendrocytes (PMID: 31451613)
+3. Homophilic interaction of cell adhesion molecule 3 coordinates retina neuroepithelial cell proliferation (PMID: 37022761)
+4. Localization of Cadm2a and Cadm3 proteins during development of the zebrafish nervous system (PMID: 21456004)
+
+### Biological Evidence
+1. Peptidomic analysis of CSF reveals new biomarker candidates for amyotrophic lateral sclerosis (PMID: 40681694)
+2. Necl-1/CADM3 regulates cone synapse formation in the mouse retina (PMID: 38623325)
+3. Clinical significance of low expression of CADM3 in breast cancer and preliminary exploration of related mechanisms (PMID: 38515057)
+4. Circ004463 promotes fibroblast proliferation and collagen I synthesis by sponging miR-23b and regulating CADM3/MAP4K4 via activation of AKT/ERK pathways (PMID: 36502948)
+5. Hereditary motor neuropathies (PMID: 32796276)

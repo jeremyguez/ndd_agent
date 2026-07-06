@@ -1,0 +1,236 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 11,
+    "biological": 17
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2022 - Systematic analysis of nonsense-mediated decay escaping protein-truncating variants in 97,728 clinical exomes identifies new Mendelian disease genes (PMID: not provided)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "PTVesc (protein-truncating variant escaping nonsense-mediated decay) in HDAC2",
+            "type": "LoF",
+            "phenotypes": [
+              "syndromic neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo PTVesc mutations identified in 2 patients with syndromic NDD; genes with PTVesc enrichment identified through systematic analysis of 97,728 clinical exomes; high phenotypic similarity scoring",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2015 - Aggregated analysis of developmental disorders reveals novel risk genes and improves genetic diagnosis (PMID: not provided)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "de novo rare variants in HDAC2",
+            "type": "other",
+            "phenotypes": [
+              "developmental disorder",
+              "autism",
+              "intellectual disability",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo mutations identified in aggregated analysis of 1984 patients with undiagnosed developmental disorders; HDAC2 identified as candidate risk gene with plausible mechanism in histone modification; supported by publicly available de novo mutation data from ~5500 NDD cases",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Early differential impact of MeCP2 mutations on functional networks in Rett syndrome patient-derived human cerebral organoids (PMID: 39149328)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "HDAC2-associated impairment (transcriptomic finding)",
+            "type": "other",
+            "phenotypes": [
+              "Rett syndrome",
+              "abnormal neuronal activity",
+              "altered network function"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Transcriptomic analyses revealed HDAC2-associated impairment in R306C MeCP2 organoids; functional studies in patient-derived cerebral organoids",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "HDAC1 Regulates Neuronal Differentiation (PMID: 35095417)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Impaired neuronal differentiation in adult hippocampus",
+          "Compromised neuronal differentiation in vitro upon viral infection-mediated deletion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone Acetyltransferases p300 and CBP Coordinate Distinct Chromatin Remodeling Programs in Vascular Smooth Muscle Plasticity (PMID: 35502657)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "HDAC2 recruited to contractile protein promoters by CBP",
+          "Altered histone acetylation and PolII binding at contractile gene promoters",
+          "Differential regulation of vascular smooth muscle cell phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HRD1-mediated ubiquitination of HDAC2 regulates PPAR\u03b1-mediated autophagy and alleviates metabolic-associated fatty liver disease (PMID: 38815686)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced hypoxia-suppressed autophagy in hepatocytes upon HDAC2 knockdown",
+          "Improved hepatic autophagy and reduced fatty liver disease phenotype",
+          "Reduced fibrosis and apoptosis in liver tissues"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC2 Facilitates Pancreatic Cancer Metastasis (PMID: 34903606)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Impaired cell cycle control in vitro",
+          "Reduced metastasis in vivo",
+          "Altered expression of prosurvival receptor tyrosine kinases (PDGFR\u03b1, PDGFR\u03b2, EGFR)",
+          "Disabled tumor-suppressive arm of TGF\u03b2 pathway"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic inhibition of CTCF by HN1 promotes dedifferentiation and stemness of anaplastic thyroid cancer (PMID: 37993084)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced tumor growth in xenograft models",
+          "Loss of cancer stemness",
+          "Upregulation of thyroid differentiation markers"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HDAC2-mediated recruitment of METTL3 to chromatin regulates human embryonic stem cell differentiation (PMID: 41066234)",
+        "organism": "human",
+        "knockout_type": "knockout",
+        "phenotypes": [
+          "Reduced METTL3 chromatin binding upon HDAC2 knockout",
+          "Reduced m6A levels on HDAC2 target genes linked to lineage differentiation",
+          "Significantly impaired human embryonic stem cell differentiation",
+          "Decreased RNA stability and translation of target genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "PIM1-HDAC2 axis modulates intestinal homeostasis through epigenetic modification (PMID: 39027246)",
+        "evidence_subtype": "pathway",
+        "summary": "HDAC2 is a direct interacting partner of PIM1 kinase in intestinal epithelial cells. PIM1 phosphorylates and downregulates HDAC2 levels, which alters epigenetic profiles of Wnt signaling pathway genes and impairs goblet cell differentiation during colitis pathogenesis.",
+        "sample_size": "Ulcerative colitis patients and murine models",
+        "significance": null
+      },
+      {
+        "citation": "HDAC2 promotes autophagy-associated HCC malignant progression by transcriptionally activating LAPTM4B (PMID: 39147759)",
+        "evidence_subtype": "function",
+        "summary": "HDAC2 acts as a transcriptional activator that binds to the LAPTM4B promoter at four distinct sites to enhance its transcription and promote autophagy-driven hepatocellular carcinoma progression. High HDAC2 expression correlates with poor HCC prognosis and is an independent predictor of patient outcomes.",
+        "sample_size": "105 human HCC samples",
+        "significance": "p<0.05 (multivariate Cox regression)"
+      },
+      {
+        "citation": "N6-methyladenosine-modified SENP1, identified by IGF2BP3, is a novel molecular marker in acute myeloid leukemia and aggravates progression by activating AKT signal via de-SUMOylating HDAC2 (PMID: 38822351)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "HDAC2 is a direct substrate of SENP1 deSUMOylase. SENP1 removes SUMO modifications from HDAC2, which enhances EGFR transcription and activates the AKT/mTOR signaling pathway to promote AML proliferation and anti-apoptosis.",
+        "sample_size": "AML patient datasets (OHSU, TCGA, TARGET, MILE)",
+        "significance": null
+      },
+      {
+        "citation": "YTHDC1 is downregulated by the YY1/HDAC2 complex and controls the sensitivity of ccRCC to sunitinib by targeting the ANXA1-MAPK pathway (PMID: 35974388)",
+        "evidence_subtype": "pathway",
+        "summary": "HDAC2 functions as part of a YY1/HDAC2 transcriptional repressor complex that downregulates YTHDC1 expression in clear cell renal cell carcinoma. This axis modulates sensitivity to tyrosine kinase inhibitors through the ANXA1/MAPK pathway, and HDAC2 inhibitors can resensitize resistant tumors.",
+        "sample_size": "TCGA ccRCC dataset",
+        "significance": null
+      },
+      {
+        "citation": "HDAC2 Facilitates Pancreatic Cancer Metastasis (PMID: 34903606)",
+        "evidence_subtype": "function",
+        "summary": "HDAC2 is a cellular fitness factor that controls cell cycle progression and metastatic dissemination in undifferentiated, mesenchymal pancreatic ductal adenocarcinoma. HDAC2 maintains expression of prosurvival receptor tyrosine kinases (PDGFR\u03b1, PDGFR\u03b2, EGFR) and disables the tumor-suppressive TGF\u03b2 pathway.",
+        "sample_size": "Genetically defined PDAC models",
+        "significance": null
+      },
+      {
+        "citation": "Damascenone inhibits osteoclastogenesis by epigenetically modulating Nrf2-mediated ROS scavenge and counteracts OVX-induced osteoporosis (PMID: 39547093)",
+        "evidence_subtype": "cell_culture",
+        "summary": "HDAC2 is identified as a direct target of the natural compound damascenone. Damascenone inhibits HDAC2 function and increases H3K27ac histone acetylation at the Nrf2 promoter, inducing Nrf2 expression and ROS scavenging to suppress osteoclastogenesis in vitro and in vivo.",
+        "sample_size": "OVX-induced osteoporosis mouse model",
+        "significance": null
+      },
+      {
+        "citation": "HRD1-mediated ubiquitination of HDAC2 regulates PPAR\u03b1-mediated autophagy and alleviates metabolic-associated fatty liver disease (PMID: 38815686)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "HDAC2 is a substrate of the E3 ubiquitin ligase HRD1 and acts as a transcriptional repressor of PPAR\u03b1. HRD1-mediated ubiquitin-proteasomal degradation of HDAC2 relieves PPAR\u03b1 repression and promotes hepatic autophagy to alleviate hypoxia-induced metabolic-associated fatty liver disease.",
+        "sample_size": "Hypoxia-induced MAFLD mouse model",
+        "significance": null
+      },
+      {
+        "citation": "Emerging roles and therapeutic implications of HDAC2 and IL-17A in steroid-resistant asthma (PMID: 39170824)",
+        "evidence_subtype": "expression",
+        "summary": "HDAC2 activity is significantly reduced in patients with severe asthma and smoking-induced asthma, leading to increased acetylation of glucocorticoid receptors and amplified expression of inflammatory genes. Restoring HDAC2 activity is proposed as a therapeutic approach to reverse steroid insensitivity.",
+        "sample_size": "Severe asthma and smoking-induced asthma patients",
+        "significance": null
+      },
+      {
+        "citation": "Histone deacetylase-mediated silencing of PSTPIP2 expression contributes to aristolochic acid nephropathy-induced PANoptosis (PMID: 38073114)",
+        "evidence_subtype": "cell_culture",
+        "summary": "HDAC2 expression is upregulated in aristolochic acid-induced kidney injury and mediates transcriptional silencing of PSTPIP2. HDAC1/HDAC2-specific inhibitor romidepsin suppresses aristolochic acid-induced PANoptosis (pyroptosis, apoptosis, necroptosis) by upregulating PSTPIP2 and regulating caspase 8.",
+        "sample_size": "Mouse kidney and renal tubular epithelial cells",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Systematic analysis of nonsense-mediated decay escaping protein-truncating variants in 97,728 clinical exomes identifies new Mendelian disease genes",
+        "evidence_subtype": "other",
+        "summary": "HDAC2 was identified as a candidate gene for neurodevelopmental disorders through systematic analysis of nonsense-mediated decay-escaping protein-truncating variants. Two patients with syndromic neurodevelopmental delay carried de novo PTVesc mutations in HDAC2, suggesting loss-of-function variants in this histone modifier cause developmental disease.",
+        "sample_size": "97,728 clinical exomes; 29,031 parent-child trios",
+        "significance": "Binomial p < 0.001"
+      },
+      {
+        "citation": "ASHG 2018 - Large-scale trans-ethnic genome-wide association study reveals novel loci, causal molecular mechanisms and effector genes for kidney function",
+        "evidence_subtype": "GWAS",
+        "summary": "HDAC2 binding sites are significantly enriched in eGFR (estimated glomerular filtration rate) association signals across 312,468 individuals of diverse ancestry. Class I histone deacetylases including HDAC2 are required for embryonic kidney gene expression, growth and differentiation.",
+        "sample_size": "312,468 individuals",
+        "significance": "p < 5\u00d710\u207b\u2078 for multiple loci; enrichment analysis p < 0.00039"
+      }
+    ]
+  }
+}

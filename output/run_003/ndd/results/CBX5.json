@@ -1,0 +1,167 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 6,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Loss of heterochromatin protein 1 gamma reduces the number of primordial germ cells via impaired cell cycle progression in mice. (PMID: 21778144)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Dramatic loss of germ cells before meiosis in HP1gamma(-/-) mice",
+          "Reduction in primordial germ cells (PGCs) detectable from early bud stage (E7.25)",
+          "Gradual reduction in PGC number after E7.25",
+          "Significantly reduced BrdU incorporation into PGCs at E7.25 and E12.5",
+          "Lower proportion of PGCs in S phase at E12.5",
+          "Higher proportion of PGCs in G1 phase at E12.5",
+          "Increased proportion of p21 (CDKN1A)-positive PGCs suggesting G1/S phase transition inhibition",
+          "No differences in fate determination, migration, apoptosis, or histone modification of PGCs compared to controls"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aurora kinase B-phosphorylated HP1\u03b1 functions in chromosomal instability. (PMID: 31130069)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Mitotic chromosomal instability in mouse embryonic fibroblasts (MEFs)",
+          "Formation of anaphase/telophase chromatin bridges",
+          "Formation of micronuclei",
+          "Phenotypes rescued by exogenous expression of wild-type HP1\u03b1 or phosphomimetic (S92D) variant"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of RUNX1 slows the progression of pulmonary hypertension by targeting CBX5. (PMID: 39151099)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "RUNX1 knockdown reduced right ventricular systolic pressure (RVSP) in PH mice",
+          "RUNX1 knockdown reduced right ventricular hypertrophy (RVH) in PH mice",
+          "RUNX1 knockdown reduced pulmonary artery remodeling in PH mice",
+          "CBX5 knockdown suppressed proliferation, invasion, and migration of PASMCs under hypoxia",
+          "CBX5 knockdown stimulated apoptosis in PASMCs under hypoxia",
+          "CBX5 overexpression promoted proliferation and movement of hypoxic PASMCs and decreased apoptosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hierarchical maintenance of MLL myeloid leukemia stem cells employs a transcriptional program shared with embryonic rather than adult stem cells. (PMID: 19200802)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Cbx5 is a critical component of the leukemia stem cell (LSC) maintenance transcriptional program in a mouse model of AML",
+          "Coexpression of Myb, Hmgb3, and Cbx5 suffices for Hoxa/Meis-independent immortalization of myeloid progenitors",
+          "Cbx5 knockdown impairs LSC self-renewal maintenance in MLL-driven AML mouse model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "miR-206 knockout shows it is critical for myogenesis and directly regulates newly identified target mRNAs. (PMID: 32129700)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Cbx5 identified as a direct target of miR-206 in C2C12 mouse muscle cells",
+          "Functional experiments confirm Cbx5 is directly regulated by miR-206 during myogenesis in C2C12 cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Transcriptional control of CBX5 by the RNA binding proteins RBMX and RBMXL1 maintains chromatin state in myeloid leukemia (PMID: 34458856)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RBMX and RBMXL1 directly bind CBX5 mRNA and control nascent transcription of the CBX5 locus in AML cells. Loss of RBMX/L1 reduced CBX5 expression, and forced CBX5 re-expression rescued the effects of RBMX/L1 depletion on cell growth and apoptosis, demonstrating CBX5 is a key downstream effector of RBMX/L1 in myeloid leukemogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CBX5 loss drives EGFR inhibitor resistance and results in therapeutically actionable vulnerabilities in lung cancer (PMID: 36652476)",
+        "evidence_subtype": "cell_culture",
+        "summary": "An epigenome-wide shRNA screen identified CBX5 loss as a driver of EGFR inhibitor resistance in EGFR-mutant lung adenocarcinoma. Mechanistically, CBX5 loss increases E2F1 expression, which upregulates the anti-apoptotic gene BIRC5 (survivin), attenuating apoptosis after EGFRi treatment; BET inhibitors restore CBX5 expression and re-sensitize resistant cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CBX5/G9a/H3K9me-mediated gene repression is essential to fibroblast activation during lung fibrosis (PMID: 31095524)",
+        "evidence_subtype": "pathway",
+        "summary": "CBX5 (HP1\u03b1) partners with the histone methyltransferase G9a to deposit H3K9me marks and assemble a repressor complex that epigenetically silences PPARGC1A (PGC1\u03b1) in lung fibroblasts, sustaining fibroblast activation. Both TGF\u03b2 and increased matrix stiffness engage this CBX5/G9a pathway, and its inhibition reduces collagen accumulation in bleomycin-injured mouse lungs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting the Epigenetic Regulator CBX5 Promotes Fibroblast Metabolic Reprogramming and Inhibits Lung Fibrosis (PMID: 39642371)",
+        "evidence_subtype": "expression",
+        "summary": "Single-cell RNA sequencing and immunohistochemistry showed CBX5 expression is enriched in pathogenic fibroblast populations and fibroblastic foci of IPF lungs. CBX5 silencing in IPF fibroblasts inhibited TGF\u03b2-stimulated glycolysis, enhanced AMPK signaling and mitochondrial metabolism, and reduced collagen secretion, identifying CBX5 as an epigenetic regulator linking metabolic reprogramming to fibroblast activation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Defective Integrator activity shapes the transcriptome of patients with multiple sclerosis (PMID: 39029934)",
+        "evidence_subtype": "other",
+        "summary": "A subset of MS patients showed reduced CBX5 expression in monocytes, correlating with progressive disease stages and extensive transcriptomic alterations including impaired U snRNA maturation and altered RNA Pol II pause-release. Inactivation of Cbx5 in mice mirrored these transcriptional defects and caused hypersensitivity to experimental autoimmune encephalomyelitis, revealing CBX5 as an unexpected regulator of Integrator complex activity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Biological functions of chromobox (CBX) proteins in stem cell self-renewal, lineage-commitment, cancer and development (PMID: 32979540)",
+        "evidence_subtype": "function",
+        "summary": "CBX5 (along with CBX1 and CBX3) is a chromodomain-containing HP1 family protein that reads H3K9me3 marks deposited by SUV39H1/H2, thereby promoting heterochromatin formation and transcriptional repression. CBX5 functions as part of the HP1 complex to maintain inaccessible heterochromatin and suppress lineage-specific gene expression during development and differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulatory dissection of the CBX5 and hnRNPA1 bi-directional promoter in human breast cancer cells reveals novel transcript variants differentially associated with HP1\u03b1 down-regulation in metastatic cells (PMID: 26791953)",
+        "evidence_subtype": "expression",
+        "summary": "CBX5 is transcriptionally down-regulated in metastatic compared to non-metastatic breast cancer cells and patient tissues, functioning as a suppressor of metastasis. Multiple novel CBX5 transcript isoforms were identified, including a non-coding isoform (STET) that inversely correlates with HP1\u03b1-coding CBX5 mRNA, suggesting regulation via alternative polyadenylation and splicing contributes to HP1\u03b1 loss in metastatic cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HP1\u03b1 promotes the progression of prostate cancer (PMID: 37014569)",
+        "evidence_subtype": "cell_culture",
+        "summary": "HP1\u03b1 (CBX5) mRNA and protein were significantly overexpressed in prostate cancer tissues and cell lines compared to benign prostatic hyperplasia, positively correlating with Gleason score. Knockdown of HP1\u03b1 in PC3 and LNCaP cells inhibited proliferation, invasion, and migration while promoting apoptosis and EMT in vitro, and suppressed tumorigenesis in mouse xenograft models in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic Profile of Endotoxemia Reveals an Association With Thromboembolism and Stroke (PMID: 34668383)",
+        "evidence_subtype": "GWAS",
+        "summary": "A genome-wide association study of serum lipopolysaccharide activity in 11,296 individuals identified genome-wide significant associations at five independent loci; CBX5 was among the closest genes to one of these loci. The genetic risk score for endotoxemia was associated with deep vein thrombosis, pulmonary embolism, and venous thromboembolism in 195,170 FinnGen participants.",
+        "sample_size": "11296 (GWAS); 195170 (FinnGen)",
+        "significance": "genome-wide significant (741 SNPs)"
+      },
+      {
+        "citation": "LINC02381 contributes to cell proliferation and hinders cell apoptosis in glioma by transcriptionally enhancing CBX5 (PMID: 34274429)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "In glioma cells, the lncRNA LINC02381 interacts with the transcription factor CEBP\u03b2 to bind the CBX5 promoter and activate CBX5 transcription. CBX5 upregulation was shown to promote glioma cell proliferation and inhibit apoptosis, and rescue experiments confirmed that CBX5 overexpression reversed the anti-proliferative effects of LINC02381 knockdown.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

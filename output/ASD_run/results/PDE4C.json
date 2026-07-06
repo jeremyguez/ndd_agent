@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 7,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Aberrant TCF21 upregulation in adenomyosis impairs endometrial decidualization by increasing PDE4C expression. (PMID: 39326465)",
+        "evidence_subtype": "pathway",
+        "summary": "PDE4C is directly upregulated by transcription factor TCF21 and functions to inhibit intracellular cAMP levels, thereby suppressing FOXO1 expression and impairing decidualization in endometrial stromal cells. This identifies PDE4C as a key node in the TCF21/PDE4C/cAMP-FOXO1 axis regulating endometrial receptivity.",
+        "sample_size": "AM patients and controls",
+        "significance": "Confirmed by ChIP-seq, qPCR, dual-luciferase reporter assay"
+      },
+      {
+        "citation": "Hypoxia-conditioned BMSC exosomes improve short-term spinal cord injury outcomes via the miR-615-3p/PDE4C-mediated cAMP/PKA pathway. (PMID: 41526970)",
+        "evidence_subtype": "pathway",
+        "summary": "PDE4C is a direct target of miR-615-3p; suppression of PDE4C activates the cAMP/PKA signaling pathway, which modulates calcium signaling and reduces endoplasmic reticulum stress in spinal cord injury models. In vivo administration of hypoxic exosomes downregulated PDE4C expression in injured spinal cord tissues.",
+        "sample_size": "Mouse SCI model",
+        "significance": "Demonstrated in both in vitro and in vivo models with improved locomotor performance and reduced lesion volume"
+      },
+      {
+        "citation": "Integrated analysis using methylation and gene expression microarrays reveals PDE4C as a prognostic biomarker in human glioma. (PMID: 24842301)",
+        "evidence_subtype": "expression",
+        "summary": "PDE4C exhibits promoter hypermethylation and reduced expression in high-grade gliomas compared to low-grade gliomas and normal brain. PDE4C functions as a tumor suppressor by promoting apoptosis through the wild-type p53 pathway and inhibiting cell migration in U87 glioma cells.",
+        "sample_size": "124 patient samples (56 low-grade, 63 high-grade glioma, 5 normal brain)",
+        "significance": "Hypermethylation and reduced PDE4C expression associated with grade progression and overall survival (p<0.05)"
+      },
+      {
+        "citation": "HNF4\u03b1-Mediated LINC02560 Promotes Papillary Thyroid Carcinoma Progression by Targeting the miR-505-5p/PDE4C Axis. (PMID: 40427523)",
+        "evidence_subtype": "pathway",
+        "summary": "PDE4C is a target of miR-505-5p; the long non-coding RNA LINC02560 acts as a competing endogenous RNA to sponge miR-505-5p and relieve suppression of PDE4C, thereby activating P-AKT and EMT signaling pathways in papillary thyroid carcinoma cells. HNF4\u03b1 transcriptionally enhances LINC02560 expression.",
+        "sample_size": "PTC tissues and KTC-1, BCPAP cell lines",
+        "significance": "LINC02560 upregulation correlates with poor prognosis; functional assays demonstrate effects on proliferation, migration, and invasion"
+      },
+      {
+        "citation": "Cancer: Phosphodiesterase type 4C (PDE4C), the forgotten subfamily as a therapeutic target. (PMID: 37499270)",
+        "evidence_subtype": "function",
+        "summary": "PDE4C is a member of the phosphodiesterase type 4 (PDE4) enzyme family that specifically hydrolyzes cAMP in cell signaling systems. PDE4C has a restricted distribution pattern and is the least characterized of the four PDE4 subfamilies (A, B, C, D), with potential roles in cancer development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Elevated PDE4C level serves as a candidate diagnostic biomarker and correlates with poor survival in thyroid carcinoma. (PMID: 38514754)",
+        "evidence_subtype": "expression",
+        "summary": "PDE4C expression is significantly upregulated in thyroid carcinoma tissues compared to normal tissues, and elevated PDE4C correlates with shorter progression-free survival. PDE4C participates in cAMP metabolic process by regulating adenylate cyclases (ADCY1, ADCY5, ADCY6, ADCY8, ADCY9) and affects immune cell infiltration during THCA progression.",
+        "sample_size": "TCGA and GEO databases analyzed",
+        "significance": "Higher PDE4C expression associated with shorter PFS (p<0.05)"
+      },
+      {
+        "citation": "Analysis of the effects of M2 macrophage-derived PDE4C on the prognosis, metastasis and immunotherapy benefit of osteosarcoma. (PMID: 38774995)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PDE4C is transferred from M2 macrophages to osteosarcoma cells via exosomes and increases OS cell proliferation and mobility by upregulating collagen expression. Elevated PDE4C correlates with unfavorable prognosis, metastasis, increased TIDE score, and reduced immunotherapy response.",
+        "sample_size": "GSE162454 scRNA-seq profile; OS tissues and THP-1 cell line",
+        "significance": "Positive correlation between PDE4C levels and M2 macrophage infiltration; elevated PDE4C associated with poor prognosis and metastasis"
+      },
+      {
+        "citation": "Expression and function of phosphodiesterases (PDEs) in the rat urinary bladder. (PMID: 28687079)",
+        "evidence_subtype": "expression",
+        "summary": "PDE4C mRNA and protein were not detected in adult rat urinary bladder tissue, in contrast to other PDE isoforms (PDE4A, PDE4B, PDE4D) which were expressed. This indicates PDE4C has a restricted tissue distribution pattern.",
+        "sample_size": "Neonatal and adult Sprague-Dawley rats",
+        "significance": "PDE4C not detected by RT-PCR/western blot in rat bladder"
+      },
+      {
+        "citation": "PDE4C stabilized by ELAVL1 promotes lymph node metastasis in papillary thyroid cancer. (PMID: 41868681)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ELAVL1 (embryonic lethal abnormal vision like 1) directly interacts with PDE4C mRNA and increases PDE4C mRNA stability, promoting lymph node metastasis in papillary thyroid carcinoma. Knockdown of PDE4C suppresses cell proliferation, migration, invasion, and lymph node metastasis in vivo.",
+        "sample_size": "PTC tissues and BCPAP, TPC-1 cell lines; mouse xenograft model",
+        "significance": "PDE4C and ELAVL1 upregulated in PTC tissues; knockdown effects demonstrated by CCK-8, Transwell, and in vivo assays"
+      },
+      {
+        "citation": "The plasma peptides of Alzheimer's disease. (PMID: 34182925)",
+        "evidence_subtype": "expression",
+        "summary": "Increased frequency of tryptic phosphopeptides from PDE4C were observed in plasma samples from Alzheimer's disease patients compared to controls and other disease states, suggesting altered PDE4C phosphorylation status in AD.",
+        "sample_size": "AD patients, normal controls, and multiple disease controls (MS, ovarian cancer, breast cancer, sepsis, heart attack)",
+        "significance": "PDE4C phosphopeptides showed increased observation frequency in AD plasma by Chi Square analysis with FDR correction"
+      }
+    ]
+  }
+}

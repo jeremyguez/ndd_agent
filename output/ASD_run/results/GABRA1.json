@@ -1,0 +1,286 @@
+{
+  "articles_found": {
+    "clinical": 13,
+    "model_organism": 10,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Vinpocetine improved neuropsychiatric and epileptic outcomes in a patient with a GABRA1 loss-of-function variant (PMID: 37434477)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.(Arg112Gln)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "psychiatric complications",
+              "therapy-resistant focal epilepsy",
+              "seizure freedom after vinpocetine treatment"
+            ]
+          }
+        ],
+        "diagnostic_reason": "loss-of-function variant; patient showed clinical response to vinpocetine treatment",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Novel and de novo mutations in pediatric refractory epilepsy (PMID: 30185235)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "GABRA1 (specific variant not detailed)",
+            "type": "other",
+            "phenotypes": [
+              "pediatric refractory epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo mutation identified in cohort of 172 refractory epilepsy patients; pathogenic or likely pathogenic by ACMG criteria",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Cortical activation in generalized seizures (PMID: 31368118)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "A322D",
+            "type": "missense",
+            "phenotypes": [
+              "juvenile myoclonic epilepsy",
+              "spike-wave discharges",
+              "myoclonic seizures",
+              "interictal spikes"
+            ]
+          }
+        ],
+        "diagnostic_reason": "heterozygous Gabra1+/A322D mouse model of juvenile myoclonic epilepsy",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - Discovery of cerebral palsy genes through trio-based whole exome sequencing in cryptogenic individuals",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "GABRA1 (specific variant not detailed)",
+            "type": "other",
+            "phenotypes": [
+              "cerebral palsy",
+              "autism",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo damaging variant identified in cryptogenic cerebral palsy cohort; gene previously implicated in autism and intellectual disability",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "A brain-to-gut signal controls intestinal fat absorption (PMID: 39261733)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Reduced intestinal fat absorption",
+          "Weight loss",
+          "Shortened microvilli length in jejunum"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "An airway-to-brain sensory pathway mediates influenza-induced sickness (PMID: 36890237)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Elimination of influenza-induced decreases in food intake",
+          "Elimination of influenza-induced decreases in water intake",
+          "Elimination of influenza-induced decreases in mobility",
+          "Improved survival during early-stage infection"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Characterization of the zebrafish gabra1(sa43718/sa43718) germline loss of function allele confirms a function for Gabra1 in motility and nervous system development (PMID: 38908344)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Light-induced hypermotility",
+          "Seizure-like behavior",
+          "Decreased gabra1 mRNA expression",
+          "Decreased mRNA expression of gabra2, gabra3, and gabra5",
+          "Abnormal expression of proteins regulating synaptic vesicle fusion",
+          "Abnormal expression of proteins regulating vesicle transport",
+          "Abnormal expression of proteins regulating synapse development",
+          "Abnormal expression of proteins regulating mitochondrial protein complexes",
+          "Residual GABAAR function (continued response to pentylenetetrazole)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Characterization of the zebrafish gabra1(sa43718/sa43718) germline loss of function allele confirms a function for Gabra1 in motility and nervous system development (PMID: 36747751)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Light-induced hypermotility",
+          "Seizure-like behavior",
+          "Decreased gabra1 mRNA expression",
+          "Decreased mRNA expression of gabra2, gabra3, and gabra5",
+          "Abnormal expression of proteins regulating proton transport",
+          "Abnormal expression of proteins regulating ion homeostasis",
+          "Abnormal expression of proteins regulating vesicle transport",
+          "Abnormal expression of proteins regulating mitochondrial protein complexes",
+          "Residual GABAAR function (continued response to pentylenetetrazole)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epilepsy plus blindness in microdeletion of GABRA1 and GABRG2 in mouse and human (PMID: 37703949)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Spontaneous seizures",
+          "Optic nerve degeneration",
+          "Impaired myelination of axons",
+          "Increased G-ratio (inner axonal diameter to total outer diameter)",
+          "Reduced electroretinography oscillatory potential",
+          "Reduced GABAA receptor \u03b11, \u03b22 and \u03b32 subunit expression in various brain regions",
+          "Responsive to phenobarbital treatment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Abnormal expression of GABA(A) receptor subunits and hypomotility upon loss of gabra1 in zebrafish (PMID: 32205311)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Hypoactivity (hypomotility)",
+          "Defects in expression of other GABAAR subunits",
+          "Partial restoration of hypomotility phenotype by human GABRA1 expression",
+          "Failure of c.875C>T variant to restore behavioral deficits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A new knockin mouse carrying the E364X patient mutation for CDKL5 deficiency disorder: neurological, behavioral and molecular profiling (PMID: 39583831)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Altered neurological and motor neuron maturation",
+          "Hyperactivity",
+          "Defective coordination",
+          "Impaired memory and cognition",
+          "Reduced Gabra1 and Gabra5 expression in females (cerebellum and hippocampus)",
+          "Increased Gabra1 expression in males (sex-dependent regulation)",
+          "Cerebellar GABAergic hypofunction",
+          "Altered astrocyte- and oligodendrocyte-specific transcripts",
+          "Increased overall neuron-specific gene expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "A brain-to-gut signal controls intestinal fat absorption (PMID: 39261733)",
+        "evidence_subtype": "function",
+        "summary": "GABRA1 is a functional target of puerarin, a natural compound that suppresses the DMV-vagus pathway. Conditional Gabra1 knockout in the DMV largely abolishes puerarin-induced intestinal fat loss, demonstrating GABRA1's role in controlling intestinal fat absorption through the brain-to-gut axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic variations in GABA metabolism and epilepsy (PMID: 35850019)",
+        "evidence_subtype": "pathway",
+        "summary": "GABRA1 encodes a GABA receptor subunit and is a key member of GABAergic neurotransmission pathways. Mutations in GABRA1 lead to epilepsy syndromes primarily by downregulating receptor expression and reducing the amplitude of GABA-evoked potentials, establishing its role in inhibitory neurotransmission.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "An airway-to-brain sensory pathway mediates influenza-induced sickness (PMID: 36890237)",
+        "evidence_subtype": "function",
+        "summary": "Petrosal GABRA1 neurons form a primary airway-to-brain sensory pathway that detects locally produced prostaglandins (PGE2) and mediates systemic sickness responses to respiratory virus infection. Ablating petrosal GABRA1 neurons eliminates influenza-induced decreases in food intake, water intake, and mobility during early-stage infection.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Network pharmacology screening, in vitro and in vivo evaluation of antianxiety and antidepressant drug-food analogue (PMID: 39241390)",
+        "evidence_subtype": "cell_culture",
+        "summary": "GABRA1 gene expression was upregulated in the hippocampus of mice treated with the GDGSHJ herbal formulation, correlating with antidepressant and anxiolytic effects. The formulation increased brain GABA levels and upregulated GABRA1 alongside other neurotransmitter-related genes.",
+        "sample_size": "CUMS mouse model",
+        "significance": null
+      },
+      {
+        "citation": "The Genetic Landscape of Epilepsy of Infancy with Migrating Focal Seizures (PMID: 31618474)",
+        "evidence_subtype": "other",
+        "summary": "De novo dominant GABRA1 mutations were identified as novel genetic causes of epilepsy of infancy with migrating focal seizures (EIMFS), a severe developmental and epileptic encephalopathy. GABRA1 variants contribute to the genetic heterogeneity of EIMFS with diverse molecular mechanisms.",
+        "sample_size": "135 patients from 128 unrelated families",
+        "significance": null
+      },
+      {
+        "citation": "GABRA1-Related Disorders: From Genetic to Functional Pathways (PMID: 37606373)",
+        "evidence_subtype": "function",
+        "summary": "GABRA1 variants display both loss-of-function (LoF) and gain-of-function (GoF) effects depending on structural position within the subunit. Variants in extracellular domains cause mild phenotypes with LoF effects, while variants in transmembrane helices cause severe phenotypes with either GoF or LoF effects, establishing genotype-phenotype correlations.",
+        "sample_size": "27 individuals with 20 different GABRA1 variants",
+        "significance": null
+      },
+      {
+        "citation": "Understanding paralogous epilepsy-associated GABA(A) receptor variants: Clinical implications, mechanisms, and potential pitfalls (PMID: 39642202)",
+        "evidence_subtype": "function",
+        "summary": "GABRA1 M1 proline missense variants (\u03b11P260L, \u03b11P260S) cause gain-of-function effects by increasing GABA sensitivity 3- to 23-fold in \u03b11\u03b22/3\u03b32 receptors. These variants are associated with developmental and epileptic encephalopathy with early seizure onset, demonstrating that paralogous variants in GABRA1 lead to overall GOF traits.",
+        "sample_size": "11 individuals with paralogous variants",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Dissecting heterogeneity of neurodevelopmental disorders using seed centric genetic modules (J.C. Chow et al.)",
+        "evidence_subtype": "pathway",
+        "summary": "GABRA1 serves as a seed gene for constructing functional modules associated with epilepsy. Modules seeded with GABRA1 are significantly associated with long-term potentiation, synaptic vesicle cycle, and calcium signaling pathways, revealing its role in synaptic plasticity networks.",
+        "sample_size": null,
+        "significance": "Significant enrichment of de novo mutations within modules (p<0.05)"
+      },
+      {
+        "citation": "ASHG 2018 - Whole exome sequencing in epilepsy reveals significant gene burden of ultra-rare deleterious variants (Y. Feng, EPI Collaborative)",
+        "evidence_subtype": "GWAS",
+        "summary": "GABRA1 showed significant association with genetic generalized epilepsy (GGE) in the Epi25 Consortium's large WES study of 4,443 GGE patients and 17,668 controls. GABRA1 ranked among the strongest associations for GGE with OR=21.5 (p=3e-04), confirming its role in common epilepsy susceptibility.",
+        "sample_size": "4,443 GGE patients, 17,668 controls",
+        "significance": "OR=21.5, p=3e-04"
+      },
+      {
+        "citation": "ASHG 2017 - Discovery of cerebral palsy genes through trio-based whole exome sequencing in cryptogenic individuals (S. Bakhtiari et al.)",
+        "evidence_subtype": "other",
+        "summary": "GABRA1 was identified as a gene carrying damaging de novo variants in cryptogenic cerebral palsy patients, with clinical overlap to autism and intellectual disability. This finding illustrates GABRA1's broader role in neurodevelopmental disorders beyond epilepsy.",
+        "sample_size": "95 parent-offspring trios with cryptogenic CP",
+        "significance": null
+      }
+    ]
+  }
+}

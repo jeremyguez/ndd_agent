@@ -1,0 +1,204 @@
+{
+  "articles_found": {
+    "clinical": 7,
+    "model_organism": 6,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Successful Treatment With Evocalcet Against Familial Hypocalciuric Hypercalcemia Type 3 (FHH3) Identified by AP2S1 Gene Mutation (p.Arg15Leu). (PMID: 39949382)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.Arg15Leu",
+            "type": "missense",
+            "phenotypes": [
+              "hypercalcemia",
+              "hypocalciuria",
+              "reduced bone mineral density",
+              "developmental disorder",
+              "familial hypocalciuric hypercalcemia type 3"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous missense mutation at Arg15 residue; all affected FHH3 patients harbor heterozygous mutation at this position; genetic testing confirmed diagnosis",
+        "center_country": "Japan (hospital not specified)",
+        "cohort": null
+      },
+      {
+        "citation": "Cinacalcet therapy in symptomatic 11-year-old girl with familial hypocalciuric hypercalcemia type 3. (PMID: 41501259)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.44G>T, p.Arg15Leu",
+            "type": "missense",
+            "phenotypes": [
+              "hypercalcemia",
+              "hypocalciuria",
+              "elevated parathyroid hormone",
+              "low bone mineral density",
+              "neurodevelopmental difficulties",
+              "familial hypocalciuric hypercalcemia type 3"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous pathogenic variant in AP2S1; primary hyperparathyroidism and CASR variants excluded; confirmed FHH3 diagnosis",
+        "center_country": "Not specified",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Ap2s1 mutation causes hypercalcaemia in mice and impairs interaction between calcium-sensing receptor and adaptor protein-2 (PMID: 33729479)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "marked hypercalcaemia",
+          "hypermagnesaemia",
+          "hypophosphataemia",
+          "increased alkaline phosphatase activity",
+          "increased fibroblast growth factor-23",
+          "normal plasma 1,25-dihydroxyvitamin D",
+          "no alterations in bone mineral density",
+          "no alterations in bone turnover",
+          "impaired AP2\u03c32-CaSR protein-protein interaction",
+          "impaired AP2\u03c32 interaction with other AP2 subunits"
+        ],
+        "mendelian_ratio": "lethal (homozygous)",
+        "lethality": "perinatal lethal (homozygous)",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "N-ethyl-N-nitrosourea-Induced Adaptor Protein 2 Sigma Subunit 1 (Ap2s1) Mutations Establish Ap2s1 Loss-of-Function Mice (PMID: 29479578)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "AP2\u03c3 haplosufficiency in heterozygotes",
+          "normal appearance and growth",
+          "normal plasma calcium, phosphate, magnesium, creatinine, urea, sodium, potassium",
+          "normal alkaline phosphatase activity",
+          "normal urinary fractional excretion of calcium, phosphate, sodium, potassium",
+          "normal plasma parathyroid hormone (PTH)",
+          "normal plasma 1,25-dihydroxyvitamin D (1,25(OH)2)",
+          "embryonic lethality in homozygotes (E3.5-E9.5)",
+          "defects in cardiac, thyroid, hepatic, gastrointestinal, pulmonary, pancreatic, and neural development"
+        ],
+        "mendelian_ratio": "sub-Mendelian (homozygous lethal)",
+        "lethality": "embryonic lethal (homozygous, E3.5-E9.5)",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The adaptor protein 2 (AP2) complex modulates habituation and behavioral selection across multiple pathways and time windows (PMID: 38550987)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "deficits in acoustically evoked habituation learning",
+          "altered escape behavior choice",
+          "impaired sensory modality-specific behavioral responses",
+          "disrupted action selection across sensory contexts",
+          "acute nervous system dysfunction in habituation modulation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Integration of cooperative and opposing molecular programs drives learning-associated behavioral plasticity (PMID: 36972301)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "deficits in habituation learning",
+          "antagonism of dopamine signaling in habituation regulation",
+          "altered behavioral plasticity",
+          "disrupted integration of molecular pathways for habituation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Forward Genetic Screen in Zebrafish Identifies the G-Protein-Coupled Receptor CaSR as a Modulator of Sensorimotor Decision Making (PMID: 29681477)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "deficits in sensorimotor choice modulation",
+          "impaired behavioral response selection to acoustic stimuli",
+          "disrupted context-dependent decision making",
+          "altered clathrin-mediated endocytosis signaling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The HAVCR1-centric host factor network drives Zika virus vertical transmission (PMID: 40156834)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AP2S1 cooperates with HAVCR1 for ZIKV internalization through clathrin-mediated endocytosis. Proteomic profiling and functional analyses identified AP2S1 as a key component in the viral entry pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "N-ethyl-N-nitrosourea-Induced Adaptor Protein 2 Sigma Subunit 1 (Ap2s1) Mutations Establish Ap2s1 Loss-of-Function Mice (PMID: 29479578)",
+        "evidence_subtype": "function",
+        "summary": "AP2S1 encodes the adaptor protein-2 sigma subunit, which forms a heterotetrameric complex with AP2\u03b1, AP2\u03b2, and AP2\u03bc subunits that is pivotal for clathrin-mediated endocytosis. Homozygous Ap2s1del17/del17 mice were embryonic lethal (E3.5-E9.5), indicating AP2\u03c3 has critical roles in embryonic patterning and organogenesis.",
+        "sample_size": ">10,000 mice screened",
+        "significance": null
+      },
+      {
+        "citation": "GTPase GPN3 facilitates cell proliferation and migration in non-small cell lung cancer by impeding clathrin-mediated endocytosis of EGFR (PMID: 39893205)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AP2S1 was identified as an interacting partner of GPN3, a clathrin-mediated endocytosis-associated modulator. GPN3 interacts with AP2S1 and AP2B1 to regulate clathrin-coated pit invagination and EGFR endocytosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "High-Confidence Interactome for RNF41 Built on Multiple Orthogonal Assays (PMID: 29560723)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AP2S1 was identified as a novel RNF41 interaction partner through affinity purification-mass spectrometry, BioID, and Virotrap approaches. RNF41 stabilizes and relocates AP2S1, and AP2S1 plays a role in leptin and LIF receptor signaling.",
+        "sample_size": "175 candidate protein partners identified; 19 high-confidence hits",
+        "significance": null
+      },
+      {
+        "citation": "Synaptic Vesicle-Related Proteins and Ubiquilin 2 in Cortical Synaptosomes Mediate Cognitive Impairment in Vascular Dementia Rats (PMID: 38990251)",
+        "evidence_subtype": "expression",
+        "summary": "AP2S1 was identified as a hub protein in the synaptic vesicle cycle pathway and showed decreased expression in synaptosomes of vascular dementia rats compared to controls. AP2S1 levels were significantly downregulated in the 2VO rat model of vascular dementia.",
+        "sample_size": "Male rats with bilateral common carotid artery occlusion",
+        "significance": null
+      },
+      {
+        "citation": "Familial Hypocalciuric Hypercalcemia Types 1 and 3 and Primary Hyperparathyroidism: Similarities and Differences (PMID: 26963950)",
+        "evidence_subtype": "function",
+        "summary": "AP2S1 mutations cause familial hypocalciuric hypercalcemia type 3 through loss-of-function mechanisms affecting calcium homeostasis. Three recurrent AP2S1 mutations were identified in 19 families, and AP2S1 mutations affect calcium homeostasis more severely than CASR mutations.",
+        "sample_size": "52 FHH type 1 patients, 22 FHH type 3 patients, 60 PHPT patients, 24 normal adults; 133 families analyzed",
+        "significance": null
+      },
+      {
+        "citation": "AP2S1 and GNA11 mutations - not a common cause of familial hypocalciuric hypercalcemia (PMID: 27913609)",
+        "evidence_subtype": "function",
+        "summary": "AP2S1 mutations at codon 15 (p.Arg15Leu and p.Arg15His) cause familial hypocalciuric hypercalcemia type 3. Two mutations were found in 33 CASR-negative FHH patients (~6%), confirming AP2S1 as a causative gene for FHH type 3.",
+        "sample_size": "33 CASR-negative FHH patients, control group of PHPT patients",
+        "significance": null
+      },
+      {
+        "citation": "Chapter 5: The roles of genetics in primary hyperparathyroidism (PMID: 39818301)",
+        "evidence_subtype": "function",
+        "summary": "AP2S1 is included in the first-line panel of genes recommended for genetic screening in familial primary hyperparathyroidism. AP2S1 mutations are recognized as a genetic cause of familial hyperparathyroidism and familial hypocalciuric hypercalcemia type 3.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

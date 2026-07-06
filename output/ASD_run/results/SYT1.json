@@ -1,0 +1,187 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 10,
+    "biological": 13
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A de novo missense mutation in synaptotagmin-1 associated with neurodevelopmental disorder desynchronizes neurotransmitter release (PMID: 38321119)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1201C>T, p.Pro401Leu (P401L)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "autistic symptoms"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo mutation; functional studies in cultured neurons showed dominant-negative effect with increased spontaneous and asynchronous neurotransmitter release, reduced dendrite outgrowth, and desynchronization of neurotransmission",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2023 - Investigating Immune Functions of neuronal genes burdening Autism Spectrum Disorder: An integrated gene expression and mutation analysis",
+        "num_patients": 15,
+        "variants": [
+          {
+            "description": "deleterious variation in SYT1 (specific variants not detailed)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "deleterious variation identified in whole exome sequencing data from 15 ASD children; SYT1 found differentially expressed in ASD brain post-mortem tissues",
+        "center_country": "India",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Effects of Synaptotagmin1 gene knockout on the behavior of mice (PMID: 36031564)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Decreased Syt1 positive cells in prelimbic cortex, hippocampus, amygdala, accumbens nucleus, caudoputamen, and ventral tegmental area",
+          "Reduced total movement distance in open field test",
+          "Increased preference for peripheral area in open field test",
+          "Reduced desire to explore central platform",
+          "Reduced number of open-arm explorations in elevated plus maze",
+          "Reduced time spent in open-arm explorations",
+          "Increased immobile time in forced swim test",
+          "Increased glutamate concentration in amygdala",
+          "Anxiety-like behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": "9-10 Syt1+/- mice and 10 WT controls for behavioral tests; 5 Syt1+/- and 5 WT for immunofluorescence and glutamate analysis",
+        "significance": "p<0.01 for most measures; p<0.05 for number of open-arm explorations"
+      },
+      {
+        "citation": "Synaptotagmins 1 and 7 in vesicle release from rods of mouse retina (PMID: 36280223)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Syt1 deletion from rods: reduced glutamate release evoked by short depolarizing steps but not long steps",
+          "Syt7 deletion from rods: reduced release evoked by long but not short steps",
+          "Double deletion of Syt1 and Syt7 from rods: completely abolished depolarization-evoked release",
+          "Syt1 deletion from rods and cones: abolished ERG b-waves",
+          "Syt7 whole animal knockout: slightly reduced ERG b-waves and oscillatory potentials",
+          "Syt7 selective elimination from rods: no effect on ERGs",
+          "Differential effects on ribbon-associated versus distant release sites"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": "Multiple mice assessed with electroretinograms and single-cell recordings; specific numbers not detailed",
+        "significance": "Functional differences demonstrated through electrophysiological measurements"
+      },
+      {
+        "citation": "Presynaptic Changes in Mouse Rod Photoreceptors During Early Retinitis Pigmentosa (PMID: 41324324)",
+        "organism": "mouse",
+        "knockout_type": "not a knockout study",
+        "phenotypes": null,
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Adult-onset deactivation of autophagy leads to loss of synapse homeostasis and cognitive impairment, with implications for alzheimer disease (PMID: 38949671)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Accumulation of synaptic proteins in forebrain synaptosomes",
+          "Impaired cognitive performance over time",
+          "Intact gross locomotor skills",
+          "No cell death or synapse loss despite 6.5 weeks of autophagy deactivation",
+          "Accumulation of SLC17A7/Vglut in synaptosomes",
+          "Impaired autophagosome maturation in APP PSEN1 double-transgenic mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": "atg7iKO mice and controls; specific numbers not detailed",
+        "significance": "Cognitive impairment demonstrated; protein accumulation measured"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Exosomes derived from bone-marrow mesenchymal stem cells alleviate cognitive decline in AD-like mice by improving BDNF-related neuropathology (PMID: 35130907)",
+        "evidence_subtype": "function",
+        "summary": "SYT1 (synaptotagmin-1) protein expression was measured in hippocampus of AD-like mice. BDNF expression showed positive correlation with hippocampal SYT1 expression, suggesting SYT1 involvement in synaptic function related to cognitive decline in Alzheimer's disease pathology.",
+        "sample_size": "AD-like mice model (STZ-injected)",
+        "significance": "Pearson correlation analysis showed positive correlation between BDNF and Syt-1 expression"
+      },
+      {
+        "citation": "Ischemia-induced upregulation of autophagy preludes dysfunctional lysosomal storage and associated synaptic impairments in neurons (PMID: 33111641)",
+        "evidence_subtype": "function",
+        "summary": "SYT1 (synaptotagmin I) protein expression was measured as a marker of synaptic protein turnover in hippocampal neurons subjected to oxygen-glucose deprivation (OGD) and in mouse MCAO ischemic stroke model. SYT1 levels were assessed to evaluate synaptic ultra-structure impairment associated with dysfunctional lysosomal storage.",
+        "sample_size": "Rat hippocampal neurons and mouse MCAO model",
+        "significance": null
+      },
+      {
+        "citation": "Buyang huanwu decoction improves synaptic plasticity of ischemic stroke by regulating the cAMP/PKA/CREB pathway (PMID: 39089658)",
+        "evidence_subtype": "pathway",
+        "summary": "SYT1 is identified as a synaptic-related protein whose expression is regulated through the cAMP/PKA/CREB signaling pathway in ischemic stroke. BYHWD treatment increased SYT1 mRNA and protein expression in both MCAO rats and OGD/R-treated SH-SY5Y cells, demonstrating SYT1's role in synaptic plasticity recovery.",
+        "sample_size": "MCAO rat model and SH-SY5Y cell culture",
+        "significance": "Immunofluorescence and Western blot showed significant increases in Syt1 expression with BYHWD treatment"
+      },
+      {
+        "citation": "Unveiling novel cell clusters and biomarkers in glioblastoma and its peritumoral microenvironment at the single-cell perspective (PMID: 38851695)",
+        "evidence_subtype": "expression",
+        "summary": "SYT1 was identified as a potential biomarker associated with proliferation of malignant cells in glioblastoma through single-cell RNA sequencing analysis of 8 tissue samples from 4 GBM patients.",
+        "sample_size": "8 tissue samples from 4 GBM patients",
+        "significance": null
+      },
+      {
+        "citation": "SYT1-Associated Neurodevelopmental Disorder: A Narrative Review (PMID: 36291375)",
+        "evidence_subtype": "function",
+        "summary": "SYT1 (synaptotagmin) is identified as an essential synaptic vesicle protein that mediates calcium-triggered neurotransmitter release during synaptic vesicle exocytosis. Genetic variants in SYT1 cause a rare neurodevelopmental disorder characterized by motor delay, intellectual disability, hyperkinetic movement disorder, and visual impairments.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Correlation between evoked neurotransmitter release and adaptive functions in SYT1-associated neurodevelopmental disorder (PMID: 39481209)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Cultured hippocampal neurons transfected with SYT1-pHluorin were used to examine how pathogenic variants in the C2A and C2B domains of SYT1 impact evoked exocytosis. Multiple variants (L159R, T196K, E209K, E219Q, M303V, S309P, Y365C, G369D) caused graded, variant-dependent dominant-negative impairment in exocytosis that correlated with severity of motor and communication impairments.",
+        "sample_size": "Cultured hippocampal neurons from multiple transfections",
+        "significance": "Correlation between exocytic efficiency measures and neurodevelopmental phenotype severity"
+      },
+      {
+        "citation": "Exocytosis and synaptic vesicle function (PMID: 24692137)",
+        "evidence_subtype": "function",
+        "summary": "SYT1 (synaptotagmin 1) is the major isoform among 16 synaptotagmin isoforms and mediates Ca2+-triggered synaptic vesicle exocytosis by interacting with target membranes and SNARE/complexin complexes. The affinities of Ca2+-dependent interactions between SYT1 and its targets correlate with efficacies of exocytotic processes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Investigating Immune Functions of neuronal genes burdening Autism Spectrum Disorder: An integrated gene expression and mutation analysis",
+        "evidence_subtype": "expression",
+        "summary": "SYT1 was identified as a neuro-immune gene with prominent dual neuronal and immune cell-specific functional networks in autism spectrum disorder. SYT1 was found differentially expressed in ASD brain post-mortem tissues and carried deleterious variations in whole exome sequencing data from 15 Indian ASD children.",
+        "sample_size": "15 in-house WES data from Indian ASD children; ASD brain post-mortem tissues",
+        "significance": "Genes identified with statistically significant protein-protein interactions and differential brain tissue expression"
+      },
+      {
+        "citation": "ASHG 2012 - 12q21 deletion syndrome with intellectual disability and facial dysmorphism",
+        "evidence_subtype": "expression",
+        "summary": "SYT1 is localized within the 12q21.2-q21.33 deleted region (14 Mb deletion) in a patient with intellectual disability and facial dysmorphisms. SYT1 is identified as an important gene relating to neuronal development and function within this critical region.",
+        "sample_size": "1 patient with 12q21 deletion; 5 total patients with 12q21 deletion syndrome reported",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - Allelic Expression Imbalance Analysis under the Chromosome 1q21-24 Linkage Peak for Type2 Diabetes Shows Cis-Regulatory SNPs",
+        "evidence_subtype": "GWAS",
+        "summary": "SYT1 was identified as showing significant allelic expression imbalance (AEI) for a cSNP in both European American and African American populations under the chromosome 1q21-24 linkage peak for type 2 diabetes, suggesting cis-acting regulatory variants affecting SYT1 expression.",
+        "sample_size": "95 European American and 95 African American transformed lymphoblastoid cell lines",
+        "significance": "p=0.05 to 7x10-8 for AEI in both populations"
+      }
+    ]
+  }
+}

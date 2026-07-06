@@ -1,0 +1,121 @@
+# Evidence Report: RYR2 as a Neurodevelopmental Disorder Gene (Autosomal Dominant / Heterozygous Variants)
+
+---
+
+## 1. GENE SUMMARY
+
+RYR2 (Ryanodine Receptor 2) encodes the cardiac isoform of the ryanodine receptor, a large intracellular calcium release channel located on the sarcoplasmic/endoplasmic reticulum membrane. Its primary established function is mediating calcium-induced calcium release in cardiomyocytes to regulate excitation-contraction coupling, though emerging evidence demonstrates expression and functional roles in neuronal tissue as well.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports/series:** Eight independent publications or conference abstracts were identified, spanning case series, cohort studies, registry-based analyses, and exome sequencing studies.
+
+**Total approximate number of patients:** Approximately 60 patients carry RYR2 variants across the identified studies, though the neurodevelopmental phenotype is the primary focus in a subset of these.
+
+**Most common phenotypes observed:**
+The predominant phenotype across the literature remains cardiac — specifically catecholaminergic polymorphic ventricular tachycardia (CPVT) — but neurodevelopmental and neurological phenotypes are increasingly recognized as co-occurring or primary features. Neurodevelopmental phenotypes documented include:
+- Intellectual and neurodevelopmental delay (INDD) in 19 pediatric CPVT patients (PMID: 41000018)
+- Intellectual disability and ADHD/neuropsychiatric manifestations in 17 pediatric CPVT patients (PMID: 39733778)
+- Benign epilepsy of childhood with centrotemporal spikes (BECTS) in 5 patients, with or without arrhythmia (PMID: 33897349)
+- Juvenile myoclonic epilepsy in 1 patient (PMID: 39616287)
+- Moderate-to-severe intellectual disability in 1 patient with a de novo RYR2 variant (PMID: 25356899)
+- Autism spectrum disorder in 1 patient (PMID: 38572415)
+- Pediatric epilepsy (unspecified type) in 1 patient (ASHG 2022 – Chalupczynska et al.)
+
+Notably, the BECTS study (PMID: 33897349) is the most compelling for a primary neurodevelopmental/epilepsy role, as several patients presented with epilepsy without significant cardiac disease, and one variant (p.Asp785Asn) arose de novo. The CPVT-associated INDD studies (PMID: 41000018; PMID: 39733778) suggest that neurodevelopmental delay may be an underrecognized feature of RYR2-related disease rather than an incidental finding, with INDD-associated variants clustering in specific central and channel domains.
+
+**Predominant variant type:** Missense variants predominate across all studies. One loss-of-function frameshift variant (c.14361dup, p.Arg4790Profs*6) was identified in the BECTS cohort (PMID: 33897349). Compound heterozygous configurations were observed in two BECTS patients, raising questions about whether biallelic variants contribute to the neurodevelopmental phenotype in some cases, though heterozygous de novo and heterozygous inherited variants are also represented.
+
+**Cohort origin:** None of the patients are explicitly reported as originating from established neurodevelopmental disorder cohorts such as UDN, GREGoR, DDD, RUMC, or GEL. Studies draw from single-center clinical series, the International Pediatric CPVT Registry, a Japanese pediatric DCM cohort (PMID: 39681577), a Middle Eastern ASD cohort (PMID: 38572415), and a Polish pediatric epilepsy cohort (ASHG 2022).
+
+**Strength of clinical evidence: LIMITED to MODERATE**
+The evidence for RYR2 as a primary neurodevelopmental disorder gene in the autosomal dominant context is limited but emerging. The BECTS association is the most direct, supported by a small case series with one confirmed de novo variant, statistical enrichment versus gnomAD controls, and in silico pathogenicity support (PMID: 33897349). The CPVT-INDD studies provide suggestive evidence that neurodevelopmental delay is a genuine pleiotropic feature of RYR2 gain-of-function missense variants, but these studies do not isolate the neurodevelopmental phenotype from the cardiac context. Single-patient reports for intellectual disability (PMID: 25356899), ASD (PMID: 38572415), and JME (PMID: 39616287) are hypothesis-generating only. Overall, the clinical evidence is rated **LIMITED**, trending toward MODERATE given the BECTS series and the CPVT-INDD registry data.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** All three model organism studies used mouse (Mus musculus) knock-in models.
+
+**Key phenotypes from knock-in models:**
+- A loss-of-function knock-in mouse model demonstrated cardiac electrophysiological remodeling, increased propensity for early afterdepolarizations, and inducible ventricular arrhythmias, defining a distinct disease entity (Ca2+ release deficiency syndrome, CRDS) separate from CPVT (PMID: 33536282). No neurological phenotypes were specifically reported in this model.
+- A heterozygous loss-of-function knock-in (I4855M+/-) produced left ventricular noncompaction, elevated sarcoplasmic reticulum Ca2+ load, and high susceptibility to electrically induced ventricular arrhythmias (PMID: 37325910). Again, no neurological phenotypes were reported.
+- A gain-of-function knock-in (R420Q) recapitulated features of CPVT, including action potential prolongation, early afterdepolarizations, and increased Ca2+ leak during beta-adrenergic stimulation (PMID: 40714045). No neurological or neurodevelopmental phenotypes were described.
+
+**Consistency with human neurodevelopmental phenotype:** The available mouse models are focused exclusively on cardiac electrophysiology and structural cardiac phenotypes. None of the three studies assessed neurological behavior, cognitive function, seizure susceptibility, or neurodevelopmental outcomes. This represents a significant gap: while the models confirm that RYR2 variants cause calcium dysregulation consistent with the proposed pathomechanism, they do not directly model or support the neurodevelopmental phenotype observed in humans.
+
+All models were viable, and no lethality, infertility, or Mendelian ratio deviations were reported, which is consistent with autosomal dominant human disease with incomplete penetrance.
+
+**Strength of model organism evidence: LIMITED**
+Model organism evidence is strong for the cardiac phenotype but provides no direct support for the neurodevelopmental disease hypothesis. The absence of neurological phenotyping in existing models is a critical gap.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+RYR2 functions as a homotetrameric intracellular Ca2+ release channel on the sarcoplasmic/endoplasmic reticulum. Its gating is regulated by multiple interacting proteins and post-translational modifications. Key regulatory interactions documented in the evidence include:
+- ERp44, an intraluminal binding partner that suppresses spontaneous Ca2+ release in a redox-sensitive manner; disruption of this interaction by Ero1α-mediated oxidation promotes arrhythmias (PMID: 35086342).
+- TRIC-A and TRIC-B channels, which directly modulate RyR2 gating and Ca2+ sensitivity in HEK293 co-expression and bilayer electrophysiology experiments (PMID: 37756589).
+- The Hippo-Yap pathway effector Yap, which directly regulates Ryr2 transcription in sinoatrial node pacemaker cells, linking RYR2 to developmental signaling (PMID: 36317529).
+- SerpinA3N, which physically interacts with RYR2 in hippocampal tissue during kainic acid-induced temporal lobe epilepsy and promotes RYR2 phosphorylation, implicating RYR2 in neuroinflammatory and seizure pathology (PMID: 37422673).
+- Foxp3, which transcriptionally represses RYR2 in regulatory T cells to modulate Ca2+ oscillations and immune suppression, demonstrating RYR2 function outside excitable muscle cells (PMID: 38099494).
+
+**Expression pattern and neurodevelopmental relevance:**
+Critically, RYR2 is expressed in hippocampal neurons in both humans and mice, as demonstrated by the heart failure-cognitive dysfunction study (PMID: 37429912). In that study, RyR2 channels in hippocampal neurons underwent pathological post-translational modifications (PKA phosphorylation, oxidation, calstabin2 depletion) leading to Ca2+ leak, and mice genetically resistant to RyR2 Ca2+ leak (RyR2-p.Ser2808Ala knock-in) were protected from heart failure-induced cognitive dysfunction. This provides direct experimental evidence that RYR2-mediated Ca2+ signaling in neurons contributes to cognitive function. The SerpinA3N interaction study (PMID: 37422673) further supports hippocampal RYR2 activity in the context of seizures.
+
+**Key experimental findings relevant to neurodevelopmental disease:**
+- Human iPSC-derived cardiomyocyte studies using CRISPR/Cas9 to introduce CPVT-associated mutations (R4822H and L4865V) demonstrated divergent Ca2+ signaling phenotypes, confirming that individual missense variants have distinct functional consequences (PMID: 40974955).
+- The N-terminal domain of RYR2 is critical for tetramerization; the arrhythmia-associated L433P mutation disrupts this self-association, and dantrolene restores normal channel architecture (PMID: 25411383), illustrating how missense variants can cause structural as well as functional channel disruption.
+- Whole-exome sequencing of 234 unexplained cardiac arrest survivors identified significant enrichment of rare missense RYR2 variants versus gnomAD controls (4.1% vs. 2.0%, p=0.004), reinforcing the pathogenic burden of heterozygous missense variants (ASHG 2019 – CASPER registry).
+
+**Strength of biological evidence: MODERATE**
+The biological evidence provides meaningful support for RYR2's role beyond cardiac muscle, particularly through demonstrated neuronal expression, hippocampal Ca2+ leak contributing to cognitive dysfunction, and interaction with seizure-related proteins. However, direct mechanistic studies linking specific NDD-associated RYR2 variants to neuronal dysfunction are absent. The existing functional data are largely derived from cardiac contexts or indirect neurological models (heart failure, kainic acid epilepsy), rather than from primary neurodevelopmental paradigms.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: LIMITED**
+
+**Key strengths:**
+1. RYR2 is expressed in hippocampal neurons and RyR2-mediated Ca2+ leak directly contributes to cognitive dysfunction in a mouse model (PMID: 37429912), providing a plausible biological mechanism for neurodevelopmental involvement.
+2. The BECTS case series (PMID: 33897349) provides the strongest clinical evidence, with five patients, one confirmed de novo variant, statistical enrichment versus population controls, and multi-tool in silico support — meeting several criteria of the ClinGen Clinical Validity Framework.
+3. Neurodevelopmental delay (intellectual disability, ADHD) is documented across two independent CPVT cohorts totaling 36 patients (PMID: 41000018; PMID: 39733778), suggesting it is a genuine pleiotropic feature rather than coincidental ascertainment.
+
+**Key gaps and limitations:**
+1. No mouse model has been specifically designed or phenotyped for neurodevelopmental or neurological outcomes; all existing knock-in models focus exclusively on cardiac electrophysiology.
+2. The majority of neurodevelopmental cases lack specific variant notations, precluding genotype-phenotype correlation or independent functional validation of NDD-associated alleles.
+3. Most neurodevelopmental reports involve single patients or small series without replication, and none originate from established NDD discovery cohorts. The compound heterozygous configurations in some BECTS patients raise unresolved questions about whether biallelic variants are required for the epilepsy phenotype in those individuals, complicating the autosomal dominant interpretation.
+
+**Conclusion:**
+RYR2 has a well-established role in cardiac arrhythmia (CPVT and related syndromes) and emerging, biologically plausible evidence for involvement in neurodevelopmental and epileptic phenotypes, supported by neuronal expression data, seizure-related protein interactions, and small clinical series. However, the evidence for RYR2 as an autosomal dominant neurodevelopmental disorder gene in isolation — independent of its cardiac role — remains limited, with no dedicated neurodevelopmental mouse models, limited patient numbers with confirmed heterozygous de novo variants, and an absence of replication in large NDD cohorts. Systematic neurological phenotyping of existing RYR2 knock-in mouse models and targeted recruitment of RYR2 variant carriers in NDD cohorts are the most critical next steps to strengthen or refute this association.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Intellectual and Neurodevelopmental Delays in Pediatric Catecholaminergic Polymorphic Ventricular Tachycardia: Distinct Characteristics and a More Malignant Neurocardiac Phenotype (PMID: 41000018)
+2. Treatment Outcomes in Children With Catecholaminergic Polymorphic Ventricular Tachycardia: A Single Institutional Experience (PMID: 39733778)
+3. RYR2 Mutations Are Associated With Benign Epilepsy of Childhood With Centrotemporal Spikes With or Without Arrhythmia (PMID: 33897349)
+4. Whole exome sequencing revealed ultra-rare genetic variations in juvenile myoclonic epilepsy (PMID: 39616287)
+5. De novo mutations in moderate or severe intellectual disability (PMID: 25356899)
+6. The genetic landscape of autism spectrum disorder in the Middle Eastern population (PMID: 38572415)
+7. Sarcomere gene variants did not improve cardiac function in pediatric patients with dilated cardiomyopathy from Japanese cohorts (PMID: 39681577)
+
+### Model Organism Evidence
+1. Cardiac ryanodine receptor calcium release deficiency syndrome. (PMID: 33536282)
+2. Increased Ca2+ Transient Underlies RyR2-Related Left Ventricular Noncompaction. (PMID: 37325910)
+3. Compromised repolarization reserve in a murine model of catecholaminergic polymorphic ventricular tachycardia caused by RyR2-R420Q mutation. (PMID: 40714045)
+
+### Biological Evidence
+1. Ero1α-Dependent ERp44 Dissociation From RyR2 Contributes to Cardiac Arrhythmia (PMID: 35086342)
+2. The biophysical properties of TRIC-A and TRIC-B and their interactions with RyR2 (PMID: 37756589)
+3. Hippo-Yap Signaling Maintains Sinoatrial Node Homeostasis (PMID: 36317529)
+4. Astrocyte-derived SerpinA3N promotes neuroinflammation and epileptic seizures by activating the NF-κB signaling pathway in mice with temporal lobe epilepsy (PMID: 37422673)
+5. Foxp3-mediated blockage of ryanodine receptor 2 underlies contact-based suppression by regulatory T cells (PMID: 38099494)
+6. Heart failure-induced cognitive dysfunction is mediated by intracellular Ca2+ leak through ryanodine receptor type 2 (PMID: 37429912)
+7. CPVT1 point mutations in RyR2 S5 and S6 segments and their Ca2+ signaling consequence (PMID: 40974955)
+8. Dantrolene rescues aberrant N-terminus intersubunit interactions in mutant pro-arrhythmic cardiac ryanodine receptors (PMID: 25411383)

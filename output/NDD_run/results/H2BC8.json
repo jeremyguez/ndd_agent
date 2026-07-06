@@ -1,0 +1,27 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 0,
+    "biological": 2
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Identification of key genes and immune infiltration modulated by CPAP in obstructive sleep apnea by integrated bioinformatics analysis (PMID: 34529670)",
+        "evidence_subtype": "expression",
+        "summary": "H2BC8 was identified as one of eleven hub genes in peripheral blood mononuclear cells of obstructive sleep apnea (OSA) patients, with expression correlated to CPAP treatment response. The gene was included in a random forest predictive model for CPAP therapeutic efficacy with AUC of 0.92, and showed partial correlation with monocyte infiltration related to OSA remission.",
+        "sample_size": "GSE133601 dataset",
+        "significance": "AUC 0.92 for predictive model"
+      },
+      {
+        "citation": "Elucidating the role of Pyroptosis in papillary thyroid cancer: prognostic, immunological, and therapeutic perspectives (PMID: 38287330)",
+        "evidence_subtype": "pathway",
+        "summary": "H2BC8 was identified as one of nine pyroptosis-related genes (PRGs) filtered to construct a PyroScore prognostic model for papillary thyroid cancer. The gene's dysregulated expression was associated with tumor immune microenvironment remodeling and patient prognosis, with high PyroScore patients showing 'hot' tumor immunophenotypes.",
+        "sample_size": "The Cancer Genome Atlas PTC cohort; validated in 6 external datasets, 16 cell lines, and 20 clinical samples",
+        "significance": "Superior predictive performance compared to four clinical staging systems"
+      }
+    ]
+  }
+}

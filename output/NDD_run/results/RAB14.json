@@ -1,0 +1,181 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 10,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Comprehensive knockout analysis of the RAB family small GTPases reveals an overlapping role of RAB2 and RAB14 in autophagosome maturation (PMID: 38953305)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Altered MAP1LC3/LC3-II levels in rab14-KO cells",
+          "Impaired autophagosome maturation",
+          "Mild autophagy-defective phenotype in single rab14-KO",
+          "Severe autophagy-defective phenotype in rab2/rab14 double KO with greater LC3 accumulation",
+          "RAB14 localization to autophagosomes",
+          "Interaction with HOPS complex subunits VPS39 and VPS41"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab14/MACF2 complex regulates endosomal targeting during cytokinesis (PMID: 33566684)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Cytokinesis failure or significantly prolonged division time upon Rab14 depletion",
+          "Inhibition of actin clearance at abscission site",
+          "Impaired recruitment of Rab11-endosomes to intracellular bridge microtubules",
+          "Reduced efficiency of endosome targeting to ICB microtubules",
+          "Binding to MACF2/CAMSAP3 complex"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KIF16B/Rab14 molecular motor complex is critical for early embryonic development by transporting FGF receptor (PMID: 21238925)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Failure to develop epiblast and primitive endoderm lineages",
+          "Impaired FGFR transport",
+          "Defective FGF signaling",
+          "Impaired basement membrane assembly by primitive endoderm",
+          "Defective epiblast development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab11FIP1-deficient mice develop spontaneous inflammation and show increased susceptibility to colon damage (PMID: 35819177)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Abnormal accumulation of subapical vesicles in colonocytes",
+          "Internalization of transmembrane mucin MUC13 with Rab14",
+          "More frequent lymphoid patches",
+          "Infiltration of macrophages and neutrophils",
+          "Rectal prolapse development",
+          "Significantly lower population of TFF3-positive goblet cells",
+          "Higher ratio of proliferative to nonproliferative cells in colon",
+          "Downregulation of stress tolerance response genes",
+          "Upregulation of infection response genes",
+          "Greater body weight loss after DSS treatment",
+          "More severe mucosal damage after DSS treatment"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": "p<0.05 (implied by statistical analysis)"
+      },
+      {
+        "citation": "Rab14-Mediated Lipophagy Disrupts Lipid Homeostasis in Granulosa Cells and Impairs Female Fertility (PMID: 41553083)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Decreased litter size after peri-ovarian adipose tissue removal",
+          "Impaired follicle development",
+          "Increased apoptosis rate in granulosa cells",
+          "Significantly reduced lipid droplet content in ovaries and granulosa cells",
+          "Upregulated Rab14 expression in granulosa cells after POAT removal",
+          "Enhanced lipophagy activity with Rab14 overexpression",
+          "Reduced number and volume of lipid droplets with Rab14 overexpression",
+          "Inhibited PLIN2 expression with Rab14 overexpression",
+          "Inhibited AKT phosphorylation with Rab14 overexpression",
+          "Induced granulosa cell apoptosis with Rab14 overexpression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Targeting CPT1A-mediated fatty acid oxidation sensitizes nasopharyngeal carcinoma to radiation therapy (PMID: 29721083)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RAB14 identified as a novel CPT1A binding protein that facilitates fatty acid trafficking from lipid droplets to mitochondria. The CPT1A-RAB14 interaction promotes radiation resistance in nasopharyngeal carcinoma cells, and knockdown of RAB14 attenuates CPT1A-mediated fatty acid trafficking and radiation resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab14 promotes Parkin-mediated mitophagy (PMID: 40737294)",
+        "evidence_subtype": "function",
+        "summary": "RAB14 promotes mitophagy through a Parkin-dependent pathway. RAB14 overexpression increases mitophagy (measured by mito-Keima assays), while knockdown results in elongated mitochondrial morphology and increased mitochondrial protein levels. RAB14-mediated mitophagy depends on Parkin, TBK1, and PI3K activity, with TGN-derived RAB14 vesicles mediating the process.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Biogenesis of Rab14-positive endosome buds at Golgi-endosome contacts by the RhoBTB3-SHIP164-Vps26B complex (PMID: 38565878)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RAB14 acts as a novel effector for Vps26B (a retromer subunit) and regulates the association of SHIP164 with early endosomes. RAB14 activity is essential for early endosome bud formation at Golgi-endosome contacts through a lipid transport-dependent pathway mediated by the RhoBTB3-SHIP164-Vps26B complex.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab14 Overexpression Promotes Proliferation and Invasion Through YAP Signaling in Non-Small Cell Lung Cancers (PMID: 32982313)",
+        "evidence_subtype": "pathway",
+        "summary": "RAB14 is upregulated in 65/115 lung cancer tissues and promotes proliferation and invasion through YAP signaling. RAB14 overexpression increases nuclear YAP accumulation, decreases phosphorylated YAP, and upregulates YAP target genes (cyclin D1, cyclin E, CTGF). YAP knockdown abolishes RAB14-mediated effects on proliferation and invasion.",
+        "sample_size": "115 NSCLC tissues, 6 cancer cell lines",
+        "significance": "p<0.05 for TNM stage and nodal metastasis correlation"
+      },
+      {
+        "citation": "Small GTPases in peroxisome dynamics (PMID: 26775587)",
+        "evidence_subtype": "expression",
+        "summary": "RAB14 is localized to peroxisomal structures. Mass spectrometric screening and overexpression studies with laser-scanning fluorescence microscopy co-localized RAB14 with peroxisomes, suggesting a role in peroxisomal dynamics alongside other Rab proteins (Rab6, Rab8, Rab10, Rab18).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab14 Act as Oncogene and Induce Proliferation of Gastric Cancer Cells via AKT Signaling Pathway (PMID: 28107526)",
+        "evidence_subtype": "pathway",
+        "summary": "RAB14 is significantly upregulated in gastric cancer tissues and cell lines. RAB14 overexpression promotes cell growth, cell cycle progression, and inhibits apoptosis through AKT signaling pathway, with upregulation of CCND1 and CDK2 and downregulation of BAX.",
+        "sample_size": "17 gastric adenocarcinoma tissues, 4 cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Exploring the common pathogenesis of Alzheimer's disease and type 2 diabetes mellitus via microarray data analysis (PMID: 36923118)",
+        "evidence_subtype": "other",
+        "summary": "RAB14 identified as one of 10 essential hub genes in the shared pathophysiology of Alzheimer's disease and type 2 diabetes mellitus. RAB14 is implicated in pathways related to hormone signaling, cytokines, and lipolysis regulation in both diseases.",
+        "sample_size": "Gene expression data from GEO database (GSE97760 and GSE95849)",
+        "significance": null
+      },
+      {
+        "citation": "Rab14 is overexpressed in ovarian cancers and promotes ovarian cancer proliferation through Wnt pathway (PMID: 27718127)",
+        "evidence_subtype": "pathway",
+        "summary": "RAB14 is overexpressed in 122 ovarian cancer specimens and correlates with FIGO stage (p=0.0041). RAB14 promotes cell growth, invasion, and paclitaxel resistance through Wnt/\u03b2-catenin signaling by regulating GSK3\u03b2 phosphorylation and nuclear \u03b2-catenin accumulation, with upregulation of Wnt target genes MMP7 and c-myc.",
+        "sample_size": "122 ovarian cancer specimens",
+        "significance": "p=0.0041 for FIGO stage correlation"
+      },
+      {
+        "citation": "Rab14 Suppression Mediated by MiR-320a Inhibits Cell Proliferation, Migration and Invasion in Breast Cancer (PMID: 27994670)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RAB14 is identified as a direct target of miR-320a in breast cancer. RAB14 is overexpressed in 63% of breast cancer tissues compared to normal tissue. RAB14 expression inversely correlates with miR-320a and is associated with tumor size, lymph node metastasis, distant metastasis, and poor overall survival. RAB14 knockdown suppresses proliferation, migration, and invasion in breast cancer cell lines.",
+        "sample_size": "19 matched breast tissues, 130 FFPE invasive breast cancer samples",
+        "significance": "p=0.034 (tumor size), p<0.001 (lymph node metastasis), p=0.001 (distant metastasis), p=0.035 (histological grade), p=0.001 (TNM stage)"
+      },
+      {
+        "citation": "Rab14 overexpression regulates gemcitabine sensitivity through regulation of Bcl-2 and mitochondrial function in pancreatic cancer (PMID: 30267303)",
+        "evidence_subtype": "function",
+        "summary": "RAB14 is overexpressed in 41/103 pancreatic cancer tissues (39.8%) and correlates with advanced stage and poor prognosis. RAB14 overexpression promotes cell proliferation, colony formation, cell cycle progression, and invasion while reducing gemcitabine sensitivity. RAB14 upregulates mitochondrial membrane potential and Bcl-2 expression while downregulating pro-apoptotic markers (caspase-3, PARP cleavage, cytochrome c release).",
+        "sample_size": "103 pancreatic cancer tissues",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "articles_found": {
+    "clinical": 7,
+    "model_organism": 10,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Exome Study of Single Nucleotide Variations in Patients with Syndromic and Non-Syndromic Autism Reveals Potential Candidate Genes for Diagnostics and Novel Single Nucleotide Variants (PMID: 40558542)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NALCN variant (specific mutation not detailed)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "synaptic signaling imbalance"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified in targeted panel analysis of ASD cohort; gene critical for synaptic signaling",
+        "center_country": "Bulgaria",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic analysis of a case of chromosome 14q microdeletion (PMID: 32034750)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NALCN mutation (novel, specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "autism",
+              "mental retardation",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel mutation identified via high-throughput and Sanger sequencing; co-segregates with 14q11.2 microdeletion; contributes to neurodevelopmental phenotype",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2014 - Diagnostic exome sequencing of patients with Autism Spectrum Disorder overwhelmingly detects mutations in newly characterized genes, which supports a de novo paradigm and the convergence of disrupted pathways in neurodevelopmental disease",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NALCN mutation (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "seizures",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo mutation detected via diagnostic exome sequencing; one individual with mutations in both ANO3 and NALCN",
+        "center_country": "United States (Ambry Genetics, Aliso Viejo, CA)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Sodium leak channel contributes to neuronal sensitization in neuropathic pain (PMID: 33766679)",
+        "organism": "mouse, rat",
+        "knockout_type": "conditional knockout, knockdown",
+        "phenotypes": [
+          "Increased NALCN current in dorsal root ganglion neurons after chronic constriction injury",
+          "Increased neuronal excitability in dorsal root ganglion and spinal cord",
+          "Neuropathic pain symptoms alleviated by NALCN-siRNA knockdown",
+          "Neuropathic pain completely prevented by NALCN-shRNA knockdown in rats",
+          "Neuropathic pain completely prevented by conditional NALCN knockout in mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": "pain-related symptoms significantly alleviated"
+      },
+      {
+        "citation": "TRPC3 and NALCN channels drive pacemaking in substantia nigra dopaminergic neurons (PMID: 34409942)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "TRPC3 knockout mice showed normal pacemaking activity in substantia nigra dopaminergic neurons",
+          "NALCN current and mRNA/protein expression increased in TRPC3 knockout mice",
+          "NALCN blockade abolished pacemaking in both TRPC3 knockout and wild-type mice",
+          "NALCN compensates for TRPC3 currents",
+          "TRPC3 and NALCN contribute equally to slow depolarization in normal conditions"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Na(+) leak channel NALCN controls spontaneous activity and mediates synaptic modulation by \u03b12-adrenergic receptors in auditory neurons (PMID: 37987013)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Glycinergic neuron-specific NALCN knockout eliminated spontaneous firing in cartwheel interneurons",
+          "Loss of \u03b12-adrenergic receptor-mediated inhibition of spike generation in knockout",
+          "Loss of \u03b12-dependent enhancement of synaptic strength in knockout",
+          "Loss of GABAB receptor-mediated inhibition through NALCN in knockout",
+          "NALCN required for spontaneous activity in dorsal cochlear nucleus cartwheel cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Contributions of the Sodium Leak Channel NALCN to Pacemaking of Medial Ventral Tegmental Area and Substantia Nigra Dopaminergic Neurons (PMID: 37640554)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "NALCN blockade slowed pacemaking in medial ventral tegmental area dopaminergic neurons by 49.08%",
+          "NALCN blockade reduced pacemaking in dopaminergic neurons projecting to medial nucleus accumbens by 70.74%",
+          "NALCN blockade reduced pacemaking in dopaminergic neurons projecting to lateral nucleus accumbens by 31.98%",
+          "NALCN conditional knockout mice showed no pacemaking response to lowered extracellular calcium in substantia nigra pars compacta",
+          "NALCN inhibition increased gain of frequency-current plots in substantia nigra pars compacta neurons",
+          "Simultaneous NALCN and HCN inhibition reduced pacemaker rate in substantia nigra pars compacta"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "adult male and female mice",
+        "significance": null
+      },
+      {
+        "citation": "NALCN channels enhance the intrinsic excitability of spinal projection neurons (PMID: 29746349)",
+        "organism": "rodent",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Genetic deletion of NALCN significantly reduced intrinsic excitability of lamina I spino-parabrachial neurons",
+          "Pharmacological reduction of NALCN current reduced intrinsic excitability of spino-parabrachial neurons",
+          "NALCN knockout prevented substance P-evoked action potential discharge in ascending projection neurons",
+          "Substance P activated NALCN current through Src kinase signaling",
+          "NALCN regulates activity within central pain circuits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "developing rodent",
+        "significance": "significantly reduced"
+      },
+      {
+        "citation": "Na+-Leak Channel, Non-Selective (NALCN) Regulates Myometrial Excitability and Facilitates Successful Parturition (PMID: 30021195)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Smooth muscle-specific NALCN knockout mice had reduced myometrial excitability",
+          "Shortened action potential bursts in smooth muscle NALCN knockout myometrium",
+          "Increased rate of abnormal labor in smooth muscle NALCN knockout mice",
+          "Prolonged and dysfunctional labor in smooth muscle NALCN knockout mice",
+          "NALCN protein levels high early in pregnancy, decreased mid-late pregnancy, increased in labor",
+          "NALCN contributes to myometrial action potential waveform"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": false,
+        "sample_size": "wildtype C57BL/6J mice with timed-mating",
+        "significance": null
+      },
+      {
+        "citation": "The NALCN ion channel is activated by M3 muscarinic receptors in a pancreatic beta-cell line (PMID: 19575010)",
+        "organism": "Xenopus",
+        "knockout_type": "co-expression",
+        "phenotypes": [
+          "NALCN current activated by M3 muscarinic receptors in Xenopus oocytes",
+          "Current primarily permeant to sodium ions",
+          "Current independent of intracellular calcium stores and G proteins",
+          "Current dependent on Src activation",
+          "Current resistant to tetrodotoxin",
+          "NALCN and M3R belong to same protein complex"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Structural architecture of the human NALCN channelosome (PMID: 34929720)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "NALCN forms a ~1-MDa channelosome complex with FAM155A, UNC79, and UNC80. UNC79 and UNC80 are HEAT-repeat proteins forming an intertwined anti-parallel superhelical assembly that docks onto the NALCN-FAM155A pore-forming subcomplex. Calmodulin copurifies bound to the carboxy-terminal domain of NALCN, identifying this region as a putative modulatory hub.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Depolarizing sodium (Na+) leak currents carried by the NALCN channel regulate the resting membrane potential of many neurons to modulate respiration, circadian rhythm, locomotion and pain sensitivity (PMID: 34929720)",
+        "evidence_subtype": "function",
+        "summary": "NALCN conducts depolarizing Na+ leak currents that regulate the resting membrane potential of neurons, with roles in modulating respiration, circadian rhythm, locomotion, and pain sensitivity. Single-channel analyses revealed a low open probability for the wild-type complex with a tightly closed S6 gate.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Forward-genetics analysis of sleep in randomly mutagenized mice (PMID: 27806374)",
+        "evidence_subtype": "fly_worm",
+        "summary": "A missense, gain-of-function mutation in NALCN reduces the total amount and episode duration of rapid eye movement sleep (REMS) by increasing the excitability of REMS-inhibiting neurons. This forward-genetics screen identified NALCN's role in regulating sleep behavior in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NALCN: a regulator of pacemaker activity (PMID: 22476981)",
+        "evidence_subtype": "function",
+        "summary": "NALCN conducts background Na+ current that depolarizes resting membrane properties of pacemaker neurons. NALCN, along with UNC79 and UNC80, forms a protein complex involved in regulating intrinsic membrane and synaptic activities in pacemaker cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The NALCN ion channel is a new actor in pancreatic \u03b2-cell physiology (PMID: 21099296)",
+        "evidence_subtype": "cell_culture",
+        "summary": "NALCN is expressed in rodent islets of Langerhans and mouse MIN6 pancreatic \u03b2-cell line, encoding a cation current triggered by acetylcholine activation of M3 muscarinic receptors. The activation mechanism is independent of G protein action but dependent on SFK-pathway signaling and involves co-localization of M3 muscarinic receptors and NALCN in the same complex.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The NALCN channel regulates metastasis and nonmalignant cell dissemination (PMID: 36175792)",
+        "evidence_subtype": "function",
+        "summary": "NALCN loss-of-function mutations are enriched in gastric and colorectal cancers. Deletion of Nalcn from gastric, intestinal, or pancreatic adenocarcinomas in mice markedly increased circulating tumor cells and metastases. Deletion of Nalcn from non-tumor-bearing mice caused shedding of epithelial cells into blood, indicating NALCN regulates cell shedding from solid tissues independent of cancer.",
+        "sample_size": "10,022 human cancers analyzed",
+        "significance": null
+      },
+      {
+        "citation": "NALCN expression is down-regulated and associated with immune infiltration in gastric cancer (PMID: 40013144)",
+        "evidence_subtype": "expression",
+        "summary": "NALCN expression is significantly downregulated in gastric cancer tissues and plasma compared to adjacent non-tumor tissues and healthy controls. NALCN expression positively correlates with infiltration of B cells, cytotoxic cells, immature dendritic cells, and CD8+ T cells, while negatively correlating with Th17 and Th2 cells. NALCN knockdown enhanced cell proliferation and migration while reducing apoptosis in gastric cancer cell lines.",
+        "sample_size": null,
+        "significance": "p<0.05 for multiple comparisons"
+      },
+      {
+        "citation": "Progesterone and estrogen regulate NALCN expression in human myometrial smooth muscle cells (PMID: 31935111)",
+        "evidence_subtype": "expression",
+        "summary": "In human myometrial smooth muscle cells, NALCN mRNA expression decreased 2.3-fold with estrogen (E2) treatment and increased 5.6-fold with progesterone (P4) treatment. Progesterone response elements (PREs), but not estrogen response elements (EREs), in the NALCN promoter contribute to regulation of NALCN expression. E2 inhibited and P4 enhanced NALCN-dependent leak current in myometrial smooth muscle cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genotype-Phenotype Landscape of NALCN and UNC80-Related Disorders (PMID: 40048676)",
+        "evidence_subtype": "function",
+        "summary": "The NALCN channelosome regulates the resting membrane potential through sodium leak currents, influencing cellular excitability. Gain-of-function NALCN variants cause CLIFAHDD syndrome with distal arthrogryposis and episodic ataxia, while loss-of-function variants cause IHPRF1 syndrome with failure to thrive, central sleep apnea, and refractory epilepsy (70.6% of LOF patients).",
+        "sample_size": "51 patients (34 CLIFAHDD, 9 IHPRF1, 8 IHPRF2)",
+        "significance": "p=0.019 for neurodevelopmental severity; p<0.001 for CSA and epilepsy in LOF variants"
+      },
+      {
+        "citation": "A new neurodevelopmental disorder linked to heterozygous variants in UNC79 (PMID: 37183800)",
+        "evidence_subtype": "function",
+        "summary": "UNC79, a component of the NALCN channelosome, is essential for NALCN function. Heterozygous loss-of-function UNC79 variants cause neurodevelopmental syndrome with intellectual disability, developmental delay, and epilepsy. Drosophila with UNC79 knockdown displayed seizure-like phenotypes, and heterozygous mice showed developmental delay and impaired learning and memory.",
+        "sample_size": "6 unrelated patients with UNC79 variants",
+        "significance": null
+      }
+    ]
+  }
+}

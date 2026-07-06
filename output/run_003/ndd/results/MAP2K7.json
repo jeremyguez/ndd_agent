@@ -1,0 +1,196 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 12,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Zebrafish MAP2K7 Simultaneously Enhances Host IRF7 Stability and Degrades Spring Viremia of Carp Virus P Protein via Ubiquitination Pathway (PMID: 37367226)",
+        "organism": "zebrafish",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "map2k7-/- is lethal (homozygous knockout is lethal)",
+          "map2k7+/- zebrafish showed higher lethality upon SVCV infection",
+          "more pronounced tissue damage in major immune organs",
+          "more viral proteins in major immune organs",
+          "weaker antiviral capacity compared to controls"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HER2-driven breast cancer suppression by the JNK signaling pathway (PMID: 36656864)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "JNK pathway deficiency (including Map2k7 ablation) promotes HER2+-driven breast cancer",
+          "Accelerated tumor development in mammary epithelial cells",
+          "Kaplan-Meier analysis demonstrated significantly earlier tumor onset with JNK pathway deficiency"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mice haploinsufficient for Map2k7, a gene involved in neurodevelopment and risk for schizophrenia, show impaired attention, a vigilance decrement deficit and unstable cognitive processing in an attentional task: impact of minocycline (PMID: 27774567)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Impaired attentional function in five-choice serial reaction time task (5-CSRTT)",
+          "Increased number of missed responses",
+          "More pronounced decrement in performance over time",
+          "Elevated intra-individual reaction time variability",
+          "Inability to sustain attention",
+          "Cognitive impairment pattern suggestive of schizophrenia-like deficits",
+          "Partial improvement in attentional performance with minocycline treatment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Evolution of a New Testis-Specific Functional Promoter Within the Highly Conserved Map2k7 Gene of the Mouse (PMID: 35069705)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Deletion of newly evolved promoter region of Map2k7 testis-specific transcript",
+          "Impaired sperm motility",
+          "Altered spermatid transcriptome"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inactivation of KLF4 promotes T-cell acute lymphoblastic leukemia and activates the MAP2K7 pathway (PMID: 27872496)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Loss of KLF4 in NOTCH1-induced T-ALL mouse model leads to aberrant activation of MAP2K7",
+          "Activation of downstream effectors JNK and ATF2",
+          "Enhanced G1-to-S transition in leukemic cells",
+          "Expansion of leukemia-initiating cells",
+          "Accelerated development of T-ALL"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cross-species analysis of transcriptome emphasizes a critical role of TNF-\u03b1 in mediating MAP2K7/AKT2 signaling in zearalenone-induced apoptosis (PMID: 37549580)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "MAP2K7 knockout in mouse granulosa cells confirmed TNF-\u03b1-mediated MAP2K7/AKT2 axis as guiding signal in ZEN-induced apoptosis",
+          "Disruption of MAP2K7/AKT2 signaling in ovarian granulosa cells",
+          "Increased apoptosis in granulosa cells upon zearalenone exposure"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of MKK7-JNK by the TOR signaling pathway regulator-like protein contributes to resistance of HCC cells to TRAIL-induced apoptosis (PMID: 22841785)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Knockdown of tiprl (not MAP2K7 directly) in zebrafish led to large amounts of apoptosis throughout embryos",
+          "Prolonged activation/phosphorylation of MKK7 (MAP2K7) and JNK following TIPRL knockdown"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Inactivation of KLF4 promotes T-cell acute lymphoblastic leukemia and activates the MAP2K7 pathway (PMID: 27872496)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KLF4 transcriptionally represses MAP2K7; loss of KLF4 via DNA methylation in pediatric T-ALL leads to aberrant MAP2K7 activation and downstream JNK/ATF2 signaling, promoting leukemia-initiating cell expansion. JNK inhibitors reduced leukemia cell expansion in cell-based and patient-derived xenograft models, validating MAP2K7 as a therapeutic target.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of the MAP2K7-JNK pathway with 5Z-7-oxozeaenol induces apoptosis in T-cell acute lymphoblastic leukemia (PMID: 34504651)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The small molecule 5Z-7-oxozeaenol (5Z7O) induces dose-dependent cytotoxicity in T-ALL cell lines primarily through inhibition of the MAP2K7-JNK pathway, causing G2/M checkpoint dysregulation and apoptosis. Anti-leukemic effects were confirmed in two mouse T-ALL models and patient-derived xenograft cells, and synergy was observed with dexamethasone.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Map2k7 Haploinsufficiency Induces Brain Imaging Endophenotypes and Behavioral Phenotypes Relevant to Schizophrenia (PMID: 31219577)",
+        "evidence_subtype": "expression",
+        "summary": "Map2k7+/- mice display schizophrenia-relevant brain metabolic and connectivity alterations, including hippocampal/mesolimbic hypermetabolism and prefrontal hypometabolism. Behavioral studies showed attenuated d-amphetamine responses but preserved ketamine responses, implicating MAP2K7 in monoamine neurotransmitter system function relevant to schizophrenia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The EEF1AKMT3/MAP2K7/TP53 axis suppresses tumor invasiveness and metastasis in gastric cancer (PMID: 35753528)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EEF1AKMT3 methyltransferase catalyzes monomethylation of MAP2K7 at K296, which decreases MAP2K7 phosphorylation, ubiquitination, and degradation, thereby stabilizing TP53 and suppressing gastric cancer invasiveness. EEF1AKMT3, p-MAP2K7, and TP53 protein levels were positively correlated in gastric cancer tissues.",
+        "sample_size": "GC tissue samples",
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish MAP2K7 Simultaneously Enhances Host IRF7 Stability and Degrades Spring Viremia of Carp Virus P Protein via Ubiquitination Pathway (PMID: 37367226)",
+        "evidence_subtype": "function",
+        "summary": "Zebrafish MAP2K7 protects against viral infection through two mechanisms: it stabilizes host IRF7 via K63-linked polyubiquitination and promotes degradation of SVCV P protein via the ubiquitin-proteasome pathway. map2k7+/- zebrafish showed higher lethality, more tissue damage, and greater viral burden than controls, demonstrating an antiviral role beyond canonical kinase signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "miR-128-3p suppresses tumor growth and enhances chemosensitivity in tongue squamous cell carcinoma through MAP2K7 targeting (PMID: 39476205)",
+        "evidence_subtype": "cell_culture",
+        "summary": "miR-128-3p directly targets MAP2K7 (validated by luciferase reporter assay), and its overexpression inhibits TSCC cell migration, proliferation, and EMT by suppressing MAP2K7-mediated JNK/c-Jun signaling. Increased miR-128-3p also enhanced cisplatin sensitivity by reducing ABC transporter gene expression downstream of MAP2K7/JNK1/2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "JNK pathway suppression mediates insensitivity to combination endocrine therapy and CDK4/6 inhibition in ER+ breast cancer (PMID: 40826108)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Genome-wide CRISPR/Cas9 knockout screens identified MAP2K7 loss as a key driver of resistance to tamoxifen plus palbociclib in ER+ breast cancer cells. MAP2K7 knockout in MCF-7 and T-47D cells increased metastatic burden in vivo, impaired JNK-mediated stress responses, reduced senescence entry, and attenuated AP-1/c-JUN activity; low pJNK activity correlated with poorer clinical outcomes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circular RNA ACTA1 Acts as a Sponge for miR-199a-5p and miR-433 to Regulate Bovine Myoblast Development through the MAP3K11/MAP2K7/JNK Pathway (PMID: 35234473)",
+        "evidence_subtype": "pathway",
+        "summary": "MAP2K7 functions as a component of the MAP3K11/MAP2K7/JNK signaling cascade in bovine myoblast development. circACTA1 sponges miR-199a-5p and miR-433 to relieve suppression of MAP3K11 and MAPK8, activating MAP2K7-mediated JNK signaling to regulate myocyte proliferation, apoptosis, and differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression and Clinical Significance of MAPK8, MAPK9, MAP2K4, and MAP2K7 Genes in Colorectal Cancer (PMID: 41515982)",
+        "evidence_subtype": "expression",
+        "summary": "MAP2K7 gene expression was significantly elevated in colorectal cancer tumor specimens with higher histological grades, and bioinformatics analysis confirmed MAP2K7 promotes tumor aggressiveness and metastasis. This was assessed by quantitative PCR in 55 intraoperatively collected CRC tissue fragments.",
+        "sample_size": "n=55 CRC tissue samples",
+        "significance": "statistically significant elevation in higher-grade tumors"
+      },
+      {
+        "citation": "Small Extracellular Vesicles From Brown Adipose Tissue Mediate Exercise Cardioprotection (PMID: 35387487)",
+        "evidence_subtype": "pathway",
+        "summary": "MAP2K7 is a direct target of exercise-induced BAT-derived miRNAs (miR-125b-5p, miR-128-3p, miR-30d-5p) that cooperatively suppress the proapoptotic MAPK pathway in cardiomyocytes. BAT sEV delivery into hearts suppressed MI/R-related MAPK pathway activation including Map2k7, and this cardioprotective effect was abolished by combined BAT miRNA inhibition.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

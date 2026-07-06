@@ -1,0 +1,119 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 2,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "SECISBP2L-Mediated Selenoprotein Synthesis Is Essential for Autonomous Regulation of Oligodendrocyte Differentiation (PMID: 35760530)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decreased level of DIO2 protein in oligodendrocyte lineage cells",
+          "Decreased T3 (active thyroid hormone) levels in CNS",
+          "Impaired oligodendrocyte differentiation",
+          "Hypomyelination",
+          "Motor deficits in both sexes",
+          "Defective OL differentiation rescued by T3 or T3 analog but not T4"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The expression of essential selenoproteins during development requires SECIS-binding protein 2-like (PMID: 35210313)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "secisbp2l -/- embryos retain full complement of selenoproteins (no selenoprotein synthesis defect as single mutant)",
+          "Double knockout of sbp2 and secisbp2l completely prevents selenoprotein synthesis",
+          "Double knockout juveniles die at 14 days post fertilization",
+          "sbp2 -/- embryos (not secisbp2l -/-) are sensitive to oxidative stress and express stress marker Vtg1",
+          "Secisbp2l proposed to promote essential selenoprotein synthesis when Sbp2 activity is compromised"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The expression of essential selenoproteins during development requires SECIS-binding protein 2-like. (PMID: 35210313)",
+        "evidence_subtype": "function",
+        "summary": "CRISPR knockout of secisbp2l in zebrafish showed that secisbp2l-/- embryos retain the full complement of selenoproteins (unlike sbp2-/- embryos which lose a subset), but double knockout of both sbp2 and secisbp2l completely prevents selenoprotein synthesis, causing juvenile death at 14 days post fertilization. SECISBP2L is proposed to promote essential selenoprotein synthesis when SBP2 activity is compromised, acting as a functional paralog of SBP2 in the selenocysteine incorporation machinery.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SECISBP2L-Mediated Selenoprotein Synthesis Is Essential for Autonomous Regulation of Oligodendrocyte Differentiation. (PMID: 35760530)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SECISBP2L is highly expressed in differentiating oligodendrocytes (OLs) and is required for DIO2 (deiodinase 2) translation. Conditional knockout of Secisbp2l in OL lineage in mice resulted in decreased DIO2 and active thyroid hormone T3 levels, impaired OL differentiation, hypomyelination, and motor deficits, establishing a SECISBP2L-DIO2-T3 pathway for autonomous regulation of myelination.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SECISBP2L-Mediated Selenoprotein Synthesis Is Essential for Autonomous Regulation of Oligodendrocyte Differentiation. (PMID: 35760530)",
+        "evidence_subtype": "expression",
+        "summary": "SECISBP2L is specifically and highly expressed in differentiating oligodendrocytes in the CNS, distinguishing it from SBP2 and suggesting a cell-type-specific role in selenoprotein translation during myelin development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Large-scale association analysis identifies new lung cancer susceptibility loci and heterogeneity in genetic susceptibility across histological subtypes. (PMID: 28604730)",
+        "evidence_subtype": "GWAS",
+        "summary": "A large GWAS of 29,266 lung cancer cases and 56,450 controls identified new susceptibility loci, and eQTL analysis in 1,425 normal lung tissue samples highlighted SECISBP2L as a candidate gene at one of the associated loci, suggesting that genetic variants influencing lung cancer risk may act through regulation of SECISBP2L expression.",
+        "sample_size": "29,266 cases and 56,450 controls",
+        "significance": "genome-wide significance"
+      },
+      {
+        "citation": "ASHG 2016 - Defining the genetic architecture of lung cancer etiology. (C.I. Amos et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "In the largest GWAS of lung cancer susceptibility (29,863 cases, 55,586 controls), eQTL analysis in normal lung tissue identified a consistent cis-acting effect of variant rs77468143 on SECISBP2L expression, implicating SECISBP2L as a functional candidate gene at a lung cancer susceptibility locus.",
+        "sample_size": "29,863 cases and 55,586 controls",
+        "significance": "genome-wide significance"
+      },
+      {
+        "citation": "Cross-Trait Genetic Analyses Indicate Pleiotropy and Complex Causal Relationships between Headache and Thyroid Function Traits. (PMID: 36672757)",
+        "evidence_subtype": "GWAS",
+        "summary": "Cross-trait GWAS meta-analysis of headache and free thyroxine (fT4) identified SECISBP2L as one of six genes reaching significance in gene-based analysis (Fisher's combined p-value < 2.09\u00d710\u22126), suggesting a pleiotropic role for SECISBP2L at the intersection of thyroid hormone function and headache susceptibility.",
+        "sample_size": null,
+        "significance": "p < 2.09\u00d710\u22126"
+      },
+      {
+        "citation": "Construction and Validation of Prognostic Regulation Network Based on RNA-Binding Protein Genes in Lung Squamous Cell Carcinoma. (PMID: 34931870)",
+        "evidence_subtype": "pathway",
+        "summary": "SECISBP2L was identified as a prognostic RNA-binding protein gene (PRBPG) in lung squamous cell carcinoma (LUSC) using TCGA data. Regulatory network analysis revealed SECISBP2L targets multiple RNAs (ADGRF5, TGFBR2, CD302, AHCYL2, RPS6KA2, SLC34A2, SFTPB) associated with angiogenesis, and a SECISBP2L-AKAP13 interaction linked to DNA repair, mTORC1 signaling, and MYC targets.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Differential co-expression network analysis elucidated genes associated with sensitivity to farnesyltransferase inhibitor and prognosis of acute myeloid leukemia. (PMID: 38069522)",
+        "evidence_subtype": "other",
+        "summary": "In AML transcriptomics data, SECISBP2L was identified as part of a highly interconnected gene module (with MAN1A2, PRPF31, VASP, and SNAPC1) in the treatment-response network, showing high prognostic performance with a hazard ratio of 4.12, suggesting SECISBP2L expression is associated with chemotherapy response and patient prognosis.",
+        "sample_size": null,
+        "significance": "HR = 4.12"
+      },
+      {
+        "citation": "Identifying potential therapeutic targets in lung adenocarcinoma: a multi-omics approach integrating bulk and single-cell RNA sequencing with Mendelian randomization. (PMID: 39092217)",
+        "evidence_subtype": "other",
+        "summary": "Using Mendelian randomization combined with bulk and single-cell RNA sequencing in 513 LUAD and 59 non-tumorous tissues, SECISBP2L was identified as a tier 1 gene with strong causal evidence for its effect on lung adenocarcinoma risk and significant association with patient survival, nominating it as a potential therapeutic target.",
+        "sample_size": "513 LUAD and 59 non-tumorous tissues",
+        "significance": null
+      },
+      {
+        "citation": "Pyrolae herba alleviates cognitive impairment via hippocampal TREM2 signaling modulating neuroinflammation and neurogenesis in lipopolysaccharide-treated mice. (PMID: 37739108)",
+        "evidence_subtype": "expression",
+        "summary": "mRNA sequencing of hippocampal tissue from LPS-treated mice identified SECISBP2L as one of 10 differentially expressed genes modulated in the context of neuroinflammation and cognitive impairment, with its expression altered by LPS treatment and partially reversed by Pyrolae herba administration, suggesting a role in hippocampal gene regulation during neuroinflammation.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

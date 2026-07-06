@@ -1,0 +1,245 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 12,
+    "biological": 13
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Association of Familial Hyperkalemia and Hypertension with Proximal Renal Tubular Acidosis and Epileptic Seizures (PMID: 37666233)",
+        "num_patients": 44,
+        "variants": [
+          {
+            "description": "Q565E",
+            "type": "missense",
+            "phenotypes": [
+              "hyperkalemia",
+              "hypertension",
+              "hyperchloremic acidosis",
+              "suppressed renin activity",
+              "preserved renal function",
+              "epilepsy (2/44 patients, 4.545%)",
+              "migraine (1 patient)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Familial hyperkalemic hypertension (FHHt) caused by WNK4 mutation; large family with 44 affected members; association with epilepsy at significantly higher prevalence than general population",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "WNK signaling is involved in neural development via Lhx8/Awh expression (PMID: 23383144)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "WNK4 mutations (general reference to human mutations associated with PHA2)",
+            "type": "missense",
+            "phenotypes": [
+              "Pseudohypoaldosteronism type II",
+              "hypertension"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reference to known human WNK4 mutations causing PHA2; primarily a functional study in model organisms",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Glucose/Fructose Delivery to the Distal Nephron Activates the Sodium-Chloride Cotransporter via the Calcium-Sensing Receptor (PMID: 36288902)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Loss of glucose/fructose-induced WNK4-SPAK-NCC pathway activation",
+          "Absence of NPS2143 (calcilytic) effect on NCC phosphorylation in response to fructose/dapagliflozin",
+          "Maintained natriuresis response to thiazide challenge"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4-SPAK modulates lipopolysaccharide-induced macrophage activation (PMID: 31786261)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Suppressed LPS-induced p-NKCC1 expression in alveolar macrophages",
+          "Suppressed inflammation cascade activation",
+          "Attenuated LPS-induced alveolar cell-population shifting from macrophage to neutrophil predominance",
+          "Reduced macrophage NKCC1 phosphorylation",
+          "Attenuated acute lung injury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion of KS-WNK1 promotes NCC activation by increasing WNK1/4 abundance (PMID: 38961847)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Increased expression of WNK4 and long WNK1 in DCT",
+          "Increased phosphorylation of NCC",
+          "Loss of sensitivity to low plasma K+ conditions",
+          "Absence of WNK body formation under low K+ diet",
+          "No hyperkalemia phenotype"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Camk2n1 deficiency reduces the NaCl cotransporter activity through the CUL3/KLHL3/WNK4 complex in the kidney (PMID: 39798916)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Consistently lower systolic blood pressure across all measured time points",
+          "Decreased apical labeling of phosphorylated NCC in distal convoluted tubule",
+          "Decreased total NCC in distal convoluted tubule",
+          "Promoted proteasomal degradation of WNK4",
+          "Increased abundances of CUL3 RING ubiquitin ligase components (neddylated CUL3, KLHL3)",
+          "Increased mRNA and protein levels of UBA3 and UBE2M"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Claudin-7 Modulates Cl(-) and Na(+) Homeostasis and WNK4 Expression in Renal Collecting Duct Cells (PMID: 31382627)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Renal salt wasting",
+          "Dehydration phenotypes",
+          "Increased transepithelial resistance in collecting duct cells",
+          "Decreased paracellular permeability for Cl- and Na+",
+          "Significantly increased WNK4 expression (but not WNK1) in collecting duct cells",
+          "Upregulated apical epithelial sodium channel (ENaC) expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NRBP1 and TSC22D proteins impact distal convoluted tubule physiology through modulation of the WNK pathway (PMID: 39764004)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Reduced NCC phosphorylation in distal convoluted tubule",
+          "Activation of compensatory response",
+          "Altered Na+ reabsorption in kidney"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Statistical framework for biological interpretation and improvement of genetic association studies (M. Artomov et al.)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Histologically confirmed focal segmental glomerulosclerosis (FSGS)",
+          "Non-functional WNK4 develops FSGS phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Regulation of the WNK4-SPAK-NCC pathway by the calcium-sensing receptor (PMID: 37530086)",
+        "evidence_subtype": "pathway",
+        "summary": "WNK4 is a key component of the CaSR-WNK4-SPAK-NCC signaling pathway in the distal convoluted tubule. CaSR activation stimulates PKC-dependent WNK4 signaling, which activates SPAK and increases NCC activity to recover NaCl reabsorption. Glucose and fructose enhance this pathway, contributing to hypertension in diabetic patients.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4 kinase: from structure to physiology (PMID: 33491560)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 is a serine-threonine kinase with atypical catalytic lysine positioning that functions as a positive regulator of the thiazide-sensitive NCC in the distal convoluted tubule. Gain-of-function mutations in WNK4 cause familial hyperkalemic hypertension through increased NCC activation and impaired renal K+ secretion. WNK4 function is regulated at multiple levels and responds to various physiological conditions.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4 kinase: role of chloride sensing in the distal convoluted tubule (PMID: 33394730)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 functions as a physiological intracellular chloride sensor in the DCT with the highest chloride sensitivity among WNK kinases. Chloride-insensitive WNK4 mice develop hypertension with increased NCC activity, proving WNK4 is inhibitable by physiological [Cl-]i. This chloride-sensing mechanism is responsible for hypokalemia-induced NCC activation and explains the inverse relationship between dietary potassium intake and NCC activity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dysregulation of the WNK4-SPAK/OSR1 pathway has a minor effect on baseline NKCC2 phosphorylation (PMID: 37881876)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using C57BL/6-specific phospho-NKCC2 antibodies in knockout mice (Wnk4-/-, Osr1-/-, Spak-/-, Osr1-/-/Spak-/-) and familial hyperkalemic hypertension models, WNK4-SPAK/OSR1 pathway disruption strongly reduces NCC phosphorylation but only mildly affects NKCC2 phosphorylation, suggesting other kinases regulate NKCC2. In FHHt models, NKCC2 phosphorylation remains unchanged despite elevated WNK4 abundance.",
+        "sample_size": "Multiple transgenic mouse lines on C57BL/6 background",
+        "significance": null
+      },
+      {
+        "citation": "Glucose/Fructose Delivery to the Distal Nephron Activates the Sodium-Chloride Cotransporter via the Calcium-Sensing Receptor (PMID: 36288902)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In HEK-293 cells, glucose/fructose exposure increased SPAK phosphorylation in a WNK4- and CaSR-dependent manner. In C57BL/6 and WNK4-knockout mice, fructose or dapagliflozin-induced glycosuria activated the WNK4-SPAK-NCC pathway in a CaSR-dependent manner, demonstrating WNK4's role in glucose/fructose-mediated NCC activation.",
+        "sample_size": "HEK-293 cells, C57BL/6 mice, WNK4-KO mice, ex vivo rat kidneys, healthy human volunteers",
+        "significance": null
+      },
+      {
+        "citation": "Life and death of the distal nephron: WNK4 and NCC as major players (PMID: 17084706)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 missense mutations cause familial hyperkalemic hypertension. In vitro studies show WNK4 regulates surface expression and activity of multiple ion channels and transporters. Transgenic mouse models demonstrate WNK4 controls ion handling in the kidney mainly through regulation of NCC activity.",
+        "sample_size": "Transgenic mouse models",
+        "significance": null
+      },
+      {
+        "citation": "WNK1 and WNK4, new players in salt and water homeostasis (PMID: 15639021)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 is a serine-threonine kinase highly expressed in kidney and chloride-transporting epithelia. In the renal distal tubule, WNK4 inhibits sodium reabsorption and potassium secretion via inhibition of NCC and ROMK activity. FHH mutations in WNK4 lead to loss of NCC inhibition and increased ROMK inhibition, and increase paracellular chloride permeability in MDCK cells.",
+        "sample_size": "Xenopus oocytes, kidney cell lines",
+        "significance": null
+      },
+      {
+        "citation": "WNK4-mediated regulation of renal ion transport proteins (PMID: 17634397)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 point mutations are linked to familial hyperkalemic hypertension. WNK4 regulates multiple ion transport proteins (Na+, K+, Ca2+, Cl-) and claudins in the distal nephron through altered plasma membrane abundance. WNK4 activates stress-related kinases to regulate SLC12 family cation-chloride cotransporters, with FHH-causing mutants showing altered regulation patterns.",
+        "sample_size": "Xenopus laevis oocytes, transgenic and knockin mice",
+        "significance": null
+      },
+      {
+        "citation": "KLHL3-dependent WNK4 degradation affected by potassium through the neddylation and autophagy pathway (PMID: 37481568)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In HEK293 cells and mice, low potassium increases WNK4 abundance and phosphorylation through impaired KLHL3-dependent degradation via neddylation and autophagy pathways. MLN4924 (neddylation inhibitor) and autophagy inhibitors increase WNK4 levels, demonstrating potassium-dependent regulation of WNK4 stability relevant to familial hyperkalemic hypertension.",
+        "sample_size": "HEK293 cells, mice on low/high potassium diets",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Statistical framework for biological interpretation and improvement of genetic association studies (M. Artomov et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "WNK4 was identified in a protein-protein network analysis of focal segmental glomerulosclerosis (FSGS) genetic association data with >10-fold improvement in association signal. Mouse models demonstrated that non-functional WNK4 develops histologically confirmed FSGS, proving WNK4's causal role in FSGS pathogenesis.",
+        "sample_size": "FSGS genetic association study with network analysis",
+        "significance": "Posterior p-value significant after permutation testing; >10 fold improvement in association signal"
+      },
+      {
+        "citation": "ASHG 2011 - Two new genes for dominant and recessive pseudohypoaldosteronism type II provide novel insights into regulation of serum potassium, pH, and blood pressure (L.M. Boyden et al.)",
+        "evidence_subtype": "pathway",
+        "summary": "WNK4 mutations cause dominant pseudohypoaldosteronism type II (PHAII) characterized by impaired potassium and acid excretion, increased renal salt reabsorption, and hypertension ameliorated by thiazide diuretics. WNK4 is expressed in the distal nephron and regulates NCCT and other mediators of ion flux, functioning as part of a molecular switch for kidney's response to potassium excess and volume depletion.",
+        "sample_size": "11 PHAII index cases, multiple kindreds",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 16,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Macrocephaly and developmental delay caused by missense variants in RAB5C (PMID: 37552066)",
+        "num_patients": 12,
+        "variants": [
+          {
+            "description": "nine different heterozygous de novo missense variants (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "macrocephaly",
+              "mild-to-moderate developmental delay"
+            ]
+          },
+          {
+            "description": "heterozygous loss of function variants (specific notations not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "refractory epilepsy",
+              "intellectual disability",
+              "normal head circumference"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants; in vitro biochemical studies showed increased nucleotide exchange rate, attenuated responsivity to GEFs, heterogeneous effects on effector protein interactions; in vivo studies in C. elegans and zebrafish confirmed damaging effects; dominant negative mechanism demonstrated for two variants",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A de novo 17q21.2 duplication in a boy with developmental delay and dysmorphic features (PMID: 23337768)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo 103 kb duplication at 17q21.2 including RAB5C and 7 other genes (DHX58, KAT2A, HSPB9, KCNH4, HCRT, GHDC, STAT5B)",
+            "type": "other",
+            "phenotypes": [
+              "severe developmental delay",
+              "microcephaly",
+              "round face",
+              "hypertelorism",
+              "upslanted palpebral fissures",
+              "small nose",
+              "large mouth",
+              "micrognathia",
+              "sparse hair",
+              "sparse eyelashes"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo duplication identified by array-CGH; not previously reported; authors note KAT2A, KCNH4, and STAT5B may contribute to intellectual disability",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Rab5c-mediated endocytic trafficking regulates hematopoietic stem and progenitor cell development via Notch and AKT signaling (PMID: 32275659)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Defects in hematopoietic stem and progenitor cell (HSPC) production",
+          "Impaired hemogenic endothelium (HE) specification",
+          "Defective endocytic trafficking of Notch ligands and receptor",
+          "Reduced survival of hemogenic endothelium in the ventral wall of the dorsal aorta",
+          "Disrupted AKT signaling in hemogenic endothelium",
+          "Rab5c overactivation also leads to HSPC production defects via excessive endolysosomal trafficking and Notch signaling defect"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wnt11 functions in gastrulation by controlling cell cohesion through Rab5c and E-cadherin (PMID: 16198297)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Phenocopies slb/wnt11 mutants when Rab5c activity is blocked",
+          "Defective cohesion of mesodermal and endodermal (mesendodermal) progenitor cells",
+          "Impaired endocytosis of E-cadherin",
+          "Disrupted E-cadherin-mediated cell cohesion in mesendodermal cells",
+          "Defective tissue morphogenesis during gastrulation",
+          "Enhancing Rab5c activity in slb/wnt11 mutants rescues the mutant phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The endosomal RIN2/Rab5C machinery prevents VEGFR2 degradation to control gene expression and tip cell identity during angiogenesis (PMID: 33983539)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Disrupted developmental angiogenesis in vivo",
+          "Premature degradation of internalized VEGFR2",
+          "Disrupted VEGF signaling",
+          "Impaired expression of immediate VEGF target genes",
+          "Defective tip cell formation and migration",
+          "Disrupted specification of angiogenic tip and stalk cell phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Macrocephaly and developmental delay caused by missense variants in RAB5C (PMID: 37552066)",
+        "organism": "zebrafish",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Defective development upon expression of human RAB5C missense variants in zebrafish embryos",
+          "Underscores damaging effects of RAB5C variants in vivo"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Glypican 4 regulates planar cell polarity of endoderm cells by controlling the localization of Cadherin 2 (PMID: 34131730)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Impaired Rab5c-mediated endocytosis of Cadherin 2 in gpc4-deficient endodermal cells",
+          "Increased Cadherin 2 expression on endodermal cell surface",
+          "Partial contribution to endodermal convergence and extension defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Prolonged visual experience accelerates developmental synaptic downscaling via epigenetic regulation and Rab5c mediated AMPA receptor trafficking (PMID: 41507541)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Rab5c-dependent endocytosis of AMPA receptor subunits GluA1 and GluA2",
+          "Reduced mEPSC amplitudes under prolonged light exposure",
+          "Accelerated developmental decline of glutamatergic synaptic transmission",
+          "Altered dendritic architecture",
+          "Increased intrinsic neuronal excitability"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sorcin regulates alveolarization and airway tissue remodeling during lung morphogenesis (PMID: 41148307)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced RAB5C protein levels in Sorcin knockout (Sri-/-) mice",
+          "Impaired alveolarization",
+          "Abnormal development of bronchi and bronchioles",
+          "Decreased expression of branching morphogenesis markers (Fgf10) and surfactant proteins (Sp-b, Sp-c, Abca3)",
+          "Increased glycogen content and decreased lipid droplets indicating type II pneumocyte immaturity",
+          "Impaired surfactant lipid production",
+          "Increased bronchial thickening associated with airway tissue remodeling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Establishment and analysis of conditional Rab1- and Rab5-knockout cells using the auxin-inducible degron system (PMID: 34817057)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Cell death from 48 hours after auxin-induced depletion of Rab5 (Rab5A, Rab5B, Rab5C)",
+          "Loss of early endosomes and late endosomes",
+          "Lysosomes appeared normal",
+          "Dramatic reduction in intracellular signals of endocytic cargos via receptor-mediated or fluid-phase endocytosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Enhancing the chondrogenic potential of chondrogenic progenitor cells by deleting RAB5C (PMID: 34013174)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Elevated expression of multiple chondrogenic markers including SOX trio in RAB5C knockout chondrogenic progenitor cells",
+          "Increased COL2 deposition",
+          "No changes in COL1 deposition"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A vertebrate-specific Chp-PAK-PIX pathway maintains E-cadherin at adherens junctions during zebrafish epiboly (PMID: 20405038)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Rab5c signaling required for correct localization of E-cadherin during epiboly",
+          "Loss of Rab5c signaling results in E-cadherin shifting to intracellular vesicles rather than adhesive contacts",
+          "Delayed epiboly phenotype associated with loss of E-cadherin at adherens junctions"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Macrocephaly and developmental delay caused by missense variants in RAB5C (PMID: 37552066)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Twelve individuals with nine different heterozygous de novo RAB5C variants were identified, exhibiting macrocephaly and developmental delay. In vitro biochemical studies showed four missense variants increased nucleotide exchange rate and attenuated GEF responsivity. C. elegans studies confirmed all four variants caused defects in endocytic pathway function, with two acting via dominant negative mechanisms; expression of human RAB5C variants in zebrafish embryos resulted in defective development.",
+        "sample_size": "12 individuals; 4 variants tested experimentally",
+        "significance": null
+      },
+      {
+        "citation": "Rab5c-mediated endocytic trafficking regulates hematopoietic stem and progenitor cell development via Notch and AKT signaling (PMID: 32275659)",
+        "evidence_subtype": "function",
+        "summary": "Rab5c is essential for hematopoietic stem and progenitor cell (HSPC) specification in zebrafish embryos through endocytic trafficking of Notch ligands/receptor and AKT signaling. Rab5c deficiency caused defects in HSPC production, and its interaction with Appl1 in endosomes was required for hemogenic endothelium survival. Both loss and overactivation of Rab5c disrupted HSPC production, demonstrating a dosage-sensitive role in endolysosomal trafficking.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The endosomal RIN2/Rab5C machinery prevents VEGFR2 degradation to control gene expression and tip cell identity during angiogenesis (PMID: 33983539)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RIN2/Rab5C prevents lysosomal degradation of internalized VEGFR2 in human endothelial cells, sustaining VEGF signaling through ERK and PI3-K pathways and enabling tip cell specification and sprouting angiogenesis. Knockdown and CRISPR/Cas9-mediated editing of Rab5C disrupted VEGFR2 stabilization, impaired immediate VEGF target gene expression, and blocked developmental angiogenesis in zebrafish in vivo. This identifies an endosomal feedforward mechanism linking receptor trafficking to cell fate determination.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RAB5c controls the assembly of non-canonical autophagy machinery to promote phagosome maturation and microbicidal function of macrophages (PMID: 40196584)",
+        "evidence_subtype": "function",
+        "summary": "RAB5c is necessary for LC3-associated phagocytosis (LAP) in macrophages by regulating phagosome recruitment of PI(3)P- and ROS-generating complexes and facilitating V-ATPase translocation required for ATG16L1 binding and LC3 conjugation. RAB5c depletion impaired macrophage elimination of Aspergillus fumigatus, and disruption of the V-ATPase-ATG16L1 axis increased susceptibility in vivo. This identifies RAB5c as a specific isoform controlling non-canonical autophagy machinery assembly at phagosomes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RAB5C Increases Endothelial Release of VWF by Regulating Vesicle Trafficking (PMID: 41537263)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RAB5C regulates von Willebrand Factor (VWF) exocytosis from human endothelial cells; silencing decreased VWF release while overexpression or constitutively active RAB5C increased it. Proximity labeling and mass spectrometry identified 147 RAB5C-proximal proteins involved in vesicle trafficking, with SNAP29 (a SNARE-associated protein) identified as a key RAB5C interactor mediating VWF exocytosis. Two GWAS-identified variants (rs9915255 and rs9912088) were shown to regulate RAB5C expression in stem cell-derived endothelial cells.",
+        "sample_size": "147 proximal proteins identified",
+        "significance": null
+      },
+      {
+        "citation": "Rab5 isoforms orchestrate a 'division of labor' in the endocytic network; Rab5C modulates Rac-mediated cell motility (PMID: 24587345)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Among the three Rab5 isoforms, only Rab5C silencing reduced membrane ruffle formation, cell migration in scratch wound and Transwell assays, and EGF-stimulated Rac1 and Akt activation in HeLa and U937 cells. Rab5C-depleted cells had significantly fewer focal adhesion foci and reduced peripheral GFP-Rac1 localization. This demonstrates isoform-specific roles, with Rab5C selectively coupling growth factor signaling to Rac-mediated cell motility.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab5C enhances resistance to ionizing radiation in rectal cancer (PMID: 30968159)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rab5C protein expression was significantly increased in rectal adenocarcinoma biopsy specimens after neoadjuvant chemoradiation and in a radiotherapy-resistant cell line generated in vitro. Rab5C was found to modulate EGFR internalization and its nuclear relocalization in response to irradiation, which in turn regulated expression of DNA repair proteins Ku70 and Ku80 and conferred radioresistance. These findings identify Rab5C as a potential target for sensitizing rectal cancer cells to radiotherapy.",
+        "sample_size": "Stage II/III rectal adenocarcinoma patient biopsies",
+        "significance": null
+      },
+      {
+        "citation": "Regulation of RAB5C is important for the growth inhibitory effects of MiR-509 in human precursor-B acute lymphoblastic leukemia (PMID: 25368993)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide gain-of-function miRNA screen identified miR-509 as an inhibitor of B-ALL cell growth, and RAB5C was validated as a direct target of miR-509 in NALM6 cells. Enforced miR-509 expression reduced RAB5C mRNA and protein levels, decreased proliferating cells, and increased apoptosis; RAB5C knockdown alone recapitulated these effects. Re-expression of RAB5C ORF without its 3'UTR rescued the growth-inhibitory phenotype, establishing RAB5C as an oncogenic regulator of B-ALL cell growth.",
+        "sample_size": "3 B-ALL cell lines tested",
+        "significance": null
+      },
+      {
+        "citation": "S100P is a ferroptosis suppressor to facilitate hepatocellular carcinoma development by rewiring lipid metabolism (PMID: 39779666)",
+        "evidence_subtype": "pathway",
+        "summary": "RAB5C directs ACC1 (acetyl-CoA carboxylase alpha) to the lysosome via P62-dependent selective autophagy, mediating S100P-induced lysosomal degradation of ACC1 in hepatocellular carcinoma cells. Knockdown of RAB5C abrogated S100P-induced ACC1 degradation and restored ferroptotic sensitivity of HCC cells. This places RAB5C in an anti-ferroptosis pathway linking selective autophagy to lipid metabolism regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Coronary artery disease-associated splicing variants in vascular smooth muscle cells (N. Perry et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "A splicing QTL analysis of 151 aortic smooth muscle cell donors identified RAB5C as one of six genes containing SNPs both within CAD GWAS loci and highly predicted to affect SMC-specific alternative splicing events. Long-read PacBio sequencing confirmed the splicing predictions, suggesting RAB5C may contribute to CAD susceptibility through altered splicing in vascular smooth muscle cells.",
+        "sample_size": "151 heart transplant donors",
+        "significance": null
+      }
+    ]
+  }
+}

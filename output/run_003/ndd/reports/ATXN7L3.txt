@@ -1,0 +1,96 @@
+# Literature Evidence Report: ATXN7L3 as a Neurodevelopmental Disorder Gene
+
+---
+
+## 1. GENE SUMMARY
+
+ATXN7L3 (Ataxin-7-Like Protein 3) encodes a non-enzymatic adaptor subunit of the SAGA (Spt-Ada-Gcn5 acetyltransferase) deubiquitination module (DUBm), where it serves as an essential scaffold that coordinates the activity of multiple histone H2B deubiquitinases (USP22, USP27X, and USP51), thereby regulating histone H2B monoubiquitination (H2Bub1) and downstream transcriptional processes (PMID: 27132940). Loss of ATXN7L3 function leads to globally elevated H2Bub1 levels, disrupting gene regulation at a chromatin level.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports/series:** Two independent publications have reported pathogenic de novo variants in ATXN7L3 in the context of a neurodevelopmental syndrome.
+
+**Total approximate number of patients:** Approximately 10 unrelated patients in total — 9 patients aggregated across multiple centers via GeneMatcher (PMID: 38753057) and 1 additional patient reported subsequently (PMID: 41760364).
+
+**Most common phenotypes observed:** The core clinical phenotype across both reports is consistent and includes:
+- Global developmental delay (motor and language)
+- Hypotonia
+- Distinctive facial dysmorphism (hypertelorism, epicanthal folds, blepharoptosis, small nose, small mouth, low-set posteriorly rotated ears)
+- Speech impairment
+
+One patient additionally presented with pre-axial polydactyly, expanding the phenotypic spectrum (PMID: 41760364). The condition has been designated Harel-Tora Neurodevelopmental Syndrome (HATONS).
+
+**Predominant variant type:** All reported pathogenic variants are heterozygous loss-of-function (LoF) variants — specifically nonsense (stop-gain) variants. The variant c.340C>T; p.(Arg114Ter) was recurrent across multiple unrelated patients in the larger series (PMID: 38753057), and c.236G>A; p.(Trp79*) was identified in the single subsequent case (PMID: 41760364). Functional validation in patient-derived fibroblasts demonstrated reduced ATXN7L3 protein levels and elevated H2Bub1, consistent with haploinsufficiency as the disease mechanism (PMID: 38753057). RT-qPCR in the second case showed markedly reduced ATXN7L3 transcript levels, likely reflecting nonsense-mediated mRNA decay (PMID: 41760364).
+
+**Cohort affiliation:** Patients were identified through exome or whole-genome sequencing at multiple centers and aggregated via GeneMatcher; none are explicitly attributed to named cohorts such as UDN, GREGoR, DDD, RUMC, or GEL.
+
+**Strength of clinical evidence: MODERATE**
+The evidence is supported by recurrent de novo LoF variants in ~10 unrelated individuals with a consistent phenotype, functional validation at the protein and transcript level, and absence or extreme rarity of these variants in gnomAD. However, the total patient number remains modest, the cohort is not large, and independent replication in named large-scale cohorts has not yet been documented.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Mouse (*Mus musculus*) — one study directly examined the developmental consequences of Atxn7l3 knockout.
+
+**Key phenotypes:** Homozygous Atxn7l3 knockout mice are embryonic lethal, with developmental arrest detectable as early as embryonic day 7.5 (PMID: 33731875). Atxn7l3-null embryos and derived cell lines exhibit strongly elevated global H2Bub1 levels, confirming the essential, non-redundant role of ATXN7L3 in coordinating DUB activity in vivo. Transcriptomic analyses of Atxn7l3-/- mouse embryonic stem cells and fibroblasts revealed that ATXN7L3-related DUB activity regulates a specific subset of genes without globally altering RNA Polymerase II occupancy or elongation (PMID: 33731875).
+
+**Consistency with human phenotype:** The embryonic lethality of homozygous knockout mice is consistent with ATXN7L3 being essential for development, and the molecular phenotype (elevated H2Bub1) mirrors the biochemical findings in patient-derived fibroblasts (PMID: 38753057). However, because the mouse model is homozygous null and human patients are heterozygous, direct phenotypic comparison is limited. No heterozygous mouse model with neurodevelopmental phenotypes has been reported in the available evidence.
+
+**Strength of model organism evidence: LIMITED**
+While the homozygous mouse knockout provides compelling evidence for developmental essentiality and confirms the molecular mechanism, the absence of a heterozygous mouse model with documented neurodevelopmental phenotypes limits direct translational relevance to the human autosomal dominant condition.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:** ATXN7L3 is a core non-catalytic subunit of the SAGA DUBm. It acts as an allosteric activator and scaffold for USP22 (and related deubiquitinases USP27X and USP51), enabling efficient deubiquitination of histone H2Bub1 at gene regulatory elements (PMID: 21746879; PMID: 27132940). Its interaction with ENY2 is critical for DUBm integrity; competition with the cytoplasmic paralog ATXN7L3B for ENY2 binding provides a regulatory mechanism for modulating nuclear DUB activity (PMID: 27601583). ATXN7L3-mediated H2Bub1 dynamics are also linked to transcription elongation fidelity and the DNA damage response (PMID: 36659919).
+
+**Expression pattern and neurodevelopmental relevance:** The available biological evidence does not include direct data on brain-specific or neurodevelopmental expression of ATXN7L3. However, the gene's role in regulating chromatin state and transcription at a fundamental level — including regulation of inducible gene programs (PMID: 21746879) and control of cell proliferation (PMID: 27132940) — implies broad developmental relevance. ATXN7L3 has been shown to regulate SMAD7 transcription in hepatocellular carcinoma (PMID: 33186807) and TLR4/NF-κB signaling in trophoblasts (PMID: 40209519), illustrating its context-dependent transcriptional regulatory roles across tissue types.
+
+**Key experimental findings:**
+- Depletion of ATXN7L3 by shRNA or siRNA consistently and robustly increases global H2Bub1 levels across multiple human cell lines, establishing it as the master coordinator of H2B deubiquitination (PMID: 21746879; PMID: 27132940).
+- ATXN7L3 mRNA is a direct target of tumor-suppressive let-7b/let-7c microRNAs; its knockdown increases H2Bub1 and reduces cell migration (PMID: 28604753).
+- In B-cell acute lymphoblastic leukemia, a UBTF::ATXN7L3 fusion arising from a 17q21.31 microdeletion defines a novel high-risk ALL subtype, demonstrating that disruption of ATXN7L3 structure has oncogenic consequences (PMID: 35192684; PMID: 35316324).
+
+**Strength of biological evidence: STRONG**
+The molecular function of ATXN7L3 is well-characterized across multiple independent laboratories and experimental systems. The mechanistic link between ATXN7L3 loss and elevated H2Bub1 is robustly established and directly corroborated by patient-derived cell data. The primary gap is the lack of brain-specific expression data or neurodevelopmental functional studies.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+- Recurrent de novo heterozygous LoF variants in ~10 unrelated individuals with a consistent, recognizable neurodevelopmental phenotype (developmental delay, hypotonia, distinctive facial features), meeting criteria for a defined syndrome (HATONS) (PMID: 38753057; PMID: 41760364).
+- Functional validation in patient-derived fibroblasts demonstrating reduced ATXN7L3 protein and elevated H2Bub1, directly linking the variants to loss of DUBm activity and confirming haploinsufficiency as the disease mechanism.
+- Robust and well-replicated molecular characterization of ATXN7L3 function in chromatin regulation, with mouse knockout data confirming developmental essentiality (PMID: 33731875).
+
+**Key gaps and limitations:**
+- The total number of reported patients (~10) remains small, and independent replication in large-scale unbiased cohorts (e.g., DDD, GEL, UDN) has not been documented.
+- No heterozygous animal model with neurodevelopmental phenotypes has been reported, limiting mechanistic insight into haploinsufficiency in vivo.
+- Brain-specific expression data and neurodevelopmental functional studies (e.g., neuronal differentiation models) are absent from the current evidence base.
+
+**Conclusion:** ATXN7L3 has moderate evidence supporting its role as an autosomal dominant neurodevelopmental disorder gene, driven by de novo heterozygous loss-of-function variants causing a syndrome characterized by developmental delay, hypotonia, and distinctive facial dysmorphism. The molecular mechanism — haploinsufficiency leading to dysregulated H2B deubiquitination — is biologically plausible and experimentally supported. Further case ascertainment, heterozygous animal modeling, and neurodevelopmental functional studies are needed to elevate the evidence to a strong classification.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. De novo variants in ATXN7L3 lead to developmental delay, hypotonia and distinctive facial features (PMID: 38753057)
+2. A Novel ATXN7L3 De Novo Variant Underlies Harel-Tora Neurodevelopmental Syndrome (HATONS) With Pre-Axial Polydactyly (PMID: 41760364)
+
+### Biological Evidence
+1. ATXN7L3 and ENY2 Coordinate Activity of Multiple H2B Deubiquitinases Important for Cellular Proliferation and Tumor Growth (PMID: 27132940)
+2. Histone H2Bub1 deubiquitylation is essential for mouse development, but does not regulate global RNA polymerase II transcription (PMID: 33731875)
+3. The tightly controlled deubiquitination activity of the human SAGA complex differentially modifies distinct gene regulatory elements (PMID: 21746879)
+4. Cytoplasmic ATXN7L3B Interferes with Nuclear Functions of the SAGA Deubiquitinase Module (PMID: 27601583)
+5. Histone H2Bub dynamics in the 5' region of active genes are tightly linked to the UV-induced transcriptional response (PMID: 36659919)
+6. ATXN7L3 positively regulates SMAD7 transcription in hepatocellular carcinoma with growth inhibitory function (PMID: 33186807)
+7. Metformin ameliorates trophoblastic immunometabolic disorders via attenuating TLR4/NF-κB signaling through ATXN7L3-mediated histone H2B monoubiquitination (PMID: 40209519)
+8. let-7b and let-7c microRNAs promote histone H2B ubiquitylation and inhibit cell migration by targeting multiple components of the H2B deubiquitylation machinery (PMID: 28604753)
+9. Enhancer retargeting of CDX2 and UBTF::ATXN7L3 define a subtype of high-risk B-progenitor acute lymphoblastic leukemia (PMID: 35192684)
+10. Concurrent CDX2 cis-deregulation and UBTF::ATXN7L3 fusion define a novel high-risk subtype of B-cell ALL (PMID: 35316324)

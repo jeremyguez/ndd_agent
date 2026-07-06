@@ -1,0 +1,142 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 7,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Ae4 (Slc4a9) Anion Exchanger Drives Cl- Uptake-dependent Fluid Secretion by Mouse Submandibular Gland Acinar Cells. (PMID: 25745107)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "35% reduction in saliva secretion stimulated by muscarinic and \u03b2-adrenergic receptor agonists",
+          "Reduced Cl- uptake during \u03b2-adrenergic receptor activation of cAMP signaling",
+          "Reduced HCO3--dependent Cl- uptake in acinar cells",
+          "Nearly abolished Cl-/HCO3- exchanger activity in double Ae4/Ae2 knockout mice",
+          "Normal Na+-K+-2Cl- cotransporter and Na+/H+ exchanger activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PAT-1 (Slc26a6) is the predominant apical membrane Cl-/HCO3- exchanger in the upper villous epithelium of the murine duodenum. (PMID: 17170027)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Less than 5% reduction in apical membrane Cl-/HCO3- exchange activity in duodenal villous epithelium compared to wild-type (no significant phenotype for AE4 knockout)",
+          "No effect on SO4(2-)/HCO3- exchange in duodenum"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Activation of the Ae4 (Slc4a9) cation-driven Cl(-)/HCO(3)(-) exchanger by the cAMP-dependent protein kinase in salivary gland acinar cells. (PMID: 34585968)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ae2-/- mice (used as background to isolate Ae4 activity) showed Ae4-mediated Cl-/HCO3- exchanger activity increased in response to \u03b2-adrenergic receptor stimulation",
+          "PKA inhibitor H89 prevented stimulation of Ae4 exchanger activity in acinar cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The apical anion exchanger Slc26a6 promotes oxalate secretion by murine submandibular gland acinar cells. (PMID: 29530983)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Slc4a9 (Ae4) expressed in salivary gland acinar cells mediates little to no Cl-/oxalate exchange when expressed in CHO-K1 cells (functional characterization in wild-type context)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Ae4 (Slc4a9) is an electroneutral monovalent cation-dependent Cl-/HCO3- exchanger (PMID: 27114614)",
+        "evidence_subtype": "function",
+        "summary": "Native Ae4 activity in mouse salivary gland acinar cells and heterologous expression in CHO-K1 cells demonstrates that Ae4 is an electroneutral Cl-/nonselective cation-HCO3- exchanger, transporting Na+ in the same direction as HCO3- and opposite to Cl-. Ae4 can also mediate K+-, Cs+-, Li+-, and Rb+-dependent Cl-/HCO3- exchange, suggesting its physiological role is to promote Cl- influx in exchange for K+(Na+) and HCO3- ions in secretory cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ae4 (Slc4a9) Anion Exchanger Drives Cl- Uptake-dependent Fluid Secretion by Mouse Submandibular Gland Acinar Cells (PMID: 25745107)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In Ae4-/- mice, saliva secretion was reduced by 35% compared to wild-type, correlating with reduced Cl- uptake during \u03b2-adrenergic receptor activation. In double Ae4/Ae2 knockout mice, Cl-/HCO3- exchanger activity was nearly abolished in submandibular acinar cells, demonstrating that Ae4 is critical for cAMP-dependent regulation of fluid secretion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Activation of the Ae4 (Slc4a9) cation-driven Cl(-)/HCO(3)(-) exchanger by the cAMP-dependent protein kinase in salivary gland acinar cells (PMID: 34585968)",
+        "evidence_subtype": "function",
+        "summary": "Ae4-mediated Cl-/HCO3- exchanger activity in submandibular gland acinar cells is increased upon \u03b2-adrenergic receptor stimulation via PKA signaling. Mutagenesis experiments in CHO-K1 cells identified serine residue S173 in the intracellular NH2-terminal domain as the critical PKA phosphorylation site responsible for Ae4 activation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The forkhead transcription factor Foxi1 directly activates the AE4 promoter (PMID: 16159312)",
+        "evidence_subtype": "pathway",
+        "summary": "The forkhead transcription factor Foxi1 directly activates the Slc4a9 (AE4) promoter approximately 100-fold in cell-based reporter gene assays, with a minimal 462 bp upstream fragment sufficient for activation. A single Foxi1 binding site within this region was identified by bandshift assays, and its mutation abolished both Foxi1 binding and transcriptional activation, establishing Slc4a9 as a direct Foxi1 target gene in type B intercalated cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Insights into acidosis-induced regulation of SLC26A4 (pendrin) and SLC4A9 (AE4) transporters using three-dimensional morphometric analysis of \u03b2-intercalated cells (PMID: 24990900)",
+        "evidence_subtype": "expression",
+        "summary": "AE4 (SLC4A9) is expressed as a barrel-like structure in the lateral membrane of \u03b2-intercalated cells in the rabbit cortical collecting duct, consistent with a role in basolateral Na+-HCO3- cotransport. Acidosis significantly reduced AE4 expression in \u03b2-intercalated cells, which was rapidly reversed during recovery from acidosis, indicating coordinate regulation with pendrin during acid-base disturbances.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Disrupting Hypoxia-Induced Bicarbonate Transport Acidifies Tumor Cells and Suppresses Tumor Growth (PMID: 27197160)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Hypoxia induced SLC4A9 expression in cancer cell lines in a HIF1\u03b1- and HIF2\u03b1-dependent manner. RNAi-mediated attenuation of SLC4A9 acidified intracellular pH, increased apoptosis in MDA-MB-231 breast cancer spheroids, and dramatically reduced growth of MDA-MB-231 breast tumors and U87 gliomas in murine xenografts.",
+        "sample_size": "8 of 10 cancer cell lines tested",
+        "significance": null
+      },
+      {
+        "citation": "Integrated compensatory network is activated in the absence of NCC phosphorylation (PMID: 25893600)",
+        "evidence_subtype": "pathway",
+        "summary": "In SPAK kinase-deficient mice unable to activate the thiazide-sensitive NCC cotransporter, global transcriptional profiling revealed coordinate induction of Slc4a9 along with Slc26a4 and Slc4a8 in pendrin-positive intercalated cells as part of a compensatory salt reabsorption pathway. This multigene transport system, together with carbonic anhydrase isoforms and V-type H+-ATPase subunits, establishes adaptive NaCl reabsorption in the distal nephron.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The transcription factor Foxi1 promotes expression of V-ATPase and Gpr116 in M-1 cells (PMID: 36603001)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Overexpression of the transcription factor Foxi1 in M-1 murine cortical collecting duct cells induced expression of Slc4a9 along with other intercalated cell markers including Gpr116, Atp6v1b1, Atp6v1g3, Atp6v0d2, and Slc26a4. This demonstrates that Foxi1 is sufficient to drive differentiation of M-1 cells toward a non-A, non-B type intercalated cell phenotype expressing Slc4a9.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Effect of heat stress on the gene expression of ion transporters/channels in the uterus of laying hens during eggshell formation (PMID: 29115887)",
+        "evidence_subtype": "expression",
+        "summary": "SLC4A9 transcript levels in the uterine lining of laying hens were decreased by 66.1% under heat stress conditions (36-38\u00b0C for 8 weeks) compared to controls maintained at 21-23\u00b0C. This downregulation was associated with impaired eggshell mineralization, suggesting SLC4A9 plays a role in Cl-, HCO3-, and Na+ transport during eggshell formation.",
+        "sample_size": "40 hens (20 control, 20 heat stress)",
+        "significance": null
+      },
+      {
+        "citation": "Epigenome-Wide Association Study for All-Cause Mortality in a Cardiovascular Cohort Identifies Differential Methylation in Castor Zinc Finger 1 (CASZ1) (PMID: 31642367)",
+        "evidence_subtype": "GWAS",
+        "summary": "An epigenome-wide association study (EWAS) for all-cause mortality in a cardiovascular cohort identified differential methylation at probe cg08215811 in SLC4A9 (log2 fold change = -0.14) in both discovery and validation sets. This probe was among only 3 probes reaching FDR-adjusted significance (P<0.10) in the validation set, suggesting SLC4A9 methylation may be associated with mortality in cardiovascular patients.",
+        "sample_size": "Discovery: 55 cases, 49 controls; Validation: 108 cases, 108 controls",
+        "significance": "FDR-adjusted p=0.046-0.080"
+      }
+    ]
+  }
+}

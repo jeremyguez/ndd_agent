@@ -1,0 +1,109 @@
+# KBTBD7 Evidence Report: Neurodevelopmental Disorder Gene Assessment
+
+---
+
+## 1. GENE SUMMARY
+
+KBTBD7 (Kelch Repeat and BTB Domain Containing 7) encodes a substrate adaptor protein containing BTB/POZ, BACK, and Kelch repeat domains that functions primarily as a substrate recognition component of CUL3-RING E3 ubiquitin ligase complexes, directing the ubiquitination and proteasomal degradation of multiple target proteins. Its known substrates include TIAM1 (a RAC1-specific GEF), DRD2 (dopamine receptor D2), Vangl1/2 (Wnt/PCP pathway components), PTEN, and KLF15, implicating KBTBD7 in diverse cellular processes including cytoskeletal organization, receptor homeostasis, planar cell polarity signaling, and inflammatory regulation.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+- **Number of independent case reports/series:** None identified in the structured evidence provided.
+- **Total approximate number of patients:** Zero patients reported in the available literature.
+- **Most common phenotypes observed:** No clinical phenotypes in human patients have been documented in the retrieved evidence.
+- **Predominant variant type:** No human pathogenic variants (LoF, missense, or otherwise) have been reported.
+- **Known cohort representation:** No patients from UDN, GREGoR, DDD, RUMC, GEL, or any other clinical cohort were identified.
+- **Strength of clinical evidence: NONE**
+
+There is a complete absence of published clinical evidence linking heterozygous (or any) KBTBD7 variants to a human neurodevelopmental disorder. No case reports, case series, or cohort studies describing patients with KBTBD7-associated disease were retrieved.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Zebrafish (*Danio rerio*), mouse (*Mus musculus*), and rat (*Rattus norvegicus*) have all been used to study KBTBD7 function.
+
+**Key findings by organism:**
+
+- **Zebrafish (knockdown):** Morpholino-mediated knockdown of *kbtbd7* produced defective convergent extension during gastrulation, consistent with dysregulation of Wnt/planar cell polarity (PCP) signaling and accumulation of Vangl protein (PMID: 33990333). In a separate study, *kbtbd7* downregulation was associated with disordered-flow vascular channels reminiscent of cerebral cavernous malformation, and exogenous *kbtbd7* mRNA partially rescued the mulberry-like vascular cluster phenotype caused by *rnf213a* knockout (PMID: 32248732). These findings point to roles in early morphogenesis and vascular development rather than specifically neurological phenotypes.
+
+- **Mouse (full knockout):** CRISPR-Cas9-generated *Kbtbd7* knockout mice were viable and fertile, with no reported gross developmental or neurological abnormalities. The primary observed phenotype was elevated steady-state DRD2 protein levels in the pituitary gland, thalamus, and heart, consistent with KBTBD7's role in DRD2 ubiquitination and turnover (PMID: 32572597). Notably, no lethality, Mendelian ratio deviations, or overt neurodevelopmental phenotypes were reported.
+
+- **Mouse (knockdown in macrophages):** Knockdown of KBTBD7 in macrophages reduced DAMP-triggered inflammatory cytokine production and attenuated p38/NF-κB and MKK3/6 signaling (PMID: 29991775), a finding relevant to inflammatory biology but not directly to neurodevelopment.
+
+- **Rat (knockdown):** Knockdown of KBTBD6/7 in primary pituitary tumor cells sensitized them to cabergoline treatment, while KBTBD7 overexpression increased resistance in an estrogen-induced prolactinoma model (PMID: 32572597). This is a disease-relevant but non-neurodevelopmental finding.
+
+**Consistency with a human neurodevelopmental phenotype:** The model organism data do not provide consistent or direct support for a neurodevelopmental disorder phenotype. The zebrafish convergent extension defect is a broad developmental finding, and the viable, overtly normal *Kbtbd7* knockout mouse does not suggest haploinsufficiency as a mechanism for dominant neurodevelopmental disease. Elevated DRD2 in the thalamus of knockout mice is of potential neurological interest but has not been linked to a behavioral or structural brain phenotype.
+
+**Strength of model organism evidence: LIMITED**
+
+While multiple organisms have been studied, the available data do not recapitulate a neurodevelopmental disorder phenotype, and the full knockout mouse is viable without reported neurological abnormalities.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+
+KBTBD7 is a multifunctional CUL3 E3 ubiquitin ligase adaptor with several well-characterized substrate interactions:
+
+1. **Wnt/PCP signaling:** KBTBD7 promotes ERAD of Vangl1/2 via p97/VCP-mediated ubiquitination; Wnt5a/CK1-induced Vangl phosphorylation antagonizes this degradation, allowing Vangl plasma membrane export. This pathway regulates convergent extension and has been proposed as a tumor suppressor mechanism in breast cancer (PMID: 33990333).
+
+2. **RAC1/TIAM1 signaling:** Together with KBTBD6, KBTBD7 acts as a CUL3 adaptor to ubiquitinate and degrade TIAM1, a RAC1-specific GEF. Depletion of KBTBD6/7 elevates RAC1 activity, alters actin morphology, reduces focal adhesions, and enhances cell invasion. Notably, KBTBD7 uses ATG8 family-interacting motifs (AIMs) to bind GABARAP proteins, linking substrate degradation to autophagosomal compartments (PMID: 25684205).
+
+3. **DRD2 homeostasis:** KBTBD7 directly ubiquitinates DRD2 at five lysine residues (K221, K226, K241, K251, K258) as a CUL3 adaptor, regulating dopamine receptor protein levels in the pituitary, thalamus, and heart (PMID: 32572597). This is of potential relevance to dopaminergic neurotransmission.
+
+4. **Inflammatory signaling:** KBTBD7 interacts with MKK3/6 to promote p38/NF-κB activation in macrophages (PMID: 29991775), ubiquitinates KLF15 to promote NLRP3 inflammasome activation in microglia (PMID: 39489209), and interacts with FOXA1 to regulate ferroptosis in lung epithelial cells (PMID: 38652964). The miR-21/KBTBD7/NF-κB axis has been described in multiple inflammatory contexts (PMID: 29991775; PMID: 31837588).
+
+5. **PTEN degradation:** KBTBD7 promotes ubiquitin-dependent degradation of PTEN, activating EGFR/PI3K/AKT signaling in non-small cell lung carcinoma (PMID: 35499228).
+
+**Expression pattern and neurodevelopmental relevance:**
+
+*Kbtbd7* was identified as dramatically downregulated in mouse embryos with targeted disruption of *Gtf2i* and *Gtf2ird1* (TFII-I family transcription factors), genes deleted in Williams syndrome. The *Kbtbd7* promoter contains conserved TFII-I-binding sites, suggesting it is a direct transcriptional target of TFII-I proteins, and its expression pattern was noted to suggest a specific role in brain development and function (PMID: 19527686). This is the most direct evidence linking KBTBD7 to neurodevelopment, though it is indirect (transcriptional regulation by Williams syndrome-associated factors) and based on microarray data without functional validation of the brain phenotype.
+
+DRD2 regulation in the thalamus (PMID: 32572597) and the role of KBTBD7 in microglial inflammatory signaling (PMID: 39489209) provide additional, albeit indirect, neurobiological context.
+
+**Strength of biological evidence: MODERATE** (for general molecular function) / **LIMITED** (specifically for neurodevelopmental disease relevance)
+
+KBTBD7 has well-characterized E3 ligase adaptor functions across multiple pathways, and there is suggestive evidence for brain-relevant expression and function (TFII-I target gene, DRD2 regulation, microglial signaling). However, no direct mechanistic link to a neurodevelopmental disorder has been established.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: INSUFFICIENT**
+
+**Key strengths:**
+- KBTBD7 has well-characterized molecular functions as a CUL3 E3 ubiquitin ligase adaptor with multiple validated substrates.
+- Its identification as a transcriptional target of TFII-I proteins (deleted in Williams syndrome) provides a biologically plausible connection to neurodevelopment (PMID: 19527686).
+- Regulation of DRD2 protein levels in the thalamus and roles in microglial inflammatory signaling offer neurobiological relevance.
+- Multiple model organisms have been studied, confirming in vivo functional importance.
+
+**Key gaps and limitations:**
+- There is a complete absence of human clinical evidence: no patients with KBTBD7 variants and neurodevelopmental phenotypes have been reported in the literature.
+- The full *Kbtbd7* knockout mouse is viable with no reported neurodevelopmental or behavioral phenotype, arguing against strong haploinsufficiency as a disease mechanism.
+- Model organism studies have not specifically modeled heterozygous loss-of-function, and no study has directly assessed neurodevelopmental outcomes (brain morphology, behavior, cognition) in *Kbtbd7*-deficient animals.
+- The biological evidence for brain-specific expression and function is largely indirect and inferential.
+
+**Conclusion:**
+
+At present, the evidence is **insufficient** to support KBTBD7 as a validated neurodevelopmental disorder gene with autosomal dominant pathogenic variants. While KBTBD7 has compelling molecular biology and suggestive neurodevelopmental connections—particularly its status as a TFII-I transcriptional target relevant to Williams syndrome (PMID: 19527686) and its role in DRD2 homeostasis in the thalamus (PMID: 32572597)—the complete absence of human clinical cases and the lack of neurodevelopmental phenotypes in model organisms represent critical evidentiary gaps. Future studies should prioritize identification of patients through large-scale sequencing cohorts, generation of heterozygous mouse models with neurobehavioral phenotyping, and functional characterization of candidate variants before KBTBD7 can be considered a candidate neurodevelopmental disease gene.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. Regulation of Wnt/PCP signaling through p97/VCP-KBTBD7-mediated Vangl ubiquitination and endoplasmic reticulum-associated degradation (PMID: 33990333)
+2. Mutations of RNF213 are responsible for sporadic cerebral cavernous malformation and lead to a mulberry-like cluster in zebrafish (PMID: 32248732)
+3. The KBTBD6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment (PMID: 32572597)
+4. MicroRNA-21 prevents excessive inflammation and cardiac dysfunction after myocardial infarction through targeting KBTBD7 (PMID: 29991775)
+
+### Biological Evidence
+1. CUL3-KBTBD6/KBTBD7 ubiquitin ligase cooperates with GABARAP proteins to spatially restrict TIAM1-RAC1 signaling. (PMID: 25684205)
+2. Targeting of ubiquitination and degradation of KLF15 by E3 ubiquitin ligase KBTBD7 regulates LPS-induced septic brain injury in microglia. (PMID: 39489209)
+3. Knockdown of KBTBD7 attenuates septic lung injury by inhibiting ferroptosis and improving mitochondrial dysfunction. (PMID: 38652964)
+4. Berberine reduces inflammation of human dental pulp fibroblast via miR-21/KBTBD7 axis. (PMID: 31837588)
+5. KBTBD7 promotes non-small cell lung carcinoma progression by enhancing ubiquitin-dependent degradation of PTEN. (PMID: 35499228)
+6. New TFII-I family target genes involved in embryonic development. (PMID: 19527686)

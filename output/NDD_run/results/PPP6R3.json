@@ -1,0 +1,142 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 3,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "PPP6R3-mediated dephosphorylation regulates mRNA translation during spermatogonial differentiation (PMID: 40721635)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "abnormal spermatogonial differentiation",
+          "male infertility",
+          "translation inhibition",
+          "increased phosphorylation of EIF3CS39 and EIF4G1S1217",
+          "decreased non-phosphorylated EIF3C and EIF4G1 levels",
+          "reduced enrichment of differentiation-associated mRNAs",
+          "impaired translation rates of differentiation-associated mRNAs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of ppp6r3 in zebrafish gonadal differentiation and gametogenesis (PMID: 40962474)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "development of only male zebrafish",
+          "inability to fertilize wild-type eggs",
+          "blocked transition of spermatocytes to mature sperm",
+          "disrupted spermatogenesis",
+          "defects in gonadal differentiation",
+          "defects in gametogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": "two mutant lines",
+        "significance": null
+      },
+      {
+        "citation": "Removal of developmentally regulated microexons has a minimal impact on larval zebrafish brain morphology and function (PMID: 41252186)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "mild neural phenotypes",
+          "reduced activity in telencephalon (in comparison to other microexons studied)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The protein phosphatase PP6 promotes RIPK1-dependent PANoptosis (PMID: 38807188)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PPP6R3 is a regulatory subunit of the PP6 holoenzyme that has redundant roles with PPP6R1 and PPP6R2 in regulating TAK1 inhibitor-induced PANoptosis. Combined depletion of all three regulatory subunits was required to block cell death, and PPP6R3 promotes pro-death S166 auto-phosphorylation of RIPK1 while reducing pro-survival S321 phosphorylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transcriptome-wide association study and eQTL colocalization identify potentially causal genes responsible for human bone mineral density GWAS associations (PMID: 36416764)",
+        "evidence_subtype": "GWAS",
+        "summary": "PPP6R3 was identified as the gene with the strongest support from combined TWAS and eQTL colocalization analysis for bone mineral density GWAS associations. Ppp6r3 deletion in mice resulted in decreased bone mineral density, establishing PPP6R3 as a putatively causal BMD gene.",
+        "sample_size": "Largest BMD GWAS to date",
+        "significance": "Strongest support from TWAS/eQTL colocalization analysis"
+      },
+      {
+        "citation": "Meta-Analysis of Genomewide Association Studies Reveals Genetic Variants for Hip Bone Geometry (PMID: 30888730)",
+        "evidence_subtype": "GWAS",
+        "summary": "SNP rs7102273 near PPP6R3 on chromosome 11q13 was associated with hip geometry measures at genome-wide significance and with any-type fracture (p=7.5\u00d710\u207b\u2075). The SNP rs7102273 was identified as a significant eQTL for PPP6R3 expression (p=0.0007) in bone transcriptome data.",
+        "sample_size": "Up to 18,719 individuals in discovery; 7 additional cohorts in replication",
+        "significance": "p\u22642.6\u00d710\u207b\u2078 (genome-wide significance); eQTL p=0.0007"
+      },
+      {
+        "citation": "Role of ppp6r3 in zebrafish gonadal differentiation and gametogenesis (PMID: 40962474)",
+        "evidence_subtype": "fly_worm",
+        "summary": "CRISPR/Cas9-generated ppp6r3 mutant zebrafish lines showed male-only development and infertility, with blocked transition of spermatocytes to mature sperm, indicating ppp6r3 is essential for normal gonadal differentiation and spermatogenesis.",
+        "sample_size": "Two ppp6r3 mutant lines",
+        "significance": null
+      },
+      {
+        "citation": "NRG1 fusions in breast cancer (PMID: 33413557)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PPP6R3 was identified as part of a double fusion gene (PPP6R3-TENM4-NRG1) in the breast cancer cell line MDA-MB-175, indicating PPP6R3 can be involved in chromosomal rearrangements that produce oncogenic fusion transcripts.",
+        "sample_size": "571 breast cancers screened",
+        "significance": null
+      },
+      {
+        "citation": "Genomic structural equation modeling decodes skeletal aging: novel loci discovery and multisystem genetic crosstalk (PMID: 41185046)",
+        "evidence_subtype": "GWAS",
+        "summary": "PPP6R3 was highlighted as a key gene in transcriptome-wide analyses of skeletal aging, with associations to bone mineral density across integrated GWAS data from osteoporosis, osteoarthritis, lumbar spinal stenosis, telomere length, and low back pain.",
+        "sample_size": "462,933 to 472,174 European individuals",
+        "significance": "P<5\u00d710\u207b\u00b9\u00b2"
+      },
+      {
+        "citation": "Involvement of DPP9 in gene fusions in serous ovarian carcinoma (PMID: 28893231)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A DPP9-PPP6R3 fusion transcript was identified in one high-grade serous ovarian carcinoma with a matching genomic 11;19-translocation, associated with diminished expression of the 3' end of DPP9 at the breakpoint.",
+        "sample_size": "19 ovarian carcinomas (18 serous, 1 undifferentiated)",
+        "significance": null
+      },
+      {
+        "citation": "Bivariate genome-wide association meta-analysis of pediatric musculoskeletal traits reveals pleiotropic effects at the SREBF1/TOM1L2 locus (PMID: 28743860)",
+        "evidence_subtype": "GWAS",
+        "summary": "PPP6R3/LRP5 locus variants showed pleiotropic effects on both total-body lean mass and bone mineral density in children, with shared genetic component of 43%, indicating PPP6R3 influences muscle-bone interactions.",
+        "sample_size": "10,414 children",
+        "significance": "Genome-wide significant"
+      },
+      {
+        "citation": "Interactome analysis of the influenza A virus transcription/replication machinery identifies protein phosphatase 6 as a cellular factor required for efficient virus replication (PMID: 25187537)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PPP6R3 was identified as a regulatory subunit of PP6 that copurifies with the influenza A virus RNA-dependent RNA polymerase (RdRP) in infected cells, suggesting PP6 interacts with and positively regulates viral RdRP activity.",
+        "sample_size": "171 cellular proteins identified; 3 PP6 subunits including PPP6R3",
+        "significance": null
+      },
+      {
+        "citation": "Removal of developmentally regulated microexons has a minimal impact on larval zebrafish brain morphology and function (PMID: 41252186)",
+        "evidence_subtype": "fly_worm",
+        "summary": "CRISPR/Cas9 removal of a microexon in ppp6r3 in zebrafish resulted in mild neural phenotypes, suggesting this alternative splicing event has subtle roles in brain development and function.",
+        "sample_size": "45 microexons removed across multiple genes",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2012 - The PPP6R3/LRP5 locus influences lean mass in children of different ethnic background and highlights pleiotropic effects on muscle-bone interactions",
+        "evidence_subtype": "GWAS",
+        "summary": "A SNP in the PPP6R3/LRP5 locus on 11q13.2 was genome-wide significantly associated with lean mass in children (p=2.9\u00d710\u207b\u2078) and nominally with BMD (p=7.6\u00d710\u207b\u2075), demonstrating pleiotropic effects on muscle and bone mass acquisition that persist into adulthood.",
+        "sample_size": "4,096 children from Generation R study",
+        "significance": "p=2.9\u00d710\u207b\u2078 (lean mass); p=7.6\u00d710\u207b\u2075 (BMD)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+You are an expert in model organism genetics reviewing literature for evidence about the gene {gene_name}.
+
+Your task: analyze the following articles (from PubMed and ASHG abstracts) and extract evidence from vertebrate model organism studies (mouse, zebrafish, Xenopus, rat, etc.) involving knockout or knockdown of {gene_name} or its ortholog.
+
+ARTICLES:
+{articles}
+
+INSTRUCTIONS:
+1. For each article describing a full or partial knockout/knockdown of {gene_name} (or its ortholog) in a vertebrate model organism, extract the information below.
+2. Skip articles that only study invertebrate organisms (Drosophila, C. elegans, yeast) -- those belong to biological evidence.
+3. Skip articles that are purely computational or do not report experimental phenotypes.
+4. Report a maximum of {max_papers} papers. If there are more, prioritize the most comprehensive/high-impact ones (largest phenotypic assessment, largest sample size, published in high-impact journals).
+5. Pay special attention to: lethality, birth of mutants in non-Mendelian ratios, infertility, and neurological/behavioral phenotypes{mouse_phenotypes_suffix}.
+
+For each relevant paper, output a JSON object with these fields:
+- "citation": article title and PMID (e.g., "Smith et al. 2020 - Title (PMID: 12345678)") or "ASHG YYYY - Title" for ASHG abstracts
+- "organism": the model organism used (e.g., "mouse", "zebrafish", "Xenopus", "rat")
+- "knockout_type": "full knockout", "conditional knockout", "heterozygous knockout", "knockdown", "knock-in", or other
+- "phenotypes": list of observed phenotypes
+- "mendelian_ratio": whether mutants were born at expected Mendelian ratios (e.g., "sub-Mendelian", "Mendelian", "lethal", or null if not reported)
+- "lethality": "embryonic lethal", "perinatal lethal", "viable", or null if not reported
+- "infertility": true, false, or null if not reported
+- "sample_size": number of animals assessed, if reported (string or null)
+- "significance": statistical significance of phenotypic findings, if reported (e.g., "p<0.001", or null)
+
+Output ONLY a JSON array of objects. No commentary before or after.
+If no relevant model organism evidence is found, output an empty array: []

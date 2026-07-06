@@ -1,0 +1,69 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 0,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Inactivating Mutations of the IK Gene Weaken Ku80/Ku70-Mediated DNA Repair and Sensitize Endometrial Cancer to Chemotherapy (PMID: 34065218)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "IK interacts with Ku80 and Ku70 proteins to mediate DNA repair. Co-immunoprecipitation and mass spectrometry identified these protein interactions. IK knockdown led to inactivation of Ku80/Ku70-mediated DNA repair signaling and sensitization to cisplatin treatment in endometrial cancer cells.",
+        "sample_size": "547 EC patients from TCGA",
+        "significance": "Patients with IK-inactivating mutations had significantly better overall survival (10-year follow-up)"
+      },
+      {
+        "citation": "Implication of a new molecule IK in CD34+ hematopoietic progenitor cell proliferation and differentiation (PMID: 9160666)",
+        "evidence_subtype": "cell_culture",
+        "summary": "IK gene transcripts are expressed in CD34+ hematopoietic progenitor cells from human umbilical cord blood. IK expression inversely correlates with HLA-DR expression during growth factor-induced CD34+ cell proliferation and differentiation. IK antisense oligodeoxynucleotide inhibition decreased colony formation by 70% in multilineage early erythroid and granulomonocytic progenitors.",
+        "sample_size": "CD34+ cells from human umbilical cord blood",
+        "significance": "70% decrease in colony size with IK antisense inhibition compared to controls"
+      },
+      {
+        "citation": "Ikaros is expressed in developing striatal neurons and involved in enkephalinergic differentiation (PMID: 17504264)",
+        "evidence_subtype": "expression",
+        "summary": "Ikaros (Ik) isoforms Ik-1 and Ik-2 are specifically expressed in embryonic striatum and bind Ik-like cis-regulatory DNA elements on the enkephalin (ENK) gene. Ik proteins are expressed by both proliferating (BrdU+/nestin+) and post-mitotic differentiating (MAP2+) cells between embryonic day 12 and post-natal day 2. Ik acts as a positive regulator of ENK gene expression through its DNA-binding domain.",
+        "sample_size": "Developing striatal tissue and neuronal cultures",
+        "significance": "Mutant animals lacking DNA-binding domain of Ik had deficit in ENK mRNA+ cells; animals lacking protein interaction domain showed no deficit"
+      },
+      {
+        "citation": "Expression of the Ikaros gene family in childhood acute lymphoblastic leukaemia (PMID: 12028018)",
+        "evidence_subtype": "expression",
+        "summary": "Ikaros (Ik) gene family expression analyzed in 97 ALL cases (64 childhood, 33 infant). Ik expression detected in all cases; dominant negative isoform Ik6 expressed in 10/38 (26.3%) childhood precursor B-ALL cases but absent in other childhood ALL types. Expression of Ik6 was inversely correlated with Aiolos (Ai1) and Helios (He1) expression.",
+        "sample_size": "97 ALL cases (64 childhood, 33 infant)",
+        "significance": "Ik6 expression in childhood precursor B-ALL: 26.3% vs. absent in other types (p=0.0001); inverse correlation with Ai1 (p=0.005) and He1 (p=0.035)"
+      },
+      {
+        "citation": "A new cytokine (IK) down-regulating HLA class II: monoclonal antibodies, cloning and chromosome localization (PMID: 7970704)",
+        "evidence_subtype": "function",
+        "summary": "IK is a 19 kDa cytokine secreted by leukemic K562 cells and cancer cells that inhibits HLA Class II antigen induction by IFN-gamma. IK gene maps to chromosome 2p15-p14 and encodes a 2.1 kb mRNA with no homology to known cytokines. Transient transfection of IK cDNA in COS cells induces secretion of biologically active 19 kDa protein.",
+        "sample_size": "Multiple cell lines (K562, Colo 205, COS)",
+        "significance": "IK factor almost completely abolishes HLA class II expression induced by Cycloheximide in Colo 205 cells"
+      },
+      {
+        "citation": "Forced expression of the Ikaros 6 isoform in human placental blood CD34(+) cells impairs their ability to differentiate toward the B-lymphoid lineage (PMID: 11675337)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Forced expression of Ikaros 6 (Ik6), a dominant negative isoform lacking the DNA-binding domain, in human cord blood CD34+ progenitors reduces their capacity to produce B lymphoid cells. This was demonstrated in two independent assays: in vitro coculture with MS-5 stromal cells and xenotransplantation in NOD-SCID mice. Results suggest the balance between Ikaros isoforms is critical for hematopoietic differentiation.",
+        "sample_size": "Human placental blood CD34+ cells",
+        "significance": "Ik6 expression impaired B-lymphoid differentiation in both in vitro and in vivo assays"
+      },
+      {
+        "citation": "ASHG 2012 - Frequency of non-DNA-binding Ikaros isoforms in childhood acute lymphoblastic leukemia and relapse or death risk",
+        "evidence_subtype": "expression",
+        "summary": "Non-DNA-binding Ikaros isoforms Ik-6 and Ik-8 detected in 18/69 (26.1%) B-ALL cases. Fourteen B-ALL patients expressed Ik-6, 3 presented Ik-8, and 1 showed Ik-8 variant. Seven patients with non-functional isoforms developed adverse events (3 relapses, 4 deaths); notably, 5 of 7 had standard risk by conventional prognostic factors at diagnosis.",
+        "sample_size": "76 children with newly diagnosed ALL (69 B-ALL, 7 T-ALL)",
+        "significance": "Non-functional Ikaros isoforms (Ik-6/Ik-8) associated with relapse and death in ALL children"
+      },
+      {
+        "citation": "ASHG 2009 - Akt-dependent regulation of potassium channels by IGF-1 in cardiomyocytes",
+        "evidence_subtype": "cell_culture",
+        "summary": "The delayed outward rectifier current (IK), the major ion channel responsible for ventricular repolarization, is negatively regulated by IGF-1 through the PI3K/Akt signaling pathway in neonatal rat ventricular myocytes. IGF-1 reduced IK functional density from 4.1\u00b10.5 to 2.6\u00b10.3 pA/pF; this effect was eliminated by PI3K inhibitor LY294002 and mimicked by constitutively activated PI3K or wild-type Akt.",
+        "sample_size": "Freshly isolated neonatal rat ventricular myocytes",
+        "significance": "IGF-1 effect on IK completely reversed by dominant-negative Akt (Ad.Akt179M); PI3K inhibitor LY294002 abrogated all effects"
+      }
+    ]
+  }
+}

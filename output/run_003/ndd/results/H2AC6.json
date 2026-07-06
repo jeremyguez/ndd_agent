@@ -1,0 +1,55 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 0,
+    "biological": 6
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Tribulus terrestris L. protects glomerular endothelial cells via the miR155-H2AC6 interaction network in hypertensive renal injury (PMID: 34926670)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In AngII-induced hypertensive renal injury in glomerular endothelial cells, miR-155-5p expression was negatively correlated with H2AC6 expression. Tribulus terrestris L. treatment upregulated miR-155-5p, which in turn negatively regulated H2AC6, suggesting H2AC6 is a downstream target of miR-155-5p in hypertensive renal injury. This miRNA-mRNA interaction network was identified through differential expression profiling and validated by qRT-PCR.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unveiling the Therapeutic Potential of Baicalin in Intervertebral Disc Degeneration: Integrative Bulk and Single-Cell Transcriptome Analysis with Experimental Validation of PANoptosis Inhibition (PMID: 40463856)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was identified as one of five core PANoptosis-related genes significantly upregulated in degenerated intervertebral discs. Baicalin treatment effectively downregulated H2AC6 at both mRNA and protein levels in an IL-1\u03b2-induced nucleus pulposus cell degeneration model in vitro and in a puncture-induced rat IVDD model in vivo. These findings implicate H2AC6 in PANoptosis (integrated pyroptosis, apoptosis, and necroptosis) during disc degeneration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of lactylation by LRP1 expression increases the risk of intervertebral disc degeneration: A multi-omics summary-based Mendelian randomization analysis (PMID: 40988222)",
+        "evidence_subtype": "GWAS",
+        "summary": "Using summary-based Mendelian randomization integrating GWAS, cis-eQTL, and cis-mQTL data, H2AC6 expression was found to be positively correlated with the risk of intervertebral disc degeneration (IVDD). H2AC6 was identified as a lactylation-related gene with a causal effect on IVDD at the gene expression level (p_SMR < 0.05, p_HEIDI > 0.01).",
+        "sample_size": null,
+        "significance": "p_SMR < 0.05, p_HEIDI > 0.01"
+      },
+      {
+        "citation": "Mitochondrial metabolism and succinylation-related gene signatures for predicting prognosis and drug resistance in colon adenocarcinoma (PMID: 42176930)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was identified as one of two hub genes in a prognostic model (OPISV) for colon adenocarcinoma (COAD), derived from differentially expressed mitochondrial metabolism and succinylation-related genes. H2AC6 was an independent prognostic factor for COAD, and its expression patterns were consistent across single-cell sequencing and qRT-PCR validation. The model achieved a 3-year time-dependent ROC AUC of 0.665.",
+        "sample_size": "524 TCGA-COAD samples",
+        "significance": null
+      },
+      {
+        "citation": "Global comparative transcriptomes uncover novel and population-specific gene expression in esophageal squamous cell carcinoma (PMID: 37641095)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was identified as one of three novel genes critical for esophageal squamous cell carcinoma (ESCC) survival through survival analysis using TCGA data. H2AC6 was among 166 novel differentially expressed genes discovered by cross-comparing gene expression patterns across six global ESCC populations. It was proposed as a potential biomarker for ESCC diagnosis and prognosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Serum extracellular vesicle RNA profiles in long COVID: insights from exercise-induced gene modulation (PMID: 41588020)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was among the top 5 downregulated genes in serum extracellular vesicle RNA profiles during peak exercise after a 10-week aerobic exercise training program in long COVID patients. H2AC6 was one of 50 downregulated differentially expressed genes identified at peak exercise post-training compared to rest, with genes primarily involved in inflammation and metabolism. This suggests H2AC6 may be modulated as part of exercise-induced transcriptional suppression of inflammation-related pathways.",
+        "sample_size": "14 adults with long COVID",
+        "significance": "q < 0.05"
+      }
+    ]
+  }
+}

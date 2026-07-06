@@ -1,0 +1,391 @@
+{
+  "articles_found": {
+    "clinical": 18,
+    "model_organism": 22,
+    "biological": 26
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Biallelic PDE2A variants: a new cause of syndromic paroxysmal dyskinesia. (PMID: 32467598)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "c.1180C>T; p.(Gln394*) homozygous",
+            "type": "LoF",
+            "phenotypes": [
+              "cognitive impairment",
+              "childhood-onset refractory paroxysmal dyskinesia",
+              "interictal EEG abnormalities",
+              "misdiagnosed as epilepsy"
+            ]
+          },
+          {
+            "description": "c.446C>T; p.(Pro149Leu) compound heterozygous (missense)",
+            "type": "missense",
+            "phenotypes": [
+              "cognitive impairment or developmental delay",
+              "childhood-onset refractory paroxysmal dyskinesia",
+              "interictal EEG abnormalities"
+            ]
+          },
+          {
+            "description": "c.1922+5G>A splice-site compound heterozygous (out of frame transcript lacking exon 22)",
+            "type": "LoF",
+            "phenotypes": [
+              "cognitive impairment or developmental delay",
+              "childhood-onset refractory paroxysmal dyskinesia",
+              "interictal EEG abnormalities"
+            ]
+          },
+          {
+            "description": "c.1180C>T; p.(Gln394*) homozygous (sibling)",
+            "type": "LoF",
+            "phenotypes": [
+              "epilepsy onset at 4 months",
+              "no paroxysmal dyskinesia at 15 months",
+              "developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Trio whole-exome sequencing; biallelic variants segregating with disease; mitochondria network morphology changes in patient fibroblasts; loss-of-function confirmed by transcript analysis",
+        "center_country": "France (implied by clinical context)",
+        "cohort": null
+      },
+      {
+        "citation": "A homozygous loss-of-function mutation in PDE2A associated to early-onset hereditary chorea. (PMID: 29392776)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1439A>G; p.(Asp480Gly) homozygous",
+            "type": "missense",
+            "phenotypes": [
+              "infantile-onset chorea-predominant movement disorder",
+              "early-onset hereditary chorea"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Trio whole-exome sequencing; homozygous variant in GAF-B domain; severely decreased enzymatic activity of PDE2A confirmed functionally; negative for NKX2-1, ADCY5, PDE10A mutations",
+        "center_country": "France",
+        "cohort": null
+      },
+      {
+        "citation": "A homozygous founder variant in PDE2A causes paroxysmal dyskinesia with intellectual disability. (PMID: 37317634)",
+        "num_patients": 6,
+        "variants": [
+          {
+            "description": "NM_002599.4: c.1514T>C; p.(Phe505Ser) homozygous",
+            "type": "missense",
+            "phenotypes": [
+              "paroxysmal dyskinesia",
+              "developmental delay",
+              "cognitive abnormalities",
+              "speech impairment",
+              "drug-refractory seizures",
+              "progressive psychomotor deterioration",
+              "variable choreodystonia",
+              "abnormal mitochondrial morphology in fibroblasts"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Whole exome sequencing; variant segregates with disease in three consanguineous Pakistani families; haplotype analysis revealed 3.16 Mb shared founder haplotype at 11q13.4; novel missense variant absent from controls",
+        "center_country": "Pakistan",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2022 - Biallelic founder mutation in PDE2A causes paroxysmal dyskinesia with Intellectual disability in Pakistani families (A. Fatima, H. Yousaf, S. Baig, I. zafar, M. Toft)",
+        "num_patients": 6,
+        "variants": [
+          {
+            "description": "NM_002599.5: c.1490T>C; p.(Phe497Ser) homozygous",
+            "type": "missense",
+            "phenotypes": [
+              "severe developmental delay",
+              "cognitive abnormalities",
+              "speech impairment",
+              "seizures",
+              "paroxysmal dyskinesia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Whole exome sequencing; variant segregates with phenotype in all three families; homozygosity mapping revealed shared 5.5 Mb homozygous region at Chr11:q13.4-q13.5 consistent with founder effect; rare variant",
+        "center_country": "Pakistan",
+        "cohort": null
+      },
+      {
+        "citation": "Motor, epileptic, and developmental phenotypes in genetic disorders affecting G protein coupled receptors-cAMP signaling. (PMID: 36003298)",
+        "num_patients": null,
+        "variants": [],
+        "diagnostic_reason": "Review of 203 patients from literature with GNAO1, GNB1, PDE2A, PDE10A, and HPCA deficiencies; PDE2A patients included but individual variant-level data not extracted per patient in this review",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "PDE2A Is Indispensable for Mouse Liver Development and Hematopoiesis (PMID: 32326334)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "embryonic lethal",
+          "extremely reduced liver size at E14.5",
+          "loss of integrity in liver niche",
+          "compromised hematopoietic function and maturation",
+          "apoptosis in hepatoblasts, endothelial and stromal compartments",
+          "increased intracellular cAMP levels",
+          "increased ICER expression",
+          "downregulation of anti-apoptotic gene Bcl2"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Critical role of phosphodiesterase 2A in mouse congenital heart defects (PMID: 29409032)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "embryonic lethal",
+          "enlarged hearts at four-chamber stage",
+          "absence of atrial trabeculation",
+          "interventricular septum defects",
+          "hypertrabeculation",
+          "thinning of myocardial wall",
+          "overriding aorta (rare)",
+          "valve defects (rare)",
+          "reduced cardiomyocyte proliferation in IVS at E14.5",
+          "increased apoptosis in IVS",
+          "increased proliferation in ventricular trabeculae",
+          "defects in cardiac progenitor and neural crest markers at E9.5",
+          "increased Islet1 and AP2 positive apoptotic cells",
+          "reduced expression of early cTnI and late Mef2c cardiomyocyte differentiation markers",
+          "downregulation of Tbx transcription factors",
+          "increased intracellular cAMP",
+          "upregulation of ICER in fetal hearts"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Defects in AMPAR trafficking and microglia activation underlie socio-cognitive deficits associated to decreased expression of phosphodiesterase 2 a (PMID: 38154608)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "homozygous animals not viable",
+          "Pde2a+/- males show severe socio-cognitive deficits throughout life",
+          "Pde2a+/- females show milder cognitive performance reduction in adulthood",
+          "microglia activation in males",
+          "elevated glutathione levels in males",
+          "increased externalization of GluR1 in CA1 in males",
+          "reduced mGluR-dependent long-term depression in males"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Longevity, enhanced memory, and altered density of dendritic spines in hippocampal CA3 and dentate gyrus after hemizygous deletion of Pde2a in mice (PMID: 39604498)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "viable with no gross histological abnormalities",
+          "enhanced spatial memory",
+          "enhanced object recognition memory",
+          "increased density of dendritic mushroom and thin spines in hippocampal CA3 and dentate gyrus",
+          "subtle alterations in spine density in CA1",
+          "normal theta-burst LTP",
+          "normal paired-pulse facilitation",
+          "spatial memory enhancement persists in aged mice",
+          "significantly longer lifespan than wild-type littermates"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Knockdown of lung phosphodiesterase 2A attenuates alveolar inflammation and protein leak in a two-hit mouse model of acute lung injury (PMID: 21571906)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "decreased lung PDE2A expression after adenoviral shRNA delivery",
+          "attenuated BAL neutrophilia",
+          "reduced BAL lactate dehydrogenase levels",
+          "reduced BAL protein concentration",
+          "reduced chemokine levels",
+          "reduced lung iNOS expression by 53%",
+          "increased lung cAMP by nearly twofold",
+          "improved survival from 47% to 100% in LPS/VILI model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Involvement of Phosphodiesterase 2A Activity in the Pathophysiology of Fragile X Syndrome (PMID: 30137253)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "PDE2A enzymatic activity increased in brain of Fmr1-KO mice",
+          "decreased cAMP and cGMP levels in Fmr1-KO brain",
+          "pharmacological inhibition of PDE2A rescued dendritic spine maturity in Fmr1-KO mice",
+          "rescue of exaggerated hippocampal mGluR-dependent LTD in Fmr1-KO mice",
+          "rescue of social and communicative deficits in Fmr1-KO mice",
+          "chronic inhibition in newborn Fmr1-KO mice rescued altered social behavior in adolescence"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CRISPR/Cas9 Knock-Out in Primary Neonatal and Adult Cardiomyocytes Reveals Distinct cAMP Dynamics Regulation by Various PDE2A and PDE3A Isoforms (PMID: 37296663)",
+        "organism": "rat",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "~80% decline in PDE2A mRNA expression by 3 days post transduction",
+          "PDE2A protein reduced >50-60% in neonatal cardiomyocytes after 14 days",
+          "PDE2A protein reduced >95% in adult cardiomyocytes after 6 days",
+          "abrogated effects of selective PDE inhibitors on cAMP dynamics",
+          "only PDE2A2 isoform expressed in neonatal myocytes",
+          "adult cardiomyocytes express all three PDE2A isoforms (A1, A2, A3)",
+          "distinct regulation of cAMP dynamics by PDE2A isoforms in neonatal vs adult cardiomyocytes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Beta-Catenin Causes Adrenal Hyperplasia by Blocking Zonal Transdifferentiation (PMID: 32320669)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "upregulation of Pde2a in zona glomerulosa cells with beta-catenin gain-of-function",
+          "inhibition of zF-specific cAMP/PKA signaling",
+          "block in transdifferentiation of zG to zF cells",
+          "progressive hyperplastic expansion of adrenal cortex without increased proliferation",
+          "adrenal organomegaly with trophic factor stimulation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Activation of PDE2A moderates pathologically high cAMP/PKA responses to dopamine in dyskinetic mice (PMID: 40412662)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "PDE2A mediates cGMP-dependent downregulation of cAMP/PKA signaling in striatum",
+          "loss of PDE2A-mediated regulation of hypersensitive cAMP/PKA responses in 6-OHDA model",
+          "unaltered PDE2A expression in dyskinetic mice despite functional role"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2013 - Exome sequencing identified novel genetic mutations in the patients with congenital vertebral anomalies (ASHG 2013)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "de novo mutation in PDE2A identified in congenital vertebral anomaly patient",
+          "genetically-modified zebrafish models planned to understand in vivo functions"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Gene therapy with phosphodiesterases 2A and 4B ameliorates heart failure and arrhythmias by improving subcellular cAMP compartmentation (PMID: 38776406)",
+        "evidence_subtype": "cell_culture",
+        "summary": "AAV9-mediated overexpression of PDE2A3 in a mouse pressure-overload heart failure model attenuated cardiac hypertrophy, fibrosis, and contractile decline. Live cell imaging with targeted cAMP biosensors showed PDE2A overexpression restored altered cAMP compartmentation in caveolin-rich plasma membrane microdomains, accompanied by ameliorated caveolin-3 decline and antiarrhythmic effects under isoproterenol stimulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Activation of PDE2A moderates pathologically high cAMP/PKA responses to dopamine in dyskinetic mice (PMID: 40412662)",
+        "evidence_subtype": "pathway",
+        "summary": "In the 6-OHDA mouse model of Parkinson's disease, cAMP and PKA signaling were markedly upregulated in striatal neurons. Stimulation of cGMP signaling by a NO donor (DEANO) efficiently down-regulated these hypersensitive cAMP/PKA responses via PDE2A activation, demonstrating that cGMP-stimulated PDE2A activity can moderate excessive D1 receptor-driven cAMP/PKA signaling in the striatum.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "miR-139/PDE2A-Notch1 feedback circuit represses stemness of gliomas by inhibiting Wnt/\u03b2-catenin signaling (PMID: 34512162)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PDE2A overexpression in patient-derived glioma stem-like cells suppressed stemness by inhibiting cAMP accumulation and GSK-3\u03b2 phosphorylation, thereby reducing Wnt/\u03b2-catenin signaling and self-renewal. Both PDE2A and its co-transcribed miR-139 were inversely correlated with glioma stem cell stemness and associated with better prognosis in clinical samples. Targeted delivery of PDE2A via OCP liposomes significantly repressed stemness and decelerated glioma progression in orthotopic xenograft models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Defects in AMPAR trafficking and microglia activation underlie socio-cognitive deficits associated to decreased expression of phosphodiesterase 2A (PMID: 38154608)",
+        "evidence_subtype": "other",
+        "summary": "Pde2a+/- mice (homozygous knockouts are non-viable) displayed sex-dependent socio-cognitive deficits, with males showing severe deficits throughout life and females showing milder adult-onset cognitive impairment. In males, these phenotypes were associated with microglia activation, elevated glutathione levels, and increased GluR1 externalization in CA1, producing reduced mGluR-dependent long-term depression, revealing PDE2A-dependent molecular targets underlying socio-cognitive performance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PDE2A Inhibition Enhances Axonal Sprouting, Functional Connectivity, and Recovery after Stroke (PMID: 36163142)",
+        "evidence_subtype": "function",
+        "summary": "Pharmacological inhibition of PDE2A in a mouse cortical stroke model enhanced functional recovery of the contralateral forelimb, increased axonal projections in peri-infarct cortex, and improved functional connectivity of motor system excitatory neurons as measured by two-photon in vivo imaging. PDE2A inhibition did not affect angiogenesis, gliogenesis, neurogenesis, or inflammatory responses, suggesting its pro-recovery effects are specifically mediated through neuronal connectivity mechanisms.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phosphodiesterases PDE2A and PDE10A both change mRNA expression in the human brain with age, but only PDE2A changes in a region-specific manner with psychiatric disease (PMID: 32119913)",
+        "evidence_subtype": "expression",
+        "summary": "Using autoradiographic in situ hybridization on postmortem brain tissue, PDE2A mRNA was found to be reduced in the amygdala of patients with schizophrenia, MDD, and bipolar disorder, while frontal cortical reductions were specific to schizophrenia and hippocampal/striatal reductions were most pronounced in bipolar disorder. PDE2A mRNA expression increased across brain development, and its region- and disorder-specific changes implicate it as a potential diagnostic biomarker or therapeutic target in psychiatric disease.",
+        "sample_size": "Stanley Foundation Neuropathology Consortium postmortem cohort",
+        "significance": null
+      },
+      {
+        "citation": "PDE2A Is Indispensable for Mouse Liver Development and Hematopoiesis (PMID: 32326334)",
+        "evidence_subtype": "function",
+        "summary": "PDE2A knockout mice are embryonic lethal, and at E14.5 their livers are extremely reduced in size with loss of niche integrity, compromised hematopoietic function, and apoptosis in hepatoblasts and endothelial/stromal compartments. Increased intracellular cAMP and upregulation of the inducible cAMP early repressor (ICER) in PDE2A-/- livers likely impairs development by downregulating the anti-apoptotic gene Bcl2, establishing PDE2A as essential for liver niche integrity and hematopoiesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Critical role of phosphodiesterase 2A in mouse congenital heart defects (PMID: 29409032)",
+        "evidence_subtype": "function",
+        "summary": "PDE2A knockout embryos exhibited cardiac defects including absence of atrial trabeculation, interventricular septum defects, hypertrabeculation, myocardial wall thinning, and occasionally overriding aorta and valve defects. Loss of PDE2A caused increased intracellular cAMP, upregulation of ICER, downregulation of Tbx transcription factors, reduced cardiomyocyte proliferation, and increased apoptosis, demonstrating a direct role for PDE2A-mediated cAMP regulation in cardiac development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Involvement of Phosphodiesterase 2A Activity in the Pathophysiology of Fragile X Syndrome (PMID: 30137253)",
+        "evidence_subtype": "other",
+        "summary": "PDE2A enzymatic activity is increased in the brain of Fmr1-KO mice (a Fragile X Syndrome model), leading to decreased cAMP and cGMP levels, as PDE2A mRNA is a prominent target of FMRP. Pharmacological inhibition of PDE2A in Fmr1-KO mice rescued dendritic spine maturity, hippocampal mGluR-dependent LTD, and social/communicative deficits in both mouse and rat models, with chronic neonatal inhibition followed by washout rescuing adolescent social behavior.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Differential expression of the cyclic GMP-stimulated phosphodiesterase PDE2A in human venous and capillary endothelial cells (PMID: 10375378)",
+        "evidence_subtype": "expression",
+        "summary": "Using selective monoclonal antibodies, PDE2A protein was detected in cerebellum, neocortex, heart, kidney, lung, pulmonary artery, and skeletal muscle. Immunocytochemical analysis revealed PDE2A expression specifically in venous and capillary endothelial cells but not in arterial endothelial cells of cardiac and renal tissue, with expression also present in microvascular endothelial cells of renal glomerulus, skin, brain, and liver, suggesting a role in modulating cyclic nucleotide effects on endothelial barrier function.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

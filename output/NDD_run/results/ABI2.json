@@ -1,0 +1,200 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 10,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Missense ABI2 variants linked to a neurodevelopmental disorder with intellectual disability, epilepsy, hypoplasia of the corpus callosum, and white matter abnormalities (PMID: 40475134)",
+        "num_patients": 8,
+        "variants": [
+          {
+            "description": "p.Tyr491Cys (recurrent in SH3 domain)",
+            "type": "missense",
+            "phenotypes": [
+              "moderate to severe motor delay",
+              "absent or delayed expressive language",
+              "intellectual disability",
+              "seizures",
+              "autistic traits",
+              "macrocephaly",
+              "thinning of the corpus callosum",
+              "white matter signal abnormalities"
+            ]
+          },
+          {
+            "description": "additional missense variants (not individually specified)",
+            "type": "missense",
+            "phenotypes": [
+              "moderate to severe motor delay",
+              "absent or delayed expressive language",
+              "intellectual disability",
+              "seizures",
+              "autistic traits",
+              "macrocephaly",
+              "thinning of the corpus callosum",
+              "white matter signal abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants in unrelated individuals; p.Tyr491Cys found in 6 of 8 patients in highly conserved SH3 domain; associated with severe neurodevelopmental phenotype",
+        "center_country": "international collaborations",
+        "cohort": null
+      },
+      {
+        "citation": "Mapping autosomal recessive intellectual disability: combined microarray and exome sequencing identifies 26 novel candidate genes in 192 consanguineous families (PMID: 28397838)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "loss-of-function mutations in ABI2",
+            "type": "LoF",
+            "phenotypes": [
+              "autosomal recessive intellectual disability",
+              "non-syndromic intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "identified in consanguineous families with homozygous loss-of-function mutations; high expression in prenatal brain",
+        "center_country": "Pakistan and Iran",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "ABI2-deficient mice exhibit defective cell migration, aberrant dendritic spine morphogenesis, and deficits in learning and memory (PMID: 15572692)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Defective secondary lens fiber orientation and migration in the eye",
+          "Defective cell migration in neocortex and hippocampus",
+          "Abnormal dendritic spine morphology and density",
+          "Severe deficits in short-term memory",
+          "Severe deficits in long-term memory",
+          "Abnormal phenotypes in eye and brain tissues"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Analysis of genome-wide knockout mouse database identifies candidate ciliopathy genes (PMID: 36456625)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ocular abnormalities",
+          "Renal abnormalities",
+          "Reproductive trait abnormalities",
+          "Histological and morphological evidence of ciliopathy phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Essential role for Abi1 in embryonic survival and WAVE2 complex integrity (PMID: 21482783)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Embryonic lethality at approximately embryonic day 11.5",
+          "Malformations in developing heart",
+          "Malformations in developing brain",
+          "Defective regulation of actin cytoskeleton in MEFs",
+          "Decreased cell migration rate and distance",
+          "Increased directional persistence",
+          "Decreased dorsal ruffling",
+          "Reduced levels of WAVE complex components (WAVE1, WAVE2, Nap1, Sra-1/PIR121)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "ABA perception and signalling (PMID: 20493758)",
+        "evidence_subtype": "pathway",
+        "summary": "ABI2 is a type 2C protein phosphatase that functions as a co-receptor in ABA signaling. Binding of ABA to RCARs/PYR1/PYLs leads to inactivation of ABI2, which launches SNF1-type kinase action targeting ABA-dependent gene expression and ion channels.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulators of PP2C phosphatase activity function as abscisic acid sensors (PMID: 19407143)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ABI2 is a type 2C protein phosphatase that negatively regulates ABA responses and interacts with regulatory components of ABA receptor (RCARs). RCARs mediate ABA-dependent inactivation of ABI2 in vitro and antagonize PP2C action in planta, with evidence for combinatorial assembly of receptor complexes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phytocytokine signalling reopens stomata in plant immunity and water loss (PMID: 35508659)",
+        "evidence_subtype": "pathway",
+        "summary": "ABI2 is phosphorylated by the NUT receptor kinase downstream of SCREW peptide signaling, leading to increased phosphatase activity toward OST1 kinase and reduced stomatal closure. This pathway counter-regulates ABA-induced stomatal closure to optimize plant fitness under stress.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The HHEX-ABI2/SLC17A9 axis induces cancer stem cell-like properties and tumorigenesis in HCC (PMID: 38844969)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ABI2 serves as a co-activator of transcription factor HHEX in hepatocellular carcinoma cells, promoting upregulation of SLC17A9 and cancer stem cell-like properties. ABI2 expression correlates with HCC cell proliferation, migration, and invasion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Two E-clade protein phosphatase 2Cs enhance ABA signaling by dephosphorylating ABI1 in Arabidopsis (PMID: 40170353)",
+        "evidence_subtype": "pathway",
+        "summary": "ABI2 is a co-receptor of ABA whose phosphorylation state regulates its ability to inhibit ABA signaling. ADEP1/2 phosphatases dephosphorylate ABI2 at Ser117, enhancing plant sensitivity to ABA and promoting ABA-induced stomatal closure and seed germination inhibition.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phosphorylation dynamics of RAF12 and PP2C control SnRK2 activity under hyperosmotic stress in Arabidopsis (PMID: 40555240)",
+        "evidence_subtype": "pathway",
+        "summary": "ABI2 is a type 2C protein phosphatase that cooperatively suppresses SnRK2 kinase activities during osmotic stress signaling. RAF12 kinase phosphorylates and inhibits ABI2 activity, releasing SnRK2 inhibition and promoting stress responses.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ABA signal transduction (PMID: 10066625)",
+        "evidence_subtype": "pathway",
+        "summary": "ABI2 is a type 2C protein phosphatase characterized as a negative regulator of ABA signal transduction with redundant action alongside ABI1 in the ABA signaling pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PIM1 phosphorylates ABI2 to enhance actin dynamics and promote tumor invasion (PMID: 37042842)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ABI2 (Abl-interactor 2) is a member of the wave regulatory complex (WRC) that is phosphorylated by PIM1 kinase at Ser183 in prostate cancer cells. PIM1-mediated phosphorylation of ABI2 increases protein levels, enhances WRC formation, and promotes cell protrusion and invasion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of ABI2 ubiquitination-dependent degradation suppresses TNBC cell growth via down-regulating PI3K/Akt signaling pathway (PMID: 38937761)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ABI2 is a tumor suppressor protein in triple negative breast cancer that is ubiquitinated and degraded by E3 ligase CBLC. ABI2 interacts with Rho GTPase RAC1 to inhibit PI3K/Akt signaling and suppress TNBC cell proliferation, migration, and invasion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "In search of a function for the E3B1/Abi2/Argbp1/NESH family (PMID: 12011975)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ABI2 is an adaptor protein with homeobox homology domain, proline-rich region, and SH3 domain that interacts with Abl-family tyrosine kinases. ABI2 family members are involved in cytoskeletal reorganization including membrane-ruffling, lamellipodia formation, and cell migration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - GxG interactions potentially account for the blood pressure linkage peak on chromosome 2 in the Old Order Amish",
+        "evidence_subtype": "GWAS",
+        "summary": "SNPs in the ABI2 gene locus on chromosome 2q31-34 show evidence for gene-by-gene interactions associated with diastolic blood pressure variation in the Old Order Amish population. SNPs in ABI2 introns were among 19 SNPs showing interaction effects that collectively accounted for 18% of DBP variation.",
+        "sample_size": "762 Old Order Amish individuals",
+        "significance": "LOD score reduction of up to 34% for individual SNP pairs; 85% reduction with combination of 6 pairs"
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+You are an expert clinical geneticist writing a literature evidence report for the gene {gene_name}.
+
+Below are structured findings from three lines of evidence, extracted by specialized agents:
+
+=== CLINICAL EVIDENCE ===
+{clinical_json}
+
+=== MODEL ORGANISM EVIDENCE ===
+{model_organism_json}
+
+=== BIOLOGICAL EVIDENCE ===
+{biological_json}
+
+INSTRUCTIONS:
+Write a concise but comprehensive report summarizing the evidence for {gene_name} as a {disease_label} gene with heterozygous (autosomal dominant) pathogenic variants.
+
+Structure your report as follows:
+
+1. GENE SUMMARY (1-2 sentences): What is {gene_name} and what is its primary known function?
+
+2. CLINICAL EVIDENCE SUMMARY:
+   - How many independent case reports / case series were found?
+   - Total approximate number of patients across studies
+   - Most common phenotypes observed
+   - Predominant variant type (LoF vs missense vs other)
+   - Are patients from known cohorts (UDN, GREGoR, DDD, RUMC, GEL)?
+   - Strength of clinical evidence: STRONG / MODERATE / LIMITED / NONE
+
+3. MODEL ORGANISM EVIDENCE SUMMARY:
+   - Which organisms have been studied?
+   - Key phenotypes from knockouts (especially neurological, lethality, Mendelian ratio deviations)
+   - Consistency with human phenotype
+   - Strength of model organism evidence: STRONG / MODERATE / LIMITED / NONE
+
+4. BIOLOGICAL EVIDENCE SUMMARY:
+   - Known pathways and molecular function
+   - Expression pattern (especially brain/neurodevelopmental relevance)
+   - Key experimental findings
+   - Strength of biological evidence: STRONG / MODERATE / LIMITED / NONE
+
+5. OVERALL ASSESSMENT:
+   - Overall evidence level: STRONG / MODERATE / LIMITED / INSUFFICIENT
+   - Key strengths of the evidence
+   - Key gaps or limitations
+   - 2-3 sentence conclusion
+
+Write in plain text, using clear section headers. Be factual and cite specific numbers where available.
+IMPORTANT: When referencing a study, always include its PMID in the format (PMID: 12345678) or (ASHG YYYY - Title) so readers can trace claims back to specific papers. Do not list all papers — only cite the ones you actually reference in your text.
+Do NOT output JSON. Write a readable text report.

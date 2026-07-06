@@ -1,0 +1,147 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 7,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Differential Contribution of Cadm1-Cadm3 Cell Adhesion Molecules to Peripheral Myelinated Axons (PMID: 33397712)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Abnormal distribution of Caspr and Kv1 potassium channels in peripheral nervous system",
+          "Axonal organization abnormalities",
+          "Defects in myelinated axon organization",
+          "Cadm3 identified as main axonal ligand for glial Cadm4"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Coordinated internodal and paranodal adhesion controls accurate myelination by oligodendrocytes (PMID: 31451613)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Formation of multimyelinated axons",
+          "Overgrowth of myelin away from axon",
+          "Paranodal loops above or underneath compact myelin",
+          "Defects in accurate placement of myelin sheath by oligodendrocytes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Homophilic interaction of cell adhesion molecule 3 coordinates retina neuroepithelial cell proliferation (PMID: 37022761)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown/disruption",
+        "phenotypes": [
+          "Cadm3 disruption results in expanded clones of retinal progenitor cells",
+          "Increased retinal total cell number",
+          "Cadm3 homophilic interaction provides intercellular mechanism for coordinated cell proliferation",
+          "Role in cell number homeostasis of developing neuroepithelia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Localization of Cadm2a and Cadm3 proteins during development of the zebrafish nervous system (PMID: 21456004)",
+        "organism": "zebrafish",
+        "knockout_type": null,
+        "phenotypes": [
+          "Cadm3 expressed throughout nervous system of larval zebrafish",
+          "Largely nonoverlapping expression of cadm3 and cadm2a in developing retina and spinal cord",
+          "Cadm3 binds heterophilically and preferentially to cadm4"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Hereditary motor neuropathies (PMID: 32796276)",
+        "evidence_subtype": "function",
+        "summary": "CADM3 identified as a novel gene involved in the pathogenesis of hereditary motor neuropathies (HMN) through whole exome and genome sequencing. Discovery demonstrates CADM3's role in motor neuron disease mechanisms and axonal degeneration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Necl-1/CADM3 regulates cone synapse formation in the mouse retina (PMID: 38623325)",
+        "evidence_subtype": "function",
+        "summary": "CADM3/Necl-1 localizes to cone photoreceptors and type 4 OFF cone bipolar cells. In Necl-1-/- mice, cone synapses are dislocated, AMPA receptors are mislocalized, and optokinetic responses are impaired, indicating CADM3 regulates cone synapse formation and short-wavelength light signal transmission.",
+        "sample_size": "Necl-1-/- mouse model",
+        "significance": null
+      },
+      {
+        "citation": "Clinical significance of low expression of CADM3 in breast cancer and preliminary exploration of related mechanisms (PMID: 38515057)",
+        "evidence_subtype": "pathway",
+        "summary": "CADM3 expression is significantly lower in breast cancer tissues than adjacent normal tissues. High CADM3 expression correlates with better prognosis and is associated with reduced cell proliferation and migration. CADM3 negatively regulates MAPK pathway activation, inhibiting phosphorylation of ERK1/2 and JNK1.",
+        "sample_size": "TCGA database plus clinical samples",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Differential Contribution of Cadm1-Cadm3 Cell Adhesion Molecules to Peripheral Myelinated Axons (PMID: 33397712)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CADM3 is identified as the main axonal ligand for glial CADM4 in peripheral myelinated axons. Cadm3-/- mice show abnormal distribution of Caspr and Kv1 channels. CADM3 functions in a hierarchical adhesion code with CADM1 and CADM2 to mediate axon-glia interactions essential for myelination.",
+        "sample_size": "Cadm3-/-, Cadm3-/-/Cadm2-/-, Cadm3-/-/Cadm1-/- mouse models",
+        "significance": null
+      },
+      {
+        "citation": "miR-140-5p suppresses retinoblastoma cell proliferation, migration, and invasion by targeting CEMIP and CADM3 (PMID: 29808799)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CADM3 expression is increased in retinoblastoma tissues and cell lines. miR-140-5p negatively regulates CADM3 expression by targeting its 3'-UTR. CADM3 overexpression promotes cell proliferation, migration, and invasion in RB cells.",
+        "sample_size": "RB tissues and cell lines",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Circ004463 promotes fibroblast proliferation and collagen I synthesis by sponging miR-23b and regulating CADM3/MAP4K4 via activation of AKT/ERK pathways (PMID: 36502948)",
+        "evidence_subtype": "pathway",
+        "summary": "CADM3 is a downstream target of the circ0044633-miR-23b axis in fibroblasts. CADM3 regulates fibroblast proliferation and collagen I synthesis through activation of AKT and ERK pathways. CADM3 overexpression increases skin thickness and collagen content in vivo.",
+        "sample_size": "In vitro fibroblast studies; in vivo mouse skin model",
+        "significance": null
+      },
+      {
+        "citation": "GRIK5 stimulates colon cancer growth and metastasis through cAMP/PKA/CADM3 signaling (PMID: 36959746)",
+        "evidence_subtype": "pathway",
+        "summary": "CADM3 is a downstream effector of GRIK5-induced cAMP/PKA signaling in colon cancer. GRIK5 overexpression increases CADM3 expression, promoting tumor growth and metastasis. Higher GRIK5 levels correlate with poor overall survival in colon cancer patients.",
+        "sample_size": "398 colon cancer patients from TCGA; 26 clinical colon cancer patients; HCT116 and CT26 cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Peptidomic analysis of CSF reveals new biomarker candidates for amyotrophic lateral sclerosis (PMID: 40681694)",
+        "evidence_subtype": "expression",
+        "summary": "CADM3-derived peptides are significantly downregulated in cerebrospinal fluid of ALS patients compared to controls. CADM3 peptides are part of an 8-peptide biomarker panel that discriminates ALS from controls with 98% AUC and are not changed in other neurodegenerative diseases.",
+        "sample_size": "Discovery cohort n=48; validation cohort n=109",
+        "significance": "AUC=0.98"
+      },
+      {
+        "citation": "ASHG 2019 - Mutation in CADM3 cause upper limb predominant neuropathy with pyramidal signs (A.P. Rebelo et al.)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CADM3 Tyr172Cys mutation identified in three families with axonal CMT2 and upper limb-predominant motor neuropathy with pyramidal signs. The mutation creates a novel disulfide bond, alters protein conformation, increases ER retention, and reduces co-localization with CADM4 at the plasma membrane, disrupting axon-glial interactions.",
+        "sample_size": "3 families",
+        "significance": "Variant absent in 230,000 gnomAD alleles"
+      },
+      {
+        "citation": "Using Machine Learning Methods to Study Colorectal Cancer Tumor Micro-Environment and Its Biomarkers (PMID: 37446311)",
+        "evidence_subtype": "expression",
+        "summary": "CADM3 identified as one of five significant biomarkers for colorectal cancer prognosis through machine learning analysis of TCGA and GEO RNA-seq data. CADM3 expression is significantly correlated with CRC patient survival and immune cell infiltration.",
+        "sample_size": "TCGA and GEO datasets",
+        "significance": "p<0.05"
+      }
+    ]
+  }
+}

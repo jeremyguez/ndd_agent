@@ -1,0 +1,142 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 5,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "The KBTBD6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment (PMID: 32572597)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Elevated static level of DRD2 protein in pituitary gland",
+          "Elevated static level of DRD2 protein in thalamus",
+          "Elevated static level of DRD2 protein in heart"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulation of Wnt/PCP signaling through p97/VCP-KBTBD7-mediated Vangl ubiquitination and endoplasmic reticulum-associated degradation (PMID: 33990333)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Defective convergent extension during gastrulation",
+          "Impaired Wnt/planar cell polarity signaling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MicroRNA-21 prevents excessive inflammation and cardiac dysfunction after myocardial infarction through targeting KBTBD7 (PMID: 29991775)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Enhanced p38 and NF-\u03baB signaling activation in cardiac tissue post myocardial infarction",
+          "Promoted DAMP-triggered inflammatory responses in macrophages",
+          "Interaction with MKK3/6 and promotion of their activation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutations of RNF213 are responsible for sporadic cerebral cavernous malformation and lead to a mulberry-like cluster in zebrafish (PMID: 32248732)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Downregulation of kbtbd7 expression in rnf213a mutants",
+          "Mulberry-like cluster of disordered-flow vascular channels phenotype partly rescued by kbtbd7 mRNA"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The KBTBD6/7-DRD2 axis regulates pituitary adenoma sensitivity to dopamine agonist treatment (PMID: 32572597)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "KBTBD7 was identified as a DRD2-interacting protein via yeast two-hybrid screening. KBTBD6/7 directly interacts with and ubiquitinates DRD2 at five specific lysine residues (K221, K226, K241, K251, K258), promoting proteasome-mediated degradation of DRD2. KBTBD7 knockout mice showed elevated DRD2 protein levels in pituitary, thalamus, and heart.",
+        "sample_size": "KBTBD7 KO mice generated; human pituitary tumors analyzed",
+        "significance": "KBTBD7 expression negatively correlated with DRD2 in human pituitary tumors; highly expressed in dopamine-resistant prolactinomas"
+      },
+      {
+        "citation": "KBTBD7 promotes non-small cell lung carcinoma progression by enhancing ubiquitin-dependent degradation of PTEN (PMID: 35499228)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KBTBD7 was highly expressed in NSCLC tissues and cell lines. KBTBD7 knockdown inhibited NSCLC cell proliferation and invasion. KBTBD7 enhanced ubiquitin-dependent degradation of PTEN, activating EGFR/PI3K/AKT signaling and regulating downstream effectors including CCNE1, CDK4, P27, ZEB-1, Claudin-1, ROCK1, MMP-9, and E-cadherin.",
+        "sample_size": "102 paired NSCLC and peritumoral normal specimens",
+        "significance": "KBTBD7 expression positively correlated with histological type, P-TNM stage, lymph node metastasis, and tumor size"
+      },
+      {
+        "citation": "CUL3-KBTBD6/KBTBD7 ubiquitin ligase cooperates with GABARAP proteins to spatially restrict TIAM1-RAC1 signaling (PMID: 25684205)",
+        "evidence_subtype": "pathway",
+        "summary": "KBTBD6/7 are substrate adaptors for a CUL3 RING ubiquitin ligase complex that mediates ubiquitylation and proteasomal degradation of TIAM1, a RAC1-specific GEF. KBTBD6/7 employ ATG8-interacting motifs to bind GABARAP proteins, and TIAM1 ubiquitylation depends on GABARAP binding. KBTBD7 regulates convergent extension during zebrafish gastrulation and functions as a tumor suppressor in breast cancer.",
+        "sample_size": "Zebrafish gastrulation model; breast cancer cells",
+        "significance": "KBTBD6/7 depletion leads to elevated RAC1 activity, loss of focal adhesions, reduced proliferation, and enhanced invasion"
+      },
+      {
+        "citation": "Crocin inhibits KBTBD7 to prevent excessive inflammation and cardiac dysfunction following myocardial infarction (PMID: 36484363)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KBTBD7 was identified as a direct target of crocin. KBTBD7 knockdown significantly inhibited p38 and NF-\u03baB signaling pathways and reduced production of inflammatory cytokines (IL-1\u03b2, IL-6, TNF\u03b1) induced by rmHMGB1 and rmHSP60 in RAW264.7 cells. In vivo, crocin treatment reduced myocardial apoptosis and inflammatory cytokine levels in a rat myocardial ischemia-reperfusion injury model.",
+        "sample_size": "Rat MIRI model; RAW264.7 cells",
+        "significance": "Crocin-treated groups showed significantly decreased IL-1\u03b2, IL-6, and TNF\u03b1 levels compared to model group"
+      },
+      {
+        "citation": "Knockdown of KBTBD7 attenuates septic lung injury by inhibiting ferroptosis and improving mitochondrial dysfunction (PMID: 38652964)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KBTBD7 was highly expressed in LPS-induced human alveolar epithelial cells. KBTBD7 knockdown reduced inflammatory response, ROS production, ferroptosis, and mitochondrial dysfunction. Mechanistically, KBTBD7 interacts with FOXA1, promotes FOXA1 expression, and indirectly inhibits SLC7A11 transcription. In vivo, KBTBD7 knockdown improved lung tissue damage in septic lung injury mice.",
+        "sample_size": "Human alveolar epithelial cells; septic lung injury mice",
+        "significance": "KBTBD7 knockdown significantly reduced pro-inflammatory factors and ROS production in vitro and in vivo"
+      },
+      {
+        "citation": "Regulation of Wnt/PCP signaling through p97/VCP-KBTBD7-mediated Vangl ubiquitination and endoplasmic reticulum-associated degradation (PMID: 33990333)",
+        "evidence_subtype": "pathway",
+        "summary": "KBTBD7 is recruited by p97/VCP via UBA-UBX adaptors to promote Vangl ubiquitination and ERAD. Wnt5a/CK1 prevents Vangl ubiquitination by inducing Vangl phosphorylation, facilitating ER export. KBTBD7 regulates convergent extension during zebrafish gastrulation and functions as a tumor suppressor in breast cancer by promoting Vangl degradation.",
+        "sample_size": "Zebrafish gastrulation; breast cancer cells",
+        "significance": "KBTBD7 regulates Wnt/PCP signaling through ERAD pathway; functions as tumor suppressor"
+      },
+      {
+        "citation": "Targeting of ubiquitination and degradation of KLF15 by E3 ubiquitin ligase KBTBD7 regulates LPS-induced septic brain injury in microglia (PMID: 39489209)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "KBTBD7 expression was upregulated in a rat cecal ligation and puncture (CLP) septic brain injury model and in LPS-treated primary microglia. Co-IP confirmed KBTBD7 as a novel interacting protein of KLF15 transcription factor. KBTBD7 acts as an E3 ubiquitin ligase catalyzing KLF15 ubiquitination and proteasomal degradation. KBTBD7 knockdown inhibited NLRP3 inflammasome and NF-\u03baB signaling activation.",
+        "sample_size": "Rat CLP septic brain injury model; primary microglia",
+        "significance": "KBTBD7 knockdown markedly inhibited LPS-induced proinflammatory cytokine release and inflammasome activation"
+      },
+      {
+        "citation": "New TFII-I family target genes involved in embryonic development (PMID: 19527686)",
+        "evidence_subtype": "expression",
+        "summary": "KBTBD7 (1110008P08Rik) encodes an adapter protein with BTB/POZ, BACK, and Kelch motifs. Microarray analysis revealed KBTBD7 was dramatically down-regulated in Gtf2i and Gtf2ird1 mutant embryos. KBTBD7 possesses well-conserved TFII-I-binding consensus sites in its proximal promoter, suggesting it is a direct target of TFII-I transcription factors. Based on expression pattern, KBTBD7 may have a specific role in brain development and function.",
+        "sample_size": "Mouse embryos with targeted disruption of Gtf2i and Gtf2ird1",
+        "significance": "KBTBD7 significantly down-regulated in TFII-I mutant embryos; potential role in Williams syndrome etiology"
+      },
+      {
+        "citation": "MicroRNA-21 prevents excessive inflammation and cardiac dysfunction after myocardial infarction through targeting KBTBD7 (PMID: 29991775)",
+        "evidence_subtype": "pathway",
+        "summary": "miR-21 directly targets KBTBD7 to suppress inflammatory responses post-MI. KBTBD7 interacts with MKK3/6 and promotes their activation, enhancing p38 and NF-\u03baB signaling. miR-21 knockout mice showed decreased survival, worse cardiac dysfunction, increased infarct areas, and elevated inflammatory cytokines (IL-1\u03b2, IL-6, TNF-\u03b1) after MI. miR-21 overexpression markedly inhibited DAMP-triggered inflammatory cytokine production in macrophages.",
+        "sample_size": "miR-21 knockout and WT mice; macrophages treated with DAMPs",
+        "significance": "miR-21 knockout mice had significantly higher inflammatory cytokine levels and worse cardiac outcomes post-MI"
+      },
+      {
+        "citation": "Berberine reduces inflammation of human dental pulp fibroblast via miR-21/KBTBD7 axis (PMID: 31837588)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In LPS-induced human dental pulp fibroblasts, KBTBD7 expression was upregulated while miR-21 was downregulated. miR-21 negatively targets KBTBD7 via direct binding (confirmed by luciferase reporter assay). Berberine treatment upregulated miR-21 and downregulated KBTBD7, reducing inflammatory cytokines (IL-1\u03b2, IL-6, TNF-\u03b1) and inhibiting NF-\u03baB signaling activation. miR-21 overexpression or KBTBD7 silencing enhanced berberine's protective effects.",
+        "sample_size": "Human dental pulp fibroblasts",
+        "significance": "Berberine (25 \u03bcM) treatment reduced IL-1\u03b2, IL-6, TNF-\u03b1 expression and enhanced cell proliferation via miR-21/KBTBD7 axis"
+      }
+    ]
+  }
+}

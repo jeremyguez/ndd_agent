@@ -1,0 +1,275 @@
+{
+  "articles_found": {
+    "clinical": 21,
+    "model_organism": 20,
+    "biological": 36
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo variants in the splicing factor gene SF3B1 are associated with neurodevelopmental disorders (PMID: 41577671)",
+        "num_patients": 26,
+        "variants": [
+          {
+            "description": "predicted loss of function variants (nonsense, frameshift, splice-site; specific notations not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "global developmental delay",
+              "neurological abnormalities",
+              "facial dysmorphic traits"
+            ]
+          },
+          {
+            "description": "de novo missense variants (specific notations not provided in abstract; largely distinct from cancer-associated variants)",
+            "type": "missense",
+            "phenotypes": [
+              "global developmental delay",
+              "neurological abnormalities",
+              "facial dysmorphic traits",
+              "heart anomalies",
+              "gastrointestinal anomalies",
+              "more severe and syndromic phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo occurrence, constitutional heterozygous variants, functional complementation assays showing altered splicing activity distinct from loss-of-function, genome-wide RNA splicing analysis confirming splicing dysregulation",
+        "center_country": "Not specified in abstract",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Spliceosomal component Sf3b1 is essential for hematopoietic differentiation in zebrafish. (PMID: 27260753)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "macrocytic anemia-like phenotype",
+          "block in erythroid maturation at late progenitor stage",
+          "neutropenia with failure of primitive myeloid cells to mature",
+          "failure to express differentiation markers l-plastin and myeloperoxidase",
+          "greatly diminished production of definitive hematopoietic stem and progenitor cells (HSPCs) from hemogenic endothelial cells",
+          "normal arterial endothelial cell fate",
+          "normal Notch signaling",
+          "HSPC induction blocked downstream or independent of Notch signaling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The splicing factor Sf3b1 regulates erythroid maturation and proliferation via TGF\u03b2 signaling in zebrafish. (PMID: 31300417)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "macrocytic anemia",
+          "G0/G1 cell-cycle arrest in erythroid progenitors",
+          "erythrocyte immaturity",
+          "normal expression of gata1, globin genes, and heme biosynthetic factors",
+          "upregulation of TGF\u03b2 pathway genes",
+          "TGF\u03b2-mediated cell-cycle arrest protective for sf3b1-mutant erythrocytes",
+          "inhibition of TGF\u03b2 signaling released G0/G1 block but enhanced anemia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing factor deficits render hematopoietic stem and progenitor cells sensitive to STAT3 inhibition. (PMID: 36516770)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "HSPC formation dependent on STAT3 activation in sf3b1 homozygous mutants",
+          "SF3B1 heterozygosity confers heightened sensitivity to STAT3 inhibition",
+          "STAT3 inhibition exacerbates aberrant splicing in SF3B1 mutant cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing factor deficits render hematopoietic stem and progenitor cells sensitive to STAT3 inhibition. (PMID: 36516770)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "SF3B1 heterozygosity confers heightened sensitivity to STAT3 inhibition in HSPCs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SF3B1 facilitates HIF1-signaling and promotes malignancy in pancreatic cancer. (PMID: 36001976)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "monoallelic deletion of Sf3b1 impedes tumor formation and progression",
+          "impaired HIF signaling upon Sf3b1 reduction",
+          "reduced pancreatic cancer malignancy"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutant SF3B1 promotes malignancy in PDAC. (PMID: 37823551)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Sf3b1K700E alone insufficient to induce malignant transformation of murine pancreas",
+          "Sf3b1K700E increases aggressiveness of PDAC when co-occurring with mutated KRAS and p53",
+          "Sf3b1K700E plays a role during early stages of pancreatic tumor progression",
+          "reduced expression of TGF-\u03b21-responsive EMT genes",
+          "resistance to TGF-\u03b21-induced cell death in pancreatic organoids",
+          "aberrant splicing of Map3k7"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Co-occurrence of BAP1 and SF3B1 mutations in uveal melanoma induces cellular senescence. (PMID: 34706158)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "reduced invasion of UM cells in zebrafish xenograft models upon co-occurrence of BAP1 deletion and SF3B1 mutation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transcription elongation defects link oncogenic SF3B1 mutations to targetable alterations in chromatin landscape. (PMID: 38521065)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "reduced RNA polymerase II elongation rate along gene bodies",
+          "reduced RNAPII density at promoters",
+          "decreased chromatin accessibility at promoters",
+          "reduced H3K4me3 marks at promoters",
+          "disrupted pre-spliceosome assembly"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MGA deletion leads to Richter's transformation via modulation of mitochondrial OXPHOS. (PMID: 36798339)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Sf3b1-K700E with del(13q) used as CLL background model",
+          "Mga knockout in Sf3b1/Mdr CLL model leads to Richter's transformation",
+          "murine RT cells exhibit mitochondrial aberrations with elevated OXPHOS",
+          "Nme1 identified as Mga target driving RT via OXPHOS modulation",
+          "concurrent inhibition of MYC and ETC complex II prolongs survival of RT mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing factor SF3B1 promotes endometrial cancer progression via regulating KSR2 RNA maturation. (PMID: 33040078)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "reduced tumor growth in orthotopic endometrial cancer mouse model upon SF3B1 inhibitor (Pladienolide-B) treatment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "CDK11 regulates pre-mRNA splicing by phosphorylation of SF3B1 (PMID: 36104565)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CDK11 physically associates with SF3B1 and phosphorylates threonine residues at its N terminus during spliceosome activation. This phosphorylation is required for the association between SF3B1 and U5 and U6 snRNAs in the activated Bact spliceosome complex. Inhibition of CDK11 with OTS964 blocks this phosphorylation, preventing spliceosomal transition from the precatalytic B complex to the activated Bact complex and causing widespread intron retention.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GPATCH8 modulates mutant SF3B1 mis-splicing and pathogenicity in hematologic malignancies (PMID: 38688280)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using synthetic introns responsive to mutant SF3B1, GPATCH8 was identified as a trans factor required for aberrant mutant SF3B1 splicing activity. Silencing of GPATCH8 corrected approximately one-third of mutant SF3B1-dependent splicing defects and improved dysfunctional hematopoiesis in SF3B1-mutant mice and primary human progenitors. GPATCH8 interacts with RNA helicase DHX15 and functionally opposes SUGP1, another G-patch protein implicated in SF3B1-mutant diseases.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Exploring the mechanistic link between SF3B1 mutation and ring sideroblast formation in myelodysplastic syndrome (PMID: 36028755)",
+        "evidence_subtype": "cell_culture",
+        "summary": "HUDEP-2 erythroid progenitor cells stably expressing SF3B1K700E showed a higher proportion of ring sideroblasts compared to controls, demonstrating direct contribution of mutant SF3B1 to ring sideroblast formation. Mutant SF3B1 caused mis-splicing of ABCB7, leading to its downregulation along with ALAS2, and ABCB7 knockdown alone was sufficient to increase ring sideroblast frequency. RNA-seq of MDS clinical samples confirmed decreased ABCB7 expression associated with SF3B1 mutation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Vitamin B5 and succinyl-CoA improve ineffective erythropoiesis in SF3B1-mutated myelodysplasia (PMID: 36857430)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SF3B1 mutations cause mis-splicing of coenzyme A synthase (COASY), leading to depletion of CoA and succinyl-CoA in MDS-RS patient cells, thereby impairing heme biosynthesis and erythropoiesis. Supplementation with vitamin B5 (COASY substrate) rescued CoA and succinyl-CoA concentrations in SF3B1-mutant cells and restored erythropoiesis differentiation in primary MDS-RS patient cells. COASY was shown to be upregulated during normal erythroid differentiation, and its silencing prevented erythroid colony formation and heme accumulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aberrant EVI1 splicing contributes to EVI1-rearranged leukemia (PMID: 35709354)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Oncogenic SF3B1 mutations, present in >30% of inv(3)/t(3;3) myeloid neoplasm patients, promote mis-splicing of EVI1 by utilizing a cryptic branch point and aberrant 3' splice site within intron 12, generating an in-frame 6-amino-acid insertion isoform. Expression of this EVI1 splice variant enhanced hematopoietic stem cell self-renewal, and introduction of mutant SF3B1 in mice bearing the humanized inv(3)(q21q26) allele generated this novel EVI1 isoform and hastened leukemogenesis in vivo. The mutant SF3B1 spliceosome depends on an exonic splicing enhancer within EVI1 exon 13 to promote this aberrant splicing.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "H3B-8800, an orally available small-molecule splicing modulator, induces lethality in spliceosome-mutant cancers (PMID: 29457796)",
+        "evidence_subtype": "function",
+        "summary": "H3B-8800, an orally available modulator of the SF3b complex, potently and preferentially kills spliceosome-mutant (SF3B1, U2AF1, SRSF2) epithelial and hematologic tumor cells through direct interaction with the SF3b complex. The preferential killing of spliceosome-mutant cells is due to retention of short, GC-rich introns enriched for genes encoding spliceosome components. Drug-resistant cells bearing mutations in SF3b component-encoding genes showed loss of H3B-8800 activity, confirming on-target mechanism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of SF3B1 improves the immune microenvironment through pyroptosis and synergizes with \u03b1PDL1 in ovarian cancer (PMID: 38012150)",
+        "evidence_subtype": "expression",
+        "summary": "SF3B1 is overexpressed in ovarian cancer and is associated with low cytotoxic immune cell infiltration based on CPTAC and TCGA cohort analyses validated by tissue microarrays. Inhibition of SF3B1 with pladienolide B induces pyroptosis in ovarian cancer cells, releases mitochondrial DNA that activates macrophage M1 polarization, and increases cytotoxic immune cell infiltration in the ID8 mouse model. SF3B1 inhibition also upregulates PD-L1 expression, enhancing the antitumor effect of anti-PD-L1 therapy in combination treatment.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Frequent pathway mutations of splicing machinery in myelodysplasia (PMID: 21909114)",
+        "evidence_subtype": "pathway",
+        "summary": "Whole-exome sequencing of 29 myelodysplasia specimens revealed that SF3B1, along with U2AF35, ZRSR2, and SRSF2, is recurrently mutated as part of the RNA splicing machinery pathway in myeloid neoplasms. Splicing pathway mutations were found in approximately 45-85% of myelodysplasia cases and were highly specific to myeloid neoplasms with dysplastic features. Most mutations, including those in SF3B1, occurred in a mutually exclusive manner and affected genes involved in 3'-splice site recognition during pre-mRNA processing, inducing abnormal RNA splicing and compromised hematopoiesis.",
+        "sample_size": "29 (discovery); large series validation",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - SF3B1 mutations in different cancer types cause recognition of sterically hindered cryptic splice-sites downstream of the branch point (C. DeBoever et al.)",
+        "evidence_subtype": "function",
+        "summary": "Analysis of transcriptome data from SF3B1-mutant CLL, uveal melanoma, and breast cancer revealed that mutant SF3B1 causes use of cryptic AG dinucleotide acceptors located 13-17 bp downstream of the branch point that are sterically hindered when SF3B1 is wild-type. Only 617 AG dinucleotides genome-wide met the specific sequence requirements for use as cryptic acceptors, and the same cryptic 3' splicing signature was observed across different cancer types only in samples with mutations in the SF3B1 HEAT 5-9 repeat hotspots. Three cancer-implicated genes (TTI1, MAP3K7, FXYD5) and four others showed cryptic acceptors consistently preferred over canonical acceptors in SF3B1-mutant CLL samples.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2013 - Functional characterization of mutations in the spliceosomal component SF3B1 in uveal melanoma (A. Bowcock et al.)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Knockdown of SF3B1 in uveal melanoma cell lines from primary tumors resulted in differential regulation of several oncogenes with roles in cell proliferation, angiogenesis, and apoptosis. Transient overexpression of mutant SF3B1 forms (p.R625C, p.R625H, p.R625L, p.R625G) found in primary uveal melanomas led to upregulation of tumor-promoting transcripts including E2F3 and CLK4 (a kinase regulating splice-site recognition effectors). No overlap of differentially regulated transcripts was observed between knockdown and mutant-expressing lines, consistent with SF3B1 mutations being gain-of-function alterations.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

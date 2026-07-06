@@ -1,0 +1,151 @@
+{
+  "articles_found": {
+    "clinical": 4,
+    "model_organism": 6,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Mutations in MYLPF Cause a Novel Segmental Amyoplasia that Manifests as Distal Arthrogryposis (PMID: 32707087)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced trunk contractile force",
+          "complete pectoral fin paralysis",
+          "muscle weakness in appendicular muscle",
+          "reduced myosin activity",
+          "fiber degeneration"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Fast-twitch myofibrils grow in proportion to Mylpf dosage in the zebrafish embryo (PMID: 39345555)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "severely reduced fast-twitch myofibrils in mylpfa -/- mutant",
+          "loss of high-speed movement in mylpfa -/- mutant",
+          "normal myofibrils in mylpfb -/- mutant",
+          "complete failure of myofibril formation in mylpfa -/- ; mylpfb -/- double mutant",
+          "reduced myofibril width proportional to Mylpf dosage",
+          "DA-causing alleles reduce myofibril size"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Fast skeletal muscle regulatory light chain is required for fast and slow skeletal muscle development (PMID: 17356007)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "complete absence of both fast and slow skeletal muscle",
+          "lack of skeletal muscle in diaphragm",
+          "30% decreased body weight compared to heterozygous or wild-type newborns",
+          "no effect on heart or other organ development"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - Mutations in MYLPF cause a novel segmental amyoplasia manifest as distal arthrogryposis",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "30% smaller body size than wild-type or heterozygous counterparts",
+          "complete absence of skeletal muscle throughout body",
+          "lack of skeletal muscle in diaphragm",
+          "respiratory failure"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Molecular cloning, sequence identification and expression analysis of novel caprine MYLPF gene (PMID: 23277391)",
+        "evidence_subtype": "expression",
+        "summary": "MYLPF mRNA is highly expressed in skeletal muscles (longissimus dorsi, gastrocnemius, abdominal muscle) with lower expression in non-muscle tissues (liver, spleen, lung, kidney). MYLPF expression decreases with age in skeletal muscle, correlating with the timing of muscle growth in young goats. The protein contains two conserved EF-hand superfamily domains.",
+        "sample_size": "Caprine tissues from Tianfu goat",
+        "significance": null
+      },
+      {
+        "citation": "Mutations in MYLPF Cause a Novel Segmental Amyoplasia that Manifests as Distal Arthrogryposis (PMID: 32707087)",
+        "evidence_subtype": "function",
+        "summary": "MYLPF mutations (dominant and recessive variants) cause distal arthrogryposis with congenital contractures and segmental amyoplasia (complete absence of skeletal muscle in affected limbs). Zebrafish mylpfa knockout shows reduced trunk contractile force, complete pectoral fin paralysis, and reduced myosin activity with fiber degeneration, demonstrating that MYLPF impairment most severely affects limb movement.",
+        "sample_size": "8 families with DA; zebrafish model",
+        "significance": null
+      },
+      {
+        "citation": "EPA and DHA Inhibit Myogenesis and Downregulate the Expression of Muscle-related Genes in C2C12 Myoblasts (PMID: 30669396)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MYLPF (myosin light chain phosphorylatable fast skeletal muscle) expression is significantly downregulated in C2C12 myoblasts treated with EPA or DHA (50 \u03bcM), as identified by RNA-sequencing. This downregulation occurs alongside suppression of myoblast differentiation and decreased phosphorylation of ERK1/2 and Akt signaling.",
+        "sample_size": "C2C12 myoblast cell culture",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Quantitative proteomic and phosphoproteomic analysis of chicken skeletal muscle during embryonic development (PMID: 34236285)",
+        "evidence_subtype": "expression",
+        "summary": "MYLPF is identified as a phosphorylated differentially expressed protein (phospho-DEP) in chicken leg muscle during embryonic development (E7, E12, E17, D3). MYLPF interacts with troponin proteins (TNNC1, TNNC2, TNNT2, TNNT3) in focal adhesion pathways during skeletal muscle development.",
+        "sample_size": "Chicken embryonic leg muscle at 4 developmental timepoints",
+        "significance": "FC \u2265 2 or FC \u2264 0.5, p < 0.05"
+      },
+      {
+        "citation": "Identification of Potential Biomarkers for Ryanodine Receptor 1 (RYR1) Mutation-Associated Myopathies Using Bioinformatics Approach (PMID: 35692882)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MYLPF is identified as a skeletal muscle tissue-specific hub gene and potential biomarker for RYR1 mutation-associated myopathies with AUC of 0.786. MYLPF is part of protein-protein interaction networks involved in muscle contraction, actin-mediated cell contraction, and actin filament-based movement pathways.",
+        "sample_size": "11 healthy muscle biopsies, 17 RYR1 myopathy muscle biopsies",
+        "significance": "AUC: 0.786"
+      },
+      {
+        "citation": "Understanding Myoblast Differentiation Pathways When Cultured on Electroactive Scaffolds through Proteomic Analysis (PMID: 35635507)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MYLPF is highly expressed during C2C12 myoblast differentiation on piezoelectric polymer films with negative surface charge (189% upregulation), and is involved in calcium-related signaling and muscle contraction pathways. MYLPF expression is modulated by scaffold surface charge during myoblast differentiation.",
+        "sample_size": "C2C12 cells differentiated on PVDF scaffolds",
+        "significance": "P < 0.01"
+      },
+      {
+        "citation": "Fast-twitch myofibrils grow in proportion to Mylpf dosage in the zebrafish embryo (PMID: 39345555)",
+        "evidence_subtype": "function",
+        "summary": "Mylpf dosage is necessary for and proportionate to fast-twitch myofibril growth in zebrafish embryos. The two zebrafish Mylpf genes (mylpfa and mylpfb) are exclusively expressed in fast-twitch muscle; mylpfa -/- mutants show severely reduced fast-twitch myofibrils and loss of high-speed movement, while mylpfa -/- ;mylpfb -/- double mutants fail to form myofibrils entirely. Disease-associated MYLPF alleles reduce myofibril size proportionally to protein abundance.",
+        "sample_size": "Zebrafish embryos (wild-type and mutant lines)",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Unsupervised learning revealed metabolic syndrome sub-groups with differing phenotypic and genotypic traits (A. Lim et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "MYLPF (rs8054556) is identified as a novel GWAS variant associated with metabolic syndrome cluster C1 (non-descriptive cluster with highest CVD risk). MYLPF is specifically upregulated in skeletal muscle tissue and was unique to the C1 cluster, suggesting a skeletal muscle-specific role in metabolic syndrome pathogenesis.",
+        "sample_size": "UK Biobank: 33,707 (C1), 23,215 (C2), 30,089 (C3), 13,116 (C4), 3,869 (C5)",
+        "significance": null
+      },
+      {
+        "citation": "Bioinformatic Analysis Identifies Potential Key Genes in the Pathogenesis of Turner Syndrome (PMID: 32210915)",
+        "evidence_subtype": "expression",
+        "summary": "MYLPF is identified as a downregulated gene in Turner syndrome (45,XO) patients compared to normal females (46,XX) and is associated with the circulatory system. MYLPF is part of tissue-specific gene expression patterns related to skeletal muscle and circulatory function in TS pathogenesis.",
+        "sample_size": "26 Turner syndrome patients, 10 normal female controls",
+        "significance": null
+      },
+      {
+        "citation": "Integrative analysis identifies novel proteins associated with chronic kidney disease in participants with abnormal glucose metabolism (PMID: 40934961)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MYLPF is identified as a novel protein associated with chronic kidney disease (CKD) in participants with abnormal glucose metabolism through integrated observational and Mendelian randomization analyses. MYLPF was identified among 11 novel CKD-associated proteins, though specific mechanistic details and tissue expression patterns were not detailed for MYLPF specifically.",
+        "sample_size": "UK Biobank participants with abnormal glucose metabolism",
+        "significance": null
+      }
+    ]
+  }
+}

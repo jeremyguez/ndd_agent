@@ -1,0 +1,187 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 13,
+    "biological": 22
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Exome sequencing identified rare variants in genes HSPG2 and ATP2B4 in a family segregating developmental dysplasia of the hip (PMID: 28327142)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "Rare heterozygous variant in ATP2B4 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "Developmental dysplasia of the hip (DDH)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare heterozygous variant predicted damaging by multiple in silico prediction software; identified by whole exome sequencing; shared haplotype on chromosome 1 in affected individuals; proposed digenic inheritance with HSPG2 variant; incomplete penetrance noted (asymptomatic mother also carries variants)",
+        "center_country": "Saudi Arabia",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Targeted ablation of plasma membrane Ca2+-ATPase (PMCA) 1 and 4 indicates a major housekeeping function for PMCA1 and a critical role in hyperactivated sperm motility and male fertility for PMCA4. (PMID: 15178683)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Viable and outwardly normal appearance",
+          "Male infertility",
+          "Normal spermatogenesis",
+          "Normal mating behavior",
+          "Failure to achieve hyperactivated sperm motility",
+          "Inability to traverse female genital tract",
+          "Increased mitochondrial condensation in sperm tails indicating Ca2+ overload",
+          "Impaired phasic contractions in portal vein smooth muscle in vitro (strain-dependent)",
+          "Apoptosis in portal vein smooth muscle in vitro (strain-dependent)"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The plasma membrane calcium ATPase 4 does not influence parasite levels but partially promotes experimental cerebral malaria during murine blood stage malaria. (PMID: 34215257)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Viable and fertile",
+          "Reduced red blood cell size",
+          "Reduced hemoglobin content in RBCs",
+          "Normal RBC maturation",
+          "Normal reticulocyte count",
+          "No significant alteration in peripheral parasite burdens during Plasmodium chabaudi infection",
+          "No significant alteration in Plasmodium yoelii infection dynamics",
+          "Slight protection against experimental cerebral malaria during Plasmodium berghei infection",
+          "Minor reduction in antigen-experienced T cell accumulation in the brain"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Plasma membrane Ca(2+) ATPase 1 (PMCA1) but not PMCA4 is critical for B-cell development and Ca(2+) homeostasis in mice. (PMID: 33098669)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Normal B-cell development",
+          "Normal calcium handling in B cells",
+          "No overt disease phenotype reported for Pmca4 KO"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of critical molecular pathways involved in exosome-mediated improvement of cardiac function in a mouse model of muscular dystrophy. (PMID: 32601364)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "ATP2B4 expression upregulated in MPC-Exo-treated Mdx hearts (not a KO of ATP2B4 itself, but ATP2B4 identified as differentially expressed gene in Mdx mouse hearts)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The serum protein renalase reduces injury in experimental pancreatitis. (PMID: 29042438)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "PMCA4b (ATP2B4) expressed in murine acinar cells",
+          "Pharmacological inhibition of PMCA4b worsened pancreatitis-induced injury",
+          "Pharmacological inhibition of PMCA4b blocked protective effects of recombinant renalase",
+          "No direct genetic knockout of ATP2B4 reported; inhibitor used as surrogate"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "An erythroid-specific ATP2B4 enhancer mediates red blood cell hydration and malaria susceptibility. (PMID: 28714864)",
+        "evidence_subtype": "GWAS",
+        "summary": "eQTL mapping in erythroblasts identified erythroid-specific regulatory SNPs for ATP2B4, the main calcium ATPase of red blood cells, previously associated with mean corpuscular hemoglobin concentration (MCHC) and severe malaria susceptibility. Atp2b4-/- mice showed increased MCHC, confirming ATP2B4 as the causal gene. CRISPR-Cas9 fine-mapping identified an erythroid-specific enhancer whose deletion caused abnormally high intracellular calcium levels in erythroid cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of ATP2B4 Regulatory Element Containing Functional Genetic Variants Associated with Severe Malaria. (PMID: 35563239)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Five ATP2B4 SNPs in linkage disequilibrium with the malaria-associated variant rs10900585 were identified in a regulatory region and shown to have significant associations with severe malaria in a Senegalese population. CRISPR/Cas9-mediated deletion of this regulatory region decreased ATP2B4 transcript and protein levels and increased intracellular Ca2+ concentration in K562 cells. These results demonstrate that severe malaria-associated variants alter ATP2B4 expression, likely affecting malaria risk through calcium concentration effects on parasitaemia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic variations in human ATP2B4 gene alter Plasmodium falciparum in vitro growth in RBCs from Gambian adults. (PMID: 36604655)",
+        "evidence_subtype": "function",
+        "summary": "RBCs from homozygous carriers of the minor allele of ATP2B4 tagging SNP rs1541252 showed significantly reduced PMCA4b protein expression and slower rates of calcium expulsion compared to heterozygotes and wildtypes. Growth of P. falciparum laboratory and field isolates was significantly decreased in RBCs from homozygotes, and parasite growth was inhibited by the PMCA4b inhibitor aurintricarboxylic acid. These findings support the hypothesis that this ATP2B4 genotype protects against severe malaria by suppressing parasitaemia through altered calcium dynamics.",
+        "sample_size": "96 donors from >12,000 participants",
+        "significance": "p<0.0001 for protein expression and calcium expulsion; p<0.01 for parasite growth"
+      },
+      {
+        "citation": "The calcium pump PMCA4b promotes epithelial cell polarization and lumen formation. (PMID: 40075218)",
+        "evidence_subtype": "expression",
+        "summary": "PMCA4 (ATP2B4) is downregulated in luminal breast cancer and its reduced expression is associated with shorter relapse-free survival in luminal A and B1 subtype tumors. In MCF-7 breast cancer cells, PMCA4 silencing caused loss of cell polarity while forced PMCA4b overexpression induced cell polarization and lumen formation. Silencing of the single pmca gene in Drosophila melanogaster larval salivary gland destroyed lumen morphology, suggesting a conserved role of PMCAs in lumen morphogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic Screening of Haploid Neural Stem Cells Reveals that Nfkbia and Atp2b4 are Key Regulators of Oxidative Stress in Neural Precursors. (PMID: 38666459)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A high-throughput genetic screen in mouse haploid neural stem cells (haNSCs) identified Atp2b4 as significantly upregulated in Nfkbia-null NSCs, which show resistance to H2O2-induced oxidative stress. Overexpression of Atp2b4 itself increased survival of NSCs in the presence of H2O2, demonstrating that Atp2b4 is a key regulator of oxidative stress resistance in neural precursors. This identifies a novel role for ATP2B4 in neuroprotection against reactive oxygen species.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ATP2B4 is an essential gene for epidermal growth factor-induced macropinocytosis in A431 cells. (PMID: 38597132)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Knockout of ATP2B4 in A431 human epidermoid carcinoma cells inhibited ruffle closure and macropinosome formation during EGF-induced macropinocytosis without affecting ruffle formation. ATP2B4-KO also reduced EGF-stimulated Ca2+ oscillation during macropinocytosis, and the effect required PMCA4 pump activity independent of its PDZ domain-binding motif. These findings establish ATP2B4 as an essential regulator of Ca2+ dynamics required for EGF-induced macropinocytosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A microRNA-129-5p/Rbfox crosstalk coordinates homeostatic downscaling of excitatory synapses. (PMID: 28487411)",
+        "evidence_subtype": "function",
+        "summary": "Atp2b4 was identified as a direct target of miR-129-5p in hippocampal neurons during synaptic downscaling induced by picrotoxin treatment. Restoring Atp2b4 expression was sufficient to prevent synaptic downscaling in PTX-treated neurons, and the RNA-binding protein Rbfox1 normally promotes Atp2b4 expression but is downregulated by miR-129-5p upon elevated network activity. This identifies Atp2b4 as a key effector in activity-dependent homeostatic synaptic plasticity with implications for epileptogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circadian miR-449c-5p regulates uterine Ca(2+) transport during eggshell calcification in chickens. (PMID: 34702171)",
+        "evidence_subtype": "function",
+        "summary": "ATP2B4 mRNA and protein were rhythmically expressed in the chicken uterus and confirmed as a direct target of circadian miR-449c-5p by dual-luciferase reporter assays. Overexpression of ATP2B4 significantly decreased intracellular Ca2+ concentration while knockdown accelerated intracellular Ca2+ accumulation in uterine tubular gland cells. These results demonstrate that ATP2B4 promotes uterine Ca2+ trans-epithelial transport and is regulated by clock-controlled miR-449c-5p during eggshell calcification.",
+        "sample_size": "18 layer hens",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Molecular and Electrophysiological Analyses of ATP2B4 Gene Variants in Bilateral Adrenal Hyperaldosteronism. (PMID: 32002807)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rare ATP2B4 variants were identified in patients with bilateral hyperaldosteronism (BHA), and endogenous ATP2B4 expression was characterized in adrenal tissue. Whole-cell recordings in HAC15 adrenal cells revealed robust endogenous ATP2B4 conductance, and knockdown of ATP2B4 reduced angiotensin II stimulation in one of four shRNA clones. However, ATP2B4 variants did not significantly alter basal or agonist-stimulated CYP11B2 (aldosterone synthase) expression, and a pathogenic role for ATP2B4 variants in BHA was not confirmed.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Altered ion-responsive gene expression in Mmp20 null mice. (PMID: 20929715)",
+        "evidence_subtype": "expression",
+        "summary": "Expression of Atp2b4 was significantly decreased in enamel organs from Mmp20-/- mice compared to wild-type, alongside other ion-regulatory genes (Slc4a2, Car6, Cftr). This reduction was associated with attenuated pH changes during enamel development in null mice, suggesting Atp2b4 participates in ion regulation during enamel maturation. The findings indicate a feedback mechanism regulates ion-responsive gene expression, including Atp2b4, during enamel development.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

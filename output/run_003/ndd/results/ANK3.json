@@ -1,0 +1,379 @@
+{
+  "articles_found": {
+    "clinical": 26,
+    "model_organism": 20,
+    "biological": 31
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "The phenotypic and genotypic spectrum of individuals with mono- or biallelic ANK3 variants (PMID: 38988293)",
+        "num_patients": 16,
+        "variants": [
+          {
+            "description": "Various heterozygous frameshift and nonsense variants (majority predicted to result in truncated protein)",
+            "type": "LoF",
+            "phenotypes": [
+              "language delay",
+              "autism spectrum disorder",
+              "intellectual disability",
+              "hypotonia",
+              "motor delay",
+              "attention deficit disorder",
+              "ADHD",
+              "sleep disturbances",
+              "aggressivity",
+              "self-injury",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Monoallelic predicted loss-of-function variants; isoform-specific localization analysis; segregation and de novo status in several cases",
+        "center_country": "International (multi-center)",
+        "cohort": null
+      },
+      {
+        "citation": "ANK3 related neurodevelopmental disorders: expanding the spectrum of heterozygous loss-of-function variants (PMID: 34218362)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "Heterozygous frameshift or nonsense variants affecting all ANK3 transcripts",
+            "type": "LoF",
+            "phenotypes": [
+              "variable neurodevelopmental phenotype",
+              "intellectual disability",
+              "autism spectrum disorder",
+              "behavioral problems"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous frameshift or nonsense variants affecting all ANK3 transcripts; isoform-based phenotypic continuum analysis; predicted loss-of-function",
+        "center_country": "Not specified (multi-center)",
+        "cohort": null
+      },
+      {
+        "citation": "Clinical case report: mosaic ANK3 pathogenic variant in a patient with autism spectrum disorder and neurodevelopmental delay (PMID: 37263801)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo nonsense variant, mosaic at 22% allelic fraction (confirmed by digital PCR)",
+            "type": "LoF",
+            "phenotypes": [
+              "speech delay",
+              "autism spectrum disorder",
+              "language disorder",
+              "neurodevelopmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo nonsense variant identified by exome sequencing; mosaicism confirmed by dPCR at 22% allelic fraction; absent from controls; predicted loss-of-function",
+        "center_country": "Not specified",
+        "cohort": null
+      },
+      {
+        "citation": "Neurodevelopmental delay, musculoskeletal disorders and dysmorphia associated with a novel pathogenic interstitial deletion of chromosome 10q21.1q21.3 (PMID: 39904608)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "Heterozygous interstitial deletion of chromosome 10q21.1q21.3 encompassing ANK3 and other OMIM-annotated genes",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "musculoskeletal abnormalities",
+              "dysmorphic features",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Whole exome sequencing identified similar interstitial deletions in all three patients; deleted region includes ANK3 and other clinically significant genes; considered pathogenic based on gene content and phenotypic correlation",
+        "center_country": "Not specified",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2013 - Functional Evaluation of candidate mutations identified in whole exome sequences of patients with undiagnosed diseases (Y. Lu et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Compound heterozygous mutations in ANK3 (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "severe intractable seizures",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Compound heterozygous mutations identified by trio whole exome sequencing in a patient with severe intractable seizures; functional evaluation planned",
+        "center_country": "United States",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2022 - Autism Spectrum Disorder (ASD) in Qatar: Whole genome sequencing of 100 affected families highlights Dominant and Recessive risk genes of ASD (M. Abdi et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Deleterious variant in ANK3 (specific notation not provided; majority of identified variants were de novo)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "reduced social and communication skills",
+              "restricted interests",
+              "repetitive behaviors"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified as potentially pathogenic SNV in a previously reported ASD gene via whole genome sequencing; integrative genetic approach prioritizing LoF or predicted damaging missense variants",
+        "center_country": "Qatar",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Age-dependent regulation of axoglial interactions and behavior by oligodendrocyte AnkyrinG (PMID: 38617359)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Destabilization of axoglial interactions in aged but not young adult mice",
+          "Histological pathophysiologies",
+          "Electrophysiological pathophysiologies",
+          "Behavioral pathophysiologies",
+          "Compensatory transcriptomic changes identified by translatomic profiling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ankyrin-G regulates forebrain connectivity and network synchronization via interaction with GABARAP (PMID: 30504823)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Striking reduction in forebrain GABAergic synapses",
+          "Pyramidal cell hyperexcitability",
+          "Disruptions in network synchronization",
+          "Changes in pyramidal cell dendritic spines",
+          "Altered axon initial segments consistent with compensation for hyperexcitability"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The ANK3 bipolar disorder gene regulates psychiatric-related behaviors that are modulated by lithium and stress (PMID: 23237312)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Decreased anxiety-related behaviors",
+          "Increased activity during light phase",
+          "Reduced anxiety and increased motivation for reward in Ank3+/- mice",
+          "Transition to depression-related features after chronic stress",
+          "Elevated serum corticosterone indicating elevated stress reactivity",
+          "Behavioral phenotypes attenuated by chronic lithium treatment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Behavioural characterization of AnkyrinG deficient mice, a model for ANK3 related disorders (PMID: 28411148)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Increased anxiety in open field test",
+          "Increased anxiety in elevated plus maze",
+          "Increased anxiety in social interaction test",
+          "Smaller cingulate cortex",
+          "Smaller granular retrosplenial cortex",
+          "Smaller primary motor cortex",
+          "Smaller fimbria of the hippocampus"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Abnormal patterns of sleep and waking behaviors are accompanied by neocortical oscillation disturbances in an Ank3 mouse model of epilepsy-bipolar disorder comorbidity (PMID: 38123552)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Increased slow gamma (~25-45 Hz) power compared to controls",
+          "Slow gamma power correlated with seizure phenotype severity",
+          "Decreased time spent in REM sleep correlated with increased slow gamma power",
+          "Seizures more common during REM sleep compared to NREM sleep",
+          "Hyperactivity",
+          "Repetitive behavior phenotype co-occurring with increased slow gamma power",
+          "Absence epilepsy"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Disruption of the psychiatric risk gene Ankyrin 3 enhances microtubule dynamics through GSK3/CRMP2 signaling (PMID: 30046097)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Altered expression of 282 genes enriched for microtubule-related functions in hippocampus",
+          "Increased expression of microtubule end-binding protein 3 (EB3)",
+          "Impaired elongation of microtubules in primary neurons",
+          "Increased GSK3 activity",
+          "Elevated CRMP2 phosphorylation",
+          "Enhanced microtubule dynamics rescued by GSK3 inhibition with lithium or CHIR99021"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lithium reverses behavioral and axonal transport-related changes associated with ANK3 bipolar disorder gene disruption (PMID: 28109561)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Increased psychiatric-related behavior in novelty-suppressed feeding paradigm",
+          "Increased psychiatric-related behavior in elevated plus maze",
+          "Increased psychiatric-related behavior in passive avoidance task",
+          "Disturbance of kinesin cargo system",
+          "Dysfunction of neuronal ion channel and glutamate receptor transport",
+          "Altered hippocampal proteome enriched for kinesin-related axonal transport and glutamate signaling",
+          "Behavioral phenotypes ameliorated by lithium treatment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of 4 novel human ocular coloboma genes ANK3, BMPR1B, PDGFRA, and CDH4 through evolutionary conserved vertebrate gene analysis (PMID: 35034853)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Coloboma phenotype",
+          "Microphthalmia phenotype",
+          "Expression of ank3a localized to optic fissure, periocular mesenchyme cells, or ciliary marginal zone"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lithium rescues dendritic abnormalities in Ank3 deficiency models through the synergic effects of GSK3\u03b2 and cyclic AMP signaling pathways (PMID: 36376465)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decrease in dendrite complexity of pyramidal neurons",
+          "Reduction of dendritic spine number",
+          "Dendritic and spine deficits rescued by lithium treatment in vitro and in vivo",
+          "Spine morphology defects rescued by GSK3\u03b2 inhibitor CHIR99021",
+          "Dendrite complexity deficit rescued by adenylate cyclase activator forskolin"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A neuron type-specific microexon in Ank3/ankyrin-G modulates calcium activity and neuronal excitability (PMID: 41688438)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Interneurons show increased excitability",
+          "Increased somatic Ca2+ activity in interneurons",
+          "No disruption in axon initial segment",
+          "E35a microexon deletion alters AnkG interaction with inositol trisphosphate receptor complex"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Roles and mechanisms of ankyrin-G in neuropsychiatric disorders (PMID: 35794211)",
+        "evidence_subtype": "function",
+        "summary": "ANK3 encodes ankyrin-G, a molecular scaffold that plays an essential role in localizing proteins to the axon initial segment (AIS) and nodes of Ranvier, as well as to the dendritic shaft and spines in neurons. Ankyrin-G isoforms vary in expression according to the stage of brain development and have distinct functional differences. Posttranslational modifications of ankyrin-G affect its protein expression, interactions, and subcellular localization, with implications for bipolar disorder, schizophrenia, and ASD pathogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lithium restores inhibitory function and neuronal excitability through GSK-3\u03b2 inhibition in a bipolar disorder-associated Ank3 variant mouse model (PMID: 40849089)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The BD-associated ANK3 variant p.W1989R disrupts the ankyrin-G/GABARAP interaction, resulting in inhibitory deficits and cortical pyramidal neuron hyperexcitability in mice. Chronic lithium treatment selectively enhances presynaptic GABAergic neurotransmission, reduces neuronal hyperexcitability, and partially rescues AIS length in this mouse model. The GSK-3\u03b2 inhibitor Tideglusib recapitulates the enhancement of presynaptic GABAergic signaling, implicating GSK-3\u03b2 inhibition as the mechanism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Impaired OTUD7A-dependent Ankyrin regulation mediates neuronal dysfunction in mouse and human models of the 15q13.3 microdeletion syndrome (PMID: 36604605)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "OTUD7A interacts with Ankyrin-G (Ank3) and Ankyrin-B (Ank2) in neurons, and this interaction is disrupted by an epilepsy-associated OTUD7A L233F variant. In 15q13.3 microdeletion and OTUD7AL233F/L233F mouse and human iPSC-derived neuron models, Ankyrin-G shows protein instability, increased polyubiquitination, and decreased levels at the axon initial segment, with reduced Ankyrin-G nanodomains in dendritic spines. Restoring OTUD7A or Ankyrin-G expression in 15q13.3 microdeletion neurons reversed abnormalities in axonal growth and intrinsic excitability.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mood, stress and longevity: convergence on ANK3 (PMID: 27217151)",
+        "evidence_subtype": "fly_worm",
+        "summary": "C. elegans inactivating mutants for ANK3/unc-44 survive longer than wild-type worms, particularly in older animals, independently of mianserin treatment. Wild-type ANK3/unc-44 expression increases with age in C. elegans and is maintained at lower levels by the antidepressant mianserin, with lower levels associated with improved longevity. Some ANK3/unc-44 expression is necessary for mianserin's effects on prolonging lifespan and survival under oxidative stress, particularly in younger worms, suggesting antagonistic pleiotropy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mapping the expression of an ANK3 isoform associated with bipolar disorder in the human brain (PMID: 35091539)",
+        "evidence_subtype": "expression",
+        "summary": "A BD-associated ANK3 isoform shows significantly higher expression in the corpus callosum compared to frontal tissue in postmortem brain samples. In a child-development cohort, adolescents expressed this isoform at clearly higher levels than younger children, suggesting a role in myelin maturation of the human brain. A loss-of-function variant (rs41283526*G) in the alternatively spliced exon has a protective effect against BD, implying elevated expression of this isoform is a risk factor.",
+        "sample_size": "568 postmortem brain samples; 41 healthy males",
+        "significance": "p < 1e-4 (corpus callosum vs frontal); p = 5e-3 (adolescents vs younger children)"
+      },
+      {
+        "citation": "Identification of 4 novel human ocular coloboma genes ANK3, BMPR1B, PDGFRA, and CDH4 through evolutionary conserved vertebrate gene analysis (PMID: 35034853)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Zebrafish ank3a expression was localized to the optic fissure and surrounding regions during early eye development. Knockdown of ank3 in zebrafish revealed a coloboma and/or microphthalmia phenotype, and novel pathogenic ANK3 variants were identified in unrelated coloboma families from the 100,000 Genomes Project. These findings establish ANK3 as a novel causative gene for ocular coloboma through cross-species comparative meta-analysis.",
+        "sample_size": "8 unrelated coloboma families",
+        "significance": null
+      },
+      {
+        "citation": "Expression of ANK3 moderates the association between childhood trauma and affective traits in severe mental disorders (PMID: 37620394)",
+        "evidence_subtype": "expression",
+        "summary": "ANK3 mRNA levels in whole blood were measured in 174 patients with bipolar disorder and 291 patients with schizophrenia spectrum disorder. Patients with both high ANK3 expression and the most severe childhood sexual abuse had more manic/hypomanic episodes and an earlier age at onset. ANK3 expression levels moderated the relationship between emotional neglect and manic/hypomanic episodes, suggesting ANK3 acts as a biological moderator between early trauma and affective outcomes.",
+        "sample_size": "465 patients (174 BD, 291 schizophrenia spectrum)",
+        "significance": null
+      },
+      {
+        "citation": "Loss of ANK3 Function Causes a Recessive Neurodevelopmental Disorder with Cerebellar Ataxia (PMID: 40879451)",
+        "evidence_subtype": "other",
+        "summary": "Five individuals from three unrelated consanguineous families with homozygous ANK3 predicted loss-of-function variants presented with developmental delay, intellectual disability, hypotonia, variable epilepsy, and cerebellar signs including ataxia, tremor, and dysarthria. Cerebellar atrophy predominantly affecting the superior vermis and cerebellar hemispheres was observed on MRI. These clinical findings align with murine models lacking the cerebellar ankyrin-G isoform, which exhibit ataxic features and high cerebellar ANK3 expression.",
+        "sample_size": "5 individuals from 3 families",
+        "significance": null
+      },
+      {
+        "citation": "Genetics of Magnesium Disorders (PMID: 29344503)",
+        "evidence_subtype": "pathway",
+        "summary": "ANK3 is identified as a small regulatory protein involved in renal magnesium handling, specifically in the context of intrarenal channels and transporters related to Mg2+ absorption. Unraveling rare genetic diseases with dysmagnesemia has implicated ANK3 alongside tight junction proteins, apical ion channels, and basolateral proteins in the complex regulatory network of kidney Mg2+ homeostasis. This places ANK3 in the pathway of renal magnesium reabsorption.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Genetic variation in the AnkyrinG interactome causes a range of neurological disorders (F. Kooy et al.)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The AnkyrinG protein-protein interaction (PPI) network includes 17 direct interactors: cell adhesion molecules, cytoskeleton-component \u03b24-spectrin, specific sodium and potassium channel components, and components of Casein kinase 2. MIP sequencing of all genes in the ANK3 PPI network in over 1009 patient-parent trios identified 14 confirmed de novo variants in multiple ANK3 PPI network members, a significant overrepresentation compared to expectation. This demonstrates that the AnkyrinG PPI network as a whole is under selective pressure and relevant to neurodevelopmental disorders.",
+        "sample_size": "1009 patient-parent trios",
+        "significance": "p=0.007 (Fisher's exact test)"
+      }
+    ]
+  }
+}

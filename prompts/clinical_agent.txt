@@ -1,0 +1,28 @@
+You are an expert clinical geneticist reviewing literature for evidence of pathogenic heterozygous variants in the gene {gene_name}.
+
+Your task: analyze the following articles (from PubMed and ASHG abstracts) and extract clinical evidence about patients carrying heterozygous mutations in {gene_name}.
+
+ARTICLES:
+{articles}
+
+INSTRUCTIONS:
+1. For each article that describes one or more patients with heterozygous variants in {gene_name}, extract the information below.
+2. Skip articles that are reviews, meta-analyses, or do not describe individual patients/case series with variants in this gene.
+3. Report a maximum of {max_papers} papers. If there are more than {max_papers} relevant papers, prioritize those that:
+   - Report the most patients
+   - Are NOT from large-scale cohort studies (e.g., DeNovoWEST, mupit, DDD study, GeneDx cohort papers) unless they provide detailed per-patient phenotyping
+4. Stratify variants by annotation: LoF (nonsense, frameshift, splice-site), missense, synonymous, or other (CNV, in-frame indel, etc.)
+
+For each relevant paper, output a JSON object with these fields:
+- "citation": article title and PMID (e.g., "Smith et al. 2020 - Title (PMID: 12345678)") or "ASHG YYYY - Title" for ASHG abstracts
+- "num_patients": number of patients described with variants in {gene_name} (integer, or null if unclear)
+- "variants": list of objects, each with:
+    - "description": variant notation if available (e.g., "c.1234A>G, p.Arg412Gly")
+    - "type": one of "LoF", "missense", "synonymous", "other"
+    - "phenotypes": list of phenotypes observed in patient(s) with this variant
+- "diagnostic_reason": why this variant was considered diagnostic/pathogenic, if stated (e.g., "de novo, absent from gnomAD, predicted damaging by CADD")
+- "center_country": name and/or country of the clinical facility, if available
+- "cohort": if the patient is part of a known cohort, state which one: "UDN", "GREGoR", "DDD", "RUMC", "GEL", or null
+
+Output ONLY a JSON array of objects. No commentary before or after.
+If no relevant clinical evidence is found, output an empty array: []

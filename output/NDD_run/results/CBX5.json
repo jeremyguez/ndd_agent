@@ -1,0 +1,173 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 6,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Inhibition of RUNX1 slows the progression of pulmonary hypertension by targeting CBX5 (PMID: 39151099)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced right ventricular systolic pressure (RVSP) in PH model",
+          "Reduced right ventricular hypertrophy (RVH)",
+          "Reduced pulmonary artery remodeling",
+          "Suppressed PASMC proliferation under hypoxia",
+          "Suppressed PASMC invasion under hypoxia",
+          "Suppressed PASMC migration under hypoxia",
+          "Stimulated PASMC apoptosis under hypoxia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "miR-206 knockout shows it is critical for myogenesis and directly regulates newly identified target mRNAs (PMID: 32129700)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "CBX5 identified as direct miR-206 target in C2C12 muscle cells",
+          "Impaired myotube formation when miR-206 is knocked out",
+          "Delayed myogenesis when miR-206 is knocked out"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aurora kinase B-phosphorylated HP1\u03b1 functions in chromosomal instability (PMID: 31130069)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Mitotic chromosomal instability",
+          "Formation of anaphase/telophase chromatin bridges",
+          "Formation of micronuclei",
+          "Defective centromeric localization of HP1\u03b1",
+          "Impaired chromosome stability during mitosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hierarchical maintenance of MLL myeloid leukemia stem cells employs a transcriptional program shared with embryonic rather than adult stem cells (PMID: 19200802)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "CBX5 identified as critical component of leukemia stem cell (LSC) maintenance program",
+          "CBX5 required for Hoxa/Meis-independent immortalization of myeloid progenitors",
+          "CBX5 cooperates with Myb and Hmgb3 in LSC self-renewal"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of heterochromatin protein 1 gamma reduces the number of primordial germ cells via impaired cell cycle progression in mice (PMID: 21778144)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Dramatic loss of primordial germ cells (PGCs) before meiosis",
+          "Reduced PGC number detectable from E7.25",
+          "Significantly reduced bromodeoxyuridine incorporation in PGCs at E7.25 and E12.5",
+          "Lower proportion of PGCs in S phase at E12.5",
+          "Higher proportion of PGCs in G1 phase at E12.5",
+          "Increased p21 (CDKN1A)-positive PGCs",
+          "Impaired G1/S phase transition in PGCs",
+          "Normal PGC fate determination",
+          "Normal PGC migration",
+          "Normal PGC apoptosis",
+          "Normal histone modifications in PGCs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Transcriptional control of CBX5 by the RNA binding proteins RBMX and RBMXL1 maintains chromatin state in myeloid leukemia (PMID: 34458856)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RBMX/L1 directly regulate CBX5 transcription in myeloid leukemia cells. Loss of RBMX/L1 reduces CBX5 expression and causes changes in chromatin accessibility, chromosomal breaks, and altered cell growth/apoptosis. Forced CBX5 expression rescues the growth and apoptosis defects caused by RBMX/L1 depletion.",
+        "sample_size": "AML primary patient samples and murine/human cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Targeting the Epigenetic Regulator CBX5 Promotes Fibroblast Metabolic Reprogramming and Inhibits Lung Fibrosis (PMID: 39642371)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CBX5 is critical for fibroblast activation and fibrosis progression. CBX5 loss attenuates bleomycin-induced lung fibrosis, downregulates pathogenic fibroblast genes (Cthrc1, Col1a1, Spp1), and upregulates antifibrotic metabolic genes (Ppara, Pparg). CBX5 silencing inhibits TGF-stimulated glycolysis while enhancing AMPK signaling and mitochondrial metabolism.",
+        "sample_size": "IPF patient fibroblasts, lung explants, and mouse models",
+        "significance": null
+      },
+      {
+        "citation": "Biological functions of chromobox (CBX) proteins in stem cell self-renewal, lineage-commitment, cancer and development (PMID: 32979540)",
+        "evidence_subtype": "pathway",
+        "summary": "CBX5 (also known as HP1\u03b1) is a methyl reader that recognizes H3K9me3 marks and is part of the heterochromatin protein 1 (HP1) complex. CBX5 associates with H3K9 methyltransferases (SUV39H1/H2) to maintain heterochromatin formation and suppress cell/tissue-type specific biomarkers during development and in various tissues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LINC02381 contributes to cell proliferation and hinders cell apoptosis in glioma by transcriptionally enhancing CBX5 (PMID: 34274429)",
+        "evidence_subtype": "cell_culture",
+        "summary": "LINC02381 lncRNA is upregulated in glioma cells and promotes cell proliferation while inhibiting apoptosis through transcriptional activation of CBX5. LINC02381 interacts with transcription factor CEBP\u03b2 to bind the CBX5 promoter and activate its transcription. CBX5 upregulation reverses the anti-proliferative and pro-apoptotic effects of LINC02381 knockdown.",
+        "sample_size": "Glioma cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic regulators controlling osteogenic lineage commitment and bone formation (PMID: 38341164)",
+        "evidence_subtype": "pathway",
+        "summary": "CBX5 is identified as a chromodomain protein that functions as an epigenetic regulator controlling osteogenic lineage commitment and bone formation. CBX5 is listed among key epigenetic regulators that either stimulate or attenuate osteogenesis through control of chromatin architecture and gene accessibility.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Long non-coding RNA LOXL1-AS1 sponges miR-589-5p to up-regulate CBX5 expression in renal cell carcinoma (PMID: 33185692)",
+        "evidence_subtype": "cell_culture",
+        "summary": "LOXL1-AS1 lncRNA is highly expressed in RCC and promotes cell proliferation and migration by sequestering miR-589-5p, which normally targets and represses CBX5. CBX5 upregulation promotes RCC cell proliferation and migration. Overexpressed CBX5 or inhibited miR-589-5p reverses the repressive effects of LOXL1-AS1 silencing.",
+        "sample_size": "RCC tissues and cell lines",
+        "significance": null
+      },
+      {
+        "citation": "CBX5 loss drives EGFR inhibitor resistance and results in therapeutically actionable vulnerabilities in lung cancer (PMID: 36652476)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CBX5 loss is identified as a driver of EGFR tyrosine kinase inhibitor (EGFRi) resistance in EGFR-mutant lung adenocarcinoma through an epigenome-wide shRNA screen. CBX5 loss increases E2F1 expression, which upregulates the antiapoptotic gene BIRC5 (survivin), attenuating apoptosis following EGFRi treatment. BET inhibitors restore CBX5 expression and sensitize resistant cells to EGFRi/BETi combination therapy.",
+        "sample_size": "EGFR-mutant LUAD cell lines and mouse models",
+        "significance": null
+      },
+      {
+        "citation": "LncRNA SNHG11 aggravates cell proliferation and migration in triple-negative breast cancer via sponging miR-2355-5p and targeting CBX5 (PMID: 34257707)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SNHG11 lncRNA is highly expressed in TNBC and promotes cell proliferation and migration while attenuating apoptosis by sponging miR-2355-5p, which targets CBX5. CBX5 silencing suppresses TNBC cell proliferation and migration. Overexpressed CBX5 recovers the inhibitory effects of SNHG11 silencing on cell growth.",
+        "sample_size": "TNBC tissues and cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Regulatory dissection of the CBX5 and hnRNPA1 bi-directional promoter in human breast cancer cells reveals novel transcript variants differentially associated with HP1\u03b1 down-regulation in metastatic cells (PMID: 26791953)",
+        "evidence_subtype": "expression",
+        "summary": "CBX5 is downregulated at transcriptional and protein levels in metastatic compared to non-metastatic breast cancer cells. CBX5 shares a bi-directional promoter with hnRNPA1 gene. Novel CBX5 transcript variants exist, including STET, which lacks HP1\u03b1-encoding exons. Inverse correlation between STET and HP1\u03b1-coding CBX5 mRNA expression is observed in breast cancer cell lines and patient tissues.",
+        "sample_size": "Breast cancer cell lines and patient tissue samples",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - Detecting transcriptional regulatory modules using machine learning (PMID: N. Patel, W.S. Bush)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Machine learning analysis of transcriptional regulatory modules identified CBX5 as a chromatin remodeling transcription factor involved in influential multi-way TF regulosome complexes. CBX5-containing regulosomes (with interaction scores >0.1) significantly influence gene expression in lymphoblast cells, including complexes with ATF2 and other chromatin remodeling factors.",
+        "sample_size": "11,778 protein-coding genes analyzed in lymphoblast cells",
+        "significance": "NID scores > 0.1 for most influential regulosomes"
+      }
+    ]
+  }
+}

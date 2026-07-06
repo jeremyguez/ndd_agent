@@ -1,0 +1,150 @@
+{
+  "articles_found": {
+    "clinical": 4,
+    "model_organism": 2,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A Massively Parallel Screen of 5'UTR Mutations Identifies Variants Impacting Translation and Protein Production in Neurodevelopmental Disorder Genes. (PMID: 37961498)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "5'UTR mutations in ZNF644",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "autism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Patient mutations altering translational activity of ZNF644 in neurons; identified through massively parallel reporter assay and confirmed in patient-derived cell lines to alter protein production",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Approaches for identification of 5' UTR mutations impacting translation and protein production from neurodevelopmental disorder genes. (PMID: 41344325)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "5'UTR mutations in ZNF644",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Functional 5'UTR mutations from NDD families identified through polysome-MPRA and Cre-dependent MPRA assays; mutations alter translational activity and protein production",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "G9a and ZNF644 Physically Associate to Suppress Progenitor Gene Expression during Neurogenesis (PMID: 27546533)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Altered G9a/H3K9me2-mediated gene silencing during neurogenesis",
+          "Defects in retinal differentiation",
+          "Impaired transition of proliferating progenitor cells toward differentiation",
+          "Complementary roles of znf644a and znf644b in regulating progenitor gene expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Myopia disease mouse models: a missense point mutation (S673G) and a protein-truncating mutation of the Zfp644 mimic human disease phenotype (PMID: 30834109)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Increased vitreous chamber depth",
+          "Altered lens diameter",
+          "High myopia phenotype",
+          "Preserved retinal physiological function"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "significant difference in vitreous chamber depth and lens diameter"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "G9a and ZNF644 Physically Associate to Suppress Progenitor Gene Expression during Neurogenesis (PMID: 27546533)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ZNF644 is identified as a G9a/GLP-interacting protein that co-regulates histone methylation. In zebrafish, znf644a and znf644b orthologs have complementary roles in regulating G9a/H3K9me2-mediated gene silencing during neurogenesis and retinal differentiation, functioning as critical co-regulators of G9a/H3K9me2-mediated gene silencing during neuronal differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The zinc finger proteins ZNF644 and WIZ regulate the G9a/GLP complex for gene repression (PMID: 25789554)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ZNF644 is identified as a core subunit of the G9a/GLP complex through unbiased protein affinity purification. ZNF644 contains multiple zinc finger motifs that recognize consensus DNA sequences and targets G9a to chromatin to mediate H3K9 methylation and gene repression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutational screening of AGRN, SLC39A5, SCO2, P4HA2, BSG, ZNF644, and CPSF1 in a Chinese cohort of 103 patients with nonsyndromic high myopia (PMID: 35002215)",
+        "evidence_subtype": "GWAS",
+        "summary": "A heterozygous variant c.3266A>G, p.Y1089C in ZNF644 was identified in one of 103 high myopia patients. Bioinformatics analysis supported the potential pathogenicity of this variant, providing evidence for ZNF644's role in high myopia inheritance.",
+        "sample_size": "103 patients with nonsyndromic high myopia",
+        "significance": null
+      },
+      {
+        "citation": "Study of a US cohort supports the role of ZNF644 and high-grade myopia susceptibility (PMID: 22539872)",
+        "evidence_subtype": "GWAS",
+        "summary": "Two novel ZNF644 variants (c.725C>T, c.821A>T) were identified in high-grade myopia cases from a US cohort (one Caucasian, one African American), not found in 672 ethnically matched controls. A rare variant rs12117237 (c.2119A>G) with 0.2% minor allele frequency was present in 6 cases and 5 controls.",
+        "sample_size": "131 high-grade myopia cases, 672 controls",
+        "significance": null
+      },
+      {
+        "citation": "Mutational investigation of 17 causative genes in a cohort of 113 families with nonsyndromic early-onset high myopia in northwestern China (PMID: 36964802)",
+        "evidence_subtype": "GWAS",
+        "summary": "Multiple ZNF644 variants were identified in high myopia families: novel variants c.3214C>A/p.H1072N and c.2195C>T/p.A732V, and rare variants c.1100C>T/p.P367L, c.2014A>G/p.S672G, and c.3261A>C/p.E1087D. Ten variants co-segregated with high myopia, providing evidence that ZNF644 contributes to hereditable high myopia.",
+        "sample_size": "113 families with early-onset high myopia",
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of circ-ZNF644 alleviates LPS-induced HK2 cell injury via miR-335-5p/HIPK1 axis (PMID: 36052886)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Circular RNA derived from ZNF644 (circ-ZNF644) was overexpressed in sepsis-induced acute kidney injury patients. In LPS-stimulated HK2 kidney cells, circ-ZNF644 knockdown suppressed cell injury, inflammation, and apoptosis through sponging miR-335-5p and regulating HIPK1 expression.",
+        "sample_size": "sepsis-induced AKI patients and HK2 cell culture",
+        "significance": null
+      },
+      {
+        "citation": "CircZNF644 aggravates lipopolysaccharide-induced HK-2 cell impairment via the miR-140-5p/MLKL axis (PMID: 35976517)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CircZNF644 was upregulated in LPS-stimulated HK-2 kidney cells. CircZNF644 knockdown reversed LPS-mediated inhibition of cell proliferation and cell cycle progression, and reduced apoptosis and inflammation through the miR-140-5p/MLKL pathway.",
+        "sample_size": "HK-2 cell culture",
+        "significance": null
+      },
+      {
+        "citation": "miR-362 regulates the proliferation and apoptosis of porcine immature Sertoli cells through targeting the ZNF644 gene (PMID: 30021720)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ZNF644 is a direct target of miR-362 in porcine immature Sertoli cells. Over-expression of miR-362 or knockdown of ZNF644 arrested cells in G1/G2 phases, inhibited proliferation, and enhanced apoptosis, indicating ZNF644 regulates Sertoli cell proliferation and survival.",
+        "sample_size": "porcine immature Sertoli cells",
+        "significance": null
+      },
+      {
+        "citation": "Developing ZNF Gene Signatures Predicting Radiosensitivity of Patients with Breast Cancer (PMID: 34504527)",
+        "evidence_subtype": "GWAS",
+        "summary": "High expression of ZNF644 was associated with radiosensitivity in breast cancer patients. A 4-gene signature including ZNF644 (high expression) and three other ZNF genes (low expression) predicted better overall survival on radiotherapy in 976 TCGA breast cancer samples, validated in METABRIC database.",
+        "sample_size": "976 breast cancer samples from TCGA, validation in METABRIC",
+        "significance": null
+      },
+      {
+        "citation": "Metabolic, transcriptomic, and proteomic adaptations in pancreatic ductal adenocarcinoma-patient derived xenograft models across serial passages (PMID: 40605042)",
+        "evidence_subtype": "other",
+        "summary": "ZNF644 was identified as one of five consistently altered proteins across serial passages of pancreatic ductal adenocarcinoma PDX models, indicative of enhanced signal transduction and cell cycle regulation during tumor evolution.",
+        "sample_size": "33 PDX models from 43 PDAC patients",
+        "significance": null
+      }
+    ]
+  }
+}

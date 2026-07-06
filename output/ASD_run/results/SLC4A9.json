@@ -1,0 +1,178 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 7,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Pe\u00f1a-M\u00fcnzenmayer et al. 2015 - Ae4 (Slc4a9) Anion Exchanger Drives Cl- Uptake-dependent Fluid Secretion by Mouse Submandibular Gland Acinar Cells (PMID: 25745107)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced salivation by 35% in Ae4(-/-) mice",
+          "Reduced Cl(-) uptake during \u03b2-adrenergic receptor activation",
+          "Reduced HCO3(-)-dependent Cl(-) uptake in acinar cells",
+          "Normal salivation in Ae2(-/-) mice",
+          "Nearly abolished Cl(-)/HCO3(-) exchanger activity in double Ae4/Ae2 knockout mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p<0.05 (implied by 35% reduction in salivation)"
+      },
+      {
+        "citation": "Pe\u00f1a-M\u00fcnzenmayer et al. 2015 - A Mathematical Model Supports a Key Role for Ae4 (Slc4a9) in Salivary Gland Secretion (PMID: 29209914)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Approximate 35% decrease in gland salivation in Ae4 deficient mice",
+          "Ae4 responsible for majority of secondary Cl(-) uptake",
+          "No impairment of salivation in Ae2 knockout mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pe\u00f1a-M\u00fcnzenmayer et al. 2017 - Activation of the Ae4 (Slc4a9) cation-driven Cl(-)/HCO(3)(-) exchanger by the cAMP-dependent protein kinase in salivary gland acinar cells (PMID: 34585968)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ae4-mediated Cl(-)/HCO3(-) exchanger activity increased in response to \u03b2-adrenergic receptor stimulation",
+          "PKA-dependent phosphorylation of Ae4 at S173 residue regulates activity",
+          "Ae4 critical for Cl(-) uptake across basolateral membrane of submandibular gland acinar cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Soleimani et al. 2012 - PAT-1 (Slc26a6) is the predominant apical membrane Cl-/HCO3- exchanger in the upper villous epithelium of the murine duodenum (PMID: 17170027)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Cl(-)/HCO3(-) exchange activity reduced <5% in AE4(-) duodenum compared to wild-type",
+          "SO4(2-)/HCO3(-) exchange not affected in AE4(-) duodenum",
+          "AE4 minimal contributor to basal Cl(-)/HCO3(-) exchange in duodenal villous epithelium",
+          "PAT-1 is major contributor to apical membrane anion exchange in duodenum"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Terker et al. 2015 - Integrated compensatory network is activated in the absence of NCC phosphorylation (PMID: 25893600)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Slc4a9 (Ae4) gene expression induced in pendrin-positive intercalated cells as compensatory response",
+          "Coordinate induction of Slc4a9 with other solute carriers (Slc26a4, Slc4a8) in kidney",
+          "Slc4a9 involved in salt reabsorption pathway activation in distal nephron"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nakhoul et al. 2015 - The Role of Intercalated Cell Nedd4-2 in BP Regulation, Ion Transport, and Transporter Expression (PMID: 29773687)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "AE4 (Slc4a9) abundance not increased in IC Nedd4-2 knockout mice",
+          "Electroneutral Cl(-)/HCO3(-) exchange markedly increased in cortical collecting duct of IC Nedd4-2 knockout mice",
+          "Blood pressure increased by approximately 10 mm Hg in IC Nedd4-2 knockout mice",
+          "Pendrin gene ablation eliminated BP increase in global Nedd4-2 knockout mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Ae4 (Slc4a9) is an electroneutral monovalent cation-dependent Cl-/HCO3- exchanger (PMID: 27114614)",
+        "evidence_subtype": "function",
+        "summary": "SLC4A9/AE4 functions as an electroneutral Cl-/nonselective cation-HCO3- exchanger that mediates Na+-dependent Cl-/HCO3- exchange in mouse salivary gland acinar cells and CHO-K1 cells. The transporter can also mediate K+-dependent Cl-/HCO3- exchange and electroneutral HCO3-/Na+-HCO3- exchange under Cl--free conditions. Whole cell recordings and ion concentration measurements demonstrated that Na+ is transported in the same direction as HCO3- and opposite to Cl-, with no associated changes in membrane potential.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A novel sodium bicarbonate cotransporter-like gene in an ancient duplicated region: SLC4A9 at 5q31 (PMID: 11305939)",
+        "evidence_subtype": "expression",
+        "summary": "SLC4A9 is a 23-exon gene on chromosome 5q31 encoding a 990 amino acid protein with 12 transmembrane domains and high sequence similarity to other NBC transporters. The gene exhibits abundant alternative mRNA processing with 14 known isoforms and expression is largely restricted to the kidney. The gene contains multiple alternatively spliced exons in the 3' UTR and six polyadenylation sites.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The transcription factor Foxi1 promotes expression of V-ATPase and Gpr116 in M-1 cells (PMID: 36603001)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Overexpression of the transcription factor Foxi1 in murine cortical collecting duct M-1 cells induces expression of SLC4A9 along with other intercalated cell markers (Gpr116, Atp6v1b1, Atp6v1g3, Atp6v0d2, Slc26a4), differentiating M-1 cells toward a non-A, non-B type intercalated cell phenotype. This demonstrates SLC4A9 is a Foxi1-regulated gene in renal intercalated cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The role of Na(+)-coupled bicarbonate transporters (NCBT) in health and disease (PMID: 38536494)",
+        "evidence_subtype": "pathway",
+        "summary": "SLC4A9 (AE4) is a member of the SLC4 family of bicarbonate transporters involved in pH regulation and acid-base homeostasis. The ionic coupling of SLC4A9 remains controversial, but it plays roles in intracellular pH regulation, cell volume regulation, and salt balance. SLC4A9 is implicated in pathophysiology of cancer, glaucoma, and neurological diseases.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenome-Wide Association Study for All-Cause Mortality in a Cardiovascular Cohort Identifies Differential Methylation in Castor Zinc Finger 1 (CASZ1) (PMID: 31642367)",
+        "evidence_subtype": "GWAS",
+        "summary": "Epigenome-wide association study identified differential methylation at probe cg08215811 in SLC4A9 associated with all-cause mortality in a cardiovascular cohort (CATHGEN). The probe showed differential methylation in both discovery (55 cases, 49 controls) and validation (108 cases, 108 controls) sets with log2 fold change of -0.14.",
+        "sample_size": "Discovery: 55 cases, 49 controls; Validation: 108 cases, 108 controls",
+        "significance": "P<0.05 in discovery; FDR-adjusted P<0.10 in validation"
+      },
+      {
+        "citation": "The Role of Intercalated Cell Nedd4-2 in BP Regulation, Ion Transport, and Transporter Expression (PMID: 29773687)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SLC4A9 (AE4) is expressed as a type B intercalated cell transporter in the cortical collecting duct. Intercalated cell Nedd4-2 gene ablation did not increase the abundance of AE4 protein, despite markedly increasing electroneutral Cl-/HCO3- exchange activity, suggesting AE4 abundance is not regulated by Nedd4-2-mediated ubiquitylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The SLC4 family of bicarbonate (HCO\u2083\u207b) transporters (PMID: 23506864)",
+        "evidence_subtype": "pathway",
+        "summary": "SLC4A9 (AE4) is a member of the SLC4 family of 10 genes encoding HCO3- transporters. Unlike most SLC4 members with established functions, AE4 does not yet have a firmly established function. SLC4 proteins play important roles in acid-base homeostasis, CO2 carriage, H+/HCO3- transport in epithelia, cell volume regulation, and intracellular pH regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Insights into acidosis-induced regulation of SLC26A4 (pendrin) and SLC4A9 (AE4) transporters using three-dimensional morphometric analysis of \u03b2-intercalated cells (PMID: 24990900)",
+        "evidence_subtype": "expression",
+        "summary": "SLC4A9/AE4 is expressed as a barrel-like structure in the lateral membrane of \u03b2-intercalated cells in rabbit cortical collecting duct. Acidosis reduced AE4 expression in \u03b2-ICs, which was rapidly reversed during recovery from acidosis. AE4 is proposed to function in basolateral exit of Na+ via Na+-HCO3- cotransport, and its coordinate regulation with pendrin affects acid-base and Na+ transport across the collecting duct.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Disrupting Hypoxia-Induced Bicarbonate Transport Acidifies Tumor Cells and Suppresses Tumor Growth (PMID: 27197160)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Hypoxia induced robust expression of SLC4A9 in 8 of 10 cancer cell lines tested, with induction dependent on both HIF1\u03b1 and HIF2\u03b1 activity. SLC4A9 disruption by genetic or pharmaceutical approaches (S0859 inhibitor) in cancer cell spheroids acidified intracellular pH, reduced cell growth, and increased apoptosis. RNAi-mediated attenuation of SLC4A9 increased apoptosis in MDA-MB-231 breast cancer spheroids and dramatically reduced tumor growth in murine xenografts.",
+        "sample_size": "8 of 10 cancer cell lines; MDA-MB-231 and U87 xenografts",
+        "significance": null
+      },
+      {
+        "citation": "Effect of heat stress on the gene expression of ion transporters/channels in the uterus of laying hens during eggshell formation (PMID: 29115887)",
+        "evidence_subtype": "expression",
+        "summary": "SLC4A9 transcript levels in the uterine lining were significantly decreased in heat-stressed laying hens (36-38\u00b0C for 8 weeks) compared to control hens (21-23\u00b0C), with a 66.1% reduction. This downregulation of SLC4A9 may impair transportation of Cl-, HCO3-, and Na+ during eggshell mineralization under heat stress conditions.",
+        "sample_size": "40 hens total (20 control, 20 heat stress)",
+        "significance": "66.1% decrease in SLC4A9 transcript levels"
+      }
+    ]
+  }
+}

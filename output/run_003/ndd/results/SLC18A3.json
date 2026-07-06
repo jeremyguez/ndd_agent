@@ -1,0 +1,98 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 2,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "SLC18A3 variants lead to fetal akinesia deformation sequence early in pregnancy (PMID: 31059209)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "lethal phenotype",
+          "fetal akinesia (inferred from reference to VAChT knockout mice showing lethal phenotype consistent with human FADS presentation)"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Vesicular acetylcholine transporter defect underlies devastating congenital myasthenia syndrome (PMID: 28188302)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A homozygous missense mutation SLC18A3 c.1078G>C (p.Gly360Arg) was identified in two brothers with severe congenital myasthenic syndrome featuring hypotonia, arthrogryposis, and respiratory failure. Stable transfection of mutant VAChT into PC12A123.7 neuronal-like cells showed similar mRNA levels but undetectable mutant protein, indicating post-translational degradation. This established SLC18A3/VAChT loss-of-function as a presynaptic congenital myasthenic syndrome.",
+        "sample_size": "2 affected individuals; PC12A123.7 cell line",
+        "significance": null
+      },
+      {
+        "citation": "SLC18: Vesicular neurotransmitter transporters for monoamines and acetylcholine (PMID: 23506877)",
+        "evidence_subtype": "function",
+        "summary": "SLC18A3 encodes the vesicular acetylcholine transporter (VAChT), which actively transports acetylcholine from the neuronal cytoplasm into synaptic vesicles for exocytotic release. It is a member of the Drug:H+ Antiporter-1 Family (DHA1) within the Major Facilitator Superfamily (MFS). This is its core molecular function enabling cholinergic neurotransmission.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SLC18A3 promoted renal cancer development through acetylcholine/cAMP signaling (PMID: 36225635)",
+        "evidence_subtype": "pathway",
+        "summary": "SLC18A3 is upregulated in renal cancer patients and enhances uptake of acetylcholine, which activates the PKA/CREB pathway to promote cancer cell proliferation and invasive migration. SLC18A3 overexpression in A498-bearing mice caused sustained tumor growth and increased lung metastases. This study identifies SLC18A3 as a driver of renal cancer spread via ACh/PKA/CREB-dependent signaling.",
+        "sample_size": "Renal cancer patient samples; A498 mouse xenograft model",
+        "significance": null
+      },
+      {
+        "citation": "Arsenic Impairs Differentiation of Human Induced Pluripotent Stem Cells into Cholinergic Motor Neurons (PMID: 37624150)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RNA sequencing of human iPSC-derived early motor neurons exposed to 0.5 \u00b5M arsenic showed downregulation of SLC18A3 transcript levels as part of impaired cholinergic synapse pathway. SLC18A3 was identified alongside CHAT, SLC5A7, and ACHE as a key gene in acetylcholine synthesis and transport that is disrupted by arsenic exposure. This demonstrates SLC18A3's role in cholinergic function during human motor neuron differentiation.",
+        "sample_size": "Human iPSC-derived motor neurons",
+        "significance": null
+      },
+      {
+        "citation": "Spatial transcriptomic profiling of human paravertebral sympathetic chain ganglia reveals diabetes-induced neuroplasticity (PMID: 40667173)",
+        "evidence_subtype": "expression",
+        "summary": "Spatial transcriptomic profiling of human lumbar sympathetic chain ganglia identified a distinct cholinergic neuronal population defined by SLC18A3 expression, distinguishing it from two noradrenergic populations defined by tyrosine hydroxylase. In diabetic SCGs, cholinergic neurons showed a phenotypic shift toward a noradrenergic identity, suggesting SLC18A3-expressing neurons are vulnerable to diabetes-induced neuroplasticity. This establishes SLC18A3 as a marker of cholinergic neurons in human autonomic ganglia.",
+        "sample_size": "Diabetic and non-diabetic organ donors",
+        "significance": null
+      },
+      {
+        "citation": "Gene expression profiles in peripheral blood mononuclear cells of Asian obstructive sleep apnea patients (PMID: 24732660)",
+        "evidence_subtype": "other",
+        "summary": "SLC18A3 expression in peripheral blood mononuclear cells (PBMCs) was significantly differentially expressed in patients with severe obstructive sleep apnea (RDI > 30) compared to controls. SLC18A3 was identified as a potential biomarker for severe OSA in Asian populations. This represents an unexpected non-neuronal expression context for SLC18A3.",
+        "sample_size": "OSA patients and nonapneic controls",
+        "significance": "p=0.0006"
+      },
+      {
+        "citation": "The cholinergic system in rat testis is of non-neuronal origin (PMID: 21482687)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3/VAChT mRNA was detected in non-neuronal cells of rat testicular parenchyma, including spermatogonia, spermatocytes, and Sertoli cells, in regions completely lacking innervation as confirmed by absence of PGP9.5 labeling. This demonstrates that SLC18A3 is expressed as part of a non-neuronal cholinergic system in the testis, suggesting a role in germ cell differentiation. ACh was confirmed present in testicular tissue by HPLC.",
+        "sample_size": "Rat testis tissue",
+        "significance": null
+      },
+      {
+        "citation": "Transcriptome-scale spatial gene expression in rat arcuate nucleus during puberty (PMID: 35063020)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 was identified as a unique membrane surface biomarker selectively expressed by kisspeptin neurons in the arcuate nucleus (ARC) of female rats, enabling their isolation by flow cytometry. SLC18A3 expression distinguished one of four neuronal subclusters in the ARC across pubertal stages (postnatal days 25, 35, and 45). This finding reveals an unexpected role for SLC18A3 as a cell-surface marker for kisspeptin neurons involved in hypothalamic-pituitary-gonadal axis regulation.",
+        "sample_size": "Female Sprague-Dawley rats at postnatal days 25, 35, and 45",
+        "significance": null
+      },
+      {
+        "citation": "Identifying genetic variants for heart rate variability in the acetylcholine pathway (PMID: 25384021)",
+        "evidence_subtype": "GWAS",
+        "summary": "443 common genetic variants in eight acetylcholine pathway genes including SLC18A3 were tested for association with heart rate variability (RMSSD) in a two-stage study of individuals of European descent. No statistically significant associations were found for SLC18A3 or other pathway genes with RMSSD after correction for multiple testing. This is the largest candidate gene study of the acetylcholine pathway and heart rate variability to date.",
+        "sample_size": "n=6740 (combined meta-analysis)",
+        "significance": "No significant associations after multiple testing correction"
+      },
+      {
+        "citation": "Effects of cylindrospermopsin, chlorpyrifos and their combination in a SH-SY5Y cell model concerning developmental neurotoxicity (PMID: 38091671)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Exposure of differentiating SH-SY5Y neuroblastoma cells to the EC20 concentration of cylindrospermopsin (0.097 \u00b5M) for 6 days downregulated SLC18A3 (vesicular acetylcholine transporter) expression along with four other genes important for neuronal development. SLC18A3 downregulation was identified as part of a transcriptomic signature of developmental neurotoxicity in this cholinergic cell model. This implicates SLC18A3 as a sensitive marker of cholinergic disruption during neuronal differentiation.",
+        "sample_size": "SH-SY5Y cell line",
+        "significance": null
+      }
+    ]
+  }
+}

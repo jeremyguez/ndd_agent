@@ -1,0 +1,144 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 7,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A functional role for septin-2 in the maintenance of the axon initial segment and in human cognitive development (PMID: 41408595)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "heterozygous variants in SEPTIN2 (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "cognitive impairment",
+              "loss of Ankyrin G in axon initial segment",
+              "aberrant MAP2 localization",
+              "axonal shortening",
+              "electrophysiological hypoexcitability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Dominant negative mechanism predicted; mutations preclude Septin-2 homodimerization; expression of mutant constructs in neurons recapitulates AIS defects; ablation of Septin-2/Ankyrin G interaction",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Hypoxia exposure impairs male fertility via inhibiting Septin2-mediated spermatogonial proliferation (PMID: 40487848)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Impaired spermatogenesis phenocopying hypoxia-induced defects",
+          "Reduced spermatogonial proliferation",
+          "G1-S phase arrest in spermatogonia",
+          "Decreased sperm quality",
+          "Reduced sperm concentration, count, and motility",
+          "Increased sperm deformity",
+          "Impaired fertility outcomes in mating experiments",
+          "Stabilization of PP2A B56\u03b3 regulatory subunit",
+          "Enhanced AKT dephosphorylation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": "n=3-5 per intervention group",
+        "significance": null
+      },
+      {
+        "citation": "Folate-dependent methylation of septins governs ciliogenesis during neural tube closure (PMID: 28432198)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Neural tube defects",
+          "Impaired ciliogenesis",
+          "Failure to adequately methylate septin2",
+          "Disrupted GTP binding activity of septin2",
+          "Disrupted formation of septin2-6-7 complex",
+          "Compromised neural tube closure"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "S-Nitrosylation of Septin2 Exacerbates Aortic Aneurysm and Dissection by Coupling the TIAM1-RAC1 Axis in Macrophages (PMID: 38357802)",
+        "evidence_subtype": "pathway",
+        "summary": "S-nitrosylation of Septin2 at Cys111 in macrophages reduces its interaction with TIAM1, activating the TIAM1-RAC1 axis and downstream NF-\u03baB signaling, leading to vascular inflammation and extracellular matrix degradation in aortic aneurysm and dissection. This was demonstrated in both human aortic dissection tissue and Apoe-/- mice infused with angiotensin II. Pharmacological blockade of RAC1 with R-Ketorolac or NSC23766 protected against disease progression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SEPTIN2 suppresses an IFN-\u03b3-independent, proinflammatory macrophage activation pathway (PMID: 37978190)",
+        "evidence_subtype": "function",
+        "summary": "SEPTIN2 acts as a negative regulator of IFN-\u03b3-independent macrophage autoactivation, identified by high-content screening. Mechanistically, ER stress induces SEPT2 expression, which balances acetylation versus ubiquitination of HSP5 at Lysine 327, alleviating ER stress and constraining M1-like polarization and proinflammatory cytokine release. Loss of this negative feedback leads to unfolded protein accumulation, excessive inflammation, and tissue damage.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Septin2 mediates podosome maturation and endothelial cell invasion associated with angiogenesis (PMID: 31865373)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Septin2 (along with Septin6 and Septin7) is required for maturation of nascent endothelial podosomes into matrix-degrading organelles. Septin2 localizes around the perimeter of podosomes near the basolateral plasma membrane, and its phosphoinositide-binding residues are required for podosome function. Septin2-mediated podosome regulation is critical for endothelial cell invasion during angiogenesis, making it a potential anti-angiogenesis target.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Folate-dependent methylation of septins governs ciliogenesis during neural tube closure (PMID: 28432198)",
+        "evidence_subtype": "function",
+        "summary": "Methylation of septin2 is required for normal ciliogenesis and neural tube closure in animal models and cultured mammalian cells. Embryos with neural tube defects failed to adequately methylate septin2, and this methylation affects septin2's GTP binding activity and formation of the septin2-6-7 complex. Folic acid promotes normal neural tube closure partly by regulating septin2 methylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hypoxia exposure impairs male fertility via inhibiting Septin2-mediated spermatogonial proliferation (PMID: 40487848)",
+        "evidence_subtype": "pathway",
+        "summary": "Hypoxia downregulates Sept2 transcription in spermatogonia by interfering with POLR2A binding to the Sept2 promoter, leading to stabilization of the PP2A B56\u03b3 regulatory subunit, enhanced AKT dephosphorylation, G1-S phase arrest, and impaired spermatogonial proliferation. Sept2 knockdown in normoxic mice phenocopied hypoxia-induced spermatogenesis defects, while Sept2 overexpression mitigated hypoxia-related proliferative defects. PP2A inhibitor okadaic acid restored reproductive competence in hypoxic mice.",
+        "sample_size": "24 high-altitude residents, 6 pathological hypoxia patients, 19 healthy controls; mouse model n=5",
+        "significance": null
+      },
+      {
+        "citation": "Septin2 regulates ARHGAP25-mediated suppression of lamellipodia formation and cell spreading (PMID: 40205813)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Septin2 was identified as an interacting protein of ARHGAP25 (a GTPase-activating protein for Rac) in mammalian cells, with both proteins colocalizing at lamellipodia. Depletion of septin2 restored lamellipodia formation and cell spreading suppressed by ARHGAP25 overexpression, while forced septin2 expression enhanced ARHGAP25-mediated suppression. These results indicate septin2 controls cell morphology by modulating ARHGAP25 function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Repression of Septin9 and Septin2 suppresses tumor growth of human glioblastoma cells (PMID: 29724999)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SEPT2 expression is elevated in glioma tissues and cell lines (A172, U87-MG), and knockdown of SEPT2 together with SEPT9 synergistically inhibits GBM cell proliferation, arrests cell cycle in S phase, decreases invasive capability, and impairs glioma xenograft growth in nude mice. The growth suppression involves two parallel signaling pathways: the p53/p21 axis and MEK/ERK activation. These findings were identified through integrated multi-omics analysis across transcriptomic and proteomic studies.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional interdependence between septin and actin cytoskeleton (PMID: 15541171)",
+        "evidence_subtype": "function",
+        "summary": "Septin2 partially co-localizes with actin bundles in mammalian interphase cells, and its filament morphology depends on an intact actin cytoskeleton. FRAP experiments showed that all Septin2 assemblies are highly dynamic with constant exchange, independent of actin. RNAi and truncated Septin2 expression experiments demonstrated that Septin2 plays a significant role in stabilizing actin bundles and preventing actin turnover.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Septin2 is modified by SUMOylation and required for chromosome congression in mouse oocytes (PMID: 20372094)",
+        "evidence_subtype": "function",
+        "summary": "Septin2 is modified by SUMO-1 in mouse oocytes and localizes along the entire spindle at metaphase and at the midbody during cytokinesis. Disruption of septin function with an inhibitor or siRNA caused failure of the metaphase I/anaphase I transition and chromosome misalignment, activating the spindle assembly checkpoint (BubR1 labeling). These results demonstrate septin2 plays an important role in chromosome congression and meiotic cell cycle progression in mouse oocytes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Association of Predicted Expression and Multimodel Association Analysis of Substance Abuse Traits (PMID: 36407771)",
+        "evidence_subtype": "GWAS",
+        "summary": "SEPTIN2 was identified as one of 15 significant associations between predicted gene expression and addiction traits (family alcoholism, cannabis craving, alcohol, nicotine, and cannabis dependence) using a combined PrediXcan burden test and cross-phenotype association (CPASSOC) multimodel meta-analysis aggregated across 10 brain tissues. The study used low-pass whole genome sequencing in 1,640 participants from the UCSF Family Alcoholism Study. SEPTIN2 had prior associations with similar phenotypes in the GWAS Atlas.",
+        "sample_size": "1,640 participants",
+        "significance": "significant (aggregated across tissues)"
+      }
+    ]
+  }
+}

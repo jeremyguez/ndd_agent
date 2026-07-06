@@ -1,0 +1,318 @@
+{
+  "articles_found": {
+    "clinical": 11,
+    "model_organism": 10,
+    "biological": 12
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo variants in KLF7 are a potential novel cause of developmental delay/intellectual disability, neuromuscular and psychiatric symptoms (PMID: 29251763)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "Not specified in abstract",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "feeding/swallowing issues",
+              "psychiatric features",
+              "neuromuscular symptoms"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants in affected individuals",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2016 - De novo alterations in KLF7 are a novel cause of intellectual disability, psychiatric and neuromuscular issues (D.N. Shinde et al.)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "c.410C>T, p.T137M",
+            "type": "missense",
+            "phenotypes": [
+              "hypotonia",
+              "gross motor delay",
+              "mild language delay",
+              "cognitive delay",
+              "swallowing issues",
+              "elevated creatine kinase",
+              "autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "c.415C>T, p.P139S",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "tonus dysregulation",
+              "motor dyspraxia",
+              "coordination issues",
+              "anxiety",
+              "shyness",
+              "neonatal feeding issues",
+              "hypertonia"
+            ]
+          },
+          {
+            "description": "c.790G>A, p.D264N",
+            "type": "missense",
+            "phenotypes": [
+              "severe intellectual disability",
+              "ADD/anxiety",
+              "self-injuring behavior",
+              "feeding difficulties",
+              "decreased tone in upper extremities",
+              "increased tone in lower extremities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants detected by Diagnostic Exome Sequencing; predicted damaging by in silico methods; located in functionally important domains (F-box motif and zinc finger DNA-binding domain)",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "2q33 Deletions Underlying Syndromic and Non-syndromic CTLA4 Deficiency (PMID: 39578275)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "2q33 deletion encompassing KLF7 (size and exact breakpoints not specified for individual patient with neurodevelopmental phenotype)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "syndromic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "heterozygous 2q33 deletion identified as contiguous gene syndrome (CGS) due to associated KLF7 deficiency",
+        "center_country": "France",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "The KLF7/PFKL/ACADL axis modulates cardiac metabolic remodelling during cardiac hypertrophy in male mice (PMID: 36810848)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout and overexpression",
+        "phenotypes": [
+          "Cardiac-specific knockout KLF7 induces adult concentric hypertrophy",
+          "Cardiac-specific overexpression KLF7 induces infant eccentric hypertrophy",
+          "Altered glycolysis and fatty acid oxidation fluxes",
+          "Disrupted cardiac metabolic balance"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KLF7 orchestrates hippocampal development through neurogenesis and Draxin-mediated neuronal migration (PMID: 40762575)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Significant hippocampal shrinkage",
+          "Disrupted neurogenesis",
+          "Disrupted neuronal differentiation",
+          "Disrupted neuronal migration",
+          "Abnormal neuronal projections",
+          "Anxiety-like behaviors",
+          "Depression-like behaviors",
+          "Memory impairments",
+          "Dentate gyrus granule cell migration defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kr\u00fcppel like factor 7 regulates mitochondrial dynamics balance in myocardial infarction (PMID: 40346382)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout and overexpression",
+        "phenotypes": [
+          "Cardiomyocyte-specific Klf7 knockout significantly lowered mortality after myocardial infarction",
+          "Improved ATP insufficiency in myocardial infarction",
+          "Klf7 overexpression aggravated adverse cardiac remodeling",
+          "Mitochondrial fission and fusion imbalance",
+          "Altered mitochondrial dynamics"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KLF7 promotes adipocyte inflammation and glucose metabolism disorder by activating the PKC\u03b6/NF-\u03baB pathway (PMID: 37342904)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decreased PKC\u03b6 expression in adipose tissue",
+          "Decreased p-I\u03baB expression in adipose tissue",
+          "Decreased p-p65 expression in adipose tissue",
+          "Decreased IL-6 expression in adipose tissue",
+          "Reduced adipocyte inflammation",
+          "Improved glucose metabolism"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kr\u00fcppel-like factor 7 deficiency causes autistic-like behavior in mice via regulating Clock gene (PMID: 36207723)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Autism-like behavior",
+          "Disrupted circadian rhythm",
+          "Downregulated Clock gene expression in brain",
+          "Disturbed downstream rhythm genes",
+          "Disrupted rhythm oscillations"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Brn3a and Klf7 cooperate to control TrkA expression in sensory neurons (PMID: 17011544)",
+        "organism": "mouse",
+        "knockout_type": "full knockout and double knockout",
+        "phenotypes": [
+          "Klf7-/- single mutant: only slightly decreased TrkA expression at E12.5",
+          "Brn3a-/-;Klf7-/- double mutant: severely reduced TrkA expression at E12.5",
+          "Loss of all Trk(+) neurons by birth in double mutant trigeminal ganglia",
+          "Inactive TrkA enhancer in double mutant trigeminal ganglia",
+          "Loss of nociceptive sensory neurons in double mutant"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of genes regulated by transcription factor KLF7 in differentiating olfactory sensory neurons (PMID: 17123745)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Affected genes involved in olfactory sensory neuron differentiation",
+          "Affected genes involved in axonal growth",
+          "Affected genes involved in cytoskeletal dynamics",
+          "Affected genes involved in cell adhesion",
+          "Affected genes involved in synaptogenesis",
+          "Reduced OMP expression",
+          "Reduced L1 adhesion molecule expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KLF7 induced ADRB3-dependent IL-6 production in brown adipocytes during stress (PMID: 41565113)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Klf7-adipocyte knockout mice showed impaired ADRB3-induced IL-6 production during stress",
+          "Reduced stress-induced IL-6 production in brown adipocytes",
+          "Altered cAMP-PKA-CREB signaling response"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "KLF7 regulates super-enhancer-driven IGF2BP2 overexpression to promote the progression of head and neck squamous cell carcinoma (PMID: 38443991)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KLF7 acts as a transcription factor that directly binds to the promoter and super-enhancer regions of IGF2BP2 to induce its transcription. KLF7 expression positively correlates with IGF2BP2 abundance in HNSCC, and patients with high expression of both genes show poorer prognosis. Mechanistic studies used ChIP-qPCR and dual-luciferase reporter assays to demonstrate direct KLF7-DNA binding.",
+        "sample_size": "HNSCC clinical samples analyzed",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "HMGB1-mediated elevation of KLF7 facilitates hepatocellular carcinoma progression and metastasis through upregulating TLR4 and PTK2 (PMID: 37554278)",
+        "evidence_subtype": "pathway",
+        "summary": "KLF7 functions as a transcriptional activator that directly transactivates TLR4 and PTK2 expression. HMGB1 upregulates KLF7 through the TLR4/RAGE-PI3K-AKT-NF-\u03baB pathway, forming a positive feedback loop. KLF7 expression correlates with cytoplasmic HMGB1, p-p65, TLR4, and PTK2 levels in human HCC samples.",
+        "sample_size": "Human HCC specimens",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7-regulated ITGA2 as a therapeutic target for inhibiting oral cancer stem cells (PMID: 40316546)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KLF7 directly regulates ITGA2 expression by binding to its promoter, as demonstrated by chromatin immunoprecipitation sequencing and dual-luciferase assays. KLF7 maintains cancer stem cell stemness in OSCC through ITGA2-mediated activation of PI3K-AKT, MAPK, and Hippo signaling pathways upon collagen binding.",
+        "sample_size": "OSCC cell lines (SCC9, CAL27)",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7 Promotes Hepatocellular Carcinoma Progression Through Regulating SLC1A5-Mediated Tryptophan Metabolism (PMID: 39648156)",
+        "evidence_subtype": "pathway",
+        "summary": "KLF7 acts as a transcriptional activator that directly binds to the promoter of SLC1A5 to upregulate its expression. KLF7 promotes HCC progression by regulating tryptophan metabolism through SLC1A5-mediated uptake, with downstream effects on serotonin production and cell proliferation/migration.",
+        "sample_size": "HCC cell lines",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7 promotes colon adenocarcinoma progression through the PDGFB signaling pathway (PMID: 38164176)",
+        "evidence_subtype": "pathway",
+        "summary": "KLF7 specifically binds to the PDGFB promoter region (TGGGTGGAG motif) to promote PDGFB transcription and secretion. Secreted PDGFB activates MAPK/ERK, PI3K/AKT, and JAK/STAT3 signaling through PDGFR\u03b2 to drive COAD progression. KLF7 overexpression correlates with clinicopathological features of COAD.",
+        "sample_size": "COAD tissues and cell lines",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7 promotes neuroblastoma differentiation through the GTPase signaling pathway by upregulating neuroblast differentiation-associated protein AHNAKs and glycerophosphodiesterase GDPD5 (PMID: 38924469)",
+        "evidence_subtype": "function",
+        "summary": "KLF7 is a neuroblastoma super-enhancer-associated transcription factor that promotes neuroblastoma differentiation independently of and cooperatively with retinoic acid. KLF7 directly binds to promoters of AHNAK, AHNAK2, and GDPD5 to regulate their expression and alter GTPase activity. High KLF7 expression is associated with favorable clinical outcomes in neuroblastoma.",
+        "sample_size": "Neuroblastoma cell lines and clinical samples",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7 is associated with poor prognosis and regulates migration and adhesion in tongue cancer (PMID: 33393169)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KLF7 is upregulated in TSCC and promotes cell migration and adhesion. RNA-seq and KEGG pathway analysis revealed that KLF7-altered genes are enriched in extracellular matrix-receptor interactions and focal adhesion pathways. KLF7 expression correlates with T and N stages and is associated with worse overall survival.",
+        "sample_size": "127 TSCC samples from public database; 21 tongue cancer samples",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7 promotes adipocyte inflammation and glucose metabolism disorder by activating the PKC\u03b6/NF-\u03baB pathway (PMID: 37342904)",
+        "evidence_subtype": "pathway",
+        "summary": "KLF7 upregulates PKC\u03b6 expression through direct promoter binding (confirmed by luciferase reporter and ChIP assays) and activates the PKC\u03b6/NF-\u03baB pathway to promote IL-6 expression in adipocytes. KLF7, PKC\u03b6, p-I\u03baB, p-p65, and IL-6 expression are significantly increased in epididymal white adipose tissue of high-fat diet-fed mice and decreased in KLF7 fat conditional knockout mice.",
+        "sample_size": "3T3-L1 adipocytes; HEK-293T cells; mouse adipose tissue",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Expression and Clinical Significance of Serum Kr\u00fcppel-Like Factor 7 (KLF7) in NSCLC Patients (PMID: 35936369)",
+        "evidence_subtype": "GWAS",
+        "summary": "Serum KLF7 levels are significantly elevated in NSCLC patients compared to healthy controls and correlate with tumor differentiation degree and TNM stage. Cox regression analysis identified KLF7 as an independent risk factor for 3-year recurrence and metastasis in NSCLC patients, independent of gender, age, smoking history, and tumor diameter.",
+        "sample_size": "150 NSCLC patients; 148 healthy controls",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "KLF7 promotes progression of Head and Neck Squamous Cell Carcinoma by remodeling tumor immune microenvironment (PMID: 41482204)",
+        "evidence_subtype": "pathway",
+        "summary": "KLF7 is an oncogenic transcription factor that directly transactivates LOX expression in HNSCC cells. KLF7-driven LOX expression promotes extracellular matrix crosslinking to create a stiff microenvironment that recruits tumor-associated macrophages (TAMs), which suppress CD8+ T cell-mediated killing. The KLF7/LOX/TAM axis represents a therapeutic vulnerability in HNSCC.",
+        "sample_size": "HNSCC clinical samples and cell lines",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "ASHG 2016 - De novo alterations in KLF7 are a novel cause of intellectual disability, psychiatric and neuromuscular issues",
+        "evidence_subtype": "other",
+        "summary": "De novo missense mutations in KLF7 (p.T137M, p.P139S in F-box motif; p.D264N in zinc finger DNA-binding domain) cause intellectual disability, developmental delay, abnormal muscle tone, feeding/swallowing issues, and psychiatric features. KLF7 is implicated in neurogenesis, axon guidance, and skeletal muscle differentiation based on mouse and in vitro studies.",
+        "sample_size": "3 unrelated affected individuals",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 10,
+    "biological": 12
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Burden re-analysis of neurodevelopmental disorder cohorts for prioritization of candidate genes (PMID: 38965372)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "de novo PCBP2 variants (specific variants not detailed in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "motor delay",
+              "language delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants identified in unsolved NDD cohort through burden analysis; prioritized as candidate gene for NDD with motor and language delay phenotype",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "RNA binding proteins PCBP1 and PCBP2 regulate pancreatic \u03b2 cell translation. (PMID: 40451383)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Pcbp1 deletion preserved glucose homeostasis",
+          "Pcbp1/2 co-deletion resulted in severe diabetes",
+          "Compromised \u03b2 cell viability in co-deficient mice",
+          "Downregulation of core translation initiation factors and ribosomal mRNAs in co-deficient \u03b2 cells",
+          "Defective global mRNA translation in \u03b2 cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-binding Protein PCBP2 Regulates p73 Expression and p73-dependent Antioxidant Defense. (PMID: 26907686)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Decreased p73 expression in PCBP2-deficient mice",
+          "Increased ROS production in PCBP2-deficient primary mouse embryonic fibroblasts (MEFs)",
+          "Accelerated cellular senescence in PCBP2-deficient MEFs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The binding of PCBP2 to IGF2 mRNA restores mitochondrial function in granulosa cells to ameliorate ovarian function in premature ovarian insufficiency mice. (PMID: 40886929)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "PCBP2 downregulation in POI mice and CTX-treated cells",
+          "PCBP2 stabilizes IGF2 mRNA",
+          "PCBP2 overexpression improved hormone levels in POI mice",
+          "PCBP2 overexpression increased ovarian weight and follicle numbers",
+          "PCBP2 overexpression alleviated granulosa cell apoptosis and mitochondrial damage in POI mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-binding protein PCBP2 regulates pancreatic \u03b2 cell function and adaptation to glucose. (PMID: 38950317)",
+        "organism": "mouse",
+        "knockout_type": "knockout",
+        "phenotypes": [
+          "Pcbp2-deficient \u03b2 cells showed defects in calcium flux",
+          "Defects in insulin granule ultrastructure and exocytosis",
+          "Defects in amplification pathway of insulin secretion",
+          "Impaired adaptation of insulin secretion to elevated glucose",
+          "Impacts on basal and glucose-regulated mRNAs encoding insulin secretory pathway components"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PCBP1 and PCBP2 both bind heavily oxidized RNA but cause opposing outcomes, suppressing or increasing apoptosis under oxidative conditions. (PMID: 32647012)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "PCBP2-KO cells exhibited increased apoptosis under oxidative conditions",
+          "Increased caspase-3 activity in PCBP2-KO cells",
+          "Increased PARP1 cleavage in PCBP2-KO cells",
+          "PCBP2 suppresses apoptosis under oxidative conditions (opposite to PCBP1)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Silencing PCBP2 normalizes desmoplastic stroma and improves the antitumor activity of chemotherapy in pancreatic cancer. (PMID: 33500719)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "PCBP2 silencing reverses accumulation of type I collagen in pancreatic stellate cells",
+          "PCBP2 silencing reduces ECM production",
+          "PCBP2 silencing enhances drug penetration through desmoplastic tumor stroma",
+          "PCBP2 siRNA nanocomplex combined with gemcitabine markedly suppresses tumor progression in orthotopic PDAC mouse model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "PHGDH Inhibits Ferroptosis and Promotes Malignant Progression by Upregulating SLC7A11 in Bladder Cancer (PMID: 36147463)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PCBP2 is an RNA-binding protein that binds to PHGDH and is protected from ubiquitination degradation by this interaction. PCBP2 stabilizes SLC7A11 mRNA and increases its expression, thereby inhibiting ferroptosis and promoting bladder cancer progression.",
+        "sample_size": "90 BCa patients",
+        "significance": null
+      },
+      {
+        "citation": "DMT1 and iron transport (PMID: 30055235)",
+        "evidence_subtype": "function",
+        "summary": "PCBP2 is identified as an iron chaperone that functions in safe transport of ferrous iron in the cytosol, contributing to iron homeostasis and preventing cellular damage from reactive oxygen species.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PCBP2 Mediates Olaparib Resistance in Breast Cancer by Inhibiting m6A Methylation to Stabilize PARP1 mRNA (PMID: 40773674)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PCBP2 is upregulated in olaparib-resistant BRCA-mutated breast cancer cells. PCBP2 directly binds PARP1 mRNA, inhibits m6A methylation, and stabilizes PARP1 mRNA, enhancing DNA repair and conferring resistance to PARP inhibitors.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Acteoside ameliorates hepatocyte ferroptosis and hepatic ischemia-reperfusion injury via targeting PCBP2 (PMID: 40486855)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PCBP2 downregulation correlates with hepatocyte ferroptosis and compromises stability of SLC7A11 mRNA. PCBP2 knockdown also facilitates HIF1\u03b1-mediated HMGB1 expression and M1 macrophage recruitment. Acteoside enhances PCBP2 binding affinity to system Xc- components and stabilizes Slc3a2/Slc7a11 mRNA.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of PCBP2 in regulating nanovesicles loaded with curcumin to mitigate neuroferroptosis in neural damage caused by heat stroke (PMID: 39731111)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Proteomic analysis identified PCBP2 as a key factor through which curcumin-loaded nanovesicles exert neuroprotection against ferroptosis in PC12 cells. PCBP2 stabilizes SLC7A11 mRNA; silencing PCBP2 reverses the protective effects and increases ferroptosis, while SLC7A11 overexpression rescues the phenotype.",
+        "sample_size": "n=3 per group (proteomic)",
+        "significance": null
+      },
+      {
+        "citation": "FAD synthase confers ferroptosis resistance and restrains CD8+ T cell recruitment in hepatocellular carcinoma (PMID: 41162372)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FADS stabilizes PCBP2 through non-enzymatic function, and this stabilization confers ferroptosis resistance in HCC cells. PCBP2 is implicated in maintaining cellular ferroptosis resistance downstream of FADS.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pharmacologic inhibition of PCBP2 biomolecular condensates relieves Alzheimer's disease (PMID: 41298370)",
+        "evidence_subtype": "function",
+        "summary": "PCBP2 elevation in AD brain correlates with biomolecular condensate formation via phase separation. These condensates sequester mitochondrial and mRNA-binding proteins, impairing mitochondrial function and promoting BACE1 mRNA decay. Small molecule CN-0928 inhibits condensates by reducing PCBP2 levels through INTS1 interaction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA binding proteins PCBP1 and PCBP2 regulate pancreatic \u03b2 cell translation (PMID: 40451383)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PCBP2 and PCBP1 are key post-transcriptional regulators of \u03b2 cell function. Combined Pcbp1/2 deletion causes severe diabetes with compromised \u03b2 cell viability. PCBPs co-stabilize mRNAs encoding translation initiation factors and ribosomal proteins through binding and stabilization, sustaining global mRNA translation rates critical for glucose homeostasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circ_0005397 inhibits ferroptosis of pancreatic cancer cells by up-regulating PCBP2 through KAT6A/H3K9Ac (PMID: 39235355)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PCBP2 is highly expressed in pancreatic cancer and positively correlated with circ_0005397. Circ_0005397 promotes PCBP2 transcription by facilitating KAT6A and H3K9ac binding to the PCBP2 promoter. PCBP2 upregulation inhibits ferroptosis; circ_0005397 knockdown sensitizes cells to ferroptosis via PCBP2 downregulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Germline whole genome sequencing of children with Down syndrome identifies novel variants associated with risk of acute lymphoblastic leukemia",
+        "evidence_subtype": "GWAS",
+        "summary": "Whole genome sequencing identified 22 significant variants mapping to PCBP2 associated with Down syndrome-ALL risk (top variant rs1361910621, OR=2.24). PCBP2 is characterized as a poly(rC)-binding protein functioning as a potential oncogenic splicing factor and novel tumor suppressor in hematologic malignancies.",
+        "sample_size": "379 DS-ALL cases, 1504 DS controls",
+        "significance": "P=2.1\u00d710\u207b\u00b9\u2076"
+      },
+      {
+        "citation": "ASHG 2011 - Iron homeostasis modulates the activity of microRNA pathway through PCBP2",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PCBP2 is a cytosolic iron chaperone required for RNAi-enhancing activity by metal chelators. PCBP2 associates with Dicer and promotes miRNA precursor processing. Intracellular iron levels modulate PCBP2-Dicer association, PCBP2 multimerization, and its ability to bind miRNA precursors, linking iron metabolism to miRNA pathway regulation.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

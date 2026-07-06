@@ -1,0 +1,249 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 7,
+    "biological": 15
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Clinical and genetic spectrum of patients with IRF2BPL syndrome (PMID: 39843638)",
+        "num_patients": 10,
+        "variants": [
+          {
+            "description": "Five missense variants (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "Seizures",
+              "Developmental delay"
+            ]
+          },
+          {
+            "description": "One in-frame indel (specific notation not provided in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "Seizures",
+              "Developmental delay"
+            ]
+          },
+          {
+            "description": "Three truncating variants (specific notations not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "Developmental delay",
+              "Epilepsy",
+              "Seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Exome sequencing identified pathogenic variants; eight of nine variants were novel",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Expanding the phenotype of NEDAMSS with a psychiatric perspective: analysis of a new case, and a systematic review of the literature (PMID: 39031186)",
+        "num_patients": 33,
+        "variants": [
+          {
+            "description": "Various pathogenic IRF2BPL variants (specific notations not provided)",
+            "type": null,
+            "phenotypes": [
+              "Neurodevelopmental disorder with regression",
+              "Abnormal movements",
+              "Loss of speech",
+              "Seizures",
+              "Psychiatric symptoms",
+              "Catatonia",
+              "Affective disorders",
+              "Psychotic symptoms",
+              "Developmental disorders"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic variants in IRF2BPL gene associated with NEDAMSS phenotype",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - Development of clinical and model organism platforms to inform the phenotypic spectrum and functional characteristics of newly-identified variants in IRF2BPL (PgmNr 1279)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "De novo truncating mutations (specific notations not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "Severe neurological regression",
+              "Deterioration of gait",
+              "Loss of intentional movements",
+              "Dysarthria",
+              "Loss of speech",
+              "Movement disorder",
+              "Seizures",
+              "Loss of fine motor skills"
+            ]
+          },
+          {
+            "description": "Missense variants (specific notations not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "Developmental delay",
+              "Autism spectrum disorder",
+              "Seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants; functional assessment in Drosophila model organism",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - Unravelling the mechanism underlying IRF2BPL in a neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures (PgmNr 3148)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "Five de novo nonsense variants (specific notations not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "Severe neurodevelopmental disorder",
+              "Regression",
+              "Abnormal movements",
+              "Loss of speech",
+              "Seizures"
+            ]
+          },
+          {
+            "description": "Two missense variants (specific notations not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "Seizures",
+              "Global developmental delay",
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants; functional studies in Drosophila showing loss-of-function effects",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Loss of IRF2BPL impairs neuronal maintenance through excess Wnt signaling (PMID: 35044823)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "neurological defects",
+          "increased wnt1 transcription",
+          "increased downstream Wnt signaling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "De novo variants of IRF2BPL result in developmental epileptic disorder (PMID: 38481258)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "reduced body length",
+          "spontaneous ictal-like discharges",
+          "spontaneous interictal-like discharges",
+          "electrographic seizures"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "N(6)-methyladenosine-modified circRNA RERE modulates osteoarthritis by regulating \u03b2-catenin ubiquitination and degradation (PMID: 35733354)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "increased severity of destabilization of medial meniscus (DMM)-induced osteoarthritis",
+          "increased cartilage degeneration"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mechanisms of IRF2BPL-related disorders and identification of a potential therapeutic strategy (PMID: 36476864)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Patient-derived skin fibroblasts reprogrammed to astrocytes and neurons show that truncated IRF2BPL variants sequester wild-type protein to the cytoplasm causing aggregation. Patient astrocytes exhibit aberrant mitochondria, respiratory dysfunction, and fail to support neuronal survival in coculture, which is rescued by CuATSM treatment.",
+        "sample_size": "Patient-derived cells",
+        "significance": null
+      },
+      {
+        "citation": "Mechanisms of IRF2BPL-related disorders and identification of a potential therapeutic strategy (PMID: 36476864)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Co-expression of full-length and truncated IRF2BPL in Drosophila results in cytoplasmic accumulation of full-length protein. Heterozygous truncations of the Drosophila ortholog Pits display progressive motor defects that are ameliorated by CuATSM treatment.",
+        "sample_size": "Drosophila model",
+        "significance": null
+      },
+      {
+        "citation": "Loss of IRF2BPL impairs neuronal maintenance through excess Wnt signaling (PMID: 35044823)",
+        "evidence_subtype": "pathway",
+        "summary": "IRF2BPL and its Drosophila ortholog Pits repress Wnt transcription. Loss of Pits in neurons leads to increased wingless (wg) levels and axonal loss, while inhibition of Wnt signaling is neuroprotective. IRF2BPL physically and genetically interacts with the Wnt antagonist CKI\u03b1.",
+        "sample_size": "Drosophila and zebrafish models; patient-derived astrocytes",
+        "significance": null
+      },
+      {
+        "citation": "IRF2BPL inhibits proliferation, migration and invasion of osteosarcoma cells by inhibiting FOSL2-mediated PI3K/AKT pathway activation (PMID: 40834975)",
+        "evidence_subtype": "pathway",
+        "summary": "IRF2BPL is a nuclear protein that regulates the FOSL2/PI3K/AKT/mTOR axis through ubiquitin-mediated degradation of FOSL2. Overexpression of IRF2BPL suppresses osteosarcoma cell proliferation, migration, and invasion both in vitro and in vivo.",
+        "sample_size": "Osteosarcoma cell lines and xenograft model",
+        "significance": null
+      },
+      {
+        "citation": "IRF2BPL transcriptionally regulates IGFBP2 to promote tumor progression and suppresses immune cell infiltration in esophageal squamous cell carcinoma (PMID: 41413713)",
+        "evidence_subtype": "function",
+        "summary": "IRF2BPL acts as a transcriptional activator that promotes IGFBP2 transcription in esophageal squamous cell carcinoma, facilitating tumor development and suppressing immune cell infiltration. The IRF2BPL-IGFBP2 axis can be targeted by the drug ONC201.",
+        "sample_size": "ESCC cell lines and in vivo models",
+        "significance": null
+      },
+      {
+        "citation": "IRF2BPL Is Associated with Neurological Phenotypes (PMID: 30057031)",
+        "evidence_subtype": "fly_worm",
+        "summary": "The Drosophila ortholog pits is broadly expressed including in the nervous system. Complete loss of pits is embryonic lethal, while neuronal knockdown with RNAi leads to neurodegeneration. IRF2BPL nonsense variants behave as severe loss-of-function alleles in flies.",
+        "sample_size": "7 human patients; Drosophila model",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - Unravelling the mechanism underlying IRF2BPL in a neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures",
+        "evidence_subtype": "pathway",
+        "summary": "IRF2BPL functions as an E3 ligase that ubiquitinates \u03b2-catenin to regulate Wnt target gene transcription. Elevated IRF2BPL reduces Wnt protein levels while loss of IRF2BPL/pits increases Wnt levels, suggesting excess Wnt signaling contributes to NEDAMSS pathology.",
+        "sample_size": "Drosophila model",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - Development of clinical and model organism platforms to inform the phenotypic spectrum and functional characteristics of newly-identified variants in IRF2BPL",
+        "evidence_subtype": "fly_worm",
+        "summary": "IRF2BPL overexpression in fruit flies allows tissue-specific functional assessment of variants. Functional analysis in Drosophila informs the biological effect of patient variants and supports phenotypic characterization.",
+        "sample_size": "Multiple newly identified IRF2BPL variants",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Loss-of-function variants in the gene IRF2BPL are associated with neurological phenotypes",
+        "evidence_subtype": "fly_worm",
+        "summary": "Complete loss of the Drosophila pits ortholog is embryonic lethal. Neuronal knockdown with RNAi leads to neurodegeneration. Nonsense variants identified in patients behave as severe loss-of-function alleles in flies, while missense variants produce milder phenotypes.",
+        "sample_size": "7 human patients; Drosophila model",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - De novo IRF2BPL pathogenic variants cause severe precocious neurodegenerative disease",
+        "evidence_subtype": "function",
+        "summary": "IRF2BPL encodes a zinc finger/RING finger transcriptional modulator with predicted ubiquitin ligase activity. The gene is highly intolerant to loss-of-function variants (pLI=0.97) with no nonsense variants found in gnomAD, indicating strong selective constraint.",
+        "sample_size": "7 human patients",
+        "significance": "p<0.05"
+      }
+    ]
+  }
+}

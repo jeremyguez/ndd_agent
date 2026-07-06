@@ -1,0 +1,278 @@
+{
+  "articles_found": {
+    "clinical": 13,
+    "model_organism": 11,
+    "biological": 17
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A Novel Human CAMK2A Mutation Disrupts Dendritic Morphology and Synaptic Transmission, and Causes ASD-Related Behaviors (PMID: 28130356)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.547A>T, p.Glu183Val (E183V)",
+            "type": "missense",
+            "phenotypes": [
+              "Autism spectrum disorder",
+              "Hyperactivity",
+              "Social interaction deficits",
+              "Increased repetitive behaviors"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo mutation identified in proband with ASD diagnosis; functional studies showed dominant-negative effects on CaMKII\u03b1 autophosphorylation and substrate phosphorylation; reduced binding to ASD-linked proteins (Shank3, NMDA receptors, L-type calcium channels); knock-in mice exhibited ASD-related behavioral phenotypes",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Deletion of a Single Lysine Residue at Position 292 of CAMK2A Disrupts Protein Function, Causing Severe Epileptic Encephalopathy and Intellectual Disability (PMID: 37510258)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_171825.2: c.874_876delCTT; p.Lys292del",
+            "type": "other",
+            "phenotypes": [
+              "Severe intellectual disability",
+              "Epileptic encephalopathy",
+              "Delayed psychomotor development",
+              "Delayed/absent speech",
+              "Delayed walking",
+              "Seizures",
+              "Dysmorphic features",
+              "Behavioral/psychiatric manifestations"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous in-frame single amino acid deletion; exome sequencing; predicted to affect protein structure and function and interaction with other proteins; hits crucial functional site; fully correlated with patient phenotype; first report of inframe single amino acid deletion in IDHD53",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Remote spatial memory deficits in mouse models of neuropsychiatric disorders with immature dentate gyrus phenotype (PMID: 40847814)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Camk2a heterozygous knockout (HET KO)",
+            "type": "other",
+            "phenotypes": [
+              "Remote spatial memory deficits",
+              "Recent spatial memory deficits",
+              "Immature dentate gyrus phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mouse model with heterozygous knockout of Camk2a; demonstrates behavioral phenotype relevant to neuropsychiatric disorders including intellectual disability, schizophrenia, and autism",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2023 - Deciphering the genetic architecture of autism spectrum disorder using chromosomal microarray and whole exome sequencing in patient-parent trios in India (J. Shah et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "CAMK2A variant (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "Autism spectrum disorder",
+              "Impaired social communication",
+              "Repetitive behavior",
+              "Restricted interests"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo SNV identified in WES of patient-parent trio; CAMK2A listed among previously known ASD genes with de novo variants; part of systematic study showing de novo variants as major cause of ASD",
+        "center_country": "India",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Adult Camk2a gene reinstatement restores the learning and plasticity deficits of Camk2a knockout mice. (PMID: 36304100)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Spatial learning deficits",
+          "Conditional learning deficits",
+          "Synaptic plasticity impairment",
+          "Behavioral abnormalities"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A hyper-activatable CAMK2A variant associated with intellectual disability causes exaggerated long-term potentiation and learning impairments. (PMID: 40140673)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Increased autophosphorylation of CaMKII\u03b1",
+          "Dendritic spine abnormalities",
+          "Exaggerated hippocampal long-term potentiation",
+          "Learning impairments",
+          "Memory deficits",
+          "Intellectual disability-like phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calcium/calmodulin-dependent protein kinase II \u03b1 and \u03b2 differentially regulate mammalian sleep. (PMID: 39757286)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced basal sleep",
+          "Reduced sleep rebound after deprivation",
+          "Impaired sleep homeostasis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Prefrontal cortex molecular clock modulates development of depression-like phenotype and rapid antidepressant response in mice. (PMID: 39179578)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Depression-like phenotype",
+          "Altered ketamine response",
+          "Dysregulated circadian rhythm in medial prefrontal cortex",
+          "Altered plasticity protein expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuronal PAC1 deletion impairs structural plasticity. (PMID: 40628313)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Spatial memory deficits",
+          "Locomotor impairments",
+          "Elevated neuronal nitric oxide synthase expression",
+          "Elevated GAD65/67 expression",
+          "Reduced CREB phosphorylation",
+          "Diminished dendritic spine density",
+          "Decreased mitochondrial content"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Interactome Analyses implicated CAMK2A in the genetic predisposition and pharmacological mechanism of Bipolar Disorder. (PMID: 31150948)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Infradian oscillation of locomotor activities",
+          "Behavioral abnormalities responsive to carbamazepine"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Defining the role of MeCP2e1 in Rett Syndrome symptom progression (V. Haghani, D. Yasui, O. Sharifi, I. Korf, J. Lasalle)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Loss of excitatory/inhibitory neuronal balance",
+          "Altered gene expression in Camk2a neurons",
+          "Altered epigenetic patterns",
+          "Dysregulation of oxidoreductase function genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Anti-seizure gene therapy for focal cortical dysplasia (PMID: 38100333)",
+        "evidence_subtype": "expression",
+        "summary": "CAMK2A promoter used to drive neuron-specific expression of engineered potassium channel (EKC) in AAV9 vector for gene therapy in focal cortical dysplasia mouse model. CAMK2A promoter biases expression towards principal neurons, resulting in ~64% reduction in seizure frequency when EKC transgene delivered to dysplastic region.",
+        "sample_size": "mouse model",
+        "significance": null
+      },
+      {
+        "citation": "Corticotropin-releasing hormone neurons control trigeminal neuralgia-induced anxiodepression via a hippocampus-to-prefrontal circuit (PMID: 38241377)",
+        "evidence_subtype": "function",
+        "summary": "CAMK2A-expressing neurons in ventral hippocampus identified as source of excitatory synaptic transmission to medial prefrontal cortex CRH+ inhibitory neurons. Inhibition of vHPC-CAMK2A to mPFC-CRH circuit ameliorated pain-related anxiodepression, demonstrating functional role in pain-related psychiatric phenotypes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "De Novo Mutations in Protein Kinase Genes CAMK2A and CAMK2B Cause Intellectual Disability (PMID: 29100089)",
+        "evidence_subtype": "GWAS",
+        "summary": "Identified 19 de novo CAMK2A variants in 24 unrelated individuals with intellectual disability through whole-exome sequencing. Variants affected CAMK2 auto-phosphorylation at Thr286/Thr287 and neuronal migration, establishing importance of tightly regulated CAMK2A auto-phosphorylation in human brain development and synaptic plasticity.",
+        "sample_size": "24 unrelated individuals",
+        "significance": null
+      },
+      {
+        "citation": "Combining NGN2 Programming with Developmental Patterning Generates Human Excitatory Neurons with NMDAR-Mediated Synaptic Transmission (PMID: 29791859)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CAMK2A::GFP reporter gene used to identify well-differentiated, excitatory glutamatergic neurons in human patterned induced neuron (hpiN) cultures derived from pluripotent stem cells. CAMK2A+ neurons exhibited greater functionality including NMDAR-mediated synaptic transmission.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cell type-specific biotin labeling in vivo resolves regional neuronal and astrocyte proteomic differences in mouse brain (PMID: 35614064)",
+        "evidence_subtype": "expression",
+        "summary": "Camk2a-neuron proteome characterized using cell type-specific biotin labeling (TurboID) in transgenic mice. Over 2000 neuron-derived proteins quantified including synaptic proteins, transporters, and ion channels, with brain region-specific proteomic differences identified within Camk2a+ neurons.",
+        "sample_size": "mouse brain",
+        "significance": null
+      },
+      {
+        "citation": "circADAMTS6 via stabilizing CAMK2A is involved in smoking-induced emphysema through driving M2 macrophage polarization (PMID: 38936066)",
+        "evidence_subtype": "pathway",
+        "summary": "CAMK2A mRNA stabilized by circADAMTS6 via IGF2BP2 interaction in macrophages, leading to CREB activation and M2 macrophage polarization in smoking-induced emphysema. CAMK2A knockdown reversed M2 polarization and protected against cigarette smoke-induced emphysema in mice.",
+        "sample_size": "mouse model and human samples",
+        "significance": null
+      },
+      {
+        "citation": "Prefrontal cortex molecular clock modulates development of depression-like phenotype and rapid antidepressant response in mice (PMID: 39179578)",
+        "evidence_subtype": "function",
+        "summary": "Selective Bmal1 knockout in CaMK2a excitatory neurons of medial prefrontal cortex revealed that functional mPFC molecular clock is essential for depression-like phenotype development and ketamine antidepressant effects. CAMK2a+ neurons identified as key cell type for mood regulation and plasticity-related slow wave activity.",
+        "sample_size": "mouse model",
+        "significance": null
+      },
+      {
+        "citation": "CaMK2A/CREB pathway activation is associated with enhanced mitophagy and neuronal apoptosis in diabetic retinopathy (PMID: 40216954)",
+        "evidence_subtype": "pathway",
+        "summary": "CaMK2A/CREB signaling pathway activation demonstrated in diabetic retinopathy mouse model and high-glucose-treated retinal ganglion cells. CaMK2A knockdown or CREB phosphorylation inhibition attenuated mitophagy, apoptosis, and neurotransmitter depletion, suggesting CaMK2A/CREB as therapeutic target.",
+        "sample_size": "mouse model and primary cells",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - IBD-focused eQTL analysis identifies an increased rate of IBD GWAS colocalizations and novel target genes using diseased tissue compared to normal tissue eQTL",
+        "evidence_subtype": "GWAS",
+        "summary": "First candidate target gene identified for CAMK2A locus through novel eQTL colocalization with IBD GWAS loci using diseased colonic tissue from 190 IBD patients. eQTL mapped in IBD tissue were >2 times more likely to colocalize with IBD GWAS loci compared to normal tissue eQTL.",
+        "sample_size": "190 IBD patients",
+        "significance": "Fisher's exact test p = 6.72x10-3"
+      },
+      {
+        "citation": "ASHG 2023 - Deciphering the genetic architecture of autism spectrum disorder using chromosomal microarray and whole exome sequencing in patient-parent trios in India",
+        "evidence_subtype": "GWAS",
+        "summary": "De novo SNV in CAMK2A identified in autism spectrum disorder patient cohort from India (101 patient-parent trios). CAMK2A listed among previously known ASD genes with de novo variants detected, supporting role in synaptic formation and neurodevelopment.",
+        "sample_size": "101 patient-parent trios",
+        "significance": null
+      }
+    ]
+  }
+}

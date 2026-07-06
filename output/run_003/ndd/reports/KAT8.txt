@@ -1,0 +1,106 @@
+# KAT8 Evidence Report: Neurodevelopmental Disorder Gene Assessment
+
+---
+
+## 1. GENE SUMMARY
+
+KAT8 (Lysine Acetyltransferase 8, also known as MOF) encodes a member of the MYST family of histone acetyltransferases that functions as the catalytic subunit of the NSL and MSL chromatin-modifying complexes. Its primary known function is the acetylation of histone H4 at lysine 16 (H4K16ac), a modification critical for chromatin decompaction, transcriptional activation, DNA damage response, and regulation of neural stem and progenitor cell development.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports:** Three independent publications were identified reporting KAT8 variants in patients with neurodevelopmental phenotypes.
+
+**Total approximate number of patients:** At least 10 patients across studies (9 from the primary case series and 1 additional patient from a Pakistani family cohort; one additional study confirmed KAT8 in routine diagnostics without specifying patient numbers).
+
+**Most common phenotypes observed:** The predominant clinical features reported across studies include intellectual disability (syndromic), seizures, autism spectrum disorder, and dysmorphic features. The condition associated with heterozygous KAT8 variants has been designated Li-Ghorbani-Weisz-Hubshman syndrome (LIGOWS). One additional patient (PMID: 41347281) presented with LIGOWS in the context of a homozygous variant, representing the first reported autosomal recessive KAT8-related disorder, which is distinct from the predominantly autosomal dominant series.
+
+**Predominant variant type:** Missense variants are the predominant type reported across all studies. The foundational case series (PMID: 31794431) described multiple missense variants affecting the chromobarrel and catalytic domains of KAT8, with functional evidence demonstrating impaired nucleosomal H4K16 acetylation. The Pakistani patient carried a homozygous missense variant c.649A>C; p.Met217Leu (NM_182958.4) (PMID: 41347281), confirmed as deleterious by bioinformatic prediction and segregation analysis consistent with autosomal recessive inheritance.
+
+**Cohort affiliation:** None of the identified studies explicitly report patients from named large-scale cohorts such as UDN, GREGoR, DDD, RUMC, or GEL. One study (PMID: 36553572) references routine diagnostic confirmation of KAT8 as a neurodevelopmental disorder gene, suggesting clinical laboratory ascertainment rather than a specific research cohort.
+
+**Strength of clinical evidence: MODERATE**
+The primary case series (PMID: 31794431) provides the strongest clinical evidence, with 9 patients, multiple independent variants, and functional validation of pathogenicity. However, the total patient numbers remain modest, variant-level details are incompletely reported in available abstracts, and the field awaits larger replication cohorts. The identification of a distinct autosomal recessive presentation (PMID: 41347281) adds complexity to the inheritance landscape and underscores the need to distinguish AD from AR mechanisms when evaluating heterozygous variants.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** All model organism studies identified used the mouse (*Mus musculus*), employing conditional knockout strategies targeting KAT8 (Mof) in a tissue-specific manner across multiple developmental and physiological contexts.
+
+**Key phenotypes from knockouts:**
+
+- *Neurodevelopmental:* Conditional knockout of Kat8 in the developing brain resulted in cerebral hypoplasia affecting the neocortex and hippocampus, impaired neural stem and progenitor cell (NSPC) development, faulty proliferation of cerebrocortical neuroepithelia, aberrant neurogenesis, and massive apoptosis in cerebrocortical neuroepithelia. Mutant NSPCs showed poor neurosphere formation and scant H4K16 propionylation (PMID: 31794431). These findings directly parallel the human neurodevelopmental phenotype.
+
+- *Embryonic lethality:* Trophoblast-specific deletion of Kat8 caused extraembryonic ectoderm abnormalities and embryonic lethality, with impaired trophoblast stem cell self-renewal mediated through loss of CDX2 transcriptional activation via H4K16ac (PMID: 38961108). This indicates that complete loss of KAT8 function is incompatible with embryonic survival in certain tissue contexts.
+
+- *Female infertility:* Oocyte-specific conditional knockout resulted in female infertility due to failure of follicle development at secondary and preantral stages, associated with increased reactive oxygen species and downregulation of antioxidant genes (PMID: 28506985).
+
+- *Hematopoietic:* Conditional deletion in hematopoietic cells demonstrated a critical role in adult but not early fetal hematopoiesis, with impaired HSC engraftment and clonogenic capacity requiring intact acetyltransferase activity (PMID: 27827827).
+
+- *Cardiac:* Cardiomyocyte-specific deletion caused hypertrophic cardiomyopathy, cardiac failure, and severe mitochondrial degeneration (PMID: 27768893), with subsequent work identifying ATP5B K201 hyperacetylation as a mechanistic driver of mitochondrial dysfunction in heart failure (PMID: 39392752).
+
+**Consistency with human phenotype:** The conditional brain knockout model (PMID: 31794431) is highly consistent with the human neurodevelopmental phenotype, recapitulating cortical and hippocampal hypoplasia, impaired neurogenesis, and NSPC dysfunction — features that align with the intellectual disability, seizures, and structural brain anomalies observed in affected individuals. The embryonic lethality observed in trophoblast-specific knockouts is consistent with the expectation that complete biallelic loss of KAT8 would be incompatible with life, supporting a dominant-negative or haploinsufficiency mechanism for heterozygous pathogenic variants.
+
+**Strength of model organism evidence: STRONG**
+Multiple independent conditional knockout studies in mice demonstrate that KAT8 is essential for normal brain development, with phenotypes directly recapitulating the human neurodevelopmental disorder. The mechanistic link to H4K16ac loss in neural tissues provides a coherent biological explanation for the clinical phenotype.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:** KAT8 functions primarily as the catalytic subunit of two distinct multiprotein complexes: the NSL (Non-Specific Lethal) complex and the MSL (Male-Specific Lethal) complex. Its canonical activity is the acetylation of H4K16, a mark associated with open chromatin and transcriptional activation. Beyond histone substrates, KAT8 has been identified as a writer for multiple acylation marks, including lysine lactylation (Kla) of eEF1A2 (PMID: 38359291) and lysine butyrylation (Kbu) of HSP90 at K754 (PMID: 37460462), demonstrating broad acyltransferase activity on non-histone substrates. KAT8 also acetylates non-histone proteins including IRF1 at K78 to regulate PD-L1 expression via liquid-liquid phase separation (PMID: 36894639), and FOXO at K180/K183 to promote autophagy gene transcription (PMID: 38309506).
+
+**Expression pattern and neurodevelopmental relevance:** The conditional brain knockout study (PMID: 31794431) directly establishes KAT8 expression and functional requirement in neural stem and progenitor cells of the developing neocortex and hippocampus. An ASHG 2019 abstract identified a chromatin loop connecting an Alzheimer's disease GWAS locus to the KAT8 promoter in IFN-γ-activated human microglia (HMC3 cell line), implicating KAT8 as a candidate effector gene for an AD GWAS signal in a context-dependent, activation-specific manner (ASHG 2019 - Variant-to-gene mapping for Alzheimer's disease using 3D genomics in an activated microglia human cell line). While this finding requires further functional validation, it suggests KAT8 may have broader relevance to neurological disease beyond the neurodevelopmental context.
+
+**Key experimental findings:**
+- Loss of KAT8 acetyltransferase activity (demonstrated by catalytically inactive E350Q mutant) abolishes its biological functions, confirming that enzymatic activity is essential for its roles in development and disease (PMID: 38317006).
+- KAT8-mediated H4K16ac regulates CDX2 transcription in trophoblast stem cells, with CDX2 overexpression partially rescuing Kat8 knockout defects, establishing a direct transcriptional regulatory axis (PMID: 38961108).
+- In macrophages, KAT8 is selectively recruited to promoters of pathogenic chemokines via the AP-1 complex in response to self-RNA/TLR7 signaling, and its deficiency or pharmacological inhibition ameliorates experimental psoriasis and arthritis (PMID: 40691280), demonstrating context-specific chromatin targeting.
+- Pharmacological inhibition of KAT8 restricts *Mycobacterium tuberculosis* burden in vivo (PMID: 40976643), further supporting its role in innate immune regulation.
+
+**Strength of biological evidence: STRONG**
+KAT8 has a well-characterized molecular function as an H4K16 acetyltransferase with demonstrated roles in transcriptional regulation, chromatin organization, and neural development. The mechanistic link between loss of H4K16ac and impaired neurogenesis is directly supported by both human variant functional studies and mouse conditional knockout data. The breadth of non-histone substrates and pathway interactions further underscores its pleiotropic regulatory importance.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths of the evidence:**
+- A primary case series of 9 patients with multiple independent missense variants affecting functionally critical domains of KAT8, supported by functional evidence of impaired H4K16 acetylation (PMID: 31794431), provides a credible genotype-phenotype correlation.
+- The conditional brain knockout mouse model directly recapitulates the human neurodevelopmental phenotype, including cortical hypoplasia, impaired NSPC development, and aberrant neurogenesis (PMID: 31794431), providing strong mechanistic support.
+- KAT8's well-established role as an H4K16 acetyltransferase essential for chromatin regulation and transcriptional activation in neural tissues provides a biologically plausible mechanism for dominant pathogenicity.
+
+**Key gaps and limitations:**
+- The total number of reported patients remains small (approximately 10), and detailed variant-level data (specific nucleotide and protein changes for the original 9-patient series) are not fully available in the abstracted literature, limiting independent assessment of variant pathogenicity.
+- The identification of a homozygous AR variant causing LIGOWS (PMID: 41347281) introduces uncertainty about the inheritance mechanism for heterozygous variants specifically; it is unclear whether the original 9-patient series comprised exclusively de novo heterozygous variants or included other inheritance patterns.
+- No patients have been reported from large-scale, well-characterized research cohorts (UDN, DDD, GEL), and independent replication in additional case series is limited, with only one routine diagnostics study (PMID: 36553572) providing corroborating clinical confirmation without patient-level detail.
+
+**Conclusion:** KAT8 has a well-supported biological role in neurodevelopment, with convergent evidence from human genetics, conditional mouse knockout models, and mechanistic studies linking H4K16 acetyltransferase activity to neural stem cell proliferation and cortical development. The current clinical evidence is consistent with a neurodevelopmental disorder gene but remains moderate in strength due to limited patient numbers and incomplete variant-level reporting; further case ascertainment and functional characterization of individual variants — particularly to clarify the dominant versus recessive inheritance landscape — are needed to elevate the overall evidence classification to strong.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. The Genetic Basis of Neurological Disorders: Missense and Nonsense Variants in Three Pakistani Families With Syndromic Intellectual Disability (PMID: 41347281)
+2. Lysine acetyltransferase 8 is involved in cerebral development and syndromic intellectual disability (PMID: 31794431)
+3. Routine Diagnostics Confirm Novel Neurodevelopmental Disorders (PMID: 36553572)
+
+### Model Organism Evidence
+1. KAT8-mediated H4K16ac is essential for sustaining trophoblast self-renewal and proliferation via regulating CDX2 (PMID: 38961108)
+2. Histone acetyltransferase KAT8 is essential for mouse oocyte development by regulating reactive oxygen species levels (PMID: 28506985)
+3. Histone acetyltransferase activity of MOF is required for adult but not early fetal hematopoiesis in mice (PMID: 27827827)
+4. MOF Acetyl Transferase Regulates Transcription and Respiration in Mitochondria (PMID: 27768893)
+5. Mitochondrial MOF regulates energy metabolism in heart failure via ATP5B hyperacetylation (PMID: 39392752)
+6. Role of Activin A-Mediated KAT8 Expression in Regulating Ferroptosis During Mycobacterium tuberculosis Infection (PMID: 40976643)
+
+### Biological Evidence
+1. KAT8-catalyzed lactylation promotes eEF1A2-mediated protein synthesis and colorectal carcinogenesis (PMID: 38359291)
+2. Lysine butyrylation of HSP90 regulated by KAT8 and HDAC11 confers chemoresistance (PMID: 37460462)
+3. Disrupting the phase separation of KAT8-IRF1 diminishes PD-L1 expression and promotes antitumor immunity (PMID: 36894639)
+4. KAT8 is upregulated and recruited to the promoter of Atg8 by FOXO to induce H4 acetylation for autophagy under 20-hydroxyecdysone regulation (PMID: 38309506)
+5. Stabilization of MOF (KAT8) by USP10 promotes esophageal squamous cell carcinoma proliferation and metastasis through epigenetic activation of ANXA2/Wnt signaling (PMID: 38317006)
+6. Targeting KAT8 alleviates self-RNA-driven skin inflammation by modulating histone H4 lysine 16 acetylation in psoriasis (PMID: 40691280)

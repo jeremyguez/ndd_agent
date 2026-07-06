@@ -1,0 +1,27 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 0,
+    "biological": 2
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Elucidating the role of Pyroptosis in papillary thyroid cancer: prognostic, immunological, and therapeutic perspectives (PMID: 38287330)",
+        "evidence_subtype": "expression",
+        "summary": "H2BC8 was identified as one of nine pyroptosis-related genes (PRGs) with dysregulated expression in papillary thyroid cancer (PTC). It was incorporated into a PyroScore prognostic model predicting thyroid cancer-free interval, with expression validated across six external datasets, 16 cell lines, and 20 pairs of clinical samples. Its dysregulated expression was associated with tumor immune microenvironment remodeling in PTC.",
+        "sample_size": "TCGA PTC cohort plus 20 pairs of clinical samples and 16 cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Identification of key genes and immune infiltration modulated by CPAP in obstructive sleep apnea by integrated bioinformatics analysis (PMID: 34529670)",
+        "evidence_subtype": "expression",
+        "summary": "H2BC8 was identified as one of eleven hub genes in peripheral blood mononuclear cells whose expression was significantly correlated with CPAP treatment response in obstructive sleep apnea patients via weighted gene co-expression network analysis (WGCNA). These hub genes were used to construct a random forest model predicting CPAP therapeutic efficacy with an AUC of 0.92. H2BC8 expression was also partially correlated with monocyte infiltration associated with OSA remission.",
+        "sample_size": "GSE133601 dataset",
+        "significance": "AUC = 0.92"
+      }
+    ]
+  }
+}

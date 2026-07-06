@@ -1,0 +1,35 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 6,
+    "biological": 1
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Genetic association for renal traits among participants of African ancestry reveals new loci for renal function (PMID: 21931561)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "abnormal kidney development",
+          "impaired glomerular filtration capacity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "ASHG 2011 - Two novel loci for melanoma susceptibility on chromosome bands 1q42.12 and 1q21.3 (MacGregor et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "ANXA9 is located in the linkage disequilibrium region of the melanoma susceptibility locus at 1q21.3 (rs7412746). The SNP rs7412746 acts as an eQTL that explains a substantial proportion of variance in expression of ARNT and CTSS, with expression of ARNT correlated with other genes in the region including CTSK and SETDB1.",
+        "sample_size": "Discovery: 2,168 cases/4,387 controls; Replication: 2,804 cases/7,618 controls (Europe), 1,804 cases/1,026 controls (USA 1), 585 cases/6,500 controls (USA 2); Melanoma cell lines: N=39 (Affymetrix) and N=38 (Illumina)",
+        "significance": "rs7412746: P=2.5\u00d710\u207b\u2077 (discovery), P=1.5\u00d710\u207b\u2075 (replication), P=9.0\u00d710\u207b\u00b9\u00b9 (meta-analysis)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,325 @@
+{
+  "articles_found": {
+    "clinical": 20,
+    "model_organism": 12,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "SATB2-Associated Syndrome (PMID: 29023086)",
+        "num_patients": null,
+        "variants": [],
+        "diagnostic_reason": "Review article - no individual patient data extracted",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "SATB2-associated syndrome presenting with Rett-like phenotypes (PMID: 26596517)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.1187A>G, p.Glu396Gln",
+            "type": "missense",
+            "phenotypes": [
+              "severe developmental retardation",
+              "Rett-like phenotypes",
+              "severe psychomotor retardation"
+            ]
+          },
+          {
+            "description": "c.1375C>T, p.Arg459*",
+            "type": "LoF",
+            "phenotypes": [
+              "severe psychomotor retardation",
+              "facial hypotonia",
+              "cleft palate",
+              "Rett-like features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants identified by trio-based whole-exome sequencing; nonsense variant confirmed pathogenic; missense variant in conserved region",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Further delineation of the SATB2 phenotype (PMID: 24301056)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.715C>T, p.Arg239*",
+            "type": "LoF",
+            "phenotypes": [
+              "cleft palate",
+              "severely delayed speech development",
+              "intellectual disability",
+              "dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo nonsense mutation identified by trio-exome sequencing; second patient with de novo nonsense mutation in SATB2 confirming gene's role in craniofacial patterning and cognitive development",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Individuals with SATB2-associated syndrome have impaired vitamin and energy metabolism pathways (PMID: 39541055)",
+        "num_patients": null,
+        "variants": [],
+        "diagnostic_reason": "Cohort study of SAS patients with pathogenic SATB2 variants - no individual variant details provided",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "SATB2-associated syndrome in adolescents and adults (PMID: 33969926)",
+        "num_patients": 49,
+        "variants": [],
+        "diagnostic_reason": "Large cohort study of SAS patients - no individual variant details provided",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2016 - SATB2-associated syndrome: Report of a new case associated with a new mutation in the SATB2 gene",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1286G>A, p.Arg429Gln",
+            "type": "missense",
+            "phenotypes": [
+              "severe global developmental delay",
+              "dysmorphic features with downslanting eyes",
+              "prominent low-set ears",
+              "prominent nose",
+              "open-mouthed hypotonic facies",
+              "high-arched palate",
+              "bifid uvula",
+              "macrodontia",
+              "retrognathia",
+              "bilateral 5th finger clinodactyly",
+              "2-3 toe syndactyly",
+              "hyperactivity",
+              "aggressiveness",
+              "skin-picking",
+              "sleep disturbance",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo mutation identified by trio-based whole-exome sequencing; semi-conserved amino acid substitution at evolutionarily conserved position; absent from normal population databases; clinical phenotype consistent with SAS",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - Whole genome sequencing of neurodevelopmental disorders in Japanese",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "SATB2 variant (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by whole genome sequencing in patient with neurodevelopmental disorder; variant details limited in abstract",
+        "center_country": "Japan",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Loss of Satb2 in the Cortex and Hippocampus Leads to Abnormal Behaviors in Mice (PMID: 30809123)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "hyperactivity",
+          "increased impulsivity",
+          "abnormal social novelty",
+          "impaired spatial learning and memory",
+          "defective neuron development in cortical layer IV",
+          "loss of layer-specific gene expression",
+          "abnormal thalamocortical projections"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ash1l loss-of-function results in structural birth defects and altered cortical development (PMID: 38943682)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "increased numbers of SATB2+ neurons in cortical plate",
+          "ectopically placed deep layer neurons expressing SATB2",
+          "altered cell differentiation trajectory in upper layer neurons",
+          "altered gene expression in upper layer neurons",
+          "cortical sublayer disorganization"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": "n=6/genotype for SATB2 neuron counts; n=4/genotype for birthdating",
+        "significance": "p=0.0001 (SATB2 neuron numbers); p=0.0126 (ectopic deep layer neurons)"
+      },
+      {
+        "citation": "Spatiotemporal dynamics of the developing zebrafish enteric nervous system at the whole-organ level (PMID: 39642879)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "altered cell fate choice of serotonergic neuronal subtypes in developing enteric nervous system",
+          "functional perturbation affects neuronal subtype differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Schizophrenia-Like Deficits and Impaired Glutamate/Gamma-aminobutyric acid Homeostasis in Zfp804a Conditional Knockout Mice (PMID: 38988003)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "altered SATB2 expression in cortex",
+          "anxiety",
+          "depression",
+          "impaired cognition",
+          "schizophrenia-like behaviors",
+          "loss of glutamate/GABA homeostasis",
+          "abnormal GAD67 expression in hippocampus",
+          "altered NeuN expression in hippocampus",
+          "altered cleaved caspase 3 expression in hippocampus",
+          "altered DLG4 expression in hippocampus"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ZFP451-mediated SUMOylation of SATB2 drives embryonic stem cell differentiation (PMID: 34244292)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "weakened embryonic stem cell pluripotency",
+          "impaired ability to silence pluripotency genes",
+          "impaired ability to activate differentiation-associated genes in response to retinoic acid",
+          "altered higher-order chromatin interactions"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Exploring the sublayer formation process in layer V of the neocortex through two newly identified molecular markers (PMID: 40668607)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "cortical sublayer disorganization",
+          "loss of Pcp4 and FoxO1 expression",
+          "defective layer V neuronal subtype specification",
+          "altered neuronal differentiation trajectories"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "n=6/genotype",
+        "significance": null
+      },
+      {
+        "citation": "A MTA2-SATB2 chromatin complex restrains colonic plasticity toward small intestine by retaining HNF4A at colonic chromatin (PMID: 38678016)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "conversion of adult colonic mucosa to small intestine phenotype",
+          "activation of lipid absorptive genes",
+          "functional lipid uptake in colon",
+          "loss of colonic identity",
+          "altered chromatin occupancy of HNF4A"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "SATB2 preserves colon stem cell identity and mediates ileum-colon conversion via enhancer remodeling (PMID: 34582804)",
+        "evidence_subtype": "function",
+        "summary": "SATB2 is a colon-restricted chromatin factor that singularly preserves LGR5+ adult colonic stem cell and epithelial identity. Satb2 loss in adult mice leads to stable conversion of colonic stem cells into ileal-like stem cells and replacement of colonic mucosa with ileum-like tissue. SATB2 regulates colonic identity by modulating enhancer binding of CDX2 and HNF4A transcription factors.",
+        "sample_size": "mice and human organoids",
+        "significance": null
+      },
+      {
+        "citation": "Astrocyte layers in the mammalian cerebral cortex revealed by a single-cell in situ transcriptomic map (PMID: 32203496)",
+        "evidence_subtype": "expression",
+        "summary": "Satb2 mutations that shifted neuronal post-mitotic development were sufficient to alter glial layering in the cerebral cortex, indicating an instructive role for neuronal cues in organizing astrocyte layers. Satb2 expression patterns were identified in spatial transcriptomic analysis of cortical organization.",
+        "sample_size": "mouse and human cortex",
+        "significance": null
+      },
+      {
+        "citation": "ARID1B controls transcriptional programs of axon projection in an organoid model of the human corpus callosum (PMID: 38718796)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SATB2+ neurons (callosal projection neurons) show impaired maturation in ARID1B+/- neural organoids. SATB2 is identified as a determinant of callosal projection neuron identity, and its dysregulation impairs long-range axonal projections and corpus callosum development.",
+        "sample_size": "neural organoids",
+        "significance": null
+      },
+      {
+        "citation": "A critical period of translational control during brain development at codon resolution (PMID: 36482253)",
+        "evidence_subtype": "function",
+        "summary": "Satb2 is identified as a chromatin-binding protein whose translation is upregulated during mid-gestation in mouse neocortex neurogenesis. Timed translation upregulation of Satb2 is essential for neuronal subtype differentiation and restricts protein expression in neuronal lineages despite broad transcriptional priming in progenitors.",
+        "sample_size": "mouse neocortex",
+        "significance": null
+      },
+      {
+        "citation": "SATB2 Mediates H3K9 Delactylation by Recruiting HDAC3 to Repress LCN2 and Inhibit Lung Tumor Growth and Metastasis (PMID: 41736683)",
+        "evidence_subtype": "function",
+        "summary": "SATB2 functions as a tumor suppressor in NSCLC by acting as a negative regulator of global histone lactylation. SATB2 binds the LCN2 promoter and recruits HDAC3 via its N-terminal domain to catalyze H3K9 delactylation and repress LCN2 transcription, impairing cell proliferation, migration, invasion, and EMT.",
+        "sample_size": "NSCLC cell lines and xenografts",
+        "significance": null
+      },
+      {
+        "citation": "Protein translation rate determines neocortical neuron fate (PMID: 38849354)",
+        "evidence_subtype": "function",
+        "summary": "Ire1\u03b1 regulates Satb2 expression and neuronal polarity in developing brain. Satb2 mRNA translation requires eIF4A1 helicase activity towards its 5'-untranslated region. Satb2 translation rates are inherent features of cortical neuron subtypes and determine neuronal identity.",
+        "sample_size": "developing mouse brain",
+        "significance": null
+      },
+      {
+        "citation": "APOE4 impacts cortical neurodevelopment and alters network formation in human brain organoids (PMID: 39416105)",
+        "evidence_subtype": "cell_culture",
+        "summary": "APOE4 decreased SATB2+ cortical neurons in iPSC-derived cortical organoids, increased astrocytes and outer radial glia, and was associated with increased cell death and dysregulated GABA-related gene expression.",
+        "sample_size": "iPSC-derived cortical and ganglionic eminence organoids",
+        "significance": null
+      },
+      {
+        "citation": "YAP-Activated SATB2 Is a Coactivator of NRF2 That Amplifies Antioxidative Capacity and Promotes Tumor Progression in Renal Cell Carcinoma (PMID: 36598364)",
+        "evidence_subtype": "pathway",
+        "summary": "SATB2 is upregulated in RCC and acts as an oncogenic chromatin organizer. YAP/TEAD4 activates SATB2 expression, and SATB2 coordinates with NRF2 to drive enhancer-promoter interactions and amplify transcriptional activity of antioxidative stress genes. SATB2 recruits SWI/SNF complex subunits (BRD7, BRG1) to sustain DNA accessibility.",
+        "sample_size": "RCC cell lines, patient-derived xenografts, and organoids",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Extensive profiling of transcription factors in postmortem brains defines genomic occupancy in disease relevant cell types and links TF activities to neuropsychiatric disorders",
+        "evidence_subtype": "GWAS",
+        "summary": "SATB2 is identified as a neuronal transcription factor with unique genomic occupancy profiles across brain regions. SATB2 binds unique elements that regulate neuron-specific gene expression. ChIP-seq for SATB2 in neuron-enriched NeuN+ sorted nuclei shows enrichment for neuropsychiatric disease variants.",
+        "sample_size": "1,072 ChIP-seq experiments from human postmortem brain",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - AlphaCluster: Coevolutionary driven residue-residue interaction models enable quantifiable clustering analysis of de novo variants to enhance predictions of pathogenicity",
+        "evidence_subtype": "GWAS",
+        "summary": "SATB2 is newly implicated at the genome-wide level in autism spectrum disorder through clustering analysis of de novo missense variants using AlphaCluster, a statistical method that maps missense residues onto protein tertiary structure.",
+        "sample_size": "genome-wide analysis",
+        "significance": "genome-wide significance"
+      }
+    ]
+  }
+}

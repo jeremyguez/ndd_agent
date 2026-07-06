@@ -1,0 +1,120 @@
+# RAB5C – Literature Evidence Report: Neurodevelopmental Disorder Gene Assessment
+
+---
+
+## 1. GENE SUMMARY
+
+RAB5C encodes a member of the RAB5 subfamily of small GTPases (alongside RAB5A and RAB5B), which are master regulators of early endosomal trafficking, controlling the fusion, sorting, and maturation of endocytic vesicles. RAB5C plays isoform-specific roles in coupling endocytic receptor trafficking to downstream signaling pathways, including those governing cell growth, migration, and development.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports:** Two independent publications were identified containing clinical case data.
+
+**Total patients:** Approximately 13 patients across both studies — 12 individuals in the primary case series (PMID: 37552066) and 1 individual in a single case report (PMID: 23337768).
+
+**Most common phenotypes observed:**
+The primary and most informative study (PMID: 37552066) identified two distinct clinical presentations depending on variant type:
+- *Missense variants (de novo, heterozygous):* Macrocephaly and mild-to-moderate developmental delay, observed in the majority of the 12 reported individuals.
+- *Loss-of-function (LoF) variants (heterozygous):* A more severe phenotype including refractory epilepsy and intellectual disability, with normal head circumference.
+
+The single-patient case report (PMID: 23337768) described a boy with a de novo 103 kb duplication at 17q21.2 encompassing RAB5C and seven other genes (including KAT2A, KCNH4, and STAT5B), presenting with severe developmental delay, microcephaly, and multiple dysmorphic features. Because this duplication involves multiple genes, the contribution of RAB5C specifically cannot be isolated, and this report provides only weak, indirect clinical evidence.
+
+**Predominant variant type:**
+Heterozygous de novo missense variants are the predominant pathogenic variant class associated with the macrocephaly/developmental delay phenotype. Nine distinct missense variants were identified across 12 individuals in the primary series (PMID: 37552066). Heterozygous LoF variants were also reported in the same study, associated with a distinct, more severe phenotype. This variant-type/phenotype correlation suggests a gain-of-function or dominant-negative mechanism for missense variants and a haploinsufficiency mechanism for LoF variants.
+
+**Known cohort affiliation:**
+The cohort of origin for the 12-patient series is not specified in the available abstract data. No explicit affiliation with named cohorts (UDN, GREGoR, DDD, RUMC, or GEL) is documented in the extracted evidence.
+
+**Strength of clinical evidence: MODERATE**
+The identification of 12 unrelated individuals with de novo heterozygous RAB5C missense variants and a consistent phenotype of macrocephaly and developmental delay, supported by functional validation, constitutes moderate clinical evidence. The evidence is limited by the small total patient number, the absence of detailed variant-level genotype data in the abstract, and the lack of confirmed cohort provenance. The single multi-gene duplication case (PMID: 23337768) does not independently support RAB5C causality.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Zebrafish (*Danio rerio*), *Xenopus laevis*, mouse (*Mus musculus*), and *C. elegans* (the latter referenced within the biological/clinical evidence from PMID: 37552066).
+
+**Key findings by organism:**
+
+*Zebrafish:* Multiple independent zebrafish studies demonstrate that Rab5c is required for diverse developmental processes. Morpholino-based knockdown studies show roles in hematopoietic stem and progenitor cell specification via Notch and AKT signaling (PMID: 32275659), gastrulation and mesendodermal cell cohesion via E-cadherin endocytosis (PMID: 16198297), developmental angiogenesis via VEGFR2 stabilization (PMID: 33983539), epiboly via E-cadherin localization at adherens junctions (PMID: 20405038), and endodermal planar cell polarity via Cadherin 2 endocytosis (PMID: 34131730). Critically, the primary clinical study (PMID: 37552066) used a zebrafish knock-in model expressing human RAB5C missense variants and confirmed defective development in vivo, directly linking the human variants to an in vivo phenotype.
+
+*Xenopus:* Rab5c knockdown in *Xenopus* demonstrated a role in AMPA receptor endocytosis and synaptic downscaling, with effects on dendritic architecture and neuronal excitability (PMID: 41507541). This finding is particularly relevant to the neurodevelopmental phenotype, as it places RAB5C directly in the regulation of glutamatergic synaptic transmission during development.
+
+*Mouse:* Conditional triple knockout of Rab5A/B/C using an auxin-inducible degron system resulted in cell death within 48 hours, loss of early and late endosomes, and dramatic impairment of endocytic cargo trafficking (PMID: 34817057), indicating that Rab5 isoforms collectively are essential for cell viability. A separate mouse study showed that RAB5C knockout in chondrogenic progenitor cells enhanced chondrogenic differentiation markers (PMID: 34013174), and reduced RAB5C protein levels were observed in Sorcin knockout mice with impaired lung morphogenesis (PMID: 41148307), though neither study directly models the neurodevelopmental phenotype.
+
+*C. elegans:* Referenced in PMID: 37552066, C. elegans studies confirmed that all four tested human RAB5C missense variants caused defects in endocytic pathway function, with two variants acting via dominant-negative mechanisms.
+
+**Consistency with human phenotype:**
+The zebrafish knock-in data (PMID: 37552066) directly models the human variants and confirms developmental toxicity. The *Xenopus* data (PMID: 41507541) provides mechanistic support for a neurological role via AMPA receptor trafficking. The broader zebrafish knockdown studies establish Rab5c as a dosage-sensitive regulator of development, consistent with the human observation that both gain-of-function missense and LoF variants cause disease. However, no model organism study has specifically recapitulated macrocephaly or the precise neurodevelopmental delay phenotype observed in humans.
+
+**Strength of model organism evidence: MODERATE**
+There is substantial model organism evidence demonstrating that Rab5c is required for normal development across multiple organisms and developmental contexts. The direct in vivo validation of human missense variants in zebrafish (PMID: 37552066) and the C. elegans functional data strengthen this assessment. The absence of a dedicated neurological or brain-specific knockout model and the lack of macrocephaly recapitulation limit the rating to moderate rather than strong.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+RAB5C functions as a GTPase regulating early endosomal trafficking, acting at the intersection of multiple signaling pathways. Key documented molecular roles include:
+- Regulation of receptor-mediated endocytosis and endosomal sorting (PMID: 34817057)
+- Stabilization of internalized receptor tyrosine kinases (VEGFR2) to sustain downstream ERK and PI3K/AKT signaling (PMID: 33983539)
+- Isoform-specific coupling of EGF receptor signaling to Rac1-mediated cell motility and migration (PMID: 24587345)
+- Regulation of LC3-associated phagocytosis (non-canonical autophagy) in macrophages via V-ATPase and ATG16L1 (PMID: 40196584)
+- Control of VWF exocytosis from endothelial cells via SNAP29 interaction (PMID: 41537263)
+- Direction of ACC1 to lysosomal degradation via selective autophagy in hepatocellular carcinoma (PMID: 39779666)
+- Modulation of EGFR nuclear relocalization and DNA repair in response to radiation (PMID: 30968159)
+
+**Neurodevelopmental relevance:**
+The *Xenopus* study (PMID: 41507541) provides the most direct evidence of a neurological function, demonstrating that Rab5c mediates activity-dependent endocytosis of AMPA receptor subunits GluA1 and GluA2, regulates synaptic downscaling, and influences dendritic architecture and intrinsic neuronal excitability. This is mechanistically consistent with the intellectual disability and developmental delay observed in patients. The biochemical studies in PMID: 37552066 showed that disease-associated missense variants increase the nucleotide exchange rate of RAB5C, attenuate responsivity to guanine nucleotide exchange factors (GEFs), and have heterogeneous effects on effector protein interactions — collectively suggesting that pathogenic variants dysregulate the endosomal trafficking cycle in a manner that disrupts neurodevelopmental signaling.
+
+**GWAS and expression data:**
+A splicing QTL analysis (ASHG 2023 – Coronary artery disease-associated splicing variants in vascular smooth muscle cells) identified RAB5C as a candidate gene in coronary artery disease GWAS loci through SMC-specific alternative splicing, and two GWAS variants (rs9915255, rs9912088) were shown to regulate RAB5C expression in stem cell-derived endothelial cells (PMID: 41537263). These findings are not directly relevant to neurodevelopmental disease but confirm that RAB5C expression is subject to regulatory variation with functional consequences.
+
+**Strength of biological evidence: MODERATE**
+RAB5C has well-characterized molecular functions in endosomal trafficking and receptor signaling, with growing evidence for a specific neurological role in synaptic receptor trafficking. The biochemical characterization of pathogenic variants (PMID: 37552066) provides mechanistic insight into how missense variants cause disease. However, direct evidence of RAB5C expression in the developing human brain and its specific role in neuronal development remains limited in the extracted literature.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+1. A single well-powered case series (PMID: 37552066) identified 12 unrelated individuals with de novo heterozygous RAB5C missense variants and a consistent phenotype of macrocephaly and developmental delay, supported by in vitro biochemical characterization, C. elegans functional studies, and zebrafish in vivo validation — representing a multi-layered evidence package.
+2. The identification of a genotype-phenotype correlation (missense → macrocephaly/developmental delay; LoF → epilepsy/intellectual disability) suggests variant-class-specific mechanisms and strengthens the biological plausibility of RAB5C as a dosage-sensitive neurodevelopmental gene.
+3. Independent *Xenopus* data (PMID: 41507541) provides mechanistic support for a direct role of Rab5c in synaptic AMPA receptor trafficking and neuronal development, consistent with the human phenotype.
+
+**Key gaps and limitations:**
+1. The total number of reported patients remains small (n=12 in the primary series), and detailed variant-level data (specific amino acid changes, segregation data) are not available in the extracted abstracts, limiting independent assessment of variant pathogenicity.
+2. No dedicated neurological or brain-specific animal knockout model has been reported that recapitulates macrocephaly or the neurodevelopmental delay phenotype, and direct evidence of RAB5C expression in the developing human brain is not documented in the available evidence.
+3. The cohort of origin for the 12-patient series is unspecified, and no replication series from independent cohorts (e.g., DDD, GEL, UDN) has been identified, leaving the clinical evidence dependent on a single publication.
+
+**Conclusion:**
+RAB5C is a biologically plausible neurodevelopmental disorder gene, with the strongest evidence deriving from a single case series of 12 individuals with de novo heterozygous missense variants causing macrocephaly and developmental delay, supported by multi-organism functional validation (PMID: 37552066). The gene's established role in endosomal receptor trafficking, its isoform-specific coupling to growth factor signaling pathways, and emerging evidence for direct synaptic function in *Xenopus* (PMID: 41507541) provide a coherent mechanistic framework. Replication in additional patient cohorts and dedicated neurological model organism studies are needed to elevate the evidence to a strong classification.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Macrocephaly and developmental delay caused by missense variants in RAB5C (PMID: 37552066)
+2. A de novo 17q21.2 duplication in a boy with developmental delay and dysmorphic features (PMID: 23337768)
+
+### Model Organism Evidence
+1. Rab5c-mediated endocytic trafficking regulates hematopoietic stem and progenitor cell development via Notch and AKT signaling (PMID: 32275659)
+2. Wnt11 functions in gastrulation by controlling cell cohesion through Rab5c and E-cadherin (PMID: 16198297)
+3. The endosomal RIN2/Rab5C machinery prevents VEGFR2 degradation to control gene expression and tip cell identity during angiogenesis (PMID: 33983539)
+4. A vertebrate-specific Chp-PAK-PIX pathway maintains E-cadherin at adherens junctions during zebrafish epiboly (PMID: 20405038)
+5. Glypican 4 regulates planar cell polarity of endoderm cells by controlling the localization of Cadherin 2 (PMID: 34131730)
+6. Prolonged visual experience accelerates developmental synaptic downscaling via epigenetic regulation and Rab5c mediated AMPA receptor trafficking (PMID: 41507541)
+7. Establishment and analysis of conditional Rab1- and Rab5-knockout cells using the auxin-inducible degron system (PMID: 34817057)
+8. Enhancing the chondrogenic potential of chondrogenic progenitor cells by deleting RAB5C (PMID: 34013174)
+9. Sorcin regulates alveolarization and airway tissue remodeling during lung morphogenesis (PMID: 41148307)
+
+### Biological Evidence
+1. Rab5 isoforms orchestrate a 'division of labor' in the endocytic network; Rab5C modulates Rac-mediated cell motility (PMID: 24587345)
+2. RAB5c controls the assembly of non-canonical autophagy machinery to promote phagosome maturation and microbicidal function of macrophages (PMID: 40196584)
+3. RAB5C Increases Endothelial Release of VWF by Regulating Vesicle Trafficking (PMID: 41537263)
+4. S100P is a ferroptosis suppressor to facilitate hepatocellular carcinoma development by rewiring lipid metabolism (PMID: 39779666)
+5. Rab5C enhances resistance to ionizing radiation in rectal cancer (PMID: 30968159)

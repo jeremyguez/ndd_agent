@@ -1,0 +1,367 @@
+{
+  "articles_found": {
+    "clinical": 20,
+    "model_organism": 20,
+    "biological": 25
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A unique de novo gain-of-function variant in CAMK4 associated with intellectual disability and hyperkinetic movement disorder (PMID: 30262571)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.981+1G>A (splice-site), predicted protein p.Lys303Serfs*28",
+            "type": "LoF",
+            "phenotypes": [
+              "milestone delay",
+              "intellectual disability",
+              "autism spectrum disorder",
+              "ataxia",
+              "mixed hyperkinetic movement disorder",
+              "severe generalized dystonia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant identified by trio whole-exome sequencing; absent from diverse catalogs of human variation; cDNA analyses confirmed aberrant splicing producing stable mRNA with 77-nt out-of-frame deletion and premature termination codon; biochemical studies in proband-derived cells confirmed constitutive/activating effect (gain-of-function); structural resemblance to synthetic constitutively active CaMKIV mutants",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A Neurodevelopmental Disorder With Dystonia and Chorea Resulting From Clustering CAMK4 Variants (PMID: 33211350)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "clustering CAMK4 variants (specific notations not available in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "dystonia",
+              "chorea"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Clustering of variants in CAMK4 associated with neurodevelopmental disorder with hyperkinetic movement disorder; details not available from abstract alone",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "CAMK4-related Case of Hyperkinetic Movement Disorder (PMID: 37070062)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "CAMK4 variant (specific notation not available in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "hyperkinetic movement disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "CAMK4-related case; details not available from abstract alone",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Convergence on CaMK4: A Key Modulator of Autism-Associated Signaling Pathways in Neurons (PMID: 39442785)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "3 genetic variants in CAMK4 found in individuals with hyperkinetic movement disorder and comorbid neurological symptoms (specific notations not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "hyperkinetic movement disorder",
+              "autism spectrum disorder",
+              "neurological symptoms"
+            ]
+          },
+          {
+            "description": "4 other genetic variations in CAMK4 associated with autism spectrum disorder (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Review article summarizing 3 likely pathogenic variants with monogenic effect in individuals with hyperkinetic movement disorder and ASD, and 4 additional variants associated with ASD; described as likely pathogenic based on prior publications",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Copy number variations in a Brazilian cohort with autism spectrum disorders highlight the contribution of cell adhesion genes (PMID: 34664255)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "CNV involving CAMK4 (specific coordinates not provided in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "CAMK4 identified within CNVs of unknown significance; pathogenicity strengthened based on gene content, recurrence in three large cohorts (Brazilian neurodevelopmental disorder cohort, MSSNG cohort, Canadian TCAG database)",
+        "center_country": "Brazil",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Spermiogenesis and exchange of basic nuclear proteins are impaired in male germ cells lacking Camk4. (PMID: 10932193)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Male infertility",
+          "Impaired spermiogenesis in late elongating spermatids",
+          "Disrupted sequential deposition of sperm basic nuclear proteins on chromatin",
+          "Specific loss of protamine-2",
+          "Prolonged retention of transition protein-2 (Tnp2) in step-15 spermatids",
+          "Protamine-2 phosphorylated by Camk4 in vitro"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cerebellar defects in Ca2+/calmodulin kinase IV-deficient mice. (PMID: 11069976)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Locomotor defects consistent with altered cerebellar function",
+          "Significant reduction in number of mature Purkinje neurons",
+          "Reduced expression of calbindin D28k in individual Purkinje neurons",
+          "Significant deficits in phosphorylation of CREB at serine-133",
+          "Multiple innervation by climbing fibers",
+          "Enhanced parallel fiber synaptic currents",
+          "Immature development of Purkinje cells",
+          "Altered neurotransmission at excitatory synapses in Purkinje cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calmodulin-dependent protein kinase IV regulates hematopoietic stem cell maintenance. (PMID: 16020540)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Hematopoietic failure",
+          "Diminished KLS (c-Kit+ ScaI+ Lin-/low) hematopoietic progenitor cell population",
+          "Inability of KLS cells to reconstitute blood cells upon serial transplantation",
+          "Increased apoptosis of KLS cells in vivo and in vitro",
+          "Increased proliferation of KLS cells in vivo and in vitro",
+          "Decreased CREB-serine 133 phosphorylation",
+          "Decreased CREB-binding protein (CBP) levels",
+          "Decreased Bcl-2 levels"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calcium/calmodulin-dependent protein kinase IV suppresses IL-2 production and regulatory T cell activity in lupus. (PMID: 22942433)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Improved survival in MRL/lpr lupus-prone background",
+          "Restored IL-2 production",
+          "Reduced T cell activation",
+          "Augmented number and activity of regulatory T cells",
+          "Reduced nuclear CaMK4 levels in T cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaMK4-dependent activation of AKT/mTOR and CREM-\u03b1 underlies autoimmunity-associated Th17 imbalance. (PMID: 24667640)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Naive T cells from Camk4-/- mice failed to produce IL-17",
+          "Decreased frequency of IL-17-producing T cells",
+          "Amelioration of EAE (experimental autoimmune encephalomyelitis)",
+          "Amelioration of lupus-like disease",
+          "Decreased Il17 transcription",
+          "Decreased activation of CREM-\u03b1",
+          "Reduced activation of AKT/mTOR pathway"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease. (PMID: 29985166)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Preserved podocyte ultrastructure with targeted CaMK4 inhibitor delivery to podocytes",
+          "Averted immune complex deposition and crescent formation in lupus-prone mice",
+          "Suppressed proteinuria in lupus-prone mice",
+          "Suppressed proteinuria in LPS-induced podocyte injury model",
+          "Prevention and reversal of podocyte injury and renal disease in adriamycin-exposed animals",
+          "Preserved nephrin/synaptopodin expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calcium calmodulin kinase IV deficiency in podocytes prevents the development of lupus nephritis. (PMID: 39793862)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Significant improvement of kidney pathology in lupus-prone B6.lpr background",
+          "Reduced glomerular pathology",
+          "Less mesangial cell proliferation",
+          "Diminished immune complex deposition in kidney",
+          "Decreased albuminuria",
+          "Improved creatinine levels",
+          "Increased deposition of immune complexes in liver (redirected from kidney)",
+          "No effect on systemic autoimmune response parameters"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calcium/calmodulin-dependent protein kinase IV promotes imiquimod-induced psoriatic inflammation via macrophages and keratinocytes in mice. (PMID: 35869084)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced severity of IMQ-induced psoriasis compared to wild-type",
+          "More macrophages in skin of IMQ-treated Camk4-/- mice",
+          "Fewer IL-17A+\u03b3\u03b4 TCR+ cells in skin of IMQ-treated Camk4-/- mice",
+          "Increased IL-10 production by macrophages",
+          "Reduced psoriatic inflammation with macrophage-specific Camk4 deletion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Impaired CAMK4 Activity Limits Atherosclerosis and Reprograms Myelopoiesis. (PMID: 40336480)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Smaller and more stable atherosclerotic lesions under hypercholesterolemic conditions",
+          "Peripheral monocytosis",
+          "Skewing of monocyte populations toward nonclassical Ly6clow subset",
+          "Markedly more myeloid progenitors in response to hypercholesterolemia",
+          "Higher expression of genes associated with myeloid differentiation",
+          "Increased recruitment of ATF6 to conserved binding sites",
+          "Higher levels of Nr4a1 in monocytes",
+          "Impaired monocyte trafficking in vitro and in vivo",
+          "Bone marrow-derived macrophages with more proreparative phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of calcium/calmodulin-dependent protein kinase IV in arthritis: dual effect on Th17 cell activation and osteoclastogenesis. (PMID: 35781320)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Improved clinical scores in collagen-induced arthritis (CIA)",
+          "Decreased numbers of Th17 cells",
+          "Reduced joint destruction",
+          "Decreased production of inflammatory cytokines"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "CaMK4: Structure, physiological functions, and therapeutic potential (PMID: 38615920)",
+        "evidence_subtype": "function",
+        "summary": "CaMK4 is a versatile serine/threonine kinase that regulates T-cell differentiation, podocyte function, tumor cell proliferation/apoptosis, \u03b2 cell mass, and insulin sensitivity. It is a key component of Ca2+-activated signaling pathways and acts by phosphorylating downstream target proteins to regulate cellular signaling. The review highlights its structural motifs, activation mechanisms, and potential as a therapeutic target in multiple diseases.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calcium/calmodulin-dependent protein kinase IV promotes imiquimod-induced psoriatic inflammation via macrophages and keratinocytes in mice (PMID: 35869084)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CaMK4 expression is significantly increased in psoriatic lesional skin from patients and in an IMQ-induced mouse model. In macrophages, CaMK4 inhibits IL-10 production, promoting excessive inflammation; Camk4-/- mice show reduced psoriasis severity. In keratinocytes, CaMK4 inhibits apoptosis, promotes proliferation, and drives expression of pro-inflammatory genes S100A8 and CAMP.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaMK4 controls follicular helper T cell expansion and function during normal and autoimmune T-dependent B cell responses (PMID: 38287012)",
+        "evidence_subtype": "pathway",
+        "summary": "CaMK4 promotes T follicular helper (Tfh) cell expansion by controlling the Tfh-specific transcription factor BCL6 at the transcriptional level through CREM\u03b1. In the absence of CaMK4 in T cells, germinal center formation and humoral immunity are impaired, reducing anti-dsDNA titres and kidney IgG/complement deposition in lupus-prone mice. In human Tfh cells, CaMK4 inhibition reduced BCL6 expression and IL-21 secretion, impairing plasmablast formation and IgG production.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaMK4 compromises podocyte function in autoimmune and nonautoimmune kidney disease (PMID: 29985166)",
+        "evidence_subtype": "function",
+        "summary": "CaMK4 is overexpressed in podocytes from patients with lupus nephritis and focal segmental glomerulosclerosis, and in lupus-prone and LPS- or adriamycin-treated mice. CaMK4 modulates podocyte motility by altering GTPases Rac1 and RhoA expression, suppresses nephrin and synaptopodin expression, and phosphorylates scaffold protein 14-3-3\u03b2 leading to synaptopodin degradation. Targeted delivery of a CaMK4 inhibitor to podocytes preserved ultrastructure and suppressed proteinuria in multiple mouse models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "TIPRL Regulates Stemness and Survival in Lung Cancer Stem Cells through CaMKK2-CaMK4-CREB Feedback Loop Activation (PMID: 39076120)",
+        "evidence_subtype": "pathway",
+        "summary": "In lung cancer stem cells, TIPRL binds CaMKK2 to sustain its activation, which in turn activates CaMK4, leading to phosphorylation of CREB at Ser129 and Ser133 and constitutive expression of Bcl2 and HMG20A. CREB also activates TIPRL transcription, forming a positive feedback loop (CREB-TIPRL-CaMKK2-CaMK4-CREB) that drives stemness and survival. TIPRL depletion sensitized lung cancer stem cells to afatinib-induced death and reduced metastasis in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CAMKK2-CAMK4 signaling regulates transferrin trafficking, turnover, and iron homeostasis (PMID: 32460794)",
+        "evidence_subtype": "function",
+        "summary": "Loss of CAMK4 in mice leads to abnormal post-translational modifications and turnover of transferrin in cerebellum and liver, associated with iron dyshomeostasis. In CRISPR/Cas9-deleted HEK293 cells, absence of CAMKK2-CAMK4 signaling altered intracellular Ca2+ homeostasis and disrupted receptor-mediated transferrin trafficking and TF-receptor protein complex interactions. This study establishes a mechanistic link between CAMKK2-CAMK4 signaling, intracellular Ca2+ levels, and iron homeostasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CaMK modulates sensory neural activity to control longevity and proteostasis (PMID: 40359038)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Reduced CaMK4 expression in the human frontal cortex correlates with longevity. In C. elegans, loss of the CaMK4 homolog CMK-1 increases lifespan and enhances proteostasis, primarily through suppressed excitation in AFD thermosensory neurons. This suppression promotes INS-1/insulin release from AIZ neurons, activating DAF-16/FOXO in the intestine, revealing a conserved mechanism by which CaMK regulates lifespan through sensory neural activity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Convergence on CaMK4: A Key Modulator of Autism-Associated Signaling Pathways in Neurons (PMID: 39442785)",
+        "evidence_subtype": "GWAS",
+        "summary": "CAMK4 is identified as an emerging risk gene for autism spectrum disorder (ASD), with 3 likely pathogenic variants with monogenic effect found in individuals with hyperkinetic movement disorder and comorbid ASD, and 4 additional variants showing ASD associations. At least 12 autism-associated variations in other genes impact CaMK4 signaling pathways, and 3 environmental risk factors affecting CaMK4 signaling have been identified in preclinical ASD models. CaMK4 is proposed as a convergence point in a common autism pathogenesis network.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Impaired CAMK4 Activity Limits Atherosclerosis and Reprograms Myelopoiesis (PMID: 40336480)",
+        "evidence_subtype": "expression",
+        "summary": "RNA sequencing revealed increased CaMK4 expression in advanced/unstable human carotid artery plaque, validated in both mouse and human atherosclerotic lesions with CaMK4 enriched in plaque macrophages. Camk4-/- hypercholesterolemic mice developed smaller, more stable lesions and showed peripheral monocytosis skewed toward non-classical Ly6clow monocytes. Mechanistically, CaMK4 loss promoted ATF6-mediated transcriptional regulation and increased Nr4a1 expression, driving a proreparative myeloid phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Rare variants in 5\u03b1-reductase-2 and GWAS susceptibility loci are associated with elevated androgen levels in polycystic ovary syndrome (M. Dapas et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "Whole genome sequencing of 64 two-generation PCOS families identified a significant association between rare variants in CAMK4 and elevated testosterone levels in women with polycystic ovary syndrome. The association with testosterone was genome-wide significant after correction for multiple testing. This implicates CAMK4 rare variants in androgen dysregulation in PCOS.",
+        "sample_size": "64 families",
+        "significance": "P=5.98\u00d710\u207b\u2078, Padj=0.0074"
+      }
+    ]
+  }
+}

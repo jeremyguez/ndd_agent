@@ -1,0 +1,237 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 13,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De Novo ZMYND8 variants result in an autosomal dominant neurodevelopmental disorder with cardiac malformations (PMID: 35916866)",
+        "num_patients": 11,
+        "variants": [
+          {
+            "description": "2 truncating variants (specific notation not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "cardiovascular malformations",
+              "ophthalmologic anomalies",
+              "minor skeletal anomalies"
+            ]
+          },
+          {
+            "description": "9 missense variants (one recurrent; specific notations not provided in abstract), including variants in PWWP domain and MYND domain",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "cardiovascular malformations",
+              "ophthalmologic anomalies",
+              "minor skeletal anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "10 de novo, 1 suspected de novo; international collaboration with exome sequencing, molecular modeling, yeast two-hybrid assays, transcriptomic analysis, and Drosophila knockdown model; missense variants in PWWP domain abolish interaction with Drebrin; missense variants in MYND domain disrupt interaction with GATAD2A",
+        "center_country": "International collaboration (multiple centers)",
+        "cohort": null
+      },
+      {
+        "citation": "A recurrent PJA1 variant in trigonocephaly and neurodevelopmental disorders (PMID: 32530565)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo truncation variant in ZMYND8 (specific notation not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo truncation variant identified by exome sequencing in a patient with neurodevelopmental disorder; identified among nine novel candidate genes",
+        "center_country": "Japan",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Zinc finger MYND-type containing 8 promotes tumour angiogenesis via induction of vascular endothelial growth factor-A expression (PMID: 25117453)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "suppressed angiogenesis in prostate cancer xenografts",
+          "reduced vegfa mRNA expression in prostate cancer xenografts"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ZMYND8 Expression in Breast Cancer Cells Blocks T-Lymphocyte Surveillance to Promote Tumor Growth (PMID: 33148660)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "increased micronucleus formation in breast cancer cells",
+          "activation of cGAS-STING-NF-\u03baB signaling",
+          "induction of IFN\u03b2 and interferon-stimulated genes in tumors in vivo",
+          "increased infiltration of CD4+ and CD8+ T cells",
+          "tumor inhibition in syngeneic mouse models",
+          "tumor inhibition attenuated by anti-CD4/CD8 antibodies or anti-IFNAR1 antibody",
+          "tumor inhibition attenuated in immunodeficient Rag1 KO mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Validation of ZMYND8 as a new treatment target in hepatocellular carcinoma (PMID: 34462784)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "significantly reduced tumor growth in xenograft nude mouse model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Xenopus RCOR2 (REST corepressor 2) interacts with ZMYND8, which is involved in neural differentiation (PMID: 20331974)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "overexpression of XZMYND8 inhibits neural differentiation in Xenopus embryos",
+          "XZMYND8 acts as a transcriptional repressor",
+          "co-expression with XRCOR2 in the nervous system"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chromatin reader ZMYND8 is a key target of all trans retinoic acid-mediated inhibition of cancer cell proliferation (PMID: 28232094)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "ATRA injection caused significant upregulation of ZMYND8 in 4T1-induced syngeneic tumor mouse model",
+          "anti-proliferative activity in cancer cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The RBM39 degrader indisulam inhibits acute megakaryoblastic leukemia by altering the alternative splicing of ZMYND8 (PMID: 40223119)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "indisulam treatment significantly reduced leukemic burden in AMKL mouse model",
+          "prolonged lifetime of AMKL mice",
+          "RBM39 degradation resulted in alternative splicing of ZMYND8",
+          "ZMYND8 mis-splicing contributed to AMKL cell growth inhibition"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RACK7 Interacts with PRC2 Complex to Regulate Astrocyte Development (PMID: 40125808)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "overt developmental defects associated with aberrant astrocyte development",
+          "remarkable decrease of H3K27me3 chromatin localization genome-wide in astrocytes",
+          "overactivation of Wnt signaling pathway",
+          "dysregulation of astrocyte differentiation genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "ZMYND8 protects breast cancer stem cells against oxidative stress and ferroptosis through activation of NRF2 (PMID: 38488001)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ZMYND8 is upregulated in aldehyde dehydrogenase-high breast cancer stem cells (BCSCs) and reduces ROS and iron to inhibit ferroptosis, promoting BCSC expansion and tumor initiation in mice. Mechanistically, ZMYND8 silences KEAP1 to stabilize NRF2 protein and recruits NRF2 to antioxidant gene promoters, forming a positive feedback loop where NRF2 also directly controls ZMYND8 expression in mammospheres.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting the histone reader ZMYND8 inhibits antiandrogen-induced neuroendocrine tumor transdifferentiation of prostate cancer (PMID: 40102673)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CRISPR-Cas9 screening combined with single-cell RNA sequencing showed that ZMYND8-dependent epigenetic programming orchestrates neuroendocrine prostate cancer (NEPC) transdifferentiation under antiandrogen therapy. FOXM1 stabilizes ZMYND8 binding to H3K4me1-H3K14ac chromatin regions, and the SWI/SNF complex released from androgen receptor interacts with ZMYND8-FOXM1 to upregulate neuroendocrine lineage regulators; a small molecule inhibitor iZMYND8-34 blocking ZMYND8 histone recognition effectively blocks NEPC development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The ZMYND8-regulated mevalonate pathway endows YAP-high intestinal cancer with metabolic vulnerability (PMID: 33932349)",
+        "evidence_subtype": "pathway",
+        "summary": "YAP-mediated ZMYND8 expression drives de novo cholesterol biosynthesis via the mevalonate (MVA) pathway in colorectal cancer, sensitizing YAP-high intestinal tumors to statin treatment. Mechanistically, ZMYND8 and SREBP2 drive enhancer-promoter interactions to recruit the Mediator complex and upregulate MVA pathway genes, and disruption of this pathway restricts Lgr5+ intestinal stem cell self-renewal and intestinal tumorigenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ZMYND8-regulated IRF8 transcription axis is an acute myeloid leukemia dependency (PMID: 34358447)",
+        "evidence_subtype": "function",
+        "summary": "ZMYND8 functions as a chromatin reader that directly activates IRF8 and MYC through their lineage-specific enhancers in acute myeloid leukemia (AML), and is essential for AML proliferation both in vitro and in vivo. ZMYND8 occupancy at IRF8 and MYC enhancers requires BRD4, and ZMYND8 binds the ET domain of BRD4 via its chromatin reader cassette (PHD-BRD-PWWP), which is required for proper chromatin occupancy and maintenance of leukemic growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ZMYND8 mediated liquid condensates spatiotemporally decommission the latent super-enhancers during macrophage polarization (PMID: 34764296)",
+        "evidence_subtype": "function",
+        "summary": "ZMYND8 forms liquid-liquid phase-separated condensates with NF-\u03baB/p65 to silence latent super-enhancers and restrict macrophage-mediated inflammation during polarization. Signal-induced acetylation of p65 reinforces fusion of ZMYND8 and p65 condensates, guiding ZMYND8 redistribution onto latent super-enhancers where it recruits LSD1 to decommission them; mutations that coagulate ZMYND8 into solid compartments abolish this regulatory function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zinc Finger MYND-Type Containing 8 (ZMYND8) Is Epigenetically Regulated in Mutant Isocitrate Dehydrogenase 1 (IDH1) Glioma to Promote Radioresistance (PMID: 36692427)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ZMYND8 expression is decreased in patient-derived mIDH1 glioma cell cultures (GCCs) treated with the mIDH1 inhibitor AGI-5198, and shRNA knockdown or genetic knockout of ZMYND8 sensitizes these cells to ionizing radiation. ZMYND8 KO mIDH1 GCCs show significant ATM phosphorylation and sustained \u03b3H2AX activation after irradiation, and are further sensitized by BRD4, HDAC, or PARP inhibitors, indicating ZMYND8 maintains genomic integrity and DNA damage repair in mIDH1 glioma.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The endogenous retrovirus-derived long noncoding RNA TROJAN promotes triple-negative breast cancer progression via ZMYND8 degradation (PMID: 30854423)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The lncRNA TROJAN binds directly to ZMYND8, a metastasis-repressing factor, and promotes its degradation through the ubiquitin-proteasome pathway by repelling the stabilizing protein ZNF592, thereby epigenetically upregulating metastasis-related genes in triple-negative breast cancer (TNBC). Antisense oligonucleotide therapy targeting TROJAN substantially suppressed TNBC progression in vivo, and inverse correlation between TROJAN and ZMYND8 was confirmed in clinical samples.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "USP7 deubiquitinates epigenetic reader ZMYND8 to promote breast cancer cell migration and invasion (PMID: 39128723)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "USP7 was identified as a deubiquitinase for ZMYND8, binding its PHD-BRD-PWWP domain via USP7's TRAF and UBL domains and removing FBXW7-catalyzed poly-ubiquitin chains on ZMYND8 K1034, thereby stabilizing ZMYND8 and stimulating transcription of ZEB1 and VEGFA to enhance breast cancer cell migration and invasion. USP7 protein levels positively correlate with ZMYND8 levels in breast cancer tissues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ZMYND8 Reads H3K36me2 to Activate CEBPE Transcription and Suppress Multiple Myeloma Progression through the Inhibition of Adaptive UPR Pathways (PMID: 40347515)",
+        "evidence_subtype": "function",
+        "summary": "ZMYND8 acts as a reader of the H3K36me2 histone mark via its PWWP domain and activates CEBPE transcription in multiple myeloma (MM), where CEBPE in turn represses ERN1, XBP1, and ATF6 to inhibit adaptive unfolded protein response (UPR) pathways and suppress MM cell survival. Low ZMYND8 expression correlates with adverse clinicopathological features and poor survival in MM patients, and ZMYND8 upregulation increases MM cell sensitivity to carfilzomib.",
+        "sample_size": "283 HCC cases (protein), 234 HCC cases (mRNA) referenced in a different study; MM patient cohort size not specified",
+        "significance": null
+      },
+      {
+        "citation": "The hypoxia-induced chromatin reader ZMYND8 drives HIF-dependent metabolic rewiring in breast cancer (PMID: 40912652)",
+        "evidence_subtype": "expression",
+        "summary": "ZMYND8 expression is elevated under hypoxic conditions in adherent breast cancer cells and 3D multicellular tumor spheroids (MCTS), and immunohistochemistry shows a positive correlation between ZMYND8 and HIF1\u03b1 expression in breast cancer tissues. ZMYND8 regulates glycolysis by elevating hexokinase II and lactate dehydrogenase A expression (directly promoting LDHA transcription via S5-phosphorylated RNA Pol II recruitment), bifurcating metabolism toward anaerobic glycolysis and impacting CD8+ T cell activity in the tumor microenvironment.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+# WDR5 Evidence Report: Neurodevelopmental Disorder Gene Assessment
+
+---
+
+## 1. GENE SUMMARY
+
+WDR5 (WD Repeat Domain 5) encodes a highly conserved WD40-repeat scaffold protein that serves as a core structural component of the KMT2/MLL histone H3 lysine 4 (H3K4) methyltransferase complexes (WRAD complex), which deposit the active transcription mark H3K4me3 at gene promoters. Beyond its canonical epigenetic role, WDR5 participates in multiple non-epigenetic functions including centrosome biology, DNA damage response, and protein homeostasis, and acts as a critical co-regulator of transcription factors including MYC and p53.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+- **Number of independent case reports/series:** 0 (no clinical studies were identified in the structured evidence provided)
+- **Total approximate number of patients:** 0
+- **Most common phenotypes observed:** None documented in the provided evidence
+- **Predominant variant type:** Not determinable from available evidence
+- **Known cohort representation (UDN, GREGoR, DDD, RUMC, GEL):** None identified
+- **Strength of clinical evidence: NONE**
+
+No clinical case reports, case series, or patient cohort studies linking heterozygous pathogenic variants in WDR5 to a human neurodevelopmental disorder were identified in the provided evidence. It is notable, however, that WDR5 has been implicated in the centrosome biology of cells from patients with Wiedemann-Steiner Syndrome (caused by KMT2A variants) in a functional study (PMID: 39661677), suggesting a potential phenotypic overlap with KMT2A-related disorders, but this does not constitute direct clinical evidence for WDR5 as a disease gene.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Mouse (*Mus musculus*), zebrafish (*Danio rerio*), and African clawed frog (*Xenopus laevis*) have all been used to investigate WDR5 function in vivo.
+
+**Key phenotypic findings:**
+
+- **Mouse (conditional knockout):** Conditional deletion of *Wdr5* results in embryonic lethality with complete failure of fetal erythropoiesis and hematopoietic stem and progenitor cell (HSPC) function, including decreased c-Kit expression on HSPCs (PMID: 37061728). A separate mouse embryonic stem cell study demonstrated that *Wdr5* knockout promotes neuroectodermal differentiation transiently, while prolonged inhibition redirects cells toward mesodermal fates in a p53-dependent manner, with WDR5 directly binding p53 and co-recruiting it to neural gene targets (PMID: 31940490). These findings establish a direct role for WDR5 in neural lineage specification.
+
+- **Zebrafish (full knockout):** Loss of *wdr5* causes severe reduction of the HSPC pool in caudal hematopoietic tissue, associated with attenuated H3K4 methylation, p53-dependent apoptosis, accumulation of R-loops, increased DNA damage, and impaired genomic stability (PMID: 40112113). A separate zebrafish knockout study demonstrated defective organogenesis of the intestine, liver, and exocrine pancreas, with failure of cell differentiation, retention of progenitor-like states, increased apoptosis, and reduced H3K4me3 at differentiation gene promoters (PMID: 37407577).
+
+- **Xenopus (morpholino knockdown):** *Wdr5* knockdown causes left-right patterning defects, ciliogenesis defects, reduced *foxj1* expression in monociliated cells of the left-right organizer, and a heterotaxy-like phenotype — notably through an H3K4-independent mechanism involving WDR5 localization to cilia bases (PMID: 30377171). Two independent Xenopus studies (PMIDs: 41000949 and 41459783) demonstrate that *wdr5* knockdown abolishes neural crest marker expression and causes expansion of the neural plate border and neural plate domains, with dose-dependent effects on neural crest formation. The WBM site of WDR5 is required for MYC-dependent activation of neural crest genes, and the WIN site regulates *myc* expression.
+
+**Neurological and developmental relevance:** The Xenopus neural crest and neural plate phenotypes are directly relevant to neurodevelopmental biology. The mouse stem cell data implicating WDR5 in neuroectodermal versus mesodermal fate decisions further supports a role in early neural development. Ciliogenesis defects observed in Xenopus are consistent with phenotypes seen in human ciliopathies, which frequently include neurodevelopmental features.
+
+**Lethality:** Mouse conditional knockout is embryonic lethal (PMID: 37061728), consistent with the essential nature of WDR5 and potentially explaining why biallelic loss-of-function variants are not observed in living patients — a pattern consistent with haploinsufficiency as the relevant disease mechanism for heterozygous variants.
+
+**Consistency with human neurodevelopmental phenotype:** Moderate. Neural crest defects, ciliogenesis abnormalities, and disrupted neural lineage specification are all consistent with potential human neurodevelopmental phenotypes (e.g., intellectual disability, structural brain anomalies, craniofacial features), but no direct phenotypic correlation with a defined human syndrome is yet established.
+
+**Strength of model organism evidence: MODERATE**
+
+The evidence is broad across multiple organisms and demonstrates clear roles for WDR5 in neural development, neural crest specification, and organogenesis. However, no model organism study has specifically modeled heterozygous loss-of-function to assess haploinsufficiency, and neurological phenotypes have not been characterized in detail in mammalian knockouts.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+
+WDR5 is a core scaffold of the WRAD (WDR5-RBBP5-ASH2L-DPY30) complex, which associates with KMT2/MLL family methyltransferases to deposit H3K4me3 at active gene promoters. This function is central to transcriptional regulation of developmental gene programs. Several additional non-canonical functions have been identified:
+
+1. **Centrosome and mitotic spindle regulation:** WDR5, as part of the MLL/WDR5 complex, localizes to the pericentriolar material and interacts with centriolar satellite protein Cep72 and γ-tubulin ring complex proteins (γ-TuRCs). Loss of WDR5 impairs microtubule nucleation, spindle formation, and causes chromosomal misalignment during mitosis. Importantly, this phenotype was also observed in cells from patients with Wiedemann-Steiner Syndrome (caused by *KMT2A* variants), directly linking WDR5 biology to a known neurodevelopmental syndrome (PMID: 39661677).
+
+2. **MYC interaction:** WDR5 directly interacts with MYC oncoproteins via the WBM (WDR5-binding motif) interface, creating an avidity-based chromatin recognition mechanism that modulates MYC target gene selection (PMID: 26383167). This interaction is also critical for neural crest gene activation in Xenopus (PMIDs: 41000949, 41459783).
+
+3. **Histone monoaminylation crosstalk:** H3Q5 histaminylation (H3Q5his) inhibits WDR5 binding to histone H3, thereby antagonizing H3K4 methyltransferase activity. This mechanism was demonstrated in brain tissue in the context of diurnally rhythmic gene expression, providing direct evidence for WDR5 function in the brain (PMID: 39779849).
+
+4. **DNA damage and homologous recombination:** WDR5 has been identified as a DCAF protein facilitating Cul4A-mediated proteolysis of RAD51 and CHK1, revealing a role in regulating homologous recombination protein stability (PMID: 41935081). In zebrafish, loss of WDR5 leads to R-loop accumulation and impaired DNA damage response (PMID: 40112113).
+
+5. **p53 interaction:** WDR5 directly binds p53 and co-recruits it to neural gene targets, integrating epigenetic and tumor suppressor signaling during neural differentiation (PMID: 31940490).
+
+6. **Vascular and inflammatory pathways:** WDR5 participates in lncRNA-mediated H3K4me3 regulation of cell cycle genes in pulmonary arterial smooth muscle cells (PMID: 39360410) and in STING-mediated NLRP3 inflammasome activation in hepatocytes (PMID: 37018971), indicating broad tissue expression and function.
+
+**Expression pattern (neurodevelopmental relevance):** WDR5 is expressed in brain tissue, as evidenced by the histaminylation study demonstrating its role in diurnal rhythmic gene expression in the brain (PMID: 39779849). Its interaction with MYC in neural crest specification and its role in neuroectodermal differentiation further support brain-relevant expression. WDR5 is also highly expressed in cancer stem cells of glioblastoma, where it maintains the SOX2-enriched stem cell niche (PMID: 36732025), consistent with a role in neural stem cell biology.
+
+**Strength of biological evidence: MODERATE**
+
+WDR5 has well-characterized molecular functions in H3K4 methylation, transcriptional regulation, centrosome biology, and DNA damage response. Its expression and function in brain tissue and neural lineages are supported by multiple independent studies. The connection to Wiedemann-Steiner Syndrome biology via KMT2A is particularly noteworthy. However, direct functional evidence specifically linking WDR5 haploinsufficiency to neurodevelopmental gene regulation in humans remains limited.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: LIMITED**
+
+**Key strengths:**
+- Robust model organism data across three species (mouse, zebrafish, Xenopus) consistently demonstrate that WDR5 is essential for neural crest specification, neural lineage determination, and organogenesis, with embryonic lethality upon complete loss in mice.
+- Strong biological plausibility: WDR5 functions in H3K4me3 deposition, centrosome biology, and MYC-dependent transcription — all pathways implicated in neurodevelopmental disorders. Its functional connection to KMT2A (the gene mutated in Wiedemann-Steiner Syndrome) is particularly compelling (PMID: 39661677).
+- WDR5 is expressed and functionally active in brain tissue (PMID: 39779849) and neural stem cells (PMID: 36732025).
+
+**Key gaps and limitations:**
+- **No clinical evidence exists** in the provided data: there are no reported patients with heterozygous pathogenic WDR5 variants and a neurodevelopmental phenotype. This is the most critical gap.
+- No heterozygous model organism studies have been performed to assess haploinsufficiency, which is the proposed mechanism for autosomal dominant disease.
+- Neurological phenotypes have not been specifically characterized in mammalian (mouse) conditional knockouts; existing mouse data focus on hematopoiesis.
+- Population-level constraint data (e.g., gnomAD pLI/LOEUF scores) are not provided, which would be important for assessing haploinsufficiency tolerance.
+
+**Conclusion:** WDR5 is a biologically compelling candidate neurodevelopmental disorder gene based on its essential roles in neural crest specification, neuroectodermal differentiation, H3K4me3 epigenetic regulation, and centrosome function — the latter directly linked to Wiedemann-Steiner Syndrome biology. However, the complete absence of clinical case reports documenting patients with heterozygous WDR5 variants and neurodevelopmental phenotypes means that the current evidence is insufficient to classify WDR5 as an established autosomal dominant neurodevelopmental disorder gene. Prospective identification and reporting of patients through large-scale sequencing cohorts (e.g., UDN, GREGoR, DDD) is needed to elevate the evidence classification.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. Wdr5 is essential for fetal erythropoiesis and hematopoiesis. (PMID: 37061728)
+2. p53 Integrates Temporal WDR5 Inputs during Neuroectoderm and Mesoderm Differentiation of Mouse Embryonic Stem Cells. (PMID: 31940490)
+3. Wdr5-mediated H3K4 methylation facilitates HSPC development via maintenance of genomic stability in zebrafish. (PMID: 40112113)
+4. Wdr5-mediated H3K4me3 coordinately regulates cell differentiation, proliferation termination, and survival in digestive organogenesis. (PMID: 37407577)
+5. WDR5 regulates left-right patterning via chromatin-dependent and -independent functions. (PMID: 30377171)
+6. WDR5 and Myc Cooperate to Regulate Formation of Neural Crest Stem Cells. (PMID: 41000949)
+7. Wdr5 and Myc cooperate to regulate formation of neural crest stem cells. (PMID: 41459783)
+8. STING mediates hepatocyte pyroptosis in liver fibrosis by Epigenetically activating the NLRP3 inflammasome. (PMID: 37018971)
+
+### Biological Evidence
+1. MLL/WDR5 complex recruits centriolar satellite protein Cep72 to regulate microtubule nucleation and spindle formation (PMID: 39661677)
+2. The MYC-WDR5 Nexus and Cancer (PMID: 26383167)
+3. Bidirectional histone monoaminylation dynamics regulate neural rhythmicity (PMID: 39779849)
+4. Targeting IP(6) signaling to destabilize homologous recombination proteins to overcome PARP inhibitor resistance (PMID: 41935081)
+5. lncRNA VELRP Modulates Pulmonary Arterial Smooth Muscle Cell Proliferation and Promotes Vascular Remodeling in Pulmonary Hypertension (PMID: 39360410)
+6. WDR5 represents a therapeutically exploitable target for cancer stem cells in glioblastoma (PMID: 36732025)

@@ -1,0 +1,109 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 1,
+    "biological": 12
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Identifying the Fourth Patient With Spastic Paraplegia 90, Extending the Phenotype Spectrum (PMID: 40533086)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.Thr51Ile",
+            "type": "missense",
+            "phenotypes": [
+              "global developmental delay",
+              "inability to walk",
+              "axial hypotonia",
+              "extremity spasticity",
+              "dystonia",
+              "distal renal tubular acidosis",
+              "recurrent urinary tract infections",
+              "nephrolithiasis",
+              "neurogenic bladder",
+              "primary polydipsia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous pathogenic variant identified by exome sequencing; recurrent variant previously detected in two other reported patients with SPG90",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "SPTSSA variants alter sphingolipid synthesis and cause a complex hereditary spastic paraplegia (PMID: 36718090)",
+        "evidence_subtype": "function",
+        "summary": "SPTSSA encodes an activating subunit of serine palmitoyltransferase (SPT), the rate-limiting enzyme of de novo sphingolipid synthesis. Two pathogenic variants in SPTSSA (missense p.Thr51Ile and a frameshift) impaired negative regulation of SPT by ORMDL proteins, leading to excessive sphingolipid synthesis. This caused a complex hereditary spastic paraplegia with progressive motor disturbance, variable sensorineural hearing loss, and language/cognitive dysfunction in three children.",
+        "sample_size": "3 patients",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - SPTSSA variants alter sphingolipid synthesis and cause a complex form of hereditary spastic paraplegia",
+        "evidence_subtype": "fly_worm",
+        "summary": "Overexpression of human SPT in Drosophila caused excessive sphingolipid synthesis, severe motor defects, and shortened lifespan. Co-expression of human ORMDL3 rescued phenotypes in flies expressing wild-type SPT but failed to rescue flies expressing the SPTSSA p.Thr51Ile variant, confirming that this variant abrogates ORMDL regulation of SPT in vivo. Elevated sphingolipids were also confirmed in serum and fibroblasts from patients.",
+        "sample_size": "3 patients",
+        "significance": null
+      },
+      {
+        "citation": "Structural insights into the assembly and substrate selectivity of human SPT-ORMDL3 complex (PMID: 33558762)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Cryo-EM structures of the human SPT complex revealed that SPTSSA (SPTssa) participates in acyl-CoA coordination, stimulating SPT activity and regulating substrate selectivity. SPTSSA is a component of the SPT complex alongside SPTLC1 and SPTLC2, and its structural role in acyl-CoA binding was directly visualized. ORMDL3 is located at the center of the complex and stabilizes SPT assembly, with SPTSSA Thr51 residing in close association with ORMDL3.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A genome-wide CRISPR/Cas9 screen reveals that the aryl hydrocarbon receptor stimulates sphingolipid levels (PMID: 32029474)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPR/Cas9 loss-of-function screen in HeLa cells identified SPTSSA as required for globotriaosylceramide (Gb3) biosynthesis. The aryl hydrocarbon receptor (AHR) was found to bind and activate the SPTSSA gene promoter, upregulating its expression and thereby stimulating de novo sphingolipid synthesis. AHR knockout cells showed reduced Gb3 and decreased SPTSSA expression, and Ahr knockout mouse sciatic nerve showed reduced ceramide content and myelin thickness.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Human Rhinovirus Infection of the Respiratory Tract Affects Sphingolipid Synthesis (PMID: 34851798)",
+        "evidence_subtype": "expression",
+        "summary": "Rhinovirus (RV) infection in mice shifted lung sphingolipid synthesis gene expression to a pattern resembling genetic SPT deficiency, including decreased expression of Sptssa, particularly in lung epithelial (EpCAM+) cells. This pattern was reproduced in human bronchial epithelial cells infected with RV, but RV did not affect Sptssa expression in lung CD45+ immune cells. RV exacerbated SPT deficiency-associated airway hyperreactivity, linking Sptssa downregulation to asthma-relevant pathophysiology.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SPTSSA facilitates gastric cancer progression with modulating PD-L1 in immunomicroenvironment through Wnt/\u03b2-catenin pathway (PMID: 40498284)",
+        "evidence_subtype": "pathway",
+        "summary": "SPTSSA overexpression enhanced malignant phenotypes of gastric cancer cells in vitro and in vivo, mechanistically by facilitating \u03b2-catenin accumulation and PD-L1 transcription through the Wnt signaling pathway. Elevated SPTSSA expression was associated with reduced CD8+ T cell infiltration, increased M2 macrophage infiltration, and increased PD-L1 expression in patient tumors. SPTSSA protein was markedly elevated in GC tissues and peripheral venous blood compared to controls.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SPTSSA Is a Prognostic Marker for Glioblastoma Associated with Tumor-Infiltrating Immune Cells and Oxidative Stress (PMID: 36062185)",
+        "evidence_subtype": "expression",
+        "summary": "SPTSSA expression was significantly upregulated in diffuse glioma compared to normal brain tissues and was associated with poor survival in GEPIA and CGGA databases. GSEA identified enrichment of SPTSSA-associated genes in oxidative stress-related GO terms. SPTSSA expression was significantly correlated with tumor-infiltrating immune cell populations as assessed by CIBERSORT, TIMER, and confirmed by IHC/IF.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SPTSSA in Head and Neck Squamous Cell Carcinoma: Prognostic Significance and Implications for Gene- and Cell-Based Therapy (PMID: 42051093)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SPTSSA expression was significantly higher in HNSCC tissues than in non-tumoral tissues, and overexpression of SPTSSA in HNSCC cell lines enhanced cell proliferation in vitro, supporting a pro-tumorigenic function. In tumor tissues, SPTSSA protein expression correlated with CD4+ T cells, CD8+ T cells, and CD56+ NK cells, indicating immune remodeling in the TME. Elevated circulating SPTSSA protein in patient blood was proposed as a non-invasive diagnostic biomarker.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Decreased SPTLC1 expression predicts worse outcomes in ccRCC patients (PMID: 31512789)",
+        "evidence_subtype": "pathway",
+        "summary": "Bioinformatics co-expression analysis in clear cell renal cell carcinoma identified SPTSSA as one of 10 genes significantly co-regulated with SPTLC1, placing SPTSSA within the sphingomyelin metabolism network. SPTSSA was identified alongside SPTLC2, SPTLC3, SPTSSB, and ORMDL1-3 as part of the serine palmitoyltransferase complex gene network relevant to cancer biology. This supports SPTSSA's membership in the sphingolipid biosynthesis pathway with potential roles in cancer progression.",
+        "sample_size": "429 (TCGA cohort)",
+        "significance": "p<0.001"
+      },
+      {
+        "citation": "Development and Validation of Ischemic Events Related Signature After Carotid Endarterectomy (PMID: 35372347)",
+        "evidence_subtype": "other",
+        "summary": "SPTSSA was identified as one of eight genes in a predictive model for ischemic events after carotid endarterectomy, derived from weighted gene co-expression network analysis of peripheral blood mononuclear cells. The eight-gene model including SPTSSA achieved ROC-AUCs of 0.891 (train), 0.826 (validation), and 0.792 (independent cohort). High-risk patients defined by this model showed enhanced immune signatures, suggesting SPTSSA's expression in peripheral immune cells may be relevant to vascular disease outcomes.",
+        "sample_size": "98 samples (66 train, 28 validation, 50 independent cohort)",
+        "significance": "AUC=0.891 (train), AUC=0.792 (independent cohort)"
+      }
+    ]
+  }
+}

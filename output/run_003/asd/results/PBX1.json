@@ -1,0 +1,377 @@
+{
+  "articles_found": {
+    "clinical": 23,
+    "model_organism": 21,
+    "biological": 28
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2017 - De novo, deleterious sequence variants that alter the transcriptional activity of the homeoprotein PBX1 are associated with intellectual disability and pleiotropic developmental defects. (Slavotinek A, Risolino M, Losa M, et al.)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "p.Arg184Pro",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          },
+          {
+            "description": "p.Met224Lys",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          },
+          {
+            "description": "p.Arg227Pro",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          },
+          {
+            "description": "p.Arg234Pro",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          },
+          {
+            "description": "p.Arg235Gln",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          },
+          {
+            "description": "p.Ser262Glnfs*2",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          },
+          {
+            "description": "p.Arg288*",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "external ear anomalies",
+              "branchial arch derivative abnormalities",
+              "heart malformations",
+              "diaphragmatic hernia",
+              "pulmonary hypoplasia",
+              "renal hypoplasia",
+              "cryptorchidism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous variants; functional studies demonstrated abnormal cellular processes including perturbation of PBX-dependent transactivation, altered nuclear translocation, and abnormal interactions with TALE/HOX cofactors; phenotype resembles Pbx1 mutant mice",
+        "center_country": "Multiple centers (USA, Australia, Netherlands); includes UCSF, University of Groningen, Sydney Children's Hospital among others",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Requirement for Pbx1 in skeletal patterning and programming chondrocyte proliferation and differentiation (PMID: 11566859)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Embryonic lethality at E15/16",
+          "Severe hypoplasia or aplasia of multiple organs",
+          "Widespread patterning defects of axial and appendicular skeleton",
+          "Malformations of proximal limb skeletal elements",
+          "Multiple rib and vertebral malformations",
+          "Neural crest cell-derived skeletal structures of second branchial arch transformed into first arch-derived cartilage elements",
+          "Markedly diminished chondrocyte proliferation in affected domains",
+          "Increased hypertrophic chondrocytes",
+          "Premature ossification of bone",
+          "Precocious expression of Col1a1 (marker of bone formation)"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of PBX1 function in Leydig cells causes testicular dysgenesis and male sterility (PMID: 38724675)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Spermatogenic defects",
+          "Complete male sterility",
+          "Impaired testicular structure",
+          "Disorganization of seminiferous tubules",
+          "Altered fate decisions of progenitor Leydig cells",
+          "Altered transcription of genes associated with testosterone synthesis",
+          "Significant decrease in testosterone levels",
+          "Increases in pregnenolone, androstenedione, and luteinizing hormone",
+          "Dysregulated expression of Prlr, Nr2f2, and Nedd4"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PBX1-directed stem cell transcriptional program drives tumor progression in myeloproliferative neoplasm (PMID: 34678207)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Absence of thrombocythemia and granulocytosis in JAK2V617F background without PBX1",
+          "Erythrocytosis initially present but gradually resolved over time",
+          "Absence of splenic myeloid metaplasia",
+          "Absence of cytokine-independent growth in vitro",
+          "Reversion of aberrant transcriptome in stem/progenitor cells from MPN model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Essential role for Pbx1 in corneal morphogenesis (PMID: 19797217)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Corneal dystrophy apparent in newborns, progressively worsening with age",
+          "Corneal clouding",
+          "Thickening of corneal epithelium",
+          "Stromal infiltration with atypical basal cells",
+          "Severe disorganization of stromal collagen matrix",
+          "Loss of corneal barrier function",
+          "High epithelial cell turnover",
+          "Perturbed expression of developmental regulators",
+          "Aberrant corneal differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A PBX1-IL7R axis mediates liver fibrosis in non-alcoholic fatty liver disease (PMID: 40885520)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Significant attenuation of liver fibrosis induced by CDAA-HFD feeding",
+          "No influence on liver injury or steatosis",
+          "Reduced myofibroblast activation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Meis1, Hi1\u03b1, and GATA1 are integrated into a hierarchical regulatory network to mediate primitive erythropoiesis (PMID: 34496088)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Weak gata1 expression",
+          "Failure to produce primitive erythrocytes",
+          "Abrogated primitive erythropoiesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting TNF/IL-17/MAPK pathway in hE2A-PBX1 leukemia: effects of OUL35, KJ-Pyr-9, and CID44216842 (PMID: 38385270)",
+        "organism": "zebrafish",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Myeloid hyperplasia in larvae",
+          "Increased myeloid differentiation propensity of hematopoietic stem cells",
+          "Progression to AML in adults",
+          "Activation of TNF/IL-17/MAPK signaling pathway in blood cells",
+          "Upregulation of runx1 expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Prep1, A Homeodomain Transcription Factor Involved in Glucose and Lipid Metabolism (PMID: 30002646)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Pancreatic islet malformations (single Pbx1 knockout)",
+          "Impaired glucose tolerance (single Pbx1 knockout)",
+          "Hypoinsulinemia (single Pbx1 knockout)",
+          "Age-dependent overt diabetes mellitus in trans-heterozygous Pbx1+/-Pdx1+/- mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-Binding Protein Hnrnpa1 Triggers Daughter Cardiomyocyte Formation by Promoting Cardiomyocyte Dedifferentiation and Cell Cycle Activity in a Post-Transcriptional Manner (PMID: 39559922)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Inhibited cardiac regeneration in neonatal MI model",
+          "Worsened cardiac function after myocardial infarction",
+          "Reduced Pbx1 expression (as downstream target of Hnrnpa1/Mettl3 pathway)",
+          "Decreased cardiomyocyte dedifferentiation and cell cycle activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Meis2 controls skeletal formation in the hyoid region (PMID: 36247013)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Severely reduced expression of PBX1 in the hyoid region (as downstream consequence of Meis2 cKO)",
+          "Aberrant hyoid apparatus with complete skeletal chain from neurocranium base to lesser horns",
+          "Ectopic mesenchymal condensations",
+          "Ectopic cartilage and bone formation",
+          "Disinhibition of skeletogenesis",
+          "Elevated proliferation of cartilage precursors"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Cicero Predicts cis-Regulatory DNA Interactions from Single-Cell Chromatin Accessibility Data (PMID: 30078726)",
+        "evidence_subtype": "function",
+        "summary": "In differentiating myoblasts, a subset of DNA elements bound by MYOD1 exhibit early chromatin opening in a PBX1- and MEIS1-dependent manner. PBX1 acts as a pioneer factor facilitating chromatin accessibility at regulatory elements that form 'chromatin hubs' coordinating gene regulation during myoblast differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pre-B-cell leukemia transcription factor 1 contributes to liver fibrosis by enabling IL-7 signaling in HSC (PMID: 40080840)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PBX1 was identified as the most prominently upregulated transcription factor during hepatic stellate cell (HSC) activation in liver fibrosis. PBX1 knockdown attenuated HSC-to-myofibroblast transition in vitro and liver fibrosis in mice, acting via transcriptional activation of IL7R/CD127 to promote pro-fibrogenic signaling. Notch3 was shown to mediate PBX1 upregulation at the transcriptional level in HSCs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PBX1-promoted SFRP4 transcription inhibits cell proliferation and epithelial-mesenchymal transition in endometrial carcinoma (PMID: 37054536)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PBX1 and SFRP4 are downregulated in endometrial carcinoma cells; overexpression of PBX1 suppressed cell proliferation, migration, and invasion. PBX1 directly bound the SFRP4 promoter (confirmed by ChIP and luciferase assays) and promoted its transcription, thereby inhibiting Wnt/\u03b2-catenin pathway activation and the EMT process.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Molecular Mechanisms of Lupus Susceptibility Allele PBX1D (PMID: 37486226)",
+        "evidence_subtype": "function",
+        "summary": "The dominant-negative splice isoform PBX1D, which lacks DNA- and Hox-binding domains, is more frequently expressed in CD4+ T cells from lupus-prone mice and SLE patients. PBX1D is less stable than PBX1B due to ubiquitin-proteasome-dependent degradation at K292-K293, and is retained in the cytoplasm without MEIS/PREP1 cofactors, impairing regulatory T cell homeostasis and expanding inflammatory CD4+ T cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The histone lysine acetyltransferase HBO1 (KAT7) regulates hematopoietic stem cell quiescence and self-renewal (PMID: 34724565)",
+        "evidence_subtype": "expression",
+        "summary": "Pbx1 is among the genes essential for hematopoietic stem cell (HSC) quiescence and self-renewal that are downregulated in HSC-enriched cell populations after conditional deletion of Hbo1 in mice. HBO1-mediated H3K14 acetylation at the Pbx1 locus is required for its expression, placing PBX1 within a transcription factor network critical for HSC maintenance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pbx1 overexpression delays cochlear hair cells degeneration in an accelerated aging mouse model (PMID: 41581416)",
+        "evidence_subtype": "expression",
+        "summary": "PBX1 expression shows a striking age-dependent reduction in mouse cochlear hair cells. AAV-mediated Pbx1 overexpression in vivo improved auditory function and preserved hair cell structure in an age-related hearing loss mouse model, establishing PBX1 as a key mediator of hair cell aging.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - De novo, deleterious sequence variants that alter the transcriptional activity of the homeoprotein PBX1 are associated with intellectual disability and pleiotropic developmental defects (ASHG 2017)",
+        "evidence_subtype": "function",
+        "summary": "Seven patients with heterozygous de novo PBX1 variants presented with intellectual disability and multi-organ developmental defects mirroring those in Pbx1-/- mice (ear, heart, lung, kidney, diaphragm anomalies). Functional studies on five variants showed impaired PBX-dependent transactivation, altered nuclear translocation, and abnormal interactions with TALE/HOX cofactors, confirming that PBX1 forms multimeric complexes to regulate target gene transcription during development.",
+        "sample_size": "7 patients",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2013 - Interrogating the PBX-WNT-TP63 pathway in human nonsyndromic cleft lip/palate (ASHG 2013)",
+        "evidence_subtype": "GWAS",
+        "summary": "Family-based association analyses in 829 NSCL/P families identified PBX1 SNP rs1044263 as associated with nonsyndromic cleft lip/palate in Hispanic multiplex families (p=0.002), providing the first human genetic evidence for PBX1 involvement in craniofacial morphogenesis. This is consistent with the fully penetrant CL/P phenotype observed in Pbx-knockout mice and the Pbx-Wnt-p63-Irf6 regulatory module controlling facial morphogenesis.",
+        "sample_size": "829 families (513 WNH + 316 Hispanic)",
+        "significance": "p=0.002"
+      },
+      {
+        "citation": "ASHG 2011 - Analysis of time-series embryonic diaphragm transcriptomes identifies Pbx1 as a candidate gene for diaphragmatic defects (ASHG 2011)",
+        "evidence_subtype": "other",
+        "summary": "Computational analysis of time-series embryonic mouse diaphragm transcriptomes identified Pbx1 as a top candidate gene for congenital diaphragmatic hernia (CDH). Ex vivo examination of Pbx1 knockout mouse embryos at E15.5 revealed diaphragmatic defects in 3/3 animals, validating PBX1 as a CDH-associated gene involved in muscle differentiation and mesodermal patterning.",
+        "sample_size": "3 knockout embryos",
+        "significance": null
+      },
+      {
+        "citation": "Aberrant Expression and Oncogenic Activity of SPP1 in Hodgkin Lymphoma (PMID: 40149711)",
+        "evidence_subtype": "function",
+        "summary": "Aberrantly expressed PBX1, together with HOXB9, mediates transcriptional activation of SPP1 (osteopontin) in Hodgkin lymphoma cell line SUP-HD1, as demonstrated by transcription factor binding site analysis and functional knockdown experiments. This identifies PBX1 as a direct transcriptional activator of an oncogenic cytokine in a B-cell malignancy context.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

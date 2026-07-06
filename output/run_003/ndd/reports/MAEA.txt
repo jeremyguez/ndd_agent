@@ -1,0 +1,125 @@
+# MAEA as a Neurodevelopmental Disorder Gene: Literature Evidence Report
+
+---
+
+## 1. GENE SUMMARY
+
+MAEA (Macrophage Erythroblast Attacher) encodes a membrane-associated E3 ubiquitin ligase subunit that functions as a core component of the CTLH (C-terminal to LisH) E3 ubiquitin ligase complex, mediating ubiquitin-dependent proteasomal degradation of diverse substrates involved in DNA repair, autophagy, cell signaling, and developmental patterning. Beyond its originally described role in erythroblastic island formation, MAEA has emerged as a critical regulator of homologous recombination (HR)-dependent DNA repair and replication fork stability, with recent evidence directly implicating pathogenic variants in human neurodevelopmental disease.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports:** Two independent publications describe MAEA variants in the context of human neurodevelopmental or developmental disorders.
+
+**Total approximate number of patients:** At least 8 patients are explicitly reported across the two studies. One study (PMID: 41420108) describes 8 patients with missense variants in MAEA presenting with a neurodevelopmental disorder designated DIADEM (Developmental delay, Intellectual disability, and Abnormalities with DNA rEplication and repair Mechanism, or similar nomenclature). A second study (PMID: 40880485) characterizes four specific pathogenic missense variants (p.R34C, p.E349G, p.Y394D, p.M396R) associated with a developmental disorder, though the precise number of patients is not specified in the available abstract data.
+
+**Most common phenotypes observed:**
+- Developmental delay and intellectual disability (PMID: 41420108)
+- Microcephaly (PMID: 40880485)
+- Craniofacial abnormalities (PMID: 40880485)
+- Ocular defects (PMID: 40880485)
+- Congenital heart malformations (PMID: 40880485)
+- Neurodevelopmental disorder (both studies)
+
+**Predominant variant type:** All reported pathogenic variants are missense variants. No loss-of-function (nonsense, frameshift, or splice-site) variants are described in the available evidence, which may suggest that complete loss of function is not tolerated (consistent with perinatal lethality observed in homozygous mouse knockouts) and that disease-causing alleles in humans represent hypomorphic or dominant-negative missense changes. The inheritance pattern (heterozygous autosomal dominant vs. biallelic recessive) is not explicitly stated in the available abstracts, representing a key gap.
+
+**Cohort affiliation:** No explicit affiliation with named research cohorts (UDN, GREGoR, DDD, RUMC, Genomics England GEL) is documented in the available evidence.
+
+**Strength of clinical evidence: LIMITED to MODERATE**
+While two independent publications now link MAEA missense variants to human developmental and neurodevelopmental phenotypes, the total patient numbers remain small, individual variant-level clinical data are incompletely reported, inheritance mode is not clearly specified, and neither study has been conducted within a large, well-characterized rare disease cohort. The convergence of two independent groups on overlapping phenotypes and the functional validation of specific variants elevate the evidence above purely anecdotal, but the clinical dataset remains nascent.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Mouse (*Mus musculus*) and African clawed frog (*Xenopus laevis*).
+
+**Key phenotypes from knockouts and knockdowns:**
+
+- **Mouse – full knockout (PMID: 33947846):** Homozygous Maea-null mice develop a lethal myeloproliferative syndrome with severely impaired hematopoietic stem cell (HSC) quiescence, stabilization of cytokine receptors (MPL, FLT3), impaired autophagy flux in HSCs, and loss of lymphoid potential. Mice die perinatally.
+
+- **Mouse – conditional knockout in macrophages (PMID: 30674470):** Macrophage-specific deletion (Csf1r-Cre or CD169-Cre) causes severe reductions in bone marrow macrophages and erythroblasts, impaired erythroblastic island formation, and perinatal lethality with anemia and defective erythrocyte enucleation. Erythroid-lineage deletion had no such phenotype, establishing a cell-type-specific role.
+
+- **Mouse – DNA repair context (PMID: 41420108):** MAEA is identified as a critical regulator of HR-dependent DNA repair and replication stress response; MAEA dysfunction reduces RAD51 loading at DNA damage sites and impairs replication fork restart and protection. This study bridges mouse functional data with the human neurodevelopmental phenotype.
+
+- **Xenopus laevis – knockdown (PMID: 36444483):** Maea knockdown in *X. laevis* embryos interferes with head formation, while overexpression of maea.S at the anterior dorsal region enlarges head structures. Mechanistically, Maea promotes ubiquitination and degradation of β-catenin, suppressing canonical Wnt target genes (nodal3.1, sia1) and modulating craniofacial/axis patterning. This is directly relevant to the microcephaly and craniofacial abnormalities observed in human patients.
+
+- **Mouse – macrophage/infection context (PMID: 39472457):** CTLH complex (including MAEA) knockout macrophages show enhanced GABAergic signaling, activated AMPK, increased autophagic flux, and resistance to Mycobacterium tuberculosis-induced necrotic cell death, further supporting MAEA's role in autophagy regulation.
+
+**Consistency with human phenotype:** The Xenopus data showing head formation defects upon maea loss are directly consistent with the microcephaly and craniofacial abnormalities reported in human patients (PMID: 40880485). The mouse DNA repair data (PMID: 41420108) are mechanistically consistent with the neurodevelopmental phenotype, as defective HR and replication fork protection during embryonic neurogenesis would be expected to impair brain development. The perinatal lethality of homozygous mouse knockouts is consistent with the hypothesis that human patients carry hypomorphic missense variants rather than complete loss-of-function alleles.
+
+**Strength of model organism evidence: MODERATE**
+The Xenopus craniofacial phenotype and the mouse DNA repair data provide meaningful mechanistic and phenotypic support for the human disease association. However, no mouse model has been reported that specifically recapitulates the neurodevelopmental phenotype through knock-in of human pathogenic variants, and neurological phenotypes have not been systematically characterized in existing mouse models.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+MAEA functions as the catalytic RING-domain-containing E3 ubiquitin ligase subunit of the CTLH complex. Its documented substrates and pathways include:
+
+1. **DNA repair / replication fork stability:** MAEA mediates ubiquitylation of Ku80, enabling its removal from stalled replication fork ends and facilitating RAD51 loading for HR-dependent repair (PMID: 40880485). Loss of MAEA impairs RAD51 recruitment and increases sensitivity to replication stress (PMID: 41420108).
+
+2. **Autophagy and HSC maintenance:** MAEA promotes autophagy flux in HSCs by targeting cytokine receptors (MPL, FLT3) for ubiquitin-mediated degradation; its loss stabilizes these receptors and causes myeloproliferative disease (PMID: 33947846).
+
+3. **mTORC1 regulation:** MAEA-mediated degradation of CTLH substrates ZMYND19 and MKLN1 at the lysosomal membrane modulates mTORC1 activity; MAEA knockout causes accumulation of these substrates, which inhibit mTORC1 by blocking its interaction with Rheb (PMID: 41315365).
+
+4. **Wnt/β-catenin signaling:** MAEA promotes ubiquitination and proteasomal degradation of β-catenin, suppressing canonical Wnt signaling during embryonic head/axis patterning (PMID: 36444483).
+
+5. **HIF-1α/PHD3 axis:** In glioblastoma, MAEA ubiquitinates and degrades PHD3 (K48-linked, at K159), stabilizing HIF-1α and promoting tumor stemness (PMID: 36882523).
+
+6. **PARP1 degradation:** MAEA mediates K48-linked ubiquitination and degradation of PARP1 in gastrointestinal cancer cells, suppressing tumor proliferation and chemoresistance (PMID: 39990651).
+
+7. **Gluconeogenesis:** Overexpression of MAEA in primary mouse hepatocytes attenuates hepatic gluconeogenesis and suppresses HNF-4α, consistent with GWAS associations linking the MAEA/CTBP1 locus to type 2 diabetes susceptibility in East Asian populations (PMID: 28955747; ASHG 2011 – Hara et al.; PMID: 40399988).
+
+**Expression pattern and neurodevelopmental relevance:** In *Xenopus*, maea transcripts are ubiquitously expressed during early embryonic development (PMID: 36444483), consistent with a broad developmental role. The involvement of MAEA in HR-dependent DNA repair is particularly relevant to neurodevelopment, as proliferating neural progenitor cells are highly dependent on accurate DNA replication and repair; defects in this pathway are a recognized cause of primary microcephaly and neurodevelopmental disorders (e.g., MCPH genes, Fanconi anemia pathway). Specific brain expression data in mammals are not reported in the available evidence.
+
+**Key experimental findings:**
+- Functional assays confirmed that all four human pathogenic variants (p.R34C, p.E349G, p.Y394D, p.M396R) are defective in replication stress response (PMID: 40880485).
+- Patient-derived cell lines from DIADEM patients show defects in HR-dependent DNA repair and replication fork restart/protection (PMID: 41420108).
+- CRISPR screens identified MAEA as a top hit for replication stress sensitivity (PMID: 41420108).
+- MAEA loss impairs RAD51 recruitment at stalled replication forks, a hallmark of HR deficiency (PMID: 40880485).
+
+**Strength of biological evidence: MODERATE to STRONG**
+The molecular mechanism linking MAEA to DNA replication fork stability and HR-dependent repair is well-supported by multiple independent functional assays and is mechanistically coherent with the observed human phenotype. The breadth of MAEA's ubiquitin ligase substrates and its roles in Wnt signaling and head patterning further support plausibility. The primary limitation is the absence of detailed brain-specific expression data and the lack of knock-in mouse models carrying human pathogenic variants.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+- Two independent research groups have identified MAEA missense variants in patients with overlapping developmental and neurodevelopmental phenotypes (PMID: 41420108; PMID: 40880485), providing initial clinical convergence.
+- Functional validation of specific patient variants in cellular assays demonstrates a mechanistic defect (impaired replication fork protection and RAD51 loading) that is biologically plausible for causing microcephaly and neurodevelopmental delay (PMID: 40880485; PMID: 41420108).
+- Model organism data in *Xenopus* directly recapitulate craniofacial/head formation phenotypes upon maea loss (PMID: 36444483), and mouse models confirm the essential developmental role of MAEA.
+- The molecular mechanism (HR-dependent DNA repair) is well-established as a cause of neurodevelopmental disorders, providing strong biological plausibility.
+
+**Key gaps and limitations:**
+- The inheritance mode (autosomal dominant heterozygous vs. autosomal recessive biallelic) is not clearly established from the available abstracts; given perinatal lethality of homozygous mouse knockouts, biallelic hypomorphic variants in humans remain a possibility that must be distinguished from a dominant mechanism.
+- Total patient numbers are small (minimum 8 explicitly reported), individual variant-level genotype-phenotype data are incompletely described, and no patients are reported from large, well-characterized rare disease cohorts (UDN, DDD, GEL).
+- No knock-in mouse model carrying human pathogenic variants has been reported, and neurological phenotypes have not been systematically characterized in existing mouse models.
+- Brain-specific expression data for MAEA in mammals are lacking in the available evidence.
+
+**Conclusion:** MAEA has emerging evidence supporting its role as a neurodevelopmental disorder gene, with two independent publications identifying missense variants in patients with developmental delay, intellectual disability, microcephaly, and congenital anomalies, supported by functional validation of variant-level defects in DNA replication fork stability and HR-dependent repair. The evidence is currently at a MODERATE level, sufficient to warrant inclusion in neurodevelopmental gene panels and further case ascertainment, but not yet sufficient to establish definitive disease causation without clarification of inheritance mode, expansion of the patient cohort, and development of in vivo knock-in models. Prioritized next steps include international data sharing to identify additional patients, segregation analysis in families, and generation of humanized mouse models to confirm pathogenicity.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Loss of CTLH component MAEA impairs DNA repair and replication and leads to developmental delay. (PMID: 41420108)
+2. Pathogenic variants in MAEA disrupt DNA replication fork stability and are associated with developmental abnormalities in humans. (PMID: 40880485)
+
+### Model Organism Evidence
+1. MAEA is an E3 ubiquitin ligase promoting autophagy and maintenance of haematopoietic stem cells (PMID: 33947846)
+2. Maea expressed by macrophages, but not erythroblasts, maintains postnatal murine bone marrow erythroblastic islands (PMID: 30674470)
+3. maea affects head formation through ß-catenin degradation during early Xenopus laevis development (PMID: 36444483)
+4. Genome-wide screen of Mycobacterium tuberculosis-infected macrophages revealed GID/CTLH complex-mediated modulation of bacterial growth (PMID: 39472457)
+
+### Biological Evidence
+1. The CTLH ubiquitin ligase substrates ZMYND19 and MKLN1 negatively regulate mTORC1 at the lysosomal membrane. (PMID: 41315365)
+2. E3 ligase MAEA-mediated ubiquitination and degradation of PHD3 promotes glioblastoma progression. (PMID: 36882523)
+3. The E3 ubiquitin ligase MAEA promotes macrophage phagocytosis and inhibits gastrointestinal cancer progression by mediating PARP1 ubiquitination and degradation. (PMID: 39990651)
+4. Adenovirus vector-mediated macrophage erythroblast attacher (MAEA) overexpression in primary mouse hepatocytes attenuates hepatic gluconeogenesis. (PMID: 28955747)
+5. Exploring the genomic and transcriptomic profiles of glycemic traits and drug repurposing. (PMID: 40399988)

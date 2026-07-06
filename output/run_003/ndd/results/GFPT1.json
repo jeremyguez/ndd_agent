@@ -1,0 +1,330 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 19,
+    "biological": 23
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Hexosamine biosynthetic pathway mutations cause neuromuscular transmission defect (PMID: 21310273)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "18 different biallelic mutations in GFPT1 across 13 unrelated families (specific variants not individually detailed in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "autosomal recessive congenital myasthenic syndrome",
+              "neuromuscular transmission defect"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Genetic linkage analysis identified biallelic mutations in GFPT1 in 13 unrelated families with autosomal recessive CMS; functional validation in zebrafish showing altered muscle fiber morphology and impaired NMJ development",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Expanding the phenotypic and imaging spectrum of GFPT1-related congenital myasthenic syndromes: a Brazilian case series (PMID: 41323224)",
+        "num_patients": 5,
+        "variants": [
+          {
+            "description": "c.41G>A (p.Arg14Gln), homozygous",
+            "type": "missense",
+            "phenotypes": [
+              "early-onset proximal weakness",
+              "distal lower limb weakness",
+              "frequent falls",
+              "neonatal onset epilepsy (one patient)",
+              "cognitive impairment (one patient)",
+              "myopathic echogenicity on muscle ultrasound",
+              "decremental response on repetitive nerve stimulation"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic variants in homozygosity in GFPT1; consistent electrophysiological findings (marked decrements on RNS); clinical response to acetylcholinesterase inhibitors implied",
+        "center_country": "Brazil",
+        "cohort": null
+      },
+      {
+        "citation": "Agenesis of Pectoralis Major Muscle in Late-Onset GFPT1-Related Congenital Myasthenic Syndrome: A Case Report (PMID: 38235042)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.7+2T>G (intron 1, splice-site), novel, predicted to result in null allele",
+            "type": "LoF",
+            "phenotypes": [
+              "progressive muscle weakness",
+              "proximal and distal upper extremity weakness",
+              "proximal lower extremity weakness",
+              "agenesis of left pectoralis major muscle",
+              "elevated muscle enzymes",
+              "myopathic EMG pattern",
+              "decremental response on repetitive nerve stimulation",
+              "dramatic improvement with pyridostigmine"
+            ]
+          },
+          {
+            "description": "c.*22C>A (exon 19, 3'UTR), known variant associated with reduced GFPT1 expression",
+            "type": "other",
+            "phenotypes": [
+              "progressive muscle weakness",
+              "proximal and distal upper extremity weakness",
+              "proximal lower extremity weakness",
+              "agenesis of left pectoralis major muscle",
+              "elevated muscle enzymes",
+              "myopathic EMG pattern",
+              "decremental response on repetitive nerve stimulation",
+              "dramatic improvement with pyridostigmine"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Two likely pathogenic variants in GFPT1 identified by CMS-targeted genetic testing; novel splice-site variant predicted to result in null allele; known c.*22C>A associated with reduced GFPT1 expression; dramatic clinical response to pyridostigmine; negative autoimmune antibody panel",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "GFPT1 deficiency in muscle leads to myasthenia and myopathy in mice. (PMID: 29905857)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Fatigable muscle weakness",
+          "Abnormal neuromuscular junction (NMJ) morphology (postsynaptic and presynaptic changes)",
+          "Progressive myopathic phenotype",
+          "Tubular aggregates in muscle",
+          "Upregulation of glypican-1, farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha, and muscle-specific kinase",
+          "Impaired neurotransmission"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Muscle-specific lack of Gfpt1 triggers ER stress to alleviate misfolded protein accumulation. (PMID: 38903011)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Reduced UDP-HexNAc, CMP-NeuAc, and protein O-GlcNAcylation in skeletal muscles",
+          "Poor exercise performance in aged mice",
+          "Abnormal neuromuscular junction structures in aged mice",
+          "Elevated unfolded protein response (UPR) markers",
+          "Increased protein aggregates",
+          "Enhanced ER stress upon denervation",
+          "Activated apoptosis",
+          "Attenuated autophagy",
+          "Enhanced degradation of FoxO1"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing regulation of GFPT1 muscle-specific isoform and its roles in glucose metabolisms and neuromuscular junction. (PMID: 37744035)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Markedly increased amounts of GFPT1 and UDP-HexNAc in skeletal muscle",
+          "Suppressed glycolytic pathway",
+          "Impaired insulin-mediated glucose uptake in aged mice",
+          "Muscle weakness and fatigue",
+          "Abnormal formation and maintenance of the neuromuscular junction"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hexosamine biosynthetic pathway mutations cause neuromuscular transmission defect. (PMID: 21310273)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Altered muscle fiber morphology",
+          "Impaired neuromuscular junction development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutations in gfpt1 and skiv2l2 cause distinct stage-specific defects in larval melanocyte regeneration in zebrafish. (PMID: 17542649)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Normal larval melanocyte development",
+          "Defective melanocyte regeneration after ablation",
+          "Impaired melanocyte differentiation (reduced melanin production) at late stage during regeneration",
+          "Cell-autonomous defect in melanocyte darkening"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Genetic Model to Study Increased Hexosamine Biosynthetic Flux. (PMID: 28582574)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Hepatic steatosis (increased triacylglycerol)",
+          "Developmental arrest and death in early juvenile period",
+          "Global increase in O-GlcNAc modification",
+          "Lower fasting blood glucose in males",
+          "Insulin resistance phenotypes (hepatic steatosis and runting)",
+          "No hyperglycemia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Deficiency in Glutamine-Fructose-6-Phosphate Transaminase 1 (Gfpt1) in Skeletal Muscle Results in Reduced Glycosylation of the Delta Subunit of the Nicotinic Acetylcholine Receptor (AChR\u03b4). (PMID: 39456185)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Reduced expression of acetylcholine receptor delta subunit (AChR\u03b4)",
+          "Hypo-glycosylation of AChR\u03b4",
+          "Lower-molecular-weight species of AChR\u03b4 at NMJ",
+          "Impaired protein O-GlcNAcylation in muscle",
+          "Impaired sialylation in muscle"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Galactose treatment rescues neuromuscular junction transmission in glutamine-fructose-6-phosphate transaminase 1 (Gfpt1) deficient mice. (PMID: 40879313)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Neuromuscular deficits",
+          "Muscle fatigue",
+          "Abnormal NMJ morphology",
+          "Reduced protein O-GlcNAcylation in skeletal muscle",
+          "Reduced glycosylation of AChR\u03b4 subunit",
+          "Rescued by galactose treatment via Leloir pathway"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Combinational Analysis of Metabolomic and O-GlcNAcylation Omics Reveals the HBP Metabolic Regulation of Chemoresistance via GFPT1/NR3C1 O-GlcNAcylation/GPX4 Axis. (PMID: 40740652)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Inhibited O-GlcNAcylation",
+          "Induced ferroptosis",
+          "Mitigated chemoresistance of orthotopic bladder cancer",
+          "Reduced tumor growth in Gfpt1-/- mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GFPT1 as a cross-ancestry validated target for degenerative spinal disease: genetic association in a Chinese cohort and functional characterization in zebrafish. (PMID: 42230780)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Degenerative phenotypes rescued by IOX1 (GFPT1 inhibitor)",
+          "GFPT1-induced degenerative phenotypes in zebrafish model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The Hexosamine Biosynthesis Pathway: Regulation and Function (PMID: 37107691)",
+        "evidence_subtype": "pathway",
+        "summary": "GFPT (GFAT) is identified as the key rate-limiting enzyme of the de novo hexosamine biosynthesis pathway (HBP), catalyzing the first step that converts glutamine and fructose-6-phosphate to glucosamine-6-phosphate, ultimately producing UDP-GlcNAc for N- and O-linked glycosylation. GFPT activity is modulated by signaling molecules including mTOR, AMPK, and stress-regulated transcription factors in response to nutrient availability. Deregulation of GFPT and the HBP is linked to diseases including cancer, diabetes, immunodeficiencies, and congenital disorders of glycosylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Muscle-specific lack of Gfpt1 triggers ER stress to alleviate misfolded protein accumulation (PMID: 38903011)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A knock-in mouse model carrying a frameshift variant in Gfpt1 exon 9 (muscle-specific isoform) showed reduced UDP-HexNAc, CMP-NeuAc, and protein O-GlcNAcylation in skeletal muscles, poor exercise performance, and abnormal neuromuscular junction structures in aged mice. In Gfpt1-silenced C2C12 myotubes, ER stress exacerbated protein aggregates and activated apoptosis while autophagy was attenuated due to enhanced FoxO1 degradation by increased Xbp1-s/u proteins. These findings demonstrate that loss of GFPT1 in muscle leads to maladaptive unfolded protein response that fails to eliminate protein aggregates and provokes apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional overlap of inborn errors of immunity and metabolism genes defines T cell metabolic vulnerabilities (PMID: 39151020)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CRISPR screens revealed that the hexosamine pathway enzyme Gfpt1 is critical for T cell expansion and function, with N-linked glycosylation identified as essential for these processes. TH1 cells synthesized UDP-GlcNAc more rapidly and were more impaired by Gfpt1 deficiency than TH17 cells, demonstrating cell-type-specific metabolic dependencies. This study establishes GFPT1 as an immunometabolic gene with previously unappreciated roles in adaptive immunity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tisp40 prevents cardiac ischemia/reperfusion injury through the hexosamine biosynthetic pathway in male mice (PMID: 37291168)",
+        "evidence_subtype": "function",
+        "summary": "The transcription factor Tisp40 directly binds to a conserved unfolded protein response element (UPRE) in the GFPT1 promoter, potentiating HBP flux and O-GlcNAc protein modifications in cardiomyocytes. Cardiomyocyte-restricted Tisp40 overexpression ameliorated ischemia/reperfusion-induced oxidative stress, apoptosis, and acute cardiac injury through this GFPT1-dependent mechanism. This identifies GFPT1 as a downstream transcriptional target of Tisp40-mediated cardioprotection.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GFPT1 facilitates immune escape in breast cancer by promoting the OGT-mediated O-GlcNAcylation of CD39 (PMID: 41355137)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "GFPT1 was found to physically interact with OGT and regulate its expression in breast cancer cells, leading to O-GlcNAcylation of CD39 at Ser239 and increased CD39 stability. Knockdown of GFPT1 enhanced CD8+ T-cell infiltration, cytotoxic activity, and pro-inflammatory cytokine release while reducing exhaustion markers, demonstrating a role in tumor immune evasion. In vivo, GFPT1 silencing suppressed tumor growth, confirming its role in promoting immune escape via the OGT-CD39 axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GFPT1 accelerates immune escape in breast cancer by modifying PD-L1 via O-glycosylation (PMID: 39210323)",
+        "evidence_subtype": "cell_culture",
+        "summary": "GFPT1 was found to be significantly overexpressed in breast cancer tissues and cell lines, and co-immunoprecipitation revealed a reciprocal relationship between GFPT1 and PD-L1. Mechanistically, GFPT1 enhanced PD-L1 protein stability through O-glycosylation, thereby promoting immune escape of breast cancer cells. In vivo mouse models confirmed that silencing GFPT1 attenuated immune escape by reducing PD-L1 levels.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Enhancing GFPT1 expression with glutamine protects chondrocytes in osteoarthritis (PMID: 39426230)",
+        "evidence_subtype": "expression",
+        "summary": "Mendelian Randomization and colocalization analysis identified GFPT1 as a cross-OA therapeutic candidate gene, with significant reduction of GFPT1 expression observed in OA cartilage compared to normal cartilage in both human and mouse transcriptomic data. IL-1\u03b2 stimulation downregulated GFPT1 in chondrocytes, and supplementary glutamine reversed this suppression more effectively than glucosamine. GFPT1 upregulation increased COL2A1 expression and decreased MMP13 expression, demonstrating a role in maintaining anabolic cartilage metabolism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cross-Tissue Transcriptome-Wide Association Study Identifies Novel Genes Associated With POAG (PMID: 40459497)",
+        "evidence_subtype": "GWAS",
+        "summary": "A cross-tissue transcriptome-wide association study integrating FinnGen POAG genomic data with GTEx v8 eQTL data identified GFPT1 as a novel risk gene for primary open-angle glaucoma (POAG). Summary data-based Mendelian randomization confirmed GFPT1 as a risk factor for POAG with an odds ratio of 1.34 (95% CI: 1.13\u20131.59). GFPT1 was one of six candidate genes identified with intersection evidence across multiple analytical methods.",
+        "sample_size": null,
+        "significance": "OR=1.34, 95% CI 1.13-1.59"
+      },
+      {
+        "citation": "The Role of the Hexosamine-Sialic Acid Metabolic Pathway Mediated by GFPT1/NANS in c-Myc-Driven Hepatocellular Carcinoma (PMID: 40280277)",
+        "evidence_subtype": "function",
+        "summary": "RNA sequencing and metabolomics in a murine c-Myc-driven HCC model showed that GFPT1 (but not GFPT2) is the rate-limiting enzyme upregulated in the hexosamine biosynthetic pathway, with c-Myc directly binding to the GFPT1 promoter to activate its transcription as confirmed by ChIP and luciferase assays. Knockout of GFPT1 reduced tumor growth and prolonged murine survival, and human HCC specimens showed GFPT1 overexpression associated with advanced tumor grade and short patient survival. Downstream pathway analysis revealed that sialic acid synthesis (via NANS), rather than O-GlcNAc glycosylation, was the primary effector pathway enhanced by GFPT1 in this cancer context.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - Congenital Myasthenia Syndrome: Uniparental disomy of chromosome 2 and homozygous mutation of GFPT1 (ASHG 2014)",
+        "evidence_subtype": "other",
+        "summary": "Whole-exome sequencing identified a homozygous frameshift insertion (c.865-866insG) in exon 9 of GFPT1 in a child with congenital myasthenic syndrome arising from maternal uniparental disomy of chromosome 2. The case confirms that recessive GFPT1 mutations reduce GFPT1 levels and decrease protein glycosylation at neuromuscular junctions, leading to altered neuromuscular phenotype. This report highlights that compromised glycosylation due to GFPT1 loss disrupts key intracellular signaling at the NMJ.",
+        "sample_size": "1",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "articles_found": {
+    "clinical": 11,
+    "model_organism": 10,
+    "biological": 15
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Pathogenic de novo variants in PPP2R5C cause a neurodevelopmental disorder within the Houge-Janssens syndrome spectrum (PMID: 39978342)",
+        "num_patients": 26,
+        "variants": [
+          {
+            "description": "Multiple de novo missense variants affecting substrate binding (2/19), C-subunit binding (2/19), or both (15/19); 5 recurrent variants identified",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "hypotonia",
+              "epilepsy/seizures",
+              "behavioral problems",
+              "mildly dysmorphic facial features",
+              "above average or macrocephalic head circumference",
+              "intellectual disability (milder than other HJS types)"
+            ]
+          },
+          {
+            "description": "Loss-of-function variants (specific variants not detailed)",
+            "type": "LoF",
+            "phenotypes": [
+              "Could be inherited from non-symptomatic parent, suggesting dominant-negative mechanism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants, absent from population databases, affect conserved residues in substrate binding or C-subunit binding regions, variably affect catalytic activity",
+        "center_country": "International collaboration (multiple centers)",
+        "cohort": null
+      },
+      {
+        "citation": "A recurrent variant in PPP2R5C identified in individuals with macrocephaly, intellectual disability, and seizures (PMID: 39696819)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.457G>A, p.(Glu153Lys)",
+            "type": "missense",
+            "phenotypes": [
+              "macrocephaly",
+              "intellectual disability",
+              "hypotonia",
+              "seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent de novo variant in unrelated individuals, Glu153 is part of highly conserved acidic loop that directly interacts with PP2A catalytic subunit",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Mutations in the PP2A regulatory subunit B family genes PPP2R5B, PPP2R5C and PPP2R5D cause human overgrowth (PMID: 25972378)",
+        "num_patients": 5,
+        "variants": [
+          {
+            "description": "Multiple de novo missense variants clustering within 9 amino acid residues (specific variants not individually detailed)",
+            "type": "missense",
+            "phenotypes": [
+              "increased height",
+              "increased head circumference",
+              "intellectual disability",
+              "overgrowth"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants, clustering in conserved region (P=1.6\u00d710^-5), predicted to affect substrate binding based on crystal structure mapping, excess of de novo mutations in related genes (P=1.43\u00d710^-10)",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2023 - Deciphering Developmental Disorders in Central African setting (DDD-Africa): clinical characterization and molecular study (PMID: not provided)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "PPP2R5C-related variant (specific variant not detailed)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "overgrowth"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified through whole exome sequencing in developmental disorder cohort",
+        "center_country": "DR Congo (Centre for Human Genetics, University of Kinshasa)",
+        "cohort": "DDD-Africa"
+      },
+      {
+        "citation": "ASHG 2019 - Characterization of de novo variants in PPP2R5C expands the spectrum of PP2A-related neurodevelopmental disorders (PMID: not provided)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "p.E122K (recurrent, observed in 3 unrelated individuals)",
+            "type": "missense",
+            "phenotypes": [
+              "macrocephaly",
+              "developmental disability",
+              "intellectual disability",
+              "congenital hypotonia",
+              "refractory epilepsy (in one subject)"
+            ]
+          },
+          {
+            "description": "Four additional novel de novo missense variants (specific notations not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "macrocephaly (4/7)",
+              "developmental and/or intellectual disabilities (7/7)",
+              "congenital hypotonia (7/7)",
+              "refractory epilepsy (1/7)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants, absent from large population databases, affect highly conserved residues, E122 forms direct interactions with catalytic subunit, impaired binding of scaffolding and catalytic subunits, reduced PP2A catalytic activity",
+        "center_country": "International collaboration (Matchmaker Exchange)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "LincR-PPP2R5C regulates the PP2A signaling pathway in the macrophage-myofibroblast transition in a mouse model of epidural fibrosis (PMID: 39729722)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Aggravated epidural fibrosis",
+          "Enhanced macrophage-myofibroblast transition (MMT)",
+          "Increased M2-macrophage polarization",
+          "Increased \u03b1-SMA expression in macrophages"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LincR-PPP2R5C regulates IL-1\u03b2 ubiquitination in macrophages and promotes airway inflammation and emphysema in a murine model of COPD (PMID: 39018689)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ameliorated emphysema",
+          "Reduced pulmonary inflammation",
+          "Reduced IL-1\u03b2 protein in macrophages",
+          "Increased ubiquitinated IL-1\u03b2",
+          "Enhanced PP2A activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LincR-PPP2R5C Promotes Th2 Cell Differentiation Through PPP2R5C/PP2A by Forming an RNA-DNA Triplex in Allergic Asthma (PMID: 38262392)",
+        "organism": "mouse",
+        "knockout_type": "full knockout and conditional knockout",
+        "phenotypes": [
+          "Decreased Th2 differentiation",
+          "Reduced airway hyperresponsiveness",
+          "Reduced inflammatory responses",
+          "Suppressed PP2A phosphatase activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Growth arrest of PPP2R5C and PPP2R5D double knockout mice indicates a genetic interaction and conserved function for these PP2A B subunits (PMID: 35415460)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (double knockout B56\u03b4 and B56\u03b3)",
+        "phenotypes": [
+          "Fetal growth arrest around embryonic day E12",
+          "Cardiac developmental defect: single outflow vessel instead of aorta and pulmonary artery",
+          "Genetic interaction between B56\u03b4 and B56\u03b3"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LincR-PPP2R5C Deficiency Alleviates Airway Remodeling by Inhibiting Epithelial-Mesenchymal Transition Through the PP2A/TGF-\u03b21 Signaling Pathway in Chronic Experimental Allergic Asthma (PMID: 39155740)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Alleviated inflammatory responses",
+          "Reduced airway remodeling",
+          "Reduced epithelial-mesenchymal transition (EMT)",
+          "Enhanced PP2A activity",
+          "Inhibited TGF-\u03b21 production in epithelial cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LincR-PPP2R5C deficiency enhancing the fungicidal activity of neutrophils in pulmonary cryptococcosis is linked to the upregulation of IL-4 (PMID: 39287443)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Mitigated Cryptococcus neoformans infection",
+          "Extended survival time",
+          "Decreased fungal burden in lung",
+          "Increased type 2 cytokines (IL-4 and IL-5)",
+          "Increased neutrophil numbers in lung tissue and bronchoalveolar lavage fluid",
+          "Enhanced fungicidal activity of neutrophils",
+          "Increased PP2A phosphorylation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A micropeptide TREMP encoded by lincR-PPP2R5C promotes Th2 cell differentiation by interacting with PYCR1 in allergic airway inflammation (PMID: 39025723)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Suppressed Th2 cell differentiation",
+          "Relieved allergic airway inflammation",
+          "Decreased glycolysis in Th2 cells",
+          "Reduced inflammatory response to house dust mite (HDM)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Pathogenic de novo variants in PPP2R5C cause a neurodevelopmental disorder within the Houge-Janssens syndrome spectrum (PMID: 39978342)",
+        "evidence_subtype": "function",
+        "summary": "PPP2R5C encodes the regulatory B56\u03b3 subunit of PP2A. De novo missense variants in PPP2R5C cause neurodevelopmental disorder with features including developmental delay, hypotonia, epilepsy, and macrocephaly. Variants affect substrate binding, C-subunit binding, or both, with variable effects on catalytic activity. Loss-of-function variants can be inherited from asymptomatic parents, suggesting dominant-negative mechanism.",
+        "sample_size": "26 individuals with PPP2R5C variants",
+        "significance": null
+      },
+      {
+        "citation": "LincR-PPP2R5C Promotes Th2 Cell Differentiation Through PPP2R5C/PP2A by Forming an RNA-DNA Triplex in Allergic Asthma (PMID: 38262392)",
+        "evidence_subtype": "pathway",
+        "summary": "PPP2R5C is a regulatory subunit of PP2A that regulates Th2 cell differentiation in asthma. A long noncoding RNA (LincR-PPP2R5C) forms an RNA-DNA triplex with the PPP2R5C promoter to enhance PPP2R5C expression and activate PP2A phosphatase activity, promoting Th2 polarization and airway inflammation.",
+        "sample_size": "Mouse model of ovalbumin-induced acute asthma",
+        "significance": null
+      },
+      {
+        "citation": "Structural feature and biological function of PPP2R5C gene (PMID: 19840435)",
+        "evidence_subtype": "function",
+        "summary": "PPP2R5C is a regulatory subunit of PP2A that plays critical roles in cell proliferation, differentiation, and transformation through dephosphorylation of p53 at various residues. Altered expression patterns of PPP2R5C are associated with malignant cell transformation and serve as a marker for progressive disease in B-cell chronic lymphocytic leukemia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression and distribution of PPP2R5C gene in leukemia (PMID: 21548944)",
+        "evidence_subtype": "expression",
+        "summary": "PPP2R5C expression is significantly elevated in AML, CML, T-ALL, and B-CLL compared to healthy controls. Five transcript variants of PPP2R5C are identified with similar frequencies across leukemia types and healthy samples. Overexpression of PPP2R5C in T-cell and myeloid malignancies correlates with cell proliferation and differentiation.",
+        "sample_size": "77 de novo leukemia patients, 26 CR patients, 20 healthy controls",
+        "significance": "p<0.05 for elevated expression in AML, CML, T-ALL, B-CLL vs controls"
+      },
+      {
+        "citation": "LincR-PPP2R5C regulates IL-1\u03b2 ubiquitination in macrophages and promotes airway inflammation and emphysema in a murine model of COPD (PMID: 39018689)",
+        "evidence_subtype": "pathway",
+        "summary": "LincR-PPP2R5C regulates IL-1\u03b2 ubiquitination in macrophages through PP2A activity. LincR-PPP2R5C deficiency increases ubiquitinated IL-1\u03b2 levels and reduces IL-1\u03b2 protein expression, ameliorating emphysema and pulmonary inflammation in COPD models. PP2A activity modulates IL-1\u03b2 post-translational modification.",
+        "sample_size": "Murine COPD model",
+        "significance": null
+      },
+      {
+        "citation": "The Relationship between PPP2R5C and Molt-4 Cell Viability, HSP90-GR Signal in Childhood Acute T Lymphocytic Leukemia (PMID: 35123608)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PPP2R5C knockdown via siRNA in Molt-4 T-ALL cells significantly reduces cell proliferation, blocks cells in G2 phase, and increases apoptosis. PPP2R5C downregulation inhibits HSP90-GR signaling pathway, suggesting this pathway mediates PPP2R5C effects on leukemic cell viability.",
+        "sample_size": "Molt-4 cell line",
+        "significance": "p<0.05 for proliferation, EdU incorporation, apoptosis, and cell cycle changes"
+      },
+      {
+        "citation": "Combined detection of SDC2/ADHFE1/PPP2R5C methylation in stool DNA for colorectal cancer screening (PMID: 37270460)",
+        "evidence_subtype": "expression",
+        "summary": "PPP2R5C gene methylation levels are significantly increased in colorectal cancer patient stool samples. Combined detection of SDC2/ADHFE1/PPP2R5C methylation achieves 84.8% sensitivity and 98.0% specificity for CRC detection with AUC of 0.930, suggesting PPP2R5C methylation as a biomarker for CRC screening.",
+        "sample_size": "105 CRC, 54 advanced adenoma, 57 non-advanced adenoma, 47 polyps, 100 NED controls",
+        "significance": "AUC 0.930 (95% CI 0.889-0.970)"
+      },
+      {
+        "citation": "An Exploration of Osteosarcoma Metastasis Diagnostic Markers Based on Tumor-Associated Neutrophils (PMID: 37272097)",
+        "evidence_subtype": "pathway",
+        "summary": "PPP2R5C is identified as a potential marker for osteosarcoma metastasis through weighted gene co-expression network analysis of tumor-associated neutrophils. PPP2R5C knockdown reduces OS cell proliferation and migration while increasing apoptosis via the PI3K/AKT signaling pathway, affecting p-AKT protein levels.",
+        "sample_size": "U2-OS and MG63 osteosarcoma cell lines",
+        "significance": "p<0.01 for expression, proliferation, migration, apoptosis, and p-AKT changes"
+      },
+      {
+        "citation": "Differential gene expression profiles of PPP2R5C-siRNA-treated malignant T cells (PMID: 23941244)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PPP2R5C knockdown via siRNA in Molt-4 and Jurkat T cells significantly reduces proliferation without inducing apoptosis. Global gene expression profiling reveals 439 upregulated and 524 downregulated genes, with changes in TCR, Wnt, calcium, MAPK, and p53 signaling pathways. GSK-3\u03b2, ATM, and MDM2 genes play important roles in PPP2R5C knockdown effects.",
+        "sample_size": "Molt-4 and Jurkat T cell lines",
+        "significance": "p<0.05 for proliferation reduction at 72h; twofold gene expression changes"
+      },
+      {
+        "citation": "ASHG 2019 - Characterization of de novo variants in PPP2R5C expands the spectrum of PP2A-related neurodevelopmental disorders (E. Brimble et al.)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "De novo missense variants in PPP2R5C impair binding of PP2A catalytic C and structural A subunits and reduce PP2A catalytic activity. The recurrent p.E122K variant, affecting a residue that directly interacts with the catalytic subunit, shows significantly impaired subunit binding and phosphatase activity compared to wildtype.",
+        "sample_size": "7 individuals with PPP2R5C variants",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - Molecular Markers of Blood Pressure Response to Thiazide Diuretics Identified Through Whole Transcriptome RNA-Seq Analysis (A. Costa Sa et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "PPP2R5C is identified as differentially expressed in relation to chlorthalidone blood pressure response. The SNP rs1203488 in PPP2R5C is associated with chlorthalidone BP response in whites, with variant allele carriers showing reduced BP response.",
+        "sample_size": "50 whites from PEAR; 50 whites and 50 blacks from PEAR-2",
+        "significance": "P=3.7x10-4; \u03b2=-4.0 mmHg for rs1203488"
+      }
+    ]
+  }
+}

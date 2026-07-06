@@ -1,0 +1,48 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 0,
+    "biological": 5
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Inhibition of lactylation by LRP1 expression increases the risk of intervertebral disc degeneration: A multi-omics summary-based Mendelian randomization analysis (PMID: 40988222)",
+        "evidence_subtype": "GWAS",
+        "summary": "H2AC6 was identified as a lactylation-related gene positively correlated with increased risk of intervertebral disc degeneration (IVDD) at the gene expression level through multi-omics summary-based Mendelian randomization analysis combining GWAS, eQTL, and mQTL data.",
+        "sample_size": "FinnGen GWAS cohort with eQTLGen and SMR mQTL data",
+        "significance": "p_SMR < 0.05"
+      },
+      {
+        "citation": "Global comparative transcriptomes uncover novel and population-specific gene expression in esophageal squamous cell carcinoma (PMID: 37641095)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was identified as a novel differentially expressed gene critical for esophageal squamous cell carcinoma (ESCC) survival through comparative transcriptomic analysis across six global populations and survival analysis using TCGA data.",
+        "sample_size": "ESCC samples from six distinct global populations; TCGA dataset",
+        "significance": "Identified through survival analysis as critical for ESCC prognosis"
+      },
+      {
+        "citation": "Tribulus terrestris L. protects glomerular endothelial cells via the miR155-H2AC6 interaction network in hypertensive renal injury (PMID: 34926670)",
+        "evidence_subtype": "pathway",
+        "summary": "H2AC6 (H2A clustered histone 6) was identified as a target of miR-155-5p in a miRNA-mRNA regulatory network protecting against angiotensin II-induced hypertensive renal injury; miR-155-5p expression was negatively correlated with H2AC6 expression.",
+        "sample_size": "Glomerular endothelial cell culture model",
+        "significance": "miR-155-5p and H2AC6 identified as core components of protective network; validated by qRT-PCR"
+      },
+      {
+        "citation": "Unveiling the Therapeutic Potential of Baicalin in Intervertebral Disc Degeneration: Integrative Bulk and Single-Cell Transcriptome Analysis with Experimental Validation of PANoptosis Inhibition (PMID: 40463856)",
+        "evidence_subtype": "cell_culture",
+        "summary": "H2AC6 was identified as one of five core PANoptosis-related genes significantly upregulated in degenerated intervertebral discs; baicalin treatment downregulated H2AC6 expression at both mRNA and protein levels in IL-1\u03b2-induced nucleus pulposus cell degeneration models.",
+        "sample_size": "Clinical disc samples; IL-1\u03b2-induced NPC model; rat puncture-induced IVDD model",
+        "significance": "Significantly upregulated in degenerated discs; downregulated by baicalin treatment"
+      },
+      {
+        "citation": "Serum extracellular vesicle RNA profiles in long COVID: insights from exercise-induced gene modulation (PMID: 41588020)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was identified as one of the top 5 downregulated genes in serum extracellular vesicles at peak exercise following 10-week exercise training in long COVID patients, suggesting modulation of H2AC6 expression in response to exercise-induced physiological adaptation.",
+        "sample_size": "14 adults with long COVID",
+        "significance": "q < 0.05; among top 5 downregulated genes post-training at peak exercise"
+      }
+    ]
+  }
+}

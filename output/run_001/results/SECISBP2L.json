@@ -1,0 +1,120 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 2,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "The expression of essential selenoproteins during development requires SECIS-binding protein 2-like (PMID: 35210313)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "secisbp2l -/- embryos retain full complement of selenoproteins",
+          "sbp2 -/- embryos make select subset of selenoproteins",
+          "Double mutant (sbp2 -/- secisbp2l -/-) completely prevents selenoprotein synthesis",
+          "sbp2 -/- embryos sensitive to oxidative stress",
+          "Vtg1 stress marker expression in sbp2 -/- embryos",
+          "Juvenile lethality at 14 days post fertilization in double mutants"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal (double mutant)",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SECISBP2L-Mediated Selenoprotein Synthesis Is Essential for Autonomous Regulation of Oligodendrocyte Differentiation (PMID: 35760530)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decreased DIO2 protein level",
+          "Decreased T3 (active thyroid hormone) level",
+          "Impaired oligodendrocyte differentiation",
+          "Hypomyelination",
+          "Motor deficits in both sexes",
+          "Defective OL differentiation rescued by T3 or T3 analog but not T4"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Hung et al. 2018 - Large-scale association analysis identifies new lung cancer susceptibility loci and heterogeneity in genetic susceptibility across histological subtypes (PMID: 28604730)",
+        "evidence_subtype": "GWAS",
+        "summary": "SECISBP2L identified as a candidate gene through eQTL analysis in normal lung tissue samples (n=1,425), with cis-acting effects on gene expression associated with lung cancer susceptibility loci.",
+        "sample_size": "29,266 cases and 56,450 controls; 1,425 normal lung tissue samples for eQTL",
+        "significance": "genome-wide significance achieved"
+      },
+      {
+        "citation": "Thisse et al. 2022 - The expression of essential selenoproteins during development requires SECIS-binding protein 2-like (PMID: 35210313)",
+        "evidence_subtype": "function",
+        "summary": "SECISBP2L is a paralogue of SECIS-binding protein 2 (Sbp2) required for selenoprotein synthesis; zebrafish secisbp2l -/- mutants retain full complement of selenoproteins, while sbp2 -/- mutants show selective loss, suggesting SECISBP2L compensates for Sbp2 activity during development.",
+        "sample_size": "zebrafish embryos",
+        "significance": "secisbp2l/sbp2 double mutants completely prevent selenoprotein synthesis and die at 14 days post-fertilization"
+      },
+      {
+        "citation": "Xiao et al. 2022 - SECISBP2L-Mediated Selenoprotein Synthesis Is Essential for Autonomous Regulation of Oligodendrocyte Differentiation (PMID: 35760530)",
+        "evidence_subtype": "function",
+        "summary": "SECISBP2L is highly expressed in differentiating oligodendrocytes and is required for DIO2 (deiodinase 2) translation; conditional knockout of Secisbp2l in oligodendrocyte lineage results in decreased DIO2 and T3 levels, impaired oligodendrocyte differentiation, hypomyelination, and motor deficits, establishing the SECISBP2L-DIO2-T3 pathway in myelin development.",
+        "sample_size": "mice (both sexes)",
+        "significance": "conditional knockout shows significant impairment in oligodendrocyte differentiation and myelination"
+      },
+      {
+        "citation": "Zhu et al. 2024 - Identifying potential therapeutic targets in lung adenocarcinoma: a multi-omics approach integrating bulk and single-cell RNA sequencing with Mendelian randomization (PMID: 39092217)",
+        "evidence_subtype": "GWAS",
+        "summary": "SECISBP2L identified as a tier 1 therapeutic target gene for lung adenocarcinoma with strong causal evidence through Mendelian randomization analysis; included among five genes with most compelling evidence for therapeutic potential based on differential expression, survival analysis, and pathway enrichment.",
+        "sample_size": "513 LUAD and 59 non-tumorous tissues; 2,688 differentially expressed genes identified",
+        "significance": "identified through MR analysis with strong causal evidence; significant survival differences"
+      },
+      {
+        "citation": "Jiang et al. 2023 - Pyrolae herba alleviates cognitive impairment via hippocampal TREM2 signaling modulating neuroinflammation and neurogenesis in lipopolysaccharide-treated mice (PMID: 37739108)",
+        "evidence_subtype": "expression",
+        "summary": "SECISBP2L identified in mRNA sequencing screen as one of 10 genes with altered expression in hippocampus of LPS-induced cognitive impairment model; included among genes with potential roles in neuroinflammation and neurogenesis.",
+        "sample_size": "male C57BL6/J mice",
+        "significance": "identified in mRNA sequencing analysis; expression changes detected in hippocampus"
+      },
+      {
+        "citation": "Gormley et al. 2023 - Cross-Trait Genetic Analyses Indicate Pleiotropy and Complex Causal Relationships between Headache and Thyroid Function Traits (PMID: 36672757)",
+        "evidence_subtype": "GWAS",
+        "summary": "SECISBP2L identified in gene-based analysis of shared pleiotropic loci between headache and free thyroxine (fT4); significant in cross-trait GWAS meta-analysis with fT4 (pFisher's combined p-value < 2.09 \u00d7 10\u22126), suggesting involvement in thyroid hormone regulation.",
+        "sample_size": "GWAS data from multiple cohorts",
+        "significance": "pFisher's combined p-value < 2.09 \u00d7 10\u22126"
+      },
+      {
+        "citation": "Labunskyy et al. 2014 - Molecular mechanism of selenoprotein P synthesis (PMID: 29656121)",
+        "evidence_subtype": "pathway",
+        "summary": "Review article discussing selenoprotein synthesis mechanisms and the role of SECIS-binding proteins in selenocysteine incorporation; provides context for SECISBP2L's function as a SECIS-binding protein in the selenoprotein synthesis pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Gao et al. 2024 - Differential co-expression network analysis elucidated genes associated with sensitivity to farnesyltransferase inhibitor and prognosis of acute myeloid leukemia (PMID: 38069522)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SECISBP2L identified as a highly interconnected hub gene in the treatment response co-expression network for acute myeloid leukemia, forming a network with MAN1A2, PRPF31, VASP, and SNAPC1 with high prognostic performance (hazard ratio 4.12).",
+        "sample_size": "relapsed, refractory, and previously untreated AML patients",
+        "significance": "hazard ratio 4.12 for prognostic performance"
+      },
+      {
+        "citation": "Luo et al. 2021 - Construction and Validation of Prognostic Regulation Network Based on RNA-Binding Protein Genes in Lung Squamous Cell Carcinoma (PMID: 34931870)",
+        "evidence_subtype": "function",
+        "summary": "SECISBP2L identified as a prognostic RNA-binding protein gene in lung squamous cell carcinoma; functions as a regulatory hub controlling multiple target RNAs (ADGRF5, TGFBR2, CD302, AC096921.2, AHCYL2, RPS6KA2, SLC34A2, SFTPB) involved in angiogenesis and signaling pathways (DNA repair, MTORC1 signaling, MYC targets).",
+        "sample_size": "TCGA lung squamous cell carcinoma cohort",
+        "significance": "AUC 0.739 for predictive model; p<0.001 for Kaplan-Meier survival curve"
+      },
+      {
+        "citation": "ASHG 2016 - Defining the genetic architecture of lung cancer etiology (OncoArray Lung Cancer Consortium)",
+        "evidence_subtype": "GWAS",
+        "summary": "SECISBP2L identified through eQTL analysis of normal lung tissue showing cis-acting effects of variant rs77468143 on SECISBP2L expression in association with lung cancer susceptibility loci.",
+        "sample_size": "29,863 patients and 55,586 controls (European descent)",
+        "significance": "genome-wide significance; consistent cis-acting eQTL effects"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 1,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Identifying the Fourth Patient With Spastic Paraplegia 90, Extending the Phenotype Spectrum (PMID: 40533086)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.Thr51Ile",
+            "type": "missense",
+            "phenotypes": [
+              "global developmental delay",
+              "inability to walk",
+              "axial hypotonia",
+              "extremity spasticity",
+              "dystonia",
+              "distal renal tubular acidosis",
+              "recurrent urinary tract infections",
+              "nephrolithiasis",
+              "neurogenic bladder",
+              "primary polydipsia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous pathogenic variant identified by exome sequencing; recurrent variant detected in two previously reported patients with SPG90; consistent with monoallelic inheritance pattern of spastic paraplegia 90",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "SPTSSA facilitates gastric cancer progression with modulating PD-L1 in immunomicroenvironment through Wnt/\u03b2-catenin pathway (PMID: 40498284)",
+        "evidence_subtype": "pathway",
+        "summary": "SPTSSA facilitates \u03b2-catenin accumulation and PD-L1 transcription through the Wnt/\u03b2-catenin signaling pathway in gastric cancer. SPTSSA overexpression enhanced malignant phenotype in vitro and in vivo, and elevated SPTSSA expression correlated with reduced CD8+ T cell infiltration and increased M2 macrophage infiltration.",
+        "sample_size": "GC patient cohort with tissue and peripheral blood samples",
+        "significance": "p<0.05 (specific values not detailed in abstract)"
+      },
+      {
+        "citation": "Structural insights into the assembly and substrate selectivity of human SPT-ORMDL3 complex (PMID: 33558762)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Cryo-EM structures reveal that SPTSSA (SPTssa) is a component of the human serine palmitoyltransferase (SPT) complex composed of SPTLC1, SPTLC2, and SPTssa. SPTSSA participates in acyl-CoA coordination, stimulating SPT activity and regulating substrate selectivity. ORMDL3 stabilizes the SPT assembly.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SPTSSA variants alter sphingolipid synthesis and cause a complex hereditary spastic paraplegia (PMID: 36718090)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Two pathogenic SPTSSA variants (missense and frameshift) impaired negative regulation of serine palmitoyltransferase by ORMDLs, leading to excessive sphingolipid synthesis. In Drosophila, overexpression of human SPT caused severe motor defects and shortened lifespan; co-expression of ORMDL3 rescued wild-type SPT but failed to rescue mutant SPT, confirming impaired ORMDL regulation.",
+        "sample_size": "3 patients with variants; Drosophila model",
+        "significance": "Pathogenic variants confirmed in patient fibroblasts and Drosophila models"
+      },
+      {
+        "citation": "SPTSSA Is a Prognostic Marker for Glioblastoma Associated with Tumor-Infiltrating Immune Cells and Oxidative Stress (PMID: 36062185)",
+        "evidence_subtype": "expression",
+        "summary": "SPTSSA expression was significantly upregulated in diffuse glioma compared to normal tissues and associated with poor survival. SPTSSA expression enriched in oxidative stress-related GO terms and was significantly associated with tumor-infiltrating immune cells and overall survival.",
+        "sample_size": "GEPIA and CGGA database analysis; IHC and IF confirmation",
+        "significance": "p<0.05 for upregulation and survival association"
+      },
+      {
+        "citation": "Human Rhinovirus Infection of the Respiratory Tract Affects Sphingolipid Synthesis (PMID: 34851798)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Human rhinovirus (RV) infection decreased Sptssa expression in mouse lung epithelial cells (EpCAM+) and human bronchial epithelial cells, shifting sphingolipid synthesis gene expression to a pattern resembling genetic SPT deficiency. RV did not affect Sptssa in lung CD45+ immune cells.",
+        "sample_size": "SPT-deficient mice and human airway epithelial cells",
+        "significance": "Differential expression pattern in epithelial vs. immune cells"
+      },
+      {
+        "citation": "A genome-wide CRISPR/Cas9 screen reveals that the aryl hydrocarbon receptor stimulates sphingolipid levels (PMID: 32029474)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Genome-wide CRISPR/Cas9 screen identified SPTSSA as required for globotriaosylceramide (Gb3) biosynthesis. The aryl hydrocarbon receptor (AHR) binds and activates the SPTSSA gene promoter. AHR knockout HeLa cells and Ahr knockout mouse tissues showed decreased SPTSSA expression and reduced sphingolipid content.",
+        "sample_size": "HeLa cells; Ahr knockout mice",
+        "significance": "Significant reduction in Gb3 and sphingolipid levels in knockout cells/tissues"
+      },
+      {
+        "citation": "Decreased SPTLC1 expression predicts worse outcomes in ccRCC patients (PMID: 31512789)",
+        "evidence_subtype": "pathway",
+        "summary": "Bioinformatics analysis identified SPTSSA as a gene significantly coregulated with SPTLC1 in clear cell renal cell carcinoma, part of a sphingomyelin metabolism network. Functional enrichment analysis predicted that SPTLC1 and its network (including SPTSSA) play roles in inflammatory, hypoxia, and interferon gamma responses.",
+        "sample_size": "183 FUSCC patients; TCGA (n=429); Oncomine (n=178)",
+        "significance": "p<0.001 for expression differences; p=0.041-<0.0001 for survival associations"
+      },
+      {
+        "citation": "ASHG 2022 - SPTSSA variants alter sphingolipid synthesis and cause a complex form of hereditary spastic paraplegia",
+        "evidence_subtype": "fly_worm",
+        "summary": "Two de novo missense variants (p.Thr51Ile) and one homozygous frameshift variant (p.Gln58AlafsTer10) in SPTSSA impaired ORMDL-mediated feedback inhibition of SPT, causing excessive sphingolipid synthesis. Cryo-EM structure shows SPTSSA Thr51 resides near ORMDL3. Drosophila overexpression of mutant human SPT caused severe motor defects; ORMDL3 co-expression rescued wild-type but not mutant SPT.",
+        "sample_size": "3 unrelated patients; Drosophila model",
+        "significance": "Variants confirmed to impair ORMDL regulation in biochemical assays and in vivo fly model"
+      },
+      {
+        "citation": "Identification of key genes associated with idiopathic pulmonary fibrosis and sarcopenia by bioinformatics analysis (PMID: 41325398)",
+        "evidence_subtype": "other",
+        "summary": "SPTSSA was identified as one of 5 key endoplasmic reticulum stress-related genes for sarcopenia diagnosis via LASSO regression analysis. SPTSSA was associated with amino acid metabolism and xenobiotic metabolism pathways and showed significant correlations with immune cell populations.",
+        "sample_size": "IPF and sarcopenia patient cohorts (specific numbers not detailed in abstract)",
+        "significance": "Selected by LASSO regression as diagnostic biomarker"
+      },
+      {
+        "citation": "Development and Validation of Ischemic Events Related Signature After Carotid Endarterectomy (PMID: 35372347)",
+        "evidence_subtype": "other",
+        "summary": "SPTSSA was identified as one of seven critical genes in an eight-gene predictive model for ischemic events after carotid endarterectomy using random forest algorithm and LASSO logistic regression on peripheral blood mononuclear cell transcriptomes.",
+        "sample_size": "Train set (n=66), validation set (n=28), total set (n=94), independent cohort (n=50)",
+        "significance": "ROC-AUC: 0.891 (train), 0.826 (validation), 0.869 (total), 0.792 (independent cohort)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,102 @@
+# HDAC2 as a Neurodevelopmental Disorder Gene: Literature Evidence Report
+
+---
+
+## 1. GENE SUMMARY
+
+HDAC2 (Histone Deacetylase 2) encodes a class I histone deacetylase that removes acetyl groups from lysine residues on histone tails, thereby regulating chromatin compaction and transcriptional repression. It is a core component of multiple co-repressor complexes (including NuRD, CoREST, and Sin3A) and plays essential roles in neuronal differentiation, embryonic development, and epigenetic gene regulation.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports:** Three independent studies have implicated HDAC2 in neurodevelopmental disorders (NDD), all identifying de novo variants through large-scale cohort analyses.
+
+**Total approximate number of patients:** At least 2 patients are explicitly reported with de novo protein-truncating variants (PTVesc) in a clinical exome study (ASHG 2022 - Torene et al.; note that the same abstract separately references nine cases in the biological evidence section, suggesting the total may be higher). The remaining two studies (ASHG 2015 - Retterer et al.; PMID: 35468861) do not specify individual patient counts for HDAC2 but report statistical enrichment across large NDD cohorts.
+
+**Most common phenotypes observed:** Syndromic neurodevelopmental disorder, undiagnosed developmental disorder, and broader neurodevelopmental disorder (NDD) phenotypes are consistently reported across all three studies. Specific clinical features beyond NDD are not detailed in the available abstracts.
+
+**Predominant variant type:** Loss-of-function (LoF) variants predominate, specifically de novo protein-truncating variants escaping nonsense-mediated decay (PTVesc) and likely gene-disrupting (LGD) variants, with damaging missense variants also noted (ASHG 2015 - Retterer et al.). The PTVesc mechanism is particularly notable, as it suggests the truncated protein product may act as a hypomorph, antimorph, or neomorph rather than through simple haploinsufficiency.
+
+**Known cohort representation:** One study used the DDD (Deciphering Developmental Disorders) cohort (PMID: 35468861). The remaining two studies were conducted at GeneDx (USA) using clinical exome data (ASHG 2022 - Torene et al.; ASHG 2015 - Retterer et al.).
+
+**Strength of clinical evidence: LIMITED**
+While all three studies identify HDAC2 as a statistically significant candidate NDD gene using rigorous methods (binomial p<0.001 in ASHG 2022 - Torene et al.; FDR <0.1 in ASHG 2015 - Retterer et al.; >90% true-positive probability by deep learning in PMID: 35468861), the evidence is currently limited by the small number of individually documented patients, the absence of detailed clinical phenotyping, and the fact that findings derive primarily from conference abstracts rather than peer-reviewed case series. The gene has not yet been formally classified as a confirmed Mendelian disease gene in standard databases.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Mouse (*Mus musculus*) and rat (*Rattus norvegicus*) models have been employed, using full knockout, conditional knockout, and knockdown strategies.
+
+**Key neurological and developmental phenotypes:**
+- Conditional deletion of HDAC2 in neural stem cells (Nestin+ cells) impairs neuronal differentiation in the adult hippocampus, with HDAC2 expressed across all cellular stages of hippocampal neurogenesis (PMID: 35095417). This directly supports a role for HDAC2 in brain development.
+- PHF23 knockout mice demonstrate that PHF23 binds HDAC2 and inhibits its deacetylase activity on H3K27ac to promote neuronal differentiation gene expression (including *Tcf4* and *Eya1*); disruption of the PHF23-HDAC2 interaction impairs cortical neurogenesis (PMID: 40447447). This places HDAC2 activity at the center of a regulatory axis controlling embryonic neurogenesis.
+- Full knockout mice show reduced brain injury and enhanced neuronal survival in a cerebral ischemia model, with normalized mitochondrial dynamics (PMID: 30028551), further supporting HDAC2's role in neuronal biology.
+- HDAC2 knockout reduces METTL3 chromatin binding and impairs stem cell lineage differentiation, including disrupted m6A RNA modification on differentiation-linked target genes (PMID: 41066234), suggesting broad developmental consequences of HDAC2 loss.
+
+**Lethality and viability:** Full knockout mice are reported as viable in multiple studies (PMID: 30028551; PMID: 40850685; PMID: 40175628), indicating that complete loss of HDAC2 is not embryonic lethal in mice, though developmental and functional deficits are observed.
+
+**Consistency with human phenotype:** The mouse data are broadly consistent with a human NDD phenotype. Impaired hippocampal neurogenesis (PMID: 35095417), disrupted cortical neurogenesis via the PHF23-HDAC2 axis (PMID: 40447447), and impaired stem cell differentiation (PMID: 41066234) all support the plausibility of neurodevelopmental consequences from HDAC2 dysfunction. However, no mouse model has been specifically engineered to recapitulate heterozygous human NDD-associated variants, and the existing neurological phenotypes derive from homozygous or conditional deletions rather than haploinsufficiency models.
+
+**Strength of model organism evidence: MODERATE**
+Multiple independent mouse studies demonstrate that HDAC2 is required for normal neuronal differentiation and neurogenesis, providing mechanistic plausibility for the human NDD phenotype. The absence of a heterozygous NDD-specific mouse model and the lack of behavioral or cognitive phenotyping in the neurological models are notable limitations.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+HDAC2 functions as a transcriptional repressor through histone deacetylation, operating within multiple chromatin-remodeling complexes. Key regulatory axes include: repression of PPARα-mediated autophagy (PMID: 38815686); transcriptional repression of YTHDC1 in complex with YY1 (PMID: 35974388); regulation of Wnt signaling pathway genes via interaction with PIM1 kinase (PMID: 39027246); and recruitment of METTL3 to chromatin to regulate m6A RNA modification on differentiation-linked genes (PMID: 41066234). HDAC2 is also implicated in the CoREST complex, where it is regulated by CoREST3 isoforms in cortical neurons (PMID: 40817058).
+
+**Expression pattern and neurodevelopmental relevance:**
+HDAC2 is highly expressed in the adult brain (PMID: 30028551) and is expressed across all stages of hippocampal neurogenesis (PMID: 35095417). Notably, HDAC2 protein levels are significantly decreased (>50%) in multiple cortical regions of Alzheimer's disease post-mortem brain tissue, including the superior temporal gyrus, precuneus, and primary visual cortex, and its expression is regulated by CoREST3 isoforms in iPSC-derived cortical neurons (PMID: 40817058). This demonstrates that HDAC2 is dynamically regulated in the human brain and that its dysregulation is associated with neurological disease. HDAC2 mRNA is also significantly overexpressed in gastric adenocarcinoma (ASHG 2012 - Wisnieski et al.), and elevated in hepatocellular carcinoma (PMID: 39147759), indicating broad tissue expression with context-dependent roles.
+
+**Key experimental findings supporting NDD relevance:**
+- The PTVesc mechanism identified in NDD patients (ASHG 2022 - Torene et al.) is biologically plausible: truncated HDAC2 proteins escaping NMD could act as dominant-negative or gain-of-function alleles within multi-protein repressor complexes, a mechanism consistent with the dominant inheritance pattern observed.
+- HDAC2 is a histone modifier, a gene class strongly enriched among established NDD genes (e.g., *KAT6A*, *EHMT1*, *KDM5C*), providing strong prior biological probability.
+- GWAS integration data implicate HDAC2 binding sites as regulatory elements underlying genetic associations with kidney function (ASHG 2018 - Morris et al.), further supporting HDAC2's role as a broadly important epigenetic regulator.
+- The statistical enrichment of de novo HDAC2 variants in NDD cohorts (binomial p<0.001; ASHG 2022 - Torene et al.) combined with high phenotypic similarity among cases supports a specific genotype-phenotype relationship.
+
+**Strength of biological evidence: MODERATE**
+HDAC2's role as a histone deacetylase with well-documented functions in neuronal differentiation, chromatin regulation, and brain expression provides strong mechanistic plausibility. However, direct functional characterization of NDD-associated patient variants (e.g., in neuronal cell lines or patient-derived iPSCs) has not been reported in the available literature, and the specific molecular mechanism by which PTVesc variants cause NDD remains to be established.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+1. *Statistical convergence across independent cohorts:* Three independent large-scale NDD studies (ASHG 2022 - Torene et al.; ASHG 2015 - Retterer et al.; PMID: 35468861) using distinct analytical approaches and cohorts (including the DDD cohort) all identify HDAC2 as a statistically significant candidate NDD gene, with the strongest signal reaching binomial p<0.001 and >90% true-positive probability by deep learning.
+2. *Mechanistic plausibility:* HDAC2 belongs to the histone modifier gene class, which is among the most enriched functional categories in established NDD genes. Mouse models directly demonstrate HDAC2's requirement for hippocampal neurogenesis (PMID: 35095417) and cortical neurogenesis (PMID: 40447447), and HDAC2 is highly expressed in the human brain with documented dysregulation in neurological disease (PMID: 40817058).
+3. *De novo variant architecture:* All reported NDD-associated variants are de novo, consistent with autosomal dominant pathogenicity, and the PTVesc mechanism provides a biologically coherent explanation for dominant rather than recessive inheritance.
+
+**Key gaps and limitations:**
+1. The total number of individually documented patients remains very small (explicitly ≥2, possibly up to 9 based on the ASHG 2022 abstract), and detailed clinical phenotyping (e.g., specific dysmorphic features, cognitive profiles, neuroimaging) is not available from the current evidence base.
+2. No heterozygous mouse model recapitulating the human NDD variant architecture has been reported, and no functional validation of specific patient variants in neuronal systems has been published.
+3. All clinical evidence derives from conference abstracts rather than peer-reviewed publications with full clinical descriptions, limiting independent assessment of phenotypic specificity and variant-level evidence.
+
+**Conclusion:**
+HDAC2 is a compelling candidate gene for autosomal dominant syndromic neurodevelopmental disorder, supported by statistically significant enrichment of de novo loss-of-function variants across multiple independent NDD cohorts, strong mechanistic plausibility as a histone deacetylase required for neuronal differentiation, and consistent model organism data demonstrating neurogenesis defects upon HDAC2 loss. The current evidence is best classified as moderate, with the primary limitation being the small number of documented patients and the absence of peer-reviewed clinical case series with detailed phenotyping. Publication of a dedicated case series with functional variant characterization would be expected to elevate the evidence to strong and support formal gene-disease curation.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants (PMID: 35468861)
+
+### Model Organism Evidence
+1. HDAC1 Regulates Neuronal Differentiation. (PMID: 35095417)
+2. The Epigenetic Reader PHF23 Is Required for Embryonic Neurogenesis. (PMID: 40447447)
+3. Neuronal susceptibility to beta-amyloid toxicity and ischemic injury involves histone deacetylase-2 regulation of endophilin-B1. (PMID: 30028551)
+4. HDAC2-mediated recruitment of METTL3 to chromatin regulates human embryonic stem cell differentiation. (PMID: 41066234)
+5. HDAC2 enhances the antimicrobial activity of neutrophils by promoting the formation of neutrophil extracellular traps (NETs) in sepsis. (PMID: 40850685)
+6. HDAC1 acts as a tumor suppressor in ALK-positive anaplastic large cell lymphoma: implications for HDAC inhibitor therapy. (PMID: 40175628)
+
+### Biological Evidence
+1. HRD1-mediated ubiquitination of HDAC2 regulates PPARα-mediated autophagy and alleviates metabolic-associated fatty liver disease (PMID: 38815686)
+2. YTHDC1 is downregulated by the YY1/HDAC2 complex and controls the sensitivity of ccRCC to sunitinib by targeting the ANXA1-MAPK pathway (PMID: 35974388)
+3. PIM1-HDAC2 axis modulates intestinal homeostasis through epigenetic modification (PMID: 39027246)
+4. CoREST3 exhibits isoform specific expression in Alzheimer's disease and regulation of HDAC2 (PMID: 40817058)
+5. HDAC2 promotes autophagy-associated HCC malignant progression by transcriptionally activating LAPTM4B (PMID: 39147759)

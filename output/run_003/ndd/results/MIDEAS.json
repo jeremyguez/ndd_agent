@@ -1,0 +1,101 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 3,
+    "biological": 9
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A de novo missense variant in MIDEAS results in increased deacetylase activity of the MiDAC HDAC complex causing a neurodevelopmental syndrome (PMID: 41290615)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "p.Tyr654Ser",
+            "type": "missense",
+            "phenotypes": [
+              "delayed speech development",
+              "joint contractures",
+              "dysmorphic features",
+              "dysmotility of the gut",
+              "multisystem disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo heterozygous variant in two unrelated individuals with the same variant; functional evidence showing elevated deacetylase activity due to displacement of conserved auto-inhibitory loop; reciprocal gene expression changes in patient fibroblasts compared to MiDAC-degraded cell line; variant located in conserved region revealed by cryoEM structure",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "The MiDAC histone deacetylase complex is essential for embryonic development and has a unique multivalent structure. (PMID: 32591534)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Embryonic lethality during late embryogenesis",
+          "Heart malformation",
+          "Haematopoietic failure",
+          "Perturbations in gene expression",
+          "Identical phenotype to DNTTIP1 knockout"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Structural and functional characterization of a cell cycle associated HDAC1/2 complex reveals the structural basis for complex assembly and nucleosome targeting. (PMID: 25653165)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MIDEAS is identified as a corepressor protein in a novel histone deacetylase complex upregulated during mitosis and associated with cyclin A, conserved from nematodes to humans. DNTTIP1 interacts with and mediates assembly of the HDAC1:MIDEAS complex, with DNTTIP1 acting as a dimeric chromatin binding module within this corepressor complex. The complex contains HDAC1/2, MIDEAS, and DNTTIP1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The MiDAC histone deacetylase complex is essential for embryonic development and has a unique multivalent structure. (PMID: 32591534)",
+        "evidence_subtype": "function",
+        "summary": "Mice lacking MIDEAS die with identical phenotypes to DNTTIP1 knockout mice during late embryogenesis due to perturbations in gene expression resulting in heart malformation and haematopoietic failure. MiDAC is important for chromosome alignment during mitosis in cancer cell lines. CryoEM structure reveals four copies of HDAC1 positioned at the periphery with outward-facing active sites, suggesting the complex may target multiple nucleosomes in a processive deacetylase function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The histone deacetylase complex MiDAC regulates a neurodevelopmental gene expression program to control neurite outgrowth. (PMID: 32297854)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MiDAC (containing MIDEAS) functions as a modulator of a neurodevelopmental gene expression program, upregulating pro-neural genes such as SLIT3 and NETRIN1 via H4K20ac removal on promoters and enhancers, while inhibiting negative regulators of neurogenesis by reducing H3K27ac. Loss of MiDAC results in neurite outgrowth defects that can be rescued by supplementation with SLIT3 and/or NTN1. These findings establish a crucial role for MiDAC in regulating ligands of the SLIT3 and NTN1 signaling axes for proper neurite development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A de novo missense variant in MIDEAS results in increased deacetylase activity of the MiDAC HDAC complex causing a neurodevelopmental syndrome. (PMID: 41290615)",
+        "evidence_subtype": "function",
+        "summary": "MIDEAS is a scaffold protein that mediates assembly of the MiDAC histone deacetylase complex, and a de novo heterozygous missense variant (p.Tyr654Ser) in two unrelated individuals causes a multisystem disorder with delayed speech development, joint contractures, dysmorphic features, and gut dysmotility. CryoEM structure reveals that Tyr654 is located in a conserved auto-inhibitory loop covering the deacetylase active site, and the variant likely causes loop displacement leading to elevated deacetylase activity. Reciprocal gene expression changes in patient fibroblasts compared to MiDAC-degraded cell lines support a gain-of-function mechanism, establishing MIDEAS as a dominant monogenic disease gene.",
+        "sample_size": "2 individuals",
+        "significance": null
+      },
+      {
+        "citation": "Mitotic deacetylase complex (MiDAC) recognizes the HIV-1 core promoter to control activated viral gene expression. (PMID: 38781120)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MIDEAS, as a subunit of the MiDAC complex, was identified via DNA-affinity chromatography as selectively recognizing the TASHET sequence of the HIV-1 core promoter. Co-immunoprecipitation assays confirmed that DNTTIP1 interacts with MIDEAS and HDAC1/2. Gene silencing of MIDEAS revealed a functional role in HIV expression in cellulo, identifying MIDEAS as a cell cycle-regulated host cell transcription factor controlling activated HIV gene expression and a potential drug target for HIV cure strategies.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutations on the surface of HDAC1 reveal molecular determinants of specific complex assembly and their requirement for gene regulation. (PMID: 40966515)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Comparative structural analysis of MTA1:HDAC1 and MIDEAS:HDAC1 identified critical binding residues on the surface of HDAC1, with Y48 interacting with ELM2/SANT domain-containing proteins including MIDEAS. The HDAC1-E63R mutation shows markedly reduced binding to MiDAC (and NuRD) complexes, indicating E63 is important for MIDEAS interaction. In mouse embryonic stem cells, HDAC1 was found distributed across six complexes including MiDAC, with the full repertoire of complexes required for appropriate transcriptome regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DNA methylation in peripheral blood leukocytes in late onset Alzheimer's disease. (PMID: 40343304)",
+        "evidence_subtype": "other",
+        "summary": "Differential methylation analysis of peripheral blood leukocytes from Alzheimer's disease patients versus controls identified MIDEAS among differentially methylated genes. This finding suggests potential epigenetic dysregulation of MIDEAS in the context of systemic peripheral inflammation associated with Alzheimer's disease. The study proposes DNA methylation patterns including MIDEAS as potential blood-based biomarkers for AD.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

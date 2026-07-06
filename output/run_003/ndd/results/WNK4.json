@@ -1,0 +1,266 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 22,
+    "biological": 23
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Association of Familial Hyperkalemia and Hypertension with Proximal Renal Tubular Acidosis and Epileptic Seizures (PMID: 37666233)",
+        "num_patients": 44,
+        "variants": [
+          {
+            "description": "p.Q565E (WNK4)",
+            "type": "missense",
+            "phenotypes": [
+              "familial hyperkalemic hypertension (FHHt)",
+              "hyperkalemia",
+              "hypertension",
+              "hyperchloremic metabolic acidosis",
+              "proximal renal tubular acidosis",
+              "epileptic seizures (in subset)",
+              "migraine (in subset)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Segregation with autosomal dominant familial hyperkalemic hypertension phenotype in a large family; known pathogenic variant in WNK4 associated with PHA2/FHHt",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Differential roles of WNK4 in regulation of NCC in vivo. (PMID: 29384416)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Marked reduction in abundance, phosphorylation, and functional activity of NCC compared to wild type",
+          "Low K+ intake increases NCC phosphorylation and functional activity in wild-type but not in Wnk4-KO mice",
+          "Increased luminal NaCl delivery upregulates NCC independently of WNK4",
+          "WNK4 activity modulated by intracellular Cl- is not the sole mechanism for regulating NCC"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4 is indispensable for the pathogenesis of pseudohypoaldosteronism type II caused by mutant KLHL3. (PMID: 28743496)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Marked decrease in phosphorylated and total NCC abundance",
+          "Phosphorylation of SPAK and NCC at distal convoluted tubules almost completely absent in WNK4-/-KLHL3R528H/R528H mice",
+          "Increased WNK1 (due to KLHL3 mutation) unable to compensate for WNK4 deficiency",
+          "WNK4 is indispensable for OSR1/SPAK-NCC signaling activation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK bodies cluster WNK4 and SPAK/OSR1 to promote NCC activation in hypokalemia. (PMID: 31736353)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Larger WNK bodies formed in WNK4-deficient mice containing unphosphorylated WNK1, SPAK, and OSR1",
+          "WNK4 identified as the primary active WNK isoform in WNK bodies",
+          "WNK4 catalyzes SPAK/OSR1 phosphorylation within WNK bodies",
+          "Reduced NCC activation in response to K+ deprivation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4 limits distal calcium losses following acute furosemide treatment. (PMID: 31496133)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Baseline urinary calcium levels normal following WNK4 deletion",
+          "Increased calcium wasting compared to wild-type controls following acute furosemide treatment",
+          "Decreased TRPV5 expression along DCT2",
+          "Urinary calcium excretion and plasma ionized calcium levels not different from controls on calcium-deplete diet",
+          "WNK4 deletion does not affect chronic renal response to dietary calcium depletion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4-SPAK modulates lipopolysaccharide-induced macrophage activation. (PMID: 31786261)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Suppressed p-NKCC1 expression in alveolar macrophages",
+          "Suppressed inflammation cascade activation (NF\u03baB) in alveolar macrophages",
+          "Attenuated LPS-induced alveolar cell-population shifting from macrophage to neutrophil predominance",
+          "Attenuated macrophage NKCC1 phosphorylation",
+          "Attenuated acute lung injury following intrapulmonary LPS administration"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NRBP1 and TSC22D proteins affect distal convoluted tubule physiology through modulation of the WNK pathway. (PMID: 40668923)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "DCT-specific NRBP1-knockout mice have reduced NCC phosphorylation",
+          "Activation of a compensatory response in the DCT",
+          "NRBP1 identified as a positive modulator of WNK signaling affecting Na+ reabsorption in the kidney"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Distal convoluted tubule-specific disruption of the COP9 signalosome but not its regulatory target cullin 3 causes tubular injury. (PMID: 39205661)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Short-term DCT-specific Cul3 knockout caused elevated WNK4, pSPAKS373, and pNCCT53 abundance",
+          "No changes in plasma K+, Cl-, or total CO2 in short-term DCT-Cul3-/- mice",
+          "No complete FHHt phenotype despite activation of WNK4-SPAK-NCC pathway",
+          "Long-term DCT-Cul3-/- mice showed no injury or reduction in NCC or parvalbumin"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Camk2n1 deficiency reduces the NaCl cotransporter activity through the CUL3/KLHL3/WNK4 complex in the kidney. (PMID: 39798916)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Camk2n1-/- mice exhibited consistently lower systolic blood pressure",
+          "Decreased apical labeling of phosphorylated and total NCC in the distal convoluted tubule",
+          "Elevated neddylated CUL3 and KLHL3 promoting proteasomal degradation of WNK4",
+          "Increased mRNA and protein levels of UBA3 and UBE2M in renal tissues",
+          "MLN4924 treatment suppressed CUL3 hyperneddylation and restored WNK4 levels"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Statistical framework for biological interpretation and improvement of genetic association studies. (M. Artomov et al.)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Mice with non-functional WNK4 develop histologically confirmed focal segmental glomerulosclerosis (FSGS)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kir4.1/Kir5.1 of distal convoluted tubule is required for short-term angiotensin-II-induced stimulation of Na-Cl cotransporter. (PMID: 40241495)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Deletion of Kir4.1 significantly decreased expression of pNCC and tNCC",
+          "Abolished effect of 1-day Ang-II perfusion on pWNK4, pSPAK, pNCC, and tNCC expression",
+          "7-day Ang-II perfusion still able to stimulate pSPAK, pWNK4, pNCC, and tNCC in Ks-Kir4.1-KO mice",
+          "Short-term Ang-II-induced stimulation of pWNK4, pSPAK, and pNCC depends on Kir4.1/Kir5.1 activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "WNK4 kinase: from structure to physiology (PMID: 33491560)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 is a serine-threonine kinase that acts as a positive regulator of the thiazide-sensitive NaCl cotransporter (NCC) in the distal convoluted tubule. Gain-of-function mutations in WNK4 cause familial hyperkalemic hypertension through increased activation of the SPAK/OSR1-NCC pathway, increasing salt reabsorption and impairing renal K+ secretion. The review covers WNK4 structure, functional domains, physiological functions from in vitro studies and genetically modified mouse models, and multiple levels of regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4-SPAK modulates lipopolysaccharide-induced macrophage activation (PMID: 31786261)",
+        "evidence_subtype": "other",
+        "summary": "Using WNK4 knockout (WNK4-/-) and knockin (WNK4D561A/+) mice, the study demonstrated that WNK4 regulates NKCC1 phosphorylation and NF-\u03baB activation in alveolar macrophages in response to LPS. WNK4 knockout attenuated LPS-induced macrophage activation and acute lung injury, while WNK4 knockin augmented the inflammatory response. This establishes a role for the WNK4-SPAK-NKCC1 cascade in modulating macrophage activation and lung inflammation outside the kidney.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WNK4 kinase: role of chloride sensing in the distal convoluted tubule (PMID: 33394730)",
+        "evidence_subtype": "function",
+        "summary": "WNK4 functions as a physiological intracellular chloride sensor in the distal convoluted tubule (DCT), with the highest chloride sensitivity among WNK kinases and dominant expression in DCT. Chloride-insensitive WNK4 knockin mice developed hypertension and increased NCC activity, proving that WNK4 is inhibited by physiological intracellular chloride concentrations. The chloride-sensing mechanism of WNK4 is responsible for hypokalemia-induced NCC activation and requires basolateral K+ and Cl- channels/cotransporters including Kir4.1/5.1 and ClC-Kb.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Arginine vasopressin regulates the renal Na(+)-Cl(-) and Na(+)-K(+)-Cl(-) cotransporters through with-no-lysine kinase 4 and inhibitor 1 phosphorylation (PMID: 38096266)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In HEK-293 cells, only wild-type WNK4 (not WNK1, WNK3, or a WNK4 mutant lacking PKA phosphorylation motifs) could upregulate SPAK or cotransporter phosphorylation in response to forskolin or desmopressin, identifying WNK4 as the specific mediator of vasopressin-cAMP signaling to the SPAK/OSR1-NCC/NKCC2 pathway. In WNK4-/- mice infused with desmopressin, SPAK/OSR1, NCC, and NKCC2 phosphorylation were not increased, confirming WNK4 is essential for vasopressin-mediated cotransporter activation in vivo. WNK4 acts as a central node where PKA kinase and PP1 phosphatase signaling converge.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KLHL3-dependent WNK4 degradation affected by potassium through the neddylation and autophagy pathway (PMID: 37481568)",
+        "evidence_subtype": "pathway",
+        "summary": "In vitro (HEK293 cells) and in vivo (mouse dietary K+ manipulation) experiments showed that WNK4 abundance and phosphorylation are regulated by potassium through the KLHL3-CUL3 E3 ligase complex via neddylation and autophagy pathways. Low potassium conditions increased WNK4 and pWNK4 abundance, and inhibiting neddylation (with MLN4924) or autophagy further elevated WNK4 levels. These findings reveal a complex potassium-dependent regulatory mechanism controlling WNK4 degradation and NCC activity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transport activity regulates mitochondrial bioenergetics and biogenesis in renal tubules (PMID: 38370657)",
+        "evidence_subtype": "other",
+        "summary": "Deletion of Wnk4 in mice chronically decreased maximal mitochondrial respiratory capacity and downregulated mitochondrial DNA mass and mitochondrial length/density in thick ascending limbs (TALs) and distal convoluted tubules (DCTs). Conversely, a gain-of-function Wnk4 mutation increased maximal mitochondrial capacity and mitochondrial length/density without increasing mitochondrial DNA mass. These results demonstrate that WNK4-mediated transport activity tightly regulates mitochondrial bioenergetics and biogenesis in renal tubules.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NRBP1 pseudokinase binds to and activates the WNK pathway in response to osmotic stress (PMID: 40668933)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Using proximity labeling, immunoprecipitation, and mass spectrometry, NRBP1 pseudokinase was found to associate with WNK1 under osmotic stress conditions. Recombinant NRBP1 was shown to directly activate WNK4 in vitro, establishing NRBP1 as an upstream activator of the WNK pathway. AlphaFold-3 modeling predicted a complex involving WNK1, SPAK, NRBP1, and TSC22D4, with TSC22D4 R\u03a6-motifs interacting with the CCT-like domain of WNK1 and the CCT domain of NRBP1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Distal convoluted tubule-specific disruption of the COP9 signalosome but not its regulatory target cullin 3 causes tubular injury (PMID: 39205661)",
+        "evidence_subtype": "other",
+        "summary": "DCT-specific knockout of Cul3 or Jab1 (CSN subunit) using Slc12a3-Cre-ERT2 mice caused elevated WNK4, pSPAK, and pNCC abundance in the short term, confirming that CUL3-mediated degradation of WNK4 controls the WNK4-SPAK-NCC pathway in the DCT. Despite WNK4-SPAK-NCC pathway activation, neither model showed changes in plasma K+, Cl-, or total CO2, suggesting insufficient NCC activation for full FHHt phenotype. Long-term DCT-Jab1-/- but not DCT-Cul3-/- mice developed tubule injury and DCT atrophy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulation of the WNK4-SPAK-NCC pathway by the calcium-sensing receptor (PMID: 37530086)",
+        "evidence_subtype": "pathway",
+        "summary": "The calcium-sensing receptor (CaSR) activates NCC in the distal convoluted tubule through a PKC-WNK4-SPAK signaling pathway, independent of the renin-angiotensin-aldosterone system. Apical CaSR activation in DCT stimulates PKC, which activates WNK4 and subsequently SPAK to increase NCC phosphorylation and NaCl reabsorption. Glucose and fructose acting as calcimimetics enhance apical CaSR sensitivity, increasing WNK4-SPAK-NCC activity and contributing to hypertension in diabetic patients or those with high fructose consumption.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Statistical framework for biological interpretation and improvement of genetic association studies (M. Artomov et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "A network-based statistical framework applied to focal segmental glomerulosclerosis (FSGS) GWAS data identified WNK4 as one of five genes in the most associated protein-protein interaction network, with WNK4 achieving more than 10-fold improvement in association signal after network integration. Mouse model evidence (PMID: 26901816) confirmed that mice with non-functional WNK4 develop histologically confirmed FSGS, supporting WNK4 as a causal gene for FSGS. WNK4 and COL4A4 were the two genes that reached statistical significance in the posterior association analysis.",
+        "sample_size": "11 PHAII index cases (original FSGS study cohort)",
+        "significance": "posterior p-value significant (>10-fold improvement over threshold of 3x10-5)"
+      }
+    ]
+  }
+}

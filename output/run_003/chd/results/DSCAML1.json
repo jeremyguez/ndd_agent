@@ -1,0 +1,281 @@
+{
+  "articles_found": {
+    "clinical": 15,
+    "model_organism": 11,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Potential involvement of DSCAML1 mutations in neurodevelopmental disorders. (PMID: 33501714)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "p.C729R (DSCAML1C729R)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability",
+              "developmental disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "p.R1685* (DSCAML1R1685*)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability",
+              "developmental disorder",
+              "neurodevelopmental disorder"
+            ]
+          },
+          {
+            "description": "p.K2108Nfs*37 (DSCAML1K2108Nfs*37)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability",
+              "developmental disorder",
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variants identified from databases of ASD, ID/DD, and schizophrenia; in silico analyses predicted damage; functional studies showed loss of mature N-glycosylation (C729R), proteasome-dependent degradation (K2108Nfs*37), and loss of synaptic regulation for all mutants",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Down syndrome cell adhesion molecule like-1 (DSCAML1) links the GABA system and seizure susceptibility. (PMID: 33256836)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.A2105T (DSCAML1A2105T)",
+            "type": "missense",
+            "phenotypes": [
+              "epilepsy",
+              "seizure susceptibility"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Single nucleotide substitution identified in a human epilepsy patient; mutant protein not presented on cell surface, losing homophilic cell adhesion ability; knock-in mice carrying corresponding mutation showed reduced GABAergic neurons and spike-and-wave electrocorticogram",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Pharmacological Correction of Aberrant DSCAML1 Localization by 4-Phenylbutyrate Ameliorates Epileptic Phenotypes in a Mouse Model Harboring the Patient-Specific A2105T Mutation. (PMID: 42003794)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.A2105T (DSCAML1A2105T)",
+            "type": "missense",
+            "phenotypes": [
+              "epilepsy",
+              "neurodevelopmental disorder",
+              "spike-and-wave discharges"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Patient-derived pathogenic mutation; leads to intracellular accumulation of DSCAML1 protein preventing proper cell surface localization; associated with neurodevelopmental disorders and epilepsy",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Zebrafish dscaml1 Deficiency Impairs Retinal Patterning and Oculomotor Function (PMID: 31685652)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Deficits in retinal patterning",
+          "Impaired light adaptation",
+          "Severe fatigue during gaze stabilization",
+          "Reduced saccade amplitude and velocity in the light",
+          "Greater disconjugacy",
+          "Impaired fixation",
+          "Deficits in saccade-command signals (impairment in saccadic premotor pathway)",
+          "Pretectum-vestibular pathway activation of abducens not affected",
+          "Phenotypes reminiscent of human ocular motor apraxia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DSCAM and DSCAML1 function in self-avoidance in multiple cell types in the developing mouse retina (PMID: 19945391)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Fasciculated rod bipolar cell dendrites",
+          "Clumped AII amacrine cell bodies",
+          "Self-avoidance defects in rod circuit neurons",
+          "Appropriate stratification of processes in synaptic laminae in the inner plexiform layer",
+          "Functional synapses formed in the rod circuit (not essential for synaptic specificity)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deficiency in the cell-adhesion molecule dscaml1 impairs hypothalamic CRH neuron development and perturbs normal neuroendocrine stress axis function (PMID: 36875755)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Higher crhb expression in hypothalamic CRH neurons",
+          "Increased CRH neuron cell number",
+          "Reduced CRH neuron cell death",
+          "Higher baseline cortisol levels",
+          "Attenuated cortisol response to acute stressors",
+          "Dysregulation of hypothalamic-pituitary-adrenal (HPA) axis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The rod synapse in aging wildtype and Dscaml1 mutant mice (PMID: 37910517)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Rod-to-RBC synapses form and are maintained similar to wildtype",
+          "Increased number of invaginating neurites in rod spherules",
+          "Reduction in rod bipolar cell (RBC) dendritic tips",
+          "Reduced mitochondrial volume and complexity in RBCs",
+          "Precocious sprouting of RBC dendrites into the outer nuclear layer (ONL)",
+          "Linked to congenital stationary night blindness (CSNB)-like phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Subtle Roles of Down Syndrome Cell Adhesion Molecules in Embryonic Forebrain Development and Neuronal Migration (PMID: 33585465)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "No significant effect on cortical development",
+          "No significant effect on ventral forebrain morphogenesis",
+          "No significant effect on cortical interneuron migration",
+          "No significant effect on cortical-subcortical connectivity formation",
+          "Gain-of-function (not knockout) negatively impacted neural migration and neuronal morphology"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pharmacological Correction of Aberrant DSCAML1 Localization by 4-Phenylbutyrate Ameliorates Epileptic Phenotypes in a Mouse Model Harboring the Patient-Specific A2105T Mutation (PMID: 42003794)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Intracellular accumulation of DSCAML1 protein (A2105T missense mutation)",
+          "Dendritic retraction in cortical layer V pyramidal neurons",
+          "Abnormal clustering of somatostatin-positive interneurons in the hippocampus",
+          "Epileptic spike-and-wave discharges",
+          "Neurodevelopmental deficits",
+          "4PBA treatment restored cell surface localization and ameliorated phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Structural Neural Connectivity Analysis in Zebrafish With Restricted Anterograde Transneuronal Viral Labeling and Quantitative Brain Mapping (PMID: 32038180)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Differences in topographical distribution of retinofugal connectivity patterns compared to wild-type"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Cloning and functional characterization of DSCAML1, a novel DSCAM-like cell adhesion molecule that mediates homophilic intercellular adhesion. (PMID: 11453658)",
+        "evidence_subtype": "function",
+        "summary": "DSCAML1 was identified as a human DSCAM paralogue located on chromosome 11q23, encoding a protein with 10 Ig domains, six fibronectin-III domains, and an intracellular domain. It exhibits homophilic binding activity that does not require divalent cations and targets axonal features in differentiated PC12 cells. Based on its structural and functional properties, DSCAML1 is proposed to be involved in formation and maintenance of neural networks.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DSCAM and DSCAML1 function in self-avoidance in multiple cell types in the developing mouse retina. (PMID: 19945391)",
+        "evidence_subtype": "function",
+        "summary": "Dscaml1 is expressed in the rod circuit of the mouse retina, and mice lacking Dscaml1 exhibit fasciculated rod bipolar cell dendrites and clumped AII amacrine cell bodies, indicating a role in self-avoidance. Neurons in Dscaml1 mutant retinas still stratified their processes appropriately in synaptic laminae, and functional synapses formed in the rod circuit, indicating DSCAML1 is not essential for synaptic specificity. DSCAM and DSCAML1 function similarly in self-avoidance in the mouse retina.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DSCAM and DSCAML1 regulate the radial migration and callosal projection in developing cerebral cortex. (PMID: 25451118)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RNA interference-mediated knockdown of DSCAML1 in mouse cortical neurons increased the complexity of proximal dendritic branching and impeded axon growth in vitro. In vivo knockdown experiments showed that DSCAML1 contributes to normal radial migration and callosal projection during postnatal development. These results indicate an important role of DSCAML1 in the development of the cortical neural network.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish dscaml1 Deficiency Impairs Retinal Patterning and Oculomotor Function. (PMID: 31685652)",
+        "evidence_subtype": "other",
+        "summary": "Genetic perturbation of dscaml1 in larval zebrafish resulted in deficits in retinal patterning and light adaptation, as well as severe oculomotor deficits including fatigue during gaze stabilization, reduced saccade amplitude and velocity, greater disconjugacy, and impaired fixation. Two-photon calcium imaging confirmed deficits in saccade-command signals in abducens neurons, indicating impairment in the saccadic premotor pathway. The oculomotor phenotypes resemble human ocular motor apraxia, a neurodevelopmental disorder.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deficiency in the cell-adhesion molecule dscaml1 impairs hypothalamic CRH neuron development and perturbs normal neuroendocrine stress axis function. (PMID: 36875755)",
+        "evidence_subtype": "function",
+        "summary": "In zebrafish dscaml1 mutants, hypothalamic CRH neurons showed higher crhb expression, increased cell number, and reduced cell death compared to wild-type controls. Physiologically, dscaml1 mutant animals had higher baseline cortisol levels and attenuated responses to acute stressors. These findings identify dscaml1 as an essential factor for stress axis (HPA axis) development, suggesting HPA axis dysregulation may contribute to DSCAML1-linked neuropsychiatric disorders.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nuclear import of the DSCAM-cytoplasmic domain drives signaling capable of inhibiting synapse formation. (PMID: 30745319)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A high-throughput screen identified novel cytoplasmic signaling effectors for DSCAML1, including Dyrk1a, STAT3, USP21, and SH2D2A, and showed that the DSCAML1 intracellular domain (ICD) directly interacts with IPO5 (importin beta family) via a conserved nuclear localization signal. The DSCAML1 ICD translocates to the nucleus following gamma-secretase-dependent cleavage, and RNA sequencing confirmed that DSCAML1 ICD expression profoundly alters genes associated with neuronal differentiation, apoptosis, and synapse formation. Gain-of-function experiments in primary cortical neurons showed that increased DSCAML1 ICD levels impair neurite growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Human down syndrome cell adhesion molecules (DSCAMs) are functionally conserved with Drosophila Dscam[TM1] isoforms in controlling neurodevelopment. (PMID: 21645617)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Cross-species rescue assays showed that human DSCAML1 partially but substantially rescued larval lethality of Drosophila Dscam mutants. Human DSCAML1 was targeted to dendrites in Drosophila neurons, had synergistic rescue effects with Drosophila Dscam[TM2], and preferentially rescued dendrite defects of Drosophila Dscam mutant neurons. These results demonstrate that human DSCAML1 is functionally conserved with Drosophila Dscam[TM1] isoforms.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The rod synapse in aging wildtype and Dscaml1 mutant mice. (PMID: 37910517)",
+        "evidence_subtype": "function",
+        "summary": "Loss-of-function analysis in mice showed that Dscaml1 mutants have an increased number of invaginating neurites in rod spherules, a reduction in rod bipolar cell (RBC) dendritic tips, and reduced mitochondrial volume and complexity compared to controls. Precocious sprouting of RBC dendrites into the outer nuclear layer was also observed in Dscaml1 mutants. These findings link Dscaml1 to rod circuit development and maintenance, with relevance to congenital stationary night blindness (CSNB).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic effects of DSCAML1 identified in genome-wide association study revealing strong associations with litter size and semen quality in goat (Capra hircus). (PMID: 32036056)",
+        "evidence_subtype": "GWAS",
+        "summary": "Three insertion/deletion variants of goat DSCAML1 were identified in 2162 Shaanbei White Cashmere Goats, with two indels (P2-16bp, P14-15bp) significantly associated with sperm quality (motility and density) and three loci significantly associated with first-birth litter size. DSCAML1 expression in the testis differed significantly between mitotic and meiotic stages, and different genotypes of P2-16bp and P14-15bp showed noticeable effects on DSCAML1 expression levels. These findings suggest DSCAML1 has a critical role in fecundity beyond its known neurological functions.",
+        "sample_size": "n=2162",
+        "significance": "p=4.0\u00d710\u207b\u2076 to p=4.7\u00d710\u207b\u00b2"
+      },
+      {
+        "citation": "Subtle Roles of Down Syndrome Cell Adhesion Molecules in Embryonic Forebrain Development and Neuronal Migration. (PMID: 33585465)",
+        "evidence_subtype": "expression",
+        "summary": "Dscaml1 showed highly dynamic spatiotemporal expression patterns in definite cortical layers of the embryonic mouse brain and in ganglionic eminence-derived neural populations within the embryonic subpallium. Constitutive loss of Dscaml1 in knockout mice did not significantly affect cortical development, interneuron migration, or cortical-subcortical connectivity at embryonic stages. However, gain-of-function of Dscaml1 in vitro, ex vivo, and in vivo negatively impacted neural migration and affected the morphology of maturing neurons.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

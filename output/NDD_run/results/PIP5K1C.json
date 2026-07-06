@@ -1,0 +1,239 @@
+{
+  "articles_found": {
+    "clinical": 7,
+    "model_organism": 10,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo missense variants in phosphatidylinositol kinase PIP5KI\u03b3 underlie a neurodevelopmental syndrome associated with altered phosphoinositide signaling (PMID: 37451268)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "Three de novo heterozygous missense variants in PIP5K1C (specific variants not detailed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "developmental delay",
+              "acquired microcephaly",
+              "seizures",
+              "visual abnormalities",
+              "dysmorphic features",
+              "forebrain developmental defects",
+              "eye abnormalities",
+              "craniofacial abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variants, recapitulated in zebrafish model showing developmental defects, evidence of increased endosomal PI(4,5)P2 pool and ectopic actin recruitment at early endosomes",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "De novo missense variants in phosphatidylinositol kinase PIP5KI\u03b3 underlie a neurodevelopmental syndrome associated with altered phosphoinositide signaling (PMID: 37451268)",
+        "organism": "zebrafish",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "developmental defects affecting forebrain",
+          "eye abnormalities",
+          "craniofacial abnormalities"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Conditional deletion of Pip5k1c in sensory ganglia and effects on nociception and inflammatory sensitization (PMID: 29020859)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "early onset proprioceptive deficit (constitutive cKO)",
+          "thermal hypersensitivity recovery (Brn3a cKO)",
+          "mechanical allodynia recovery (Brn3a cKO)",
+          "normal acute thermosensation",
+          "normal acute mechanosensation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Adipocyte-specific deletion of PIP5K1c reduces diet-induced obesity and insulin resistance by increasing energy expenditure (PMID: 34996482)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "reduced diet-induced obesity",
+          "reduced hyperlipidemia",
+          "reduced hepatic steatosis",
+          "reduced insulin resistance",
+          "decreased adipocyte volume",
+          "enhanced energy expenditure",
+          "impaired adipogenesis",
+          "normal body weight and adipose tissue weight on normal chow diet"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The lipid kinase PIP5K1C regulates pain signaling and sensitization (PMID: 24853942)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "reduced pronociceptive receptor signaling",
+          "reduced TRPV1 sensitization in DRG neurons",
+          "reduced thermal hypersensitivity in chronic pain models",
+          "reduced mechanical hypersensitivity in chronic pain models"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic Association and Expression Analyses of the Phosphatidylinositol-4-Phosphate 5-Kinase (PIP5K1C) Gene in Alcohol Use Disorder-Relevance for Pain Signaling and Alcohol Use (PMID: 29667742)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "altered PIP5K1C expression in thalamus after acute alcohol exposure",
+          "altered PIP5K1C expression in basolateral amygdala after acute alcohol exposure"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p<0.05 (thalamus), p<0.01 (BLA)"
+      },
+      {
+        "citation": "Omics analyses of a somatic Trp53(R245W/+) breast cancer model identify cooperating driver events activating PI3K/AKT/mTOR signaling (PMID: 36322759)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "recurrent Pip5k1c mutation stabilizing Pip5k1c protein",
+          "activation of Pi3k/Akt/mTOR signaling",
+          "metastatic breast cancer development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phosphatidylinositol 4-phosphate 5-kinase is indispensable for mouse spermatogenesis (PMID: 22321832)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "subfertility (Pip5k1a-KO males)",
+          "complete sterility (double KO males)",
+          "disorganized F-actin in seminiferous epithelium (double KO)",
+          "greatly decreased number of elongated spermatids (double KO)",
+          "flagellar morphological changes (Pip5k1a-KO and double KO sperm)",
+          "normal flagellar morphology (Pip5k1b-KO sperm)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A PLC\u03b2/PI3K\u03b3-GSK3 signaling pathway regulates cofilin phosphatase slingshot2 and neutrophil polarization and chemotaxis (PMID: 22172670)",
+        "organism": "mouse",
+        "knockout_type": null,
+        "phenotypes": [
+          "PIP5K1C regulates neutrophil polarization",
+          "PIP5K1C regulates neutrophil chemotaxis",
+          "PIP5K1C involved in integrin-induced polarization"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Pip5k1c expression in osteocytes regulates bone remodeling in mice (PMID: 38495744)",
+        "evidence_subtype": "function",
+        "summary": "Pip5k1c deletion in osteocytes (via Dmp1-Cre) causes low bone mass, reduced type 1 collagen, increased sclerostin expression, impaired focal adhesion proteins, and promoted apoptosis. Loss of Pip5k1c reduces osteoblast and bone formation rate while affecting osteoclast activities.",
+        "sample_size": "Mouse model (Pip5k1cfl/fl \u00d7 Dmp1-Cre)",
+        "significance": null
+      },
+      {
+        "citation": "De novo missense variants in phosphatidylinositol kinase PIP5KI\u03b3 underlie a neurodevelopmental syndrome associated with altered phosphoinositide signaling (PMID: 37451268)",
+        "evidence_subtype": "pathway",
+        "summary": "Three de novo heterozygous missense variants in PIP5K1C identified in nine unrelated children with intellectual disability, developmental delay, microcephaly, and seizures. Variants increase endosomal PI(4,5)P2 pool, causing ectopic filamentous actin recruitment at early endosomes and dysfunction in endosomal trafficking. Zebrafish model recapitulates forebrain and craniofacial defects.",
+        "sample_size": "9 patients; zebrafish model",
+        "significance": null
+      },
+      {
+        "citation": "PIP5K1C phosphoinositide kinase deficiency distinguishes PIKFYVE-dependent cancer cells from non-malignant cells (PMID: 36803256)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PIP5K1C deficiency in cancer cells confers sensitivity to PIKFYVE inhibitor WX8. PIP5K1C catalyzes conversion of PtdIns4P to PtdIns(4,5)P2 via one of two independent pathways; low PIP5K1C forces cancer cells to depend on PIKFYVE-PIP4K2C pathway. Inhibition of PIP5K1C in resistant cells increases WX8 sensitivity; overexpression increases resistance.",
+        "sample_size": "Multiple cancer cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Novel genetic variants of PIP5K1C and MVB12B of the endosome-related pathway predict cutaneous melanoma-specific survival (PMID: 33163277)",
+        "evidence_subtype": "GWAS",
+        "summary": "SNP PIP5K1C rs11666894 A>C associated with cutaneous melanoma disease-specific survival (adjusted HR=1.47, 95% CI=1.15-1.89). eQTL analysis shows rs11666894 associated with PIP5K1C mRNA expression in lymphoblastoid cell lines from 373 European descendants (P<0.0001).",
+        "sample_size": "Discovery: 858 CM patients (95 deaths); Replication: 409 CM patients (48 deaths); eQTL: 373 individuals",
+        "significance": "P=0.002 (discovery); P<0.0001 (eQTL)"
+      },
+      {
+        "citation": "Genetic Association and Expression Analyses of the Phosphatidylinositol-4-Phosphate 5-Kinase (PIP5K1C) Gene in Alcohol Use Disorder-Relevance for Pain Signaling and Alcohol Use (PMID: 29667742)",
+        "evidence_subtype": "GWAS",
+        "summary": "Eight SNPs in PIP5K1C significantly associated with alcohol use disorder in African ancestry group (rs4807493, rs10405681, rs2074957, rs10432303, rs8109485, rs1476592, rs10419980, rs4432372; p<0.05 after correction). In humanized transgenic mice with OPRM1 polymorphism, acute alcohol exposure significantly upregulated PIP5K1C expression in thalamus and basolateral amygdala.",
+        "sample_size": "Discovery: 427 AA cases, 137 controls; 488 EA cases, 324 controls; Replication: N=3,801; Mouse model",
+        "significance": "p<0.05 (discovery, AA group); p<0.05 thalamus, p<0.01 BLA (mouse)"
+      },
+      {
+        "citation": "Pip5k1c Loss in Chondrocytes Causes Spontaneous Osteoarthritic Lesions in Aged Mice (PMID: 37008048)",
+        "evidence_subtype": "function",
+        "summary": "Inducible deletion of Pip5k1c in aggrecan-expressing chondrocytes causes spontaneous OA-like lesions in aged (15-month) but not adult (7-month) mice. Pip5k1c loss promotes ECM degradation, chondrocyte hypertrophy and apoptosis, inhibits proliferation, and dramatically downregulates focal adhesion proteins (integrin \u03b21, talin, vinculin), impairing chondrocyte adhesion and spreading.",
+        "sample_size": "Mouse model (inducible cKO in chondrocytes)",
+        "significance": null
+      },
+      {
+        "citation": "Development of a High-Throughput Screening Assay to Identify Inhibitors of the Lipid Kinase PIP5K1C (PMID: 25534829)",
+        "evidence_subtype": "function",
+        "summary": "Developed microfluidic mobility shift assay for PIP5K1C inhibitor screening using fluorescently labeled PI(4)P substrate and recombinant human PIP5K1C. Assay shows high reproducibility (z'>0.7), ATP Km=15 \u00b5M. Screen of ~4700 compounds identified potent inhibitors including UNC3230, which reduces nociceptive sensitization in chronic pain models.",
+        "sample_size": "~4700 compounds screened",
+        "significance": "z'>0.7"
+      },
+      {
+        "citation": "Loss of phosphatidylinositol-4-phosphate 5-kinase type-1 gamma (Pip5k1c) in mesenchymal stem cells leads to osteopenia by impairing bone remodeling (PMID: 35090892)",
+        "evidence_subtype": "function",
+        "summary": "Pip5k1c deletion in mesenchymal stem cells (Prx1-Cre) causes osteopenia in adult mice by decreasing osteoblast formation and osteoid/mineral deposition. Pip5k1c loss impairs cytoplasmic calcium influx and inactivates calcium/calmodulin-dependent protein kinase, reducing Runx2 stability and osteoblast differentiation while promoting adipogenic differentiation.",
+        "sample_size": "Mouse model (Prx1-Cre; Pip5k1cfl/fl)",
+        "significance": null
+      },
+      {
+        "citation": "MiR-4649-5p acts as a tumor-suppressive microRNA in triple negative breast cancer by direct interaction with PIP5K1C (PMID: 37803350)",
+        "evidence_subtype": "cell_culture",
+        "summary": "miR-4649-5p directly targets PIP5K1C in triple negative breast cancer cells. Upregulation of miR-4649-5p or downregulation/pharmacologic inhibition of PIP5K1C (with UNC3230) decreases TNBC cell growth, proliferation, and migration. PIP5K1C regulates PI3K/AKT signaling; combination of miR-4649-5p and AKT inhibitor (capivasertib) shows additive growth-reducing effects.",
+        "sample_size": "TNBC cell lines",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Dominant and recessive disease trait inheritance associated with variation at a single locus (J. Posey et al.)",
+        "evidence_subtype": "other",
+        "summary": "Analysis of 345 trio WES cases identified 7 cases (2.0%) with de novo variants in known autosomal recessive disease genes. One case involved a de novo missense variant in PIP5K1C (associated with lethal congenital contractural syndrome 3, MIM #611369) in a conserved protein region with predicted damaging effect, suggesting single heterozygous variant may cause phenotype.",
+        "sample_size": "345 cases; 1 PIP5K1C case",
+        "significance": "2.0% of cases"
+      }
+    ]
+  }
+}

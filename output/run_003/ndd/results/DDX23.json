@@ -1,0 +1,150 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 4,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Syndromic neurodevelopmental disorder associated with de novo variants in DDX23 (PMID: 34050707)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "multiple de novo missense variants within the RecA-like domain, proximal to or within the DEAD box sequence (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "tone abnormalities",
+              "global developmental delay",
+              "facial dysmorphism",
+              "autism spectrum disorder",
+              "seizures",
+              "skeletal anomalies",
+              "renal anomalies",
+              "ocular anomalies",
+              "cardiac anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo occurrence; variants in highly conserved RecA-like domain of DDX23; absent or rare in population databases (implied); nine unrelated individuals with overlapping phenotype",
+        "center_country": "not specified (international cohort via GeneMatcher)",
+        "cohort": null
+      },
+      {
+        "citation": "Heterogeneous genetic patterns in bilateral perisylvian polymicrogyria: insights from a Finnish family cohort (PMID: 38712318)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo variant in DDX23 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "bilateral perisylvian polymicrogyria",
+              "upper motoneuron dysfunction",
+              "dysarthria",
+              "asymmetric quadriparesis",
+              "cognitive impairment",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "confirmed de novo; identified as pathogenic or likely pathogenic; novel association of DDX23 with bilateral perisylvian polymicrogyria",
+        "center_country": "Finland",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2023 - Identification of variants underlying biparietal perisylvian polymicrogyria in Finnish families (I. J\u00e4rvel\u00e4, R. A. Paetau, A. Acharya, Y. Rajendran, I. Schrauwen)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo variant in DDX23 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "bilateral perisylvian polymicrogyria",
+              "oromotor dysfunction",
+              "dysarthria",
+              "hemiparesis",
+              "cognitive impairment",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo; classified as pathogenic or likely pathogenic by exome sequencing in a trio",
+        "center_country": "Finland; Columbia University, USA",
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "DEAD-box RNA helicase DDX23 modulates glioma malignancy via elevating miR-21 biogenesis. (PMID: 26121981)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DDX23 promotes miR-21 biogenesis by facilitating primary-to-precursor processing through interaction with the Drosha microprocessor, requiring its helicase activity. Knockdown of DDX23 suppressed glioma cell proliferation and invasion in vitro and in vivo, and ivermectin (an RNA helicase inhibitor) decreased miR-21 levels and blocked invasion. DDX23 expression was elevated in glioma tissues compared to normal brain and correlated with poor patient survival.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SRSF1 interactome determined by proximity labeling reveals direct interaction with spliceosomal RNA helicase DDX23. (PMID: 38743621)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "DDX23 (also known as PRP28) directly interacts with the SR protein SRSF1, mediated by the N-terminal RS-like domain of DDX23 and both RRM1 and the RS domain of SRSF1, validated by bimolecular fluorescence complementation and in vitro binding assays. DDX23's ATPase activity is essential for the pre-B to B spliceosome complex transition and release of U1 snRNP from the 5' splice site. The RS-like region of DDX23's N-terminal domain is important for spliceosome incorporation, while larger deletions alter subnuclear localization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing Factor DDX23, Transcriptionally Activated by E2F1, Promotes Ovarian Cancer Progression by Regulating FOXM1. (PMID: 34966670)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DDX23 is upregulated in ovarian cancer and its high expression predicts poor prognosis; silencing DDX23 impeded cell proliferation and invasion in vitro and tumor growth in vivo. Mechanistically, DDX23 regulates mRNA processing of FOXM1, specifically promoting production of the oncogenic FOXM1C transcript. DDX23 transcription is activated by the transcription factor E2F1, as confirmed by luciferase reporter and ChIP assays.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DEAD-box RNA helicase DDX-23 mediates dietary restriction induced health span in Caenorhabditis elegans. (PMID: 39578298)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In C. elegans, DDX-23 (homolog of mammalian DDX23) functions in the germline during adulthood to regulate dietary restriction-induced longevity and is required for heat and oxidative stress responses. DDX-23 negatively regulates healthy lifespan extension by upregulating miR-231, which suppresses the FOXO transcription factor DAF-16, while PHA-4/FOXA acts downstream of DDX-23 to mediate transcriptional responses of SOD-related genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The DDX23 Negatively Regulates Translation and Replication of Foot-and-Mouth Disease Virus and Is Degraded by 3C Proteinase. (PMID: 33255534)",
+        "evidence_subtype": "function",
+        "summary": "DDX23 is a host nuclear helicase and IRES trans-acting factor (ITAF) that negatively regulates FMDV IRES-dependent translation and viral replication; overexpression reduced viral replication while knockout/knockdown increased it. DDX23 interacts with FMDV IRES domains III and IV, and is degraded by FMDV 3C proteinase via the lysosomal pathway. FMDV infection inhibited DDX23 expression, indicating a viral immune evasion strategy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DDX23-Linc00630-HDAC1 axis activates the Notch pathway to promote metastasis. (PMID: 28473661)",
+        "evidence_subtype": "pathway",
+        "summary": "DDX23 binds the promoter of Linc00630 to upregulate its RNA levels in non-small-cell lung cancer (NSCLC), and elevated Linc00630 in turn stabilizes HDAC1 protein to activate downstream Notch pathway signaling promoting metastasis and proliferation. DDX23 was identified as a Linc00630-binding protein by RNA pull-down and mass spectrometry. This DDX23-Linc00630-HDAC1 axis was associated with tumor size, TNM stage, lymph node status, and poor patient outcomes in a cohort of 90 NSCLC patients.",
+        "sample_size": "90 NSCLC patients",
+        "significance": null
+      },
+      {
+        "citation": "METTL3 enhances pancreatic ductal adenocarcinoma progression and gemcitabine resistance through modifying DDX23 mRNA N6 adenosine methylation. (PMID: 36977668)",
+        "evidence_subtype": "pathway",
+        "summary": "DDX23 mRNA is a direct m6A methylation target of METTL3, regulated in a YTHDF1-dependent manner, leading to enhanced DDX23 expression in pancreatic ductal adenocarcinoma (PDAC). DDX23 silencing suppressed pancreatic cancer cell malignancy and inactivated PI3K/Akt signaling both in vitro and in vivo. Rescue experiments showed that forced DDX23 expression partially reversed the inhibitory effects of METTL3 silencing on cell phenotypes and gemcitabine resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DDX23 of black carp negatively regulates MAVS-mediated antiviral signaling in innate immune activation. (PMID: 37164277)",
+        "evidence_subtype": "function",
+        "summary": "Black carp DDX23 (bcDDX23) is mainly nuclear but translocates to the cytoplasm upon SVCV infection, where it interacts with MAVS (mitochondrial antiviral signaling protein) and suppresses MAVS-mediated IFN promoter transcription. Co-expression of bcDDX23 inhibited MAVS-mediated antiviral activity against SVCV in EPC cells, while knockdown of bcDDX23 enhanced host cell resistance to SVCV. This identifies DDX23 as a negative regulator of innate immune IFN signaling in teleost fish.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LncPEDS1-AS promotes UTUC resistance to lipid peroxidation by regulating PEDS1 expression via DDX23. (PMID: 41360761)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "DDX23 acts as a splicing factor that interacts with the ultra-long antisense lncRNA LncPEDS1-AS, forming a nuclear RNA-protein complex that facilitates splicing and maturation of PEDS1 pre-mRNA in upper tract urothelial carcinoma (UTUC). PEDS1 encodes plasmanylethanolamine desaturase, which protects against lipid peroxidation, and the LncPEDS1-AS-DDX23-PEDS1 axis promotes ROS resistance and poor prognosis in UTUC. Antisense oligonucleotide therapy targeting LncPEDS1-AS suppressed tumor growth and enhanced ROS sensitivity in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Identification of variants underlying biparietal perisylvian polymicrogyria in Finnish families (I. J\u00e4rvel\u00e4 et al.)",
+        "evidence_subtype": "other",
+        "summary": "A de novo or likely de novo pathogenic/likely pathogenic variant in DDX23 was identified by exome sequencing in a Finnish patient with bilateral perisylvian polymicrogyria (BPP), a malformation of cortical development characterized by overfolding of the cerebral cortex and abnormal cortical layering. This finding implicates DDX23 as a candidate gene for a neurodevelopmental disorder involving cortical malformation. The variant was one of six P/LP findings identified in 22 families studied.",
+        "sample_size": "22 Finnish families",
+        "significance": null
+      }
+    ]
+  }
+}

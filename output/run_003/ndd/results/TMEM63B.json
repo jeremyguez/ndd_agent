@@ -1,0 +1,334 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 9,
+    "biological": 22
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Stretch-activated ion channel TMEM63B associates with developmental and epileptic encephalopathies and progressive neurodegeneration. (PMID: 37421948)",
+        "num_patients": 17,
+        "variants": [
+          {
+            "description": "p.Val44Met (recurrent, in 7/17 individuals)",
+            "type": "missense",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "macrocytosis",
+              "hemolysis",
+              "requirement for blood transfusions"
+            ]
+          },
+          {
+            "description": "p.Arg433His",
+            "type": "missense",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "hematological abnormalities"
+            ]
+          },
+          {
+            "description": "p.Thr481Asn",
+            "type": "missense",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "hematological abnormalities"
+            ]
+          },
+          {
+            "description": "p.Gly580Ser",
+            "type": "missense",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "hematological abnormalities"
+            ]
+          },
+          {
+            "description": "p.Arg660Thr",
+            "type": "missense",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "hematological abnormalities"
+            ]
+          },
+          {
+            "description": "p.Phe697Leu",
+            "type": "missense",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "hematological abnormalities"
+            ]
+          },
+          {
+            "description": "additional distinct heterozygous variants (10 total distinct variants across 17 individuals; some in-frame)",
+            "type": "other",
+            "phenotypes": [
+              "severe early-onset developmental and epileptic encephalopathy",
+              "intellectual disability",
+              "severe motor impairment",
+              "cortical visual impairment",
+              "progressive neurodegenerative brain changes",
+              "hematological abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo in 16/17 individuals for whom parental DNA was available; missense or in-frame variants affecting conserved residues in transmembrane regions; functional studies demonstrated inward leak cation currents in transfected Neuro2a cells; ectopic expression in Drosophila caused early death",
+        "center_country": "Multiple international centers (not individually specified)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - PgmNr 521: Human and mouse essentiality screens as a resource for disease gene discovery. (Cacheiro et al., ASHG 2019)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "de novo variants (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "abnormal neurological function",
+              "movement abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants identified in unsolved developmental disorder cases from three independent disease sequencing consortia; gene classified as developmental lethal in IMPC mouse screens and highly intolerant to variation in human population sequencing; partially modelled by IMPC mouse phenotype",
+        "center_country": "Multiple consortia (Genomics England / international)",
+        "cohort": "GEL"
+      },
+      {
+        "citation": "Comparison of first-tier whole-exome sequencing with a multi-step traditional approach for diagnosing paediatric outpatients: An Italian prospective study. (PMID: 38041506)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "variant in TMEM63B (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder (unspecified)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by trio-WES as a variant in a candidate gene of unknown significance in an undiagnosed paediatric case; classified as variant of uncertain significance",
+        "center_country": "Italy",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "TMEM63B functions as a mammalian hyperosmolar sensor for thirst. (PMID: 40107268)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Profound deficits in thirst behavior",
+          "Impaired neuronal responses to hypertonic stimulation in subfornical organ (SFO) neurons",
+          "Deficits in water homeostasis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "TMEM63B functions as a mammalian hyperosmolar sensor for thirst. (PMID: 40107268)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Profound deficits in thirst behavior (SFO neuron-specific deletion recapitulated full knockout phenotype)",
+          "Impaired neuronal responses to hypertonic stimulation in SFO neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Cation Channel TMEM63B Is an Osmosensor Required for Hearing. (PMID: 32375046)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Necroptosis of outer hair cells (OHCs)",
+          "Progressive hearing loss",
+          "Impaired hypo-osmolarity-induced Ca2+ influx in hair cells",
+          "Loss of Ca2+-dependent K+ channel activity required for OHC morphology maintenance",
+          "Failure of regulatory volume decrease (RVD)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The TMEM63B Channel Facilitates Intestinal Motility and Enhances Proliferation of Intestinal Stem Cells. (PMID: 39513891)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decelerated intestinal motility",
+          "Impaired digestion",
+          "Attenuated proliferation of intestinal stem cells",
+          "Exacerbated DSS-induced colitis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Conditional deletion of Tmem63b does not impact mouse voiding behavior. (PMID: 41348674)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "No significant difference in voiding behavior compared to controls (urothelial-specific deletion)",
+          "No significant difference in voiding behavior compared to controls (sensory neuron-specific deletion)",
+          "No voiding phenotype even under cyclophosphamide-induced urothelial stress"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting Tmem63b and Piezo2 in C-fiber low-threshold mechanoreceptors: Limitation of Vglut3-IRES-Cre. (PMID: 41176617)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Incomplete loss of Tmem63b transcript in C-LTMRs using Vglut3-IRES-Cre",
+          "No detectable TMEM63B-dependent effect on C-LTMR mechanically activated currents",
+          "No change in slowly or ultra-slowly adapting MA currents in Vglut3-labeled neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Distant coupling between RNA editing and alternative splicing of the osmosensitive cation channel Tmem63b. (PMID: 33100268)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Elimination of Q/R editing at exon 20 in brain-specific Adar2 knockout mice did not affect splicing efficiency of exon 4 of Tmem63b",
+          "Altered Ca2+ permeability and osmosensitivity of channel isoforms (in vitro)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - PgmNr 521: Human and mouse essentiality screens as a resource for disease gene discovery. (Cacheiro et al., IMPC)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Developmental lethality (classified as developmental lethal by IMPC viability screen)",
+          "Neurological and movement phenotypes partially modelling human intellectual disability patients with TMEM63B variants"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "TMEM63 proteins function as monomeric high-threshold mechanosensitive ion channels (PMID: 37543036)",
+        "evidence_subtype": "function",
+        "summary": "Cryo-EM structures of TMEM63B revealed a monomeric configuration with a single highly restricted pore, distinct from the homodimeric architecture of plant OSCA channels. Functional analyses confirmed TMEM63B is a bona fide mechanosensitive ion channel with small conductance and high activation thresholds. The intracellular linker IL2 mediates dimerization in OSCAs but drives monomeric assembly in TMEM63B, affecting mechanosensitivity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Stretch-activated ion channel TMEM63B associates with developmental and epileptic encephalopathies and progressive neurodegeneration (PMID: 37421948)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Six disease-associated TMEM63B variants (including recurrent p.Val44Met) were modeled in transfected Neuro2a cells, demonstrating inward leak cation currents under isotonic conditions and impaired responses to hypo-osmotic challenge, as well as disrupted Ca2+ transients. Ectopic expression of p.Val44Met and p.Gly580Cys variants in Drosophila caused early death. The study established TMEM63B-associated DEE as a clinicopathological entity with progressive neurodegeneration, early-onset epilepsy, and hematological abnormalities in 17 unrelated individuals.",
+        "sample_size": "17 individuals",
+        "significance": null
+      },
+      {
+        "citation": "Mechanosensitive channels TMEM63A and TMEM63B mediate lung inflation-induced surfactant secretion (PMID: 38127458)",
+        "evidence_subtype": "function",
+        "summary": "Loss of TMEM63A/B in mice resulted in atelectasis and respiratory failure due to deficient pulmonary surfactant secretion. TMEM63A/B were predominantly localized at the limiting membrane of lamellar bodies in alveolar type 2 epithelial cells, and their activation during cell stretch facilitated surfactant and ATP release. Released ATP evoked Ca2+ signaling that potentiated further exocytic fusion of lamellar bodies.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phospholipid scrambling induced by an ion channel/metabolite transporter complex (PMID: 39217145)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CRISPR sgRNA library screening identified TMEM63B as a phospholipid scrambling (PLS)-inducing factor upon Ca2+ stimulation. Biochemical screening revealed that TMEM63B forms a heterodimer with the thiamine transporter SLC19A2, and deletion of either gene decreased PLS activity. Human disease-related TMEM63B mutants induced constitutive PLS, and the Ca2+-activated K+ channel KCNN4 was identified as an additional PLS-regulating factor in this complex.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Membrane structure-responsive lipid scrambling by TMEM63B to control plasma membrane lipid distribution (PMID: 39424995)",
+        "evidence_subtype": "function",
+        "summary": "TMEM63B functions as a membrane structure-responsive lipid scramblase localized at the plasma membrane and lysosomes, activating bidirectional lipid translocation in response to changes in membrane curvature and thickness. TMEM63B deficiency alters phosphatidylcholine and sphingomyelin distributions in the plasma membrane. The disease-associated V44M substitution confers constitutive scramblase activity, disrupting plasma membrane phospholipid asymmetry; cryo-EM structures revealed open and closed conformations with a lipid translocation pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression and localization of the mechanosensitive/osmosensitive ion channel TMEM63B in the mouse urinary tract (PMID: 38724885)",
+        "evidence_subtype": "expression",
+        "summary": "Using HA-tagged Tmem63b reporter mice and immunofluorescence confocal microscopy, TMEM63B protein was detected in proximal tubule epithelial cells, intercalated cells of the collecting duct, and thick ascending limb epithelial cells of the kidney. In the lower urinary tract, TMEM63B was expressed in urothelium lining the renal pelvis, ureters, bladder, and urethra, as well as in seminal vesicles, vas deferens, lateral prostate, and vaginal epithelium.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A splicing-dependent ER retention signal regulates surface expression of the mechanosensitive TMEM63B cation channel (PMID: 36496074)",
+        "evidence_subtype": "function",
+        "summary": "Brain-specific alternative splicing of exon 4 in TMEM63B produces a short isoform (lacking exon 4) that is the major brain isoform and shows enhanced surface expression and stronger responses to hypoosmotic stimulation compared to the long isoform. Mutagenesis identified an RXR-type ER retention signal within exon 4 that mediates COPI retrieval, retaining the long isoform in the ER. Long and short TMEM63B isoforms can form heterodimers, with the long isoform reducing surface expression of the short isoform.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mechanical signaling through membrane tension induces somal translocation during neuronal migration (PMID: 39707024)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using the membrane tension sensor Flipper-TR and scanning ion conductance microscopy, leading process extension during neuronal migration was shown to increase plasma membrane tension, which activated Tmem63b and triggered Ca2+ influx. This Ca2+ influx led to actomyosin activation at the rear of the cell, driving somal translocation. Blockade of this Tmem63b-mediated signaling pathway inhibited neuronal migration in three-dimensional environments.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The TMEM63B Channel Facilitates Intestinal Motility and Enhances Proliferation of Intestinal Stem Cells (PMID: 39513891)",
+        "evidence_subtype": "function",
+        "summary": "TMEM63B is expressed in intestinal stem cells and its deletion in these cells decelerated intestinal motility, impaired digestion, attenuated intestinal stem cell proliferation, and exacerbated DSS-induced colitis in mice. These findings identify TMEM63B as a mechanosensitive channel regulating gastrointestinal motility and intestinal stem cell homeostasis. The channel likely responds to osmotic pressure changes within the intestinal lumen.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2019 - Human and mouse essentiality screens as a resource for disease gene discovery (P. Cacheiro et al.)",
+        "evidence_subtype": "other",
+        "summary": "Integrating IMPC knockout mouse viability data with human intolerance-to-variation scores, TMEM63B was identified as a developmental lethal gene highly intolerant to variation. Screening of unsolved developmental disorder cases identified potentially pathogenic de novo variants in TMEM63B in multiple patients exhibiting intellectual disability and neurological/movement phenotypes partially modeled by the IMPC mouse knockout. This highlighted TMEM63B as a novel candidate gene for intellectual disability.",
+        "sample_size": "163 developmental lethal genes screened; multiple independent disease sequencing consortia",
+        "significance": null
+      }
+    ]
+  }
+}

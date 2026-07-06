@@ -1,0 +1,354 @@
+{
+  "articles_found": {
+    "clinical": 21,
+    "model_organism": 20,
+    "biological": 24
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A Novel UPF1 Variant Associated With a Rare UPF1-Related Neurodevelopmental Disorder (PMID: 39993774)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1576A>C, p.(Ala526Thr)",
+            "type": "missense",
+            "phenotypes": [
+              "moderate intellectual disability",
+              "atypical autism",
+              "attention deficit hyperactivity disorder (ADHD)",
+              "behavioral disturbances",
+              "developmental delay (motor and verbal)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variant in highly conserved helicase motif of UPF1; classified as pathogenic/likely pathogenic",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "De novo variants in UPF1 associated with intellectual disabilities: Human genetic and functional evidences using Drosophila model (PMID: 39571789)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.949_951del, p.(Asp317del)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability",
+              "frontal bossing",
+              "hypertelorism",
+              "high frontal hairline",
+              "thin upper lip"
+            ]
+          },
+          {
+            "description": "c.1984G>A, p.(Asp662Asn)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "frontal bossing",
+              "hypertelorism",
+              "high frontal hairline",
+              "thin upper lip"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo heterozygous variants identified by trio exome analysis; functional Drosophila models showed both variants caused more severe developmental defects than wild-type UPF1 overexpression, supporting pathogenicity",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2023 - An adult male with UPF1-related neurodevelopmental disorder (M. Chung, K. Baker, M. Wiznitzer, J. Chenbhanich)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1846A>G, p.(Thr616Ala)",
+            "type": "missense",
+            "phenotypes": [
+              "infantile hypotonia",
+              "global developmental delay",
+              "intellectual disability",
+              "autism",
+              "scoliosis",
+              "myoclonic epilepsy",
+              "bilateral high-frequency hearing loss",
+              "delayed pubertal development",
+              "overgrowth (head circumference, height, weight >2 SD)",
+              "brachycephaly",
+              "tall and narrow face with broad forehead",
+              "baldness",
+              "midface hypoplasia",
+              "coarse facial features",
+              "deep-set eyes",
+              "downslanting palpebral fissures",
+              "high arched palate",
+              "large hands and feet",
+              "mild camptodactyly",
+              "pes planus",
+              "hindfoot deformity",
+              "joint laxity"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variant identified by trio exome sequencing; classified as Likely Pathogenic per ACMG guidelines; negative chromosome microarray and fragile X testing",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Comprehensive whole genome sequence analyses yields novel genetic and structural insights for Intellectual Disability (PMID: 28539120)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1576_1577delinsA",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability",
+              "brain structural defects"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo two-base indel identified by whole genome sequencing in a child with idiopathic ID and brain structural defects; classified as potentially causative but of uncertain significance",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "UPF1 plays critical roles in early B cell development. (PMID: 38982067)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Severely impeded early to late LPre-B cell transition",
+          "Indispensable for VH-DHJH recombination at the Igh gene",
+          "DH-JH recombination unaffected",
+          "Genetic pre-arrangement of Igh gene rescues differentiation defect in early LPre-B cells",
+          "Differentiation blocked again following Ig light chain recombination",
+          "Failure in development into immature B cells",
+          "Altered expression of genes involved in immune responses, cell cycle control, NMD, and unfolded protein response"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nonsense-mediated mRNA decay effectors are essential for zebrafish embryonic development and survival. (PMID: 19414594)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Severe impact on embryonic development",
+          "Defects in early patterning",
+          "Reduced embryonic viability",
+          "Failure to degrade PTC-containing mRNAs",
+          "Phenotypes similar to Upf2-, Smg5-, or Smg6-depleted embryos"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dhx34 and Nbas function in the NMD pathway and are required for embryonic development in zebrafish. (PMID: 21227923)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Severe developmental defects in Upf1-depleted embryos",
+          "Reduced embryonic viability",
+          "Phenotypes similar to Dhx34 and Nbas morphants",
+          "Failure to degrade PTC-containing mRNAs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic compensation prevents myopathy and heart failure in an in vivo model of Bag3 deficiency. (PMID: 33137814)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Severe heart defects in bag3-/- mutants when upf1 is knocked down",
+          "Severe skeletal muscle defects in bag3-/- mutants when upf1 is knocked down",
+          "Blockade of transcriptional adaptation of bag2 expression",
+          "Phenotypes similar to Bag3 morphants",
+          "No cardiac or skeletal muscle defects in bag3+/+ or bag3+/- embryos with upf1 knockdown alone (implied)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Fine-Tuning Amyloid Precursor Protein Expression through Nonsense-Mediated mRNA Decay. (PMID: 38789273)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Upf1 knockdown alters endogenous transcript levels of appa, appb, aplp1, and aplp2",
+          "NMD involved in degradation of mutant appb mRNA",
+          "Upf1 and Upf2 regulate endogenous transcript levels of APP family members"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UPF1 attenuates CD8(+) T cell exhaustion in glioma by destabilizing CD52 mRNA. (PMID: 40749425)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Increased tumor burden in T cell-specific UPF1 conditional knockout mice",
+          "Increased CD8+ T cell exhaustion",
+          "Reduced anti-tumor activity of CD8+ T cells",
+          "Increased CD52 expression in T cells",
+          "Tumor burden rescued by UPF1 restoration"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-based therapies in animal models of Leber congenital amaurosis causing blindness. (PMID: 35692607)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced UPF1 phosphorylation in retina following Amlexanox treatment",
+          "Reduced retinal cell death when NMD inhibited",
+          "Improved visual function in Rd12 mouse model",
+          "RPE65 protein production restored"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pumilio response and AU-rich elements drive rapid decay of Pnrc2-regulated cyclic gene transcripts. (PMID: 32246943)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Mutation of Pnrc2 residues that facilitate interaction with UPF1 reduces ability of Pnrc2 to restore normal cyclic gene expression",
+          "Disrupted rapid turnover of cyclic gene transcripts during somitogenesis",
+          "Abnormal segmentation clock gene expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chromatoid Body Protein TDRD6 Supports Long 3' UTR Triggered Nonsense Mediated mRNA Decay. (PMID: 27149095)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Loss of UPF1 localization to chromatoid bodies in TDRD6 knockout",
+          "Disrupted UPF1-UPF2 and UPF1-MVH interactions",
+          "Impaired long 3' UTR-stimulated NMD pathway in spermiogenesis",
+          "Increased stability and enhanced translational activity of long 3' UTR mRNAs",
+          "Defective chromatoid body architecture"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NMD abnormalities during brain development in the Fmr1-knockout mouse model of fragile X syndrome. (PMID: 34784943)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Hyperactivated NMD during development of cerebral cortex, hippocampus, and cerebellum in Fmr1-KO mice",
+          "Abnormal regulation of neuronal mRNAs important for brain development",
+          "NMD abnormalities during embryonic and early postnatal periods"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "UPF1 helicase orchestrates mutually exclusive interactions with the SMG6 endonuclease and UPF2 (PMID: 38709891)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Using mass spectrometry, structural biology, and biochemical approaches, a conserved short linear motif in SMG6 was identified that interacts with the cysteine/histidine-rich (CH) domain of UPF1. The UPF1-SMG6 interaction is mutually exclusive with UPF2 binding to the CH domain, and cryo-EM data suggest that distinct SMG6-containing and UPF2-containing NMD complexes are dictated by different conformational states linked to UPF1's RNA-binding status.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Structure-Mediated RNA Decay by UPF1 and G3BP1 (PMID: 32017897)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Depletion of UPF1 (and its associated protein G3BP1) increased steady-state levels of mRNAs with highly structured 3' UTRs as well as highly structured circular RNAs, demonstrating that UPF1 is required for a genome-wide structure-mediated RNA decay pathway independent of specific single-stranded sequences. This pathway enables cells to selectively regulate coding and noncoding RNAs based on overall 3' UTR base-pairing structure.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UPF1 deficiency enhances mitochondrial ROS which promotes an immunosuppressive microenvironment in pancreatic ductal adenocarcinoma (PMID: 40591563)",
+        "evidence_subtype": "other",
+        "summary": "shRNA-mediated silencing of Upf1 in murine KPC pancreatic cancer cells and orthotopic implantation into immunocompetent C57BL/6 mice showed that Upf1-deficient tumors were markedly larger, enriched in myeloid-derived suppressor cells, and depleted of CD8+ T cells. Mechanistically, Upf1 deficiency increased mitochondrial complex I activity, elevating ROS levels that drove secretion of immunosuppressive cytokines (G-CSF, CXCL2), promoting immune evasion and tumor growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UPF1 plays critical roles in early B cell development (PMID: 38982067)",
+        "evidence_subtype": "expression",
+        "summary": "UPF1 is upregulated during early stages of B cell development in the bone marrow. B-cell-specific Upf1 deletion in mice severely impedes the early-to-late LPre-B cell transition, blocks VH-DHJH recombination at the Igh locus, and ultimately prevents development into immature B cells, demonstrating an essential role for UPF1 in B cell differentiation beyond its canonical NMD function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Caspases compromise SLU7 and UPF1 stability and NMD activity during hepatocarcinogenesis (PMID: 39105183)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Co-immunoprecipitation experiments in cultured cell lines, primary hepatocytes, and animal models of liver injury demonstrated that the splicing factor SLU7 physically interacts with UPF1 and is required to preserve UPF1 protein levels and correct NMD activity. Caspase activation during liver damage mediates cleavage and degradation of SLU7, leading to downstream UPF1 downregulation and NMD inhibition, contributing to malignant transcriptome reshaping in HCC.",
+        "sample_size": "non-tumoral=50, HCC=374 (TCGA); animal models n\u22653; cell lines n\u22654 replicates",
+        "significance": null
+      },
+      {
+        "citation": "CRISPR/Cas9 screen reveals that targeting TRIM34 enhances ferroptosis sensitivity and augments immunotherapy efficacy in hepatocellular carcinoma (PMID: 38704136)",
+        "evidence_subtype": "cell_culture",
+        "summary": "TRIM34 was found to directly interact with UPF1, a core NMD component, promoting its ubiquitination and proteasomal degradation in HCC cells. This suppression of UPF1 inhibited NMD-mediated degradation of GPX4 transcripts, elevating GPX4 protein levels and conferring ferroptosis resistance; knockdown of TRIM34 restored UPF1 activity and sensitized HCC cells to ferroptosis and anti-PD-1 immunotherapy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibiting UPF1 methylation enhances tumor immunotherapy sensitivity by reducing nonsense-mediated mRNA decay (PMID: 40570371)",
+        "evidence_subtype": "cell_culture",
+        "summary": "UPF1 protein levels were found to differ significantly between microsatellite-stable (MSS) and microsatellite-unstable (MSI) colorectal cancer clinical samples, and UPF1 levels negatively regulated tumor immunogenicity and anti-PD-1 sensitivity in CRC mouse models. Mechanistically, asymmetric di-methylation of UPF1 at R433 by PRMT4 inhibits autophagic degradation of UPF1; blocking this methylation weakened NMD, increased neoantigen expression, and enhanced immunotherapy response.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Staufen-mediated mRNA decay (PMID: 23681777)",
+        "evidence_subtype": "function",
+        "summary": "UPF1 is a key factor in Staufen-mediated mRNA decay (SMD), directly interacting with both STAU1 and STAU2 to enhance UPF1's helicase activity and promote effective mRNA degradation. Because both SMD and NMD employ UPF1, the two pathways compete, and this competition regulates cellular differentiation processes such as myogenesis and adipogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rapid UPF1 depletion illuminates the temporal dynamics of the NMD-regulated human transcriptome (PMID: 40934927)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Human cell lines were engineered with endogenous UPF1 fused to conditional degron tags, enabling rapid depletion; temporal transcriptomic analyses identified direct NMD target mRNAs that are mostly stabilized within hours of UPF1 loss. Integration of long-read sequencing and ribosome profiling defined the consolidated NMD-regulated human transcriptome (NMDRHT), revealing that alternative splicing is a major contributor of NMD-targeted mRNAs and uncovering non-canonical NMD events.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - An adult male with UPF1-related neurodevelopmental disorder (M. Chung, K. Baker, M. Wiznitzer, J. Chenbhanich)",
+        "evidence_subtype": "other",
+        "summary": "Trio exome sequencing identified a de novo c.1846A>G (p.Thr616Ala) variant in exon 14 of UPF1 (classified as Likely Pathogenic) in a 38-year-old male presenting with infantile hypotonia, global developmental delay, intellectual disability, autism, myoclonic epilepsy, bilateral hearing loss, and overgrowth features. This case expands the phenotypic spectrum of UPF1-related neurodevelopmental disorder, with overgrowth being a previously unreported feature, and highlights disruption of the NMD pathway as the underlying mechanism.",
+        "sample_size": "1 patient",
+        "significance": null
+      }
+    ]
+  }
+}

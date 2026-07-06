@@ -1,0 +1,163 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 8,
+    "biological": 23
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Pure interstitial duplication of chromosome 7q (7q31.2-->q33) in a 4-year-old girl with growth restriction, short stature, speech delay and intellectual disability. (PMID: 22303804)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "dup(7)(q31.2-->q33), 22.3-Mb interstitial duplication including ING3",
+            "type": "other",
+            "phenotypes": [
+              "growth restriction",
+              "short stature",
+              "speech delay",
+              "intellectual disability",
+              "inguinal hernia",
+              "strabismus"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Gene dosage increase effect of ING3 (and LEP) speculated to be partially responsible for phenotype of growth restriction and short stature",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Biological Functions of the ING Proteins (PMID: 31752342)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "embryonic lethality"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Multiple Mechanisms Explain Genetic Effects at the CPED1-WNT16 Bone Mineral Density Locus (PMID: 36943599)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "altered bone morphology",
+          "effects on osteoblast differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of ING3 in the Prostate Leads to Activation of DNA Damage Repair Markers (PMID: 40149370)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "increased expression of DNA damage markers \u03b3H2AX and 53BP1 in prostate",
+          "no gross anatomical abnormalities",
+          "no prostate intraepithelial neoplasia lesions",
+          "embryonic lethality in homozygous null mice"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Knockdown screening of chromatin binding and regulatory proteins in zebrafish identified Suz12b as a regulator of tfpia and an antithrombotic drug target (PMID: 34315984)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "increased tfpia mRNA levels",
+          "prolonged time to thrombus formation after laser injury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Biological Functions of the ING Proteins (PMID: 31752342)",
+        "evidence_subtype": "function",
+        "summary": "ING3 is an epigenetic reader of H3K4Me3 histone mark that targets histone acetyltransferase (HAT) or histone deacetylase (HDAC) complexes to alter chromatin structure. ING3 knockout in mice results in embryonic lethality, indicating essential developmental role.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of Ing3 Expression Results in Growth Retardation and Embryonic Death (PMID: 31905726)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ING3 is a stoichiometric member of the minimal NuA4 histone acetyltransferase (HAT) complex consisting of EAF6, EPC1, ING3, and TIP60. Homozygous Ing3 knockout mice are embryonically lethal with growth retardation and neural tube closure defects, demonstrating ING3 is essential for embryonic development and brain formation.",
+        "sample_size": "Transgenic mouse model",
+        "significance": "Embryonic lethality at E10.5"
+      },
+      {
+        "citation": "ING3 protein expression profiling in normal human tissues suggest its role in cellular growth and self-renewal (PMID: 25819753)",
+        "evidence_subtype": "expression",
+        "summary": "ING3 is most highly expressed in small intestine, bone marrow, and epidermis\u2014tissues with rapid cell proliferation and renewal. ING3 expression is significantly higher in proliferating versus quiescent epithelial cells, suggesting ING3 levels may serve as a surrogate for growth rate.",
+        "sample_size": "Normal human tissues",
+        "significance": null
+      },
+      {
+        "citation": "ING3 inhibits the malignant progression of lung adenocarcinoma by negatively regulating ITGB4 expression to inactivate Src/FAK signaling (PMID: 38281617)",
+        "evidence_subtype": "pathway",
+        "summary": "ING3 negatively regulates integrin \u03b24 (ITGB4) expression to inactivate Src/focal adhesion kinase (FAK) signaling in lung adenocarcinoma. ING3 overexpression restrains proliferation, migration, invasion and induces cell cycle arrest, with effects reversed by ITGB4 overexpression.",
+        "sample_size": "NCI-H1975 cells and nude mice xenograft model",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "The tumor suppressor ING3 is degraded by SCF(Skp2)-mediated ubiquitin-proteasome system (PMID: 19935701)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ING3 undergoes degradation through the ubiquitin-proteasome pathway via interaction with the SCF(Skp2) E3 ligase complex. Lysine 96 is essential for ING3 ubiquitination; Skp2 knockdown stabilizes ING3 and enhances its tumor-suppressive functions including G1 cell-cycle arrest and UV-induced apoptosis.",
+        "sample_size": "Melanoma cell lines",
+        "significance": null
+      },
+      {
+        "citation": "ING3 promotes prostate cancer growth by activating the androgen receptor (PMID: 28511652)",
+        "evidence_subtype": "pathway",
+        "summary": "ING3 activates the androgen receptor (AR) by serving as a scaffold to increase interaction between TIP60 and AR in the cytoplasm, enhancing receptor acetylation and nuclear translocation. This chromatin-independent cytoplasmic activity promotes androgen-regulated gene expression and prostate cancer growth.",
+        "sample_size": "265 prostate cancer biopsies; LNCaP and C4-2 cell lines; TCGA n=498; tissue microarray n=256",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Overexpression of ING3 is associated with attenuation of migration and invasion in breast cancer (PMID: 34007308)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ING3 overexpression significantly inhibits migratory and invasive abilities of MCF7 and HCC1937 breast cancer cells. ING3 expression is lower in cancer tissues compared to normal tissues, with lower expression predicting poor prognosis in luminal A and HER2-enriched breast cancer subtypes.",
+        "sample_size": "MCF7 and HCC1937 cell lines",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Prognostic significance of nuclear ING3 expression in human cutaneous melanoma (PMID: 17634537)",
+        "evidence_subtype": "expression",
+        "summary": "Nuclear ING3 expression is remarkably reduced in malignant melanomas compared with dysplastic nevi. Reduced nuclear ING3 expression correlates with poorer disease-specific 5-year survival and is an independent prognostic factor; survival rates drop from 93% (strong nuclear staining) to 44% (negative-to-moderate staining) in high-risk melanomas.",
+        "sample_size": "58 dysplastic nevi, 114 primary melanomas, 50 metastatic melanomas",
+        "significance": "p=0.004; p=0.038 (multivariate Cox regression)"
+      },
+      {
+        "citation": "Human ex vivo prostate tissue model system identifies ING3 as an oncoprotein (PMID: 29381681)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ING3 stimulates cellular proliferation in ex vivo benign prostate hyperplasia tissues and transforms normal human dermal fibroblasts. ING3 is required for proliferation of breast, ovarian, and prostate cancer cells. ING3 controls cell cycle gene expression by associating with chromatin modifiers and the H3K4me3 mark at transcriptional start sites.",
+        "sample_size": "Ex vivo prostate tissues; tissue microarray; multiple cancer cell lines",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Genome-scale capture C promoter interaction analysis implicates novel effector genes at GWAS loci for bone mineral density",
+        "evidence_subtype": "GWAS",
+        "summary": "ING3 at the WNT16-CPED1 locus is implicated in bone mineral density GWAS. ING3 knockdown in primary human MSC-derived osteoblasts yields pronounced inhibitory effects on osteoblastogenesis, with decreased alkaline phosphatase expression and absence of calcium phosphate mineral deposition.",
+        "sample_size": "Primary human MSC-derived osteoblasts from multiple donors",
+        "significance": null
+      }
+    ]
+  }
+}

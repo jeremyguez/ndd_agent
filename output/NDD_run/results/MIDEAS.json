@@ -1,0 +1,100 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 3,
+    "biological": 9
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A de novo missense variant in MIDEAS results in increased deacetylase activity of the MiDAC HDAC complex causing a neurodevelopmental syndrome. (PMID: 41290615)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.1960A>C, p.Tyr654Ser",
+            "type": "missense",
+            "phenotypes": [
+              "delayed speech development",
+              "joint contractures",
+              "dysmorphic features",
+              "dysmotility of the gut",
+              "multisystem disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variant, same variant identified in two unrelated individuals, cryoEM structure shows variant in conserved auto-inhibitory loop covering active site of deacetylase enzyme, reciprocal gene expression changes observed in patient fibroblasts, variant results in elevated deacetylase activity",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "The MiDAC histone deacetylase complex is essential for embryonic development and has a unique multivalent structure (PMID: 32591534)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "embryonic lethality during late embryogenesis",
+          "heart malformation",
+          "haematopoietic failure",
+          "perturbations in gene expression"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mutations on the surface of HDAC1 reveal molecular determinants of specific complex assembly and their requirement for gene regulation (PMID: 40966515)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MIDEAS is identified as a core component of the MiDAC histone deacetylase complex. Co-immunoprecipitation and structural analysis reveal that MIDEAS interacts with HDAC1 through specific surface residues (Y48 and E63), and this interaction is critical for MiDAC complex assembly and function in regulating gene expression.",
+        "sample_size": "mouse embryonic stem cells",
+        "significance": null
+      },
+      {
+        "citation": "Mitotic deacetylase complex (MiDAC) recognizes the HIV-1 core promoter to control activated viral gene expression (PMID: 38781120)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MIDEAS is a functional component of the MiDAC complex that recognizes the HIV-1 core promoter (TASHET region) and controls Tat-activated HIV transcription. Gene silencing of MIDEAS reduces HIV expression in cultured cells, establishing a role for MIDEAS in viral transcriptional control.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Structural and functional characterization of a cell cycle associated HDAC1/2 complex reveals the structural basis for complex assembly and nucleosome targeting (PMID: 25653165)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MIDEAS is identified as a corepressor protein in the MiDAC complex that is upregulated during mitosis and associates with cyclin A. MIDEAS interacts with DNTTIP1 and HDAC1/2 to form a functional histone deacetylase complex involved in chromatin targeting.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DNA methylation in peripheral blood leukocytes in late onset Alzheimer's disease (PMID: 40343304)",
+        "evidence_subtype": "GWAS",
+        "summary": "MIDEAS is identified as a differentially methylated gene in peripheral blood leukocytes of Alzheimer's disease patients compared to controls, suggesting a potential epigenetic biomarker for AD associated with systemic peripheral inflammation.",
+        "sample_size": "AD patients and controls from GSE59685 and GSE53740",
+        "significance": null
+      },
+      {
+        "citation": "The MiDAC histone deacetylase complex is essential for embryonic development and has a unique multivalent structure (PMID: 32591534)",
+        "evidence_subtype": "function",
+        "summary": "MIDEAS is essential for embryonic development; mice lacking MIDEAS die during late embryogenesis with heart malformation and haematopoietic failure. MIDEAS is required for chromosome alignment during mitosis and has a unique function that cannot be compensated by other HDAC complexes.",
+        "sample_size": "mouse model",
+        "significance": null
+      },
+      {
+        "citation": "The histone deacetylase complex MiDAC regulates a neurodevelopmental gene expression program to control neurite outgrowth (PMID: 32297854)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MIDEAS is a component of the MiDAC complex that regulates neurodevelopmental gene expression by modulating histone acetylation (H4K20ac and H3K27ac) on promoters and enhancers of pro-neural genes including SLIT3 and NETRIN1. Loss of MiDAC results in neurite outgrowth defects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A de novo missense variant in MIDEAS results in increased deacetylase activity of the MiDAC HDAC complex causing a neurodevelopmental syndrome (PMID: 41290615)",
+        "evidence_subtype": "function",
+        "summary": "A de novo heterozygous missense variant in MIDEAS (p.Tyr654Ser) located in an auto-inhibitory loop causes increased MiDAC deacetylase activity and results in a multisystem neurodevelopmental disorder with delayed speech, joint contractures, and dysmotility. This establishes MIDEAS as a dominant disease gene.",
+        "sample_size": "2 unrelated individuals with patient fibroblasts",
+        "significance": null
+      }
+    ]
+  }
+}

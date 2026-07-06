@@ -1,0 +1,244 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 7,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "NUP85 as a Neurodevelopmental Gene: From Podocyte to Neuron (PMID: 38136965)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.611T>A, p.Val204Glu",
+            "type": "missense",
+            "phenotypes": [
+              "steroid-resistant nephrotic syndrome (SRNS)",
+              "focal segmental glomerulosclerosis",
+              "severe neurodevelopmental impairment",
+              "microcephaly",
+              "axial hypotonia",
+              "lack of motor milestones",
+              "refractory seizures",
+              "hypsarrhythmic pattern on EEG",
+              "hypoplasia of corpus callosum",
+              "simplified gyration of cerebral cortex"
+            ]
+          },
+          {
+            "description": "c.1904T>G, p.Leu635Arg",
+            "type": "missense",
+            "phenotypes": [
+              "steroid-resistant nephrotic syndrome (SRNS)",
+              "focal segmental glomerulosclerosis",
+              "severe neurodevelopmental impairment",
+              "microcephaly",
+              "axial hypotonia",
+              "lack of motor milestones",
+              "refractory seizures",
+              "hypsarrhythmic pattern on EEG",
+              "hypoplasia of corpus callosum",
+              "simplified gyration of cerebral cortex"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Compound heterozygous variants identified by whole-exome sequencing in patient with severe SRNS and neurodevelopmental phenotype; novel variants expanding phenotypic spectrum",
+        "center_country": "Italy, Pediatric Nephrology Department",
+        "cohort": null
+      },
+      {
+        "citation": "A Novel NUP85 Variant Expanding the Phenotypic Spectrum of NUP85-Associated Steroid-Resistant Nephrotic Syndrome (PMID: 39949197)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1379G>A, p.Arg460Gln",
+            "type": "missense",
+            "phenotypes": [
+              "steroid-resistant nephrotic syndrome (SRNS)",
+              "cleft lip-palate",
+              "mild intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel homozygous variant identified in pediatric SRNS patient; molecular dynamics simulations revealed destabilization of protein helix bundle; first reported association of cleft lip-palate and intellectual disability with NUP85 variant",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Case report: Compound heterozygous NUP85 variants cause autosomal recessive primary microcephaly (PMID: 36846113)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Compound heterozygous missense variants (specific variants not detailed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "primary autosomal recessive microcephaly (MCPH)",
+              "no Seckel syndrome",
+              "no steroid-resistant nephrotic syndrome"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Compound heterozygous variants identified in patient with MCPH; reduced cell viability in patient-derived fibroblasts; structural simulation predicted altered NUP85 structure and interactions with neighboring NUPs",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Mutations in multiple components of the nuclear pore complex cause nephrotic syndrome (PMID: 30179222)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "NUP85 mutations (specific variants not detailed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "steroid-resistant nephrotic syndrome (SRNS)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mutations in NUP85 identified in families with SRNS; coimmunoprecipitation showed certain pathogenic alleles weakened interaction between neighboring NPC subunits; morpholino knockdown and CRISPR/Cas9 knockout studies demonstrated pathogenic mechanism",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Mutations in multiple components of the nuclear pore complex cause nephrotic syndrome (PMID: 30179222)",
+        "organism": "Xenopus",
+        "knockout_type": "morpholino knockdown",
+        "phenotypes": [
+          "disrupted glomerulogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutations in multiple components of the nuclear pore complex cause nephrotic syndrome (PMID: 30179222)",
+        "organism": "zebrafish",
+        "knockout_type": "CRISPR/Cas9 knockout",
+        "phenotypes": [
+          "developmental anomalies",
+          "early lethality"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of Nup160 dysregulates Cdc42 in the podocytes of podocyte-specific Nup160 knockout mice (PMID: 40298220)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (podocyte-specific)",
+        "phenotypes": [
+          "progressive proteinuria",
+          "fusion of podocyte foot processes",
+          "decreased Cdc42 protein in podocytes",
+          "reduced Cdc42 activity in podocytes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Removal of a single pore subcomplex results in vertebrate nuclei devoid of nuclear pores (PMID: 12718872)",
+        "organism": "Xenopus",
+        "knockout_type": "immunodepletion",
+        "phenotypes": [
+          "severe defect for NLS import",
+          "defect for DNA replication",
+          "absence or disorganization of integral membrane proteins POM121 and gp210",
+          "pore-free nuclei"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "NUP85 alleviates lipid metabolism and inflammation by regulating PI3K/AKT signaling pathway in nonalcoholic fatty liver disease (PMID: 38617542)",
+        "evidence_subtype": "pathway",
+        "summary": "NUP85 regulates the PI3K/AKT signaling pathway and interacts with CCR2 to modulate lipid metabolism and inflammation in NAFLD. NUP85 knockdown decreased fat disorder and inflammation levels in MCD-induced mice and FFA-stimulated AML-12 cells, while ISRIB (NUP85 inhibitor) alleviated NAFLD.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NUP85 siRNA loaded red blood cell-derived extracellular vesicles alleviate hepatic steatosis in MASLD (PMID: 41413582)",
+        "evidence_subtype": "cell_culture",
+        "summary": "NUP85 promotes lipid accumulation in hepatocytes via the SLC27A1/PPAR-\u03b3 signaling pathway. Serum NUP85 levels are significantly elevated in MASLD patients and correlate with disease severity. RBC-EVs@siNUP85 delivery system effectively silenced NUP85 in hepatocytes, alleviating hepatic steatosis, inflammation, and oxidative stress in both in vitro and in vivo models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NUP85 as a Neurodevelopmental Gene: From Podocyte to Neuron (PMID: 38136965)",
+        "evidence_subtype": "function",
+        "summary": "Compound heterozygous NUP85 variants (c.611T>A, p.Val204Glu and c.1904T>G, p.Leu635Arg) cause steroid-resistant nephrotic syndrome with severe neurodevelopmental impairment including microcephaly, axial hypotonia, seizures, corpus callosum hypoplasia, and simplified cerebral cortex gyration, expanding NUP85's role beyond renal function to brain development.",
+        "sample_size": "1 patient",
+        "significance": null
+      },
+      {
+        "citation": "Nucleoporin-associated steroid-resistant nephrotic syndrome (PMID: 39331077)",
+        "evidence_subtype": "function",
+        "summary": "NUP85 mutations cause autosomal recessive steroid-resistant nephrotic syndrome with median onset at 7 years and progression to kidney failure at median age 8.5 years. Kidney biopsies reveal focal segmental glomerulosclerosis in 89% of patients. Extrarenal manifestations include neurological, growth/development, cardiovascular disorders, and congenital malformations.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Docking a flexible basket onto the core of the nuclear pore complex (PMID: 39138317)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "NUP85 is a subunit of the Y-complex of the nuclear pore complex that interacts with basket subunit Nup60 through a tripartite junction involving short linear motifs. This interaction couples transcription to mRNA quality control and export, and was validated through AlphaFold-based screens, electron microscopy, membrane-templated reconstitution, and in vivo validation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "An Arabidopsis Nucleoporin NUP85 modulates plant responses to ABA and salt stress (PMID: 29232718)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Arabidopsis NUP85 mutants exhibit reduced expression of stress-responsive genes (RD29A, COR15A, COR47) in response to ABA and salt stress. NUP85 associates with HOS1 and other nucleoporins within the nup107-160 complex and directly interacts with mediator subunit MED18, linking the nuclear pore complex to mediator complex in stress gene regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Analysis of correlation between high expression of nucleoporin 85 (NUP85) and immune cell infiltration in hepatocellular carcinoma (PMID: 38952090)",
+        "evidence_subtype": "expression",
+        "summary": "NUP85 mRNA and protein are upregulated in hepatocellular carcinoma across different stages and grades, with 19% mutation rate significantly affecting overall survival, disease-specific survival, and progression-free survival. NUP85 is highly expressed in macrophages, B cells, and T cells and positively correlates with immune cell infiltration. GO/KEGG enrichment shows NUP85 co-expressed genes are enriched in cell cycle and chromosome segregation pathways.",
+        "sample_size": null,
+        "significance": "AUC > 0.7 for 1-, 3-, and 5-year OS prediction"
+      },
+      {
+        "citation": "Deficient chaperone-mediated autophagy in macrophage aggravates inflammation of nonalcoholic steatohepatitis by targeting Nup85 (PMID: 36912786)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Nup85 functions as a substrate for chaperone-mediated autophagy (CMA) in macrophages. CMA dysfunction in hepatic macrophages impairs Nup85 degradation, aggravating monocyte recruitment and promoting liver inflammation and fibrosis in NASH. Inhibition of Nup85 attenuated steatosis and monocyte recruitment caused by CMA deficiency in NASH mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Case report: Compound heterozygous NUP85 variants cause autosomal recessive primary microcephaly (PMID: 36846113)",
+        "evidence_subtype": "function",
+        "summary": "Compound heterozygous NUP85 variants cause primary autosomal recessive microcephaly without steroid-resistant nephrotic syndrome or Seckel syndrome, expanding the phenotypic spectrum. Patient-derived fibroblasts showed reduced cell viability, and structural simulation predicted the variants alter NUP85 structure and interactions with neighboring nucleoporins.",
+        "sample_size": "1 index patient plus 1 additional unrelated individual",
+        "significance": null
+      },
+      {
+        "citation": "Nucleoporin 85 interacts with influenza A virus PB1 and PB2 to promote its replication by facilitating nuclear import of ribonucleoprotein (PMID: 36051755)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "NUP85 interacts with influenza A virus polymerase subunits PB1 and PB2 in an RNA-dependent manner to facilitate nuclear import of viral ribonucleoprotein. NUP85 knockdown delayed vRNP nuclear import and suppressed viral replication. NUP85 assists binding of PB1 to RanBP5 and PB2 to importin \u03b11/\u03b17, and NUP85 expression is downregulated upon IAV infection.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NUP85 Mediates Endoplasmic Reticulum Stress through the USP47/ASK1 Signaling Pathway to Regulate the Progression of Liver Fibrosis (PMID: 41903125)",
+        "evidence_subtype": "pathway",
+        "summary": "NUP85 is elevated in liver fibrosis and regulates the USP47/ASK1 signaling pathway. NUP85 competitively binds USP47 to deubiquitinate ASK1 at lysine 805, exacerbating endoplasmic reticulum stress and collagen deposition. NUP85 knockdown ameliorated liver injury and fibrosis, while overexpression promoted pathological changes. CREKA-coupled liposomes delivered Mogroside V (NUP85 inhibitor) to attenuate fibrosis.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

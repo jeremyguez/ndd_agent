@@ -1,0 +1,102 @@
+# MYLPF Literature Evidence Report
+## Gene-Disease Assessment: Autosomal Dominant Neurodevelopmental Disorder
+
+---
+
+## 1. GENE SUMMARY
+
+MYLPF (Myosin Light Chain, Phosphorylatable, Fast Skeletal Muscle) encodes the fast skeletal muscle regulatory light chain (RLC-f), a component of the myosin II complex that plays a critical structural and regulatory role in sarcomere assembly and fast-twitch muscle fiber contraction. Its primary known function is to promote myofibril growth and thick filament organization in fast-twitch skeletal muscle, with protein dosage directly proportional to sarcomere size and contractile capacity.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+- **Independent case reports / case series:** No clinical case reports or case series were identified in the structured clinical evidence provided for this report.
+- **Total approximate number of patients:** Zero patients identified in the clinical evidence dataset provided. (Note: biological evidence from PMID: 32707087 references 10 affected individuals across 8 families with distal arthrogryposis and segmental amyoplasia, but this was captured under biological/functional evidence rather than as a formal clinical evidence entry.)
+- **Most common phenotypes observed:** Based on cross-referencing with the biological evidence, the reported human phenotype associated with MYLPF variants is distal arthrogryposis with congenital joint contractures and segmental amyoplasia (complete absence of skeletal muscle in distal limbs) — a musculoskeletal, not neurodevelopmental, phenotype.
+- **Predominant variant type:** Loss-of-function and dominant/recessive variants have been reported in the context of distal arthrogryposis (PMID: 32707087), but no variant-level clinical data were captured in the clinical evidence dataset for this report.
+- **Known cohorts:** No patients from UDN, GREGoR, DDD, RUMC, or GEL cohorts were identified in the provided evidence.
+- **Strength of clinical evidence: NONE** (for neurodevelopmental disorder specifically; no clinical evidence supporting MYLPF as a neurodevelopmental disorder gene was identified).
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Zebrafish (*Danio rerio*) and mouse (*Mus musculus*).
+
+**Key findings from knockouts:**
+
+*Zebrafish:*
+- *mylpfa*-/- mutants exhibit severely reduced fast-twitch myofibrils, complete pectoral fin paralysis, reduced trunk contractile force, reduced myosin activity, and fiber degeneration, with muscle weakness most pronounced in appendicular (limb-equivalent) muscle (PMID: 32707087; PMID: 39345555).
+- *mylpfb*-/- mutants show normal myofibrils, indicating functional redundancy between paralogs.
+- *mylpfa*-/-;*mylpfb*-/- double mutants exhibit complete failure of myofibril formation and obliterated thick filament localization, demonstrating that combined Mylpf dosage is essential for sarcomere assembly (PMID: 39345555; PMID: 42243126).
+- Transgenic rescue with human *MYLPF*-GFP restores myofibril width proportionally, confirming functional conservation between zebrafish and human MYLPF (PMID: 39345555; PMID: 42243126).
+- Disease-causing DA (distal arthrogryposis) MYLPF protein variants fail to rescue *mylpfa*-/- defects and reduce myofibril size in proportion to protein abundance (PMID: 42243126).
+- Slow-twitch muscle is spared and becomes compensatorily larger and more active in fast-twitch mutants (PMID: 42243126).
+
+*Mouse:*
+- *Mylpf*-/- homozygous null mice completely lack both fast and slow skeletal muscle throughout the body, are 30% smaller than wild-type or heterozygous littermates, and die immediately after birth due to respiratory failure caused by absence of skeletal muscle in the diaphragm (PMID: 17356007; ASHG 2015).
+- Heterozygous (*Mylpf*+/-) mice have approximately half the normal RLC-f mRNA level but are histologically normal in both adults and neonates, consistent with haploinsufficiency being tolerated in mice (PMID: 17356007).
+- No effects on cardiac or other organ development were observed in null mice (PMID: 17356007).
+
+**Neurological phenotypes:** No neurological phenotypes were reported in any model organism study. Phenotypes are exclusively musculoskeletal (myofibril loss, paralysis, respiratory failure due to diaphragm muscle absence).
+
+**Consistency with human phenotype:** The model organism phenotypes are highly consistent with the reported human phenotype of segmental amyoplasia and distal arthrogryposis, but are not consistent with a neurodevelopmental disorder phenotype.
+
+**Strength of model organism evidence: STRONG** — for a skeletal muscle disease mechanism; **NONE** — for neurodevelopmental disorder specifically.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+MYLPF encodes the fast skeletal muscle regulatory light chain, a structural component of the myosin II thick filament. It functions in sarcomere assembly, thick filament localization, and regulation of actomyosin contractility in fast-twitch skeletal muscle. Protein dosage follows a high-slope Hill equation relationship with sarcomere size, indicating a cooperative, threshold-dependent role in myofibril growth (PMID: 42243126). Phosphorylated MYLPF interacts with troponin complex components (TNNC1, TNNC2, TNNT2, TNNT3) in muscle contraction pathways (PMID: 34236285). MYLPF expression during myogenic differentiation is regulated epigenetically and is downstream of transcription factors including MYF6, with expression sensitive to PI3K/Akt and MAPK/ERK signaling (PMID: 22627135; PMID: 30669396).
+
+**Expression pattern:**
+MYLPF expression is highly tissue-restricted to skeletal muscle. In goats, MYLPF mRNA and protein are detected exclusively in skeletal muscle (longissimus dorsi, gastrocnemius, abdominal muscle), with no expression in liver, spleen, lung, or kidney (PMID: 23277391). In zebrafish, *mylpfa* and *mylpfb* are exclusively expressed in fast-twitch muscle (PMID: 39345555). MYLPF was identified as one of four skeletal muscle tissue-specific hub genes in RYR1 myopathy biopsies (PMID: 35692882). There is no evidence of MYLPF expression in the brain or nervous system in any study reviewed.
+
+**Key experimental findings:**
+- Functional knockdown of MYLPF in buffalo muscle stem cells significantly inhibited myogenic differentiation, directly demonstrating a cell-autonomous role in muscle development (PMID: 34306003).
+- MYLPF was downregulated in RYR1 mutation-associated myopathy muscle biopsies (AUC = 0.786 for diagnostic prediction) (PMID: 35692882).
+- A GWAS of metabolic syndrome subgroups in the UK Biobank identified a novel association at MYLPF (rs8054556), noted to be specific to skeletal muscle (ASHG 2022 - Unsupervised learning revealed metabolic syndrome sub-groups).
+- Promoter SNPs in porcine MYLPF were significantly associated with meat quality traits (pH, drip loss) in Large White pigs (PMID: 26638021).
+
+**Neurodevelopmental relevance:** There is no evidence from expression studies, pathway analyses, protein interaction data, or functional experiments supporting a role for MYLPF in brain development, neuronal function, or neurodevelopmental processes.
+
+**Strength of biological evidence: STRONG** — for skeletal muscle function; **NONE** — for neurodevelopmental disorder.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level for MYLPF as a neurodevelopmental disorder gene with heterozygous (autosomal dominant) pathogenic variants: INSUFFICIENT**
+
+**Key strengths of the evidence:**
+- There is robust, multi-organism evidence establishing MYLPF as an essential gene for fast-twitch skeletal muscle development and sarcomere assembly, with strong functional conservation between zebrafish, mouse, and human.
+- Human variants in MYLPF have been associated with a well-characterized musculoskeletal phenotype (distal arthrogryposis / segmental amyoplasia) supported by 10 affected individuals across 8 families and corroborated by multiple animal models (PMID: 32707087).
+- Perinatal lethality in homozygous mouse knockouts and complete myofibril failure in zebrafish double knockouts confirm the gene's biological essentiality.
+
+**Key gaps and limitations:**
+- No clinical evidence was identified linking MYLPF to any neurodevelopmental disorder. The gene has no reported expression in the brain or nervous system, and no neurological phenotypes have been observed in any model organism.
+- Heterozygous mice are phenotypically normal, and the human disease associated with MYLPF variants involves musculoskeletal rather than neurodevelopmental pathology.
+- No patients from major neurodevelopmental disease cohorts (UDN, GREGoR, DDD, GEL) were identified with MYLPF variants.
+
+**Conclusion:** The current body of evidence does not support MYLPF as a neurodevelopmental disorder gene. MYLPF is a well-validated skeletal muscle gene whose variants cause distal arthrogryposis and segmental amyoplasia through disruption of fast-twitch myofibril assembly. The gene's expression is restricted to skeletal muscle with no demonstrated role in neural development or function, and no clinical, model organism, or biological evidence supports an autosomal dominant neurodevelopmental disease association. Reclassification of any candidate MYLPF variants in a neurodevelopmental context should be approached with caution and would require substantial additional evidence.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. Mutations in MYLPF Cause a Novel Segmental Amyoplasia that Manifests as Distal Arthrogryposis (PMID: 32707087)
+2. Fast-twitch myofibrils grow in proportion to Mylpf dosage in the zebrafish embryo (PMID: 39345555)
+3. Myosin light chain proteins cooperatively promote sarcomere growth in fast-twitch muscle (PMID: 42243126)
+4. Fast skeletal muscle regulatory light chain is required for fast and slow skeletal muscle development (PMID: 17356007)
+
+### Biological Evidence
+1. Quantitative proteomic and phosphoproteomic analysis of chicken skeletal muscle during embryonic development (PMID: 34236285)
+2. DNA methyltransferase inhibitor CDA-II inhibits myogenic differentiation (PMID: 22627135)
+3. EPA and DHA Inhibit Myogenesis and Downregulate the Expression of Muscle-related Genes in C2C12 Myoblasts (PMID: 30669396)
+4. Molecular cloning, sequence identification and expression analysis of novel caprine MYLPF gene (PMID: 23277391)
+5. Identification of Potential Biomarkers for Ryanodine Receptor 1 (RYR1) Mutation-Associated Myopathies Using Bioinformatics Approach (PMID: 35692882)
+6. The Expression Profiles of mRNAs and lncRNAs in Buffalo Muscle Stem Cells Driving Myogenic Differentiation (PMID: 34306003)
+7. Polymorphisms in the regulatory region of the porcine MYLPF gene are related to meat quality traits in the Large White breed (PMID: 26638021)

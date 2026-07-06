@@ -1,0 +1,97 @@
+# CADM3 Evidence Report: Neurodevelopmental Disorder Gene Assessment
+
+---
+
+## 1. GENE SUMMARY
+
+CADM3 (Cell Adhesion Molecule 3), also known as Necl-1 or SynCAM3, encodes a transmembrane immunoglobulin superfamily adhesion protein expressed broadly throughout the nervous system. Its primary known functions include mediating axon-glial interactions in the peripheral nervous system—particularly as the principal axonal ligand for glial CADM4—and regulating synapse formation, retinal neuroepithelial proliferation, and Schwann cell myelination.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+- **Number of independent case reports / case series:** One case series was identified (PMID: 33889941), describing three unrelated families with CADM3-associated Charcot-Marie-Tooth (CMT) disease.
+- **Total approximate number of patients:** At least three probands across three unrelated families (PMID: 33889941); precise total family member counts were not reported in the structured data.
+- **Most common phenotypes observed:** Axonal Charcot-Marie-Tooth neuropathy type 2 (CMT2) with marked upper limb involvement. No additional clinical phenotypes (e.g., intellectual disability, autism, epilepsy) were reported in the extracted clinical data.
+- **Predominant variant type:** Missense variant (Tyr172Cys in CADM3) identified in all three families (PMID: 33889941). No loss-of-function variants were reported in the clinical dataset.
+- **Known cohorts:** No patients were reported from named cohorts such as UDN, GREGoR, DDD, RUMC, or GEL based on available data.
+- **Strength of clinical evidence: LIMITED**
+
+The clinical evidence is limited to a single published report of a recurrent missense variant in three unrelated families with a peripheral neuropathy phenotype (CMT2), rather than a central neurodevelopmental disorder. While the genetic and functional data from this study are compelling, the total number of reported patients is small, no replication in independent large cohorts has been documented, and the phenotype is primarily a peripheral neuropathy rather than a classic neurodevelopmental disorder (e.g., intellectual disability, autism spectrum disorder, or epilepsy).
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+- **Organisms studied:** Mouse (*Mus musculus*) and zebrafish (*Danio rerio*).
+
+- **Key phenotypes from knockouts:**
+  - *Mouse – single Cadm3 knockout:* Cadm3 null mice are viable and fertile, with no overt peripheral nervous system myelin abnormalities, no focal hypermyelination, tomacula, myelin outfoldings, or redistribution of ion channels reported in isolation (PMID: 23825401; PMID: 33397712). This indicates functional redundancy within the CADM family under baseline conditions.
+  - *Mouse – combinatorial knockouts:* Cadm3 emerges as the dominant axonal CADM when studied in combination. Cadm3−/−/Cadm2−/− and Cadm3−/−/Cadm1−/− double mutants both display abnormal distribution of Caspr and Kv1 potassium channels, phenocopying Cadm4 null mice. By contrast, Cadm1−/−/Cadm2−/− double mutants show no significant axonal organization abnormalities, establishing Cadm3 as the primary axonal ligand for glial Cadm4 (PMID: 33397712). Notably, Cadm3 null mice heterozygous for both Cadm2 and Cadm1 also show axonal organization defects, suggesting dose-sensitive interactions.
+  - *Mouse – knock-in model:* Cadm3Y170C knock-in mice (modeling the human Tyr172Cys variant) showed abnormal axonal organization including mislocalization of Kv1.2 channels and Caspr, directly supporting the pathogenicity of the human variant (PMID: 33889941).
+  - *Mouse – retinal function:* Necl-1/CADM3 knockout mice show dislocated cone-to-type 4 OFF cone bipolar cell synapses, mislocalized AMPA receptors, and aberrant short-wavelength-light signal transmission, establishing a role in retinal synapse formation (PMID: 38623325).
+  - *Zebrafish – cadm3 knockdown:* Disruption of cadm3 in zebrafish results in expanded retinal progenitor cell clones and increased total retinal cell number, indicating loss of coordinated proliferation in the retinal neuroepithelium (PMID: 37022761).
+
+- **Consistency with human phenotype:** The knock-in mouse model (Cadm3Y170C) directly recapitulates the axonal organization defects relevant to the human CMT2 phenotype (PMID: 33889941). The broader combinatorial knockout data support the biological plausibility of haploinsufficiency or dominant-negative mechanisms in the context of reduced CADM3 function. Retinal and zebrafish phenotypes extend the neurodevelopmental relevance but have not yet been linked to human disease.
+
+- **Strength of model organism evidence: MODERATE**
+
+The knock-in mouse model provides direct mechanistic support for the identified human variant, and combinatorial knockout studies establish Cadm3's hierarchical importance in axon-glial adhesion. However, single Cadm3 null mice are phenotypically normal, indicating that complete loss of one allele alone is insufficient to produce overt disease in mice, which complicates interpretation for autosomal dominant haploinsufficiency mechanisms.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+- **Known pathways and molecular function:**
+  - *Axon-glial adhesion:* CADM3 functions as the primary axonal binding partner for glial CADM4, mediating heterophilic trans-interactions at the axon-glial interface in the peripheral nervous system (PMID: 33397712). In vitro binding assays in zebrafish confirmed preferential heterophilic binding of cadm3 to cadm4 (PMID: 21456004).
+  - *Myelination regulation:* Axonal CADM3 acts as a negative regulator of Schwann cell myelination by inhibiting ErbB3 activation and selectively suppressing the PI3K/Akt pro-myelinating pathway without affecting Mek/Erk1/2 signaling. shRNA knockdown of Cadm3 in DRG neurons promoted myelination in vitro, while overexpression nearly abolished myelin segment formation (PMID: 27658374).
+  - *Retinal synaptogenesis:* CADM3 localizes to S- and S/M-opsin-containing cones and dendrites of type 4 OFF cone bipolar cells, where it is required for proper synapse formation and AMPA receptor localization (PMID: 38623325).
+  - *Retinal proliferation:* Homophilic CADM3 interactions coordinate retinal neuroepithelial cell proliferation; disruption leads to clonal expansion of retinal progenitor cells (PMID: 37022761).
+  - *Oncological/other contexts:* CADM3 has been identified as a tumor suppressor in breast cancer (inhibiting ERK1/2 and JNK1 phosphorylation; PMID: 38515057) and as a transcriptional target of PRDM10 in soft tissue sarcomas (PMID: 31313299), and as a downstream effector of PPAR-γ/FABP4 signaling in gastric cancer metastasis suppression (PMID: 35198079). These findings are not directly relevant to neurodevelopmental disease but confirm broad regulatory roles.
+  - *ALS biomarker:* CADM3-derived peptides are significantly downregulated in CSF of ALS patients compared to non-neurodegenerative controls (AUC 98% in a multi-marker model; n=157), suggesting CADM3 may have relevance to motor neuron disease beyond peripheral neuropathy (PMID: 40681694).
+
+- **Expression pattern:** CADM3 is broadly expressed throughout the nervous system. In larval zebrafish, cadm3 protein is expressed widely in the developing nervous system, with particularly prominent and largely non-overlapping expression compared to cadm2a in the retina and spinal cord (PMID: 21456004). In mice, CADM3 is expressed by both sensory and motor neurons (PMID: 23825401) and in retinal cone photoreceptors (PMID: 38623325).
+
+- **Key experimental findings:**
+  - The Tyr172Cys missense variant creates a novel disulfide bond, causes ER retention of the mutant protein, reduces cell surface expression, and decreases co-localization with CADM4 at intercellular contact sites by STORM imaging—providing a clear gain-of-toxic-function or dominant-negative mechanism (PMID: 33889941).
+  - CADM3 selectively inhibits the PI3K/Akt pathway in Schwann cells via its extracellular domain, identifying a specific signaling mechanism relevant to myelination (PMID: 27658374).
+
+- **Strength of biological evidence: MODERATE**
+
+The biological evidence is well-developed for CADM3's role in axon-glial adhesion and myelination, with mechanistic studies directly relevant to the CMT2 phenotype. Expression data confirm broad neuronal expression. However, direct evidence linking CADM3 to central neurodevelopmental disorders (intellectual disability, autism, epilepsy) is currently absent from the literature.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+- **Overall evidence level: LIMITED**
+
+**Key strengths:**
+- A recurrent missense variant (Tyr172Cys) identified in three unrelated families with axonal CMT2 provides initial genetic evidence for CADM3 as a disease gene (PMID: 33889941).
+- The corresponding knock-in mouse model (Cadm3Y170C) directly recapitulates the axonal organization defects, providing strong mechanistic validation of pathogenicity (PMID: 33889941).
+- Robust biological data establish CADM3 as the dominant axonal ligand for glial CADM4, a negative regulator of PI3K/Akt-mediated myelination, and a regulator of retinal synaptogenesis and neuroprogenitor proliferation—all highly relevant to neurological disease (PMID: 33397712; PMID: 27658374; PMID: 38623325).
+
+**Key gaps and limitations:**
+- No clinical evidence supports CADM3 as a neurodevelopmental disorder gene in the classic sense (intellectual disability, autism spectrum disorder, epilepsy, or structural brain anomalies). The only human disease association is with peripheral axonal neuropathy (CMT2).
+- The total number of reported patients is very small (three families, one variant), and no replication in large-scale cohort studies or gene discovery programs (DDD, GEL, UDN, etc.) has been documented.
+- Single Cadm3 null mice are phenotypically normal, indicating that simple haploinsufficiency does not produce disease in the mouse model, and the pathogenic mechanism for the human variant appears to involve a dominant-negative or gain-of-function effect rather than haploinsufficiency—complicating the autosomal dominant framework.
+
+**Conclusion:** CADM3 has emerging evidence as a causative gene for autosomal dominant axonal Charcot-Marie-Tooth neuropathy (CMT2), supported by a recurrent missense variant in three unrelated families, a validated knock-in mouse model, and strong mechanistic data implicating disrupted axon-glial adhesion via CADM4. However, current evidence does not support CADM3 as an established neurodevelopmental disorder gene in the broader sense, and the clinical dataset remains very small. Further case identification through large-scale sequencing cohorts and functional studies of additional variants are needed to strengthen the gene-disease relationship and clarify the full phenotypic spectrum.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. Genetic deletion of Cadm4 results in myelin abnormalities resembling Charcot-Marie-Tooth neuropathy (PMID: 23825401)
+2. Differential Contribution of Cadm1-Cadm3 Cell Adhesion Molecules to Peripheral Myelinated Axons (PMID: 33397712)
+3. Homophilic interaction of cell adhesion molecule 3 coordinates retina neuroepithelial cell proliferation (PMID: 37022761)
+
+### Biological Evidence
+1. A CADM3 variant causes Charcot-Marie-Tooth disease with marked upper limb involvement. (PMID: 33889941)
+2. Necl-1/CADM3 regulates cone synapse formation in the mouse retina. (PMID: 38623325)
+3. Localization of Cadm2a and Cadm3 proteins during development of the zebrafish nervous system. (PMID: 21456004)
+4. Cadm3 (Necl-1) interferes with the activation of the PI3 kinase/Akt signaling cascade and inhibits Schwann cell myelination in vitro. (PMID: 27658374)
+5. Clinical significance of low expression of CADM3 in breast cancer and preliminary exploration of related mechanisms. (PMID: 38515057)
+6. Undifferentiated pleomorphic sarcomas with PRDM10 fusions have a distinct gene expression profile. (PMID: 31313299)
+7. The peroxisome proliferator-activated receptor agonist rosiglitazone specifically represses tumour metastatic potential in chromatin inaccessibility-mediated FABP4-deficient gastric cancer. (PMID: 35198079)
+8. Peptidomic analysis of CSF reveals new biomarker candidates for amyotrophic lateral sclerosis. (PMID: 40681694)

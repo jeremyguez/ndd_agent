@@ -1,0 +1,380 @@
+{
+  "articles_found": {
+    "clinical": 24,
+    "model_organism": 21,
+    "biological": 27
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Neuroligin 2 nonsense variant associated with anxiety, autism, intellectual disability, hyperphagia, and obesity. (PMID: 27865048)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.441C>A, p.(Tyr147Ter)",
+            "type": "LoF",
+            "phenotypes": [
+              "severe anxiety",
+              "obsessive-compulsive behaviors",
+              "developmental delay",
+              "autism",
+              "obesity",
+              "macrocephaly",
+              "dysmorphic features",
+              "hyperphagia",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo heterozygous nonsense variant identified by exome sequencing, predicted to cause loss of normal protein function",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Case Report: Is Catatonia a Clinical Feature of the Natural Progression of NLGN2-Related Neurodevelopmental Disorder? (PMID: 32405903)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo variant in NLGN2 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "language impairment",
+              "behavior problems",
+              "hyperphagia",
+              "anxiety",
+              "catatonia",
+              "developmental regression",
+              "staring spells",
+              "weight loss",
+              "anhedonia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variant identified on genetic testing in context of ASD and catatonia",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A child with febrile and atypical absence seizures caused by a NLGN2 variant. (PMID: 37506563)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "variant in NLGN2 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "febrile seizures",
+              "atypical absence seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "variant considered causative for seizure phenotype based on clinical context",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - Catatonia is a clinical feature of the natural progression of NLGN2-related autism spectrum disorder. (A. Shillington et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo missense mutation in NLGN2 (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "language impairment",
+              "behavior problems",
+              "hyperphagia",
+              "anxiety",
+              "catatonia",
+              "developmental regression",
+              "staring spells",
+              "weight loss",
+              "anhedonia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo missense mutation identified by genetic testing; considered pathogenic in context of ASD and catatonia",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - Novel de novo TAOK1 variants associated with a neurodevelopmental phenotype, macrocephaly, and joint hypermobility. (H.M. McLaughlin et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo variant in NLGN2 (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder (details not specified; co-occurring with TAOK1 variant phenotype including intellectual disability, autism spectrum disorder, language delay, motor delay, behavior problems, macrocephaly, joint hypermobility, hypotonia, neonatal feeding difficulties)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo heterozygous variant in NLGN2 identified as candidate gene variant; clinical significance uncertain as patient also carried de novo TAOK1 variant",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Neuroligin 2 deletion alters inhibitory synapse function and anxiety-associated neuronal activation in the amygdala. (PMID: 26142252)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Pronounced anxiety phenotype",
+          "Impaired inhibitory synaptic transmission in basal amygdala",
+          "Reduced postsynaptic structures at perisomatic inhibitory synapses",
+          "Exacerbated cFOS induction in CaMKII-positive projection neurons following anxiogenic stimulus",
+          "Normal cFOS induction in parvalbumin- and somatostatin-positive interneurons",
+          "Decreased inhibitory drive onto projection neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Altered theta and beta oscillatory synchrony in a genetic mouse model of pathological anxiety. (PMID: 33960026)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Profoundly increased LFP power in ventral hippocampus",
+          "Abnormal modulation of theta frequency oscillatory synchrony in vHPC-mPFC-BLA circuit",
+          "Increased beta and gamma frequency synchrony across network",
+          "Increased center avoidance in open field",
+          "vHPC deletion linked to immobility",
+          "BLA deletion linked to reduced exploratory activity",
+          "Pathological anxiety behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Conditional neuroligin-2 knockout in adult medial prefrontal cortex links chronic changes in synaptic inhibition to cognitive impairments. (PMID: 25824299)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Nlgn2 protein undetectable after 2-3 weeks post-injection",
+          "Major reductions in synaptic inhibition after 6-7 weeks",
+          "Impaired anxiety behavior",
+          "Impaired fear memory",
+          "Impaired social interaction",
+          "Severely impaired behavioral stimulation of immediate-early gene expression in mPFC",
+          "Uncoupling of mPFC from experience-dependent inputs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Developmental delays and reduced pup ultrasonic vocalizations but normal sociability in mice lacking the postsynaptic cell adhesion protein neuroligin2. (PMID: 22820233)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced breeding efficiency",
+          "High reactivity to handling",
+          "Normal social behaviors",
+          "Reduced exploratory activity",
+          "Impaired rotarod performance",
+          "Delays on several developmental milestones",
+          "No spontaneous stereotypies or repetitive behaviors",
+          "Normal sensory information processing and sensorimotor gating",
+          "Fewer ultrasonic vocalizations in pups isolated from mother and littermates",
+          "Less time calling in isolated pups"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuroligin-2 shapes individual slow waves during slow-wave sleep and the response to sleep deprivation in mice. (PMID: 38570872)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Greater slow wave amplitude during slow-wave sleep",
+          "Greater slow wave density during slow-wave sleep",
+          "Altered 24-h dynamics of slow-wave sleep delta activity",
+          "Accelerated paradoxical (REM) sleep recovery following sleep deprivation",
+          "Profound alterations in ECoG activity across vigilance states",
+          "Hypersynchronized ECoG events unaffected in 24-h distribution by sleep loss",
+          "Higher SWS delta activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The effect of Neuroligin-2 absence on sleep architecture and electroencephalographic activity in mice. (PMID: 30231918)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "More wakefulness especially during dark period",
+          "Less NREM sleep especially during dark period",
+          "Less REM sleep especially during dark period",
+          "Changes in number and duration of individual wakefulness and sleep episodes",
+          "Widespread changes in EEG spectral activity in all vigilance states",
+          "Abnormal hypersynchronized EEG events predominantly during wakefulness and REM sleep",
+          "Alterations in daily time course of NREM sleep delta activity",
+          "Modifications in dynamics of sleep homeostasis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GABAergic deficits and schizophrenia-like behaviors in a mouse model carrying patient-derived neuroligin-2 R215H mutation. (PMID: 29859117)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Significant loss of NL2 protein in vivo",
+          "Reduced GABAergic transmission",
+          "Impaired hippocampal activation",
+          "Anxiety-like behavior",
+          "Impaired pre-pulse inhibition (PPI)",
+          "Cognition deficits",
+          "Abnormal stress responses"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuroligin 2 R215H Mutant Mice Manifest Anxiety, Increased Prepulse Inhibition, and Impaired Spatial Learning and Memory. (PMID: 29230184)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Growth retardation",
+          "Anxiety-like behavior",
+          "Increased prepulse inhibition (PPI)",
+          "Impaired spatial learning and memory",
+          "No detectable NLGN2 protein (resembling knockout)",
+          "Sex-genotype interaction in elevated plus-maze test"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "IgSF9b regulates anxiety behaviors through effects on centromedial amygdala inhibitory synapses. (PMID: 30573727)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Anxiety-related behaviors (as background for double KO studies)",
+          "Abnormal neural processing in amygdala anxiety circuitry",
+          "Impaired inhibitory synapses in basal amygdala",
+          "Deletion of IgSF9b normalizes anxiety-related behaviors in Nlgn2 KO background",
+          "Differential effects at inhibitory synapses in basal vs centromedial amygdala"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional Neuroligin-2-MDGA1 interactions differentially regulate synaptic GABAARs and cytosolic gephyrin aggregation. (PMID: 39284869)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Abnormal cytosolic gephyrin aggregation",
+          "Reduction in inhibitory synaptic transmission",
+          "Exacerbated anxiety-related behaviour",
+          "Layer-specific loss of gephyrin puncta (exacerbated in combined Nlgn2/MDGA1 deletion)",
+          "Loss of MDGA1 ameliorates gephyrin aggregation, inhibitory transmission reduction, and anxiety in Nlgn2 KO mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Neuroligin-2 as a central organizer of inhibitory synapses in health and disease. (PMID: 33443230)",
+        "evidence_subtype": "function",
+        "summary": "NLGN2 is the only neuroligin family member that acts exclusively at GABAergic inhibitory synapses, where it forms transsynaptic bridges with presynaptic neurexins to regulate inhibitory synaptic transmission. It plays a central role in orchestrating synapse formation and defining functional properties of synaptic transmission. Altered expression and mutations in NLGN2 and its interacting partners are linked to schizophrenia, autism, and anxiety.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Distinct mechanisms control the specific synaptic functions of Neuroligin 1 and Neuroligin 2. (PMID: 39747663)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using functional rescue experiments in cultured hippocampal neurons lacking all endogenous neuroligins, Nlgn2 was shown to selectively restore inhibitory synaptic transmission. Chimeric Nlgn1-Nlgn2 constructs revealed that the extracellular domain confers inhibitory synapse specificity, while the cytoplasmic sequences of Nlgn2\u2014including its Gephyrin-binding motif\u2014are essential for its synaptic function at inhibitory synapses but dispensable for Nlgn1 at excitatory synapses.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Synaptic deficits in iPSC-derived cortical interneurons in schizophrenia are mediated by NLGN2 and rescued by N-acetylcysteine. (PMID: 31780643)",
+        "evidence_subtype": "cell_culture",
+        "summary": "iPSC-derived cortical interneurons from schizophrenia subjects showed significantly reduced levels of NLGN2 and gephyrin, along with reduced synaptic puncta density. NLGN2 overexpression rescued synaptic puncta deficits in schizophrenia neurons, while NLGN2 knockdown in healthy neurons reduced synaptic puncta density. The antioxidant N-acetylcysteine increased NLGN2 expression and rescued synaptic deficits, implicating oxidative stress as a regulator of NLGN2 expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional Neuroligin-2-MDGA1 interactions differentially regulate synaptic GABAARs and cytosolic gephyrin aggregation. (PMID: 39284869)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Nlgn2 interacts with MDGA1 at GABAergic synapses in hippocampal area CA1; loss of MDGA1 ameliorated the abnormal cytosolic gephyrin aggregation, reduced inhibitory synaptic transmission, and exacerbated anxiety-related behaviour seen in Nlgn2 knockout mice. Combined Nlgn2 and MDGA1 deletion caused an exacerbated layer-specific loss of gephyrin puncta, indicating that MDGA1 modulates Nlgn2 function at inhibitory synapses. These findings suggest cytosolic gephyrin aggregation as a potential therapeutic target linked to the Nlgn2-MDGA1 interaction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Physical Interactions and Functional Relationships of Neuroligin 2 and Midbrain Serotonin Transporters. (PMID: 26793096)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Proteomic analysis of mouse midbrain identified NLGN2 as a component of SERT (serotonin transporter) complexes; reciprocal co-immunoprecipitation confirmed SERT/NLGN2 associations along with \u03b1-neurexin and gephyrin in a Ca2+-independent manner. Loss of NLGN2 in Nlgn2 null mice produced significant reductions in midbrain and hippocampal SERT expression and function, reduced excitability of dorsal raphe 5-HT neurons, loss of GABAA receptor-mediated IPSCs, and increased 5-HT1A autoreceptor sensitivity. These interactions were localized to somatodendritic compartments of raphe neurons, not axons.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuroligin 2 deletion alters inhibitory synapse function and anxiety-associated neuronal activation in the amygdala. (PMID: 26142252)",
+        "evidence_subtype": "function",
+        "summary": "In Nlgn2 knockout mice, NLGN2 was found at the majority of inhibitory synapses in the basal amygdala; its deletion specifically affected postsynaptic structures at perisomatic sites and impaired inhibitory synaptic transmission. Following exposure to an anxiogenic environment, Nlgn2 KO mice showed exacerbated cFOS expression in CaMKII-positive projection neurons but not in parvalbumin- or somatostatin-positive interneurons. These results indicate that Nlgn2 deletion reduces inhibitory drive onto projection neurons, leading to their excessive activation under anxiogenic conditions.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuroligin-2 shapes individual slow waves during slow-wave sleep and the response to sleep deprivation in mice. (PMID: 38570872)",
+        "evidence_subtype": "function",
+        "summary": "Nlgn2 knockout mice exhibited greater slow-wave amplitude and density during slow-wave sleep, with SW density being the main contributor to altered 24-h dynamics of delta activity. Absence of Nlgn2 accelerated paradoxical sleep recovery following sleep deprivation and caused profound alterations in ECoG activity across vigilance states. RNA sequencing in wild-type mice confirmed that sleep deprivation decreases cortical expression of Nlgn2 and related GABAergic transcripts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression alteration of Neuroligin family gene in attention deficit and hyperactivity disorder and autism spectrum disorder. (PMID: 37285744)",
+        "evidence_subtype": "expression",
+        "summary": "Quantitative PCR of peripheral blood from 450 ASD patients, 450 ADHD patients, and 490 controls showed that NLGN2 mRNA was significantly down-regulated in both ASD and ADHD groups compared to controls. NLGN2 was significantly more down-regulated in ASD subjects compared to ADHD subjects. These findings suggest NLGN2 expression changes in peripheral blood may reflect its role in the etiology of both neurodevelopmental disorders.",
+        "sample_size": "1390 (450 ASD, 450 ADHD, 490 controls)",
+        "significance": "statistically significant (p-values reported)"
+      },
+      {
+        "citation": "ASHG 2018 - Targeted sequencing of postsynaptic protein genes associated with schizophrenia: A role for multiple rare risk mutations in schizophrenia susceptibility. (M. Cheng et al.)",
+        "evidence_subtype": "other",
+        "summary": "Targeted sequencing of 18 postsynaptic protein genes in 98 schizophrenia patients identified a rare missense mutation NLGN2:p.R309Q absent in 1517 healthy controls. Immunoblot analysis in HEK293 cells showed that the NLGN2 R309Q mutant had decreased protein expression compared to wild-type. Genotyping in an independent sample of 500 cases and 500 controls confirmed this mutation was schizophrenia-specific.",
+        "sample_size": "98 cases, 1517 controls (discovery); 500 cases, 500 controls (replication)",
+        "significance": "absent in controls"
+      },
+      {
+        "citation": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants. (PMID: 35468861)",
+        "evidence_subtype": "GWAS",
+        "summary": "Integrative analysis of de novo SNVs in 41,165 NDD individuals and de novo CNVs in 3,675 NDD individuals identified NLGN2 as one of 11 high-confidence candidate NDD genes with >90% true-positive probability based on deep learning similarity to known NDD genes. NLGN2 achieved statistical significance (5% FDR) for enrichment of de novo deleterious variants. Its validity was supported by similarity in function and gene expression patterns to established NDD genes.",
+        "sample_size": "41,165 NDD cases (SNVs); 3,675 NDD cases (CNVs)",
+        "significance": "FDR < 5%; >90% true-positive probability"
+      }
+    ]
+  }
+}

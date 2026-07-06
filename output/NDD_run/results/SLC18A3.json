@@ -1,0 +1,133 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 2,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Recurrent deletions and reciprocal duplications of 10q11.21q11.23 including CHAT and SLC18A3 are likely mediated by complex low-copy repeats (PMID: 21948486)",
+        "num_patients": 41,
+        "variants": [
+          {
+            "description": "10q11.21q11.23 deletions (0.3-12 Mb) including SLC18A3",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "sleep apnea",
+              "chronic constipation",
+              "gastroesophageal reflux",
+              "vesicoureteral reflux",
+              "epilepsy",
+              "ataxia",
+              "dysphagia",
+              "nystagmus",
+              "ptosis"
+            ]
+          },
+          {
+            "description": "10q11.21q11.23 duplications (size range not specified) including SLC18A3",
+            "type": "other",
+            "phenotypes": [
+              "variable clinical features",
+              "developmental delay and/or intellectual disability in some cases"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent genomic rearrangements flanked by segmental duplications; variable phenotypic expressivity and incomplete penetrance noted; deletion in apparently normal carrier parents suggests heterozygous carriers may be phenotypically variable",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "SLC18A3 variants lead to fetal akinesia deformation sequence early in pregnancy (PMID: 31059209)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "lethal phenotype"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "DDAH1 promotes neurogenesis and neural repair in cerebral ischemia (PMID: 38799640)",
+        "evidence_subtype": "pathway",
+        "summary": "SLC18A3 is identified as one of three critical genes (Chat, Slc5a7, and Slc18a3) regulated by DDAH1 that are responsible for acetylcholine synthesis and transportation. RNA-seq analysis revealed DDAH1 controls expression of these genes, possibly through HIF-1\u03b1 signaling, in the context of neural stem cell differentiation toward cholinergic neurons after stroke.",
+        "sample_size": "Ddah1 KO, TG, and WT mice; AIS patient blood samples",
+        "significance": "DDAH1 positively correlated with AIS severity in patients"
+      },
+      {
+        "citation": "Oxidized/unmodified-polyethylene microplastics neurotoxicity in mice: Perspective from microbiota-gut-brain axis (PMID: 38484610)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 is a critical gene in the cholinergic synaptic signaling pathway that was significantly downregulated at both transcript and protein levels in mouse brain following exposure to LDPE-MPs or Ox-LDPE-MPs. This downregulation contributed to reduced acetylcholine concentration and cognitive dysfunction, which was reversed by probiotic intervention.",
+        "sample_size": "C57BL/6 J mice (n not specified)",
+        "significance": "Significantly downregulated after MP exposure; p-value not specified but noted as significant in transcriptomic and Western blot analyses"
+      },
+      {
+        "citation": "Spatial transcriptomic profiling of human paravertebral sympathetic chain ganglia reveals diabetes-induced neuroplasticity (PMID: 40667173)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 expression was used as a marker to identify cholinergic neuronal populations in human sympathetic chain ganglia. In diabetic SCGs, cholinergic neurons expressing SLC18A3 showed a phenotypic shift toward noradrenergic identity, indicating altered neuronal identity in diabetes-associated autonomic dysfunction.",
+        "sample_size": "Human lumbar SCGs from diabetic and non-diabetic organ donors",
+        "significance": "Significant loss of cholinergic neurons and phenotypic shift in diabetic SCGs (p-value not specified)"
+      },
+      {
+        "citation": "The Neuromuscular Junction and Wide Heterogeneity of Congenital Myasthenic Syndromes (PMID: 29874875)",
+        "evidence_subtype": "function",
+        "summary": "SLC18A3 mutations cause congenital myasthenic syndromes (CMS) by impairing acetylcholine recycling and synthesis. SLC18A3 encodes the vesicular acetylcholine transporter required for packaging acetylcholine into synaptic vesicles, and mutations result in impaired neuromuscular transmission with both neuromuscular and CNS manifestations.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SLC18A3 promoted renal cancer development through acetylcholine/cAMP signaling (PMID: 36225635)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SLC18A3 (vesicular acetylcholine transporter) is upregulated in renal cancer patients and enhances acetylcholine uptake into cancer cells. SLC18A3 overexpression activates the PKA/CREB signaling pathway, promoting renal cancer cell proliferation and invasive migration. SLC18A3 overexpression in A489 tumor-bearing mice caused sustained tumor growth and increased lung metastases.",
+        "sample_size": "Renal cancer patient samples; A489-bearing mice",
+        "significance": "SLC18A3 upregulated in renal cancer patients (p-value not specified); sustained tumor growth and increased metastases in overexpression model"
+      },
+      {
+        "citation": "SLC18: Vesicular neurotransmitter transporters for monoamines and acetylcholine (PMID: 23506877)",
+        "evidence_subtype": "function",
+        "summary": "SLC18A3 is the vesicular acetylcholine transporter (VAChT) that mediates active transport of acetylcholine into synaptic vesicles for exocytotic release. SLC18A3 is a member of the SLC18 family within the Drug:H+ Antiporter-1 Family (DHA1) and Major Facilitator Superfamily (MFS).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Microbiota Alters Urinary Bladder Weight and Gene Expression (PMID: 32192034)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 expression in urinary bladder is significantly altered by microbiota status, with differential expression between germ-free and specific pathogen-free mice. SLC18A3 is part of the neuromuscular synaptic transmission gene set that is regulated by microbiota composition.",
+        "sample_size": "Germ-free (GF) and specific pathogen-free (SPF) housed mice",
+        "significance": "Fold change > \u00b12; FDR p-value < 0.01"
+      },
+      {
+        "citation": "Arsenic Impairs Differentiation of Human Induced Pluripotent Stem Cells into Cholinergic Motor Neurons (PMID: 37624150)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SLC18A3 transcript levels are downregulated in human iPS cell-derived motor neurons exposed to 0.5 \u03bcM arsenic. SLC18A3 is part of the cholinergic synapse pathway that is impaired by arsenic exposure, along with CHAT and SLC5A7, resulting in reduced acetylcholine synthesis and transport capacity.",
+        "sample_size": "Human iPS cells differentiated into motor neurons over 28 days",
+        "significance": "Cholinergic synapse pathway impaired following 0.5 \u03bcM arsenic exposure; transcript levels downregulated (fold change not specified)"
+      },
+      {
+        "citation": "Comprehensive Analysis of SLC17A9 and Its Prognostic Value in Hepatocellular Carcinoma (PMID: 35957868)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SLC18A3 was identified as a protein-protein interaction partner of SLC17A9 in hepatocellular carcinoma. Protein-protein interaction network analysis revealed SLC18A3 as closely related to SLC17A9, suggesting functional association between these solute carrier family members in cancer biology.",
+        "sample_size": "HepG2 hepatocellular carcinoma cells; TCGA database",
+        "significance": "PPI network analysis identified SLC18A3 as closely related to SLC17A9 (p-value not specified)"
+      },
+      {
+        "citation": "Gene expression profiles in peripheral blood mononuclear cells of Asian obstructive sleep apnea patients (PMID: 24732660)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 expression is significantly altered in peripheral blood mononuclear cells of obstructive sleep apnea (OSA) patients and identified as a possible biomarker for severe OSA. SLC18A3 expression levels were among the most differentially expressed genes in severe OSA patients compared to controls.",
+        "sample_size": "Asian OSA patients and nonapneic control participants",
+        "significance": "SLC18A3 p = 0.0006; identified as possible marker of severe OSA (RDI > 30)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,383 @@
+{
+  "articles_found": {
+    "clinical": 22,
+    "model_organism": 20,
+    "biological": 24
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "SRSF1 haploinsufficiency is responsible for a syndromic developmental disorder associated with intellectual disability (PMID: 37071997)",
+        "num_patients": 17,
+        "variants": [
+          {
+            "description": "three frameshift variants (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "neurobehavioral problems",
+              "skeletal anomalies",
+              "cardiac anomalies"
+            ]
+          },
+          {
+            "description": "three nonsense variants (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "neurobehavioral problems",
+              "skeletal anomalies",
+              "cardiac anomalies"
+            ]
+          },
+          {
+            "description": "seven missense variants (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "neurobehavioral problems",
+              "skeletal anomalies",
+              "cardiac anomalies"
+            ]
+          },
+          {
+            "description": "two microdeletions within region 17q22 encompassing SRSF1",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "neurobehavioral problems",
+              "skeletal anomalies",
+              "cardiac anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mostly de novo variants; loss-of-function and 5/7 missense variants confirmed pathogenic by in vivo splicing assay in Drosophila, in silico structural modeling, and DNA methylation episignature analysis; haploinsufficiency mechanism established",
+        "center_country": "International (multiple centers, data sharing)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2022 - SRSF1 haploinsufficiency is responsible for a syndromic developmental disorder with intellectual disability and variable marfanoid habitus (A. Garde et al.)",
+        "num_patients": 16,
+        "variants": [
+          {
+            "description": "frameshift variants (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "behavioral disorders",
+              "skeletal anomalies",
+              "cardiac anomalies",
+              "marfanoid habitus"
+            ]
+          },
+          {
+            "description": "nonsense variants (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "behavioral disorders",
+              "skeletal anomalies",
+              "cardiac anomalies",
+              "marfanoid habitus"
+            ]
+          },
+          {
+            "description": "missense variants (specific notation not provided)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "behavioral disorders",
+              "skeletal anomalies",
+              "cardiac anomalies",
+              "marfanoid habitus"
+            ]
+          },
+          {
+            "description": "microdeletion of region 17q22 including SRSF1",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "behavioral disorders",
+              "skeletal anomalies",
+              "cardiac anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mostly de novo variants; functional studies in Drosophila in vivo splicing assay confirmed pathogenicity; in silico predicted conformational changes; germline mosaicism suspected in one family",
+        "center_country": "International (multiple centers, Solve-RD consortium)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Endothelial SRSF1 Promotes Ischemia-Induced Angiogenesis via ATF3-KLF2-S1PR1 Pathway (PMID: 41195527)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Impaired blood flow recovery after hindlimb ischemia",
+          "Impaired vasculature formation after hindlimb ischemia",
+          "Endothelial-specific SRSF1 deficiency reduces angiogenic response to ischemia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing factor SRSF1 is essential for homing of precursor spermatogonial stem cells in mice (PMID: 38271475)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Male infertility",
+          "Impaired homing of precursor spermatogonial stem cells",
+          "Absence of germ cells in testes of adult cKO mice (Sertoli cell-only syndrome)",
+          "Significantly reduced expression of spermatogonia-related genes (Gfra1, Pou5f1, Plzf, Dnd1, Stra8, Taf4b)",
+          "Impaired survival of spermatogonia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SRSF1 Is Crucial for Maintaining Satellite Cell Homeostasis During Skeletal Muscle Growth and Regeneration (PMID: 39381961)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Early mortality in MyoD-Cre SRSF1 KO mice during postnatal muscle growth",
+          "Muscle atrophy during postnatal muscle growth",
+          "Increased proportion of activated and proliferating myoblasts (28.68% to 77.06%)",
+          "Mitotic abnormalities in myoblasts",
+          "Cell cycle arrest and cellular senescence in myoblasts",
+          "Increased proportion of Pax7+ cells in improper niche positioning (12% to 25%)",
+          "Persistent cell cycle exit in Pax7+ cells",
+          "Failure in muscle regeneration after cardiotoxin-induced injury",
+          "Dysregulated splicing of Fgfr1op2",
+          "Multipolar spindle formation in myoblasts"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": "n \u2265 10 (niche positioning); n = 6 (cell cycle exit); n = 4 (regeneration)",
+        "significance": "p<0.001"
+      },
+      {
+        "citation": "Divergent splicing factor SRSF1 signaling promotes inflammation post-CME: the SRSF1/ENPP3 axis acts via inhibition of BRD4 O-GlcNAcylation to enhance NF-\u03baB activation and accelerate heart failure (PMID: 40585977)",
+        "organism": "rat",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Myocardial-specific knockout of SRSF1 restored cardiac function in CME rats",
+          "Reduced myocardial inflammation in CME rats",
+          "Inactivation of ENPP3/BRD4/NF-\u03baB pathway"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SRSF1 regulates primordial follicle formation and number determination during meiotic prophase I (PMID: 36882745)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Impaired primordial follicle formation",
+          "Primary ovarian insufficiency (POI)",
+          "Suppressed expression of oocyte-specific genes regulating primordial follicle formation (Lhx8, Nobox, Sohlh1, Sohlh2, Figla, Kit, Jag1, Rac1)",
+          "Failed synapsis during meiotic prophase I",
+          "Inability to undergo recombination",
+          "Fewer homologous DNA crossovers",
+          "Dysregulated alternative splicing of Six6os1 and Msh5"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SRSF1 is essential for pancreatic \u03b2-cell proliferation and the maintenance of glucose homeostasis in mice (PMID: 41138848)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Glucose intolerance worsening with age",
+          "Impaired insulin secretion",
+          "Reduced \u03b2-cell proliferation",
+          "Compensatory \u03b1-cell expansion",
+          "Decreased \u03b2-cell fraction and increased \u03b1-cell fraction",
+          "Downregulation of ribosome biogenesis and cell cycle genes",
+          "Upregulation of \u03b1-cell determinants and progenitor-associated factors",
+          "ER stress in \u03b2-cells (secondary response)",
+          "Altered \u03b2-cell fate",
+          "Small subset of \u03b1-cells co-expressing somatostatin (stress-associated phenotypic plasticity)",
+          "Disrupted MYC-mediated pathways"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing factor SRSF1 controls autoimmune-related molecular pathways in regulatory T cells distinct from FoxP3 (PMID: 36368121)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Early lethal systemic autoimmunity",
+          "Multi-organ inflammation",
+          "Dysregulation of cytokine and immune response pathways",
+          "Altered expression of CXCR6, CCL1, FASLG, and PDCD1",
+          "Impaired Treg homeostasis and function"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Splicing factor SRSF1 limits IFN-\u03b3 production via RhoH and ameliorates experimental nephritis (PMID: 32810232)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Increased Th1 differentiation",
+          "Exacerbated nephrotoxic serum-induced nephritis",
+          "Increased IFN-\u03b3 production",
+          "Decreased RhoH expression in SRSF1-deficient T cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SRSF1 plays a critical role in invariant natural killer T cell development and function (PMID: 34522020)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Substantially diminished iNKT cell pool",
+          "Defects in iNKT cell proliferation and survival",
+          "Defects in TCR\u03b1 rearrangement",
+          "Blocked transition from stage 0 to stage 1 of iNKT cells",
+          "Diminished iNKT2 subset",
+          "Aberrant expression of Myb, PLZF, Gata3, ICOS, and CD5",
+          "Reduced short isoform of Myb in SRSF1-deficient cells",
+          "Resistance to acute liver injury upon \u03b1-GalCer and Con A induction"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The splicing factor SRSF1 stabilizes the mRNA of TSLP to enhance acute lung injury (PMID: 33607522)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Treatment with SRSF1 antibody ameliorated LPS-induced acute lung injury",
+          "Reduction in lung wet/dry weight ratios",
+          "Reduced histopathological changes in lung",
+          "Reduced lung inflammation",
+          "Reduced TSLP expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Splicing Factor SRSF1 Promotes Pancreatitis and KRASG12D-Mediated Pancreatic Cancer (PMID: 37098965)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SRSF1 is highly expressed in pancreatitis, PDAC precursor lesions, and tumors. Increased SRSF1 is sufficient to induce pancreatitis and accelerate KRASG12D-mediated PDAC by activating MAPK signaling partly through alternative-splicing-regulated upregulation of IL1R1. A negative feedback mechanism destabilizes SRSF1 protein in normal epithelial cells expressing KRASG12D, which is overcome by hyperactive MYC to facilitate tumorigenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Endothelial SRSF1 Promotes Ischemia-Induced Angiogenesis via ATF3-KLF2-S1PR1 Pathway (PMID: 41195527)",
+        "evidence_subtype": "pathway",
+        "summary": "SRSF1 expression is elevated in endothelial cells after ischemia and hypoxia. SRSF1 modulates alternative splicing of ATF3 pre-mRNA by direct binding, promoting full-length ATF3 over truncated ATF3\u0394zip2, which suppresses KLF2 and downstream S1PR1 signaling to enhance angiogenesis. Endothelial-specific SRSF1 knockout mice showed impaired blood flow recovery after hindlimb ischemia, while SRSF1 overexpression enhanced angiogenesis in vivo and in vitro.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting SRSF1 improves cancer immunotherapy by dually acting on CD8(+)T and tumor cells (PMID: 39837814)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Depleting SRSF1 in CD8+ T cells improves antitumor immune function and glycolytic metabolism, enhancing adoptive T cell therapy efficacy. SRSF1 inactivation in tumor cells reduces transcription factors c-Jun, c-myc, and JunB, reprogramming glycolytic metabolism and restoring CD8+ T cell function. A small-molecule inhibitor TN2008 targeting SRSF1 boosted antitumor immune responses in mouse models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FAM120A couples SREBP-dependent transcription and splicing of lipogenesis enzymes downstream of mTORC1 (PMID: 37595559)",
+        "evidence_subtype": "pathway",
+        "summary": "mTORC1-activated SRPK2 phosphorylates SRSF1, enhancing its binding to FAM120A, which bridges newly transcribed lipogenic genes from RNA polymerase II to the SRSF1 and U1-70K-containing RNA-splicing machinery. This multi-protein complex promotes efficient splicing and stability of lipogenic transcripts, resulting in fatty acid synthesis and cancer cell proliferation. SRSF1 thus functions as a downstream effector of mTORC1-SRPK2 signaling in anabolic cell growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genomic Landscape Survey Identifies SRSF1 as a Key Oncodriver in Small Cell Lung Cancer (PMID: 27093186)",
+        "evidence_subtype": "expression",
+        "summary": "SRSF1 DNA copy number gain and mRNA over-expression were strongly associated with poor survival in SCLC patients across discovery and validation cohorts of 99 Chinese patients. Functional studies in vitro and in vivo demonstrated that SRSF1 is important for tumorigenicity of SCLC and may play a key role in DNA repair and chemo-sensitivity. These results support SRSF1 as a prognostic biomarker in SCLC.",
+        "sample_size": "99 patients",
+        "significance": null
+      },
+      {
+        "citation": "SRSF1 Is Crucial for Maintaining Satellite Cell Homeostasis During Skeletal Muscle Growth and Regeneration (PMID: 39381961)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SRSF1 knockout in satellite cells (via MyoD-Cre) caused early mortality and muscle atrophy in mice, with scRNA-seq revealing increased activated/proliferating myoblasts (28.68% to 77.06%) that underwent mitotic abnormalities, cell cycle arrest, and cellular senescence. SRSF1 regulates splicing of Fgfr1op2 to favor the full-length isoform crucial for mitotic spindle organization; its loss causes multipolar spindle formation. Adult satellite cells lacking SRSF1 fail to regenerate muscle after cardiotoxin injury due to impaired proliferation.",
+        "sample_size": null,
+        "significance": "p<0.001"
+      },
+      {
+        "citation": "Unearthing a novel function of SRSF1 in binding and unfolding of RNA G-quadruplexes (PMID: 38567732)",
+        "evidence_subtype": "function",
+        "summary": "SRSF1 was found to bind RNA G-quadruplexes (GQ) from ARPC2 mRNA using both its RRM domains and RS domain, with the RS domain preferring purine over pyrimidine. FRET and circular dichroism data revealed that SRSF1 unfolds the ARPC2 GQ, with RS leading unfolding and RRMs aiding, through Arg residues interacting specifically with guanine bases. Luciferase assays confirmed that SRSF1 alleviates the inhibitory effect of GQ on gene expression in cells, revealing a novel function beyond canonical splicing enhancer recognition.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - SRSF1 haploinsufficiency is responsible for a syndromic developmental disorder with intellectual disability and variable marfanoid habitus",
+        "evidence_subtype": "fly_worm",
+        "summary": "Sixteen patients with germline SRSF1 variants (frameshift, nonsense, missense, and microdeletion of 17q22) presented with developmental delay, intellectual disability, hypotonia, behavioral disorders, and skeletal/cardiac anomalies. Eye-specific overexpression of SF2 (the Drosophila ortholog of SRSF1) induced a severe developmental phenotype due to missplicing of key genes involved in eye development, and overexpression of human SRSF1 phenocopied this, demonstrating functional conservation. In vivo splicing assays in Drosophila supported pathogenicity of the identified variants.",
+        "sample_size": "16 patients",
+        "significance": null
+      },
+      {
+        "citation": "FOXA1 regulates alternative splicing in prostate cancer (PMID: 36170835)",
+        "evidence_subtype": "expression",
+        "summary": "FOXA1 binds to the regulatory regions of splicing-related genes including SRSF1, controlling its expression as part of a cascade that rewires alternative splicing in prostate cancer across 500 primary and metastatic transcriptomes. FOXA1-controlled oncogene SRSF1 promotes inclusion of the NMD-determinant FLNA exon 30, which promotes cell growth in vitro and predicts disease recurrence. SRSF1 is thus positioned downstream of FOXA1 in a chromatin-to-splicing regulatory cascade.",
+        "sample_size": "500 transcriptomes",
+        "significance": null
+      },
+      {
+        "citation": "When SUMO met splicing (PMID: 29741121)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SRSF1 was found to stimulate SUMO conjugation to several spliceosomal proteins during active splicing reactions. SUMOylation of spliceosomal components, modulated by SRSF1, is proposed to regulate spliceosome assembly and splicing efficiency. This identifies SRSF1 as a regulator of post-translational modification of the splicing machinery beyond its direct RNA-binding role.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

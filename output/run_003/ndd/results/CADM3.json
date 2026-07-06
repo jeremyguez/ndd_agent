@@ -1,0 +1,134 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 7,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Homophilic interaction of cell adhesion molecule 3 coordinates retina neuroepithelial cell proliferation (PMID: 37022761)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Expanded retinal progenitor cell clones in cadm3-disrupted retinae",
+          "Increased retinal total cell number when Cadm3 lacking extracellular ig1 domain was overexpressed in RPCs",
+          "Recapitulation of clonal expansion phenotype seen in p15+ host retinae upon cadm3 disruption",
+          "Loss of coordinated proliferation in retinal neuroepithelium"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Differential Contribution of Cadm1-Cadm3 Cell Adhesion Molecules to Peripheral Myelinated Axons (PMID: 33397712)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Single Cadm3 null mice: no overt axonal organization abnormalities on their own",
+          "Cadm3-/-/Cadm2-/- double mutants: abnormal distribution of Caspr and Kv1 potassium channels, phenocopying Cadm4 null mice",
+          "Cadm3-/-/Cadm1-/- double mutants: abnormal distribution of Caspr and Kv1 potassium channels",
+          "Cadm1-/-/Cadm2-/- double mutants: no significant axonal organization abnormalities",
+          "Cadm3 null mice heterozygous for Cadm2 and Cadm1: axonal organization abnormalities detected",
+          "Cadm3 identified as the main axonal ligand for glial Cadm4 in peripheral nervous system"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic deletion of Cadm4 results in myelin abnormalities resembling Charcot-Marie-Tooth neuropathy (PMID: 23825401)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Cadm3 single knockout mice: no peripheral nervous system myelin abnormalities reported",
+          "Cadm3 null mice do not develop focal hypermyelination, tomacula, or myelin outfoldings",
+          "No abnormal axon-glial contact or redistribution of ion channels in Cadm3 single knockouts",
+          "Cadm3 expressed by sensory and motor neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Necl-1/CADM3 regulates cone synapse formation in the mouse retina. (PMID: 38623325)",
+        "evidence_subtype": "function",
+        "summary": "Necl-1/CADM3 is localized at S- and S/M-opsin-containing cones and dendrites of type 4 OFF cone bipolar cells in the mouse retina. In Necl-1-/- mice, synapses between cones and type 4 OFF CBCs were dislocated, AMPA receptors were mislocalized, and short-wavelength-light-elicited signal transmission was aberrant. These findings establish CADM3 as a regulator of cone synapse formation mediating OFF cone pathways.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A CADM3 variant causes Charcot-Marie-Tooth disease with marked upper limb involvement. (PMID: 33889941)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A missense variant Tyr172Cys in CADM3 was identified in three unrelated families with axonal CMT2; mass spectrometry revealed a novel disulfide bond in the mutant protein, and in vitro studies showed retention of mutant CADM3 in the endoplasmic reticulum with reduced cell surface expression. STORM imaging demonstrated decreased co-localization of mutant CADM3 with CADM4 at intercellular contact sites. Knock-in mice (Cadm3Y170C) showed abnormal axonal organization including mislocalization of Kv1.2 channels and Caspr, supporting a disease mechanism involving disrupted axon-glia interaction.",
+        "sample_size": "3 families",
+        "significance": null
+      },
+      {
+        "citation": "Differential Contribution of Cadm1-Cadm3 Cell Adhesion Molecules to Peripheral Myelinated Axons. (PMID: 33397712)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Genetic ablation studies in mice showed that Cadm3 is the primary axonal ligand for glial Cadm4, as triple knockout of Cadm1/2/3 phenocopied Cadm4 null abnormalities in Caspr and Kv1 channel distribution. Double mutants lacking Cadm3 with either Cadm2 or Cadm1 also showed defects, but Cadm1/Cadm2 double knockouts did not, establishing a hierarchical adhesion code with Cadm3 at the apex. Cadm2 and Cadm1 can compensate for Cadm3 loss in combination but not individually.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cadm3 (Necl-1) interferes with the activation of the PI3 kinase/Akt signaling cascade and inhibits Schwann cell myelination in vitro. (PMID: 27658374)",
+        "evidence_subtype": "pathway",
+        "summary": "shRNA-mediated knockdown of axonal Cadm3 in DRG neurons promoted Schwann cell myelination in vitro, while Cadm3 overexpression nearly abolished myelin segment formation. The extracellular domain of Cadm3 dose-dependently inhibited ErbB3 activation and the pro-myelinating PI3K/Akt pathway without affecting Mek/Erk1/2 signaling. These results identify Cadm3 as a negative regulator of PNS myelination acting through selective modulation of PI3K/Akt signaling in Schwann cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Clinical significance of low expression of CADM3 in breast cancer and preliminary exploration of related mechanisms. (PMID: 38515057)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CADM3 expression was significantly lower in breast cancer tissues than adjacent normal tissues, and high CADM3 correlated with better prognosis and was an independent prognostic factor. Overexpression of CADM3 in breast cancer cell lines notably reduced cell proliferation and migration in clonal formation, CCK-8, scratch, and Transwell assays. Mechanistically, high CADM3 was associated with inhibition of ERK1/2 and JNK1 phosphorylation, implicating the MAPK pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Undifferentiated pleomorphic sarcomas with PRDM10 fusions have a distinct gene expression profile. (PMID: 31313299)",
+        "evidence_subtype": "expression",
+        "summary": "RNA-seq of PRDM10-rearranged tumors (PRT) identified CADM3 as one of the most consistently and highly upregulated genes compared to high-grade undifferentiated pleomorphic sarcomas and other soft tissue tumors. Conditional expression of the CITED2-PRDM10 fusion in fibroblasts also induced high CADM3 expression, and ATAC-seq showed enrichment of PRDM10 binding sites near CADM3, suggesting CADM3 is a direct transcriptional target of PRDM10. CADM3 protein expression was confirmed by immunohistochemistry.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The peroxisome proliferator-activated receptor agonist rosiglitazone specifically represses tumour metastatic potential in chromatin inaccessibility-mediated FABP4-deficient gastric cancer. (PMID: 35198079)",
+        "evidence_subtype": "pathway",
+        "summary": "In gastric cancer, FABP4 binding to PPAR-\u03b3 facilitated nuclear translocation of PPAR-\u03b3, which transcriptionally activated CADM3 to suppress metastasis. FABP4 depletion reduced PPAR-\u03b3-mediated CADM3 transcription, promoting metastatic behavior in vitro and in vivo. The PPAR-\u03b3 agonist rosiglitazone restored CADM3 expression in FABP4-deficient cells and reversed metastatic properties in multiple mouse models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Localization of Cadm2a and Cadm3 proteins during development of the zebrafish nervous system. (PMID: 21456004)",
+        "evidence_subtype": "expression",
+        "summary": "Subtype-specific antibodies revealed that cadm3 is broadly expressed throughout the nervous system of larval zebrafish, with particularly striking and largely non-overlapping expression compared to cadm2a in the developing retina and spinal cord. In vitro binding assays showed cadm3 binds heterophilically and preferentially to cadm4, consistent with tetrapod Cadm binding preferences. This study establishes cadm3 protein localization as a prerequisite for understanding its diverse functions during vertebrate nervous system development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circ004463 promotes fibroblast proliferation and collagen I synthesis by sponging miR-23b and regulating CADM3/MAP4K4 via activation of AKT/ERK pathways. (PMID: 36502948)",
+        "evidence_subtype": "pathway",
+        "summary": "In pig skin fibroblasts, the circRNA circ0044633 acts as a sponge for miR-23b, thereby upregulating CADM3 and MAP4K4 expression and activating downstream AKT and ERK pathways to promote fibroblast proliferation, myofibroblast transition, and collagen I synthesis. Overexpression of circ004463 increased mouse skin thickness and collagen I content in vivo. This identifies a circ0044633-miR-23b-CADM3/MAP4K4 axis as a regulator of skin thickness development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Peptidomic analysis of CSF reveals new biomarker candidates for amyotrophic lateral sclerosis. (PMID: 40681694)",
+        "evidence_subtype": "other",
+        "summary": "Mass-spectrometry-based peptidomic analysis of CSF identified CADM3-derived peptides as significantly downregulated in ALS patients compared to non-neurodegenerative controls in both discovery and validation cohorts. CADM3 peptide levels were not altered in other neurodegenerative diseases (Alzheimer's disease, frontotemporal dementia, Parkinson's disease), suggesting ALS-specific relevance. A logistic regression model combining CADM3 peptides with other candidates achieved an AUC of 98% for discriminating ALS from controls.",
+        "sample_size": "157 (48 discovery + 109 validation)",
+        "significance": null
+      }
+    ]
+  }
+}

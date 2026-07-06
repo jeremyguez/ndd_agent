@@ -1,0 +1,204 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 7,
+    "biological": 16
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Biallelic Mutations in CFAP43 and CFAP44 Cause Male Infertility with Multiple Morphological Abnormalities of the Sperm Flagella (PMID: 28552195)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "homozygous frameshift mutation in CFAP44 (specific notation not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "male infertility",
+              "multiple morphological abnormalities of the flagella (MMAF)",
+              "absent/short/coiled/bent/irregular-caliber flagella",
+              "impaired sperm motility"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Homozygous frameshift mutation inherited from heterozygous carrier parents; absent in 984 Han Chinese controls; biallelic recessive inheritance; functional validation in Cfap44 knockout mouse model showing MMAF phenotype",
+        "center_country": "China (multi-center cohort of Han Chinese men)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - Mutations in the CFAP-coding genes lead to male infertility with multiple morphological abnormalities of the sperm flagella (W. Li, F. Zhang)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "biallelic mutations in CFAP44 (specific notation not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "male infertility",
+              "multiple morphological abnormalities of the flagella (MMAF)",
+              "short/coiled flagella",
+              "impaired sperm motility"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Biallelic mutations identified by whole-exome sequencing and genome-wide CGH microarrays; CFAP44 specifically/preferentially expressed in testis; knockout mouse models confirmed MMAF phenotype",
+        "center_country": "China (multi-center cohort of Chinese men)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Biallelic Mutations in CFAP43 and CFAP44 Cause Male Infertility with Multiple Morphological Abnormalities of the Sperm Flagella (PMID: 28552195)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Multiple morphological abnormalities of the flagella (MMAF)",
+          "Absent, short, coiled, bent, and/or irregular-caliber flagella",
+          "Impaired sperm motility",
+          "Male infertility",
+          "Female mice fertile (no female phenotype reported)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutations in CFAP43 and CFAP44 cause male infertility and flagellum defects in Trypanosoma and human (PMID: 29449551)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Male infertility",
+          "Severe flagellar defects",
+          "Severe disorganization of the sperm axoneme",
+          "Multiple morphological abnormalities of the sperm flagella (MMAF)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A comprehensive study of the sperm head defects in MMAF condition and their impact on embryo development in mice (PMID: 40070084)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Multiple morphological abnormalities of the flagella (MMAF)",
+          "Sperm nuclear defects (morphology, DNA compaction, chromosomal architecture, ploidy abnormalities)",
+          "Male infertility",
+          "Reduced embryo developmental potential after ICSI compared to wild-type",
+          "Developmental failure rate lower than Ccdc146-/-, Cfap43-/-, and Armc2-/- (Cfap44-/- ranked least severe among the four KO lines for both nuclear defects and developmental failure)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A systematic, label-free method for identifying RNA-associated proteins in vivo provides insights into vertebrate ciliary beating machinery (PMID: 32898505)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Cfap44 identified as an RNA-associated protein localizing to axonemes and cytoplasmic liquid-like organelles (DynAPs)",
+          "DynAPs found to be enriched for RNA",
+          "Cfap44 described as inner dynein arm tether with localization to mucociliary epithelium structures"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Mutations in the CFAP-coding genes lead to male infertility with multiple morphological abnormalities of the sperm flagella (W. Li, F. Zhang)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Short flagella",
+          "Coiled flagella",
+          "Other phenotypes consistent with human MMAF",
+          "Male infertility"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Novel Mutations in CFAP44 and CFAP43 Cause Multiple Morphological Abnormalities of the Sperm Flagella (MMAF). (PMID: 29277146)",
+        "evidence_subtype": "function",
+        "summary": "Whole exome sequencing identified biallelic CFAP44 mutations (including homozygous frameshift, missense, and putative compound heterozygous variants) in 5 out of 27 MMAF patients. Real-time qPCR demonstrated very weak CFAP44 expression in affected patients compared to controls, confirming loss-of-function. This established CFAP44 as a causative gene for MMAF-associated male infertility.",
+        "sample_size": "27 MMAF patients",
+        "significance": null
+      },
+      {
+        "citation": "Novel CFAP43 and CFAP44 mutations cause male infertility with multiple morphological abnormalities of the sperm flagella (MMAF). (PMID: 30904354)",
+        "evidence_subtype": "expression",
+        "summary": "A novel homozygous nonsense mutation (c.4963C>T: p.Arg1655*) in CFAP44 was identified in one Chinese MMAF patient; relative mRNA expression of CFAP44 in patient sperm was significantly lower than in controls. Co-segregation was confirmed by Sanger sequencing, and CFAP44 is specifically expressed in sperm/testis tissue.",
+        "sample_size": "13 MMAF patients",
+        "significance": "p < 0.05 (mRNA reduction)"
+      },
+      {
+        "citation": "Reduced expression of CFAP44 and CFAP44-AS1 may affect sperm motility and morphology. (PMID: 35470451)",
+        "evidence_subtype": "expression",
+        "summary": "CFAP44 mRNA expression was significantly reduced in spermatozoa from asthenozoospermic (AZ) and terato-asthenozoospermic (TAZ) men compared to normozoospermic controls. Positive correlations were found between CFAP44 expression and both sperm motility (in AZ and TAZ groups) and normal sperm morphology across all groups, implicating CFAP44 in flagellar function.",
+        "sample_size": "105 subjects (35 TAZ, 34 AZ, 35 normozoospermic)",
+        "significance": "p < 0.05"
+      },
+      {
+        "citation": "LAX28 is required for the stable assembly of the inner dynein arm f complex, and the tether and tether head complex in Leishmania flagella. (PMID: 31932510)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In Leishmania mexicana, CFAP44 was identified as a tether/tether head (T/TH) complex protein in the axoneme. Null mutants for CFAP44 lacked the inner dynein arm f protein IC140 and the novel protein LAX28 from axonemes, and showed reduced swimming speed, impaired directionality, and flagellar curling. Axonemal localization of LAX28 was shown to require CFAP44, demonstrating CFAP44's role in IDA f and T/TH complex assembly.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A novel gene, cilia flagella associated protein 44, encoding an enzyme cleaving FtsZ and tubulin contributes to the regulation of secretory pathway. (PMID: 28887034)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In transfected cell lines, the spliced form of CFAP44 was found to cleave \u03b2-tubulin and the bacterial tubulin homolog FtsZ both in vivo and in vitro, affecting cell division, intracellular transport, and proteolytic processing. The unspliced form showed broader proteolytic activity with low substrate specificity. Both spliced and unspliced RNAs are transcribed in mice and humans, with the spliced form predominating in brain and embryonic tissues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Fluoride exposure alters the ultra-structure of sperm flagellum via reducing key protein expressions in testis. (PMID: 31901658)",
+        "evidence_subtype": "other",
+        "summary": "In male mice exposed to sodium fluoride (NaF) at 0, 25, 50, and 100 mg/L for 8 weeks, both mRNA and protein expression of CFAP44 in testis were dose-dependently down-regulated. This correlated with disruption of the axonemal '9+2' microtubule structure in sperm flagella, suggesting CFAP44 is required for normal axonemal integrity.",
+        "sample_size": "40 male mice (4 groups of 10)",
+        "significance": "p < 0.05"
+      },
+      {
+        "citation": "Whole-exome sequencing identifies mutations in FSIP2 as a recurrent cause of multiple morphological abnormalities of the sperm flagella. (PMID: 30137358)",
+        "evidence_subtype": "pathway",
+        "summary": "WES of 78 MMAF patients established that CFAP44 (along with DNAH1 and CFAP43) encodes an axonemal-associated protein and collectively these genes account for approximately one-third of MMAF cases. In contrast to FSIP2 mutations, CFAP44 mutations did not abolish AKAP4 expression, indicating CFAP44 functions in the axonemal compartment rather than the fibrous sheath pathway.",
+        "sample_size": "78 MMAF patients",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Mutations in the CFAP-coding genes lead to male infertility with multiple morphological abnormalities of the sperm flagella. (W. Li, F. Zhang)",
+        "evidence_subtype": "other",
+        "summary": "Biallelic mutations in CFAP44 were identified in 2 out of 80 Chinese MMAF patients by WES. CFAP44 was noted to be specifically or preferentially expressed in testis, and CRISPR-Cas9 knockout mouse models of CFAP44 (along with CFAP43, CFAP65, CFAP69) manifested short, coiled flagella and other MMAF-consistent phenotypes.",
+        "sample_size": "80 Chinese MMAF patients",
+        "significance": null
+      },
+      {
+        "citation": "Microcystin leucine arginine induces human sperm damage: Involvement of the Ca(2+)/CaMKK\u03b2/AMPK pathway. (PMID: 37001189)",
+        "evidence_subtype": "function",
+        "summary": "Exposure of human sperm to 100 \u03bcg/L MC-LR significantly reduced CFAP44 protein expression in the flagellum, coinciding with disruption of the central microtubule and microtubule doublet structure. This reduction in CFAP44 was associated with inhibition of CaMKK\u03b2 and AMPK phosphorylation, linking CFAP44 flagellar expression to the Ca2+/CaMKK\u03b2/AMPK signaling pathway.",
+        "sample_size": "Human sperm samples (multiple concentration groups)",
+        "significance": "p < 0.05"
+      },
+      {
+        "citation": "Whole-exome sequencing study of opioid dependence offers novel insights into the contributions of exome variants. (PMID: 39371181)",
+        "evidence_subtype": "GWAS",
+        "summary": "In a whole-exome sequencing study of opioid dependence in the Yale-Penn cohort, a suggestive association (p < 1\u00d710-5) was observed between CFAP44 variants and opioid dependence in individuals of African ancestry, though this did not pass Bonferroni correction. This represents a potential non-reproductive association for CFAP44 variants.",
+        "sample_size": "1790 African ancestry participants (864 OD cases)",
+        "significance": "p < 1\u00d710-5 (suggestive, not Bonferroni-corrected)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 17,
+    "model_organism": 4,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Rab17, a novel small GTPase, is specific for epithelial cells and is induced during cell polarization. (PMID: 8486736)",
+        "evidence_subtype": "expression",
+        "summary": "RAB17 is the first identified epithelial cell-specific small GTPase, with mRNA expression restricted to kidney, liver, and intestine but absent from non-epithelial organs and fibroblasts. Expression is induced upon mesenchymal-to-epithelial differentiation in the developing kidney. By immunofluorescence and immunoelectron microscopy, Rab17 localizes to the basolateral plasma membrane and apical tubules, suggesting a role in transcellular transport.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab17 localizes to recycling endosomes and regulates receptor-mediated transcytosis in epithelial cells. (PMID: 9624171)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In MDCK cells stably co-expressing wild-type or mutant Rab17 with the polymeric immunoglobulin receptor (pIgR), Rab17 was found on small vesicles and tubules in the apical region and was accessible to dimeric IgA internalized via pIgR. Overexpression of Rab17 impaired basolateral-to-apical transcytosis of dimeric IgA, providing biochemical and morphological evidence that Rab17 regulates transcellular traffic through apical recycling endosomes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Small GTPase Rab17 regulates dendritic morphogenesis and postsynaptic development of hippocampal neurons. (PMID: 22291024)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In mouse hippocampal neurons, Rab17 localizes specifically to dendritic growth cones, shafts, filopodia, and mature spines but is largely absent from axons. shRNA-mediated knockdown of Rab17 reduced dendrite growth, branching, and dendritic spine number, likely due to impaired filopodia formation, establishing Rab17 as a regulator of dendrite-specific membrane trafficking and postsynaptic development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ERK2 drives tumour cell migration in three-dimensional microenvironments by suppressing expression of Rab17 and liprin-\u03b22. (PMID: 22328529)",
+        "evidence_subtype": "pathway",
+        "summary": "ERK2 (MAPK1) silencing in MDA-MB-231 breast cancer cells upregulates RAB17 expression, and re-expression of ERK2 (but not ERK1) restores RAB17 suppression and invasive migration. Knockdown of Rab17 rescues the invasiveness of ERK2-depleted cells, indicating that ERK2 drives cancer cell invasion specifically by transcriptionally suppressing RAB17.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ALS2, the small GTPase Rab17-interacting protein, regulates maturation and sorting of Rab17-associated endosomes. (PMID: 31959474)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ALS2 physically interacts with Rab17 and acts downstream of the Rab17-GEF RABGEF1 to regulate maturation of Rab17-residing nascent endosomes into EEA1-positive early endosomes. Upon Rac1 activation, Rab17 and ALS2 are co-recruited to membrane ruffles and early endosomes; Rab17 primarily localizes to recycling endosomes in a Rab11-dependent manner and nascent Rab17 endosomes arise via clathrin-independent endocytosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab17 mediates differential antigen sorting following efferocytosis and phagocytosis. (PMID: 28005073)",
+        "evidence_subtype": "function",
+        "summary": "Mass spectrometry and immunofluorescence in macrophages showed that efferosomes (but not phagosomes) recruit Rab17, which directs degraded apoptotic cell-derived materials through the recycling endosome pathway, bypassing the MHC class II loading compartment. This Rab17-mediated trafficking prevents antigen presentation of apoptotic cell antigens, explaining why efferocytosis is immunologically tolerogenic compared to phagocytosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab17 inhibits the tumourigenic properties of hepatocellular carcinomas via the Erk pathway. (PMID: 25707355)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rab17 expression was significantly reduced in HCC tissues compared to non-tumor hepatic tissues (37.1% vs 64.6%; P=0.0068), correlating with larger tumor size, poor differentiation, and metastasis. Overexpression of Rab17 in HCC cell lines inhibited proliferation, migration, colony formation, and xenograft tumor growth in vivo, and these anti-tumor effects were rescued by EGF-mediated ERK pathway activation, indicating Rab17 acts as a tumor suppressor partly through the ERK pathway.",
+        "sample_size": "62 HCC and 48 non-tumor tissue samples",
+        "significance": "P=0.0068"
+      },
+      {
+        "citation": "Rab17-mediated recycling endosomes contribute to autophagosome formation in response to Group A Streptococcus invasion. (PMID: 25052408)",
+        "evidence_subtype": "function",
+        "summary": "Rab17 colocalizes with GAS-containing autophagosome-like vacuoles (GcAVs) and mediates membrane supply from recycling endosomes (marked by transferrin receptor) to GcAVs during antibacterial autophagy. Overexpression of Rab17 increased TfR-positive GcAV content, while dominant-negative Rab17 (N132I) and knockdown of the upstream activator Rabex-5 reduced GcAV formation efficiency, identifying Rab17 as a key regulator of recycling endosome-to-autophagosome membrane fusion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Single-cell RNA-seq and bulk-seq identify RAB17 as a potential regulator of angiogenesis by human dermal microvascular endothelial cells in diabetic foot ulcers. (PMID: 37605780)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RAB17 expression was significantly reduced in HDMECs from diabetic foot ulcer patients compared to healthy controls, and was identified as a characteristic gene by LASSO regression from bulk-seq and scRNA-seq data. Overexpression of RAB17 in vitro and in vivo enhanced tube formation, HIF-1\u03b1 and VEGF-A expression, and diabetic wound healing, partially through the MAPK/ERK signaling pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RAB17 promotes endometrial cancer progression by inhibiting TFRC-dependent ferroptosis. (PMID: 39242574)",
+        "evidence_subtype": "pathway",
+        "summary": "RAB17 is overexpressed in endometrial cancer tissues and promotes cancer cell survival by suppressing ferroptosis through ubiquitin-proteasome-dependent degradation of the transferrin receptor (TFRC). RAB17 expression is further upregulated under low-glucose conditions, and the RAB17-TFRC axis limits ferroptosis to promote EC progression in glucose-deprived tumor microenvironments, validated by in vitro, in vivo, and clinical data.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

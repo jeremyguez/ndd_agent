@@ -1,0 +1,313 @@
+{
+  "articles_found": {
+    "clinical": 23,
+    "model_organism": 22,
+    "biological": 32
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Heterozygous LRP1 deficiency causes developmental dysplasia of the hip by impairing triradiate chondrocytes differentiation due to inhibition of autophagy (PMID: 36067312)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "likely pathogenic variants in LRP1 (specific notation not provided in abstract; includes missense variant corresponding to Lrp1R1783W in mouse model)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental dysplasia of the hip (DDH)",
+              "acetabular malformation",
+              "femoral head malformation"
+            ]
+          },
+          {
+            "description": "likely pathogenic variants in LRP1 (additional variants in two families and seven sporadic patients; specific notations not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental dysplasia of the hip (DDH)",
+              "acetabular malformation",
+              "femoral head malformation"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Whole-exome sequencing followed by targeted sequencing identified likely pathogenic variants in LRP1 in DDH families and sporadic patients; heterozygous Lrp1 knockout mouse recapitulates human DDH phenotype; Lrp1 knockin mice with human variant also present DDH phenotypes",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2014 - Exome sequencing of 43 sporadic cases with an autism spectrum disorder in a local cohort of families identifies severe de novo variants and implicates additional genes in ASD pathogenesis (W. Banks et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "severe de novo variant in LRP1 (specific notation not provided)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder (ASD)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant confirmed by Sanger sequencing; absent in both parents; gene previously found to harbor de novo variants in ASD or intellectual disability; evaluated by SIFT/PolyPhen2, CNS expression profile, and mouse model phenotypes",
+        "center_country": "Central Ohio Registry for Autism (CORA), USA",
+        "cohort": null
+      },
+      {
+        "citation": "Whole-genome sequencing identifies novel genes for autism in Chinese trios (PMID: 39126614)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo or inherited coding variant in LRP1 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder (ASD)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified as a high-confidence risk gene through integration of de novo/inherited coding variants with association model, GO enrichment, expression and network analysis; supported by evidence from both Chinese and Caucasian samples",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "The interaction of UBR4, LRP1, and OPHN1 in refractory epilepsy: Drosophila model to investigate the oligogenic effect on epilepsy (PMID: 40374006)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "candidate gene variant in LRP1 (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "refractory epilepsy",
+              "pharmacoresistance"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by trio-based whole-exome sequencing; LRP1 mutation identified as primary effector in oligogenic system by SHAP-XGBoost machine learning model; functional validation in Drosophila knockdown models showing synergistic epileptogenic effects with UBR4 and OPHN1",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "LRP1 is a master regulator of tau uptake and spread. (PMID: 32296178)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced propagation of tau between neurons in vivo",
+          "Decreased tau spread in brain"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LRP1 is a neuronal receptor for \u03b1-synuclein uptake and spread. (PMID: 36056345)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Significantly reduced spread of \u03b1-synuclein between neurons in hippocampus",
+          "Reduced \u03b1-synuclein propagation compared to wild-type littermates"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Heterozygous LRP1 deficiency causes developmental dysplasia of the hip by impairing triradiate chondrocytes differentiation due to inhibition of autophagy. (PMID: 36067312)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Developmental dysplasia of the hip (DDH)",
+          "Premature triradiate cartilage development (1-2 weeks earlier)",
+          "Malformation of acetabulum and femoral head",
+          "Decreased chondrogenic ability in vitro",
+          "Decreased autophagy levels",
+          "\u03b2-catenin upregulation",
+          "Suppression of chondrocyte marker genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Heterozygous LRP1 deficiency causes developmental dysplasia of the hip by impairing triradiate chondrocytes differentiation due to inhibition of autophagy. (PMID: 36067312)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "DDH phenotype in heterozygotes (milder than KO)",
+          "DDH phenotype in homozygotes (more severe than KO)",
+          "Premature triradiate cartilage development",
+          "Malformation of acetabulum and femoral head"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Second Heart Field-Derived Cells Contribute to Angiotensin II-Mediated Ascending Aortopathies. (PMID: 35143327)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Augmented AngII-induced ascending aortic aneurysm",
+          "Increased aortic rupture",
+          "Disrupted vascular integrity in ascending aorta"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Celastrol directly targets LRP1 to inhibit fibroblast-macrophage crosstalk and ameliorates psoriasis progression. (PMID: 40177548)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Significant reduction in psoriasis-like inflammation",
+          "Reduced CCL2 production by skin fibroblasts",
+          "Blocked fibroblast-macrophage crosstalk"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Astrocytic phagocytosis contributes to demyelination after focal cortical ischemia in mice. (PMID: 35241660)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced LCN2-induced myelin engulfment by astrocytes",
+          "Reduced demyelination after ischemic stroke"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Astrocytic LRP1 enables mitochondria transfer to neurons and mitigates brain ischemic stroke by suppressing ARF1 lactylation. (PMID: 38906140)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced mitochondria transfer from astrocytes to damaged neurons",
+          "Worsened ischemia-reperfusion injury",
+          "Increased ARF1 lactylation",
+          "Increased glycolysis and lactate production in astrocytes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genome-wide CRISPR screening identifies LRP1 as an entry factor for SFTSV. (PMID: 40301361)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Significantly attenuated SFTSV infection in mouse embryonic fibroblasts (MEFs)",
+          "Reduced viral load in lethal mouse model",
+          "Mitigated tissue damage",
+          "Improved survival after SFTSV infection"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2012 - The identification of a novel gene identified by exome sequencing reveals the upstream components of the RAS/MAPK signaling pathway involved in Noonan syndrome. (H. Yntema et al.)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Developmental defects comparable to those induced by mutations in other known Noonan syndrome genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "LRP1 is a neuronal receptor for \u03b1-synuclein uptake and spread (PMID: 36056345)",
+        "evidence_subtype": "cell_culture",
+        "summary": "LRP1 knockout in human iPSC-derived neurons significantly reduced uptake of monomeric and oligomeric \u03b1-synuclein, and to a lesser extent pre-formed fibrils. The N-terminus and lysine residues of \u03b1-synuclein were critical for LRP1-mediated internalization. In a neuronal Lrp1 conditional knockout mouse model, spread of \u03b1-synuclein in the hippocampus was significantly reduced compared to wild-type littermates.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Astrocytic LRP1 enables mitochondria transfer to neurons and mitigates brain ischemic stroke by suppressing ARF1 lactylation (PMID: 38906140)",
+        "evidence_subtype": "function",
+        "summary": "Astrocytic LRP1 suppresses glucose uptake, glycolysis, and lactate production, thereby reducing lactylation of ARF1 and promoting astrocyte-to-neuron mitochondria transfer. Suppression of astrocytic LRP1 in a mouse ischemia-reperfusion model worsened stroke injury and reduced mitochondria transfer to damaged neurons. CSF lactate was elevated in human stroke patients and inversely correlated with astrocytic mitochondria levels.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Low-density-lipoprotein-receptor-related protein 1 mediates Notch pathway activation (PMID: 34626540)",
+        "evidence_subtype": "pathway",
+        "summary": "LRP1 was identified as a key regulator of the Notch signaling pathway through a protein interaction landscape analysis. LRP1 mediates ubiquitination chain linkage switching of Delta ligands, affecting ligand recycling, membrane localization, and stability. LRP1 inhibition led to Notch signaling inhibition and decreased tumorigenesis in leukemia cell models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Heterozygous LRP1 deficiency causes developmental dysplasia of the hip by impairing triradiate chondrocytes differentiation due to inhibition of autophagy (PMID: 36067312)",
+        "evidence_subtype": "other",
+        "summary": "Whole-exome sequencing identified likely pathogenic LRP1 variants in two DDH families and seven sporadic patients. Heterozygous Lrp1 knockout mice and Lrp1 knockin mice with a human DDH-associated missense variant (R1783W) recapitulated DDH phenotypes. Mechanistically, Lrp1 deficiency impaired chondrogenic differentiation by decreasing autophagy and upregulating \u03b2-catenin signaling.",
+        "sample_size": "68 sporadic DDH patients plus 8 families",
+        "significance": null
+      },
+      {
+        "citation": "Skeletal progenitor LRP1 deficiency causes severe and persistent skeletal defects with Wnt pathway dysregulation (PMID: 39865089)",
+        "evidence_subtype": "pathway",
+        "summary": "LRP1 is abundantly expressed in skeletal progenitor cells from mouse embryonic stage E10.5, especially in the perichondrium. Lrp1 deficiency in skeletal progenitors caused joint fusion, cartilage/bone malformation, and severe skeletal defects resembling Wnt signaling pathway phenotypes. LRP1 directly binds Wnt5a, facilitates its endocytic degradation and recycling, and regulates non-canonical Wnt/PCP components Wnt5a and Vangl2 in developing limbs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LRP1 Repression by SNAIL Results in ECM Remodeling in Genetic Risk for Vascular Diseases (PMID: 39355906)",
+        "evidence_subtype": "GWAS",
+        "summary": "Multitrait colocalization analyses identified rs11172113 as the most likely causal variant at the LRP1 locus for fibromuscular dysplasia, migraine, pulse pressure, and spontaneous coronary artery dissection, with the T allele associated with higher LRP1 expression. In iPSC-derived smooth muscle cells, LRP1 knockout decreased proliferation and migration, enhanced TGF-\u03b2/SMAD2/3 signaling, and remodeled the extracellular matrix. The transcription factor SNAIL was found to repress LRP1 expression through an allele-specific mechanism involving the disease risk allele.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genome-wide CRISPR screening identifies LRP1 as an entry factor for SFTSV (PMID: 40301361)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPR knockout screen identified LRP1 as a host entry factor for Severe Fever with Thrombocytopenia Syndrome Virus (SFTSV). Knockdown or knockout of LRP1 significantly attenuated SFTSV infection in mouse embryonic fibroblasts, and co-IP and surface plasmon resonance revealed direct interaction between SFTSV glycoprotein Gn and LRP1 via CLI and CLII domains. LRP1 antagonists and neutralizing antibodies reduced viral load and improved survival in a lethal mouse model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Schwann cell LRP1 regulates remak bundle ultrastructure and axonal interactions to prevent neuropathic pain (PMID: 23536074)",
+        "evidence_subtype": "expression",
+        "summary": "LRP1 is expressed in Schwann cells of the peripheral nervous system, where it is essential for normal axon myelination and ensheathment of axons in Remak bundles. Schwann cell-specific LRP1 deletion (scLRP1-/-) in mice caused mechanical allodynia even without nerve injury, accelerated degeneration after crush injury, and impaired remyelination. Central sensitization markers including p38MAPK activation and microglial activation were elevated in the spinal cord of scLRP1-/- mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Regulation of HDL-c levels via ABCA1: A role for LRP1 (ASHG 2016)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Two missense mutations in LRP1 (p.Val3244Ile and p.Glu3983Asp) were identified in individuals with extremely low HDL-c levels, and the LRP1 locus was strongly associated with HDL-c and ApoA1 levels in a large Danish cohort. Mutant LRP1 proteins were reduced by 40-60% in stability, and ABCA1 cell surface localization was decreased by 60-70% in carrier fibroblasts and LRP1-deficient cells. LRP1 was found to regulate intracellular trafficking of ABCA1 to the plasma membrane via modulation of lysosomal enzyme Cathepsin D and Prosaposin levels.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Meta-analysis of genome-wide association data of 20,000 migraine cases identifies two novel gene loci and supports several biologically relevant mechanisms (ASHG 2011)",
+        "evidence_subtype": "GWAS",
+        "summary": "A large-scale GWAS meta-analysis of approximately 20,000 migraine cases and 90,000 controls identified LRP1 (rs11172113 at 12q13.3) as one of the genome-wide significant loci associated with migraine susceptibility. This finding was replicated across multiple clinic- and population-based cohorts from three continents. Subsequent Bayesian conditional analysis further strengthened the LRP1 association signal (p-value improving from 3.94\u00d710\u207b\u00b9\u2079 to 1.41\u00d710\u207b\u00b2\u2076) and identified multiple independent signals at this locus.",
+        "sample_size": "~20,000 cases, ~90,000 controls",
+        "significance": "p=3.94e-19 (single marker); p=1.41e-26 (conditional)"
+      }
+    ]
+  }
+}

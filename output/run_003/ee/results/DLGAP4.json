@@ -1,0 +1,215 @@
+{
+  "articles_found": {
+    "clinical": 7,
+    "model_organism": 4,
+    "biological": 21
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Novel role of the synaptic scaffold protein Dlgap4 in ventricular surface integrity and neuronal migration during cortical development (PMID: 35585091)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "novel genetic variation in DLGAP4 (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "subcortical heterotopia",
+              "EML1-like phenotype",
+              "epilepsy (implied by heterotopia)",
+              "intellectual disability (implied by heterotopia)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Patient had an EML1-like phenotype (subcortical heterotopia); DLGAP4 variant identified as novel genetic variation; functional rescue experiments showed wild-type but not mutant DLGAP4 rescued the knockdown phenotype in vitro; DLGAP4 interacts with EML1",
+        "center_country": "Not explicitly stated (likely France based on EML1 research group context)",
+        "cohort": null
+      },
+      {
+        "citation": "Epigenetic remodelling and dysregulation of DLGAP4 is linked with early-onset cerebellar ataxia (PMID: 24986922)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "chromosomal translocation t(8;20)(p12;q11.23) disrupting DLGAP4 (truncation of gene)",
+            "type": "other",
+            "phenotypes": [
+              "early-onset cerebellar ataxia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Balanced chromosomal translocation co-segregating with cerebellar ataxia in a five-generation family; translocation truncates DLGAP4 and causes monoallelic hypermethylation of the DLGAP4 promoter CpG island leading to dysregulation of DLGAP4 expression in affected carriers",
+        "center_country": "Not explicitly stated",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - DLGAP4: A novel candidate gene for autism spectrum disorders",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "balanced translocation 46,XX,t(9;20)(q22;q13.3) disrupting DLGAP4 between exons 4 and 5 on chromosome 20",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Monozygotic twin sisters with ASD carrying balanced translocation disrupting DLGAP4; chromosome microarray showed no imbalances; breakpoint precisely mapped by mate-pair sequencing; DLGAP4 is a strong functional candidate (postsynaptic density gene, Sapap4-deficient mice show autistic-like behavior)",
+        "center_country": "Brazil / Denmark (J. Mazzeu - University of Brasilia, Brazil; N. Tommerup - University of Copenhagen, Denmark)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Novel role of the synaptic scaffold protein Dlgap4 in ventricular surface integrity and neuronal migration during cortical development. (PMID: 35585091)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Ventricular surface phenotype including changes in progenitor cell dynamics",
+          "Altered progenitor cell morphology",
+          "Altered progenitor cell proliferation",
+          "Neuronal migration defects",
+          "Disrupted radial glial cell adherens junction components at apical domain",
+          "Disrupted actin cytoskeleton dynamics at apical domain",
+          "Phenotype rescued by wild-type but not mutant DLGAP4"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Novel role of the synaptic scaffold protein Dlgap4 in ventricular surface integrity and neuronal migration during cortical development. (PMID: 35585091)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Developmental defects in the dorsal telencephalon",
+          "Ventricular zone integrity disruption",
+          "Neuronal migration defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cognitive impairment and autistic-like behaviour in SAPAP4-deficient mice. (PMID: 30664629)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Cognitive deficits",
+          "Impaired vocal communication",
+          "Impaired social interaction",
+          "Autistic-like behaviour",
+          "Dramatic changes in synapse morphology",
+          "Altered synaptic function",
+          "Altered synaptic plasticity",
+          "Deficits in development of functional neuronal networks"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sapap4 deficiency leads to postsynaptic defects and abnormal behaviors relevant to hyperkinetic neuropsychiatric disorder in mice. (PMID: 35368073)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced spine density in prefrontal cortex",
+          "Reduced PSD95 in postsynaptic density",
+          "Reduced GluR1 in postsynaptic density",
+          "Reduced GluR2 in postsynaptic density",
+          "Increased SHANK3 in postsynaptic density",
+          "Hyperactivity",
+          "Impulsivity",
+          "Reduced despair/depression-like behavior",
+          "Hypersensitivity to low dose of amphetamine",
+          "Memory deficits",
+          "Decreased prepulse inhibition",
+          "Mania-like phenotype",
+          "Hyperactivity partially rescued by valproate treatment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Novel role of the synaptic scaffold protein Dlgap4 in ventricular surface integrity and neuronal migration during cortical development (PMID: 35585091)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In utero electroporation of Dlgap4 knockdown and overexpression constructs in mice revealed ventricular surface phenotypes including changes in progenitor cell dynamics, morphology, proliferation, and neuronal migration defects. DLGAP4 is required for organization of radial glial cell adherens junction components and actin cytoskeleton dynamics at the apical domain. Dlgap4 heterozygous knockout mice also show developmental defects in the dorsal telencephalon.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sapap4 deficiency leads to postsynaptic defects and abnormal behaviors relevant to hyperkinetic neuropsychiatric disorder in mice (PMID: 35368073)",
+        "evidence_subtype": "function",
+        "summary": "Sapap4 (DLGAP4) knockout mice show reduced spine density in the prefrontal cortex and abnormal postsynaptic protein compositions including reduced PSD95, GluR1, and GluR2 and increased SHANK3. Behavioral deficits include hyperactivity, impulsivity, memory deficits, and decreased prepulse inhibition reminiscent of mania, partially rescued by valproate. This establishes SAPAP4 as a key component of the PSD95-SAPAP-SHANK excitatory postsynaptic scaffolding complex.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic remodelling and dysregulation of DLGAP4 is linked with early-onset cerebellar ataxia (PMID: 24986922)",
+        "evidence_subtype": "expression",
+        "summary": "A chromosomal translocation t(8;20)(p12;q11.23) truncating DLGAP4 co-segregates with cerebellar ataxia in a five-generation family, causing monoallelic hypermethylation of the DLGAP4 promoter CpG island and dysregulated expression. The long DLGAP4 transcript is specifically expressed in fetal and adult cerebellum, particularly in Purkinje cells. The epimutation is maintained in somatic cells across generations but erased in germ cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The DLGAP family: neuronal expression, function and role in brain disorders (PMID: 28870203)",
+        "evidence_subtype": "pathway",
+        "summary": "DLGAP4 is a scaffold protein in the postsynaptic density that links glutamate receptors to signaling proteins and cytoskeletal components at excitatory synapses. The DLGAP family regulates synaptic scaling by controlling turnover of both ionotropic and metabotropic glutamate receptors in response to synaptic activity. DLGAP4 has been directly linked to schizophrenia and other neurological disorders.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circular RNA DLGAP4 Ameliorates Ischemic Stroke Outcomes by Targeting miR-143 to Regulate Endothelial-Mesenchymal Transition Associated with Blood-Brain Barrier Integrity (PMID: 29114076)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CircDLGAP4 functions as an endogenous miR-143 sponge, and its levels are significantly decreased in plasma of acute ischemic stroke patients and in a mouse stroke model. Upregulation of circDLGAP4 in a transient middle cerebral artery occlusion mouse model significantly attenuated neurological deficits, decreased infarct areas, and reduced blood-brain barrier damage. CircDLGAP4 overexpression inhibited endothelial-mesenchymal transition by regulating tight junction protein and mesenchymal cell marker expression.",
+        "sample_size": "26 AIS patients (13F/13M)",
+        "significance": null
+      },
+      {
+        "citation": "DLGAP4 acts as an effective prognostic predictor for hepatocellular carcinoma and is closely related to tumour progression (PMID: 36396671)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DLGAP4 expression is significantly higher in HCC cell lines and tissue samples than in normal liver cells, and high expression correlates with poor prognosis as an independent risk factor. In vitro and in vivo experiments showed that DLGAP4 knockdown inhibited HCC cell proliferation and metastasis and decreased PPAR\u03b2/\u03b4 protein expression, while overexpression had the opposite effects. GO/KEGG enrichment analysis identified the PPAR signalling pathway as differentially enriched in high-DLGAP4 HCC patients.",
+        "sample_size": null,
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Circular RNA DLGAP4 alleviates sevoflurane-induced neurotoxicity by regulating miR-9-5p/Sirt1/BDNF pathway (PMID: 38000773)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CircDLGAP4 expression is decreased by sevoflurane in neonatal mouse hippocampus and HT22 cells; overexpression elevated cell viability, reduced apoptosis, and decreased TNF-\u03b1 and IL-6 levels. Mechanistically, circDLGAP4 directly sponges miR-9-5p to regulate the Sirt1/BDNF pathway, as confirmed by dual-luciferase reporter and RNA pull-down assays. In vivo, circDLGAP4 upregulation relieved sevoflurane-induced nerve injury in hippocampus.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circular RNA circDLGAP4 exerts neuroprotective effects via modulating miR-134-5p/CREB pathway in Parkinson's disease (PMID: 31761328)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CircDLGAP4 expression is decreased in MPTP-induced PD mouse models and MPP+-induced PD cell models (SH-SY5Y and MN9D cells). CircDLGAP4 promotes cell viability, reduces apoptosis, decreases mitochondrial damage, and enhances autophagy by sponging miR-134-5p, which targets CREB. The circDLGAP4/miR-134-5p axis modulates CREB signaling and expression of downstream targets BDNF, Bcl-2, and PGC-1\u03b1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Exosomal circ_DLGAP4 promotes diabetic kidney disease progression by sponging miR-143 and targeting ERBB3/NF-\u03baB/MMP-2 axis (PMID: 33230102)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Exosomal circ_DLGAP4 is increased in exosomes from high-glucose-treated mesangial cells, DKD patients, and DKD rat models, and promotes mesangial cell proliferation and fibrosis. CircDLGAP4 acts as a sponge for miR-143, which targets ERBB3, thereby activating the NF-\u03baB/MMP-2 axis to drive DKD progression. In vivo overexpression of circ_DLGAP4 markedly promoted DKD progression via the miR-143/ERBB3/NF-\u03baB/MMP-2 pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - A familial translocation as a model for decoding regulatory mechanisms associated with an inherited epimutation (Minocherhomji et al.)",
+        "evidence_subtype": "expression",
+        "summary": "The long DLGAP4 transcript is specifically expressed in fetal and adult cerebellum, particularly in the Purkinje cell layer of both mouse and human brains, establishing brain-specific isoform expression. The balanced translocation t(8;20)(p12;q11.23) causes the DLGAP4 locus to replicate asynchronously and induces de novo hypermethylation of CpG dinucleotides at the promoter of the disrupted allele. An elevated monoallelic expression of the short DLGAP4 isoform downstream of the breakpoint correlates with the translocation-affected allele.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

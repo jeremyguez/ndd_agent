@@ -1,0 +1,322 @@
+{
+  "articles_found": {
+    "clinical": 21,
+    "model_organism": 20,
+    "biological": 24
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism (PMID: 40166812)",
+        "num_patients": 18,
+        "variants": [
+          {
+            "description": "c.247C>T, p.Arg83Trp",
+            "type": "missense",
+            "phenotypes": [
+              "cerebellar ataxia",
+              "autosomal dominant cerebellar ataxia"
+            ]
+          },
+          {
+            "description": "p.Tyr91Cys",
+            "type": "missense",
+            "phenotypes": [
+              "cerebellar ataxia"
+            ]
+          },
+          {
+            "description": "loss-of-function variants (unspecified, 3 families)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental phenotype"
+            ]
+          },
+          {
+            "description": "unique missense variants (de novo, 3 families)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Linkage in large dominant ataxia family; computational genetic association in 100,000 Genomes Project; recurrent variant p.Arg83Trp in 9/10 families including one de novo; functional validation showing reduced GAP-dependent GTP hydrolysis and failure to rescue Drosophila synaptic phenotype; dominant negative effect considered unlikely by overexpression studies",
+        "center_country": "Multiple centers; includes 100,000 Genomes Project (UK/GEL)",
+        "cohort": "GEL"
+      },
+      {
+        "citation": "An R83W mutation in Rab3A causes autosomal-dominant cerebellar ataxia (PMID: 41492970)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "c.247C>T, p.Arg83Trp",
+            "type": "missense",
+            "phenotypes": [
+              "adult-onset progressive cerebellar ataxia",
+              "mild gait spasticity",
+              "tremors",
+              "cerebellar atrophy (vermis accentuated)",
+              "cerebellar cortical degeneration",
+              "variable neurodevelopmental features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified in two unrelated families with cerebellar ataxia; variant lies in conserved switch II region critical for effector interaction; mutant Rab3A R83W fails to bind key effectors RIM1 and Rabphilin-3A; diffuse cytoplasmic mislocalization similar to GDP-bound mutant; structural analysis supports functional importance of R83; neuropathological confirmation of cerebellar cortical degeneration",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "A complete genetic analysis of neuronal Rab3 function. (PMID: 15269275)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Single Rab3A knockout mice are viable and fertile",
+          "Most triple knockout mice perish when Rab3A is one of the three deleted proteins",
+          "Quadruple Rab3 knockout mice die shortly after birth due to respiratory failure",
+          "Loss of rabphilin protein in Rab3-deficient mice",
+          "No apparent changes in synapse structure or brain composition (single KO)",
+          "Approximately 30% decrease in evoked neurotransmitter release in quadruple KO hippocampal neurons",
+          "Decline in synaptic and vesicular release probabilities in quadruple KO",
+          "No significant change in spontaneous or sucrose-evoked release in quadruple KO"
+        ],
+        "mendelian_ratio": "sub-Mendelian for triple KO lacking Rab3A; lethal for quadruple KO",
+        "lethality": "perinatal lethal (quadruple KO); viable (single Rab3A KO)",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Biochemical, molecular and behavioral phenotypes of Rab3A mutations in the mouse. (PMID: 16734774)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Deficit in cued fear conditioning in Rab3a(-/-) mice",
+          "No anxiety-like behavior changes in null mice (unlike Ebd/Ebd)",
+          "No significant differences in forced swim test in null mice",
+          "Subtle differences in gene expression in cortex and hippocampus",
+          "Genetic background effects stronger than Rab3a mutation on gene expression",
+          "Reduced protein levels of Rab3A and rabphilin3A in Ebd allele (point mutation)"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mice deficient for the synaptic vesicle protein Rab3a show impaired spatial reversal learning and increased explorative activity but none of the behavioral changes shown by mice deficient for the Rab3a regulator Gdi1. (PMID: 15078563)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Normal acquisition but moderately impaired platform reversal learning in water maze",
+          "Mild deficit in spatial working memory in radial maze",
+          "Increased locomotor activity in open field",
+          "Enhanced exploratory activity in O-maze, dark/light box, and novel object tests",
+          "Increased motor activity when home cage equipped with a wheel",
+          "Normal spontaneous activity in home cage",
+          "No differences in delayed and trace fear conditioning",
+          "No differences in conditioned taste aversion learning"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab3a deletion reduces vesicle docking and transmitter release at the mouse diaphragm synapse. (PMID: 17640821)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "26% reduction in number of vesicles docked to presynaptic membrane at neuromuscular junction",
+          "Intraterminal vesicles unaffected",
+          "27% reduction in quantal content of evoked release",
+          "28% reduction in spontaneous mini frequency",
+          "Over 50% decrease in evoked release at reduced extracellular Ca2+ concentrations (0.5 and 0.2 mM)",
+          "Calcium cooperativity not altered",
+          "Calcium sensitivity of quantal release affected"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": "p values reported (significant reductions)"
+      },
+      {
+        "citation": "Cooperative regulation of neurotransmitter release by Rab3a and synapsin II. (PMID: 20338242)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Rab3a deletion rescued epileptic-like seizures typical for synapsin II knockout mice",
+          "Drastically reduced action potential-evoked release in double knockout (DKO) synapses",
+          "Normal spontaneous release in DKO",
+          "Reduced docked vesicles in DKO similar to Rab3a single KO",
+          "Depleted intraterminal vesicles in DKO similar to Syn II KO",
+          "Increased synaptic depression and incomplete recovery in DKO",
+          "At low Ca2+, quantal content equally reduced in Rab3a(-) and DKO; at higher Ca2+, increase more prominent in Rab3a(-)"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Proteinuria and glomerular damage in Rab3A knockout mice chronically fed a high-glucose diet. (PMID: 22472623)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "All Rab3A KO mice spontaneously develop macroalbuminuria",
+          "Male Rab3A KO mice exhibit glucose-intolerant phenotype",
+          "High-glucose diet caused progressive worsening of podocyte and glomerular damage in both male and female KO",
+          "Glomerular lesions reminiscent of human diabetic nephropathy (more severe in males)",
+          "Overt proteinuria and renal damage in female KO on high-glucose diet",
+          "Diminished actin plasticity in cell processes of KO podocytes in vitro",
+          "Modest glucose increase induced profound cytoskeletal changes only in KO podocytes"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The RAB3-RIM Pathway Is Essential for the Release of Neuromodulators. (PMID: 31679900)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Inactivation of all four RAB3 genes nearly ablated dense-core vesicle (DCV) exocytosis",
+          "Re-expression of RAB3A restored DCV exocytosis deficit",
+          "No significant change in synaptic vesicle exocytosis in quadruple RAB3 KO",
+          "RAB3-RIM1 pathway essential for neuropeptide and neurotrophin release from DCVs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal (quadruple KO)",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rabphilin-3A negatively regulates neuropeptide release, through its SNAP25 interaction. (PMID: 39412498)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "RPH3A deficient hippocampal neurons showed threefold increase in DCV exocytosis",
+          "RAB3A interaction required for synaptic enrichment of RPH3A",
+          "RAB3A-binding deficient RPH3A lost punctate distribution but still restored DCV exocytosis to WT levels",
+          "RPH3A null neurons had longer neurites (partly restored by ablating regulated secretion)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Synaptic localization of C9orf72 regulates post-synaptic glutamate receptor 1 levels. (PMID: 31651360)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Pre-synaptic Rab3a protein levels remained stable in C9orf72 knockout mice compared to wild-type",
+          "No change in Rab3a levels used as a control marker for presynaptic integrity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Reduced C9orf72 function leads to defective synaptic vesicle release and neuromuscular dysfunction in zebrafish. (PMID: 34172817)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced number and size of Rab3a-positive synaptic puncta at neuromuscular junctions in C9orf72 loss-of-function zebrafish",
+          "Motor defects, muscle atrophy, motor neuron loss, and mortality in C9orf72 LOF larvae and adults",
+          "Marked reduction in presynaptic and postsynaptic structures at NMJ",
+          "Impaired release of quantal synaptic vesicles at NMJ",
+          "Downregulation of SV2a and reduced synaptic vesicle cycling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable (larvae/adults with motor defects and increased mortality)",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism (PMID: 40166812)",
+        "evidence_subtype": "function",
+        "summary": "RAB3A encodes a small GTP-binding protein abundant in brain synaptic vesicles, crucial for neurotransmitter release and synaptic plasticity. Heterozygous variants, including the recurrent p.Arg83Trp, cause autosomal dominant cerebellar ataxia; variants in the GAP-binding domain reduce GAP-dependent GTP hydrolysis. Co-immunoprecipitation and mass spectrometry revealed differential changes in variant-specific interactions with known RAB3A regulatory and effector proteins.",
+        "sample_size": "18 individuals from 10 unrelated families",
+        "significance": null
+      },
+      {
+        "citation": "RAB3 phosphorylation by pathogenic LRRK2 impairs trafficking of synaptic vesicle precursors (PMID: 38512027)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Hyperphosphorylation of RAB3A by pathogenic LRRK2-p.R1441H in iPSC-derived human neurons disrupts anterograde axonal transport of synaptic vesicle precursors, causing sequestration of synaptophysin and synaptobrevin-2 in the soma. RAB3A phosphorylation disrupts binding to the motor adaptor MADD, preventing formation of the RAB3A-MADD-KIF1A/1B\u03b2 transport complex, and also disrupts interactions with RAB3GAP and RAB-GDI1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Molecular and functional interactions of alpha-synuclein with Rab3a (PMID: 35809645)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Alpha-synuclein interacts with GTP-bound Rab3a via its C-terminus in a manner similar to its interaction with Rab8a, with the interaction strengthened on lipid membrane surfaces. Alpha-synuclein inhibits GTP hydrolysis by Rab3a, and this inhibition is more potent on membrane surfaces. Phosphorylation of alpha-synuclein at Ser129, associated with Parkinson's disease pathology, enhances its interaction with Rab3a and increases inhibition of Rab3a GTP hydrolysis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Heterozygous RAB3A variants cause cerebellar ataxia by a partial loss-of-function mechanism (PMID: 40166812)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In a Drosophila Rab3 loss-of-function model, the two missense variants p.Arg83Trp and p.Tyr91Cys failed to rescue a synaptic phenotype, consistent with partial loss-of-function. Overexpression of Rab3 variants in a Drosophila wild-type background did not cause an obvious phenotype, making a dominant negative effect unlikely.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "zDHHC9 Regulates Cardiomyocyte Rab3a Activity and Atrial Natriuretic Peptide Secretion Through Palmitoylation of Rab3gap1 (PMID: 37325411)",
+        "evidence_subtype": "pathway",
+        "summary": "The Golgi S-acyltransferase zDHHC9 palmitoylates Rab3gap1, causing its spatial segregation from Rab3a, elevation of Rab3a-GTP levels, formation of Rab3a-positive peripheral vesicles, and impairment of exocytosis that limits atrial natriuretic peptide release in cardiomyocytes. This identifies a novel regulatory pathway linking palmitoylation to Rab3a GTP-loading state and cardiomyocyte exocytosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Identification of interactions in the MADD PTPRN RAB3 complex with type 2 diabetes in multiple populations",
+        "evidence_subtype": "GWAS",
+        "summary": "Gene-gene interactions among MADD, PTPRN/PTPRN2, and RAB3A/RAB3C were identified in association with type 2 diabetes across eight independent multi-ethnic studies totaling 15,502 participants. MADD acts as a GDP/GTP exchange factor for RAB3A/RAB3C to provide energy for moving insulin-containing dense core secretory vesicles to the membrane for insulin release. Single-gene analyses did not find significant associations, highlighting the importance of the protein complex interaction.",
+        "sample_size": "15,502 participants across 8 studies",
+        "significance": "p=1.9\u00d710\u207b\u2078 to p=3.1\u00d710\u207b\u2075"
+      },
+      {
+        "citation": "Rab3A mediates vesicle delivery at photoreceptor ribbon synapses (PMID: 22593061)",
+        "evidence_subtype": "function",
+        "summary": "Fluorescently labeled Rab3A binds to and dissociates from synaptic ribbons in tiger salamander photoreceptors in a GTP hydrolysis-dependent manner. A GTPase-deficient Rab3A mutant blocks synaptic release in an activity-dependent manner in paired recordings from photoreceptors and OFF-bipolar cells. These findings suggest Rab3A plays a crucial role in delivering vesicles to Ca\u00b2\u207a-dependent release sites at ribbon synapses.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab3A interacts with spastin to regulate neurite outgrowth in hippocampal neurons (PMID: 36587525)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Rab3A physically interacts with spastin in rat brain lysates and co-localizes with spastin in cultured hippocampal neurons. Rab3A overexpression induces lysosomal and ubiquitin-mediated degradation of spastin, abolishing spastin-mediated microtubule severing. Overexpression of Rab3A inhibits neurite outgrowth while knockdown promotes it, with the inhibitory effect reversed by co-transfection of spastin.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Association of variants in the KIF1A gene with amyotrophic lateral sclerosis (PMID: 36284339)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ALS-associated KIF1A variants in the C-terminal cargo-binding region preferentially enhanced binding of synaptic vesicle precursors containing RAB3A, VAMP2, and synaptophysin. Expression of disease-related KIF1A mutants in cultured mouse cortical neurons led to enhanced colocalization of RAB3A with the KIF1A motor, suggesting dysregulated RAB3A-containing vesicle transport in ALS pathogenesis.",
+        "sample_size": "941 ALS patients (WES cohort)",
+        "significance": null
+      },
+      {
+        "citation": "Rab3a attenuates spinal cord injury by mediating vesicle release (PMID: 38253132)",
+        "evidence_subtype": "other",
+        "summary": "Rab3a was significantly downregulated in a rat spinal cord injury (SCI) model, and Rab3a overexpression promoted SCI repair. Rab3a knockdown in neuronal cells inhibited secretion of neuronal cell-derived extracellular vesicles and promoted M1 macrophage polarization and neuronal apoptosis. STXBP1 was identified as a binding protein of Rab3a, and their interaction promoted neuronal cell-derived EV secretion; METTL2b was found to regulate Rab3a protein expression.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 5,
+    "biological": 24
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "PSMC3 proteasome subunit variants are associated with neurodevelopmental delay and type I interferon production (PMID: 37256937)",
+        "num_patients": 23,
+        "variants": [
+          {
+            "description": "15 distinct de novo missense variants in PSMC3 (specific notations not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "altered dendrite development",
+              "dysregulation of type I interferon signaling",
+              "proteotoxic stress",
+              "proteasome dysfunction"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo occurrence in 23 unrelated heterozygous patients; structural modeling, proteomic and transcriptomic analyses implicated proteasome dysfunction; autosomal dominant inheritance pattern",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Proteasome subunit PSMC3 variants cause neurosensory syndrome combining deafness and cataract due to proteotoxic stress (PMID: 32500975)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Deep intronic homozygous variant in PSMC3 leading to cryptic exon transcription (specific notation not provided in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "severe deafness",
+              "early-onset cataracts",
+              "neurological involvement",
+              "sensorial involvement",
+              "cutaneous involvement",
+              "proteotoxic stress",
+              "accumulation of ubiquitinated proteins",
+              "impaired protein homeostasis"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Whole-genome sequencing identified unique deep intronic homozygous variant; zebrafish knockout model reproduced human phenotype with inner ear development anomalies and cataracts; TCF11/Nrf1 pathway permanently activated in patient fibroblasts",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "PSMD11 loss-of-function variants correlate with a neurobehavioral phenotype, obesity, and increased interferon response (PMID: 38866022)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Pathogenic variants in PSMC3 (referenced as prior established gene, specific variants not detailed in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "proteasomopathy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Referenced as established pathogenic gene for neurodevelopmental proteasomopathy; prior literature cited",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Construction of copy number variation landscape and characterization of associated genes in a Bangladeshi cohort of neurodevelopmental disorders (PMID: 36959829)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "CNV involving PSMC3 (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "PSMC3 identified as strong candidate gene for ASD via Critical-Exon Gene analysis within pathogenic CNVs in NDD cohort",
+        "center_country": "Bangladesh",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2022 - Construction of mutational landscape and characterization of associated genes in a Bangladeshi cohort of neurodevelopmental disorders (H. Akter et al.)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "CNV involving PSMC3 (specific notation not provided)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "PSMC3 identified as Critical Exon Gene (CEG) candidate for ASD within pathogenic CNVs; ACMG guidelines used for variant classification",
+        "center_country": "Bangladesh",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Mouse proteasomal ATPases Psmc3 and Psmc4: genomic organization and gene targeting. (PMID: 10945464)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Death before implantation",
+          "Defective blastocyst development",
+          "Early embryonic lethality"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Proteasome subunit PSMC3 variants cause neurosensory syndrome combining deafness and cataract due to proteotoxic stress. (PMID: 32500975)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Inner ear development anomalies",
+          "Cataracts",
+          "Recapitulation of human neurosensory syndrome phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "PSMC3 proteasome subunit variants are associated with neurodevelopmental delay and type I interferon production (PMID: 37256937)",
+        "evidence_subtype": "cell_culture",
+        "summary": "15 de novo missense variants in PSMC3 were identified in 23 unrelated heterozygous patients with autosomal dominant neurodevelopmental delay. Expression of PSMC3 variants in mouse neuronal cultures led to altered dendrite development. Proteomic and transcriptomic analyses of patient-derived T cells revealed proteasome dysfunction, proteotoxic stress, and dysregulated type I interferon signaling mediated by PKR.",
+        "sample_size": "23 patients",
+        "significance": null
+      },
+      {
+        "citation": "Proteasome subunit PSMC3 variants cause neurosensory syndrome combining deafness and cataract due to proteotoxic stress (PMID: 32500975)",
+        "evidence_subtype": "fly_worm",
+        "summary": "A deep intronic homozygous variant in PSMC3 was identified in patients with severe deafness and early-onset cataracts. Zebrafish knockout of PSMC3 reproduced the human phenotype with inner ear development anomalies and cataracts, demonstrating Rpt5/PSMC3 plays a major role in inner ear, lens, and CNS development. Patient fibroblasts showed impaired protein homeostasis with accumulation of ubiquitinated proteins and constitutive activation of the TCF11/Nrf1 proteasome recovery pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PSMC3 promotes RNAi by maintaining AGO2 stability through USP14 (PMID: 36528617)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PSMC3 was identified as a novel AGO2-binding partner via yeast two-hybrid screen, interacting through its N-terminal coiled-coil motif in an RNA-independent manner. PSMC3 depletion decreased AGO2 protein levels by promoting its ubiquitination and proteasomal degradation, while PSMC3 overexpression stabilized AGO2. Mechanistically, PSMC3 facilitates the interaction of AGO2 with the deubiquitylase USP14, promoting USP14-mediated deubiquitination and stabilization of AGO2 to maintain effective RNAi.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PARP7-mediated ADP-ribosylation of FRA1 promotes cancer cell growth by repressing IRF1- and IRF3-dependent apoptosis (PMID: 38011562)",
+        "evidence_subtype": "function",
+        "summary": "PSMC3 was identified as a mediator of FRA1 proteasomal degradation. Loss of FRA1 ADP-ribosylation (via PARP7 inhibition or mutation of the ADP-ribosylation site C97) increased FRA1 degradation by the proteasome via PSMC3, demonstrating PSMC3's role in substrate recognition and degradation within the 26S proteasome.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hepatitis B Virus X Protein Is Stabilized by the Deubiquitinating Enzyme VCPIP1 in a Ubiquitin-Independent Manner by Recruiting the 26S Proteasome Subunit PSMC3 (PMID: 35695579)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PSMC3 (26S proteasome regulatory subunit 6A) was shown to form a ternary complex with VCPIP1 and HBx protein. Purified His-tagged PSMC3 rescued HBx degradation induced by the 20S proteasome in vitro, demonstrating a non-canonical role where PSMC3 stabilizes a substrate rather than promoting its degradation. VCPIP1 recruits PSMC3 to bind HBx, stabilizing it in a ubiquitin-independent manner.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuroimaging PheWAS and molecular phenotyping implicate PSMC3 in Alzheimer's disease (PMID: 41732108)",
+        "evidence_subtype": "GWAS",
+        "summary": "PSMC3 expression was implicated as a strong contributor to Alzheimer's disease pathophysiology through neuroimaging genetics analyses. AD-associated variants were mapped to neuroimaging traits via the NeuroimaGene Atlas, and PSMC3 expression was linked to frontal cortex thickness, volume, and cerebrospinal fluid volume changes associated with dementia family history.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Integrated phenotypic and proteomic screening identifies top-tier Alzheimer's disease therapeutic targets (PMID: 41388808)",
+        "evidence_subtype": "cell_culture",
+        "summary": "siRNA-mediated knockdown of Psmc3 in disease-relevant murine BV2 microglial cells (with stable Psen2 knockdown) significantly altered cellular phenotypes and reversed AD-associated molecular proteomic patterns. Psmc3 was identified as one of five top-tier targets impacting both phenotypic assays and related proteomic responses, with stronger effects observed in Psen2 knockdown cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PSMD11 loss-of-function variants correlate with a neurobehavioral phenotype, obesity, and increased interferon response (PMID: 38866022)",
+        "evidence_subtype": "pathway",
+        "summary": "PSMC3 is identified as a member of the emerging class of 'primary proteasomopathy' genes causing neurodevelopmental disorders, alongside PSMB1, PSMC1, and PSMD12. Pathogenic variants in these proteasome genes share common mechanisms including impaired 26S proteasome assembly, proteotoxic stress, and a persistent type I interferon gene signature mediated by PKR.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MicroRNAs affecting the susceptibility of melanoma cells to CD8(+) T cell-mediated cytolysis (PMID: 36718025)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Psmc3 was identified as a common target of miRNAs that enhance CTL-mediated melanoma cell killing in vitro through in silico analyses and siRNA-mediated silencing experiments. Silencing of Psmc3 modulated immune surveillance of B16F10 melanoma cells, suggesting PSMC3 plays a role in regulating tumor cell susceptibility to T cell-mediated cytotoxicity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Prognoses and genomic analyses of proteasome 26S subunit, ATPase (PSMC) family genes in clinical breast cancer (PMID: 34329194)",
+        "evidence_subtype": "expression",
+        "summary": "PSMC3 mRNA expression was significantly higher in breast cancer tissues compared to normal breast tissues based on analysis of public databases including cBioPortal and Oncomine. High PSMC3 transcript levels were positively correlated with poor patient survival, and PSMC3 expression showed positive correlations with ubiquinone metabolism, cell cycle, and cytoskeletal remodeling pathways.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

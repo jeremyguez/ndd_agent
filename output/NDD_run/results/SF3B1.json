@@ -1,0 +1,199 @@
+{
+  "articles_found": {
+    "clinical": 11,
+    "model_organism": 10,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo variants in the splicing factor gene SF3B1 are associated with neurodevelopmental disorders (PMID: 41577671)",
+        "num_patients": 26,
+        "variants": [
+          {
+            "description": "De novo loss-of-function variants (n=9)",
+            "type": "LoF",
+            "phenotypes": [
+              "Global developmental delay",
+              "Neurological traits",
+              "Facial dysmorphic traits"
+            ]
+          },
+          {
+            "description": "De novo missense variants (n=17)",
+            "type": "missense",
+            "phenotypes": [
+              "Global developmental delay",
+              "Neurological traits",
+              "Facial dysmorphic traits",
+              "Heart anomalies",
+              "Gastrointestinal anomalies",
+              "More severe and syndromic phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants, distinct from cancer-associated variants, functional complementation assays showing altered splicing patterns",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "AUTS2 isoforms control neuronal differentiation (PMID: 30953002)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Heterozygous mutations in Auts2 (mouse model)",
+            "type": "other",
+            "phenotypes": [
+              "Increased cell death during in vitro corticogenesis",
+              "Impaired neuronal differentiation"
+            ]
+          }
+        ],
+        "diagnostic_reason": "SF3B1 identified as interactor of AUTS2 isoforms; heterozygous mutations in Auts2 showed developmental phenotype in mouse embryonic stem cells",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Transcription elongation defects link oncogenic SF3B1 mutations to targetable alterations in chromatin landscape (PMID: 38521065)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Reduced RNA polymerase II elongation rate along gene bodies",
+          "Decreased RNAPII density at promoters",
+          "Reduced chromatin accessibility at promoters",
+          "Decreased H3K4me3 marks at promoters",
+          "Disrupted pre-spliceosome assembly"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MGA deletion leads to Richter's transformation by modulating mitochondrial OXPHOS (PMID: 39083585)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Richter's transformation phenotype (CLL to aggressive lymphoma progression)",
+          "Mitochondrial aberrations",
+          "Elevated oxidative phosphorylation (OXPHOS)",
+          "Increased Nme1 expression",
+          "Enhanced tumor aggressiveness"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutant SF3B1 promotes malignancy in PDAC (PMID: 37823551)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Increased aggressiveness of pancreatic ductal adenocarcinoma when co-occurring with KRAS and p53 mutations",
+          "Reduced expression of TGF-\u03b21-responsive epithelial-mesenchymal transition (EMT) genes",
+          "Resistance to TGF-\u03b21-induced cell death",
+          "Aberrant splicing of Map3k7",
+          "Role in early stages of pancreatic tumor progression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SF3B1 facilitates HIF1-signaling and promotes malignancy in pancreatic cancer (PMID: 36001976)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Impeded tumor formation and progression",
+          "Impaired HIF signaling",
+          "Reduced tumor malignancy",
+          "Decreased HIF1 pathway activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Molecular impact of mutations in RNA splicing factors in cancer (PMID: 39146933)",
+        "evidence_subtype": "function",
+        "summary": "SF3B1 is a core RNA splicing factor that recognizes intronic branch sites and 3' splice sites. Mutations in SF3B1 alter splice site recognition and contribute to cancer pathogenesis by disrupting normal splicing patterns.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CDK11 regulates pre-mRNA splicing by phosphorylation of SF3B1 (PMID: 36104565)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SF3B1 is phosphorylated by cyclin-dependent kinase 11 (CDK11) at threonine residues in its N-terminus during spliceosome activation. This phosphorylation is critical for SF3B1 association with U5 and U6 snRNAs in the activated Bact complex, and CDK11 inhibition prevents spliceosomal transition and causes intron retention.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The role of alternative splicing in cancer: From oncogenesis to drug resistance (PMID: 33070093)",
+        "evidence_subtype": "function",
+        "summary": "SF3B1 is a spliceosome component whose mutations cause aberrant alternative splicing in cancer. Small molecule inhibitors targeting SF3B1 show high cytotoxicity against cancer models including drug-resistant cells, with enhanced effects in splicing factor-mutated and c-MYC-driven tumors.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-binding proteins as therapeutic targets in cancer (PMID: 40016176)",
+        "evidence_subtype": "function",
+        "summary": "SF3B1 is identified as a critical RNA-binding protein and promising therapeutic target in cancer. The review highlights SF3B1 as one of five major RBP targets for novel anti-cancer therapies, emphasizing its role in modulating gene expression patterns that promote tumorigenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Helicase-assisted continuous editing for programmable mutagenesis of endogenous genomes (PMID: 39388570)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Using HACE (helicase-assisted continuous editing), researchers dissected the impact of individual SF3B1 variants on splicing factor 3B subunit 1-dependent missplicing, demonstrating a tool for investigating how SF3B1 mutations affect splicing outcomes in native genome contexts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - SoMAS: Finding somatic mutations associated with alternative splicing in human cancers",
+        "evidence_subtype": "pathway",
+        "summary": "SF3B1 was identified as a pan-cancer SoMAS gene (present in 3+ cancer types) whose mutations are significantly associated with differential isoform expression. SF3B1 mutations show both cis- and trans-regulatory effects on splicing across 33 cancer types (9,738 tumor samples), with enrichment in cancer cell growth and metastasis pathways.",
+        "sample_size": "9,738 tumor samples across 33 cancer types",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - A Structural Screen Approach and Molecular Simulation Identifies Potential Ligands Against the K700E Hot Spot Variant and Functional Pockets of SF3B1",
+        "evidence_subtype": "cell_culture",
+        "summary": "Molecular docking and dynamics simulations identified 23 small molecule compounds with strong binding affinity to SF3B1 K700E variant (a hotspot mutation in MDS), with binding energies ranging from -59.4 to -88.2 kcal/mol. These compounds may selectively target neoplastic cells harboring SF3B1 mutations.",
+        "sample_size": "190,000 compounds screened",
+        "significance": "pKd values >5 considered significant; docking scores <-7 kcal/mol"
+      },
+      {
+        "citation": "ASHG 2019 - Alternative splicing of APOBEC3B as a preventive mechanism for APOBEC-mediated mutagenesis",
+        "evidence_subtype": "cell_culture",
+        "summary": "SF3B1 inhibition by pladienolide B reduced exon 5 skipping of APOBEC3B, demonstrating that SF3B1 regulates splicing at weak branch point sites. This validated SF3B1's role in controlling alternative splicing patterns that affect mutagenesis in cancer.",
+        "sample_size": null,
+        "significance": "Exon 5 skipping significantly associated with lower APOBEC mutational signature in TCGA bladder and lung tumors; longer progression-free survival in non-muscle-invasive bladder cancer"
+      },
+      {
+        "citation": "ASHG 2018 - Transcriptome sequencing illuminates the extent of alternative splicing in multiple myeloma in regards to SF3B1 mutations",
+        "evidence_subtype": "cell_culture",
+        "summary": "SF3B1 mutations (1.7% of 1,273 MM samples, with 5 hotspot mutations at K666/K700) caused differential splicing in genes including DYNLL1, TMEM14C, CRNDE, BRD4, and BCL2L1. Samples with increased alternative splicing (including SF3B1-mutant cases) were enriched for high-risk clinical outcomes (ISS III).",
+        "sample_size": "1,273 newly diagnosed MM samples; 615 with RNA-seq data",
+        "significance": "p=0.00395 (PFS); p=0.00739 (OS) for novel splice junction groups"
+      },
+      {
+        "citation": "ASHG 2020 - Comparison of polyA-selected, ribo-minus, and exon capture RNA-sequencing in splicing events detection",
+        "evidence_subtype": "cell_culture",
+        "summary": "SF3B1 mutations (exemplified by SRSF2.p.P95H in K052 cells) result in frequent selective aberrant mRNA splicing events including alternative 3' splice site usage. The study compared RNA-seq protocols for detecting SF3B1-associated splicing alterations.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

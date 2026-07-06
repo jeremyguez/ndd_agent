@@ -1,0 +1,370 @@
+{
+  "articles_found": {
+    "clinical": 20,
+    "model_organism": 20,
+    "biological": 20
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo missense variants in the RAP1B gene identified in two patients with syndromic thrombocytopenia. (PMID: 32627184)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.35G>T, p.(Gly12Val)",
+            "type": "missense",
+            "phenotypes": [
+              "syndromic thrombocytopenia",
+              "multiple malformations",
+              "microcephaly",
+              "learning difficulties",
+              "dysmorphism"
+            ]
+          },
+          {
+            "description": "c.178G>C, p.(Gly60Arg)",
+            "type": "missense",
+            "phenotypes": [
+              "syndromic thrombocytopenia",
+              "multiple malformations",
+              "microcephaly",
+              "learning difficulties",
+              "dysmorphism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous variants; functional studies in literature strongly suggest clinical implication of these activating hot spot positions; hypothesized gain-of-function mechanism",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Third reported patient with RAP1B-related syndromic thrombocytopenia and novel clinical findings. (PMID: 35451551)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "novel de novo RAP1B gain-of-function variant (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "syndromic thrombocytopenia",
+              "hematologic abnormalities",
+              "neurodevelopmental delays",
+              "growth delay",
+              "cardiovascular defects",
+              "genitourinary defects",
+              "neurologic defects",
+              "skeletal defects"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant identified on genome sequencing; classified as gain-of-function; consistent with previously reported RAP1B-related syndromic thrombocytopenia",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Adding to the evidence of gene-disease association of RAP1B and syndromic thrombocytopenia. (PMID: 37850357)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "NM_001010942.2(RAP1B):c.35G>A, p.(Gly12Glu) (de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "thrombocytopenia",
+              "congenital malformations",
+              "neurological features",
+              "behavioural features",
+              "dysmorphic features"
+            ]
+          },
+          {
+            "description": "NM_001010942.2(RAP1B):c.178G>A, p.(Gly60Arg)",
+            "type": "missense",
+            "phenotypes": [
+              "thrombocytopenia",
+              "congenital malformations",
+              "neurological features",
+              "behavioural features",
+              "dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous variants disrupting RAP1B GTPase activity; one confirmed de novo; consistent with previously reported cases; supports causal role of monoallelic RAP1B variants",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "RAP1-mediated MEK/ERK pathway defects in Kabuki syndrome. (PMID: 26280580)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo dominant mutation in RAP1B (specific notation not provided in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "Kabuki syndrome-like phenotype",
+              "developmental delay",
+              "congenital anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo dominant mutation identified by whole-exome sequencing; functional studies in zebrafish models and patient cell lines showed aberrant MEK/ERK signaling and disruption of F-actin polymerization",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Rap1b is required for normal platelet function and hemostasis in mice. (PMID: 15696195)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Bleeding defect due to defective platelet function",
+          "Reduced platelet aggregation in response to GPCR-linked and GPCR-independent agonists",
+          "Decreased activation of integrin alphaIIbbeta3",
+          "Impaired signaling downstream from integrin alphaIIbbeta3",
+          "Protection from arterial thrombosis in vivo"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rap1b regulates B cell development, homing, and T cell-dependent humoral immunity. (PMID: 18714009)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Significantly reduced absolute number of B220+IgM- pro/pre-B cells in bone marrow",
+          "Reduced B220+IgM+ immature B cells in bone marrow",
+          "Reduced adhesion of pro/pre-B cells to stromal cell line in vitro",
+          "Reduced splenic marginal zone B cells",
+          "Increased newly forming B cells in spleen",
+          "Normal number of follicular B cells",
+          "Reduced T-dependent humoral responses",
+          "Normal T-independent humoral responses",
+          "Reduced B cell migration to SDF-1 and CXCL13",
+          "Reduced in vivo B cell homing to lymph nodes",
+          "Reduced marginal zone B cell migration in response to sphingosine-1-phosphate",
+          "Reduced marginal zone B cell adhesion to ICAM-1"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Endothelial Rap1B mediates T-cell exclusion to promote tumor growth: a novel mechanism underlying vascular immunosuppression. (PMID: 36403190)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Restricted tumor growth in endothelial-specific Rap1B knockout (Rap1Bi\u0394EC) mice",
+          "Inhibited angiogenesis",
+          "Altered tumor microenvironment with increased leukocyte recruitment",
+          "Increased activity of tumor CD8+ T cells",
+          "Restoration of tumor growth upon CD8+ T cell depletion",
+          "Upregulation of TNF-\u03b1 signaling and NF-\u03baB transcription in Rap1B-deficient ECs",
+          "Elevated proinflammatory chemokine and cell adhesion molecule expression in TNF-\u03b1 stimulated ECs",
+          "Elevated CAM expression in tumor ECs",
+          "Prevention of VEGF-A-induced immunosuppressive downregulation of CAM expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The small GTPase Rap1b negatively regulates neutrophil chemotaxis and transcellular diapedesis by inhibiting Akt activation. (PMID: 25092872)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Enhanced neutrophil recruitment to inflamed lungs",
+          "Enhanced susceptibility to endotoxin shock",
+          "Increased transcellular diapedesis through endothelial cells",
+          "Enhanced PI3K-Akt activation in neutrophils",
+          "Increased invadopodia-like protrusions in neutrophils",
+          "Excessive neutrophil migration suppressed by Akt inhibition in vivo"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion of Rap1b, but not Rap1a or Epac1, Reduces Protein Kinase A-Mediated Thyroid Cancer. (PMID: 29882482)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Significantly decreased thyroid size in Prkar1a KO background",
+          "Decreased thyroid cancer incidence in Prkar1a KO background",
+          "Rap1b identified as downstream effector of PKA during thyroid carcinogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rap1b but not Rap1a in the forebrain is required for learned fear. (PMID: 32944221)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Normal acquisition of fear learning",
+          "Impaired retrieval of learned fear",
+          "Decreased c-Fos expression in prelimbic cortex after auditory fear conditioning",
+          "Unaltered c-Fos expression in amygdala and infralimbic cortex",
+          "Normal innate fear response to predator odor (TMT)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RAP1-mediated MEK/ERK pathway defects in Kabuki syndrome. (PMID: 26280580)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Aberrant MEK/ERK signaling",
+          "Disruption of F-actin polymerization",
+          "Disruption of cell intercalation",
+          "Phenotypes rescued by MEK inhibitor administration"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Distinct Signaling Functions of Rap1 Isoforms in NO Release From Endothelium. (PMID: 34222255)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Attenuated eNOS activation (decreased Ser1177 phosphorylation) in EC-specific Rap1B knockout",
+          "Endothelial dysfunction ex vivo when both Rap1A and Rap1B deleted",
+          "Hypertension in vivo when both isoforms deleted",
+          "Impaired NO-dependent vasorelaxation rescued by exogenous L-Arg",
+          "Rap1B rapidly activated in response to eNOS-activating agonists"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hepatocyte-specific RAP1B deficiency ameliorates high-fat diet-induced obesity and liver inflammation in mice. (PMID: 40083059)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Significant reductions in body weight on high-fat diet",
+          "Reduced fat pad size",
+          "Reduced liver mass",
+          "Decreased hepatic lipid accumulation due to enhanced lipid breakdown",
+          "Improved glucose tolerance",
+          "Improved insulin sensitivity",
+          "No changes in food intake",
+          "Reduced F4/80-positive macrophage infiltration in liver",
+          "Significantly lower markers of oxidative stress",
+          "Downregulation of MAPK(p38) and NF-\u03baB signaling pathways"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dapagliflozin activates the RAP1B/NRF2/GPX4 signaling and promotes mitochondrial biogenesis to alleviate vascular endothelial ferroptosis. (PMID: 40280228)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Blocked inhibitory effects of dapagliflozin on atherosclerotic plaque formation in Apoe-/-;Rap1b-/- double-knockout mice",
+          "Blocked inhibitory effects of dapagliflozin on ferroptosis activation",
+          "Impaired dapagliflozin-mediated upregulation of GPX4 and mitochondrial biogenesis factors"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Somatic RAP1B gain-of-function variant underlies isolated thrombocytopenia and immunodeficiency. (PMID: 39225097)",
+        "evidence_subtype": "function",
+        "summary": "RAP1B acts as a molecular switch regulating cell signaling, cytoskeletal remodeling, cell trafficking, and integrin activation in platelets and lymphocytes. Gain-of-function variants G12E, G12V, and G60R increased RAP1B activation, talin recruitment, and integrin activation, modifying platelet activation, T cell proliferation, and migration. A somatic heterozygous de novo G12E variant caused neonatal thrombocytopenia, combined immunodeficiency, neutropenia, and monocytopenia, fully reversed by allogeneic hematopoietic stem cell transplantation.",
+        "sample_size": "1 patient plus functional studies",
+        "significance": null
+      },
+      {
+        "citation": "Dapagliflozin activates the RAP1B/NRF2/GPX4 signaling and promotes mitochondrial biogenesis to alleviate vascular endothelial ferroptosis. (PMID: 40280228)",
+        "evidence_subtype": "pathway",
+        "summary": "RAP1B upregulates NRF2 and promotes its nuclear translocation, activating the xCT/GPX4 signaling pathway to inhibit lipid peroxidation and ferroptosis in vascular endothelial cells. Dapagliflozin upregulates RAP1B (identified by RNA sequencing), and RAP1B also mediates mitochondrial biogenesis and oxidative phosphorylation. In vivo, Apoe-/-;Rap1b-/- double-knockout mice showed that Rap1b knockout blocked dapagliflozin's inhibitory effects on atherosclerotic plaque formation and ferroptosis.",
+        "sample_size": "HUVECs in vitro; Apoe-/-;Rap1b-/- mouse model",
+        "significance": null
+      },
+      {
+        "citation": "Hepatocyte-specific RAP1B deficiency ameliorates high-fat diet-induced obesity and liver inflammation in mice. (PMID: 40083059)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Liver-specific RAP1B knockout (LKO) mice on a high-fat diet showed reduced body weight, fat mass, hepatic lipid accumulation, macrophage infiltration, and oxidative stress, with downregulation of MAPK(p38) and NF-\u03baB signaling. Conversely, RAP1B overexpression (OE) mice showed increased liver weight, aggravated lipid accumulation, worsened insulin resistance, and elevated inflammation. RAP1B-knockdown AML12 hepatocytes were used for in vitro validation, and transcriptome/metabolome analyses identified key metabolic shifts.",
+        "sample_size": "LKO and OE mice fed HFD for 18 weeks; RAP1B-knockdown AML12 cells",
+        "significance": null
+      },
+      {
+        "citation": "Targeting Rap1b signaling cascades with CDNF: Mitigating platelet activation, plasma oxylipins and reperfusion injury in stroke. (PMID: 39256999)",
+        "evidence_subtype": "pathway",
+        "summary": "CDNF (cerebral dopamine neurotrophic factor) acts as an endogenous antagonist that interferes with GTP binding to Rap1b, reducing Rap1b activation and downregulating the Rap1b-MAPK-PLA2 signaling pathway, which decreases thromboxane A2 release and platelet aggregation. Subcutaneous CDNF administration in a rat ischemic stroke model significantly reduced platelet activation, aggregation, lipid mediator production, infarct volume, and neurological deficits. Studies used platelets from hemorrhagic stroke patients and animal models.",
+        "sample_size": "Rat ischemic stroke model; hemorrhagic stroke patient platelets",
+        "significance": null
+      },
+      {
+        "citation": "Host Cell Rap1b mediates cAMP-dependent invasion by Trypanosoma cruzi. (PMID: 36897926)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Pull-down experiments detecting active Rap1b-GTP and infection assays using cells transfected with constitutively active Rap1b-G12V demonstrated that Rap1b mediates cAMP/Epac-dependent host cell invasion by Trypanosoma cruzi. Fluorescence microscopy showed relocalization of Rap1b to the parasite entry site during infection. PKA-dependent phosphorylation of Rap1b had an antagonistic effect on invasion, and MEK/ERK signaling was identified downstream of cAMP/Epac/Rap1b.",
+        "sample_size": "Multiple cell lines (in vitro)",
+        "significance": null
+      },
+      {
+        "citation": "Myeloperoxidase-anchored ENO1 mediates neutrophil extracellular trap DNA to enhance Treg differentiation via IFITM2 during sepsis. (PMID: 40892462)",
+        "evidence_subtype": "pathway",
+        "summary": "IFITM2 acts as a DNA receptor that senses NET-DNA and activates intracellular RAP1B and its downstream ERK signaling pathway to promote Treg differentiation and function in CD4+ T cells during sepsis. ENO1 inhibition significantly attenuated NET-induced Treg differentiation and alleviated sepsis in mice. The IFITM2-RAP1B-ERK axis was identified as a key regulatory mechanism for sepsis-induced immunosuppression.",
+        "sample_size": "Mouse sepsis model; CD4+ T cell experiments",
+        "significance": null
+      },
+      {
+        "citation": "Fibronectin 1 Aggravates Colon Cancer Metastasis by Regulating RAP1B Protein Stability Through Akt/CREB Signalling Pathway. (PMID: 40638546)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FN1 interacts with RAP1B and suppresses the interaction between RAP1B and the E3 ligase PARK2, relieving RAP1B ubiquitination and improving RAP1B protein stability. FN1-RAP1B activates the Akt signaling pathway, leading to CREB phosphorylation and activation, which in turn transcriptionally upregulates FN1 and TIMP1, forming a positive feedback loop promoting colon cancer metastasis. FN1 promoted liver and lung metastasis of colon cancer in nude mice through RAP1B.",
+        "sample_size": "In vitro colon cancer cell lines; nude mouse xenograft model",
+        "significance": null
+      },
+      {
+        "citation": "A novel DCSTAMP antagonist impedes preosteoclast fusion via modulation of RAP1B-RAC1-mediated cytoskeletal remodeling. (PMID: 41423555)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A previously uncharacterized DCSTAMP signaling cascade involving direct DCSTAMP-RAP1B interaction was identified, which activates RAP1-RAC1 signaling-dependent cytoskeletal reorganization during osteoclastogenesis. A novel small molecule E8431 inhibits the DCSTAMP-RAP1B molecular interface, impeding preosteoclast fusion and bone resorption. E8431 administration attenuated ovariectomy-induced bone loss in murine models.",
+        "sample_size": "In vitro osteoclast cultures; ovariectomy mouse model",
+        "significance": null
+      },
+      {
+        "citation": "ICP4-Associated Activation of Rap1b Facilitates Herpes Simplex Virus Type I (HSV-1) Infection in Human Corneal Epithelial Cells. (PMID: 37515145)",
+        "evidence_subtype": "cell_culture",
+        "summary": "HSV-1 immediate early gene ICP4 inhibits PKA phosphorylation to induce Rap1b activation, which promotes viral infection through cytoskeletal rearrangement mediated by CDC42 and RAC1 in human corneal epithelial cells. siRNA knockdown of Rap1b showed a dose-dependent decrease in viral infection levels, and Rap1b activation and membrane enrichment were observed from early stages of HSV-1 infection. PKA agonist Forskolin disturbed Rap1b activation and decreased viral infection in a dose-dependent manner.",
+        "sample_size": "Human corneal epithelial cells (in vitro)",
+        "significance": null
+      },
+      {
+        "citation": "Sonic hedgehog-heat shock protein 90\u03b2 axis promotes the development of nonalcoholic steatohepatitis in mice. (PMID: 38342927)",
+        "evidence_subtype": "pathway",
+        "summary": "miR-28-5p, enriched in exosomes secreted by hepatocytes under the SHH-HSP90\u03b2 axis, directly targets and decreases Rap1b levels in macrophages, which in turn promotes NF-\u03baB transcriptional activity and stimulates expression of inflammatory factors. Delivery of miR-28-5p to macrophages in mouse liver impaired NASH symptomatic development, and miR-28-5p was markedly elevated in NASH patient sera. This identifies Rap1b as a downstream effector in the SHH-HSP90\u03b2-miR-28-5p axis regulating hepatic inflammation.",
+        "sample_size": "NASH mouse model; NASH patient serum samples",
+        "significance": null
+      }
+    ]
+  }
+}

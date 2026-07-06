@@ -1,0 +1,255 @@
+{
+  "articles_found": {
+    "clinical": 10,
+    "model_organism": 10,
+    "biological": 11
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "AMOTL1-Associated Multiple Congenital Anomalies (Craniofaciocardiohepatic Syndrome, CFCHS): A Novel Clinical Spectrum Including Craniofacial, Heart and Liver Abnormalities (PMID: 39538375)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "not specified",
+            "type": "other",
+            "phenotypes": [
+              "craniofacial abnormalities",
+              "cardiac abnormalities",
+              "hepatic abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "variant identified in patient with multiple congenital anomalies affecting craniofacial, cardiac, and hepatic development",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Clinical report: Chronic liver dysfunction in an individual with an AMOTL1 variant (PMID: 36116699)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "not specified",
+            "type": "other",
+            "phenotypes": [
+              "chronic liver dysfunction",
+              "persistently elevated liver enzymes since early infancy",
+              "mildly dilated central vein and sinusoid on liver biopsy",
+              "cleft lip and palate",
+              "congenital cardiac disease",
+              "ear malformations"
+            ]
+          }
+        ],
+        "diagnostic_reason": "pathogenic variant reported; first report of liver dysfunction in AMOTL1 malfunction",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Using human sequencing to guide craniofacial research (PMID: 30375152)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "novel variant",
+            "type": "other",
+            "phenotypes": [
+              "craniofacial anomalies",
+              "dominant inheritance pattern"
+            ]
+          }
+        ],
+        "diagnostic_reason": "novel causal variant identified by genomic analysis in family with craniofacial syndrome; modeled in mice showing lethality before weaning",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A missense mutation in TRAPPC6A leads to build-up of the protein, in patients with a neurodevelopmental syndrome and dysmorphic features (PMID: 29391579)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "homozygous mutation",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "speech delay",
+              "facial dysmorphism",
+              "polydactyly"
+            ]
+          }
+        ],
+        "diagnostic_reason": "homozygous mutation identified in consanguineous family; segregates with disease phenotype; predicted pathogenic by Proven, SIFT, and PolyPhen2",
+        "center_country": "Saudi Arabia",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Angiomotin-like protein 1 controls endothelial polarity and junction stability during sprouting angiogenesis (PMID: 19590046)",
+        "organism": "mouse, zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced endothelial cell migration in mouse aortic endothelial cells",
+          "Increased paracellular permeability in confluent mouse pancreatic islet endothelial cells",
+          "Vascular migratory defect of intersegmental vessels in zebrafish embryos",
+          "Decreased junction stability between stalk cells and aorta in zebrafish",
+          "Additive effects with Amot knockdown on tight junction dysfunction"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Angiomotin like-1 is a novel component of the N-cadherin complex affecting endothelial/pericyte interaction in normal and tumor angiogenesis (PMID: 27464479)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Impaired vascular network establishment in post-natal mouse retina",
+          "Defective tumor angiogenesis in transgenic breast cancer model",
+          "Non-autonomous pericyte defect",
+          "Disrupted N-cadherin mediated endothelial/pericyte junctional complex"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Amotl2 is essential for cell movements in zebrafish embryo and regulates c-Src translocation (PMID: 17293535)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Delayed epiboly",
+          "Impaired convergence and extension movement",
+          "Failure of amotl2-deficient cells to migrate properly in mosaic embryos",
+          "Loss of membrane protrusions",
+          "Disorder of F-actin organization",
+          "Disrupted c-Src translocation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Amot/Patj/Syx signaling complex spatially controls RhoA GTPase activity in migrating endothelial cells (PMID: 18824598)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Inhibition of migration of intersegmental arteries in zebrafish (Syx knockdown with similar phenotype to Amot)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Amotl2 gene inhibits Wnt/\u03b2-catenin signaling and regulates embryonic development in zebrafish (PMID: 22362771)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Embryonic dorsalization with amotl2 knockdown",
+          "Smaller eyes when amotl2 overexpressed in masterblind mutants",
+          "Smaller eyes with co-knockdown of amot, amotl1, and amotl2 in mbl heterozygotes",
+          "Reduced \u03b2-catenin in cytosol and nucleus via sequestration in Rab11-positive recycling endosomes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Acetylcytidine modification of Amotl1 by N-acetyltransferase 10 contributes to cardiac fibrotic expansion in mice after myocardial infarction (PMID: 38839936)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Silencing of Amotl1 attenuated Nat10 overexpression-induced proliferation of cardiac fibroblasts",
+          "Silencing of Amotl1 prevented differentiation of cardiac fibroblasts into myofibroblasts",
+          "Reduced Yap translocation into nucleus with Amotl1 silencing"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Acetylcytidine modification of Amotl1 by N-acetyltransferase 10 contributes to cardiac fibrotic expansion in mice after myocardial infarction (PMID: 38839936)",
+        "evidence_subtype": "pathway",
+        "summary": "AMOTL1 is an upstream regulator of the Hippo signaling pathway. Nat10-mediated ac4C modification of AMOTL1 increases its mRNA stability and translation, enhancing interaction with YAP1 and promoting YAP1 nuclear translocation in cardiac fibroblasts. Silencing AMOTL1 or YAP1 attenuates fibroblast proliferation and myofibroblast differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circ-AMOTL1 enhances cardiac fibrosis through binding with EIF4A3 and stabilizing MARCKS expression in diabetic cardiomyopathy (PMID: 37586467)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Circular AMOTL1 (circ-AMOTL1) is upregulated in diabetic myocardial tissue and promotes fibrosis in cultured cardiac fibroblasts. circ-AMOTL1 binds the RNA-binding protein EIF4A3 to stabilize MARCKS mRNA, promoting cell proliferation and fibrotic marker expression. Silencing circ-AMOTL1 reduces collagen deposition and fibrotic markers in vitro and improves cardiac function in STZ-induced diabetic mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Angiomotin family proteins in the Hippo signaling pathway (PMID: 38760875)",
+        "evidence_subtype": "pathway",
+        "summary": "AMOTL1 is a member of the Motin family of scaffolding proteins that function as components of the Hippo pathway, acting as upstream regulators or downstream effectors. AMOTL1 modulates YAP/TAZ activity and cell proliferation/migration through interactions with actin fibers and subcellular localization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MiR-124 represses vasculogenic mimicry and cell motility by targeting amotL1 in cervical cancer cells (PMID: 25218344)",
+        "evidence_subtype": "cell_culture",
+        "summary": "miR-124 negatively regulates AMOTL1 by targeting its 3'UTR in HeLa and C33A cervical cancer cells. AMOTL1 knockdown represses vasculogenic mimicry, migration, invasion, and EMT processes, indicating AMOTL1 promotes tumor metastatic properties.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Harnessing machine learning and multi-omics to explore tumor evolutionary characteristics and the role of AMOTL1 in prostate cancer (PMID: 39643184)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AMOTL1 interacts with the androgen receptor (AR) in prostate cancer and is critical for modulating sensitivity to AR antagonists. AMOTL1 was identified through single-cell sequencing and multi-omics analysis as a key regulator of prostate cancer pharmacodynamics.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "AMOTL1 enhances YAP1 stability and promotes YAP1-driven gastric oncogenesis (PMID: 32313226)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AMOTL1 directly interacts with YAP1 in the cytoplasm, protecting both proteins from ubiquitin-mediated degradation. AMOTL1 promotes YAP1 nuclear translocation to activate oncogenic transcription (CTGF, c-Myc). AMOTL1 upregulation is associated with poor gastric cancer outcomes, and AMOTL1 knockdown impairs oncogenic properties.",
+        "sample_size": "multiple clinical cohorts",
+        "significance": null
+      },
+      {
+        "citation": "AMOTL1 Promotes Breast Cancer Progression and Is Antagonized by Merlin (PMID: 26806348)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AMOTL1 is regulated by both canonical and noncanonical Hippo signaling in breast cancer. Merlin triggers AMOTL1 proteasomal degradation via NEDD ubiquitin ligases, while YAP stimulates AMOTL1 expression. AMOTL1 activates c-Src to promote tumor cell migration and proliferation. AMOTL1 upregulation in lymph node metastases predicts relapse risk.",
+        "sample_size": "large cohort of human breast tumors",
+        "significance": null
+      },
+      {
+        "citation": "circAMOTL1 Motivates AMOTL1 Expression to Facilitate Cervical Cancer Growth (PMID: 31812104)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Circular AMOTL1 (circ_0004214) and its host gene AMOTL1 are upregulated in cervical cancer tissues and associated with poor prognosis. circAMOTL1 acts as a competing endogenous RNA (ceRNA) to sponge miR-485-5p, thereby promoting AMOTL1 expression and cervical cancer cell growth in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SRSF3/AMOTL1 splicing axis promotes the tumorigenesis of nasopharyngeal carcinoma through regulating the nucleus translocation of YAP1 (PMID: 37558679)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SRSF3 directly binds the exon 12 of AMOTL1 to promote inclusion of a long isoform (AMOTL1-L) in nasopharyngeal carcinoma. AMOTL1-L, but not the short isoform (AMOTL1-S), promotes cell proliferation and migration by preferentially localizing to the cytoplasm and enhancing YAP1 interaction and nuclear translocation.",
+        "sample_size": "87 NPC and 10 control samples",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - Exploring the role of rare and low-frequency coding variants in adult height using an ExomeChip (PMID: not provided)",
+        "evidence_subtype": "GWAS",
+        "summary": "A low-frequency missense variant in AMOTL1 (MAF >1-5%) was associated with adult height at p<5\u00d710^-8 in an exome chip study of >230,000 individuals, implicating AMOTL1 in human growth regulation for the first time.",
+        "sample_size": ">230,000 individuals from 86 studies",
+        "significance": "p<5\u00d710^-8"
+      }
+    ]
+  }
+}

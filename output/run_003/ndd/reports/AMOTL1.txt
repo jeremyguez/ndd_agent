@@ -1,0 +1,114 @@
+# AMOTL1 Evidence Report: Autosomal Dominant Congenital Anomaly Syndrome
+
+---
+
+## 1. GENE SUMMARY
+
+AMOTL1 (Angiomotin-Like 1) encodes a scaffold protein of the Angiomotin family that regulates cell polarity, junction stability, and directed cell migration, primarily through its roles in vascular development and the Hippo signaling pathway. AMOTL1 modulates the activity of the transcriptional co-activators YAP1 and TAZ, acting as a context-dependent regulator of their cytoplasmic retention or nuclear translocation, and participates in protein degradation complexes involving Tankyrase, NEDD4L, and Merlin.
+
+---
+
+## 2. CLINICAL EVIDENCE SUMMARY
+
+**Number of independent reports:** Four independent publications describe AMOTL1 variants in patients with congenital anomalies (PMID: 39538375; PMID: 42012498; PMID: 36116699; PMID: 30375152). A fifth publication (PMID: 29391579) identified AMOTL1 as one of five candidate genes in a consanguineous family, but TRAPPC6A was ultimately considered the primary causative gene; this report contributes minimal independent support.
+
+**Total approximate number of patients:** Approximately 13–14 patients across all relevant reports. The largest series (PMID: 42012498) describes more than ten families harboring one of two recurrent missense variants, making it the most substantial contribution to the clinical evidence base. The remaining three reports each describe a single proband (PMID: 39538375; PMID: 36116699; PMID: 30375152).
+
+**Most common phenotypes observed:** The predominant phenotypic spectrum encompasses craniofacial malformations (facial dysmorphisms, craniofacial structural anomalies), congenital cardiac abnormalities, and liver dysfunction. This triad has been termed "Craniofaciocardiohepatic Syndrome" (CFCHS) in one report (PMID: 39538375). Chronic liver dysfunction with persistently elevated liver enzymes and vascular changes on biopsy was specifically highlighted in one case (PMID: 36116699). A novel craniofacial syndrome with dominant inheritance was described in another proband (PMID: 30375152). Notably, while the overall syndrome involves multiple congenital anomalies, the available reports do not prominently feature primary neurodevelopmental features (e.g., intellectual disability, autism, epilepsy) as core manifestations; the phenotype is more accurately characterized as a multiple congenital anomaly syndrome with craniofacial, cardiac, and hepatic involvement.
+
+**Predominant variant type:** All reported pathogenic variants are missense. Two recurrent hotspot variants have been identified: p.Arg157Cys (R157C) and p.Pro160Leu (P160L), both located within the conserved Tankyrase-binding motif (TBM) of AMOTL1 (PMID: 42012498). The inheritance pattern is reported as autosomal dominant in at least one study (PMID: 30375152), and the recurrence of the same two variants across more than ten unrelated families strongly supports a dominant gain-of-function or dominant-negative mechanism rather than loss-of-function.
+
+**Known cohort affiliation:** None of the reported patients are explicitly identified as originating from recognized large-scale diagnostic cohorts such as UDN, GREGoR, DDD, RUMC, or GEL.
+
+**Strength of clinical evidence: MODERATE**
+The identification of two recurrent hotspot variants in more than ten families (PMID: 42012498), combined with consistent phenotypic overlap across independent reports, elevates the evidence above "limited." However, the total number of published patients remains relatively small, detailed clinical descriptions for most families are not available in abstract form, and the gene has not yet been systematically evaluated in large unbiased cohorts.
+
+---
+
+## 3. MODEL ORGANISM EVIDENCE SUMMARY
+
+**Organisms studied:** Both zebrafish (*Danio rerio*) and mouse (*Mus musculus*) have been used to study AMOTL1 function.
+
+**Key phenotypes:**
+
+- *Zebrafish (morpholino knockdown):* Amotl1 knockdown caused vascular migratory defects of intersegmental vessels and decreased junction stability between stalk cells and the dorsal aorta, a phenotype distinct from that of Amot knockdown (PMID: 19590046). Double knockdown with amot produced an additive phenotype, indicating non-redundant roles.
+
+- *Zebrafish (knock-in, patient variant):* Expression of the patient-derived R157C mutant in zebrafish recapitulated craniofacial malformations, defects in cardiac function, and defects in skeletal muscle (PMID: 42012498). This is the most directly disease-relevant model organism experiment, as it uses the exact human variant in a vertebrate system and reproduces the human phenotype.
+
+- *Mouse (conditional knockout):* Conditional deletion of Amotl1 in endothelial cells caused defective establishment of vascular networks in the post-natal retina and impaired tumor angiogenesis, with disruption of N-cadherin-mediated endothelial/pericyte junctions (PMID: 27464479).
+
+- *Mouse (in vitro knockdown):* Silencing of Amotl1 in cardiac fibroblasts attenuated proliferation and prevented differentiation into myofibroblasts, with reduced YAP1 nuclear translocation (PMID: 38839936).
+
+- *Mouse (human variant, PMID: 30375152):* Mice carrying the human craniofacial syndrome variant did not survive to weaning in normal Mendelian ratios, suggesting embryonic or perinatal lethality, though the cause of death was not fully elucidated.
+
+**Neurological phenotypes:** No specific neurological or neurodevelopmental phenotypes (e.g., brain malformations, behavioral abnormalities) have been reported in AMOTL1 model organisms. The predominant phenotypes are vascular, craniofacial, and cardiac, consistent with the human clinical spectrum.
+
+**Consistency with human phenotype:** The zebrafish knock-in model (PMID: 42012498) directly recapitulates the craniofacial and cardiac features seen in human patients, providing strong phenotypic concordance. The mouse data support a role in vascular and cardiac biology consistent with the hepatic and cardiac findings in patients.
+
+**Strength of model organism evidence: MODERATE**
+The direct recapitulation of human craniofacial and cardiac phenotypes in a zebrafish knock-in model using the exact patient variant is a meaningful strength. However, no complete knockout lethality data with Mendelian ratios are reported, neurological phenotypes have not been characterized, and the mouse conditional knockout studies focus on vascular rather than developmental phenotypes.
+
+---
+
+## 4. BIOLOGICAL EVIDENCE SUMMARY
+
+**Known pathways and molecular function:**
+AMOTL1 is a multifunctional scaffold protein with well-characterized roles in at least three interconnected pathways:
+
+1. *Hippo/YAP-TAZ signaling:* AMOTL1 interacts directly with YAP1 and TAZ via PPXY-WW domain interactions. Depending on cellular context, AMOTL1 can either sequester YAP/TAZ in the cytoplasm (PMID: 21224387) or, paradoxically, protect YAP1 from ubiquitin-mediated degradation and promote its nuclear translocation (PMID: 32313226; PMID: 38839936). The direction of this regulation appears to be isoform- and context-dependent, as demonstrated by the SRSF3/AMOTL1 splicing axis in nasopharyngeal carcinoma (PMID: 37558679).
+
+2. *Tankyrase-mediated protein degradation:* The TBM of AMOTL1 (residues including R157 and P160) is required for interaction with Tankyrase 1/2 and the E3 ubiquitin ligase RNF146, which together mediate poly ADP-ribosylation, ubiquitination, and proteasomal degradation of AMOTL1. Patient-derived mutations at these residues prevent this degradation, causing AMOTL1 accumulation and disruption of cell junctions and focal adhesions (PMID: 42012498).
+
+3. *Merlin/NF2 and NEDD4L regulation:* AMOTL1 acts as a scaffold for NEDD4L-mediated ubiquitination of Merlin, thereby activating the Hippo pathway (PMID: 33058421). Conversely, Merlin targets AMOTL1 for proteasomal degradation via NEDD family ligases (PMID: 26806348), establishing a reciprocal regulatory relationship.
+
+**Expression pattern and neurodevelopmental relevance:**
+The available evidence does not include direct data on AMOTL1 expression in the developing human brain or nervous system. The biological studies reviewed focus predominantly on vascular endothelial cells, cardiac fibroblasts, and various cancer cell lines. The GWAS evidence from an exome array study of over 230,000 individuals identified a low-frequency coding variant in AMOTL1 associated with adult height at genome-wide significance (p<5×10⁻⁸) (ASHG 2014 - Graff et al.), implicating AMOTL1 in skeletal growth, but this does not directly address neurodevelopmental expression.
+
+**Key experimental findings:**
+The mechanistic basis for pathogenicity of the R157C and P160L variants is well-characterized: these mutations prevent Tankyrase binding, block poly ADP-ribosylation and subsequent proteasomal degradation, cause cytoplasmic accumulation of AMOTL1, and disrupt cell junctions and directed cell migration (PMID: 42012498). This gain-of-function/dominant-negative mechanism is biologically coherent with the dominant inheritance pattern observed clinically.
+
+**Strength of biological evidence: MODERATE**
+The molecular mechanism underlying the two hotspot variants is well-defined and experimentally validated. AMOTL1's role in Hippo signaling, cell junction regulation, and vascular development is supported by multiple independent studies. However, direct evidence for AMOTL1 expression or function in the developing nervous system is absent from the current literature, which limits the strength of biological support specifically for a neurodevelopmental disease classification.
+
+---
+
+## 5. OVERALL ASSESSMENT
+
+**Overall evidence level: MODERATE**
+
+**Key strengths:**
+- Two recurrent hotspot missense variants (R157C and P160L) have been identified in more than ten unrelated families with a consistent phenotype of craniofacial malformations, cardiac abnormalities, and liver dysfunction (PMID: 42012498), providing the strongest available evidence for gene-disease causality.
+- The molecular mechanism of pathogenicity is experimentally validated: both variants disrupt the Tankyrase-binding motif, prevent proteasomal degradation, and cause AMOTL1 accumulation with downstream disruption of cell migration and junction integrity (PMID: 42012498).
+- A zebrafish knock-in model expressing the R157C variant directly recapitulates the human craniofacial and cardiac phenotype, providing orthogonal in vivo support (PMID: 42012498).
+- Multiple independent clinical reports across different centers describe overlapping phenotypes, supporting a consistent gene-disease relationship (PMID: 39538375; PMID: 36116699; PMID: 30375152).
+
+**Key gaps and limitations:**
+- The phenotypic spectrum is primarily one of multiple congenital anomalies (craniofacial, cardiac, hepatic) rather than a primary neurodevelopmental disorder; intellectual disability, epilepsy, and autism spectrum disorder are not reported as core features, which limits the classification of AMOTL1 as a "neurodevelopmental disorder gene" in the strict sense.
+- Detailed clinical descriptions for the majority of the more than ten families in the largest series (PMID: 42012498) are not yet available in published form, limiting phenotypic characterization.
+- No data on AMOTL1 expression in the developing human brain are cited, and no neurological phenotypes have been observed in model organisms.
+- The gene has not been identified through large unbiased neurodevelopmental cohort studies (e.g., DDD, GEL, UDN), and no loss-of-function variants have been reported in patients.
+
+**Conclusion:**
+AMOTL1 has moderate evidence supporting its role as a gene for an autosomal dominant multiple congenital anomaly syndrome (CFCHS) characterized by craniofacial, cardiac, and hepatic abnormalities, driven by recurrent gain-of-function missense variants at a conserved Tankyrase-binding motif. However, the current evidence does not robustly support classification of AMOTL1 as a primary neurodevelopmental disorder gene, as neurodevelopmental features are not prominently reported in patients and no neurological phenotypes have been characterized in model organisms. Further systematic clinical characterization of the more than ten reported families, detailed neurodevelopmental assessments, and evaluation in large unbiased cohorts will be essential to fully define the phenotypic spectrum and confirm the gene-disease relationship.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. AMOTL1-Associated Multiple Congenital Anomalies (Craniofaciocardiohepatic Syndrome, CFCHS): A Novel Clinical Spectrum Including Craniofacial, Heart and Liver Abnormalities. (PMID: 39538375)
+2. Patient-derived AMOTL1 mutations lead to defective cell migration and tissue development. (PMID: 42012498)
+3. Clinical report: Chronic liver dysfunction in an individual with an AMOTL1 variant. (PMID: 36116699)
+4. Using human sequencing to guide craniofacial research. (PMID: 30375152)
+5. A missense mutation in TRAPPC6A leads to build-up of the protein, in patients with a neurodevelopmental syndrome and dysmorphic features. (PMID: 29391579)
+
+### Model Organism Evidence
+1. Angiomotin-like protein 1 controls endothelial polarity and junction stability during sprouting angiogenesis (PMID: 19590046)
+2. Angiomotin like-1 is a novel component of the N-cadherin complex affecting endothelial/pericyte interaction in normal and tumor angiogenesis (PMID: 27464479)
+3. Acetylcytidine modification of Amotl1 by N-acetyltransferase 10 contributes to cardiac fibrotic expansion in mice after myocardial infarction (PMID: 38839936)
+
+### Biological Evidence
+1. Hippo pathway-independent restriction of TAZ and YAP by angiomotin. (PMID: 21224387)
+2. AMOTL1 enhances YAP1 stability and promotes YAP1-driven gastric oncogenesis. (PMID: 32313226)
+3. SRSF3/AMOTL1 splicing axis promotes the tumorigenesis of nasopharyngeal carcinoma through regulating the nucleus translocation of YAP1. (PMID: 37558679)
+4. NEDD4L-mediated Merlin ubiquitination facilitates Hippo pathway activation. (PMID: 33058421)
+5. AMOTL1 Promotes Breast Cancer Progression and Is Antagonized by Merlin. (PMID: 26806348)
