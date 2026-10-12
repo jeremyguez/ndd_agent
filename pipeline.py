@@ -115,6 +115,25 @@ def parse_json_response(text: str) -> list[dict]:
 # Per-gene pipeline (runs in worker process)
 # ---------------------------------------------------------------------------
 
+def apply_search_overrides(clinical_keywords: list[str] | None, retmax: int | None):
+    """Patch PubMed/ASHG search settings in the current process.
+
+    Must also run inside each worker: with the forkserver/spawn start methods
+    (default on Linux since Python 3.14), workers re-import the services and
+    do not inherit changes made in the parent process.
+    """
+    from services.pubmed_service import CATEGORY_CONFIG
+    from services.ashg_service import CATEGORY_KEYWORDS, CATEGORY_RETMAX
+    if clinical_keywords:
+        CATEGORY_CONFIG["clinical"]["keywords"] = list(clinical_keywords)
+        CATEGORY_KEYWORDS["clinical"] = list(clinical_keywords)
+    if retmax:
+        for cat in CATEGORY_CONFIG:
+            CATEGORY_CONFIG[cat]["retmax"] = retmax
+        for cat in CATEGORY_RETMAX:
+            CATEGORY_RETMAX[cat] = retmax
+
+
 def gather_articles(gene_name: str, category: str, verbose: bool = False) -> list[dict]:
     """Search PubMed + ASHG for a gene in one evidence category."""
     import time
@@ -330,6 +349,7 @@ def process_gene(payload: dict) -> dict:
     verbose = payload.get("verbose", False)
     mouse_phenotypes = payload.get("mouse_phenotypes", "")
     disease_label = payload.get("disease_label", "neurodevelopmental disorder")
+    apply_search_overrides(payload.get("clinical_keywords"), payload.get("retmax"))
     gene_start = _time.time()
 
     try:
@@ -497,31 +517,14 @@ def run_pipeline(args):
             args.clinical_keywords = list(dcfg["clinical_keywords"])
         print(f"[INFO] Disorder preset: {args.disorder} -> label='{disease_label}', genes_file={args.genes_file}")
 
-    # Override clinical keywords if provided
-    clinical_kw_used = CLINICAL_KEYWORDS
-    if args.clinical_keywords:
-        clinical_kw_used = args.clinical_keywords
-        import config as _cfg
-        _cfg.CLINICAL_KEYWORDS = clinical_kw_used
-        from services.pubmed_service import CATEGORY_CONFIG
-        CATEGORY_CONFIG["clinical"]["keywords"] = clinical_kw_used
-        from services.ashg_service import CATEGORY_KEYWORDS
-        CATEGORY_KEYWORDS["clinical"] = clinical_kw_used
-        print(f"[INFO] Clinical keywords overridden: {clinical_kw_used}")
-
-    # Override retmax if provided
+    # Override clinical keywords / retmax if provided
+    clinical_kw_used = args.clinical_keywords or CLINICAL_KEYWORDS
     retmax_used = args.retmax
-    if retmax_used != CLINICAL_RETMAX:
-        import config as _cfg
-        _cfg.CLINICAL_RETMAX = retmax_used
-        _cfg.MODEL_ORGANISM_RETMAX = retmax_used
-        _cfg.BIOLOGICAL_RETMAX = retmax_used
-        from services.pubmed_service import CATEGORY_CONFIG
-        for cat in CATEGORY_CONFIG:
-            CATEGORY_CONFIG[cat]["retmax"] = retmax_used
-        from services.ashg_service import CATEGORY_RETMAX
-        for cat in CATEGORY_RETMAX:
-            CATEGORY_RETMAX[cat] = retmax_used
+    retmax_override = retmax_used if retmax_used != CLINICAL_RETMAX else None
+    apply_search_overrides(args.clinical_keywords, retmax_override)
+    if args.clinical_keywords:
+        print(f"[INFO] Clinical keywords overridden: {clinical_kw_used}")
+    if retmax_override:
         print(f"[INFO] retmax overridden: {retmax_used}")
 
     # Determine run directory. When a disorder is set, nest it under the parent
@@ -604,7 +607,8 @@ def run_pipeline(args):
     max_papers = args.max_papers
     verbose = getattr(args, 'verbose', False)
     payloads = [{"gene_name": g, "model": model, "max_papers": max_papers, "verbose": verbose,
-                 "mouse_phenotypes": mouse_phenotypes, "disease_label": disease_label} for g in todo]
+                 "mouse_phenotypes": mouse_phenotypes, "disease_label": disease_label,
+                 "clinical_keywords": args.clinical_keywords, "retmax": retmax_override} for g in todo]
 
     total_input_tokens = 0
     total_output_tokens = 0

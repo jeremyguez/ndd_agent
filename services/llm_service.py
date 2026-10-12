@@ -37,7 +37,6 @@ def reset_token_usage():
 def call_llm(
     prompt: str,
     model: str = DEFAULT_MODEL,
-    temperature: float = 0.0,
 ) -> str:
     """
     Call Claude with a prompt. Returns the text response.
@@ -50,7 +49,6 @@ def call_llm(
             message = _client.messages.create(
                 model=model,
                 max_tokens=LLM_MAX_TOKENS,
-                temperature=temperature,
                 messages=[{"role": "user", "content": prompt}],
             )
             if hasattr(message, 'usage'):
@@ -58,7 +56,7 @@ def call_llm(
                     _total_input_tokens += message.usage.input_tokens
                     _total_output_tokens += message.usage.output_tokens
                     _total_calls += 1
-            return message.content[0].text
+            return "".join(b.text for b in message.content if b.type == "text")
         except anthropic.APIStatusError as e:
             if e.status_code in (429, 500, 503, 529):
                 print(f"WARNING: LLM status {e.status_code}, retry {attempt+1}/{LLM_MAX_RETRIES} in {delay}s...")
