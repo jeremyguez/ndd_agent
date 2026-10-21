@@ -1,0 +1,185 @@
+{
+  "articles_found": {
+    "clinical": 4,
+    "model_organism": 12,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Multi-generational mitochondrial complex V deficiency due to the recurrent ATP5F1A c.620G>A (p.Arg207His) pathogenic variant: A novel family and a review of the literature (PMID: 42520343)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "c.620G>A, p.Arg207His",
+            "type": "missense",
+            "phenotypes": [
+              "growth faltering",
+              "seizures",
+              "autism spectrum disorder",
+              "global developmental delay",
+              "urea cycle dysfunction",
+              "elevated plasma lactate",
+              "congenital heart disease (two younger children)",
+              "sideroblastic anemia (two younger children)",
+              "hypogammaglobulinemia (two younger children)",
+              "spontaneous clinical resolution in the two younger children",
+              "mother reportedly asymptomatic",
+              "NDUFA12 whole-gene deletion in the two younger children, possible modifier"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent known pathogenic variant (previously reported de novo); here the first transgenerational transmission, from a mother to her three children, with a consistent MC5DN4A biochemical phenotype",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Expanding the Allelic and Clinical Heterogeneity of Movement Disorders Linked to Defects of Mitochondrial Adenosine Triphosphate Synthase (PMID: 40276935)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "c.1404del, p.Glu469Serfs*3",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "myoclonic dystonia",
+              "spasticity",
+              "reduced ATP5F1A mRNA",
+              "reduced ATPase \u03b1-subunit protein with other ATPase components aberrantly expressed",
+              "compromised ATPase activity in fibroblasts"
+            ]
+          },
+          {
+            "description": "c.1252G>A, p.Gly418Arg",
+            "type": "missense",
+            "phenotypes": [
+              "hereditary spastic paraplegia (three patients from two families)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Frameshift variant with reduced mRNA, reduced protein and impaired ATPase activity in patient fibroblasts. The missense variant was novel and predicted deleterious, segregated in two families with HSP, and mapped to an intersubunit communication site on 3D modelling. The ATP5F1B splice variant in this paper is not an ATP5F1A case and is excluded.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A New Case of a Neurodevelopmental Disorder and Myoclonic Dystonia Associated with the C.1404del Variant of the ATP5F1A Gene (PMID: 41743395)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1404del",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "myoclonic dystonia",
+              "misdiagnosed lifelong as cerebral palsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "ATP5F1A c.1404del identified as the cause after lifelong misdiagnosis as cerebral palsy; the same variant was previously reported in a patient with a similar phenotype",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "2025 - ATP5F1A deficiency causes developmental delay and motor dysfunction in humans and zebrafish (PMID: 41053757)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "growth retardation",
+          "motor dysfunction (abnormal behavioral assessment)",
+          "impaired motor neuron axon development in Tg(mnx1:eGFP) larvae",
+          "partial rescue of motor neuron morphology with human wild-type ATP5F1A mRNA",
+          "2,261 differentially expressed genes, enriched in neurotransmission and apelin signaling pathways",
+          "downregulation of autophagy-related genes (apln, becn1, map1lc3b)",
+          "increased P62 and decreased Lc3b-II, consistent with inhibited autophagy",
+          "multi-system defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zebrafish and human study - ATP5F1A deficiency causes developmental delay and motor dysfunction in humans and zebrafish (PMID: 41053757)",
+        "evidence_subtype": "other",
+        "summary": "A de novo p.Gly418Arg ATP5F1A variant segregated with developmental delay and motor dysfunction. In HEK293T cells the mutant had reduced protein stability and expression, with mitochondrial localization intact. atp5fa1 knockdown in zebrafish caused growth retardation, motor dysfunction and impaired motor neuron axons, and human WT mRNA partially rescued the phenotype. Knockdown also altered autophagy markers (increased P62, decreased Lc3b-II) and downregulated apln, becn1 and map1lc3b.",
+        "sample_size": "One Han Chinese trio family; zebrafish knockdown and rescue experiments",
+        "significance": null
+      },
+      {
+        "citation": "Neonatal complex V deficiency study - A recurrent de novo ATP5F1A substitution associated with neonatal complex V deficiency (PMID: 34483339)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Three infants carried the recurrent de novo ATP5F1A c.620G>A (p.Arg207His) variant and presented with failure to thrive, hyperlactatemia and hyperammonemia, with clinical resolution before 18 months. Patient fibroblasts showed deficits in complex V function and expression. Structural modelling predicts a negatively charged patch on the surface where the \u03b1-subunit contacts the \u03b2-subunit, near the \u03b2 active site.",
+        "sample_size": "3 probands",
+        "significance": null
+      },
+      {
+        "citation": "Overexpression of ATP5F1A in Cardiomyocytes Promotes Cardiac Reverse Remodeling (PMID: 38910562)",
+        "evidence_subtype": "expression",
+        "summary": "Single-nucleus RNA-seq showed ATP5F1A was higher in cardiomyocytes from patients with cardiac reverse remodeling (CRR) after LVAD than in the other groups. Cardiomyocyte-specific AAV9 overexpression of ATP5F1A in TAC and dilated cardiomyopathy mouse heart failure models improved heart function and reduced fibrosis and cardiomyocyte size.",
+        "sample_size": "12 human samples (4 per group), 126,156 nuclei; mouse models",
+        "significance": null
+      },
+      {
+        "citation": "Lactylation of Mitochondrial ATP Synthase Subunit Alpha Regulates Vascular Remodeling and Progression of Aortic Dissection (PMID: 40800583)",
+        "evidence_subtype": "function",
+        "summary": "ATP5F1A is lactylated at K531, catalyzed by Sirt3, in aortic dissection. K531 lactylation impairs ATP synthase activity, raises ROS, lowers ATP and causes mitochondrial structural abnormalities. These changes drive vascular smooth muscle phenotypic switching and MMP secretion, as shown with K531R/K531E mutants. Targeting the lactate-Sirt3-ATP5F1A axis was therapeutic in a mouse model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "\u03b2-Hydroxybutyrylation Links Ketone Metabolism to Mitochondrial Remodeling in Diabetic Cardiomyopathy (PMID: 41213123)",
+        "evidence_subtype": "other",
+        "summary": "Kbhb-specific proteomics of diabetic cardiomyopathy mouse hearts identified Atp5f1a-K239 as a key \u03b2-hydroxybutyrylation site. Modification at this site correlated strongly with \u03b2-hydroxybutyrate and isocitric acid concentrations. This links ketone availability to modification of an ATP synthase subunit.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of ATP5A1 enhances proliferation and predicts poor prognosis of colon adenocarcinoma (PMID: 35007851)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ATP5F1A (ATP5A1) mRNA and protein were lower in colon adenocarcinoma than in adjacent tissue, and lower in advanced stage. Low levels predicted poor prognosis (independent factor, HR=0.43). Overexpression attenuated colon cancer cell growth in vitro and in mouse xenografts.",
+        "sample_size": "n=115 cohort plus TCGA",
+        "significance": "P=0.001 (cohort), P=0.041 (TCGA); HR=0.43, P=0.018"
+      },
+      {
+        "citation": "Reduced Levels of ATP Synthase Subunit ATP5F1A Correlate with Earlier-Onset Prostate Cancer (PMID: 30538797)",
+        "evidence_subtype": "expression",
+        "summary": "ATP5F1A was the complex V subunit most frequently deficient in prostate tissue, in 10% of tumors and 11% of benign tissues. ATP5F1A levels correlated positively with earlier-onset prostate cancer and with free PSA percentage.",
+        "sample_size": "94 prostate carcinomas with paired benign tissue",
+        "significance": "significant correlation (p-value not stated in abstract)"
+      },
+      {
+        "citation": "Ageing is associated with a reduction in markers of mitochondrial energy metabolism in the human epidermis (PMID: 36851889)",
+        "evidence_subtype": "expression",
+        "summary": "Immunohistochemistry showed ATP5F1A staining in the epidermis was significantly lower in older donors than in younger donors, independent of UV exposure. This indicates an age-related decline in complex V.",
+        "sample_size": "21 young and 22 old donors",
+        "significance": "significant decrease (p-value not stated in abstract)"
+      },
+      {
+        "citation": "Integrating SMRT and Bulk RNA Sequencing With Metabolic Phenotyping to Examine Reduced Skeletal Muscle Mitochondrial Respiration in Type 2 Diabetes (PMID: 41563348)",
+        "evidence_subtype": "expression",
+        "summary": "Full-length SMRT-seq of skeletal muscle identified four ATP5F1A splice variants. Two novel transcripts were expressed only in glucose-tolerant controls and not in type 2 diabetes. This may contribute to reduced fatty acid oxidation and mitochondrial respiration in diabetes.",
+        "sample_size": "9 T2D and 9 control men",
+        "significance": null
+      },
+      {
+        "citation": "Integrated transcriptomics unveils mitochondrial oxidative phosphorylation dysfunction as a shared mechanism in sarcopenia and obesity (PMID: 41053312)",
+        "evidence_subtype": "pathway",
+        "summary": "ATP5F1A was one of four hub genes (with SDHB, SDHD and ATP5F1B) in the oxidative phosphorylation and electron transport pathways shared by sarcopenia and obesity. It was strongly co-expressed with them (r>0.86) and downregulated in both conditions, confirmed by qPCR.",
+        "sample_size": "GSE111016 and GSE152991 datasets plus tissue qPCR",
+        "significance": "r>0.86, p<10^-12"
+      },
+      {
+        "citation": "Proteomic dissection of large extracellular vesicle surfaceome unravels interactive surface platform (PMID: 34817906)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ATP5F1A and ATP5F1B were identified as markers of large extracellular vesicles (L-EVs) from cancer cell lines, distinguishing them from small EVs. They were detected in L-EV proteomics, where the biotin-inaccessible proteome was enriched for mitochondrial proteins.",
+        "sample_size": "4143 proteins identified; multiple cancer cell lines",
+        "significance": null
+      }
+    ]
+  }
+}

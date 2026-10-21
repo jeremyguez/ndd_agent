@@ -1,0 +1,841 @@
+{
+ "gene": "ATF2",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental delay",
+   "neurodevelopmental abnormality",
+   "disorder of neurodevelopment",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "developmental disorder of the nervous system",
+   "neurodevelopmental impairment",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "CRE-BP1",
+   "HB16",
+   "CREB2",
+   "TREB7",
+   "activating transcription factor 2"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 85,
+  "titlekicksparingfulltext": 43,
+  "read": 19
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 1,
+   "Existing": 14,
+   "Hypothesized": 80,
+   "Novel": 5
+  },
+  "justification": "No article reports pathogenic ATF2 variants identified in human probands or families with a neurodevelopmental disorder; there is therefore no basis for \"Established\". The strongest evidence is biological/animal: ATF-2 knockout mice show ataxia, hyperactivity, reduced cerebellar Purkinje cells, enlarged ventricles and hearing loss (PMID 8538792), and ATF2 directly regulates Bdnf transcription alongside MYT1L and EGR1, factors tied to neurodevelopmental disease (PMID 39947922). Human data are indirect: ATF2 emerges as a hub gene in spatiotemporal brain co-expression modules enriched for psychiatric GWAS signal (PMID 33371872), and it appears in gene lists in Rett syndrome and enhancer/16p12.1 studies (PMIDs 39414258, 41279603) \u2014 these are network/co-mention level, not variant-level causal evidence, so a modest weight is given to \"Existing\". The remaining literature concerns chondrocyte, cancer and generic transcriptional biology, which does not support causality.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 14,
+   "Hypothesized": 80,
+   "Novel": 5
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41279603",
+   "title": "Quantifying the impact of genetic mutations on enhancer dynamics.",
+   "abstract": "Transcriptional regulation is mediated by enhancers, yet how genetic perturbations alter enhancer activity and gene expression remains poorly understood. We developed UDI-UMI-STARR-seq, which integrates dual indexes and unique molecular identifiers, and combined it with RNA-seq to profile the effects of perturbations on enhancer activity and target gene expression. We applied this approach to a library of 253,632 fragments representing 46,142 cell type-specific candidate enhancers and assessed the impact of CRISPR/Cas9-mediated deletion of six transcription factors (or TFs; ATF2, CTCF, FOXA1, LEF1, TCF7L2, and SCRT1) with diverse regulatory roles. Across knockout lines, we identified responsive enhancers that were either repressed or induced, often through motifs such as the p53 family of TFs. Enhancer-gene mapping revealed TF-specific programs, including repression of Wnt/p53 targets with ATF2 or LEF1 loss, downregulation of the FIRRE locus with CTCF loss, and compensatory upregulation of RNA polymerase II regulators following FOXA1 depletion. A deep learning model trained on enhancer sequences recapitulated core principles of enhancer grammar, including cooperative motif syntax and the influence of flanking sequence context. Applying this framework to the neurodevelopmental disorder-associated 16p12.1 deletion identified responsive enhancers linked to genes involved in axon guidance, synaptic plasticity, and translational control, providing a scalable readout of enhancer dynamics generalizable to genetic mutations.",
+   "found_by": [],
+   "pubdate": "2025 Oct 21",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "39947922",
+   "title": "Stimulus-Dependent Expression of Bdnf Is Mediated by ATF2, MYT1L, and EGR1 Transcription Factors.",
+   "abstract": "Neurotrophins like BDNF have a key role in the proper functioning of the central nervous system, influencing numerous processes like memory formation and behavior. An imbalance in BDNF levels can lead to a wide range of diseases, including depression and neurodevelopmental disorders. While the potential therapeutic effects of BDNF are well-recognized, there is a knowledge gap in understanding the mechanisms governing BDNF expression levels. Here, we focused on the regulation of Bdnf gene expression in response to different stimuli, specifically studying the effects of neuronal activity and BDNF-TrkB signaling on Bdnf transcription in cultured neurons from rats of either sex. We used in vitro DNA pulldown combined with mass spectrometry to determine transcription factors that interact with the Bdnf promoters upon different stimuli and validated numerous known regulators, such as USF and AP1 family, and novel candidate regulators using reporter assays. We show that the USF family of transcription factors is specifically recruited after membrane depolarization, whereas the AP1 family participates in Bdnf regulation only after BDNF-TrkB signaling. We further describe ATF2, MYT1L, and EGR family as novel regulators of Bdnf expression by demonstrating their direct binding to Bdnf promoters using chromatin immunoprecipitation assays both in vitro and in vivo, showing their functional role in Bdnf gene expression and ultimately identifying their regulatory cis-elements in Bdnf promoters. Furthermore, our results show competition between ATF2, CREB, and AP1 family in regulating Bdnf levels. Collectively, our results provide insight into the regulation of Bdnf expression upon different stimuli.",
+   "found_by": [],
+   "pubdate": "2025 Mar 19",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "8538792",
+   "title": "Chondrodysplasia and neurological abnormalities in ATF-2-deficient mice.",
+   "abstract": "Activating transcription factor-2 (ATF-2) is a basic region leucine zipper protein whose DNA target sequence is the widely distributed cAMP response element (CRE). We report here that mice carrying a germline mutation in ATF-2 demonstrated unique actions of ATF-2 not duplicated by other ATF/CREB family members. Mutant mice had decreased postnatal viability and growth, with a defect in endochondral ossification at epiphyseal plates similar to human hypochondroplasia. The animals had ataxic gait, hyperactivity and decreased hearing. In the brain, there were reduced numbers of cerebellar Purkinje cells, atrophic vestibular sense organs and enlarged ventricles. Unlike CREB alpha/delta-deficient mice whose main defect is in long-term potentiation, the widespread abnormalities in ATF-2 mutant mice demonstrate its absolute requirement for skeletal and central nervous system development, and for maximal induction of select genes with CRE sites, such as E-selectin.",
+   "found_by": [],
+   "pubdate": "1996 Jan 18",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17699753",
+   "title": "Feedback regulation of p38 activity via ATF2 is essential for survival of embryonic liver cells.",
+   "abstract": "The ATF2 transcription factor is phosphorylated by the stress-activated mitogen-activated protein kinases (MAPKs) JNK and p38. We show that this phosphorylation is essential for ATF2 function in vivo, since a mouse carrying mutations in the critical phosphorylation sites has a strong phenotype identical to that seen upon deletion of the DNA-binding domain. In addition, combining this mutant with a knockout of the ATF2 homolog, ATF7, results in embryonic lethality with severe abnormalities in the developing liver and heart. The mutant fetal liver is characterized by high levels of apoptosis in developing hepatocytes and haematopoietic cells. Furthermore, we observe a significant increase in active p38 due to loss of a negative feedback loop involving the ATF2-dependent transcriptional activation of MAPK phosphatases. In embryonic liver cells, this increase drives apoptosis, since it can be suppressed by chemical inhibition of p38. Our findings demonstrate the importance of finely regulating the activities of MAPKs during development.",
+   "found_by": [],
+   "pubdate": "2007 Aug 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "1658708",
+   "title": "Differential regulation of three members of the ATF/CREB family of DNA-binding proteins.",
+   "abstract": "The ATF/CRE binding site can mediate transcriptional activation by cAMP, the adenovirus E1A protein and the human T-cell leukaemia virus 1 (HTLV1) tax protein. A large number of different proteins bind specifically to this element either as homodimers or as heterodimers. Using GAL4-ATF/CREB fusions, we have investigated the regulatory functions of three members of this family. CREB1 (CREB) is strongly activated by cAMP and weakly activated by the E1A protein. In contrast, CREB2 (CRE-BP1, ATF2) is strongly activated by E1A but is insensitive to cAMP stimulation. ATF1 is weakly activated by cAMP but is not activated by E1A. All three proteins are insensitive to activation by the HTLV1 tax protein. The N-terminal region of CREB2, from amino acid residues 19 to 112, is both necessary and sufficient for E1A activation. This region contains a putative C2H2 metal-binding finger, and single amino acid substitutions of the cysteine residues severely decreased CREB2 activity. In contrast, mutations affecting a potential protein kinase A and casein kinase II phosphorylation site within this region had little effect.",
+   "found_by": [],
+   "pubdate": "1991 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "9436983",
+   "title": "p300 and ATF-2 are components of the DRF complex, which regulates retinoic acid- and E1A-mediated transcription of the c-jun gene in F9 cells.",
+   "abstract": "Transcriptional activation of the c-jun gene is a critical event in the differentiation of F9 cells. In our previous studies we characterized an element [differentiation response element (DRE)] in the c-jun promoter that is both necessary and sufficient to confer the capacity for differentiation-dependent up-regulation. This element binds the differentiation regulatory factor (DRF) complex, of which one component is the adenovirus E1A-associated protein p300. We have now identified activation transcription factor-2 (ATF-2) as a DNA-binding subunit of the DRF complex. p300 and ATF-2 interact with each other in vivo and in vitro. The bromodomain and the C/H2 domain of p300 mediate the binding to ATF-2, which in turn requires a proline-rich region between amino acids 112 and 350 for its interaction with p300. The phosphorylation of the serine residue at position 121 of ATF-2 appears to be induced by protein kinase C alpha (PKC alpha) after treatment of cells with retinoic acid (RA) or induction with E1A. In cotransfection assays, wild-type ATF-2 enhanced the transcription of an E2/tk-luciferase construct, in conjunction with p300-E2. However, a mutant form of ATF-2 with a mutation at position 121 (pCMVATF-2(Ser121-Ala)) did not. These results suggest that ATF-2 and p300 cooperate in the control of transcription by forming a protein complex that is responsive to differentiation-inducing signals, such as RA or E1A, and moreover, that the phosphorylation of ATF-2 by PKC alpha is probably a signaling event in the pathway that leads to the transactivation of the c-jun gene in F9 cells.",
+   "found_by": [],
+   "pubdate": "1998 Jan 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19176525",
+   "title": "Phosphorylation of Activation Transcription Factor-2 at Serine 121 by Protein Kinase C Controls c-Jun-mediated Activation of Transcription.",
+   "abstract": "Activation transcription factor-2 (ATF-2) is phosphorylated by various protein kinases, such as JNK/p38/ERK, calmodulin kinase IV, protein kinase A, and protein kinase C (PKC), in response to a variety of stimuli. However, the role of the phosphorylation of ATF-2 by PKC in vivo in the transcriptional control of genes that include the activation protein-1 (AP-1)/cyclic AMP-response element remains to be defined. Using antibodies against the phosphorylated serine residue (Ser(P)) at position 121 of ATF-2, we have demonstrated that PKC phosphorylates ATF-2 at Ser-121 and that phosphorylation of Ser-121 (to yield ATF-2pS121) becomes detectable at the late stage of the response of HeLa cells to 12-O-tetradecanoylphorbol-13-acetate (TPA) and is maintained for more than 2 h. By contrast, phosphorylation of ATF-2 at threonine residues 69 and 71 (Thr-69/71, to yield ATF-2pT69/71) and at Ser-340 and Ser-367 (to yield ATF-2pS340 and ATF-2pS367) is detectable as an immediate early response. Unlike levels of ATF-2pT69/71 and ATF-2pS340, the level of ATF-2pS121 increases in the nuclei of HeLa cells in response to TPA. A serine-to-alanine mutation at position 121 of ATF-2 represses the c-Jun-dependent transcription of AP-1/cyclic AMP-response element reporter genes and also the p300-mediated activation of a Gal4-reporter gene in response to TPA. Our results suggest that the phosphorylation of ATF-2 at Ser-121 plays a key role in the c-Jun-mediated activation of transcription that occurs in response to TPA.",
+   "found_by": [],
+   "pubdate": "2009 Mar 27",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "8288576",
+   "title": "ATF-a0, a novel variant of the ATF/CREB transcription factor family, forms a dominant transcription inhibitor in ATF-a heterodimers.",
+   "abstract": "We have isolated a cDNA encoding a variant of the transcription factor ATF-a (called ATF-a0) by screening a HeLa cDNA expression library with a regulatory element of the E-selectin promoter, NF-ELAM1/delta A. Relative to full-length ATF-a, the ATF-a0 cDNA contains a large in-frame deletion of 525 base pairs that removes the P/S/T-rich putative transactivation domain. Using reverse-transcription-polymerase chain reaction and Northern blot hybridization to characterize ATF-a0 expression, we found that putative mRNAs for ATF-a0 and ATF-a are present at varying ratios in different tissues. Full-length ATF-a is a transcriptional activator for the NF-ELAM1/delta A site of the E-selectin promoter. In contrast, we show ATF-a0 has no measurable transactivating function on this element. Moreover, we demonstrate that co-expressed ATP-a0 and ATF-a preferentially heterodimerize. In the heterodimer ATF-a0 is a dominant inhibitor that completely blocks the transactivating activity of ATF-a. Both forms of ATF-a bind the p50 subunit of NF-kappa B as shown by affinity chromatography. ATF-a0 appears to be a splice variant similar to the one found for ATF-2, its closest homologue in structure and function. Taken together, our results suggest that ATF-a0 is an important member of the ATF family with a negative regulatory role in transactivation.",
+   "found_by": [],
+   "pubdate": "1994 Jan 14",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17219413",
+   "title": "Activating transcription factor 2 controls Bcl-2 promoter activity in growth plate chondrocytes.",
+   "abstract": "Activating transcription factor 2 (ATF-2) is expressed ubiquitously in mammals. Mice deficient in ATF-2 (ATF-2 m/m) are slightly smaller than their normal littermates at birth. Approximately 50% of mice born mutant in both alleles die within the first month. Those that survive develop a hypochondroplasia-like dwarfism, characterized by shortened growth plates and kyphosis. Expression of ATF-2 within the growth plate is limited to the resting and proliferating zones. We have previously shown that ATF-2 targets the cyclic AMP response element (CRE) in the promoters of cyclin A and cyclin D1 in growth plate chondrocytes to activate their expression. Here, we demonstrate that Bcl-2, a cell death inhibitor that regulates apoptosis, is expressed within the growth plate in proliferative and prehypertrophic chondrocytes. However, Bcl-2 expression declines in hypertrophic chondrocytes. The Bcl-2 promoter contains a CRE at -1,552 bp upstream of the translation start. Mutations within this CRE cause reduced Bcl-2 promoter activity. We show here that the absence of ATF-2 in growth plate chondrocytes corresponds to a decline in Bcl-2 promoter activity, as well as a reduction in Bcl-2 protein levels. In addition, we show that ATF-2 as well as CREB, a transcription factor that can heterodimerize with ATF-2, bind to the CRE within the Bcl-2 promoter. These data identify the Bcl-2 gene as a novel target of ATF-2 and CREB in growth plate chondrocytes.",
+   "found_by": [],
+   "pubdate": "2007 May 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11836564",
+   "title": "Infrequent mutations of the activating transcription factor-2 gene in human lung cancer, neuroblastoma and breast cancer.",
+   "abstract": "The activating transcription factor 2 (ATF-2) gene, which encodes a transcription factor involved in multiple intracellular signal transduction pathways, is located on human chromosome 2q32, which is a common region of LOH in human lung cancer. In neuroblastoma and breast cancer, a high incidence of LOH was detected on chromosome 2q. Recently we found that breast cancer is frequently developed in heterozygous mutant mice for the ATF-2 gene. Therefore, the ATF-2 gene was considered as a candidate tumor suppressor gene on 2q. To assess the role of the ATF-2 gene as a tumor suppressor in human carcinogenesis, we examined genetic alterations of the ATF-2 gene in 9 breast cancer cell lines, 10 neuroblastoma cell lines and 46 lung cancer cell lines. For this purpose, we first determined the exon-intron structure of the ATF-2 gene in the human genome. The ATF-2 gene was composed of 14 exons and 13 introns, and the ATG start codon and the TGA stop codon were present in exons 3 and 14, respectively. Genetic variants of the ATF-2 gene were detected in 5 of the 46 (10.6%) lung cancers, but not in neuroblastomas and breast cancers. Three of the five variants detected in lung cancers were genetic polymorphisms, while the remaining two, consisting of non-synonymous and synonymous substitutions, were possibly somatic mutations. The present result indicates that the ATF-2 gene is not a major tumor suppressor gene on chromosome 2q, however, it is possible that ATF-2 alterations may be involved in the development of a small subset of lung cancers.",
+   "found_by": [],
+   "pubdate": "2002 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "1400310",
+   "title": "Identification of an activating transcription factor (ATF) binding site in the human transforming growth factor-beta 2 promoter.",
+   "abstract": "Transforming growth factor TGF-beta 2 is encoded by multiple mRNA transcripts of 5.8, 5.1, 4.0, 3.8, and 2.8 kilobase pairs (kb) that are expressed in various human and monkey cells. Northern blot analysis using genomic fragments of DNA was used to demonstrate that some of this size heterogeneity is due to differences in the length of the 5'-untranslated region. Probes that were colinear with the first 600 nucleotides of the 5'-untranslated region detected only the 5.8-, 4.0-, and 3.8-kb transcripts. In order to identify DNA elements that regulate the transcription of these mRNA transcripts, deletion constructs of 5'-flanking DNA were ligated to the coding region for chloramphenicol acetyltransferase (CAT) and analyzed for promoter activity in several cell lines. Sequences responsible for putative enhancer and silencer regions were identified between -778 and -40 relative to the transcription initiation site. Addition of a cyclic AMP-responsive element/activating transcription factor-like element at -74 resulted in a 5-10-fold increase in CAT activity over that expressed with a construct that contained only the TATA box. This increase in CAT activity was suppressed by the addition of DNA sequences between -257 and -187, whereas sequences between -778 and -257 stimulated CAT activity. Point mutations within the ATF binding site at -74 resulted in a marked decrease in CAT expression. Cotransfection with ATF-1 or ATF-2 expression plasmids resulted in both dose-dependent stimulatory and inhibitory activities that were cell type-dependent. These studies identify multiple transcription initiation sites for TGF-beta 2 and demonstrate that transcription from one of these promoters is dependent upon an ATF binding site located 5' of the TATA box.",
+   "found_by": [],
+   "pubdate": "1992 Oct 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "9990041",
+   "title": "Identification of the cyclin D1 gene as a target of activating transcription factor 2 in chondrocytes.",
+   "abstract": "Endochondral bone growth is regulated by the rates of chondrocyte proliferation and differentiation. However, the intracellular mechanisms regulating these processes are poorly understood. Recently, interruption of the gene encoding the transcription factor activating transcription factor 2 (ATF-2) was shown to inhibit proliferation of chondrocytes in mice [Reimold, A. M., et al. (1996) Nature (London) 379, 262-265]. The target genes of ATF-2 that are responsible for this phenotype remain unknown. Here we report that the cyclin D1 gene is a direct target of ATF-2 in chondrocytes. ATF-2 is present in nuclear extracts from chondrogenic cell lines and binds, as a complex with a CRE-binding protein (CREB)/CRE modulator protein, to the cAMP response element (CRE) in the cyclin D1 promoter. Mutation of the cyclin D1 CRE caused a 78% reduction in the activity of the promoter in chondrocytes. Overexpression of ATF-2 in chondrocytes enhanced activity of the cyclin D1 promoter 3. 5-fold. In contrast, inhibition of endogenous ATF-2 or CREB by expression of dominant-negative inhibitors of CREB and ATF-2 significantly reduced the activity of the promoter in chondrocytes through the CRE. In addition, levels of cyclin D1 protein are greatly reduced in the chondrocytes of ATF-2-deficient mice. These data identify the cyclin D1 gene as a direct target of ATF-2 in chondrocytes and suggest that reduced expression of cyclin D1 contributes to the defective cartilage development of these mice.",
+   "found_by": [],
+   "pubdate": "1999 Feb 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18385943",
+   "title": "The JNK/AP1/ATF2 pathway is involved in H2O2-induced acetylcholinesterase expression during apoptosis.",
+   "abstract": "We show that H2O2 increases acetylcholinesterase (AChE) expression via transcriptional activation through c-Jun N-terminal kinase (JNK), since the JNK inhibitor SP600125, but not the extracellular signal-regulated kinase (ERK) pathway inhibitor PD98059 or p38 kinase inhibitor SB203580, attenuated H2O2-induced AChE expression and its promoter activity. Overexpression of hemagglutinin (HA)-JNK increases H2O2-induced AChE expression and its promoter activity, whereas the dominant negative mutant form of JNK suppressed H2O2-induced AChE expression and promoter activity. Mutation analysis indicates that the major response elements for JNK in the AChE promoter are the AP1-like element (TGAGTCT) site, located within the -1565/-1569 region of the AChE promoter, and the ATF2 element (CCACGTCA), within the -2185/-2177 region. The AP1-like element binds to the transcription factors, c-jun and ATF2, while the ATF2 element binds mainly ATF2. Taken together, our results strongly suggest that H2O2 induces AChE expression via the JNK/AP1/ ATF2 signaling pathway.",
+   "found_by": [],
+   "pubdate": "2008 May",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40719631",
+   "title": "Disturbances of endoplasmic reticulum proteostasis in neurodevelopmental disorders.",
+   "abstract": "The endoplasmic reticulum (ER) is a vital organelle involved in the biogenesis of membrane and secreted proteins. Proteostasis (protein homeostasis) in the ER relies on finely co-ordinated mechanisms for translocation of polypeptides from the cytosol to the organelle lumen and membrane, introduction of co- and post-translational modifications, protein folding and quality control, exportation of mature proteins and disposal of unfolded or aggregated species, besides the regulation of gene expression to adjust the proteostasis network to the cellular demands for protein biogenesis. Neurodevelopmental processes involving neurogenesis, neuronal migration and differentiation, neural circuit wiring, synaptogenesis, among others, require extensive proteome diversification and remodeling, with high fluxes through the secretory pathways constantly challenging ER proteostasis. Genetic defects affecting the different nodes of the ER proteostasis network can severely disturb neurodevelopment. Here, we compile evidence illustrating how perturbations to the different steps of protein biogenesis in the ER can lead to neurological disorders and present major questions to guide research in the field. [full text, passages naming ATF2] ...| 38 ] | UPR | XBP1 (TREB5) Bipolar disorder; schizophrenia; Alzheimer\u2019s disease | NA | NA | NA | [ | 39 , 40 , 41 ] | EIF2AK3 (PERK) Wolcott-Rallison syndrome | ID with diabetes | NA | NA | [ | 42 ] | | ATF4 (CREB2) ND | Cervical dystonia | NA | NA | [ | 43 ] | | ATF6 Achromatopsia | Color blindness; photophobia | Foveal hypoplasia; | KO mice | [ | 44 ] 1 Protein names are equivalent to gene names and other common p...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39414258",
+   "title": "RettDb: the Rett syndrome omics database to navigate the Rett syndrome genomic landscape.",
+   "abstract": "Rett syndrome (RTT) is a neurodevelopmental disorder occurring almost exclusively in females and leading to a variety of impairments and disabilities from mild to severe. In >95% cases, RTT is due to mutations in the X-linked gene MECP2, but the molecular mechanisms determining RTT are unknown at present, and the complexity of the system is challenging. To facilitate and provide guidance to the unraveling of those mechanisms, we developed a database resource for the visualization and analysis of the genomic landscape in the context of wild-type or mutated Mecp2 gene in the mouse model. Our resource allows for the exploration of differential dynamics of gene expression and the prediction of new potential MECP2 target genes to decipher the RTT disorder molecular mechanisms. Database URL: https://biomedinfo.di.unipi.it/rett-database/. [full text, passages naming ATF2] ...f4, Tcf7, Tcf71l, Tcf7l2, Tead2, Tead4, Terf2, Terf2ip, Tet2, Thap11, Thrb, Tle3, Top2a, Trim28, Trp53, Trp73, Trps1, Twist1, Usf1, Vdr, Wdr5, Xbp1, Yap1, Yy1, Zbtb16, Zbtb17, Zfp143, Zfp296, Zfp809 | N-DEGs | Atf2, Ctcfl, Dmc, Foxa1, Foxd3, Gata1, Gtf2a, Gtf2f, Gtf2h, Hnf1a, Hnf4a, Hoxc10, Ikzf, Isl1-2, Isl1-lhx3, Myf5, Nkx31, Nr1h2-3, Phox2b, Ptf1a, Rf7, Runx1-Eto, Rxr, Rxra-B, Rxra-G, Smad2-3, Stat5, Tead, Ubtf, Z... ...z12, Tbl1x, Tcf12, Tcf3, Tead1, Terf2, Tet1, Tet2, Top2a, Top2b, Trim28, Twist2, Xbp1, Yy1, Zbtb11, Zbtb17 | N-DEGs | Ascl, Bhlhe40, Ctcfl, Dppa4, Myf5, Pgr, Pou5f1 | | CRM 3 DEGs | Ascl1, Ascl2, Ash2l, Asxl1, Atf2, Atf7, Atoh1, Brd2, Brd4, Cbx1, Cbx3, Cbx7, Cebpb, Chd4, Creb1, Crebbp, Ctcf, Dppa4, Ep300, Esr1, Esr2, Ezh1, Ezh2, Fos, Fosb, Fosl2, Foxa2, Foxh1, Gfi1, Gtf3c1, Hcfc1, Hdac1, Hdac2, Hdac3, Hmga2, Ikzf1, I...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36385105",
+   "title": "CBP-HSF2 structural and functional interplay in Rubinstein-Taybi neurodevelopmental disorder.",
+   "abstract": "Patients carrying autosomal dominant mutations in the histone/lysine acetyl transferases CBP or EP300 develop a neurodevelopmental disorder: Rubinstein-Taybi syndrome (RSTS). The biological pathways underlying these neurodevelopmental defects remain elusive. Here, we unravel the contribution of a stress-responsive pathway to RSTS. We characterize the structural and functional interaction between CBP/EP300 and heat-shock factor 2 (HSF2), a tuner of brain cortical development and major player in prenatal stress responses in the neocortex: CBP/EP300 acetylates HSF2, leading to the stabilization of the HSF2 protein. Consequently, RSTS\u00a0patient-derived primary cells show decreased levels of HSF2 and HSF2-dependent alteration in their repertoire of molecular chaperones and stress response. Moreover, we unravel a CBP/EP300-HSF2-N-cadherin cascade that is also active in neurodevelopmental contexts, and show that its deregulation disturbs neuroepithelial integrity in 2D and 3D organoid models of cerebral development, generated from RSTS patient-derived iPSC cells, providing a molecular reading key for this complex pathology. [full text, passages naming ATF2] ...\u2013 39 4a ). We modeled the interaction between the HSF2 HR-A/B KIX motifs and the CBP KIX domain. Based on sequence similarities between the HR-A/B domain, lipoprotein Lpp56, and the transcription factors GCN4, ATF2, and PTRF (Supplementary Fig. 4e , Methods), we first developed a structural model of the HSF2 trimeric, triple-coiled coil, HR-A/B domain (Supplementary Fig. 4f ). Second, we investigated the possibility...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41361190",
+   "title": "Microbiota-host crosstalk: the role of short-term dietary restriction in neurological and metabolic dysregulation.",
+   "abstract": "Excessive dieting (ED), a common weight-control strategy, often causes neurological and emotional disturbances, yet its gut-brain interaction mechanisms remain unclear. Employing a short-term dietary (SDR) adult male rabbit model, we found that SDR can induced cerebral cortex up-regulation of the immune-related genes (e.g., C1QC, SAA3) enriched in NF-kappa B signaling pathways, contrasted with down-regulation of sex hormone-related genes (e.g., PRLR, SPA17) implicated in metabolic homeostasis. Furthermore, dysregulated expression of metabolic genes (e.g., PPM1J, GALNT18) in the cecum of the SDR group interacted to impair the immune protection pathways related to intestinal mucosa. Then, SDR significantly increased the cecal Firmicutes/Bacteroidetes ratio (from 3.38 to 5.57) and reduced microbial diversity. Specifically, beneficial bacteria involved in tryptophan metabolism and neurotransmitter synthesis (e.g., Bacteroidales_bacterium, Alistipes_indistinctus) decreased, whereas bile acid-metabolizing bacteria (e.g., Clostridium_sp._CAG:710, Ruminococcus_sp._Marseille-P6503) linked to increase energy metabolism. The top 20 genes from the brain-gut axis analysis (e.g., ITPR1, CAMK4, CDK5R1) were enriched in critical neural pathways like axon guidance, GABAergic synapse, and long-term potentiation. Notably, key neurodevelopmental genes (e.g., GPR37, GPX3) correlated with these microbial shifts, implicating oxidative stress, synaptic plasticity, and mitochondrial function in microbiota-host crosstalk. This study highlights a \"microbial-metabolism-neural\" axis in SDR, providing novel targets for future obesity intervention strategies. [full text, passages naming ATF2] ...tissue samples. We screened out the top 20 genes with strong differences in co-expression coefficients as the key genes for our subsequent research, such as ITPR1 , CAMK4 , ATP6V1G2 , PRKCB , CDK5R1 , PLA2G4C, ATF2 and GPX3 , as shown in Fig. 3F and Table 1 . Then, we hypothesized that the dietary restriction induced remodeling of energy metabolism in the gut-brain axis, particularly through co-expression of neuromod... ....0016 | ** | GNAI1 | SHANK1 | \u20130.8755 | 0.0223 | * | GNAI1 | CHRNA7 | \u20130.8375 | 0.0375 | * | GNAI1 | KCNJ6 | \u20130.8747 | 0.0226 | * | GNAI1 | DRD1 | 0.8251 | 0.0432 | * | GNAI1 | SLC18A3 | 0.9319 | 0.0068 | ** | ATF2 | PPP3CA | 0.8139 | 0.0487 | * | ATF2 | SHANK1 | 0.8913 | 0.0171 | * | ATF2 | ACTR1B | 0.8571 | 0.0292 | * | ATF2 | SHANK2 | 0.8750 | 0.0225 | * | ATF2 | CHRNA7 | 0.9326 | 0.0067 | ** | ATF2 | KCNJ6 | 0.85... ...| 0.0223 | * | GNAI1 | CHRNA7 | \u20130.8375 | 0.0375 | * | GNAI1 | KCNJ6 | \u20130.8747 | 0.0226 | * | GNAI1 | DRD1 | 0.8251 | 0.0432 | * | GNAI1 | SLC18A3 | 0.9319 | 0.0068 | ** | ATF2 | PPP3CA | 0.8139 | 0.0487 | * | ATF2 | SHANK1 | 0.8913 | 0.0171 | * | ATF2 | ACTR1B | 0.8571 | 0.0292 | * | ATF2 | SHANK2 | 0.8750 | 0.0225 | * | ATF2 | CHRNA7 | 0.9326 | 0.0067 | ** | ATF2 | KCNJ6 | 0.8514 | 0.0315 | * | PPP1R1B | GABBR2 | \u2013...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40485115",
+   "title": "Genetic Inactivation of the Serotonin Transporter Dysregulates Expression of Neurotransmission Genes and Genome-Wide DNA Methylation Levels in the Medial Prefrontal Cortex of Male Rats During Postnatal Development.",
+   "abstract": "Reduced expression of the serotonin transporter (5-hydroxytryptamine transporter, 5-HTT) in early life has been associated with a delay in postnatal brain development and endophenotypes of a variety of neuropsychiatric and neurodevelopmental disorders in adolescence and adulthood. How a reduction in functional 5-HTT can disrupt neurodevelopment is still largely unknown. Here, we studied genome-wide gene expression using transcriptome analysis (RNA-seq) and global levels of DNA (hydroxy)methylation (5(h)mC) using high-performance liquid chromatography-tandem mass spectrometry in 5-HTT wild-type (5-HTT+/+) and 5-HTT homozygous knockout (5-HTT-/-) rats across life (postnatal day [PND] 8, 14, 21, 35, and 70) in the medial prefrontal cortex (mPFC); a brain region with an extensive serotonergic innervation involved in several neuropsychiatric endophenotypes. We observed most gene expression changes in the mPFC during early postnatal life (PND8) and found at this time point an enrichment of genes linked to neuronal and developmental processes like neurotransmission, neuropeptide signaling, and cell migration. Genome-wide DNA 5(h)mC analysis showed a global increase in 5-hydroxymethylcytosine (5hmC) in the mPFC during development in both genotypes and a significant increase in global 5hmC in 5-HTT-/- compared to 5-HTT+/+ rats at PND35. The differences in the regulation of gene expression in 5-HTT-/- versus 5-HTT+/+ rats during early postnatal life can dysregulate neurodevelopmental processes resulting in aberrant brain wiring and functioning. This can result in lifelong consequences for prefrontal context-dependent executive functioning. [full text, passages naming ATF2] ...ated diseases such as depression and anxiety (Murphy et al. 2015 ; Zhang et al. 2015 ). It has previously been demonstrated that 5\u2010HT induces methylation of a conserved CpG island in the promoter region of the CREB2 gene, serving synaptic plasticity (Rajasethupathy et al. 2012 ). Furthermore, we found reduced global 5\u2010hmC levels (Shan et al. 2014 ) and altered methylation of the corticotrophin\u2010releasing factor gene (...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33371872",
+   "title": "Characterization of genome-wide association study data reveals spatiotemporal heterogeneity of mental disorders.",
+   "abstract": "BACKGROUND: Psychiatric disorders such as schizophrenia (SCZ), bipolar disorder (BIP), major depressive disorder (MDD), attention deficit-hyperactivity disorder (ADHD), and autism spectrum disorder (ASD) are often related to brain development. Both shared and unique biological and neurodevelopmental processes have been reported to be involved in these disorders. METHODS: In this work, we developed an integrative analysis framework to seek for the sensitive spatiotemporal point during brain development underlying each disorder. Specifically, we first identified spatiotemporal gene co-expression modules for four brain regions three developmental stages (prenatal, birth to 11\u2009years old, and older than 13\u2009years), totaling 12 spatiotemporal sites. By integrating GWAS summary statistics and the spatiotemporal co-expression modules, we characterized the risk genes and their co-expression partners for five disorders. RESULTS: We found that SCZ and BIP, ASD and ADHD tend to cluster with each other and keep a distance from other psychiatric disorders. At the gene level, we identified several genes that were shared among the most significant modules, such as CTNNB1 and LNX1, and a hub gene, ATF2, in multiple modules. Moreover, we pinpointed two spatiotemporal points in the prenatal stage with active expression activities and highlighted one postnatal point for BIP. Further functional analysis of the disorder-related module highlighted the apoptotic signaling pathway for ASD and the immune-related and cell-cell adhesion function for SCZ, respectively. CONCLUSION: Our study demonstrated the dynamic changes of disorder-related genes at the network level, shedding light on the spatiotemporal regulation during brain development.",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "34435185": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32528825": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10441516": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28630090": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39033153": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32410355": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9717848": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11716483": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34185707": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41030651": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33883344": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9058782": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25207793": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27974798": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10428853": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8670180": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12591902": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34272480": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38294692": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34717757": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20843307": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30728072": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15362850": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23325849": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1831536": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25368329": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31023527": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25263448": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36842626": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15037631": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19766068": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10751326": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26472015": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14755548": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19861239": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33244473": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24598729": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8119953": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10500157": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15544930": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33758095": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1531087": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29475951": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41279603": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39947922": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18348191": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "8538792": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35701021": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "7824938": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19948881": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17699753": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19584054": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27347199": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "1658708": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9436983": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19176525": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "8288576": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17219413": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11836564": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "1400310": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9990041": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18385943": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40719631": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39414258": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36385105": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41361190": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40485115": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36061507": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35456433": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38861567": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39311138": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42459809": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29254826": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36793211": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37862207": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36698776": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33371872": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31850067": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32561708": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34263087": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20388499": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39796167": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34504951": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28161493": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39588175": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 236,
+   "usd": 0.00764,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4006,
+   "output_tokens": 242,
+   "usd": 0.005216,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 72.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.0,
+   "note": "",
+   "input_tokens": 26201,
+   "output_tokens": 974,
+   "usd": 0.031071,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 8.7,
+   "note": "",
+   "input_tokens": 14373,
+   "output_tokens": 722,
+   "usd": 0.089915,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>14</existing>\n    <hypothesized>80</hypothesized>\n    <novel>5</novel>\n  </probabilities>\n  <justification>No article reports pathogenic ATF2 variants identified in human probands or families with a neurodevelopmental disorder; there is therefore no basis for \"Established\". The strongest evidence is biological/animal: ATF-2 knockout mice show ataxia, hyperactivity, reduced cerebellar Purkinje cells, enlarged ventricles and hearing loss (PMID 8538792), and ATF2 directly regulates Bdnf transcription alongside MYT1L and EGR1, factors tied to neurodevelopmental disease (PMID 39947922). Human data are indirect: ATF2 emerges as a hub gene in spatiotemporal brain co-expression modules enriched for psychiatric GWAS signal (PMID 33371872), and it appears in gene lists in Rett syndrome and enhancer/16p12.1 studies (PMIDs 39414258, 41279603) \u2014 these are network/co-mention level, not variant-level causal evidence, so a modest weight is given to \"Existing\". The remaining literature concerns chondrocyte, cancer and generic transcriptional biology, which does not support causality.</justification>\n  <pmids>\n    <pmid>8538792</pmid>\n    <pmid>39947922</pmid>\n    <pmid>33371872</pmid>\n    <pmid>41279603</pmid>\n    <pmid>39414258</pmid>\n    <pmid>17699753</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,131 @@
+{
+  "gene": "H2AC6",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000180573",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0005550",
+      "name": "infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.3725668811991201
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.3705961992850847
+    },
+    {
+      "disease_id": "MONDO_0005502",
+      "name": "dengue disease",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.3695798546847018
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0005550",
+      "name": "infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.3725668811991201
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.3705961992850847
+    },
+    {
+      "disease_id": "MONDO_0005502",
+      "name": "dengue disease",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.3695798546847018
+    }
+  ],
+  "gate_text": "DROP: 1, 2, 5, 6",
+  "gate_dropped_ids": [
+    "MONDO_0005550",
+    "MONDO_0005108",
+    "MONDO_0005502",
+    "MONDO_0005105"
+  ],
+  "tag_text": "1 | DIFFERENT\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0005550",
+      "name": "infectious disease",
+      "score": 0.5030392466541774,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.5030392466541774,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.3725668811991201,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.3705961992850847,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005502",
+      "name": "dengue disease",
+      "score": 0.3695798546847018,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.3695798546847018,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 6,
+  "tokens": {
+    "gate_in": 372,
+    "gate_out": 16,
+    "read_in": 2213,
+    "read_out": 95
+  },
+  "articles": []
+}

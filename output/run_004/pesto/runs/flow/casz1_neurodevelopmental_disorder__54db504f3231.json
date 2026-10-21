@@ -1,0 +1,860 @@
+{
+ "gene": "CASZ1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "disorder of neurological development",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "developmental brain disorder",
+   "neurodevelopmental impairment",
+   "developmental neurological disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "CASTOR",
+   "FLJ20321",
+   "ZNF693",
+   "CST",
+   "SRG",
+   "castor zinc finger 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 87,
+  "titlekicksparingfulltext": 28,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 18,
+   "Existing": 66,
+   "Hypothesized": 13,
+   "Novel": 3
+  },
+  "justification": "The strongest direct human evidence is the large-scale targeted sequencing study (PMID 33004838), which reports CASZ1 among genes reaching family-wise error rate significance for de novo mutation excess in >17,000 NDD trios \u2014 a credible but single primary dataset. Additional support comes from a CNV meta-analysis identifying CASZ1 as a dosage-sensitive driver candidate within 1p36 NDD-risk loci (PMID 38850022), but multigene deletions (also PMIDs 26345236, 41556146) cannot isolate CASZ1 from neighbors such as RERE, KCNAB2, or SKI, so they do not count as replication. Most other CASZ1 literature concerns cardiomyopathy, congenital heart disease, varicose veins, or neuroblastoma (PMIDs 28099117, 36293425, 23892435, 25953344), which are not neurodevelopmental phenotypes, and one Alzheimer's biomarker study reports a non-mediating association with a synaptic marker (PMID 35173266). Because I cannot cite two independent primary studies reporting single-gene CASZ1 variants in NDD probands, the evidence falls short of Established and best fits Existing, with some residual probability for Established given the robustness of the de novo burden signal.",
+  "pmids": [],
+  "detail": {
+   "Established": 18,
+   "Existing": 66,
+   "Hypothesized": 13,
+   "Novel": 3
+  }
+ },
+ "articles": [
+  {
+   "pmid": "33004838",
+   "title": "Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders.",
+   "abstract": "Most genes associated with neurodevelopmental disorders (NDDs) were identified with an excess of de novo mutations (DNMs) but the significance in case-control mutation burden analysis is unestablished. Here, we sequence 63 genes in 16,294 NDD cases and an additional 62 genes in 6,211 NDD cases. By combining these with published data, we assess a total of 125 genes in over 16,000 NDD cases and compare the mutation burden to nonpsychiatric controls from ExAC. We identify 48 genes (25 newly reported) showing significant burden of ultra-rare (MAF\u2009<\u20090.01%) gene-disruptive mutations (FDR 5%), six of which reach family-wise error rate (FWER) significance (p\u2009<\u20091.25E-06). Among these 125 targeted genes, we also reevaluate DNM excess in 17,426 NDD trios with 6,499 new autism trios. We identify 90 genes enriched for DNMs (FDR 5%; e.g., GABRG2 and UIMC1); of which, 61 reach FWER significance (p\u2009<\u20093.64E-07; e.g., CASZ1). In addition to doubling the number of patients for many NDD risk genes, we present phenotype-genotype correlations for seven risk genes (CTCF, HNRNPU, KCNQ3, ZBTB18, TCF12, SPEN, and LEO1) based on this large-scale targeted sequencing effort.",
+   "found_by": [],
+   "pubdate": "2020 Oct 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "26345236",
+   "title": "1p36 deletion syndrome: an update.",
+   "abstract": "Deletions of chromosome 1p36 affect approximately 1 in 5,000 newborns and are the most common terminal deletions in humans. Medical problems commonly caused by terminal deletions of 1p36 include developmental delay, intellectual disability, seizures, vision problems, hearing loss, short stature, distinctive facial features, brain anomalies, orofacial clefting, congenital heart defects, cardiomyopathy, and renal anomalies. Although 1p36 deletion syndrome is considered clinically recognizable, there is significant phenotypic variation among affected individuals. This variation is due, at least in part, to the genetic heterogeneity seen in 1p36 deletions which include terminal and interstitial deletions of varying lengths located throughout the 30 Mb of DNA that comprise chromosome 1p36. Array-based copy number variant analysis can easily identify genomic regions of 1p36 that are deleted in an affected individual. However, predicting the phenotype of an individual based solely on the location and extent of their 1p36 deletion remains a challenge since most of the genes that contribute to 1p36-related phenotypes have yet to be identified. In addition, haploinsufficiency of more than one gene may contribute to some phenotypes. In this article, we review recent successes in the effort to map and identify the genes and genomic regions that contribute to specific 1p36-related phenotypes. In particular, we highlight evidence implicating MMP23B, GABRD, SKI, PRDM16, KCNAB2, RERE, UBE4B, CASZ1, PDPN, SPEN, ECE1, HSPG2, and LUZP1 in various 1p36 deletion phenotypes.",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25953344",
+   "title": "Casz1 is required for cardiomyocyte G1-to-S phase progression during mammalian cardiac development.",
+   "abstract": "Organ growth occurs through the integration of external growth signals during the G1 phase of the cell cycle to initiate DNA replication. Although numerous growth factor signals have been shown to be required for the proliferation of cardiomyocytes, genetic studies have only identified a very limited number of transcription factors that act to regulate the entry of cardiomyocytes into S phase. Here, we report that the cardiac para-zinc-finger protein CASZ1 is expressed in murine cardiomyocytes. Genetic fate mapping with an inducible Casz1 allele demonstrates that CASZ1-expressing cells give rise to cardiomyocytes in the first and second heart fields. We show through the generation of a cardiac conditional null mutation that Casz1 is essential for the proliferation of cardiomyocytes in both heart fields and that loss of Casz1 leads to a decrease in cardiomyocyte cell number. We further report that the loss of Casz1 leads to a prolonged or arrested S phase, a decrease in DNA synthesis, an increase in phospho-RB and a concomitant decrease in the cardiac mitotic index. Taken together, these studies establish a role for CASZ1 in mammalian cardiomyocyte cell cycle progression in both the first and second heart fields.",
+   "found_by": [],
+   "pubdate": "2015 Jun 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "23892435",
+   "title": "CASZ1 inhibits cell cycle progression in neuroblastoma by restoring pRb activity.",
+   "abstract": "Dysregulation of cell cycle genes such as Cyclin D1 and Chk1 contributes to the undifferentiated phenotype of neuroblastoma (NB). CASZ1 functions as a tumor suppressor in NB; here we sought to determine how loss of CASZ1 contributes to cell cycle dysregulation in NB. CASZ1 restoration in NB cells delays NB cell cycle progression. The earliest changes occur within 8 h of CASZ1 restoration in SY5Y cells with a 2.8-fold increase in the level of p21, an inhibitor of Cdk2/4. By 16 h, there is a 40% decrease in the steady-state levels of Cdk6. Restoration of CASZ1 decreases Cdk2-dependent cyclins A and E protein levels and Cdk4/6-dependent Cyclin D1 protein levels. The restoration of CASZ1 resulted in a decrease in pRb phosphorylation and a significant reduction of E2F transcriptional activity. Subsequent to the changes in the G 1/S transition, induction of CASZ1 results in a decrease in Cyclin B levels and Cdc25c phosphatase levels, an upstream activator of the G 2/M regulator CyclinB:Cdk1. In addition, induction of CASZ1 results in a decrease in the levels of phospho-Chk1, a key M-phase regulatory kinase. Similar results were found in a NB cell line with MYCN amplification. Taken together, this study indicates that restoration of CASZ1 activates pRb in G 1 and inhibits the G 2/M regulators Cyclin B1 and Chk1, leading to a lengthening of NB cell cycle progression and a subsequent decrease in cell proliferation.",
+   "found_by": [],
+   "pubdate": "2013 Jul 15",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "28099117",
+   "title": "CASZ1 loss-of-function mutation contributes to familial dilated cardiomyopathy.",
+   "abstract": "BACKGROUND: The zinc finger transcription factor CASZ1 plays a key role in cardiac development and postnatal adaptation, and in mice, deletion of the CASZ1 gene leads to dilated cardiomyopathy (DCM). However, in humans whether genetically defective CASZ1 contributes to DCM remains unclear. METHODS: The coding exons and splicing junction sites of the CASZ1 gene were sequenced in 138 unrelated patients with idiopathic DCM. The available family members of the index patient harboring an identified CASZ1 mutation and 200 unrelated, ethnically matched healthy individuals used as controls were genotyped for CASZ1. The functional characteristics of the mutant CASZ1 were analyzed in contrast to its wild-type counterpart using a luciferase reporter assay system. RESULTS: A novel heterozygous CASZ1 mutation, p.K351X, was identified in an index patient with DCM. Genetic analysis of the mutation carrier's family showed that the mutation co-segregated with DCM, which was transmitted in an autosomal dominant pattern with complete penetrance. The nonsense mutation, which was absent in 400 referential chromosomes, altered the amino acid that was highly conserved evolutionarily. Biological investigations revealed that the mutant CASZ1 had no transcriptional activity. CONCLUSIONS: The current study reveals CASZ1 as a new gene responsible for human DCM, which provides novel mechanistic insight and potential therapeutic target for CASZ1-associated DCM, implying potential implications in improved prophylactic and therapeutic strategies for DCM, the most common type of primary myocardial disease.",
+   "found_by": [],
+   "pubdate": "2017 Aug 28",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37509718",
+   "title": "CASZ1: Current Implications in Cardiovascular Diseases and Cancers.",
+   "abstract": "Castor zinc finger 1 (CASZ1) is a C2H2 zinc finger family protein that has two splicing variants, CASZ1a and CASZ1b. It is involved in multiple physiological processes, such as tissue differentiation and aldosterone antagonism. Genetic and epigenetic alternations of CASZ1 have been characterized in multiple cardiovascular disorders, such as congenital heart diseases, chronic venous diseases, and hypertension. However, little is known about how CASZ1 mechanically participates in the pathogenesis of these diseases. Over the past decades, at first glance, paradoxical influences on cell behaviors and progressions of different cancer types have been discovered for CASZ1, which may be explained by a \"double-agent\" role for CASZ1. In this review, we discuss the physiological function of CASZ1, and focus on the association of CASZ1 aberrations with the pathogenesis of cardiovascular diseases and cancers.",
+   "found_by": [],
+   "pubdate": "2023 Jul 24",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41556146",
+   "title": "First Detection of 1p36 Deletion by Whole-Exome Sequencing in a Tunisian Patient.",
+   "abstract": "STUDY OBJECTIVE: We reported a rare case of 1p36 deletion syndrome diagnosed using whole-exome sequencing (WES) in a Tunisian neonate, and to highlight the utility of WES in detecting structural variants, particularly in resource-limited settings. METHODS: Clinical and genetic investigations were conducted on a female neonate presenting with a severe polymalformative syndrome. WES was performed to detect potential genetic abnormalities, followed by validation through fluorescence in\u00a0situ hybridization (FISH). Variant annotation and classification were done in accordance with ACMG guidelines. RESULTS: WES identified a heterozygous interstitial deletion in the 1p36 region, spanning 11.64\u2009Mb and affecting 155 coding genes, including key genes such as MMP23B, GABRD, SKI, PRDM16, KCNAB2, RERE, UBE4B, and CASZ1. The deletion was classified as pathogenic, and FISH analysis confirmed its presence. Clinically, the patient exhibited intrauterine growth restriction, neonatal epilepsy, craniofacial dysmorphia, congenital heart defect, and agenesis of the corpus callosum. CONCLUSION: This is the first reported case in Tunisia of a 1p36 deletion identified via short-read WES. The findings support the expanding role of WES in structural variant detection and underscore its diagnostic value, especially in settings with limited access to chromosomal microarray or genome sequencing technologies.",
+   "found_by": [],
+   "pubdate": "2026 Jan",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36293425",
+   "title": "Identification of a Novel de Novo Variant in the CASZ1 Causing a Rare Type of Dilated Cardiomyopathy.",
+   "abstract": "UNLABELLED: A new de novo frameshift variant has been identified in the CASZ1 gene leading to severe dilated cardiomyopathy. METHODS: The proband was analyzed with WES NGS, post-mortem, using dried blood spots on filters. The variant was verified with Sanger sequencing for the proband and her parents. RESULTS: We reported a proband with a new de novo frameshift mutation, c.3781del (p.(Trp1261GlyfsTer29)), in the CASZ1 gene. The clinical presentation was similar to the severe phenotype described in previous studies. CONCLUSIONS: In this study, we described a new case with a frameshift mutation in CASZ1 causing a severe phenotype of dilated cardiomyopathy.",
+   "found_by": [],
+   "pubdate": "2022 Oct 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35173266",
+   "title": "Rare variants in IFFO1, DTNB, NLRC3 and SLC22A10 associate with Alzheimer's disease CSF profile of neuronal injury and inflammation.",
+   "abstract": "Alzheimer's disease (AD) biomarkers represent several neurodegenerative processes, such as synaptic dysfunction, neuronal inflammation and injury, as well as amyloid pathology. We performed an exome-wide rare variant analysis of six AD biomarkers (\u03b2-amyloid, total/phosphorylated tau, NfL, YKL-40, and Neurogranin) to discover genes associated with these markers. Genetic and biomarker information was available for 480 participants from two studies: EMIF-AD and ADNI. We applied a principal component (PC) analysis to derive biomarkers combinations, which represent statistically independent biological processes. We then tested whether rare variants in 9576 protein-coding genes associate with these PCs using a Meta-SKAT test. We also tested whether the PCs are intermediary to gene effects on AD symptoms with a SMUT test. One PC loaded on NfL and YKL-40, indicators of neuronal injury and inflammation. Four genes were associated with this PC: IFFO1, DTNB, NLRC3, and SLC22A10. Mediation tests suggest, that these genes also affect dementia symptoms via inflammation/injury. We also observed an association between a PC loading on Neurogranin, a marker for synaptic functioning, with GABBR2 and CASZ1, but no mediation effects. The results suggest that rare variants in IFFO1, DTNB, NLRC3, and SLC22A10 heighten susceptibility to neuronal injury and inflammation, potentially by altering cytoskeleton structure and immune activity disinhibition, resulting in an elevated dementia risk. GABBR2 and CASZ1 were associated with synaptic functioning, but mediation analyses suggest that the effect of these two genes on synaptic functioning is not consequential for AD development.",
+   "found_by": [],
+   "pubdate": "2022 Apr",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35737725",
+   "title": "Exome sequencing in multiplex families with left-sided cardiac defects has high yield for disease gene discovery.",
+   "abstract": "Congenital heart disease (CHD) is a common group of birth defects with a strong genetic contribution to their etiology, but historically the diagnostic yield from exome studies of isolated CHD has been low. Pleiotropy, variable expressivity, and the difficulty of accurately phenotyping newborns contribute to this problem. We hypothesized that performing exome sequencing on selected individuals in families with multiple members affected by left-sided CHD, then filtering variants by population frequency, in silico predictive algorithms, and phenotypic annotations from publicly available databases would increase this yield and generate a list of candidate disease-causing variants that would show a high validation rate. In eight of the nineteen families in our study (42%), we established a well-known gene/phenotype link for a candidate variant or performed confirmation of a candidate variant's effect on protein function, including variants in genes not previously described or firmly established as disease genes in the body of CHD literature: BMP10, CASZ1, ROCK1 and SMYD1. Two plausible variants in different genes were found to segregate in the same family in two instances suggesting oligogenic inheritance. These results highlight the need for functional validation and demonstrate that in the era of next-generation sequencing, multiplex families with isolated CHD can still bring high yield to the discovery of novel disease genes.",
+   "found_by": [],
+   "pubdate": "2022 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42227926",
+   "title": "Dilated and Noncompaction Cardiomyopathy in a Pediatric Patient With Maternal CASZ1 Variant.",
+   "abstract": "BACKGROUND: The CASZ1 gene expresses a cardiomyocyte transcription factor implicated in early heart morphogenesis. CASZ1 variants have been associated with the development of dilated cardiomyopathy (DCM) and noncompaction cardiomyopathy (NCCM), although reported cases are limited. CASE SUMMARY: A 3-month-old boy with no family history of cardiomyopathy presented with a murmur and persistent tachycardia. Echocardiogram showed moderate global left ventricular hypokinesis with trabeculations and mild left atrial dilation. Genetic testing identified an autosomal dominant CASZ1 variant in exon 15, c.3088del:p.(His1030Thrfs\u2217120), inherited from his asymptomatic mother. Although he is clinically doing well at age 18 months, he will need lifelong management. DISCUSSION: Our case highlights the discovery of a novel CASZ1 variant leading to DCM and NCCM, emphasizing the importance of genetic testing in patients with no known family history. TAKE-HOME MESSAGE: Genetic testing is a critical component of the workup of unexplained DCM and NCCM in pediatric patients.",
+   "found_by": [],
+   "pubdate": "2026 Jul 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34358671",
+   "title": "Association of varicose veins with rare protein-truncating variants in PIEZO1 identified by exome sequencing of a large clinical population.",
+   "abstract": "OBJECTIVE: The present study sought to determine whether protein-truncating variants (PTVs) in PIEZO1 and CASZ1 genes, previously shown to be associated with varicose veins, were associated with an altered risk of varicose veins. METHODS: An exome sequence database of 131,918 participants from the Geisinger MyCode Community Health Initiative was used to identify individuals with genetic variants in the PIEZO1 or CASZ1 gene. Clinical phenotypes, including varicose vein diagnoses, were determined by analysis of the electronic health record data. RESULTS: We identified 12,531 individuals (9.5%) with a diagnosis of varicose veins. Exome sequence data identified 92 PIEZO1 PTVs in 305 heterozygous carriers. PIEZO1 PTVs were significantly enriched in those with varicose vein (0.37% of cases vs 0.22% of controls; odds ratio [OR], 1.7; P\u00a0= .0010). Nearly all varicose vein cases were associated with frameshift or stop-gain PTVs (OR, 3.0 for stop-gain [P\u00a0= .0001]; OR, 2.9 for frameshift variants [P\u00a0< .0001]). In the varicose vein cases, the PTV carriers were more likely to have an encounter with a vascular surgeon (62.5% for PTV carriers; 36.9% for noncarriers; P\u00a0= .0003) and more likely to have received vein ablation therapy (OR, 6.9; P\u00a0< .0001). No association was found between PIEZO1 PTVs and lymphedema, and no association was found for rare missense variants in PIEZO1 with varicose veins. PTVs in CASZ1 were extremely rare (16 total carriers), with none identified in those with varicose vein. CONCLUSIONS: Rare PTVs in PIEZO1 but not CASZ1 were associated with varicose veins and the need for vein ablation therapy. These results have demonstrated that PTVs in the PIEZO1 gene are rare but represent strong genetic risk factors for varicose veins and the need for vein ablation therapy. These results have also identified a potential biologic mechanism and target for the development of novel therapies.",
+   "found_by": [],
+   "pubdate": "2022 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38814801",
+   "title": "Identification of a De novo pathogenic missense variant (c.559G>A) in CASZ1 associated with dilated cardiomyopathy.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2024 Sep 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42017216",
+   "title": "Genome-Wide Association Study of Chronic Venous Insufficiency and Lymphedema in the Million Veteran Program.",
+   "abstract": "BACKGROUND: Lymphedema is a chronic condition characterized by the accumulation of fluid due to impaired lymphatic drainage, frequently occurring secondary to chronic venous insufficiency (CVI), malignancy, or obesity. Despite known environmental and clinical risk factors, the genetic contributors to lymphedema and CVI have been understudied. METHODS: We conducted a multipopulation genome-wide association study in participants of the Million Veteran Program without cancer to identify genetic variants associated with CVI, lymphedema, and their cooccurrence. Individuals were categorized into 3 case groups: CVI only (n=34\u2009664), lymphedema only (n=2452), and lymphedema+CVI (n=3283) and were compared with 367\u2009684 controls. RESULTS: We identified 11 genome-wide significant variants (P<5\u00d710-8) in the multipopulation analysis, including 8 for CVI only, 1 for lymphedema only, and 2 for lymphedema+CVI, and 2 population-specific genetic variants. Three independent variants replicated in the UK Biobank for CVI only near CASZ1, SLC12A2, and NDP. Polygenic risk scores derived from the Million Veteran Program were associated with CVI in the UK Biobank and phenome-wide associations of CVI-associated variants revealed pleiotropic associations with cardiometabolic traits. CONCLUSIONS: These findings enhance our understanding of the genetic architecture of lymphatic dysfunction.",
+   "found_by": [],
+   "pubdate": "2026 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41594738",
+   "title": "From Transcriptome to Therapy: The ncRNA Revolution in Neurodevelopmental Disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) such as autism spectrum disorder (ASD), attention-deficit/hyperactivity disorder (ADHD), and intellectual disability (ID) arise from disruptions of molecular programmes that coordinate neurogenesis, synaptogenesis, and circuit maturation. While genomic studies have identified numerous susceptibility loci, genetic variation alone accounts for only part of disease heritability, underscoring the importance of post-transcriptional and epigenetic regulation. Among these regulatory layers, non-coding RNAs (ncRNAs), including microRNAs (miRNAs), long non-coding RNAs (lncRNAs), circular RNAs (circRNAs), PIWI-interacting RNAs (piRNAs), and transfer RNA-derived small RNAs (tsRNAs), have emerged as central modulators of neural differentiation, synaptic plasticity, and intercellular signalling. Recent multi-omics and single-cell studies reveal that ncRNAs fine-tune chromatin accessibility, transcriptional output, and translation through tightly integrated regulatory networks. miRNAs shape neurogenic transitions and circuit refinement; lncRNAs and circRNAs couple chromatin architecture to activity-dependent transcription; and tsRNAs and piRNAs extend this regulation by linking translational control to epigenetic memory and environmental responsiveness. Spatial transcriptomics further maps ncRNA expression to vulnerable neuronal and glial subtypes across cortical and subcortical regions. Clinically, circulating ncRNAs, especially those packaged in extracellular vesicles, exhibit stable, disease-associated signatures, supporting their potential as minimally invasive biomarkers for early diagnosis and patient stratification. Parallel advances in RNA interference, antisense oligonucleotides, CRISPR-based editing, and vesicle-mediated delivery highlight emerging therapeutic opportunities. These developments position ncRNAs as both mechanistic determinants and translational targets in NDDs, offering a unifying framework that links genome regulation, environmental cues, and neural plasticity, and paving the way for next-generation RNA-guided diagnostics and therapeutics. [full text, passages naming CASZ1] ...inical samples | [ | 62 ] circRtn4\u2013miR-24-3p\u2013CHD5 axis | Derepression of CHD5; neurite outgrowth and chromatin remodelling | Normal brain development | Mouse neurons/conserved human loci | [ | 63 ] Edis\u2013Relish\u2013castor feedback loop | Integration of innate immunity with neuronal differentiation | Drosophila neurodevelopment and immune response | Invertebrate models; genetic and molecular studies | [ | 64 , 65 ] circFGF... ...ts. Qi et al. identified a circRtn4\u2013miR-24-3p\u2013CHD5 axis promoting neurite outgrowth via derepression of the chromatin remodeller CHD5 [ 63 ]. In Drosophila, the circular RNA Edis participates in an Edis\u2013Relish\u2013castor loop regulating neuronal differentiation and immune responses [ 64 , 65 ], illustrating evolutionary conservation. Glial circRNAs also contribute: circFGFR2 triggers astrocytic pyroptosis in ischaemic in... ...circular RNA Edis regulates neurodevelopment and innate immunity. PLoS Genet. 2022;18:e1010429. doi: 10.1371/journal.pgen.1010429. 65. Liu W., Liang W., Xiong X.P., Li J.L., Zhou R. A circular RNA Edis-Relish-castor axis regulates neuronal development in Drosophila. PLoS Genet. 2022;18:e1010433. doi: 10.1371/journal.pgen.1010433. 66. Pang N., Liu Y., Yu S., Li Y., Shi K. CircFGFR2 induces astrocyte pyroptosis to pro...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42168661",
+   "title": "MSL2 disruption leads to autism-like behaviors, impairs neurogenesis, and alters histone H4K16 acetylation.",
+   "abstract": "Neurodevelopmental disorders (NDDs) are frequently associated with dysregulation of epigenetic mechanisms. Recent studies have implicated variants in components of the Male-Specific Lethal (MSL) complex, including MSL2, in NDD pathogenesis. However, the pathogenic mechanisms underlying\u00a0MSL2-related neurodevelopmental disorders remain poorly defined. Here, we elucidate the role of MSL2 in neurodevelopment and NDDs through comprehensive analysis of conditional knockout mice and multi-omics profiling. Aggregation of published and unpublished genomic data and case series revealed that pathogenic variants in MSL complex components, including MSL2, presented with shared phenotypes. Using a nervous system-specific Msl2 conditional knockout mouse model, we demonstrate that Msl2 deficiency leads to impaired social novelty recognition, learning deficits, and spatial memory impairments. These behavioral abnormalities are characterized by disrupted neocortical lamination, compromised proliferation capacity and differentiative ability of neural progenitor cells, and reduced neuronal migration. Mechanistically, Msl2-deficient brains exhibit significantly reduced levels of histone H4 lysine 16 acetylation (H4K16ac), particularly at promoter regions. Integrated RNA-seq, ChIP-seq, and ATAC-seq analyses revealed widespread transcriptional downregulation and loss of chromatin accessibility at NDD-related genes. Variants in the MSL2 DNA-binding domain disrupted its ability to target key regulatory genes including FMR1, confirming direct epigenetic regulation. Together, these findings demonstrate that MSL2 promotes neurodevelopment primarily by maintaining chromatin accessibility through H4K16ac deposition, and its disruption underlies the molecular and behavioral hallmarks of NDDs.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41983441",
+   "title": "Deficiency of &lt;i&gt;pnkp&lt;/i&gt; in zebrafish causes microcephaly, seizures, and developmental delay through mitochondrial dysfunction.",
+   "abstract": "Variants in PNKP cause a severe neurodevelopmental disorder characterized by microcephaly, seizures, and developmental delay (MCSZ). Despite clear clinical significance, the pathological mechanisms underlying this condition remain incompletely understood. In this study, CRISPR/Cas9 genome editing was applied to generate a zebrafish pnkp knockout model ( pnkp -/- ), overcoming limitations associated with previously reported mouse models that exhibited postnatal lethality. The pnkp -/- zebrafish faithfully recapitulated key phenotypic traits observed in human PNKP deficiency, facilitating in-depth exploration of the molecular mechanisms contributing to disease. Loss of PNKP function resulted in mitochondrial DNA damage, accompanied by disruption of mitochondrial ultrastructure and bioenergetic function, increased apoptosis, and reduced autophagic activity, collectively leading to pronounced cerebral neurodevelopmental abnormalities. Transcriptomic analysis based on RNA sequencing identified marked down-regulation of gamma-aminobutyric acid (GABA) receptor-related genes. Pharmacological activation of GABA A receptors with muscimol partially rescued hyperactive behavior in pnkp -/- zebrafish, suggesting a potential link between GABAergic signaling and seizure-related phenotypes. Drug screening performed using the pnkp -/- zebrafish model further identified lamotrigine as a comparatively effective compound for seizure control associated with PNKP mutations. These findings clarify mechanistic links between PNKP deficiency and MCSZ pathology, identify candidate therapeutic agents, and provide an experimental framework for investigation of disorders associated with defective DNA repair.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42320471",
+   "title": "De novo variants in LDB1 are linked to distinct neurodevelopmental phenotypes determined by variant location and differing pathomechanisms.",
+   "abstract": "LDB1 encodes transcriptional regulator protein LIM domain-binding protein 1, which plays an important role in neurogenesis. Few C-terminal likely gene-disrupting (LGD) variants have been reported in the literature in individuals with congenital ventriculomegaly. Through international collaboration, we now assembled a cohort of 16 individuals with de novo variants affecting various regions of LDB1. Eleven variants affect either the whole gene or the N-terminal dimerization domain (including gene deletions, as well as nonsense-mediated mRNA decay (NMD)-sensitive LGD and missense variants), and five variants (missense or NMD-escaping LGD variants) affect only the C terminus of LDB1 containing the LIM interaction domain. All individuals showed variable neurodevelopmental phenotypes, including developmental delay and behavioral anomalies. In line with literature reports, individuals harboring C-terminal variants additionally presented with ventriculomegaly, which suggests a potential genotype-phenotype correlation. In accordance, we found diverging pathomechanisms in vitro: N-terminal missense variants disrupt homodimerization of LDB1, likely leading to a loss of function, while C-terminal variants impair interaction with the essential partner LHX2 in a dominant-negative manner. These findings were confirmed in vivo in Drosophila melanogaster. Toxicity of overexpressed human LDB1 in Drosophila was not observed with N-terminal missense variants but was exacerbated by C-terminal variants. Similarly, phenotypes associated with LDB1/chi loss were rescued by overexpression of wild-type LDB1 but not by LDB1 harboring N-terminal missense variants or by C-terminal variants that even worsened phenotypes. In summary, our findings indicate that de novo variants in LDB1 are linked to two overlapping but distinct neurodevelopmental phenotypes based on variant location and propose two separate pathomechanisms underlying LDB1-related neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41438488",
+   "title": "Homozygous Deletion of the Epigenetic Regulator &lt;i&gt;PHF20&lt;/i&gt; in Individuals With Neurodevelopmental Disorder.",
+   "abstract": "PHF20 encodes plant homeodomain finger protein 20 (PHF20), a component of the KAT8-containing nonspecific lethal (NSL) complex that deposits acetylation on histone H4 to activate gene expression. We report two unrelated individuals with developmental delay, microcephaly, and distinctive facial features, in whom exome sequencing and chromosomal microarray analysis revealed a homozygous deletion of PHF20 that segregated with the disease phenotype in their families. Breakpoint junction sequencing revealed an Alu-Alu-mediated deletion event. Western blot in cells from an affected individual showed undetectable PHF20, while levels of other NSL complex subunits were unaltered. Transcriptomic and epigenomic analysis revealed significant downregulation of gene pathways related to cell projection and neuronal development, associated with reduced histone H4K16 acetylation at these genes. In conclusion, our data suggest that homozygous deletion of PHF20 leads to a neurodevelopmental syndrome, potentially through targeted epigenetic dysregulation and altered gene expression essential for neuronal development. Identifying additional families with biallelic PHF20 variants will further delineate the phenotypic spectrum, and molecular studies in neuronal cell lines will be essential for understanding the disease mechanism.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming CASZ1] ...36.22 (novel) | | CAMTA1\u2217\u2217+, MTOR\u2217\u2217+ | SPSB1+, TARDBP\u2217+, SKI\u2217\u2217+, LRRC47+, TP73\u2217\u2217+, ICMT+, PARK7\u2217+, TMEM201\u2217+, CLSTN1\u2217+, PIK3CD\u2217+, UBE4B\u2217+, KIF1B\u2217+, PGD\u2217+, MFN2\u2217+, GNB1\u2217\u2217+, AJAP1\u2217+, CHD5\u2217\u2217+, DNAJC11\u2217+, RERE\u2217\u2217+, CASZ1\u2217\u2217+, PRDM16\u2217+ N/A | deletion | 1 | 1p36.33-p36.32 (novel) | N/A | | SKI\u2217\u2217+, LRRC47+, TP73\u2217\u2217+, GNB1\u2217\u2217+, AJAP1\u2217+, PRDM16\u2217+ N/A | deletion | 1 | 1q21.1 | N/A | | TXNIP, PIAS3\u2217 N/A | deletion-duplication | 1 |...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "33229526": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26474385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35578024": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39858587": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31858748": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35769265": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40539569": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38963692": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25249183": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30563911": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34895303": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32870709": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39730871": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20479155": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39101507": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41404655": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34362266": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33665188": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42192951": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41391741": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30998689": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35386101": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42577001": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31780960": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37461060": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24954895": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29504607": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40698100": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33004838": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "31629835": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36202807": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30548647": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22241389": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42520364": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40919408": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42449885": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26345236": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31570750": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25953344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23892435": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25190801": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30072429": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28099117": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37509718": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41556146": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36293425": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "17940511": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32060262": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31268246": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37182340": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27693370": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39195995": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28945738": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35173266": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38059696": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40108671": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37961312": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22331471": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35737725": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42227926": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38053207": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34358671": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38814801": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42017216": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41279911": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42146894": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42698208": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41827522": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41594738": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42724460": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40744455": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42051919": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42168661": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41983441": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42320471": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41438488": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39036895": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42164854": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38392344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41597107": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41213834": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41789364": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42632887": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40697837": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41788650": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42063051": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 226,
+   "usd": 0.00739,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "23 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "22 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4052,
+   "output_tokens": 182,
+   "usd": 0.004962,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 34.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.9,
+   "note": "",
+   "input_tokens": 31135,
+   "output_tokens": 1358,
+   "usd": 0.037925,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.6,
+   "note": "",
+   "input_tokens": 13576,
+   "output_tokens": 962,
+   "usd": 0.09193,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>18</established>\n    <existing>66</existing>\n    <hypothesized>13</hypothesized>\n    <novel>3</novel>\n  </probabilities>\n  <justification>The strongest direct human evidence is the large-scale targeted sequencing study (PMID 33004838), which reports CASZ1 among genes reaching family-wise error rate significance for de novo mutation excess in >17,000 NDD trios \u2014 a credible but single primary dataset. Additional support comes from a CNV meta-analysis identifying CASZ1 as a dosage-sensitive driver candidate within 1p36 NDD-risk loci (PMID 38850022), but multigene deletions (also PMIDs 26345236, 41556146) cannot isolate CASZ1 from neighbors such as RERE, KCNAB2, or SKI, so they do not count as replication. Most other CASZ1 literature concerns cardiomyopathy, congenital heart disease, varicose veins, or neuroblastoma (PMIDs 28099117, 36293425, 23892435, 25953344), which are not neurodevelopmental phenotypes, and one Alzheimer's biomarker study reports a non-mediating association with a synaptic marker (PMID 35173266). Because I cannot cite two independent primary studies reporting single-gene CASZ1 variants in NDD probands, the evidence falls short of Established and best fits Existing, with some residual probability for Established given the robustness of the de novo burden signal.</justification>\n  <pmids>\n    <pmid>33004838</pmid>\n    <pmid>38850022</pmid>\n    <pmid>26345236</pmid>\n    <pmid>41556146</pmid>\n    <pmid>35173266</pmid>\n    <pmid>23892435</pmid>\n    <pmid>25953344</pmid>\n    <pmid>37509718</pmid>\n  </pmids>\n</response>"
+}

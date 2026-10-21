@@ -1,0 +1,930 @@
+{
+ "gene": "CAMK2A",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "childhood autism",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "KIAA0968",
+   "CAMKIINALPHA",
+   "CAMKII\u0391",
+   "CAMKA",
+   "calcium/calmodulin dependent protein kinase II alpha"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 101,
+  "titlekicksparingfulltext": 22,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 40,
+   "Existing": 49,
+   "Hypothesized": 10,
+   "Novel": 1
+  },
+  "justification": "Direct human evidence exists: a de novo CAMK2A E183V variant was identified in an ASD proband and functionally validated (PMID 28130356), and a clinical WES cohort of 288 Saudi children with DSM-5 ASD listed CAMK2A among recurrently affected genes with pathogenic/likely pathogenic variants (PMID 42606785). Additional large de novo variant series (PMIDs 29100089, 29560374, 37510258) establish CAMK2A as a monogenic neurodevelopmental disorder gene (IDD53) whose phenotypic spectrum explicitly includes autism spectrum behaviors, supporting a strongly linked precursor/overlapping phenotype. However, most of these studies ascertain for intellectual disability/epilepsy rather than ASD per se, and the only clearly ASD-ascertained proband-level report is a single case, so replication specifically for ASD is thin; common-variant work (PMID 29147782) is only nominally significant. Mouse knock-in and organoid/expression studies add mechanistic support but are non-human. On balance, the evidence best fits Existing with substantial probability of Established.",
+  "pmids": [],
+  "detail": {
+   "Established": 40,
+   "Existing": 49,
+   "Hypothesized": 10,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "28130356",
+   "title": "A Novel Human CAMK2A Mutation Disrupts Dendritic Morphology and Synaptic Transmission, and Causes ASD-Related Behaviors.",
+   "abstract": "Characterizing the functional impact of novel mutations linked to autism spectrum disorder (ASD) provides a deeper mechanistic understanding of the underlying pathophysiological mechanisms. Here we show that a de novo Glu183 to Val (E183V) mutation in the CaMKII\u03b1 catalytic domain, identified in a proband diagnosed with ASD, decreases both CaMKII\u03b1 substrate phosphorylation and regulatory autophosphorylation, and that the mutated kinase acts in a dominant-negative manner to reduce CaMKII\u03b1-WT autophosphorylation. The E183V mutation also reduces CaMKII\u03b1 binding to established ASD-linked proteins, such as Shank3 and subunits of l-type calcium channels and NMDA receptors, and increases CaMKII\u03b1 turnover in intact cells. In cultured neurons, the E183V mutation reduces CaMKII\u03b1 targeting to dendritic spines. Moreover, neuronal expression of CaMKII\u03b1-E183V increases dendritic arborization and decreases both dendritic spine density and excitatory synaptic transmission. Mice with a knock-in CaMKII\u03b1-E183V mutation have lower total forebrain CaMKII\u03b1 levels, with reduced targeting to synaptic subcellular fractions. The CaMKII\u03b1-E183V mice also display aberrant behavioral phenotypes, including hyperactivity, social interaction deficits, and increased repetitive behaviors. Together, these data suggest that CaMKII\u03b1 plays a previously unappreciated role in ASD-related synaptic and behavioral phenotypes.SIGNIFICANCE STATEMENT Many autism spectrum disorder (ASD)-linked mutations disrupt the function of synaptic proteins, but no single gene accounts for >1% of total ASD cases. The molecular networks and mechanisms that couple the primary deficits caused by these individual mutations to core behavioral symptoms of ASD remain poorly understood. Here, we provide the first characterization of a mutation in the gene encoding CaMKII\u03b1 linked to a specific neuropsychiatric disorder. Our findings demonstrate that this ASD-linked de novo CAMK2A mutation disrupts multiple CaMKII functions, induces synaptic deficits, and causes ASD-related behavioral alterations, providing novel insights into the synaptic mechanisms contributing to ASD.",
+   "found_by": [],
+   "pubdate": "2017 Feb 22",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37510258",
+   "title": "Deletion of a Single Lysine Residue at Position 292 of CAMK2A Disrupts Protein Function, Causing Severe Epileptic Encephalopathy and Intellectual Disability.",
+   "abstract": "BACKGROUND: The use of NGS technology has rapidly increased during the last decade, and many new monogenic neurodevelopmental disorders have emerged. Pathogenic variants in the neuronal CAMK2A gene have been recently associated with \"intellectual developmental disorder, autosomal dominant 53\u2033 (OMIM#617798), a syndrome characterized by variable clinical manifestations including mild to severe intellectual disability, delayed psychomotor development, delayed or absent speech, delayed walking, seizures, dysmorphic features and behavioral psychiatric manifestations as autism spectrum disorders, aggressive behavior, and hyperactivity. CAMK2A (OMIM*114078) encodes for a subunit of the calcium/calmodulin-dependent serine/threonine kinase II (CaMKII), which is predominately expressed in the brain, where it plays critical roles in synaptic plasticity, learning, and memory as well as in neuronal migration. METHODS AND RESULTS: We hereby describe a thirty-five-year-old woman affected by severe intellectual disability with epileptic encephalopathy. We performed exome sequencing and found a de novo heterozygous variant in the CAMK2A gene (NM_171825.2: c.874_876delCTT; p.Lys292del), which was fully correlated with her phenotype. This is the first report of an inframe single amino acid deletion in a patient affected by intellectual developmental disorder autosomal dominant 53. The variant is predicted to affect protein structure and function and interaction with other proteins and hits a crucial functional site. DISCUSSION: We discuss our variant in relation to previously reported variants and with the objective of delineating possible genotype-phenotype correlations.",
+   "found_by": [],
+   "pubdate": "2023 Jun 27",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "29147782",
+   "title": "Common functional variants of the glutamatergic system in Autism spectrum disorder with high and low intellectual abilities.",
+   "abstract": "The genetic architecture underlying Autism spectrum disorder (ASD) has been suggested to differ between individuals with lower (IQ\u00a0\u2264\u00a070; LIQ) and higher intellectual abilities (IQ\u00a0>\u00a070; HIQ). Among the identified pathomechanisms, the glutamatergic signalling pathway is of specific interest in ASD. We investigated 187 common functional variants of this neurotransmitter system for association with ASD and with symptom severity in two independent samples, a German (German-ALL: N\u00a0=\u00a0583 families) and the Autism Genome Project cohort (AGP-ALL: N\u00a0=\u00a02001 families), split into HIQ, and LIQ subgroups. We did not identify any association withstanding correction for multiple testing. However, we report a replicated nominal significant under-transmission (OR\u00a0<\u00a00.79, p\u00a0<\u00a00.04) of the AKAP13 rs745191-T allele in both LIQ cohorts, but not in the much larger HIQ cohorts. At the phenotypic level, we nominally replicated associations of CAMK2A-rs2241694 with non-verbal communication in both combined LIQ and HIQ ASD cohorts. Variants PLD1-rs2124147 and ADCY1-rs2461127 were nominally associated with impaired non-verbal abilities and AKAP2-rs3739456 with repetitive behaviour in both LIQ cohorts. All four LIQ-associated genes are involved in G-protein coupled signal transduction, a downstream pathway of metabotropic glutamate receptor activation. We conclude that functional common variants of glutamatergic genes do not have a\u00a0strong impact on ASD, but seem to moderately affect ASD risk and phenotypic expression. Since most of our nominally replicated hits were identified in the LIQ cohort, further investigation of the glutamatergic system in this subpopulation might be warranted.",
+   "found_by": [],
+   "pubdate": "2018 Feb",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "29935919",
+   "title": "Increased expression of BDNF mRNA in the frontal cortex of autistic patients.",
+   "abstract": "Autistic spectrum disorders (ASDs) are neurodevelopmental disorders for which genetic components have been well defined. However, specific gene deregulations related to synapse function in the autistic brain have not been as extensively described. Based on a candidate genes approach, we present in this study the expression data of 4 transcripts of interest (BDNF, CAMK2a, NR-CAM and RIMS1) located at the synapse in two regions of interest in the context of the ASDs; the lobule VI of cerebellum and the Brodmann area 46. We have also genotyped in our cohort the coding single nucleotide polymorphism rs6265, located in the BDNF gene. After correction for age and sex, whereas no change was observed in the lobule VI between controls and autistic patients, we found a significant increase of BDNF expression level in the BA46 from autistic patients. No significant interaction between the rs6265 genotype and autism was observed for the BDNF expression. However, \"A\" allele carriers are more likely to have increased BDNF levels. Finally, we found a significant positive correlation between BDNF and RIMS1 expression levels. Our data suggest that these two molecules which are involved in cell signalling at the synapse, might have coordinated expressions and, that BDNF regulation in the brain has to be investigated further in the context of ASDs.",
+   "found_by": [],
+   "pubdate": "2019 Feb 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42606785",
+   "title": "Diagnostic Yield of Whole Exome Sequencing in Autism Spectrum Disorder Patients at a Tertiary Center in Saudi Arabia.",
+   "abstract": "PURPOSE: Autism spectrum disorder (ASD) is a clinically and genetically heterogeneous neurodevelopmental condition. Whole\u2011exome sequencing (WES) is a pivotal diagnostic tool, though its yield varies across populations. This study aimed to determine the diagnostic yield and characterize the genetic spectrum identified by WES in a pediatric ASD cohort from Saudi Arabia. METHODS: We conducted a retrospective cohort study of 288 children (<\u200914 years) with DSM\u20115\u2011confirmed ASD who underwent clinical WES at a tertiary center between 2021 and 2024. Variants were classified according to ACMG/AMP guidelines. RESULTS: The overall diagnostic yield for pathogenic or likely pathogenic variants was 30% (86/288). Variants of uncertain significance were identified in 22% (63/288) of patients. Recurrently affected genes included SHANK3, SCN2A, SYNGAP1, CAMK2A, GRIN2B, and CNTNAP2. Notably, variants in GFAP, a gene primarily associated with Alexander disease, were found in six patients presenting with ASD, macrocephaly, and developmental delay. CONCLUSIONS: WES provided a molecular diagnosis in 30% of this Saudi ASD cohort. The identification of GFAP variants raises the hypothesis that astrocytic dysfunction may play a role in a subset of ASD cases, though this finding requires independent replication and functional validation. These results underscore the clinical utility of WES and highlight the need for population\u2011specific genomic resources.",
+   "found_by": [],
+   "pubdate": "2026 Aug 17",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38835877",
+   "title": "Genetic testing in adults with developmental and epileptic encephalopathy - what do we know?",
+   "abstract": "Knowledge of underlying genetic causes of developmental and epileptic encephalopathies (DEE) in adults is still limited when compared to the routine diagnostic approach in similarly affected children. A well-documented longitudinal study of adults with DEE is of utmost importance to understand the natural history of the respective entity. This information is of great value especially for genetic counselling of newly diagnosed children with identical genetic diagnoses and may impact treatment and management of affected individuals. In our meta-analysis we provide an overview of the most recurrent genetic findings across an adult DEE cohort (n=1,020). The gene mostly associated with a pathogenic or likely pathogenic variant in adult DEE is SCN1A, followed by MECP2 and CHD2. Studies employing exome sequencing and calling of both single nucleotide variants and copy number variants are associated with diagnostic yields of almost 50\u2009%. Finally, we highlight three remarkable cases, each representing the oldest individual ever published with their genetic diagnosis, i.\u2009e., Angelman syndrome, Miller-Dieker syndrome, and CAMK2A-related disorder, and describe lessons learned from each of these adults.",
+   "found_by": [],
+   "pubdate": "2022 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29100089",
+   "title": "De Novo Mutations in Protein Kinase Genes CAMK2A and CAMK2B Cause Intellectual Disability.",
+   "abstract": "Calcium/calmodulin-dependent protein kinase II (CAMK2) is one of the first proteins shown to be essential for normal learning and synaptic plasticity in mice, but its requirement for human brain development has not yet been established. Through a multi-center collaborative study based on a whole-exome sequencing approach, we identified 19 exceedingly rare de novo CAMK2A or CAMK2B variants in 24 unrelated individuals with intellectual disability. Variants were assessed for their effect on CAMK2 function and on neuronal migration. For both CAMK2A and CAMK2B, we identified mutations that decreased or increased CAMK2 auto-phosphorylation at Thr286/Thr287. We further found that all mutations affecting auto-phosphorylation also affected neuronal migration, highlighting the importance of tightly regulated CAMK2 auto-phosphorylation in neuronal function and neurodevelopment. Our data establish the importance of CAMK2A and CAMK2B and their auto-phosphorylation in human brain function and expand the phenotypic spectrum of the disorders caused by variants in key players of the glutamatergic signaling pathway.",
+   "found_by": [],
+   "pubdate": "2017 Nov 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40140673",
+   "title": "A hyper-activatable CAMK2A variant associated with intellectual disability causes exaggerated long-term potentiation and learning impairments.",
+   "abstract": "Intellectual disability (ID) is a neurodevelopmental disorder (NDD) characterized by impairments in intellectual and adaptive functioning, and is highly co-morbid with other NDDs. Recently, de novo missense variants in the gene, CAMK2A, which encodes calcium/calmodulin-dependent protein kinase II\u03b1 (CaMKII\u03b1), an abundant neuronal protein crucial for synaptic plasticity, learning and memory, have been implicated in ID. However, the causative impact of these mutations remains underexplored. In this study, we developed a heterozygous knock-in mouse model carrying the most prevalent ID-associated CAMK2A de novo missense variant, P212L, as a gain-of-function allele. The knock-in mice exhibited increased autophosphorylation of CaMKII\u03b1, indicative of exuberant kinase activity, and consistently showed dendritic spine abnormalities and exaggerated hippocampal long-term potentiation induced by a subthreshold low-frequency stimulation. Furthermore, a comprehensive behavioral evaluation, including learning and memory tasks, revealed prominent phenotypes recapitulating the complex clinical phenotypes of humans with ID/NDDs harboring the same variant. Taken together, we propose that aberrant enhancement of CaMKII\u03b1 signaling by the heterozygous P212L mutation underlies a subset of ID/NDD features. These findings provide new insights into the pathogenesis of ID/NDDs, specifically through the genetic up-shifting of the critical memory regulator, CaMKII. Additionally, the established mouse model, with both construct and face validity, is expected to significantly contribute to the understanding and future therapeutic development of ID/NDDs.",
+   "found_by": [],
+   "pubdate": "2025 Mar 26",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "25730879",
+   "title": "Rare variants in neuronal excitability genes influence risk for bipolar disorder.",
+   "abstract": "We sequenced the genomes of 200 individuals from 41 families multiply affected with bipolar disorder (BD) to identify contributions of rare variants to genetic risk. We initially focused on 3,087 candidate genes with known synaptic functions or prior evidence from genome-wide association studies. BD pedigrees had an increased burden of rare variants in genes encoding neuronal ion channels, including subunits of GABAA receptors and voltage-gated calcium channels. Four uncommon coding and regulatory variants also showed significant association, including a missense variant in GABRA6. Targeted sequencing of 26 of these candidate genes in an additional 3,014 cases and 1,717 controls confirmed rare variant associations in ANK3, CACNA1B, CACNA1C, CACNA1D, CACNG2, CAMK2A, and NGF. Variants in promoters and 5' and 3' UTRs contributed more strongly than coding variants to risk for BD, both in pedigrees and in the case-control cohort. The genes and pathways identified in this study regulate diverse aspects of neuronal excitability. We conclude that rare variants in neuronal excitability genes contribute to risk for BD.",
+   "found_by": [],
+   "pubdate": "2015 Mar 17",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "21611732",
+   "title": "Association of ADAM10 and CAMK2A polymorphisms with conduct disorder: evidence from family-based studies.",
+   "abstract": "Twin and family studies have shown that genetic factors play a role in the development of conduct disorder (CD). The purpose of this study was to identify genetic variants associated with CD using a family-based association study. We used 4,720 single nucleotide polymorphisms (SNPs) from the Illumina Panel and 11,120 SNPs from the Affymetrix 10K GeneChips genotyped in 155 Caucasian nuclear families from Genetic Analysis Workshop (GAW) 14, a subset from the Collaborative Study on the Genetics of Alcoholism (COGA). 20 SNPs had suggestive associations with CD (p<10(-3)), nine of which were located in known genes, including ADAM10 (rs383902, p=0.00036) and CAMK2A (rs2053053, p=0.00098). Our results were verified using the International Multi-Center ADHD Genetics Project (IMAGE) dataset. In conclusion, we identified several loci associated with CD. Especially, the two genes (ADAM10 and CAMK2A) have been reported to be associated with Alzheimer's disease, bipolar disorder and depression. These findings may serve as a resource for replication in other populations.",
+   "found_by": [],
+   "pubdate": "2011 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29560374",
+   "title": "De novo variants in CAMK2A and CAMK2B cause neurodevelopmental disorders.",
+   "abstract": "OBJECTIVE: \u03b1 (CAMK2A) and \u03b2 (CAMK2B) isoforms of Calcium/calmodulin-dependent protein kinase II (CaMKII) play a pivotal role in neuronal plasticity and in learning and memory processes in the brain. Here, we explore the possible involvement of \u03b1- and \u03b2-CaMKII variants in neurodevelopmental disorders. METHODS: Whole-exome sequencing was performed for 976 individuals with intellectual disability, developmental delay, and epilepsy. The effect of CAMK2A and CAMK2B variants on CaMKII structure and firing of neurons was evaluated by computational structural analysis, immunoblotting, and electrophysiological analysis. RESULTS: We identified a total of five de novo CAMK2A and CAMK2B variants in three and two individuals, respectively. Seizures were common to three individuals with CAMK2A variants. Using a minigene splicing assay, we demonstrated that a splice site variant caused skipping of exon 11 leading to an in-frame deletion of the regulatory segment of CaMKII \u03b1. By structural analysis, four missense variants are predicted to impair the interaction between the kinase domain and the regulatory segment responsible for the autoinhibition of its kinase activity. The Thr286/Thr287 phosphorylation as a result of release from autoinhibition was increased in three mutants when the mutants were stably expressed in Neuro-2a neuroblastoma cells. Expression of a CaMKII \u03b1 mutant in primary hippocampal neurons significantly increased A-type K+ currents, which facilitated spike repolarization of single action potentials. INTERPRETATION: Our data highlight the importance of CaMKII \u03b1 and CaMKII \u03b2 and their autoinhibitory regulation in human brain function, and suggest the enhancement of A-type K+ currents as a possible pathophysiological basis.",
+   "found_by": [],
+   "pubdate": "2018 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34607601",
+   "title": "Association of CaMK2A and MeCP2 signaling pathways with cognitive ability in adolescents.",
+   "abstract": "The glutamatergic signaling pathway is involved in molecular learning and human cognitive ability. Specific single variants (SNVs, formerly single-nucleotide polymorphisms) in the genes encoding N-methyl-D-aspartate receptor subunits have been associated with neuropsychiatric disorders by altering glutamate transmission. However, these variants associated with cognition and mental activity have rarely been explored in healthy adolescents. In this study, we screened for SNVs in the glutamatergic signaling pathway to identify genetic variants associated with cognitive ability. We found that SNVs in the subunits of ionotropic glutamate receptors, including GRIA1, GRIN1, GRIN2B, GRIN2C, GRIN3A, GRIN3B, and calcium/calmodulin-dependent protein kinase II\u03b1 (CaMK2A) are associated with cognitive function. Plasma CaMK2A level was correlated positively with the cognitive ability of Taiwanese senior high school students. We demonstrated that elevating CaMK2A increased its autophosphorylation at T286 and increased the expression of its downstream targets, including GluA1 and phosphor- GluA1 in vivo. Additionally, methyl-CpG binding protein 2 (MeCP2), a downstream target of CaMK2A, was found to activate the expression of CaMK2A, suggesting that MeCP2 and CaMK2A can form a positive feedback loop. In summary, two members of the glutamatergic signaling pathway, CaMK2A and MeCP2, are implicated in the cognitive ability of adolescents; thus, altering the expression of CaMK2A may affect cognitive ability in youth.",
+   "found_by": [],
+   "pubdate": "2021 Oct 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29784083",
+   "title": "A homozygous loss-of-function CAMK2A mutation causes growth delay, frequent seizures and severe intellectual disability.",
+   "abstract": "Calcium/calmodulin-dependent protein kinase II (CAMK2) plays fundamental roles in synaptic plasticity that underlies learning and memory. Here, we describe a new recessive neurodevelopmental syndrome with global developmental delay, seizures and intellectual disability. Using linkage analysis and exome sequencing, we found that this disease maps to chromosome 5q31.1-q34 and is caused by a biallelic germline mutation in CAMK2A. The missense mutation, p.His477Tyr is located in the CAMK2A association domain that is critical for its function and localization. Biochemically, the p.His477Tyr mutant is defective in self-oligomerization and unable to assemble into the multimeric holoenzyme.In vivo, CAMK2AH477Y failed to rescue neuronal defects in C. elegans lacking unc-43, the ortholog of human CAMK2A. In vitro, neurons derived from patient iPSCs displayed profound synaptic defects. Together, our data demonstrate that a recessive germline mutation in CAMK2A leads to neurodevelopmental defects in humans and suggest that dysfunctional CAMK2 paralogs may contribute to other neurological disorders.",
+   "found_by": [],
+   "pubdate": "2018 May 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32418901",
+   "title": "Association of a CAMK2A genetic variant with logical memory performance and hippocampal volume in the elderly.",
+   "abstract": "Calcium/Calmodulin-dependent kinase alpha (\u03b1CaMKII) has been shown to play an essential role in synaptic plasticity and in learning and memory in animal models. However, there is little evidence for an involvement in specific memories in humans. Here we tested the potential involvement of the \u03b1CaMKII coding gene CAMK2A in verbal logical memory in two Caucasian populations from Germany, in a sample of 209 elderly people with cognitive impairments and a sample of 142 healthy adults. The association of single nucleotide polymorphisms (SNPs) located within the genomic region of CAMK2A with verbal logical memory learning and retrieval from the Wechsler Memory Scale was measured and hippocampal volume was assessed by structural MRI. In the elderly people, we found the minor allele of CAMK2A intronic SNP rs919741 to predict a higher hippocampal volume and better logical memory retrieval. This association was not found in healthy adults. The present study may provide evidence for an association of a genetic variant of the CAMK2A gene specifically with retrieval of logical memory in elderly humans. This effect is possibly mediated by a higher hippocampal volume.",
+   "found_by": [],
+   "pubdate": "2020 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42192792",
+   "title": "Serum MAP1A as a Potential Biomarker for Autism Spectrum Disorder.",
+   "abstract": "Background/Objectives: Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition currently diagnosed through subjective behavioral assessments. Objective blood-based biomarkers are needed to enable earlier and more accurate identification. In this study, we aimed to identify synapse-related biomarkers associated with ASD and evaluate their potential as serum-based indicators. Methods: RNA sequencing was performed on the cerebellum, hippocampus, and cerebral cortex of a valproic acid-induced rat model of ASD to identify differentially expressed genes (DEGs). Functional enrichment analyses, including Gene Ontology and Kyoto Encyclopedia of Genes and Genomes, were conducted to explore associated pathways. Synapse-related hub genes were selected by comparison with the SFARI autism gene database, and the serum expression of candidate proteins was assessed using Western blotting. Results: A total of 692, 813, and 1059 DEGs were identified in the cerebellum, hippocampus, and cortex, respectively. Enrichment analyses highlighted dendrite development, postsynaptic density, and glutamatergic synapse pathways as significantly affected. Six synaptic hub genes were prioritized, among which serum MAP1A expression was significantly elevated in the ASD rats. Conclusions: These findings suggest that serum MAP1A may represent a potential biomarker reflecting synaptic abnormalities in ASD. Further validation in human cohorts and integration into a multi-marker framework are warranted to account for the heterogeneity of ASD. [full text, passages naming CAMK2A] ...in Tris-buffered saline containing 0.1% Tween-20 (TBS-T; 20 mM Tris, pH 7.6; 137 mM NaCl; 0.1% Tween-20) for 1 h at room temperature and then incubated overnight at 4 \u00b0C with primary antibodies against MAP1A, CAMK2A, and GRIA1 ( Table 1 ). After washing, the membranes were incubated for 2 h at room temperature with horseradish peroxidase-conjugated goat anti-rabbit immunoglobulin G (1:2000; Santa Cruz Biotechnology,... ...) | Abcam | ab203197 | 1:1000 | Rabbit | PSD95 (85 kDa) | Abcam | ab18258 | 1:1000 | Rabbit | Gria1 (47 kDa) | Abcam | ab31232 | 1:1000 | Rabbit | SHANK2 (165 kDa) | Cell signaling | 12218S | 1:1000 | Rabbit | Camk2A (45 kDa) | Abcam | ab52476 | 1:1000 | Rabbit | MAP1A (300 kDa) | Abcam | ab101224 | 1:1000 | Rabbit | 2nd Ab (IgG), secondary antibody (immunoglobulin G). 2.4. Statistical Analysis All quantitative data... ...Analyst tool. The resulting PPI network contained 150 nodes and 1008 edges ( Figure 3 A). Hub genes were identified using the cytoHubba plugin in Cytoscape (version 3.10.1), yielding six synapse-related genes: CAMK2A, MAP1A, GRIN2A, GRIA1, SHANK2, and DLG4 (PSD95) ( Figure 3 B). These genes play key roles in synaptic plasticity, excitatory/inhibitory balance, and autism susceptibility ( Table 2 ). Figure 3 Protein\u2013pr...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming CAMK2A] ...RAP1 , ARF3 , ARID1B , ASH1L , ASTN2 , ASXL3 , ATP2B2 , ATP10A , ATXN1 , AUTS2 , BCAS3 , BCL11A , BLK , BPTF , BRSK2 , C1orf229 , CACNA1A , CACNA1C , CACNA1D , CACNA1E , CACNA1G , CACNA1H , CACNA2D3 , CACNG2 , CAMK2A , CAMTA2 , CAPRIN1 , CASP5 , CASZ1 , CCDC40 , CD2BP2 , CDH8 , CDK13 , CDKL5 , CDKN2A , CELF4 , CELSR3 , CHD1 , CHD2 , CHD7 , CHD8 , CHRNA4 , CHRNA7 , CIPC , CLCN2 , CNOT3 , CNTN4 , CNTNAP2 , COL6A2 , COR...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41741416",
+   "title": "Patient-derived brain organoids reveal divergent neuronal activity across subpopulations of autism spectrum disorder.",
+   "abstract": "Patient-derived brain organoids have emerged as a powerful model for investigating the mechanisms underlying neurological and psychiatric disorders. They provide novel insights into autism spectrum disorder (ASD), a heterogeneous neurodevelopmental condition whose underlying mechanisms remain poorly understood. Recent advancements in generating electrophysiological functional 3D brain organoids enable the study of molecular and network-level neuronal activity. Here, we aimed to characterize the neurophysiological underpinnings of ASD by comparing electrophysiological properties of brain organoids derived from eleven individuals diagnosed with autism spectrum disorder, 10 with monogenic syndromic ASD across five genetic subtypes, and 1 with idiopathic ASD, to organoids derived from 4 neurotypical control individuals. We identified distinct differences in baseline activity (resting state) and evoked responses (synaptic plasticity and network dynamics) across ASD subgroups. To comprehensively assess these differences, we applied dimensionality reduction (principal component analysis, PCA) to integrate multiple electrophysiological features into a unified framework. Our findings reveal subtype-specific neurophysiological alterations in ASD brain organoids, offering mechanistic insights into ASD heterogeneity and potential applications for early diagnostics, drug screening, and therapeutic development. [full text, passages naming CAMK2A] ...(<5%; not shown). The organoids displayed forebrain/cortical markers, with projection-neuron signatures (CUX1/2, FOXP1) co-expressed with pan-neuronal/synaptic markers (e.g., STMN2, MAP2, RBFOX3, SNAP25, DLG4, CAMK2A). Within the neuron-gated population, we also confirmed the presence of both excitatory-program and inhibitory-program neurons: excitatory identity was supported by DLG4 with GRIA1-3 and CAMK2A together... ..., SNAP25, DLG4, CAMK2A). Within the neuron-gated population, we also confirmed the presence of both excitatory-program and inhibitory-program neurons: excitatory identity was supported by DLG4 with GRIA1-3 and CAMK2A together with cortical projection signatures (CUX1/2, FOXP1), whereas inhibitory identity was supported by interneuron regulators (SOX6, ARX), subtype markers (SST, VIP), and inhibitory postsynaptic comp...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42310454",
+   "title": "Cortical development dynamics across autism spectrum disorder mouse models.",
+   "abstract": "Despite the functional diversity of over 100 causal genes1-3, phenotypic convergence across models may reveal common neurobiological processes in autism spectrum disorder (ASD). Here we profiled 251 samples from 11 monogenic mouse models of ASD using single-nucleus multi-omic sequencing across three developmental stages, both sexes and two brain regions. Despite genetic heterogeneity, ASD-linked mutations converged on perturbations of the radial glial cell lineage. These alterations reflect a transient developmental delay rather than lasting lineage misspecification and resolve by postnatal stages. Molecularly, the largest transcriptional differences emerged in neurons at early postnatal stages. These changes included downregulation of synaptic and ion channel-related genes, consistent with homeostatic adaptation or delayed maturation. Network analysis showed molecular convergence across models within each developmental stage, suggesting that diverse mutations linked to ASD impinge on common, stage-specific processes. Convergence becomes less pronounced by postnatal day 14, highlighting the dynamic nature of ASD-associated changes. Cross-genotype heterogeneity is superimposed on stage-specific effects. Electrophysiology corroborated this pattern: mutants generally showed altered neuronal excitability and synaptic properties with model-specific nuances. Our study also highlighted sex-specific gene expression alterations, with female mice often displaying larger effect sizes than male mice. Together, our findings provide a comprehensive view of developmental cellular and molecular dynamics across models of ASD. [full text, passages naming CAMK2A] ...t in the SynGO analysis of Cul3 mutants. Commonly altered transcripts related to neurotransmitter receptors and synaptic transmission included upregulated Cacng4 , an AMPA receptor modulator, and downregulated Camk2a , a calcium/calmodulin-dependent kinase involved in neuronal and glutamatergic synaptic functions. Rims1 and Rims2 , encoding key organizers of the presynaptic compartment, were downregulated across mult...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42203765",
+   "title": "Defective ventral neurogenesis due to midfetal Chd8 mutation drives autistic-like behavior in mice.",
+   "abstract": "Autism spectrum disorder (ASD) is a common neurodevelopmental condition characterized by behavioral abnormalities. Although mouse models have been widely adopted to recapitulate the pathology of ASD, the identification of specific neural abnormalities responsible for autistic-like behavior has remained challenging. Here we provide insight into this causal relation by identifying the critical period and cell type responsible for the development of such behavior in ASD model mice with a Chd8 mutation. We find that Chd8 mutation induced at embryonic day 14.5 gives rise to ASD-like behavioral phenotypes, including abnormal social interaction and increased anxiety-like behavior, as well as to accelerated cell-cycle exit and differentiation in ventral progenitor cells. Restoration of Chd8 expression in ventral progenitor cells ameliorates both the behavioral phenotypes and aberrant ventral differentiation in Chd8 mutant mice. Our findings indicate that Chd8 mutation during the midfetal period-in particular, in ventral progenitor cells-contributes to the development of autistic-like behavior. [full text, passages naming CAMK2A] ...f inhibitory neuronal circuits. To this end, we induced ChrimsonR expression specifically in inhibitory neurons while expressing GCaMP6f under the control of the Ca 2+ /calmodulin-dependent protein kinase II\u03b1 (CaMKII\u03b1) gene promoter in the medial prefrontal cortex (Fig. 5f ). Although the CaMKII\u03b1 gene promoter has been described as specific for excitatory neurons, the short promoter sequence commonly included in AAV... ...cifically in inhibitory neurons while expressing GCaMP6f under the control of the Ca 2+ /calmodulin-dependent protein kinase II\u03b1 (CaMKII\u03b1) gene promoter in the medial prefrontal cortex (Fig. 5f ). Although the CaMKII\u03b1 gene promoter has been described as specific for excitatory neurons, the short promoter sequence commonly included in AAV vectors is not strictly specific to excitatory neurons and is active also in int...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41898708",
+   "title": "Single-Cell Gene Module Inference Reveals Alternative Polyadenylation Dynamics Associated with Autism.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental condition characterized by genetic heterogeneity. Post-transcriptional regulation-particularly alternative polyadenylation (APA)-plays a critical role in the pathogenesis of ASD. APA controls mRNA stability, translational efficiency, and subcellular localization through modulating the length of the 3' untranslated region of mRNA. APA profiling can uncover functionally relevant post-transcriptional alterations often missed by conventional gene expression analyses. However, current ASD analyses still largely rely on differential gene expression or individual APA event detection, which ignores the collective explanatory power of ASD risk genes or co-dysregulated functional gene modules within specific cell types. In this study, we present an integrative computational framework that combines matrix factorization and machine learning to identify ASD-associated gene modules driven by APA and to predict cell-type-specific ASD-related cells. Applied to human brain single-nucleus RNA sequencing (snRNA-seq) data, our approach systematically uncovers APA regulatory patterns that are specific to cell type, brain region, and sex in ASD. The identified APA modules are significantly enriched in pathways related to synaptic function, neurodevelopment, and immune response, with the strongest signals observed in excitatory neurons of the prefrontal cortex. Using APA genes from these modules as features, we built a classification model that effectively distinguishes ASD cells from normal cells. Moreover, we found that integrating APA with gene expression-two complementary modalities-substantially improves prediction accuracy, underscoring APA as an independent and biologically informative regulatory layer. Our work delineates a high-resolution APA regulatory landscape in ASD, offering novel insights and potential therapeutic avenues beyond transcriptional abundance. [full text, passages naming CAMK2A] ...A alterations in ASD. ( D ) GO functional enrichment analysis of genes in each APA module. ( E ) Protein\u2013protein interaction (PPI) network for the L5/6_2_5 module, identifying critical hub genes (e.g., MAPK1 , CAMK2A , SYT1 , CALM1 , PRNP ) involved in synaptic function, calcium signaling, and neuronal development. UMAP analysis further revealed significant cell-type-specific changes in APA patterns between ASD patie... ...rgets of APA dysregulation. Based on the PPI (protein\u2013protein interaction) network constructed from APA modules, several hub genes that repeatedly appeared in multiple networks were identified, such as MAPK1 , CAMK2A , SYT1 , CALM1 , and PRNP ( Figure 4 E). These genes are primarily enriched in critical pathways related to synaptic function, calcium signaling, and neuronal development and are closely associated with... ...siol. 2022;15:e010572. doi: 10.1161/CIRCEP.121.010572. 27. Stephenson J.R., Wang X., Perfitt T.L., Parrish W.P., Shonesy B.C., Marks C.R., Mortlock D.P., Nakagawa T., Sutcliffe J.S., Colbran R.J. A Novel Human CAMK2A Mutation Disrupts Dendritic Morphology and Synaptic Transmission, and Causes ASD-Related Behaviors. J. Neurosci. 2017;37:2216\u20132233. doi: 10.1523/JNEUROSCI.2068-16.2017. 28. Tebar F., Llad\u00f3 A., Enrich C....",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "39971200": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22926190": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26298628": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41509319": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26372002": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21048142": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37428632": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36253777": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38241377": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34946860": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28285002": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38272033": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30489685": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41180485": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26101849": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42873880": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30260900": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42007639": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19087269": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35685361": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42818052": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41227323": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31427534": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42208149": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29133437": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25650780": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25929186": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34349780": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40847814": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40799750": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28130356": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33400301": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37510258": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29147782": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42155452": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29935919": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42606785": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38937838": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34587162": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29791859": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38936066": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30755487": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30053369": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39489703": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39009472": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38835877": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38100333": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33164597": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30288694": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26670047": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26826102": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32019829": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29100089": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40140673": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25730879": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11357133": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7695905": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21611732": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37672577": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15464294": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29560374": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36304100": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34607601": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29784083": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32418901": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32979291": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32149607": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31253171": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22496563": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32904753": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29146590": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23695276": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37490545": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31064859": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33240041": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38874470": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "7624331": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19795494": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42192792": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41741416": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42310454": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42203765": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41938159": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42590803": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42576600": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41155356": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40292027": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41595671": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42801579": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40604385": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42277197": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41741707": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41010010": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42700720": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40806055": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41150532": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40158064": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42090499": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40796696": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41898708": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 182,
+   "usd": 0.00628,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 4.4,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 107.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 1.7,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "29 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "20 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 3.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 5017,
+   "output_tokens": 168,
+   "usd": 0.005857,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 76.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.9,
+   "note": "",
+   "input_tokens": 48425,
+   "output_tokens": 1818,
+   "usd": 0.057515,
+   "calls": 8
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 15.6,
+   "note": "",
+   "input_tokens": 15409,
+   "output_tokens": 1294,
+   "usd": 0.109395,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>40</established>\n    <existing>49</existing>\n    <hypothesized>10</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Direct human evidence exists: a de novo CAMK2A E183V variant was identified in an ASD proband and functionally validated (PMID 28130356), and a clinical WES cohort of 288 Saudi children with DSM-5 ASD listed CAMK2A among recurrently affected genes with pathogenic/likely pathogenic variants (PMID 42606785). Additional large de novo variant series (PMIDs 29100089, 29560374, 37510258) establish CAMK2A as a monogenic neurodevelopmental disorder gene (IDD53) whose phenotypic spectrum explicitly includes autism spectrum behaviors, supporting a strongly linked precursor/overlapping phenotype. However, most of these studies ascertain for intellectual disability/epilepsy rather than ASD per se, and the only clearly ASD-ascertained proband-level report is a single case, so replication specifically for ASD is thin; common-variant work (PMID 29147782) is only nominally significant. Mouse knock-in and organoid/expression studies add mechanistic support but are non-human. On balance, the evidence best fits Existing with substantial probability of Established.</justification>\n  <pmids>\n    <pmid>28130356</pmid>\n    <pmid>42606785</pmid>\n    <pmid>29100089</pmid>\n    <pmid>29560374</pmid>\n    <pmid>37510258</pmid>\n    <pmid>29147782</pmid>\n    <pmid>29784083</pmid>\n    <pmid>40140673</pmid>\n  </pmids>\n</response>"
+}

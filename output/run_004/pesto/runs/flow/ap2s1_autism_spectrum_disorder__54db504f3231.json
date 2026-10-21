@@ -1,0 +1,768 @@
+{
+ "gene": "AP2S1",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "childhood autism",
+   "autistic behavior",
+   "autistic features"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "FBH3",
+   "HHC3",
+   "FBHOK",
+   "CLAPS2",
+   "adaptor related protein complex 2 subunit sigma 1"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 75,
+  "titlekicksparingfulltext": 22,
+  "read": 16
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 24,
+   "Existing": 60,
+   "Hypothesized": 14,
+   "Novel": 2
+  },
+  "justification": "AP2S1 emerged from large-scale human exome sequencing of ASD cohorts (Autism Sequencing Consortium) as one of the ~102 de novo mutated risk genes, and it is repeatedly listed among statistically supported ASD genes (PMIDs 32668441, 34768579, 42401939). Human burden analyses report rare loss-of-function variants in AP2S1 conferring an autism odds ratio >8 (PMID 37365347), which is credible human genetic evidence of association. However, within this provided set the primary discovery cohort paper with multiple independent probands is not directly available\u2014most citations restate the association as background\u2014so replicated, proband-level causal demonstration cannot be cited twice. Supporting biology is mainly non-human (zebrafish ap2s1 habituation/behavior-selection work, PMID 38550987) or relates to the unrelated FHH3 calcitropic phenotype (PMIDs 33729479, 28176280), which supports plausibility but not causation of ASD. Hence Existing is the best fit, with meaningful probability for Established.",
+  "pmids": [],
+  "detail": {
+   "Established": 24,
+   "Existing": 60,
+   "Hypothesized": 14,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38550987",
+   "title": "The adaptor protein 2 (AP2) complex modulates habituation and behavioral selection across multiple pathways and time windows.",
+   "abstract": "Animals constantly integrate sensory information with prior experience to select behavioral responses appropriate to the current situation. Genetic factors supporting this behavioral flexibility are often disrupted in neuropsychiatric conditions, such as the autism-linked ap2s1 gene which supports acoustically evoked habituation learning. ap2s1 encodes an AP2 endocytosis adaptor complex subunit, although its behavioral mechanisms and importance have been unclear. Here, we show that multiple AP2 subunits regulate acoustically evoked behavior selection and habituation learning in zebrafish. Furthermore, ap2s1 biases escape behavior choice in sensory modality-specific manners, and broadly regulates action selection across sensory contexts. We demonstrate that the AP2 complex functions acutely in the nervous system to modulate acoustically evoked habituation, suggesting several spatially and/or temporally distinct mechanisms through which AP2 regulates escape behavior selection and performance. Altogether, we show the AP2 complex coordinates action selection across diverse contexts, providing a vertebrate model for ap2s1's role in human conditions including autism spectrum disorder.",
+   "found_by": [],
+   "pubdate": "2024 Apr 19",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "36412210",
+   "title": "AP2S1 regulates APP degradation through late endosome-lysosome fusion in cells and APP/PS1 mice.",
+   "abstract": "AP2S1 is the sigma 2 subunit of adaptor protein 2 (AP2) that is essential for endocytosis. In this study, we investigated the potential role of AP2S1 in intracellular processing of amyloid precursor protein (APP), which contributes to the pathogenesis of Alzheimer disease (AD) by generating the toxic \u03b2-amyloid peptide (A\u03b2). We found that knockdown or overexpression of AP2S1 decreased or increased the protein levels of APP and A\u03b2 in cells stably expressing human full-length APP695, respectively. This effect was unrelated to endocytosis but involved lysosomal degradation. Morphological studies revealed that silencing of AP2S1 promoted the translocalization of APP from RAB9-positive late endosomes (LE) to LAMP1-positive lysosomes, which was paralleled by the enhanced LE-lysosome fusion. In support, silencing of vacuolar protein sorting-associated protein 41 (VPS41) that is implicated in LE-lyso fusion prevented AP2S1-mediated regulation of APP degradation and translocalization. In APP/PS1 mice, an animal model of AD, AAV-mediated delivery of AP2S1 shRNA in the hippocampus significantly reduced the protein levels of APP and A\u03b2, with the concomitant APP translocalization, LE-lyso fusion and the improved cognitive functions. Taken together, these data uncover a LE-lyso fusion mechanism in APP degradation and suggest a novel role for AP2S1 in the pathophysiology of AD.",
+   "found_by": [],
+   "pubdate": "2023 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33729479",
+   "title": "Ap2s1 mutation causes hypercalcaemia in mice and impairs interaction between calcium-sensing receptor and adaptor protein-2.",
+   "abstract": "Adaptor protein 2 (AP2), a heterotetrameric complex comprising AP2\u03b1, AP2\u03b22, AP2\u03bc2 and AP2\u03c32 subunits, is ubiquitously expressed and involved in endocytosis and trafficking of membrane proteins, such as the calcium-sensing receptor (CaSR), a G-protein coupled receptor that signals via G\u03b111. Mutations of CaSR, G\u03b111 and AP2\u03c32, encoded by AP2S1, cause familial hypocalciuric hypercalcaemia types 1-3 (FHH1-3), respectively. FHH3 patients have heterozygous AP2S1 missense Arg15 mutations (p.Arg15Cys, p.Arg15His or p.Arg15Leu) with hypercalcaemia, which may be marked and symptomatic, and occasional hypophosphataemia and osteomalacia. To further characterize the phenotypic spectrum and calcitropic pathophysiology of FHH3, we used CRISPR/Cas9 genome editing to generate mice harboring the AP2S1 p.Arg15Leu mutation, which causes the most severe FHH3 phenotype. Heterozygous (Ap2s1+/L15) mice were viable, and had marked hypercalcaemia, hypermagnesaemia, hypophosphataemia, and increases in alkaline phosphatase activity and fibroblast growth factor-23. Plasma 1,25-dihydroxyvitamin D was normal, and no alterations in bone mineral density or bone turnover were noted. Homozygous (Ap2s1L15/L15) mice invariably died perinatally. Co-immunoprecipitation studies showed that the AP2S1 p.Arg15Leu mutation impaired protein-protein interactions between AP2\u03c32 and the other AP2 subunits, and also with the CaSR. Cinacalcet, a CaSR positive allosteric modulator, decreased plasma calcium and parathyroid hormone concentrations in Ap2s1+/L15 mice, but had no effect on the diminished AP2\u03c32-CaSR interaction in vitro. Thus, our studies have established a mouse model that is representative for FHH3 in humans, and demonstrated that the AP2S1 p.Arg15Leu mutation causes a predominantly calcitropic phenotype, which can be ameliorated by treatment with cinacalcet.",
+   "found_by": [],
+   "pubdate": "2021 May 29",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "24423332",
+   "title": "Analysis of AP2S1, a calcium-sensing receptor regulator, in familial and sporadic isolated hypoparathyroidism.",
+   "abstract": "BACKGROUND: Except after neck surgery, hypoparathyroidism is a rare disease caused by defects in genes involved in parathyroid gland development (TBX1/22q11.2 del, GCMB, GATA3, TBCE) or function [calcium sensing receptor (CASR), GNA11, PTH], or the autoimmune polyglandular syndrome type 1 (AIRE). Approximately 90% of sporadic cases and 30% of familial cases of isolated hypoparathyroidism remain unexplained. Recurrent missense mutations in AP2S1, a calcium-sensing receptor regulator, have been recently identified in familial hyperparathyroidism. AIM: The aim of the study was to investigate AP2S1 as a putative hypoparathyroidism-causing gene. METHODS: Sequencing analysis and quantitative genomic PCR of the AP2S1 gene in a large cohort of 10 index cases (from nine families) and 50 sporadic cases affected with isolated hypoparathyroidism were investigated. RESULTS AND CONCLUSIONS: None of the 60 patients presented with nucleotidic changes or copy number variation in the AP2S1 gene, thereby excluding AP2S1 defects as a frequent cause of isolated hypoparathyroidism.",
+   "found_by": [],
+   "pubdate": "2014 Mar",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25993639",
+   "title": "Cinacalcet Treatment in an Adolescent With Concurrent 22q11.2 Deletion Syndrome and Familial Hypocalciuric Hypercalcemia Type 3 Caused by AP2S1 Mutation.",
+   "abstract": "CONTEXT: The 22q11.2 deletion syndrome (DS) is a common multiple anomaly syndrome in which typical features include congenital heart defects, facial dysmorphism, and palatal anomalies. Hypocalcemia due to hypoparathyroidism is a common endocrine manifestation resulting from variable parathyroid hypoplasia, but hypercalcemia has not previously been reported in 22q11.2 DS. CASE DESCRIPTION: Our patient is a 16-year-old adolescent male with dysmorphic facial features and delayed motor and speech development. At 2 years of age, 22q11.2 DS was confirmed by fluorescence in situ hybridization. In contrast to hypoparathyroidism that is usually seen in 22q11.2 DS, this patient had early childhood-onset hypercalcemia with inappropriately high PTH levels and hypocalciuria. Genomic DNA was obtained from the proband and screened for calcium-sensing receptor (CASR) mutations with negative results. No parathyroid tissue could be localized by imaging or surgical exploration. As a result of symptomatic hypercalcemia, the patient was treated with a calcimimetic (cinacalcet). During the treatment, plasma calcium normalized with mild symptoms of hypocalcemia. After discontinuation of cinacalcet, calcium returned to high pretreatment levels. Further DNA analysis of adaptor protein-2 \u03c3 subunit (AP2S1) showed a heterozygous missense mutation c.44 G>T, resulting in a p.R15L substitution; the mutation was absent in the healthy parents and two siblings. CONCLUSIONS: Hypercalcemia in our patient with 22q11.2 DS could be explained by the de novo mutation in AP2S1. Identification of a genetic cause for hypercalcemia is helpful in guiding management and avoiding unnecessary treatment.",
+   "found_by": [],
+   "pubdate": "2015 Jul",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "27913609",
+   "title": "AP2S1 and GNA11 mutations - not a common cause of familial hypocalciuric hypercalcemia.",
+   "abstract": "OBJECTIVE: Familial hypocalciuric hypercalcemia (FHH) type 1 is caused by mutations in the gene encoding the calcium-sensing receptor (CASR). Recently, mutations affecting codon 15 in the gene AP2S1 have been shown to cause FHH type 3 in up to 26% of CASR-negative FHH patients. Similarly, mutations in the gene GNA11 have been shown to cause FHH type 2. We hypothesized that mutations in AP2S1 and GNA11 are causative in Danish patients with suspected FHH and that these mutations are not found in patients with primary hyperparathyroidism (PHPT), which is the main differential diagnostic disorder. DESIGN: Cross-sectional study. METHODS: We identified patients with unexplained hyperparathyroid hypercalcemia and a control group of verified PHPT patients through review of 421 patients tested for CASR mutations in the period 2006-2014. DNA sequencing of all amino acid coding exons including intron-exon boundaries in AP2S1 and GNA11 was performed. RESULTS: In 33 CASR-negative patients with suspected FHH, we found two (~6%) with a mutation in AP2S1 (p.Arg15Leu and p.Arg15His). Family screening confirmed the genotype-phenotype correlations. We did not identify any pathogenic mutations in GNA11. No pathogenic mutations were found in the PHPT control group. CONCLUSIONS: We suggest that the best diagnostic approach to hyperparathyroid hypercalcemic patients suspected to have FHH is to screen the CASR and AP2S1 codon 15 for mutations. If the results are negative and there is still suspicion of an inherited condition (i.e. family history), then GNA11 should be examined.",
+   "found_by": [],
+   "pubdate": "2017 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31433865",
+   "title": "Expanding the spectrum of genetic variants in the calcium-sensing receptor (CASR) gene in hypercalcemic individuals.",
+   "abstract": "OBJECTIVE: Familial hypocalciuric hypercalcemia (FHH) is an autosomal dominantly inherited disorder with overlapping biochemistry profile with primary hyperparathyroidism (PHPT), making the correct diagnosis a challenge. The objective of the study was to evaluate the results of the clinical work-up of a large group of hypercalcemic individuals. DESIGN: Cross-sectional study. PATIENTS: Patients undergoing clinical work-up of hypercalcemia. MEASUREMENTS: Molecular genetic analysis of the CASR gene and exon 2 of the AP2S1 gene. Plasma levels of ionized calcium and PTH as well as calcium creatinine clearance ratio (CCCR). RESULTS: A rare CASR variant was identified in 38 of 624 index patients (6.1%). A total of 18 CASR variants identified in this study were novel. No variants were identified in exon 2 of the AP2S1 gene. The majority of the variants (N\u00a0=\u00a016) were classified as likely pathogenic. The level of plasma calcium, plasma PTH and the CCCR was not affected by the type of variant (ie nonsense vs missense) (all P-values >.05). The CCCR was found to be significantly lower for variants in the transmembrane domain compared with variants located in the extracellular domain (P\u00a0<\u00a0.05). Plasma levels of calcium and PTH were not associated with the location of the variant (P\u00a0>\u00a0.05). CONCLUSIONS: We expanded the spectrum of CASR variants in hypercalcemia with 18 novel variants, and suggest that the location of the CASR variant may affect calcium excretion as determined by the CCCR.",
+   "found_by": [],
+   "pubdate": "2019 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29479578",
+   "title": "N-ethyl-N-nitrosourea-Induced Adaptor Protein 2 Sigma Subunit 1 (Ap2s1) Mutations Establish Ap2s1 Loss-of-Function Mice.",
+   "abstract": "The adaptor protein-2 sigma subunit (AP2\u03c3), encoded by AP2S1, forms a heterotetrameric complex, with AP2\u03b1, AP2\u03b2, and AP2\u03bc subunits, that is pivotal for clathrin-mediated endocytosis, and AP2\u03c3 loss-of-function mutations impair internalization of the calcium-sensing receptor (CaSR), a G-protein-coupled receptor, and cause familial hypocalciuric hypercalcemia type-3 (FHH3). Mice with AP2\u03c3 mutations that would facilitate investigations of the in vivo role of AP2\u03c3, are not available, and we therefore embarked on establishing such mice. We screened >10,000 mice treated with the mutagen N-ethyl-N-nitrosourea (ENU) for Ap2s1 mutations and identified 5 Ap2s1 variants, comprising 2 missense (Tyr20Asn and Ile123Asn) and 3 intronic base substitutions, one of which altered the invariant donor splice site dinucleotide gt to gc. Three-dimensional modeling and cellular expression of the missense Ap2s1 variants did not reveal them to alter AP2\u03c3 structure or CaSR-mediated signaling, but investigation of the donor splice site variant revealed it to result in an in-frame deletion of 17 evolutionarily conserved amino acids (del17) that formed part of the AP2\u03c3 \u03b11-helix, \u03b11-\u03b23 loop, and \u03b23 strand. Heterozygous mutant mice (Ap2s1+/del17 ) were therefore established, and these had AP2\u03c3 haplosufficiency but were viable with normal appearance and growth. Ap2s1+/del17 mice, when compared with Ap2s1+/+ mice, also had normal plasma concentrations of calcium, phosphate, magnesium, creatinine, urea, sodium, potassium, and alkaline phosphatase activity; normal urinary fractional excretion of calcium, phosphate, sodium, and potassium; and normal plasma parathyroid hormone (PTH) and 1,25-dihydroxyvitamin D (1,25(OH)2) concentrations. However, homozygous Ap2s1del17/del17 mice were non-viable and died between embryonic days 3.5 and 9.5 (E3.5-9.5), thereby indicating that AP2\u03c3 likely has important roles at the embryonic patterning stages and organogenesis of the heart, thyroid, liver, gut, lungs, pancreas, and neural systems. Thus, our studies have established a mutant mouse model that is haplosufficient for AP2\u03c3.",
+   "found_by": [],
+   "pubdate": "2017 May 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "28176280",
+   "title": "Stepwise CaSR, AP2S1, and GNA11 sequencing in patients with suspected familial hypocalciuric hypercalcemia.",
+   "abstract": "PURPOSE: Patients with familial hyperparathyroidism and low urinary calcium excretion may have familial hypocalciuric hypercalcemia (FHH) with mutations in one of three genes: the calcium-sensing receptor (CaSR) defining FHH-type 1, the adaptor-related protein complex 2 (AP2S1) related to FHH-type 3 or the G-protein subunit alpha11 (GNA11) associated with FHH-type 2. We aimed to evaluate the presence of mutations in these genes and to identify phenotypic specificities and differences in these patients. SUBJECTS AND METHODS: Selected patients were recruited for genetic evaluation. After informed consent was signed, blood for DNA extraction was obtained and genetic sequencing of CaSR was done. In negative cases, we further performed sequencing of AP2S1 and GNA11. RESULTS: A total of 10 index cases were recruited. CaSR sequencing yielded three missense heterozygous mutations (30%): c.554G\u2009>\u2009A (p.I32V) previously characterized by our team, c.1394 G\u2009>\u2009A (p.R465Q) and a novel expected disease-causing mutation c.2479 A\u2009>\u2009C (p.S827R). We identified 2 additional patients (20%) carrying the deleterious recurrent mutation c.44G\u2009>\u2009T (p.R15L) in the AP2S1 gene. No GNA11 mutation was found. Clinically, patients with AP2S1 mutations had significant cognitive and behavioral disorders, and higher blood calcium and magnesium levels than patients with FHH1. CONCLUSION: CaSR and AP2S1 sequencing is worthwhile in patients with familial hyperparathyroidism and phenotype suggesting FHH as it can diagnose up to 50% of cases. GNA11 mutations seem much rarer. Learning disabilities in these patients, associated with higher serum calcium and magnesium levels may suggest the presence of AP2S1 rather than CaSR mutation and may guide the first step in the genetic evaluation.",
+   "found_by": [],
+   "pubdate": "2017 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38586466",
+   "title": "Genetic profile of a large Spanish cohort with hypercalcemia.",
+   "abstract": "INTRODUCTION: The disorders in the metabolism of calcium can present with manifestations that strongly suggest their diagnosis; however, most of the time, the symptoms with which they are expressed are nonspecific or present only as a laboratory finding, usually hypercalcemia. Because many of these disorders have a genetic etiology, in the present study, we sequenced a selection of 55 genes encoding the principal proteins involved in the regulation of calcium metabolism. METHODS: A cohort of 79 patients with hypercalcemia were analyzed by next-generation sequencing. RESULTS: The 30% of our cohort presented one pathogenic or likely pathogenic variant in genes associated with hypercalcemia. We confirmed the clinical diagnosis of 17 patients with hypocalciuric hypercalcemia (pathogenic or likely pathogenic variants in the CASR and AP2S1 genes), one patient with neonatal hyperparathyroidism (homozygous pathogenic variant in the CASR gene), and another patient with infantile hypercalcemia (two pathogenic variants in compound heterozygous state in the CYP24A1 gene). However, we also found variants in genes associated with primary hyperparathyroidism (GCM2), renal hypophosphatemia with or without rickets (SLC34A1, SLC34A3, SLC9A3R1, VDR, and CYP27B1), DiGeorge syndrome (TBX1 and NEBL), and hypophosphatasia (ALPL). Our genetic study revealed 11 novel variants. CONCLUSIONS: Our study demonstrates the importance of genetic analysis through massive sequencing to obtain a clinical diagnosis of certainty. The identification of patients with a genetic cause is important for the appropriate treatment and identification of family members at risk of the disease.",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming AP2S1] ...Table 2 List of genes connected with ASD according to the literature [ 4 , 5 , 6 , 9 , 21 , 35 \u2013 50 ] Genes | | ABCE1 , ABCC6 , ADCY7 , ADNP , AHDC1 , AKNA , ALX4 , AMIGO1 , ANK2 , ANKRD11 , ANKRD27 , ANP32A , AP2S1 , APBA2 , APBB1 , ARAP1 , ARF3 , ARID1B , ASH1L , ASTN2 , ASXL3 , ATP2B2 , ATP10A , ATXN1 , AUTS2 , BCAS3 , BCL11A , BLK , BPTF , BRSK2 , C1orf229 , CACNA1A , CACNA1C , CACNA1D , CACNA1E , CACNA1G , CACNA...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41155356",
+   "title": "Genetic and Pathogenic Overlaps Between Autism Spectrum Disorder and Alzheimer's Disease: Evolutionary Features and Opportunities for Drug Repurposing.",
+   "abstract": "Autism spectrum disorder (ASD) and Alzheimer's disease (AD) are neurodevelopmental and neurodegenerative disorders, respectively. While exome sequencing is routinely employed during the early stages of ASD diagnosis, it rarely influences therapeutic strategies. To address this gap, we have reconstructed and analyzed the gene networks linking autism spectrum disorders, Alzheimer's disease, and mTOR signaling. In addition, we have performed a phylostratigraphic analysis that reveals similarities and differences in the evolution of both ASD and Alzheimer's disease predisposition genes. We have shown that almost half of the genes predisposing to autism and two-fifths of the genes predisposing to Alzheimer's disease are directly related to the mTOR signaling pathway. Analysis of Phylostratigraphic Age Index (PAI) value distributions revealed a significant enrichment of evolutionarily ancient genes in both ASD- and AD-related gene sets. When studying the distribution of ASD predisposition genes by Divergence Index (DI) values, a significant enrichment with genes having extremely low DI = 0 has been found. Such low DI values indicate that most likely these genes are under stabilizing selection. Using the ANDVisio tool, both pharmacological and natural mTOR regulators with potential for ASD treatment were selected, such as propofol, dexamethasone, celecoxib, statins, berberine, resveratrol, quercetin, myricetin, mio-inositol, and several amino acids. [full text, passages naming AP2S1] ...t of this group with genes subjected to stabilizing selection has been revealed. An extremely low DI value (=0) has been found for 66 genes, or 6% of the SFARI Gene database (gene set 1), and 14 genes (ACVR2A, AP2S1, CAMK2A, CTCF, CUL3, HNRNPD, MARK2, NACC1, OBSCN, SATB2, SLC6A1, SPAST, TBR1, and TLE3), or 8% of gene set 2. Moreover, not a single gene among the ASD predisposition genes from gene set 2 had a DI > 1 (...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34768579",
+   "title": "Genotype-Phenotype Correlations in Relation to Newly Emerging Monogenic Forms of Autism Spectrum Disorder and Associated Neurodevelopmental Disorders: The Importance of Phenotype Reevaluation after Pangenomic Results.",
+   "abstract": "ASD genetic diagnosis has dramatically improved due to NGS technologies, and many new causative genes have been discovered. Consequently, new ASD phenotypes have emerged. An extensive exome sequencing study carried out by the Autism Sequencing Consortium (ASC) was published in February 2020. The study identified 102 genes which are de novo mutated in subjects affected by autism spectrum disorder (ASD) or similar neurodevelopmental disorders (NDDs). The majority of these genes was already known to be implicated in ASD or NDDs, whereas approximately 30 genes were considered \"novel\" as either they were not previously associated with ASD/NDDs or very little information about them was present in the literature. The aim of this work is to review the current literature since the publication of the ASC paper to see if new data mainly concerning genotype-phenotype correlations of the novel genes have been added to the existing one. We found new important clinical and molecular data for 6 of the 30 novel genes. Though the broad and overlapping neurodevelopmental phenotypes observed in most monogenic forms of NDDs make it difficult for the clinical geneticist to address gene-specific tests, knowledge of these new data can at least help to prioritize and interpret results of pangenomic tests to some extent. Indeed, for some of the new emerging genes analyzed in the present work, specific clinical features emerged that may help the clinical geneticist to make the final diagnosis by associating the genetic test results with the phenotype. The importance of this relatively new approach known as \"reverse phenotyping\" will be discussed. [full text, passages naming AP2S1] ...ing to Satterstrom and colleagues [ 1 ]. Novel Gene | Category | Specific and Commonly Reported Clinical Features | SRPR | Other | _ | | RORB Gene expression regulation | Epilepsy | DPYSL2 | Cytoskeleton | - | AP2S1 | Neuronal communication | - | MKX | Gene expression regulation | - | MAP1A | Cytoskeleton | - | CELF4 | Gene expression regulation | - | PHF12 | Gene expression regulation | - | TM9SF4 | Other | - | | PR... ...tion variants of RFX3 and RFX4 fall. RFX transcription factors bind to a X-box consensus motif, which was found by the authors in some neuronal specific enhancers and/or promoters of autism risk genes (such as AP2S1 , KDM6B , ANK2 , NONO , and MYT1L ). All identified variants except for one were absent from the gnomAD human database ( https://gnomad.broadinstitute.org (accessed on 1 July 2021)). In addition, the majo...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32668441",
+   "title": "Leveraging large genomic datasets to illuminate the pathobiology of autism spectrum disorders.",
+   "abstract": "\"Big data\" approaches in the form of large-scale human genomic studies have led to striking advances in autism spectrum disorder (ASD) genetics. Similar to many other psychiatric syndromes, advances in genotyping technology, allowing for inexpensive genome-wide assays, has confirmed the contribution of polygenic inheritance involving common alleles of small effect, a handful of which have now been definitively identified. However, the past decade of gene discovery in ASD has been most notable for the application, in large family-based cohorts, of high-density microarray studies of submicroscopic chromosomal structure as well as high-throughput DNA sequencing-leading to the identification of an increasingly long list of risk regions and genes disrupted by rare, de novo germline mutations of large effect. This genomic architecture offers particular advantages for the illumination of biological mechanisms but also presents distinctive challenges. While the tremendous locus heterogeneity and functional pleiotropy associated with the more than 100 identified ASD-risk genes and regions is daunting, a growing armamentarium of comprehensive, large, foundational -omics databases, across species and capturing developmental trajectories, are increasingly contributing to a deeper understanding of ASD pathology. [full text, passages naming AP2S1] ...Table 2 Statistical evidence for association of ASD genes based on rare de novo transmitted sequence variation and de novo CNVs. FDR \u2264 0.01 | 0.01 < FDR \u2264 0.05 | 0.05 < FDR \u2264 0.1 | ADNP | a , ANK2 a , ANKRD11, AP2S1, ARID1B a , ASH1L a , BCL11A b , CHD2 a , CHD8 a , CTNNB1, DEAF1, DNMT3A b , DPYSL2, DSCAM a , DYNC1H1, DYRK1A a , FOXP1 b , GABRB3 b , GIGYF1 b , GRIN2B a , KCNQ3, KDM5B a , KDM6B b , KMT2C a , MAP1A, MB...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37365347",
+   "title": "Phenotypic effects of genetic variants associated with autism.",
+   "abstract": "While over 100 genes have been associated with autism, little is known about the prevalence of variants affecting them in individuals without a diagnosis of autism. Nor do we fully appreciate the phenotypic diversity beyond the formal autism diagnosis. Based on data from more than 13,000 individuals with autism and 210,000 undiagnosed individuals, we estimated the odds ratios for autism associated to rare loss-of-function (LoF) variants in 185 genes associated with autism, alongside 2,492 genes displaying intolerance to LoF variants. In contrast to autism-centric approaches, we investigated the correlates of these variants in individuals without a diagnosis of autism. We show that these variants are associated with a small but significant decrease in fluid intelligence, qualification level and income and an increase in metrics related to material deprivation. These effects were larger for autism-associated genes than in other LoF-intolerant genes. Using brain imaging data from 21,040 individuals from the UK Biobank, we could not detect significant differences in the overall brain anatomy between LoF carriers and non-carriers. Our results highlight the importance of studying the effect of the genetic variants beyond categorical diagnosis and the need for more research to understand the association between these variants and sociodemographic factors, to best support individuals carrying these variants. [full text, passages naming AP2S1] ...3 ), we could identify at least one carrier of an S-LoF among the undiagnosed individuals, suggesting lower effect sizes on autism diagnosis (Fig. 1b and Supplementary Table 1 ). We observed that four genes ( AP2S1 , GIGYF1 , PTEN and SHANK2 ) displayed an autism OR > 8, whereas they were not classified as LoF-intolerant based on variant frequency in the general population (Supplementary Table 1 ) , supporting cauti...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "23548567",
+   "title": "Identifying early events of gene expression in breast cancer with systems biology phylogenetics.",
+   "abstract": "Advanced omics technologies such as deep sequencing and spectral karyotyping are revealing more of cancer heterogeneity at the genetic, genomic, gene expression, epigenetic, proteomic, and metabolomic levels. With this increasing body of emerging data, the task of data analysis becomes critical for mining and modeling to better understand the relevant underlying biological processes. However, the multiple levels of heterogeneity evident within and among populations, healthy and diseased, complicate the mining and interpretation of biological data, especially when dealing with hundreds to tens of thousands of variables. Heterogeneity occurs in many diseases, such as cancers, autism, macular degeneration, and others. In cancer, heterogeneity has hampered the search for validated biomarkers for early detection, and it has complicated the task of finding clonal (driver) and nonclonal (nonexpanded or passenger) aberrations. We show that subtyping of cancer (classification of specimens) should be an a priori step to the identification of early events of cancers. Studying early events in oncogenesis can be done on histologically normal tissues from diseased individuals (HNTDI), since they most likely have been exposed to the same mutagenic insults that caused the cancer in their neighboring tissues. Polarity assessment of HNTDI data variables by using healthy specimens as outgroup(s), followed by the application of parsimony phylogenetic analysis, produces a hierarchical classification of specimens that reveals the early events of the disease ontogeny within its subtypes as shared derived changes (abnormal changes) or synapomorphies in phylogenetic terminology. [full text, passages naming AP2S1] ...C35A3, SLC6A13, SPATA6, SPRED2, SPTLC1, STK17B, SULF1, TMEM90B, TRMT11, ULK2, WNT2B, ZAK, ZBTB17, ZNF224, ZNF350, ZNF665 | Subclade 2b, 124 synapomorphies ADAMTS7, ADRA1B, AGAP2, | AK022254 , AK024568 , AMACR, AP2S1, ARHGDIG, ARHGEF16, ARSJ, ASAH1, ATF4, ATP5H, ATP5L, ATXN7L1, ATXN8OS, AV720803 , BAT2, BAX, BGN, BID, BRD2, C7orf28B, CABIN1, CAPZB, CASS4, CCDC88C, CCK, CD58, CDCA4, CDKN2A, CHIT1, CKAP4, COG8, CRCP, CR...",
+   "found_by": [],
+   "pubdate": "2013",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "39818301": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30536424": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37449924": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33499837": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42709961": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29115694": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34773560": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40978122": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33361469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27126640": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29136674": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33369373": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40156834": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32161840": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31778168": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35814377": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40417236": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32430905": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41597215": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27647839": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26646938": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28945857": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38550987": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28336826": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36412210": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33729479": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28122587": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24423332": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25993639": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "9767099": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27913609": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31433865": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29479578": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23222959": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24731014": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28176280": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "24311792": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24081735": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39163488": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27480553": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33168530": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31723423": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24708097": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26963950": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38130397": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33062349": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27050234": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32047691": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38214877": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31967040": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31391146": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23802516": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38586466": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37810884": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41155356": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42769203": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40188316": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40967226": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37807632": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34768579": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32668441": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33658631": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32294447": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37365347": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36280753": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31398277": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33558695": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39363111": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37456110": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35834485": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32860155": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23378012": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23548567": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "17236127": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 10.3,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 98.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 2.0,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "22 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3598,
+   "output_tokens": 148,
+   "usd": 0.004338,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 49.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 31908,
+   "output_tokens": 1226,
+   "usd": 0.038038,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.6,
+   "note": "",
+   "input_tokens": 13419,
+   "output_tokens": 883,
+   "usd": 0.08917,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>24</established>\n    <existing>60</existing>\n    <hypothesized>14</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>AP2S1 emerged from large-scale human exome sequencing of ASD cohorts (Autism Sequencing Consortium) as one of the ~102 de novo mutated risk genes, and it is repeatedly listed among statistically supported ASD genes (PMIDs 32668441, 34768579, 42401939). Human burden analyses report rare loss-of-function variants in AP2S1 conferring an autism odds ratio >8 (PMID 37365347), which is credible human genetic evidence of association. However, within this provided set the primary discovery cohort paper with multiple independent probands is not directly available\u2014most citations restate the association as background\u2014so replicated, proband-level causal demonstration cannot be cited twice. Supporting biology is mainly non-human (zebrafish ap2s1 habituation/behavior-selection work, PMID 38550987) or relates to the unrelated FHH3 calcitropic phenotype (PMIDs 33729479, 28176280), which supports plausibility but not causation of ASD. Hence Existing is the best fit, with meaningful probability for Established.</justification>\n  <pmids>\n    <pmid>37365347</pmid>\n    <pmid>32668441</pmid>\n    <pmid>34768579</pmid>\n    <pmid>42401939</pmid>\n    <pmid>38550987</pmid>\n    <pmid>41155356</pmid>\n    <pmid>28176280</pmid>\n  </pmids>\n</response>"
+}

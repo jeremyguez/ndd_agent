@@ -1,0 +1,328 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Rolandic epilepsies CNV study - A subset of genomic alterations detected in rolandic epilepsies contains candidate or known epilepsy genes including GRIN2A and PRRT2 (PMID: 24372385)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Rare CNV (microdeletion/microduplication) comprising or disrupting PRKCE; exact coordinates and copy-number state not given in abstract",
+            "type": "other",
+            "phenotypes": [
+              "Rolandic epilepsy (childhood focal epilepsy)",
+              "Possible cognitive, speech, language, reading or behavioral comorbidity (not specified for this patient)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "PRKCE was listed among strong candidate genes for epilepsy and neurodevelopmental disorders disrupted by rare CNVs. The authors state that only a subset of the CNVs may contribute to the phenotype, and inheritance for this CNV is not specified in the abstract.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Contiguous gene deletion of chromosome 2p16.3-p21 as a cause of Lynch syndrome (PMID: 28555354)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "4.8 Mb heterozygous deletion at 2p16.3-p21 (SNP array) spanning MSH2, MSH6, EPCAM, NRXN1, CALM2, FBXO11, PRKCE and other genes",
+            "type": "other",
+            "phenotypes": [
+              "Lynch syndrome",
+              "Prostatic adenocarcinoma",
+              "Synchronous sigmoid adenocarcinoma with MSH2/MSH6 loss",
+              "Intellectual disability",
+              "Short stature",
+              "Brachycephaly",
+              "Narrow forehead",
+              "Short philtrum",
+              "Brachydactyly",
+              "Palmar transverse crease",
+              "Broad small feet",
+              "Sole hyperpigmentation"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Lynch syndrome was attributed to deletion of MSH2, MSH6 and EPCAM. PRKCE was only one of many co-deleted genes, so its specific contribution is unknown. Family history was unrevealing.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - A copy number variation map of pediatric neuropsychiatric traits",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare CNVs affecting PRKCE (details not specified)",
+            "type": "other",
+            "phenotypes": [
+              "Obsessive-compulsive disorder (OCD) traits"
+            ]
+          }
+        ],
+        "diagnostic_reason": "PRKCE was named as one of the genes driving the OCD-trait association signal in the burden and locus analyses of rare CNVs and SNVs/indels. This is a statistical association, not individual-level pathogenicity.",
+        "center_country": "The Hospital for Sick Children, Toronto, Canada (Spit for Science cohort)",
+        "cohort": null
+      },
+      {
+        "citation": "Association between de novo variants of nuclear-encoded mitochondrial-related genes and undiagnosed developmental disorder and autism (PMID: 37930872)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "De novo variant(s) in PRKCE among published UDD/ASD cohorts. The table appears to show about 1 de novo variant per category, but variant details are not given.",
+            "type": "other",
+            "phenotypes": [
+              "Undiagnosed developmental disorder",
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "PRKCE was among the nuclear-encoded mitochondrial-related genes tested with the TADA-denovo model for excess de novo variants. The PRKCE row is not clearly a prioritized gene, and no per-patient phenotyping is given.",
+        "center_country": null,
+        "cohort": "DDD"
+      },
+      {
+        "citation": "Construction of copy number variation landscape and characterization of associated genes in a Bangladeshi cohort of neurodevelopmental disorders (PMID: 36959829)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare CNV(s) encompassing PRKCE, listed among 18 critical-exon genes in smaller CNVs",
+            "type": "other",
+            "phenotypes": [
+              "Neurodevelopmental disorder (autism/intellectual disability spectrum)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "PRKCE was a critical-exon gene (gene constraint metric) located within pathogenic or VUS CNVs. It was not prioritized as a candidate, because PSMC3 was selected instead.",
+        "center_country": "Bangladesh",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "2025 - Deletion of the SHORT Syndrome Gene Prkce Results in Brain Atrophy and Cognitive and Motor Behavior Deficits in Mice (PMID: 40914752)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "cerebral atrophy",
+          "cerebellar atrophy",
+          "motor deficits",
+          "social deficits",
+          "cognitive deficits",
+          "down-regulated VEGF/PI3K-induced AKT activation",
+          "abnormal brain development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Maternal Prkce expression in mature oocytes is critical for the first cleavage facilitating maternal-to-zygotic transition in mouse early embryos (PMID: 35582855)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced 2-cell rate of embryos from Prkce-/- oocytes (32.4% vs 80.1% in wild type)",
+          "rescued by Prkce cRNA injection (76.7%)",
+          "143 differentially expressed genes, enriched in cell cycle regulation",
+          "impaired first cleavage and maternal-to-zygotic transition"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of Myeloid Protein Kinase C Epsilon as a Novel Atheroprotective Gene (PMID: 40703062)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "larger atherosclerotic plaques",
+          "larger foam cells",
+          "larger necrotic regions",
+          "thinner collagen caps",
+          "increased macrophage cholesterol and lipid droplet retention",
+          "higher expression of endocytosis genes",
+          "more lipid-containing endosomes",
+          "global PKC\u03b5 knockout bone marrow-derived macrophages also tested for lipid retention and cytokine secretion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PKC\u03b5 phosphorylates \u03b14\u03b22 nicotinic ACh receptors and promotes recovery from desensitization (PMID: 26103136)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced \u03b14 nAChR subunit phosphorylation in synaptosomes",
+          "more severe and prolonged sazetidine-A-induced hypothermia",
+          "prolonged nicotinic receptor desensitization"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Protein kinase C epsilon modulates nicotine consumption and dopamine reward signals in the nucleus accumbens (PMID: 21911393)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "decreased nicotine self-administration",
+          "decreased conditioned place preference for nicotine",
+          "reduced \u03b16 and \u03b23 nicotinic receptor subunit mRNA in ventral midbrain and striatum",
+          "deficit in cholinergic modulation of dopamine release in nucleus accumbens"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Novel Small-Molecule Inhibitors of Protein Kinase C Epsilon Reduce Ethanol Consumption in Mice (PMID: 29198469)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "PKC\u03b5 inhibitors reduced ethanol consumption in wild-type but not Prkce-/- mice",
+          "off-target locomotor impairment and prolonged loss of righting recovery persisted in Prkce-/- mice",
+          "Prkce-/- mice used as genetic control"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Time-dependent effects of Prkce deletion on glucose homeostasis and hepatic lipid metabolism on dietary lipid oversupply in mice (PMID: 21347625)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "protected from high-fat-diet-induced glucose intolerance (normal glucose and insulin at 1 week)",
+          "increased liver triacylglycerol in fat-fed mice",
+          "altered hepatic lipid partitioning with increased fatty acid esterification",
+          "no fat-diet-induced rise in oxygen consumption or liver mitochondrial respiration",
+          "reduced ROS production in hepatocytes with palmitate",
+          "increased glucose-stimulated insulin secretion after 16 weeks of fat feeding"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion of protein kinase C\u03b5 in mice has limited effects on liver metabolite levels but alters fasting ketogenesis and gluconeogenesis (PMID: 22814763)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced liver 4-hydroxyproline and aspartate, increased glutamate",
+          "better maintenance of blood glucose on fasting",
+          "lower \u03b2-hydroxybutyrate on fasting",
+          "lower liver and plasma lipids on fasting",
+          "smaller reduction in fat pad mass on fasting"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Diverse roles for protein kinase C delta and protein kinase C epsilon in the generation of high-fat-diet-induced glucose intolerance in mice: regulation of lipogenesis by protein kinase C delta (PMID: 19809797)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "protected against high-fat-diet-induced glucose intolerance via enhanced insulin availability",
+          "enhanced PKC\u03b4 activation in muscle"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Wang et al. 2021 - FAIM regulates autophagy through glutaminolysis in lung adenocarcinoma (PMID: 34720024)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FAIM promotes GAC (glutaminase C) tetramer formation by increasing PRKCE/PKC\u03b5-mediated phosphorylation of GAC. This raises \u03b1-ketoglutarate production and activates MTOR, suppressing autophagy. PKC\u03b5 therefore acts as a GAC kinase within the glutaminolysis\u2013MTOR\u2013autophagy axis in lung adenocarcinoma cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SHORT syndrome due to a novel de novo mutation in PRKCE (Protein Kinase C\u025b) impairing TORC2-dependent AKT activation (PMID: 28934384)",
+        "evidence_subtype": "function",
+        "summary": "A de novo PRKCE variant was found by exome sequencing in a child with SHORT syndrome who had no PIK3R1 mutation. Kinase assays showed partial loss of function. The mutant kept its PDK1 and SIN1 interactions, but bound SIN1 with higher affinity and had altered mTORC2-dependent priming. It impaired mTORC2-dependent pAKT-S473, and patient lymphoblasts showed reduced pFOXO1-S256 and pS6-S240/244.",
+        "sample_size": "1 proband plus parents; patient lymphoblastoid cell lines, HEK293 cells",
+        "significance": null
+      },
+      {
+        "citation": "Maternal Prkce expression in mature oocytes is critical for the first cleavage facilitating maternal-to-zygotic transition in mouse early embryos (PMID: 35582855)",
+        "evidence_subtype": "function",
+        "summary": "Prkce transcript level in mature oocytes correlates with 2-cell rate across inbred mouse strains. Prkce knockout oocytes had a reduced 2-cell rate (32.4% vs 80.1%), which Prkce cRNA injection rescued (76.7%). Knockout caused 143 DEGs enriched for cell cycle regulation.",
+        "sample_size": null,
+        "significance": "significant (p<0.05 reported for rates)"
+      },
+      {
+        "citation": "Time-dependent effects of Prkce deletion on glucose homeostasis and hepatic lipid metabolism on dietary lipid oversupply in mice (PMID: 21347625)",
+        "evidence_subtype": "function",
+        "summary": "Prkce-/- mice were protected from high-fat-diet-induced glucose intolerance. Early protection was linked to altered hepatic lipid partitioning (increased esterification, higher liver triacylglycerol), lack of diet-induced mitochondrial oxygen consumption and reduced ROS. Later protection was linked to enhanced glucose-stimulated insulin secretion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MicroRNA-146a targets PRKCE to modulate papillary thyroid tumor development (PMID: 23457043)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A luciferase reporter assay confirmed that miR-146a directly binds the PRKCE 3'-UTR. miR-146a overexpression lowered PKC\u03b5 levels in NPA-187 PTC cells and increased apoptosis. It also inhibited xenograft tumor growth, implicating PKC\u03b5 in Ras/Raf-1 signaling, anti-apoptosis and NF-\u03baB feedback.",
+        "sample_size": null,
+        "significance": "significant (reported)"
+      },
+      {
+        "citation": "miR-21-5p/PRKCE axis implicated in immune infiltration and poor prognosis of kidney renal clear cell carcinoma (PMID: 36186442)",
+        "evidence_subtype": "expression",
+        "summary": "PRKCE expression is decreased in KIRC tumors compared with normal tissue, and low expression is associated with poor survival and advanced stage. High PRKCE promoter methylation and miR-21-5p may explain the low expression. PRKCE overexpression suppressed proliferation, migration and invasion of ACHN and Caki-1 cells, and PRKCE correlates with immune infiltration.",
+        "sample_size": "TCGA/GEO cohorts; ACHN and Caki-1 cells",
+        "significance": "significant (reported)"
+      },
+      {
+        "citation": "Fetal exposure to cocaine causes programming of Prkce gene repression in the left ventricle of adult rat offspring (PMID: 18945988)",
+        "evidence_subtype": "expression",
+        "summary": "Prenatal cocaine decreased Prkce mRNA in the left ventricle of adult male offspring. Methylation of the Sp1 binding sites (-346 and -268) in the Prkce promoter increased, which reduced SP1 binding. Reporter assays showed these Sp1 sites strongly stimulate Prkce promoter activity, so the repression is epigenetic.",
+        "sample_size": null,
+        "significance": "significant (reported)"
+      },
+      {
+        "citation": "DNA methylation analysis in nonalcoholic fatty liver disease suggests distinct disease-specific and remodeling signatures after bariatric surgery (PMID: 23931760)",
+        "evidence_subtype": "expression",
+        "summary": "PRKCE showed NAFLD-specific DNA methylation and mRNA expression differences in liver. This was replicated by bisulfite pyrosequencing, and PRKCE is grouped with insulin/IGF signaling genes (IGF1, IGFBP2).",
+        "sample_size": "45 NAFLD/obese patients, 18 controls; replication n=39",
+        "significance": "significant (reported)"
+      },
+      {
+        "citation": "A systematic review and meta-analysis of genetic association studies for the role of inflammation and the immune system in diabetic nephropathy (PMID: 28616206)",
+        "evidence_subtype": "GWAS",
+        "summary": "In a meta-analysis of genetic association studies, PRKCE variants were associated with increased risk of diabetic nephropathy.",
+        "sample_size": "103 association studies in the review overall",
+        "significance": "significant (reported)"
+      },
+      {
+        "citation": "Genes associated with cognitive performance in the Morris water maze: an RNA-seq study (PMID: 33328525)",
+        "evidence_subtype": "expression",
+        "summary": "Hippocampal Prkce expression was higher in high-performing than low-performing Morris water maze mice. It is grouped with AMPA receptor signaling and glutamatergic transmission/LTP genes.",
+        "sample_size": null,
+        "significance": "DEG significance (reported)"
+      }
+    ]
+  }
+}

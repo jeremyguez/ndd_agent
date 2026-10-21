@@ -1,0 +1,265 @@
+{
+ "gene": "THEGL",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "THEGL",
+   "sperm microtubule associated protein 2 like"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 1,
+  "titlekicksparingfulltext": 1,
+  "read": 0
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 0,
+   "Existing": 2,
+   "Hypothesized": 5,
+   "Novel": 93
+  },
+  "justification": "No articles were provided linking THEGL (theg spermatid protein-like) to neurodevelopmental disorder. THEGL is a testis-expressed, spermatid-associated gene with no known role in neurodevelopment. In the absence of any literature\u2014human genetic, functional, or expression-based\u2014there is no evidence supporting a causal or associative relationship. The relationship therefore falls into the Novel category.",
+  "pmids": [],
+  "detail": {
+   "Established": 0,
+   "Existing": 2,
+   "Hypothesized": 5,
+   "Novel": 93
+  }
+ },
+ "articles": [],
+ "labels": {
+  "31022261": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": true
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 233,
+   "usd": 0.007565,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 9.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 308,
+   "output_tokens": 14,
+   "usd": 0.000378,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 3.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.9,
+   "note": "",
+   "input_tokens": 1264,
+   "output_tokens": 209,
+   "usd": 0.002309,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 3.2,
+   "note": "",
+   "input_tokens": 1137,
+   "output_tokens": 227,
+   "usd": 0.01136,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>0</established>\n    <existing>2</existing>\n    <hypothesized>5</hypothesized>\n    <novel>93</novel>\n  </probabilities>\n  <justification>No articles were provided linking THEGL (theg spermatid protein-like) to neurodevelopmental disorder. THEGL is a testis-expressed, spermatid-associated gene with no known role in neurodevelopment. In the absence of any literature\u2014human genetic, functional, or expression-based\u2014there is no evidence supporting a causal or associative relationship. The relationship therefore falls into the Novel category.</justification>\n  <pmids>\n  </pmids>\n</response>"
+}

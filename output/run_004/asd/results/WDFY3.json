@@ -1,0 +1,385 @@
+{
+  "articles_found": {
+    "clinical": 18,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Le Duc et al. 2019 - Pathogenic WDFY3 variants cause neurodevelopmental disorders and opposing effects on brain size (PMID: 31327001)",
+        "num_patients": 13,
+        "variants": [
+          {
+            "description": "9 protein-truncating variants (nonsense/frameshift/splice; individual notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "macrocephaly",
+              "autism spectrum disorder",
+              "ADHD",
+              "psychiatric disorders"
+            ]
+          },
+          {
+            "description": "4 missense variants (individual notations not given in abstract); one in the PH domain",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "microcephaly (PH-domain missense proband)",
+              "autism spectrum disorder",
+              "ADHD"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mostly de novo variants with significant de novo enrichment (P=0.003); the PH-domain missense variant is supported by prior data showing Wnt pathway upregulation",
+        "center_country": "Germany (multicenter; not specified in abstract)",
+        "cohort": null
+      },
+      {
+        "citation": "Lithium chloride in vitro treatment shows potential to rescue the neuronal phenotype caused by WDFY3 haploinsufficiency (PMID: 42800802)",
+        "num_patients": 32,
+        "variants": [
+          {
+            "description": "Loss-of-function variants in WDFY3 (individual notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism",
+              "ADHD",
+              "mild to moderate neurodevelopmental delay",
+              "macrocephaly",
+              "reduced head circumference (one case)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "WDFY3 LoF variants causing haploinsufficiency; supported by functional KD and mouse model data",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Wang et al. 2018 - Inherited and multiple de novo mutations in autism/developmental delay risk genes suggest a multifactorial model (PMID: 30564305)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Likely gene-disrupting mutations in WDFY3 (notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism",
+              "macrocephaly"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent LGD de novo mutations in the gene associated with macrocephaly in the autism cohort",
+        "center_country": "China (ACGC)",
+        "cohort": null
+      },
+      {
+        "citation": "Wang et al. 2016 - De novo genic mutations among a Chinese autism spectrum disorder cohort (PMID: 27824329)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Recurrent de novo likely gene-disruptive mutations in WDFY3 (notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent de novo LGD mutations in ASD probands",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2015 - Autism gene discovery in rare female-enriched multiplex families (FEMFs)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare LoF variant in WDFY3 (among 5 LoF variants in 5 genes in 70 probands)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism (severely affected girls in multiplex families)"
+            ]
+          },
+          {
+            "description": "Rare damaging missense variant in WDFY3 (PolyPhen2 >0.8)",
+            "type": "missense",
+            "phenotypes": [
+              "autism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare (<0.1% MAF) LoF or damaging variants in a high-confidence autism gene, enriched in cases relative to controls",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - Rare variants conferring risk for autism and ADHD identified by whole exome sequencing of dried bloodspots",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare protein-truncating variants in WDFY3 (multiple case hits, none in controls)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism",
+              "ADHD"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Multiple PTV hits in cases with none in controls (burden-based evidence)",
+        "center_country": "Denmark (iPSYCH-Broad Consortium)",
+        "cohort": null
+      },
+      {
+        "citation": "Rare Variant Burden and Behavioral Phenotypes in Children with Autism in Slovakia (PMID: 40869941)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1080del (NM_014991), rs778172350, heterozygous",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare heterozygous frameshift deletion in an ASD/ID gene panel, included in the burden score",
+        "center_country": "Slovakia",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "WD40 repeat and FYVE domain containing 3 is essential for cardiac development (PMID: 30428088)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Embryonic and neonatal lethality",
+          "Congenital heart defects: membranous VSD, aortic overriding, DORV",
+          "Thinning of ventricular wall, ventricular dilation, disorganized trabeculation at E14.5",
+          "Reduced cardiomyocyte proliferation with enhanced p21 expression",
+          "Diminished cardiomyocyte differentiation (reduced Myh6, MLC2v, Nkx2-5, Mef2c)",
+          "Reduced Notch1 intracellular domain, Hes1 and Hey1; enhanced full-length Notch1",
+          "Apoptosis unaltered; no autophagy alteration in heart"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Autophagy linked FYVE (Alfy/WDFY3) is required for establishing neuronal connectivity in the mammalian brain (PMID: 27648578)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Failure of axonal tract formation throughout brain and spinal cord",
+          "Disrupted formation of major forebrain commissures",
+          "Disrupted localization of glial guidepost cells",
+          "Attenuated axon outgrowth in response to Netrin-1",
+          "Phenotype consistent with axon guidance failure"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Huntington's Disease Pathogenesis Is Modified In Vivo by Alfy/Wdfy3 and Selective Macroautophagy (PMID: 31899071)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Heterozygous Wdfy3 depletion has no consequence in control mice",
+          "In HD model mice, accelerated age of onset and progression of HD pathogenesis",
+          "Accelerated accumulation of aggregated mutant HTT in the adult brain",
+          "Accelerated motor and neuropathological phenotypes",
+          "Impaired autophagy-dependent clearance of protein deposits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wdfy3-dependent autophagy impairment recapitulates presymptomatic neurodegenerative signatures in mice (PMID: 41935068)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Wdfy3+/lacZ haploinsufficiency: cortical proteome at 3 months overlaps with PD patient cell lines and human brain (substantia nigra) datasets",
+          "At 14 months, dysregulation of multiple neurodegeneration markers in cortex and substantia nigra",
+          "Impaired autophagy recapitulating presymptomatic neurodegenerative signatures"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lithium chloride in vitro treatment shows potential to rescue the neuronal phenotype caused by WDFY3 haploinsufficiency (PMID: 42800802)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Wdfy3-haploinsufficient mouse neurons show impaired neurite branching",
+          "LiCl treatment improved neurite branching above wild-type level",
+          "Human cell knockdown (SH-SY5Y): impaired aggregate clearance, decreased p62, increased proliferation, impaired differentiation, downregulated \u03b2-catenin, upregulated GSK3B"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": "Human cohort n=32 (patients); mouse numbers not reported",
+        "significance": null
+      },
+      {
+        "citation": "A genome-wide CRISPR screen identifies WDFY3 as a regulator of macrophage efferocytosis (PMID: 36566259)",
+        "organism": "mouse",
+        "knockout_type": "knockout (CRISPR in primary macrophages; in vivo efferocytosis assessed)",
+        "phenotypes": [
+          "Impaired uptake but not binding of apoptotic cells due to defective actin disassembly",
+          "Impaired LC3 lipidation, lysosomal acidification and degradation of apoptotic cell components",
+          "Impaired efferocytosis in vivo in mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Macrophage WDFY3 mitigates autoimmunity by enhancing efferocytosis and suppressing T cell activation in mice (PMID: 41027899)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Myeloid Wdfy3 knockout exacerbates autoimmunity in young mice given apoptotic cells and in middle-aged mice",
+          "Impaired efferocytosis, increased autoantigen availability",
+          "Increased MHC-II antigen presentation, cytokine dysregulation, CD4+ T cell activation",
+          "WDFY3 overexpression suppresses autoimmunity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Autophagy-linked FYVE containing protein WDFY3 interacts with TRAF6 and modulates RANKL-induced osteoclastogenesis (PMID: 27330028)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Myeloid (LysM-Cre) knockout: increased osteoclast differentiation (more and larger TRAP+ multinucleated cells)",
+          "Upregulated TRAF6 and increased RANKL-induced NF-\u03baB signaling",
+          "Increased Ctsk, Acp5, Mmp9 expression and dentine resorption",
+          "Exacerbated RANKL-induced bone loss in vivo (elevated serum TRAP, CTX-I, micro-CT)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of WDFY3 ameliorates severity of serum transfer-induced arthritis independently of autophagy (PMID: 28449847)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Myeloid-specific Wdfy3 cKO mice protected in K/BxN serum transfer-induced arthritis",
+          "Reduced severity of inflammatory arthritis independent of starvation-induced autophagy",
+          "WDFY3 interacts with SQSTM1 in macrophages and osteoclasts"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "T Cell-Independent Mechanisms Associated with Neutrophil Extracellular Trap Formation and Selective Autophagy in IL-17A-Mediated Epidermal Hyperplasia (PMID: 27798153)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Neutrophil-specific Wdfy3 deletion prevented IL-17A-induced epidermal hyperplasia",
+          "Link between NET formation and selective autophagy in IL-17A pathology"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Dragich et al. 2019 - Pathogenic WDFY3 variants cause neurodevelopmental disorders and opposing effects on brain size (PMID: 31327001)",
+        "evidence_subtype": "expression",
+        "summary": "Proliferating cortical neural progenitors in human embryonic brain highly express WDFY3. Wdfy3-haploinsufficient mice show Wnt-pathway dysregulation, macrocephaly, and deficits in motor coordination and associative learning. Heterozygous mostly de novo variants (9 truncating, 4 missense) in 13 individuals cause neurodevelopmental delay. A PH-domain missense variant was associated with microcephaly.",
+        "sample_size": "13 individuals with WDFY3 variants",
+        "significance": "de novo enrichment P = 0.003"
+      },
+      {
+        "citation": "Orosco et al. 2014 - Loss of Wdfy3 in mice alters cerebral cortical neurogenesis reflecting aspects of the autism pathology (PMID: 25198012)",
+        "evidence_subtype": "function",
+        "summary": "Loss of Wdfy3 in mice causes a regionally enlarged cerebral cortex and migration defects of cortical projection neurons. Wdfy3 regulates neural progenitor divisions and neural migration in the developing brain.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WDFY3 mutation alters laminar position and morphology of cortical neurons (PMID: 35733184)",
+        "evidence_subtype": "function",
+        "summary": "MADM mosaic analysis in Wdfy3 mutant mice shows a cell-autonomous requirement of WDFY3 for laminar positioning of cortical projection neurons. WDFY3 loss also alters dendritic arborization and synaptic density and morphology.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Drosophila WDFY3/Bchs overexpression impairs neural function (PMID: 40000652)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Overexpressing the Drosophila WDFY3 ortholog Bchs in glia or neurons impaired autophagy and locomotion. Glial overexpression increased VNC size and glial nuclei number. RNA-seq found 79 overlapping differentially expressed genes, and neuronal overexpression enriched autophagy and mitochondrial gene ontology categories.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "WD40 repeat and FYVE domain containing 3 is essential for cardiac development (PMID: 30428088)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Wdfy3 is expressed in the developing mouse heart, peaking at E12.5, and co-localizes and physically interacts with full-length Notch1. Wdfy3 loss causes congenital heart defects, reduced NICD/Hes1/Hey1, reduced proliferation with raised p21, and reduced cardiomyocyte differentiation, with no autophagy alteration detected.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wdfy3 regulates glycophagy, mitophagy, and synaptic plasticity (PMID: 34187232)",
+        "evidence_subtype": "pathway",
+        "summary": "Wdfy3 haploinsufficiency in mice decreases mitophagy, leaving altered mitochondria with reduced synaptic localization and decreased synaptic density. It also impairs glycogen degradation (glycophagy), causing brain glycogen deposits and cerebellar hypoplasia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Autophagy-linked FYVE containing protein WDFY3 interacts with TRAF6 and modulates RANKL-induced osteoclastogenesis (PMID: 27330028)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "WDFY3 interacts with TRAF6 and is expressed at the neonatal growth plate and in osteoclasts. WDFY3-deficient macrophages show TRAF6 upregulation, increased RANKL-induced NF-\u03baB signaling, enhanced osteoclast differentiation, and greater bone loss in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Macrophage WDFY3 mitigates autoimmunity by enhancing efferocytosis and suppressing T cell activation in mice (PMID: 41027899)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Myeloid Wdfy3 knockout impairs macrophage efferocytosis, increases MHC-II antigen presentation and CD4+ T cell activation, and exacerbates autoimmunity. WDFY3 overexpression enhances efferocytosis and mitigates autoimmunity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A rare genetic variant confers resistance to neurodegeneration across multiple neurological disorders by augmenting selective autophagy (PMID: 40945514)",
+        "evidence_subtype": "GWAS",
+        "summary": "A rare WDFY3 SNP was identified as a modifier delaying Huntington's disease onset by up to 23 years. The orthologous SNP in mice is neuroprotective in two HD models and increases Alfy protein expression. Alfy overexpression also protects against phospho-\u03b1-synuclein and AT8-positive tau toxicity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Opioid Overdose Death and Gene Dysregulation: A Transcriptome-wide Association Study in Nucleus Accumbens",
+        "evidence_subtype": "expression",
+        "summary": "WDFY3 was differentially expressed with opioid overdose death in human nucleus accumbens. It was one of only 3 genes (with CITED2 and ARL4D) that also overlapped significant genes in the prefrontal cortex meta-analysis.",
+        "sample_size": "92 NAc decedents (50 OOD cases, 42 controls)",
+        "significance": "FDR < 0.05"
+      }
+    ]
+  }
+}

@@ -1,0 +1,811 @@
+{
+ "gene": "NLGN2",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental disorders",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "neurodevelopmental delay",
+   "neurodevelopmental impairment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "psychomotor developmental disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "KIAA1366",
+   "neuroligin 2"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 78,
+  "titlekicksparingfulltext": 22,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 40,
+   "Existing": 47,
+   "Hypothesized": 12,
+   "Novel": 1
+  },
+  "justification": "Human evidence exists at the single-gene level: a de novo nonsense variant (p.Tyr147Ter) in a patient with autism, intellectual disability, anxiety and obesity (PMID 27865048), a case report framed as \"NLGN2-related neurodevelopmental disorder\" (PMID 32405903), and a child with febrile/atypical absence seizures attributed to an NLGN2 variant (PMID 37506563); in addition, a large unified de novo SNV/CNV burden analysis of 41,165 NDD cases flagged NLGN2 as a high-confidence novel NDD gene (PMID 35468861), and rare missense variants with functional loss-of-function were reported in schizophrenia (PMID 21551456). These point toward more than a single isolated observation, supporting at least strong \"Existing\" and plausibly \"Established\" status. However, several of these are brief case reports without full detail, the 17p13.1 microduplication data (PMID 25123844) spans multiple genes and cannot implicate NLGN2 specifically, and much supporting work is mouse/in vitro (PMIDs 22820233, 38570872, 42737512, 33443230), which only supports \"Hypothesized.\" Given the limited number of well-characterized independent probands with convincing single-gene causality, I weight \"Existing\" slightly above \"Established.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 40,
+   "Existing": 47,
+   "Hypothesized": 12,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35468861",
+   "title": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants.",
+   "abstract": "BACKGROUND: Previous large-scale studies of de novo variants identified a number of genes associated with neurodevelopmental disorders (NDDs); however, it was also predicted that many NDD-associated genes await discovery. Such genes can be discovered by integrating copy number variants (CNVs), which have not been fully considered in previous studies, and increasing the sample size. METHODS: We first constructed a model estimating the rates of de novo CNVs per gene from several factors such as gene length and number of exons. Second, we compiled a comprehensive list of de novo single-nucleotide variants (SNVs) in 41,165 individuals and de novo CNVs in 3675 individuals with NDDs by aggregating our own and publicly available datasets, including denovo-db and the Deciphering Developmental Disorders study data. Third, summing up the de novo CNV rates that we estimated and SNV rates previously established, gene-based enrichment of de novo deleterious SNVs and CNVs were assessed in the 41,165 cases. Significantly enriched genes were further prioritized according to their similarity to known NDD genes using a deep learning model that considers functional characteristics (e.g., gene ontology and expression patterns). RESULTS: We identified a total of 380 genes achieving statistical significance (5% false discovery rate), including 31 genes affected by de novo CNVs. Of the 380 genes, 52 have not previously been reported as NDD genes, and the data of de novo CNVs contributed to the significance of three genes (GLTSCR1, MARK2, and UBR3). Among the 52 genes, we reasonably excluded 18 genes [a number almost identical to the theoretically expected false positives (i.e., 380 \u00d7 0.05 = 19)] given their constraints against deleterious variants and extracted 34 \"plausible\" candidate genes. Their validity as NDD genes was consistently supported by their similarity in function and gene expression patterns to known NDD genes. Quantifying the overall similarity using deep learning, we identified 11 high-confidence (> 90% true-positive probabilities) candidate genes: HDAC2, SUPT16H, HECTD4, CHD5, XPO1, GSK3B, NLGN2, ADGRB1, CTR9, BRD3, and MARK2. CONCLUSIONS: We identified dozens of new candidates for NDD genes. Both the methods and the resources developed here will contribute to the further identification of novel NDD-associated genes.",
+   "found_by": [],
+   "pubdate": "2022 Apr 26",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "22820233",
+   "title": "Developmental delays and reduced pup ultrasonic vocalizations but normal sociability in mice lacking the postsynaptic cell adhesion protein neuroligin2.",
+   "abstract": "Mutations in neurexin and neuroligin genes have been associated with neurodevelopmental disabilities including autism. Autism spectrum disorder is diagnosed by aberrant reciprocal social interactions, deficits in social communication, and repetitive, stereotyped patterns of behaviors, along with narrow restricted interests. Mouse models have been successfully used to study physiological and behavioral outcomes of mutations in the trans-synaptic neurexin-neuroligin complex. To further understand the behavioral consequences of Neuroligin2 (NLGN2) mutations, we assessed several behavioral phenotypes relevant to autism in neuroligin2 null (Nlgn2(-/-)), heterozygote (Nlgn2(+/-)), and wildtype (Nlgn2(+/+)) littermate control mice. Reduced breeding efficiency and high reactivity to handling was observed in Nlgn2(-/-) mice, resulting in low numbers of adult mice available for behavioral assessment. Consistent with previous findings, Nlgn2(-/-) mice displayed normal social behaviors, concomitant with reduced exploratory activity, impaired rotarod performance, and delays on several developmental milestones. No spontaneous stereotypies or repetitive behaviors were detected. Acoustic, tactile, and olfactory sensory information processing as well as sensorimotor gating were not affected. Nlgn2(-/-) pups isolated from mother and littermates emitted fewer ultrasonic vocalizations and spent less time calling than Nlgn2(+/+) littermate controls. The present findings add to the growing literature on the role of neurexins and neuroligins in physiology and behavior relevant to neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2013 Aug 15",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41844341",
+   "title": "The E3 Ubiquitin Ligase UBE3B Regulates Synaptic Development and Cortical Network Activity.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by impaired communication, abnormal social interactions, and restricted, repetitive behaviors. Pathogenic mutations in UBE3B result in neurodevelopmental disease, including intellectual disability, lack of speech, and ASD. UBE3B is an E3 ubiquitin ligase that tags substrate proteins with ubiquitin, marking them for proteasomal degradation. The ubiquitin-proteasome system (UPS) regulates several signaling pathways critical for neurodevelopment, including neurogenesis and synaptogenesis, and mutations in various UPS genes have been identified in ASD and related neurodevelopmental disorders. To investigate the function of UBE3B in the brain and how its disruption gives rise to neurodevelopmental abnormalities, we generated a central nervous system-specific conditional Ube3b knockout (cKO) mouse model and evaluated the resulting neurobehavioral phenotypes. We found that Ube3b cKO mice exhibit severe deficits in vocalization, social behavior, learning and memory, and motor skills. Assessment of in\u00a0vivo neuronal phenotypes revealed defects in dendritic morphogenesis, reduced excitatory synapse density, diminished spontaneous cortical circuit activity, decreased AMPA receptor surface expression, and hyperexcitability of excitatory cortical neurons. Using quantitative proteomics, we profiled the proteome and ubiquitome of neural stem cells and identified 116 proteins that exhibited increased protein levels and reduced ubiquitination following loss of UBE3B. These proteins were highly enriched for ones involved in synaptic processes, and we confirmed interaction of UBE3B with several key synaptic proteins, including ATP1A1, DOCK7, NLGN2, and STX12. Collectively, our findings identify a role for UBE3B in regulating social, cognitive, and motor functions, and neuronal morphogenesis and activity by fine-tuning the synaptic proteome.",
+   "found_by": [],
+   "pubdate": "2026 May",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42737512",
+   "title": "Modeling NDD-Associated NLGN2 Depletion Using CRISPR/Cas13 Reveals Exaggerated Process Elongation Mediated by the CCDC88A-G Protein-ELMO Axis.",
+   "abstract": "Neuroligin-2 (NLGN2) is a cell adhesion molecule implicated in neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD) and intellectual disability (ID). While NLGN2 is well known as a postsynaptic organizer of predominantly inhibitory synapses, accumulating evidence suggests that NLGN family proteins are also involved in neuronal morphogenesis during early developmental stages. However, a gap remains in our understanding of how loss of function in NLGN2 potentially leads to abnormal neuronal morphogenesis. Here, we investigated the molecular basis of excessive neuronal process formation induced by depletion of NLGN2 using the N1E-115 cell line, an established model of neuronal differentiation. Clustered regularly interspaced short palindromic repeat (CRISPR)/Cas13-mediated knockdown of NLGN2 promoted neuronal process elongation and neuronal differentiation marker expression. Mechanistically, NLGN2 knockdown resulted in activation of coiled-coil and hook domain-containing protein 88A (CCDC88A, also known as Girdin or GIV), a non-receptor guanine nucleotide exchange factor for heterotrimeric G proteins. Transfection of the regulator of G protein signaling (RGS) domain of RGS3, a negative regulator of G proteins, or the G protein-binding domain of engulfment and cell motility 1 (ELMO1) effectively decreased the excessive process elongation phenotype. Similar effects were observed in primary cortical neurons. Furthermore, these interventions normalized elevated Rac1 activity induced by NLGN2 knockdown. Collectively, our findings identify the CCDC88A-G protein-ELMO signaling pathway as a key mediator of excessive neuronal morphogenesis following NLGN2 knockdown. These results provide valuable insight into the mechanisms by which NLGN2 dysfunction may contribute to abnormal neuronal morphogenesis and suggest potential recovery strategies.",
+   "found_by": [],
+   "pubdate": "2026 Aug 25",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38570872",
+   "title": "Neuroligin-2 shapes individual slow waves during slow-wave sleep and the response to sleep deprivation in mice.",
+   "abstract": "BACKGROUND: Sleep disturbances are a common comorbidity to most neurodevelopmental disorders and tend to worsen disease symptomatology. It is thus crucial to understand mechanisms underlying sleep disturbances to improve patients' quality of life. Neuroligin-2 (NLGN2) is a synaptic adhesion protein regulating GABAergic transmission. It has been linked to autism spectrum disorders and schizophrenia in humans, and deregulations of its expression were shown to cause epileptic-like hypersynchronized cerebral activity in rodents. Importantly, the absence of Nlgn2 (knockout: KO) was previously shown to alter sleep-wake duration and quality in mice, notably increasing slow-wave sleep (SWS) delta activity (1-4\u00a0Hz) and altering its 24-h dynamics. This type of brain oscillation is involved in memory consolidation, and is also a marker of homeostatic sleep pressure. Sleep deprivation (SD) is notably known to impair cognition and the physiological response to sleep loss involves GABAergic transmission. METHODS: Using electrocorticographic (ECoG) recordings, we here first aimed to verify how individual slow wave (SW; 0.5-4\u00a0Hz) density and properties (e.g., amplitude, slope, frequency) contribute to the higher SWS delta activity and altered 24-h dynamics observed in Nlgn2 KO mice. We further investigated the response of these animals to SD. Finally, we tested whether sleep loss affects the gene expression of Nlgn2 and related GABAergic transcripts in the cerebral cortex of wild-type mice using RNA sequencing. RESULTS: Our results show that Nlgn2 KO mice have both greater SW amplitude and density, and that SW density is the main property contributing to the altered 24-h dynamics. We also found the absence of Nlgn2 to accelerate paradoxical sleep recovery following SD, together with profound alterations in ECoG activity across vigilance states. Sleep loss, however, did not modify the 24-h distribution of the hypersynchronized ECoG events observed in these mice. Finally, RNA sequencing confirmed an overall decrease in cortical expression of Nlgn2 and related GABAergic transcripts following SD in wild-type mice. CONCLUSIONS: This work brings further insight into potential mechanisms of sleep duration and quality deregulation in neurodevelopmental disorders, notably involving NLGN2 and GABAergic neurotransmission.",
+   "found_by": [],
+   "pubdate": "2024 Apr 3",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "32405903",
+   "title": "Case Report: Is Catatonia a Clinical Feature of the Natural Progression of NLGN2-Related Neurodevelopmental Disorder?",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2021 Jan",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "16077734",
+   "title": "Analysis of four neuroligin genes as candidates for autism.",
+   "abstract": "Neuroligins are cell-adhesion molecules located at the postsynaptic side of the synapse. Neuroligins interact with beta-neurexins and this interaction is involved in the formation of functional synapses. Mutations in two X-linked neuroligin genes, NLGN3 and NLGN4, have recently been implicated in pathogenesis of autism. The neuroligin gene family consists of five members (NLGN1 at 3q26, NLGN2 at 17p13, NLGN3 at Xq13, NLGN4 at Xp22, and NLGN4Y at Yq11), of which NLGN1 and NLGN3 are located within the best loci observed in our previous genome-wide scan for autism in the Finnish sample. Here, we report a detailed molecular genetic analysis of NLGN1, NLGN3, NLGN4, and NLNG4Y in the Finnish autism sample. Mutation analysis of 30 probands selected from families producing linkage evidence for Xq13 and/or 3q26 loci revealed several polymorphisms, but none of these seemed to be functional. Family-based association analysis in 100 families with autism spectrum disorders yielded only modest associations at NLGN1 (rs1488545, P=0.002), NLGN3 (DXS7132, P=0.014), and NLGN4 (DXS996, P=0.031). We conclude that neuroligin mutations most probably represent rare causes of autism and that it is unlikely that the allelic variants in these genes would be major risk factors for autism.",
+   "found_by": [],
+   "pubdate": "2005 Dec",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25123844",
+   "title": "Neurodevelopmental delays and macrocephaly in 17p13.1 microduplication syndrome.",
+   "abstract": "Microduplication of chromosome 17p13.1 is a rarely reported chromosome abnormality associated with neurodevelopmental delays. We describe two unrelated patients with overlapping microduplications of chromosome 17p13.1. The first patient is a 2-year-old male who presented with neurodevelopmental delays and macrocephaly. He was found to have a de novo 788\u2009kb copy gain of 17p13.2p13.1 and a de novo 134\u2009kb copy gain of 17p13.1. These duplications include multiple candidate genes, including EFNB3, NLGN2, DLG4, GABARAP, and DULLARD, which may be responsible for neurodevelopmental delays in affected individuals. The second patient is a 29-year-old female with mild intellectual disability and relative macrocephaly. She was found to have a 62.5\u2009kb copy gain of chromosome 17p13.1 that includes the DLG4, GABARAP, and DULLARD genes. The DLG4, GABARAP, and DULLARD genes included in the microduplications of both our patients appear to be candidate genes for neurodevelopmental delays and macrocephaly in individuals with 17p13.1 microduplication syndrome.",
+   "found_by": [],
+   "pubdate": "2014 Nov",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "37506563",
+   "title": "A child with febrile and atypical absence seizures caused by a NLGN2 variant.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2023 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29339486",
+   "title": "Cell-type-specific role for nucleus accumbens neuroligin-2 in depression and stress susceptibility.",
+   "abstract": "Behavioral coping strategies are critical for active resilience to stress and depression; here we describe a role for neuroligin-2 (NLGN-2) in the nucleus accumbens (NAc). Neuroligins (NLGN) are a family of neuronal postsynaptic cell adhesion proteins that are constituents of the excitatory and inhibitory synapse. Importantly, NLGN-3 and NLGN-4 mutations are strongly implicated as candidates underlying the development of neuropsychiatric disorders with social disturbances such as autism, but the role of NLGN-2 in neuropsychiatric disease states is unclear. Here we show a reduction in NLGN-2 gene expression in the NAc of patients with major depressive disorder. Chronic social defeat stress in mice also decreases NLGN-2 selectively in dopamine D1-positive cells, but not dopamine D2-positive cells, within the NAc of stress-susceptible mice. Functional NLGN-2 knockdown produces bidirectional, cell-type-specific effects: knockdown in dopamine D1-positive cells promotes subordination and stress susceptibility, whereas knockdown in dopamine D2-positive cells mediates active defensive behavior. These findings establish a behavioral role for NAc NLGN-2 in stress and depression; provide a basis for targeted, cell-type specific therapy; and highlight the role of active behavioral coping mechanisms in stress susceptibility.",
+   "found_by": [],
+   "pubdate": "2018 Jan 30",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "21551456",
+   "title": "Identification and functional characterization of rare mutations of the neuroligin-2 gene (NLGN2) associated with schizophrenia.",
+   "abstract": "Schizophrenia is a severe chronic mental disorder with a high genetic component in its etiology. Several lines of study have suggested that synaptic dysfunction may underlie the pathogenesis of schizophrenia. Neuroligin proteins function as cell-adhesion molecules at post-synaptic membrane and play critical roles in synaptogenesis and synaptic maturation. In this study, we systemically sequenced all the exons and promoter region of neuroligin-2 (NLGN2) gene in a sample of 584 schizophrenia patients and 549 control subjects from Taiwan. In total, we identified 19 genetic variants, including six rare missense mutations such as R215H (one patient), V510M (two patients), R621H (one patient), A637T (two patients), P800L (one patient and one control) and A819S (one patient and one control). In silico analysis predicted that two patient-specific missense mutations, R215H and R621H, had damaging effect, whereas the other missense mutations were benign. Importantly, functional analysis with immunocytochemistry and electrophysiological recordings identified the R215H mutant as a loss-of-function mutant in inducing GABAergic synaptogenesis. Mechanistically, the synaptogenic deficiency of R215H mutant was due to its retention inside the endoplasmic reticulum and inability to be transported to cell membrane. Our study suggests that defects in GABAergic synapse formation in the brain may be an important contributing factor for the onset of schizophrenia. In the family study of this mutation, we found his elder brother also carried this mutation but did not have psychiatric symptoms, indicating that this mutation has incomplete penetrance, and thus the clinical relevance of this mutation should be interpreted with caution.",
+   "found_by": [],
+   "pubdate": "2011 Aug 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27865048",
+   "title": "Neuroligin 2 nonsense variant associated with anxiety, autism, intellectual disability, hyperphagia, and obesity.",
+   "abstract": "Neuroligins are post-synaptic, cellular adhesion molecules implicated in synaptic formation and function. NLGN2 is strongly linked to inhibitory, GABAergic signaling and is crucial for maintaining the excitation-inhibition balance in the brain. Disruption of the excitation-inhibition balance is associated with neuropsychiatric disease. In animal models, altered NLGN2 expression causes anxiety, developmental delay, motor discoordination, social impairment, aggression, and sensory processing defects. In humans, mutations in NLGN3 and NLGN4 are linked to autism and schizophrenia; NLGN2 missense variants are implicated in schizophrenia. Copy number variants encompassing NLGN2 on 17p13.1 are associated with autism, intellectual disability, metabolic syndrome, diabetes, and dysmorphic features, but an isolated NLGN2 nonsense variant has not yet been described in humans. Here, we describe a 15-year-old male with severe anxiety, obsessive-compulsive behaviors, developmental delay, autism, obesity, macrocephaly, and some dysmorphic features. Exome sequencing identified a heterozygous, de novo, c.441C>A p.(Tyr147Ter) variant in NLGN2 that is predicted to cause loss of normal protein function. This is the first report of an NLGN2 nonsense variant in humans, adding to the accumulating evidence that links synaptic proteins with a spectrum of neurodevelopmental phenotypes. \u00a9 2016 Wiley Periodicals, Inc.",
+   "found_by": [],
+   "pubdate": "2017 Jan",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33443230",
+   "title": "Neuroligin-2 as a central organizer of inhibitory synapses in health and disease.",
+   "abstract": "Postsynaptic organizational protein complexes play central roles both in orchestrating synapse formation and in defining the functional properties of synaptic transmission that together shape the flow of information through neuronal networks. A key component of these organizational protein complexes is the family of synaptic adhesion proteins called neuroligins. Neuroligins form transsynaptic bridges with presynaptic neurexins to regulate various aspects of excitatory and inhibitory synaptic transmission. Neuroligin-2 (NLGN2) is the only member that acts exclusively at GABAergic inhibitory synapses. Altered expression and mutations in NLGN2 and several of its interacting partners are linked to cognitive and psychiatric disorders, including schizophrenia, autism, and anxiety. Research on NLGN2 has fundamentally shaped our understanding of the molecular architecture of inhibitory synapses. Here, we discuss the current knowledge on the molecular and cellular functions of mammalian NLGN2 and its role in the neuronal circuitry that regulates behavior in rodents and humans.",
+   "found_by": [],
+   "pubdate": "2020 Dec 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42220229",
+   "title": "Real-world-data for phenotypes and genotypes of rare monogenic genetic epilepsies and genes of uncertain significance for epilepsy.",
+   "abstract": "OBJECTIVES: The objectives of this study were to develop a real-world-data (RWD) database for patients with epilepsy to provide further real-world-evidence (RWE) for monogenic genetic epilepsies; to assess the usefulness of a diagnostic algorithm in epilepsy; and to examine protein 3D structures using in silico tools to predict variant pathogenicity. METHODS: We stratified patients into Group 1 (with genetic diagnoses) and Group 2 (with no genetic diagnoses). We performed protein 3D modeling of variants of uncertain significance (VUS) in genes. RESULTS: We included 167 patients in our RWD database. We report the genotypes and phenotypes of 44 distinct monogenic genetic epilepsies from 66 patients. The diagnostic yield of clinical exome sequencing (ES) was 31%. Developmental delay, developmental brain malformation, movement disorder, and infantile-onset epilepsy (seizure onset <2\u2009years of age) were more common (p\u2009<\u20090.05) in Group 1. The diagnostic yield of biochemical investigations was 0%. Compared to wild type protein structures, there were predicted conformational changes to protein structure including changes in \u03b1-helices and/or \u03b2-sheets and losses in loops in the protein structures expressed by variants of uncertain significance (VUS) for ARHGAP35, BACH2, BAZ2B, DOP1B, EPHA5, FRYL, HMGXB4, MTDH, NHSL2, NLGN2, NRXN2, P2RX4, PRICKLE2, PRRC2A, RALGAPB, RNF157, SREBF2, ZNF532, and ZNF536, all of which are genes of uncertain significance (GUS). We calculated the estimated diagnostic yield of ES to be 48% by using a 3D protein structure prediction tool, and the functional characterization of a LARP7 VUS, as well as previous case series of GUS. SIGNIFICANCE: We report 19 GUS that accounts 10% of the cohort with GUS. If those GUS would have been proven to cause genetic epilepsies, the diagnostic yield of ES would have been increased 17%. The GUS and VUS in monogenic epilepsy genes will require further functional characterization. International collaborations are needed to increase our understanding of these rare epilepsies. PLAIN LANGUAGE SUMMARY: We wanted to create a database for people with epilepsy. We did genetic tests in people with epilepsy to find out if they have a genetic problem. We looked at their information. We added 167 people with epilepsy and diagnosed a genetic problem in 66 people with epilepsy. We applied genetic tools to find out if genetic changes were important. We still need to the do more laboratory tests to see if those genetic changes explain a genetic problem in >100 people that we did not diagnose a genetic problem.",
+   "found_by": [],
+   "pubdate": "2026 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42746388",
+   "title": "Memory processing in neurodevelopmental disorders: linking behavioral, circuits, and molecular scales.",
+   "abstract": "Despite long-standing investigations into the neural and molecular correlates of memory, there persists a lack of comprehensive understanding of the cellular and subcellular processes that go awry in cases of neurodivergent and neuropathological phenotypes. While the mechanisms of memory encoding, consolidation, and retrieval are well-characterized in neurotypical models, disruptions in these processes often manifest as cognitive dysfunctions in the contexts of neurodevelopment and neurodegeneration. In this review, we specifically examine the molecular frameworks of memory processing arising from neurodevelopmental disorders. Given that developmental disorders affecting early stages of neural circuitry formation are manifested much later, in the adolescent or adult stages of life, it is important to delineate exactly how the molecular underpinnings of memory formation lead to atypical behavioral phenotypes manifested in different neurodevelopmental conditions. By integrating behavioral phenotypes with underlying circuit and molecular pathologies, this paper argues for a multiscale perspective to understand and address the divergence between neurotypical and neurodivergent memory function. [full text, passages naming NLGN2] ...tion | Locus coerulus system | Spatial object recognition (SOR) was performed; deficit in LC-NE neurons | Rescue: Inhibition\u22a3 LC-NE neurons reverse memory in 16p11.2 mouse. | 3 | | \u00c7etinkaya et al., 2025 NLGN1/NLGN2 (ASD) | Mouse | - | Spatial Memory | Hippocampus | disrupted cotricostriatal signaling | \u2193 Spatial memory; impaired hippocampal LTP | 4 | | Guo et al., 2023 Dock4 (ASD) | Mouse | Male | spatial memory | H...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42534475",
+   "title": "\u03b2-catenin deficiency in forebrain excitatory neurons induces fear memory deficits and physiological alterations.",
+   "abstract": "\u03b2-catenin-coding gene CTNNB1 is a top-ranking risk gene for autism and intellectual disability. To better understand how CTNNB1 haploinsufficiency is involved in the pathophysiology of neurodevelopmental disorders, we generated a new mouse model that enables Ctnnb1 deletion in forebrain excitatory neurons starting at embryonic corticogenesis. Behavioural assays of the Ctnnb1 conditional knockout (cKO) mice revealed significant fear memory deficits, despite normal social preference, anxiety, spatial and recognition memory. Pyramidal neurons in prefrontal cortex (PFC) of Ctnnb1 cKO mice exhibited the significantly elevated intrinsic excitability but markedly decreased AMPA receptor-mediated synaptic response, while GABAA or NMDA receptor-mediated synaptic response was unchanged. Gene profiling revealed the significantly reduced mRNA level of Syp (encoding Synaptophysin) and Nlng2 (encoding Neuroligin-2) in PFC of Ctnnb1 cKO mice, while most of other screened genes were unchanged. These results suggest that \u03b2-catenin deficiency in forebrain excitatory neurons leads to fear conditioning impairment, which could be contributed by the diminished excitatory synaptic transmission in PFC resulting from disrupted synaptic gene expression. [full text, passages naming NLGN2] ...TAGTTGGTGACTACTCCT | GTTGTTCTCTCGGTACTTGT | | Vamp2 ATCTGAGGGTACAGCCCCTT | CCCAGCATCTCTCCTACCCT | | Nrxn1 CAGCACAGCTAGAAGAGGCA | TCCTCATCGTCACTGGGACA | | Nrxn3 TAGCCACAACCTCCAGGGAT | GTCCTTTGCTGGAGTTACAGTT | | Nlgn2 GCTGCAAAAGGCAACTATGGG | GGTGGGAAAGGATCAGCAAGT | | Ep300 GTGAACAACATGAGTGCTAGTCC | GCCACACCAGCATTTTCACT | | Hdac2 CATGGCGTACAGTCAAGGAG | TCTATGAGGCTTCATGGGATG | | Grin1 CATCGGACTTCAGCTAATCA | GTCCCCATCCTCA... ...ependent genes ( D ), and transcription regulator genes ( E ) in PFC of control versus Ctnnb1 cKO mice. A: n = 4\u20139 mice/group; B: n = 4\u201313 mice/group, Vamp2: t (14) = 1.5, P = 0.1; Syp: t (9) = 4.2, P = 0.002; Nlgn2: t (9) = 2.5, P = 0.03, t- test; C: n = 4\u20137 mice/group; D: n = 8\u201313/group, Arc : t (19) = 1.7, P = 0.1; Fos : t (19) = 1.3, P = 0.2; t- test; E: n = 4\u20137 mice/group. ( F ), ( G ) Bar graphs showing the exp...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42764196",
+   "title": "Baseline Dynamics and Sleep Loss-Driven Changes of Electrocorticographic Aperiodic Properties Are Altered in Mice Lacking Neuroligin-2.",
+   "abstract": "Spectral power decay (1/f\u03b2) of cortical activity has long been considered of low relevance to the understanding of brain function (e.g., associated with background noise of neuronal activity). However, growing literature suggests that it can reflect optimized spatiotemporal organization of neuronal activity across the cortex serving both cognition and behavior. Thus, clarifying the mechanisms underlying the regulation of this network property could have numerous impacts for the neuroscience field as well as for patients suffering from various neurological disorders with cognitive deficits linked to alterations in brain power decay properties. Using a constitutive knockout mouse and a multifractal wavelet-leaders formalism, we here investigated the involvement of the synaptic adhesion molecule Neuroligin-2, which shapes synaptic inhibition and associates with neurodevelopmental diseases, in modulating spectral power decay properties of the electrocorticographic signal (i.e., the most prominent Hurst exponent \"Hm\" and its local \"Dispersion\"). Knockout mice showed increased Hm values across all wake and sleep states together with amplified daily dynamics during wake and paradoxical sleep, and increased Dispersion specifically for slow-wave sleep in comparison with wild-type littermates. Following a 6-h sleep deprivation, Hm daily variations were more altered in knockout mice than controls for wake and paradoxical sleep, but less affected for slow-wave sleep. Importantly, mutant mice display hypersynchronized epileptic-like electrocorticographic events, which were characterized by further increases in Hm and Dispersion. These findings provide support for the involvement of Neuroligin-2 in shaping 1/f\u03b2 cortical activity properties and bring perspectives, notably, for neurodevelopmental conditions. [full text, passages naming NLGN2] ...ons BL baseline ECoG electrocorticographic EEG electroencephalographic EMG electromyographic GABA gamma\u2010aminobutyric acid HET heterozygous KCC2 potassium\u2010chloride cotransporter 2 KO knockout NLGN1 Neuroligin\u20101 NLGN2 Neuroligin\u20102 PBS phosphate\u2010buffered saline PS paradoxical sleep REC recovery SD sleep deprivation SN synaptoneurosomal SWA slow\u2010wave activity SWS slow\u2010wave sleep Tot total WT wild\u2010type ZT Zeitgeber time 1... ...napses (Chubykin et al. 2007 ; Budreck et al. 2013 ; Jedlicka et al. 2015 ), impacts wakefulness and slow\u2010wave sleep (SWS) aperiodic ECoG activity in mice (Lina et al. 2019 ; Areal et al. 2025 ). Neuroligin\u20102 (NLGN2) is an adhesion protein located at gamma\u2010aminobutyric acid (GABA)\u2010ergic postsynaptic terminals and regulates the molecular organization of inhibitory synapses (Blundell et al. 2009 ; Poulopoulos et al. 20... ...gulates the molecular organization of inhibitory synapses (Blundell et al. 2009 ; Poulopoulos et al. 2009 ; Jedlicka et al. 2011 ). This protein is also controlling the excitation/inhibition balance given that Nlgn2 knockout (KO) mice present impaired inhibitory post\u2010synaptic currents for a majority of studied brain regions (Chubykin et al. 2007 ; Poulopoulos et al. 2009 ; Jedlicka et al. 2011 ; Liang et al. 2015 ; B...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41890637",
+   "title": "Foxp2 mutations and abnormal brain and gastrointestinal development: insights from animal models of speech-language and autism spectrum disorders.",
+   "abstract": "Autism spectrum disorder (ASD) and speech and language disorder (SLD) are distinct neurodevelopmental conditions, yet both share overlapping communication impairments. Forkhead box P2 (FOXP2), a key transcription factor involved in speech and language development, harbors pathogenic mutations such as R553H, which cause SLD and have been suggested to contribute to aspects of ASD-related phenotypes. This review synthesizes insights from animal models to explore the molecular mechanisms by which Foxp2 mutations disrupt the development of the cerebral cortex, thalamus, and enteric nervous system. We highlight findings from heterozygous Foxp2 mutants and discuss severe phenotypes observed in homozygous Foxp2 mutants (Foxp2R552H/R552H and Foxp2R552H/R552H/mCherry-Tg mice), including profound ultrasonic vocalization deficits, brain malformations, and early lethality. Notably, these mice exhibit gastrointestinal abnormalities involving the epithelium, smooth muscle, and enteric nervous system, which are linked to impaired autoregulation and interference with Wnt signaling during development. Such observations underscore the relevance of the brain-gut-microbiome axis and Hirschsprung-like pathology in neurodevelopmental disorders. Finally, this review discusses future directions using gene-editing approaches in non-mammalian models-zebra finches, zebrafish, and Drosophila-to dissect neural networks underlying intellectual disability and communication deficits. Collectively, these studies provide a framework for understanding FOXP2-related molecular mechanisms in the pathogenesis of ASD and SLD. [full text, passages naming NLGN2] ...es implicated in autism spectrum disorder. | Synapse type | Molecule | Classification (role) | ASD genetics (SFARI-based) | Function/E/I relevance | Key references Excitatory/inhibitory | NLGN1 (Neuroligin-1), NLGN2 (Neuroligin-2), NLGN3/4 (Neuroligin-3/4X) | Postsynaptic adhesion molecule | +++ (NLGN1: SFARI score 2; NLGN2: SFARI score 1; NLGN3: strong ASD-linked variants; NLGN4X: SFARI score 1) | Adhesion regulatin... ...FARI-based) | Function/E/I relevance | Key references Excitatory/inhibitory | NLGN1 (Neuroligin-1), NLGN2 (Neuroligin-2), NLGN3/4 (Neuroligin-3/4X) | Postsynaptic adhesion molecule | +++ (NLGN1: SFARI score 2; NLGN2: SFARI score 1; NLGN3: strong ASD-linked variants; NLGN4X: SFARI score 1) | Adhesion regulating both excitatory and inhibitory synapses; affects E/I balance | | Jamain et al., 2003 ; Chih et al., 2005 ; C...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41862769",
+   "title": "Bazedoxifene reverses sexually dimorphic autistic-like abnormalities in biallelic MDGA1-mutant mice.",
+   "abstract": "MDGA1 reportedly suppresses GABAergic synaptic inhibition and may be associated with schizophrenia. However, it has been unclear whether and how MDGA1 dysfunction causes neurodevelopmental disorders. Here, we describe two patients with autism spectrum disorder (ASD) carrying missense mutations in MDGA1: p.Val116Met/p.Ala688Val and p.Tyr635Cys/p.Glu756Gln. Murine in utero overexpression of MDGA1 p.Val116Met/p.Ala688Val alters normal cortical neuron migration and impairs ultrasonic vocalizations (USVs). The p.Tyr635Cys/p.Glu756Gln substitution disrupts the triangular extracellular structure of MDGA1 and renders it unable to impact GABAergic synapses in hippocampal CA1 neurons. Male Mdga1 knock-in (KI) mouse pups and adults harboring the p.Tyr636Cys/p.Glu751Gln mutation exhibit impaired USVs and sensorimotor gating, similar to male Mdga1 conditional knockout (cKO) mice. No behavioral deficits were seen in female counterparts. Bazedoxifene (a selective estrogen receptor modulator) treatment of male Mdga1Y636C/E751Q KI mice rescues the changes in the expression and phosphorylation of a subset of GABAergic synaptic proteins, as well as behavioral performance and GABAergic synaptic strength. Thus, different MDGA1 mutations manifest as distinct MDGA1 dysfunctions and are likely to cause ASD via sexually dimorphic loss-of-function and/or gain-of-function mechanisms. [full text, passages naming NLGN2] ...tative role in the later phase of CNS development. In keeping with this observation, MDGA1 negatively regulates GABAergic synapse maintenance by binding to a subset of synapse organizers, such as neuroligin-2 (Nlgn2) or amyloid precursor protein (APP) (Kim et al, 2022a ; Lee et al, 2013 ; Pettem et al, 2013 ). Intriguingly, it appears that MDGA1 targets APP to tune specific GABAergic neural circuit properties in the... ...et al, 2013 ; Pettem et al, 2013 ). Intriguingly, it appears that MDGA1 targets APP to tune specific GABAergic neural circuit properties in the hippocampus (Kim et al, 2022a ). Although the contribution of the Nlgn2-binding activity of MDGA1 to hippocampal synapse organization cannot be ruled out, it is plausible that MDGA1 might deploy distinct synaptic pathways to modulate GABAergic synapse development. MDGA1 has b... ...model of the hetero-tetrameric human MDGA1/neuroligin complex (PDB: 5OJ6; PDB: 5XEQ) (Elegheert et al, 2017 ; Kim et al, 2017 ) and patient mutations in human MDGA1. For clarity, only the crystal structure of Nlgn2 and the aligned structural model of human MDGA1 are presented. Domains of human MDGA1 (six Ig domains and one FnIII domain) are colored with a rainbow gradient from Ig1 (red) to FnIII (violet). Dimeric Nl...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36959829",
+   "title": "Construction of copy number variation landscape and characterization of associated genes in a Bangladeshi cohort of neurodevelopmental disorders.",
+   "abstract": "Introduction: Copy number variations (CNVs) play a critical role in the pathogenesis of neurodevelopmental disorders (NDD) among children. In this study, we aim to identify clinically relevant CNVs, genes and their phenotypic characteristics in an ethnically underrepresented homogenous population of Bangladesh. Methods: We have conducted chromosomal microarray analysis (CMA) for 212 NDD patients with male to female ratio of 2.2:1.0 to identify rare CNVs. To identify candidate genes within the rare CNVs, gene constraint metrics [i.e., \"Critical-Exon Genes (CEGs)\"] were applied to the population data. Autism Diagnostic Observation Schedule-Second Edition (ADOS-2) was followed in a subset of 95 NDD patients to assess the severity of autism and all statistical tests were performed using the R package. Results: Of all the samples assayed, 12.26% (26/212) and 57.08% (121/212) patients carried pathogenic and variant of uncertain significance (VOUS) CNVs, respectively. While 2.83% (6/212) patients' pathogenic CNVs were found to be located in the subtelomeric regions. Further burden test identified females are significant carriers of pathogenic CNVs compared to males (OR = 4.2; p = 0.0007). We have observed an increased number of Loss of heterozygosity (LOH) within cases with 23.85% (26/109) consanguineous parents. Our analyses on imprinting genes show, 36 LOH variants disrupting 69 unique imprinted genes and classified these variants as VOUS. ADOS-2 subset shows severe social communication deficit (p = 0.014) and overall ASD symptoms severity (p = 0.026) among the patients carrying duplication CNV compared to the CNV negative group. Candidate gene analysis identified 153 unique CEGs in pathogenic CNVs and 31 in VOUS. Of the unique genes, 18 genes were found to be in smaller (<1 MB) focal CNVs in our NDD cohort and we identified PSMC3 gene as a strong candidate gene for Autism Spectrum Disorder (ASD). Moreover, we hypothesized that KMT2B gene duplication might be associated with intellectual disability. Conclusion: Our results show the utility of CMA for precise genetic diagnosis and its integration into the diagnosis, therapy and management of NDD patients. [full text, passages naming NLGN2] ...ls. Facial appearance: normal | 0.009434 | 0 | 79 | M | Dup | a 17p13.3p12 chr17:151,597-11,392,231 | 11.241 | 414 | | PRPF8, PITPNA, ABR, YWHAE, MNT, SMG6, TNFSF12, SENP3, RAP1GAP2, CHD3, CAMTA2, KDM6B, DLG4, NLGN2, ANKFY1, PHF23, FXR2, POLR2A, MINK1, ZBTB4, CTDNEP1, RABEP1, TNFSF12-TNFSF13, EIF4A1, PAFAH1B1,PITPNM3, NEURL4, RPL26, MYH10, and NDEL1 Miller\u2013Dieker syndrome (MDS); | INPP5K, KANSL1, WDR81, BHLHA9, WRAP5...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "38867170": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35664469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21424692": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42780247": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27608760": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23393157": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35169261": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25260053": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22493536": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35963640": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40191489": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26474449": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37004758": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39479418": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42744214": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32636717": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32661233": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32173625": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31316544": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34776862": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36889589": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37509099": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35468861": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "22820233": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41844341": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32818520": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42737512": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38570872": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32405903": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40087687": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28498949": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18550748": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23358245": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30056576": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16077734": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "26235839": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25123844": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26142252": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33659799": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39231636": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26859820": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24188901": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37506563": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29230184": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39897557": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29859117": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29339486": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "21551456": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "24213355": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27865048": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33443230": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "27805570": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23451101": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42220229": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41968596": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21532576": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31953212": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42746388": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42534475": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42764196": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41890637": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41862769": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41395454": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42048321": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39357429": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41802868": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42457413": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35457207": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40285371": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39022311": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40147933": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39649106": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36959829": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40485115": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40112516": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41174051": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37284629": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39334827": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 3.8,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 342,
+   "usd": 0.01029,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "26 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "39 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3746,
+   "output_tokens": 148,
+   "usd": 0.004486,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 43.5,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.0,
+   "note": "",
+   "input_tokens": 34814,
+   "output_tokens": 1292,
+   "usd": 0.041274,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.5,
+   "note": "",
+   "input_tokens": 16253,
+   "output_tokens": 1134,
+   "usd": 0.109615,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>40</established>\n    <existing>47</existing>\n    <hypothesized>12</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Human evidence exists at the single-gene level: a de novo nonsense variant (p.Tyr147Ter) in a patient with autism, intellectual disability, anxiety and obesity (PMID 27865048), a case report framed as \"NLGN2-related neurodevelopmental disorder\" (PMID 32405903), and a child with febrile/atypical absence seizures attributed to an NLGN2 variant (PMID 37506563); in addition, a large unified de novo SNV/CNV burden analysis of 41,165 NDD cases flagged NLGN2 as a high-confidence novel NDD gene (PMID 35468861), and rare missense variants with functional loss-of-function were reported in schizophrenia (PMID 21551456). These point toward more than a single isolated observation, supporting at least strong \"Existing\" and plausibly \"Established\" status. However, several of these are brief case reports without full detail, the 17p13.1 microduplication data (PMID 25123844) spans multiple genes and cannot implicate NLGN2 specifically, and much supporting work is mouse/in vitro (PMIDs 22820233, 38570872, 42737512, 33443230), which only supports \"Hypothesized.\" Given the limited number of well-characterized independent probands with convincing single-gene causality, I weight \"Existing\" slightly above \"Established.\"</justification>\n  <pmids>\n    <pmid>27865048</pmid>\n    <pmid>32405903</pmid>\n    <pmid>37506563</pmid>\n    <pmid>35468861</pmid>\n    <pmid>21551456</pmid>\n    <pmid>25123844</pmid>\n    <pmid>22820233</pmid>\n    <pmid>33443230</pmid>\n    <pmid>42737512</pmid>\n    <pmid>38570872</pmid>\n  </pmids>\n</response>"
+}

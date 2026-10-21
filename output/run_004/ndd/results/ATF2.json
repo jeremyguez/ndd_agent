@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "ATF2 phosphorylation is a core transcriptional driver of neuron apoptosis (PMID: 40654834)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPRi screen in human neurons identified ATF2 alongside DLK (MAP3K12) and JUN as required for neuronal death. ATF2 phosphorylation by MAP3 kinases drives the pro-apoptotic transcriptional response and JUN upregulation, whereas JUN phosphorylation is dispensable. ATF2 knockdown prevents neuron death in culture and is neuroprotective in in vivo injury models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-binding protein RCAN1.1L modulates ATF2 mRNA stability to promote mitochondrial fission in acute ischemic stroke (PMID: 42129133)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RCAN1.1L binds nucleotides 2915-2935 of the ATF2 3'UTR and stabilizes ATF2 mRNA. This increases mitochondrial ATF2 (mtATF2), which binds and upregulates FIS1 to drive mitochondrial fission and intrinsic apoptosis in ischemic neurons. An RNA aptamer that disrupts the RCAN1.1L-ATF2 mRNA interaction is neuroprotective.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ATF2/BAP1 Axis Mediates Neuronal Apoptosis After Subarachnoid Hemorrhage via P53 Pathway (PMID: 38965653)",
+        "evidence_subtype": "pathway",
+        "summary": "ATF2 binds the BAP1 promoter and regulates BAP1 expression. BAP1 then stabilizes P53 by reducing its proteasomal degradation, promoting neuronal apoptosis after SAH in mice and hemin-treated neurons. This places ATF2 upstream in an ATF2/BAP1/P53 apoptotic pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulatory role of the p38 MAPK/ATF2 signaling pathway in visual function and visual cortical plasticity in mice with monocular deprivation (PMID: 37393009)",
+        "evidence_subtype": "pathway",
+        "summary": "In the mouse visual cortex after monocular deprivation, p38 MAPK inhibition (SB) lowered phospho-p38 and increased ATF2 and PSD-95 expression. This improved visual function and synaptic plasticity, indicating ATF2 acts downstream of p38 MAPK in cortical plasticity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Combination of tetrandrine and 3-n-butylphthalide protects against cerebral ischemia-reperfusion injury via ATF2/TLR4 pathway (PMID: 34591732)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ATF2 overexpression promoted neuronal degeneration in OGD models, and ATF2 transcriptionally activates TLR4. Tetrandrine plus NBP suppressed ATF2 and TLR4 signaling, reducing neuronal apoptosis and inflammation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - Disruption of FMR1, RAI1, MBD5, and TCF4 results in abnormal expression of circadian rhythm genes and sleep disturbances",
+        "evidence_subtype": "cell_culture",
+        "summary": "In SH-SY5Y cells, siRNA knockdown of MBD5, RAI1 and TCF4 altered expression of circadian-related genes including ATF2 and ATF4, alongside CLOCK, PER1 and CRY2. This links ATF2 to circadian pathways disrupted in neurodevelopmental syndromes with sleep disturbance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2013 - MBD5 deletion disrupts circadian gene expression and is associated with sleep disturbance in the 2q23.1 deletion syndrome",
+        "evidence_subtype": "expression",
+        "summary": "Microarray pathway analysis of MBD5 knockdown in SH-SY5Y cells showed dysregulation of circadian rhythm genes including ATF2, ATF4, CLOCK and PER3. This supports ATF2 as a circadian-pathway gene affected by MBD5 loss.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Increased ATF2 expression predicts poor prognosis and inhibits sorafenib-induced ferroptosis in gastric cancer (PMID: 36473315)",
+        "evidence_subtype": "expression",
+        "summary": "ATF2 is upregulated in gastric cancer tissue and predicts poor prognosis. ChIP-Seq and RNA-Seq identified HSPH1 as an ATF2 target, and HSPH1 stabilizes SLC7A11 to suppress sorafenib-induced ferroptosis. ATF2 knockdown enhanced sorafenib sensitivity in xenografts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ATF2 contributes to cisplatin resistance in non-small cell lung cancer and celastrol induces cisplatin resensitization through inhibition of JNK/ATF2 pathway (PMID: 25359574)",
+        "evidence_subtype": "expression",
+        "summary": "ATF2 mRNA and protein are strongly elevated in NSCLC tumors versus matched normal tissue, and cisplatin-resistant cell lines express high ATF2. Celastrol inhibition of JNK/ATF2/cJUN restored cisplatin response, and ATF2 activation correlated with worse outcome in cisplatin-treated patients.",
+        "sample_size": "matched NSCLC and normal tissues from resected patients",
+        "significance": "p<<0.01, log2FC=+4.7"
+      },
+      {
+        "citation": "KIF18B promotes tumor progression in osteosarcoma by activating \u03b2-catenin (PMID: 32587775)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "KIF18B controls nuclear aggregation of ATF2 in osteosarcoma cells, thereby regulating \u03b2-catenin transcription. KIF18B also interacts with APC to regulate \u03b2-catenin post-transcriptionally.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

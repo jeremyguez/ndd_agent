@@ -1,0 +1,80 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 3,
+    "biological": 7
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Bantscheff/Turnbull et al. 2020 - The MiDAC histone deacetylase complex is essential for embryonic development and has a unique multivalent structure (PMID: 32591534)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Mice lacking MIDEAS die during late embryogenesis",
+          "Phenotype identical to Dnttip1 knockout mice",
+          "Heart malformation",
+          "Haematopoietic failure",
+          "Perturbed gene expression in embryos"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Unknown et al. 2025 - A de novo missense variant in MIDEAS results in increased deacetylase activity of the MiDAC HDAC complex causing a neurodevelopmental syndrome (PMID: 41290615)",
+        "evidence_subtype": "other",
+        "summary": "Two unrelated individuals with a multisystem neurodevelopmental disorder (delayed speech, joint contractures, dysmorphism, gut dysmotility) carry the same de novo heterozygous MIDEAS p.Tyr654Ser variant. CryoEM shows Y654 lies in an auto-inhibitory loop covering the HDAC active site, and the variant is proposed to displace the loop and increase deacetylase activity. Patient fibroblasts show gene expression changes reciprocal to those seen after rapid MiDAC degradation.",
+        "sample_size": "2 affected individuals",
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. 2020 - The MiDAC histone deacetylase complex is essential for embryonic development and has a unique multivalent structure (PMID: 32591534)",
+        "evidence_subtype": "function",
+        "summary": "Mice lacking MIDEAS or DNTTIP1 die with identical late-embryonic phenotypes, with heart malformation and haematopoietic failure caused by perturbed gene expression. MiDAC is also needed for chromosome alignment in mitosis in cancer cells. The cryoEM structure shows a unique assembly with four HDAC1 copies at the periphery.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. 2015 - Structural and functional characterization of a cell cycle associated HDAC1/2 complex reveals the structural basis for complex assembly and nucleosome targeting (PMID: 25653165)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MIDEAS is a corepressor in a cell-cycle-associated (mitotic, cyclin A-associated) complex with HDAC1/2 and DNTTIP1. The DNTTIP1 N-terminal dimerization domain interacts with the HDAC1:MIDEAS complex and mediates its assembly, while the C-terminal domain binds DNA and nucleosomes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. 2020 - The histone deacetylase complex MiDAC regulates a neurodevelopmental gene expression program to control neurite outgrowth (PMID: 32297854)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MiDAC, which contains MIDEAS, regulates a neurodevelopmental gene expression program. It upregulates SLIT3 and NTN1, probably through H4K20ac removal, and represses negative regulators of neurogenesis by reducing H3K27ac. Loss of MiDAC causes neurite outgrowth defects that SLIT3 and/or NTN1 supplementation rescues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. 2024 - Mitotic deacetylase complex (MiDAC) recognizes the HIV-1 core promoter to control activated viral gene expression (PMID: 38781120)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DNTTIP1 binds the HIV TASHET core promoter element directly and interacts with MIDEAS and HDAC1/2 by co-IP. Gene silencing of MIDEAS, DNTTIP1 and NAT10 showed that MIDEAS is functionally required for Tat-activated HIV expression in cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. 2025 - Mutations on the surface of HDAC1 reveal molecular determinants of specific complex assembly and their requirement for gene regulation (PMID: 40966515)",
+        "evidence_subtype": "pathway",
+        "summary": "MIDEAS is part of the MiDAC family, one of six HDAC1/2 complex families (SIN3, NuRD, CoREST, MIDAC, MIER, RERE). Comparing MIDEAS:HDAC1 and MTA1:HDAC1 structures identified HDAC1 surface residues needed for binding. HDAC1 Y48E and E63R mutations reduce or abolish binding to MiDAC and other complexes, perturbing gene expression and histone acetylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. 2025 - DNA methylation in peripheral blood leukocytes in late onset Alzheimer's disease (PMID: 40343304)",
+        "evidence_subtype": "GWAS",
+        "summary": "MIDEAS was among the genes differentially methylated in peripheral blood leukocytes of late-onset Alzheimer's disease patients versus controls, in an analysis of public GEO datasets (GSE59685, GSE53740). This is an epigenetic association, not a genetic one.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

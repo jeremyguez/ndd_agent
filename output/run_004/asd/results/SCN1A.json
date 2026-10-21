@@ -1,0 +1,352 @@
+{
+  "articles_found": {
+    "clinical": 15,
+    "model_organism": 17,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Weltmer et al. 2016 - ASHG 2016 - The many faces of SCN1A (ASHG abstract)",
+        "num_patients": 5,
+        "variants": [
+          {
+            "description": "Nonsense variant (case 1; not further specified), identified on 13-gene febrile seizures panel",
+            "type": "LoF",
+            "phenotypes": [
+              "febrile seizures",
+              "intractable epilepsy",
+              "toddler"
+            ]
+          },
+          {
+            "description": "Nonsense variant (case 2; not further specified), identified on 100-gene epilepsy panel",
+            "type": "LoF",
+            "phenotypes": [
+              "febrile seizures",
+              "suspected Dravet syndrome",
+              "toddler"
+            ]
+          },
+          {
+            "description": "Missense variant (case 3; not further specified), identified on 100-gene epilepsy panel",
+            "type": "missense",
+            "phenotypes": [
+              "intractable epilepsy",
+              "intellectual disability",
+              "adult"
+            ]
+          },
+          {
+            "description": "Missense variant (case 4; not further specified), identified on 196-gene neurodevelopment panel",
+            "type": "missense",
+            "phenotypes": [
+              "unspecified seizures",
+              "autism spectrum disorder",
+              "adult"
+            ]
+          },
+          {
+            "description": "De novo nonsense variant (case 5; not further specified), identified by whole exome sequencing",
+            "type": "LoF",
+            "phenotypes": [
+              "unspecified seizure disorder",
+              "intellectual disability",
+              "dysmorphic features",
+              "positive family history",
+              "adult"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reported as positive SCN1A mutations by clinical laboratory testing; case 5 was de novo. Nonsense variants are presumed loss of function.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "SCN1A mutation associated with intractable myoclonic epilepsy and migraine headache (PMID: 22550089)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.3521C>G, p.T1174S",
+            "type": "missense",
+            "phenotypes": [
+              "intractable myoclonic epilepsy",
+              "autism spectrum disorder",
+              "migraine with aura in carrier mother and maternal grandmother"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Inherited from the mother, who has migraine; the variant was previously reported in familial hemiplegic migraine. Phenotype is variable within the family.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Use of a Dynamic Genetic Testing Approach for Childhood-Onset Epilepsy (PMID: 30977854)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "Not specified (4 SCN1A diagnostic findings on exome-based 100-gene epilepsy panel)",
+            "type": "other",
+            "phenotypes": [
+              "childhood-onset epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Diagnostic findings on the epilepsy gene panel; some diagnoses were confirmed by parental testing showing de novo variants (not specified per patient).",
+        "center_country": "Children's Hospital of Philadelphia, USA",
+        "cohort": null
+      },
+      {
+        "citation": "Sporadic autism exomes reveal a highly interconnected protein network of de novo mutations (PMID: 22495309)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo protein-altering SCN1A mutation (not specified in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo, protein-altering variant found on mutation screening of 1,703 ASD probands.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Developmental progression of respiratory dysfunction in a mouse model of Dravet syndrome (PMID: 40924494)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Blunted ventilatory response to CO2/H+ before overt seizures, worsening with disease progression",
+          "Blunted ventilatory response to hypoxia in some mice later in development",
+          "Respiratory severity correlated with mortality",
+          "Impaired activity of retrotrapezoid nucleus (RTN) neurons through disinhibition",
+          "Pharmacological activation of Nav1.1 rescued RTN neuron activity deficits",
+          "SUDEP-related premature mortality"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cannabidiol improves survival and behavioural co-morbidities of Dravet syndrome in mice (PMID: 32321192)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Scn1a-/-) and heterozygous knockout (Scn1a+/-)",
+        "phenotypes": [
+          "Scn1a-/- neonates: poor neonatal welfare and reduced survival, improved by cannabidiol",
+          "Scn1a+/- mice: premature mortality",
+          "Motor deficits, gait abnormality",
+          "Impaired social behaviour and social anxiety",
+          "Anxiety-like and depressive-like behaviours",
+          "Memory/cognitive impairment (radial arm maze)",
+          "Cannabidiol reduced mortality and improved social behaviour, memory, anxiety and depressive-like behaviours"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Antisense oligonucleotides increase Scn1a expression and reduce seizures and SUDEP incidence in a mouse model of Dravet syndrome (PMID: 32848094)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Electrographic seizures",
+          "SUDEP / premature death",
+          "Reduced Scn1a transcript and Nav1.1 protein (haploinsufficiency)",
+          "ASO treatment at P2 or P14 increased productive Scn1a transcript and Nav1.1 and reduced seizures and SUDEP"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeted Augmentation of Nuclear Gene Output (TANGO) of Scn1a rescues parvalbumin interneuron excitability and reduces seizures in a mouse model of Dravet Syndrome (PMID: 34843701)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Seizures",
+          "Reduced survival",
+          "Impaired intrinsic excitability of parvalbumin interneurons",
+          "STK-001 ASO reduced seizures, prolonged survival and rescued PV interneuron excitability to WT levels"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Antisense oligonucleotides restore excitability, GABA signalling and sodium current density in a Dravet syndrome model (PMID: 37812817)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Cortical PV interneurons: initial hyperexcitability followed by hypoexcitability and depolarization block",
+          "Decreased sodium current density in PV interneurons",
+          "Reduced GABAergic signalling to cortical pyramidal neurons",
+          "Unchanged intrinsic excitability of pyramidal neurons",
+          "ASO-84 restored firing, sodium current density and GABAergic signalling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cell-Selective Adeno-Associated Virus-Mediated SCN1A Gene Regulation Therapy Rescues Mortality and Seizure Phenotypes in a Dravet Syndrome Mouse Model and Is Well Tolerated in Nonhuman Primates (PMID: 35435735)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Spontaneous and hyperthermia-induced seizures",
+          "Premature mortality",
+          "AAV9-REGABA-eTFSCN1A increased SCN1A mRNA and Nav1.1 in GABAergic interneurons, reduced seizures and prolonged survival for over a year"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Vasoactive intestinal peptide-expressing interneurons are impaired in a mouse model of Dravet syndrome (PMID: 31282864)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Impaired firing of irregular spiking VIP interneurons, but not continuous adapting VIP interneurons",
+          "Deficits rescued by the Nav1.1-specific toxin Hm1a"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Medial septum parvalbumin-expressing inhibitory neurons are impaired in a mouse model of Dravet Syndrome (PMID: 39554146)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Dysfunction of medial septum parvalbumin inhibitory neurons",
+          "No genotype difference in medial septum cholinergic neurons",
+          "Altered proportions of PV neuron firing-pattern subtypes",
+          "Possible contribution to cognitive comorbidity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Two-photon calcium imaging of seizures in awake, head-fixed mice (PMID: 33676317)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Spontaneous naturalistic seizures in Scn1a+/- mice",
+          "Differential recruitment of discrete cortical GABAergic interneuron subclasses during seizures"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish models of developmental epileptic encephalopathy accurately reflect clinical electrographic biomarkers (PMID: 41118267)",
+        "organism": "zebrafish",
+        "knockout_type": "other (scn1lab mutant)",
+        "phenotypes": [
+          "Recurrent ictal-like epileptiform discharges",
+          "Increased delta band (0.5-3.5 Hz) power",
+          "High-frequency oscillations (>250 Hz)",
+          "Altered interictal epileptiform discharge dynamics"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mutation-specific excitatory network study - SCN1A-deficient excitatory neuronal networks display mutation-specific phenotypes (PMID: 37467479)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Patient-derived iPSC excitatory neuronal networks on multi-electrode arrays showed phenotypes that depended on the SCN1A mutation type. Loss-of-function mutations were distinguishable from missense mutations, and pore-domain mutations from voltage-sensing-domain mutations. Networks did not segregate by clinical severity. All patient networks were aggravated at febrile temperatures. Anti-seizure drugs affected GEFS+ networks but not Dravet networks.",
+        "sample_size": "Panel of patient-derived lines, including one family with febrile seizures, GEFS+ and Dravet phenotypes from the same mutation",
+        "significance": null
+      },
+      {
+        "citation": "Antisense oligonucleotides increase Scn1a expression and reduce seizures and SUDEP incidence in a mouse model of Dravet syndrome (PMID: 32848094)",
+        "evidence_subtype": "function",
+        "summary": "TANGO ASOs that modulate non-productive splicing (poison exon 20N) increased productive Scn1a transcript and Nav1.1 protein in human cell lines and mouse brain. In Scn1a+/- mice, a single ICV dose reduced electrographic seizures and SUDEP.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Antisense oligonucleotides restore excitability, GABA signalling and sodium current density in a Dravet syndrome model (PMID: 37812817)",
+        "evidence_subtype": "function",
+        "summary": "In Scn1a+/- mice, parvalbumin interneurons had reduced sodium current density, biphasic excitability with depolarization block, and reduced GABAergic signalling to pyramidal neurons. Pyramidal neuron excitability was unchanged. ASO-84, which targets exon 20N splicing, restored interneuron firing, sodium current density and GABAergic signalling. This indicates Nav1.1 acts mainly in PV interneurons.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The gain of function SCN1A disorder spectrum: novel epilepsy phenotypes and therapeutic implications (PMID: 35696452)",
+        "evidence_subtype": "function",
+        "summary": "Whole-cell voltage-clamp of NaV1.1 variants showed gating changes consistent with gain of function and hyperexcitability. Epilepsy variants gave a mild gain of function. Familial hemiplegic migraine type 3 variants gave a stronger one, with increased persistent current and larger action current amplitude. The variants cluster in inactivation regions, unlike Dravet variants. Sodium channel blockers reduced seizures in 81% of gain-of-function patients.",
+        "sample_size": "35 patients",
+        "significance": "OR=17.8 (CI 5.4-69.3), P=1.3\u00d710-7 for variant clustering"
+      },
+      {
+        "citation": "SCN1A gain of function in early infantile encephalopathy (PMID: 30779207)",
+        "evidence_subtype": "cell_culture",
+        "summary": "T226M Nav1.1 expressed in mammalian cells showed hyperpolarizing shifts in activation and inactivation and enhanced fast inactivation. This is a biophysical gain of function. Dynamic action potential clamp and computational models showed a left-shifted rheobase and greater susceptibility to depolarization block. This is a 'functional dominant negative' effect that explains the severe phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Biological concepts in human sodium channel epilepsies and their relevance in clinical practice (PMID: 32090326)",
+        "evidence_subtype": "expression",
+        "summary": "SCN1A, SCN2A, SCN3A and SCN8A show significant constraint for both truncating and missense variation. Age at seizure onset relates to temporal SCN gene expression. The functional effects of variants at corresponding channel positions are similar across SCN subtypes, but the clinical outcome differs with the neuron types in which each channel is expressed.",
+        "sample_size": "865 epilepsy patients (504 SCN1A); 114 functional studies",
+        "significance": null
+      },
+      {
+        "citation": "Developmental progression of respiratory dysfunction in a mouse model of Dravet syndrome (PMID: 40924494)",
+        "evidence_subtype": "function",
+        "summary": "Scn1a+/- mice had a blunted ventilatory response to CO2/H+ before seizures began, and this worsened over time. Some also had blunted hypoxic responses, and respiratory severity correlated with mortality. Pharmacological activation of Nav1.1 rescued activity deficits in retrotrapezoid nucleus neurons, implicating Nav1.1 in inhibitory control of RTN neurons.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Medial septum parvalbumin-expressing inhibitory neurons are impaired in a mouse model of Dravet syndrome (PMID: 40622667)",
+        "evidence_subtype": "expression",
+        "summary": "SCN1A is also expressed in the medial septum. Patch-clamp in Scn1a+/- mice showed dysfunction of medial septum PV inhibitory neurons, with altered firing-pattern subtype proportions. Cholinergic neurons were unaffected, so Nav1.1 loss affects PV neurons selectively.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Long-read sequencing and profiling of RNA-binding proteins reveals the pathogenic mechanism of aberrant splicing of an SCN1A poison exon in individuals with epilepsy",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Variants near the SCN1A intron 20 poison exon (20N) increased its inclusion and reduced Nav1.1 protein in patient iPSC-derived neurons. RNA-antisense purification with mass spectrometry in a splicing reporter in HEK293T cells identified differential binding of SRSF1, SRSF3 and HNRNPR to the variant constructs. RNA immunoprecipitation with ddPCR validated these interactions, indicating these RBPs regulate poison exon splicing.",
+        "sample_size": "5 variants in 5 individuals; 3 patient iPSC lines",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - SCN1A mutations in a SIDS cohort",
+        "evidence_subtype": "cell_culture",
+        "summary": "SCN1A variants G682V and the cis compound variant L1296M/E1308D were found in 2 of 10 SIDS cases with hippocampal abnormalities. Heterologous expression showed partial loss of function for both, linking SCN1A channel dysfunction to SIDS.",
+        "sample_size": "10 SIDS cases (exome sequencing)",
+        "significance": null
+      }
+    ]
+  }
+}

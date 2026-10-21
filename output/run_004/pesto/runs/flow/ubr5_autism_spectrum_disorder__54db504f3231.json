@@ -1,0 +1,826 @@
+{
+ "gene": "UBR5",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "childhood autism",
+   "autistic behavior",
+   "Kanner syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "EDD1",
+   "KIAA0896",
+   "DD5",
+   "HYD",
+   "EDD",
+   "ubiquitin protein ligase E3 component n-recognin 5"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 80,
+  "titlekicksparingfulltext": 30,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 85,
+   "Existing": 13,
+   "Hypothesized": 2,
+   "Novel": 0
+  },
+  "justification": "Two independent clinical reports provide primary human evidence of causation: PMID 39721588 describes 29 individuals with heterozygous UBR5 variants presenting with a neurodevelopmental syndrome including autism, supported by functional ubiquitination and C. elegans data, and PMID 41318701 reports three additional unrelated probands with de novo loss-of-function variants and ASD/ID, reviewing 11 de novo LoF variants in total. Independent sequencing studies add further de novo single-nucleotide/frameshift events in ASD probands (PMID 38519481, PMID 31413120), and UBR5 emerges in large rare-variant ASD gene discovery efforts (PMID 35982160). These are human, single-gene\u2013resolving variants in multiple independent probands, satisfying criteria for Established. Remaining probability reflects residual uncertainty about whether autism is a consistent core feature versus part of a broader neurodevelopmental phenotype.",
+  "pmids": [],
+  "detail": {
+   "Established": 85,
+   "Existing": 13,
+   "Hypothesized": 2,
+   "Novel": 0
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39721588",
+   "title": "Heterozygous UBR5 variants result in a neurodevelopmental syndrome with developmental delay, autism, and intellectual disability.",
+   "abstract": "E3 ubiquitin ligases have been linked to developmental diseases including autism, Angelman syndrome (UBE3A), and Johanson-Blizzard syndrome (JBS) (UBR1). Here, we report variants in the E3 ligase UBR5 in 29 individuals presenting with a neurodevelopmental syndrome that includes developmental delay, autism, intellectual disability, epilepsy, movement disorders, and/or genital anomalies. Their phenotype is distinct from JBS due to the absence of exocrine pancreatic insufficiency and the presence of autism, epilepsy, and, in some probands, a movement disorder. E3 ubiquitin ligases are responsible for transferring ubiquitin to substrate proteins to regulate a variety of cellular functions, including protein degradation, protein-protein interactions, and protein localization. Knocking out ubr-5 in C.\u00a0elegans resulted in a lower movement score compared to the wild type, supporting a role for UBR5 in neurodevelopment. Using an in\u00a0vitro autoubiquitination assay and confocal microscopy for the human protein, we found decreased ubiquitination activity and altered cellular localization in several variants found in our cohort compared to the wild type. In conclusion, we found that variants in UBR5 cause a neurodevelopmental syndrome that can be associated with a movement disorder, reinforcing the role of the UBR protein family in a neurodevelopmental disease that differs from previously described ubiquitin-ligase-related syndromes. We also provide evidence for the pathogenic potential loss of UBR5 function with functional experiments in C.\u00a0elegans and in\u00a0vitro ubiquitination assays.",
+   "found_by": [],
+   "pubdate": "2025 Jan 2",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "31413120",
+   "title": "Genetic factors contributing to autism spectrum disorder in Williams-Beuren syndrome.",
+   "abstract": "BACKGROUND: The hallmark of the neurobehavioural phenotype of Williams-Beuren syndrome (WBS) is increased sociability and relatively preserved language skills, often described as opposite to autism spectrum disorders (ASD). However, the prevalence of ASD in WBS is 6-10 times higher than in the general population. We have investigated the genetic factors that could contribute to the ASD phenotype in individuals with WBS. METHODS: We studied four males and four females with WBS and a confirmed diagnosis of ASD by the Autism Diagnostic Interview-Revised. We performed a detailed molecular characterisation of the deletion and searched for genomic variants using exome sequencing. RESULTS: A de novo deletion of 1.55\u2009Mb (6 cases) or 1.83\u2009Mb (2 cases) at 7q11.23 was detected, being in 7/8 patients of paternal origin. No common breakpoint, deletion mechanism or size was found. Two cases were hemizygous for the rare T allele at rs12539160 in MLXIPL, previously associated with ASD. Inherited rare variants in ASD-related or functionally constrained genes and a de novo nonsense mutation in the UBR5 gene were identified in six cases, with higher burden in females compared with males (p=0.016). CONCLUSIONS: The increased susceptibility to ASD in patients with WBS might be due to additive effects of the common WBS deletion, inherited and de novo rare sequence variants in ASD-related genes elsewhere in the genome, with higher burden of deleterious mutations required for females, and possible hypomorphic variants in the hemizygous allele or cis-acting mechanisms on imprinting.",
+   "found_by": [],
+   "pubdate": "2019 Dec",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41318701",
+   "title": "UBR5 loss-of-function variants in autism spectrum disorder and intellectual disability: case series and review of the literature.",
+   "abstract": "UBR5 encodes an E3 ubiquitin-protein ligase which targets distinct N-terminal residues of proteins for degradation. Heterozygous loss-of-function variants were reported in patients with Autism Spectrum Disorder (ASD) and developmental delay, and recently in a cohort of individuals with neurodevelopmental disorders and variable other features. Here, we report three unrelated individuals with de novo loss-of-function variants in UBR5, presenting with ASD and intellectual disability. We review the literature for other de novo predicted loss-of-function variants in probands with ASD or developmental delay (in total n\u2009=\u200911 variants), providing further evidence that UBR5 haploinsufficiency is associated with ASD and atypical neurodevelopmental trajectories, including developmental delay and intellectual disability.",
+   "found_by": [],
+   "pubdate": "2025 Nov 29",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37478862",
+   "title": "Orphan quality control shapes network dynamics and gene expression.",
+   "abstract": "All eukaryotes require intricate protein networks to translate developmental signals into accurate cell fate decisions. Mutations that disturb interactions between network components often result in disease, but how the composition and dynamics of complex networks are established remains poorly understood. Here, we identify the E3 ligase UBR5 as a signaling hub that helps degrade unpaired subunits of multiple transcriptional regulators that act within a network centered on the c-Myc oncoprotein. Biochemical and structural analyses show that UBR5 binds motifs that only become available upon complex dissociation. By rapidly turning over unpaired transcription factor subunits, UBR5 establishes dynamic interactions between transcriptional regulators that allow cells to effectively execute gene expression while remaining receptive to environmental signals. We conclude that orphan quality control plays an essential role in establishing dynamic protein networks, which may explain the conserved need for protein degradation during transcription and offers opportunities to modulate gene expression in disease.",
+   "found_by": [],
+   "pubdate": "2023 Aug 3",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30038412",
+   "title": "The ubiquitin ligase UBR5 suppresses proteostasis collapse in pluripotent stem cells from Huntington's disease patients.",
+   "abstract": "Induced pluripotent stem cells (iPSCs) undergo unlimited self-renewal while maintaining their potential to differentiate into post-mitotic cells with an intact proteome. As such, iPSCs suppress the aggregation of polyQ-expanded huntingtin (HTT), the mutant protein underlying Huntington's disease (HD). Here we show that proteasome activity determines HTT levels, preventing polyQ-expanded aggregation in iPSCs from HD patients (HD-iPSCs). iPSCs exhibit high levels of UBR5, a ubiquitin ligase required for proteasomal degradation of both normal and mutant HTT. Conversely, loss of UBR5 increases HTT levels and triggers polyQ-expanded aggregation in HD-iPSCs. Moreover, UBR5 knockdown hastens polyQ-expanded aggregation and neurotoxicity in invertebrate models. Notably, UBR5 overexpression induces polyubiquitination and degradation of mutant HTT, reducing polyQ-expanded aggregates in HD-cell models. Besides HTT levels, intrinsic enhanced UBR5 expression determines global proteostasis of iPSCs preventing the aggregation of misfolded proteins ensued from normal metabolism. Thus, our findings indicate UBR5 as a modulator of super-vigilant proteostasis of iPSCs.",
+   "found_by": [],
+   "pubdate": "2018 Jul 23",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "42039660",
+   "title": "Chromatin association promotes UBR5-mediated degradation of Rb.",
+   "abstract": "The retinoblastoma protein Rb is a cell cycle inhibitor that plays a central role in regulating the G1/S cell cycle transition. Un-/hypo-phosphorylated Rb suppresses E2F transcription activity by binding to E2F/DP dimers and recruiting chromatin remodelers to prevent cells from entering S phase. For cells to progress through the G1/S transition, Rb is inactivated by two mechanisms: the \"classic\" pathway of Rb hyperphosphorylation by Cyclin-CDK complexes, and a recently identified \"degradation\" mechanism driven by the E3 ubiquitin ligase UBR5. These two pathways are interconnected, as only the un-/hypo-phosphorylated Rb can be degraded, and the hyper-phosphorylated Rb is stabilized to promote its reaccumulation in preparation for the next cell division cycle. However, the molecular basis for how Rb is stabilized upon phosphorylation remains unclear. In this study, we found that UBR5 preferentially targets chromatin-associated proteins for degradation. Since Rb's chromatin association is modulated by its phosphorylation, we hypothesized that phosphorylation may affect Rb stability by altering its chromatin association. To test this, we constructed a series of un-phosphorylatable Rb variants with graded reductions in chromatin association. Consistent with our hypothesis, we observed a strong correlation between an Rb variant's chromatin association and its half-life. Fusing these Rb variants to histone H1 increased chromatin association to similar levels and equalized their protein half-lives. Taken together, these findings show how phosphorylation stabilizes Rb by promoting its dissociation from chromatin. This provides a striking example for how sub-organellar protein localization may be used to regulate stability.",
+   "found_by": [],
+   "pubdate": "2026 Apr 17",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19008229",
+   "title": "The substrate recognition domains of the N-end rule pathway.",
+   "abstract": "The N-end rule pathway is a ubiquitin-dependent system where E3 ligases called N-recognins, including UBR1 and UBR2, recognize type-1 (basic) and type-2 (bulky hydrophobic) N-terminal residues as part of N-degrons. We have recently reported an E3 family (termed UBR1 through UBR7) characterized by the 70-residue UBR box, among which UBR1, UBR2, UBR4, and UBR5 were captured during affinity-based proteomics with synthetic degrons. Here we characterized substrate binding specificity and recognition domains of UBR proteins. Pull-down assays with recombinant UBR proteins suggest that 570-kDa UBR4 and 300-kDa UBR5 bind N-degron, whereas UBR3, UBR6, and UBR7 do not. Binding assays with 24 UBR1 deletion mutants and 31 site-directed UBR1 mutations narrow down the degron-binding activity to a 72-residue UBR box-only fragment that recognizes type-1 but not type-2 residues. A surface plasmon resonance assay shows that the UBR box binds to the type-1 substrate Arg-peptide with Kd of approximately 3.4 microm. Downstream from the UBR box, we identify a second substrate recognition domain, termed the N-domain, required for type-2 substrate recognition. The approximately 80-residue N-domain shows structural and functional similarity to 106-residue Escherichia coli ClpS, a bacterial N-recognin. We propose a model where the 70-residue UBR box functions as a common structural element essential for binding to all known destabilizing N-terminal residues, whereas specific residues localized in the UBR box (for type 1) or the N-domain (for type 2) provide substrate selectivity through interaction with the side group of an N-terminal amino acid. Our work provides new insights into substrate recognition in the N-end rule pathway.",
+   "found_by": [],
+   "pubdate": "2009 Jan 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "25092319",
+   "title": "UBR5-mediated ubiquitination of ATMIN is required for ionizing radiation-induced ATM signaling and function.",
+   "abstract": "The Mre11/Rad50/NBS1 (MRN) protein complex and ATMIN protein mediate ATM kinase signaling in response to ionizing radiation (IR) and chromatin changes, respectively. NBS1 and ATMIN directly compete for ATM binding, but the molecular mechanism favoring either NBS1 or ATMIN in response to specific stimuli is enigmatic. Here, we identify the E3 ubiquitin ligase UBR5 as a key component of ATM activation in response to IR. UBR5 interacts with ATMIN and catalyzes ubiquitination of ATMIN at lysine 238 in an IR-stimulated manner, which decreases ATMIN interaction with ATM and promotes MRN-mediated signaling. We show that UBR5 deficiency, or mutation of ATMIN lysine 238, prevents ATMIN dissociation from ATM and inhibits ATM and NBS1 foci formation after IR, thereby impairing checkpoint activation and increasing radiosensitivity. Thus, UBR5-mediated ATMIN ubiquitination is a vital event for ATM pathway selection and activation in response to DNA damage.",
+   "found_by": [],
+   "pubdate": "2014 Aug 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "23029623",
+   "title": "UBR5 Gene Mutation Is Associated with Familial Adult Myoclonic Epilepsy in a Japanese Family.",
+   "abstract": "The causal gene(s) for familial adult myoclonic epilepsy (FAME) remains undetermined. To identify it, an exome analysis was performed for the proband in a Japanese FAME family. Of the 383 missense/nonsense variants examined, only c.5720G>A mutation (p.Arg1907His) in the UBR5 gene was found in all of the affected individuals in the family, but not in the nonaffected members. Such mutation was not found in any of the 85 healthy individuals in the same community nor in any of the 24 individuals of various ethnicities. The present study demonstrated an FAME-associated mutation in the UBR5 gene, which is located close to the reported locus linked to Japanese FAME families.",
+   "found_by": [],
+   "pubdate": "2012",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33122718",
+   "title": "The E3 ubiquitin ligase UBR5 interacts with TTC7A and may be associated with very early onset inflammatory bowel disease.",
+   "abstract": "Very early onset inflammatory bowel disease (VEOIBD) denotes children with onset of IBD before six years of age. A number of monogenic disorders are associated with VEOIBD including tetratricopeptide repeat domain 7A (TTC7A) deficiency. TTC7A-deficiency is characterized by apoptotic colitis in milder cases with severe intestinal atresia and immunodeficiency in cases with complete loss of protein. We used whole exome sequencing in a VEOIBD patient presenting with colitis characterized by colonic apoptosis and no identified known VEOIBD variants, to identify compound heterozygous deleterious variants in the Ubiquitin protein ligase E3 component N-recognin 5 (UBR5) gene. Functional studies demonstrated that UBR5 co-immunoprecipitates with the TTC7A and the UBR5 variants had reduced interaction between UBR5 and TTC7A. Together this implicates UBR5 in regulating TTC7A signaling in VEOIBD patients with apoptotic colitis.",
+   "found_by": [],
+   "pubdate": "2020 Oct 29",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41969808",
+   "title": "Turnover of missense mutant cytosolic proteins proceeds in the absence of major quality control E3 ligases.",
+   "abstract": "Protein quality control (QC) safeguards cellular proteostasis by directing misfolded proteins for degradation via the ubiquitin-proteasome system. QC is compartmentalized within cells, and the key proteins involved in the turnover of cytosolic proteins with mutations in mammalian cells are not well defined. Using a fluorescent reporter assay that provides a readout for protein stability, we examined the contributions of known QC E3 ligases (STUB1, UBE2O, UBR4, UBR5, and HUWE1) on the turnover of disease-associated missense variants. Loss of individual ligases did not consistently stabilize substrates, indicating that none of these E3s appear to broadly recognize missense mutant proteins.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32325489",
+   "title": "UBR5 HECT domain mutations identified in mantle cell lymphoma control maturation of B cells.",
+   "abstract": "Coordination of a number of molecular mechanisms including transcription, alternative splicing, and class switch recombination are required to facilitate development, activation, and survival of B cells. Disruption of these pathways can result in malignant transformation. Recently, next-generation sequencing has identified a number of novel mutations in mantle cell lymphoma (MCL) patients including mutations in the ubiquitin E3 ligase UBR5. Approximately 18% of MCL patients were found to have mutations in UBR5, with the majority of mutations within the HECT domain of the protein that can accept and transfer ubiquitin molecules to the substrate. Determining if UBR5 controls the maturation of B cells is important to fully understand malignant transformation to MCL. To elucidate the role of UBR5 in B-cell maturation and activation, we generated a conditional mutant disrupting UBR5's C-terminal HECT domain. Loss of the UBR5 HECT domain leads to a block in maturation of B cells in the spleen and upregulation of proteins associated with messenger RNA splicing via the spliceosome. Our studies reveal a novel role of UBR5 in B-cell maturation by stabilization of spliceosome components during B-cell development and suggests UBR5 mutations play a role in MCL transformation.",
+   "found_by": [],
+   "pubdate": "2020 Jul 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33340455",
+   "title": "UBR7 functions with UBR5 in the Notch signaling pathway and is involved in a neurodevelopmental syndrome with epilepsy, ptosis, and hypothyroidism.",
+   "abstract": "The ubiquitin-proteasome system facilitates the degradation of unstable or damaged proteins. UBR1-7, which are members of hundreds of E3 ubiquitin ligases, recognize and regulate the half-life of specific proteins on the basis of their N-terminal sequences (\"N-end rule\"). In seven individuals with intellectual disability, epilepsy, ptosis, hypothyroidism, and genital anomalies, we uncovered bi-allelic variants in UBR7. Their phenotype differs significantly from that of Johanson-Blizzard syndrome (JBS), which is caused by bi-allelic variants in UBR1, notably by the presence of epilepsy and the absence of exocrine pancreatic insufficiency and hypoplasia of nasal alae. While the mechanistic etiology of JBS remains uncertain, mutation of both Ubr1 and Ubr2 in the mouse or of the C.\u00a0elegans UBR5 ortholog results in Notch signaling defects. Consistent with a potential role in Notch signaling, C.\u00a0elegans ubr-7 expression partially overlaps with that of ubr-5, including in neurons, as well as the distal tip cell that plays a crucial role in signaling to germline stem cells via the Notch signaling pathway. Analysis of ubr-5 and ubr-7 single mutants and double mutants revealed genetic interactions with the Notch receptor gene glp-1 that influenced development and embryo formation. Collectively, our findings further implicate the UBR protein family and the Notch signaling pathway in a neurodevelopmental syndrome with epilepsy, ptosis, and hypothyroidism that differs from JBS. Further studies exploring a potential role in histone regulation are warranted given clinical overlap with KAT6B disorders and the interaction of UBR7 and UBR5 with histones.",
+   "found_by": [],
+   "pubdate": "2021 Jan 7",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34622207",
+   "title": "Genome sequencing identifies rare tandem repeat expansions and copy number variants in Lennox-Gastaut syndrome.",
+   "abstract": "Epilepsies are a group of common neurological disorders with a substantial genetic basis. Despite this, the molecular diagnosis of epilepsies remains challenging due to its heterogeneity. Studies utilizing whole-genome sequencing may provide additional insights into genetic causes of epilepsies of unknown aetiology. Whole-genome sequencing was used to evaluate a cohort of adults with unexplained developmental and epileptic encephalopathies (n = 30), for whom prior genetic tests, including whole-exome sequencing in some cases, were negative or inconclusive. Rare single nucleotide variants, insertions/deletions, copy number variants and tandem repeat expansions were analysed. Seven pathogenic or likely pathogenic single nucleotide variants, and two pathogenic deleterious copy number variants were identified in nine patients (32.1% of the cohort). One of the copy number variants, identified in a patient with Lennox-Gastaut syndrome, was too small to be detected by chromosomal microarray techniques. We also identified two tandem repeat expansions with clinical implications in two other patients with Lennox-Gastaut syndrome: a CGG repeat expansion in the 5'untranslated region of DIP2B, and a CTG expansion in ATXN8OS (previously implicated in spinocerebellar ataxia type 8). Three patients had KCNA2 pathogenic variants. One of them died of sudden unexpected death in epilepsy. The other two patients had, in addition to a KCNA2 variant, a second de novo variant impacting potential epilepsy-relevant genes (KCNIP4 and UBR5). Overall, whole-genome sequencing provided a genetic explanation in 32.1% of the total cohort. This is also the first report of coding and non-coding tandem repeat expansions identified in patients with Lennox-Gastaut syndrome. This study demonstrates that using whole-genome sequencing, the examination of multiple types of rare genetic variation, including those found in the non-coding region of the genome, can help resolve unexplained epilepsies.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42782803",
+   "title": "E3 Ubiquitin Ligases in Neurodevelopmental Disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) comprise a heterogeneous group of conditions that may present with developmental delay, intellectual disability, language impairment, epilepsy, autism-like features, motor abnormalities, or syndromic manifestations. Ubiquitination is an essential post-translational mechanism that regulates protein stability, localization, trafficking, and signaling. Because E3 ubiquitin ligases determine substrate specificity in this process, abnormalities in E3 ligases or E3-associated complexes can selectively affect proteins required for brain development and neuronal function. This review summarizes genetic and functional evidence linking E3 ubiquitin ligases, E3-complex components, substrate-recognition factors, and related ubiquitination regulators to NDDs. Gene Ontology enrichment analysis and mechanistic studies suggest that these genes converge on several major biological themes, including early neurodevelopment, neuronal migration, synaptic and circuit maturation, proteostasis, metabolism, and intracellular trafficking. However, the strength and translational relevance of the available evidence vary across genes. UBE3A-related Angelman syndrome currently provides the clearest example of mechanism-guided therapeutic development through UBE3A restoration and paternal allele reactivation. In contrast, many non-UBE3A mechanisms remain at the stage of pathway analysis, preclinical modulation, or candidate substrate validation. Future studies should clarify variant-specific functional effects, define direct disease-relevant substrates, and establish reproducible readouts that can support mechanism-based therapeutic development. [full text, passages naming UBR5] ...act [ 13 , 14 ]. In this context, UBE3A represents the clearest example involving genomic imprinting, dosage sensitivity, and translational research [ 15 ]. HUWE1 , CUL3 , CUL4B , HECW2 , TRIP12 , UBE3B , and UBR5 illustrate the recurrent involvement of E3 dysfunction across different NDD phenotypes. The inclusion of NEDD4L , RHOBTB2 , FBXO11 , FBXW7 , RNF2/RING1 , and IRF2BPL further expands this disease spectrum b... ...ted NDDs beyond dosage or protein-function changes in individual E3 ligases to abnormalities in E3-complex assembly, substrate recruitment, and complex-dependent gene regulation. 2.3. HECW2, TRIP12, UBE3B, and UBR5 HECW2 and TRIP12 both encode HECT-type E3 ubiquitin ligases, further extending the HECT-type E3-related NDD spectrum beyond UBE3A and HUWE1 . De novo pathogenic variants in HECW2 have been associated with... ...de novo variants. Functional studies more directly link UBE3B deficiency to neuronal morphology and synaptic development, including altered synapse number through Ube3b -dependent regulation of Ppp3cc [ 61 ]. UBR5 encodes a HECT-type E3 ubiquitin ligase with N-recognin-related functions. Available case-level and cohort-level evidence has linked heterozygous pathogenic UBR5 variants, especially loss-of-function or fu...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38519481",
+   "title": "Genomic analysis of 116 autism families strengthens known risk genes and highlights promising candidates.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental condition with a strong genetic component in which rare variants contribute significantly to risk. We performed whole genome and/or exome sequencing (WGS and WES) and SNP-array analysis to identify both rare sequence and copy number variants (SNVs and CNVs) in 435 individuals from 116 ASD families. We identified 37 rare potentially damaging de novo SNVs (pdSNVs) in the cases (n\u2009=\u2009144). Interestingly, two of them (one stop-gain and one missense variant) occurred in the same gene, BRSK2. Moreover, the identification of 8 severe de novo pdSNVs in genes not previously implicated in ASD (AGPAT3, IRX5, MGAT5B, RAB8B, RAP1A, RASAL2, SLC9A1, YME1L1) highlighted promising candidates. Potentially damaging CNVs (pdCNVs) provided support to the involvement of inherited variants in PHF3, NEGR1, TIAM1 and HOMER1 in neurodevelopmental disorders (NDD), although mostly acting as susceptibility factors with incomplete penetrance. Interpretation of identified pdSNVs/pdCNVs according to the ACMG guidelines led to a molecular diagnosis in 19/144 cases, although this figure represents a lower limit and is expected to increase thanks to further clarification of the role of likely pathogenic variants in ASD/NDD candidate genes not yet established. In conclusion, our study highlights promising ASD candidate genes and contributes to characterize the allelic diversity, mode of inheritance and phenotypic impact of de novo and inherited risk variants in ASD/NDD genes. [full text, passages naming UBR5] ...R, B-IQ 117, FR 108) | NM_001040142.2 (SCN2A): c.4180 C > T (p.Q1394X) | P (PVS1,PS2,PM2,PP3,BS4) | 113.4 (f/m/aF/ raM /uF) | EO; ADOS-2 (Autism, 10); CARS2-ST: 43; Absent speech; Severe ID (NA) | NM_015902.6 (UBR5): c.7441del (p.H2481Mfs*7) | LP (PVS1,PS2,PM2,BS4) | 110.3 (f/m/ aM /aM/uMs) | EO; ADOS-2 (Autism, 6); CARS2-ST: 37; Atypical language; Borderline IQ (Leiter-R, B-IQ 74) | NM_001256627.2 (BRSK2): c.1620_16...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35982160",
+   "title": "Rare coding variation provides insight into the genetic architecture and phenotypic context of autism.",
+   "abstract": "Some individuals with autism spectrum disorder (ASD) carry functional mutations rarely observed in the general population. We explored the genes disrupted by these variants from joint analysis of protein-truncating variants (PTVs), missense variants and copy number variants (CNVs) in a cohort of 63,237 individuals. We discovered 72 genes associated with ASD at false discovery rate (FDR)\u2009\u2264\u20090.001 (185 at FDR\u2009\u2264\u20090.05). De novo PTVs, damaging missense variants and CNVs represented 57.5%, 21.1% and 8.44% of association evidence, while CNVs conferred greatest relative risk. Meta-analysis with cohorts ascertained for developmental delay (DD) (n\u2009=\u200991,605) yielded 373 genes associated with ASD/DD at FDR\u2009\u2264\u20090.001 (664 at FDR\u2009\u2264\u20090.05), some of which differed in relative frequency of mutation between ASD and DD cohorts. The DD-associated genes were enriched in transcriptomes of progenitor and immature neuronal cells, whereas genes showing stronger evidence in ASD were more enriched in maturing neurons and overlapped with schizophrenia-associated genes, emphasizing that these neuropsychiatric disorders may share common pathways to risk.",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33338084",
+   "title": "Coupling of autism genes to tissue-wide expression and dysfunction of synapse, calcium signalling and transcriptional regulation.",
+   "abstract": "Autism Spectrum Disorder (ASD) is a heterogeneous disorder that is often accompanied with many co-morbidities. Recent genetic studies have identified various pathways from hundreds of candidate risk genes with varying levels of association to ASD. However, it is unknown which pathways are specific to the core symptoms or which are shared by the co-morbidities. We hypothesised that critical ASD candidates should appear widely across different scoring systems, and that comorbidity pathways should be constituted by genes expressed in the relevant tissues. We analysed the Simons Foundation for Autism Research Initiative (SFARI) database and four independently published scoring systems and identified 292 overlapping genes. We examined their mRNA expression using the Genotype-Tissue Expression (GTEx) database and validated protein expression levels using the human protein atlas (HPA) dataset. This led to clustering of the overlapping ASD genes into 2 groups; one with 91 genes primarily expressed in the central nervous system (CNS geneset) and another with 201 genes expressed in both CNS and peripheral tissues (CNS+PT geneset). Bioinformatic analyses showed a high enrichment of CNS development and synaptic transmission in the CNS geneset, and an enrichment of synapse, chromatin remodelling, gene regulation and endocrine signalling in the CNS+PT geneset. Calcium signalling and the glutamatergic synapse were found to be highly interconnected among pathways in the combined geneset. Our analyses demonstrate that 2/3 of ASD genes are expressed beyond the brain, which may impact peripheral function and involve in ASD co-morbidities, and relevant pathways may be explored for the treatment of ASD co-morbidities. [full text, passages naming UBR5] ..., RAI1 , RB1CC1 , RBM27 , RERE , RFX3 , RNF38 , SAE1 , SATB2 , SETBP1 , SETD2 , SMARCA2 , SMARCC2 , SPAST , SRSF11 , STX1A , STXBP1 , SYN1 , SYNE1 , TAOK2 , TCF4 , TLK2 , TOP1 , TRIM33 , TRIP12 , TSC1 , UBN2 , UBR5 , UPF2 , USP15 , USP7 , WAC , WDFY3 , WDR26 , YEATS2 , YY1 , ZMYND11 , ZNF462 , ZNF827 GO:0006325 (Biol. Proc.) | Chromatin organization (683) | 44 (CNS+PT) | 1.44E-18 | | APBB1 , ARID1B , ASH1L , ATRX , B... ..., NSD1 , NTRK3 , OGT , PHF2 , PHIP , PLCB1 , POGZ , PRICKLE1 , PRKCB , PTBP2 , QRICH1 , RAI1 , RB1CC1 , RERE , RFX3 , SATB2 , SETBP1 , SETD2 , SLIT3 , SMARCA2 , SMARCC2 , TCF4 , TNRC6B , TOP1 , TRIM33 , TSC1 , UBR5 , UPF2 , USP15 , USP7 , VIP , WAC , YEATS2 , YY1 , ZMYND11 , ZNF462 , ZNF827 GO:0003677 (Mol. Func.) | DNA binding (2457) | 53 | 5.62E-06 | | ARID1B , ARNT2 , ASH1L , ATRX , BAZ2B , BTAF1 , CAMTA1 , CDK13... ...PHN1 , PDE4A , PDE4B , PHF2 , PHF3 , PLCB1 , POGZ , PRICKLE1 , PRICKLE2 , PRKCB , RAI1 , RAPGEF4 , RBM27 , RERE , RNF38 , SETD2 , SLC6A1 , SLIT3 , SMARCA2 , SPAST , SYN1 , TAOK2 , TLK2 , TOP1 , TRIM33 , TRIO , UBR5 , WDFY3 , YTHDC2 , YY1 , ZMYND11 , ZNF462 , ZNF827 Consistently, the synapses (42/91 genes, FDR = 4.06E-30), neuronal projection (44/91, FDR = 9.54E-28) and ion channel complex (24/91, FDR = 7.59E-22, Tabl...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "29069077",
+   "title": "Functional convergence of histone methyltransferases EHMT1 and KMT2C involved in intellectual disability and autism spectrum disorder.",
+   "abstract": "Kleefstra syndrome, caused by haploinsufficiency of euchromatin histone methyltransferase 1 (EHMT1), is characterized by intellectual disability (ID), autism spectrum disorder (ASD), characteristic facial dysmorphisms, and other variable clinical features. In addition to EHMT1 mutations, de novo variants were reported in four additional genes (MBD5, SMARCB1, NR1I3, and KMT2C), in single individuals with clinical characteristics overlapping Kleefstra syndrome. Here, we present a novel cohort of five patients with de novo loss of function mutations affecting the histone methyltransferase KMT2C. Our clinical data delineates the KMT2C phenotypic spectrum and reinforces the phenotypic overlap with Kleefstra syndrome and other related ID disorders. To elucidate the common molecular basis of the neuropathology associated with mutations in KMT2C and EHMT1, we characterized the role of the Drosophila KMT2C ortholog, trithorax related (trr), in the nervous system. Similar to the Drosophila EHMT1 ortholog, G9a, trr is required in the mushroom body for short term memory. Trr ChIP-seq identified 3371 binding sites, mainly in the promoter of genes involved in neuronal processes. Transcriptional profiling of pan-neuronal trr knockdown and G9a null mutant fly heads identified 613 and 1123 misregulated genes, respectively. These gene sets show a significant overlap and are associated with nearly identical gene ontology enrichments. The majority of the observed biological convergence is derived from predicted indirect target genes. However, trr and G9a also have common direct targets, including the Drosophila ortholog of Arc (Arc1), a key regulator of synaptic plasticity. Our data highlight the clinical and molecular convergence between the KMT2 and EHMT protein families, which may contribute to a molecular network underlying a larger group of ID/ASD-related disorders. [full text, passages naming UBR5] ...| p.(Lys564*) | p.(Lys3605Glufs*24) | - | p.(Arg1481*) | Mosaic | - | + (30% blood) | - | - | - | - | Deletion | - | - | - | - | 7q36.1 (151858920\u2013152062163)x1 | - | Additional | de novo mutations | PHF21A 1 | UBR5 2 C11orf35 3 - | - | - | - | | Growth | | | | | | Height | 171.5 cm (-1.7 SD) | 179 cm (-0.5 SD) | 160 cm (-2 SD) | 109 cm (-3 SD) | N/A | 148 cm (-2.5 SD) | Weight | 63.5 kg (+0.6 SD) | 53.8 kg (-1.5 SD)... ...mal | Normal | Non-progressive enlarged extracerebral space | N/A | Abbreviations: N/A = not available; PKU = phenylketonuria; RRI = recurrent respiratory infections 1 PHF21A : c.1956del; p.(Ala653Profs*103) 2 UBR5 : c.5720G>A; p.(Arg1907His) 3 C11orf35; p.(Pro602Leu) The Drosophila KMT2C ortholog, trr, is required for short term courtship memory To assess the functional role of KMT2C in neurons, we investigated the... ...otype observed in this patient. In individual 2 we found the KMT2C change c.7550C>G (p.Ser2517*) in mosaic in blood. Individual 2 carries two additional de novo missense mutations in C11orf35 (p.Pro602Leu) and UBR5 (p.Arg1907His). Protein function or mutations associated with other diseases for C11orf35 are not known, and thus we cannot rule out that this variant may contribute to the patient phenotype. With respect...",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31847491",
+   "title": "The mTOR Signaling Pathway Activity and Vitamin D Availability Control the Expression of Most Autism Predisposition Genes.",
+   "abstract": "Autism spectrum disorder (ASD) has a strong and complex genetic component with an estimate of more than 1000 genes implicated cataloged in SFARI (Simon's Foundation Autism Research Initiative) gene database. A significant part of both syndromic and idiopathic autism cases can be attributed to disorders caused by the mechanistic target of rapamycin (mTOR)-dependent translation deregulation. We conducted gene-set analyses and revealed that 606 out of 1053 genes (58%) included in the SFARI Gene database and 179 out of 281 genes (64%) included in the first three categories of the database (\"high confidence\", \"strong candidate\", and \"suggestive evidence\") could be attributed to one of the four groups: 1. FMRP (fragile X mental retardation protein) target genes, 2. mTOR signaling network genes, 3. mTOR-modulated genes, 4. vitamin D3 sensitive genes. The additional gene network analysis revealed 43 new genes and 127 new interactions, so in the whole 222 out of 281 (79%) high scored genes from SFARI Gene database were connected with mTOR signaling activity and/or dependent on vitamin D3 availability directly or indirectly. We hypothesized that genetic and/or environment mTOR hyperactivation, including provocation by vitamin D deficiency, might be a common mechanism controlling the expressivity of most autism predisposition genes and even core symptoms of autism. [full text, passages naming UBR5] ...thway \u2229 mTOR-modulated | 2 | XPO1 CCT4 | FMRP target \u2229 mTOR-modulated | 61 | KMT2E CHD8 ARHGAP32 ATP1A3 DPYSL2 GNAS EP400 CAMTA1 AKAP9 PLXNB1 MED13 CHD3 TRIP12 DHX30 DYNC1H1 ARHGAP33 EHMT1 SLC12A5 IQSEC2 HUWE1 UBR5 BRD4 DLG4 NSD1 ATP2B2 CHD5 STXBP1 MYH10 ITPR1 CUX1 TAOK2 GRM4 ANK3 SETD5 SMARCA2 UBE3C MAGED1 KAT6A AGAP2 APP HDLBP TNRC6B NCKAP1 PHRF1 LEO1 TOP3B CHD7 EXOC6B USP7 SETDB1 SLC27A4 SND1 SETDB2 AHI1 MTR CC2D1... ...FMRP target \u2229 vitamin D-sensitive \u2229 mTOR-modulated | 4 | SMARCC2 ANKRD11 KDM5C CLASP1 | Vitamin D-sensitive \u2229 mTOR signaling pathway \u2229 mTOR-modulated | 1 | CCT4 | FMRP target \u2229 mTOR-modulated | 29 | EP400 USP7 UBR5 PHRF1 GGNBP2 UBE3C KMT2E CHD8 AKAP9 ATP2B2 PLXNB1 MED13 LEO1 DPYSL2 KAT6A TRIP12 DYNC1H1 STXBP1 EHMT1 MYH10 AGAP2 CUX1 TAOK2 ANK3 SETD5 SLC12A5 CC2D1A TNRC6B NCKAP1 | FMRP target \u2229 mTOR signaling pathway |...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "14871824": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24857884": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30804124": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15003601": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41554709": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3040894": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40087669": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12594221": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42282570": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39430730": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8655507": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37996637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37373427": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40262213": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42076148": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38940486": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35933519": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38422374": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36528667": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1843569": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35740599": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30172261": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42472879": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22833209": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39252612": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38460798": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35662501": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23362280": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33189033": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38004332": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39721588": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "31413120": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41318701": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "28417257": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37478862": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39260061": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30038412": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38280476": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26234678": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35442829": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42039660": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19008229": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25092319": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23029623": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33122718": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41969808": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18073532": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32325489": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30508113": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30552140": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27185398": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38707379": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40358464": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23407552": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33340455": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "15282321": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41928979": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34622207": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32232557": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27231705": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36689659": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18975239": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42782803": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40076702": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41168819": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38519481": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40392445": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39878593": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39300136": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40081980": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35982160": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34306572": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33338084": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29069077": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "31847491": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39940735": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41421362": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41705110": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33198194": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33362469": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.3,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 189,
+   "usd": 0.006455,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 12.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 96.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 2.8,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "18 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "23 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4078,
+   "output_tokens": 190,
+   "usd": 0.005028,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 73.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 28356,
+   "output_tokens": 1150,
+   "usd": 0.034106,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 8.7,
+   "note": "",
+   "input_tokens": 15291,
+   "output_tokens": 729,
+   "usd": 0.09468,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>85</established>\n    <existing>13</existing>\n    <hypothesized>2</hypothesized>\n    <novel>0</novel>\n  </probabilities>\n  <justification>Two independent clinical reports provide primary human evidence of causation: PMID 39721588 describes 29 individuals with heterozygous UBR5 variants presenting with a neurodevelopmental syndrome including autism, supported by functional ubiquitination and C. elegans data, and PMID 41318701 reports three additional unrelated probands with de novo loss-of-function variants and ASD/ID, reviewing 11 de novo LoF variants in total. Independent sequencing studies add further de novo single-nucleotide/frameshift events in ASD probands (PMID 38519481, PMID 31413120), and UBR5 emerges in large rare-variant ASD gene discovery efforts (PMID 35982160). These are human, single-gene\u2013resolving variants in multiple independent probands, satisfying criteria for Established. Remaining probability reflects residual uncertainty about whether autism is a consistent core feature versus part of a broader neurodevelopmental phenotype.</justification>\n  <pmids>\n    <pmid>39721588</pmid>\n    <pmid>41318701</pmid>\n    <pmid>38519481</pmid>\n    <pmid>31413120</pmid>\n    <pmid>35982160</pmid>\n    <pmid>33340455</pmid>\n    <pmid>42782803</pmid>\n  </pmids>\n</response>"
+}

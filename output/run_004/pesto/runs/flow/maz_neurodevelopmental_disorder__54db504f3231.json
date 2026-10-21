@@ -1,0 +1,828 @@
+{
+ "gene": "MAZ",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of neurological development",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "ZF87",
+   "PUR-1",
+   "ZIF87",
+   "ZNF801",
+   "MYC associated zinc finger protein"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 81,
+  "titlekicksparingfulltext": 28,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 6,
+   "Existing": 62,
+   "Hypothesized": 30,
+   "Novel": 2
+  },
+  "justification": "MAZ lies within the recurrent 16p11.2 CNV region strongly associated with NDDs, but multigene CNV reports (PMIDs 39202413, 36320065, 38850022, 41155467, 42513527) cannot isolate MAZ from neighbouring genes and therefore do not constitute gene-level causal evidence. The strongest single-gene human data are a WES reanalysis of recessive intellectual disability that identified MAZ as a novel candidate gene supported by segregation in one family (PMID 39748273), and intragenic loss-of-function MAZ variants reported in colobomatous microphthalmia, a developmental phenotype in families where 16p11.2 deletions also carry neurodevelopmental features (PMIDs 41339071, 32571845 \u2013 the latter chiefly ocular and mouse-based). Mechanistic work places MAZ as a 16p11.2-encoded transcription factor repressing histone H1 genes with downstream dysregulation of ASD-associated gene networks (PMID 42169156), which is strong biological plausibility rather than variant-level proof. Because only a single credible human genetic report ties intragenic MAZ variation to an NDD phenotype, without independent replication in additional probands, the evidence falls short of Established and best fits Existing, with substantial residual weight on Hypothesized given the reliance on functional/animal data.",
+  "pmids": [],
+  "detail": {
+   "Established": 6,
+   "Existing": 62,
+   "Hypothesized": 30,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "29858823",
+   "title": "Evidence for Association Between OXTR Gene and ASD Clinical Phenotypes.",
+   "abstract": "Autism spectrum disorder (ASD) is an early-onset neurodevelopmental disorder characterized by impairments in social behaviors and communication. Oxytocin and its signaling pathway are related to a range of human behaviors, from facial expression recognition to aggressive behaviors, and have been suggested as involved in the etiology of ASD. Our aim was to evaluate the influence of two polymorphisms (rs1042778, rs53576) at the oxytocin receptor gene (OXTR) on ASD diagnosis and on specific ASD-related clinical symptoms (seizures, panic, and aggressive behaviors). We also assessed if these SNPs could be related to changes in OXTR availability and functionality using a bioinformatic approach. The sample was composed by 209 probands with ASD and their biological parents. Family-based approach and logistic regression models were used to investigated the outcomes. We observed that panic and aggressive behaviors were nominally associated with presence of rs1042778 T allele (P\u2009=\u20090.019/Pcorr\u2009=\u20090.114; P\u2009=\u20090.046/Pcorr\u2009=\u20090.276 respectively). Also, in the family-based analysis, a trend towards association with ASD susceptibility was observed for rs1042778 (G allele) (P\u2009=\u20090.066). In a bioinformatic approach, we demonstrated that rs1042778 G allele is determinant for the binding of the transcription factor MAZ, suggesting that when the T allele is present, the absence of MAZ binding might be associated with lower transcription levels of the OXTR gene. The overall findings suggest that the OXTR gene may play a role in ASD diagnosis and some of its clinical phenotypes, supported by previous animal and clinical studies. Further investigations are necessary to replicate our findings and fully understand the effects of the oxytocin pathway on ASD.",
+   "found_by": [],
+   "pubdate": "2018 Jun",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42169156",
+   "title": "Histone H1 variants regulate neurodevelopmental transcriptional programs in autism with 16p11.2 deletion.",
+   "abstract": "BACKGROUND: Neurodevelopmental disorders, including autism spectrum disorder, involve widespread transcriptional dysregulation. Copy number variations at 16p11.2 are among the strongest genetic risk factors for autism spectrum disorder, yet the molecular mechanisms by which these copy number variations contribute to neurodevelopmental pathology remain unclear. RESULTS: We identify significant genetic associations between autism spectrum disorder susceptibility and the HIST1 histone gene cluster through genome-wide analysis. Transcriptomic profiling across post-mortem brain tissue, patient-derived neural progenitor cells, neurons, and cerebral organoids reveals consistent upregulation of linker histone variants H1.2 and H1.5 in idiopathic autism spectrum disorder and 16p11.2 hemi-deletion carriers, but not in schizophrenia or bipolar disorder. Functional assays demonstrate that dysregulated H1 expression disrupts gene networks involved in synaptic signaling, chromatin remodeling, and neural differentiation. Mechanistically, we link H1 upregulation to MAZ, a transcription factor encoded within the 16p11.2 locus. MAZ binds the promoter regions of H1 genes and represses their transcription. Knockdown of MAZ leads to H1 overexpression. H1 upregulation alone is sufficient to alter the expression of autism spectrum disorder-associated genes. CONCLUSIONS: Our findings define a MAZ-dependent regulation of H1 dosage as a critical chromatin-mediated mechanism contributing to transcriptional pathology in 16p11.2-associated autism spectrum disorder.",
+   "found_by": [],
+   "pubdate": "2026 May 21",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "39748273",
+   "title": "Improved Diagnostic Yield in Recessive Intellectual Disability Utilizing Systematic Whole Exome Sequencing Data Reanalysis.",
+   "abstract": "Recent advances in next generation sequencing (NGS) have positioned whole exome sequencing (WES) as an efficient first-tier method in genetic diagnosis. However, despite the diagnostic yield of 35%-50% in intellectual disability (ID) many patients still remain undiagnosed due to inherent limitations and bioinformatic short-comings. In this study, we reanalyzed WES data from 159 Iranian families showing recessively inherited ID. The reanalysis was conducted with an initial clinical re-evaluation of the patients and their families, followed by data reanalysis using two updated bioinformatic pipelines. In the first phase, the BWA-GATK pipeline was utilized for alignment and variant calling, with subsequent variant annotation by the ANNOVAR tool. This approach yielded causative variants in 17 families (10.6%). Among these, six genes (MAZ, ACTR5, AKTIP, MIX23, SERPINB12, and CDC25B) were identified as novel candidates potentially associated with ID, supported by bioinformatics functional annotation and segregation analysis. In the second phase, families with negative results were reassessed using the Illumina DRAGEN Bio-IT platform for variant-calling, and Ilyome, a newly developed web-based tool, for annotation. The second phase identified likely pathogenic variants in two additional families, increasing the total diagnostic yield to 11.9% which is consistent with other studies conducted on cohorts of patients with ID. In conclusion, identification of co-segregating variants in six novel candidate genes in this study, emphasizes once more on the potential of WES reanalysis to uncover previously unknown gene-disease associations. Notably, it demonstrates that systematic reanalysis of WES data using updated bioinformatic tools and a thorough review of the literature for new gene-disease associations while performing phenotypic re-evaluation, can improve diagnostic outcome of WES in recessively inherited ID. Consequently, if performed within a 1-3\u2009year period, it can reduce the number of cases that may require other costly diagnostic methods such as whole genome sequencing.",
+   "found_by": [],
+   "pubdate": "2025 Jun",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "11733135",
+   "title": "The SMN genes are subject to transcriptional regulation during cellular differentiation.",
+   "abstract": "Proximal spinal muscular atrophy (SMA) is an autosomal recessive disease characterized by degeneration of alpha-motor neurons and muscular atrophy. The causal survival motor neuron (SMN) gene maps to a complex region of chromosome 5q13 harbouring an inverted duplication. Thus, there are two SMN genes, SMN1 and SMN2, but SMN1-deficiency alone causes SMA. In this study we demonstrate, for the first time, down-regulation of SMN promoter activity during cellular differentiation. Specifically, the minimal SMN promoter is four times more active in undifferentiated embryonal carcinoma P19 cells compared to cells treated with retinoic acid (RA) to initiate neuronal differentiation. This effect is mediated by sequences contained within the minimal core promoter that we have confined to the 257 nucleotides upstream of exon 1. We have identified seven regions that are highly conserved between the mouse and human SMN core promoters and this region contains the consensus sequence for a number of transcription factors. Most notably, AhR, HNF-3 and N-Oct3 have already been shown to respond to RA treatment of EC cells, while E47, HNF-3, MAZ, N-Oct3 and Pit-1a have been implicated in embryonic, muscle or neural development. In addition, we have mapped two strong transcription initiation sites upstream of SMN exon 1. The novel -79 site identified in this study is preferentially utilized during human foetal development. Furthermore, analysis of RNA from SMA patients with deletions of the entire SMN1 gene or chimpanzees that lack SMN2 suggests that the level of transcription initiation at these sites may be different for the SMN1 and SMN2 genes. Taken together, this work provides the first demonstration of transcriptional regulation of these genes during cellular differentiation and development. Deciphering the underlying mechanisms responsible for regulating SMN transcription may provide important clues towards enhancing SMN2 gene expression, one target for the treatment of SMA.",
+   "found_by": [],
+   "pubdate": "2001 Nov 28",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "11012087",
+   "title": "The ZF87/MAZ transcription factor functions as a growth suppressor in fibroblasts.",
+   "abstract": "ZF87/MAZ is a zinc finger transcription factor that activates expression of tissue-specific genes and represses expression of the c-myc proto-oncogene. Infection of NIH3T3 fibroblasts with a retrovirus expressing ZF87/MAZ leads to a significant reduction in G418-resistant colonies, compared to cells infected with a retroviral control. Further, only a small fraction of the G418-resistant colonies express ZF87/MAZ. When the ZF87/MAZ-expressing colonies are expanded, they demonstrate a slow growth phenotype, a delayed transit through G1 phase and a decrease in endogenous c-myc gene expression and cyclin A and cyclin E protein levels. Consistent with a partial G1 arrest, the ZF87/MAZ-expressing cells show a reduced sensitivity to the S phase specific chemotherapeutic agent camptothecin. These data indicate that ZF87/MAZ is a growth suppressor protein in nontransformed cells, in part, by affecting the levels of key cell cycle regulatory proteins.",
+   "found_by": [],
+   "pubdate": "2000",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "11527412",
+   "title": "Interaction of Myc-associated zinc finger protein with DCC, the product of a tumor-suppressor gene, during the neural differentiation of P19 EC cells.",
+   "abstract": "Expression of the DCC (deleted in colorectal cancer) protein is strongly induced during the neural differentiation of mouse P19 embryonal carcinoma (EC) cells that occurs when these cells are treated with retinoic acid (RA). Myc-associated zinc finger protein (MAZ) is a DNA-binding protein that is widely expressed and functions in human, mouse and hamster cells as an activator, an initiator or a terminator of transcription. However, the biological functions of MAZ remain elusive. We report here that MAZ associates with the cytoplasmic domain of the DCC protein in vivo and in vitro. Yeast two-hybrid assays confirmed this association. An immunofluorescence study demonstrated that DCC protein is expressed at elevated levels in neuron-like P19 EC cells, in particular in axons, in which the MAZ protein is also expressed. We found that MAZ was translocated from the nucleus to the cytoplasm during the RA-induced terminal differentiation of P19 EC cells with resultant loss of the ability of MAZ to bind to the ME1a1 site of the c-myc promoter. Taken together, our observations imply that the DCC protein might play a critical role as a signaling molecule in the regulation of the transcriptional activity of MAZ during the neural differentiation of P19 EC cells.",
+   "found_by": [],
+   "pubdate": "2001 Sep 7",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34351390",
+   "title": "Identification of the transcription factor MAZ as a regulator of erythropoiesis.",
+   "abstract": "Erythropoiesis requires a combination of ubiquitous and tissue-specific transcription factors (TFs). Here, through DNA affinity purification followed by mass spectrometry, we have identified the widely expressed protein MAZ (Myc-associated zinc finger) as a TF that binds to the promoter of the erythroid-specific human \u03b1-globin gene. Genome-wide mapping in primary human erythroid cells revealed that MAZ also occupies active promoters as well as GATA1-bound enhancer elements of key erythroid genes. Consistent with an important role during erythropoiesis, knockdown of MAZ reduces \u03b1-globin expression in K562 cells and impairs differentiation in primary human erythroid cells. Genetic variants in the MAZ locus are associated with changes in clinically important human erythroid traits. Taken together, these findings reveal the zinc-finger TF MAZ to be a previously unrecognized regulator of the erythroid differentiation program.",
+   "found_by": [],
+   "pubdate": "2021 Aug 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30610159",
+   "title": "Revealing the alternative promoter usage of SAF/MAZ gene by bichromatic fluorescent reporter construct.",
+   "abstract": "The large-scale identification of putative alternative promoters study shows more than 52% of human genes are regulated by alternative promoters. The human myc-associated zinc finger protein (SAF/MAZ) gene have SAF-1 and SAF-3 variants transcripted from two transcription start sites (TSSs). By using SAF/MAZ promoter as a model, we set up an approach to probe how the alternative promoters are regulated in real time. We have constructed the bichromatic fluorescent reporter driven by SAF/MAZ 5'-proximal promoter plasmids from which transactivation status of SAF-1 and SAF-3 alternative promoter could be monitored by EGFP and DsRed expression respectively. The results showed that the SAF-3 expression is regulated by alternative promoters. When the bichromatic fluorescent reporter was driven by -1692/+277 or -1401/+277 SAF/MAZ promoter the dominant expression of SAF-3 would be observed in comparison with SAF-1 expression. We also identified that Elk-1 is an inhibitory transcription factor for SAF-3 expression. The temporal diversity of SAF-1 and SAF-3 expressions can be observed via bichromatic fluorescent reporters. These imply that the bichromatic fluorescent reporter driven by alternative promoter construct might be a useful tool for decoding the temporal regulatory repertoire of alternative promoter in human genes.",
+   "found_by": [],
+   "pubdate": "2019 Jan 31",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19583771",
+   "title": "SAF-3, a novel splice variant of the SAF-1/MAZ/Pur-1 family, is expressed during inflammation.",
+   "abstract": "The Cys2His2-type zinc finger transcription factor serum amyloid A activating factor 1 [SAF-1, also known as MAZ (myc-associated zinc finger protein) or Pur-1 (purine binding factor-1)] plays an important role in regulation of a variety of inflammation-responsive genes. An SAF-2 splice variant acting as a negative regulator of SAF-1 was identified previously, and the present study reports the identification of a novel SAF-3 splice variant that is expressed during inflammation. SAF-3 mRNA, isolated from a cDNA library produced from IL-1beta-induced cells, originates from a previously unknown first coding exon, and thereby contains a unique N-terminal domain but shares the same six zinc finger DNA-binding domains as present in SAF-1. In addition, a negatively functioning domain present at the N-terminus of SAF-1 and SAF-2 is spliced out in SAF-3. The expression of SAF-3 is very low in normal tissues and in cells grown under normal conditions. However, RT-PCR analysis of mRNAs from cytokine and growth factor-induced cells as well of mRNAs isolated from several diseased tissues revealed abundant expression of SAF-3. The transactivation potential of SAF-3 is much greater than that of the predominantly expressed splice variant SAF-1. These findings show that transcriptional regulation of downstream inflammation-responsive genes by SAF/MAZ/Pur-1 is likely to be more complex than previously assumed. In addition, we show that SAF-3 expression initiates from an upstream novel promoter. This is the first report of the existence of multiple promoters regulating expression of the SAF/MAZ/Pur-1 family of proteins.",
+   "found_by": [],
+   "pubdate": "2009 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "10448092",
+   "title": "The DNA-binding and transcriptional activities of MAZ, a myc-associated zinc finger protein, are regulated by casein kinase II.",
+   "abstract": "Myc-associated zinc finger protein (MAZ) is a transcription factor that contains proline-rich, alanine repeats and six C(2)H(2)-type zinc finger motifs, as well as five putative sites of phosphorylation by casein kinase II (CKII). Site-specific mutagenesis of MAZ revealed that the serine residue at position 480 was the major site of phosphorylation by CKII both in vitro and in vivo. Phosphorylation of MAZ by CKII at this serine residue was required for maximum binding of MAZ to the pyrimidine-rich DNA of the nuclease-hypersensitive element (NHE) in the 5'-end promoter region of the c-myc gene. Mutation of serine at position 480 to alanine eliminated the DNA-binding activity of MAZ to this element. Moreover, the mutated MAZ was unable to enhance the expression of luciferase encoded by a c-myc promoter/luciferase reporter gene in HeLa cells in the presence of CKII. These results suggest that phosphorylation of the serine residue at position 480 of MAZ by CKII can control the function of MAZ by altering its DNA-binding activity.",
+   "found_by": [],
+   "pubdate": "1999 Aug 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11116210",
+   "title": "The transcription factors SP1 and MAZ regulate expression of the parathyroid hormone/parathyroid hormone-related peptide receptor gene.",
+   "abstract": "The parathyroid hormone (PTH)/PTH-related peptide (PTHrP) receptor regulates extracellular calcium concentrations and is therefore important for mineral homeostasis. ROS 17/2.8 cells, a rat osteoblast-like osteosarcoma cell line, express the PTH/PTHrP receptor and provide a good model for examining the transcriptional regulation of its gene. The rat PTH/PTHrP receptor gene has two promoters, U1 and U3, which were shown to be important for its expression. Using extracts from ROS 17/2.8 cells, we have demonstrated two regions (termed FP1 and FP2) of nuclear protein/DNA interaction within promoter sequences previously shown to be important for the activity of the U3 promoter. Nuclear extracts from rat 2 fibroblasts, which do not express the PTH/PTHrP receptor, produced one site of protein/DNA interaction which was found at a position on the promoter identical to the position of FP1 produced by a ROS 17/2.8 nuclear extract. Mutation of these two sites of protein/DNA interaction resulted in reduced U3 promoter activity. Furthermore, we have demonstrated that the transcription factors SP1 and MAZ regulate U3 promoter expression and have shown their functional significance using mutational analysis. These data demonstrate that SP1 and MAZ bind to the PTH/PTHrP receptor promoter and that they are involved in cell-specific expression of its gene product.",
+   "found_by": [],
+   "pubdate": "2000 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11777933",
+   "title": "A Myc-associated zinc finger protein-related factor binding site is required for the deregulation of c-myc expression by the immunoglobulin heavy chain gene enhancers in Burkitt's lymphoma.",
+   "abstract": "The deregulation of expression of the c-myc gene in Burkitt's lymphoma results from the translocation that links one c-myc allele to one of the immunoglobulin genes. This physical linkage promotes interactions between c-myc and immunoglobulin gene regulatory elements that affect c-myc transcription initiation and elongation. We have located a region in the c-myc promoter that is required for the complete activation by the immunoglobulin heavy chain gene enhancer. This regulatory element contains a core sequence, GGGAGG, similar to the GA box recognized by the transcription factor Myc-associated zinc finger protein (MAZ). UV cross-link analysis indicated that the mass of this protein did not correspond to that of MAZ, suggesting that a protein related to but distinct from MAZ bound to this site. Mutation of this regulatory element resulted in a loss of promoter activity induced by the immunoglobulin heavy chain gene enhancer. This site was also required for the c-myc promoter shift from P2 to P1. In vivo footprinting revealed that this site was occupied on the translocated c-myc allele but not on the untranslocated allele. Taken together, these findings suggest that this regulatory element is required for the full activation of c-myc promoter activity by the immunoglobulin heavy chain gene enhancer.",
+   "found_by": [],
+   "pubdate": "2002 Mar 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32571845",
+   "title": "The transcription factor Maz is essential for normal eye development.",
+   "abstract": "Wnt/\u03b2-catenin signaling has an essential role in eye development. Faulty regulation of this pathway results in ocular malformations, owing to defects in cell-fate determination and differentiation. Herein, we show that disruption of Maz, the gene encoding Myc-associated zinc-finger transcription factor, produces developmental eye defects in mice and humans. Expression of key genes involved in the Wnt cascade, Sfrp2, Wnt2b and Fzd4, was significantly increased in mice with targeted inactivation of Maz, resulting in abnormal peripheral eye formation with reduced proliferation of the progenitor cells in the region. Paradoxically, the Wnt reporter TCF-Lef1 displayed a significant downregulation in Maz-deficient eyes. Molecular analysis indicates that Maz is necessary for the activation of the Wnt/\u03b2-catenin pathway and participates in the network controlling ciliary margin patterning. Copy-number variations and single-nucleotide variants of MAZ were identified in humans that result in abnormal ocular development. The data support MAZ as a key contributor to the eye comorbidities associated with chromosome 16p11.2 copy-number variants and as a transcriptional regulator of ocular development.",
+   "found_by": [],
+   "pubdate": "2020 Aug 18",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41339071",
+   "title": "Intragenic loss-of-function variants in transcription factors MAZ, FOXP1 and SIN3B in colobomatous microphthalmia.",
+   "abstract": "Despite the identification of many genes involved in developmental eye phenotypes, a large percentage of families lack genetic diagnoses, suggesting novel mechanisms remain to be discovered. Large deletions of 16p11.2, 3p14 or 19p13.11 regions involving transcription factors MAZ, FOXP1 and SIN3B, correspondingly, along with other genes, have been previously reported in individuals with neurodevelopmental and variable other features, including ocular coloboma and/or microphthalmia; recently, intragenic variants in FOXP1 and SIN3B have also been shown to cause neurodevelopmental phenotypes, with developmental eye defects reported in a small number of individuals with FOXP1 variants. Through exome sequencing analysis we identified novel splicing variants in MAZ and SIN3B, and a recurrent nonsense allele in FOXP1 in unrelated families affected with colobomatous microphthalmia, all with predicted loss-of-function effects; additionally, we report two new families with coloboma and 16p11.2 genomic deletions including MAZ, one de novo and another inherited from an affected parent. These findings provide further support for a role for FOXP1 in structural eye phenotypes, expanding its spectrum to include colobomatous microphthalmia, and suggest a role for MAZ and SIN3B in human eye development and disease.",
+   "found_by": [],
+   "pubdate": "2026 Feb 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming MAZ] ...3 | N/A | | OTUD7A\u2217+ N/A | deletion-duplication | 15 | 15q13.3 | N/A | | OTUD7A\u2217+ N/A | deletion-duplication | 15 | 16p11.2 | | FBXL19\u2217 | FBRS\u2217, FUS\u2217, SH2B1\u2217+, TAOK2\u2217+, TBC1D10B\u2217, SRCAP\u2217\u2217, SETD1A\u2217\u2217, ATXN2L\u2217+ | MAZ\u2217+, STX1B\u2217\u2217 deletion-duplication | 16 | 16p12.1 (novel) | N/A | | RBBP6\u2217, ARHGAP17 , IL21R\u2217, TNRC6A\u2217, GTF3C1\u2217, XPO6\u2217 N/A | deletion-duplication | 16 | 16p12.2-p11.2 (novel due to novel region boundaries) | |... ...12.2-p11.2 (novel due to novel region boundaries) | | FBXL19\u2217 | PLK1\u2217, FBRS\u2217, FUS\u2217, RBBP6\u2217, ARHGAP17 , IL21R\u2217, SH2B1\u2217+, TAOK2\u2217+, TBC1D10B\u2217, SRCAP\u2217\u2217, SETD1A\u2217\u2217, TNRC6A\u2217, GTF3C1\u2217, XPO6\u2217, ATXN2L\u2217+, PRKCB\u2217, USP31 | MAZ\u2217+, STX1B\u2217\u2217 duplication | 16 | 16p13.11 | N/A | | MYH11+ N/A | deletion-duplication | 16 | 16p13.3 | | MAPK8IP3\u2217\u2217+ | RPS2\u2217, CAPN15\u2217\u2217+, TSC2\u2217\u2217, CASKIN1\u2217, TFAP4\u2217, GLYR1\u2217, UBN1\u2217, ADCY9\u2217, CREBBP\u2217\u2217+, RBFOX1\u2217+ | U...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41155467",
+   "title": "Using Whole Exome Sequencing to Identify Genetic Causes of Neurodevelopmental Disorders in a Cohort of 11 Patients: A Single Center Experience.",
+   "abstract": "Neurodevelopmental disorders (NDDs) represent a heterogeneous group of diseases with a variety of clinical presentations related to different genetic, epigenetic, and environmental etiologies. Numerous pathogenic variants have been identified by comprehensive genetic approaches such as next-generation sequencing and chromosomal microarray analyses. This study included eleven pediatric patients with NDDs who were referred to our Molecular Medicine (MM) unit for further diagnostic workup. Whole exome sequencing (WES) was performed, and data were analyzed as part of a contracted service with the National Genomic Center and iBioScience LTD. Likely pathogenic single nucleotide variants in genes DDX3X c.869C>A, p.S290* and CNOT1 c.920delG, p.G307Afs*32 in two patients, and pathogenic copy number variants in the 16p11.2 (16:29,690,418-30,200,285)x3 and 16p12.1-p11.2 (16:27,078,317-29,001,333)x3 regions in a third patient with NDDs were identified. In a fourth patient, the c.6839A>G, p.Gln2280Arg variant of uncertain significance was found in the NIPBL gene. Altogether, our study has revealed four novel variants in genes previously linked to NDDs. Identification of genetic causes of NDDs not only promotes establishing a more precise diagnosis and improves our understanding of disease pathogenesis but may also provide better means for developing preventive measures for the recurrence of this serious condition. [full text, passages naming MAZ] ...lication CNV is 1.9 Mb ( Figure 1 ). Evidence supports the pathogenic role of the duplication in the proximal and distal regions. The proximal region includes 29 genes ( TBX6 , QPRT , C16orf54 , ZG16 , KIF22 , MAZ , PRRT2 , PAGR1 , MVP , CDIPT , CDIPTOSP , SEZ6L2 , ASPHD1 , KCTD13 , TMEM219 , TAOK2 , HIRIP3 , INO80E , DOC2A , C16orf92 , TLCD3B , LOC112694756 , ALDOA , PPP4C , YPEL3 , YPEL3-DT , GDPD3 , MAPK3 , CORO1A...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39202413",
+   "title": "The Phenotypic Spectrum of 16p11.2 Recurrent Chromosomal Rearrangements.",
+   "abstract": "The human 16p11.2 chromosomal region is rich in segmental duplications which mediate the formation of recurrent CNVs. CNVs affecting the 16p11.2 region are associated with an increased risk for developing neuropsychiatric disorders, including autism spectrum disorder (ASD), schizophrenia, and intellectual disability (ID), as well as abnormal body weight and head circumference and dysmorphic features, with marked phenotypic variability and reduced penetrance. CNVs affecting the 16p11.2 region mainly affect a distal interval of ~220 Kb, between Breakpoints 2 and 3 (BP2-BP3), and a proximal interval of ~593 Kb (BP4-BP5). Here, we report on 15 patients with recurrent 16p11.2 rearrangements that were identified among a cohort of 1600 patients (0.9%) with neurodevelopmental disorders. A total of 13 deletions and two duplications were identified, of which eight deletions included the proximal 16p11.2 region (BP4-BP5) and five included the distal 16p11.2 region (BP2-BP3). Of the two duplications that were identified, one affected the proximal and one the distal 16p11.2 region; however, both patients had additional CNVs contributing to phenotypic severity. The features observed and their severity varied greatly, even between patients within the same family. This article aims to further delineate the clinical spectrum of patients with 16p11.2 recurrent rearrangements in order to aid the counselling of patients and their families. [full text, passages naming MAZ] ...development [ 16 ], indicative of the complicated mechanisms involved in the manifestation of the clinical phenotype. The most important genes included in the region are MAPK3 , PRRT2 , TBX6 , ALDOA , CORO1A , MAZ , TAOK2 , and KIF22 . Of these, CORO1A , TAOK2 , and MAZ are predicted to be haploinsufficient, thus possibly contributing to the phenotypic features of deletion carriers. TBX6 has been associated with vert... ...sms involved in the manifestation of the clinical phenotype. The most important genes included in the region are MAPK3 , PRRT2 , TBX6 , ALDOA , CORO1A , MAZ , TAOK2 , and KIF22 . Of these, CORO1A , TAOK2 , and MAZ are predicted to be haploinsufficient, thus possibly contributing to the phenotypic features of deletion carriers. TBX6 has been associated with vertebral malformations and PRRT2 has been associated with ep... ...entile), psychomotor delay, brain MRI increased T2 signal and flair images | 3 | M | 6 years | arr[GRCh37] 16p11.2(29652999\u201330198600) \u00d71/545 Kb | | BP4\u2013BP5 (Proximal) | | SPN , QPRT , C16orf54 , ZG16 , KIF22 , MAZ , PRRT2 , C16orf53 , MVP , CDIPT , LOC440356 , SEZ6L2 , ASPHD1 , KCTD13 , TMEM219 , TAOK2 , HIRIP3 , INO80E , DOC2A , C16orf92 , FAM57B , ALDOA , PPP4C , TBX6 , YPEL3 , GDPD3 , MAPK3 , LOC100271831 , CORO1A...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36320065",
+   "title": "Clinical evaluation of rare copy number variations identified by chromosomal microarray in a Hungarian neurodevelopmental disorder patient cohort.",
+   "abstract": "BACKGROUND: Neurodevelopmental disorders are genetically heterogeneous pediatric conditions. The first tier diagnostic method for uncovering copy number variations (CNVs), one of the most common genetic etiologies in affected individuals, is chromosomal microarray (CMA). However, this methodology is not yet a routine molecular cytogenetic test in many parts of the world, including Hungary. Here we report clinical and genetic data of the first, relatively large Hungarian cohort of patients whose genetic testing included CMA. METHODS: Clinical data were retrospectively collected for 78 children who were analyzed using various CMA platforms. Phenotypes of patients with disease-causing variants were compared to patients with negative results using the chi squared/Fisher exact tests. RESULTS: A total of 30 pathogenic CNVs were identified in 29 patients (37.2%). Postnatal growth delay (p\u2009=\u20090.05564), pectus excavatum (p\u2009=\u20090.07484), brain imaging abnormalities (p\u2009=\u20090.07848), global developmental delay (p\u2009=\u20090.08070) and macrocephaly (p\u2009=\u20090.08919) were more likely to be associated with disease-causing CNVs. CONCLUSION: Our results allow phenotypic expansion of 14q11.2 microdeletions encompassing SUPT16H and CHD8 genes. Variants of unknown significance (n\u2009=\u200924) were found in 17 patients. We provide detailed phenotypic and genetic data of these individuals to facilitate future classification efforts, and spotlight two patients with potentially pathogenic alterations. Our results contribute to unraveling the diagnostic value of rare CNVs. [full text, passages naming MAZ] ....2(28824802_29040571)x1 | 37 | SEG2_53 | 215.8 | P | HI: 3; TS: 1 | | SH2B1 ( 9 ) Distal 16p11.2 microdeletion (OMIM#613,444) | 16p11.2(29620689_30190568)x3 | 37 | SEG2_17 | 569.9 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 26 ) 16p11.2 microduplication (OMIM#614,671) | 16p11.2(29624765_30199351)x3 | 37 | SEG2_26 | 574.6 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 27 ) 16p11.2... ...SEG2_17 | 569.9 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 26 ) 16p11.2 microduplication (OMIM#614,671) | 16p11.2(29624765_30199351)x3 | 37 | SEG2_26 | 574.6 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 27 ) 16p11.2 microduplication (OMIM#614,671) | 16p11.2(29624765_30199351)x3 | 37 | SEG2_27 | 574.6 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 27 ) 16p11.2... ...SEG2_26 | 574.6 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 27 ) 16p11.2 microduplication (OMIM#614,671) | 16p11.2(29624765_30199351)x3 | 37 | SEG2_27 | 574.6 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 27 ) 16p11.2 microduplication (OMIM#614,671) | 16p11.2(29656684_30190568)x1 | 37 | SEG2_39 | 533.9 | P | HI: 3; TS: 3 | | KIF22, MAZ, PRRT2, KCTD13, TBX6, MAPK3 ( 26 ) Proximal...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42513527",
+   "title": "Coexistence of a Novel &lt;i&gt;OCRL&lt;/i&gt; Variant and a Pathogenic 16p11.2 Deletion in a Patient with Renal and Neurodevelopmental Manifestations Suggestive of Atypical Dent Disease Type 2-A Case Report.",
+   "abstract": "Background/Objectives: To date, approximately 360 pathogenic variants of the OCRL gene have been reported, including frameshift, substitution, gross inversion, nonsense, and missense mutations. These genetic alterations have been associated with a broad phenotypic spectrum of Lowe syndrome, contributing to considerable variability in disease severity and clinical presentation. Missense variants are typically associated with preserved messenger RNA expression in fibroblasts, whereas more deleterious mutations result in markedly reduced expression of the OCRL transcript or protein product. Pathogenic variants in the OCRL gene have also been identified in patients with Dent's disease type 2. Case presentation: This case report describes a pediatric male patient with autism spectrum disorder and renal dysfunction, who was found to harbor a variant of uncertain clinical significance in the OCRL gene and a pathogenic 16p11.2 chromosomal deletion. The patient, a 12-year-old boy with autism, presented with proteinuria during hospitalization for febrile gastroenteritis and streptococcal infection. Further evaluation revealed focal glomerulosclerosis, tubular calcium phosphate deposits, albuminuria, and hypercalciuria. Ophthalmologic examination additionally demonstrated bilateral lens opacities in the absence of congenital cataracts, as well as hyperopia. The coexistence of these clinical manifestations together with the identified OCRL gene variant raises the possibility of an atypical presentation of Dent disease type 2. Nevertheless, continued clinical and genetic follow-up remains warranted to further clarify the pathogenic significance of the detected variant and to establish a definitive diagnosis. Conclusions: The uniqueness of this case resides in the coexistence of two independent genetic findings presenting a phenotype-attribution challenge. Furthermore, the identified phenotype may warrant consideration as a possible previously unreported phenotypic presentation situated along the clinical spectrum between Lowe syndrome and Dent disease type 2. The main contribution of this report is to illustrate the interpretative challenges of a concurrent pathogenic 16p11.2 deletion and an OCRL variant of uncertain significance in a patient with renal disease and neurodevelopmental features. [full text, passages naming MAZ] ...y WES. Genomic Region/Genes | Variant Coordinates | Allele Status | Inheritance Pattern | Variant Classification (ACMG/ClinGen) | | 16p11.2 , PRRT2 , TBX6 KIF22 , ALDOA , MAPK3 , SPN , QPRT , C16orf54 , ZG16 , MAZ , PAGR1 , MVP , CDIPT , SEZ6L2 , ASPHD1 , KCTD13 , TMEM219 , TAOK2 , HIRIP3 , INO80E , DOC2A , C16orf92 , TLCD3B , LOC112694756 , PPP4C , YPEL3 , GDPD3 , CORO1A) (GRCh37/hg19): | Copy Number Variant (CNV) s...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38948459",
+   "title": "Understanding copy number variations through their genes: a molecular view on 16p11.2 deletion and duplication syndromes.",
+   "abstract": "Neurodevelopmental disorders (NDDs) include a broad spectrum of pathological conditions that affect >4% of children worldwide, share common features and present a variegated genetic origin. They include clinically defined diseases, such as autism spectrum disorders (ASD), attention-deficit/hyperactivity disorder (ADHD), motor disorders such as Tics and Tourette's syndromes, but also much more heterogeneous conditions like intellectual disability (ID) and epilepsy. Schizophrenia (SCZ) has also recently been proposed to belong to NDDs. Relatively common causes of NDDs are copy number variations (CNVs), characterised by the gain or the loss of a portion of a chromosome. In this review, we focus on deletions and duplications at the 16p11.2 chromosomal region, associated with NDDs, ID, ASD but also epilepsy and SCZ. Some of the core phenotypes presented by human carriers could be recapitulated in animal and cellular models, which also highlighted prominent neurophysiological and signalling alterations underpinning 16p11.2 CNVs-associated phenotypes. In this review, we also provide an overview of the genes within the 16p11.2 locus, including those with partially known or unknown function as well as non-coding RNAs. A particularly interesting interplay was observed between MVP and MAPK3 in modulating some of the pathological phenotypes associated with the 16p11.2 deletion. Elucidating their role in intracellular signalling and their functional links will be a key step to devise novel therapeutic strategies for 16p11.2 CNVs-related syndromes. [full text, passages naming MAZ] ...d for synaptic wiring in | Drosophila neuromuscular junction | Park et al., 2016 (PMID: 26924931) Highly expressed in progenitors, potential involvement in neurogenesis | | Morson et al., 2021 (PMID: 33825894) MAZ | MYC-associated zinc finger protein | 600999 | Transcription factor, involved in gene expression and signal transduction | Involved in movement defects in Zebrafish | | Blaker-Lee et al., 2012 (PMID: 22566... ...ain structural changes and neuronal morphology ( Kretz et al., 2023 ). Interestingly we found that MVP is the top driver among a set of additional 12 genes within the 16p11.2 region (PPP4C, ZG16, TAOK2, SLX1B, MAZ, Fam57b, BOLA2, TBX6, QPRT, SPN, HIRIP3, and DOC2A) to modulate NAPs in males. Remarkably, neither MAPK3 nor KCTD13 were implicated in NAPs, despite previous work for KCTD13 in Zebrafish suggesting a differ... ...on et al., 2021 ). During CNS development, KIF22 transcripts are clearly segregated in the ventricular and subventricular zones, where cortical progenitors arise. KIF22, together with ALDOA, HIRIP3, PAGR1, and MAZ are also expressed in the ventricular zone of the ganglionic eminences where interneuron progenitors reside, supporting the hypothesis that 16p11.2 CNVs may disrupt the excitatory and inhibitory components...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "17400713": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9915847": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12731225": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34341443": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22198906": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24320453": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12900415": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40258813": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38348768": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25749382": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21556761": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41338233": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11554727": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35351523": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17321075": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39604689": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18400094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27386562": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39221762": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36522653": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39524785": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12746560": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27391153": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40236112": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34224739": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26656490": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16952428": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21051589": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29858823": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42169156": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39748273": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38189915": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11733135": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11012087": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11527412": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34351390": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30610159": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25449683": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19583771": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10448092": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11116210": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11777933": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12425938": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32571845": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "23471001": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22523601": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41720064": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35456450": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30456721": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41339071": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "14765995": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7988563": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36623412": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21931711": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14573768": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18631131": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25013182": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19074642": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41155467": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39202413": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36320065": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42513527": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38948459": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42286492": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38519481": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41323100": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40374944": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32870608": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "30210288": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40465750": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42029673": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38203422": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37107578": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33321999": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33691695": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32952419": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35762097": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29254826": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40400398": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 208,
+   "usd": 0.00694,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3676,
+   "output_tokens": 172,
+   "usd": 0.004536,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 74.5,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.4,
+   "note": "",
+   "input_tokens": 35870,
+   "output_tokens": 1231,
+   "usd": 0.042025,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 14.8,
+   "note": "",
+   "input_tokens": 16337,
+   "output_tokens": 1055,
+   "usd": 0.10806,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>6</established>\n    <existing>62</existing>\n    <hypothesized>30</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>MAZ lies within the recurrent 16p11.2 CNV region strongly associated with NDDs, but multigene CNV reports (PMIDs 39202413, 36320065, 38850022, 41155467, 42513527) cannot isolate MAZ from neighbouring genes and therefore do not constitute gene-level causal evidence. The strongest single-gene human data are a WES reanalysis of recessive intellectual disability that identified MAZ as a novel candidate gene supported by segregation in one family (PMID 39748273), and intragenic loss-of-function MAZ variants reported in colobomatous microphthalmia, a developmental phenotype in families where 16p11.2 deletions also carry neurodevelopmental features (PMIDs 41339071, 32571845 \u2013 the latter chiefly ocular and mouse-based). Mechanistic work places MAZ as a 16p11.2-encoded transcription factor repressing histone H1 genes with downstream dysregulation of ASD-associated gene networks (PMID 42169156), which is strong biological plausibility rather than variant-level proof. Because only a single credible human genetic report ties intragenic MAZ variation to an NDD phenotype, without independent replication in additional probands, the evidence falls short of Established and best fits Existing, with substantial residual weight on Hypothesized given the reliance on functional/animal data.</justification>\n  <pmids>\n    <pmid>39748273</pmid>\n    <pmid>42169156</pmid>\n    <pmid>41339071</pmid>\n    <pmid>32571845</pmid>\n    <pmid>38850022</pmid>\n    <pmid>39202413</pmid>\n    <pmid>38948459</pmid>\n    <pmid>36320065</pmid>\n  </pmids>\n</response>"
+}

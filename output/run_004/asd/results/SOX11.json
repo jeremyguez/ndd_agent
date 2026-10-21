@@ -1,0 +1,293 @@
+{
+  "articles_found": {
+    "clinical": 13,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Novel variants in the SOX11 gene: clinical description of seven new patients (PMID: 39333428)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "Five de novo missense variants (individual notations not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "intellectual disability",
+              "autism/ADHD",
+              "microcephaly",
+              "short stature",
+              "hypotonia",
+              "clinodactyly of 5th fingers",
+              "hypogonadotropic hypogonadism features (primary amenorrhea, micropenis, cryptorchidism, decreased testicular size)"
+            ]
+          },
+          {
+            "description": "One de novo nonsense variant (notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "variable features of the SOX11 syndrome (hypogonadotropic hypogonadism, microcephaly, short stature, hypotonia, autism/ADHD)"
+            ]
+          },
+          {
+            "description": "One de novo whole-gene deletion of SOX11",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "variable features of the SOX11 syndrome"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants in SOX11 with consistent phenotype; mostly novel variants",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "First observation of secondary childhood glaucoma in Coffin-Siris syndrome: a case report and literature review (PMID: 33430815)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.251G>T, p.(Gly84Val)",
+            "type": "missense",
+            "phenotypes": [
+              "secondary childhood glaucoma",
+              "Peters-type anterior segment dysgenesis",
+              "congenital limbal stem cell deficiency",
+              "aniridia",
+              "cataract",
+              "multiple congenital anomalies",
+              "severe developmental delay",
+              "Coffin-Siris syndrome 9"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel de novo heterozygous variant found by whole exome sequencing, classified as likely pathogenic; 18-gene congenital glaucoma panel was normal",
+        "center_country": "Childhood glaucoma centre, Mainz, Germany",
+        "cohort": null
+      },
+      {
+        "citation": "Deletion 2p25.2: a cryptic chromosome abnormality in a patient with autism and mental retardation detected using aCGH (PMID: 18992374)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo cryptic 2p25.2 deletion encompassing SOX11 (detected by aCGH)",
+            "type": "other",
+            "phenotypes": [
+              "autism",
+              "moderate intellectual disability",
+              "secondary microcephaly",
+              "agenesis of right optic nerve",
+              "dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo pure 2p25.2 deletion removing SOX11, with a severe phenotype consistent with a role for SOX11 haploinsufficiency",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Impaired communication ability in SOX11 syndrome (PMID: 37916390)",
+        "num_patients": 13,
+        "variants": [
+          {
+            "description": "Not specified (individuals with a diagnosis of SOX11 syndrome)",
+            "type": "other",
+            "phenotypes": [
+              "significant communication difficulties (CCC-2 composite)",
+              "impaired language structure (speech, syntax, semantics, coherence)",
+              "impaired pragmatic language",
+              "autistic features (social relations and interests)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Diagnosed SOX11 syndrome; specific variants not given in abstract",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Epithelial SOX11 regulates eyelid closure during embryonic eye development (PMID: 33662665)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Epithelial SOX11 deficiency causes failure of embryonic eyelid closure (eyelids open at birth)",
+          "Defective extension of the leading edge of the eyelid",
+          "Decreased c-Jun level in the eyelid of epithelial SOX11-deficient embryos",
+          "Systemic SOX11-deficient mice are born with unclosed eyelids (cited background)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sox11 is an Activity-Regulated Gene with Dentate-Gyrus-Specific Expression Upon General Neural Activation (PMID: 32080705)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Conditional Sox11/Sox4 knockout in the dentate gyrus produced reduced excitability of DG granule cells, the opposite of the SOX11 overexpression/enrichment phenotype",
+          "Upregulated expression of potassium channel subunits, opposite to the overexpression effect"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sox11 genes affect neuronal differentiation in the developing zebrafish enteric nervous system (PMID: 40789027)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "CRISPR-Cas9 depletion of sox11a and sox11b reduced the number of enteric neurons expressing the inhibitory motor neuron marker adcyap1b",
+          "No effect on cell proliferation or cell death",
+          "Sox11 binding sites required for adcyap1b enhancer-driven reporter expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - De novo SOX11 mutations cause Coffin-Siris syndrome",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "sox11a/b knockdown causes brain abnormalities"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cochlear nerve deficiency in SOX11-related Coffin-Siris syndrome (PMID: 35642566)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Homozygous Sox11 ablation: reduced sensory neuron survival and decreased axonal growth (cited from prior literature)",
+          "Heterozygous knockout mice: hearing impairment with grossly normal inner ear structures"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Androgens Drive SOX9 Upregulation in Injured Proximal Tubular Cells (PMID: 41279940)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Tubule-specific Sox11 deletion worsened kidney injury (AKI) in both sexes, indicating a protective role",
+          "Sox4 and Sox11 equally upregulated and protective in males and females"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "scRNA sequencing uncovers a TCF4-dependent transcription factor network regulating commissure development in mouse (PMID: 34184026)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "TCF4 and SOX11 cooperatively control commissure formation in vivo (combined Tcf4/Sox11 genetic manipulation)",
+          "Regulate transcription of genes implicated in commissure formation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zhang et al. 2022 - SOX11-dependent CATSPER1 expression controls colon cancer cell growth through regulation the PI3K/AKT signaling pathway (PMID: 35305240)",
+        "evidence_subtype": "pathway",
+        "summary": "SOX11 acts as a transcription factor that activates CATSPER1 transcription in colorectal cancer cells (luciferase reporter, qPCR, western blot). CATSPER1 promotes CRC proliferation in vitro and in xenografts, partly through PI3K/AKT activation, placing SOX11 upstream of a SOX11-CATSPER1-PI3K/AKT axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression and Clinicopathological Significance of SOX11 in Small-Cell Lung Cancer (PMID: 35402616)",
+        "evidence_subtype": "expression",
+        "summary": "By immunohistochemistry, nuclear SOX11 is highly expressed in SCLC (63.33% positive) but low or absent in carcinoid/neuroendocrine tumors (12.5%), lung adenocarcinoma (0%) and squamous cell carcinoma (0%). SOX11 showed sensitivity 0.633 and specificity 0.875 as an SCLC diagnostic marker.",
+        "sample_size": "120 lung tumor samples (60 SCLC)",
+        "significance": "Significantly higher in SCLC than other types (p<0.05)"
+      },
+      {
+        "citation": "Regulation of SOX11 expression through CCND1 and STAT3 in mantle cell lymphoma (PMID: 30530749)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CCND1 interacts with and sequesters HDAC1/2 from the SOX11 locus, increasing H3K9/14 acetylation and SOX11 transcription. Phospho-Y705 STAT3 is inversely related to SOX11: JAK/STAT3 inhibition raises SOX11, while IL-21-induced or constitutively active STAT3 lowers it. SOX11 knockdown is toxic to SOX11+ MCL cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOX11 regulates apoptosis and cell cycle in hepatocellular carcinoma via Wnt/\u03b2-catenin signaling pathway (PMID: 30517979)",
+        "evidence_subtype": "pathway",
+        "summary": "SOX11 is decreased in HCC tumors versus matched normal tissue. Overexpression in HuH-7 cells inhibits growth and induces apoptosis. It increases nemo-like kinase expression and TCF4 phosphorylation, which suppresses Wnt/\u03b2-catenin signaling, and it sensitizes cells to cisplatin and 5-FU, suggesting a tumor suppressor role.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOX11 as a potential prognostic biomarker in hepatocellular carcinoma linked to immune infiltration and ferroptosis (PMID: 39246708)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In contrast to the earlier HCC report, SOX11 was elevated in HCC (TCGA/GEO, validated by IHC) and predicted survival. It correlated with immune infiltration, immune checkpoint genes and ferroptosis genes. SOX11 knockdown in HepG2 and HuH7 cells reduced proliferation and migration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOX11 promotes epithelial/mesenchymal hybrid state and alters tropism of invasive breast cancer cells (PMID: 32909943)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SOX11 is an embryonic mammary epithelial marker normally silenced before birth. In ER-negative DCIS.com cells, SOX11 drives hybrid epithelial/mesenchymal, invasive populations. In xenografts, SOX11-high cells metastasize more to brain and bone and less to lung.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Human fetal cerebellar cell atlas informs medulloblastoma origin and oncogenesis (PMID: 36450980)",
+        "evidence_subtype": "function",
+        "summary": "SOX11 was identified, together with HNRNPH1, as a transcriptional determinant in transitional cerebellar progenitors enriched in group 3 medulloblastoma, and it correlates with prognosis. SOX11-targeted super-enhancers form long-range chromatin loops to MYC cis-regulatory elements. Targeting these regulators inhibited MYC expression and group 3 MB growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOX11 regulates PAX5 expression and blocks terminal B-cell differentiation in aggressive mantle cell lymphoma (PMID: 23321250)",
+        "evidence_subtype": "function",
+        "summary": "SOX11 promotes tumor growth in an MCL xenograft model. ChIP-on-chip with expression profiling after knockdown identified PAX5 as a major direct target. SOX11 silencing downregulates PAX5, induces BLIMP1 and shifts cells toward plasmacytic differentiation, so SOX11 blocks terminal B-cell differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sox11 is an Activity-Regulated Gene with Dentate-Gyrus-Specific Expression Upon General Neural Activation (PMID: 32080705)",
+        "evidence_subtype": "expression",
+        "summary": "In adult mice, SOX11 is induced within 6 h by electroconvulsive stimulation or novel environment exploration, restricted to dentate gyrus granule neurons; ~75% of SOX11+ DG neurons are c-FOS+. SOX11 overexpression enhanced granule cell excitability and downregulated potassium channel subunits, whereas conditional Sox11/4 knockout showed the opposite phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lineage specific transcription factor waves reprogram neuroblastoma from self-renewal to differentiation (PMID: 38653778)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The SOX11 super-enhancer and SOX11 expression decrease with ATRA-induced neuroblastoma differentiation. CRISPR-Cas9 and siRNA show neuroblastoma cells depend on SOX11 in vitro and in vivo. dCAS9-KRAB silencing of the SOX11 SE reduces SOX11 mRNA and inhibits growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - SOX11 is necessary for development of the bony labyrinth (Sperry et al.)",
+        "evidence_subtype": "function",
+        "summary": "Sox11-/- mice show lateral semicircular canal fusion plate failure and canal dysplasia, and Sox11+/- mice show canal abnormalities and mild high-frequency hearing loss. Bmp4, Otx1 and Shh are misregulated. Sox11 expression depends on CHD7 in a dosage-dependent manner (reduced in Chd7 Gt/+, absent in Gt/Gt ears), linking SOX11 to Coffin-Siris and CHARGE pathogenesis.",
+        "sample_size": "Sox11+/- n=26 ears (10 abnormal); Sox11-/- n=12 ears",
+        "significance": null
+      }
+    ]
+  }
+}

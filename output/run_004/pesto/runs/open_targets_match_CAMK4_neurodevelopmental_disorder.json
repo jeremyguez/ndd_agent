@@ -1,0 +1,860 @@
+{
+  "gene": "CAMK4",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000152495",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "HP_0001249",
+      "name": "Intellectual disability",
+      "score": 0.5281929200047321
+    },
+    {
+      "disease_id": "MONDO_0005420",
+      "name": "hypothyroidism",
+      "score": 0.4965549035349477
+    },
+    {
+      "disease_id": "EFO_0004587",
+      "name": "lymphocyte count",
+      "score": 0.49580619658850533
+    },
+    {
+      "disease_id": "MONDO_0005260",
+      "name": "autism",
+      "score": 0.466910916628939
+    },
+    {
+      "disease_id": "MONDO_0003441",
+      "name": "dystonic disorder",
+      "score": 0.4633735754447881
+    },
+    {
+      "disease_id": "MONDO_0000437",
+      "name": "cerebellar ataxia",
+      "score": 0.4628063730289178
+    },
+    {
+      "disease_id": "MONDO_0005395",
+      "name": "movement disorder",
+      "score": 0.4625291881379043
+    },
+    {
+      "disease_id": "HP_0001263",
+      "name": "Global developmental delay",
+      "score": 0.4623443982105619
+    },
+    {
+      "disease_id": "MONDO_0001595",
+      "name": "choreatic disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "HP_0000708",
+      "name": "Atypical behavior",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "HP_0001336",
+      "name": "Myoclonus",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "EFO_0007993",
+      "name": "lymphocyte percentage of leukocytes",
+      "score": 0.4454404206370773
+    },
+    {
+      "disease_id": "EFO_0009933",
+      "name": "Thyroid preparation use measurement",
+      "score": 0.4148983813353621
+    },
+    {
+      "disease_id": "EFO_0007990",
+      "name": "neutrophil percentage of leukocytes",
+      "score": 0.4074026892754518
+    },
+    {
+      "disease_id": "MONDO_0005623",
+      "name": "autoimmune thyroid disease",
+      "score": 0.4024055061638217
+    },
+    {
+      "disease_id": "EFO_0004842",
+      "name": "eosinophil count",
+      "score": 0.3875080818310336
+    },
+    {
+      "disease_id": "MONDO_0009718",
+      "name": "myxedema",
+      "score": 0.38189127414523494
+    },
+    {
+      "disease_id": "EFO_0004875",
+      "name": "mathematical ability",
+      "score": 0.35117033598869235
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.32736521050676143
+    },
+    {
+      "disease_id": "EFO_0600088",
+      "name": "lymphocyte:monocyte ratio",
+      "score": 0.3238099274207173
+    },
+    {
+      "disease_id": "EFO_0008447",
+      "name": "neutrophil-to-lymphocyte ratio",
+      "score": 0.3238099274207173
+    },
+    {
+      "disease_id": "MONDO_0003240",
+      "name": "thyroid gland disorder",
+      "score": 0.319034705248006
+    },
+    {
+      "disease_id": "HP_0012531",
+      "name": "Pain",
+      "score": 0.3048941418168718
+    },
+    {
+      "disease_id": "OBA_VT0000217",
+      "name": "leukocyte quantity",
+      "score": 0.29651540077115546
+    },
+    {
+      "disease_id": "MONDO_0004979",
+      "name": "asthma",
+      "score": 0.28507831355733826
+    },
+    {
+      "disease_id": "OBA_0003460",
+      "name": "erythrocyte volume",
+      "score": 0.28172220348592775
+    },
+    {
+      "disease_id": "EFO_0008591",
+      "name": "free cholesterol measurement",
+      "score": 0.278139944259539
+    },
+    {
+      "disease_id": "OBA_VT0005416",
+      "name": "blood protein amount",
+      "score": 0.26594220974736943
+    },
+    {
+      "disease_id": "HP_0004305",
+      "name": "Involuntary movements",
+      "score": 0.25870589827929125
+    },
+    {
+      "disease_id": "EFO_0004703",
+      "name": "age at menarche",
+      "score": 0.25371359592677273
+    },
+    {
+      "disease_id": "EFO_0800300",
+      "name": "palmitoyl sphingomyelin (d18:1/16:0) measurement",
+      "score": 0.2520250150013623
+    },
+    {
+      "disease_id": "EFO_0022039",
+      "name": "ultraviolet radiation exposure measurement",
+      "score": 0.24119104782276768
+    },
+    {
+      "disease_id": "EFO_0004517",
+      "name": "arterial stiffness measurement",
+      "score": 0.2029972007644209
+    },
+    {
+      "disease_id": "OBA_1000110",
+      "name": "bone tissue density",
+      "score": 0.16672753652203443
+    },
+    {
+      "disease_id": "MONDO_0005554",
+      "name": "rheumatic disorder",
+      "score": 0.15722627119568053
+    },
+    {
+      "disease_id": "MONDO_0003330",
+      "name": "urinary tract obstruction",
+      "score": 0.14800109126506586
+    },
+    {
+      "disease_id": "EFO_0009472",
+      "name": "tympanic membrane perforation",
+      "score": 0.1470382839251172
+    },
+    {
+      "disease_id": "MONDO_0003648",
+      "name": "tympanic membrane disorder",
+      "score": 0.1470382839251172
+    },
+    {
+      "disease_id": "EFO_0004995",
+      "name": "lean body mass",
+      "score": 0.13988481138667563
+    },
+    {
+      "disease_id": "EFO_0005106",
+      "name": "body composition measurement",
+      "score": 0.13922505045833286
+    },
+    {
+      "disease_id": "MONDO_0005382",
+      "name": "bone Paget disease",
+      "score": 0.13136989250718323
+    },
+    {
+      "disease_id": "EFO_0004340",
+      "name": "body mass index",
+      "score": 0.12380013216040231
+    },
+    {
+      "disease_id": "EFO_0004612",
+      "name": "high density lipoprotein cholesterol measurement",
+      "score": 0.12362199941397209
+    },
+    {
+      "disease_id": "MONDO_0005010",
+      "name": "coronary artery disorder",
+      "score": 0.1176279654176258
+    },
+    {
+      "disease_id": "EFO_0004627",
+      "name": "IGF-1 measurement",
+      "score": 0.11491316103496022
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.11459924239715163
+    },
+    {
+      "disease_id": "OBA_2050096",
+      "name": "serum creatinine amount",
+      "score": 0.11347866449903418
+    },
+    {
+      "disease_id": "EFO_0004614",
+      "name": "apolipoprotein A 1 measurement",
+      "score": 0.11290403073013547
+    },
+    {
+      "disease_id": "EFO_0004541",
+      "name": "HbA1c measurement",
+      "score": 0.11126237562679278
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.10499825949929334
+    },
+    {
+      "disease_id": "EFO_0010967",
+      "name": "urinary microalbumin measurement",
+      "score": 0.10363564629392026
+    },
+    {
+      "disease_id": "EFO_0011011",
+      "name": "sitting height measurement",
+      "score": 0.10291697726240767
+    },
+    {
+      "disease_id": "EFO_0011015",
+      "name": "educational attainment",
+      "score": 0.10198405732856043
+    },
+    {
+      "disease_id": "EFO_0004338",
+      "name": "body weight",
+      "score": 0.09930606404760937
+    },
+    {
+      "disease_id": "EFO_0004536",
+      "name": "total blood protein measurement",
+      "score": 0.09709284765707187
+    },
+    {
+      "disease_id": "EFO_0004509",
+      "name": "hemoglobin measurement",
+      "score": 0.09413554343915372
+    },
+    {
+      "disease_id": "MONDO_0011786",
+      "name": "allergic rhinitis",
+      "score": 0.0929123991364961
+    },
+    {
+      "disease_id": "OBA_2050068",
+      "name": "serum albumin amount",
+      "score": 0.0873775178491131
+    },
+    {
+      "disease_id": "MONDO_0004980",
+      "name": "atopic eczema",
+      "score": 0.08679922495521228
+    },
+    {
+      "disease_id": "MONDO_0006977",
+      "name": "spermatocele",
+      "score": 0.08554942595338987
+    },
+    {
+      "disease_id": "MONDO_0004335",
+      "name": "digestive system disorder",
+      "score": 0.08461010668917783
+    },
+    {
+      "disease_id": "MONDO_0011918",
+      "name": "anxiety",
+      "score": 0.08442906365088274
+    },
+    {
+      "disease_id": "MONDO_0021201",
+      "name": "skin infection",
+      "score": 0.08366215769116055
+    },
+    {
+      "disease_id": "MONDO_0018874",
+      "name": "acute myeloid leukemia",
+      "score": 0.08235305580436576
+    },
+    {
+      "disease_id": "MONDO_0002462",
+      "name": "glomerulonephritis",
+      "score": 0.0814059046128414
+    },
+    {
+      "disease_id": "HP_0000855",
+      "name": "Insulin resistance",
+      "score": 0.08064690458221883
+    },
+    {
+      "disease_id": "MONDO_0002486",
+      "name": "lobular neoplasia",
+      "score": 0.07861894186455931
+    },
+    {
+      "disease_id": "MONDO_0005098",
+      "name": "stroke disorder",
+      "score": 0.0784342554467263
+    },
+    {
+      "disease_id": "MONDO_0005311",
+      "name": "atherosclerosis",
+      "score": 0.07794579853111686
+    },
+    {
+      "disease_id": "MONDO_0015796",
+      "name": "acute lung injury",
+      "score": 0.07745777787766875
+    },
+    {
+      "disease_id": "EFO_0007777",
+      "name": "base metabolic rate measurement",
+      "score": 0.07614471231374507
+    },
+    {
+      "disease_id": "MONDO_0005083",
+      "name": "psoriasis",
+      "score": 0.07586139822757233
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.0752476482645518
+    },
+    {
+      "disease_id": "EFO_0009805",
+      "name": "whole body water mass",
+      "score": 0.07509116197357808
+    },
+    {
+      "disease_id": "MONDO_0002691",
+      "name": "liver cancer",
+      "score": 0.07486249343847283
+    },
+    {
+      "disease_id": "MONDO_0004691",
+      "name": "autosomal dominant polycystic kidney disease",
+      "score": 0.07428555079162505
+    },
+    {
+      "disease_id": "HP_0002857",
+      "name": "Genu valgum",
+      "score": 0.0722918748606057
+    },
+    {
+      "disease_id": "HP_0002970",
+      "name": "Genu varum",
+      "score": 0.0722918748606057
+    },
+    {
+      "disease_id": "MONDO_0005271",
+      "name": "allergic disease",
+      "score": 0.07223541160351457
+    },
+    {
+      "disease_id": "MONDO_0003014",
+      "name": "rhinitis",
+      "score": 0.0717360339234385
+    },
+    {
+      "disease_id": "EFO_0004348",
+      "name": "hematocrit",
+      "score": 0.07149700051191443
+    },
+    {
+      "disease_id": "MONDO_0005068",
+      "name": "myocardial infarction",
+      "score": 0.07052393521583172
+    },
+    {
+      "disease_id": "EFO_0004725",
+      "name": "metabolite measurement",
+      "score": 0.07020895340571641
+    },
+    {
+      "disease_id": "MONDO_0005087",
+      "name": "respiratory system disorder",
+      "score": 0.06867689272448249
+    },
+    {
+      "disease_id": "OBA_2044769",
+      "name": "level of WAP four-disulfide core domain protein 10A in blood serum",
+      "score": 0.06677127939395583
+    },
+    {
+      "disease_id": "OBA_2042428",
+      "name": "level of 39S ribosomal protein L32, mitochondrial in blood serum",
+      "score": 0.06513998434631921
+    },
+    {
+      "disease_id": "EFO_0008393",
+      "name": "reaction time measurement",
+      "score": 0.06384952104014284
+    },
+    {
+      "disease_id": "EFO_0004312",
+      "name": "vital capacity",
+      "score": 0.06017445093486694
+    },
+    {
+      "disease_id": "MONDO_0010382",
+      "name": "fragile X-associated tremor/ataxia syndrome",
+      "score": 0.057606411949704464
+    },
+    {
+      "disease_id": "MONDO_0016621",
+      "name": "juvenile Huntington disease",
+      "score": 0.057124110239340935
+    },
+    {
+      "disease_id": "MONDO_0100062",
+      "name": "genetic developmental and epileptic encephalopathy",
+      "score": 0.0569751991974995
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.05619373641353646
+    },
+    {
+      "disease_id": "MONDO_0008947",
+      "name": "bilateral striopallidodentate calcinosis",
+      "score": 0.0560884653576578
+    },
+    {
+      "disease_id": "MONDO_0017279",
+      "name": "young-onset Parkinson disease",
+      "score": 0.055699431230066786
+    },
+    {
+      "disease_id": "OBA_2041126",
+      "name": "level of carnitine O-palmitoyltransferase 1, muscle isoform in blood serum",
+      "score": 0.055569086375272726
+    },
+    {
+      "disease_id": "MONDO_0017312",
+      "name": "Perrault syndrome",
+      "score": 0.05510307307010471
+    },
+    {
+      "disease_id": "MONDO_0005154",
+      "name": "liver disorder",
+      "score": 0.05499012320666437
+    },
+    {
+      "disease_id": "MONDO_0013486",
+      "name": "spinocerebellar ataxia type 32",
+      "score": 0.05389583020867005
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.05334297767610892
+    },
+    {
+      "disease_id": "MONDO_0010235",
+      "name": "X-linked intellectual disability-psychosis-macroorchidism syndrome",
+      "score": 0.05316406209639435
+    },
+    {
+      "disease_id": "MONDO_0005405",
+      "name": "childhood onset asthma",
+      "score": 0.05261210010151796
+    },
+    {
+      "disease_id": "MONDO_0018800",
+      "name": "Kallmann syndrome",
+      "score": 0.05252443229511297
+    },
+    {
+      "disease_id": "MONDO_0013737",
+      "name": "hereditary spastic paraplegia 46",
+      "score": 0.052286309941518186
+    },
+    {
+      "disease_id": "MONDO_0100605",
+      "name": "POLR-related leukodystrophy",
+      "score": 0.05195938576172835
+    },
+    {
+      "disease_id": "MONDO_0010811",
+      "name": "benign prostatic hyperplasia",
+      "score": 0.051208720232237506
+    },
+    {
+      "disease_id": "EFO_0004468",
+      "name": "glucose measurement",
+      "score": 0.050384224451678256
+    },
+    {
+      "disease_id": "EFO_0700106",
+      "name": "hypomyelination-hypogonadotropic hypogonadism-hypodontia syndrome",
+      "score": 0.05034478377157456
+    },
+    {
+      "disease_id": "HP_0001977",
+      "name": "Abnormal thrombosis",
+      "score": 0.05031582438024497
+    },
+    {
+      "disease_id": "MONDO_0013392",
+      "name": "autosomal recessive spinocerebellar ataxia 10",
+      "score": 0.050236373680867044
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "HP_0001249",
+      "name": "Intellectual disability",
+      "score": 0.5281929200047321
+    },
+    {
+      "disease_id": "MONDO_0100062",
+      "name": "genetic developmental and epileptic encephalopathy",
+      "score": 0.0569751991974995
+    },
+    {
+      "disease_id": "HP_0001263",
+      "name": "Global developmental delay",
+      "score": 0.4623443982105619
+    },
+    {
+      "disease_id": "MONDO_0005260",
+      "name": "autism",
+      "score": 0.466910916628939
+    },
+    {
+      "disease_id": "MONDO_0016621",
+      "name": "juvenile Huntington disease",
+      "score": 0.057124110239340935
+    },
+    {
+      "disease_id": "MONDO_0017312",
+      "name": "Perrault syndrome",
+      "score": 0.05510307307010471
+    },
+    {
+      "disease_id": "MONDO_0003441",
+      "name": "dystonic disorder",
+      "score": 0.4633735754447881
+    },
+    {
+      "disease_id": "MONDO_0017279",
+      "name": "young-onset Parkinson disease",
+      "score": 0.055699431230066786
+    },
+    {
+      "disease_id": "MONDO_0100605",
+      "name": "POLR-related leukodystrophy",
+      "score": 0.05195938576172835
+    },
+    {
+      "disease_id": "MONDO_0005395",
+      "name": "movement disorder",
+      "score": 0.4625291881379043
+    },
+    {
+      "disease_id": "MONDO_0010382",
+      "name": "fragile X-associated tremor/ataxia syndrome",
+      "score": 0.057606411949704464
+    },
+    {
+      "disease_id": "MONDO_0010235",
+      "name": "X-linked intellectual disability-psychosis-macroorchidism syndrome",
+      "score": 0.05316406209639435
+    },
+    {
+      "disease_id": "EFO_0700106",
+      "name": "hypomyelination-hypogonadotropic hypogonadism-hypodontia syndrome",
+      "score": 0.05034478377157456
+    },
+    {
+      "disease_id": "MONDO_0018800",
+      "name": "Kallmann syndrome",
+      "score": 0.05252443229511297
+    },
+    {
+      "disease_id": "MONDO_0013737",
+      "name": "hereditary spastic paraplegia 46",
+      "score": 0.052286309941518186
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.05619373641353646
+    },
+    {
+      "disease_id": "MONDO_0013392",
+      "name": "autosomal recessive spinocerebellar ataxia 10",
+      "score": 0.050236373680867044
+    },
+    {
+      "disease_id": "HP_0000708",
+      "name": "Atypical behavior",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0000437",
+      "name": "cerebellar ataxia",
+      "score": 0.4628063730289178
+    },
+    {
+      "disease_id": "MONDO_0001595",
+      "name": "choreatic disease",
+      "score": 0.4619748183558772
+    }
+  ],
+  "gate_text": "DROP: 5, 6, 9, 13, 14, 15, 17",
+  "gate_dropped_ids": [
+    "MONDO_0016621",
+    "MONDO_0017312",
+    "MONDO_0100605",
+    "EFO_0700106",
+    "MONDO_0018800",
+    "MONDO_0013737",
+    "MONDO_0013392"
+  ],
+  "tag_text": "1 | CHILD_FIRST\n2 | CHILD_FIRST\n3 | CHILD_FIRST\n4 | CHILD_FIRST\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | CLOSE_VAGUE\n10 | DIFFERENT\n11 | CLOSE_VAGUE\n12 | CHILD_FIRST\n13 | CLOSE_VAGUE\n14 | DIFFERENT\n15 | CLOSE_VAGUE\n16 | DIFFERENT\n17 | DIFFERENT\n18 | SYMPTOM_MODERATE\n19 | DIFFERENT\n20 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "HP_0001249",
+      "name": "Intellectual disability",
+      "score": 0.5281929200047321,
+      "tag": "CHILD_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0100062",
+      "name": "genetic developmental and epileptic encephalopathy",
+      "score": 0.0569751991974995,
+      "tag": "CHILD_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "HP_0001263",
+      "name": "Global developmental delay",
+      "score": 0.4623443982105619,
+      "tag": "CHILD_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005260",
+      "name": "autism",
+      "score": 0.466910916628939,
+      "tag": "CHILD_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0016621",
+      "name": "juvenile Huntington disease",
+      "score": 0.057124110239340935,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0017312",
+      "name": "Perrault syndrome",
+      "score": 0.05510307307010471,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0003441",
+      "name": "dystonic disorder",
+      "score": 0.4633735754447881,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0017279",
+      "name": "young-onset Parkinson disease",
+      "score": 0.055699431230066786,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0100605",
+      "name": "POLR-related leukodystrophy",
+      "score": 0.05195938576172835,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005395",
+      "name": "movement disorder",
+      "score": 0.4625291881379043,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0010382",
+      "name": "fragile X-associated tremor/ataxia syndrome",
+      "score": 0.057606411949704464,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0010235",
+      "name": "X-linked intellectual disability-psychosis-macroorchidism syndrome",
+      "score": 0.05316406209639435,
+      "tag": "CHILD_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0700106",
+      "name": "hypomyelination-hypogonadotropic hypogonadism-hypodontia syndrome",
+      "score": 0.05034478377157456,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0018800",
+      "name": "Kallmann syndrome",
+      "score": 0.05252443229511297,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0013737",
+      "name": "hereditary spastic paraplegia 46",
+      "score": 0.052286309941518186,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.05619373641353646,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0013392",
+      "name": "autosomal recessive spinocerebellar ataxia 10",
+      "score": 0.050236373680867044,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "HP_0000708",
+      "name": "Atypical behavior",
+      "score": 0.4619748183558772,
+      "tag": "SYMPTOM_MODERATE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0000437",
+      "name": "cerebellar ataxia",
+      "score": 0.4628063730289178,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0001595",
+      "name": "choreatic disease",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 109,
+  "tokens": {
+    "gate_in": 545,
+    "gate_out": 25,
+    "read_in": 2459,
+    "read_out": 1211
+  },
+  "articles": [
+    {
+      "pmid": "33098801",
+      "title": "Monogenic variants in dystonia: an exome-wide sequencing study.",
+      "abstract": "",
+      "year": "2020 Nov",
+      "source": "genomics_england"
+    },
+    {
+      "pmid": "30262571",
+      "title": "A unique de novo gain-of-function variant in CAMK4 associated with intellectual disability and hyperkinetic movement disorder.",
+      "abstract": "",
+      "year": "2018 Dec",
+      "source": "genomics_england"
+    },
+    {
+      "pmid": "33211350",
+      "title": "A Neurodevelopmental Disorder With Dystonia and Chorea Resulting From Clustering CAMK4 Variants.",
+      "abstract": "",
+      "year": "2021 Feb",
+      "source": "genomics_england"
+    },
+    {
+      "pmid": "34683848",
+      "title": "Multiomics Identification of Potential Targets for Alzheimer Disease and Antrocin as a Therapeutic Candidate.",
+      "abstract": "",
+      "year": "2021 Sep 24",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "38892382",
+      "title": "CaMKIV-Mediated Phosphorylation Inactivates Freud-1/CC2D1A Repression for Calcium-Dependent 5-HT1A Receptor Gene Induction.",
+      "abstract": "",
+      "year": "2024 Jun 4",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "36473844",
+      "title": "CaMKIV mediates spine growth deficiency of hippocampal neurons by regulation of EGR3/BDNF signal axis in congenital hypothyroidism.",
+      "abstract": "",
+      "year": "2022 Dec 6",
+      "source": "europepmc"
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 9,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "2025 - Loss of ING3 in the Prostate Leads to Activation of DNA Damage Repair Markers (PMID: 40149370)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Prostate-specific Ing3 knockout (PB-Cre4) showed mosaic gene deletion, with recombination efficiency of ~15-30% across the anterior, dorsolateral and ventral lobes",
+          "Increased \u03b3H2AX and 53BP1 DNA-damage markers by immunohistochemistry",
+          "No gross anatomical abnormalities",
+          "No prostate intraepithelial neoplasia (PIN) lesions or malignant transformation",
+          "Low ING3 expression in prostate, consistent with an Ing3-LacZ reporter allele",
+          "Confirmed the embryonic lethal phenotype of homozygous Ing3 null mice, rescued by ectopic ING3 expression"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2021 - Knockdown screening of chromatin binding and regulatory proteins in zebrafish identified Suz12b as a regulator of tfpia and an antithrombotic drug target (PMID: 34315984)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "ing3 knockdown (in a 3-gene piggyback screen) increased tfpia mRNA levels",
+          "Simultaneous knockdown of brd7, ing2, ing3, ing4 and suz12b increased tfpia mRNA",
+          "Knockdown of these genes, individually and together, prolonged the time to occlude the caudal vessel after laser injury (antithrombotic phenotype)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - Knockout of the ING5 epigenetic regulator confirms roles in stem cell maintenance and tumor suppression in vivo (PMID: 39787145) [ING3 knockout described as background, citing ref 27]",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ing3-null mice did not survive past E10.5",
+          "Embryos showed severe growth retardation",
+          "Failure of neural tube closure"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Loss of Ing3 Expression Results in Growth Retardation and Embryonic Death (PMID: 31905726)",
+        "evidence_subtype": "other",
+        "summary": "A mouse line with an UbC-mCherry cassette inserted into the Ing3 locus lacks ING3 protein. Homozygous mutants die in utero, with growth retardation at E10.5, neural tube closure defects, no closed primary brain vesicles, and a lack of ectodermal differentiation. ING3 is a core subunit of the minimal NuA4 HAT complex (EAF6, EPC1, ING3, TIP60), and these data show it is essential for embryonic and brain development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ING3 protein expression profiling in normal human tissues suggest its role in cellular growth and self-renewal (PMID: 25819753)",
+        "evidence_subtype": "expression",
+        "summary": "A new monoclonal antibody that recognizes human and mouse ING3 showed highest expression in small intestine, bone marrow and epidermis, which are rapidly renewing tissues. ING3 was also higher in proliferating than in quiescent epithelial cells, which suggests a role in growth and self-renewal.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Immunohistochemical profile of ING3 protein in normal and cancerous tissues (PMID: 28454301)",
+        "evidence_subtype": "expression",
+        "summary": "ING3 was mainly cytoplasmic in normal mouse and human tissues, with nuclear staining in some epithelia. Staining was strong in stomach, skin and cervix and weak in brain, liver, testis and prostate. ING3-positive cases made up 35.5% of 1,194 tumours, most often ovarian (59.2%), endometrial (47.9%), breast and cervical, and least often renal, hepatocellular and esophageal carcinoma.",
+        "sample_size": "1,194 cancer specimens (tissue microarrays)",
+        "significance": null
+      },
+      {
+        "citation": "Human ex vivo prostate tissue model system identifies ING3 as an oncoprotein (PMID: 29381681)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ING3 overexpression stimulated proliferation in ex vivo prostate tissue and transformed normal human dermal fibroblasts. ING3 was elevated in prostate cancer, where it correlated with poorer survival. Knockdown impaired proliferation of breast, ovarian and prostate cancer cells. ING3 associates with chromatin modifiers and H3K4me3 at transcription start sites to control a cell-cycle gene network, which points to an oncogenic role.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ING3 promotes UV-induced apoptosis via Fas/caspase-8 pathway in melanoma cells (PMID: 16520380)",
+        "evidence_subtype": "pathway",
+        "summary": "UV irradiation rapidly induced ING3 mRNA and protein. ING3 overexpression enhanced UV-induced apoptosis independently of p53, increased cleavage of Bid and caspases-8, -9 and -3, and upregulated Fas. Apoptosis was blocked by caspase-8 or Fas inhibition, and ING3 knockdown reduced UV-induced apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ING3 is essential for asymmetric cell division during mouse oocyte maturation (PMID: 24066152)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ING3 localizes to the germinal vesicle in oocytes and to the cytoplasm after GVBD. siRNA knockdown caused symmetric division, with no actin cap or cortical granule-free domain and failed spindle migration. mTOR and its downstream genes Cdc42, Rac1 and RhoA were downregulated, so ING3 may act through the mTOR pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Genome-scale capture C promoter interaction analysis implicates novel effector genes at GWAS loci for bone mineral density",
+        "evidence_subtype": "GWAS",
+        "summary": "Promoter capture-C and ATAC-seq in human osteoblasts linked BMD GWAS variants at the WNT16-CPED1 locus to the ING3 promoter. siRNA knockdown of ING3 in primary MSC-derived osteoblasts strongly impaired osteoblast differentiation, with reduced ALP and no mineral deposition. ING3 is thus implicated as an effector gene for bone mineral density.",
+        "sample_size": "primary osteoblasts from multiple donors",
+        "significance": null
+      },
+      {
+        "citation": "A Novel Splice Variant of the Inhibitor of Growth 3 Lacks the Plant Homeodomain and Regulates Epithelial-Mesenchymal Transition in Prostate Cancer Cells (PMID: 34439818)",
+        "evidence_subtype": "function",
+        "summary": "A splice variant lacking exon 11 and the PHD (ING3\u0394ex11) was found in LNCaP cells and patient specimens. Unlike full-length ING3, it induces EMT markers and alters 3D spheroid morphology, so the PHD appears to inhibit EMT. ING3 knockdown also induced EMT markers and caused senescence with cell cycle arrest. ING3 is described as an AR co-activator with oncogenic properties in prostate cancer.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of nuclear ING3 expression and translocalization to cytoplasm promotes tumorigenesis and progression in head and neck squamous cell carcinoma (HNSCC) (PMID: 31886514)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Nuclear ING3 was lower in HNSCC than in dysplasia or normal epithelium, while cytoplasmic ING3 was higher and associated with lymph node metastasis and 14-3-3\u03b7 expression. Nuclear ING3 correlated positively with p300, p21 and acetylated p53, which suggests that ING3 cooperates with p300 to acetylate p53.",
+        "sample_size": "173 HNSCC cases",
+        "significance": "significant correlations reported (p-values not given in abstract)"
+      },
+      {
+        "citation": "Downregulation of ING3 mRNA expression predicts poor prognosis in head and neck cancer (PMID: 18081876)",
+        "evidence_subtype": "expression",
+        "summary": "About half of head and neck tumours showed ING3 mRNA downregulation relative to matched normal tissue. Low ING3 was an independent predictor of poor overall survival, with 5-year survival of about 35% versus about 60% for normal to high ING3.",
+        "sample_size": "71 tumour samples",
+        "significance": "significant in multivariate analysis (p-value not given in abstract)"
+      }
+    ]
+  }
+}

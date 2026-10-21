@@ -1,0 +1,64 @@
+MOV10 LITERATURE EVIDENCE REPORT: AUTISM SPECTRUM DISORDER (HETEROZYGOUS / AUTOSOMAL DOMINANT)
+
+1. GENE SUMMARY
+MOV10 encodes an RNA helicase (a UPF1-like superfamily 1 helicase) associated with the RISC/miRNA machinery, P-bodies and stress granules. Its best-characterized functions are restricting retroelements (LINE-1, Alu, SVA) and viruses, and regulating mRNA and miRNA homeostasis, including in neurons, where it works with FMRP and AGO2.
+
+2. CLINICAL EVIDENCE SUMMARY
+- Independent reports: three were found, all from ASD genomic cohort studies. No detailed case reports or segregation studies exist.
+  - Two Qatari WGS studies appear to describe the same or an overlapping cohort from Sidra Medicine: ASHG 2022 (Autism Spectrum Disorder (ASD) in Qatar: Whole genome sequencing of 100 affected families) and the BARAKA-Qatar Study (PMID: 37805537). Each reports a de novo deleterious variant in MOV10. In the BARAKA-Qatar Study this is a predicted LoF variant, and MOV10 is described as a novel candidate gene with pLI > 0.99. These are probably the same proband, so they should not be counted as two independent cases.
+  - A third study (PMID: 35327467) reported 3 SNVs in the CH and helicase domains of MOV10 among 13 SNVs across 5 nonsense-mediated decay genes (MOV10, PPP2R1A, PPP2CA, DCP1A, DCP2) in 41 ASD patients. These were predicted damaging in silico. The variant type (missense) was inferred, and the number of affected patients, inheritance and de novo status are not given.
+- Total patients: roughly 1 de novo proband (likely counted twice) plus up to about 3 variant-carrying individuals in the 41-patient series, so approximately 1 to 4 individuals.
+- Phenotype: ASD only. No other clinical detail was available.
+- Variant type: mixed. One de novo predicted LoF variant, plus probable missense variants from the NMD-gene study. Specific variants (HGVS) are not provided in any source.
+- Cohorts: none are among UDN, GREGoR, DDD, RUMC or GEL. The Qatari cohort is Sidra Medicine/BARAKA-Qatar. The BARAKA-Qatar Study notes recurrent hits in MSSNG and SSC for most candidate genes, but this is not specifically confirmed for MOV10.
+- Strength of clinical evidence: LIMITED. The data consist of very few cases, unspecified variants, no functional validation of the variants, no case-control or statistical gene-level enrichment, and no segregation data.
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Organisms: mouse (germline heterozygous and homozygous null, brain- and cardiomyocyte-conditional knockouts, and a helicase-domain exon deletion) and Xenopus laevis (knockdown).
+- Lethality: homozygous Mov10 loss causes early embryonic lethality, with no knockout mice obtained (PMID: 28662698). Heterozygotes are viable, which is consistent with a dosage-sensitive gene and a heterozygous disease mechanism. Brain-specific conditional knockouts are viable (PMID: 39915816; PMID: 42239320).
+- Neurological phenotypes:
+  - Heterozygous mice show reduced dendritic arborization in cultured hippocampal neurons, anxiety-like behavior and increased activity in a novel environment. Mov10-KO Neuro2A cells have shortened neurites (PMID: 28662698).
+  - Brain-specific deletion causes enhanced fear memory and elongated distal dendrites, with reduced Numa1 mRNA. The phenotypes are rescued by NUMA1 restoration or HAUS knockdown (PMID: 39915816).
+  - Brain-specific deletion also produces a thickened cortex, abnormal dendritic arborization, impaired structural connectivity of fear circuits on DTI, increased cortical fMRI activity during fear retrieval, and increased hippocampal GABRA2 (PMID: 42239320).
+  - Xenopus maternal Mov10 knockdown causes gastrulation and neurulation failure, and zygotic knockdown causes abnormal head, eye and brain development (PMID: 29266590).
+- Other: cardiomyocyte-specific knockout causes LINE-1 derepression, cGAS-STING activation and premature cardiac aging (PMID: 41571992). An exon 12-14 deletion disrupting helicase motifs was viable, and loss of helicase activity was not essential for embryonic or brain development (PMID: 37174743). This suggests that not all domain-disrupting variants are necessarily deleterious.
+- Consistency with human phenotype: partial. Altered neuronal morphology, anxiety-like behavior and hyperactivity are relevant to neurodevelopmental and ASD-related traits, but no core ASD-like social or communication assays are reported. Heterozygous variation is also only partly modeled, since most neural phenotypes come from conditional or cell-based models.
+- Strength of model organism evidence: MODERATE.
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Pathways and function:
+  - MOV10 is part of the RISC/miRNA pathway and binds mRNAs with long 3'UTRs. It restricts retrotransposition: it was identified in the L1 RNP interactome and strongly restricts L1, Alu and SVA in a helicase-dependent manner (ASHG 2012 - Mapping the L1 interactome reveals RISC-associated helicase MOV10 as a potent inhibitor of retrotransposition). It also interacts with RNASEH2 to control L1 (PMID: 29315404).
+  - It has antiviral roles, including against HIV-1 (PMID: 20140200), influenza A (PMID: 30617221), coronaviruses (PMID: 34517762) and, via IKKε-IRF3-dependent IFN induction, other RNA viruses (PMID: 27016603).
+- Expression: MOV10 is elevated in postnatal brain (PMID: 28662698) and is mainly expressed in spermatogonia in germ cells (PMID: 31088452).
+- Neurodevelopmental mechanisms: Mov10, Fmrp and Ago2 bind a common set of mRNAs (PMID: 28662698). The MOV10-FMRP-AGO2 complex regulates DICER1 through its 3'UTR, and a DICER1 transgene rescues neurite outgrowth in Mov10-KO cells and branching in Mov10 heterozygote neurons (PMID: 34847178). The link to FMRP, the protein lost in fragile X syndrome, is a notable connection to a known ASD/intellectual disability pathway. MOV10 also regulates cytoskeletal mRNAs and microtubule dynamics via NUMA1 (PMID: 39915816).
+- Strength of biological evidence: MODERATE to STRONG for a plausible neurodevelopmental role. It is not gene-disease specific, however, and much of the literature concerns viral and retroelement biology.
+
+5. OVERALL ASSESSMENT
+- Overall evidence level: LIMITED.
+- Key strengths: a de novo predicted LoF variant in a gene with pLI > 0.99 (PMID: 37805537); mouse heterozygous and conditional knockouts with neuronal and behavioral phenotypes (PMID: 28662698; PMID: 39915816; PMID: 42239320); and mechanistic links to the FMRP/AGO2/DICER1 pathway (PMID: 34847178).
+- Key gaps: very few human cases, probably one unique de novo proband counted in two overlapping reports. No specific variants are described, no functional validation of patient variants exists, and the missense variants are in-silico only with unclear inheritance. There are no additional independent cohorts with confirmed recurrence, no detailed phenotyping, and no statistical gene-level evidence. Mouse models do not show an ASD-specific social phenotype.
+- Conclusion: MOV10 is a biologically plausible candidate ASD gene. Haploinsufficiency is supported by heterozygous mouse neuronal phenotypes and an embryonic-lethal null, and by a single de novo predicted LoF variant in a Qatari cohort. Clinical evidence is currently too sparse for a definitive gene-disease relationship, so MOV10 should be classed as a candidate gene with limited evidence until additional de novo LoF cases with detailed phenotypes are reported.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Genomic architecture of autism spectrum disorder in Qatar: The BARAKA-Qatar Study (PMID: 37805537)
+2. Gene Variants Involved in Nonsense-Mediated mRNA Decay Suggest a Role in Autism Spectrum Disorder (PMID: 35327467)
+
+### Model Organism Evidence
+1. Mov10 suppresses retroelements and regulates neuronal development and function in the developing brain (PMID: 28662698)
+2. RNA helicase MOV10 suppresses fear memory and dendritic arborization and regulates microtubule dynamics in hippocampal neurons (PMID: 39915816)
+3. Reduced MOV10 reveals novel functional cortical connections in an increased fear response (PMID: 42239320)
+4. RNA helicase Mov10 is essential for gastrulation and central nervous system development (PMID: 29266590)
+5. Targeting age-related LINE-1 activation alleviates cardiac aging (PMID: 41571992)
+6. Multiple and Consecutive Genome Editing Using i-GONAD and Breeding Enrichment Facilitates the Production of Genetically Modified Mice (PMID: 37174743)
+
+### Biological Evidence
+1. Interplay between RNASEH2 and MOV10 controls LINE-1 retrotransposition (PMID: 29315404)
+2. Perturbation of the P-body component Mov10 inhibits HIV-1 infectivity (PMID: 20140200)
+3. MOV10 sequesters the RNP of influenza A virus in the cytoplasm and is antagonized by viral NS1 protein (PMID: 30617221)
+4. MOV10 Helicase Interacts with Coronavirus Nucleocapsid Protein and Has Antiviral Activity (PMID: 34517762)
+5. MOV10 Provides Antiviral Activity against RNA Viruses by Enhancing RIG-I-MAVS-Independent IFN Induction (PMID: 27016603)
+6. Biological and RNA regulatory function of MOV10 in mammalian germ cells (PMID: 31088452)
+7. FMRP and MOV10 regulate Dicer1 expression and dendrite development (PMID: 34847178)

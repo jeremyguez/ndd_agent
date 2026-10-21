@@ -1,0 +1,808 @@
+{
+ "gene": "ARID4A",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "impaired neurodevelopment",
+   "developmental neurological disorder",
+   "neurodevelopmental impairment",
+   "neurodevelopmental phenotype"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "RBP-1",
+   "RBP1",
+   "RBBP1",
+   "AT-rich interaction domain 4A"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 93,
+  "titlekicksparingfulltext": 60,
+  "read": 10
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 7,
+   "Existing": 63,
+   "Hypothesized": 25,
+   "Novel": 5
+  },
+  "justification": "Human genetic evidence for ARID4A in neurodevelopmental phenotypes exists but is preliminary and non-replicated: a frameshift variant p.(Glu514ArgfsTer3) was reported as a candidate in one developmental language disorder family (PMID 39948625), a de novo missense (p.E564A) appears among candidate variants in an ASD exome cohort (PMID 39632905), a heterozygous missense (p.His411Asp) with functional DNA-binding characterization was reported in schizophrenia-affected siblings (PMID 35365808), and an intronic SNP in ARID4A showed ADHD-specific imaging\u2013genetic association (PMID 40858546). None of these studies independently establishes causality at a Mendelian level; they are single-family or candidate-level findings across heterogeneous phenotypes, falling short of replicated clinical proof required for \"Established.\" Supporting biology (epigenetic/imprinting regulation in mice, PMIDs 17043311, 35296332, 39369220; modifier of neurodegeneration in mouse models, PMID 29556029) is animal/in vitro and supports only a hypothesized mechanism. Overall the evidence best fits \"Existing,\" with meaningful residual probability for \"Hypothesized\" if the human variants are discounted as candidates.",
+  "pmids": [],
+  "detail": {
+   "Established": 7,
+   "Existing": 63,
+   "Hypothesized": 25,
+   "Novel": 5
+  }
+ },
+ "articles": [
+  {
+   "pmid": "29556029",
+   "title": "TDP-43 gains function due to perturbed autoregulation in a Tardbp knock-in mouse model of ALS-FTD.",
+   "abstract": "Amyotrophic lateral sclerosis-frontotemporal dementia (ALS-FTD) constitutes a devastating disease spectrum characterized by 43-kDa TAR DNA-binding protein (TDP-43) pathology. Understanding how TDP-43 contributes to neurodegeneration will help direct therapeutic efforts. Here we have created a TDP-43 knock-in mouse with a human-equivalent mutation in the endogenous mouse Tardbp gene. TDP-43Q331K mice demonstrate cognitive dysfunction and a paucity of parvalbumin interneurons. Critically, TDP-43 autoregulation is perturbed, leading to a gain of TDP-43 function and altered splicing of Mapt, another pivotal dementia-associated gene. Furthermore, a new approach to stratify transcriptomic data by phenotype in differentially affected mutant mice revealed 471 changes linked with improved behavior. These changes included downregulation of two known modifiers of neurodegeneration, Atxn2 and Arid4a, and upregulation of myelination and translation genes. With one base change in murine Tardbp, this study identifies TDP-43 misregulation as a pathogenic mechanism that may underpin ALS-FTD and exploits phenotypic heterogeneity to yield candidate suppressors of neurodegenerative disease.",
+   "found_by": [],
+   "pubdate": "2018 Apr",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17043311",
+   "title": "Deficiency of Rbbp1/Arid4a and Rbbp1l1/Arid4b alters epigenetic modifications and suppresses an imprinting defect in the PWS/AS domain.",
+   "abstract": "Prader-Willi syndrome (PWS) and Angelman syndrome (AS) are caused by deficiency of imprinted gene expression from paternal or maternal chromosome 15q11-q13, respectively. Genomic imprinting of the PWS/AS domain is regulated through a bipartite cis-acting imprinting center (PWS-IC/AS-IC) within and upstream of the SNRPN promoter. Here, we show that two Rb-binding protein-related genes, Rbbp1/Arid4a and Rbbp1l1/Arid4b, are involved in the regulation of imprinting of the IC. We recovered these two genes from gene trap mutagenesis selecting for altered expression of an Snrpn-EGFP fusion gene strategy. RBBP1/ARID4A is an Rb-binding protein. RBBP1/ARID4A interacts with RBBP1L1/ARID4B and with the Snrpn promoter, implying that both are part of a protein complex. To further elucidate their roles on regulation of imprinting, we deleted the Rbbp1/Arid4a and Rbbp1l1/Arid4b genes in mice. Combined homozygous deficiency for Rbbp1/Arid4a and heterozygous deficiency for Rbbp1l1/Arid4b altered epigenetic modifications at the PWS-IC with reduced trimethylation of histone H4K20 and H3K9 and reduced DNA methylation, changing the maternal allele toward a more paternal epigenotype. Importantly, mutations of Rbbp1/Arid4a, Rbbp1l1/Arid4b, or Rb suppressed an AS imprinting defect caused by a mutation at the AS-IC. These data identify Rbbp1/Arid4a and Rbbp1l1/Arid4b as new members of epigenetic complexes regulating genomic imprinting at the PWS/AS domain.",
+   "found_by": [],
+   "pubdate": "2006 Oct 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35365808",
+   "title": "A novel heterozygous missense variant of the ARID4A gene identified in Han Chinese families with schizophrenia-diagnosed siblings that interferes with DNA-binding activity.",
+   "abstract": "ARID4A plays an important role in regulating gene expression and cell proliferation. ARID4A belongs to the AT-rich interaction domain (ARID)-containing family, and a PWWP domain immediately precedes its ARID region. The molecular mechanism and structural basis of ARID4A are largely unknown. Whole-exome sequencing (WES) revealed that a novel heterozygous missense variant, ARID4A c.1231\u2009C\u2009>\u2009G (p.His411Asp), was associated with schizophrenia (SCZ) in this study. We determined the crystal structure of the PWWP-ARID tandem at 2.05\u2009\u00c5, revealing an unexpected mode in which ARID4A assembles with its PWWP and ARID from a structural and functional supramodule. Our results further showed that compared with the wild type, the p.His411Asp ARID mutant protein adopts a less compact conformation and exhibits a weaker dsDNA-binding ability. The p.His411Asp mutation decreased the number of cells that were arrested in the G0-G1 phase and caused more cells to progress to the G2-M phase. In addition, the missense mutation promoted the proliferation of HEK293T cells. In conclusion, our data provide evidence that ARID4A p.His411Asp could cause a conformational change in the ARID4A ARID domain, influence the DNA binding function, and subsequently disturb the cell cycle arrest in the G1 phase. ARID4A is likely a susceptibility gene for SCZ; thus, these findings provide new insight into the role of ARID4A in psychiatric disorders.",
+   "found_by": [],
+   "pubdate": "2022 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35296332",
+   "title": "Trans-acting genetic variants causing multilocus imprinting disturbance (MLID): common mechanisms and consequences.",
+   "abstract": "BACKGROUND: Imprinting disorders are a group of congenital diseases which are characterized by molecular alterations affecting differentially methylated regions (DMRs). To date, at least twelve imprinting disorders have been defined with overlapping but variable clinical features including growth and metabolic disturbances, cognitive dysfunction, abdominal wall defects and asymmetry. In general, a single specific DMR is affected in an individual with a given imprinting disorder, but there are a growing number of reports on individuals with so-called multilocus imprinting disturbances (MLID), where aberrant imprinting marks (most commonly loss of methylation) occur at multiple DMRs. However, as the literature is fragmented, we reviewed the molecular and clinical data of 55 previously reported or newly identified MLID families with putative pathogenic variants in maternal effect genes (NLRP2, NLRP5, NLRP7, KHDC3L, OOEP, PADI6) and in other candidate genes (ZFP57, ARID4A, ZAR1, UHRF1, ZNF445). RESULTS: In 55 families, a total of 68 different candidate pathogenic variants were identified (7 in NLRP2, 16 in NLRP5, 7 in NLRP7, 17 in PADI6, 15 in ZFP57, and a single variant in each of the genes ARID4A, ZAR1, OOEP, UHRF1, KHDC3L and ZNF445). Clinical diagnoses of affected offspring included Beckwith-Wiedemann syndrome spectrum, Silver-Russell syndrome spectrum, transient neonatal diabetes mellitus, or they were suspected for an imprinting disorder (undiagnosed). Some families had recurrent pregnancy loss. CONCLUSIONS: Genomic maternal effect and foetal variants causing MLID allow insights into the mechanisms behind the imprinting cycle of life, and the spatial and temporal function of the different factors involved in oocyte maturation and early development. Further basic research together with identification of new MLID families will enable a better understanding of the link between the different reproductive issues such as recurrent miscarriages and preeclampsia in maternal effect variant carriers/families and aneuploidy and the MLID observed in the offsprings. The current knowledge can already be employed in reproductive and genetic counselling in specific situations.",
+   "found_by": [],
+   "pubdate": "2022 Mar 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39948625",
+   "title": "Deciphering the genetic basis of developmental language disorder in children without intellectual disability, autism or apraxia of speech.",
+   "abstract": "BACKGROUND: Developmental language disorder (DLD) refers to children who present with language difficulties that are not due to a known biomedical condition or associated with autism spectrum disorder (ASD) or intellectual disability (ID). The clinical heterogeneity of language disorders, the frequent presence of comorbidities, and the inconsistent terminology used over the years have impeded both research and clinical practice. Identifying sub-groups of children (i.e. DLD cases without childhood apraxia of speech (CAS)) with language difficulties is essential for elucidating the underlying genetic causes of this condition. DLD presents along a spectrum of severity, ranging from mild speech delays to profound disturbances in oral language structure in otherwise typically intelligent children. The prevalence of DLD is ~\u20097-8% or 2% if severe forms are considered. This study aims to investigate a homogeneous cohort of DLD patients, excluding cases of ASD, ID or CAS, using multiple genomic approaches to better define the molecular basis of the disorder. METHODS: Fifteen families, including 27 children with severe DLD, were enrolled. The majority of cases (n\u2009=\u200924) were included in multiplex families while three cases were sporadic. This resulted in a cohort of 59 individuals for whom chromosomal microarray analysis and exome or genome sequencing were performed. RESULTS: We identified copy number variants (CNVs) predisposing to neurodevelopmental disorders with incomplete penetrance and variable expressivity in two families. These CNVs (i.e., 15q13.3 deletion and proximal 16p11.2 duplication) are interpreted as pathogenic. In one sporadic case, a de novo pathogenic variant in the ZNF292 gene, known to be associated with ID, was detected, broadening the spectrum of this syndrome. LIMITATIONS: The strict diagnostic criteria applied by our multidisciplinary team, including speech-language physicians, neuropsychologists, and paediatric neurologists, resulted in a relatively small sample size, which limit the strength of our findings. CONCLUSION: These findings highlight a common genetic architecture between DLD, ASD and ID, and underline the need for further investigation into overlapping neurodevelopmental pathways. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT06660108. [full text, passages naming ARID4A] ...n family DLD-6 we identified a missense variant p.(Val317Met) in SOX30 (SRY-box transcription factor 30; NM_178424.2 , c.949G > A; MIM *606698) and in family DLD-13, a frameshift variant p.(Glu514ArgfsTer3) in ARID4A (AT-rich interaction domain 4 A; NM_002892.4 , c.1539dup; MIM *180201). Both of these genes are not involved in Mendelian disorders yet but are intolerant to LoF variation (Table 3 ). In family DLD-12, w... ...rest identified in our cohort Family | DLD-1 | DLD-5 | DLD-6 | DLD-11 | DLD-12 | DLD-13 | Individual | II:2 | II:3 | II:1 | II:1 | II:2 | II:3 | II:2 | II:2 | Gene | IQSEC2 | DDX47 | SOX30 | PPP2R2C | ZNF292 | ARID4A | | Sequence variants identified | Genomic coordinates (GRCh37/hg19) | NC_000023.11 : g.53238184T > C | NC_000012.12 : g.12,823,958 C > A | NC_000005.10 : g.157,651,130 C > T | NC_000004.12 : g.6,378,573... ...a except for the variant in ZNF292 , which was considered pathogenic [ 22 ]. The expression of most of these genes is well detected during human brain development (Supplementary Fig. 1 A). Among them, ZNF292 , ARID4A and DDX47 show an upregulated expression from 8 to 26 post-conception weeks compared to latter stages (Supplementary Fig. 1 B), suggesting a role in the early development of the cortex, hippocampus, stri...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39414258",
+   "title": "RettDb: the Rett syndrome omics database to navigate the Rett syndrome genomic landscape.",
+   "abstract": "Rett syndrome (RTT) is a neurodevelopmental disorder occurring almost exclusively in females and leading to a variety of impairments and disabilities from mild to severe. In >95% cases, RTT is due to mutations in the X-linked gene MECP2, but the molecular mechanisms determining RTT are unknown at present, and the complexity of the system is challenging. To facilitate and provide guidance to the unraveling of those mechanisms, we developed a database resource for the visualization and analysis of the genomic landscape in the context of wild-type or mutated Mecp2 gene in the mouse model. Our resource allows for the exploration of differential dynamics of gene expression and the prediction of new potential MECP2 target genes to decipher the RTT disorder molecular mechanisms. Database URL: https://biomedinfo.di.unipi.it/rett-database/. [full text, passages naming ARID4A] ...Nr5a2, Olig2, Otx2, Pax3, Pax5, Pax7, Pbx1, Pcgf2, Pcgf3, Pcgf5, Pcgf6, Pcgfl, Pgr, Phf5a, Phf8, Pml, Pou3f2, Pou5f1, Ppara, Pparg, Ppargc1a, Prdm1, Prdm13, Prdm16, Prdm5, Prox1, Rad21, Rad51, Rar, Rara, Rarb, Rbp1, Rbpj, Rcor1, Rela, Rest, Rfx1, Rnf2, Rora, Rorc, Rpa1, Rsf1, Runx1, Runx2, Runx3, Runxltl, Rxra, Sall4, Satb1, Setdb1, Shox2, Sin3a, Sinhcaf, Smad2, Smad3, Smad4, Smarca4, Smarca5, Smarcc1, Smc1a, Smc3, S...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40858546",
+   "title": "Deep adversarial learning identifies ADHD-specific associations between apoptotic genes and white matter microstructure in frontal-striatum-cerebellum circuit.",
+   "abstract": "Attention deficit hyperactivity disorder (ADHD) is a neurodevelopmental disorder characterized by genetic predisposition and alterations in brain structural connectivity. While existing studies have established associations between genetic variants and neuroanatomical features, the specific relationships in ADHD remained poorly understood. To address this gap, we developed adversarial deep canonical correlation analysis models (A-DCCA) to disentangle ADHD-specific and non-specific \"gene-white matter\" association patterns. Utilizing diffusion tensor imaging and genotype data from six-hundred ADHD and typically developed children in a Chiese cohort, the current study revealed ADHD-specific correlations between the right cerebral peduncle, right posterior limb of the internal capsule, and genes regulating neural apoptotic processes (CAMK1D, METTL15, and MAP2K4). In contrast, associations involving the left cerebral peduncle, left posterior limb of the internal capsule, right superior longitudinal fasciculus, and right posterior thalamic radiation with genes related to early neural development (FYN, PHF2, ZSCAN31, and CD82) presented associations shared by ADHD and non-ADHD groups. Incorporating interpretable deep learning models, the current study unveiled white matter regions vulnerable to genetic influences in ADHD-specific and non-specific ways, shedding light on the understanding of biological substrates of ADHD. [full text, passages naming ARID4A] ...3404), located within MCF2L, exhibited distinct associations with MD values in ADHD and TD groups. Similarly, an interaction effect was observed between RD values and rs1051861 (chr14:58838701), located within ARID4A\u2014an ADHD-associated gene. Conversely, such interaction effects were not evident in SA associations. Fig. 3 Genetic association identified by the AA-DCCA (A) and SA-DCCA. A SNPs features that differed in A...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39632905",
+   "title": "The genetic landscape of autism spectrum disorder in an ancestrally diverse cohort.",
+   "abstract": "Autism spectrum disorder (ASD) comprises neurodevelopmental disorders with wide variability in genetic causes and phenotypes, making it challenging to pinpoint causal genes. We performed whole exome sequencing on a modest, ancestrally diverse cohort of 195 families, including 754 individuals (222 with ASD), and identified 38,834 novel private variants. In 68 individuals with ASD (~30%), we identified 92 potentially pathogenic variants in 73 known genes, including BCORL1, CDKL5, CHAMP1, KAT6A, MECP2, and SETD1B. Additionally, we identified 158 potentially pathogenic variants in 120 candidate genes, including DLG3, GABRQ, KALRN, KCTD16, and SLC8A3. We also found 34 copy number variants in 31 individuals overlapping known ASD loci. Our work expands the catalog of ASD genetics by identifying hundreds of variants across diverse ancestral backgrounds, highlighting convergence on nervous system development and signal transduction. These findings provide insights into the genetic underpinnings of ASD and inform molecular diagnosis and potential therapeutic targets. [full text, passages naming ARID4A] ...34 | MC_172_3 | a De novo | chr2:219330807-219330807:G:- | frameshift deletion | | RESP18 p.H101Ifs*25 | 8.716E\u221210 | 1.747 | \u22120.4376 | MC_172_3 | a De novo | chr14:58353693-58353693:A:C | nonsynonymous SNV | | ARID4A p.E564A | 1 | 0.139 | 7.0648 | MC_172_3 | a Inherited homozygous | chr1:120436639-120436640:AG:- | frameshift deletion | | NBPF8 p.R41Mfs*20 | 1.4181E\u221207 | 1.967 | \u22122.0676 | MC_173_3 | X-Linked | chrX:11...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39369220",
+   "title": "Comprehensive molecular and clinical findings in 29 patients with multi-locus imprinting disturbance.",
+   "abstract": "BACKGROUND: Multi-locus imprinting disturbance (MLID) with methylation defects in various differentially methylated regions (DMRs) has recently been identified in approximately 150 cases with imprinting disorders (IDs), and deleterious variants have been found in genes related to methylation maintenance of DMRs, such as those encoding proteins constructing the subcortical maternal complex (SCMC), in a small fraction of patients and/or their mothers. However, integrated methylation analysis for DMRs and sequence analysis for MLID-causative genes in MLID cases and their mothers have been performed only in a single study focusing on Beckwith-Wiedemann syndrome (BWS) and Silver-Russell syndrome (SRS) phenotypes. RESULTS: Of 783 patients with various IDs we have identified to date, we examined a total of 386 patients with confirmed epimutation and 71 patients with epimutation or uniparental disomy. Consequently, we identified MLID in 29 patients with epimutation confirmed by methylation analysis for multiple ID-associated DMRs using pyrosequencing and/or methylation-specific multiple ligation-dependent probe amplification. MLID was detected in approximately 12% of patients with BWS phenotype and approximately 5% of patients with SRS phenotype, but not in patients with Kagami-Ogata syndrome, Prader-Willi syndrome, or Angelman syndrome phenotypes. We next conducted array-based methylation analysis for 78 DMRs and whole-exome sequencing in the 29 patients, revealing hypomethylation-dominant aberrant methylation patterns in various DMRs of all the patients, eight probably deleterious variants in genes for SCMC in the mothers of patients, and one homozygous deleterious variant in ZNF445 in one patient. These variants did not show gene-specific methylation disturbance patterns. Clinically, neurodevelopmental delay and/or intellectual developmental disorder (ND/IDD) was observed in about half of the MLID patients, with no association with the identified methylation disturbance patterns and genetic variants. Notably, seven patients with BWS phenotype were conceived by assisted reproductive technology (ART). CONCLUSIONS: The frequency of MLID was 7.5% (29/386) in IDs caused by confirmed epimutation. Furthermore, we revealed diverse patterns of hypomethylation-dominant methylation defects, nine deleterious variants, ND/IDD complications in about half of the MLID patients, and a high frequency of MLID in ART-conceived patients. [full text, passages naming ARID4A] ...ng previously established procedures [ 48 ]. We searched for a variant(s) of reported MLID-related genes ( NLRP2, NLRP5, NLRP7, PADI6, KHDC3L, ZFP57 , and ZNF445 ) and other candidate genes ( OOEP, ZAR1, TLE6, ARID4A, UHRF1, NLRP14, DPPA3, DNMT3A, DNMT3B, DNMT3L, DNMT1, SETDB2, TRIM28 , and WHSC1 ). We extracted rare variants with minor allele frequencies of \u2264 0.01 in public databases and in-house database as previou...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40903954",
+   "title": "Foxg1 and companions: Not only transcription factors.",
+   "abstract": "Moving from the most recent results on Foxg1 biology, we first summarize the available information on some special pleiotropic effectors of neurodevelopmental interest, involved in controlling both transcription and post-transcriptional steps of gene expression. Then, after further analysis of the literature, we report evidence that, not strictly limited to neurodevelopmental effectors, such pleiotropy also applies to other transcription factors, involved in physiology and homeostasis. Furthermore, through the systematic analysis of a major public protein-protein interaction database, we gather strong evidence that the involvement of \"canonical\" transcription factors in post-transcriptional control of gene expression could be a pervasive phenomenon, characterizing hundreds of effectors. Finally, we discuss the biological significance of these findings and propose three evolutionary mechanisms that may have contributed to such an unexpected scenario. [full text, passages naming ARID4A] ...| | | | AEBP2 | ZF.C2H2 | | | + | | | | | | | | | ALX1 | HB.PD | | | | | | | | + | | | | AR | ZF.C4_NR | | | | + | | | | | | | | ARID1A | ARID | | | + | | | | | | | | | ARID1B | ARID | | | + | | | | | | | | | ARID4A | ARID | | | + | | | | | | | | | ARID5B | ARID | | | + | | | | | | | | | ARX | HB.PD | | | | | | | + | | | | | BACH2 | bZIP | | | | | + | | | | | | | BATF3 | bZIP | | | | | | | | + | | | | BBX | HMG.SOX...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "8682294": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25504872": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41495767": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10196282": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7865876": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10327050": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7935380": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9499093": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11003658": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10373518": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10068462": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9271122": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34506790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9371601": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7958837": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8114719": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8036009": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10891495": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7658719": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1834460": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10099828": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7642110": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7565733": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8413252": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11433024": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7730357": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8931991": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9537419": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8862413": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8816502": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1310073": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24036430": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10202151": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9662327": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9916999": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12819141": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8806697": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8253385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10708476": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8006008": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10733529": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8386381": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9396797": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10692433": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8458319": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11168597": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9244350": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8657141": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9121444": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33585230": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10454591": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8058324": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31420334": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9811455": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9623977": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9144196": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7478572": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7787412": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10441072": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9774968": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35461703": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29556029": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30195942": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17043311": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35365808": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35296332": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "24382590": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34298439": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42275152": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39948625": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40472970": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39414258": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40858546": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37488425": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38135180": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41622464": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39294368": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39632905": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42196365": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39369220": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42412256": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40903954": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32781459": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36817099": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37818613": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34827709": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36010607": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28704421": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28101530": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32961747": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23300646": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30622326": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34089799": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 230,
+   "usd": 0.00749,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "18 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 4220,
+   "output_tokens": 310,
+   "usd": 0.00577,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 35.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 22466,
+   "output_tokens": 766,
+   "usd": 0.026296,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.8,
+   "note": "",
+   "input_tokens": 9270,
+   "output_tokens": 1023,
+   "usd": 0.071925,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>7</established>\n    <existing>63</existing>\n    <hypothesized>25</hypothesized>\n    <novel>5</novel>\n  </probabilities>\n  <justification>Human genetic evidence for ARID4A in neurodevelopmental phenotypes exists but is preliminary and non-replicated: a frameshift variant p.(Glu514ArgfsTer3) was reported as a candidate in one developmental language disorder family (PMID 39948625), a de novo missense (p.E564A) appears among candidate variants in an ASD exome cohort (PMID 39632905), a heterozygous missense (p.His411Asp) with functional DNA-binding characterization was reported in schizophrenia-affected siblings (PMID 35365808), and an intronic SNP in ARID4A showed ADHD-specific imaging\u2013genetic association (PMID 40858546). None of these studies independently establishes causality at a Mendelian level; they are single-family or candidate-level findings across heterogeneous phenotypes, falling short of replicated clinical proof required for \"Established.\" Supporting biology (epigenetic/imprinting regulation in mice, PMIDs 17043311, 35296332, 39369220; modifier of neurodegeneration in mouse models, PMID 29556029) is animal/in vitro and supports only a hypothesized mechanism. Overall the evidence best fits \"Existing,\" with meaningful residual probability for \"Hypothesized\" if the human variants are discounted as candidates.</justification>\n  <pmids>\n    <pmid>39948625</pmid>\n    <pmid>39632905</pmid>\n    <pmid>35365808</pmid>\n    <pmid>40858546</pmid>\n    <pmid>17043311</pmid>\n    <pmid>35296332</pmid>\n    <pmid>39369220</pmid>\n    <pmid>29556029</pmid>\n  </pmids>\n</response>"
+}

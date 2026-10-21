@@ -1,0 +1,953 @@
+{
+ "gene": "HDAC2",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental delay",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "developmental delay",
+   "global developmental delay",
+   "impaired neurodevelopment"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "KDAC2",
+   "RPD3",
+   "YAF1",
+   "histone deacetylase 2"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 106,
+  "titlekicksparingfulltext": 28,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 40,
+   "Existing": 48,
+   "Hypothesized": 10,
+   "Novel": 2
+  },
+  "justification": "Several human studies report de novo HDAC2 variants in probands with neurodevelopmental phenotypes: a de novo missense variant in a patient with a Cornelia de Lange-like phenotype (PMID 30806031), a de novo frameshift variant with functional characterization (mislocalization, altered acetylation, transcriptomic overlap with Rubinstein\u2013Taybi) in a chromatinopathy patient (PMID 38753158), and a de novo probably pathogenic variant among candidate genes in a syndromic intellectual disability panel cohort (PMID 27620904). A large-scale statistical analysis of de novo SNVs/CNVs ranked HDAC2 as a top high-confidence novel NDD candidate gene (PMID 35468861), while 6q21q22.1 deletion reports (PMIDs 26052347, 38380230, 40847363) implicate HDAC2 only as part of multigene CNVs and cannot isolate it. Supporting biology (class I HDAC in chromatin remodeling complexes with ADNP, SMARCC2, MECP2, UBE3A pathways) further strengthens plausibility, but the clinical evidence remains a small number of single probands with heterogeneous phenotypes and no formal disease-gene validation, so Existing is slightly more likely than Established.",
+  "pmids": [],
+  "detail": {
+   "Established": 40,
+   "Existing": 48,
+   "Hypothesized": 10,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38637827",
+   "title": "ADNP dysregulates methylation and mitochondrial gene expression in the cerebellum of a Helsmoortel-Van der Aa syndrome autopsy case.",
+   "abstract": "BACKGROUND: Helsmoortel-Van der Aa syndrome is a neurodevelopmental disorder in which patients present with autism, intellectual disability, and frequent extra-neurological features such as feeding and gastrointestinal problems, visual impairments, and cardiac abnormalities. All patients exhibit heterozygous de novo nonsense or frameshift stop mutations in the Activity-Dependent Neuroprotective Protein (ADNP) gene, accounting for a prevalence of 0.2% of all autism cases worldwide. ADNP fulfills an essential chromatin remodeling function during brain development. In this study, we investigated the cerebellum of a died 6-year-old male patient with the c.1676dupA/p.His559Glnfs*3 ADNP mutation. RESULTS: The clinical presentation of the patient was representative of the Helsmoortel-Van der Aa syndrome. During his lifespan, he underwent two liver transplantations after which the child died because of multiple organ failure. An autopsy was performed, and various tissue samples were taken for further analysis. We performed a molecular characterization of the cerebellum, a brain region involved in motor coordination, known for its highest ADNP expression and compared it to an age-matched control subject. Importantly, epigenome-wide analysis of the ADNP cerebellum identified CpG\u00a0methylation differences and expression of multiple pathways causing neurodevelopmental delay. Interestingly, transcription factor motif enrichment analysis of differentially methylated genes showed that the ADNP binding motif was the most significantly enriched. RNA sequencing of the autopsy brain further identified downregulation of the WNT signaling pathway and autophagy defects as possible causes of neurodevelopmental delay. Ultimately, label-free quantification mass spectrometry identified differentially expressed proteins involved in mitochondrial stress and sirtuin signaling pathways amongst others. Protein-protein interaction analysis further revealed a network including chromatin remodelers (ADNP, SMARCC2, HDAC2 and YY1), autophagy-related proteins (LAMP1, BECN1 and LC3) as well as a key histone deacetylating enzyme SIRT1, involved in mitochondrial energy metabolism. The protein interaction of ADNP with SIRT1 was further biochemically validated through the microtubule-end binding proteins EB1/EB3 by direct co-immunoprecipitation in mouse cerebellum, suggesting important mito-epigenetic crosstalk between chromatin remodeling and mitochondrial energy metabolism linked to autophagy stress responses. This is further supported by mitochondrial activity assays and stainings in patient-derived fibroblasts which suggest mitochondrial dysfunctions in the ADNP deficient human brain. CONCLUSION: This study forms the baseline clinical and molecular characterization of an ADNP autopsy cerebellum, providing novel insights in the disease mechanisms of the Helsmoortel-Van der Aa syndrome. By combining multi-omic and biochemical approaches, we identified a novel SIRT1-EB1/EB3-ADNP protein complex which may contribute to autophagic flux alterations and impaired mitochondrial metabolism in the Helsmoortel-Van der Aa syndrome and holds promise as a new therapeutic target.",
+   "found_by": [],
+   "pubdate": "2024 Apr 18",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "35468861",
+   "title": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants.",
+   "abstract": "BACKGROUND: Previous large-scale studies of de novo variants identified a number of genes associated with neurodevelopmental disorders (NDDs); however, it was also predicted that many NDD-associated genes await discovery. Such genes can be discovered by integrating copy number variants (CNVs), which have not been fully considered in previous studies, and increasing the sample size. METHODS: We first constructed a model estimating the rates of de novo CNVs per gene from several factors such as gene length and number of exons. Second, we compiled a comprehensive list of de novo single-nucleotide variants (SNVs) in 41,165 individuals and de novo CNVs in 3675 individuals with NDDs by aggregating our own and publicly available datasets, including denovo-db and the Deciphering Developmental Disorders study data. Third, summing up the de novo CNV rates that we estimated and SNV rates previously established, gene-based enrichment of de novo deleterious SNVs and CNVs were assessed in the 41,165 cases. Significantly enriched genes were further prioritized according to their similarity to known NDD genes using a deep learning model that considers functional characteristics (e.g., gene ontology and expression patterns). RESULTS: We identified a total of 380 genes achieving statistical significance (5% false discovery rate), including 31 genes affected by de novo CNVs. Of the 380 genes, 52 have not previously been reported as NDD genes, and the data of de novo CNVs contributed to the significance of three genes (GLTSCR1, MARK2, and UBR3). Among the 52 genes, we reasonably excluded 18 genes [a number almost identical to the theoretically expected false positives (i.e., 380 \u00d7 0.05 = 19)] given their constraints against deleterious variants and extracted 34 \"plausible\" candidate genes. Their validity as NDD genes was consistently supported by their similarity in function and gene expression patterns to known NDD genes. Quantifying the overall similarity using deep learning, we identified 11 high-confidence (> 90% true-positive probabilities) candidate genes: HDAC2, SUPT16H, HECTD4, CHD5, XPO1, GSK3B, NLGN2, ADGRB1, CTR9, BRD3, and MARK2. CONCLUSIONS: We identified dozens of new candidates for NDD genes. Both the methods and the resources developed here will contribute to the further identification of novel NDD-associated genes.",
+   "found_by": [],
+   "pubdate": "2022 Apr 26",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "26052347",
+   "title": "Clinical and molecular characterization of a patient with interstitial 6q21q22.1 deletion.",
+   "abstract": "BACKGROUND: Interstitial 6q deletions, involving the 6q15q25 chromosomal region, are rare events characterized by variable phenotypes and no clear karyotype/phenotype correlation has been determined yet. RESULTS: We present a child with a 6q21q22.1 deletion, characterized by array-CGH, associated with developmental delay, intellectual disability, microcephaly, facial dysmorphisms, skeletal, muscle, and brain anomalies. DISCUSSION: In our patient, the 6q21q22.1 deleted region contains ten genes (TRAF3IP2, FYN, WISP3, TUBE1, LAMA4, MARCKS, HDAC2, HS3ST5, FRK, COL10A1) and two desert gene regions. We discuss here if these genes had some role in determining the phenotype of our patient in order to establish a possible karyotype/phenotype correlation.",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "31749842",
+   "title": "Epigenetic Regulation of the Ontogenic Expression of the Dopamine Transporter.",
+   "abstract": "The dopamine transporter (DAT) is a plasma membrane transport protein responsible for regulating the duration and intensity of dopaminergic signaling. Altered expression of DAT is linked to neurodevelopmental disorders, including attention deficit hyperactivity disorder and autism spectrum disorder, and is shown to contribute to the response of psychotropic drugs and neurotoxicants. Although the postnatal levels of DAT have been characterized, there are few data regarding the mechanisms that regulate postnatal DAT expression. Here, we examine the ontogeny of DAT mRNA from postnatal days 0 to 182 in the rat brain and define a role for epigenetic mechanisms regulating DAT expression. DAT mRNA and protein significantly increased between PND 0 and 6 months in rat midbrain and striatum, respectively. The epigenetic modifiers Dnmt1, Dnmt3a, Dnmt3b, and Hdac2 demonstrated age associated decreases in mRNA expression whereas Hdac5 and Hdac8 showed increased mRNA expression with age. Chromatin immunoprecipitation studies revealed increased protein enrichment of acetylated histone 3 at lysines 9 and 14 and the dopaminergic transcription factors Nurr1 and Pitx3 within the DAT promoter in an age-related manner. Together these studies provide evidence for the role of epigenetic modifications in the regulation of DAT during development. The identification of these mechanisms may contribute to potential therapeutic interventions aimed at neurodevelopmental disorders of the dopaminergic system.",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42649243",
+   "title": "Cognitive and synaptic impairment induced by deficiency of autism risk gene Smarcc2 and its rescue by histone deacetylase inhibition.",
+   "abstract": "SMARCC2, which encodes BAF170, a core subunit of chromatin remodeling BAF complex, is one of the top-ranking risk genes for autism spectrum disorder (ASD). However, the mechanisms linking SMARCC2 haploinsufficiency to ASD remain poorly understood. ChIP-seq of SMARCC2 demonstrated its binding to many other ASD risk genes involved in transcriptional regulation. SMARCC2 expression was significantly reduced in the nuclear fraction of postmortem prefrontal cortex (PFC) from patients with ASD. Smarcc2 deficiency in PFC of adolescent mice led to impaired working memory, with largely intact social and anxiety-like behaviors. Significant downregulation of genes enriched in synaptic transmission was found in PFC of Smarcc2-deficient mice by RNA-seq and qPCR profiling. Furthermore, SMARCC2 was reduced in human iPSC-derived neurons (hiPSC-N) from ASD patients, and synaptic genes were downregulated by SMARCC2 knockdown in hiPSC-N. In parallel, electrophysiological recordings uncovered the significant impairment of GABAergic and glutamatergic synaptic currents in PFC pyramidal neurons of Smarcc2-deficient mice. Smarcc2 bound to HDAC2, and Smarcc2 deficiency led to the reduced global histone acetylation and H3K9ac enrichment at synaptic gene promoters. Treatment of Smarcc2-deficient mice with romidepsin, a class I HDAC inhibitor, normalized histone acetylation, working memory, synaptic genes and currents. These findings highlight the critical role of Smarcc2 in regulating cognitive and synaptic function, suggesting that targeting HDAC could alleviate deficits in Smarcc2-associated neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2026 Aug 26",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40952176",
+   "title": "Dysregulation of Neuronal Activity-Dependent Immediate Early Genes in a Mouse Model of Angelman Syndrome.",
+   "abstract": "Angelman syndrome (AS) is a debilitating neurodevelopmental disorder triggered by impaired function of the maternal UBE3A gene, which codes a protein that functions as a ubiquitin ligase and transcriptional coactivator. Ube3a maternal deficient mice replicate many key behavioral deficits associated with AS; however, the underlying molecular mechanisms remain poorly understood. Using an RT2 Profiler PCR array that summarizes the expression of 84 genes regulating synaptic plasticity, we identified a number of dysregulated genes in the visual cortex of AS mice brains at postnatal day 25 (P25) compared to wild-type animals. In-depth analysis revealed that various immediate early genes (IEGs), like Arc, Egr1-4, and Homer, are dramatically downregulated in the visual cortex of AS mice with regard to wild-type controls at P25. Moreover, the dark rearing of wild-type mice considerably decreased the levels of these IEGs to nearly the same level as those found in AS mice, along with the downregulation of Ube3a. Furthermore, a significant reduction in the expression of these IEGs can also be observed in the hippocampus of AS mice. Finally, we demonstrate that the augmented activity of Hdac2 in the AS mice brain might be connected with the downregulation of various IEGs and other synaptic plasticity-regulating genes. These findings indicate that the deregulated expression of neural activity-dependent IEGs could be linked with abnormal synaptic plasticity and associated behavioral deficits observed in AS mice.",
+   "found_by": [],
+   "pubdate": "2025 Sep",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30806031",
+   "title": "A De novo HDAC2 variant in a patient with features consistent with Cornelia de Lange syndrome phenotype.",
+   "abstract": "Cornelia de Lange syndrome (CdLS) is an autosomal dominant genetic disorder caused by pathogenic variants in NIPBL, RAD21, SMC3, HDAC8, or SMC1A; all of which code for proteins that are components of, or interact with, the cohesin complex. Despite the identification of multiple genes associated with CdLS, over 25% of individuals strongly suspected to have CdLS have negative genetic testing, indicating that there are additional genes associated with the condition. HDAC2 codes for histone deacetylase 2 (HDAC2) and, like HDAC8, is a Class 1 histone deacetylase. We present a patient with a novel de novo variant in HDAC2 with many clinical features consistent with CdLS including severe developmental delay, limb abnormalities, congenital heart defect, cryptorchidism and hypoplastic genitalia, growth retardation, and characteristic craniofacial features. Although variants in HDAC2 are not currently associated with human disease, the variant identified in this patient is within a highly conserved amino acid residue and has not been observed in healthy populations. This information, along with the patient's clinical presentation and the functional similarity between the HDAC2 and HDAC8 proteins, suggests that HDAC2 should be further investigated as a candidate gene for CdLS or a CdLS-like syndrome.",
+   "found_by": [],
+   "pubdate": "2019 May",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "38753158",
+   "title": "Characterization of a novel HDAC2 pathogenetic variant: a missing puzzle piece for chromatinopathies.",
+   "abstract": "Histone deacetylases (HDACs) are enzymes pivotal for histone modification (i.e. acetylation marks removal), chromatin accessibility and gene expression regulation. Class I HDACs (including HDAC1, 2, 3, 8) are ubiquitously expressed and they often participate in multi-molecular protein complexes. To date, three neurodevelopmental disorders caused by mutations in genes encoding for HDACs (HDAC4, HDAC6 and HDAC8) and thus belonging to the group of chromatinopathies, have been described. We performed whole exome sequencing (WES) for a patient (#249) clinically diagnosed with the chromatinopathy Rubinstein-Taybi syndrome (RSTS) but negative for mutations in RSTS genes, identifying a de novo frameshift variant in HDAC2 gene. We then investigated its molecular effects in lymphoblastoid cell lines (LCLs) derived from the patient compared to LCLs from healthy donors (HD). As the variant was predicted to be likely pathogenetic and to affect the sequence of nuclear localization signal, we performed immunocytochemistry and lysates fractionation, observing a nuclear mis-localization of HDAC2 compared to HD LCLs. In addition, HDAC2 total protein abundance resulted altered in patient, and we found that newly identified variant in HDAC2 affects also acetylation levels, with significant difference in acetylation pattern among patient #249, HD and RSTS cells and in expression of a known molecular target. Remarkably, RNA-seq performed on #249, HD and RSTS cells shows differentially expressed genes (DEGs) common to #249 and RSTS. Interestingly, our reported patient was clinically diagnosed with RSTS, a chromatinopathy which known causative genes encode for enzymes antagonizing HDACs. These results support the role of HDAC2 as causative gene for chromatinopathies, strengthening the genotype-phenotype correlations in this relevant group of disorders.",
+   "found_by": [],
+   "pubdate": "2024 Jun",
+   "query_tier": "genetics"
+  },
+  {
+   "pmid": "41980938",
+   "title": "Early differential impact of MeCP2 mutations on functional networks in Rett syndrome patient-derived human cortical organoids.",
+   "abstract": "Human cerebral organoids derived from induced pluripotent stem cells can recapture early developmental processes and reveal changes involving neurodevelopmental disorders. Mutations in the X-linked methyl-CpG binding protein 2 (MECP2) gene are associated with Rett syndrome, and disease severity varies depending on the location and type of mutation. Here, we focused on neuronal activity in Rett syndrome patient-derived organoids, analyzing two types of MECP2 mutations-a missense mutation (R306C) and a truncating mutation (V247X)-using calcium imaging with three-photon microscopy. Compared to isogenic controls, we found abnormal neuronal activity in Rett organoids and altered network function based on graph theoretic analyses, with V247X mutations impacting functional responses and connectivity more severely than R306C mutations. These changes paralleled EEG data obtained from patients with comparable mutations. Labeling >/>DLX promoter-driven inhibitory neurons demonstrated differences in activity and functional connectivity of inhibitory and excitatory neurons in the two types of mutations. Transcriptomic analyses revealed HDAC2-associated impairment in R306C organoids and decreased GABAA receptor expression in excitatory neurons in V247X organoids. These findings demonstrate mutation-specific mechanisms of vulnerability in Rett syndrome and suggest targeted strategies for their treatment.",
+   "found_by": [],
+   "pubdate": "2026 Apr 14",
+   "query_tier": "genetics"
+  },
+  {
+   "pmid": "39149328",
+   "title": "Early differential impact of MeCP2 mutations on functional networks in Rett syndrome patient-derived human cerebral organoids.",
+   "abstract": "Human cerebral organoids derived from induced pluripotent stem cells can recapture early developmental processes and reveal changes involving neurodevelopmental disorders. Mutations in the X-linked methyl-CpG binding protein 2 (MECP2) gene are associated with Rett syndrome, and disease severity varies depending on the location and type of mutation. Here, we focused on neuronal activity in Rett syndrome patient-derived organoids, analyzing two types of MeCP2 mutations - a missense mutation (R306C) and a truncating mutation (V247X) - using calcium imaging with three-photon microscopy. Compared to isogenic controls, we found abnormal neuronal activity in Rett organoids and altered network function based on graph theoretic analyses, with V247X mutations impacting functional responses and connectivity more severely than R306C mutations. These changes paralleled EEG data obtained from patients with comparable mutations. Labeling DLX promoter-driven inhibitory neurons demonstrated differences in activity and functional connectivity of inhibitory and excitatory neurons in the two types of mutation. Transcriptomic analyses revealed HDAC2-associated impairment in R306C organoids and decreased GABAA receptor expression in excitatory neurons in V247X organoids. These findings demonstrate mutation-specific mechanisms of vulnerability in Rett syndrome and suggest targeted strategies for their treatment.",
+   "found_by": [],
+   "pubdate": "2024 Aug 10",
+   "query_tier": "genetics"
+  },
+  {
+   "pmid": "38018232",
+   "title": "A de novo variant in RERE causes autistic behavior by disrupting related genes and signaling pathway.",
+   "abstract": "Autism spectrum disorder (ASD) is a highly variable neurodevelopmental disorder that typically manifests childhood, characterized by a triad of symptoms: impaired social interaction, communication difficulties, and restricted interests with repetitive behaviors. De novo variants in related genes can cause ASD. We present the case of a 6-year-old Chinese boy with autistic behavior, including language communication impairments, intellectual disabilities, stunted development, and irritability in social interactions. Using Sanger sequencing, we confirmed a pathogenic in the RERE gene (NM_012102.4) (c.3732delC, p.Tyr1245Thrfs*12; EX21; Het). Subsequently, we generated an RERE point mutation cell line (ReMut) using CRISPR/Cas9 Targeted Genome Editing. Immunofluorescence was conducted to determine the location of the mutant RERE. RNA-sequencing and mass spectrometry analyses were performed to elucidate the ASD-related genes and signaling pathways disrupted by this variant in RERE. We identified 3790 differentially expressed genes and 684 differentially expressed proteins. The SHH signaling pathway was found to be downregulated, and the Hippo pathway was upregulated in ReMut. Genes implicated in autism, such as CNTNAP2, STX1A, FARP2, and GPC1, were significantly downregulated. Simultaneously, we noted alterations in HDAC1 and HDAC2, which are members of the WHHERE complex, suggesting their role in the pathogenesis of this patient. In conclusion, we report a de novo variant in RERE associated with autistic behavior. The finding that ASD is associated with RERE variants underscore the role of genetic factors in ASD and provides insights regarding the mechanisms underlying RERE variants in disease onset.",
+   "found_by": [],
+   "pubdate": "2024 Mar",
+   "query_tier": "genetics"
+  },
+  {
+   "pmid": "41174994",
+   "title": "ADNP Exhibits Methyltransferase Activity in Overexpression Systems and Modulates DNA and Histone Methylation.",
+   "abstract": "Activity-Dependent Neuroprotective Protein (ADNP) is a putative transcription factor that differentially interacts with proteins involved in chromatin remodeling, thereby controlling neuronal differentiation. The protein contains nine zinc fingers, a bipartite nuclear localization signal (NLS), and a homeobox domain with a heterochromatin protein 1 interaction motif, ensuring nuclear association with DNA and chromatin. De novo variants in ADNP cause autism comorbid with intellectual disability in the Helsmoortel-Van der Aa syndrome. ADNP interacts with components of the SWI/SNF in HEK293T cells but has also been reported as part of the repressive ChAHP complex in mouse embryonic stem cells. Although converging evidence suggests a role in chromatin remodeling, Hi-C experiments failed to detect major alterations in 3D chromatin structure. We therefore investigated ADNP's role in epigenetic regulation and identified the chromatin scaffolding protein WDR5 and HDAC2 as interaction partners. Structural modeling revealed two N-terminal methyltransferase domains, suggesting catalytic activity via SAM to SAH conversion. Immunoprecipitated fractions containing wild-type ADNP exhibited methyltransferase activity, which was reduced by nonsense variants. ADNP was expressed in histone-enriched cerebellar fractions in mice and a Helsmoortel-Van der Aa autopsy case, with male-specific reduction of the H3K79me1 modification. At the DNA level, wild-type ADNP induced CpG hypermethylation. However, most variants caused CpG hypomethylation, supporting a loss-of-function mechanism, while NLS variants showed additional hypermethylation, suggesting a gain-of-function effect linked to apoptosis and microtubule transport. Taken together, we identified an ADNP-WDR5-HDAC2 protein complex involved in epigenetic regulation, with ADNP exhibiting methyltransferase activity in overexpression systems.",
+   "found_by": [],
+   "pubdate": "2025 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27620904",
+   "title": "High diagnostic yield of syndromic intellectual disability by targeted next-generation sequencing.",
+   "abstract": "BACKGROUND: Intellectual disability is a very complex condition where more than 600 genes have been reported. Due to this extraordinary heterogeneity, a large proportion of patients remain without a specific diagnosis and genetic counselling. The need for new methodological strategies in order to detect a greater number of mutations in multiple genes is therefore crucial. METHODS: In this work, we screened a large panel of 1256 genes (646 pathogenic, 610 candidate) by next-generation sequencing to determine the molecular aetiology of syndromic intellectual disability. A total of 92 patients, negative for previous genetic analyses, were studied together with their parents. Clinically relevant variants were validated by conventional sequencing. RESULTS: A definitive diagnosis was achieved in 29 families by testing the 646 known pathogenic genes. Mutations were found in 25 different genes, where only the genes KMT2D, KMT2A and MED13L were found mutated in more than one patient. A preponderance of de novo mutations was noted even among the X linked conditions. Additionally, seven de novo probably pathogenic mutations were found in the candidate genes AGO1, JARID2, SIN3B, FBXO11, MAP3K7, HDAC2 and SMARCC2. Altogether, this means a diagnostic yield of 39% of the cases (95% CI 30% to 49%). CONCLUSIONS: The developed panel proved to be efficient and suitable for the genetic diagnosis of syndromic intellectual disability in a clinical setting. Next-generation sequencing has the potential for high-throughput identification of genetic variations, although the challenges of an adequate clinical interpretation of these variants and the knowledge on further unknown genes causing intellectual disability remain to be solved.",
+   "found_by": [],
+   "pubdate": "2017 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19892411",
+   "title": "HDAC2: a critical factor in health and disease.",
+   "abstract": "Histone deacetylases control cellular signaling and gene expression. Histone deacetylase 2 (HDAC2) is crucial for embryonic development, affects cytokine signaling relevant for immune responses and is often significantly overexpressed in solid tumors. Nevertheless, transformed cells lacking HDAC2 due to somatic mutations have recently been discovered. This finding has raised a question regarding the functions of this enzyme. Detailed analyses of the molecular mechanisms governing gene regulation by HDAC2 illustrate how this protein influences proliferation, apoptosis and differentiation of cells. Beyond clarifying the role of HDAC2 for cellular fate, such data position the epigenetic regulator HDAC2 as a therapeutically important prognostic marker that can be subjected to pharmacological control.",
+   "found_by": [],
+   "pubdate": "2009 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42450350",
+   "title": "ADNP Functions During Early Brain Development and Their Relevance to ASD and ADNP Syndrome.",
+   "abstract": "The Activity-Dependent Neuroprotective Protein (ADNP) is an important regulator of early brain development, especially during cortical neurogenesis and neurite formation. De novo point mutations or haploinsufficiency of the ADNP gene result in ADNP syndrome, which is also known as Helsmoortel-Van der Aa syndrome, a complex neurodevelopmental disorder recognized as a leading single-gene cause of syndromic autism spectrum disorder (ASD) and intellectual disability. ADNP works as both a transcription factor and a microtubule (MT) regulator. As a transcription factor, ADNP is a key component of chromatin remodeling complexes such as ChAHP (CHD4 (Chromodomain Helicase DNA-binding Protein 4)-ADNP-HP1 (Heterochromatin Protein 1)) and SWI/SNF (Switch/Sucrose Non-Fermentable), and it tightly regulates the expression of numerous essential developmental genes. ADNP also modulates the Wnt/\u03b2-catenin signaling pathway. During neural differentiation, ADNP is redistributed from the nucleus to the cytoplasm, and this redistribution is regulated by binding to 14-3-3 proteins, which are phosphorylated by protein Kinase C (PKC). After relocating to the cytoplasm, ADNP functions as an MT regulator by binding to microtubule end-binding proteins (EB1 and EB3) and Tau to control neurite formation. Previous studies have focused on NAP (also known as Davunetide, a peptide derived from ADNP) in MT regulation and its therapeutic potential for autism spectrum disorder (ASD) and neurodegenerative diseases, such as Alzheimer's disease. This review highlights the functions of full-length ADNP and NAP in early brain development, particularly in neurogenesis and neurite formation during cortical development. We will also discuss the potential of NAP as a therapeutic medication for neurodevelopmental disorders, especially ASD and ADNP syndrome. [full text, passages naming HDAC2] ...al genes [ 13 , 31 ]. Beyond chromatin remodeling, ADNP has additionally been reported to display methyltransferase activity and to modulate DNA and histone methylation within an ADNP\u2013WDR5 (WD Repeat Domain 5)\u2013HDAC2 (Histone Deacetylase 2) complex [ 32 ]. ADNP also plays a role in core cellular signaling pathways. For example, ADNP also modulates the Wnt/\u03b2-catenin signaling pathway, which is described in detail in Se...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42534475",
+   "title": "\u03b2-catenin deficiency in forebrain excitatory neurons induces fear memory deficits and physiological alterations.",
+   "abstract": "\u03b2-catenin-coding gene CTNNB1 is a top-ranking risk gene for autism and intellectual disability. To better understand how CTNNB1 haploinsufficiency is involved in the pathophysiology of neurodevelopmental disorders, we generated a new mouse model that enables Ctnnb1 deletion in forebrain excitatory neurons starting at embryonic corticogenesis. Behavioural assays of the Ctnnb1 conditional knockout (cKO) mice revealed significant fear memory deficits, despite normal social preference, anxiety, spatial and recognition memory. Pyramidal neurons in prefrontal cortex (PFC) of Ctnnb1 cKO mice exhibited the significantly elevated intrinsic excitability but markedly decreased AMPA receptor-mediated synaptic response, while GABAA or NMDA receptor-mediated synaptic response was unchanged. Gene profiling revealed the significantly reduced mRNA level of Syp (encoding Synaptophysin) and Nlng2 (encoding Neuroligin-2) in PFC of Ctnnb1 cKO mice, while most of other screened genes were unchanged. These results suggest that \u03b2-catenin deficiency in forebrain excitatory neurons leads to fear conditioning impairment, which could be contributed by the diminished excitatory synaptic transmission in PFC resulting from disrupted synaptic gene expression. [full text, passages naming HDAC2] ...GCTAGAAGAGGCA | TCCTCATCGTCACTGGGACA | | Nrxn3 TAGCCACAACCTCCAGGGAT | GTCCTTTGCTGGAGTTACAGTT | | Nlgn2 GCTGCAAAAGGCAACTATGGG | GGTGGGAAAGGATCAGCAAGT | | Ep300 GTGAACAACATGAGTGCTAGTCC | GCCACACCAGCATTTTCACT | | Hdac2 CATGGCGTACAGTCAAGGAG | TCTATGAGGCTTCATGGGATG | | Grin1 CATCGGACTTCAGCTAATCA | GTCCCCATCCTCATTGAATT | | Gria2 ATAGCAACCGGAAATCAGTT | GCCTCTTAGAGACCTCCAGT | | Dlg4 AGCCCCAGGATATGTGAACG | TCACCGATGTGTGGGTTGT... ...ion, thus, we also examined a subset of genes involved in transcriptional regulation. As shown in 57 Fig. 5E , no significant change was found on histone acetyltransferase gene Ep300 , histone deacetylase gene Hdac2, or preinitiation Mediator complex gene Med12 . Finally, we examined the impact of Ctnnb1 deficiency on synaptic protein expression at synapses using Western blotting assays. The SNARE complex proteins, S...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41751513",
+   "title": "Developmental Nicotine Exposure Induces Intergenerational Transmission of an Ensemble of Neurodevelopmental Disorder-Related Translatomic Perturbations in DRD1-Expressing Striatal Cells of Adolescent Male Mice.",
+   "abstract": "Background/Objectives: Coupled with the already-problematic background rates of traditional cigarette consumption during pregnancy, the surging epidemic of electronic cigarette usage among pregnant women redoubles the importance of understanding the impacts of nicotine exposure during critical periods of development. To date, a burgeoning body of human epidemiological and animal model research indicates that not only the children but also the grandchildren of maternal smokers are at higher risk for neurodevelopmental disorders such as ADHD, autism, and schizophrenia and are predisposed to neurodevelopmental abnormalities which transcend these diagnoses. However, the roles of discrete cellular sub-populations in these and other intergenerational consequences of smoking during pregnancy remain indeterminate. Methods: Toward the resolution of this void in the literature, the present study characterized alterations in the gene expression profiles of dopamine receptor D1-expressing striatal cells from the first- and second-generation male progeny of female mice that were continuously exposed to nicotine beginning prior to conception, continuing throughout pregnancy, and concluding upon weaning of offspring. Results: Dopamine receptor D1-expressing striatal cells from our mouse models of the children and grandchildren of maternal smokers exhibit differential expression patterns for a multitude of genes that are (1) individually associated with neurodevelopmental disorders, (2) collectively overrepresented in gene set annotations related to brain, behavioral, neurobiological, and epigenomic phenotypes shared among neurodevelopmental disorders, and (3) orthologous to human genes that exhibit differential DNA methylation signatures in the newborns of maternal smokers. Conclusions: Together with our and others' previous findings, the results of this study support the emerging theory that, by inducing extensive alterations in gene expression that in turn elicit cascading neurobiological changes which ultimately confer widespread neurobehavioral abnormalities, nicotine-induced epigenomic dysregulation may be a primary driver of neurodevelopmental deficits and disorders in the children and grandchildren of maternal smokers. [full text, passages naming HDAC2] ...amine transporter (DAT) dysfunction, impaired proBDNF proteolysis and glucocorticoid receptor (GR) activation, hypocorticosteronemia, alterations in the global DNA methylome, and deficits in DNMT3A, MeCP2, and HDAC2 expression and function [ 50 , 51 , 52 , 53 , 54 , 55 , 56 , 57 , 58 , 59 , 60 , 61 , 62 , 63 , 64 , 65 , 66 , 67 , 68 , 69 , 70 , 71 , 72 , 73 , 74 , 75 , 76 , 77 , 78 , 79 , 80 ]. These findings in firs...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39047730",
+   "title": "De novo missense variants in HDAC3 leading to epigenetic machinery dysfunction are associated with a variable neurodevelopmental disorder.",
+   "abstract": "Histone deacetylase 3 (HDAC3) is a crucial epigenetic modulator essential for various developmental and physiological functions.\u00a0Although its dysfunction is increasingly recognized in abnormal phenotypes, to our knowledge, there have been no established reports of human diseases directly linked to HDAC3 dysfunction. Using trio exome sequencing and extensive phenotypic\u00a0analysis, we correlated heterozygous de novo variants in HDAC3 with a neurodevelopmental disorder having variable clinical presentations, frequently associated with intellectual disability, developmental delay, epilepsy, and musculoskeletal abnormalities. In a cohort of six individuals, we identified missense variants in HDAC3 (c.277G>A [p.Asp93Asn], c.328G>A [p.Ala110Thr], c.601C>T [p.Pro201Ser], c. 797T>C [p.Leu266Ser], c.799G>A [p.Gly267Ser], and c.1075C>T [p.Arg359Cys]), all located in evolutionarily conserved sites and confirmed as de novo. Experimental studies identified defective deacetylation activity in the p.Asp93Asn, p.Pro201Ser, p.Leu266Ser, and p.Gly267Ser variants, positioned near the enzymatic pocket. In addition, proteomic analysis employing co-immunoprecipitation revealed that the disrupted interactions with molecules involved in the CoREST and NCoR complexes, particularly in the p.Ala110Thr variant, consist of a central pathogenic mechanism. Moreover, immunofluorescence analysis showed diminished nuclear to cytoplasmic fluorescence ratio in the p.Ala110Thr, p.Gly267Ser, and p.Arg359Cys variants, indicating impaired nuclear localization. Taken together, our study highlights that de novo missense variants in HDAC3 are associated with a broad spectrum of neurodevelopmental disorders, which emphasizes the complex role of HDAC3 in histone deacetylase activity, multi-protein complex interactions, and nuclear localization for proper physiological functions. These insights open new avenues for understanding the molecular mechanisms of HDAC3-related disorders and may inform future therapeutic strategies. [full text, passages naming HDAC2] ...y important, as these lysine residues can be methylated, facilitating chromatin compaction and gene silencing. 5 6 , 7 , 8 There are 18 mammalian HDACs classified into four classes (I, II, III, and IV). HDAC1, HDAC2, HDAC3, and HDAC8 are class I HDACs, primarily nuclear enzymes with strong HDAC activity. These HDACs are often found in multi-protein complexes including the nuclear receptor co-repressor (NCoR) complex,...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40847363",
+   "title": "Potential role of SLC6A3 in neurodevelopmental impairments associated with corpus callosum abnormalities: insights from CNV analysis and clinical phenotyping.",
+   "abstract": "OBJECTIVE: This study aimed to investigate the role of pathogenic copy number variations (CNVs) in neurodevelopmental impairments among children with corpus callosum abnormalities (CCAs). We focused primarily on SLC6A3 associated mechanisms and aimed to delineate genotype-phenotype correlations in our cases. METHODS: From January 2021 to July 2023, 13 children with MRI-confirmed CCAs underwent chromosomal microarray analysis (CMA) for CNV detection. We performed bioinformatic analyses (Gene Ontology, STRING network) to identify neurodevelopmental genes within pathogenic CNVs, and clinical follow up assessed neurobehavioral outcomes. RESULTS: We identified pathogenic CNVs in 3/13 cases (23.08%). Specifically, Case 8 harbored a 43.05-Mb duplication (5p15.33p12) encompassing SLC6A3, a dopamine transporter gene linked to synaptic signaling. Interaction network analysis suggested that SLC6A3 was the most interconnected gene, providing evidence of its role in CCAs. Clinically, 84.6% of cases (11/13) exhibited psychomotor delay, while 15.4% of cases (2/13) developed seizure. Notably, we observed hearing impairment and psychomotor developmental delay in Case 8 with a SLC6A3 duplication, further suggesting dopaminergic dysregulation in callosal connectivity. CONCLUSION: Our study suggests that SLC6A3 may represent a potential contributor to neurodevelopmental impairments in CCAs. Further, CMA-based CNV screening is critical for early intervention in high-risk children. These findings bridge genetic etiology with clinical phenotypes and offer insights into future targeted therapeutic strategies. [full text, passages naming HDAC2] ...the recurrence of this duplication in CCAs, with phenotypic overlaps including developmental delay, etc. In contrast, Case 2 (6q21q22.31 deletion) and Case 5 (3q12.1q13.32 deletion) carried six (NUS1, MARCKS, HDAC2, NKAIN2, TBC1D32, CEP85L) and thirteen (ZBTB11, NEPRO, ATG3, BOC, CFAP44, DRD3, IFT57, IMPG2, NECTIN3, TBC1D23, TFG, ZBTB20, ZDHHC23) neurodevelopment-associated OMIM genes, respectively. Further, TBC1D23... ...enic CNVs Case | Results of CMA | Size | Type of CNVs | Categorization | Neurodevelopment-associated OMIM genes | Case 2 | arr6q21q22.31(112480040\u2013125575103)\u00d71 | 13.1 Mb | deletion | pathogenic | NUS1, MARCKS, HDAC2, NKAIN2, TBC1D32, CEP85L | Case 5 | arr3q12.1q13.32(99263876\u2013117649080)\u00d71 | 18.39 Mb | deletion | pathogenic | ZBTB11, NEPRO, ATG3, BOC, CFAP44, DRD3, IFT57, IMPG2, NECTIN3, TBC1D23, TFG, ZBTB20, ZDHHC23... ...g to epileptogenic hyperexcitability and disrupted auditory sensation circuitry. CCA broader genetic landscape Although SLC6A3 was the dominant locus in our findings, other pathogenic CNVs (e.g., NUS1, MARCKS, HDAC2, NKAIN2, TBC1D32, CEP85L in Case 2 and ZBTB11, NEPRO, ATG3, BOC, CFAP44, DRD3, IFT57, IMPG2, NECTIN3, TBC1D23, TFG, ZBTB20, ZDHHC23 in Case 5) align with emerging reports suggesting their roles in neurode...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38380230",
+   "title": "Case report: A new <i>de novo</i> 6q21q22.1 interstitial deletion case in a girl with cerebellar vermis hypoplasia and developmental delay and literature review.",
+   "abstract": "Interstitial deletions involving 6q chromosomal region are rare. Less than 30 patients have been described to date, and fewer have been characterized by high-resolution techniques, such as chromosomal microarray. Deletions involving 6q21q22.1 region are associated with an extremely wide and heterogeneous clinical spectrum, thus genotype-phenotype correlation based on the size of the rearranged region and on the involved genes is complex, even among individuals with overlapping deletions. Here we describe the phenotypic and molecular characterization of a new 6q interstitial deletion in a girl with developmental delay, intellectual disability, cerebellar vermis hypoplasia, facial peculiar characteristics, ataxia and ocular abnormalities. Microarray analysis of the proposita revealed a 7.9\u00a0Mb interstitial de novo deletion at 6q21q22.1 chromosomal region, which spanned from nucleotides 108,337,770 to 116,279,453 (GRCh38/hg38). The present case, alongside with a systematic review of the literature, provides further evidence that could aid to the definition of the Smallest Region of Overlap and of the genomic traits that are associated with particular phenotypes, focusing on neurological findings and especially on cerebellar anomalies. [full text, passages naming HDAC2] ...hi et al. (2017) studied a cohort of 41 patients through Next-Generation Sequencing and CMA techniques to identify candidate genomic aberrations to pontine and cerebellar hypoplasia. Haploinsufficiency of both HDAC2 (histone deacetylase 2) (MIM*605164) and MARCKS (myristoylated alanine-rich C kinase substrate) (MIM*177061) genes, which are contained in 6q21q22.1 chromosomal deletion, was speculated to be relevant in... ...lated alanine-rich C kinase substrate) (MIM*177061) genes, which are contained in 6q21q22.1 chromosomal deletion, was speculated to be relevant in neurological developmental disorders ( Hayashi et al., 2017 ). HDAC2 gene is zinc finger transcription factor ( Inouye and Seto, 1994 ) and plays a role in adult neurogenesis. It is required for full differentiation and survival of adult generated neurons, and it is dispen... ..., 1994 ) and plays a role in adult neurogenesis. It is required for full differentiation and survival of adult generated neurons, and it is dispensable during development ( Jawerka et al., 2010 ). In addition, HDAC2 expression could be involved in cell proliferation and differentiation in cell type- and developmental stage-specific patterns of expression in the developing cerebellum ( Yoo et al., 2013 ). MARCKS gene...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35875610": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30025943": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38884720": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33294796": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24375853": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30519361": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33413422": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16865089": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26209800": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40777322": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35256949": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32138755": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38417742": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33670166": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19174478": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38226432": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19465385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33859766": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27279362": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22935528": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29590609": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29159826": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37813627": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41034842": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41961925": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17718852": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40776401": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37632052": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38637827": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35468861": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "26052347": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31749842": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42649243": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40952176": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39224519": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31849603": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16288735": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30111726": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39666740": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26333423": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37100461": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18501342": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26890656": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37759530": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38865202": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35576810": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33986954": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34494550": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27568567": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34903606": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30806031": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38753158": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41980938": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39149328": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38018232": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11779848": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33968920": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28554894": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23876774": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16670375": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10773092": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42328790": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26165233": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10688661": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25605023": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18851967": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42297809": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41174994": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "19139378": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20331966": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33921015": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40175372": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39939763": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32820037": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27620904": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29679567": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19892411": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34333551": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40067382": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16642021": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29531362": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30228260": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30889214": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42450350": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42534475": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41751513": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39047730": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40933953": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39766920": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40847363": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41601423": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37009120": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41851816": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42190662": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38380230": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40318841": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41715211": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41504877": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33263776": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39414258": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41551188": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35662507": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42064979": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42835086": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40972577": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38091987": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 221,
+   "usd": 0.007265,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "31 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "8 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 3.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 5393,
+   "output_tokens": 202,
+   "usd": 0.006403,
+   "calls": 9
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 35.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.7,
+   "note": "",
+   "input_tokens": 44861,
+   "output_tokens": 1801,
+   "usd": 0.053866,
+   "calls": 8
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.8,
+   "note": "",
+   "input_tokens": 16886,
+   "output_tokens": 1171,
+   "usd": 0.113705,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>40</established>\n    <existing>48</existing>\n    <hypothesized>10</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Several human studies report de novo HDAC2 variants in probands with neurodevelopmental phenotypes: a de novo missense variant in a patient with a Cornelia de Lange-like phenotype (PMID 30806031), a de novo frameshift variant with functional characterization (mislocalization, altered acetylation, transcriptomic overlap with Rubinstein\u2013Taybi) in a chromatinopathy patient (PMID 38753158), and a de novo probably pathogenic variant among candidate genes in a syndromic intellectual disability panel cohort (PMID 27620904). A large-scale statistical analysis of de novo SNVs/CNVs ranked HDAC2 as a top high-confidence novel NDD candidate gene (PMID 35468861), while 6q21q22.1 deletion reports (PMIDs 26052347, 38380230, 40847363) implicate HDAC2 only as part of multigene CNVs and cannot isolate it. Supporting biology (class I HDAC in chromatin remodeling complexes with ADNP, SMARCC2, MECP2, UBE3A pathways) further strengthens plausibility, but the clinical evidence remains a small number of single probands with heterogeneous phenotypes and no formal disease-gene validation, so Existing is slightly more likely than Established.</justification>\n  <pmids>\n    <pmid>30806031</pmid>\n    <pmid>38753158</pmid>\n    <pmid>27620904</pmid>\n    <pmid>35468861</pmid>\n    <pmid>26052347</pmid>\n    <pmid>38380230</pmid>\n    <pmid>40847363</pmid>\n    <pmid>39047730</pmid>\n    <pmid>42649243</pmid>\n    <pmid>41174994</pmid>\n  </pmids>\n</response>"
+}

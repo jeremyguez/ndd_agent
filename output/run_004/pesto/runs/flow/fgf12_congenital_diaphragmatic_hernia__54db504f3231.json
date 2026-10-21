@@ -1,0 +1,698 @@
+{
+ "gene": "FGF12",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "diaphragmatic hernia, congenital",
+   "congenital hernia of the diaphragm",
+   "congenital diaphragmatic defect",
+   "Bochdalek hernia",
+   "posterolateral diaphragmatic hernia",
+   "Morgagni hernia",
+   "retrosternal diaphragmatic hernia",
+   "congenital herniation of abdominal viscera into the thorax"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "FHF1",
+   "FGF12B",
+   "fibroblast growth factor 12"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 65,
+  "titlekicksparingfulltext": 32,
+  "read": 14
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 2,
+   "Hypothesized": 7,
+   "Novel": 90
+  },
+  "justification": "None of the provided articles address congenital diaphragmatic hernia in any way. The FGF12 literature here is dominated by developmental and epileptic encephalopathy (recurrent p.Arg52His/p.Arg114His variants, duplications) and, secondarily, orofacial clefting associations in Scandinavian cleft cohorts. There is no report of diaphragmatic defects, diaphragm development, or lung/diaphragm morphogenesis linked to FGF12 in these abstracts, and no animal model or pathway evidence connecting FGF12 to diaphragm formation. A small residual probability is left for \"Hypothesized\" because FGF signaling broadly participates in mesenchymal development, but nothing in this evidence base supports even a biological hypothesis specific to CDH.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 2,
+   "Hypothesized": 7,
+   "Novel": 90
+  }
+ },
+ "articles": [
+  {
+   "pmid": "34086756",
+   "title": "Identification of 3'-UTR single nucleotide variants and prediction of select protein imbalance in mesial temporal lobe epilepsy patients.",
+   "abstract": "The genetic influence in epilepsy, characterized by unprovoked and recurrent seizures, is through variants in genes critical to brain development and function. We have carried out variant calling in Mesial Temporal Lobe Epilepsy (MTLE) patients by mapping the RNA-Seq data available at SRA, NCBI, USA onto human genome assembly hg-19. We have identified 1,75,641 SNVs in patient samples. These SNVs are distributed over 14700 genes of which 655 are already known to be associated with epilepsy. Large number of variants occur in the 3'-UTR, which is one of the regions involved in the regulation of protein translation through binding of miRNAs and RNA-binding proteins (RBP). We have focused on studying the structure-function relationship of the 3'-UTR SNVs that are common to at-least 10 of the 35 patient samples. For the first time we find SNVs exclusively in the 3'-UTR of FGF12, FAR1, NAPB, SLC1A3, SLC12A6, GRIN2A, CACNB4 and FBXO28 genes. Structural modelling reveals that the variant 3'-UTR segments possess altered secondary and tertiary structures which could affect mRNA stability and binding of RBPs to form proper ribonucleoprotein (RNP) complexes. Secondly, these SNVs have either created or destroyed miRNA-binding sites, and molecular modeling reveals that, where binding sites are created, the additional miRNAs bind strongly to 3'-UTR of only variant mRNAs. These two factors affect protein production thereby creating an imbalance in the amounts of select proteins in the cell. We suggest that in the absence of missense and nonsense variants, protein-activity imbalances associated with MTLE patients can be caused through 3'-UTR variants in relevant genes by the mechanisms mentioned above. 3'-UTR SNV has already been identified as causative variant in the neurological disorder, Tourette syndrome. Inhibition of these miRNA-mRNA bindings could be a novel way of treating drug-resistant MTLE patients. We also suggest that joint occurrence of these SNVs could serve as markers for MTLE. We find, in the present study, SNV-mediated destruction of miRNA binding site in the 3'-UTR of the gene encoding glutamate receptor subunit, and, interestingly, overexpression of one of this receptor subunit is also associated with Febrile Seizures.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "21319277",
+   "title": "Fetal genetic risk of isolated cleft lip only versus isolated cleft lip and palate: a subphenotype analysis using two population-based studies of orofacial clefts in Scandinavia.",
+   "abstract": "BACKGROUND: Cleft lip only (CLO) and cleft lip and palate (CLP) are commonly regarded as variants of the same defect and traditionally combined to form the single group of cleft lip with or without cleft palate (CL/P) prior to analysis. However, recent data have suggested that at least a subgroup of isolated CLO may be etiologically distinct from isolated CLP. METHODS: To explore fetal genetic risk of isolated CLO separately from isolated CLP, we performed a sub-phenotype analysis using two population-based studies of clefts in Scandinavia. One hundred and twenty-one isolated CLO, 190 isolated CLP, and 592 control triads were available from Norway(1996\u20132001), and a further 76 isolated CLO and 107 isolated CLP triads were available from Denmark (1991\u20132001). Genotypes for 1315 SNPs in 334 autosomal cleft candidate genes were analyzed using two complementary statistical methods, TRIMM and HAPLIN, to look for genetic associations across the two national samples. RESULTS: Both TRIMM and HAPLIN identified strong associations between FGF12 and isolated CLO in both populations. In addition, only TRIMM identified associations with IRF6 and VCL, and only HAPLIN found an association with CX43. When analyses were repeated on the larger sample of isolated CLP, no significant associations were found with FGF12, IRF6, VCL or CX43. CONCLUSIONS: Despite some inconsistency in the pattern of associations across the two populations, the associations themselves were phenotype-specific. While both IRF6 and FGF12 have previously shown strong associations with isolated CL/P, the associations with VCL and CX43 are novel and warrant further investigation in other isolated CLO samples.",
+   "found_by": [],
+   "pubdate": "2011 Feb",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "19401770",
+   "title": "Genetic determinants of facial clefting: analysis of 357 candidate genes using two national cleft studies from Scandinavia.",
+   "abstract": "BACKGROUND: Facial clefts are common birth defects with a strong genetic component. To identify fetal genetic risk factors for clefting, 1536 SNPs in 357 candidate genes were genotyped in two population-based samples from Scandinavia (Norway: 562 case-parent and 592 control-parent triads; Denmark: 235 case-parent triads). METHODOLOGY/PRINCIPAL FINDINGS: We used two complementary statistical methods, TRIMM and HAPLIN, to look for associations across these two national samples. TRIMM tests for association in each gene by using multi-SNP genotypes from case-parent triads directly without the need to infer haplotypes. HAPLIN on the other hand estimates the full haplotype distribution over a set of SNPs and estimates relative risks associated with each haplotype. For isolated cleft lip with or without cleft palate (I-CL/P), TRIMM and HAPLIN both identified significant associations with IRF6 and ADH1C in both populations, but only HAPLIN found an association with FGF12. For isolated cleft palate (I-CP), TRIMM found associations with ALX3, MKX, and PDGFC in both populations, but only the association with PDGFC was identified by HAPLIN. In addition, HAPLIN identified an association with ETV5 that was not detected by TRIMM. CONCLUSION/SIGNIFICANCE: Strong associations with seven genes were replicated in the Scandinavian samples and our approach effectively replicated the strongest previously known association in clefting--with IRF6. Based on two national cleft cohorts of similar ancestry, two robust statistical methods and a large panel of SNPs in the most promising cleft candidate genes to date, this study identified a previously unknown association with clefting for ADH1C and provides additional candidates and analytic approaches to advance the field.",
+   "found_by": [],
+   "pubdate": "2009",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "31311986",
+   "title": "Entire FGF12 duplication by complex chromosomal rearrangements associated with West syndrome.",
+   "abstract": "Complex rearrangements of chromosomes 3 and 9 were found in a patient presenting with severe epilepsy, developmental delay, dysmorphic facial features, and skeletal abnormalities. Molecular cytogenetic analysis revealed 46,XX.ish der(9)(3qter\u21923q28::9p21.1\u21929p22.3::9p22.3\u21929qter)(RP11-368G14+,RP11-299O8-,RP11-905L2++,RP11-775E6++). Her dysmorphic features are consistent with 3q29 microduplication syndrome and inv dup del(9p). Trio-based WES of the patient revealed no pathogenic single nucleotide variants causing epilepsy, but confirmed a 3q28q29 duplication involving FGF12, which encodes fibroblast growth factor 12. FGF12 positively regulates the activity of voltage-gated sodium channels. Recently, only one recurrent gain-of-function variant [NM_021032.4:c.341G>A:p.(Arg114His)] in FGF12 was found in a total of 10 patients with severe early-onset epilepsy. We propose that the patient's entire FGF12 duplication may be analogous to the gain-of-function variant in FGF12 in the epileptic phenotype of this patient.",
+   "found_by": [],
+   "pubdate": "2019 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38715525",
+   "title": "FGF12 copy number variant associated with epileptic encephalopathy.",
+   "abstract": "FGF12 related epilepsy presents with variable phenotypes. We report another patient with a duplication involving the FGF12 gene who presented similar to other published cases having normal early development and responded to phenytoin.",
+   "found_by": [],
+   "pubdate": "2024 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33349918",
+   "title": "Genetic diagnosis of infantile-onset epilepsy in the clinic: Application of whole-exome sequencing following epilepsy gene panel testing.",
+   "abstract": "This study aimed to evaluate the clinical utility of whole-exome sequencing in a group of infantile-onset epilepsy patients who tested negative for epilepsy using a gene panel test. Whole-exome sequencing was performed on 59 patients who tested negative on customized epilepsy gene panel testing. We identified eight pathogenic or likely pathogenic sequence variants in eight different genes (FARS2, YWHAG, KCNC1, DYRK1A, SMC1A, PIGA, OGT, and FGF12), one pathogenic structural variant (8.6 Mb-sized deletion on chromosome X [140\u2009994\u2009419-149\u2009630\u2009805]), and three putative low-frequency mosaic variants from three different genes (GABBR2, MTOR, and CUX1). Subsequent whole-exome sequencing revealed an additional 8% of diagnostic yield with genetic confirmation of epilepsy in 55.4% (62/112) of our cohort. Three genes (YWHAG, KCNC1, and FGF12) were identified as epilepsy-causing genes after the original gene panel was designed. The others were initially linked with mitochondrial encephalopathy or different neurodevelopmental disorders, although an epilepsy phenotype was listed as one of the clinical features. Application of whole-exome sequencing following epilepsy gene panel testing provided 8% of additional diagnostic yield in an infantile-onset epilepsy cohort. Whole-exome sequencing could provide an opportunity to reanalyze newly recognized epilepsy-linked genes without updating the gene panel design.",
+   "found_by": [],
+   "pubdate": "2021 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27872899",
+   "title": "De novo FGF12 mutation in 2 patients with neonatal-onset epilepsy.",
+   "abstract": "OBJECTIVE: We describe 2 additional patients with early-onset epilepsy with a de novo FGF12 mutation. METHODS: Whole-exome sequencing was performed in 2 unrelated patients with early-onset epilepsy and their unaffected parents. Genetic variants were assessed by comparative trio analysis. Clinical evolution, EEG, and neuroimaging are described. The phenotype and response to treatment was reviewed and compared to affected siblings in the original report. RESULTS: We identified the same FGF12 de novo mutation reported previously (c.G155A, p.R52H) in 2 additional patients with early-onset epilepsy. Similar to the original brothers described, both presented with tonic seizures in the first month of life. In the first patient, seizures responded to sodium channel blockers and her development was normal at 11 months. Patient 2 is a 15-year-old girl with treatment-resistant focal epilepsy, moderate intellectual disability, and autism. Carbamazepine (sodium channel blocker) was tried later in her course but not continued due to an allergic reaction. CONCLUSIONS: The identification of a recurrent de novo mutation in 2 additional unrelated probands with early-onset epilepsy supports the role of FGF12 p.R52H in disease pathogenesis. Affected carriers presented with similar early clinical phenotypes; however, this report expands the phenotype associated with this mutation which contrasts with the progressive course and early mortality of the siblings in the original report.",
+   "found_by": [],
+   "pubdate": "2016 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42185328",
+   "title": "Expanding the phenotypic spectrum of FGF12-epilepsy-does prompt precision therapy affect outcomes?",
+   "abstract": "Fibroblast growth factor-12 (FGF12) variants have been associated with developmental and epileptic encephalopathy (DEE) with evidence of modulation of voltage-gated sodium channels Nav1.2 and Nav1.6. We aim to expand the phenotypic spectrum of FGF12-related epilepsy with emphasis on precision therapy. We describe 12 patients: eight with neonatal onset seizures with the recurrent p.Arg52His (c.155\u2009G\u2009>\u2009A) variant, two with a previously unreported p.Glu153Gly (c.458\u2009A\u2009>\u2009G) variant, one with a p.Gly50Ser (c.148\u2009G\u2009>\u2009A) variant, and one with a de novo whole-gene duplication. Atypical absence seizures were present in 5/12 patients. Brain MRI was normal in 10/12; one patient's MRIs showed progressive cerebellar atrophy, and one patient's MRI showed a hemispheric infarct. 8 patients promptly started on sodium channel blockers became seizure-free with good developmental outcomes while 4 developed DEE. In summary, we expand the phenotypic spectrum of FGF12-related epilepsy and discuss the role of early precision therapy in developmental and epilepsy outcomes.",
+   "found_by": [],
+   "pubdate": "2026 May 25",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31292943",
+   "title": "FGF12p.Gly112Ser variant as a cause of phenytoin/phenobarbital responsive epilepsy.",
+   "abstract": "A patient harboring a novel p.Gly112Ser variant in FGF12 gene had a positive response to phenytoin/phenobarbital treatment. All the 11 previously reported FGF12-associated epilepsy cases had a single neighboring p.(Arg114His) variant and presented similar phenotype.",
+   "found_by": [],
+   "pubdate": "2019 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34020858",
+   "title": "Effective treatments for FGF12-related early-onset epileptic encephalopathies patients.",
+   "abstract": "BACKGROUND: FGF12 (FHF1) gene encodes voltage-gated sodium channel (Nav)-binding protein fibroblast growth factor homologous factor 1, which could cause seizures by regulating voltage dependence of Nav fast inactivation and neuron excitability. The most common pathogenic variant FGF12 c.341G\u00a0>\u00a0A related early-onset epileptic encephalopathies (EOEE) was characterized by intractable seizures and developmental disabilities. RESULTS: Using whole exome sequencing, a de novo hotspot variant c.341G\u00a0>\u00a0A (NM_021032.4) of FGF12 was identified in three unrelated EOEE probands. All probands were seizure free after a combination treatment of valproic acid (VPA) and topiramate (TPM). The motor and cognitive skills in two probands were improved due to the early and effective treatment. In order to compare the effectiveness of different treatment strategies for the disease, a review of treatments for FGF12-related epilepsy was made. CONCLUSION: We reported three FGF12 c.341G\u00a0>\u00a0A related EOEE patients responded well to a combination antiepileptic therapy of VPA and TPM. The current study is the first to describe the combination therapy of VPA and TPM in FGF12 c.341G\u00a0>\u00a0A related EOEE patients. This study may contribute to future medication consultation for intractable epilepsy with FGF12 hotspot variants.",
+   "found_by": [],
+   "pubdate": "2021 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41655495",
+   "title": "Characterization of an induced pluripotent stem cell line (SDCHi010-A) from a young patient with epilepsy.",
+   "abstract": "Epilepsy is a group of chronic brain disorders characterized by recurrent, episodic, and transient dysfunction of the central nervous system caused by abnormal, excessive neuronal discharges. In this study, peripheral blood mononuclear cells (PBMCs) were isolated from a young patient bearing an FGF12 gene mutation and suffering from clinically and genetically diagnosed epilepsy. Induced pluripotent stem cells (iPSCs) were established using a non-integrative method involving plasmids carrying OCT4, SOX2, KLF4, BCL-XL, and C-MYC. The resulting iPSCs exhibited typical pluripotent cell morphology, a normal karyotype, and the potential to differentiate into all three germ layers.",
+   "found_by": [],
+   "pubdate": "2026 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40838839",
+   "title": "Long-read sequencing of recurrent FGF12 duplications in epilepsy: Insights into structural mechanisms and aberrant isoforms.",
+   "abstract": "OBJECTIVE: Fibroblast growth factor 12 (FGF12), a member of the fibroblast homologous factor family, plays a key role in the modulation of voltage-gated sodium (Nav) channels. Pathogenic variants in the FGF12 gene leading to a gain-of-function mechanism and partial duplication encompassing the FGF12 gene leading to a loss-of-function mechanism are associated with developmental and epileptic encephalopathy (DEE), characterized by developmental delay, intellectual disability, ataxia, and drug-resistant epilepsy. We report two patients with DEE harboring de novo recurrent intragenic duplications of FGF12 identified by long-read sequencing (LRS). METHODS: We applied LRS to the DNA and cDNA of patients with FGF12 duplication to fully characterize the DNA's structural organization and its transcriptional consequences. Additionally, we reanalyzed electroencephalographic (EEG) data from patients at different timepoints to identify phenotypical specificities and refine the electroclinical spectrum. RESULTS: These duplications, spanning approximately 536\u2009kbp, were mediated by nonallelic homologous recombination between L1PA2 elements (LINE-1 Primate-specific subfamily A, number 2). cDNA analysis revealed aberrant transcripts, one predicted to encode an elongated FGF12 protein and another leading to premature termination. Both patients shared overlapping clinical features, including postepilepsy onset regression, global developmental delay, and ataxia. EEG studies revealed a marked early encephalopathic pattern with disorganized and high-voltage slow background activity with multifocal spikes at onset evolving later into subcontinuous generalized spike and wave activation. SIGNIFICANCE: Our findings are consistent with previous reports linking structural variants to functional disruption, suggesting impaired Nav channel activity due to a shift in inactivation to hyperpolarized potential, leading to a loss-of-function effect. These findings underscore the utility of LRS for DNA and cDNA analysis in resolving structural variants and expanding the electroclinical spectrum of patients with FGF12 duplications.",
+   "found_by": [],
+   "pubdate": "2025 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29699863",
+   "title": "Two Japanese cases of epileptic encephalopathy associated with an FGF12 mutation.",
+   "abstract": "A heterozygous mutation in the fibroblast growth factor 12 (FGF12) gene, which elevates the voltage dependence of neuronal sodium channel fast inactivation, was recently identified in some patients with epileptic encephalopathy. Here we report 1 Japanese patient diagnosed with early infantile epileptic encephalopathy (EIEE) and another diagnosed with epilepsy of infancy with migrating focal seizures (EIMFS). These 2 patients had an identical heterozygous missense mutation [c.341G>A:p.(Arg114His)] in FGF12 , which was identified with whole-exome sequencing. This mutation is identical to previously reported mutations in cases with early onset epileptic encephalopathy. One of our cases exhibited EIMFS, and this case responded to phenytoin and high-dose phenobarbital (PB). FGF12-related epileptic encephalopathy may exhibit diverse phenotypes and may respond to sodium channel blockers or high-dose PB.",
+   "found_by": [],
+   "pubdate": "2018 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33186347",
+   "title": "Tumorous congenital calcinosis cutis associated with early childhood epileptic encephalopathy with a pathogenic FGF12 gene variant.",
+   "abstract": "BACKGROUND: Calcinosis cutis is the deposit of insoluble calcium salts in the skin. It is classified according to its pathogenesis in dystrophic, metastatic, idiopathic, iatrogenic, and calciphylaxis. Idiopathic calcinosis is asymptomatic, occurs in healthy patients, and includes scrotal calcinosis, Winer's nodular calcinosis or subepidermal calcified nodules, and familial tumor calcinosis. The latter is a rare condition characterized by periarticular calcium deposition in normocalcemic patients with no bone connection. CASE REPORT: The case of a 5-month-old male patient, who on the seventh day of life was hospitalized for multifactorial jaundice, late neonatal sepsis, and apnea with epileptic seizures is described. His evolution was torpid, with hospital admissions due to epileptic seizures that were difficult to manage with partial response to the use of diphenylhydantoin and electrolyte alterations. By means of exome sequencing directed, a pathogenic variant of wrong direction in FGF12 was detected and the diagnosis of early epileptic encephalopathy number 47 was confirmed. Also, the patient showed disseminated congenital dermatosis to lower extremities affecting thighs, asymptomatic, bilateral and symmetrical, constituted by hypopigmentation and fovea hard to deep palpation. The biopsy showed dystrophic calcification. CONCLUSIONS: The case of an infant with deep congenital cutis calcinosis associated with a pathogenic variant in the FGF12 gene with epileptic encephalopathy is described. To date, this clinical situation has not been previously reported in the literature.",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "variant"
+  }
+ ],
+ "labels": {
+  "27637763": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38927731": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41979475": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17678857": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12584245": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23528308": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33233562": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12815063": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26663319": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12401812": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23679094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37654020": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41540272": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26392562": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41367933": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20301690": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35461751": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12483295": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12197469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25326864": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28814763": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18069126": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40452844": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30873760": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20083228": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42555659": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33778967": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31957018": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29216221": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25843910": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35592651": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35092367": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27830185": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31559137": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39234815": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34086756": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41294881": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21319277": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "19401770": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26290467": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37286232": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27164707": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31311986": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41449082": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38715525": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33349918": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33639159": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32950810": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23097049": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28506426": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36029553": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32524056": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27872899": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39142611": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42185328": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31292943": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "24096171": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34020858": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33982289": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21518765": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41655495": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40838839": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29699863": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "21566136": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33186347": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.2,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 367,
+   "usd": 0.010925,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "20 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 4.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 4186,
+   "output_tokens": 198,
+   "usd": 0.005176,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 1.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 16934,
+   "output_tokens": 766,
+   "usd": 0.020764,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 6.3,
+   "note": "",
+   "input_tokens": 8534,
+   "output_tokens": 510,
+   "usd": 0.05542,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>2</existing>\n    <hypothesized>7</hypothesized>\n    <novel>90</novel>\n  </probabilities>\n  <justification>None of the provided articles address congenital diaphragmatic hernia in any way. The FGF12 literature here is dominated by developmental and epileptic encephalopathy (recurrent p.Arg52His/p.Arg114His variants, duplications) and, secondarily, orofacial clefting associations in Scandinavian cleft cohorts. There is no report of diaphragmatic defects, diaphragm development, or lung/diaphragm morphogenesis linked to FGF12 in these abstracts, and no animal model or pathway evidence connecting FGF12 to diaphragm formation. A small residual probability is left for \"Hypothesized\" because FGF signaling broadly participates in mesenchymal development, but nothing in this evidence base supports even a biological hypothesis specific to CDH.</justification>\n  <pmids>\n    <pmid>27872899</pmid>\n    <pmid>42185328</pmid>\n    <pmid>29699863</pmid>\n    <pmid>21319277</pmid>\n    <pmid>19401770</pmid>\n    <pmid>40838839</pmid>\n    <pmid>33186347</pmid>\n  </pmids>\n</response>"
+}

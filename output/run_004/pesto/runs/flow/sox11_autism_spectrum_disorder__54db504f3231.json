@@ -1,0 +1,866 @@
+{
+ "gene": "SOX11",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "autistic behavior",
+   "Kanner syndrome",
+   "autistic features"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "SRY-box transcription factor 11"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 89,
+  "titlekicksparingfulltext": 36,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 42,
+   "Existing": 44,
+   "Hypothesized": 12,
+   "Novel": 2
+  },
+  "justification": "Multiple human studies report de novo point variants in SOX11 (missense/nonsense) in patients with a neurodevelopmental syndrome (IDDMOH / Coffin-Siris-like), and autism/autistic features are explicitly part of the phenotype: PMID 39333428 describes seven new patients with de novo SOX11 variants of whom 5/7 had autism/ADHD, PMID 37916390 documents autistic-feature subscale impairment in verbal individuals with SOX11 syndrome, and PMID 33921431 identified a de novo SOX11 missense variant in an ASD diagnostic WES cohort. PMID 33970367 further prioritized SOX11 as a cross-disorder de novo mutation candidate gene including ASD cases, and PMID 34205270 notes SOX-related BAF variants are most associated with neurodevelopmental/behavioral differences. These are human, point-variant based and from independent cohorts, supporting a causal link, though ASD here is a feature of a broader syndromic ID phenotype rather than isolated autism, and the deletion-based report (PMID 18992374) cannot single out SOX11. Supporting mechanistic/animal data (PMID 34184026, 24886874, 40950130) is consistent but secondary.",
+  "pmids": [],
+  "detail": {
+   "Established": 42,
+   "Existing": 44,
+   "Hypothesized": 12,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "34184026",
+   "title": "scRNA sequencing uncovers a TCF4-dependent transcription factor network regulating commissure development in mouse.",
+   "abstract": "Transcription factor 4 (TCF4) is a crucial regulator of neurodevelopment and has been linked to the pathogenesis of autism, intellectual disability and schizophrenia. As a class I bHLH transcription factor (TF), it is assumed that TCF4 exerts its neurodevelopmental functions through dimerization with proneural class II bHLH TFs. Here, we aim to identify TF partners of TCF4 in the control of interhemispheric connectivity formation. Using a new bioinformatic strategy integrating TF expression levels and regulon activities from single cell RNA-sequencing data, we find evidence that TCF4 interacts with non-bHLH TFs and modulates their transcriptional activity in Satb2+ intercortical projection neurons. Notably, this network comprises regulators linked to the pathogenesis of neurodevelopmental disorders, e.g. FOXG1, SOX11 and BRG1. In support of the functional interaction of TCF4 with non-bHLH TFs, we find that TCF4 and SOX11 biochemically interact and cooperatively control commissure formation in vivo, and regulate the transcription of genes implicated in this process. In addition to identifying new candidate interactors of TCF4 in neurodevelopment, this study illustrates how scRNA-Seq data can be leveraged to predict TF networks in neurodevelopmental processes.",
+   "found_by": [],
+   "pubdate": "2021 Jul 15",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37916390",
+   "title": "Impaired communication ability in SOX11 syndrome.",
+   "abstract": "BACKGROUND: Speech and language skills are important for social interaction and learning. This study characterised the communication abilities of verbal individuals with SOX11 syndrome using a standardised parent/carer questionnaire, the Children's Communication Checklist (CCC-2). METHOD: Thirteen parent/carers of verbal individuals (aged 5-19\u00a0years) diagnosed with SOX11 syndrome completed the CCC-2. In order to contextualise findings, responses were compared to norms and to data from Noonan syndrome, a relatively well-known genetic diagnosis associated with communication impairment. RESULTS: For all individuals, the CCC-2 composite score indicated significant communication difficulties. Language structure (speech, syntax, semantics and coherence), pragmatic language (inappropriate initiation, stereotyped language use of context and non-verbal communication) and autistic features (social relations and interests) scores were lower than typically developing norms. Subscale comparisons revealed relative difference in use of context compared to other pragmatic domains (stereotyped language and inappropriate initiation). Individual scores showed substantial variation, particularly in regard to language structure profile. Differences were more pronounced than for Noonan syndrome, specifically in domains of speech, syntax, non-verbal communication and social relations. CONCLUSIONS: SOX11 syndrome is associated with communication impairment. It is important to assess communication abilities as part of the management of individuals with SOX11 syndrome and understand individual strengths and difficulties in order to provide targeted support.",
+   "found_by": [],
+   "pubdate": "2024 Mar",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40950130",
+   "title": "Morphogen-guided neocortical organoids recapitulate regional areal identity and model neurodevelopmental disorder pathology.",
+   "abstract": "The human neocortex exhibits characteristic regional patterning (arealization) critical for higher-order cognitive function. Disrupted arealization is strongly implicated in neurodevelopmental disorders (NDDs), but current neocortical organoid models largely fail to recapitulate this patterning, limiting mechanistic understanding. Here, we establish a straightforward method for generating arealized organoids through short-term early exposure to anterior (FGF8) or posterior (BMP4/CHIR-99021) morphogens. These treatments created distinct anterior and posterior signaling centers, supporting long-lasting polarization, which we validated with single-cell RNA sequencing that revealed area-specific molecular signatures matching prenatal human cortex. To demonstrate the utility of this platform, we modeled Fragile X Syndrome (FXS) in organoids with distinct anterior and posterior regional identities. FXS organoids showed highly disrupted SOX4/SOX11 expression gradients along the anterior-posterior axis, consistent with alterations found in autism spectrum disorder (ASD) and demonstrate how regional patterning defects may contribute to NDD pathology. Together, our study provides a robust platform for generating neocortical organoids with anterior-posterior molecular signatures and highlights the importance of modeling NDDs using experimental platforms with neuroanatomic specificity.",
+   "found_by": [],
+   "pubdate": "2025 Sep 3",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "39333428",
+   "title": "Novel variants in the SOX11 gene: clinical description of seven new patients.",
+   "abstract": "Pathogenic SOX11 variants have been associated with intellectual developmental disorder with microcephaly, and with or without ocular malformations or hypogonadotropic hypogonadism (HH) (IDDMOH, OMIM # 615866). In this article, we report seven new patients with de novo SOX11 variants. Five of the variants are missense, one nonsense, and one whole-gene deletion, most of them are novel variants. The main clinical features included neurodevelopmental delay (7/7) and intellectual disability (5/7), autism/attention deficit hyperactivity disorder (5/7), microcephaly (4/7), short stature (4/7), hypotonia (4/7), and clinodactyly of the 5th fingers (5/7). HH was confirmed in two female patients with primary amenorrhea, nonvisualized/prepubertal size of the uterus, and nonvisualized ovaries. Two of the male patients presented with micropenis, two had cryptorchidism, and one had decreased testicular size, which are suggestive findings of HH. This article contributes to the clinical characterization of patients with SOX11 variants and supports the role of this gene in HH.",
+   "found_by": [],
+   "pubdate": "2024 Dec",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "18992374",
+   "title": "Deletion 2p25.2: a cryptic chromosome abnormality in a patient with autism and mental retardation detected using aCGH.",
+   "abstract": "We describe a 7-year-old patient with autism, moderate mental retardation, secondary microcephaly, agenesis of right optic nerve, and dysmorphic features carrying a de novo cryptic deletion of chromosome 2p25.2, detected by aCGH. Pure monosomies of 2p are very rare, and are usually observed as part of more complex aberrations involving other chromosomes. To the best of our knowledge, this is the first case presenting with a severe clinical phenotype and a de novo pure deletion of 2p25.2. The phenotypic effects of this rearrangement and the role of SOX11 gene, removed in our case, are herein discussed.",
+   "found_by": [],
+   "pubdate": "2009 Jan-Feb",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38117302",
+   "title": "Delineation of the adult phenotype of Coffin-Siris syndrome in 35 individuals.",
+   "abstract": "Coffin-Siris syndrome (CSS) is a rare multisystemic autosomal dominant disorder. Since 2012, alterations in genes of the SWI/SNF complex were identified as the molecular basis of CSS, studying largely pediatric cohorts. Therefore, there is a lack of information on the phenotype in adulthood, particularly on the clinical outcome in adulthood and associated risks. In an international collaborative effort, data from 35 individuals \u2265\u200918\u00a0years with a molecularly ascertained CSS diagnosis (variants in ARID1B, ARID2, SMARCA4, SMARCB1, SMARCC2, SMARCE1, SOX11, BICRA) using a comprehensive questionnaire was collected. Our results indicate that overweight and obesity are frequent in adults with CSS. Visual impairment, scoliosis, and behavioral anomalies are more prevalent than in published pediatric or mixed cohorts. Cognitive outcomes range from profound intellectual disability (ID) to low normal IQ, with most individuals having moderate ID. The present study describes the first exclusively adult cohort of CSS individuals. We were able to delineate some features of CSS that develop over time and have therefore been underrepresented in previously reported largely pediatric cohorts, and provide recommendations for follow-up.",
+   "found_by": [],
+   "pubdate": "2024 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "35126043",
+   "title": "Language Impairments in Individuals With Coffin-Siris Syndrome.",
+   "abstract": "Coffin-Siris syndrome (CSS, MIM 135900) is a now well-described, multiple congenital anomaly/intellectual disability syndrome classically characterized by fifth digit/nail hypoplasia, coarse facial features, and a range of organ-system related anomalies. Since its initial description in 1970, and the discovery of associated genes in 2011, CSS now encompasses a wide range of phenotypes and abilities caused by pathogenic variants in the BAF complex (often referred to as \"BAFopathy\"). It appears that the BAF complex leads to speech and language impairments in this population, and subsequently we have reviewed individuals in the CSS/BAF registry to understand the prevalence and degree of this particular learning difference. We have examined the frequency of delayed language acquisition, augmented communication device use, and speech intervention therapies. To aid in language progression, childhood speech interventions are necessary in children with a diagnosis of CSS. While the majority of children with pathogenic variants in the BAF complex have language-related struggles, the exact mechanism is not yet fully understood. At the time of writing, there are 284 individuals in the CSS/BAF registry with known variants in the following genes; ARID1B (n = 174), SMARCA4 (n = 41), ARID1A (n = 20), SMARCB1 (n = 20), ARID2 (n = 14), SOX11 (n = 10), and SMARCE1 (n = 5). While speech delays in individuals with CSS are expected, a full analysis of these delays has yet to be detailed. In the CSS/BAF registry, we identified 183 (64%) individuals with language-related challenges and 90 (32%) individuals that are non-verbal.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "38318288",
+   "title": "The value of genome-wide analysis in craniosynostosis.",
+   "abstract": "Background: This study assessed the diagnostic yield of high-throughput sequencing methods in a cohort of craniosynostosis (CS) patients not presenting causal variants identified through previous targeted analysis. Methods: Whole-genome or whole-exome sequencing (WGS/WES) was performed in a cohort of 59 patients (from 57 families) assessed by retrospective phenotyping as having syndromic or nonsyndromic CS. Results: A syndromic form was identified in 51% of the unrelated cases. A genetic cause was identified in 38% of syndromic cases, with novel variants detected in FGFR2 (a rare Alu insertion), TWIST1, TCF12, KIAA0586, HDAC9, FOXP1, and NSD2. Additionally, we report two patients with rare recurrent variants in KAT6A and YY1 as well as two patients with structural genomic aberrations: one with a 22q13 duplication and one with a complex rearrangement involving chromosome 2 (2p25 duplication including SOX11 and deletion of 2q22). Moreover, we identified potentially relevant variants in 87% of the remaining families with no previously detected causal variants, including novel variants in ADAMTSL4, ASH1L, ATRX, C2CD3, CHD5, ERF, H4C5, IFT122, IFT140, KDM6B, KMT2D, LTBP1, MAP3K7, NOTCH2, NSD1, SOS1, SPRY1, POLR2A, PRRX1, RECQL4, TAB2, TAOK1, TET3, TGFBR1, TCF20, and ZBTB20. Conclusion: These results confirm WGS/WES as a powerful diagnostic tool capable of either targeted in silico or broad genomic analysis depending on phenotypic presentation (e.g., classical or unusual forms of syndromic CS).",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34205270",
+   "title": "Genotype-Phenotype Correlations in 208 Individuals with Coffin-Siris Syndrome.",
+   "abstract": "Coffin-Siris syndrome (CSS, MIM 135900) is a multi-system intellectual disability syndrome characterized by classic dysmorphic features, developmental delays, and organ system anomalies. Genes in the BRG1(BRM)-associated factors (BAF, Brahma associated factor) complex have been shown to be causative, including ARID1A, ARID1B, ARID2, DPF2, SMARCA4, SMARCB1, SMARCC2, SMARCE1, SOX11, and SOX4. In order to describe more robust genotype-phenotype correlations, we collected data from 208 individuals from the CSS/BAF complex registry with pathogenic variants in seven of these genes. Data were organized into cohorts by affected gene, comparing genotype groups across a number of binary and quantitative phenotypes. We determined that, while numerous phenotypes are seen in individuals with variants in the BAF complex, hypotonia, hypertrichosis, sparse scalp hair, and hypoplasia of the distal phalanx are still some of the most common features. It has been previously proposed that individuals with ARID-related variants are thought to have more learning and developmental struggles, and individuals with SMARC-related variants, while they also have developmental delay, tend to have more severe organ-related complications. SOX-related variants also have developmental differences and organ-related complications but are most associated with neurodevelopmental differences. While these generalizations still overall hold true, we have found that all individuals with BAF-related conditions are at risk of many aspects of the phenotype, and management and surveillance should be broad.",
+   "found_by": [],
+   "pubdate": "2021 Jun 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "24886874",
+   "title": "De novo SOX11 mutations cause Coffin-Siris syndrome.",
+   "abstract": "Coffin-Siris syndrome (CSS) is a congenital disorder characterized by growth deficiency, intellectual disability, microcephaly, characteristic facial features and hypoplastic nails of the fifth fingers and/or toes. We previously identified mutations in five genes encoding subunits of the BAF complex, in 55% of CSS patients. Here we perform whole-exome sequencing in additional CSS patients, identifying de novo SOX11 mutations in two patients with a mild CSS phenotype. sox11a/b knockdown in zebrafish causes brain abnormalities, potentially explaining the brain phenotype of CSS. SOX11 is the downstream transcriptional factor of the PAX6-BAF complex, highlighting the importance of the BAF complex and SOX11 transcriptional network in brain development.",
+   "found_by": [],
+   "pubdate": "2014 Jun 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31530938",
+   "title": "Genetic abnormalities in a large cohort of Coffin-Siris syndrome patients.",
+   "abstract": "Coffin-Siris syndrome (CSS, MIM#135900) is a congenital disorder characterized by coarse facial features, intellectual disability, and hypoplasia of the fifth digit and nails. Pathogenic variants for CSS have been found in genes encoding proteins in the BAF (BRG1-associated factor) chromatin-remodeling complex. To date, more than 150 CSS patients with pathogenic variants in nine BAF-related genes have been reported. We previously reported 71 patients of whom 39 had pathogenic variants. Since then, we have recruited an additional 182 CSS-suspected patients. We performed comprehensive genetic analysis on these 182 patients and on the previously unresolved 32 patients, targeting pathogenic single nucleotide variants, short insertions/deletions and copy number variations (CNVs). We confirmed 78 pathogenic variations in 78 patients. Pathogenic variations in ARID1B, SMARCB1, SMARCA4, ARID1A, SOX11, SMARCE1, and PHF6 were identified in 48, 8, 7, 6, 4, 1, and 1 patients, respectively. In addition, we found three CNVs including SMARCA2. Of particular note, we found a partial deletion of SMARCB1 in one CSS patient and we thoroughly investigated the resulting abnormal transcripts.",
+   "found_by": [],
+   "pubdate": "2019 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30123105",
+   "title": "Mutational Landscapes and Phenotypic Spectrum of SWI/SNF-Related Intellectual Disability Disorders.",
+   "abstract": "Mutations in genes that encode proteins of the SWI/SNF complex, called BAF complex in mammals, cause a spectrum of disorders that ranges from syndromic intellectual disability to Coffin-Siris syndrome (CSS) to Nicolaides-Baraitser syndrome (NCBRS). While NCBRS is known to be a recognizable and restricted phenotype, caused by missense mutations in SMARCA2, the term CSS has been used lately for a more heterogeneous group of phenotypes that are caused by mutations in either of the genes ARID1B, ARID1A, ARID2, SMARCA4, SMARCB1, SMARCE1, SOX11, or DPF2. In this review, we summarize the current knowledge on the phenotypic traits and molecular causes of the above named conditions, consider the question whether a clinical distinction of the phenotypes is still adequate, and suggest the term \"SWI/SNF-related intellectual disability disorders\" (SSRIDDs). We will also outline important features to identify the ARID1B-related phenotype in the absence of classic CSS features, and discuss distinctive and overlapping features of the SSRIDD subtypes. Moreover, we will briefly review the function of the SWI/SNF complex in development and describe the mutational landscapes of the genes involved in SSRIDD.",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35341651",
+   "title": "SOX11 variants cause a neurodevelopmental disorder with infrequent ocular malformations and hypogonadotropic hypogonadism and with distinct DNA methylation profile.",
+   "abstract": "PURPOSE: This study aimed to undertake a multidisciplinary characterization of the phenotype associated with SOX11 variants. METHODS: Individuals with protein altering variants in SOX11 were identified through exome and genome sequencing and international data sharing. Deep clinical phenotyping was undertaken by referring clinicians. Blood DNA methylation was assessed using Infinium MethylationEPIC array. The expression pattern of SOX11 in developing human brain was defined using RNAscope. RESULTS: We reported 38 new patients with SOX11 variants. Idiopathic hypogonadotropic hypogonadism was confirmed as a feature of SOX11 syndrome. A distinctive pattern of blood DNA methylation was identified in SOX11 syndrome, separating SOX11 syndrome from other BAFopathies. CONCLUSION: SOX11 syndrome is a distinct clinical entity with characteristic clinical features and episignature differentiating it from BAFopathies.",
+   "found_by": [],
+   "pubdate": "2022 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "28787104",
+   "title": "Coffin-Siris syndrome and cardiac anomaly with a novel SOX11 mutation.",
+   "abstract": "Coffin-Siris syndrome (CSS) is characterized by growth deficiency, intellectual disability, microcephaly, dysmorphic features, and hypoplastic nails of the fifth fingers and/or toes. Variants in the genes encoding subunits of the BAF complex as well as in SOX11 encoding the transcriptional factor under the control of BAF complex are associated with CSS. We report a new patient with a novel SOX11 mutation. He showed the CSS phenotype and coarctation of the aorta. Sox11 is known to be associated with cardiac outflow development in mouse studies. Therefore, cardiac anomalies might be an important complication in patients with SOX11 mutations.",
+   "found_by": [],
+   "pubdate": "2018 May",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33921431",
+   "title": "Towards a Change in the Diagnostic Algorithm of Autism Spectrum Disorders: Evidence Supporting Whole Exome Sequencing as a First-Tier Test.",
+   "abstract": "Autism spectrum disorder (ASD) is a prevalent and extremely heterogeneous neurodevelopmental disorder (NDD) with a strong genetic component. In recent years, the clinical relevance of de novo mutations to the aetiology of ASD has been demonstrated. Current guidelines recommend chromosomal microarray (CMA) and a FMR1 testing as first-tier tests, but there is increasing evidence that support the use of NGS for the diagnosis of NDDs. Specifically in ASD, it has not been extensively evaluated and, thus, we performed and compared the clinical utility of CMA, FMR1 testing, and/or whole exome sequencing (WES) in a cohort of 343 ASD patients. We achieved a global diagnostic rate of 12.8% (44/343), the majority of them being characterised by WES (33/44; 75%) compared to CMA (9/44; 20.4%) or FMR1 testing (2/44; 4.5%). Taking into account the age at which genetic testing was carried out, we identified a causal genetic alteration in 22.5% (37/164) of patients over 5 years old, but only in 3.9% (7/179) of patients under this age. Our data evidence the higher diagnostic power of WES compared to CMA in the study of ASD and support the implementation of WES as a first-tier test for the genetic diagnosis of this disorder, when there is no suspicion of fragile X syndrome. [full text, passages naming SOX11] ...ue and had been previously described in the Simons Foundation Autism Research Initiative (SFARI) database associated with ASD, with the exception of 7 genes ( CLTC , FGD1 , HIST1H1E , IFIH1 , PIGG , PMM2 , and SOX11 ) associated with other disorders in which ASD-like symptoms could also be present. Only three genes ( ANKRD11 , MECP2 , and MED13L ) were found to be altered twice in non-related patients. Interestingly,... ...ivity. | \u226560 K | Normal | | SHANK3 | NM_033517.1 het | c.3525delG | p.Asp1176ThrfsTer4 | n/a | 19NG1178 | M | 10 | ASD. Intellectual disability, especially in language. ADHD. Short stature. | \u226560K | Normal | | SOX11 | NM_003108.3 het | c.155C>A | p.Phe52Gln | No mat | 19NG1126 | F | 5 | Psychomotor delay. No language. Microcephaly, seizures. Peculiar phenotype. | 180 K | Normal | | FOXG1 | NM_005249.4 het | c.553A>G...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33970367",
+   "title": "Cross-Disorder Analysis of De Novo Mutations in Neuropsychiatric Disorders.",
+   "abstract": "The clinical similarity among different neuropsychiatric disorders (NPDs) suggested a shared genetic basis. We catalogued 23,109 coding de novo mutations (DNMs) from 6511 patients with autism spectrum disorder (ASD), 4,293 undiagnosed developmental disorder (UDD), 933 epileptic encephalopathy (EE), 1022 intellectual disability (ID), 1094 schizophrenia (SCZ), and 3391 controls. We evaluated that putative functional DNMs contribute to 38.11%, 34.40%, 33.31%, 10.98% and 6.91% of patients with ID, EE, UDD, ASD and SCZ, respectively. Consistent with phenotype similarity and heterogeneity in different NPDs, they show different degree of genetic association. Cross-disorder analysis of DNMs prioritized 321 candidate genes (FDR\u2009<\u20090.05) and showed that genes shared in more disorders were more likely to exhibited specific expression pattern, functional pathway, genetic convergence, and genetic intolerance. [full text, passages naming SOX11] ...6B, MEF2C, SMC1A, CDKL5, SMARCA2, KDM5B, NSD1, EHMT1, HNRNPU, PTPN11, CTCF, CNOT3, TBR1, NFIX, PPP1CB, KIF1A, GNAI1, CHAMP1, KCNH1, NAA15*, UPF3B, PIK3CA**, MAP4K4, UNC80*, KCNT1, KDM6A, ZC4H2, SMAD4, WDR26**, SOX11 | SLC6A1, FOXP1, CTNNB1, TCF4, SETD5, PPP2R5D, ASXL3, MED13L, SCN1A, DYRK1A, ADNP, EP300, PURA, WDR45, CDK13, TBL1XR1, IRF2BPL, PTEN, KAT6A, DNM1, PACS1, SHANK3, TRIP12*, PPM1D, NAA10, TCF20, CLTC, SET*,... ...were identified, compared to 35.51% (114/321) genes being identified here (Fig. S2). Among these 114 novel candidate genes, 5, 9, 32, 68 genes were classified into tier 1 ( KIAA2022 , KCNT1 , ATP1A3 , NALCN , SOX11 ), tier 2 ( GFOD2 , SLC22A23 , SNAP25 , NACC1 , RFX3 , AKT3 , LOC400927-CSNK1E , DHDDS ), tier 3, and tier 4, respectively. We performed literature searches to find genetic or functional evidence of these...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34050248",
+   "title": "Transcriptome analysis of MBD5-associated neurodevelopmental disorder (MAND) neural progenitor cells reveals dysregulation of autism-associated genes.",
+   "abstract": "MBD5-associated neurodevelopmental disorder (MAND) is an autism spectrum disorder (ASD) characterized by intellectual disability, motor delay, speech impairment and behavioral problems; however, the biological role of methyl-CpG-binding domain 5, MBD5, in neurodevelopment and ASD remains largely undefined. Hence, we created neural progenitor cells (NPC) derived from individuals with chromosome 2q23.1 deletion and conducted RNA-seq to identify differentially expressed genes (DEGs) and the biological processes and pathways altered in MAND. Primary skin fibroblasts from three unrelated individuals with MAND and four unrelated controls were converted into induced pluripotent stem cell (iPSC) lines, followed by directed differentiation of iPSC to NPC. Transcriptome analysis of MAND NPC revealed 468 DEGs (q\u2009<\u20090.05), including 20 ASD-associated genes. Comparison of DEGs in MAND with SFARI syndromic autism genes revealed a striking significant overlap in biological processes commonly altered in neurodevelopmental phenotypes, with TGF\u03b2, Hippo signaling, DNA replication, and cell cycle among the top enriched pathways. Overall, these transcriptome deviations provide potential connections to the overlapping neurocognitive and neuropsychiatric phenotypes associated with key high-risk ASD genes, including chromatin modifiers and epigenetic modulators, that play significant roles in these disease states. [full text, passages naming SOX11] ...h of MAND NPCs to CTR NPC and found that the doubling time of MAND NPC was significantly slower than CTR NPC (Fig. 51 5 b). Overall, 2q23.1 deletion results in de-repression of FOXG1 and other genes, including SOX11 , EZH2, EED, ETV5, and KDM1A, which all function as chromatin modifiers and are implicated in neurogenesis (Supplementary Data 2 , Tab 4 ), further connecting this network of epigenetic modifiers and thei...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38314187",
+   "title": "Treatment of psychiatric comorbidities and interaction patterns in Coffin-Siris syndrome: A case report of a 4-year-old girl.",
+   "abstract": "Coffin-Siris syndrome (CSS) is a rare genetic disorder and often co-occurs with attention-deficit hyperactivity disorder (ADHD) and autism spectrum (ASD). The present case study illustrates possible therapeutic interventions of these common psychiatric comorbidities taking into account the family interaction patterns. This can contribute to improve holistic management and overall level of functionality. [full text, passages naming SOX11] ...inically and genetically heterogeneous disorder, mostly caused by mutations in the genes encoding subunits of the BAF complex, including ARID1A , ARID1B , ARID2 , DPF2 , SMARCA4 , SMARCB1 , SMARCC2 , SMARCE1 , SOX11 , and SOX4 . , 1 , 2 , 3 Up to now, around 200 cases have been described. Main characteristic features are hypoplasia or aplasia of the nail or the distal phalanx of the pinkie finger (\u201cfifth\u2010digit syndro...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42156711",
+   "title": "Multimodal imaging reveals resilient memory networks in carriers of pathogenic ARID1B variants.",
+   "abstract": "The phenotypic spectrum associated with pathogenic ARID1B variants is remarkably broad, ranging from classic Coffin-Siris syndrome to non-syndromic intellectual disability and autism spectrum disorders. While speech delay, motor impairments and learning difficulties are well documented, brain imaging investigations remain scarce in this population. We combined multimodal neuroimaging and neuropsychological assessments in 12 patients carrying pathogenic ARID1B variants (age =\u200913.8\u2009\u00b1\u20094.7 years) and 34 age-matched healthy controls. Whole-brain voxel-wise analyses included arterial spin labelling to measure cerebral blood flow (CBF) at rest and voxel-based morphometry to assess grey matter density. To investigate white matter abnormalities, we performed fixel-based analysis in a subgroup of 7 patients and 17 age-matched controls. While patients showed pronounced language, motor and social impairments, their memory performance (\u2009+\u20095\u2009SD) largely exceeded other cognitive and motor skills. Whole-brain voxel-wise analyses showed a significant bilateral increase of CBF at rest in several limbic structures, including hippocampi and visual areas. They also showed significant decrease in grey matter density and fibre density in the same limbic structures, language, motor and social circuits. This paradoxical coexistence of hyperperfusion and structural deficits within memory networks suggests functional resilience or compensatory mechanisms. These preserved visual and memory functions strongly contrasted with their impaired language, motor, and social abilities. Patients appeared to rely on visual cues and memory to compensate for deficits in verbal communication. These findings support the development of individualized and innovative interventions that build on preserved visual and memory abilities in children with pathogenic ARID1B variants. [full text, passages naming SOX11] ...pathogenic variants in the SHANK2 , GRIN2A , or HTR2A genes [ 17 ]. Neither has this dissociation been reported in knockout mouse models for other Coffin-Siris disease genes ( ARID2, SMARCB1, SMARCA4, SMARCE1, SOX11 ). As for now, this puzzling dissociation remains, to our knowledge, peculiar to carriers of pathogenic ARID1B variants. Conversely, our abnormal brain imaging findings mirror the language deficits, motor...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41532374",
+   "title": "Clinical and Genetic Analysis of SMARCC2-Related Diseases in Three Chinese Patients.",
+   "abstract": "BACKGROUND: Coffin-Siris syndrome (CSS) is a rare, clinically and genetically heterogeneous disorder characterized by coarse facial features, microcephaly, intellectual disability (ID), developmental delay (DD), and hypo/aplastic digital nails and phalanges, typically of the 5th digit. CSS is an autosomal dominant disease resulting from mutations in genes encoding components of BRG1/BRM-associated factor (BAF) chromatin remodeling complexes. More than 300 CSS patients have been reported with variants in genes in the BAF pathway. Recently, patients carrying SMARCC2 variants have been reported to be associated with CSS8. However, as the number of cases increases, many patients do not exhibit the representative clinical symptoms of CSS. Additional case reports and clinical studies will contribute to a redefinition of SMARCC2-related disorders. METHODS: In this research, three patients with SMARCC2-related disorders from China were recruited. Genomic DNA was extracted from the peripheral blood leukocytes of these patients' parents and other family members, and then subjected to whole-exome sequencing as well as Sanger sequencing. RESULTS: In the present study, two de novo variants (c.1311-3C>G, c.347G>A (p.Arg116His)) and a novel de novo variant (c.346C>T (p.Arg116Cys)) in the SMARCC2 gene were detected in three patients with neurodevelopmental disorders by whole exome sequencing. The clinical presentation of our patients supports a redefinition of SMARCC2-related diseases, which include mild to moderate DD, mild ID, facial dysmorphism, mild speech delay, hypotonia, feeding difficulties, brain abnormalities, attention deficit hyperactivity disorder (ADHD), and autistic behaviors. Furthermore, both the type of variant and its specific location may be contributing factors influencing the clinical outcomes. CONCLUSION: Our study expands the genetic spectrum of SMARCC2 variants and detailed genotypic and phenotypic descriptions are important for the diagnosis of SMARCC2-related disease and accurate clinical management. [full text, passages naming SOX11] ...SS (Santen, Aten, et al. 2012 ; Tsurusaki et al. 2012 ; Vasileiou et al. 2018 ; Wieczorek et al. 2013 ; Van Houdt et al. 2012 ; Bramswig et al. 2017 ; Machol et al. 2019 ). In addition, de novo variants in the SOX11 and SOX4 genes were observed in individuals with clinical phenotypes consistent with CSS (Tsurusaki et al. 2014 ; Zawerton et al. 2019 ). Several of these genes are also associated with other ID/NDD (Sant... ...the Phenotype Associated With SMARCC2 Variants: A Fetus With Tetralogy of Fallot.\u201d BMC Medical Genomics 15, no. 1: 40. 10.1186/s12920-022-01185-0. Tsurusaki, Y. , Koshimizu E., Ohashi H., et al. 2014. \u201cDe Novo SOX11 Mutations Cause Coffin\u2010Siris Syndrome.\u201d Nature Communications 5: 4011. 10.1038/ncomms5011. Tsurusaki, Y. , Okamoto N., Ohashi H., et al. 2012. \u201cMutations Affecting Components of the SWI/SNF Complex Cause...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "38660664": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23556151": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39313500": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14597385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34269910": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16115881": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24857884": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31882486": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27638768": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36396588": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36261692": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33430815": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32224586": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36450980": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32142668": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40944468": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25963547": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35266562": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39532239": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18423449": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40585827": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17855451": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28124119": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37568909": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25169878": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40192513": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32586027": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35359039": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39786418": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37895283": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33648463": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15645446": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40520021": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31296581": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32861278": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30626249": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34184026": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37916390": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40950130": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39333428": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42818021": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18992374": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38117302": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35126043": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29973868": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38318288": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34205270": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31204298": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33579706": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24886874": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "8827711": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34781807": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31530938": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29698431": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33061816": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30123105": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38397148": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25557621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35341651": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28787104": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34450036": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40832700": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28974340": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31808882": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31045891": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42288509": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42624107": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41709284": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37186221": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41291750": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37692302": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40128823": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36843845": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38409172": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36323788": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39847329": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33921431": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32961747": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33970367": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34050248": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38314187": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37599823": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32839322": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42156711": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36608759": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41532374": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36810932": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31500805": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36402907": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 188,
+   "usd": 0.00643,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 12.3,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 101.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "21 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "5 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 3913,
+   "output_tokens": 214,
+   "usd": 0.004983,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 91.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 30019,
+   "output_tokens": 1226,
+   "usd": 0.036149,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 18.2,
+   "note": "",
+   "input_tokens": 13197,
+   "output_tokens": 1444,
+   "usd": 0.102085,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>42</established>\n    <existing>44</existing>\n    <hypothesized>12</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Multiple human studies report de novo point variants in SOX11 (missense/nonsense) in patients with a neurodevelopmental syndrome (IDDMOH / Coffin-Siris-like), and autism/autistic features are explicitly part of the phenotype: PMID 39333428 describes seven new patients with de novo SOX11 variants of whom 5/7 had autism/ADHD, PMID 37916390 documents autistic-feature subscale impairment in verbal individuals with SOX11 syndrome, and PMID 33921431 identified a de novo SOX11 missense variant in an ASD diagnostic WES cohort. PMID 33970367 further prioritized SOX11 as a cross-disorder de novo mutation candidate gene including ASD cases, and PMID 34205270 notes SOX-related BAF variants are most associated with neurodevelopmental/behavioral differences. These are human, point-variant based and from independent cohorts, supporting a causal link, though ASD here is a feature of a broader syndromic ID phenotype rather than isolated autism, and the deletion-based report (PMID 18992374) cannot single out SOX11. Supporting mechanistic/animal data (PMID 34184026, 24886874, 40950130) is consistent but secondary.</justification>\n  <pmids>\n    <pmid>39333428</pmid>\n    <pmid>37916390</pmid>\n    <pmid>33921431</pmid>\n    <pmid>33970367</pmid>\n    <pmid>35341651</pmid>\n    <pmid>34205270</pmid>\n    <pmid>24886874</pmid>\n    <pmid>18992374</pmid>\n    <pmid>34184026</pmid>\n    <pmid>40950130</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,384 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 19,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Clinical and genetic analysis of two patients with CHARGE syndrome due to de novo variants of CHD7 gene (PMID: 35446972)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "c.4015C>T (exon 17)",
+            "type": "LoF",
+            "phenotypes": [
+              "CHARGE syndrome",
+              "cerebellar vermis dysplasia",
+              "enlargement of cerebral ventricles"
+            ]
+          },
+          {
+            "description": "c.5050G>A (exon 22)",
+            "type": "missense",
+            "phenotypes": [
+              "CHARGE syndrome",
+              "infantile spasm",
+              "congenital hip dysplasia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous variants confirmed by trio WES; classified pathogenic per ACMG guidelines",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "De novo CHD7 variant in a CHARGE syndrome preterm infant initially diagnosed as idiopathic hypogonadotropic hypogonadism: a case report and literature review (PMID: 41225453)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.5405-7G>A (NM_017780.4)",
+            "type": "LoF",
+            "phenotypes": [
+              "micropenis",
+              "cryptorchidism",
+              "low testosterone, LH and FSH",
+              "right radial polydactyly",
+              "hsPDA",
+              "aortic arch narrowing",
+              "renal pelvis separation",
+              "EEG abnormalities",
+              "very preterm birth (28+2 weeks)",
+              "progressive dysmorphic features",
+              "CHARGE syndrome",
+              "death from CRE sepsis"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo splicing variant confirmed by WES, Sanger sequencing and mini-gene assay showing aberrant splicing; classified pathogenic",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Genotype and phenotype analysis of neonates with neonatal encephalopathy complicated with perinatal hypoxic event (PMID: 33775046)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "CHD7 pathogenic variants (specific variants not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "neonatal encephalopathy with perinatal hypoxic event",
+              "genetic syndrome (CHARGE)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic variants identified by next-generation sequencing in the Neonatal Genome Project",
+        "center_country": "Children's Hospital of Fudan University, China",
+        "cohort": null
+      },
+      {
+        "citation": "Case report: Expanding the phenotype of FOXP1-related intellectual disability syndrome and hyperkinetic movement disorder in differential diagnosis with epileptic seizures (PMID: 37521304)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Novel de novo CHD7 variant (not specified in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "choanal atresia",
+              "asymmetric face",
+              "intellectual disability",
+              "epilepsy",
+              "autism spectrum disorder",
+              "behavioral problems",
+              "hyperkinetic movement disorder",
+              "flat angiomas"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel de novo variant found by WES; the patient's primary diagnosis was FOXP1-related ID (CHD7 variant significance unclear)",
+        "center_country": "Italy",
+        "cohort": null
+      },
+      {
+        "citation": "Genotypic and Phenotypic Profile of 50 Cases With Chromatin Remodeling Complexes-Related Neurological Disorders (PMID: 42528014)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "CHD7 variants (not specified in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "global developmental delay/intellectual disability",
+              "epilepsy",
+              "heat-sensitive seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variants in CHD7 identified in children with CRC-related neurological disorders",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Pituitary stalk interruption syndrome is characterized by genetic heterogeneity (PMID: 33270637)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare/novel CHD7 variant(s) (not specified in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "pituitary stalk interruption syndrome",
+              "hypogonadotropic hypogonadism-related features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare, novel variants identified by exome sequencing in a gene known to be involved in hypogonadotropic hypogonadism",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Liu et al. 2022 - CHD7 regulates bone-fat balance by suppressing PPAR-\u03b3 signaling (PMID: 35418650)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Chd7 deletion in bone marrow MSCs and preosteoblasts causes low bone mass",
+          "severely high marrow adiposity",
+          "enhanced PPAR signaling in Chd7-deficient MSCs",
+          "disrupted balance between osteogenic and adipogenic differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Looper mouse - CHD7 deficiency in 'Looper', a new mouse model of CHARGE syndrome, results in ossicle malformation, otosclerosis and hearing impairment (PMID: 24840056)",
+        "organism": "mouse",
+        "knockout_type": "other (ENU-induced nonsense mutation, p.S1897X)",
+        "phenotypes": [
+          "growth retardation",
+          "facial asymmetry",
+          "vestibular defects and dysfunction",
+          "eye anomalies including blepharoconjunctivitis but not coloboma",
+          "hyperactivity",
+          "ossicle malformation",
+          "otosclerosis-like stapes footplate fusion",
+          "hearing loss",
+          "no motor impairment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHD7 in oocytes is essential for female fertility (PMID: 35402599)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "oocyte-specific Chd7 deletion (Gdf9-Cre) causes infertility or sub-fertility in females",
+          "decreased follicle numbers at all stages",
+          "increased granulosa cell apoptosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": true,
+        "sample_size": null,
+        "significance": "significantly higher GC apoptosis in cKO (p-value not given in abstract)"
+      },
+      {
+        "citation": "CHD7 regulates cardiovascular development through ATP-dependent and -independent activities (PMID: 33127760)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (neural crest) and knock-in (ATPase-deficient allele)",
+        "phenotypes": [
+          "NCC-specific Chd7 deletion causes severe conotruncal heart defects",
+          "perinatal lethality",
+          "altered cardiac NCC gene network",
+          "ATPase-deficient mutant retains ability to recruit H3K4 methyltransferase activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chd7 cooperates with Sox10 and regulates the onset of CNS myelination and remyelination (PMID: 26928066)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Chd7 required for proper onset of CNS myelination and remyelination",
+          "Chd7 interacts with Sox10 and targets myelinogenic gene enhancers",
+          "altered Osterix and Creb3l2 regulation affecting oligodendrocyte maturation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chromatin remodeler CHD7 is critical for cochlear morphogenesis and neurosensory patterning (PMID: 34004180)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "pan-otic deletion causes shortened cochleae with aberrant projections and axonal looping",
+          "disorganized supernumerary hair cells at apex and missing hair cells in the middle region",
+          "neuroblast deletion causes smaller spiral ganglia and disorganized neurites",
+          "otic mesenchyme, hair cell or spiral ganglion neuron deletion had minimal or no effect"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Craniofacial and cardiac defects in chd7 zebrafish mutants mimic CHARGE syndrome (PMID: 36568983)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (maternal-zygotic mutants also assessed)",
+        "phenotypes": [
+          "shortened craniofacial cartilages",
+          "extra cartilage formation",
+          "altered ventral aorta length",
+          "aberrant branching of the first branchial arch artery",
+          "cardiac NCC-derived mural cells unaffected",
+          "phenotypes enhanced in maternal-zygotic background"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rescue of neural crest-derived phenotypes in a zebrafish CHARGE model by Sox10 downregulation (PMID: 27418670)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown (morpholino)",
+        "phenotypes": [
+          "defects in myelinating Schwann cells, enteric neurons and pigment cells",
+          "impaired peripheral neuron specification",
+          "craniofacial skeleton defects",
+          "impaired neural crest migration",
+          "deregulated sox10 expression",
+          "Sox10 knockdown rescued Schwann cell and craniofacial cartilage defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mature middle and inner ears express Chd7 and exhibit distinctive pathologies in a mouse model of CHARGE syndrome (PMID: 21875659)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout (gene trap, Chd7 Gt/+)",
+        "phenotypes": [
+          "elevated ABR thresholds at 4 and 16 kHz",
+          "reduced DPOAE",
+          "combined conductive and sensorineural hearing loss",
+          "stapedial defects",
+          "variable hair cell loss after noise exposure",
+          "semicircular canal dysgenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutation of CHD7 impairs the output of neuroepithelium transition that is reversed by the inhibition of EZH2 (PMID: 40164694)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (neuroepithelium)",
+        "phenotypes": [
+          "CHARGE-like brain anomalies including microcephaly",
+          "olfactory bulb agenesis",
+          "reduced proliferation and differentiation of neural stem and progenitor cells",
+          "rescued by EZH2 inhibition",
+          "recapitulated in CHD7 KO human forebrain organoids"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Kim et al. 2013 - CHD7 interacts with BMP R-SMADs to epigenetically regulate cardiogenesis in mice (PMID: 24293546)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Yeast two-hybrid and biochemical assays identified CHD7 as an interaction partner of the BMP pathway mediators SMAD1/5/8 in embryonic heart. CHD7 associates in a BMP-dependent manner with Nkx2.5 enhancers and is required for their active epigenetic signature and for Nkx2.5 expression. Chd7 inactivation in mice impairs BMP-regulated cardiogenic processes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chd7 cooperates with Sox10 and regulates the onset of CNS myelination and remyelination (PMID: 26928066)",
+        "evidence_subtype": "function",
+        "summary": "Chd7 is a direct transcriptional target of Olig2 and Smarca4/Brg1 and is required for proper onset of CNS myelination and remyelination. Genome-occupancy analyses showed it interacts with Sox10 and targets enhancers of myelinogenic genes, including Osterix (Sp7) and Creb3l2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHD7 regulates bone-fat balance by suppressing PPAR-\u03b3 signaling (PMID: 35418650)",
+        "evidence_subtype": "pathway",
+        "summary": "Conditional Chd7 knockout in bone marrow MSCs and preosteoblasts causes low bone mass and high marrow adiposity. Loss of Chd7 relieves restriction of PPAR-\u03b3, which then associates with H3K4me3 and activates adipogenic genes, shifting the balance from osteogenesis to adipogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Perturb-tracing enables scalable high-content discovery of 3D genome regulators",
+        "evidence_subtype": "cell_culture",
+        "summary": "In a pooled CRISPR loss-of-function imaging screen in human cells, CHD7, previously known to promote local chromatin openness, was found to compact chromatin over long range in a CTCF-dependent manner. It also facilitates a multi-TAD compaction effect of cohesin.",
+        "sample_size": "13,000 imaging target-perturbation combinations; 1.4 million 3D positions",
+        "significance": null
+      },
+      {
+        "citation": "Hiraoka et al. 2016 - CHD7, Oct3/4, Sox2, and Nanog control FoxD3 expression during mouse neural crest-derived stem cell formation (PMID: 27579714)",
+        "evidence_subtype": "pathway",
+        "summary": "CHD7, Oct3/4, Sox2 and Nanog occupy conserved FoxD3 regulatory regions (mE1\u2013mE3) in a BMP2/Wnt3a-dependent manner. siRNA knockdown of CHD7 suppressed FoxD3 expression, which in turn promotes Sox10 expression, placing CHD7 downstream of BMP2/Wnt3a signaling in neural crest-derived stem cell formation. H3K4 methylation is also required.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Chd7 and Sox2 cooperate to regulate development of the inner ear",
+        "evidence_subtype": "other",
+        "summary": "Chd7 and Sox2 are dynamically co-expressed in the developing mouse ear, and CHD7 acts genetically upstream of Sox2. Chd7Gt/+;Sox2CreER/+ double heterozygotes show early postnatal death, malformed inner ear and increased cell death, with a critical window at E9.5. Lhx1 was the most upregulated gene, and Chd7;Lhx1 double heterozygotes had worse cochlear hypoplasia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHD7 in oocytes is essential for female fertility (PMID: 35402599)",
+        "evidence_subtype": "expression",
+        "summary": "CHD7 is highly expressed across all stages of oocyte development. Oocyte-specific deletion (Gdf9-Cre;Chd7f/f) causes infertility or sub-fertility, decreased follicle numbers at all stages and increased granulosa cell apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "let-7 miRNAs inhibit CHD7 expression and control auditory-sensory progenitor cell behavior in the developing inner ear (PMID: 32816902)",
+        "evidence_subtype": "function",
+        "summary": "An evolutionarily conserved let-7-5p binding site was found in chicken, human and mouse Chd7. let-7g overexpression in mice limits CHD7 expression in developing inner ear, retina and brain, implicating CHD7 as a mediator of let-7 effects on hair cell differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Genomic and Epigenomic Landscape of Double-Negative Metastatic Prostate Cancer (PMID: 37289025)",
+        "evidence_subtype": "expression",
+        "summary": "CHD7 is amplified in AR-/NE- mCRPC. Methylation changes in CHD7 candidate enhancers were linked to elevated CHD7 expression in AR-/NE+ tumors.",
+        "sample_size": "210 tumors",
+        "significance": null
+      },
+      {
+        "citation": "Atlas of imprinted and allele-specific DNA methylation in the human body (PMID: 40069157)",
+        "evidence_subtype": "expression",
+        "summary": "Tissue-specific, maternal allele-specific DNA methylation of CHD7 was validated across human cell types. This offers a potential mechanism for the paternal bias in inheritance of CHARGE syndrome.",
+        "sample_size": "39 normal human cell types",
+        "significance": null
+      }
+    ]
+  }
+}

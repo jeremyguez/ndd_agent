@@ -1,0 +1,230 @@
+{
+  "gene": "SUPT6H",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000109111",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.4928588937446986
+    },
+    {
+      "disease_id": "MONDO_0002561",
+      "name": "lysosomal storage disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "EFO_0803536",
+      "name": "multiple sclerosis symptom measurement",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.0905303266999723
+    },
+    {
+      "disease_id": "MONDO_0024331",
+      "name": "colorectal carcinoma",
+      "score": 0.07857165049526016
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.07528136317785883
+    },
+    {
+      "disease_id": "MONDO_0005401",
+      "name": "colonic neoplasm",
+      "score": 0.07463459843216061
+    },
+    {
+      "disease_id": "MONDO_0021063",
+      "name": "malignant colon neoplasm",
+      "score": 0.07463459843216061
+    },
+    {
+      "disease_id": "MONDO_0013662",
+      "name": "Barrett esophagus",
+      "score": 0.05691529762144408
+    },
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.05032122794561703
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.4928588937446986
+    },
+    {
+      "disease_id": "MONDO_0002561",
+      "name": "lysosomal storage disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "EFO_0803536",
+      "name": "multiple sclerosis symptom measurement",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.0905303266999723
+    },
+    {
+      "disease_id": "MONDO_0024331",
+      "name": "colorectal carcinoma",
+      "score": 0.07857165049526016
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.07528136317785883
+    },
+    {
+      "disease_id": "MONDO_0005401",
+      "name": "colonic neoplasm",
+      "score": 0.07463459843216061
+    },
+    {
+      "disease_id": "MONDO_0021063",
+      "name": "malignant colon neoplasm",
+      "score": 0.07463459843216061
+    },
+    {
+      "disease_id": "MONDO_0013662",
+      "name": "Barrett esophagus",
+      "score": 0.05691529762144408
+    },
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.05032122794561703
+    }
+  ],
+  "gate_text": "DROP: 12",
+  "gate_dropped_ids": [
+    "OBA_0003277"
+  ],
+  "tag_text": "1 | CLOSE_VAGUE\n2 | CLOSE_VAGUE\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT\n12 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.4928588937446986,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0002561",
+      "name": "lysosomal storage disease",
+      "score": 0.4619748183558772,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0803536",
+      "name": "multiple sclerosis symptom measurement",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.0905303266999723,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0024331",
+      "name": "colorectal carcinoma",
+      "score": 0.07857165049526016,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0018177",
+      "name": "glioblastoma",
+      "score": 0.07528136317785883,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005401",
+      "name": "colonic neoplasm",
+      "score": 0.07463459843216061,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0021063",
+      "name": "malignant colon neoplasm",
+      "score": 0.07463459843216061,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0013662",
+      "name": "Barrett esophagus",
+      "score": 0.05691529762144408,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.05032122794561703,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 12,
+  "tokens": {
+    "gate_in": 439,
+    "gate_out": 7,
+    "read_in": 2299,
+    "read_out": 638
+  },
+  "articles": []
+}

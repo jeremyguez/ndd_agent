@@ -1,0 +1,455 @@
+{
+ "gene": "RAB17",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "RAB17, member RAS oncogene family"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 26,
+  "titlekicksparingfulltext": 17,
+  "read": 8
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 2,
+   "Existing": 22,
+   "Hypothesized": 16,
+   "Novel": 60
+  },
+  "justification": "The only article linking RAB17 to autism is a clinical chromosomal microarray study (PMID 37107578), where RAB17 appears merely as one of ~30 genes within a large 2q37.2q37.3 deletion; such a multigene CNV cannot implicate RAB17 specifically (HDAC4 is the recognized driver of 2q37 deletion syndrome), so it does not constitute gene-level evidence. All other papers concern RAB17 biology unrelated to neurodevelopment\u2014epithelial polarized vesicular transport, kidney development, IgA transcytosis, mouse genetic mapping, Rab27A effector screening, and tumour cell migration\u2014with no neuronal or ASD-relevant mechanism. The 17q21.31 variant-to-function study lists RAB17 as a transcriptional target but addresses no autism phenotype, and the mTORC1 review mentions autism only incidentally while not concerning RAB17. There are no human variant-level association or causal data, and no animal/expression model linking RAB17 to autism-relevant biology, so Novel is most probable, with limited weight for Existing based solely on the incidental CNV co-occurrence.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 22,
+   "Hypothesized": 16,
+   "Novel": 60
+  }
+ },
+ "articles": [
+  {
+   "pmid": "10535319",
+   "title": "Vesicular transport and kidney development.",
+   "abstract": "Vesicular transport processes play crucial roles in the biogenesis of cellular membranes and in the polarized transport functions of epithelial cells. During the 1990's we have witnessed major progress in elucidation of the machineries responsible for the intracellular membrane trafficking. The components of these machineries are abundant in tissues with a high content of epithelial cells, such as the kidney. However, the developmental role of the membrane trafficking apparatus in higher eukaryotes has been addressed hardly at all. We summarize here data on the presence and the functional role of vesicle transport proteins in the kidney, and describe work addressing the developmentally regulated expression and localization of three molecules suggested to be involved in polarized trafficking in kidney epithelia, Rab17, syntaxin 3, and Munc-18-2. The results show that specialized transport machinery is induced during differentiation of renal epithelia. However, the expression levels of the components under study are highest in the mature structures, indicating that the proteins are predominantly required for the function of mature epithelia and possibly for the maintenance of the polarized phenotype of specific epithelial cells. The proteins are, however, detected at low levels already in earlier, differentiating structures, and could thus also be involved in the differentiation of kidney epithelia.",
+   "found_by": [],
+   "pubdate": "1999",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "22328529",
+   "title": "ERK2 drives tumour cell migration in three-dimensional microenvironments by suppressing expression of Rab17 and liprin-\u03b22.",
+   "abstract": "Upregulation of the extracellular signal-regulated kinase (ERK) pathway has been shown to contribute to tumour invasion and progression. Because the two predominant ERK isoforms (ERK1 and ERK2, also known as MAPK3 and MAPK1, respectively) are highly homologous and have indistinguishable kinase activities in vitro, both enzymes were believed to be redundant and interchangeable. To challenge this view, we show that ERK2 silencing inhibits invasive migration of MDA-MB-231 cells, and re-expression of ERK2 but not ERK1 restores the normal invasive phenotype. A detailed quantitative analysis of cell movement on 3D matrices indicates that ERK2 knockdown impairs cellular motility by decreasing the migration velocity as well as increasing the time that cells spend not moving. Using gene expression arrays we found that the expression of the genes for Rab17 and liprin-\u03b22 was increased by knockdown of ERK2 and restored to normal levels following re-expression of ERK2, but not ERK1. Both play inhibitory roles in the invasive behaviour of three independent cancer cell lines. Importantly, knockdown of either Rab17 or liprin-\u03b22 restores invasiveness of ERK2-depleted cells, indicating that ERK2 drives invasion of MDA-MB-231 cells by suppressing expression of these genes.",
+   "found_by": [],
+   "pubdate": "2012 Mar 15",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "11773082",
+   "title": "The Slp homology domain of synaptotagmin-like proteins 1-4 and Slac2 functions as a novel Rab27A binding domain.",
+   "abstract": "rab27A, which encodes a small GTP-binding protein, was recently identified as a gene in which mutations caused human hemophagocytic syndrome (Griscelli syndrome) and ashen mice, which exhibit defects in melanosome transport as well as in regulated granule exocytosis in cytotoxic T lymphocytes. However, little is known about the molecular mechanism of Rab27A-dependent membrane trafficking or the specific effector molecules of Rab27A. In this study, we discovered that the Slp (synaptotagmin-like protein) homology domain (SHD) of Slp1--3 and Slac2-a/b specifically and directly binds the GTP-bound form of Rab27A both in vitro and in intact cells but not of the other Rabs tested (Rab1, Rab2, Rab3A, Rab4, Rab5A, Rab6A, Rab7, Rab8, Rab9, Rab10, Rab11A, Rab17, Rab18, Rab20, Rab22, Rab23, Rab25, Rab28, and Rab37). Immunocytochemical analysis revealed that Slp2 (or Slp1) colocalized with Rab27A in the melanosomes of melanoma cells. Slp2 and Rab27A were distributed to the periphery of the cells (especially at the dendritic tips) in the wild-type melanoma cells, whereas they accumulated in the perinuclear region in the melanosome transport-defective cells (S91/Cloudman). These results strongly indicated that the SHD of Slp1--3 and Slac2 functions as an in vivo Rab27A binding domain.",
+   "found_by": [],
+   "pubdate": "2002 Mar 15",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "10029620",
+   "title": "Transcytosis of immunoglobulin A in the mouse enterocyte occurs through glycolipid raft- and rab17-containing compartments.",
+   "abstract": "BACKGROUND & AIMS: Glycolipid \"rafts\" have been shown to play a role in apical membrane trafficking in the enterocyte. The present study characterized the membrane compartments of the enterocyte involved in transepithelial transport of small intestinal immunoglobulin A (IgA). METHODS: Immunogold electron microscopy and radioactive labeling of mouse small intestinal explants were performed. RESULTS: IgA and the polymeric immunoglobulin receptor/secretory component were present in a raft compartment. Raft association occurred posttranslationally within 30 minutes, preceding secretion into the culture medium. IgA labeling was seen primarily in enterocytes along the basolateral plasma membrane and over endosomes and small vesicles in the basolateral and apical regions of the cytoplasm. IgA and a brush border enzyme, aminopeptidase N, were colocalized in apical endosomes and small vesicles and were also frequently seen associated with the same vesicular profiles of glycolipid rafts. Colocalization of IgA and rab17, a small guanosine triphosphatase involved in transcytosis, was seen mainly along the basolateral plasma membrane and over basolateral endosomes and vesicles, but also in the apical region of the cytoplasm. CONCLUSIONS: IgA is transcytosed through a raft-containing compartment, most likely the apical endosomes. Our data also support the notion that rab17 is involved in transcytotic membrane traffic.",
+   "found_by": [],
+   "pubdate": "1999 Mar",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "9367688",
+   "title": "Rab17 and rab18, small GTPases with specificity for polarized epithelial cells: genetic mapping in the mouse.",
+   "abstract": "The Rab subfamily of small GTPases plays an important role in the regulation of membrane traffic in eukaryotic cells. While most Rab proteins are equally expressed in polarized and nonpolarized cells, Rab17 and Rab18 show epithelial cell specificity. Here we report the genetic mapping of Rab17 and Rab18 on mouse chromosomes 1 and 18, respectively. We also discuss some implications of Rab17 and Rab18 mapping, including their candidacy for the mouse mutations ln (leaden), Tw (twirler), and ax (ataxia).",
+   "found_by": [],
+   "pubdate": "1997 Nov 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42057133",
+   "title": "Variant-to-function dissection of the 17q21.31 locus resolves ANKRD1 as a convergent regulatory target.",
+   "abstract": "BACKGROUND: The 17q21.31 locus is structurally complex, harbouring a common H1/H2 inversion and dense regulatory variation; one of the two SNPs studied lies within the inversion and the other outside it. Disentangling the effects of individual non-coding variants in this context remains challenging. We used reciprocal double-editing in isogenic human iPSCs as a cross-background validation strategy, together with multi-clone replication and a three-way intersection filter (WT-anchored edit and the two reciprocal edit configurations) to resolve variant-linked transcriptional effects for rs77692262 (A\u2009>\u2009G) and rs79724577 (A\u2009>\u2009C). RESULTS: rs77692262 affected two TGF-\u03b2/SMAD-responsive genes, with ANKRD1 replicating across reciprocal and independent contexts, while ACTA2 showed context-dependent effects. By contrast, rs79724577 yielded seven candidates (ANKRD1, CUZD1, GJA5, PRICKLE1, RAB17, RSPO4, SNPH). Independent validation refined these sets: four discovery-set genes, ANKRD1, CUZD1, PRICKLE1, RAB17, replicated for rs79724577 across edited clones/reciprocal contexts, defining a compact, reproducible signature; ANKRD1 also replicated for rs77692262 and was recovered as the sole consistent DEG when rs77692262 was retested in the reciprocal configuration, making it the most clone-invariant target across both variants. GJA5 appeared in discovery but did not replicate and is treated as hypothesis-generating. Motif analyses were consistent with disrupted T-box/SMAD input at rs77692262 and loss of RFX-family recognition at rs79724577. Long-read CpG methylation profiling detected no significant differences at promoters/gene bodies or at/near the SNP sites, supporting a methylation-independent mechanism involving altered transcription-factor occupancy. CONCLUSIONS: These data identify reproducible, variant-linked transcriptional effects at 17q21.31 within a fixed H1/H1 haplotypic background, centered on ANKRD1 and a validated four-gene signature for rs79724577, and outline a generalizable, replication-first strategy for variant-to-function dissection in structurally polymorphic regions. SUPPLEMENTARY INFORMATION: The online version contains supplementary material available at 10.1186/s12920-026-02375-w.",
+   "found_by": [],
+   "pubdate": "2026 Apr 30",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37107578",
+   "title": "Chromosomal Microarray in Patients with Non-Syndromic Autism Spectrum Disorders in the Clinical Routine of a Tertiary Hospital.",
+   "abstract": "Autism spectrum disorders (ASD) comprise a group of neurodevelopmental disorders (NDD) characterized by deficits in communication and social interaction, as well as repetitive and restrictive behaviors, etc. The genetic implications of ASD have been widely documented, and numerous genes have been associated with it. The use of chromosomal microarray analysis (CMA) has proven to be a rapid and effective method for detecting both small and large deletions and duplications associated with ASD. In this article, we present the implementation of CMA as a first-tier test in our clinical laboratory for patients with primary ASD over a prospective period of four years. The cohort was composed of 212 individuals over 3 years of age, who met DSM-5 diagnostic criteria for ASD. The use of a customized array-CGH (comparative genomic hybridization) design (KaryoArray\u00ae) found 99 individuals (45.20%) with copy number variants (CNVs); 34 of them carried deletions (34.34%) and 65 duplications (65.65%). A total of 28 of 212 patients had pathogenic or likely pathogenic CNVs, representing approximately 13% of the cohort. In turn, 28 out of 212 (approximately 12%) had variants of uncertain clinical significance (VUS). Our findings involve clinically significant CNVs, known to cause ASD (syndromic and non-syndromic), and other CNVs previously related to other comorbidities such as epilepsy or intellectual disability (ID). Lastly, we observed new rearrangements that will enhance the information available and the collection of genes associated with this disorder. Our data also highlight that CMA could be very useful in diagnosing patients with essential/primary autism, and demonstrate the existence of substantial genetic and clinical heterogeneity in non-syndromic ASD individuals, underscoring the continued challenge for genetic laboratories in terms of its molecular diagnosis. [full text, passages naming RAB17] ...orehead, hypoplasia of the middle third of the face, and short palpebral fissures | arr[hg19] 2q37.2q37.3(236959860_242852625)x1 | 5892 | | AGAP1 , GBX2 , ASB18 , IQCA1 , CXCR7 , COPS8 , , COL6A3 , MLPH PRLH , RAB17 , LRRFIP1 , RBM44 , RAMP1 , UBE2F , UBE2F , SCLY , ESPNL , KLHL30 , ILKAP , LOC151174 , LOC643387 , HES6 , , PER2 , TRAF3IP1 ASB1 , LOC151171 , , TWIST2 FLJ43879 , HDAC4 , MGC16025 , MIR4269 , LOC150935 ,...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "26159692",
+   "title": "Regulation of mTORC1 by PI3K signaling.",
+   "abstract": "The class I phosphoinositide 3-kinase (PI3K)-mechanistic target of rapamycin (mTOR) complex 1 (mTORC1) signaling network directs cellular metabolism and growth. Activation of mTORC1 [composed of mTOR, regulatory-associated protein of mTOR (Raptor), mammalian lethal with SEC13 protein 8(mLST8), 40-kDa proline-rich Akt substrate (PRAS40), and DEP domain-containing mTOR-interacting protein (DEPTOR)] depends on the Ras-related GTPases (Rags) and Ras homolog enriched in brain (Rheb) GTPase and requires signals from amino acids, glucose, oxygen, energy (ATP), and growth factors (including cytokines and hormones such as insulin). Here we discuss the signal transduction mechanisms through which growth factor-responsive PI3K signaling activates mTORC1. We focus on how PI3K-dependent activation of Akt and spatial regulation of the tuberous sclerosis complex (TSC) complex (TSC complex) [composed of TSC1, TSC2, and Tre2-Bub2-Cdc16-1 domain family member 7 (TBC1D7)] switches on Rheb at the lysosome, where mTORC1 is activated. Integration of PI3K- and amino acid-dependent signals upstream of mTORC1 at the lysosome is detailed in a working model. A coherent understanding of the PI3K-mTORC1 network is imperative as its dysregulation has been implicated in diverse pathologies including cancer, diabetes, autism, and aging.",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "34052317": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12051743": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31836859": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15561770": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28062852": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39668827": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22937744": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28991221": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23313219": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42068163": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38818956": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42757712": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33461557": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36479242": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20047666": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10602771": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16709191": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10535319": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22328529": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11773082": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10029620": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9367688": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9681011": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42057133": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37107578": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "26159692": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 9.8,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 90.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 5.2,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "18 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "9 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 17.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1654,
+   "output_tokens": 98,
+   "usd": 0.002144,
+   "calls": 3
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 27.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 4633,
+   "output_tokens": 208,
+   "usd": 0.005673,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.4,
+   "note": "",
+   "input_tokens": 6063,
+   "output_tokens": 951,
+   "usd": 0.05409,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>22</existing>\n    <hypothesized>16</hypothesized>\n    <novel>60</novel>\n  </probabilities>\n  <justification>The only article linking RAB17 to autism is a clinical chromosomal microarray study (PMID 37107578), where RAB17 appears merely as one of ~30 genes within a large 2q37.2q37.3 deletion; such a multigene CNV cannot implicate RAB17 specifically (HDAC4 is the recognized driver of 2q37 deletion syndrome), so it does not constitute gene-level evidence. All other papers concern RAB17 biology unrelated to neurodevelopment\u2014epithelial polarized vesicular transport, kidney development, IgA transcytosis, mouse genetic mapping, Rab27A effector screening, and tumour cell migration\u2014with no neuronal or ASD-relevant mechanism. The 17q21.31 variant-to-function study lists RAB17 as a transcriptional target but addresses no autism phenotype, and the mTORC1 review mentions autism only incidentally while not concerning RAB17. There are no human variant-level association or causal data, and no animal/expression model linking RAB17 to autism-relevant biology, so Novel is most probable, with limited weight for Existing based solely on the incidental CNV co-occurrence.</justification>\n  <pmids>\n    <pmid>37107578</pmid>\n    <pmid>42057133</pmid>\n    <pmid>10535319</pmid>\n    <pmid>22328529</pmid>\n    <pmid>10029620</pmid>\n    <pmid>9367688</pmid>\n    <pmid>11773082</pmid>\n    <pmid>26159692</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,754 @@
+{
+ "gene": "WDFY3",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "childhood autism",
+   "autistic features",
+   "autistic behavior"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "ALFY",
+   "KIAA0993",
+   "ZFYVE25",
+   "WD repeat and FYVE domain containing 3"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 66,
+  "titlekicksparingfulltext": 13,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 65,
+   "Existing": 29,
+   "Hypothesized": 5,
+   "Novel": 1
+  },
+  "justification": "Human genetic evidence from independent cohorts supports a causal role: PMID 27824329 reported recurrent de novo likely gene-disrupting mutations in WDFY3 among 1,543 Chinese ASD probands, and PMID 30564305 (ACGC phase II) independently replicated disruptive WDFY3 mutations associated with ASD/macrocephaly. PMID 31327001 described 13 probands with mostly de novo, protein-truncating or missense WDFY3 variants causing neurodevelopmental delay with autism/ADHD, and PMID 42800802 expanded this to a 32-patient LoF cohort with autism and ADHD features. These are single-nucleotide/indel level variants in multiple unrelated probands, not multigene CNVs, meeting the replication requirement. Extensive supporting mouse and Drosophila work (PMIDs 25198012, 35733184, 32609087) provides mechanistic plausibility (neurogenesis, migration, synaptic plasticity), but the human data alone are decisive. Some residual probability is assigned to Existing because the core phenotype is often broader neurodevelopmental delay with ASD as a frequent comorbidity rather than isolated ASD.",
+  "pmids": [],
+  "detail": {
+   "Established": 65,
+   "Existing": 29,
+   "Hypothesized": 5,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "31327001",
+   "title": "Pathogenic WDFY3 variants cause neurodevelopmental disorders and opposing effects on brain size.",
+   "abstract": "The underpinnings of mild to moderate neurodevelopmental delay remain elusive, often leading to late diagnosis and interventions. Here, we present data on exome and genome sequencing as well as array analysis of 13 individuals that point to pathogenic, heterozygous, mostly de novo variants in WDFY3 (significant de novo enrichment P = 0.003) as a monogenic cause of mild and non-specific neurodevelopmental delay. Nine variants were protein-truncating and four missense. Overlapping symptoms included neurodevelopmental delay, intellectual disability, macrocephaly, and psychiatric disorders (autism spectrum disorders/attention deficit hyperactivity disorder). One proband presented with an opposing phenotype of microcephaly and the only missense-variant located in the PH-domain of WDFY3. Findings of this case are supported by previously published data, demonstrating that pathogenic PH-domain variants can lead to microcephaly via canonical Wnt-pathway upregulation. In a separate study, we reported that the autophagy scaffolding protein WDFY3 is required for cerebral cortical size regulation in mice, by controlling proper division of neural progenitors. Here, we show that proliferating cortical neural progenitors of human embryonic brains highly express WDFY3, further supporting a role for this molecule in the regulation of prenatal neurogenesis. We present data on Wnt-pathway dysregulation in Wdfy3-haploinsufficient mice, which display macrocephaly and deficits in motor coordination and associative learning, recapitulating the human phenotype. Consequently, we propose that in humans WDFY3 loss-of-function variants lead to macrocephaly via downregulation of the Wnt pathway. In summary, we present WDFY3 as a novel gene linked to mild to moderate neurodevelopmental delay and intellectual disability and conclude that variants putatively causing haploinsufficiency lead to macrocephaly, while an opposing pathomechanism due to variants in the PH-domain of WDFY3 leads to microcephaly.",
+   "found_by": [],
+   "pubdate": "2019 Sep 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30564305",
+   "title": "Inherited and multiple de novo mutations in autism/developmental delay risk genes suggest a multifactorial model.",
+   "abstract": "BACKGROUND: We previously performed targeted sequencing of autism risk genes in probands from the Autism Clinical and Genetic Resources in China (ACGC) (phase I). Here, we expand this analysis to a larger cohort of patients (ACGC phase II) to better understand the prevalence, inheritance, and genotype-phenotype correlations of likely gene-disrupting (LGD) mutations for autism candidate genes originally identified in cohorts of European descent. METHODS: We sequenced 187 autism candidate genes in an additional 784 probands and 85 genes in 599 probands using single-molecule molecular inversion probes. We tested the inheritance of potentially pathogenic mutations, performed a meta-analysis of phase I and phase II data and combined our results with existing exome sequence data to investigate the phenotypes of carrier parents and patients with multiple hits in different autism risk genes. RESULTS: We validated recurrent, LGD, de novo mutations (DNMs) in 13 genes. We identified a potential novel risk gene (ZNF292), one novel gene with recurrent LGD DNMs (RALGAPB), as well as genes associated with macrocephaly (GIGYF2 and WDFY3). We identified the transmission of private LGD mutations in genes predominantly associated with DNMs and showed that parental carriers tended to share milder autism-related phenotypes. Patients that carried DNMs in two or more candidate genes show more severe phenotypes. CONCLUSIONS: We identify new risk genes and transmission of deleterious mutations in genes primarily associated with DNMs. The fact that parental carriers show milder phenotypes and patients with multiple hits are more severe supports a multifactorial model of risk.",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "27824329",
+   "title": "De novo genic mutations among a Chinese autism spectrum disorder cohort.",
+   "abstract": "Recurrent de novo (DN) and likely gene-disruptive (LGD) mutations contribute significantly to autism spectrum disorders (ASDs) but have been primarily investigated in European cohorts. Here, we sequence 189 risk genes in 1,543 Chinese ASD probands (1,045 from trios). We report an 11-fold increase in the odds of DN LGD mutations compared with expectation under an exome-wide neutral model of mutation. In aggregate, \u223c4% of ASD patients carry a DN mutation in one of just 29 autism risk genes. The most prevalent gene for recurrent DN mutations is SCN2A (1.1% of patients) followed by CHD8, DSCAM, MECP2, POGZ, WDFY3 and ASH1L. We identify novel DN LGD recurrences (GIGYF2, MYT1L, CUL3, DOCK8 and ZNF292) and DN mutations in previous ASD candidates (ARHGAP32, NCOR1, PHIP, STXBP1, CDKL5 and SHANK1). Phenotypic follow-up confirms potential subtypes and highlights how large global cohorts might be leveraged to prove the pathogenic significance of individually rare mutations.",
+   "found_by": [],
+   "pubdate": "2016 Nov 8",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34130600",
+   "title": "The spectrum of neurodevelopmental, neuromuscular and neurodegenerative disorders due to defective autophagy.",
+   "abstract": "Primary dysfunction of autophagy due to Mendelian defects affecting core components of the autophagy machinery or closely related proteins have recently emerged as an important cause of genetic disease. This novel group of human disorders may present throughout life and comprises severe early-onset neurodevelopmental and more common adult-onset neurodegenerative disorders. Early-onset (or congenital) disorders of autophagy often share a recognizable \"clinical signature,\" including variable combinations of neurological, neuromuscular and multisystem manifestations. Structural CNS abnormalities, cerebellar involvement, spasticity and peripheral nerve pathology are prominent neurological features, indicating a specific vulnerability of certain neuronal populations to autophagic disturbance. A typically biphasic disease course of late-onset neurodegeneration occurring on the background of a neurodevelopmental disorder further supports a role of autophagy in both neuronal development and maintenance. Additionally, an associated myopathy has been characterized in several conditions. The differential diagnosis comprises a wide range of other multisystem disorders, including mitochondrial, glycogen and lysosomal storage disorders, as well as ciliopathies, glycosylation and vesicular trafficking defects. The clinical overlap between the congenital disorders of autophagy and these conditions reflects the multiple roles of the proteins and/or emerging molecular connections between the pathways implicated and suggests an exciting area for future research. Therapy development for congenital disorders of autophagy is still in its infancy but may result in the identification of molecules that target autophagy more specifically than currently available compounds. The close connection with adult-onset neurodegenerative disorders highlights the relevance of research into rare early-onset neurodevelopmental conditions for much more common, age-related human diseases.Abbreviations: AC: anterior commissure; AD: Alzheimer disease; ALR: autophagic lysosomal reformation; ALS: amyotrophic lateral sclerosis; AMBRA1: autophagy and beclin 1 regulator 1; AMPK: AMP-activated protein kinase; ASD: autism spectrum disorder; ATG: autophagy related; BIN1: bridging integrator 1; BPAN: beta-propeller protein associated neurodegeneration; CC: corpus callosum; CHMP2B: charged multivesicular body protein 2B; CHS: Chediak-Higashi syndrome; CMA: chaperone-mediated autophagy; CMT: Charcot-Marie-Tooth disease; CNM: centronuclear myopathy; CNS: central nervous system; DNM2: dynamin 2; DPR: dipeptide repeat protein; DVL3: disheveled segment polarity protein 3; EPG5: ectopic P-granules autophagy protein 5 homolog; ER: endoplasmic reticulum; ESCRT: homotypic fusion and protein sorting complex; FIG4: FIG4 phosphoinositide 5-phosphatase; FTD: frontotemporal dementia; GBA: glucocerebrosidase; GD: Gaucher disease; GRN: progranulin; GSD: glycogen storage disorder; HC: hippocampal commissure; HD: Huntington disease; HOPS: homotypic fusion and protein sorting complex; HSPP: hereditary spastic paraparesis; LAMP2A: lysosomal associated membrane protein 2A; MEAX: X-linked myopathy with excessive autophagy; mHTT: mutant huntingtin; MSS: Marinesco-Sjoegren syndrome; MTM1: myotubularin 1; MTOR: mechanistic target of rapamycin kinase; NBIA: neurodegeneration with brain iron accumulation; NCL: neuronal ceroid lipofuscinosis; NPC1: Niemann-Pick disease type 1; PD: Parkinson disease; PtdIns3P: phosphatidylinositol-3-phosphate; RAB3GAP1: RAB3 GTPase activating protein catalytic subunit 1; RAB3GAP2: RAB3 GTPase activating non-catalytic protein subunit 2; RB1: RB1-inducible coiled-coil protein 1; RHEB: ras homolog, mTORC1 binding; SCAR20: SNX14-related ataxia; SENDA: static encephalopathy of childhood with neurodegeneration in adulthood; SNX14: sorting nexin 14; SPG11: SPG11 vesicle trafficking associated, spatacsin; SQSTM1: sequestosome 1; TBC1D20: TBC1 domain family member 20; TECPR2: tectonin beta-propeller repeat containing 2; TSC1: TSC complex subunit 1; TSC2: TSC complex subunit 2; UBQLN2: ubiquilin 2; VCP: valosin-containing protein; VMA21: vacuolar ATPase assembly factor VMA21; WDFY3/ALFY: WD repeat and FYVE domain containing protein 3; WDR45: WD repeat domain 45; WDR47: WD repeat domain 47; WMS: Warburg Micro syndrome; XLMTM: X-linked myotubular myopathy; ZFYVE26: zinc finger FYVE-type containing 26.",
+   "found_by": [],
+   "pubdate": "2022 Mar",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "35733184",
+   "title": "WDFY3 mutation alters laminar position and morphology of cortical neurons.",
+   "abstract": "BACKGROUND: Proper cerebral cortical development depends on the tightly orchestrated migration of newly born neurons from the inner ventricular and subventricular zones to the outer cortical plate. Any disturbance in this process during prenatal stages may lead to neuronal migration disorders (NMDs), which can vary in extent from focal to global. Furthermore, NMDs show a substantial comorbidity with other neurodevelopmental disorders, notably autism spectrum disorders (ASDs). Our previous work demonstrated focal neuronal migration defects in mice carrying loss-of-function alleles of the recognized autism risk gene WDFY3. However, the cellular origins of these defects in Wdfy3 mutant mice remain elusive and uncovering it will provide critical insight into WDFY3-dependent disease pathology. METHODS: Here, in an effort to untangle the origins of NMDs in Wdfy3lacZ mice, we employed mosaic analysis with double markers (MADM). MADM technology enabled us to genetically distinctly track and phenotypically analyze mutant and wild-type cells concomitantly in vivo using immunofluorescent techniques. RESULTS: We revealed a cell autonomous requirement of WDFY3 for accurate laminar positioning of cortical projection neurons and elimination of mispositioned cells during early postnatal life. In addition, we identified significant deviations in dendritic arborization, as well as synaptic density and morphology between wild type, heterozygous, and homozygous Wdfy3 mutant neurons in Wdfy3-MADM reporter mice at postnatal stages. LIMITATIONS: While Wdfy3 mutant mice have provided valuable insight into prenatal aspects of ASD pathology that remain inaccessible to investigation in humans, like most animal models, they do not a perfectly replicate all aspects of human ASD biology. The lack of human data makes it indeterminate whether morphological deviations described here apply to ASD patients or some of the other neurodevelopmental conditions associated with WDFY3 mutation. CONCLUSIONS: Our genetic approach revealed several cell autonomous requirements of WDFY3 in neuronal development that could underlie the pathogenic mechanisms of WDFY3-related neurodevelopmental conditions. The results are also consistent with findings in other ASD animal models and patients and suggest an important role for WDFY3 in regulating neuronal function and interconnectivity in postnatal life.",
+   "found_by": [],
+   "pubdate": "2022 Jun 22",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "32609087",
+   "title": "Homeostatic plasticity fails at the intersection of autism-gene mutations and a novel class of common genetic modifiers.",
+   "abstract": "We identify a set of common phenotypic modifiers that interact with five independent autism gene orthologs (RIMS1, CHD8, CHD2, WDFY3, ASH1L) causing a common failure of presynaptic homeostatic plasticity (PHP) in Drosophila. Heterozygous null mutations in each autism gene are demonstrated to have normal baseline neurotransmission and PHP. However, PHP is sensitized and rendered prone to failure. A subsequent electrophysiology-based genetic screen identifies the first known heterozygous mutations that commonly genetically interact with multiple ASD gene orthologs, causing PHP to fail. Two phenotypic modifiers identified in the screen, PDPK1 and PPP2R5D, are characterized. Finally, transcriptomic, ultrastructural and electrophysiological analyses define one mechanism by which PHP fails; an unexpected, maladaptive up-regulation of CREG, a conserved, neuronally expressed, stress response gene and a novel repressor of PHP. Thus, we define a novel genetic landscape by which diverse, unrelated autism risk genes may converge to commonly affect the robustness of synaptic transmission.",
+   "found_by": [],
+   "pubdate": "2020 Jul 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34187232",
+   "title": "Wdfy3 regulates glycophagy, mitophagy, and synaptic plasticity.",
+   "abstract": "Autophagy is essential to cell function, as it enables the recycling of intracellular constituents during starvation and in addition functions as a quality control mechanism by eliminating spent organelles and proteins that could cause cellular damage if not properly removed. Recently, we reported on Wdfy3's role in mitophagy, a clinically relevant macroautophagic scaffold protein that is linked to intellectual disability, neurodevelopmental delay, and autism spectrum disorder. In this study, we confirm our previous report that Wdfy3 haploinsufficiency in mice results in decreased mitophagy with accumulation of mitochondria with altered morphology, but expanding on that observation, we also note decreased mitochondrial localization at synaptic terminals and decreased synaptic density, which may contribute to altered synaptic plasticity. These changes are accompanied by defective elimination of glycogen particles and a shift to increased glycogen synthesis over glycogenolysis and glycophagy. This imbalance leads to an age-dependent higher incidence of brain glycogen deposits with cerebellar hypoplasia. Our results support and further extend Wdfy3's role in modulating both brain bioenergetics and synaptic plasticity by including glycogen as a target of macroautophagic degradation.",
+   "found_by": [],
+   "pubdate": "2021 Dec",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30054502",
+   "title": "Beyond autophagy: a novel role for autism-linked Wdfy3 in brain mitophagy.",
+   "abstract": "WD repeat and FYVE domain-containing 3 (WDFY3; also known as Autophagy-Linked FYVE or Alfy) is an identified intellectual disability, developmental delay and autism risk gene. This gene encodes for a scaffolding protein that is expressed in both the developing and adult central nervous system and required for autophagy and aggrephagy with yet unexplored roles in mitophagy. Given that mitochondrial trafficking, dynamics and remodeling have key roles in synaptic plasticity, we tested the role of Wdfy3 on brain bioenergetics by using Wdfy3+/lacZ mice, the only known Wdfy3 mutant animal model with overt neurodevelopmental anomalies that survive to adulthood. We found that Wdfy3 is required for sustaining brain bioenergetics and morphology via mitophagy. Decreased mitochondrial quality control by conventional mitophagy was partly compensated for by the increased formation of mitochondria-derived vesicles (MDV) targeted to lysosomal degradation (micromitophagy). These observations, extended through proteomic analysis of mitochondria-enriched cortical fractions, showed significant enrichment for pathways associated with mitophagy, mitochondrial transport and axon guidance via semaphorin, Robo, L1cam and Eph-ephrin signaling. Collectively, our findings support a critical role for Wdfy3 in mitochondrial homeostasis with implications for neuron differentiation, neurodevelopment and age-dependent neurodegeneration.",
+   "found_by": [],
+   "pubdate": "2018 Jul 27",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "25198012",
+   "title": "Loss of Wdfy3 in mice alters cerebral cortical neurogenesis reflecting aspects of the autism pathology.",
+   "abstract": "Autism spectrum disorders (ASDs) are complex and heterogeneous developmental disabilities affecting an ever-increasing number of children worldwide. The diverse manifestations and complex, largely genetic aetiology of ASDs pose a major challenge to the identification of unifying neuropathological features. Here we describe the neurodevelopmental defects in mice that carry deleterious alleles of the Wdfy3 gene, recently recognized as causative in ASDs. Loss of Wdfy3 leads to a regionally enlarged cerebral cortex resembling early brain overgrowth described in many children on the autism spectrum. In addition, affected mouse mutants display migration defects of cortical projection neurons, a recognized cause of epilepsy, which is significantly comorbid with autism. Our analysis of affected mouse mutants defines an important role for Wdfy3 in regulating neural progenitor divisions and neural migration in the developing brain. Furthermore, Wdfy3 is essential for cerebral expansion and functional organization while its loss-of-function results in pathological changes characteristic of ASDs.",
+   "found_by": [],
+   "pubdate": "2014 Sep 8",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42800802",
+   "title": "Lithium chloride in vitro treatment shows potential to rescue the neuronal phenotype caused by WDFY3 haploinsufficiency.",
+   "abstract": "We provide a comprehensive phenotypic characterization of loss-of-function (LoF) variants in WDFY3 based on the largest cohort reported to date (n\u2009=\u200932). Our findings define a monogenic disorder marked by neuropsychiatric features (including autism and ADHD), mild to moderate neurodevelopmental delay, and variable brain growth - most commonly macrocephaly and in one case reduced head circumference. To investigate the effect of WDFY3 LoF we performed knockdown (KD) in the human neuroblastoma cell line SH-SY5Y and used a Wdfy3-haploinsufficient mouse model. WDFY3 KD impaired clearance of protein aggregates and decreased protein levels of the ubiquitin-binding protein p62. Transcriptomic analyses identified dysregulation in gene networks that are primarily involved in nervous system development, neuron projection, MAPK/ERK1/2, and WNT/\u03b2-catenin signaling. This was confirmed at protein level. Neuronal cell proliferation was increased, as evidenced by elevated cell counts and proliferation markers Ki-67 and PCNA. Conversely, neuronal cell differentiation was impaired, as indicated by reduced neurite outgrowth. We show that \u03b2-catenin is downregulated, while GSK3B is upregulated. LiCl activates WNT/\u03b2-catenin signaling by inhibiting GSK3B. We thus tested LiCl treatment, which significantly increased WDFY3 expression. Moreover, in vitro treatment improved the neurite branching capacity of Wdfy3-haploinsufficient neurons above the level of the wild type, although this specific effect appeared independent of WNT/\u03b2-catenin signaling. In sum, we expand on the phenotype related to WDFY3 LoF and provide insights into the pathophysiology using in vitro human and murine neuronal models. Our findings suggest that LiCl may serve as a potential therapeutic strategy for patients with WDFY3 LoF variants.",
+   "found_by": [],
+   "pubdate": "2026 Sep 27",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40945514",
+   "title": "A rare genetic variant confers resistance to neurodegeneration across multiple neurological disorders by augmenting selective autophagy.",
+   "abstract": "The study of disease modifiers is a powerful way to identify patho-mechanisms associated with disease. Using the strong genetic traits of Huntington's disease (HD), we identified a rare, single-nucleotide polymorphism (SNP) in WDFY3 associated with a delayed age of onset of up to 23 years. Remarkably, the introduction of the orthologous SNP into mice recapitulates this neuroprotection, significantly delaying neuropathological and behavioral dysfunction in two models of HD. The SNP increases expression of the protein autophagy-linked Fab1, YOTB, Vac1, and EEA1 (FYVE) protein (Alfy), an autophagy adaptor protein for the clearance of aggregated proteins, whose ectopic overexpression is sufficient to capture the neuroprotective effects of the variant. Increasing Alfy expression protects not only against HD but also against the toxicity due to phospho-\u03b1-synuclein and AT8-positive accumulation. By combining human and mouse genetics, we have uncovered a pathway that protects against multiple proteinopathies, revealing a much-sought-after, shared therapeutic target across a broad range of neurodegenerative diseases.",
+   "found_by": [],
+   "pubdate": "2025 Nov 19",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "27648578",
+   "title": "Autophagy linked FYVE (Alfy/WDFY3) is required for establishing neuronal connectivity in the mammalian brain.",
+   "abstract": "The regulation of protein degradation is essential for maintaining the appropriate environment to coordinate complex cell signaling events and to promote cellular remodeling. The Autophagy linked FYVE protein (Alfy), previously identified as a molecular scaffold between the ubiquitinated cargo and the autophagic machinery, is highly expressed in the developing central nervous system, indicating that this pathway may have yet unexplored roles in neurodevelopment. To examine this possibility, we used mouse genetics to eliminate Alfy expression. We report that this evolutionarily conserved protein is required for the formation of axonal tracts throughout the brain and spinal cord, including the formation of the major forebrain commissures. Consistent with a phenotype reflecting a failure in axon guidance, the loss of Alfy in mice disrupts localization of glial guidepost cells, and attenuates axon outgrowth in response to Netrin-1. These findings further support the growing indication that macroautophagy plays a key role in the developing CNS.",
+   "found_by": [],
+   "pubdate": "2016 Sep 20",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40000652",
+   "title": "Drosophila WDFY3/Bchs overexpression impairs neural function.",
+   "abstract": "Pathogenic variants in WDFY3, a gene encoding for an autophagy adaptor termed ALFY, are linked to neurodevelopmental delay and altered brain size in human probands. While the role of WDFY3 loss-of-function is extensively studied in neurons, little is known about the effects of WDFY3 upregulation in different cell types of the central nervous system (CNS). We show that overexpression of the Drosophila melanogaster WDFY3 ortholog, Bchs, in either glia or neurons impaired autophagy and locomotion. Bchs glial overexpression also increased VNC size and glial nuclei number significantly, whereas neuronal Bchs overexpression affected wing and thorax morphology. We identified 79 genes that were differentially expressed and overlapped in flies that overexpress Bchs in glial and neuronal cells, respectively. Additionally, upon neuronal Bchs overexpression differentially expressed genes clustered in gene ontology categories associated with autophagy and mitochondrial function. Our data indicate that glial as well as neuronal Bchs upregulation can have detrimental outcomes on neural function.",
+   "found_by": [],
+   "pubdate": "2025 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39614649",
+   "title": "WDFY3 Haploinsufficiency Is Associated With Autosomal Dominant Neurodevelopmental Disorders and Macrocephaly.",
+   "abstract": "WDFY3 (MIM#617485) defects may manifest neurodevelopmental disorders (NDDs) and opposite effects on brain size based on allelic effect. This case highlights a heterozygous WDFY3 nonsense variant linked to mild-to-moderate NDDs, macrocephaly, and unique facial features. Findings emphasize the importance of exome sequencing in NDDs for accurate diagnosis and clinical management.",
+   "found_by": [],
+   "pubdate": "2025 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40548072",
+   "title": "Mechanisms of brain overgrowth in autism spectrum disorder with macrocephaly.",
+   "abstract": "Autism spectrum disorder (ASD) is a highly prevalent human disorder with extensive clinical and genetic heterogeneity. One notable ASD subgroup that often manifest with more severe symptoms comprises individuals with an enlarged head (macrocephaly), often accompanied by an enlarged brain (megalencephaly). Here, we focus on the macrocephalic ASD subgroup and discuss the biological processes that may underlie brain overgrowth in individuals with ASD, including excess neurogenesis or gliogenesis, decreased cell death, neuronal hypertrophy, and elevated myelination. We also discuss the signaling and epigenetic pathways implicated in macrocephalic ASD. By examining the biological processes and the molecular pathways involved we seek to provide insight into the mechanisms underpinning macrocephalic ASD. [full text, passages naming WDFY3] ...signalling ( | Zhang et al., 2020 ) | Giannandrea et al. (2010) PP2A family (e.g., PPP2R5D) | Negatively regulates AKT ( | Loveday et al., 2015 ) | Houge et al. (2015) and Loveday et al. (2015) Wnt/\u03b2-catenin | WDFY3 (i.e., ALFY) | Regulates Wnt ( | Kadir et al., 2016 ) | Le Duc et al. (2019) SHANK3 | Directly interacts with \u03b2-catenin at the synapse ( | Hassani Nia et al., 2020 ) | Sarasua et al. (2023) RAS-MAPK | NF1... ...d behavioural phenotypes. Dev. Med. Child Neurol. 62, 993\u2013998. doi: 10.1111/dmcn.14426, PMID: Le Duc D., Giulivi C., Hiatt S. M., Napoli E., Panoutsopoulos A., Harlan De Crescenzo A., et al. (2019). Pathogenic WDFY3 variants cause neurodevelopmental disorders and opposing effects on brain size. Brain 142, 2617\u20132630. doi: 10.1093/brain/awz198, PMID: Lebrun-Julien F., Bachmann L., Norrm\u00e9n C., Tr\u00f6tzm\u00fcller M., K\u00f6feler H....",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42073023",
+   "title": "Diagnostic Yield and Genotype-Phenotype Overlap in Pediatric Autism Spectrum Disorder Patients Using Whole-Exome Sequencing and Phenotype-Driven Variant Interpretation: A Single-Center Cohort Study.",
+   "abstract": "Background/Objectives: Autism spectrum disorder (ASD) is a clinically and genetically heterogeneous neurodevelopmental condition, and the diagnostic yield of whole-exome sequencing (WES) varies across settings. This single-center study aimed to determine the molecular diagnostic yield of WES in pediatric ASD and to explore genotype-phenotype overlap using a structured, phenotype-driven reanalysis strategy. Methods: We enrolled 60 children with syndromic and non-syndromic ASD, who underwent detailed clinical and dysmorphology assessment. WES for single-nucleotide and copy-number variant (CNV) detection was performed in an accredited laboratory, followed by clinician-driven reinterpretation, integrating expanded phenotypic data and ACMG/AMP-based variant classification. Genes were considered if they harbored rare, potentially pathogenic variants and were previously reported or curated in established ASD-associated gene resources. Results: The initial external laboratory report identified 5 of 60 patients (8.3%) with a pathogenic (P) or likely pathogenic (LP) variant (positive result), 30 of 60 (50.0%) with a variant of unknown significance (VUS) (inconclusive result), and 25 of 60 (41.7%) with a negative result. Clinician-based variant reinterpretation identified pathogenic or likely pathogenic variants in 9 of 60 patients (15.0%), representing an 80% relative increase in diagnostic yield, as well as 43 VUSs distributed across 34 patients, while 17 patients had no reportable variants (negative result). Overall, reanalysis revealed 11 additional variants of interest (pathogenic, likely pathogenic, or VUS) that had not been reported in the initial assessment. In total, 52 sequence and copy-number variants in 46 genes were detected, most of which were VUSs (83%). Conclusions: In this pediatric ASD cohort, WES with phenotype-driven reinterpretation and CNV assessment yielded a clinically positive result in 15% of patients and uncovered additional candidate variants, highlighting both the value and the current interpretative challenge of comprehensive genomic testing in ASD. [full text, passages naming WDFY3] ...ere considered non-diagnostic. The pathogenic/likely pathogenic variants were in the following genes: SLC9A9 (autism spectrum disorder), WAC (DeSanto\u2013Shinawi syndrome), NRXN2 (autism spectrum disorder), WDYF3 (WDFY3-related primary microcephaly or macrocephaly with developmental delay), NSD1 (Sotos syndrome), a deletion in USP7 (Hao\u2013Fountain syndrome), NIPBL (Cornelia de Lange syndrome), ATP1A3 (developmental and epi... ...Moderate DeSanto\u2013Shinawi syndrome, OMIM 615049 | 32 | | NRXN2 c.148_157del | -- | Frameshift | PVS1 PM2 | Autism spectrum disorder | 37 | | WDFY 3 c.8902-2A>G | -- | Splice acceptor, intron change | PVS1 | PM2 WDFY3-related primary microcephaly or macrocephaly with developmental delay | 38 | | NSD1 c.4302+1G>T | -- | Canonical splice donor (+1) | PVS1 | PM2 Sotos syndrome, OMIM 117550 | 40 | | USP7 Deletion of exons...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40731902",
+   "title": "Clinical Application of a Customized Gene Panel for Identifying Autism Spectrum Disorder-Associated Variants.",
+   "abstract": "Background and Objectives: Autism spectrum disorder (ASD) is a neurodevelopmental disorder that belong to genetic and epigenetic mechanism. Despite the recent advantages in next-generation sequencing (NGS) technology, ASD etiology is still unclear. Materials and Methods: In this study, we tested a customized target genetic panel consisting of 74 genes in a cohort of 53 ASD individuals. The tested panel was designed from the SFARI database. Results: Among 53 patients analyzed using a targeted genetic panel, 102 rare variants were identified, with nine individuals carrying likely pathogenic or pathogenic variants considered genetically \"positive.\" We identified six de novo variants across five genes (POGZ 2 variants, NCOR1, CHD2, ADNP, and GRIN2B), including two variants of uncertain significance in POGZ p.Thr451Met and NCOR1 p.Glu1137Lys, one likely pathogenic variant in GRIN2B p.Leu714Gln, and three pathogenic variants in POGZ p.Leu775Valfs32, CHD2 p.Thr1108Metfs8, and ADNP p.Pro5Argfs*2. Conclusions: This study presents a comprehensive characterization of the targeted gene panel used for genetic analysis, while critically evaluating its diagnostic limitations within the context of contemporary genomic approaches. A pivotal accomplishment of this study was the ClinVar submission of novel de novo variants which expands the documented mutational spectrum of ASD-associated genes and enhances future diagnostic interpretation. [full text, passages naming WDFY3] ...genes in which genetic variants were found in our panel are distributed as follows: 15 genes ( ANK2 , ASH1L , CACNA2D3 , CUL3 , DSCAM , GIGYF2 , GRIN2B , KMT5B , NCKAP1 , NLGN3 , RELN , SCN2A , SRCAP , TRIO , WDFY3 ) are classified as score 1 (high confidence); 11 genes ( CACNA1D , CEP41 , CNTN4 , CUX1 , GRIP1 , MACROD2 , MET , NCOR1 , SCN9A , SNAP25 , TAOK2 ) as score 2 (strong candidates); 18 genes ( ADNP , ANKRD1... ...families seeking answers [ 34 ]. In our cohort, we identified multiple VUS across 32 genes previously implicated in neurodevelopmental processes, synaptic function, and ASD susceptibility. These genes include WDFY3 , MET , DSCAM , POGZ , CUX1 , ANK2 , MACROD2 , CACNA1D , TRIO , NLGN3 , NCOR1 , SCN2A , ARID1B , SNAP25 , MAGEL2 , SMARCC2 , ASH1L , RELN , SRCAP , CEP41 , CNTN4 , GIGYF2 , SETD5 , SCN9A , CACNA2D3 , NCKA... ...s their potential contribution to the complex polygenic architecture of ASD. For instance, CACNA1A encodes calcium channels essential for synaptic transmission and neuronal excitability [ 36 ], while DSCAM and WDFY3 are involved in neurodevelopmental pathways critical for neuronal wiring and connectivity [ 37 , 38 ]. Additionally, as annotated in QuickGO database related to the gene ontology (GO), MET , CUX1 , NLGN3...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39887636",
+   "title": "m&lt;sup&gt;6&lt;/sup&gt;A-mRNA Reader YTHDF2 Identified as a Potential Risk Gene in Autism With Disproportionate Megalencephaly.",
+   "abstract": "Among autistic individuals, a subphenotype of disproportionate megalencephaly (ASD-DM) seen at three years of age is associated with co-occurring intellectual disability and poorer prognoses later in life. However, many of the genes contributing to ASD-DM have yet to be delineated. In this study, we identified additional ASD-DM candidate genes with the aim to better define the genetic etiology of this subphenotype of autism. We expanded the previously studied sample size of ASD-DM individuals ten fold by including probands from the Autism Phenome Project and Simons Simplex Collection, totaling 766 autistic individuals meeting the criteria for megalencephaly or macrocephaly and revealing 154 candidate ASD-DM genes harboring de novo protein-impacting variants. Our findings include 14 high confidence autism genes and seven genes previously associated with DM. Five impacted genes have previously been associated with both autism and DM, including CHD8 and PTEN. By performing functional network analysis, we expanded to additional candidate genes, including one previously implicated in ASD-DM (PIK3CA) as well as 184 additional genes connected with\u00a0ASD or DM alone. Using zebrafish, we modeled a de novo tandem duplication impacting YTHDF2, encoding an N6-methyladenosine (m6A)-mRNA reader, in an ASD-DM proband. Testing zebrafish CRISPR knockdown led to reduced head/brain size, while overexpressing YTHDF2 resulted in increased head/brain size matching that of the proband. Single-cell transcriptomes of YTHDF2 gain-of-function larvae point to reduced expression of Fragile-X-syndrome-associated FMRP-target genes globally and in the developing brain, providing insight into the mechanism underlying autistic phenotypes. We additionally discovered a variant impacting a different gene encoding an m6A reader, YTHDC1, in our ASD-DM cohort. Though we highlight only two cases to date, our study provides support for the m6A-RNA modification pathway as potentially contributing to this severe form of autism. [full text, passages naming WDFY3] ...esults (An et al. 2018 ; Trost et al. 2022 ), overlapping a total of 151 genes (Figure 1 , Table S4 ). Of note, five genes were found recurrently mutated in ASD\u2010M, including GALNT18 , KDM6B , LTN1 , RERE , and WDFY3 , as well as CHD8 , which was disrupted in three probands. FIGURE 1 Macrocephaly level of candidate ASD\u2010DM and ASD\u2010M genes. (A) A histogram representing the number of SSC probands v. head circumference pe... ...4 , CTCF , DSCAM DP, ASD\u2010N , GIGYF1 DP, ASD\u2010N , KDM5B DP , KDM6B 2, DP , NRXN1 DP , SCN2A DP, ASD\u2010N , SHANK2 , TCF4 DP , TRIP12 , WAC DP, ASD\u2010N DM ( | n = 7) | LRP2 DP , NFIB NO , PSMD12 , RERE 2, DP , SETD2 , WDFY3 2 , YME1L1 DP Other ( | n = 128) | ABCA8 DP , ACAT2 , ADAMTS9 , ADCY5 ASD\u2010N , AEBP1 DP , AMBP , ANKRD60 NO , ANO5 DP , ATP1B1 DP, ASD\u2010N , ATXN7L2 DP , ATXN7L3 , BIRC6 , BRWD1 , BTBD11 DP , BTBD9 , C11orf2... ...e Annotation for Sensitive and Comprehensive Detection of Cell Type\u2010Specific Genes .\u201d eLife 9 : 9 . 10.7554/eLife.55792 . PMC7486121 32831172 , Le Duc , D. , C. Giulivi , et al. S. M. Hiatt 2019 . \u201c Pathogenic WDFY3 Variants Cause Neurodevelopmental Disorders and Opposing Effects on Brain Size .\u201d Brain 142 : 2617 \u2013 2630 . 31327001 10.1093/brain/awz198 PMC6736092 , Leblond , C. S. , T.\u2010L. Le , et al. S. Malesys 2021 ....",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40869941",
+   "title": "Rare Variant Burden and Behavioral Phenotypes in Children with Autism in Slovakia.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a heterogeneous group of neurodevelopmental disorders characterized by a complex, multifactorial etiology with a strong genetic contribution. Our study aimed to evaluate the link between the burden of rare genetic variants within a specific panel of ASD and intellectual disability-associated genes and phenotypic variability in a cohort of children with autism in Slovakia. METHODS: Gene burden scores were calculated based on pathogenic, likely pathogenic, and uncertain significance rare DNA variants identified by whole-exome sequencing. We then assessed the effect of three different scoring methods on the variance across 15 psycho-behavioral parameters describing the phenotypic profiles of 117 ASD probands. RESULTS: The burden score showed a significant multivariate effect on the combination of psycho-behavioral parameters. This score was associated with the social affect of ADOS-2, as well as with the socialization domain, and total adaptive behavior scores from the Vineland Adaptive Behavior Scales-3 (VABS). While a score based solely on count of pathogenic and likely pathogenic variants did not show a multivariate effect, incorporating variants of uncertain significance revealed a multivariate effect on two adaptive behavior parameters: daily living skills and total adaptive behavior score (VABS). CONCLUSIONS: Our findings partially explain the variability in phenotypic manifestation in our ASD patient cohort, highlighting the importance of considering the cumulative effect of rare genetic variants, including those of uncertain significance, in shaping the diverse clinical presentation of ASD. [full text, passages naming WDFY3] ...62 het | - | 5 | AD | TRIO | c.2149C > T | | NM_007118 het | - | 4 | AD | TTN * | c.33183_33187delinsC | | NM_001267550 het | - | 4 | AD/AR | TTN * | c.11183dup | | NM_001267550 het | rs778172350 | 4 | AD/AR | WDFY3 | c.1080del | | NM_014991 het | - | 4 | AD | genes-16-00893-t002_Table 2 Table 2 Biological and psycho-behavioral characteristics of the cohort. ADI-R A\u2014domain A: qualitative abnormalities in social inter...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40894881",
+   "title": "Noncoding &lt;i&gt;de novo&lt;/i&gt; mutations in &lt;i&gt;SCN2A&lt;/i&gt; are associated with autism spectrum disorders.",
+   "abstract": "Previous genetic studies in Autism Spectrum Disorder (ASD) identified hundreds of high-confidence ASD genes enriched with likely deleterious protein-coding de novo mutations (DNMs). Multiple studies also demonstrated that DNMs in the non-coding genome can contribute to ASD risk. However, the identification of individual risk genes enriched with noncoding DNMs has remained largely unexplored. We analyzed two datasets with over 5000 ASD families to assess the contribution of noncoding DNMs. We used two methods to assess statistical significance for noncoding DNMs: a point-based test that analyzes sites that are likely functional, and a segment-based test that analyzes 1 kb genomic segments with segment-specific background mutation rates. We found that coding and noncoding DNMs in SCN2A are associated with ASD risk. Further application of these approaches on large-scale whole genome sequencing data will help identify additional candidate ASD risk genes. [full text, passages naming WDFY3] ...trols. Fold change was calculated as the ratio between affected offspring and unaffected sibling controls. We identified nine genes with p < 0.1 (DNM count \u22653, fold change>1), including SCN2A , BRD4 , GRIN2B , WDFY3 , CHD2 , SPEN , CACNA1I , ADNP , and KDM6B . Notably, SCN2A had a p = 4.81 \u00d7 10 \u22123 . When replicating these genes in SSC, only SCN2A reached p < 0.1 ( p = 0.052). Additionally, CHD8 achieved the lowest p...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "33755257": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20412801": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38625939": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30982665": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36819921": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27835906": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42560489": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32957886": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34285244": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30086807": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31428609": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42671607": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30301738": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31327001": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "30564305": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "27824329": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34130600": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35733184": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32609087": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34187232": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30054502": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25198012": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42800802": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40945514": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27648578": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35903777": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32150493": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22653340": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31899071": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40000652": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30982432": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23521701": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41935068": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39614649": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "27008544": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20168092": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36721238": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20971078": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33302505": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17984323": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17617737": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40076836": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40548072": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42073023": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39414875": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40434434": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40731902": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40413384": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39596472": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41422017": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39887636": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40869941": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40894881": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40836247": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39237724": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42123457": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40169255": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38026686": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42369569": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38148790": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36986145": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33340060": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39534727": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37280359": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29209173": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 11.7,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 102.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "20 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "7 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "30 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 2707,
+   "output_tokens": 102,
+   "usd": 0.003217,
+   "calls": 5
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 95.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 32348,
+   "output_tokens": 1236,
+   "usd": 0.038528,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.4,
+   "note": "",
+   "input_tokens": 16456,
+   "output_tokens": 1053,
+   "usd": 0.108605,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>65</established>\n    <existing>29</existing>\n    <hypothesized>5</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Human genetic evidence from independent cohorts supports a causal role: PMID 27824329 reported recurrent de novo likely gene-disrupting mutations in WDFY3 among 1,543 Chinese ASD probands, and PMID 30564305 (ACGC phase II) independently replicated disruptive WDFY3 mutations associated with ASD/macrocephaly. PMID 31327001 described 13 probands with mostly de novo, protein-truncating or missense WDFY3 variants causing neurodevelopmental delay with autism/ADHD, and PMID 42800802 expanded this to a 32-patient LoF cohort with autism and ADHD features. These are single-nucleotide/indel level variants in multiple unrelated probands, not multigene CNVs, meeting the replication requirement. Extensive supporting mouse and Drosophila work (PMIDs 25198012, 35733184, 32609087) provides mechanistic plausibility (neurogenesis, migration, synaptic plasticity), but the human data alone are decisive. Some residual probability is assigned to Existing because the core phenotype is often broader neurodevelopmental delay with ASD as a frequent comorbidity rather than isolated ASD.</justification>\n  <pmids>\n    <pmid>31327001</pmid>\n    <pmid>30564305</pmid>\n    <pmid>27824329</pmid>\n    <pmid>42800802</pmid>\n    <pmid>39614649</pmid>\n    <pmid>25198012</pmid>\n    <pmid>35733184</pmid>\n    <pmid>32609087</pmid>\n    <pmid>39887636</pmid>\n    <pmid>40548072</pmid>\n  </pmids>\n</response>"
+}

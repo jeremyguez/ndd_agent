@@ -1,0 +1,814 @@
+{
+ "gene": "SARM1",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "autistic behavior",
+   "childhood autism",
+   "autistic features"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "SAMD2",
+   "SARM",
+   "KIAA0524",
+   "sterile alpha and TIR motif containing 1"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 78,
+  "titlekicksparingfulltext": 12,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 4,
+   "Existing": 58,
+   "Hypothesized": 35,
+   "Novel": 3
+  },
+  "justification": "The strongest mechanistic data are from mouse models: Sarm1 knockdown and PV-neuron-specific Sarm1 conditional knockout mice show social interaction deficits, repetitive behaviors, altered synaptic plasticity and rescue by an mGluR5 PAM (PMIDs 35869039, 24321214, 24744698), which alone would support only \"Hypothesized.\" However, there is limited human genetic evidence: SARM1 appears among prioritized ASD candidate genes derived from de novo mutation burden/TADA analyses (PMID 32066658) and as a top discriminating gene in exome-trio machine-learning analysis of ASD versus schizophrenia (PMID 32111185), with a (non-validated) de novo missense variant also noted in an ADHD sequencing study (PMID 28332277). These are suggestive but not replicated in independent probands with clear causal demonstration, so \"Established\" is not warranted \u2014 no two articles report patient-level variants with independent replication for ASD. Most remaining papers concern SARM1's axon-degeneration/NADase biology and are unrelated to ASD genetics, and several ASD mentions are background citations rather than new evidence.",
+  "pmids": [],
+  "detail": {
+   "Established": 4,
+   "Existing": 58,
+   "Hypothesized": 35,
+   "Novel": 3
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35869039",
+   "title": "SARM1 deletion in parvalbumin neurons is associated with autism-like behaviors in mice.",
+   "abstract": "Autism spectrum disorder (ASD), a group of neurodevelopmental disorder diseases, is characterized by social deficits, communication difficulties, and repetitive behaviors. Sterile alpha and TIR motif-containing 1 protein (SARM1) is known as an autism-associated protein and is enriched in brain tissue. Moreover, SARM1 knockdown mice exhibit autism-like behaviors. However, its specific mechanism in ASD pathogenesis remains unclear. Here we generated parvalbumin-positive interneurons (PVI)-specific conditional SARM1 knockout (SARM1PV-CKO) mice. SARM1PV-CKO male mice showed autism-like behaviors, such as mild social interaction deficits and repetitive behaviors. Moreover, we found that the expression level of parvalbumin was reduced in SARM1PV-CKO male mice, together with upregulated apoptosis-related proteins and more cleaved-caspase-3-positive PVIs, suggesting that knocking out SARM1 may cause a reduction in the number of PVIs due to apoptosis. Furthermore, the expression of c-fos was shown to increase in SARM1PV-CKO male mice, in combination with upregulation of excitatory postsynaptic proteins such as PSD-95 or neuroligin-1, indicating enhanced excitatory synaptic input in mutant mice. This notion was further supported by the partial rescue of autism-like behavior deficits by the administration of GABA receptor agonists in SARM1PV-CKO male mice. In conclusion, our findings suggest that SARM1 deficiency in PVIs may be involved in the pathogenesis of ASD.",
+   "found_by": [],
+   "pubdate": "2022 Jul 22",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "24321214",
+   "title": "Sarm1, a neuronal inflammatory regulator, controls social interaction, associative memory and cognitive flexibility in mice.",
+   "abstract": "Impaired neurodevelopment leads to several psychiatric disorders, including autism, schizophrenia and attention deficiency hyperactivity disorder. Our prior study showed that sterile alpha and TIR motif-containing 1 protein (Sarm1) regulates neuronal morphogenesis through at least two pathways. Sarm1 controls neuronal morphogenesis, including dendritic arborization, axonal outgrowth and establishment of neuronal polarity, through the MKK-JNK pathway. Neuronally expressed Sarm1 also regulates the expression of inflammatory cytokines in the brain, which have also been shown to impact brain development and function. Because the reduction of Sarm1 expression negatively influences neuronal development, here we investigated whether Sarm1 controls mouse behaviors. We analyzed two independent Sarm1 transgenic mouse lines using a series of behavioral assays, and found that the reduction of Sarm1 protein levels had a limited effect on locomotion and anxiety. However, Sarm1 knockdown mice exhibited impairments in cued and contextual fear conditioning as well as cognitive flexibility. Moreover, the three-chambered social test, reciprocal social interaction and social transmission of food preference further illustrated deficiencies in Sarm1 knockdown mice in social interaction. These findings suggest that Sarm1, a molecule that regulates innate immunity and neuronal morphogenesis, regulates social behaviors and cognition. We conclude that Sarm1 is involved in immune response, neural development and psychiatric disorders.",
+   "found_by": [],
+   "pubdate": "2014 Mar",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "24744698",
+   "title": "Sarm1 deficiency impairs synaptic function and leads to behavioral deficits, which can be ameliorated by an mGluR allosteric modulator.",
+   "abstract": "Innate immune responses have been shown to influence brain development and function. Dysregulation of innate immunity is significantly associated with psychiatric disorders such as autism spectrum disorders and schizophrenia, which are well-known neurodevelopmental disorders. Recent studies have revealed that critical players of the innate immune response are expressed in neuronal tissues and regulate neuronal function and activity. For example, Sarm1, a negative regulator that acts downstream of Toll-like receptor (TLR) 3 and 4, is predominantly expressed in neurons. We have previously shown that Sarm1 regulates neuronal morphogenesis and the expression of inflammatory cytokines in the brain, which then affects learning ability, cognitive flexibility, and social interaction. Because impaired neuronal morphogenesis and dysregulation of cytokine expression may disrupt neuronal activity, we investigated whether Sarm1 knockdown affects the synaptic responses of neurons. We here show that reduced Sarm1 expression impairs metabotropic glutamate receptor (mGluR)-dependent long-term depression (LTD) formation but enhances N-methyl-D-aspartate receptor (NMDAR)-dependent long-term potentiation production in hippocampal CA1 neurons. The expression levels of post-synaptic proteins, including NR2a, NR1, Shank1 and Shank3, are also altered in Sarm1 knockdown mice, suggesting a role for Sarm1 in the maintenance of synaptic homeostasis. The addition of a positive allosteric modulator of mGluR5, CDPPB, ameliorates the LTD defects in slice recording and the behavioral deficits in social interaction and associative memory. These results suggest an important role for mGluR5 signaling in the function of Sarm1. In conclusion, our study demonstrates a role for Sarm1 in the regulation of synaptic plasticity. Through these mechanisms, Sarm1 knockdown results in the impairment of associative memory and social interactions in mice.",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "35334231",
+   "title": "Structural basis of SARM1 activation, substrate recognition, and inhibition by small molecules.",
+   "abstract": "The NADase SARM1 (sterile alpha and TIR motif containing 1) is a key executioner of axon degeneration and a therapeutic target for several neurodegenerative conditions. We show that a potent SARM1 inhibitor undergoes base exchange with the nicotinamide moiety of nicotinamide adenine dinucleotide (NAD+) to produce the bona fide inhibitor 1AD. We report structures of SARM1 in complex with 1AD, NAD+ mimetics and the allosteric activator nicotinamide mononucleotide (NMN). NMN binding triggers reorientation of the armadillo repeat (ARM) domains, which disrupts ARM:TIR interactions and leads to formation of a two-stranded TIR domain assembly. The active site spans two molecules in these assemblies, explaining the requirement of TIR domain self-association for NADase activity and axon degeneration. Our results reveal the mechanisms of SARM1 activation and substrate binding, providing rational avenues for the design of new therapeutics targeting SARM1.",
+   "found_by": [],
+   "pubdate": "2022 May 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30633870",
+   "title": "SARM: From immune regulator to cell executioner.",
+   "abstract": "SARM is the fifth and most conserved member of the Toll/Il-1 Receptor (TIR) adaptor family. However, unlike the other TIR adaptors, MyD88, Mal, TRIF and TRAM, SARM does not participate in transducing signals downstream of TLRs. By contrast SARM inhibits TLR signalling by interacting with the adaptors TRIF and MyD88. In addition, SARM also has positive roles in innate immunity by activating specific transcriptional programs following immune challenge. SARM has a pivotal role in activating different forms of cell death following cellular stress and viral infection. Many of these functions of mammalian SARM are also reflected in SARM orthologues in lower organisms such as C. elegans and Drosophila. SARM expression is particularly enriched in neurons of the CNS and SARM has a critical role in neuronal death and in axon degeneration. Recent fascinating molecular insights have been revealed as to the molecular mechanism of SARM mediated axon degeneration. SARM has been shown to deplete NAD+ by possessing intrinsic NADase activity in the TIR domain of the protein. This activity can be activated experimentally by forced dimerization of the TIR domain. It is thought that this activity of SARM is normally switched off by the axo-protective activities of NMNAT2 which maintain low levels of the NAD+ precursor NMN. Therefore, there is now great excitement in the field of SARM research as targeting this enzymatic activity of SARM may lead to the development of new therapies for neurodegenerative diseases such as multiple sclerosis and motor neuron disease.",
+   "found_by": [],
+   "pubdate": "2019 Mar",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40344041",
+   "title": "SARM1 loss protects retinal ganglion cells in a mouse model of autosomal dominant optic atrophy.",
+   "abstract": "Autosomal dominant optic atrophy (ADOA), the most prevalent hereditary optic neuropathy, leads to retinal ganglion cell (RGC) degeneration and vision loss. ADOA is primarily caused by mutations in the optic atrophy type 1 (OPA1) gene, which encodes a conserved GTPase important for mitochondrial inner membrane dynamics. To date, the disease mechanism remains unclear, and no therapies are available. We generated a mouse model carrying the pathogenic Opa1R290Q/+ allele that recapitulated key features of human ADOA, including mitochondrial defects, age-related RGC loss, optic nerve degeneration, and reduced RGC functions. We identified sterile alpha and TIR motif containing 1 (SARM1), a neurodegeneration switch, as a key driver of RGC degeneration in these mice. Sarm1 KO nearly completely suppressed all the degeneration phenotypes without reversing mitochondrial fragmentation. Additionally, we show that a portion of SARM1 localized within the mitochondrial intermembrane space. These findings indicated that SARM1 was activated downstream of mitochondrial dysfunction in ADOA, highlighting it as a promising therapeutic target.",
+   "found_by": [],
+   "pubdate": "2025 Jun 16",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40496808",
+   "title": "Suppressing phagocyte activation by overexpressing the phosphatidylserine lipase ABHD12 preserves sarmopathic nerves.",
+   "abstract": "Programmed axon degeneration (AxD) is a hallmark of many neurodegenerative diseases. In healthy axons, NMNAT2 inhibits SARM1, the key executioner of AxD, to keep it from depleting NAD+ and triggering axon destruction. AxD was assumed to be governed by axon-intrinsic mechanisms, independent of external factors. However, using a human disease model of neuropathy caused by hypomorphic NMNAT2 mutations resulting in chronic SARM1 activation, we demonstrated that neuronal SARM1 can initiate macrophage-mediated axon elimination long before stressed-but-viable axons would otherwise succumb to intrinsic metabolic failure. Chronic SARM1 activation causes axonal blebbing and disrupts phosphatidylserine (PS), a signaling molecule that promotes axon engulfment by macrophages. Neuronal expression of ABDH12, a PS lipase, reduces macrophage activation, preserves axons, and rescues motor function in this model, suggesting that PS dysregulation is an early SARM1-dependent axonal stress signal. Blocking macrophage-mediated axon elimination could be a promising therapeutic strategy for SARM1-dependent neurological diseases.",
+   "found_by": [],
+   "pubdate": "2025 Jun 20",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "37561040",
+   "title": "Targeting SARM1 improves autophagic stress-induced axonal neuropathy.",
+   "abstract": "AAV: adeno-associated virus; ATF3: activating transcription factor 3; ATG7: autophagy related 7; AVIL: advillin; cADPR: cyclic ADP ribose; CALC: calcitonin/calcitonin-related polypeptide; CMT: Charcot-Marie-Tooth disease; cKO: conditional knockout; DEG: differentially expressed gene; DRG: dorsal root ganglion; FE-SEM: field emission scanning electron microscopy; IF: immunofluorescence; NCV: nerve conduction velocity; PVALB: parvalbumin; RAG: regeneration-associated gene; ROS: reactive oxygen species; SARM1: sterile alpha and HEAT/Armadillo motif containing 1; SYN1: synapsin I.",
+   "found_by": [],
+   "pubdate": "2024 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34351802",
+   "title": "The Drama of Wallerian Degeneration: The Cast, Crew, and Script.",
+   "abstract": "Significant advances have been made in recent years in identifying the genetic components of Wallerian degeneration, the process that brings the progressive destruction and removal of injured axons. It has now been accepted that Wallerian degeneration is an active and dynamic cellular process that is well regulated at molecular and cellular levels. In this review, we describe our current understanding of Wallerian degeneration, focusing on the molecular players and mechanisms that mediate the injury response, activate the degenerative program, transduce the death signal, execute the destruction order, and finally, clear away the debris. By highlighting the starring roles and sketching out the molecular script of Wallerian degeneration, we hope to provide a useful framework to understand Wallerian and Wallerian-like degeneration and to lay a foundation for developing new therapeutic strategies to treat axon degeneration in neural injury as well as in neurodegenerative disease.",
+   "found_by": [],
+   "pubdate": "2021 Nov 23",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32524478",
+   "title": "Organotypic Culture Assay for Neuromuscular Synaptic Degeneration and Function.",
+   "abstract": "We describe here an organotypic culture system we have used to investigate mechanisms that maintain structure and function of axon terminals at the neuromuscular junction (NMJ). We developed this by taking advantage of the slow Wallerian degeneration phenotype in mutant Wlds mice, using these to compare preservation of NMJs with degeneration in nerve-muscle preparations from wild-type mice. We take hind limb tibial nerve/flexor digitorum brevis and lumbrical muscles and incubate them in mammalian physiological saline at 32\u00a0\u00b0C for 24-48\u00a0h. Integrity of NMJs can then be compared using a combination of electrophysiological and morphological techniques. We illustrate our method with data showing synaptic preservation ex vivo in nerve-muscle explants from Sarm-1 null-mutant mice. The ex vivo assays of NMJ integrity we describe here may therefore be useful for detailed investigation of synaptic maintenance and degeneration.",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36207571",
+   "title": "Axon Biology in ALS: Mechanisms of Axon Degeneration and Prospects for Therapy.",
+   "abstract": "This review addresses the longstanding debate over whether amyotrophic lateral sclerosis (ALS) is a 'dying back' or 'dying forward' disorder in the light of new gene identifications and the increased understanding of mechanisms of action for previously identified ALS genes. While the topological pattern of pathology in animal models, and more anecdotally in patients is indeed 'dying back', this review discusses how this fits with the fact that many of the major initiating events are thought to occur within the soma. It also discusses how widely varying ALS risk factors, including some impacting axons directly, may combine to drive a common pathway involving TAR DNA binding protein 43 (TDP-43) and neuromuscular junction (NMJ) denervation. The emerging association between sterile alpha and TIR motif-containing 1 (SARM1), a protein so far mostly associated with axon degeneration, and sporadic ALS is another major theme. The strengths and limitations of the current evidence supporting an association are considered, along with ways in which SARM1 could become activated in ALS. The final section addresses SARM1-based therapies along with the prospects for targeting other axonal steps in ALS pathogenesis.",
+   "found_by": [],
+   "pubdate": "2022 Jul",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "41138726",
+   "title": "SARM1 senses dsDNA to promote NAD(+) degradation and cell death.",
+   "abstract": "Detection of DNA is a fundamental strategy for life to recognize non-self or abnormal-self to subsequently trigger the downstream responses. However, the mechanism underlying DNA sensing is incompletely understood. Here, we show that a key neural executioner, sterile alpha and Toll/interleukin-1 receptor (TIR) motif containing 1 (SARM1), senses double-stranded DNA (dsDNA) to promote cell death. dsDNA-bound and -activated SARM1 to degrade nicotinamide adenine dinucleotide (NAD+) in a sequence-independent manner. SARM1 bound dsDNA via the TIR domain, and lysine residues in the TIR domain contributed to dsDNA binding. In the cellular context, cytosolic dsDNA from dsDNA transfection or chemotherapy treatment was colocalized with SARM1 and activated SARM1 to elicit NAD+ degradation and cell death, which was abrogated by SARM1 knockout or DNA-binding residue mutation. Consistently, SARM1 knockout blocked chemotherapy-induced neuropathy (CIN) in mice. Our results reveal SARM1 as a DNA sensor, which might be targetable for therapeutic interventions.",
+   "found_by": [],
+   "pubdate": "2025 Dec 11",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32413284",
+   "title": "Characterizing the Causal Pathway for Genetic Variants Associated with Neurological Phenotypes Using Human Brain-Derived Proteome Data.",
+   "abstract": "Leveraging high-dimensional molecular datasets can help us develop mechanistic insight into associations between genetic variants and complex traits. In this study, we integrated human proteome data derived from brain tissue to evaluate whether targeted proteins putatively mediate the effects of genetic variants on seven neurological phenotypes (Alzheimer disease, amyotrophic lateral sclerosis, depression, insomnia, intelligence, neuroticism, and schizophrenia). Applying the principles of Mendelian randomization (MR) systematically across the genome highlighted 43 effects between genetically predicted proteins derived from the dorsolateral prefrontal cortex and these outcomes. Furthermore, genetic colocalization provided evidence that the same causal variant at 12 of these loci was responsible for variation in both protein and neurological phenotype. This included genes such as DCC, which encodes the netrin-1 receptor and has an important role in the development of the nervous system (p = 4.29\u00a0\u00d7 10-11 with neuroticism), as well as SARM1, which has been previously implicated in axonal degeneration (p = 1.76\u00a0\u00d7 10-08 with amyotrophic lateral sclerosis). We additionally conducted a phenome-wide MR study for each of these 12 genes to assess potential pleiotropic effects on 700 complex traits and diseases. Our findings suggest that genes such as SNX32, which was initially associated with increased risk of Alzheimer disease, may potentially influence other complex traits in the opposite direction. In contrast, genes such as CTSH (which was also associated with Alzheimer disease) and SARM1 may make worthwhile therapeutic targets because they did not have genetically predicted effects on any of the other phenotypes after correcting for multiple testing.",
+   "found_by": [],
+   "pubdate": "2020 Jun 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42341897",
+   "title": "Programmed axon degeneration gene variants in human disease.",
+   "abstract": "BACKGROUND: Programmed axon degeneration (PAD; also known as Wallerian degeneration) is a conserved pathway controlling axon breakdown following injury or metabolic stress. PAD is driven by the depletion of nicotinamide adenine dinucleotide (NAD) through loss of the pro-survival enzyme NMNAT2 and activation of the pro-degenerative NADase SARM1. Recent genetic studies have identified pathogenic variants in PAD pathway enzymes associated with severe neurodegenerative phenotypes. MAIN BODY: Pathogenic variants in NAMPT, NMNAT1, NMNAT2, and SARM1 have been identified and will be discussed in this review. NAMPT variants cause sensory and motor neuropathy with neurodevelopmental symptoms. NMNAT1 variants are well-characterized causes of Leber Congenital Amaurosis type 9, while NMNAT2 variants result in peripheral neuropathies with childhood onset. SARM1 gain-of-function variants with constitutively active NADase activity are enriched in amyotrophic lateral sclerosis patients. CONCLUSION: These findings demonstrate that maintaining proper NAD homeostasis is crucial for axon survival, and disruption through genetic variants leads to distinct neurodegenerative outcomes. Understanding these rare variants provides insight into PAD mechanisms and supports development of broad-spectrum neuroprotective therapies targeting this pathway. Current therapeutic approaches include SARM1 inhibitors in clinical trials, gene therapy, and NAD precursor supplementation, offering hope for treating multiple neurodegenerative diseases.",
+   "found_by": [],
+   "pubdate": "2026 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41612357",
+   "title": "Applications and potential mechanisms of transcranial magnetic stimulation in autism spectrum disorders.",
+   "abstract": "BACKGROUND: Transcranial magnetic stimulation (TMS) is a non-invasive neuromodulation technique widely applied in clinical interventions for various neurological disorders. Its safety profile, ease of operation, and potential therapeutic value have prompted exploration in autism spectrum disorder (ASD). However, TMS efficacy in ASD exhibits marked heterogeneity, primarily due to the lack of robust scientific theoretical support for existing therapeutic approaches\u2014this severely hinders the standardisation of TMS in ASD clinical practice and the improvement of therapeutic outcomes. MAIN BODY: The present narrative review first provides an in-depth synthesis of existing TMS research in ASD, focusing on the safety validation of different stimulation protocols, the scientific rationale for protocol selection, and the observed differences in efficacy across recent studies. It also explores the suitability of stimulation coil types and the rationality of target localisation, offering practical guidance for harnessing TMS\u2019s therapeutic potential. Building on this, the core of the review focuses on summarising both potential and proposed mechanisms of TMS in ASD, encompassing key dimensions such as ion channels, excitatory-inhibitory imbalance, synaptic plasticity, neural oscillations, neuroinflammation, and the gut microbiome, while elucidating the interrelationships among these factors. CONCLUSION: This narrative review systematically synthesises the proposed mechanisms by which TMS may affect ASD, aiming to provide a foundation for optimising TMS-based therapeutic regimens for ASD and advancing the development of TMS as a more effective and reliable treatment option. [full text, passages naming SARM1] ...rted that in brain samples from human patients with ASD [ 47 ] and in classical ASD animal models (such as valproic acid induction, neuroligin 3 R451C knockin, Cntnap2 mutant, Chromosomal 16p11.2 deletion, and Sarm1 knockout) [ 197 \u2013 201 ], the number of PV-expressing interneurons, related gene expression, and protein levels were down-regulated. In addition, cortical hyperreactivity is observed in Shank3 knockout (le... ...d fronto-temporal connectivity, GABAergic dysfunction, and enhanced attentional ability. Commun Biology. 2023;6(1):557. 10.1038/s42003-023-04891-2 PMC10209099 37225770 201. Xiang L Wu Q Sun H Miao X Lv Z Liu H SARM1 deletion in parvalbumin neurons is associated with autism-like behaviors in mice Cell Death Dis 2022 13 7 638 35869039 10.1038/s41419-022-05083-2 PMC9307765 Xiang L, Wu Q, Sun H, Miao X, Lv Z, Liu H, et a... ...M1 deletion in parvalbumin neurons is associated with autism-like behaviors in mice Cell Death Dis 2022 13 7 638 35869039 10.1038/s41419-022-05083-2 PMC9307765 Xiang L, Wu Q, Sun H, Miao X, Lv Z, Liu H, et al. SARM1 deletion in parvalbumin neurons is associated with autism-like behaviors in mice. Cell Death Dis. 2022;13(7):638. 35869039 10.1038/s41419-022-05083-2 PMC9307765 202. Chen Q Deister CA Gao X Guo B Lynn-Jon...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41329641",
+   "title": "Low-dose mixtures of dietary nutrients ameliorate behavioral deficits in multiple mouse models of autism.",
+   "abstract": "Autism spectrum disorder (ASD) is a group of heterogeneous, behaviorally defined neurodevelopmental conditions influenced by both genetic and environmental factors. Here, we show that supplementation of multiple low-dose nutrients-an important environmental factor contributing to ASD-can modulate synaptic proteomes, reconfigure neural ensembles, and improve social behaviors in mice. First, we used Tbr1+/- mice, a well-established model of ASD, to investigate the effect of nutrient cocktails containing zinc, branched-chain amino acids (BCAA), and serine, all of which are known to regulate synapse formation and activity. Supplementation of nutrient cocktails for 7 days altered total proteomes by increasing synapse-related proteins. Our results further reveal that Tbr1 haploinsufficiency promotes hyperactivation and hyperconnectivity of basolateral amygdala (BLA) neurons, enhancing the activity correlation between individual neurons and their corresponding ensembles. Nutrient supplementation normalized the activity and connectivity of the BLA neurons in Tbr1+/- mice during social interactions. We further show that although a low dose of individual nutrients did not alter social behaviors, treatment with supplement mixtures containing low-dose individual nutrients improved social behaviors and associative memory of Tbr1+/- mice, implying a synergistic effect of combining low-dose zinc, BCAA, and serine. Moreover, the supplement cocktails also improved social behaviors in Nf1+/- and Cttnbp2+/M120I mice, two additional ASD mouse models. Thus, our findings reveal aberrant neural connectivity in the BLA of Tbr1+/- mice and indicate that dietary supplementation with zinc, BCAA, and/or serine offers a safe and accessible approach to mitigate neural connectivity and social behaviors across multiple ASD models. [full text, passages naming SARM1] ...Hsueh Y-P. Targeted deletion of CASK-interacting nucleosome assembly protein causes higher locomotor and exploratory activities. Neurosignals. 2011;19(3):128\u201341. doi: 10.1159/000327819 66. Lin C-W, Hsueh Y-P. Sarm1, a neuronal inflammatory regulator, controls social interaction, associative memory and cognitive flexibility in mice. Brain Behav Immun. 2014;37:142\u201351. doi: 10.1016/j.bbi.2013.12.002 67. Giovannucci A,...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36383609",
+   "title": "Genetic ablation of metabotropic glutamate receptor 5 in rats results in an autism-like behavioral phenotype.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by deficits in communication, and social skills, as well as repetitive and/or restrictive interests and behaviors. The severity of ASD varies from mild to severe, drastically interfering with the quality of life of affected individuals. The current occurrence of ASD in the United States is about 1 in 44 children. The precise pathophysiology of ASD is still unknown, but it is believed that ASD is heterogeneous and can arise due to genetic etiology. Although various genes have been implicated in predisposition to ASD, metabotropic glutamate receptor 5 (mGluR5) is one of the most common downstream targets, which may be involved in autism. mGluR5 signaling has been shown to play a crucial role in neurodevelopment and neural transmission making it a very attractive target for understanding the pathogenesis of ASD. In the present study, we determined the effect of genetic ablation of mGluR5 (Grm5) on an ASD-like phenotype using a rat model to better understand the role of mGluR5 signaling in behavior patterns and clinical manifestations of ASD. We observed that mGluR5 Ko rats exhibited exaggerated self-grooming and increased marble burying, as well as deficits in social novelty. Our results suggest that mGluR5 Ko rats demonstrate an ASD-like phenotype, specifically impaired social interaction as well as repetitive and anxiety-like behavior, which are correlates of behavior symptoms observed in individuals with ASD. The mGluR5 Ko rat model characterized in this study may be explored to understand the molecular mechanisms underlying ASD and for developing effective therapeutic modalities. [full text, passages naming SARM1] ...portant role in social interaction. As a proof of this concept, the mGluR5 positive allosteric modulator (PAM) CDPPB has been demonstrated to ameliorate social interaction deficits in the Shank2 , Shank3 , and Sarm1 Ko mouse models of ASD [ 59 , 90 , 91 ]. In addition, mGluR5 PAM [3-cyano-N-(1,3-diphenyl-1H-pyrazol-5-yl) benzamide] (CDPPB) attenuated social behavior deficits in Sarm1 knock-out mouse model of ASD and... ...deficits in the Shank2 , Shank3 , and Sarm1 Ko mouse models of ASD [ 59 , 90 , 91 ]. In addition, mGluR5 PAM [3-cyano-N-(1,3-diphenyl-1H-pyrazol-5-yl) benzamide] (CDPPB) attenuated social behavior deficits in Sarm1 knock-out mouse model of ASD and prevented ASD-like alterations in rats exposed to cannabinoid during the prenatal period [ 91 , 92 ]. These improvements in social behavior were attributed to the enhancem... ...et al. Autistic-like social behaviour in Shank2-mutant mice improved by restoring NMDA receptor function. Nature. 2012;486(7402):261\u20135. doi: 10.1038/nature11208 91. Lin CW, Chen CY, Cheng SJ, Hu HT, Hsueh YP. Sarm1 deficiency impairs synaptic function and leads to behavioral deficits, which can be ameliorated by an mGluR allosteric modulator. Frontiers in cellular neuroscience. 2014;8:87. doi: 10.3389/fncel.2014.000...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32066658",
+   "title": "Genetic evidence of gender difference in autism spectrum disorder supports the female-protective effect.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder with a male-to-female prevalence of 4:1. However, the genetic mechanisms underlying this gender difference remain unclear. Mutation burden analysis, a TADA model, and co-expression and functional network analyses were performed on de novo mutations (DNMs) and corresponding candidate genes. We found that the prevalence of putative functional DNMs (loss-of-function and predicted deleterious missense mutations) in females was significantly higher than that in males, suggesting that a higher genetic load was required in females to reach the threshold for a diagnosis. We then prioritized 174 candidate genes, including 60 shared genes, 91 male-specific genes, and 23 female-specific genes. All of the three subclasses of candidate genes were significantly more frequently co-expressed in female brains than male brains, suggesting that compensation effects of the deficiency of ASD candidate genes may be more likely in females. Nevertheless, the three subclasses of candidate genes were co-expressed with each other, suggesting a convergent functional network of male and female-specific genes. Our analysis of different aspects of genetic components provides suggestive evidence supporting the female-protective effect in ASD. Moreover, further study is needed to integrate neuronal and hormonal data to elucidate the underlying gender difference in ASD. [full text, passages naming SARM1] ...BR1, DSCAM, POGZ, CHD2, ITSN1 | 0.001 | < FDR < 0.01 ( n = 9) \u2013 | SLC25A46, RANBP17, ASH1L | DNMT3A, GRIN2B, WDFY3, PRKAR1B, STXBP1, ASXL3 | 0.01 | < FDR < 0.05 ( n = 39) AZGP1, ILF2, WAC, DDX3X, KIF11, UNC5B, SARM1, CALU | TDRD9, ASB14, TAF6, SET, PBX1, NUDT17, HYKK, APOA1BP, BSDC1, ZWILCH, USP45, SPAST, PPAN, PPAN-P2RY11, FOXP1, ZNF213, KMT2A, KDM6B, STXBP5L, LMTK3, CACNA2D3, SLC12A6, UBN2 | NFE2L3, KATNAL2, SCN1A,...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32111185",
+   "title": "Machine learning analysis of exome trios to contrast the genomic architecture of autism and schizophrenia.",
+   "abstract": "BACKGROUND: Machine learning (ML) algorithms and methods offer great tools to analyze large complex genomic datasets. Our goal was to compare the genomic architecture of schizophrenia (SCZ) and autism spectrum disorder (ASD) using ML. METHODS: In this paper, we used regularized gradient boosted machines to analyze whole-exome sequencing (WES) data from individuals SCZ and ASD in order to identify important distinguishing genetic features. We further demonstrated a method of gene clustering to highlight which subsets of genes identified by the ML algorithm are mutated concurrently in affected individuals and are central to each disease (i.e., ASD vs. SCZ \"hub\" genes). RESULTS: In summary, after correcting for population structure, we found that SCZ and ASD cases could be successfully separated based on genetic information, with 86-88% accuracy on the testing dataset. Through bioinformatic analysis, we explored if combinations of genes concurrently mutated in patients with the same condition (\"hub\" genes) belong to specific pathways. Several themes were found to be associated with ASD, including calcium ion transmembrane transport, immune system/inflammation, synapse organization, and retinoid metabolic process. Moreover, ion transmembrane transport, neurotransmitter transport, and microtubule/cytoskeleton processes were highlighted for SCZ. CONCLUSIONS: Our manuscript introduces a novel comparative approach for studying the genetic architecture of genetically related diseases with complex inheritance and highlights genetic similarities and differences between ASD and SCZ. [full text, passages naming SARM1] ...unique genes. The gene-based model utilized 1845 genes. Combining the top 10 genes from both approaches yielded a total list of 16 genes (Supplemental Table 1 ), with an overlap of 4 genes including the top 2: SARM1 and QRICH2, and PCLO and PRPF31. Overall, out of all the genes used by both models, 151 genes were overlapping (Supplemental Table 2 ). Table 3 Top 10 important genes from SNV-based and gene-based models... ...all the genes used by both models, 151 genes were overlapping (Supplemental Table 2 ). Table 3 Top 10 important genes from SNV-based and gene-based models SNV-based approach (SNV rsID) | Gene-based approach | SARM1 (rs71373646) | SARM1 | QRICH2 (rs6501878) | QRICH2 | AKAP1 (rs34535433) | PRPF31 | PCLO (rs77721383) | SEC24D | TSPO2 (rs147405274) | SCN4A | ABCC3 (rs11568605) | CACNA1S | KIF13A (rs41267712) | CDSN | FA... ...y both models, 151 genes were overlapping (Supplemental Table 2 ). Table 3 Top 10 important genes from SNV-based and gene-based models SNV-based approach (SNV rsID) | Gene-based approach | SARM1 (rs71373646) | SARM1 | QRICH2 (rs6501878) | QRICH2 | AKAP1 (rs34535433) | PRPF31 | PCLO (rs77721383) | SEC24D | TSPO2 (rs147405274) | SCN4A | ABCC3 (rs11568605) | CACNA1S | KIF13A (rs41267712) | CDSN | FAN1 (rs150393409) | HE...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "28332277",
+   "title": "Sequencing of sporadic Attention-Deficit Hyperactivity Disorder (ADHD) identifies novel and potentially pathogenic de novo variants and excludes overlap with genes associated with autism spectrum disorder.",
+   "abstract": "Attention-Deficit Hyperactivity Disorder (ADHD) has high heritability; however, studies of common variation account for <5% of ADHD variance. Using data from affected participants without a family history of ADHD, we sought to identify de novo variants that could account for sporadic ADHD. Considering a total of 128 families, two analyses were conducted in parallel: first, in 11 unaffected parent/affected proband trios (or quads with the addition of an unaffected sibling) we completed exome sequencing. Six de novo missense variants at highly conserved bases were identified and validated from four of the 11 families: the brain-expressed genes TBC1D9, DAGLA, QARS, CSMD2, TRPM2, and WDR83. Separately, in 117 unrelated probands with sporadic ADHD, we sequenced a panel of 26 genes implicated in intellectual disability (ID) and autism spectrum disorder (ASD) to evaluate whether variation in ASD/ID-associated genes were also present in participants with ADHD. Only one putative deleterious variant (Gln600STOP) in CHD1L was identified; this was found in a single proband. Notably, no other nonsense, splice, frameshift, or highly conserved missense variants in the 26 gene panel were identified and validated. These data suggest that de novo variant analysis in families with independently adjudicated sporadic ADHD diagnosis can identify novel genes implicated in ADHD pathogenesis. Moreover, that only one of the 128 cases (0.8%, 11 exome, and 117 MIP sequenced participants) had putative deleterious variants within our data in 26 genes related to ID and ASD suggests significant independence in the genetic pathogenesis of ADHD as compared to ASD and ID phenotypes. \u00a9 2017 Wiley Periodicals, Inc. [full text, passages naming SARM1] ...ntal Table 1 . A total of 8 de novo missense SNVs were called in 4 of the 11 families with sporadic and non-syndromic ADHD who underwent whole exome sequencing. Of these 8 de novo missense variants, 2 SNVs (in SARM1 and SPTBN2 ) in 2 unique families (4 and 6, respectively) did not subsequently validate in an orthogonal test (i.e., showed the reference, non- de novo SNV). The 6 validated de novo missense SNVs were all...",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "31889021": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40410792": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18706831": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41985447": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31397435": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32360414": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17449723": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34919641": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41032747": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39961973": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35098926": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34704806": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35869039": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24321214": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24744698": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35334231": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30633870": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40344041": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40496808": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37561040": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34351802": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32524478": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36207571": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41138726": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23946415": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32152523": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31439793": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34184985": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29395922": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37193131": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33107823": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36287209": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41575852": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35259852": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32268088": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40833344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32413284": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35863521": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22678360": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40097763": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35974060": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41160700": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42341897": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33468661": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35285800": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35737721": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35737728": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37086482": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32755591": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30333228": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42243876": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34213829": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34991663": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23885119": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40798926": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32968873": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26059317": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41576094": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36287202": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34870595": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37091921": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41612357": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41329641": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36383609": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32066658": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32111185": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39596030": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28332277": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40180440": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35562389": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40145027": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31881755": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37456110": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34029630": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30897826": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27021819": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33479477": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27979975": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 9.9,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 102.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 1.5,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "14 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "19 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 4.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 3879,
+   "output_tokens": 118,
+   "usd": 0.004469,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 68.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.9,
+   "note": "",
+   "input_tokens": 36916,
+   "output_tokens": 1522,
+   "usd": 0.044526,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.2,
+   "note": "",
+   "input_tokens": 14777,
+   "output_tokens": 938,
+   "usd": 0.097335,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>4</established>\n    <existing>58</existing>\n    <hypothesized>35</hypothesized>\n    <novel>3</novel>\n  </probabilities>\n  <justification>The strongest mechanistic data are from mouse models: Sarm1 knockdown and PV-neuron-specific Sarm1 conditional knockout mice show social interaction deficits, repetitive behaviors, altered synaptic plasticity and rescue by an mGluR5 PAM (PMIDs 35869039, 24321214, 24744698), which alone would support only \"Hypothesized.\" However, there is limited human genetic evidence: SARM1 appears among prioritized ASD candidate genes derived from de novo mutation burden/TADA analyses (PMID 32066658) and as a top discriminating gene in exome-trio machine-learning analysis of ASD versus schizophrenia (PMID 32111185), with a (non-validated) de novo missense variant also noted in an ADHD sequencing study (PMID 28332277). These are suggestive but not replicated in independent probands with clear causal demonstration, so \"Established\" is not warranted \u2014 no two articles report patient-level variants with independent replication for ASD. Most remaining papers concern SARM1's axon-degeneration/NADase biology and are unrelated to ASD genetics, and several ASD mentions are background citations rather than new evidence.</justification>\n  <pmids>\n    <pmid>32066658</pmid>\n    <pmid>32111185</pmid>\n    <pmid>35869039</pmid>\n    <pmid>24321214</pmid>\n    <pmid>24744698</pmid>\n    <pmid>28332277</pmid>\n    <pmid>36383609</pmid>\n  </pmids>\n</response>"
+}

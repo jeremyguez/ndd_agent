@@ -1,0 +1,456 @@
+{
+ "gene": "ZNF207",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "disorder of psychological development",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "BUGZ",
+   "zinc finger protein 207"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 23,
+  "titlekicksparingfulltext": 5,
+  "read": 10
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 3,
+   "Existing": 52,
+   "Hypothesized": 33,
+   "Novel": 12
+  },
+  "justification": "No article demonstrates a causal, replicated link between ZNF207 point variants and neurodevelopmental disorder; the 17q11.2 microdeletion reports (PMID 29130599, 37686382, 38596211) involve multigene CNVs where ZNF207 is only one of several haploinsufficient candidates and CDK5R1/RHOT1 are favoured, so they cannot establish causality. The strongest single-gene human evidence is the consanguineous Omani autism cohort (PMID 39769462), which reports a homozygous novel missense variant (p.G213R, classified likely pathogenic) in ZNF207 as a candidate ASD risk gene \u2014 a limited, non-replicated but credible human genetic observation supporting \"Existing\". The non-syndromic ID linkage study (PMID 36843831) only lists ZNF207 as one of ten positional candidates without identifying a variant, which is weaker and borders on hypothesis-generating. Additional biology (splicing regulation, transcriptional control, FMRP-related multi-omic analysis; PMIDs 41475346, 42266503, 36973293) provides mechanistic plausibility consistent with \"Hypothesized\". Overall, the evidence tips toward limited human association rather than established causation.",
+  "pmids": [],
+  "detail": {
+   "Established": 3,
+   "Existing": 52,
+   "Hypothesized": 33,
+   "Novel": 12
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41475346",
+   "title": "RNA-coupled CRISPR screens reveal ZNF207 as a regulator of LMNA aberrant splicing in progeria.",
+   "abstract": "Despite progress in understanding pre-mRNA splicing, the regulatory mechanisms controlling most alternative splicing events remain unclear. We developed CRASP-seq (CRISPR-based identification of regulators of alternative splicing with phenotypic sequencing), a method that integrates pooled CRISPR-based genetic perturbations with deep sequencing of splicing reporters, to quantitatively assess the impact of all human genes on alternative splicing from a single RNA sample. CRASP-seq identified both known and untested regulators, enriched for proteins involved in RNA splicing and metabolism. As a proof-of-concept, CRASP-seq analysis of the LMNA cryptic splicing event linked to progeria uncovered ZNF207, primarily known for mitotic spindle assembly, as a regulator of progerin splicing. ZNF207 depletion enhances canonical LMNA splicing and decreases progerin protein levels in patient-derived cells. We further show that ZNF207's zinc-finger domain broadly impacts alternative splicing through direct interactions with U1 small nuclear ribonucleoprotein (snRNP) components. These findings position ZNF207 as a U1 snRNP auxiliary factor and demonstrate the power of CRASP-seq to uncover key regulators and domains of alternative splicing.",
+   "found_by": [],
+   "pubdate": "2026 Jan 8",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36973293",
+   "title": "Conserved transcription factors promote cell fate stability and restrict reprogramming potential in differentiated cells.",
+   "abstract": "Defining the mechanisms safeguarding cell fate identity in differentiated cells is crucial to improve 1) - our understanding of how differentiation is maintained in healthy tissues or altered in a disease state, and 2) - our ability to use cell fate reprogramming for regenerative purposes. Here, using a genome-wide transcription factor screen followed by validation steps in a variety of reprogramming assays (cardiac, neural and iPSC in fibroblasts and endothelial cells), we identified a set of four transcription factors (ATF7IP, JUNB, SP7, and ZNF207 [AJSZ]) that robustly opposes cell fate reprogramming in both lineage and cell type independent manners. Mechanistically, our integrated multi-omics approach (ChIP, ATAC and RNA-seq) revealed that AJSZ oppose cell fate reprogramming by 1) - maintaining chromatin enriched for reprogramming TF motifs in a closed state and 2) - downregulating genes required for reprogramming. Finally, KD of AJSZ in combination with MGT overexpression, significantly reduced scar size and improved heart function by 50%, as compared to MGT alone post-myocardial infarction. Collectively, our study suggests that inhibition of barrier to reprogramming mechanisms represents a promising therapeutic avenue to improve adult organ function post-injury.",
+   "found_by": [],
+   "pubdate": "2023 Mar 27",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "42419454",
+   "title": "ZNF207 in human diseases: Molecular mechanisms, signalling networks, and emerging therapeutic opportunities.",
+   "abstract": "Zinc finger protein 207 (ZNF207), a member of the Cys2His2 (C2H2)-type zinc finger protein family, functions as a transcriptional regulator involved in key cellular processes, including proliferation, differentiation, and tumourigenesis. Through its zinc finger motifs, microtubule-binding region, GLEBS motif, intrinsically disordered region, and nuclear localization signal, ZNF207 participates in mitotic regulation, pluripotency maintenance, RNA processing, and context-dependent transcriptional control. Aberrant ZNF207 expression has been associated with disease progression and adverse clinical outcomes in several cancer types, although the strength of evidence varies across disease contexts. Mechanistically, ZNF207 contributes to tumour development and progression through modulation of major oncogenic signalling pathways, including phosphoinositide 3-kinase/protein kinase B/mechanistic target of rapamycin (PI3K/AKT/mTOR) signalling, nuclear factor erythroid 2-related factor 2 (NRF2)-related ferroptosis, spindle checkpoint and immune-regulatory pathways. Given its multifaceted regulatory roles in cancer biology, ZNF207 has emerged as a promising target for precision oncology. Further elucidation of its molecular mechanisms may facilitate the development of early diagnostic strategies and targeted therapeutic interventions.",
+   "found_by": [],
+   "pubdate": "2026 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29130599",
+   "title": "Interstitial microdeletion of 17q11.2 is associated with hypotonia, fatigue, intellectual disability, and a subtle facial phenotype in three unrelated patients.",
+   "abstract": "Over the past decade chromosomal microarray analysis (array CGH) has allowed the discovery of many novel disease-causing recurrent microdeletion and microduplication syndromes. Here we present three unrelated patients (2F; 1M) from three different countries, with developmental delay, intellectual disability, hypotonia, fatigue, and highly similar dysmorphic facial features. Shared facial features are a broad and wide forehead, similar shape of the eyes with long palpebral fissures, a bulbous tip of the nose and thick lips. Intellectual disabilities range from mild to severe. One female patient and the male patient were investigated in childhood for significant hypotonia thought to be suggestive of a neuromuscular disorder. The two female patients also show excessive fatigue with daytime somnolence. The patients carry overlapping, de novo microdeletions of chromosome 17q11.2, with sizes ranging from 0.97 to 1.18\u2009Mb. The smallest region of overlap (SRO) between the three patients is 863\u2009kb, and contains seven genes, five of which are predicted to exhibit haploinsufficiency (CDK5R1, PSMD11, RHOT1, SUZ12, ZNF207) although none has yet been associated with genetic syndromes. Of these five genes, the brain expressed CDK5R1 gene constitutes a good candidate for the developmental delay, while the RHOT1 gene, involved in mitochondrial trafficking, might underlie the hypotonia and the excessive fatigue.",
+   "found_by": [],
+   "pubdate": "2018 Jan",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "42266503",
+   "title": "MCVAE-based multi-omic anomaly detection in Fragile X Syndrome.",
+   "abstract": "Fragile X Syndrome (FXS) is a neurodevelopmental disorder caused by mutations in the FMR1 gene, resulting in the loss of FMRP, an RNA-binding protein regulating translation of hundreds of mRNAs. The Fmr1 knock-out mouse models this deficiency and is used to study molecular perturbations in the FXS brain. Omics analysis shows that FMRP loss disrupts coordination between transcriptomic and translatomic layers. But limited sample availability and dataset heterogeneity hinder detection of subtle, coordinated multi-omic dysregulations. To address this, we trained a Multi-Channel Variational Autoencoder (MCVAE) on wild-type samples to learn a shared latent representation of transcriptomic and translatomic modalities via cross-modal reconstruction. Testing MCVAE on Fmr1-knock-out samples revealed deviations from wild-type as anomalies, uncovering known and novel perturbations. Compared to alternative methods, MCVAE shows stronger enrichment for FMRP mRNA targets and improved genotype discriminative power in post-hoc tests. Translatomic anomalies exhibited coordinated relationships with transcriptomic anomalies, as supported by publicly available databases exploration. Moreover, these anomalies mapped to validated FMRP regulators and neurodevelopmental pathways, establishing MCVAE as a framework to uncover coordinated molecular perturbations underlying the FXS pathophysiology and guide biomarker and therapeutic target identification. [full text, passages naming ZNF207] ...tology annotation revealed DNA- or chromatin-binding, RNA-binding, and transcriptional regulatory activities for 8 anomalies besides FMRP (Fig. 6A and Supplementary Table S3 ): PKP4, STOX2, NEDD4, PUM1, STAG2, ZNF207, SMG5, and FIZ1. In addition, TDRD3 and ASCL1 anomalies, that are not direct targets of FMRP, were also annotated as DNA/chromatin binding proteins and transcription regulators (Fig. 7A and Supplementary... ...alysis indicates that these proteins cover different steps of mRNA biogenesis (a detailed description of their roles is provided in the Supplementary Results section). ASCL1 [ 44 ], STOX2 [ 45 ], STAG2 [ 46 ], ZNF207 [ 47 \u2013 49 ], and TDRD3 [ 50 ] are direct actors of transcription or modulators of this process. ZNF207 also participates in the regulation of alternative splicing [ 51 , 52 ] while PUM1 and SMG5 impact m... ...f their roles is provided in the Supplementary Results section). ASCL1 [ 44 ], STOX2 [ 45 ], STAG2 [ 46 ], ZNF207 [ 47 \u2013 49 ], and TDRD3 [ 50 ] are direct actors of transcription or modulators of this process. ZNF207 also participates in the regulation of alternative splicing [ 51 , 52 ] while PUM1 and SMG5 impact mRNA stability [ 53 , 54 ]. Interestingly, TDRD3 and PUM1 also regulate translation [ 54 , 55 ]. Among P...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36843831",
+   "title": "Non-syndromic Intellectual Disability: An Experimental In-Depth Exploration of Inheritance Pattern, Phenotypic Presentation, and Genomic Composition.",
+   "abstract": "Background Intellectual disability (ID), also termed mental retardation (MR), is a neurodevelopmental disorder characterized by an intelligence quotient (IQ) of 70 or below and a deficit in at least two behaviors associated with adaptive functioning. The condition is further classified into syndromic intellectual disability (S-ID) and non-syndromic intellectual disability (NS-ID). This study highlights the genes associated with NS-ID. Objectives A genetic study was performed on two Pakistani families to know the inheritance patterns, clinical phenotypes, and molecular genetics of affected individuals with NS-ID. Methodology Samples were collected from two families: families A and B. All affected individuals in both families were diagnosed by a neurologist. Written informed consent was taken from the affected individuals and guardians before collecting the data and sample. Family A belongs to the Swabi District of Pakistan having four affected individuals, out of whom three were male and one was female. Family B also belongs to the Swabi District of Pakistan having two affected individuals, out of whom one was male and one was female. A total of 10 candidate genes were selected and were further screened by microarray analysis. Results In family A, this analysis identified a region of 9.6 Mb on chromosome 17q11.2-q12 between the single nucleotide polymorphisms (SNPs) rs953527 and rs2680398. The region was genotyped using microsatellite markers to confirm the haplotypes in all family members. Based on the phenotype-genotype relationship, 10 possible candidate genes were selected out of more than 140 genes in this critical region of 9.6 Mb. In family B, homozygosity mapping through microarray identified four homozygous areas of affected individuals: two (27,324,822-59,122,062 and 96,423,252123,656,241) on chromosome 8, one (14,785,224-19,722,760) on chromosome 9, and one (126173647-126215644) on chromosome 11. Conclusion An autosomal recessive pattern was found in the pedigrees of both families A and B. Phenotypically affected individuals showed IQ levels below 70. Three genes, CDK5R1, OMG, and EV12A, were found on chromosome 17q11.2-q12 region of affected individuals in family A with high expression in the frontal cortex of the brain, hippocampus, and spinal cord, respectively. Other regions on chromosomes 8, 9, and 11 as evident from the affected individuals in family B can also contribute to the non-syndromic autosomal recessive intellectual disability (NS-ARID). Further research is needed to find the association of these genes with intelligence and other neuropsychiatric conditions. [full text, passages naming ZNF207] ...vant functional candidate genes, i.e., ACCN1 (MIM 601784), CDK5R1 (MIM 603460), EVI2A (MIM 158380), EVI2B (MIM 158381), MYO1D (MIM 606539), OMG (MIM 164345), PEX12 (MIM 601758), RAB11FIP4 (MIM 611999), RHBDL3, ZNF207 (MIM 603428), and the two miRNA genes MIR193A and MIR365-2 based on expression in the brain, involvement in neurodevelopmental pathways, and association with NS-ID for direct sequence analysis. Consent a... ...arkers confirmed homozygous haplotypes for the linked region in all affected individuals. We selected 10 possible candidate genes, namely, ACCN1, CDK5R1, EVI2A, EVI2B, MYO1D, OMG, PEX12, RAB11FIP4, RHBDL3, and ZNF207, out of approximately 150 genes lying in this critical region of 9.6 Mb. These selections were based on expression in the brain, their role in neurodevelopmental pathways, and their association with NS-I...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39769462",
+   "title": "Genetic Variant Analyses Identify Novel Candidate Autism Risk Genes from a Highly Consanguineous Cohort of 104 Families from Oman.",
+   "abstract": "Deficits in social communication, restricted interests, and repetitive behaviours are hallmarks of autism spectrum disorder (ASD). Despite high genetic heritability, the majority of clinically diagnosed ASD cases have unknown genetic origins. We performed genome sequencing on mothers, fathers, and affected individuals from 104 families with ASD in Oman, a Middle Eastern country underrepresented in international genetic studies. This approach identified 48 novel candidate genes significantly associated with ASD in Oman. In particular, 35 of these genes have been previously implicated in neurodevelopmental disorders (NDDs) in other populations, underscoring the conserved genetic basis of ASD across ethnicities. Genetic variants within these candidate genes that would impact the encoded protein included 1 insertion, 4 frameshift, 6 splicing, 12 nonsense, and 67 missense changes. Notably, 61% of the SNVs were homozygous, suggesting a prominent recessive genetic architecture for ASD in this unique population. The scarcity of genetic studies on ASD in the Arabian Peninsula has impeded the understanding of the unique genetic landscape of ASD in this region. These findings help bridge this knowledge gap and provide valuable insights into the complex genetic basis of ASD in Oman. [full text, passages naming ZNF207] ...3* | nonsense | | homoz. 0 | 0 | 35 | P | 3 | 0.97 | Novel | | PREP | NM_002726.5 6 | c.1213+1G>A | splicing | splicing | | homoz. 0.0013 European | 3.40855 \u00d7 10 | \u22125 34 | P | 2.65 | 1 | Novel | 37 | M | + | | ZNF207 | NM_001098507.2 17 | c.637G>C | p.G213R | missense | | homoz. 0 | 0 | 25 | LP | 2.69 | 0.12 | Novel | | CARMIL1 | NM_017640.6 6 | c.3149A>T | p.H1050L | missense | | homoz. 0 | 0.00132933 | 20.7 | LP |...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38596211",
+   "title": "Mutation analysis and clinical profile of South African patients with Neurofibromatosis type 1 (NF1) phenotype.",
+   "abstract": "Neurofibromatosis type 1 (NF1) is an autosomal dominant genetic condition with complete age-dependent penetrance, variable expressivity and a global prevalence of \u223c1/3,000. It is characteriszed by numerous caf\u00e9-au-lait macules, skin freckling in the inguinal or axillary regions, Lisch nodules of the iris, optic gliomas, neurofibromas, and tumour predisposition. The diagnostic testing strategy for NF1 includes testing for DNA single nucleotide variants (SNVs), copy number variants (CNVs) as well as RNA analysis for deep intronic and splice variants, which can cumulatively identify the causative variant in 95% of patients. In the present study, NF1 patients were screened using a next-generation sequencing (NGS) assay targeting NF1 exons and intron/exon boundaries for SNV and NF1 multiple ligation-dependent probe amplification (MLPA) analysis for CNV detection. Twenty-six unrelated Southern African patients clinically suspected of having NF1, based on the clinical diagnostic criteria developed by the National Institute of Health (NIH), were included in the current study. A detection rate of 58% (15/26) was obtained, with SNVs identified in 80% (12/15) using a targeted gene panel and NF1 gene deletion in 20% (3/15) identified using MLPA. Ten patients (38%) had no variants identified, although they met NF1 diagnostic criteria. One VUS was identified in this study in a patient that met NF1 diagnostic criteria, however there was no sufficient information to classify variant as pathogenic. The clinical features of Southern African patients with NF1 are similar to that of the known NF1 phenotype, with the exception of a lower frequency of plexiform neurofibromas and a higher frequency of developmental/intellectual disability compared to other cohorts. This is the first clinical and molecular characterisation of a Southern African ancestry NF1 cohort using both next-generation sequencing and MLPA analysis. A significant number of patients remained without a diagnosis following DNA-level testing. The current study offers a potential molecular testing strategy for our low resource environment that could benefit a significant proportion of patients who previously only received a clinical diagnosis without molecular confirmation. [full text, passages naming ZNF207] ...probe mix detects deletions and duplications in the region surrounding the NF1 gene including the ADAP2, ASPA, ATAD5, BLMH, CPD, CRLF3, LRRC37B, MYO1D, NF1, PMP22, PSMD11, RNF135, SUZ12, SUZ12P1, TRAF4, UTP6, ZNF207, UTP6 and ZNF207 genes. SALSA MLPA EK1 Reagent kit (FAM labelled) (MRC Holland, Netherlands) was also used as per the manufacturer\u2019s instructions. Capillary electrophoresis was performed using the GeneSc... ...s deletions and duplications in the region surrounding the NF1 gene including the ADAP2, ASPA, ATAD5, BLMH, CPD, CRLF3, LRRC37B, MYO1D, NF1, PMP22, PSMD11, RNF135, SUZ12, SUZ12P1, TRAF4, UTP6, ZNF207, UTP6 and ZNF207 genes. SALSA MLPA EK1 Reagent kit (FAM labelled) (MRC Holland, Netherlands) was also used as per the manufacturer\u2019s instructions. Capillary electrophoresis was performed using the GeneScan 500 LIZ size s...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40903954",
+   "title": "Foxg1 and companions: Not only transcription factors.",
+   "abstract": "Moving from the most recent results on Foxg1 biology, we first summarize the available information on some special pleiotropic effectors of neurodevelopmental interest, involved in controlling both transcription and post-transcriptional steps of gene expression. Then, after further analysis of the literature, we report evidence that, not strictly limited to neurodevelopmental effectors, such pleiotropy also applies to other transcription factors, involved in physiology and homeostasis. Furthermore, through the systematic analysis of a major public protein-protein interaction database, we gather strong evidence that the involvement of \"canonical\" transcription factors in post-transcriptional control of gene expression could be a pervasive phenomenon, characterizing hundreds of effectors. Finally, we discuss the biological significance of these findings and propose three evolutionary mechanisms that may have contributed to such an unexpected scenario. [full text, passages naming ZNF207] ...2 | DBP | | | | | | | | | | + | + | YBX3 | DBP | | | | + | + | | | | | | | ZBTB41 | ZF.C2H2 | | + | | | | | | | + | | | ZEB1 | HB-ZF.C2H2 | | | + | | | | | | + | | | ZFPM2 | ZF.C2H2 | | | + | | | | + | | | | | ZNF207 | ZF.C2H2 | + | + | | | | | | | | | | ZNF274 | ZF.C2H2 | | | | | | | | | + | + | | ZNF317 | ZF.C2H2 | | | | | | | | | + | + | | ZNF324B | ZF.C2H2 | | | | | | | | | | + | + | ZNF326 | ZF.C2H2 | | + | | |...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37686382",
+   "title": "Identification of an <i>NF1</i> Microdeletion with Optical Genome Mapping.",
+   "abstract": "Neurofibromatosis type 1 (NF1) is a clinically heterogeneous neurocutaneous disorder inherited in autosomal dominant manner. Approximately 5-10% of the cases are caused by NF1 microdeletions involving the NF1 gene and its flanking regions. Microdeletions, which lead to more severe clinical manifestations, can be subclassified into four different types (type 1, 2, 3 and atypical) according to their size, the genomic location of the breakpoints and the number of genes included within the deletion. Besides the prominent hallmarks of NF1, patients with NF1 microdeletions frequently exhibit specific additional clinical manifestations like dysmorphic facial features, macrocephaly, overgrowth, global developmental delay, cognitive disability and an increased risk of malignancies. It is important to identify the genes co-deleted with NF1, because they are likely to have an effect on the clinical manifestation. Multiplex ligation-dependent probe amplification (MLPA) and microarray analysis are the primary techniques for the investigation of NF1 microdeletions. However, based on previous research, optical genome mapping (OGM) could also serve as an alternative method to identify copy number variations (CNVs). Here, we present a case with NF1 microdeletion identified by means of OGM and demonstrate that this novel technology is a suitable tool for the identification and classification of the NF1 microdeletions. [full text, passages naming ZNF207] ...s (NF1 Area) | Preceding probe not included in the deletion | Centromeric probe deleted | Telomeric probe deleted | Following probe not deleted | CPD (28,789,435) | SUZ12P (29,058,406) | LRRC37B (30,348,590) | ZNF207 (30,693,769) | OGM probe positions | Preceding probe not included in the deletion | Centromeric probe deleted | Telomeric probe deleted | Following probe not deleted | 28,946,383 | 28,955,119 | 30,402,44...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "29196338": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30862715": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25889497": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37082297": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19584937": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40680452": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41475346": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36973293": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31113916": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42419454": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38591780": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29130599": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35666721": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42266503": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36843831": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39769462": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38596211": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40903954": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37686382": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34681033": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34535841": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28899882": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31382655": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.8,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "3 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 988,
+   "output_tokens": 40,
+   "usd": 0.001188,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 39.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.2,
+   "note": "",
+   "input_tokens": 12173,
+   "output_tokens": 416,
+   "usd": 0.014253,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.3,
+   "note": "",
+   "input_tokens": 9314,
+   "output_tokens": 834,
+   "usd": 0.06742,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>3</established>\n    <existing>52</existing>\n    <hypothesized>33</hypothesized>\n    <novel>12</novel>\n  </probabilities>\n  <justification>No article demonstrates a causal, replicated link between ZNF207 point variants and neurodevelopmental disorder; the 17q11.2 microdeletion reports (PMID 29130599, 37686382, 38596211) involve multigene CNVs where ZNF207 is only one of several haploinsufficient candidates and CDK5R1/RHOT1 are favoured, so they cannot establish causality. The strongest single-gene human evidence is the consanguineous Omani autism cohort (PMID 39769462), which reports a homozygous novel missense variant (p.G213R, classified likely pathogenic) in ZNF207 as a candidate ASD risk gene \u2014 a limited, non-replicated but credible human genetic observation supporting \"Existing\". The non-syndromic ID linkage study (PMID 36843831) only lists ZNF207 as one of ten positional candidates without identifying a variant, which is weaker and borders on hypothesis-generating. Additional biology (splicing regulation, transcriptional control, FMRP-related multi-omic analysis; PMIDs 41475346, 42266503, 36973293) provides mechanistic plausibility consistent with \"Hypothesized\". Overall, the evidence tips toward limited human association rather than established causation.</justification>\n  <pmids>\n    <pmid>39769462</pmid>\n    <pmid>36843831</pmid>\n    <pmid>29130599</pmid>\n    <pmid>37686382</pmid>\n    <pmid>38596211</pmid>\n    <pmid>42266503</pmid>\n    <pmid>41475346</pmid>\n    <pmid>36973293</pmid>\n  </pmids>\n</response>"
+}

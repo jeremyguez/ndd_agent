@@ -1,0 +1,911 @@
+{
+ "gene": "CASZ1",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "CASTOR",
+   "FLJ20321",
+   "ZNF693",
+   "CST",
+   "SRG",
+   "castor zinc finger 1"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 97,
+  "titlekicksparingfulltext": 34,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 25,
+   "Existing": 62,
+   "Hypothesized": 11,
+   "Novel": 2
+  },
+  "justification": "The strongest human genetic evidence is the large-scale targeted sequencing study (PMID 33004838), which explicitly lists CASZ1 among genes reaching family-wise error rate significance for de novo mutation excess in >17,000 NDD/autism trios \u2014 direct variant-level evidence in human probands. Supporting but non-primary evidence includes SFARI \"Category 1 (high confidence)\" classification of CASZ1 cited in methylation/review papers (PMIDs 42794468, 42401939, 42308296), which are citations of known background rather than independent replication. Other CASZ1 papers concern cardiac development, neuroblastoma, rhabdomyosarcoma, retinal nuclear organization, or 1p36 contiguous-gene deletions (PMIDs 26345236, 41556146), which cannot isolate CASZ1 from neighbouring genes and therefore do not count toward establishment. Because only one primary study with patient-level variants supports an autism link, without independent replication in a second cohort of probands/families, the evidence best fits \"Existing\" rather than \"Established.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 25,
+   "Existing": 62,
+   "Hypothesized": 11,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "33004838",
+   "title": "Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders.",
+   "abstract": "Most genes associated with neurodevelopmental disorders (NDDs) were identified with an excess of de novo mutations (DNMs) but the significance in case-control mutation burden analysis is unestablished. Here, we sequence 63 genes in 16,294 NDD cases and an additional 62 genes in 6,211 NDD cases. By combining these with published data, we assess a total of 125 genes in over 16,000 NDD cases and compare the mutation burden to nonpsychiatric controls from ExAC. We identify 48 genes (25 newly reported) showing significant burden of ultra-rare (MAF\u2009<\u20090.01%) gene-disruptive mutations (FDR 5%), six of which reach family-wise error rate (FWER) significance (p\u2009<\u20091.25E-06). Among these 125 targeted genes, we also reevaluate DNM excess in 17,426 NDD trios with 6,499 new autism trios. We identify 90 genes enriched for DNMs (FDR 5%; e.g., GABRG2 and UIMC1); of which, 61 reach FWER significance (p\u2009<\u20093.64E-07; e.g., CASZ1). In addition to doubling the number of patients for many NDD risk genes, we present phenotype-genotype correlations for seven risk genes (CTCF, HNRNPU, KCNQ3, ZBTB18, TCF12, SPEN, and LEO1) based on this large-scale targeted sequencing effort.",
+   "found_by": [],
+   "pubdate": "2020 Oct 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "32451484",
+   "title": "Three-dimensional genome restructuring across timescales of activity-induced neuronal gene expression.",
+   "abstract": "Neuronal activation induces rapid transcription of immediate early genes (IEGs) and longer-term chromatin remodeling around secondary response genes (SRGs). Here, we use high-resolution chromosome-conformation-capture carbon-copy sequencing (5C-seq) to elucidate the extent to which long-range chromatin loops are altered during short- and long-term changes in neural activity. We find that more than 10% of loops surrounding select IEGs, SRGs, and synaptic genes are induced de novo during cortical neuron activation. IEGs Fos and Arc connect to activity-dependent enhancers via singular short-range loops that form within 20\u2009min after stimulation, prior to peak messenger RNA levels. By contrast, the SRG Bdnf engages in both pre-existing and activity-inducible loops that form within 1-6\u2009h. We also show that common single-nucleotide variants that are associated with autism and schizophrenia are colocalized with distinct classes of activity-dependent, looped enhancers. Our data link architectural complexity to transcriptional kinetics and reveal the rapid timescale by which higher-order chromatin architecture reconfigures during neuronal stimulation.",
+   "found_by": [],
+   "pubdate": "2020 Jun",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37770578",
+   "title": "Psychiatric risk gene Transcription Factor 4 (TCF4) regulates the density and connectivity of distinct inhibitory interneuron subtypes.",
+   "abstract": "Transcription factor 4 (TCF4) is a basic helix-loop-helix transcription factor that is implicated in a variety of psychiatric disorders including autism spectrum disorder (ASD), major depression, and schizophrenia. Autosomal dominant mutations in TCF4 are causal for a specific ASD called Pitt-Hopkins Syndrome (PTHS). However, our understanding of etiological and pathophysiological mechanisms downstream of TCF4 mutations is incomplete. Single cell sequencing indicates TCF4 is highly expressed in GABAergic interneurons (INs). Here, we performed cell-type specific expression analysis (CSEA) and cellular deconvolution (CD) on bulk RNA sequencing data from 5 different PTHS mouse models. Using CSEA we observed differentially expressed genes (DEGs) were enriched in parvalbumin expressing (PV+) INs and CD predicted a reduction in the PV+ INs population. Therefore, we investigated the role of TCF4 in regulating the development and function of INs in the Tcf4+/tr mouse model of PTHS. In Tcf4+/tr mice, immunohistochemical (IHC) analysis of subtype-specific IN markers and reporter mice identified reductions in PV+, vasoactive intestinal peptide (VIP+), and cortistatin (CST+) expressing INs in the cortex and cholinergic (ChAT+) INs in the striatum, with the somatostatin (SST+) IN population being spared. The reduction of these specific IN populations led to cell-type specific alterations in the balance of excitatory and inhibitory inputs onto PV+ and VIP+ INs and excitatory pyramidal neurons within the cortex. These data indicate TCF4 is a critical regulator of the development of specific subsets of INs and highlight the inhibitory network as an important source of pathophysiology in PTHS.",
+   "found_by": [],
+   "pubdate": "2023 Nov",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "32870709",
+   "title": "Categorized Genetic Analysis in Childhood-Onset Cardiomyopathy.",
+   "abstract": "BACKGROUND: Childhood-onset cardiomyopathy is a heterogeneous group of conditions the cause of which is largely unknown. The influence of consanguinity on the genetics of cardiomyopathy has not been addressed at a large scale. METHODS: To unravel the genetic cause of childhood-onset cardiomyopathy in a consanguineous population, a categorized approach was adopted. Cases with childhood-onset cardiomyopathy were consecutively recruited. Based on the likelihood of founder mutation and on the clinical diagnosis, genetic test was categorized to either (1) targeted genetic test with targeted mutation test, single-gene test, or multigene panel for Noonan syndrome, or (2) untargeted genetic test with whole-exome sequencing or whole-genome sequencing. Several bioinformatics tools were used to filter the variants. RESULTS: Two-hundred five unrelated probands with various forms of cardiomyopathy were evaluated. The median age of presentation was 10 months. In 30.2% (n=62), targeted genetic test had a yield of 82.7% compared with 33.6% for whole-exome sequencing/whole-genome sequencing (n=143) giving an overall yield of 53.7%. Strikingly, 96.4% of the variants were homozygous, 9% of which were found in 4 dominant genes. Homozygous variants were also detected in 7 novel candidates (ACACB, AASDH, CASZ1, FLII, RHBDF1, RPL3L, ULK1). CONCLUSIONS: Our work demonstrates the impact of consanguinity on the genetics of childhood-onset cardiomyopathy, the value of adopting a categorized population-sensitive genetic approach, and the opportunity of uncovering novel genes. Our data suggest that if a founder mutation is not suspected, adopting whole-exome sequencing/whole-genome sequencing as a first-line test should be considered.",
+   "found_by": [],
+   "pubdate": "2020 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "26345236",
+   "title": "1p36 deletion syndrome: an update.",
+   "abstract": "Deletions of chromosome 1p36 affect approximately 1 in 5,000 newborns and are the most common terminal deletions in humans. Medical problems commonly caused by terminal deletions of 1p36 include developmental delay, intellectual disability, seizures, vision problems, hearing loss, short stature, distinctive facial features, brain anomalies, orofacial clefting, congenital heart defects, cardiomyopathy, and renal anomalies. Although 1p36 deletion syndrome is considered clinically recognizable, there is significant phenotypic variation among affected individuals. This variation is due, at least in part, to the genetic heterogeneity seen in 1p36 deletions which include terminal and interstitial deletions of varying lengths located throughout the 30 Mb of DNA that comprise chromosome 1p36. Array-based copy number variant analysis can easily identify genomic regions of 1p36 that are deleted in an affected individual. However, predicting the phenotype of an individual based solely on the location and extent of their 1p36 deletion remains a challenge since most of the genes that contribute to 1p36-related phenotypes have yet to be identified. In addition, haploinsufficiency of more than one gene may contribute to some phenotypes. In this article, we review recent successes in the effort to map and identify the genes and genomic regions that contribute to specific 1p36-related phenotypes. In particular, we highlight evidence implicating MMP23B, GABRD, SKI, PRDM16, KCNAB2, RERE, UBE4B, CASZ1, PDPN, SPEN, ECE1, HSPG2, and LUZP1 in various 1p36 deletion phenotypes.",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25953344",
+   "title": "Casz1 is required for cardiomyocyte G1-to-S phase progression during mammalian cardiac development.",
+   "abstract": "Organ growth occurs through the integration of external growth signals during the G1 phase of the cell cycle to initiate DNA replication. Although numerous growth factor signals have been shown to be required for the proliferation of cardiomyocytes, genetic studies have only identified a very limited number of transcription factors that act to regulate the entry of cardiomyocytes into S phase. Here, we report that the cardiac para-zinc-finger protein CASZ1 is expressed in murine cardiomyocytes. Genetic fate mapping with an inducible Casz1 allele demonstrates that CASZ1-expressing cells give rise to cardiomyocytes in the first and second heart fields. We show through the generation of a cardiac conditional null mutation that Casz1 is essential for the proliferation of cardiomyocytes in both heart fields and that loss of Casz1 leads to a decrease in cardiomyocyte cell number. We further report that the loss of Casz1 leads to a prolonged or arrested S phase, a decrease in DNA synthesis, an increase in phospho-RB and a concomitant decrease in the cardiac mitotic index. Taken together, these studies establish a role for CASZ1 in mammalian cardiomyocyte cell cycle progression in both the first and second heart fields.",
+   "found_by": [],
+   "pubdate": "2015 Jun 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36243768",
+   "title": "Loss of CASZ1 tumor suppressor linked to oncogenic subversion of neuroblastoma core regulatory circuitry.",
+   "abstract": "The neural crest lineage regulatory transcription factors (TFs) form a core regulatory circuitry (CRC) in neuroblastoma (NB) to specify a noradrenergic tumor phenotype. Oncogenic subversion of CRC TFs is well documented, but the role of loss of tumor suppressors plays remains unclear. Zinc-finger TF CASZ1 is a chromosome 1p36 (chr1p36) tumor suppressor. Single-cell RNA sequencing data analyses indicate that CASZ1 is highly expressed in developing chromaffin cells coincident with an expression of NB CRC TFs. In NB tumor cells, the CASZ1 tumor suppressor is silenced while CRC components are highly expressed. We find the NB CRC component HAND2 directly represses CASZ1 expression. ChIP-seq and transcriptomic analyses reveal that restoration of CASZ1 upregulates noradrenergic neuronal genes and represses expression of CRC components by remodeling enhancer activity. Our study identifies that the restored CASZ1 forms a negative feedback regulatory circuit with the established NB CRC to induce noradrenergic neuronal differentiation of NB.",
+   "found_by": [],
+   "pubdate": "2022 Oct 15",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "41556146",
+   "title": "First Detection of 1p36 Deletion by Whole-Exome Sequencing in a Tunisian Patient.",
+   "abstract": "STUDY OBJECTIVE: We reported a rare case of 1p36 deletion syndrome diagnosed using whole-exome sequencing (WES) in a Tunisian neonate, and to highlight the utility of WES in detecting structural variants, particularly in resource-limited settings. METHODS: Clinical and genetic investigations were conducted on a female neonate presenting with a severe polymalformative syndrome. WES was performed to detect potential genetic abnormalities, followed by validation through fluorescence in\u00a0situ hybridization (FISH). Variant annotation and classification were done in accordance with ACMG guidelines. RESULTS: WES identified a heterozygous interstitial deletion in the 1p36 region, spanning 11.64\u2009Mb and affecting 155 coding genes, including key genes such as MMP23B, GABRD, SKI, PRDM16, KCNAB2, RERE, UBE4B, and CASZ1. The deletion was classified as pathogenic, and FISH analysis confirmed its presence. Clinically, the patient exhibited intrauterine growth restriction, neonatal epilepsy, craniofacial dysmorphia, congenital heart defect, and agenesis of the corpus callosum. CONCLUSION: This is the first reported case in Tunisia of a 1p36 deletion identified via short-read WES. The findings support the expanding role of WES in structural variant detection and underscore its diagnostic value, especially in settings with limited access to chromosomal microarray or genome sequencing technologies.",
+   "found_by": [],
+   "pubdate": "2026 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30072429",
+   "title": "Casz1 controls higher-order nuclear organization in rod photoreceptors.",
+   "abstract": "Genome organization plays a fundamental role in the gene-expression programs of numerous cell types, but determinants of higher-order genome organization are poorly understood. In the developing mouse retina, rod photoreceptors represent a good model to study this question. They undergo a process called \"chromatin inversion\" during differentiation, in which, as opposed to classic nuclear organization, heterochromatin becomes localized to the center of the nucleus and euchromatin is restricted to the periphery. While previous studies showed that the lamin B receptor participates in this process, the molecular mechanisms regulating lamina function during differentiation remain elusive. Here, using conditional genetics, we show that the zinc finger transcription factor Casz1 is required to establish and maintain the inverted chromatin organization of rod photoreceptors and to safeguard their gene-expression profile and long-term survival. At the mechanistic level, we show that Casz1 interacts with the polycomb repressor complex in a splice variant-specific manner and that both are required to suppress the expression of the nuclear envelope intermediate filament lamin A/C in rods. Lamin A is in turn sufficient to regulate heterochromatin organization and nuclear position. Furthermore, we show that Casz1 is sufficient to expand and centralize the heterochromatin of fibroblasts, suggesting a general role for Casz1 in nuclear organization. Together, these data support a model in which Casz1 cooperates with polycomb to control rod genome organization, in part by silencing lamin A/C.",
+   "found_by": [],
+   "pubdate": "2018 Aug 21",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37509718",
+   "title": "CASZ1: Current Implications in Cardiovascular Diseases and Cancers.",
+   "abstract": "Castor zinc finger 1 (CASZ1) is a C2H2 zinc finger family protein that has two splicing variants, CASZ1a and CASZ1b. It is involved in multiple physiological processes, such as tissue differentiation and aldosterone antagonism. Genetic and epigenetic alternations of CASZ1 have been characterized in multiple cardiovascular disorders, such as congenital heart diseases, chronic venous diseases, and hypertension. However, little is known about how CASZ1 mechanically participates in the pathogenesis of these diseases. Over the past decades, at first glance, paradoxical influences on cell behaviors and progressions of different cancer types have been discovered for CASZ1, which may be explained by a \"double-agent\" role for CASZ1. In this review, we discuss the physiological function of CASZ1, and focus on the association of CASZ1 aberrations with the pathogenesis of cardiovascular diseases and cancers.",
+   "found_by": [],
+   "pubdate": "2023 Jul 24",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32060262",
+   "title": "CASZ1 induces skeletal muscle and rhabdomyosarcoma differentiation through a feed-forward loop with MYOD and MYOG.",
+   "abstract": "Embryonal rhabdomyosarcoma (ERMS) is a childhood cancer that expresses myogenic master regulatory factor MYOD but fails to differentiate. Here, we show that the zinc finger transcription factor CASZ1 up-regulates MYOD signature genes and induces skeletal muscle differentiation in normal myoblasts and ERMS. The oncogenic activation of the RAS-MEK pathway suppresses CASZ1 expression in ERMS. ChIP-seq, ATAC-seq and RNA-seq experiments reveal that CASZ1 directly up-regulates skeletal muscle genes and represses non-muscle genes through affecting regional epigenetic modifications, chromatin accessibility and super-enhancer establishment. Next generation sequencing of primary RMS tumors identified a single nucleotide variant in the CASZ1 coding region that potentially contributes to ERMS tumorigenesis. Taken together, loss of CASZ1 activity, due to RAS-MEK signaling or genetic alteration, impairs ERMS differentiation, contributing to RMS tumorigenesis.",
+   "found_by": [],
+   "pubdate": "2020 Feb 14",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38053207",
+   "title": "Role of the CASZ1 transcription factor in tissue development and disease.",
+   "abstract": "The zinc finger transcription factor gene, CASZ1/Castor (Castor zinc finger 1), initially identified in Drosophila, plays a critical role in neural, cardiac, and cardiovascular development, exerting a complex, multifaceted influence on cell fate and tissue morphogenesis. During neurogenesis, CASZ1 exhibits dynamic expression from early embryonic development to the perinatal period, constituting a key regulator in this process. Additionally, CASZ1 controls the transition between neurogenesis and gliomagenesis. During human cardiovascular system development, CASZ1 is essential for cardiomyocyte differentiation, cardiac morphogenesis, and vascular morphology homeostasis and formation. The deletion or inactivation of CASZ1 mutations can lead to human developmental diseases or tumors, including congenital heart disease, cardiovascular disease, and neuroblastoma. CASZ1 can be used as a biomarker for disease prevention and diagnosis as well as a prognostic indicator for cancer. This review explores the unique functions of CASZ1 in tissue morphogenesis and associated diseases, offering new insights for elucidating the molecular mechanisms underlying diseases and identifying potential therapeutic targets for disease prevention and treatment.",
+   "found_by": [],
+   "pubdate": "2023 Dec 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22331471",
+   "title": "Characterization of critical domains within the tumor suppressor CASZ1 required for transcriptional regulation and growth suppression.",
+   "abstract": "CASZ1 is a zinc finger (ZF) transcription factor that is critical for controlling the normal differentiation of subtypes of neural and cardiac muscle cells. In neuroblastoma tumors, loss of CASZ1 is associated with poor prognosis and restoration of CASZ1 function suppresses neuroblastoma tumorigenicity. However, the key domains by which CASZ1 transcription controls developmental processes and neuroblastoma tumorigenicity have yet to be elucidated. In this study, we show that loss of any one of ZF1 to ZF4 resulted in a 58 to 79% loss in transcriptional activity, as measured by induction of tyrosine hydroxylase promoter-luciferase activity, compared to that of wild-type (WT) CASZ1b. Mutation of ZF5 or deletion of the C-terminal sequence of amino acids (aa) 728 to 1166 (a truncation of 38% of the protein) does not significantly alter transcriptional function. A series of N-terminal truncations reveals a critical transcriptional activation domain at aa 31 to 185 and a nuclear localization signal at aa 23 to 29. Soft agar colony formation assays and xenograft studies show that WT CASZ1b is more active in suppressing neuroblastoma growth than CASZ1b with a ZF4 mutation or a deletion of aa 31 to 185. This study identifies key domains needed for CASZ1b to regulate gene transcription. Furthermore, we establish a link between loss of CASZ1b transcriptional activity and attenuation of CASZ1b-mediated inhibition of neuroblastoma growth and tumorigenicity.",
+   "found_by": [],
+   "pubdate": "2012 Apr",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35737725",
+   "title": "Exome sequencing in multiplex families with left-sided cardiac defects has high yield for disease gene discovery.",
+   "abstract": "Congenital heart disease (CHD) is a common group of birth defects with a strong genetic contribution to their etiology, but historically the diagnostic yield from exome studies of isolated CHD has been low. Pleiotropy, variable expressivity, and the difficulty of accurately phenotyping newborns contribute to this problem. We hypothesized that performing exome sequencing on selected individuals in families with multiple members affected by left-sided CHD, then filtering variants by population frequency, in silico predictive algorithms, and phenotypic annotations from publicly available databases would increase this yield and generate a list of candidate disease-causing variants that would show a high validation rate. In eight of the nineteen families in our study (42%), we established a well-known gene/phenotype link for a candidate variant or performed confirmation of a candidate variant's effect on protein function, including variants in genes not previously described or firmly established as disease genes in the body of CHD literature: BMP10, CASZ1, ROCK1 and SMYD1. Two plausible variants in different genes were found to segregate in the same family in two instances suggesting oligogenic inheritance. These results highlight the need for functional validation and demonstrate that in the era of next-generation sequencing, multiplex families with isolated CHD can still bring high yield to the discovery of novel disease genes.",
+   "found_by": [],
+   "pubdate": "2022 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42794468",
+   "title": "Targeted 3.34-Million CpG Site Sequencing Reveals Preliminary Cord Blood Epigenetic Alterations of Autism Spectrum Disorder: A Pilot Study Highlighting the &lt;i&gt;PCDHA1&lt;/i&gt;-&lt;i&gt;PCDHA8&lt;/i&gt; Cluster.",
+   "abstract": "Rising reported Autism Spectrum Disorder (ASD) prevalence underscores the need to explore early perinatal biological markers. To conduct an exploratory pilot investigation of cord blood DNA methylation patterns as potential early epigenetic candidate loci associated with ASD in infants born to mothers with obesity and gestational diabetes. This prospective pilot study analyzed 14 mother-infant pairs comprising infants born to mothers with obesity and gestational diabetes later diagnosed with ASD (n = 2); healthy infants born to mothers with obesity and diabetes (IODM, n = 6); and healthy controls (IHM, n = 6). Targeted methyl-capture sequencing (covering 3.34 million CpG sites) identified differentially methylated region (DMR)-associated genes. Neurodevelopment was evaluated at 24-26 months using Bayley-III scales. ASD infants showed lower Bayley-III scores across all domains. In this small cohort (n = 2 ASD cases), we identified 249 DMR-associated genes common to both ASD vs. IHM and ASD vs. IODM comparisons, representing preliminary candidate loci. Enrichment analysis identified homophilic cell-cell adhesion as the most significant pathway (fold enrichment = 8.28; FDR = 6.31 \u00d7 10-6), driven by the PCDH1-PCDHA8 cluster, alongside morphogenesis in neuron differentiation (fold enrichment = 3.45; FDR = 2.08 \u00d7 10-2). Although prospective validation in larger independent cohorts is required, these pilot results suggest that cord blood PCDHA1-PCDHA8 cluster methylation alterations represent preliminary candidate loci for hypothesis generation and future biomarker evaluation, regardless of maternal metabolic status. [full text, passages naming CASZ1] ...DM and IHM comparisons are highlighted in bold ( n = 29), with the PCDH gene cluster also highlighted in blue. SFARI Category | ASD vs. IHM ( | n = 45) ASD vs. IODM ( | n = 52) 1: High Confidence | | CACNA1A , CASZ1 , , GABRB3 GRIN1 , , MYT1L NLGN2 , , PCDH19 ZMYND8 | ANKRD11 , DEAF1 , DMPK , EBF3 , , GABRB3 , MYT1L PCDH19 2: Strong Candidate | | ABAT , ABCA13 , , AGAP2 , BCAS1 , CACNA1H , CDH22 , CMIP , CNTN4 , CSMD... ...R-associated genes with the SFARI Gene database [ 13 ] revealed that 45 genes were common to both comparisons. Notably, 8 genes were identified as Category 1 (High Confidence) risk factors, including CACNA1A , CASZ1 , GABRB3 , GRIN1 , MYT1L , NLGN2 , PCDH19 , and ZMYND8 . The largest proportion of overlapping genes ( n = 34) was classified as Category 2 (Strong Candidate), featuring essential synaptic and cell-adhesi...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming CASZ1] ..., ASXL3 , ATP2B2 , ATP10A , ATXN1 , AUTS2 , BCAS3 , BCL11A , BLK , BPTF , BRSK2 , C1orf229 , CACNA1A , CACNA1C , CACNA1D , CACNA1E , CACNA1G , CACNA1H , CACNA2D3 , CACNG2 , CAMK2A , CAMTA2 , CAPRIN1 , CASP5 , CASZ1 , CCDC40 , CD2BP2 , CDH8 , CDK13 , CDKL5 , CDKN2A , CELF4 , CELSR3 , CHD1 , CHD2 , CHD7 , CHD8 , CHRNA4 , CHRNA7 , CIPC , CLCN2 , CNOT3 , CNTN4 , CNTNAP2 , COL6A2 , CORO1A , CORO2B , CPSF7 , CREBBP , CSNK...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42795509",
+   "title": "Gut Microbiota-Elicited Aberrant Phosphorylation Induces Protein Structural Anomalies: A Non-Negligible Pathogenic Driver of Autism Spectrum Disorder.",
+   "abstract": "Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition characterized by impaired social interaction and repetitive stereotyped behaviors, with pathogenic mechanisms that remain incompletely understood. The gut microbiota has emerged as a key regulator of ASD; however, its impact on hippocampal proteomic and phosphoproteomic signatures has not been fully characterized. In this study, we performed fecal microbiota transplantation (FMT) by transferring fecal samples from children with ASD and typically developing controls into antibiotic-treated mice. Gut microbiota from children with ASD induced several ASD-like behaviors in recipient mice, accompanied by aberrant activation of microglia, astrocytes, and neurons, as well as impaired neurogenesis. Phosphoproteomic profiling combined with Gene Ontology (GO) and Kyoto Encyclopedia of Genes and Genomes (KEGG) analyses revealed that differentially phosphorylated proteins were predominantly enriched in synapse-related pathways. ASD-derived microbiota markedly reduced synaptic density, downregulated the synaptic proteins SYP and PSD-95, and inhibited the expression of blood-brain barrier (BBB) tight junction proteins. In silico structural simulations using AlphaFold3 (AF3) and HADDOCK further supported that ASD-FMT may promote abnormal phosphorylation, potentially remodeling SHANK3 and SRRM2 conformations and weakening the binding affinity of SHANK3. Integrative proteomic and phosphoproteomic screening identified FNDC3A as a potential susceptibility-associated protein upregulated by gut microbiota from children with ASD, which was verified in mouse hippocampal tissues and plasma samples from children with ASD using Western blotting and ELISA, respectively. Mechanistically, ASD pathogenesis may be attributable not only to the dysregulation of classical ASD susceptibility genes but also to gut microbiota-driven post-translational phosphorylation remodeling of multiple protein structures. Importantly, this study established an innovative research framework that integrates in silico analyses with wet-lab experiments, yielding novel insights into ASD pathogenesis from the perspective of gut microbiota-induced alterations in the hippocampal phosphoproteome and revealing a plausible molecular mechanism underlying ASD.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42308296",
+   "title": "Haplotype-resolved methylomes reveal parent-of-origin DNA methylation imbalance in autism spectrum disorder.",
+   "abstract": "Epigenetic dysregulation plays an essential role in autism spectrum disorder (ASD), but the parent-of-origin effects (POEs) of DNA methylation remain unknown. Here, we applied PacBio HiFi sequencing with haplotype-phased methylation profiling in 124 individuals (31 ASD quartets) to systematically dissect POE-dependent methylation. Comparative analysis of phased methylomes between probands and unaffected siblings identified 114 paternal- and 106 maternal-specific differential methylated cytosines (DMCs), 45 and 46 differential methylated regions (DMRs), and 2425 and 2693 methylation outliers (MOs), respectively. These POE methylation alterations were enriched in ASD-relevant gene categories but exhibited distinct genomic distributions and functional pathways between parental haplotypes. Furthermore, genome-wide parent-of-origin DMR analysis identified 443 allele-specific methylation (ASM) regions, from which we detected 34 differential expression ASMs and 62 ASM outliers, showing pronounced enrichment within PWS/AS locus and ASD-associated genes. Collectively, this study provides a comprehensive evidence of pervasive POE-dependent methylation imbalance and aberrant ASM at imprinting regions underlying ASD pathogenesis, offering insights into epigenetic mechanisms of complex neurodevelopmental disorders. [full text, passages naming CASZ1] ...\u2019s disease (AD) ( Fig. 2, E and F ) ( ). Five coding genes harbored more than two DMCs, including maternal-specific gene 29 DIPK2A , paternal-specific gene TP53TG3B , and three shared genes SMAD1 , PCDH7 , and CASZ1 . Most of which were associated with ASD, Rett syndrome, and epilepsy ( , 25 , 30 ), and the altered splicing of 31 TP53TG3B (TP53 target 3B) has been implicated in AD (fig. S5) ( ). 32 Fig. 2. Haplotype-...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41154318",
+   "title": "Tools for Detecting Ageing in People with Autism Spectrum Disorder: A Scoping Review.",
+   "abstract": "BACKGROUND: People with Autism Spectrum Disorder (ASD) require a customised, multidisciplinary plan throughout their lifetime to support optimal health. The purpose of this scoping review was to synthesise research on the main scales used to detect signs of ageing in people with ASD. METHODS: Eligible papers published between January 2003 and August 2025 were identified through searches of PubMed, PsycInfo, Scopus, Web of Science, NICE and Cochrane databases. The assessment was performed using the Joanna Briggs Institute critical appraisal and extraction checklist. Of the 820 papers reviewed, 24 were found to meet the established criteria. RESULTS: Based on the evidence collected, 57 tools focusing on specific domains within the Comprehensive Geriatric Assessment were identified: 19 addressed the functional domain, 18 the mental, 6 the biomedical, 1 the social, 2 related to frailty, 1 to fall risk, and 10 to quality of life. CONCLUSIONS: This review highlights the need to obtain a 'multi-domain' tool for the detection of ageing in autistic people, which would facilitate the development of a Comprehensive Geriatric Assessment that makes planning customised care possible.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41594778",
+   "title": "Application of Artificial Intelligence Tools for Social and Psychological Enhancement of Students with Autism Spectrum Disorder: A Systematic Review.",
+   "abstract": "BACKGROUND: Children with autism spectrum disorder (ASD) commonly experience persistent difficulties in social communication, emotional regulation, and social engagement. In recent years, artificial intelligence (AI)-based technologies, particularly socially assistive robots and intelligent sensing systems, have been explored as complementary tools to support psychosocial interventions in this population. OBJECTIVE: This systematic review aimed to critically evaluate recent evidence on the effectiveness of AI-based interventions in improving social, emotional, and cognitive functioning in children with ASD. METHODS: A systematic literature search was conducted in PubMed following PRISMA guidelines, targeting English-language studies published between 2020 and 2025. Eligible studies involved children with ASD and implemented AI-driven tools within therapeutic or educational settings. Eight studies met inclusion criteria and were analyzed using the PICO framework. RESULTS: The reviewed interventions included humanoid and non-humanoid robots, gaze-tracking systems, and theory of mind-oriented applications. Across studies, AI-based interventions were associated with improvements in joint attention, social communication and reciprocity, emotion recognition and regulation, theory of mind, and task engagement. Outcomes were assessed using standardized behavioral measures, observational coding, parent or therapist reports, and physiological or sensor-based indices. However, the studies were characterized by small and heterogeneous samples, short intervention durations, and variability in outcome measures. CONCLUSIONS: Current evidence suggests that AI-based systems may serve as valuable adjuncts to conventional interventions for children with ASD, particularly for supporting structured social and emotional skill development. Nonetheless, methodological limitations and limited long-term data underscore the need for larger, multi-site trials with standardized protocols to better establish efficacy, generalizability, and ethical integration into clinical practice. [full text, passages naming CASZ1] ...Randomized controlled trial | 65 | 6\u201314 years | Children with ASD and Down syndrome | | AI Intervention Type | Outcome Domain | Key Findings | Strengths | Limitations Humanoid robots (e.g., NAO, iCub, HUMANE, CASTOR) | Joint attention, social communication | Improvements in joint attention, social reciprocity, and emotion recognition | High engagement; structured and predictable interaction | Small samples; limited... ...implement their intervention. Most of the studies (75%) used humanoid robots, resembling a human body, with facial characteristics present as well. The humanoid robots used in the sessions were the NAO, iCUB, CASTOR, and HUMANE robots. The use of an animaloid (animal resembling) robot was recorded in one of the studies [ 23 ]. The robot used, which resembled a dog, was the WowWee CHiP robot dog. In this study, the r... ...mployed NAO to facilitate Theory of mind tasks and emotion recognition exercises, while NAO and the non-intrusive gaze-tracking software, Gaze360, were used to assess joint attention during therapy [ 29 ]. The CASTOR robot supported the sessions by providing verbal prompts and visual stimuli to engage the children\u2019s attention, memory, physical, verbal imitation, and emotional recognition [ 24 ] and was compared to a...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "41279911": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33229526": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28630086": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26474385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35578024": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39858587": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38777087": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31858748": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35769265": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25249183": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42580307": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17940511": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36454366": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37182340": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30563911": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34895303": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42017216": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39730871": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20479155": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39101507": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41404655": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34362266": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33665188": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35173266": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42192951": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41391741": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30998689": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35386101": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42577001": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34358671": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30079904": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37461060": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24954895": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29504607": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33004838": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32451484": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30272120": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37770578": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40919408": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24197114": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31368058": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35725254": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38151484": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39209101": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40540161": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32116882": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36209285": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36117658": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34677755": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32870709": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26345236": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25953344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36243768": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41556146": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31570750": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30072429": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37509718": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28099117": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36293425": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32060262": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38053207": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27693370": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39195995": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28945738": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31268246": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38059696": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40108671": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37961312": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22331471": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35737725": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42227926": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38814801": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42794468": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42795509": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42308296": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41154318": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41594778": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40734426": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42283049": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41632089": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40667886": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40867159": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41074218": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42510280": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39296859": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41462792": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41505131": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42595302": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40842563": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42277197": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41103741": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42527107": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42321164": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39698649": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40071366": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40667447": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 81.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 2.0,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "30 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 4524,
+   "output_tokens": 216,
+   "usd": 0.005604,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 57.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.2,
+   "note": "",
+   "input_tokens": 32944,
+   "output_tokens": 1456,
+   "usd": 0.040224,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.7,
+   "note": "",
+   "input_tokens": 14502,
+   "output_tokens": 893,
+   "usd": 0.094835,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>25</established>\n    <existing>62</existing>\n    <hypothesized>11</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>The strongest human genetic evidence is the large-scale targeted sequencing study (PMID 33004838), which explicitly lists CASZ1 among genes reaching family-wise error rate significance for de novo mutation excess in >17,000 NDD/autism trios \u2014 direct variant-level evidence in human probands. Supporting but non-primary evidence includes SFARI \"Category 1 (high confidence)\" classification of CASZ1 cited in methylation/review papers (PMIDs 42794468, 42401939, 42308296), which are citations of known background rather than independent replication. Other CASZ1 papers concern cardiac development, neuroblastoma, rhabdomyosarcoma, retinal nuclear organization, or 1p36 contiguous-gene deletions (PMIDs 26345236, 41556146), which cannot isolate CASZ1 from neighbouring genes and therefore do not count toward establishment. Because only one primary study with patient-level variants supports an autism link, without independent replication in a second cohort of probands/families, the evidence best fits \"Existing\" rather than \"Established.\"</justification>\n  <pmids>\n    <pmid>33004838</pmid>\n    <pmid>42794468</pmid>\n    <pmid>42401939</pmid>\n    <pmid>42308296</pmid>\n    <pmid>26345236</pmid>\n    <pmid>41556146</pmid>\n    <pmid>38053207</pmid>\n    <pmid>30072429</pmid>\n  </pmids>\n</response>"
+}

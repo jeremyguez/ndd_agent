@@ -1,0 +1,134 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 3,
+    "biological": 12
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De Novo Variants in PPFIA2 in Individuals With Neurodevelopmental Disorders (PMID: 41044885)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "Heterozygous de novo variants in PPFIA2 (individual variant notations not given in the abstract); two index individuals identified by exome/genome sequencing plus seven additional individuals from large cohorts",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "overlapping phenotype across individuals (details not given in abstract)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo occurrence, rare variants, gnomAD gene constraint metrics, and overlapping phenotypes among 9 individuals",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "SNP array screening of cryptic genomic imbalances in 450 Japanese subjects with intellectual disability and multiple congenital anomalies previously negative for large rearrangements (PMID: 26740234)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Pathogenic CNV involving PPFIA2 (exact coordinates and copy-number state not given in the abstract)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability",
+              "multiple congenital anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Small CNV affecting PPFIA2 identified by SNP array; PPFIA2 proposed as a novel candidate gene for ID",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "De Novo Variants Predominate in Autism Spectrum Disorder (PMID: 41010044)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.343G>A, p.Glu115Lys (chr12:81,457,827)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo missense variant on trio-WGS, absent from gnomAD, predicted deleterious (scores 0.935 D and 0.998 D, conservation 100), classified as a Principal Diagnostic Variant",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Liprin alfa 2 gene expression is increased by cannabis use and associated with neuropsychological function (PMID: 30879928)",
+        "evidence_subtype": "expression",
+        "summary": "Whole-blood PPFIA2 mRNA was higher in heavy cannabis users than in non-users (logFC 0.17), confirmed by qPCR. Expression correlated negatively with estimated intelligence, including in non-users. CBD increased PPFIA2 expression in monocytes, but THC in monocytes and THC or CBD in neuroblastoma cells did not.",
+        "sample_size": "90 heavy cannabis users, 100 cannabis-naive controls",
+        "significance": "Intelligence correlation B=-22.9, p=0.002 (all); B=-28.5, p=0.037 (non-users)"
+      },
+      {
+        "citation": "Prognostic Significance of PPFIA2 in Localized Prostate Cancer: Integrative Analysis and Functional Validation (PMID: 41617436)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PPFIA2 knockdown in LNCaP and C4-2 prostate cancer cells reduced proliferation and migration. High PPFIA2 expression, confirmed at the protein level by IHC, predicted earlier biochemical recurrence. GSEA linked PPFIA2 to activation of proliferation pathways and suppression of protein synthesis, and high expression was associated with a lower SPOP mutation frequency.",
+        "sample_size": "Multiple cohorts (TCGA-PRAD, CPC, Stockholm, GSE54460) plus an in-house IHC cohort",
+        "significance": "Associated with earlier BCR across cohorts (specific p-values not given in abstract)"
+      },
+      {
+        "citation": "Association mapping of the high-grade myopia MYP3 locus reveals novel candidates UHRF1BP1L, PTPRR, and PPFIA2 (PMID: 23422819)",
+        "evidence_subtype": "GWAS",
+        "summary": "An intronic PPFIA2 SNP (rs17306116) was associated with high-grade myopia at the MYP3 locus. PPFIA2 was also differentially expressed in fetal versus adult ocular tissue (confirmed by RT-qPCR). Replication in an independent cohort approached significance.",
+        "sample_size": "82 (family-based cohort); 768 SNPs genotyped",
+        "significance": "P < 9\u00d710^-4 (rs17306116)"
+      },
+      {
+        "citation": "Extreme downregulation of chromosome Y and Alzheimer's disease in men (PMID: 32147245)",
+        "evidence_subtype": "GWAS",
+        "summary": "Extreme downregulation of chromosome Y in brain was associated with rs114241159 within ACSS3/PPFIA2, a region previously linked to amyloid beta concentrations. This suggests a link between the PPFIA2 locus and a male-specific Alzheimer's pathway.",
+        "sample_size": "371 undiseased brains; AD case-control cohorts of 556 cases and 462 controls",
+        "significance": "p = 1.53\u00d710^-7"
+      },
+      {
+        "citation": "SNP array screening of cryptic genomic imbalances in 450 Japanese subjects with intellectual disability and multiple congenital anomalies (PMID: 26740234)",
+        "evidence_subtype": "other",
+        "summary": "A pathogenic CNV affecting PPFIA2 was found in a subject with ID/MCA, identifying PPFIA2 as a novel candidate gene for intellectual disability.",
+        "sample_size": "450 subjects screened; 22 with pathogenic CNVs",
+        "significance": null
+      },
+      {
+        "citation": "Lactate treatment improves brain biochemistry and cognitive function in transgenic Alzheimer's and wild-type mice (PMID: 41981183)",
+        "evidence_subtype": "expression",
+        "summary": "In 5XFAD Alzheimer's mice, chronic lactate treatment increased PPFIA2 protein, one of several synaptic integrity proteins (with OPCML, STXBP3, SYT1, VGLUT2 and VSNL1), in a sex-dependent manner. This links PPFIA2 to synaptic integrity and cognitive resilience.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Visium spatial transcriptomics reveals intratumor heterogeneity and profiles of Gleason score progression in prostate cancer (PMID: 38077153)",
+        "evidence_subtype": "expression",
+        "summary": "PPFIA2 was among the differentially expressed genes (with NANS, PABPC1L, PILRB and SESN3) associated with Gleason score upgrading in spatial transcriptomics of glandular epithelial cells from prostate cancer tissue.",
+        "sample_size": "4 PCa tissues",
+        "significance": null
+      },
+      {
+        "citation": "Identification of a Candidate Gene Panel for the Early Diagnosis of Prostate Cancer (PMID: 25788493)",
+        "evidence_subtype": "expression",
+        "summary": "PPFIA2 was one of eight prostate cancer biomarkers validated by qPCR in tissue and urinary sediments. It was not part of the best-performing three-gene urinary panel (HOXC6, TDRD1, DLX1).",
+        "sample_size": "358 urinary sediments (intention-to-treat cohort)",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Whole exome sequencing reveals candidate variants for elevated intraocular pressure in the Beaver Dam Eye Study",
+        "evidence_subtype": "GWAS",
+        "summary": "A splicing variant in PPFIA2 (12:81671194) was uniquely seen in 7 of 30 unrelated high-IOP individuals and in 1 high-IOP relative, but not in controls. It is proposed as a candidate for elevated intraocular pressure.",
+        "sample_size": "135 exomes (30 cases, 11 controls); 936 samples for validation genotyping",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2009 - Identifying the Genetic Underpinnings Associated With Healthspan",
+        "evidence_subtype": "GWAS",
+        "summary": "In a pilot GWAS of healthy aging ('wellderly', age \u226580) versus young controls, the top association was rs10746192 in an intron of PPFIA2, a protein tyrosine phosphatase.",
+        "sample_size": "200 wellderly vs >1200 young controls",
+        "significance": "p = 1.85\u00d710^-6"
+      }
+    ]
+  }
+}

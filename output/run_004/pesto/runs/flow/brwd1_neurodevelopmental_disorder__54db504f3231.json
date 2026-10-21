@@ -1,0 +1,625 @@
+{
+ "gene": "BRWD1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental disorders",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "neurodevelopmental disability",
+   "neurodevelopmental impairment",
+   "neurodevelopmental delay",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "C21ORF107",
+   "N143",
+   "FLJ11315",
+   "WDR9",
+   "DCAF19",
+   "bromodomain and WD repeat domain containing 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 48,
+  "titlekicksparingfulltext": 16,
+  "read": 15
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 8,
+   "Existing": 62,
+   "Hypothesized": 28,
+   "Novel": 2
+  },
+  "justification": "Human genetic evidence exists but falls short of established causation: the OCD/chronic tic disorder whole-exome study (PMID 42680906) identified BRWD1 as a high-confidence large-effect risk gene with rare damaging/de novo variants and overlapping GWAS signal, and notes sharing of risk genes with other neurodevelopmental conditions; the TANC2 paper's supplementary data lists a validated de novo frameshift BRWD1 variant in an NDD/ASD cohort, but this is supportive table data rather than a dedicated clinical series. No two independent clinical reports delineate a BRWD1-specific NDD syndrome with point variants; the only Mendelian human phenotype proven (PMID 33389130) is asthenoteratozoospermia/PCD, not NDD. Remaining support is mechanistic or non-human: Brwd1 copy-number restoration rescuing cognition and LTP in Ts65Dn mice with upregulation in DS iPSC neurons (PMID 36289231), chromatin-remodeling/BAF biology, DS-region expression work (PMIDs 12889071, 12359327, 25052193), and multigene chr21 duplication/CNV reports (PMIDs 30619508, 38850022) that cannot isolate BRWD1. Thus \"Existing\" is most likely, with meaningful residual weight on \"Hypothesized.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 8,
+   "Existing": 62,
+   "Hypothesized": 28,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "12889071",
+   "title": "Expression of the Wdr9 gene and protein products during mouse development.",
+   "abstract": "Human WDR9 has been mapped to chromosome 21, within one of the Down syndrome (DS) critical regions. Here, we study the expression pattern of the murine Wdr9 gene and its protein product. We show that Wdr9 is broadly expressed in the mouse embryo by means of in situ hybridization and immunohistochemistry. Wdr9 expression levels are dynamic during embryonic development as revealed by Northern blot analysis. We further show that WDR9 is a nuclear protein associated with BRG1, a SWI/SNF complex component. We also demonstrate that a polyglutamine-containing region of the protein functions as a transcriptional activation domain. We propose that WDR9 is a transcriptional regulator involved in chromatin remodeling through the action of two bromodomains and contacts to the SWI/SNF complex. These results may provide a molecular basis for the association of WDR9 with DS.",
+   "found_by": [],
+   "pubdate": "2003 Aug",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12359327",
+   "title": "Characterisation and expression analysis of the WDR9 gene, located in the Down critical region-2 of the human chromosome 21.",
+   "abstract": "We report the isolation and characterisation of the gene WDR9 (WD Repeat 9), located in the Down Syndrome critical region-2 (DCR-2) from the human chromosome 21. This gene spans 125 kb of genomic sequence and is organised in 41 exons and 40 introns. The WDR9 cDNA has a size of 13 kb and encodes for a putative protein of 2269 amino acids with a potential location in the nucleus. Expression analysis in different human adult tissues and in cultured cell lines indicates that the gene has several tissue-specific transcripts. The more significant protein signatures in the WDR9 protein sequence are for WD repeats, bromodomain, beta-ketoacyl synthases, and ribonucleoprotein (RNP). The WDR9 protein has a high similarity with the Mus musculus neuronal differentiation protein (NDRP) and a region of similarity with the region of the Yotiao protein that has been proposed to bind the NR1 subunit of the NMDA receptor. The presence of protein-protein interaction domains as such the WD repeats, and the similarity of the WDR9 protein to regulatory proteins suggest a potential involvement in some of the clinical features associated to the DCR-2.",
+   "found_by": [],
+   "pubdate": "2002 Sep 27",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "42680906",
+   "title": "Whole-exome sequencing in individuals with obsessive-compulsive disorder and chronic tic disorders identifies 36 large-effect risk genes.",
+   "abstract": "Obsessive-compulsive disorder (OCD) and chronic tic disorders (CTDs) are highly heritable. Rare mutations confer large risks for OCD and CTDs but only four high-confidence (hc) genes have been identified. Here we analyzed whole-exome sequencing data from 3,964 individuals with OCD, CTDs or both, including 2,418 trios. We found an excess in cases of de novo and rare protein-damaging mutations and identified 36 hc genes (false discovery rate\u2009<\u20090.1), including four previously identified hc genes (CELSR3, CHD8, SCUBE1 and WWC1) and four genes that overlap with OCD genome-wide association study loci (BRWD1, CELSR3, QRICH1 and SYNE1). Risk genes are shared among OCD, CTDs and other neurodevelopmental conditions. Transcriptomic and network analyses highlight mechanistic convergence and increased risk gene expression in postnatal cerebellum, prenatal and postnatal cortex and striatum. Dozens of large-effect OCD and CTD genes offer insights into pathogenesis and a path forward for illuminating pathophysiology and identifying novel treatment targets.",
+   "found_by": [],
+   "pubdate": "2026 Sep 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33389130",
+   "title": "Bi-allelic BRWD1 variants cause male infertility with asthenoteratozoospermia and likely primary ciliary dyskinesia.",
+   "abstract": "Genetics-associated asthenoteratozoospermia is often seen in patients with multiple morphological abnormalities of the sperm flagella (MMAF). Although 24 causative genes have been identified, these explain only approximately half of patients with MMAF. Since sperm flagella and motile cilia (especially respiratory cilia) have similar axonemal structures, many patients with MMAF also exhibit respiratory symptoms, such as recurrent airway infection, chronic sinusitis, and bronchiectasis, which are frequently associated with primary ciliary dyskinesia (PCD), another recessive disorder. Here, exome sequencing was conducted to evaluate the genetic cause in 53 patients with MMAF and classic PCD/PCD-like symptoms. Two homozygous missense variants and a compound-heterozygous variant in the BRWD1 gene were identified in three unrelated individuals. BRWD1 staining was detected in the whole flagella and respiratory cilia of normal controls but was absent in BRWD1-mutated individuals. Transmission electron microscopy and immunostaining demonstrated that BRWD1 deficiency in human affected respiratory cilia and sperm flagella differently, as the absence of outer and inner dynein arms in sperm flagellum and respiratory cilia, while with a decreased number and outer doublet microtubule defects of respiratory cilia. To our knowledge, this is the first report of a BRWD1-variant-related disease in humans, manifesting as an autosomal recessive form of MMAF and PCD/PCD-like symptoms. Our data provide a basis for further exploring the molecular mechanism of BRWD1 gene during spermatogenesis and ciliogenesis.",
+   "found_by": [],
+   "pubdate": "2021 May",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "41160232",
+   "title": "Multi-omics reveals cross-tissue regulatory mechanisms of autism risk loci via gut microbiota-immunity-brain axis.",
+   "abstract": "Autism Spectrum Disorder (ASD) involves a multi-system interaction mechanism among genetics, immunity, and gut microbiota, yet its regulatory network remains undefined. This study conducted a meta-analysis on Genome-Wide Association Study data from four independent ASD cohorts to identify potential genetic loci. By integrating Polygenic Priority Score, brain region, and brain cell eQTL enrichment analyses, and combining summary-data-based Mendelian Randomisation (SMR) analyses of brain cis-eQTL and mQTL, bidirectional Mendelian Randomisation analyses of 473 gut microbiota, and SMR analysis of blood eQTL, SNPs such as rs2735307 and rs989134 with significant multi-dimensional associations were identified. These loci exert cross-tissue regulatory effects by participating in gut microbiota regulation, involving immune pathways such as T cell receptor signal activation and neutrophil extracellular trap formation, as well as cis-regulating neurodevelopmental genes (HMGN1 and H3C9P), or synergistically influencing epigenetic methylation modifications to regulate the expression of BRWD1 and ABT1. The cross-scale evidence chain constructed in this study provides a theoretical foundation for precision medicine research in ASD, holding promise to advance the development of innovative therapeutic strategies.",
+   "found_by": [],
+   "pubdate": "2025 Oct 29",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36289231",
+   "title": "Rescue of deficits by Brwd1 copy number restoration in the Ts65Dn mouse model of Down syndrome.",
+   "abstract": "With an incidence of ~1 in 800 births, Down syndrome (DS) is the most common chromosomal condition linked to intellectual disability worldwide. While the genetic basis of DS has been identified as a triplication of chromosome 21 (HSA21), the genes encoded from HSA21 that directly contribute to cognitive deficits remain incompletely understood. Here, we found that the HSA21-encoded chromatin effector, BRWD1, was upregulated in neurons derived from iPS cells from an individual with Down syndrome and brain of trisomic mice. We showed that selective copy number restoration of Brwd1 in trisomic animals rescued deficits in hippocampal LTP, cognition and gene expression. We demonstrated that Brwd1 tightly binds the BAF chromatin remodeling complex, and that increased Brwd1 expression promotes BAF genomic mistargeting. Importantly, Brwd1 renormalization rescued aberrant BAF localization, along with associated changes in chromatin accessibility and gene expression. These findings establish BRWD1 as a key epigenomic mediator of normal neurodevelopment and an important contributor to DS-related phenotypes.",
+   "found_by": [],
+   "pubdate": "2022 Oct 26",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "25052193",
+   "title": "Functional transcriptome analysis of the postnatal brain of the Ts1Cje mouse model for Down syndrome reveals global disruption of interferon-related molecular networks.",
+   "abstract": "BACKGROUND: The Ts1Cje mouse model of Down syndrome (DS) has partial triplication of mouse chromosome 16 (MMU16), which is partially homologous to human chromosome 21. These mice develop various neuropathological features identified in DS individuals. We analysed the effect of partial triplication of the MMU16 segment on global gene expression in the cerebral cortex, cerebellum and hippocampus of Ts1Cje mice at 4 time-points: postnatal day (P)1, P15, P30 and P84. RESULTS: Gene expression profiling identified a total of 317 differentially expressed genes (DEGs), selected from various spatiotemporal comparisons, between Ts1Cje and disomic mice. A total of 201 DEGs were identified from the cerebellum, 129 from the hippocampus and 40 from the cerebral cortex. Of these, only 18 DEGs were identified as common to all three brain regions and 15 were located in the triplicated segment. We validated 8 selected DEGs from the cerebral cortex (Brwd1, Donson, Erdr1, Ifnar1, Itgb8, Itsn1, Mrps6 and Tmem50b), 18 DEGs from the cerebellum (Atp5o, Brwd1, Donson, Dopey2, Erdr1, Hmgn1, Ifnar1, Ifnar2, Ifngr2, Itgb8, Itsn1, Mrps6, Paxbp1, Son, Stat1, Tbata, Tmem50b and Wrb) and 11 DEGs from the hippocampus (Atp5o, Brwd1, Cbr1, Donson, Erdr1, Itgb8, Itsn1, Morc3, Son, Tmem50b and Wrb). Functional clustering analysis of the 317 DEGs identified interferon-related signal transduction as the most significantly dysregulated pathway in Ts1Cje postnatal brain development. RT-qPCR and western blotting analysis showed both Ifnar1 and Stat1 were over-expressed in P84 Ts1Cje cerebral cortex and cerebellum as compared to wild type littermates. CONCLUSIONS: These findings suggest over-expression of interferon receptor may lead to over-stimulation of Jak-Stat signaling pathway which may contribute to the neuropathology in Ts1Cje or DS brain. The role of interferon mediated activation or inhibition of signal transduction including Jak-Stat signaling pathway has been well characterized in various biological processes and disease models including DS but information pertaining to the role of this pathway in the development and function of the Ts1Cje or DS brain remains scarce and warrants further investigation.",
+   "found_by": [],
+   "pubdate": "2014 Jul 22",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "30250168",
+   "title": "BRWD1 orchestrates epigenetic landscape of late B lymphopoiesis.",
+   "abstract": "Transcription factor (TF) networks determine cell fate in hematopoiesis. However, how TFs cooperate with other regulatory mechanisms to instruct transcription remains poorly understood. Here we show that in small pre-B cells, the lineage restricted epigenetic reader BRWD1 closes early development enhancers and opens the enhancers of late B lymphopoiesis to TF binding. BRWD1 regulates over 7000 genes to repress proliferative and induce differentiation programs. However, BRWD1 does not regulate the expression of TFs required for B lymphopoiesis. Hypogammaglobulinemia patients with BRWD1 mutations have B-cell transcriptional profiles and enhancer landscapes similar to those observed in Brwd1-/- mice. These data indicate that, in both mice and humans, BRWD1 is a master orchestrator of enhancer accessibility that cooperates with TF networks to drive late B-cell development.",
+   "found_by": [],
+   "pubdate": "2018 Sep 24",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18353305",
+   "title": "The dual bromodomain and WD repeat-containing mouse protein BRWD1 is required for normal spermiogenesis and the oocyte-embryo transition.",
+   "abstract": "A novel mutation, repro5, was isolated in a forward genetic screen for infertility mutations induced by ENU mutagenesis. Homozygous mutant mice were phenotypically normal but were infertile. Oocytes from mutant females appeared normal, but were severely maturation-defective in that they had reduced ability to progress to metaphase II (MII), and those reaching MII were unable to progress beyond the two pronuclei stage following in vitro fertilization (IVF). Mutant males exhibited defective spermiogenesis, resulting in oligoasthenoteratospermia. Genetic mapping, positional cloning, and complementation studies with a disruption allele led to the identification of a mutation in Brwd1 (Bromodomain and WD repeat domain containing 1) as the causative lesion. Bromodomain-containing proteins typically interact with regions of chromatin containing histones hyperacetylated at lysine residues, a characteristic of chromatin in early spermiogenesis before eventual replacement of histones by the protamines. Previous data indicated that Brwd1 is broadly expressed, encoding a putative transcriptional regulator that is believed to act on chromatin through interactions with the Brg1-dependent SWI/SNF chromatin-remodeling pathway. Brwd1 represents one of a small number of genes whose elimination disrupts gametogenesis in both sexes after the major events of meiotic prophase I have been completed.",
+   "found_by": [],
+   "pubdate": "2008 May 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40869915",
+   "title": "Customized Chromosomal Microarrays for Neurodevelopmental Disorders.",
+   "abstract": "BACKGROUND: Neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD), are genetically complex and often linked to structural genomic variations such as copy number variants (CNVs). Current diagnostic strategies face challenges in interpreting the clinical significance of such variants. METHODS: We developed a customized, gene-oriented chromosomal microarray (CMA) targeting 6026 genes relevant to neurodevelopment, aiming to improve diagnostic yield and candidate gene prioritization. A total of 39 patients with unexplained developmental delay, intellectual disability, and/or ASD were analyzed using this custom platform. Systems biology approaches were employed for downstream interpretation, including protein-protein interaction networks, centrality measures, and tissue-specific functional module analysis. RESULTS: Pathogenic or likely pathogenic CNVs were identified in 31% of cases (9/29). Network analyses revealed candidate genes with key topological properties, including central \"hubs\" (e.g., NPEPPS, PSMG1, DOCK8) and regulatory \"bottlenecks\" (e.g., SLC15A4, GLT1D1, TMEM132C). Tissue- and cell-type-specific network modeling demonstrated widespread gene involvement in both prenatal and postnatal developmental modules, with glial and astrocytic networks showing notable enrichment. Several novel CNV regions with high pathogenic potential were identified and linked to neurodevelopmental phenotypes in individual patient cases. CONCLUSIONS: Customized CMA offers enhanced detection of clinically relevant CNVs and provides a framework for prioritizing novel candidate genes based on biological network integration. This approach improves diagnostic accuracy in NDDs and identifies new targets for future functional and translational studies, highlighting the importance of glial involvement and immune-related pathways in neurodevelopmental pathology. [full text, passages naming BRWD1] ...r intermediate centrality and low degree, including TMEM132C , SLC15A4 , SULT1A2 , and GLT1D1 . The third pattern includes genes with a higher degree but lower intermediate centrality, including EPHA3 , PDPR , BRWD1 , TPRN , SHLD2 , and CLN8 ( Figure 2 b). 3.3. Extended Custom CMA List Within Tissue-Specific Network-Based Functional Modules To gain insights into the biological context of expanded custom specific CMA... ...the NDD list: NIPA2 , NIPA1 , KIAA1586 , OR2T10 , TUBGCP5 , ARHGAP11B , CLN8 , DOCK8 , and EPHA3 . Among the prioritized genes, NIPA2 , TMEM132C , and TMEM203 had the highest pLI scores. SLC35E2B , FRMD1 , and BRWD1 had pTriplo scores \u2265 0.68, while TMEM203 and NPEPPS had pHaplo scores \u2265 0.55 ( Supplementary Table S10 ). The MGI database does not contain any associated genes for KIF25 , MMP26 , FRMD1 , OR2T11 , OR51A4... ...weight MP:0001262 ( Supplementary Table S18 ). No gene expression data are available for 14 genes in the Human Brain Transcriptome Database. Among the prioritized genes, ZNF451 , SLC15A4 , NPEPPS , PSMG1 , and BRWD1 show the highest stable expression throughout the lifespan. EPHA3 , KIAA1586 , NIPA2 , ZNF92 , and FXN are highly expressed in the prenatal human brain, with expression decreasing after birth. This decrea...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming BRWD1] ...HDAC5\u2217, EFTUD2\u2217\u2217 | RPL27\u2217, FMNL1\u2217, GPATCH8\u2217, KANSL1\u2217\u2217+, NMT1\u2217 N/A | duplication | 17 | 21q11.2-q22.3 (novel) | N/A | | U2AF1\u2217+, NRIP1\u2217, BTG3\u2217, GABPA\u2217, ADAMTS1\u2217, CCT8\u2217, BACH1 , TIAM1\u2217+, CHAF1B\u2217, MORC3\u2217, ETS2\u2217+, BRWD1\u2217+, ZBTB21\u2217+, SIK1\u2217\u2217+, ADARB1\u2217\u2217+, COL6A1\u2217+, USP25\u2217, APP\u2217, LTN1\u2217, SCAF4\u2217\u2217, PAXBP1\u2217, SYNJ1\u2217\u2217, ITSN1\u2217\u2217, SLC5A3\u2217, RUNX1+, DYRK1A\u2217\u2217+, TTC3, ERG\u2217+, DSCAM\u2217\u2217+, DIP2A\u2217\u2217+, PKNOX1\u2217+, TRAPPC10\u2217+, SON\u2217\u2217 N/A | duplicati...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41545595",
+   "title": "Single-cell atlas of the developing Down syndrome brain cortex.",
+   "abstract": "Down syndrome (DS), caused by trisomy of chromosome 21, is the leading genetic cause of intellectual disability, yet the mechanisms disrupting fetal brain development remain unclear. We performed single-cell transcriptomic and chromatin accessibility profiling of approximately 250,000 cells from 15 DS and 15 control human fetal cortices (10-20\u2009weeks postconception). Our analysis revealed a subtype-specific reduction in RORB- and FOXP1-expressing excitatory neurons and widespread disruption of neurodevelopmental transcriptional programs. Chromosome 21 transcription factors BACH1, PKNOX1 and GABPA emerged as dosage-sensitive hubs regulating genes linked to intellectual disability. Antisense oligonucleotide-mediated normalization of these transcription factors in human neural progenitors in vitro partially rescued target gene expression. Benchmarking a humanized in vivo model captured additional molecular and cellular signatures of DS, complementing the in vitro model. Together, we present a resource defining the gene-regulatory landscape underlying cortical development in DS and highlight molecular pathways for further investigation. [full text, passages naming BRWD1] ...21 genes might cause the observed transcriptional alterations. Because cell type-specific chromatin accessibility shapes TF-mediated gene regulation and is altered in DS by Chr. 21 chromatin remodelers such as BRWD1 and HMGN1 , we integrated single-cell ATAC sequencing and RNA-seq data using scMEGA 25 , 26 to predict deregulated 27 cis -regulatory elements and TFs ( Methods and Fig. 3a ). Predicted TF\u2013 cis -regulator... ...YRK1A, one of the best-characterized mediators of DS phenotypes, as a central regulator of the TF network, influencing FEZF2, FOXP1, ESR2 and PAX3, with additional modulation by APP and the chromatin remodeler BRWD1 affecting TFs including FEZF2, GLI3, ESR2 and FOXP1. USP25, a deubiquitinase recently implicated in DS-related intellectual disability may also regulate FOXP1, EBF3, BNC2 and IRF2. Only a few of the ident... ...cted to regulate TF activity via experimentally validated protein-protein-interactions (PPIs) from BioGRID database. b , Network plot with proteins predicted to mediate interactions of Chr21 genes DYRK1A, APP, BRWD1 and USP25 with network TFs responsible for modulating TF activity changes in DS. Together, these analyses implicate the Chr. 21 TFs BACH1, PKNOX1 and GABPA as key regulators of cortical transcriptional pr...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31616000",
+   "title": "Disruptive mutations in TANC2 define a neurodevelopmental syndrome associated with psychiatric disorders.",
+   "abstract": "Postsynaptic density (PSD) proteins have been implicated in the pathophysiology of neurodevelopmental and psychiatric disorders. Here, we present detailed clinical and genetic data for 20 patients with likely gene-disrupting mutations in TANC2-whose protein product interacts with multiple PSD proteins. Pediatric patients with disruptive mutations present with autism, intellectual disability, and delayed language and motor development. In addition to a variable degree of epilepsy and facial dysmorphism, we observe a pattern of more complex psychiatric dysfunction or behavioral problems in adult probands or carrier parents. Although this observation requires replication to establish statistical significance, it also suggests that mutations in this gene are associated with a variety of neuropsychiatric disorders consistent with its postsynaptic function. We find that TANC2 is expressed broadly in the human developing brain, especially in excitatory neurons and glial cells, but shows a more restricted pattern in Drosophila glial cells where its disruption affects behavioral outcomes. [full text, passages naming BRWD1] ...validated | \u2013 | \u2013 | \u2013 | F | 8.51 | 1.00 | STXBP5 | 1FS | highConf | \u2013 | \u2013 | \u2013 | F | 4.70 | 1.00 | TRIO | 1FS | highConf | Y | \u2013 | \u2013 | F | 0.57 | 1.00 | BAZ2B | 1FS | validated | \u2013 | \u2013 | \u2013 | R | 13.09 | 1.00 | BRWD1 | 1FS | validated | \u2013 | \u2013 | \u2013 | R | 10.52 | 1.00 | CSDE1 | 1SG | validated | \u2013 | \u2013 | \u2013 | R | 6.18 | 1.00 | CUL1 | 1SP | highConf | \u2013 | \u2013 | \u2013 | R | 9.85 | 1.00 | ERBB2IP | 1SP | highConf | \u2013 | \u2013 | \u2013 | R |...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30619508",
+   "title": "Down syndrome phenotype in a boy with a mosaic microduplication of chromosome 21q22.",
+   "abstract": "BACKGROUND: Down syndrome, typically caused by trisomy 21, may also be associated by duplications of the Down syndrome critical region (DSCR) on chromosome 21q22. However, patients with small duplications of DSCR without accompanying deletions have rarely been reported. CASE PRESENTATION: Here we report a 5\u00bd-year-old boy with clinical features of Down syndrome including distinct craniofacial dysmorphism and sandal gaps as well as developmental delay. Conventional karyotype was normal, whereas interphase FISH analysis revealed three signals for DSCR in approximately 40% of lymphocytes and 80% of buccal mucosa cells. Array-CGH analysis confirmed a 2.56\u2009Mb duplication of chromosome 21q22.13q22.2 encompassing DYRK1A. CONCLUSION: This presents one of the smallest duplications within DSCR leading to a Down syndrome phenotype. Since the dosage sensitive gene DYRK1A is the only duplicated candidate DSCR gene in our patient, this finding supports the hypothesis that DYRK1A contributes to dysmorphic and intellectual features of Down syndrome even in a mosaic state. [full text, passages naming BRWD1] ...r[GRCh37] 21q22.13q22.2(38668355_41187454)\u00d7 3 dn) (Fig. 1 b), which was confirmed by qPCR. The duplication encompassed 15 OMIM genes ( DYRK1A , KCNJ6 , DSCR4 , DSCR8 , KCNJ15 , ERG , LINC00114 , ETS2 , PSMG1 , BRWD1 , HMGN1 , WRB , SH3BGR , B3GALT5 and IGSF5 ). The duplication was not found in the parents of the patient. Discussion In trisomy 21, not all loci are necessarily duplicated for the manifestation of DS. Th...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "27266699",
+   "title": "Integrated miRNA and mRNA expression profiling in fetal hippocampus with Down syndrome.",
+   "abstract": "BACKGROUNDS: Down syndrome (DS), caused by triplication of human chromosome 21, is the most common aneuploidies. The main characteristic of DS patients is intellectual disability. MicroRNAs (miRNAs) play important regulatory roles in various biological processes, such as embryonic development, cell differentiation, proliferation and apoptosis. Several miRNAs have shown association with DS. However, the role of miRNAs in DS patients has not been well elaborated. METHODS: In this research, total RNA extracted from fetal hippocampal tissues was used to analyze miRNA and mRNA expression via Affymetrix miRNA 4.0 and PrimeView Human Gene Expression Array, respectively. Then miRNA and gene expression profiles were integrated by correlation analysis to identify dysregulated miRNAs with their predicted target mRNAs. Microarray data were further validated by real-time PCR. Regulation of zeste homolog 2 (EZH2) expression by hsa-miR-138 was determined by luciferase reporter assay. RESULTS: We analyzed microRNA expression profile in hippocampal tissues from DS fetal using miRNA microarray. Further with the use of mRNA microarray data, we integrate miRNA expression and mRNA expression in hippocampus of trisomy 21 fetus to elucidate the mechanism that underlying DS abnormalities. We characterized the repertoire of specific miRNAs involved in hippocampus in trisomy 21 patients, highlighting hsa-miR-138 and hsa-miR-409, in particular the importance of hsa-miR-138, especially the -5p strand. Furthermore, the expression level of predicted target genes of hsa-miR-138-5p in trisomy 21 fetus, including zeste homolog 2 (EZH2) were further confirmed. In addition, luciferase assay indicated that EZH2 was a direct target of hsa-miR-138 in HEK293T cells. CONCLUSION: The function of hsa-miR-138-5p and its target EZH2 was involved in hippocampus in DS patients. Our findings provide a clue to study the underlying molecular mechanisms in DS patients, and its potential contribution in improving understanding of intellectual disability development in DS patients. [full text, passages naming BRWD1] ....5808 | 1.597151208 | APP | 3.5603 | 3.469117486 | TMEM50B | 3.5265 | 0.377152444 | AGPAT3 | 3.2927 | 0.961462767 | C21orf88 | 3.2137 | 2.088087924 | PDXK | 3.0927 | 2.332542808 | HLCS | 2.8104 | 1.909735373 | BRWD1 | 2.6731 | 2.295354625 | OLIG2 | 2.6037 | 4.632689187 | SMIM11 | 2.5938 | 0.805146516 | WRB | 2.5279 | 1.788040099 | NCAM2 | 2.5126 | 2.583461784 | PTTG1IP | 2.5087 | 0.146064819 | PIGP | 2.399 | 0.408886...",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "41445618": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20014019": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39210813": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40000848": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39672892": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33667975": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32697405": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38282329": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9051290": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38896321": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36575195": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31989994": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36035305": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38918649": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25739334": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24643394": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12889071": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12359327": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42680906": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33389130": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41160232": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36289231": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25052193": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30250168": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "18353305": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10512873": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40869915": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41545595": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36959829": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42024758": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41331623": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34819353": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39805813": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42302908": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32952419": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39887636": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37191016": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38497812": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31616000": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36161168": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34174697": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27547454": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36463299": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24387789": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21267006": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30619508": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "27266699": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 3.9,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 368,
+   "usd": 0.01094,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "15 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "16 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 5.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1785,
+   "output_tokens": 94,
+   "usd": 0.002255,
+   "calls": 3
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 44.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 21401,
+   "output_tokens": 744,
+   "usd": 0.025121,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 15.0,
+   "note": "",
+   "input_tokens": 11902,
+   "output_tokens": 1142,
+   "usd": 0.08806,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>8</established>\n    <existing>62</existing>\n    <hypothesized>28</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Human genetic evidence exists but falls short of established causation: the OCD/chronic tic disorder whole-exome study (PMID 42680906) identified BRWD1 as a high-confidence large-effect risk gene with rare damaging/de novo variants and overlapping GWAS signal, and notes sharing of risk genes with other neurodevelopmental conditions; the TANC2 paper's supplementary data lists a validated de novo frameshift BRWD1 variant in an NDD/ASD cohort, but this is supportive table data rather than a dedicated clinical series. No two independent clinical reports delineate a BRWD1-specific NDD syndrome with point variants; the only Mendelian human phenotype proven (PMID 33389130) is asthenoteratozoospermia/PCD, not NDD. Remaining support is mechanistic or non-human: Brwd1 copy-number restoration rescuing cognition and LTP in Ts65Dn mice with upregulation in DS iPSC neurons (PMID 36289231), chromatin-remodeling/BAF biology, DS-region expression work (PMIDs 12889071, 12359327, 25052193), and multigene chr21 duplication/CNV reports (PMIDs 30619508, 38850022) that cannot isolate BRWD1. Thus \"Existing\" is most likely, with meaningful residual weight on \"Hypothesized.\"</justification>\n  <pmids>\n    <pmid>42680906</pmid>\n    <pmid>31616000</pmid>\n    <pmid>36289231</pmid>\n    <pmid>33389130</pmid>\n    <pmid>12889071</pmid>\n    <pmid>12359327</pmid>\n    <pmid>25052193</pmid>\n    <pmid>30619508</pmid>\n    <pmid>38850022</pmid>\n    <pmid>41545595</pmid>\n  </pmids>\n</response>"
+}

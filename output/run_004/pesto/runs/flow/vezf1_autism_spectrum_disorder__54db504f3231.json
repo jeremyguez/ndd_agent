@@ -1,0 +1,744 @@
+{
+ "gene": "VEZF1",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "ZNF161",
+   "DB1",
+   "vascular endothelial zinc finger 1"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 69,
+  "titlekicksparingfulltext": 35,
+  "read": 17
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 14,
+   "Existing": 63,
+   "Hypothesized": 21,
+   "Novel": 2
+  },
+  "justification": "Human large-scale de novo mutation studies list VEZF1 among genes with an excess of damaging DNMs in autism/developmental delay cohorts (PMID 30559488; PMID 33970367), and it appears among the \"novel\" ASD/NDD genes from the Autism Sequencing Consortium 102-gene list discussed in subsequent reviews (PMID 34768579; PMID 32668441; PMID 42401939). These are credible human genetic signals from probands with de novo variants, but the evidence is statistical and largely from overlapping mega-cohorts, with few detailed independent probands or families and limited genotype\u2013phenotype characterization, so replication required for \"Established\" is not clearly demonstrated. Supporting biology (VEZF1 regulates DNMT3b-dependent genomic DNA methylation, brain microvascular development, and is implicated in prenatal alcohol exposure/FASD models) provides plausible neurodevelopmental mechanism but is non-human/in vitro (PMIDs 18676812, 36109176, 41668336), so it backs \"Hypothesized\" rather than \"Existing.\" Overall, \"Existing\" is the best fit.",
+  "pmids": [],
+  "detail": {
+   "Established": 14,
+   "Existing": 63,
+   "Hypothesized": 21,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39967876",
+   "title": "Functional variant at 19q13.3 confers nonsyndromic cleft palate susceptibility by regulating HIF3A.",
+   "abstract": "This study investigates the genetic factors associated with nonsyndromic cleft palate only (NSCPO) through a two-stage genome-wide association study (GWAS) and functional experiments. A total of 311 NSCPO cases and 1,136 controls were included, and we identified rs3826795 in HIF3A significantly associated with NSCPO risk (p\u00a0= 4.27E-09). Functional assays showed that the A allele of rs3826795 reduced VEZF1 binding to the HIF3A promoter, thereby enhancing HIF3A expression. Additionally, we demonstrated that HIF3A significantly influenced cellular processes, including apoptosis, proliferation, and migration, in both in\u00a0vitro and in\u00a0vivo models. Pathway enrichment analysis indicated that HIF3A suppressed the GABAergic synapse pathway, which plays a crucial role in embryonic development. These findings provide valuable insights into the genetic mechanisms underlying NSCPO susceptibility and suggest potential targets for future therapeutic interventions.",
+   "found_by": [],
+   "pubdate": "2025 Feb 21",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "15882861",
+   "title": "Dosage-dependent requirement for mouse Vezf1 in vascular system development.",
+   "abstract": "Vezf1 is an early development gene that encodes a zinc finger transcription factor. In the developing embryo, Vezf1 is expressed in the yolk sac mesoderm and the endothelium of the developing vasculature and, in addition, in mesodermal and neuronal tissues. Targeted inactivation of Vezf1 in mice reveals that it acts in a closely regulated, dose-dependent fashion on the development of the blood vascular and lymphatic system. Homozygous mutant embryos display vascular remodeling defects and loss of vascular integrity leading to localized hemorrhaging. Ultrastructural analysis shows defective endothelial cell adhesion and tight junction formation in the mutant vessels. Moreover, in heterozygous embryos, haploinsufficiency is observed that is characterized by lymphatic hypervascularization associated with hemorrhaging and edema in the jugular region; a phenotype reminiscent of the human congenital lymphatic malformation syndrome cystic hygroma.",
+   "found_by": [],
+   "pubdate": "2005 Jul 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "31911272",
+   "title": "Vezf1 regulates cardiac structure and contractile function.",
+   "abstract": "BACKGROUND: Vascular endothelial zinc finger 1 (Vezf1) is a transcription factor previously shown to regulate vasculogenesis and angiogenesis. We aimed to investigate the role of Vezf1 in the postnatal heart. METHODS: The role of Vezf1 in regulating cardiac growth and contractile function was studied in zebrafish and in primary cardiomyocytes. FINDINGS: We find that expression of Vezf1 is decreased in diseased human myocardium and mouse hearts. Our experimental data shows that knockdown of zebrafish Vezf1 reduces cardiac growth and results in impaired ventricular contractile response to \u03b2-adrenergic stimuli. However, Vezf1 knockdown is not associated with dysregulation of cardiomyocyte Ca2+ transient kinetics. Gene ontology enrichment analysis indicates that Vezf1 regulates cardiac muscle contraction and dilated cardiomyopathy related genes and we identify cardiomyocyte Myh7/\u03b2-MHC as key target for Vezf1. We further identify a key role for an MCAT binding site in the Myh7 promoter regulating the response to Vezf1 knockdown and show that TEAD-1 is a binding partner of Vezf1. INTERPRETATION: We demonstrate a role for Vezf1 in regulation of compensatory cardiac growth and cardiomyocyte contractile function, which may be relevant in human cardiac disease.",
+   "found_by": [],
+   "pubdate": "2020 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34973391",
+   "title": "TRIM29 regulates the SETBP1/SET/PP2A axis via transcription factor VEZF1 to promote progression of ovarian cancer.",
+   "abstract": "Ovarian cancer (OC) is a common gynecological malignant tumor that seriously endangers the health of women worldwide. Tripartite motif containing 29 (TRIM29) is a TRIM family member that is frequently overexpressed in OC. However, the specific role of TRIM29 in OC remains obscure. To investigate the underlying molecular mechanism, a global proteomics analysis identified SET binding protein 1 (SETBP1) as a crucial target of TRIM29. Subsequently, the SETBP1/SET/Protein phosphatase 2 (PP2A) axis was confirmed to be required for the recovery of cancer stem cell (CSC)-like phenotype suppressed by TRIM29 knockdown. Mechanistically, TRIM29 facilitated SETBP1 transcriptional activation via the VEZF1 transcription factor. More importantly, TRIM29 promoted VEZF1 mRNA translation by recruiting RNA binding protein BICC1 to its 3'UTR. The clinical significance was established by the association of TRIM29 and SETBP1 expression with clinicopathological features in OC samples. The SETBP1/SET/PP2A axis driven by TRIM29 via transcription factor VEZF1 is at least one of the primary mechanisms underlying TRIM29 maintenance of the CSC-like characteristics in OC.",
+   "found_by": [],
+   "pubdate": "2022 Mar 31",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "20431070",
+   "title": "Targeted Vezf1-null mutation impairs vascular structure formation during embryonic stem cell differentiation.",
+   "abstract": "OBJECTIVE: Vezf1 encodes an early zinc finger transcription factor that is essential for normal vascular development and functions in a dose-dependent manner. Here, we investigated the role of Vezf1 during processes of endothelial cell differentiation and maturation by studying mutant Vezf1 embryonic stem (ES) cells using the in vitro embryoid body differentiation model and the in vivo teratocarcinoma model. METHODS AND RESULTS: Vezf1-/- ES cell-derived embryoid bodies failed to form a well-organized vascular network and showed dramatic vascular sprouting defects. Our results indicate that the retinol pathway is an important mediator of Vezf1 function and that loss of Vezf1 results in reduced retinol/vitamin A signaling and aberrant extracellular matrix (ECM) formation. Unexpectedly, we also uncovered defects during in vitro differentiation of Vezf1-/- ES cells along hematopoietic cell lineages. Vezf1-/- ES cell-derived teratocarcinomas were able to spontaneously differentiate into cell types of all 3 germ layers. However, histological and immunohistochemical examination of these tumors showed decreased cell proliferation, delayed differentiation, and large foci of cells with extensive deposition of ECM. Embryoid bodies and teratocarcinomas derived from heterozygous ES cells displayed an intermediate phenotype. CONCLUSIONS: Together, these results suggest that Vezf1 is involved in early differentiation processes of the vasculature by regulating cell differentiation, proliferation, and ECM distribution and deposition.",
+   "found_by": [],
+   "pubdate": "2010 Jul",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "11504723",
+   "title": "Vezf1/DB1 is an endothelial cell-specific transcription factor that regulates expression of the endothelin-1 promoter.",
+   "abstract": "Coordinated gene regulation within the vascular endothelium is required for normal cardiovascular patterning during development and for vascular homeostasis during adulthood, yet little is known about the mechanisms that regulate endothelial transcriptional events. Vascular endothelial zinc finger 1 (Vezf1)/DB1 is a recently identified zinc finger-containing protein that is expressed specifically within endothelial cells during development. In this report, we demonstrate that Vezf1/DB1 is a nuclear localizing protein that potently and specifically activates transcription mediated by the human endothelin-1 promoter, in a Tax-independent manner, in transient transfection assays. Using a combination of deletion mutagenesis and electrophoretic mobility shift assays, a novel Vezf1/DB1-responsive element was localized to a 6-base pair (bp) motif, ACCCCC, located 47 bp upstream of the endothelin-1 transcription start site. Recombinant Vezf1/DB1 also bound to this sequence, and a 2-bp mutation in this element abolished Vezf1/DB1 responsiveness by the endothelin-1 promoter. Vezf1/DB1 could be identified with a specific antibody in nuclear complexes from endothelial cells that bound to this element. Regulation of endothelin-1 promoter activity by Vezf1/DB1 provides a mechanism for endothelin-1 expression in the vascular endothelium during development and to maintain vascular tone; Vezf1/DB1 itself is a candidate transcription factor for modifying endothelial cell phenotypes in order to appropriately assemble and maintain the cardiovascular system.",
+   "found_by": [],
+   "pubdate": "2001 Oct 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18676812",
+   "title": "Vezf1 regulates genomic DNA methylation through its effects on expression of DNA methyltransferase Dnmt3b.",
+   "abstract": "The zinc finger protein vascular endothelial zinc finger 1 (Vezf1) has been implicated in the development of the blood vascular and lymphatic system in mice, and has been characterized as a transcriptional activator in some systems. The chicken homolog, BGP1, has binding sites in the beta-globin locus, including the upstream insulator element. We report that in a mouse embryonic stem cell line deletion of both copies of Vezf1 results in loss of DNA methylation at widespread sites in the genome, including Line1 elements and minor satellite repeats, some imprinted genes, and several CpG islands. Loss of methylation appears to arise from a substantial decrease in the abundance of the de novo DNA methyltransferase, Dnmt3b. These results suggest that naturally occurring mutations in Vezf1/BGP1 might have widespread effects on DNA methylation patterns and therefore on epigenetic regulation of gene expression.",
+   "found_by": [],
+   "pubdate": "2008 Aug 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36923254",
+   "title": "ETV2 and VEZF1 interaction and regulation of the hematoendothelial lineage during embryogenesis.",
+   "abstract": "Ets variant 2 (Etv2), a member of the Ets factor family, has an essential role in the formation of endothelial and hematopoietic cell lineages during embryonic development. The functional role of ETS transcription factors is, in part, dependent on the interacting proteins. There are relatively few studies exploring the coordinated interplay between ETV2 and its interacting proteins that regulate mesodermal lineage determination. In order to identify novel ETV2 interacting partners, a yeast two-hybrid analysis was performed and the C2H2 zinc finger transcription factor VEZF1 (vascular endothelial zinc finger 1) was identified as a binding factor, which was specifically expressed within the endothelium during vascular development. To confirm this interaction, co-immunoprecipitation and GST pull down assays demonstrated the direct interaction between ETV2 and VEZF1. During embryoid body differentiation, Etv2 achieved its peak expression at day 3.0 followed by rapid downregulation, on the other hand Vezf1 expression increased through day 6 of EB differentiation. We have previously shown that ETV2 potently activated Flt1 gene transcription. Using a Flt1 promoter-luciferase reporter assay, we demonstrated that VEZF1 co-activated the Flt1 promoter. Electrophoretic mobility shift assay and Chromatin immunoprecipitation established VEZF1 binding to the Flt1 promoter. Vezf1 knockout embryonic stem cells had downregulation of hematoendothelial marker genes when undergoing embryoid body mediated mesodermal differentiation whereas overexpression of VEZF1 induced the expression of hematoendothelial genes during differentiation. These current studies provide insight into the co-regulation of the hemato-endothelial lineage development via a co-operative interaction between ETV2 and VEZF1.",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36657711",
+   "title": "VEZF1 loss-of-function mutation underlying familial dilated cardiomyopathy.",
+   "abstract": "Dilated cardiomyopathy (DCM), characteristic of left ventricular or biventricular dilation with systolic dysfunction, is the most common form of cardiomyopathy, and a leading cause of heart failure and sudden cardiac death. Aggregating evidence highlights the underlying genetic basis of DCM, and mutations in over 100 genes have been causally linked to DCM. Nevertheless, due to pronounced genetic heterogeneity, the genetic defects underpinning DCM in most cases remain obscure. Hence, this study was sought to identify novel genetic determinants of DCM. In this investigation, whole-exome sequencing and bioinformatics analyses were conducted in a family suffering from DCM, and a novel heterozygous mutation in the VEZF1 gene (coding for a zinc finger-containing transcription factor critical for cardiovascular development and structural remodeling), NM_007146.3: c.490A\u00a0>\u00a0T; p.(Lys164*), was identified. The nonsense mutation was validated by Sanger sequencing and segregated with autosome-dominant DCM in the family with complete penetrance. The mutation was neither detected in another cohort of 200 unrelated DCM patients nor observed in 400 unrelated healthy individuals nor retrieved in the Single Nucleotide Polymorphism database, the Human Gene Mutation Database and the Genome Aggregation Database. Biological analyses by utilizing a dual-luciferase reporter assay system revealed that the mutant VEZF1 protein failed to transactivate the promoters of MYH7 and ET1, two genes that have been associated with DCM. The findings indicate VEZF1 as a new gene responsible for DCM, which provides novel insight into the molecular pathogenesis of DCM, implying potential implications for personalized precisive medical management of the patients affected with DCM.",
+   "found_by": [],
+   "pubdate": "2023 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming VEZF1] ...FPT , TJP1 , TLE3 , TLK2 , TM9SF4 , TMEM214 , TMEM232 , TMEM8A , TNPO3 , TRAF7 , TRANK1 , TRIM23 , TRIP12 , TRPM1 , TSC1 , TSC2 , TSHZ1 , TTC19 , TTC21A , UBAC1 , UBE3A , UBR1 , UNC13A , UNC79 , USP7 , VAMP2 , VEZF1 , VPS13B , WAC , WDFY3 , ZBTB21 , ZMYM2 , ZMYND8 , ZNF292 , ZNF816 Functions of the abovementioned genes and possible ASD associations are listed in Supplementary Table 3 [ 4 , 5 , 6 , 9 , 21 , 35 \u2013 50 ]....",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42636188",
+   "title": "An integrated systems biology and machine learning framework for identifying potential biomarkers and pathways in autism spectrum disorder.",
+   "abstract": "BACKGROUND: Autism spectrum disorders (ASD) are a group of neurodevelopmental disorders whose underlying molecular mechanisms and biological processes remain incompletely understood. In this study, we used a multi-layered systems biology approach to prioritize candidate genes and regulatory factors associated with ASD. METHOD: Gene expression data from peripheral blood samples were obtained from the Gene Expression Omnibus (GEO) database (GSE18123). Using analyses performed in R software, differentially expressed genes (DEGs) in patients with ASD were identified (p-value\u2009<\u20090.05 and |log2FC|\u2009>\u20090.5). These DEGs were used to perform weighted gene co-expression network analysis (WGCNA) and construct a protein-protein interaction (PPI) network. By integrating the results of these network analyses with feature selection techniques (LASSO and random forest feature importance), candidate genes associated with ASD were prioritized and evaluated using qRT-PCR in the valproic acid (VPA)-induced rat model of autism. Furthermore, a gene regulatory network (GRN) was constructed to identify the regulatory factors associated with DEGs. RESULT: TLR8 and CASP4 were prioritized as candidate genes that may be associated with ASD, because they were located within the co-expression module that showed the strongest correlation with ASD, were identified as key nodes of the PPI network, and were selected by feature selection algorithms. Our experimental validation showed increased expression of TLR8 and CASP4 in the autism model compared with controls; TLR8 was upregulated in both the hippocampus and peripheral blood, whereas CASP4 was upregulated only in the hippocampus. Furthermore, GRN analysis identified miR-891b and miR-627-3p as potential regulators of TLR8, and miR-26b-5p as associated with CASP4. CONCLUSION: These findings indicate that CASP4 and TLR8, together with their associated regulatory miRNAs, may represent promising biomarkers and potential therapeutic targets for future ASD research and contribute to a better understanding of the pathophysiological mechanisms underlying ASD. [full text, passages naming VEZF1] ...ding the mechanisms that lead to differential gene expression in ASD patients. In this context, Gosha et al. (2025) identified several TFs as potential regulators of key genes associated with ASD. For example, VEZF1 and FOXP2 were among the TFs identified in their study, which are associated with processes related to brain morphogenesis and development [ 9 ]. Studies comparing miRNA expression profiles in individuals...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34768579",
+   "title": "Genotype-Phenotype Correlations in Relation to Newly Emerging Monogenic Forms of Autism Spectrum Disorder and Associated Neurodevelopmental Disorders: The Importance of Phenotype Reevaluation after Pangenomic Results.",
+   "abstract": "ASD genetic diagnosis has dramatically improved due to NGS technologies, and many new causative genes have been discovered. Consequently, new ASD phenotypes have emerged. An extensive exome sequencing study carried out by the Autism Sequencing Consortium (ASC) was published in February 2020. The study identified 102 genes which are de novo mutated in subjects affected by autism spectrum disorder (ASD) or similar neurodevelopmental disorders (NDDs). The majority of these genes was already known to be implicated in ASD or NDDs, whereas approximately 30 genes were considered \"novel\" as either they were not previously associated with ASD/NDDs or very little information about them was present in the literature. The aim of this work is to review the current literature since the publication of the ASC paper to see if new data mainly concerning genotype-phenotype correlations of the novel genes have been added to the existing one. We found new important clinical and molecular data for 6 of the 30 novel genes. Though the broad and overlapping neurodevelopmental phenotypes observed in most monogenic forms of NDDs make it difficult for the clinical geneticist to address gene-specific tests, knowledge of these new data can at least help to prioritize and interpret results of pangenomic tests to some extent. Indeed, for some of the new emerging genes analyzed in the present work, specific clinical features emerged that may help the clinical geneticist to make the final diagnosis by associating the genetic test results with the phenotype. The importance of this relatively new approach known as \"reverse phenotyping\" will be discussed. [full text, passages naming VEZF1] ...regulation | - | TM9SF4 | Other | - | | PRR12 Neuronal communication | Variable structural eye defects | LDB1 | Gene expression regulation | - | EIF3G | Gene expression regulation | - | KIAA0232 | Other | - | VEZF1 | Gene expression regulation | - | ZMYND8 | Gene expression regulation | - | | SATB1 Gene expression regulation | Severe ID and epilepsy (patients with missense variants), eye and dental anomalies | | RFX...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32668441",
+   "title": "Leveraging large genomic datasets to illuminate the pathobiology of autism spectrum disorders.",
+   "abstract": "\"Big data\" approaches in the form of large-scale human genomic studies have led to striking advances in autism spectrum disorder (ASD) genetics. Similar to many other psychiatric syndromes, advances in genotyping technology, allowing for inexpensive genome-wide assays, has confirmed the contribution of polygenic inheritance involving common alleles of small effect, a handful of which have now been definitively identified. However, the past decade of gene discovery in ASD has been most notable for the application, in large family-based cohorts, of high-density microarray studies of submicroscopic chromosomal structure as well as high-throughput DNA sequencing-leading to the identification of an increasingly long list of risk regions and genes disrupted by rare, de novo germline mutations of large effect. This genomic architecture offers particular advantages for the illumination of biological mechanisms but also presents distinctive challenges. While the tremendous locus heterogeneity and functional pleiotropy associated with the more than 100 identified ASD-risk genes and regions is daunting, a growing armamentarium of comprehensive, large, foundational -omics databases, across species and capturing developmental trajectories, are increasingly contributing to a deeper understanding of ASD pathology. [full text, passages naming VEZF1] ..., CREBBP, EIF3G, FOXP2, GFAP, GNAI1, IRF2BPL | c , KIAA0232, LDB1, NSD1, PHF12 b , PHF2, PHF21A, PPP2R5D, PRR12, RFX3, SATB1, SKI, SMARCC2, SPAST b , STXBP1, TBR1 a , TCF20, TCF4, TCF7L2 a , TM9SF4, TRIP12 a , VEZF1, ZMYND8 CACNA2D3, CORO1A, DIP2A | c , ELAVL3, GABRB2, GRIA2, HDLBP, HECTD4, KCNMA1, KMT2E c , LRRC4C, NACC1, NCOA1, NR3C2, NUP155, PPP1R9B, PPP5C, PTK7 c , SCN1A, TAOK1, TEK, TRAF7, TRIM23, UBR1 Genes fou...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33970367",
+   "title": "Cross-Disorder Analysis of De Novo Mutations in Neuropsychiatric Disorders.",
+   "abstract": "The clinical similarity among different neuropsychiatric disorders (NPDs) suggested a shared genetic basis. We catalogued 23,109 coding de novo mutations (DNMs) from 6511 patients with autism spectrum disorder (ASD), 4,293 undiagnosed developmental disorder (UDD), 933 epileptic encephalopathy (EE), 1022 intellectual disability (ID), 1094 schizophrenia (SCZ), and 3391 controls. We evaluated that putative functional DNMs contribute to 38.11%, 34.40%, 33.31%, 10.98% and 6.91% of patients with ID, EE, UDD, ASD and SCZ, respectively. Consistent with phenotype similarity and heterogeneity in different NPDs, they show different degree of genetic association. Cross-disorder analysis of DNMs prioritized 321 candidate genes (FDR\u2009<\u20090.05) and showed that genes shared in more disorders were more likely to exhibited specific expression pattern, functional pathway, genetic convergence, and genetic intolerance. [full text, passages naming VEZF1] ...2L2 u , ACHE a , FAM84A u , PAPOLG a , PNKD u , ERBB4 u , CLDN5 u , ATP1B1 a , SGCE u , NUDT17 a , SNRPB2 i , ACTC1 u , GABRP u , GNB1 u , ILF2 a , LRRC3C i , NR6A1 u , STK33 a ANO3, G3BP1, CLCN4, DCX, MAP2K1, VEZF1, ASH1L, SMARCD1, KCNQ5, ENO1, STXBP3, LZTR1, AGO3, RPL26, GRIK1, CELF2, EYA1, PDK2, TFAP2C, COL4A1, LMTK3, PRR14L, TCTE3, NUDT4, GLRA2, ARIH1, GNAS, MEIS2, BIRC5, DOCK1, TIFA, DPF2, H2AFV, ABI2, MECOM, CF...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30559488",
+   "title": "Neurodevelopmental disease genes implicated by de novo mutation and copy number variation morbidity.",
+   "abstract": "We combined de novo mutation (DNM) data from 10,927 individuals with developmental delay and autism to identify 253 candidate neurodevelopmental disease genes with an excess of missense and/or likely gene-disruptive (LGD) mutations. Of these genes, 124 reach exome-wide significance (P\u2009<\u20095\u2009\u00d7\u200910-7) for DNM. Intersecting these results with copy number variation (CNV) morbidity data shows an enrichment for genomic disorder regions (30/253, likelihood ratio (LR)\u2009+1.85, P\u2009=\u20090.0017). We identify genes with an excess of missense DNMs overlapping deletion syndromes (for example, KIF1A and the 2q37 deletion) as well as duplication syndromes, such as recurrent MAPK3 missense mutations within the chromosome 16p11.2 duplication, recurrent CHD4 missense DNMs in the 12p13 duplication region, and recurrent WDFY4 missense DNMs in the 10q11.23 duplication region. Network analyses of genes showing an excess of DNMs highlights functional networks, including cell-specific enrichments in the D1+\u2009and D2+\u2009spiny neurons of the striatum. [full text, passages naming VEZF1] ..., SPAST \u2020 , SPEN \u2020 , SPRY2 \u2020 , SRCAP * \u2020 , SRRM2, SRSF11 \u2020 , STARD9 \u2020 , SUV420H1 * \u2020 , SYNCRIP * \u2020 , SYNGAP1 * \u2020 , TAB2 \u2020 , TBR1 \u2020 , TCF12 \u2020 , TCF20 * \u2020 , TNRC6B, TRA2B \u2020 , TRIP12 * \u2020 , UPF3B * \u2020 , USP9X * \u2020 , VEZF1, WAC * \u2020 , WDFY3 \u2020 , WDR45 * \u2020 , WDR87 \u2020 , WHSC1 \u2020 , YTHDF3 \u2020 , ZBTB18 * \u2020 , ZBTB7A \u2020 , ZC4H2 \u2020 , ZNF292 \u2020 LGD & Missense | | CHD2 * \u2020 , CREBBP * \u2020 , DYRK1A * \u2020 , FBXO11 \u2020 , FOXG1 * \u2020 , FOXP1 * \u2020 , HNRNPU...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36109176",
+   "title": "MicroRNA-150-5p is upregulated in the brain microvasculature during prenatal alcohol exposure and inhibits the angiogenic factor Vezf1.",
+   "abstract": "BACKGROUND: Fetal alcohol spectrum disorders (FASD) occur in children who were exposed to alcohol in utero and are manifested in a wide range of neurocognitive deficits. These deficits could be caused by alterations to the cortical microvasculature that are controlled by post-transcriptional regulators such as microRNAs. METHODS: Using an established mouse model of moderate prenatal alcohol exposure (PAE), we isolated cortices (CTX) and brain microvascular endothelial cells (BMVECs) at embryonic day 18 (E18) and examined the expression of miR-150-5p and potential downstream targets. Cellular transfections and intrauterine injections with LNA\u2122 mimics or inhibitors were used to test miR-150-5p regulation of novel target vascular endothelial zinc finger 1 (Vezf1). Dual-luciferase assays were used to assess the direct binding of miR-150-5p to the Vezf1 3'UTR. The effects of miR-150-5p and Vezf1 on endothelial cell function were determined by in vitro migration and tube formation assays. RESULTS: We found that miR-150-5p was upregulated and Vezf1 was downregulated during PAE in the E18 CTX and BMVECs. Transfection with miR-150-5p mimics resulted in decreased Vezf1 expression in BMVECs, while miR-150-5p inhibition did the opposite. Dual-luciferase assays revealed direct binding of miR-150-5p with the Vezf1 3'UTR. Intrauterine injections showed that miR-150-5p regulates the expression of Vezf1 in vivo during PAE. miR-150-5p overexpression decreased BMVEC migration and tube formation, while miR-150-5p inhibition enhanced migration and tube formation. Vezf1 overexpression rescued the effects of the miR-150-5p mimic. Alcohol treatment of BMVECs increased miR-150-5p expression and inhibited migration and tube formation. Finally, miR-150-5p inhibition and Vezf1 overexpression rescued the negative effects of alcohol on migration and tube formation. CONCLUSIONS: miR-150-5p regulation of Vezf1 results in altered endothelial cell function during alcohol exposure. Further, miR-150-5p inhibition of Vezf1 may adversely alter the development of the cortical microvasculature during PAE and contribute to deficits seen in patients with FASD.",
+   "found_by": [],
+   "pubdate": "2022 Nov",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41668336",
+   "title": "Ethanol Alters DNMT1/3a/3b Expression Profile, Promotes Persistent DNA Hypomethylation in Human Brain Endothelial Cells and Impairs Late Cortical Angiogenesis.",
+   "abstract": "Exposure of the embryonic central nervous system (CNS) to drugs of abuse, such as ethanol, induces severe and persistent damage to neural cells, contributing to the development of fetal alcohol spectrum disorders (FASD). Previously, using a mouse model of FASD, we showed that prenatal alcohol exposure (PAE) directly impairs blood-brain barrier (BBB) development by inducing excessive angiogenesis, altering TJ protein and glucose transporter expression, and modifying the endothelial secretome in the neonatal cerebral cortex. Here, we investigated whether ethanol-induced effects on endothelial cells involve epigenetic reprogramming, specifically through alterations in DNA methylation profiles. Using human brain microcapillary endothelial cells (HBMECs) treated with ethanol, we observed reduced 5-methylcytosine (5mC) labeling intensity and DNA methyltransferase (DNMT) activity, accompanied by changes in the levels of DNMT1, DNMT3a, DNMT3b, methyl-CpG binding protein 2 (MeCP2), and vascular endothelial zinc finger 1 (VEZF1). These effects were associated with altered methylation levels at the promoters of BBB-related genes, including GLUT1 and CLDN5. Notably, ethanol-induced hypomethylation persisted over a prolonged period, even after ethanol withdrawal in HBMEC cultures. Treatment with S-adenosylmethionine (SAM) prevented ethanol-induced hypomethylation in\u00a0vitro. In\u00a0vivo, PAE resulted in increased cortical vascular permeability along with persistent vascularization deficits. Together, our findings suggest that ethanol induces long-lasting changes in endothelial cells that may compromise cerebral vasculature formation and function, with modulation of DNA methylation representing a potential molecular mechanism underlying these effects.",
+   "found_by": [],
+   "pubdate": "2026 Feb",
+   "query_tier": "primary"
+  }
+ ],
+ "labels": {
+  "11244112": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2930529": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21610323": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20838620": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39708887": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33929676": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3123997": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38254853": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18201727": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2195110": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31603609": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19726123": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25728762": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39910098": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24295212": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12554141": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17685474": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9865462": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21613231": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36591602": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20719943": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34409089": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37417764": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15260499": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27605623": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31030195": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9301231": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30622191": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33802672": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35073371": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38928400": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20939895": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26703469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24121630": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21152100": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39967876": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15882861": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31911272": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34973391": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20431070": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14592969": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11504723": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18676812": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36923254": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36657711": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36117164": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33859300": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "8632476": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10570976": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24315819": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42636188": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42587631": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38307030": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42244505": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34768579": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32668441": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33970367": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31398277": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31787071": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32601060": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37086723": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37710171": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23118245": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24605088": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20684015": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30559488": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36109176": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41668336": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.8,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 96.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 5.1,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "16 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "34 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "17 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 18.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3510,
+   "output_tokens": 200,
+   "usd": 0.00451,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 64.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 18839,
+   "output_tokens": 788,
+   "usd": 0.022779,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 14.2,
+   "note": "",
+   "input_tokens": 12972,
+   "output_tokens": 1089,
+   "usd": 0.092085,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>14</established>\n    <existing>63</existing>\n    <hypothesized>21</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Human large-scale de novo mutation studies list VEZF1 among genes with an excess of damaging DNMs in autism/developmental delay cohorts (PMID 30559488; PMID 33970367), and it appears among the \"novel\" ASD/NDD genes from the Autism Sequencing Consortium 102-gene list discussed in subsequent reviews (PMID 34768579; PMID 32668441; PMID 42401939). These are credible human genetic signals from probands with de novo variants, but the evidence is statistical and largely from overlapping mega-cohorts, with few detailed independent probands or families and limited genotype\u2013phenotype characterization, so replication required for \"Established\" is not clearly demonstrated. Supporting biology (VEZF1 regulates DNMT3b-dependent genomic DNA methylation, brain microvascular development, and is implicated in prenatal alcohol exposure/FASD models) provides plausible neurodevelopmental mechanism but is non-human/in vitro (PMIDs 18676812, 36109176, 41668336), so it backs \"Hypothesized\" rather than \"Existing.\" Overall, \"Existing\" is the best fit.</justification>\n  <pmids>\n    <pmid>30559488</pmid>\n    <pmid>33970367</pmid>\n    <pmid>34768579</pmid>\n    <pmid>32668441</pmid>\n    <pmid>42401939</pmid>\n    <pmid>18676812</pmid>\n    <pmid>36109176</pmid>\n    <pmid>41668336</pmid>\n  </pmids>\n</response>"
+}

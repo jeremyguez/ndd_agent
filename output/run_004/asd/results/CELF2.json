@@ -1,0 +1,270 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo variants in CELF2 that disrupt the nuclear localization signal cause developmental and epileptic encephalopathy (PMID: 33131106)",
+        "num_patients": 5,
+        "variants": [
+          {
+            "description": "c.1558C>T, p.(Pro520Ser) (two unrelated individuals, Individuals 1 and 2; de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental and epileptic encephalopathy"
+            ]
+          },
+          {
+            "description": "c.1516C>G, p.(Arg506Gly) (Individual 3; inherited from mosaic mother)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental and epileptic encephalopathy"
+            ]
+          },
+          {
+            "description": "c.1562dup, p.(Tyr521Ter) (Individual 4; de novo; removes last amino acid, possibly escapes NMD)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental and epileptic encephalopathy"
+            ]
+          },
+          {
+            "description": "c.272-1G>C (Individual 5; de novo; canonical splice site, probably NMD)",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "autistic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mostly de novo (one inherited from mosaic mother); variants clustered in C-terminal putative nuclear localization signal; functional studies showed extranuclear mislocalization of mutant CELF2 protein; splice variant predicted to cause NMD",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Genetic variants identification through whole-genome sequencing based on dried blood spots in 92 Chinese children with Autism (PMID: 42036727)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_006561.3:c.1500delT, p.(Gln501Argfs*4), heterozygous (chr10:11370948)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Classified likely pathogenic frameshift variant (Het/AD) identified by WGS from newborn dried blood spots in a child with ASD",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Expanding the phenotype and genotype spectrum of TAOK1 neurodevelopmental disorder and delineating TAOK2 neurodevelopmental disorder (PMID: 39737487)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "CELF2 c.1456G>A (monoallelic, VUS; additional finding in TAOK2 individual P10)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental abnormalities (TAOK2-NDD individual)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reported only as a VUS and additional genetic finding; not considered the primary diagnosis",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "CELF2-dependent RNA Regulation Supports Cortical Architecture and Synaptic Stability During Early Brain Development (PMID: 42189331)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Neonatal lethality",
+          "Impaired neuronal maturation",
+          "Disrupted cortical organization",
+          "Widespread transcriptional dysregulation and reduced exon inclusion in neurodevelopmental transcripts",
+          "Markedly reduced Camk2a transcript and protein in knockout brains",
+          "Reduced Nestin- and Doublecortin-positive immature neurons",
+          "Thinning of upper cortical layers",
+          "Selective reduction of upper layer II/III excitatory neurons (snRNA-seq)",
+          "Altered cellular maturation trajectories (delayed in some cell types, accelerated in others)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CELF2 Deficiency Demonstrates Autism-Like Behaviors and Interferes with Late Development of Cortical Neurons in Mice (PMID: 38829512)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Nestin-Cre heterozygous conditional knockout showed social impairment and anxiety (autism-like behavior)",
+          "No repetitive stereotyped behavior, learning/cognitive impairment, or depression",
+          "Underdeveloped cerebral cortex with reduced cortical thickness, no change in cell density",
+          "Reduced dendritic spine density and impaired synaptic maturation in cultured neurons",
+          "No change in total neurite or axon length",
+          "RNA-seq/RIP-seq showed dysregulation of dendrite- and synapse-related genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Modeling epilepsy by loss-of-function of the CUG-binding protein Elav-like family member 2 in zebrafish with multi-omics analysis (PMID: 40066778)",
+        "organism": "zebrafish",
+        "knockout_type": "knockout (CRISPR/Cas9, heterozygous celf2+/- analyzed) and morpholino knockdown",
+        "phenotypes": [
+          "Epilepsy-like behaviors and epileptic EEG activity",
+          "Rescued by injection of wild-type CELF2 mRNA",
+          "Altered expression of neural marker genes in celf2+/- (fos, bdnf, npas4, gabra1, gabrg2, pyya)",
+          "Disrupted lipid metabolism and Hsp90b1 changes (proteomics/metabolomics)",
+          "Single-cell sequencing changes in nucleosome and metabolic/signaling pathways"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of RNA-binding protein CELF2 promotes acute leukemia development via FAT10-mTORC1 (PMID: 38514854)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (hematopoietic-specific)",
+        "phenotypes": [
+          "Enhanced HSC self-renewal",
+          "Increased differentiation toward myeloid cells",
+          "Accelerated myeloid transformation and AML development in MLL-AF9 model",
+          "FAT10 mRNA stabilization with increased AKT phosphorylation and mTORC1 activation",
+          "Rapamycin plus EPZ-5676 reduced leukemia burden in Celf2-deficient MLL-AF9 mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Triclosan regulates alternative splicing events of nerve-related genes through RNA-binding protein CELF2 to induce zebrafish neurotoxicity (PMID: 33621777)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "celf2 knockdown/overexpression linked to nervous system injury and developmental defects",
+          "Altered AS of mbpa, mef2d, u2af2b, matn3b",
+          "Histopathological injury, phenotypic malformation, abnormal locomotor behavior, altered neuromarkers"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CELF RNA binding proteins promote axon regeneration in C. elegans and mammals through alternative splicing of Syntaxins (PMID: 27253061)",
+        "organism": "mouse",
+        "knockout_type": "mutant (Celf2 mutant mice)",
+        "phenotypes": [
+          "Defective axon regeneration after peripheral nerve injury",
+          "CELF2-dependent regulation of several Syntaxin mRNAs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Analysis of novel caudal hindbrain genes reveals different regulatory logic for gene expression in rhombomere 4 versus 5/6 in embryonic zebrafish (PMID: 29945667)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (germline mutant)",
+        "phenotypes": [
+          "celf2 germline mutants showed no rhombomere or neuronal defects in hindbrain development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Unknown et al. - CELF2 suppresses non-small cell lung carcinoma growth by inhibiting the PREX2-PTEN interaction (PMID: 31241130)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CELF2 physically interacts with PREX2 and reduces PREX2 association with PTEN, increasing PTEN phosphatase activity and repressing Akt phosphorylation and proliferation only when PTEN is present (PI3K/Akt pathway). CELF2 gene delivery inhibited PDX tumor growth, and CELF2 protein is downregulated in lung adenocarcinoma and associated with poor prognosis.",
+        "sample_size": "87 paired lung adenocarcinoma samples",
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - The RNA-Binding Protein CELF2 Inhibits Ovarian Cancer Progression by Stabilizing FAM198B (PMID: 33335801)",
+        "evidence_subtype": "function",
+        "summary": "CELF2 binds AU/U-rich elements in the 3' UTR of FAM198B and increases its mRNA stability (post-transcriptional regulation). The CELF2/FAM198B axis represses ovarian cancer proliferation, migration and invasion, likely via inhibiting MAPK/ERK signaling. CELF2 is downregulated in ovarian cancer, and curcumin-induced CELF2 increased cisplatin sensitivity.",
+        "sample_size": "10 ovarian cancer vs 8 normal tissues (RNA-seq)",
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - N6-methyladenosine-mediated CELF2 regulates CD44 alternative splicing affecting tumorigenesis via ERAD pathway in pancreatic cancer (PMID: 35941702)",
+        "evidence_subtype": "pathway",
+        "summary": "CELF2 is downregulated in pancreatic cancer, and low expression indicates poor prognosis. CELF2 mRNA is m6A-modified (ALKBH5) and degraded via YTHDF2. CELF2 regulates CD44 alternative splicing (CD44s to CD44v switch), altering ER stress and the ERAD pathway, thereby affecting apoptosis and stemness; the ERAD inhibitor EerI reverses the CD44 effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - Epigenetic inactivation of the splicing RNA-binding protein CELF2 in human breast cancer (PMID: 31409895)",
+        "evidence_subtype": "function",
+        "summary": "CELF2 undergoes promoter hypermethylation-associated silencing in human cancer, including breast cancer. CELF2 restoration inhibits growth, and its epigenetic loss causes aberrant alternative splicing of ULK1 and CARD10. CELF2 hypermethylation is associated with shorter overall survival.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - CELF2 regulates the species-specific alternative splicing of TREM2 (PMID: 33093587)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CELF2 and CELF1 overexpression promotes TREM2 exon 3 skipping, with a CELF-responsive element mapped to intron 3 of human TREM2 using chimeric minigenes. Only CELF2 reduced full-length TREM2 protein. The regulation is conserved in human and monkey but not mouse, and links CELF2 to Alzheimer's disease-relevant TREM2 regulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - Activation of MAP3K DLK and LZK in Purkinje cells causes rapid and slow degeneration depending on signaling strength (PMID: 33475086)",
+        "evidence_subtype": "other",
+        "summary": "In a mouse model, deleting CELF2, which regulates alternative splicing of Map2k7 (MKK7), strongly attenuates LZK-induced Purkinje cell degeneration but not DLK-induced degeneration. This places CELF2 in the JNK signaling/neurodegeneration pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - LncRNA Dleu2 regulates fear extinction memory through Celf2-driven synaptic plasticity (PMID: 41628728)",
+        "evidence_subtype": "other",
+        "summary": "In mouse infralimbic prefrontal cortex, lncRNA Dleu2 binds the Celf2 intron and increases chromatin accessibility and Celf2 transcription. Celf2 knockdown recapitulated the fear extinction memory deficit and reduced dendritic spine number, implicating Celf2 in synaptic plasticity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - Diversity and conservation of CELF1 and CELF2 RNA and protein expression patterns during embryonic development (PMID: 23468433)",
+        "evidence_subtype": "expression",
+        "summary": "CELF2 is broadly expressed in developing tissues, with protein levels regulated independently of transcript levels in the heart. It shows nuclear and cytoplasmic and tissue-specific isoforms, and is co-expressed with CELF1 but in mutually exclusive territories in some organs (heart, eye). Patterns are conserved between chicken and mouse.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - Reduced Expression of RNA Binding Protein CELF2, a Putative Tumor Suppressor Gene in Colon Cancer (PMID: 23795348)",
+        "evidence_subtype": "expression",
+        "summary": "Immunohistochemistry shows CELF2 is reduced in colon tumors compared with normal colon. It is predominantly nuclear in normal cells but shows diffuse cytoplasmic staining in cancer tissue. This supports a tumor suppressor role.",
+        "sample_size": "40 colon cancer tissues, 10 normal colon tissues",
+        "significance": null
+      },
+      {
+        "citation": "Unknown et al. - miR-363-3p induces EMT via the Wnt/\u03b2-catenin pathway in glioma cells by targeting CELF2 (PMID: 34636136)",
+        "evidence_subtype": "pathway",
+        "summary": "miR-363-3p directly binds the CELF2 3'UTR and downregulates CELF2, which drives EMT and activates Wnt/\u03b2-catenin signaling in glioma cells. Higher CELF2 expression correlates with better prognosis, and ASO-miR-363-3p reduced xenograft tumor size.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

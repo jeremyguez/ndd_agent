@@ -1,0 +1,222 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Stephenson et al. 2017 - A Novel Human CAMK2A Mutation Disrupts Dendritic Morphology and Synaptic Transmission, and Causes ASD-Related Behaviors (PMID: 28130356)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.Glu183Val (E183V), de novo",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo variant in a proband with ASD; functional studies showed reduced substrate phosphorylation and autophosphorylation, dominant-negative effect, and altered dendritic and synaptic phenotypes; knock-in mice show ASD-related behaviors",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Deletion of a Single Lysine Residue at Position 292 of CAMK2A Disrupts Protein Function, Causing Severe Epileptic Encephalopathy and Intellectual Disability (PMID: 37510258)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_171825.2:c.874_876delCTT, p.Lys292del, de novo heterozygous",
+            "type": "other",
+            "phenotypes": [
+              "severe intellectual disability",
+              "epileptic encephalopathy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo heterozygous in-frame deletion identified by exome sequencing; affects a crucial functional site and is predicted to alter protein structure and function; phenotype consistent with IDD autosomal dominant 53",
+        "center_country": "Italy",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic Traces in Autism Spectrum Disorders: A Whole Exome Sequencing Study from T\u00fcrkiye (PMID: 41751633)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_015981.4:c.310C>T, p.Arg104Trp, heterozygous, de novo",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "congenital bilateral hearing loss (text truncated)",
+              "behavioral abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "classified likely pathogenic (PM2, PS2, PP2, PP3, PP5); de novo; associated with intellectual developmental disorder, autosomal dominant 53",
+        "center_country": "T\u00fcrkiye",
+        "cohort": null
+      },
+      {
+        "citation": "Diagnostic Yield of Whole Exome Sequencing in Autism Spectrum Disorder Patients at a Tertiary Center in Saudi Arabia (PMID: 42606785)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "not specified; CAMK2A listed among recurrently affected genes",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "variants classified per ACMG/AMP guidelines on clinical WES; per-patient details not given in the abstract",
+        "center_country": "Saudi Arabia",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2023 - Deciphering the genetic architecture of autism spectrum disorder using chromosomal microarray and whole exome sequencing in patient-parent trios in India",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "de novo SNV in CAMK2A (specific variant not given)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo SNV in a known ASD gene identified by trio WES",
+        "center_country": "India",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Adult Camk2a gene reinstatement restores the learning and plasticity deficits of Camk2a knockout mice (PMID: 36304100)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Camk2a knockout mice show deficits in spatial learning, conditional learning and synaptic plasticity",
+          "Inducible Camk2a model: adult re-expression of CAMK2A rescued the behavioral and electrophysiological deficits",
+          "CAMK2A does not appear to play a critical irreversible developmental role"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Involvement of Ca(2+)-Dependent Hyperpolarization in Sleep Duration in Mammals (PMID: 26996081)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Camk2a KO mice showed decreased sleep duration",
+          "Camk2b KO mice showed the same decrease",
+          "Part of a screen of 21 KO mouse lines supporting a Ca(2+)-dependent hyperpolarization pathway in sleep regulation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "21 KO lines screened overall; per-line n not given in abstract",
+        "significance": null
+      },
+      {
+        "citation": "NMDA receptors on zebrafish Mauthner cells require CaMKII-\u03b1 for normal development (PMID: 25047640)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Morpholino knockdown of CaMKII-\u03b1 did not significantly change AMPA mEPSCs",
+          "NMDA mEPSC amplitude decreased, specifically the slow component (\u03c4slow \u2248 300 ms); fast component, frequency and kinetics were unaffected",
+          "Increased dendritic arborization of Mauthner cells in morphants",
+          "Altered locomotor touch-response behavior",
+          "camk2a was the only CaMKII gene with detectable mRNA in M-cells at 2 dpf"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Kury et al. 2017 - De Novo Mutations in Protein Kinase Genes CAMK2A and CAMK2B Cause Intellectual Disability (PMID: 29100089)",
+        "evidence_subtype": "function",
+        "summary": "De novo CAMK2A/CAMK2B variants from 24 individuals with ID were found to either decrease or increase CAMK2 Thr286/287 autophosphorylation. All variants affecting autophosphorylation also impaired neuronal migration, showing that tightly regulated autophosphorylation is needed for neurodevelopment. CAMK2 is placed in the glutamatergic (AMPAR/NMDAR) signaling pathway.",
+        "sample_size": "24 unrelated individuals, 19 variants",
+        "significance": null
+      },
+      {
+        "citation": "Mouse knock-in study 2025 - A hyper-activatable CAMK2A variant associated with intellectual disability causes exaggerated long-term potentiation and learning impairments (PMID: 40140673)",
+        "evidence_subtype": "other",
+        "summary": "Heterozygous P212L Camk2a knock-in mice showed increased CaMKII\u03b1 autophosphorylation (gain of function), dendritic spine abnormalities, exaggerated hippocampal LTP after subthreshold low-frequency stimulation, and learning/behavioral deficits that resemble human ID/NDD.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Temporal and region-specific requirements of \u03b1CaMKII in spatial and contextual learning (PMID: 25143599)",
+        "evidence_subtype": "other",
+        "summary": "Conditional Camk2a deletion in mice showed that forebrain deletion, but not cerebellar deletion, severely impairs water maze and contextual fear learning. Adult-onset deletion was as damaging as germline deletion for learning and synaptic plasticity, so \u03b1CaMKII must be intact at the time of learning.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - De novo variants affecting autoinhibition of Calcium/calmodulin-dependent protein kinase II, cause neurodevelopmental disorders",
+        "evidence_subtype": "cell_culture",
+        "summary": "CAMK2A missense variants are predicted to disrupt kinase-regulatory segment autoinhibition. A splice variant causes exon 11 skipping in a minigene assay, and Thr286 phosphorylation is increased in Neuro-2a cells. CaMKII\u03b1 P212Q expression in primary hippocampal neurons increased A-type K+ currents and facilitated spike repolarization.",
+        "sample_size": "3 CAMK2A individuals (5 including CAMK2B)",
+        "significance": "reported as significant for A-type K+ current increase"
+      },
+      {
+        "citation": "Shah et al. ASHG 2023 - Deciphering the genetic architecture of autism spectrum disorder using chromosomal microarray and whole exome sequencing in patient-parent trios in India",
+        "evidence_subtype": "other",
+        "summary": "A de novo CAMK2A SNV was found among known ASD genes in an Indian ASD trio cohort, which supports CAMK2A as an ASD/NDD gene involved in synaptic function.",
+        "sample_size": "101 trios",
+        "significance": null
+      },
+      {
+        "citation": "circADAMTS6 via stabilizing CAMK2A is involved in smoking-induced emphysema through driving M2 macrophage polarization (PMID: 38936066)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "In macrophages, circADAMTS6 stabilizes CAMK2A mRNA by forming a circADAMTS6/IGF2BP2/CAMK2A RNA-protein ternary complex. This activates CREB and drives M2 polarization and emphysema after cigarette smoke exposure.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting the exosomal CaMK2A-ZDHHC3-GPX4 pathway reprograms tumor-associated macrophages and enhances anti-PD-1/PD-L1 immunotherapy in gastric cancer (PMID: 42328444)",
+        "evidence_subtype": "pathway",
+        "summary": "Gastric cancer-derived exosomal CaMK2A phosphorylates ZDHHC3 at Thr176, which increases GPX4 S-palmitoylation at Cys10 and stabilizes GPX4. This suppresses macrophage ferroptosis and promotes M2 TAM polarization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MicroRNA-3200-3p targeting CAMK2A modulates the proliferation and metastasis of glioma in vitro (PMID: 35287547)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CAMK2A is a direct target of miR-3200-3p in glioma cells. CAMK2A overexpression reversed the anti-proliferative and anti-metastatic effects of the miRNA, and CAMK2A acts through the Ras/Raf/MEK/ERK pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Plasma CAMK2A predicts chemotherapy resistance in metastatic triple negative breast cancer (PMID: 31938151)",
+        "evidence_subtype": "expression",
+        "summary": "Plasma CAMK2A was higher in chemotherapy-resistant metastatic TNBC patients (ELISA validation). High levels predicted shorter overall survival (13.9 vs 28.9 months).",
+        "sample_size": "26 plasma samples (proteomics) + 67 (ELISA validation)",
+        "significance": "P=0.0074 (R vs S); AUC 0.708; OS P=0.034; Cox HR=1.865, P=0.031"
+      },
+      {
+        "citation": "Camk2a suppresses denervated muscle atrophy by maintaining the Ca2+ homeostasis in muscle cells (PMID: 38015546)",
+        "evidence_subtype": "function",
+        "summary": "Camk2a expression fell in denervated muscle as Ca2+ rose. Camk2a overexpression reduced Ca2+ accumulation, preserved muscle mass and fiber cross-sectional area, and reduced collagen deposition, so Camk2a helps maintain Ca2+ homeostasis in muscle.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Camk2a-Cre and Tshz3 Expression in Mouse Striatal Cholinergic Interneurons: Implications for Autism Spectrum Disorder (PMID: 34349780)",
+        "evidence_subtype": "expression",
+        "summary": "Lineage tracing showed the Camk2a-Cre transgene is active in striatal cholinergic interneurons as well as projection neurons. Camk2a is therefore expressed in striatal interneurons, which complicates interpretation of Camk2a-Cre conditional knockouts.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

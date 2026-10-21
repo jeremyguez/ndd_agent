@@ -1,0 +1,205 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 10,
+    "biological": 13
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Loss of CTLH component MAEA impairs DNA repair and replication and leads to developmental delay (PMID: 41420108)",
+        "num_patients": 8,
+        "variants": [
+          {
+            "description": "Specific variants not given in the abstract; eight patients with MAEA variants (the companion paper lists R34C, E349G, Y394D, M396R as disease-linked variants)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder (DIADEM)",
+              "developmental delay",
+              "intellectual disability",
+              "defective HR-dependent DNA repair and replication fork restart/protection in patient-derived cells"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Patient-derived cell lines and mutation modeling show defective HR-dependent DNA repair, reduced RAD51 loading, and impaired replication fork restart and protection. The abstract does not state variant type or inheritance, so the missense classification is inferred and uncertain.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Pathogenic variants in MAEA disrupt DNA replication fork stability and are associated with developmental abnormalities in humans (PMID: 40880485)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "p.Arg34Cys (R34C)",
+            "type": "missense",
+            "phenotypes": [
+              "microcephaly",
+              "craniofacial abnormalities",
+              "ocular defects",
+              "heart malformations"
+            ]
+          },
+          {
+            "description": "p.Glu349Gly (E349G)",
+            "type": "missense",
+            "phenotypes": [
+              "microcephaly",
+              "craniofacial abnormalities",
+              "ocular defects",
+              "heart malformations"
+            ]
+          },
+          {
+            "description": "p.Tyr394Asp (Y394D)",
+            "type": "missense",
+            "phenotypes": [
+              "microcephaly",
+              "craniofacial abnormalities",
+              "ocular defects",
+              "heart malformations"
+            ]
+          },
+          {
+            "description": "p.Met396Arg (M396R)",
+            "type": "missense",
+            "phenotypes": [
+              "microcephaly",
+              "craniofacial abnormalities",
+              "ocular defects",
+              "heart malformations"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Functional assays show the disease-linked variants are defective in the replication stress response. The abstract does not give zygosity or inheritance, and the phenotypes are listed for the disorder as a whole rather than per variant.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Maea expressed by macrophages, but not erythroblasts, maintains postnatal murine bone marrow erythroblastic islands (PMID: 30674470)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Deletion of Maea in macrophages (Csf1r-Cre or CD169-Cre) severely reduced bone marrow macrophages, erythroblasts and in vivo erythroblastic island formation",
+          "Deletion in the erythroid lineage (Epor-Cre) caused no such phenotype, indicating a macrophage-dominant role in BM erythropoiesis",
+          "Maea deletion in spleen macrophages did not alter their numbers or functions",
+          "Postnatal Maea deletion (Mx1-Cre) impaired BM erythropoiesis",
+          "A novel monoclonal antibody inhibiting Maea function also impaired BM erythropoiesis",
+          "Background: constitutive Maea-deficient mice die perinatally with anemia and defective erythrocyte enucleation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAEA is an E3 ubiquitin ligase promoting autophagy and maintenance of haematopoietic stem cells (PMID: 33947846)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Maea is highly expressed in HSCs",
+          "Maea deletion severely impairs HSC quiescence and lymphoid potential",
+          "Maea deletion leads to a lethal myeloproliferative syndrome",
+          "Surface expression of cytokine receptors (MPL, FLT3) is stabilised, prolonging intracellular signalling",
+          "Autophagy flux is impaired in HSCs but not in mature haematopoietic cells",
+          "Receptor kinase inhibitors or autophagy-inducing compounds rescued the functional defects of Maea-deficient HSCs"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "maea affects head formation through \u00df-catenin degradation during early Xenopus laevis development (PMID: 36444483)",
+        "organism": "Xenopus laevis",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Maea knockdown interfered with head formation in embryos",
+          "maea.S overexpression at the anterior dorsal region enlarged head structures",
+          "maea.S co-injection reduced expression of the Wnt target genes nodal3.1 and sia1 induced by \u03b2-catenin mRNA",
+          "Maea.S ubiquitinated \u03b2-catenin and decreased its protein levels"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "CTLH ubiquitin ligase substrates ZMYND19 and MKLN1 negatively regulate mTORC1 at the lysosomal membrane (PMID: 41315365)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPR/Cas9 screen in EBV-associated gastric carcinoma cells with alpelisib identified CTLH subunits, including catalytic MAEA, as top synergistic hits. MAEA knockout caused strong accumulation of the CTLH substrates MKLN1 and ZMYND19. These substrates localize to lysosomal outer membranes and block the mTORC1-Rheb interaction, so MAEA-dependent CTLH activity tunes mTORC1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Maea expressed by macrophages, but not erythroblasts, maintains postnatal murine bone marrow erythroblastic islands (PMID: 30674470)",
+        "evidence_subtype": "function",
+        "summary": "Conditional Maea knockout mice showed that deleting Maea in macrophages (Csf1r-Cre, CD169-Cre) severely reduced BM macrophages, erythroblasts and island formation. Deletion in the erythroid lineage (Epor-Cre) had no such effect, so Maea is needed in macrophages. Postnatal deletion (Mx1-Cre) or a function-blocking antibody also impaired BM erythropoiesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAEA is an E3 ubiquitin ligase promoting autophagy and maintenance of haematopoietic stem cells (PMID: 33947846)",
+        "evidence_subtype": "function",
+        "summary": "Maea is highly expressed in HSCs and acts as a membrane-associated E3 ligase subunit. Its deletion in mice impairs HSC quiescence and causes a lethal myeloproliferative syndrome. Loss of Maea stabilizes surface cytokine receptors (MPL, FLT3), prolongs their signalling, and impairs autophagy flux in HSCs. Receptor kinase inhibitors or autophagy inducers rescue the defects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The E3 ubiquitin ligase MAEA promotes macrophage phagocytosis and inhibits gastrointestinal cancer progression by mediating PARP1 ubiquitination and degradation (PMID: 39990651)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Mass spectrometry and immunoprecipitation showed that MAEA interacts with PARP1 and mediates its K48-linked ubiquitination and degradation. Low MAEA expression correlates with worse survival in gastrointestinal cancer patients. MAEA suppresses tumor proliferation and chemoresistance in vitro and in xenografts, inhibits M2 macrophage polarization, and enhances phagocytosis. Combining MAEA with veliparib improved oxaliplatin efficacy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "E3 ligase MAEA-mediated ubiquitination and degradation of PHD3 promotes glioblastoma progression (PMID: 36882523)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "TMT proteomics found MAEA upregulated in recurrent glioma, and high expression correlated with poor prognosis. MAEA targets PHD3 at K159 for K48-linked polyubiquitination and degradation, which stabilizes HIF-1\u03b1 and raises CD133. This promotes stemness, invasion and TMZ resistance, and MAEA knockdown inhibits xenograft growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pathogenic variants in MAEA disrupt DNA replication fork stability and are associated with developmental abnormalities in humans (PMID: 40880485)",
+        "evidence_subtype": "function",
+        "summary": "An E3 ligase screen for RAD51 regulators identified MAEA, a core CTLH subunit, as a regulator of homologous recombination. MAEA loss impairs RAD51 recruitment at stalled forks and causes nascent strand degradation. MAEA associates with and ubiquitylates Ku80, enabling its removal and RAD51 loading. Patient variants (R34C, E349G, Y394D, M396R), linked to microcephaly, craniofacial, ocular and heart defects, are defective in the replication stress response.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "maea affects head formation through \u00df-catenin degradation during early Xenopus laevis development (PMID: 36444483)",
+        "evidence_subtype": "other",
+        "summary": "In Xenopus embryos, maea transcripts are ubiquitously detected early. Maea.S overexpression enlarges head structures and reduces \u03b2-catenin-induced Wnt target genes (nodal3.1, sia1). Maea knockdown interferes with head formation. Maea.S ubiquitinates and degrades \u03b2-catenin, including the 4KR mutant, so it acts on other lysine residues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RANBP9 and RANBP10 cooperate in regulating non-small cell lung cancer proliferation (PMID: 40883813)",
+        "evidence_subtype": "pathway",
+        "summary": "This paper concerns the CTLH E3 ligase complex, of which MAEA is a member (MAEA is not named in the abstract). RANBP9 or RANBP10 can each independently support CTLH complex formation in NSCLC cells. They reshape the proteome and ubiquitylome and regulate proliferation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of MAEA protein as a potential target for chemoresistance in osteosarcoma using bioinformatics and proteomic analysis (PMID: 40989695)",
+        "evidence_subtype": "expression",
+        "summary": "Proteomics and MEGENA network analysis identified MAEA as a hub protein in osteosarcoma patients with low chemotherapy-induced necrosis. Immunohistochemistry confirmed higher MAEA expression in OS samples than in healthy controls, suggesting a role in chemoresistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Comprehensive evaluation of type 2 diabetes susceptibility in the Japanese population by genome-wide imputation analysis using the 1000 Genomes Project data",
+        "evidence_subtype": "GWAS",
+        "summary": "SNPs in the CTBP1-MAEA region (rs730831, rs4974585, rs4974586) were associated with type 2 diabetes in Japanese cohorts. Conditional analysis identified rs730831 in CTBP1 as the lead SNP, making CTBP1 rather than MAEA the favored candidate gene. The risk allele correlated with higher CTBP1 expression.",
+        "sample_size": "4,470 cases/3,071 controls discovery; 1,175 cases/839 controls replication",
+        "significance": "combined P = 5\u00d710^-8 to 1\u00d710^-10; OR 1.18-1.25"
+      }
+    ]
+  }
+}

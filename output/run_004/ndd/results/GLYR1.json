@@ -1,0 +1,149 @@
+{
+  "articles_found": {
+    "clinical": 4,
+    "model_organism": 5,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Transcription factor protein interactomes reveal genetic determinants in heart disease (PMID: 35182466)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "GLYR1 de novo missense variant (exact nucleotide/protein change not given in abstract); disrupts interaction with GATA4",
+            "type": "missense",
+            "phenotypes": [
+              "Congenital heart disease"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo missense variant in a CHD proband identified from ~9,000 proband-parent trio exomes. The gene was prioritized by residue, gene, and proband-level scoring within the GATA4/TBX5 interactomes. The variant disrupted GATA4 interaction and impaired function in vitro and in mice.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Primary complex motor stereotypies are associated with de novo damaging DNA coding mutations that identify KDM5B as a risk gene (PMID: 37788244)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "GLYR1 de novo damaging variant (exact change not given in the provided text); listed among 52 genes with de novo damaging variants in pCMS probands",
+            "type": "other",
+            "phenotypes": [
+              "Primary complex motor stereotypies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo predicted-damaging coding variant identified by whole-exome sequencing of pCMS parent-child trios. GLYR1 is only listed in a table of genes with such variants and is not a high-confidence risk gene.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Deficiency of nucleosome-destabilizing factor GLYR1 dampens spermatogenesis in mice (PMID: 38395189)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Subfertility in males with Glyr1 depleted in spermatogenic cells",
+          "Reduced sperm count",
+          "Reduced sperm motility",
+          "Increased rate of sperm malformation, mainly head and neck defects in cauda epididymal spermatozoa",
+          "Fewer spermatocytes across different meiotic stages",
+          "Reduced histone acetylation in spermatogenic cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Uniparental Disomy Reveals Hidden Genetic Causes of Congenital Heart Disease (PMID: 42539127)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Patient-specific cardiac phenotypes recapitulated in zebrafish functional studies of GLYR1, PIEZO1 and MESD (specific GLYR1 zebrafish phenotypes not detailed in the abstract)",
+          "Homozygous pathogenic GLYR1 variant found within a UPD region in a CHD patient"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Transcription factor protein interactomes reveal genetic determinants in heart disease (PMID: 35182466)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "GLYR1 was identified in the GATA4/TBX5 interactomes of human cardiac progenitors and prioritized as a likely CHD gene. GLYR1 and GATA4 co-occupy and co-activate cardiac developmental genes. A CHD-associated GLYR1 missense variant disrupted its interaction with GATA4 and impaired function in vitro and in mice.",
+        "sample_size": "~9,000 proband-parent trio exomes",
+        "significance": "Enrichment of de novo missense variants in interactomes (significance not given in the abstract)"
+      },
+      {
+        "citation": "Deficiency of nucleosome-destabilizing factor GLYR1 dampens spermatogenesis in mice (PMID: 38395189)",
+        "evidence_subtype": "function",
+        "summary": "Glyr1 is widely expressed in mouse testicular cells. Its depletion in spermatogenic cells caused subfertility, reduced sperm count and motility, and increased head and neck malformations. It also reduced spermatocytes across meiotic stages and lowered histone acetylation.",
+        "sample_size": null,
+        "significance": "Reported as significant increase in malformation rate (no values in the abstract)"
+      },
+      {
+        "citation": "Downregulation of GLYR1 contributes to microsatellite instability colorectal cancer by targeting p21 via the p38MAPK and PI3K/AKT pathways (PMID: 32370786)",
+        "evidence_subtype": "cell_culture",
+        "summary": "GLYR1 is downregulated in MSI CRC and interacts with MLH1 to regulate its nuclear import and expression. GLYR1 knockdown in SW480 and SW620 cells accelerated G1/S transition, promoted proliferation, inhibited differentiation, and reduced 5-FU sensitivity. It acts through p38MAPK inhibition and PI3K/AKT activation, which lower p21.",
+        "sample_size": null,
+        "significance": "Reported as significant downregulation (no values in the abstract)"
+      },
+      {
+        "citation": "Candidate driver genes in microsatellite-unstable colorectal cancer (PMID: 21544814)",
+        "evidence_subtype": "expression",
+        "summary": "GLYR1 has a frequent coding G8 microsatellite frameshift mutation (51%) in MSI CRC. Tumors with biallelic mutations showed defective GLYR1 protein by immunohistochemistry, supporting a loss-of-function, tumor suppressor-like role.",
+        "sample_size": "100 MSI CRC samples (30 initial screen)",
+        "significance": "Mutation frequency significantly above control repeats"
+      },
+      {
+        "citation": "GLYR1 transcriptionally regulates PER3 expression to promote the proliferation and migration of multiple myeloma (PMID: 38642856)",
+        "evidence_subtype": "function",
+        "summary": "GLYR1 binds the PER3 promoter (luciferase and ChIP assays) and transcriptionally activates PER3. Through PER3, GLYR1 suppresses the viability and migration of multiple myeloma cells and promotes apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GLYR1-mediated downregulation of lncRNA HSD11B1-AS1 promotes proliferation, migration, and invasion of breast cancer cells (PMID: 41217560)",
+        "evidence_subtype": "cell_culture",
+        "summary": "GLYR1 directly binds the HSD11B1-AS1 promoter and represses its transcription, as shown by ChIP and luciferase assays. This enhances proliferation, migration, and invasion of breast cancer cells, and rescue experiments confirmed the axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Reader interactome of epigenetic histone marks in birds (PMID: 26703087)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "GLYR1 (N-PAC) is a known H3K36me3 reader in mammals. It was reproducibly not enriched at H3K36me3 in chicken and zebra finch peptide pull-down proteomics, suggesting species-specific differences in readers.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Study of a patient with MDS/MPN with co-morbid neutrophilia and a novel NCOR1::GLYR1 fusion gene (PMID: 38565504)",
+        "evidence_subtype": "other",
+        "summary": "A novel NCOR1::GLYR1 fusion was identified by RNA-seq and validated by qPCR and Sanger sequencing in an MDS/MPN patient who progressed to AML. Fusion transcript levels fell after chemotherapy, so the fusion is considered pathogenic.",
+        "sample_size": "1 patient",
+        "significance": null
+      },
+      {
+        "citation": "Proteomic profiling of the prefrontal cortex reveals Dysregulated Mitochondria-Metabolism-Synapse axis in a chronic Stress-Induced mouse model of depression (PMID: 41765126)",
+        "evidence_subtype": "expression",
+        "summary": "Glyr1 was among the proteins differentially expressed in the prefrontal cortex of chronic social defeat stress mice. It was validated by PRM and Western blot within a signal-transduction module (with Rigi, Pbrm1, Plppr5).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Comparative RNA-seq analysis reveals potential mechanisms mediating the conversion to androgen independence in an LNCaP progression cell model (PMID: 24012641)",
+        "evidence_subtype": "other",
+        "summary": "A GLYR1-SLC9A8 fusion gene was found specifically in androgen-independent LNCaP-AI-F prostate cancer cells and predicted to be damaging and oncogenic.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

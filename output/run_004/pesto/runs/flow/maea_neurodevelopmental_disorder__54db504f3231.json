@@ -1,0 +1,760 @@
+{
+ "gene": "MAEA",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental delay",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "disorder of psychological development",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "EMP",
+   "P44EMLP",
+   "HLC-10",
+   "GID9",
+   "macrophage erythroblast attacher, E3 ubiquitin ligase"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 80,
+  "titlekicksparingfulltext": 45,
+  "read": 12
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 65,
+   "Existing": 29,
+   "Hypothesized": 5,
+   "Novel": 1
+  },
+  "justification": "Two independent primary reports identify patients with germline MAEA variants and neurodevelopmental phenotypes: PMID 41420108 describes eight patients with MAEA variants presenting a developmental delay/intellectual disability syndrome (DIADEM) with patient-derived cell line and mutation modeling evidence, and PMID 40880485 independently reports disease-linked missense variants (R34C, E349G, Y394D, M396R) in individuals with microcephaly, craniofacial, ocular and cardiac anomalies, with functional assays showing defective replication stress response. These are human single-gene variant studies, not CNVs, so they satisfy the replication requirement, though both are very recent and cohorts are small, leaving some chance of overlap or incomplete independence (hence substantial weight on Existing). Supporting mechanistic plausibility comes from the CTLH complex literature, where another subunit, WDR26, causes Skraban-Deardorff intellectual disability syndrome (PMID 38575527), and from MAEA's conserved role in this E3 ligase complex (PMID 24143168). Other listed papers (murine erythropoiesis, 4p16.3 contiguous deletions, general NDD reviews) do not add gene-specific human causal evidence.",
+  "pmids": [],
+  "detail": {
+   "Established": 65,
+   "Existing": 29,
+   "Hypothesized": 5,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41420108",
+   "title": "Loss of CTLH component MAEA impairs DNA repair and replication and leads to developmental delay.",
+   "abstract": "Ubiquitin E3 ligases play crucial roles in the DNA damage response (DDR) by modulating the turnover, localization, activation, and interactions of DDR and DNA replication proteins. We performed a CRISPR-Cas9 knockout screen focused on ubiquitin E3 ligases and related proteins with the DNA topoisomerase I inhibitor camptothecin. This led us to establish that MAEA, a core subunit of the CTLH E3 ligase complex, is a critical regulator of homologous recombination and the replication stress response. In tandem, we identified\u00a0eight patients with variants in MAEA who present with a neurodevelopmental disorder that we term DIADEM (Developmental delay and Intellectual disability Associated with DEfects in MAEA). Analysis of patient-derived cell lines and mutation modeling reveal an underlying defect in HR-dependent DNA repair and replication fork restart and protection as a likely cause of disease. Mechanistically, we find that MAEA dysfunction hinders DNA repair by reducing the efficiency of RAD51 loading at sites of DNA damage, which we propose may contribute to the presentation of DIADEM by compromising genome integrity and cell division during development.",
+   "found_by": [],
+   "pubdate": "2026 Feb",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30430034",
+   "title": "Prioritization of Candidate Genes for Congenital Diaphragmatic Hernia in a Critical Region on Chromosome 4p16 using a Machine-Learning Algorithm.",
+   "abstract": "Wolf-Hirschhorn syndrome (WHS) is caused by partial deletion of the short arm of chromosome 4 and is characterized by dysmorphic facies, congenital heart defects, intellectual/developmental disability, and increased risk for congenital diaphragmatic hernia (CDH). In this report, we describe a stillborn girl with WHS and a large CDH. A literature review revealed 15 cases of WHS with CDH, which overlap a 2.3-Mb CDH critical region. We applied a machine-learning algorithm that integrates large-scale genomic knowledge to genes within the 4p16.3 CDH critical region and identified FGFRL1 , CTBP1 , NSD2 , FGFR3 , CPLX1 , MAEA , CTBP1-AS2 , and ZNF141 as genes whose haploinsufficiency may contribute to the development of CDH.",
+   "found_by": [],
+   "pubdate": "2018 Dec",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30674470",
+   "title": "Maea expressed by macrophages, but not erythroblasts, maintains postnatal murine bone marrow erythroblastic islands.",
+   "abstract": "The erythroblastic island (EI), formed by a central macrophage and developing erythroblasts (EBs), was first described decades ago and was recently shown to play an in vivo role in homeostatic and pathological erythropoiesis. The exact molecular mechanisms, however, mediating the interactions between macrophages and EBs remain unclear. Macrophage-EB attacher (Maea) has previously been suggested to mediate homophilic adhesion bounds bridging macrophages and EBs. Maea-deficient mice die perinatally with anemia and defective erythrocyte enucleation, suggesting a critical role in fetal erythropoiesis. Here, we generated conditional knockout mouse models of Maea to assess its cellular and postnatal contributions. Deletion of Maea in macrophages using Csf1r-Cre or CD169-Cre caused severe reductions of bone marrow (BM) macrophages, EBs, and in vivo island formation, whereas its deletion in the erythroid lineage using Epor-Cre had no such phenotype, suggesting a dominant role of Maea in the macrophage for BM erythropoiesis. Interestingly, Maea deletion in spleen macrophages did not alter their numbers or functions. Postnatal Maea deletion using Mx1-Cre or function inhibition using a novel monoclonal antibody also impaired BM erythropoiesis. These results indicate that Maea contributes to adult BM erythropoiesis by regulating the maintenance of macrophages and their interaction with EBs via an as-yet-unidentified EB receptor.",
+   "found_by": [],
+   "pubdate": "2019 Mar 14",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40880485",
+   "title": "Pathogenic variants in MAEA disrupt DNA replication fork stability and are associated with developmental abnormalities in humans.",
+   "abstract": "Replication stress (RS) poses a threat to genome stability and drives genomic rearrangements. The homologous recombination (HR) pathway repairs stalled replication forks (RFs) and prevents such instability. Through an E3 ubiquitin ligase screen aimed at identifying regulators of RAD51, we identified macrophage erythroblast attacher (MAEA), a core component of C-terminal to Lish (CTLH) E3 ubiquitin ligase complex, as a regulator of the HR pathway. Loss of MAEA impairs RAD51 recruitment at stalled RFs, leading to increased sensitivity to RS-inducing agents and excessive degradation of nascent DNA strands. Mechanistically, MAEA associates with and mediates the ubiquitylation of Ku80, enabling its removal from RF ends and facilitating the loading of RAD51. Notably, MAEA deficiency is associated with a developmental disorder involving microcephaly, craniofacial abnormalities, ocular defects, and heart malformations. Functional assays show that disease-linked MAEA variants (R34C, E349G, Y394D, and M396R) are defective in RS response. These findings establish MAEA as an essential factor in RF protection and genome integrity.",
+   "found_by": [],
+   "pubdate": "2025 Aug 29",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "24143168",
+   "title": "Molecular phylogeny of a RING E3 ubiquitin ligase, conserved in eukaryotic cells and dominated by homologous components, the muskelin/RanBPM/CTLH complex.",
+   "abstract": "Ubiquitination is an essential post-translational modification that regulates signalling and protein turnover in eukaryotic cells. Specificity of ubiquitination is driven by ubiquitin E3 ligases, many of which remain poorly understood. One such is the mammalian muskelin/RanBP9/CTLH complex that includes eight proteins, five of which (RanBP9/RanBPM, TWA1, MAEA, Rmnd5 and muskelin), share striking similarities of domain architecture and have been implicated in regulation of cell organisation. In budding yeast, the homologous GID complex acts to down-regulate gluconeogenesis. In both complexes, Rmnd5/GID2 corresponds to a RING ubiquitin ligase. To better understand this E3 ligase system, we conducted molecular phylogenetic and sequence analyses of the related components. TWA1, Rmnd5, MAEA and WDR26 are conserved throughout all eukaryotic supergroups, albeit WDR26 was not identified in Rhizaria. RanBPM is absent from Excavates and from some sub-lineages. Armc8 and c17orf39 were represented across unikonts but in bikonts were identified only in Viridiplantae and in O. trifallax within alveolates. Muskelin is present only in Opisthokonts. Phylogenetic and sequence analyses of the shared LisH and CTLH domains of RanBPM, TWA1, MAEA and Rmnd5 revealed closer relationships and profiles of conserved residues between, respectively, Rmnd5 and MAEA, and RanBPM and TWA1. Rmnd5 and MAEA are also related by the presence of conserved, variant RING domains. Examination of how N- or C-terminal domain deletions alter the sub-cellular localisation of each protein in mammalian cells identified distinct contributions of the LisH domains to protein localisation or folding/stability. In conclusion, all components except muskelin are inferred to have been present in the last eukaryotic common ancestor. Diversification of this ligase complex in different eukaryotic lineages may result from the apparently fast evolution of RanBPM, differing requirements for WDR26, Armc8 or c17orf39, and the origin of muskelin in opisthokonts as a RanBPM-binding protein.",
+   "found_by": [],
+   "pubdate": "2013",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33708774",
+   "title": "Fetal-Derived Immune Cells at the Roots of Lifelong Pathophysiology.",
+   "abstract": "Tissue-resident innate immune cells exert a wide range of functions in both adult homeostasis and pathology. Our understanding of when and how these cellular networks are established has dramatically changed with the recognition that many lineages originate at least in part from fetal sources and self-maintain independently from hematopoietic stem cells. Indeed, fetal-derived immune cells are found in most organs and serous cavities of our body, where they reside throughout the entire lifespan. At the same time, there is a growing appreciation that pathologies manifesting in adulthood may be caused by adverse early life events, a concept known as \"developmental origins of health and disease\" (DOHaD). Yet, whether fetal-derived immune cells are mechanistically involved in DOHaD remains elusive. In this review, we summarize our knowledge of fetal hematopoiesis and its contribution to adult immune compartments, which results in a \"layered immune system.\" Based on their ontogeny, we argue that fetal-derived immune cells are prime transmitters of long-term consequences of prenatal adversities. In addition to increasing disease susceptibility, these may also directly cause inflammatory, degenerative, and metabolic disorders. We explore this notion for cells generated from erythro-myeloid progenitors (EMP) produced in the extra-embryonic yolk sac. Focusing on macrophages and mast cells, we present emerging evidence implicating them in lifelong disease by either somatic mutations or developmental programming events resulting from maternal and early environmental perturbations.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42587157",
+   "title": "Procognitive restoration of PV neuron plasticity in neurodevelopmental disorders.",
+   "abstract": "The hippocampus forms memories of our experiences in populations of coactive pyramidal neurons (PNs)1-3. Fast-spiking parvalbumin-expressing inhibitory neurons (PV INs) in the dentate gyrus-CA3/CA2 circuit of the hippocampus precisely control PN activity through mossy fibre-dependent\u00a0feedforward inhibition4-11. PV INs coordinate experience-dependent changes in their intrinsic excitability, synaptic connectivity, physiology and plasticity properties9,12-15-referred to here as experience-dependent PV IN plasticity-to regulate PN activity. PV IN\u00a0impairments in early life, when neural circuitry is highly sensitive to experience, are thought to result in network hyperexcitability, seizures and impaired cognition, which are hallmarks of neurodevelopmental disorders (NDDs)16-18. Here we designed an input-specific translatome screen to identify regulators of experience-dependent PV IN plasticity genes (XPGs) in the CA3/CA2 subregion of adult hippocampus. We demonstrate that a substantial proportion of upregulated candidate XPGs exhibit haploinsufficiency in autism spectrum disorder, epilepsies, bipolar disorder and schizophrenia, which suggests that there is impaired experience-dependent PV IN plasticity in NDDs. In proof-of-concept experiments, targeted upregulation of a candidate XPG, the homeobox gene Meis2 (ref. 19), in CA3/CA2 PV INs in an NDD risk mouse model in adulthood is sufficient to restore experience-dependent PV IN plasticity. Moreover, ensemble and sharp-wave ripple properties and cognition were improved, and seizures were suppressed. Thus, experience-dependent PV IN plasticity is a convergent mechanism for NDD risk genes that can be\u00a0re-instated in adulthood to reverse developmental deficits in circuitry, network excitability and cognition.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41683614",
+   "title": "Microglial Maturation and Functional Heterogeneity: Mechanistic Links to Neurodevelopmental Disorders.",
+   "abstract": "As the brain's resident macrophages, microglia on the one side are increasingly recognized as essential players in discrete developmental stages, where immune, metabolic, and activity-derived signals are coordinately integrated to guide brain development. On the other side, the precise temporal and molecular coordination of microglial maturation is imperative for the structural and functional integrity of the developing central nervous system (CNS). In this review, we synthesize recent data that reposition microglia from a uniform population of immune sentinels to temporally programmed and regionally specialized regulators of circuit maturation. This involves dissecting the embryonic origins and migratory pathways of microglial progenitors in mouse and human systems and illustrating how gradual transcriptional and morphological maturation aligns the biology of microglia with progressive phases of neurogenesis, synaptic fine-tuning, myelination, and vascular stabilization. In addition, we discuss how individual gene mutations, inflammatory insults during perinatal life, and environmental disturbances intersect with these temporal programs to alter microglial phenotypes and compromise circuit formation. With a special emphasis on epilepsy and autism spectrum disorder, often sharing the common etiology, we illustrate how early malfunction of microglia may drive neural network dysfunction.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37324587",
+   "title": "An updated catalog of &lt;i&gt;CTCF&lt;/i&gt; variants associated with neurodevelopmental disorder phenotypes.",
+   "abstract": "INTRODUCTION: CTCF-related disorder (CRD) is a neurodevelopmental disorder (NDD) caused by monoallelic pathogenic variants in CTCF. The first CTCF variants in CRD cases were documented in 2013. To date, 76 CTCF variants have been further described in the literature. In recent years, due to the increased application of next-generation sequencing (NGS), growing numbers of CTCF variants are being identified, and multiple genotype-phenotype databases cataloging such variants are emerging. METHODS: In this study, we aimed to expand the genotypic spectrum of CRD, by cataloging NDD phenotypes associated with reported CTCF variants. Here, we systematically reviewed all known CTCF variants reported in case studies and large-scale exome sequencing cohorts. We also conducted a meta-analysis using public variant data from genotype-phenotype databases to identify additional CTCF variants, which we then curated and annotated. RESULTS: From this combined approach, we report an additional 86 CTCF variants associated with NDD phenotypes that have not yet been described in the literature. Furthermore, we describe and explain inconsistencies in the quality of reported variants, which impairs the reuse of data for research of NDDs and other pathologies. DISCUSSION: From this integrated analysis, we provide a comprehensive and annotated catalog of all currently known CTCF mutations associated with NDD phenotypes, to aid diagnostic applications, as well as translational and basic research.",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42479725",
+   "title": "Distinct gut and oral microbiome patterns associated with dyslexia in a family-based cohort: A preliminary exploratory study.",
+   "abstract": "BACKGROUND: Many neurodevelopmental disorders, including dyslexia and childhood apraxia of speech (CAS), have genetic predispositions that are understood to varying degrees. However, the microbiome in individuals with dyslexia and CAS remains underexplored. The goal of this exploratory study was to determine whether fecal and saliva microbiome diversity and composition are associated with dyslexia or CAS. METHODS: To this end, we examined the fecal and saliva microbiota of individuals with dyslexia, CAS, and their neurotypical family members using 16S rRNA gene amplicon sequencing in a family-based cohort composing of 7 individuals with dyslexia, 11 with CAS, and 10 neurotypical family members (n\u2009=\u200928). Participants with dyslexia and CAS were drawn from separate families, with neurotypical relatives serving as within-family controls. A total of 19 fecal and 29 saliva samples were collected, with paired fecal-saliva samples available for 19 individuals. Taxonomic classification was performed using four 16S rRNA reference databases, and microbial diversity, composition, and functional potential were analyzed. RESULTS: Individuals with dyslexia consistently showed distinct fecal microbiome alpha and beta diversity patterns at the species level compared to neurotypical family members and participants with CAS histories, irrespective of taxonomic database employed. Both fecal and saliva datasets identified key taxa associated with dyslexia, but not with CAS. Predicted functional profiling further identified dyslexia-associated pathways in the fecal microbiome, whereas no functional differences were detected in saliva. CONCLUSION: Although these results suggest that individuals with dyslexia may harbor distinct fecal and saliva microbiomes, the findings are exploratory and should be considered as hypothesis-generating. Future studies leveraging larger, independent cohorts will be essential to validate these findings and to more rigorously examine the oral-gut-brain axis in language-based syndromes.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32398668",
+   "title": "A brief report: de novo copy number variants in children with attention deficit hyperactivity disorder.",
+   "abstract": "Recent case-control genetic studies of attention deficit hyperactivity disorder (ADHD) have implicated common and rare genetic risk alleles, highlighting the polygenic and complex aetiology of this neurodevelopmental disorder. Studies of other neurodevelopmental disorders, such as autism spectrum disorder (ASD), Tourette disorder, developmental delay/intellectual disability and schizophrenia indicate that identification of specific risk alleles and additional insights into disorder biology can be gained by studying non-inherited de novo variation. In this study, we aimed to identify large de novo copy number variants (CNVs) in children with ADHD. Children with a confirmed diagnosis of ADHD and their parents were genotyped and included in this sample. We used PennCNV to call large (>200\u2009kb) CNVs and identified those calls that were present in the proband and absent in both biological parents. In 305 parent-offspring trios, we detected 14 de novo CNVs in 13 probands, giving a mutation rate of 4.6% and a per individual rate of 4.3%. This rate is higher than published reports in controls and similar to those observed for ASD, schizophrenia and Tourette disorder. We also identified de novo mutations at four genomic loci (15q13.1-13.2 duplication, 16p13.11 duplication, 16p12.2 deletion and 22q11.21 duplication) that have previously been implicated in other neurodevelopmental disorders, two of which (16p13.11 and 22q11.21) have also been implicated in case-control ADHD studies. Our study complements ADHD case-control genomic analyses and demonstrates the need for larger parent-offspring trio genetic studies to gain further insights into the complex aetiology of ADHD. [full text, passages naming MAEA] ...ZNF718, ZNF876P, ZNF732, ZNF141, ABCA11P, ZNF721, PIGG, PDE6B, ATP5I, MYL5, MFSD7, PCGF3, LOC100129917, CPLX1, GAK, TMEM175, DGKQ, SLC26A1, IDUA, FGFRL1, RNF212, TMED11P, SPON2, LOC100130872, CTBP1, CTBP1-AS1, MAEA, UVSSA, CRIPAK, FAM53A, SLBP, TMEM129, TACC3, FGFR3, LETM1 | 4* | 66110165 | 66881057 | 4q13.1\u201313.2 | DEL | 379.845 | 123 | 770892 | 2 | EPHA5, LOC100144602 | 4* | 89020503 | 90256211 | 4q22.1 | DUP | 547....",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38575527",
+   "title": "Skraban-Deardorff intellectual disability syndrome-associated mutations in WDR26 impair CTLH E3 complex assembly.",
+   "abstract": "Patients with Skraban-Deardorff syndrome (SKDEAS), a neurodevelopmental syndrome associated with a spectrum of developmental and intellectual delays and disabilities, harbor diverse mutations in WDR26, encoding a subunit of the multiprotein CTLH E3 ubiquitin ligase complex. Structural studies revealed that homodimers of WDR26 bridge two core-CTLH E3 complexes to generate giant, hollow oval-shaped supramolecular CTLH E3 assemblies. Additionally, WDR26 mediates CTLH E3 complex binding to subunit YPEL5 and functions as substrate receptor for the transcriptional repressor HBP1. Here, we mapped SKDEAS-associated mutations on a WDR26 structural model and tested their functionality in complementation studies using genetically engineered human cells lacking CTLH E3 supramolecular assemblies. Despite the diversity of mutations, 15 of 16 tested mutants impaired at least one CTLH E3 complex function contributing to complex assembly and interactions, thus providing first mechanistic insights into SKDEAS pathology. [full text, passages naming MAEA] ...Box 1 FADD Fas-associated Death Domain GID Glucose-Induced Degradation Deficient GPCR G-protein Coupled Receptor HBP1 HMG-Box Transcription Factor 1 Ind Individual LisH Lissencephaly type-1 Like Homology Motif MAEA Macrophage Erythroblast Attacher MKLN1 Muskelin PD-L1 Programmed Death-Ligand 1 RANBP9 RAN Binding Protein 9 RMND5A Required For Meiotic Nuclear Division 5 Homolog A SKDEAS Skraban-Deardorff Syndrome SPOP... ...ated over night at 4 \u00b0C with the primary antibodies: HA (C29F4) Rabbit mAb (CST, 3724S, RRID: AB_1549585, lot 10+11, 1:2000), RANBP9 Rabbit pAB (Novus Biologicals, PAB16671 , RRID: AB_10677213, lot 3, 1:1000), MAEA Sheep pAb (R&D Systems, AF7288, RRID: AB_10971438, CGG10119091, 1:1000), YPEL5 pAb (Thermo Fisher Scientific, PA5-26957, RRID: AB_2544457, lot VH3047907, 1:1000 in 5% BSA, TBS-T), ACTIN (CST, 4967L, RRID:... ...the role of WDR26 as a supramolecular assembly module, we fit the AlphaFold2 (AF) [ 52 ] model of WDR26 dimer (lacking its disordered N-terminal region, \u03941-100), the AF model of the catalytic subunits (RMND5A-MAEA), and the prior cryo-EM structure of the scaffolding module RANBP9-TWA1-ARMC8 (extracted from PDB: 7NSC) into the cryo-EM map of the WDR26-CTLH complex (EMDB: EMD-12542). To understand the impact of SKDEAS...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "39376829": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41294926": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23957584": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24600042": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16120813": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34981912": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34627840": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27175665": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23193183": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21272045": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28143713": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23640500": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24103861": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23342979": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2199308": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40427042": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26727623": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21442194": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41315365": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33668723": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17244631": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35201431": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19543211": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32469311": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22158537": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34361881": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41226389": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15029433": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15046594": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1574449": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37622090": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33587102": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17638894": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28490609": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8711997": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41095933": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32248437": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19525403": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34399608": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9763581": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36728421": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32260174": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25368109": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40523434": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38058155": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41420108": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "30430034": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30674470": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40399988": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40880485": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33423677": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24143168": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41856296": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33708774": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22220189": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31428380": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26990309": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42587157": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41683614": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37324587": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42479725": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32398668": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38575527": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40260079": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42553958": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40499844": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41245146": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40114103": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39212791": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42168793": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36250222": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32859080": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37025337": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38482315": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41892650": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40826479": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41909700": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41484627": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40239283": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39911176": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3817,
+   "output_tokens": 240,
+   "usd": 0.005017,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 62.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 18267,
+   "output_tokens": 810,
+   "usd": 0.022317,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.8,
+   "note": "",
+   "input_tokens": 9136,
+   "output_tokens": 883,
+   "usd": 0.067755,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>65</established>\n    <existing>29</existing>\n    <hypothesized>5</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Two independent primary reports identify patients with germline MAEA variants and neurodevelopmental phenotypes: PMID 41420108 describes eight patients with MAEA variants presenting a developmental delay/intellectual disability syndrome (DIADEM) with patient-derived cell line and mutation modeling evidence, and PMID 40880485 independently reports disease-linked missense variants (R34C, E349G, Y394D, M396R) in individuals with microcephaly, craniofacial, ocular and cardiac anomalies, with functional assays showing defective replication stress response. These are human single-gene variant studies, not CNVs, so they satisfy the replication requirement, though both are very recent and cohorts are small, leaving some chance of overlap or incomplete independence (hence substantial weight on Existing). Supporting mechanistic plausibility comes from the CTLH complex literature, where another subunit, WDR26, causes Skraban-Deardorff intellectual disability syndrome (PMID 38575527), and from MAEA's conserved role in this E3 ligase complex (PMID 24143168). Other listed papers (murine erythropoiesis, 4p16.3 contiguous deletions, general NDD reviews) do not add gene-specific human causal evidence.</justification>\n  <pmids>\n    <pmid>41420108</pmid>\n    <pmid>40880485</pmid>\n    <pmid>38575527</pmid>\n    <pmid>24143168</pmid>\n    <pmid>30430034</pmid>\n    <pmid>30674470</pmid>\n  </pmids>\n</response>"
+}

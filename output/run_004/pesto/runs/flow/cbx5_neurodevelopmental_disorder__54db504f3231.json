@@ -1,0 +1,914 @@
+{
+ "gene": "CBX5",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "developmental disorder of the nervous system",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "disorder of psychological development",
+   "developmental brain disorder",
+   "neurodevelopmental impairment"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "HP1HS-ALPHA",
+   "HP1",
+   "HP1-ALPHA",
+   "HP1ALPHA",
+   "chromobox 5"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 98,
+  "titlekicksparingfulltext": 27,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 2,
+   "Existing": 20,
+   "Hypothesized": 70,
+   "Novel": 8
+  },
+  "justification": "No article in this set reports de novo or inherited CBX5 (HP1\u03b1) point variants in patients with a neurodevelopmental disorder; the only clinical NDD gene with proven causal variants here is its paralog CBX1/HP1\u03b2 (PMID 37087635), which cannot substitute for CBX5. The strongest \"Existing\"-leaning item is the 1p13.3 in silico CNV study (PMID 36277487), which lists CBX5 as a positional candidate within multigene microdeletions and cites ASD/DD cohort databases \u2014 a multigene CNV cannot single out CBX5, so this remains candidate-level. The bulk of evidence is mechanistic/biological: CBX5/HP1\u03b1 is a core subunit of the ChAHP (CHD4\u2013ADNP\u2013HP1) complex mutated in Helsmoortel-Van der Aa syndrome (PMIDs 36945042, 39808658, 42450350), a binding partner of POGZ in White\u2013Sutton syndrome and of CHAMP1 in CHAMP1 syndrome (PMIDs 41499647, 39962076, 42748571), and is implicated in MeCP2/ATRX pericentric heterochromatin organization relevant to Rett and ATR-X syndromes (PMIDs 31671722, 22615490). This constitutes strong pathway/biology relevance without direct human variant evidence, making \"Hypothesized\" the best fit.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 20,
+   "Hypothesized": 70,
+   "Novel": 8
+  }
+ },
+ "articles": [
+  {
+   "pmid": "36945042",
+   "title": "Chromatin remodeler Activity-Dependent Neuroprotective Protein (ADNP) contributes to syndromic autism.",
+   "abstract": "BACKGROUND: Individuals affected with autism often suffer additional co-morbidities such as intellectual disability. The genes contributing to autism cluster on a relatively limited number of cellular pathways, including chromatin remodeling. However, limited information is available on how mutations in single genes can result in such pleiotropic clinical features in affected individuals. In this review, we summarize available information on one of the most frequently mutated genes in syndromic autism the Activity-Dependent Neuroprotective Protein (ADNP). RESULTS: Heterozygous and predicted loss-of-function ADNP mutations in individuals inevitably result in the clinical presentation with the Helsmoortel-Van der Aa syndrome, a frequent form of syndromic autism. ADNP, a zinc finger DNA-binding protein has a role in chromatin remodeling: The protein is associated with the pericentromeric protein HP1, the SWI/SNF core complex protein BRG1, and other members of this chromatin remodeling complex and, in murine stem cells, with the chromodomain helicase CHD4 in a ChAHP complex. ADNP has recently been shown to possess R-loop processing activity. In addition, many additional functions, for instance, in association with cytoskeletal proteins have been linked to ADNP. CONCLUSIONS: We here present an integrated evaluation of all current aspects of gene function and evaluate how abnormalities in chromatin remodeling might relate to the pleiotropic clinical presentation in individual\"s\" with Helsmoortel-Van der Aa syndrome.",
+   "found_by": [],
+   "pubdate": "2023 Mar 21",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37087635",
+   "title": "Dominant-negative variants in CBX1 cause a neurodevelopmental disorder.",
+   "abstract": "PURPOSE: This study aimed to establish variants in CBX1, encoding heterochromatin protein 1\u03b2 (HP1\u03b2), as a cause of a novel syndromic neurodevelopmental disorder. METHODS: Patients with CBX1 variants were identified, and clinician researchers were connected using GeneMatcher and physician referrals. Clinical histories were collected from each patient. To investigate the pathogenicity of identified variants, we performed in\u00a0vitro cellular assays and neurobehavioral and cytological analyses of neuronal cells obtained from newly generated Cbx1 mutant mouse lines. RESULTS: In 3 unrelated individuals with developmental delay, hypotonia, and autistic features, we identified heterozygous de novo variants in CBX1. The identified variants were in the chromodomain, the functional domain of HP1\u03b2, which mediates interactions with chromatin. Cbx1 chromodomain mutant mice displayed increased latency-to-peak response, suggesting the possibility of synaptic delay or myelination deficits. Cytological and chromatin immunoprecipitation experiments confirmed the reduction of mutant HP1\u03b2 binding to heterochromatin, whereas HP1\u03b2 interactome analysis demonstrated that the majority of HP1\u03b2-interacting proteins remained unchanged between the wild-type and mutant HP1\u03b2. CONCLUSION: These collective findings confirm the role of CBX1 in developmental disabilities through the disruption of HP1\u03b2 chromatin binding during neurocognitive development. Because HP1\u03b2 forms homodimers and heterodimers, mutant HP1\u03b2 likely sequesters wild-type HP1\u03b2 and other HP1 proteins, exerting dominant-negative effects.",
+   "found_by": [],
+   "pubdate": "2023 Jul",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "31671722",
+   "title": "ATRX Contributes to MeCP2-Mediated Pericentric Heterochromatin Organization during Neural Differentiation.",
+   "abstract": "Methyl-CpG binding protein 2 (MeCP2) is a multi-function factor involved in locus-specific transcriptional modulation and the regulation of genome architecture, e.g., pericentric heterochromatin (PCH) organization. MECP2 mutations are responsible for Rett syndrome (RTT), a devastating postnatal neurodevelopmental disorder, the pathogenetic mechanisms of which are still unknown. MeCP2, together with Alpha-thalassemia/mental retardation syndrome X-linked protein (ATRX), accumulates at chromocenters, which are repressive PCH domains. As with MECP2, mutations in ATRX cause ATR-X syndrome which is associated with severe intellectual disability. We exploited two murine embryonic stem cell lines, in which the expression of MeCP2 or ATRX is abolished. Through immunostaining, chromatin immunoprecipitation and western blot, we show that MeCP2 and ATRX are reciprocally dependent both for their expression and targeting to chromocenters. Moreover, ATRX plays a role in the accumulation of members of the heterochromatin protein 1 (HP1) family at PCH and, as MeCP2, modulates their expression. Furthermore, ATRX and HP1 targeting to chromocenters depends on an RNA component. 3D-DNA fluorescence in situ hybridization (FISH) highlighted, for the first time, a contribution of ATRX in MeCP2-mediated chromocenter clustering during neural differentiation. Overall, we provide a detailed dissection of the functional interplay between MeCP2 and ATRX in higher-order PCH organization in neurons. Our findings suggest molecular defects common to RTT and ATR-X syndrome, including an alteration in PCH.",
+   "found_by": [],
+   "pubdate": "2019 Oct 29",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42748571",
+   "title": "The role of CHAMP1 in chromatin-mediated DNA damage repair.",
+   "abstract": "Defects in the replication stress response are major drivers of cancer development and present key targetable vulnerabilities that can be exploited for anti-cancer therapy. Recent studies have identified CHAMP1 as a novel DNA damage repair factor with roles in double-strand break repair and the replication stress response. Mutations in CHAMP1 are associated with the neurodevelopmental disorder CHAMP1 Syndrome. More recently, children with CHAMP1 Syndrome have developed leukemia, suggesting that CHAMP1 mutations are a potential cancer risk factor. CHAMP1 is part of two DNA damage repair complexes: CHAMP1-POGZ-REV7 (Complex I) and CHAMP1-POGZ-HP1\u03b1 (Complex II). Complex I promotes homologous recombination by removing the Shieldin complex from the ends of double strand breaks and allowing DSB end resection to occur. Complex II enriches heterochromatin content through the recruitment of the methyltransferase SETDB1 to DNA damage sites. Increased heterochromatin at stalled forks is associated with proper fork stability and restart, demonstrating the importance of CHAMP1 in maintaining genomic integrity. Loss of CHAMP1 leads to increased sensitivity to DNA damaging agents and increased dependence on other DNA damage repair pathways, such as the DNA damage checkpoint and the Fanconi Anemia pathway. CHAMP1 is overexpressed in breast and ovarian cancer cells with high levels of replication stress, providing a molecular mechanism for the tolerance of replication stress. These new findings on the relationship of CHAMP1 with well-established DNA damage repair pathways, suggest that targeting CHAMP1 could present a new synthetic lethality opportunity for cancer cells with high levels of replication stress.",
+   "found_by": [],
+   "pubdate": "2026 Sep 5",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42450350",
+   "title": "ADNP Functions During Early Brain Development and Their Relevance to ASD and ADNP Syndrome.",
+   "abstract": "The Activity-Dependent Neuroprotective Protein (ADNP) is an important regulator of early brain development, especially during cortical neurogenesis and neurite formation. De novo point mutations or haploinsufficiency of the ADNP gene result in ADNP syndrome, which is also known as Helsmoortel-Van der Aa syndrome, a complex neurodevelopmental disorder recognized as a leading single-gene cause of syndromic autism spectrum disorder (ASD) and intellectual disability. ADNP works as both a transcription factor and a microtubule (MT) regulator. As a transcription factor, ADNP is a key component of chromatin remodeling complexes such as ChAHP (CHD4 (Chromodomain Helicase DNA-binding Protein 4)-ADNP-HP1 (Heterochromatin Protein 1)) and SWI/SNF (Switch/Sucrose Non-Fermentable), and it tightly regulates the expression of numerous essential developmental genes. ADNP also modulates the Wnt/\u03b2-catenin signaling pathway. During neural differentiation, ADNP is redistributed from the nucleus to the cytoplasm, and this redistribution is regulated by binding to 14-3-3 proteins, which are phosphorylated by protein Kinase C (PKC). After relocating to the cytoplasm, ADNP functions as an MT regulator by binding to microtubule end-binding proteins (EB1 and EB3) and Tau to control neurite formation. Previous studies have focused on NAP (also known as Davunetide, a peptide derived from ADNP) in MT regulation and its therapeutic potential for autism spectrum disorder (ASD) and neurodegenerative diseases, such as Alzheimer's disease. This review highlights the functions of full-length ADNP and NAP in early brain development, particularly in neurogenesis and neurite formation during cortical development. We will also discuss the potential of NAP as a therapeutic medication for neurodevelopmental disorders, especially ASD and ADNP syndrome.",
+   "found_by": [],
+   "pubdate": "2026 Jul 7",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "22615490",
+   "title": "Phosphorylation of distinct sites in MeCP2 modifies cofactor associations and the dynamics of transcriptional regulation.",
+   "abstract": "Mutations in the gene encoding methyl-CpG-binding protein 2 (MeCP2) lead to disrupted neuronal function and can cause the neurodevelopmental disorder Rett syndrome. MeCP2 is a transcriptional regulator that binds to methylated DNA and is most abundant in neuronal nuclei. The mechanisms by which MeCP2 regulates gene expression remain ambiguous, as it has been reported to function as a transcriptional silencer or activator and to execute these activities through both gene-specific and genome-wide mechanisms. We hypothesized that posttranslational modifications of MeCP2 may be important for reconciling these apparently contradictory functions. Our results demonstrate that MeCP2 contains multiple posttranslational modifications, including phosphorylation, acetylation, and ubiquitylation. Phosphorylation of MeCP2 at S229 or S80 influenced selective in vivo interactions with the chromatin factors HP1 and SMC3 and the cofactors Sin3A and YB-1. pS229 MeCP2 was specifically enriched at the RET promoter, and phosphorylation of MeCP2 was necessary for differentiation-induced activation and repression of the MeCP2 target genes RET and EGR2. These results demonstrate that phosphorylation is one of several factors that are important for interpreting the complexities of MeCP2 transcriptional modulation.",
+   "found_by": [],
+   "pubdate": "2012 Jul",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42063344",
+   "title": "Microcephaly-associated genes asp and Sas4 influence chromatin organization and nuclear lamina structure in Drosophila melanogaster.",
+   "abstract": "Autosomal recessive primary microcephaly (MCPH) is a neurodevelopmental disorder characterized by reduced brain size and intellectual disability. Mutations in over 30 genes, nearly half linked to centrosome biogenesis or microtubule (MT) dynamics, highlight spindle defects in disease aetiology, yet these alone do not fully explain MCPH. Here, we show that the Drosophila orthologs of ASPM/MCPH5 (asp) and CENPJ/MCPH6 (Sas4) contribute to safeguard nuclear architecture and chromatin organization during brain development. Loss of either gene perturbs MT organization and centromere clustering, leading to reduced Lamin and HP1\u03b1 levels, and to deformed nuclear lamina. Mutants also display a global reduction in heterochromatin-associated histone marks, H3K9me2/3 and H3K27me3, along with an increase in the euchromatin-associated mark H3K4me3 and elevated DNA damage with delayed repair. Notably, inhibiting demethylases with methylstat restores H3K9me3 and nuclear morphology. These findings suggest a previously unreported role for centrosome proteins in regulating chromatin organization, providing new insights into the mechanisms underlying MCPH pathogenesis.",
+   "found_by": [],
+   "pubdate": "2026 May 15",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40977432",
+   "title": "The De Novo p.(Ser802Phe) Variant Causes Helsmoortel-Van der Aa/ ADNP Syndrome in a 24-Year-Old Woman and Is Predicted to Perturb ADNP-DNA Affinity.",
+   "abstract": "The ADNP syndrome, also known as Helsmoortel-Van der Aa syndrome (HVDAS), is an autosomal dominant neurodevelopmental disorder caused by heterozygous truncating variants abolishing the homeobox and/or HP1 domains of ADNP. Rare missense changes in the ADNP gene are usually variants of uncertain significance or reclassified as (likely) benign because they are inherited from an unaffected parent, and a causative role was documented for only three of them. We report a 24-year-old Italian woman presenting with intellectual disability, visual and severe speech impairment, microcephaly, truncal obesity, and hirsutism. Behavioral disturbance was significant and included fragmented sleep, self- and hetero-aggression, outbursts of anger, and verbal and physical violence crises. Additional unusual findings were hyperandrogenism and secondary amenorrhea. Next-generation sequencing showed the novel de novo missense variant c.2405C>T, p.(Ser802Phe) affecting the DNA-binding homeodomain of ADNP. In silico analysis revealed this variant is located in a genomic region highly intolerant to missense changes, and several tools predicted a deleterious effect on protein function. Counterintuitively to the known molecular pathogenesis for ADNP syndrome, calculation of the binding free energy and dissociation constant of the p.(Ser802Phe) missense substitution suggested a stronger ADNP-DNA interaction, thus opening the path to the hypothesis of a gain-of-function effect. This clinical report expands genotype-phenotype variability and correlations in ADNP syndrome.",
+   "found_by": [],
+   "pubdate": "2026 Feb",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "39962076",
+   "title": "CHAMP1 complex directs heterochromatin assembly and promotes homology-directed DNA repair.",
+   "abstract": "The CHAMP1 complex, a little-known but highly conserved protein complex consisting of CHAMP1, POGZ, and HP1\u03b1, is enriched in heterochromatin though its cellular function in these regions of the genome remain unknown. Here we show that the CHAMP complex promotes heterochromatin assembly at multiple chromosomal sites, including centromeres and telomeres, and promotes homology-directed repair (HDR) of DNA double strand breaks (DSBs) in these regions. The CHAMP1 complex is also required for heterochromatin assembly and DSB repair in highly-specialized chromosomal regions, such as the highly-compacted telomeres of ALT (Alternative Lengthening of Telomeres) positive tumor cells. Moreover, the CHAMP1 complex binds and recruits the writer methyltransferase SETDB1 to heterochromatin regions of the genome and is required for efficient DSB repair at these sites. Importantly, peripheral blood lymphocytes from individuals with CHAMP1 syndrome, an inherited neurologic disorder resulting from heterozygous mutations in CHAMP1, also exhibit defective heterochromatin clustering and defective repair of DSBs, suggesting that a defect in DNA repair underlies this syndrome. Taken together, the CHAMP1 complex has a specific role in heterochromatin assembly and the enhancement of HDR in heterochromatin.",
+   "found_by": [],
+   "pubdate": "2025 Feb 17",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39192031",
+   "title": "Heterochromatin formation and remodeling by IRTKS condensates counteract cellular senescence.",
+   "abstract": "Heterochromatin, a key component of the eukaryotic nucleus, is fundamental to the regulation of genome stability, gene expression and cellular functions. However, the factors and mechanisms involved in heterochromatin formation and maintenance still remain largely unknown. Here, we show that insulin receptor tyrosine kinase substrate (IRTKS), an I-BAR domain protein, is indispensable for constitutive heterochromatin formation via liquid\u2012liquid phase separation (LLPS). In particular, IRTKS droplets can infiltrate heterochromatin condensates composed of HP1\u03b1 and diverse DNA-bound nucleosomes. IRTKS can stabilize HP1\u03b1 by recruiting the E2 ligase Ubc9 to SUMOylate HP1\u03b1, which enables it to form larger phase-separated droplets than unmodified HP1\u03b1. Furthermore, IRTKS deficiency leads to loss of heterochromatin, resulting in genome-wide changes in chromatin accessibility and aberrant transcription of repetitive DNA elements. This leads to activation of cGAS-STING pathway and type-I interferon (IFN-I) signaling, as well as to the induction of cellular senescence and senescence-associated secretory phenotype (SASP) responses. Collectively, our findings establish a mechanism by which IRTKS condensates consolidate constitutive heterochromatin, revealing an unexpected role of IRTKS as an epigenetic mediator of cellular senescence.",
+   "found_by": [],
+   "pubdate": "2024 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25931448",
+   "title": "Aging stem cells. A Werner syndrome stem cell model unveils heterochromatin alterations as a driver of human aging.",
+   "abstract": "Werner syndrome (WS) is a premature aging disorder caused by WRN protein deficiency. Here, we report on the generation of a human WS model in human embryonic stem cells (ESCs). Differentiation of WRN-null ESCs to mesenchymal stem cells (MSCs) recapitulates features of premature cellular aging, a global loss of H3K9me3, and changes in heterochromatin architecture. We show that WRN associates with heterochromatin proteins SUV39H1 and HP1\u03b1 and nuclear lamina-heterochromatin anchoring protein LAP2\u03b2. Targeted knock-in of catalytically inactive SUV39H1 in wild-type MSCs recapitulates accelerated cellular senescence, resembling WRN-deficient MSCs. Moreover, decrease in WRN and heterochromatin marks are detected in MSCs from older individuals. Our observations uncover a role for WRN in maintaining heterochromatin stability and highlight heterochromatin disorganization as a potential determinant of human aging.",
+   "found_by": [],
+   "pubdate": "2015 Jun 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29519804",
+   "title": "Epigenetic regulation of NFE2 overexpression in myeloproliferative neoplasms.",
+   "abstract": "The transcription factor \"nuclear factor erythroid 2\" (NFE2) is overexpressed in the majority of patients with myeloproliferative neoplasms (MPNs). In murine models, elevated NFE2 levels cause an MPN phenotype with spontaneous leukemic transformation. However, both the molecular mechanisms leading to NFE2 overexpression and its downstream targets remain incompletely understood. Here, we show that the histone demethylase JMJD1C constitutes a novel NFE2 target gene. JMJD1C levels are significantly elevated in polycythemia vera (PV) and primary myelofibrosis patients; concomitantly, global H3K9me1 and H3K9me2 levels are significantly decreased. JMJD1C binding to the NFE2 promoter is increased in PV patients, decreasing both H3K9me2 levels and binding of the repressive heterochromatin protein-1\u03b1 (HP1\u03b1). Hence, JMJD1C and NFE2 participate in a novel autoregulatory loop. Depleting JMJD1C expression significantly reduced cytokine-independent growth of an MPN cell line. Independently, NFE2 is regulated through the epigenetic JAK2 pathway by phosphorylation of H3Y41. This likewise inhibits HP1\u03b1 binding. Treatment with decitabine lowered H3Y41ph and augmented H3K9me2 levels at the NFE2 locus in HEL cells, thereby increasing HP1\u03b1 binding, which normalized NFE2 expression selectively in JAK2V617F-positive cell lines.",
+   "found_by": [],
+   "pubdate": "2018 May 3",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "31799602",
+   "title": "Heterochromatin protein 1\u03b1 interacts with parallel RNA and DNA G-quadruplexes.",
+   "abstract": "The eukaryotic genome is functionally organized into domains of transcriptionally active euchromatin and domains of highly compact transcriptionally silent heterochromatin. Heterochromatin is constitutively assembled at repetitive elements that include the telomeres and centromeres. The histone code model proposes that HP1\u03b1 forms and maintains these domains of heterochromatin through the interaction of its chromodomain with trimethylated lysine 9 of histone 3, although this interaction is not the sole determinant. We show here that the unstructured hinge domain, necessary for the targeting of HP1\u03b1 to constitutive heterochromatin, recognizes parallel G-quadruplex (G4) assemblies formed by the TElomeric Repeat-containing RNA (TERRA) transcribed from the telomere. This provides a mechanism by which TERRA can lead to the enrichment of HP1\u03b1 at telomeres to maintain heterochromatin. Furthermore, we show that HP1\u03b1 binds with a faster association rate to DNA G4s of parallel topology compared to antiparallel G4s that bind slowly or not at all. Such G4-DNAs are found in the regulatory regions of several oncogenes. This implicates specific non-canonical nucleic acid structures as determinants of HP1\u03b1 function and thus RNA and DNA G4s need to be considered as contributors to chromatin domain organization and the epigenome.",
+   "found_by": [],
+   "pubdate": "2020 Jan 24",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "26791953",
+   "title": "Regulatory dissection of the CBX5 and hnRNPA1 bi-directional promoter in human breast cancer cells reveals novel transcript variants differentially associated with HP1\u03b1 down-regulation in metastatic cells.",
+   "abstract": "BACKGROUND: The three members of the human heterochromatin protein 1 (HP1) family of proteins, HP1\u03b1, HP1\u03b2, and HP\u03b3, are involved in chromatin packing and epigenetic gene regulation. HP1\u03b1 is encoded from the CBX5 gene and is a suppressor of metastasis. CBX5 is down-regulated at the transcriptional and protein level in metastatic compared to non-metastatic breast cancer. CBX5 shares a bi-directional promoter structure with the hnRNPA1 gene. But whereas CBX5 expression is down-regulated in metastatic cells, hnRNAP1 expression is constant. Here, we address the regulation of CBX5 in human breast cancer. METHODS: Transient transfection and transposon mediated integration of dual-reporter mini-genes containing the bi-directional hnRNPA1 and CBX5 promoter was performed to investigate transcriptional regulation in breast cancer cell lines. Bioinformatics and functional analysis were performed to characterize transcriptional events specifically regulating CBX5 expression. TSA treatment and Chromatin Immunoprecipitation (ChIP) were performed to investigate the chromatin structure along CBX5 in breast cancer cells. Finally, expression of hnRNPA1 and CBX5 mRNA isoforms were measured by quantitative reverse transcriptase PCR (qRT-PCR) in breast cancer tissue samples. RESULTS: We demonstrate that an hnRNPA1 and CBX5 bi-directional core promoter fragment does not comprise intrinsic capacity for specific CBX5 down-regulation in metastatic cells. Characterization of transcriptional events in the 20 kb CBX5 intron 1 revealed existence of several novel CBX5 transcripts. Two of these encode consensus HP1\u03b1 protein but used autonomous promoters in intron 1 by which HP1\u03b1 expression could be de-coupled from the bi-directional promoter. In addition, another CBX5 transcriptional isoform, STET, was discovered. This transcript includes CBX5 exon 1 and part of intron 1 sequences but lacks inclusion of HP1\u03b1 encoding exons. Inverse correlation between STET and HP1\u03b1 coding CBX5 mRNA expression was observed in breast cancer cell lines and tissue samples from breast cancer patients. CONCLUSION: We find that HP1\u03b1 is down-regulated in a mechanism involving CBX5 promoter downstream sequences and that regulation through alternative polyadenylation and splicing generates a transcript, STET, with potential importance in carcinogenesis.",
+   "found_by": [],
+   "pubdate": "2016 Jan 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39808658",
+   "title": "The chromatin remodeler ADNP regulates neurodevelopmental disorder risk genes and neocortical neurogenesis.",
+   "abstract": "Although chromatin remodelers are among the most important risk genes associated with neurodevelopmental disorders (NDDs), the roles of these complexes during brain development are in many cases unclear. Here, we focused on the recently discovered ChAHP chromatin remodeling complex. The zinc finger and homeodomain transcription factor ADNP is a core subunit of this complex, and de novo ADNP mutations lead to intellectual disability and autism spectrum disorder. However, germline Adnp knockout mice were previously shown to exhibit early embryonic lethality, obscuring subsequent roles for the ChAHP complex in neurogenesis. To circumvent this early developmental arrest, we generated a conditional Adnp mutant allele. Using single-cell transcriptomics, cut&run-seq, and histological approaches, we show that during neocortical development, Adnp orchestrates the production of late-born, upper-layer neurons through a two-step process. First, Adnp is required to sustain progenitor proliferation specifically during the developmental window for upper-layer cortical neurogenesis. Accordingly, we found that Adnp recruits the ChAHP subunit Chd4 to genes associated with progenitor proliferation. Second, in postmitotic differentiated neurons, we define a network of risk genes linked to NDDs that are regulated by Adnp and Chd4. Taken together, these data demonstrate that ChAHP is critical for driving the expansion of upper-layer cortical neurons and for regulating neuronal gene expression programs, suggesting that these processes may potentially contribute to NDD etiology. [full text, passages naming CBX5] ...remodeling complex is a case in point. The core subunits of ChAHP are the ATP-dependent chromatin remodeling enzyme CHD4 (Mi-2\u03b2), the zinc finger and homeodomain transcription factor ADNP, and the HP1 (Cbx3 or Cbx5) heterochromatic proteins ( 2 ). ADNP is among the most frequently de novo mutated genes associated with autism spectrum disorder (ASD) and is also linked to intellectual disability (ID) ( 3 \u2013 8 ). Helsmoo...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41499647",
+   "title": "White-Sutton Syndrome: Insight of an Italian Cohort of 19 Subjects.",
+   "abstract": "White-Sutton syndrome (WHSUS) is a rare neurodevelopmental disorder due to pathogenic variants in the POGZ gene. Its phenotype includes developmental delay, behavioral dysfunctions, hypotonia, and dysmorphic features. The condition is still poorly known: comprehensive clinical descriptions and exhaustive genotype-phenotype correlations are lacking, limiting diagnostic and therapeutic advancements. Here, we report molecular, clinical, and instrumental data from the first and largest Italian cohort (19 patients). Our results highlight the importance of an extensive approach at the time of diagnosis-including early nutritional support for preventing obesity-related complications and instrumental screening for congenital malformations. Preliminary data suggest that splicing variants could be associated with more severe phenotypes. This study provides valuable new insights into WHSUS and represents a significant step towards its comprehension. [full text, passages naming CBX5] ...Frameshift | Exon 14 | | ND | Novel | PT8 (1) | 25, 3 | c.2323_2324delCT | p.Leu775Valfs*4 | Frameshift | Exon 15 | ZNF8 | De novo | | PT14 (2) | 13, 2 | c.2482dupG | p.Asp828Glyfs*36 | Frameshift | Exon 17 | CBX5 (ZNF9) | De novo | Donnarumma et al. [ | 13 ] PT13 (1) | 17, 2 | c.2546\u20101G>A | p.? | Splicing | Intron 17 | | De novo | Trimarchi et al. [ | 12 ] PT12 (1) | 26, 3 | c.2711T>G | p.Leu904* | Nonsense | Exon... ...rts based on how detailed available data were. FIGURE 1 Schematic representation of POGZ cDNA and protein structure including the localization of variants identified in our WHSUS patients cohort. NM_015100.4 . CBX5, CBX5 (HP1\u03b1)\u2010binding domain; CC, coiled\u2010coil domain; CENBP, centromere protein B\u2010binding domain; DDE\u20101, transposase domain; IBM, integrase\u2010domain binding motif; PRO, proline\u2010rich region; ZNF, zinc\u2010finger d... ...sed on how detailed available data were. FIGURE 1 Schematic representation of POGZ cDNA and protein structure including the localization of variants identified in our WHSUS patients cohort. NM_015100.4 . CBX5, CBX5 (HP1\u03b1)\u2010binding domain; CC, coiled\u2010coil domain; CENBP, centromere protein B\u2010binding domain; DDE\u20101, transposase domain; IBM, integrase\u2010domain binding motif; PRO, proline\u2010rich region; ZNF, zinc\u2010finger domain....",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41601423",
+   "title": "Neurogenesis and the Epigenetic Landscape: Role of Histone Modifications and Chromatin Remodeling.",
+   "abstract": "AIMS: The purpose of this review is to examine how epigenetic regulation particularly chromatin modification and histone methylation controls gene expression during embryonic neurogenesis. It aims to highlight the role of these mechanisms in neural stem cell (NSC) fate specification and their implications in neurological and neurodevelopmental disorders. METHODS: Through reviewing recent research findings, this study synthesizes current literature on epigenetic mechanisms involved in embryonic brain development, with a focus on histone modifications, chromatin remodeling, and chromatin compartmentalization. The review also evaluates existing in vivo research while noting the technical challenges of tracking adult neurons and isolating NSCs. FINDINGS: The review identifies that epigenetic mechanisms, including histone methylation (notably H3K9 as a repressive mark), histone deacetylases, and chromatin remodeling complexes, play essential roles in regulating gene expression required for neurogenesis and neuroplasticity. Alterations in these epigenetic processes significantly affect neural development and contribute to a range of neurological and neurodevelopmental disorders. CONCLUSIONS: Understanding the epigenetic regulation of neurogenesis particularly through chromatin modification and structural chromatin dynamics provides valuable insight into cell fate determination during embryonic brain development. These insights may guide the development of novel therapeutic strategies for neurological and neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36277487",
+   "title": "A rigorous <i>in silico</i> genomic interrogation at 1p13.3 reveals 16 autosomal dominant candidate genes in syndromic neurodevelopmental disorders.",
+   "abstract": "Genome-wide chromosomal microarray is extensively used to detect copy number variations (CNVs), which can diagnose microdeletion and microduplication syndromes. These small unbalanced chromosomal structural rearrangements ranging from 1 kb to 10 Mb comprise up to 15% of human mutations leading to monogenic or contiguous genomic disorders. Albeit rare, CNVs at 1p13.3 cause a variety of neurodevelopmental disorders (NDDs) including development delay (DD), intellectual disability (ID), autism, epilepsy, and craniofacial anomalies (CFA). Most of the 1p13.3 CNV cases reported in the pre-microarray era encompassed a large number of genes and lacked the demarcating genomic coordinates, hampering the discovery of positional candidate genes within the boundaries. In this study, we present four subjects with 1p13.3 microdeletions displaying DD, ID, autism, epilepsy, and CFA. In silico comparative genomic mapping with three previously reported subjects with CNVs and 22 unreported DECIPHER CNV cases has resulted in the identification of four different sub-genomic loci harboring five positional candidate genes for DD, ID, and CFA at 1p13.3. Most of these genes have pathogenic variants reported, and their interacting genes are involved in NDDs. RT-qPCR in various human tissues revealed a high expression pattern in the brain and fetal brain, supporting their functional roles in NDDs. Interrogation of variant databases and interacting protein partners led to the identification of another set of 11 potential candidate genes, which might have been dysregulated by the position effect of these CNVs at 1p13.3. Our studies define 1p13.3 as a genomic region harboring 16 NDD candidate genes and underscore the critical roles of small CNVs in in silico comparative genomic mapping for disease gene discovery. Our candidate genes will help accelerate the isolation of pathogenic heterozygous variants from exome/genome sequencing (ES/GS) databases. [full text, passages naming CBX5] ...l diseases ( Degrassi et al., 2019 ). | 1. PLEKHA4 ( Shami Shah et al., 2019 ): autism spectrum disorder ( Iossifov et al., 2014 ; Lim et al., 2017 ), autism ( Hashimoto et al., 2016 ; Turner et al., 2019 ) 2. CBX5 ( Luck et al., 2020 ): autism spectrum disorder ( Satterstrom et al., 2020 ), developmental disorder ( Deciphering Developmental Disorders, 2017 ), schizophrenia ( Gulsuner et al., 2013 ) 3. RARA ( Li et a...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39414258",
+   "title": "RettDb: the Rett syndrome omics database to navigate the Rett syndrome genomic landscape.",
+   "abstract": "Rett syndrome (RTT) is a neurodevelopmental disorder occurring almost exclusively in females and leading to a variety of impairments and disabilities from mild to severe. In >95% cases, RTT is due to mutations in the X-linked gene MECP2, but the molecular mechanisms determining RTT are unknown at present, and the complexity of the system is challenging. To facilitate and provide guidance to the unraveling of those mechanisms, we developed a database resource for the visualization and analysis of the genomic landscape in the context of wild-type or mutated Mecp2 gene in the mouse model. Our resource allows for the exploration of differential dynamics of gene expression and the prediction of new potential MECP2 target genes to decipher the RTT disorder molecular mechanisms. Database URL: https://biomedinfo.di.unipi.it/rett-database/. [full text, passages naming CBX5] ...| Aebp2, Aff4, Ar, Arid1a, Arntl, Asc1l, Ascl2, Ash2l, Atf3, Atf4, Atf7, Atf7ip, Atoh1, Atrx, Bach1, Bach2, Batf, Batf3, Bbx, Bcl11b, Bcl6, Bhlha15, Bhlhe40, Bhlhe41, Brca1, Brd2, Brd3, Brd4, Brd9, Cbfb, Cbx2, Cbx5, Cbx7, Cdk9, Cebpa, Cebpb, Cebpg, Chd4, Chd7, Chd8, Clock, Creb1, Creb3l2, Crebbp, Crtc2, Cry1, Ctcf, Ctnnb1, Cux2, Ddit3, Dnmt3a, Dnmt3b, E2f3, E2fl, Ebf1, Ebf2, Eed, Egr2, ELf1, Elf5, Elk1, Ep300, Ep400,...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33263776",
+   "title": "The emerging role of chromatin remodelers in neurodevelopmental disorders: a developmental perspective.",
+   "abstract": "Neurodevelopmental disorders (NDDs), including intellectual disability (ID) and autism spectrum disorders (ASD), are a large group of disorders in which early insults during brain development result in a wide and heterogeneous spectrum of clinical diagnoses. Mutations in genes coding for chromatin remodelers are overrepresented in NDD cohorts, pointing towards epigenetics as a convergent pathogenic pathway between these disorders. In this review we detail the role of NDD-associated chromatin remodelers during the developmental continuum of progenitor expansion, differentiation, cell-type specification, migration and maturation. We discuss how defects in chromatin remodelling during these early developmental time points compound over time and result in impaired brain circuit establishment. In particular, we focus on their role in the three largest cell populations: glutamatergic neurons, GABAergic neurons, and glia cells. An in-depth understanding of the spatiotemporal role of chromatin remodelers during neurodevelopment can contribute to the identification of molecular targets for treatment strategies.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "3176903": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "6143082": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23045645": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33344640": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "680696": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3546516": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10706878": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "6189183": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2783582": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21364188": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3856614": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1448080": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27392654": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40626246": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14573704": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2414045": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29273057": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40417029": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15006351": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17324250": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16928766": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3186719": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29805894": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15138264": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "6788880": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3296948": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26527005": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36945042": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37087635": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31671722": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42748571": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42450350": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22615490": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42063344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40977432": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39962076": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39192031": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25931448": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29519804": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31799602": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29358085": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30208514": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29487201": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30590679": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30016453": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17855382": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31130069": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17654502": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11336697": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20962594": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26551685": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25151962": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30007360": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39383876": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15535865": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40138713": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21151131": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16954381": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39422615": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39562713": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40262618": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11959914": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19783980": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20110566": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26564795": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23733954": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31152607": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15684392": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17242207": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26791953": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "21250545": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29925860": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31836699": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17855381": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20498703": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26157143": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12805230": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42739309": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42474752": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42482100": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39808658": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41499647": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42827301": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42439481": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35775424": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42433021": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40174554": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36983672": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41601423": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39775551": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41706380": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36277487": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42208149": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39414258": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38637827": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34645992": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39633474": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33263776": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "28 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "8 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4827,
+   "output_tokens": 187,
+   "usd": 0.005762,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 40.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.9,
+   "note": "",
+   "input_tokens": 36392,
+   "output_tokens": 1642,
+   "usd": 0.044602,
+   "calls": 8
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.1,
+   "note": "",
+   "input_tokens": 14267,
+   "output_tokens": 1075,
+   "usd": 0.09821,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>20</existing>\n    <hypothesized>70</hypothesized>\n    <novel>8</novel>\n  </probabilities>\n  <justification>No article in this set reports de novo or inherited CBX5 (HP1\u03b1) point variants in patients with a neurodevelopmental disorder; the only clinical NDD gene with proven causal variants here is its paralog CBX1/HP1\u03b2 (PMID 37087635), which cannot substitute for CBX5. The strongest \"Existing\"-leaning item is the 1p13.3 in silico CNV study (PMID 36277487), which lists CBX5 as a positional candidate within multigene microdeletions and cites ASD/DD cohort databases \u2014 a multigene CNV cannot single out CBX5, so this remains candidate-level. The bulk of evidence is mechanistic/biological: CBX5/HP1\u03b1 is a core subunit of the ChAHP (CHD4\u2013ADNP\u2013HP1) complex mutated in Helsmoortel-Van der Aa syndrome (PMIDs 36945042, 39808658, 42450350), a binding partner of POGZ in White\u2013Sutton syndrome and of CHAMP1 in CHAMP1 syndrome (PMIDs 41499647, 39962076, 42748571), and is implicated in MeCP2/ATRX pericentric heterochromatin organization relevant to Rett and ATR-X syndromes (PMIDs 31671722, 22615490). This constitutes strong pathway/biology relevance without direct human variant evidence, making \"Hypothesized\" the best fit.</justification>\n  <pmids>\n    <pmid>36277487</pmid>\n    <pmid>37087635</pmid>\n    <pmid>39808658</pmid>\n    <pmid>36945042</pmid>\n    <pmid>42450350</pmid>\n    <pmid>41499647</pmid>\n    <pmid>39962076</pmid>\n    <pmid>42748571</pmid>\n    <pmid>31671722</pmid>\n    <pmid>22615490</pmid>\n  </pmids>\n</response>"
+}

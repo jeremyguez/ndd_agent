@@ -1,0 +1,137 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 3,
+    "biological": 13
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De novo non-synonymous TBL1XR1 mutation alters Wnt signaling activity (PMID: 28588275)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "chr17:27028608 G>A, p.Asp1716Asn (de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "sporadic schizophrenia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo non-synonymous variant found by trio whole exome sequencing; PolyPhen-2 probably damaging, SIFT damaging, PROVEAN neutral. Not further functionally studied; the paper focused on TBL1XR1.",
+        "center_country": "Japan",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Genetic alterations in SUPT6H are associated with neurodevelopmental disorders (PMID: 41864309)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (homozygous and heterozygous null) and conditional knockout (parvalbumin-interneuron-specific, cKOPV; homozygous and heterozygous)",
+        "phenotypes": [
+          "Homozygous and heterozygous Supt6 null mice show embryonic lethality",
+          "Homozygous Supt6 cKOPV mice show motor defects",
+          "Homozygous Supt6 cKOPV mice show behavioral seizures",
+          "Heterozygous Supt6 cKOPV mice show behavioral phenotypes relevant to neuropsychiatric disorders with normal motor activity",
+          "Significant reduction of parvalbumin-expressing neurons in both heterozygous and homozygous cKOPV mice"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "Reported as significant reduction in parvalbumin-expressing neurons vs wild-type; no specific p-values given in abstract"
+      },
+      {
+        "citation": "SPT6 maintains epidermal homeostasis by inhibiting an NF-\u03baB-positive feedback loop to prevent excessive inflammation (PMID: 41922599)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (K14-CreERT; Supt6 fl/fl, basal keratinocyte-specific, inducible)",
+        "phenotypes": [
+          "Spontaneous psoriasis-like skin inflammation",
+          "Epidermal hyperplasia",
+          "Immune cell infiltration",
+          "Parakeratosis",
+          "Hyperkeratosis",
+          "Significantly delayed wound healing with impaired Wnt signaling",
+          "Keratinocyte subpopulations with inflammatory signatures, elevated NF-\u03baB signaling and suppressed Wnt signaling (scRNA-seq)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": "Delayed wound healing described as significant; no specific p-values in the provided text"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Targeted protein degradation reveals a direct role of SPT6 in RNAPII elongation and termination (PMID: 34233157)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Acute targeted degradation of SPT6 (SUPT6H) in human cells showed it is required for RNAPII processivity and productive transcription of protein-coding genes. Acute loss also caused readthrough transcription at thousands of genes, so SPT6 is needed for RNAPII termination. Long-term depletion induced cryptic intragenic transcription, consistent with its role as an epigenetic safeguard.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic alterations in SUPT6H are associated with neurodevelopmental disorders (PMID: 41864309)",
+        "evidence_subtype": "other",
+        "summary": "Molecular modeling of 18 published SUPT6H SNVs from developmental disorder patients predicts loss of function. Supt6 null mice (homozygous or heterozygous) show embryonic lethality. Parvalbumin-interneuron conditional KO mice have motor defects, seizures and neuropsychiatric-like behaviors, with fewer parvalbumin neurons.",
+        "sample_size": "18 human SNVs; mouse models (Supt6 null and PV-cKO)",
+        "significance": null
+      },
+      {
+        "citation": "Identification and analysis of the human and murine putative chromatin structure regulator SUPT6H and Supt6h (PMID: 8786132)",
+        "evidence_subtype": "expression",
+        "summary": "Human SUPT6H and mouse Supt6h were cloned and are homologs of yeast SPT6 and C. elegans emb-5, with over 98% protein identity between human and mouse. The 1603-aa human protein has an acidic N-terminus, a degenerate SH2 domain and a leucine zipper. Northern blotting showed a constitutively expressed 7.0-kb transcript. The gene maps to 17q11.2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of novel SHPS-1-associated proteins and their roles in regulation of insulin-like growth factor-dependent responses in vascular smooth muscle cells (PMID: 19299420)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SUPT6H is one of four SH2-domain proteins (with SHP-2, CTK, STAT1) that bind directly to the cytoplasmic domain of SHPS-1. It acts as a scaffold linking further binding partners to SHPS-1 in the IGF-I-regulated signaling complex in vascular smooth muscle cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MiR-423-5p Inhibition Exerts Protective Effects on Angiotensin II-Induced Cardiomyocyte Hypertrophy (PMID: 36517015)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SUPT6H is a direct target of miR-423-5p, shown by luciferase reporter assay. SUPT6H knockdown worsened Ang II-induced hypertrophy and oxidative stress in human cardiomyocytes. Silencing miR-423-5p reversed this effect.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CDK12 Is Necessary to Promote Epidermal Differentiation Through Transcription Elongation (PMID: 35325240)",
+        "evidence_subtype": "pathway",
+        "summary": "CDK12 promotes Ser2 phosphorylation of the RNAPII CTD and stabilizes SPT6 binding to target genes, including differentiation transcription factor genes (GRHL3, KLF4, OVOL1). This places SPT6 in the CDK12-dependent transcription elongation pathway for epidermal differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "S100A10 and its binding partners in depression and antidepressant actions (PMID: 36046712)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Supt6h is a direct binding partner of S100A10 (p11) in the brain. This interaction links p11 to nuclear events such as chromatin remodeling, histone modification and gene transcription relevant to depressive-like behavior and antidepressant responses in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transcriptomic and immunophenotypic characterization of two cases of adamantinoma-like Ewing sarcoma of the thyroid gland (PMID: 37195579)",
+        "evidence_subtype": "expression",
+        "summary": "SUPT6H, a regulator of EWSR1::FLI1 splicing, was overexpressed along with HNRNPH1 and SF3B1 in adamantinoma-like Ewing sarcoma by RNA-seq. These regulators are needed to produce a functional fusion oncoprotein.",
+        "sample_size": "2 cases",
+        "significance": null
+      },
+      {
+        "citation": "Multi-organ toxicity induced by fine particulate matter PM(2.5) in zebrafish (Danio rerio) model (PMID: 28391149)",
+        "evidence_subtype": "expression",
+        "summary": "supt6h is among the cardiac function genes (with spaw and cmlc1) that were markedly down-regulated by PM2.5 exposure in zebrafish. This coincided with pericardial edema and reduced heart rate.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Novel Platinum-Resistance-related Gene Signature in Ovarian Cancer: Identification and Patient-derived Organoids Verification (PMID: 39901543)",
+        "evidence_subtype": "other",
+        "summary": "SUPT6H is one of nine genes in a platinum-resistance prognostic signature for ovarian cancer. The signature was validated in patient-derived organoids, where high-risk patients were more cisplatin-resistant.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

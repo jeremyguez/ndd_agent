@@ -1,0 +1,454 @@
+{
+ "gene": "GLYR1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "BM045",
+   "NP60",
+   "N-PAC",
+   "HIBDL",
+   "glyoxylate reductase 1 homolog"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 22,
+  "titlekicksparingfulltext": 9,
+  "read": 10
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 3,
+   "Existing": 40,
+   "Hypothesized": 37,
+   "Novel": 20
+  },
+  "justification": "No article demonstrates a replicated causal link between GLYR1 point variants and neurodevelopmental disorder in independent probands, so Established is excluded. The strongest human genetic signal is a single de novo damaging coding variant in GLYR1 listed among 52 such genes in a primary complex motor stereotypies trio-sequencing study (PMID 37788244), which is suggestive but not gene-level significant; the CNV meta-analysis (PMID 38850022) only places GLYR1 within a multigene 16p13.3 interval alongside TSC2 and CREBBP and therefore cannot single it out. Biologically, GLYR1/NDF is a chromatin-associated factor regulating Pol II processivity (PMID 40430013) and is enriched at promoters of lncRNAs upregulated in cortical glutamatergic neurons (PMID 38913688), supporting a plausible but indirect mechanistic link, with additional rodent splicing data (PMID 42332800) being non-human. Its best-validated human disease associations are congenital heart disease (PMIDs 38070486, 42539127) and MSI colorectal cancer (PMID 32370786), not NDD, so weight is split between Existing and Hypothesized with meaningful residual probability for Novel.",
+  "pmids": [],
+  "detail": {
+   "Established": 3,
+   "Existing": 40,
+   "Hypothesized": 37,
+   "Novel": 20
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38070486",
+   "title": "Familial congenital heart disease caused by a frameshift variant in glyoxylate reductase 1 homolog (GLYR1).",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2024 Apr 12",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "42539127",
+   "title": "Uniparental Disomy Reveals Hidden Genetic Causes of Congenital Heart Disease.",
+   "abstract": "Congenital heart disease (CHD) affects ~1% of live births, yet the genetic basis of many cases remains unresolved. Uniparental disomy (UPD), the inheritance of both homologous chromosomes from one parent, is often overlooked. We developed TrioMix-UPD, an integrated short- and long-read sequencing framework for UPD detection and classification. Applying it to 3,740 CHD trios, we identified 12 UPD events, representing a 6.57-fold enrichment relative to the general population. Both advanced maternal age and enrichment of rare inherited variants in synaptonemal complex genes implicated meiotic chromosome segregation defects in UPD risk. Within UPD regions, we identified pathogenic homozygous variants in PIEZO1 and GLYR1 and nominate MESD as a novel CHD candidate gene. Functional studies in zebrafish and human cells recapitulated patient-specific cardiac phenotypes. Differential methylation analyses implicated imprinting dysregulation, including at the Prader-Willi critical region. Collectively, these findings establish UPD as an underrecognized contributor to CHD.",
+   "found_by": [],
+   "pubdate": "2026 Jul 20",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32370786",
+   "title": "Downregulation of GLYR1 contributes to microsatellite instability colorectal cancer by targeting p21 via the p38MAPK and PI3K/AKT pathways.",
+   "abstract": "BACKGROUND: GLYR1 has a high mutation frequency in microsatellite instability colorectal cancer (MSI CRC) and is presumed to be a novel tumor suppressor. However, the role of GLYR1 in tumors has never been studied. In particular, the downregulation of GLYR1 in MSI CRC is worthy of further investigation. METHODS: Western blot and immunohistochemistry analyses were used to detect GLYR1 protein expression in CRC tissues and cell lines, and the clinical significance of GLYR1 was also analyzed. The relationship between GLYR1 and MLH1 was validated by immunofluorescence, immunoprecipitation and bioinformatics analyses. Western blotting, qRT-PCR, CCK-8 assays, colony formation assays, flow cytometry and Hoechst 33258 staining assays were used to assess the effect of GLYR1 on the cell cycle progression, proliferation, differentiation and apoptosis of CRC cells in vitro. The related mechanisms were initially investigated by Western blotting. RESULTS: GLYR1 was significantly downregulated in MSI CRC and its expression was negatively correlated with tumor size and positively correlated with tumor differentiation in CRC patients. In addition, GLYR1 interacted with MLH1 to regulate its nuclear import and expression. Moreover, downregulation of GLYR1 accelerated G1/S phase transition, promoted proliferation and inhibited differentiation of SW480 and SW620 cells in vitro. Furthermore, downregulation of GLYR1 decreased the sensitivity to 5-fluorouracil (5-FU) by inhibiting the mitochondrial apoptosis pathway in CRC cells. Inhibition of the p38 mitogen-activated protein kinase (p38MAPK) and activation of the phosphatidyl 3-kinase/protein kinase B (PI3K/Akt) signaling pathways were involved in the mechanism by which GLYR1 downregulated p21. CONCLUSIONS: Ours is the first study to elucidate the role of GLYR1 in tumors and provide evidence for GLYR1 as a biological marker that reflects the degree of malignancy and sensitivity to 5-FU in MSI CRC.",
+   "found_by": [],
+   "pubdate": "2020 May 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40430013",
+   "title": "NDF/GLYR1 Promotes RNA Polymerase II Processivity via Pol II Binding and Nucleosome Destabilization.",
+   "abstract": "The Nucleosome Destabilizing Factor (NDF) facilitates transcription through chromatin, but its precise mechanism remains incompletely understood. Here, we identify a critical region (amino acids 140-160) within NDF that specifically interacts with phosphorylated RPB1, the largest subunit of elongating RNA Polymerase II (Pol II). Mutations in this region disrupt Pol II interaction and impair Pol II elongation both in vitro and in cells, yet do not affect NDF's ability to destabilize nucleosomes, establishing a functional separation between these two activities. Cellular studies reveal that NDF knockout cells display faster Pol II elongation rates but produce fewer nascent transcripts, demonstrating NDF's primary role in maintaining transcriptional processivity throughout gene bodies. Our findings demonstrate that NDF uses distinct mechanisms to ensure productive transcription elongation rather than simply enhancing elongation speed, offering new insights into how transcription efficiency is maintained in chromatin.",
+   "found_by": [],
+   "pubdate": "2025 May 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming GLYR1] ...A\u2217, GTF3C1\u2217, XPO6\u2217, ATXN2L\u2217+, PRKCB\u2217, USP31 | MAZ\u2217+, STX1B\u2217\u2217 duplication | 16 | 16p13.11 | N/A | | MYH11+ N/A | deletion-duplication | 16 | 16p13.3 | | MAPK8IP3\u2217\u2217+ | RPS2\u2217, CAPN15\u2217\u2217+, TSC2\u2217\u2217, CASKIN1\u2217, TFAP4\u2217, GLYR1\u2217, UBN1\u2217, ADCY9\u2217, CREBBP\u2217\u2217+, RBFOX1\u2217+ | UBE2I\u2217+ deletion-duplication | 16 | 17p11.2 | N/A | | MPRIP\u2217+, COPS3\u2217+, RAI1\u2217\u2217+, ALKBH5\u2217+, EPN2+, USP22\u2217+ | SREBF1+ deletion-duplication | 17 | 17p13.3 (novel) | | P...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42190662",
+   "title": "Chemical biology tools for studying histone post-translational modifications.",
+   "abstract": "Post-translational modifications (PTMs) of histones are central regulators of chromatin organization and gene expression, providing a dynamic and reversible mechanism to encode cellular state. While advances in mass spectrometry have rapidly expanded the catalog of histone PTMs beyond classical acetylation and methylation, defining their functional roles remains a major challenge. A central bottleneck is linking specific PTMs to the enzymes that write and erase them, as well as the reader proteins that interpret them within native chromatin environments. The dysregulation of this regulatory machinery is increasingly implicated in cancer, neurodevelopmental disorders, and metabolic disease. Here, we argue that resolving PTM function requires integrating chemical precision with increasing biological complexity. We review chemical biology strategies for interrogating histone PTMs across this spectrum-from synthetic peptides to semisynthetic nucleosomes and intact chromatin-highlighting how each approach balances experimental control with physiological relevance and propose future directions for systematically mapping PTM-dependent interactions.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42332800",
+   "title": "Prenatal BPA exposure perturbs RNA-binding protein-mediated splicing regulation and synaptogenesis in the developing cerebellum in a sex-dependent manner.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a pervasive neurodevelopmental condition characterized by social communication deficits, exhibiting a male bias in prevalence. Emerging evidence suggests that prenatal exposure to bisphenol A (BPA) may perturb neurodevelopmental trajectories relevant to ASD. While the cerebellum is increasingly recognized as a brain region implicated in ASD pathophysiology, the impact of gestational BPA exposure on its post-transcriptional alternative splicing machinery remains fundamentally undefined. METHODS: Here, we investigated sex-dependent effects of prenatal BPA exposure on the alternative splicing landscape of the neonatal rat cerebellum. We utilized RNA-seq to profile differential alternative splicing (DAS) events. Ingenuity Pathway Analysis (IPA) was used to predict biological functions and canonical pathways, and to construct the interactome network of DAS genes. To explore candidate upstream regulatory mechanisms, we performed in silico molecular docking and used high-resolution melting (HRM) qRT-PCR to validate selected splicing events. Furthermore, we assessed in vitro cellular phenotypes in primary cerebellar neurons by measuring MTS-based viability and Syn1/Psd95 puncta colocalization. RESULTS: Prenatal BPA exposure was associated with widespread DAS in genes enriched for ASD-relevant pathways in the neonatal rat cerebellum. To our knowledge, this study is the first to report molecular docking analyses predicting favorable interactions between BPA and several candidate RNA-binding proteins (RBPs), including CPEB1, RALYL, HNRNPDL, and ACO1. Our findings support a model in which BPA may perturb RBP-associated splicing regulation, including altered splicing of chromatin regulators such as Ccar1 in males. These molecular and cellular findings were accompanied by sex-stratified differences in neuronal viability and synaptic puncta measurements. BPA exposure was associated with an increased MTS viability signal in male primary cerebellar neurons, together with significant reductions in Psd95 and Syn1 puncta density, whereas female neurons showed significantly increased synaptic puncta colocalization together with reduced viability. CONCLUSIONS: In this study, we propose that prenatal BPA may be relevant to ASD-related neurodevelopmental pathways through sex-dependent changes in RBP-associated alternative splicing, including altered splicing of Ccar1 in males, together with distinct cellular outcomes. Together, these findings identify the developing cerebellum as a sensitive target of prenatal BPA exposure and highlight alternative splicing as a candidate pathway relevant to ASD biology. [full text, passages naming GLYR1] ...icing type | Gene | Gene name | \u0394\u03a8 | p-value | FDR | | A3SS | Adck5 aarF domain containing kinase 5 | 0.41 | 3.03E-05 | 4.52E-02 | | | LOC108348175 Protein quaking-like | -0.98 | 3.44E-05 | 4.52E-02 | | A5SS | Glyr1 Glyoxylate reductase 1 homolog | 1.00 | < 1.00E-17 | < 1.00E-17 | | | LOC100911959 Ubiquitin carboxyl-terminal hydrolase 5-like | -0.23 | 1.66E-05 | 1.47E-02 | | | Marf1 Meiosis regulator and mRNA stabili... ...| | Pecam1 Platelet and endothelial cell adhesion molecule 1 | -1.00 | 2.71E-11 | 1.91E-08 | | | Elob Elongin B | 0.39 | 3.52E-06 | 1.86E-03 | | | Fbxo34 F-box protein 34 | 0.27 | 3.28E-05 | 1.39E-02 | | RI | Glyr1 Glyoxylate reductase 1 homolog | 0.63 | 7.77E-16 | 5.60E-13 | | | Glyr1 Glyoxylate reductase 1 homolog | -0.64 | 4.44E-16 | 5.60E-13 | | | Zdhhc18 Zinc finger DHHC-type palmitoyltransferase 18 | -0.47 | 3... ...2.71E-11 | 1.91E-08 | | | Elob Elongin B | 0.39 | 3.52E-06 | 1.86E-03 | | | Fbxo34 F-box protein 34 | 0.27 | 3.28E-05 | 1.39E-02 | | RI | Glyr1 Glyoxylate reductase 1 homolog | 0.63 | 7.77E-16 | 5.60E-13 | | | Glyr1 Glyoxylate reductase 1 homolog | -0.64 | 4.44E-16 | 5.60E-13 | | | Zdhhc18 Zinc finger DHHC-type palmitoyltransferase 18 | -0.47 | 3.76E-12 | 1.80E-09 | | | Vamp2 Vesicle-associated membrane protein 2 | -...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38528912",
+   "title": "Case report: Novel SIN3A loss-of-function variant as causative for hypogonadotropic hypogonadism in Witteveen-Kolk syndrome.",
+   "abstract": "Pubertal delay can be due to hypogonadotropic hypogonadism (HH), which may occur in association with anosmia or hyposmia and is known as Kallmann syndrome (OMIM #308700). Recently, hypogonadotropic hypogonadism has been suggested to overlap with Witteveen-Kolk syndrome (WITKOS, OMIM #613406) associated with 15q24 microdeletions encompassing SIN3A. Whether hypogonadotropic hypogonadism is due to haploinsufficiency of SIN3A or any of the other eight genes present in 15q24 is not known. We report the case of a female patient with delayed puberty associated with intellectual disability, behavior problems, dysmorphic facial features, and short stature, at the age of 14\u00a0years. Clinical, laboratory, and imaging assessments confirmed the diagnosis of Kallmann syndrome. Whole-exome sequencing identified a novel heterozygous frameshift variant, NM_001145358.2:c.3045_3046dup, NP_001138830.1:p.(Ile1016Argfs*6) in SIN3A, classified as pathogenic according to the American College of Medical Genetics and Genomics (ACMG/AMP) criteria. Reverse phenotyping led to the clinical diagnosis of WITKOS. No other variant was found in the 96 genes potentially related to hypogonadotropic hypogonadism. The analysis of the other contiguous seven genes to SIN3A in 15q24 did not reveal any clinically relevant variant. In conclusion, these findings point to SIN3A as the gene in 15q24 related to the reproductive phenotype in patients with overlapping WITKOS and Kallmann syndrome. [full text, passages naming GLYR1] ...The genomic DNA was extracted from the peripheral venous blood cells using the Gentra Puregene Blood Kit (QIAGEN). The DNA was quantified using a high-performance microvolume spectrophotometer NanoPhotometer \u00ae NP60 (Implen Inc.), and the DNA concentration was normalized to 10 ng/\u03bcL using the Qubit \u00ae 3.0 fluorometer (Invitrogen). DNA purity was assessed by measuring the absorbance ratio 260/280 nm; further DNA sample...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38913688",
+   "title": "The Human Developing Cerebral Cortex Is Characterized by an Elevated De Novo Expression of Long Noncoding RNAs in Excitatory Neurons.",
+   "abstract": "The outstanding human cognitive capacities are computed in the cerebral cortex, a mammalian-specific brain region and the place of massive biological innovation. Long noncoding RNAs have emerged as gene regulatory elements with higher evolutionary turnover than mRNAs. The many long noncoding RNAs identified in neural tissues make them candidates for molecular sources of cerebral cortex evolution and disease. Here, we characterized the genomic and cellular shifts that occurred during the evolution of the long noncoding RNA repertoire expressed in the developing cerebral cortex and explored putative roles for these long noncoding RNAs in the evolution of the human brain. Using transcriptomics and comparative genomics, we comprehensively annotated the cortical transcriptomes of humans, rhesus macaques, mice, and chickens and classified human cortical long noncoding RNAs into evolutionary groups as a function of their predicted minimal ages. Long noncoding RNA evolutionary groups showed differences in expression levels, splicing efficiencies, transposable element contents, genomic distributions, and transcription factor binding to their promoters. Furthermore, older long noncoding RNAs showed preferential expression in germinative zones, outer radial glial cells, and cortical inhibitory (GABAergic) neurons. In comparison, younger long noncoding RNAs showed preferential expression in cortical excitatory (glutamatergic) neurons, were enriched in primate and human-specific gene co-expression modules, and were dysregulated in neurodevelopmental disorders. These results suggest different evolutionary routes for older and younger cortical long noncoding RNAs, highlighting old long noncoding RNAs as a possible source of molecular evolution of conserved developmental programs; conversely, we propose that the de novo expression of primate- and human-specific young long noncoding RNAs is a putative source of molecular evolution and dysfunction of cortical excitatory neurons, warranting further investigation. [full text, passages naming GLYR1] ...rocess ( supplementary fig. S7a and table S9, Supplementary Material online), and two of them, EWSR1 and RPA2, are expressed in IPCs ( supplementary fig. S7b, Supplementary Material online). Interestingly, the GLYR1 TF is progressively enriched in mammalian-, primate-, and human-specific lncRNA promoters ( Fig. 6d ), is upregulated in synaptogenic glutamatergic neurons and Cajal\u2013Retzius cells ( supplementary fig. S7b...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37788244",
+   "title": "Primary complex motor stereotypies are associated with de novo damaging DNA coding mutations that identify KDM5B as a risk gene.",
+   "abstract": "Motor stereotypies are common in children with autism spectrum disorder (ASD), intellectual disability, or sensory deprivation, as well as in typically developing children (\"primary\" stereotypies, pCMS). The precise pathophysiological mechanism for motor stereotypies is unknown, although genetic etiologies have been suggested. In this study, we perform whole-exome DNA sequencing in 129 parent-child trios with pCMS and 853 control trios (118 cases and 750 controls after quality control). We report an increased rate of de novo predicted-damaging DNA coding variants in pCMS versus controls, identifying KDM5B as a high-confidence risk gene and estimating 184 genes conferring risk. Genes harboring de novo damaging variants in pCMS probands show significant overlap with those in Tourette syndrome, ASD, and those in ASD probands with high versus low stereotypy scores. An exploratory analysis of these pCMS gene expression patterns finds clustering within the cortex and striatum during early mid-fetal development. Exploratory gene ontology and network analyses highlight functional convergence in calcium ion transport, demethylation, cell signaling, cell cycle and development. Continued sequencing of pCMS trios will identify additional risk genes and provide greater insights into biological mechanisms of stereotypies across diagnostic boundaries. [full text, passages naming GLYR1] ...A5 | KDM3B | PPP1R14C | TRIM55 | ZNF862 | ALG8 | COG8 | FAM65B | KDM5B | PRRG4 | TRPM1 | | ANKRD39 | COL21A1 | FEZ2 | KDM5B | RAB11FIP3 | TRPV4 | | ARVCF | CORO6 | GGCX | LY9 | RHAG | UVSSA | | ATP2B2 | DDR1 | GLYR1 | MASP2 | RRBP1 | WNT5A | Exploratory gene ontology, network, and spatiotemporal analyses Using this same list of 52 genes harboring de novo damaging variants in pCMS ( Table 2 , S2 Table ), we performed...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "38813900": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30970244": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31408337": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21544814": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40778374": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31355325": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24012641": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35182466": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21109219": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38070486": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42483184": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42539127": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32370786": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40430013": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42190662": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42332800": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38528912": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38913688": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37788244": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32151655": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29092909": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "8 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 5.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1040,
+   "output_tokens": 56,
+   "usd": 0.00132,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 36.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 8462,
+   "output_tokens": 306,
+   "usd": 0.009992,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.5,
+   "note": "",
+   "input_tokens": 8749,
+   "output_tokens": 1105,
+   "usd": 0.07137,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>3</established>\n    <existing>40</existing>\n    <hypothesized>37</hypothesized>\n    <novel>20</novel>\n  </probabilities>\n  <justification>No article demonstrates a replicated causal link between GLYR1 point variants and neurodevelopmental disorder in independent probands, so Established is excluded. The strongest human genetic signal is a single de novo damaging coding variant in GLYR1 listed among 52 such genes in a primary complex motor stereotypies trio-sequencing study (PMID 37788244), which is suggestive but not gene-level significant; the CNV meta-analysis (PMID 38850022) only places GLYR1 within a multigene 16p13.3 interval alongside TSC2 and CREBBP and therefore cannot single it out. Biologically, GLYR1/NDF is a chromatin-associated factor regulating Pol II processivity (PMID 40430013) and is enriched at promoters of lncRNAs upregulated in cortical glutamatergic neurons (PMID 38913688), supporting a plausible but indirect mechanistic link, with additional rodent splicing data (PMID 42332800) being non-human. Its best-validated human disease associations are congenital heart disease (PMIDs 38070486, 42539127) and MSI colorectal cancer (PMID 32370786), not NDD, so weight is split between Existing and Hypothesized with meaningful residual probability for Novel.</justification>\n  <pmids>\n    <pmid>37788244</pmid>\n    <pmid>38850022</pmid>\n    <pmid>40430013</pmid>\n    <pmid>38913688</pmid>\n    <pmid>38070486</pmid>\n    <pmid>42539127</pmid>\n    <pmid>42332800</pmid>\n  </pmids>\n</response>"
+}

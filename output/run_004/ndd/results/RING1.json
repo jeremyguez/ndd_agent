@@ -1,0 +1,179 @@
+{
+  "articles_found": {
+    "clinical": 15,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2023 - A RING1 contribution to neurogenesis and schizophrenia (C. Ryan)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "RING1 G284A (p.Gly284Ala; modeled as homozygous G284A/G284A in isogenic hESC lines)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "microcephaly",
+              "intellectual disability",
+              "early onset schizophrenia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Missense variants in RING1/RNF2 blunt H2AUb1 catalysis. The RING1 G284A variant reduced global H2AUb1, increased expression of DNA damage repair genes, impaired double strand break repair and prolonged S phase in hESC-derived NPCs and cerebral organoids. The abstract does not describe individual patients.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Ring1 regulates dorsoventral patterning of the mouse telencephalon (PMID: 33177537)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Deletion of Ring1b or both Ring1a and Ring1b in neuroepithelial cells caused ectopic expression of dorsal genes, including BMP and Wnt ligand genes, in the ventral telencephalon",
+          "Shh expression was attenuated in the ventral telencephalon",
+          "Ventral telencephalon development was impaired (loss of ventralization)",
+          "Ring1B binding and H3K27me3 were present at BMP and Wnt ligand genes specifically in the ventral region"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rnf2 (Ring1b) deficiency causes gastrulation arrest and cell cycle inhibition (PMID: 12589020)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Rnf2 null; Ring1 null/hemizygous mice discussed for comparison)",
+        "phenotypes": [
+          "Rnf2-null embryos arrested at gastrulation, with defects in both embryonic and extraembryonic tissues",
+          "Rnf2 hemizygosity did not affect vertebral identity, but aggravated the cerebellar phenotype in a Bmi1 null background",
+          "Early arrest was partially bypassed by inactivation of the Cdkn2a (Ink4a/ARF) locus",
+          "Ring1 (Ring1a) mutants have relatively mild phenotypes, with strong skeletal transformation in hemizygous mice"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Essential role of MESP1-RING1A complex in cardiac differentiation (PMID: 36413948)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ring1A knockout mice showed cardiac abnormalities similar to those in patients with MESP1 mutations",
+          "RING1A depletion impaired human cardiomyocyte differentiation (in vitro)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RING1 dictates GSDMD-mediated inflammatory response and host susceptibility to pathogen infection (PMID: 40369166)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Loss of Ring1 increased S. typhimurium infectious load and mortality",
+          "Ring1 deletion initially reduced M. tuberculosis infectious load, but later caused increased lung inflammation and impaired immune defense",
+          "Ring1 knockout exacerbated LPS-induced acute sepsis",
+          "Increased GSDMD levels and pyroptosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of remodeling and spacing factor 1 in histone H2A ubiquitination-mediated gene silencing (PMID: 28855339)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "RSF1 and Ring1 acted cooperatively to regulate mesodermal cell specification and gastrulation during early embryonic development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "De novo mutation in RING1 with epigenetic effects on neurodevelopment (PMID: 29386386)",
+        "evidence_subtype": "fly_worm",
+        "summary": "A de novo RING1 p.R95Q variant in the catalytic RING domain was found in a girl with syndromic neurodevelopmental disability. The mutant retains ubiquitin chain formation but cannot ubiquitylate nucleosomal H2A, and patient cells show reduced H2A monoubiquitylation. The equivalent mutation in C. elegans spat-3, or a spat-3 knockout, reduced H2A ubiquitylation and caused neuronal migration and axon guidance defects, including in heterozygotes.",
+        "sample_size": "1 patient; C. elegans models",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - A RING1 contribution to neurogenesis and schizophrenia (C. Ryan)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Isogenic hESC lines carrying pathogenic RING1 variants were differentiated into NPCs and 3D cerebral organoids. The RING1 G284A/G284A variant lowered global H2AUb1, increased expression of DNA damage repair genes, impaired double-strand break repair, and stalled the cell cycle through a prolonged S phase. RING1/RNF2 missense variants that blunt H2AUb1 catalysis are linked to microcephaly, intellectual disability and early-onset schizophrenia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Polycomb protein RING1A limits hematopoietic differentiation in myelodysplastic syndromes (PMID: 29383137)",
+        "evidence_subtype": "expression",
+        "summary": "RING1A is expressed in CD34+ bone marrow progenitors and is overexpressed in high-risk MDS. Higher expression associated with more dysplastic lineages and blasts. RING1A knockdown promoted spontaneous and retinoic acid-induced differentiation in an MDS-derived AML line and augmented erythroid differentiation in primary CD34+ cells. A RING1 inhibitor reduced colony formation by CD34+ cells from MDS patients and healthy controls.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ring1-mediated ubiquitination of H2A restrains poised RNA polymerase II at bivalent genes in mouse ES cells (PMID: 18037880)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Conditional deletion of Ring1A and Ring1B in mouse ES cells caused sequential loss of H2A ubiquitination, release of poised Ser5-phosphorylated RNAP II, and de-repression of bivalent developmental genes. Ring1-mediated H2A ubiquitination therefore enforces the poised polymerase state.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Polycomb group protein Ring1 regulates dorsoventral patterning of the mouse telencephalon (PMID: 33177537)",
+        "evidence_subtype": "function",
+        "summary": "Deletion of Ring1b, or of both Ring1a and Ring1b, in neuroepithelial cells caused ectopic expression of dorsal genes (BMP and Wnt ligands) and reduced Shh in the ventral telencephalon. Ring1B binds BMP and Wnt ligand genes in the ventral region, where H3K27me3 is also present. Ring1 thus supports ventral telencephalon development by suppressing BMP and Wnt signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of histone H2A ubiquitination in Polycomb silencing (PMID: 15386022)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Ring1 is a component of the hPRC1L complex together with Ring2, Bmi1 and HPH2. The complex monoubiquitinates nucleosomal H2A at K119. In Drosophila, dRing colocalizes with ubiquitinated H2A at Ubx, and its RNAi removal causes loss of H2A ubiquitination and Ubx derepression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting UBE2T Potentiates Gemcitabine Efficacy in Pancreatic Cancer by Regulating Pyrimidine Metabolism and Replication Stress (PMID: 36842710)",
+        "evidence_subtype": "pathway",
+        "summary": "UBE2T catalyzes RING1-mediated ubiquitination of p53 in pancreatic cancer. This relieves p53 transcriptional repression of RRM1 and RRM2, increasing pyrimidine biosynthesis, easing replication stress, and conferring gemcitabine resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Down-regulation of lncRNA XIST inhibits cell proliferation via regulating miR-744/RING1 axis in non-small cell lung cancer (PMID: 31292221)",
+        "evidence_subtype": "pathway",
+        "summary": "XIST acts as a competing endogenous RNA for miR-744, which regulates RING1. The XIST/miR-744/RING1 axis activates Wnt/\u03b2-catenin signaling and promotes NSCLC proliferation, migration and invasion in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chromobox 3 assembles an epigenetic complex contributing to cystathionine \u03b3-lyase-mediated protection against aortic aneurysm/dissection (PMID: 42236713)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RING1 was identified as part of a CBX3-centered epigenetic complex with SUV39H1, KDM2A and HDAC1. The complex coordinates H3K9/H3K4 methylation and acetylation to regulate ECM remodeling, apoptosis and inflammation genes in vascular smooth muscle cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2013 - DNA methylation analysis of iPS cells using whole-genome bisulphite sequencing (D. Lee et al.)",
+        "evidence_subtype": "other",
+        "summary": "During reprogramming of mouse fibroblasts to iPSCs, CpG methylation gain occurs rapidly and massively around PRC (RING1, Suz12, EZH2) binding sites.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

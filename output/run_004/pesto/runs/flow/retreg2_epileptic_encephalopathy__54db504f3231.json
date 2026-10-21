@@ -1,0 +1,342 @@
+{
+ "gene": "RETREG2",
+ "phenotype": "epileptic encephalopathy",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "developmental and epileptic encephalopathy",
+   "DEE",
+   "epileptic encephalopathies",
+   "early infantile epileptic encephalopathy",
+   "EIEE",
+   "early-onset epileptic encephalopathy",
+   "epileptiform encephalopathy",
+   "encephalopathy due to epileptic activity",
+   "epilepsy with encephalopathy"
+  ],
+  "broad": "",
+  "words": [
+   "epileptic",
+   "encephalopathy"
+  ],
+  "gene_names": [
+   "C2ORF17",
+   "MAG-2",
+   "FAM134A",
+   "MGC3035",
+   "reticulophagy regulator family member 2"
+  ],
+  "anchors": [
+   "epileptic encephalopathy",
+   "developmental encephalopathy",
+   "seizure encephalopathy"
+  ]
+ },
+ "counts": {
+  "found": 14,
+  "titlekicksparingfulltext": 10,
+  "read": 1
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 4,
+   "Hypothesized": 33,
+   "Novel": 62
+  },
+  "justification": "The only provided article is a mouse knockout study of the FAM134 family (FAM134A/RETREG2, FAM134B, FAM134C) examining ER-phagy and axonal ER architecture; notably, combined deletion involving Fam134a produced no additional phenotype and the observed defects were peripheral neuromuscular/somatosensory degeneration, not epilepsy or encephalopathy. There are no human genetic studies, no patient variants, and no epileptic encephalopathy phenotype reported for RETREG2/FAM134A. At most, one could argue weak biological plausibility because the gene is expressed in neurons and participates in ER homeostasis, a pathway implicated broadly in neurological disease, which supports a small allocation to Hypothesized. No evidence supports Established or Existing, as both require human variant data.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 4,
+   "Hypothesized": 33,
+   "Novel": 62
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39039299",
+   "title": "Fam134c and Fam134b shape axonal endoplasmic reticulum architecture in vivo.",
+   "abstract": "Endoplasmic reticulum (ER) remodeling is vital for cellular organization. ER-phagy, a selective autophagy targeting ER, plays an important role in maintaining ER morphology and function. The FAM134 protein family, including FAM134A, FAM134B, and FAM134C, mediates ER-phagy. While FAM134B mutations are linked to hereditary sensory and autonomic neuropathy in humans, the physiological role of the other FAM134 proteins remains unknown. To address this, we investigate the roles of FAM134 proteins using single and combined knockouts (KOs) in mice. Single KOs in young mice show no major phenotypes; however, combined Fam134b and Fam134c deletion (Fam134b/cdKO), but not the combination including Fam134a deletion, leads to rapid neuromuscular and somatosensory degeneration, resulting in premature death. Fam134b/cdKO mice show rapid loss of motor and sensory axons in the peripheral nervous system. Long axons from Fam134b/cdKO mice exhibit expanded tubular ER with a transverse ladder-like appearance, whereas no obvious abnormalities are present in cortical ER. Our study unveils the critical roles of FAM134C and FAM134B in the formation of tubular ER network in axons of both motor and sensory neurons.",
+   "found_by": [],
+   "pubdate": "2024 Aug",
+   "query_tier": "variant"
+  }
+ ],
+ "labels": {
+  "30278442": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29440427": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15159763": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29097687": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33504897": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39804497": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23474461": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29488637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38557779": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37268908": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2454299": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "8821484": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39039299": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "486022": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.0,
+   "note": "",
+   "input_tokens": 347,
+   "output_tokens": 325,
+   "usd": 0.00986,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 403,
+   "output_tokens": 24,
+   "usd": 0.000523,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 382,
+   "output_tokens": 59,
+   "usd": 0.000677,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 16.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1046,
+   "output_tokens": 64,
+   "usd": 0.001366,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 8.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 2009,
+   "output_tokens": 97,
+   "usd": 0.002494,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 7.7,
+   "note": "",
+   "input_tokens": 1643,
+   "output_tokens": 620,
+   "usd": 0.023715,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>4</existing>\n    <hypothesized>33</hypothesized>\n    <novel>62</novel>\n  </probabilities>\n  <justification>The only provided article is a mouse knockout study of the FAM134 family (FAM134A/RETREG2, FAM134B, FAM134C) examining ER-phagy and axonal ER architecture; notably, combined deletion involving Fam134a produced no additional phenotype and the observed defects were peripheral neuromuscular/somatosensory degeneration, not epilepsy or encephalopathy. There are no human genetic studies, no patient variants, and no epileptic encephalopathy phenotype reported for RETREG2/FAM134A. At most, one could argue weak biological plausibility because the gene is expressed in neurons and participates in ER homeostasis, a pathway implicated broadly in neurological disease, which supports a small allocation to Hypothesized. No evidence supports Established or Existing, as both require human variant data.</justification>\n  <pmids>\n    <pmid>39039299</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,389 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 18,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Expanding Clinical and Genetic Landscape of SATB2-Associated Syndrome (PMID: 41153445)",
+        "num_patients": 6,
+        "variants": [
+          {
+            "description": "Three missense variants (specific notation not given in abstract); one pediatric patient had a significant reduction in visual acuity of likely cortical origin",
+            "type": "missense",
+            "phenotypes": [
+              "severe intellectual disability",
+              "profound speech delay",
+              "palatal abnormalities",
+              "dental abnormalities",
+              "reduced visual acuity of likely neurological/cortical origin (pediatric patient)"
+            ]
+          },
+          {
+            "description": "Two in-frame deletion/duplication variants, including an in-frame duplication in a 56-year-old adult (oldest reported)",
+            "type": "other",
+            "phenotypes": [
+              "severe intellectual disability",
+              "profound speech delay",
+              "palatal abnormalities",
+              "dental abnormalities"
+            ]
+          },
+          {
+            "description": "One frameshift variant (notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "severe intellectual disability",
+              "profound speech delay",
+              "palatal abnormalities",
+              "dental abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Germline variants identified by NGS; several novel, classified as likely pathogenic/pathogenic per ACMG guidelines; phenotype consistent with SAS",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "SATB2-associated syndrome presenting with Rett-like phenotypes (PMID: 26596517)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "p.Glu396Gln (de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "severe developmental retardation",
+              "Rett-like phenotype"
+            ]
+          },
+          {
+            "description": "p.Arg459*",
+            "type": "LoF",
+            "phenotypes": [
+              "severe psychomotor retardation",
+              "facial hypotonia",
+              "cleft palate",
+              "Rett-like features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo missense identified by trio WES; nonsense variant identified by targeted sequencing; phenotype consistent with SAS",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2016 - SATB2-associated syndrome: Report of a new case associated with a new mutation in the SATB2 gene",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1286G>A, p.Arg429Gln (de novo, exon 9)",
+            "type": "missense",
+            "phenotypes": [
+              "severe global developmental delay",
+              "downslanting eyes",
+              "prominent low-set ears",
+              "prominent nose",
+              "open-mouthed hypotonic facies",
+              "high-arched palate",
+              "bifid uvula",
+              "macrodontia",
+              "retrognathia",
+              "5th finger clinodactyly",
+              "2-3 toe syndactyly",
+              "hyperactivity",
+              "aggressiveness",
+              "skin-picking",
+              "sleep disturbance",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo on trio WES, novel, absent from population database, conserved position, phenotype consistent with SAS",
+        "center_country": "Canada",
+        "cohort": null
+      },
+      {
+        "citation": "New genes involved in Angelman syndrome-like: Expanding the genetic spectrum (PMID: 34653234)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Pathogenic/likely pathogenic SATB2 variant (de novo; notation not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "Angelman-like phenotype",
+              "severe developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo pathogenic/likely pathogenic variant identified by WES in a patient with Angelman-like features",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - Whole genome sequencing of neurodevelopmental disorders in Japanese",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "SATB2 SNV (notation not given)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability/developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variant identified by trio WGS in a known NDD gene, confirmed by Sanger sequencing",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "Genomic landscape of autism spectrum disorder in Brazil (PMID: 42721435)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_001172509.2:c.847C>T (stopgain), chr2:199349027G>A",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Stop-gain variant in a proband from a WES cohort of Brazilian ASD individuals",
+        "center_country": "Brazil",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Satb2 acts as a gatekeeper for major developmental transitions during early vertebrate embryogenesis (PMID: 34667153)",
+        "organism": "zebrafish",
+        "knockout_type": "other (maternal and zygotic satb2 loss-of-function mutants)",
+        "phenotypes": [
+          "Maternal Satb2 loss causes premature transcription of zygotic genes during zygotic genome activation, via altered interplay of pluripotency factors",
+          "Zygotic Satb2 loss impairs activation of the same gene group during neural crest development and organogenesis",
+          "Altered chromatin accessibility and transcriptome"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Abnormalities in pharyngeal arch-derived structures in SATB2-associated syndrome (PMID: 38693682)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Microglossia",
+          "Shortened lower jaw",
+          "Smaller trigeminal ganglia",
+          "Larger thyroids",
+          "Broad Satb2 expression in early embryonic mesenchyme, including the second and third arches"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Satb2 is required for the regionalization of retrosplenial cortex (PMID: 31666685)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Boundary between retrosplenial cortex and subiculum lost from E17.5",
+          "Aberrant retrosplenial efferent projections",
+          "Loss of Rsp-specific genes",
+          "Ectopic expression of subiculum-specific genes in Rsp",
+          "Cell-autonomous role in maintaining Rsp neuron identity",
+          "Derepression of Nr4a2 and Ctip2"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Satb2 regulates the development of dopaminergic neurons in the arcuate nucleus by Dlx1 (PMID: 34564702)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Reduced number of arcuate nucleus dopaminergic neurons, seen from an embryonic stage",
+          "Other arcuate neuron types unchanged",
+          "Increased serum prolactin",
+          "Elevated metabolic rate",
+          "Dlx1 identified as a potential downstream gene"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neocortical Projection Neurons Instruct Inhibitory Interneuron Circuit Development in a Lineage-Dependent Manner (PMID: 31027966)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Intratelencephalic-type projection neurons adopt a pyramidal tract-type identity",
+          "Disrupted lamination and circuit integration of CGE-derived interneurons",
+          "Reduced synaptic targeting of CGE interneurons by reprogrammed projection neurons",
+          "Differential transcription of synaptic and signaling genes in CGE interneuron subtypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Protooncogene Ski cooperates with the chromatin-remodeling factor Satb2 in specifying callosal neurons (PMID: 22334647)",
+        "organism": "mouse",
+        "knockout_type": "other (Ski-deficient mice, with Satb2 as partner; Satb2 requirement shown for Ctip2 repression)",
+        "phenotypes": [
+          "Loss of callosal neuron identity with ectopic Ctip2 expression",
+          "Failure to form the corpus callosum, with axons redirected to subcortical targets",
+          "Satb2 and Ski both required for Ctip2 repression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CRISPR/Cas9-Mediated Gene Knockout in the Mouse Brain Using In Utero Electroporation (PMID: 28398645)",
+        "organism": "mouse",
+        "knockout_type": "knockdown (CRISPR/Cas9 in utero electroporation, focal knockout)",
+        "phenotypes": [
+          "Indel mutations at the Satb2 locus",
+          "Dramatic reduction of Satb2 expression in postmitotic neurons",
+          "Abnormal axonal projection patterns consistent with Satb2 mutant mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A MTA2-SATB2 chromatin complex restrains colonic plasticity toward small intestine by retaining HNF4A at colonic chromatin (PMID: 38678016)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (adult colon; SATB2 and MTA2 loss)",
+        "phenotypes": [
+          "Adult colonic mucosa lacking SATB2 converts to small intestine",
+          "Activation of lipid absorptive genes",
+          "Functional lipid uptake after MTA2 loss",
+          "HNF4A released from colonic chromatin and accumulating on small intestinal chromatin",
+          "SATB2 restrains colonic plasticity through an HNF4A-dependent mechanism"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SATB2 interacts with chromatin-remodeling molecules in differentiating cortical neurons (PMID: 18333962)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "In knockout cortex, SATB2 is replaced in the chromatin-remodeling complex by AU-rich element RNA binding protein 1 (ARBP)",
+          "Altered chromatin structure proposed to contribute to developmental abnormalities in Satb2 mutants"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "In Vivo Single-Cell Genotyping of Mouse Cortical Neurons Transfected with CRISPR/Cas9 (PMID: 31291570)",
+        "organism": "mouse",
+        "knockout_type": "knockdown (CRISPR/Cas9 in utero electroporation, focal knockout)",
+        "phenotypes": [
+          "Single-cell genotypes of CRISPR-targeted neurons matched Satb2 protein loss and phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Semaphorin heterodimerization in cis regulates membrane targeting and neocortical wiring (PMID: 39152101)",
+        "evidence_subtype": "pathway",
+        "summary": "In murine neocortex, Satb2 controls neuronal migration and callosal axon outgrowth by inducing expression of the GPI-anchored Sema7A. Sema7A heterodimerizes in cis with Sema4D and promotes Sema4D plasma membrane targeting. This places Satb2 upstream of a Sema7A/Sema4D semaphorin pathway relevant to SATB2-associated syndrome.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SATB2 preserves colon stem cell identity and mediates ileum-colon conversion via enhancer remodeling (PMID: 34582804)",
+        "evidence_subtype": "function",
+        "summary": "SATB2 is a colon-restricted chromatin factor that preserves LGR5+ colonic stem cell identity in mice and humans. Satb2 loss converts colonic stem cells into ileal-like stem cells, and SATB2 modulates enhancer binding of CDX2 and HNF4A. Human colonic organoids acquire ileal characteristics when SATB2 is lost.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Protein translation rate determines neocortical neuron fate (PMID: 38849354)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A small-molecule screen identified Ire1\u03b1 as a regulator of Satb2 expression and neuronal polarity. Satb2 mRNA translation requires eIF4A1 helicase activity acting on its 5'-UTR. Satb2 expression in cortical neurons is therefore controlled post-transcriptionally by translation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Satb2 is required for the regionalization of retrosplenial cortex (PMID: 31666685)",
+        "evidence_subtype": "function",
+        "summary": "In Satb2 conditional knockout mice, the Rsp/subiculum boundary is lost, Rsp-specific genes are lost, and subiculum genes are ectopically expressed. Satb2 acts as a transcriptional repressor of Nr4a2 and Ctip2, and this repression specifies retrosplenial identity cell-autonomously.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The expression profile and function of Satb2 in zebrafish embryonic development (PMID: 20814748)",
+        "evidence_subtype": "expression",
+        "summary": "Zebrafish satb2 is ubiquitously expressed from the 1-cell to the 10-somite stage, then becomes restricted to the pronephric duct (24 hpf), branchial arches (36 hpf), and retinal ganglion cell layer and fins (48 hpf). Knockdown arrests embryos at 50-60% epiboly, impairs cell migration, and reduces dynamin II and VAMP4. Knockdown also disorganizes actin and the yolk syncytial layer.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SATB2 drives glioblastoma growth by recruiting CBP to promote FOXM1 expression in glioma stem cells (PMID: 33124191)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SATB2 is preferentially expressed in glioma stem cells. It binds the MAR of the FOXM1 locus and recruits the histone acetyltransferase CBP to activate FOXM1 and drive proliferation. SATB2 knockdown reduces GSC proliferation and GBM growth, and the CBP inhibitor C646 suppresses growth in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Satb1 and Satb2 regulate embryonic stem cell differentiation and Nanog expression (PMID: 19933152)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Satb2 is upregulated in Satb1-/- ES cells. Forced Satb2 expression in wild-type ES cells antagonizes differentiation-associated silencing of Nanog, and both Satb1 and Satb2 bind the Nanog locus in vivo. Satb1 and Satb2 thus act antagonistically on Nanog expression and pluripotency.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SATB2 expression increased anchorage-independent growth and cell migration in human bronchial epithelial cells (PMID: 26780400)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Ectopic SATB2 expression in BEAS-2B cells increased anchorage-independent growth and migration. shRNA knockdown reduced growth in Ni-transformed cells. RNA-seq showed SATB2-regulated genes enriched in cytoskeleton, cell adhesion and cell movement pathways. SATB2 expression is also induced in cells transformed by As, Cr, Ni and V.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "miR-29a-5p Targets SATB2 and Regulates the SIRT1/Smad3 Deacetylation Pathway to Inhibit Thoracic Ligamentum Flavum Cell Osteogenesis (PMID: 32205703)",
+        "evidence_subtype": "pathway",
+        "summary": "SATB2 is upregulated in ossified thoracic ligamentum flavum tissue, and miR-29a-5p directly targets and suppresses it (dual luciferase assay). SATB2 knockdown reduced SIRT1 expression and Smad3 acetylation and blunted the miR-29a-5p effect on osteogenesis, placing SATB2 upstream of the SIRT1/Smad3 pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Multiomic profiling of transcription factor binding and function in human brain (PMID: 38831039); ASHG 2023 - Extensive profiling of transcription factors in postmortem brains",
+        "evidence_subtype": "function",
+        "summary": "ChIP-seq in human postmortem brain shows that the neuronal TFs SATB2 and TBR1 bind unique regions depleted of high-occupancy sites. These regions regulate and promote neuron-specific gene expression, consistent with SATB2 acting as a neuronal transcriptional regulator.",
+        "sample_size": ">100 TFs; 1,072 ChIP-seq experiments (ASHG abstract)",
+        "significance": null
+      }
+    ]
+  }
+}

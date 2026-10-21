@@ -1,0 +1,107 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 2,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Interstitial microdeletion of 17q11.2 is associated with hypotonia, fatigue, intellectual disability, and a subtle facial phenotype in three unrelated patients (PMID: 29130599)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "De novo heterozygous interstitial microdeletions of 17q11.2 (0.97\u20131.18 Mb; smallest region of overlap 863 kb). The region contains 7 genes, including ZNF207, CDK5R1, PSMD11, RHOT1 and SUZ12. These are multi-gene deletions, not ZNF207-specific variants.",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability (mild to severe)",
+              "hypotonia (significant in two patients, investigated for a possible neuromuscular disorder)",
+              "excessive fatigue with daytime somnolence (two female patients)",
+              "broad and wide forehead",
+              "long palpebral fissures",
+              "bulbous nasal tip",
+              "thick lips"
+            ]
+          }
+        ],
+        "diagnostic_reason": "The deletions were de novo and overlapped between three unrelated patients with similar phenotypes. ZNF207 is one of five genes in the smallest region of overlap predicted to be haploinsufficient (CDK5R1, PSMD11, RHOT1, SUZ12, ZNF207). CDK5R1 and RHOT1 were proposed as the main candidates, so ZNF207 is not specifically implicated.",
+        "center_country": "Three unrelated patients from three different countries (specific centers not stated in the abstract)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Lee et al. 2014 - A microtubule-associated zinc finger protein, BuGZ, regulates mitotic chromosome alignment by ensuring Bub3 stability and kinetochore targeting (PMID: 24462186)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ZNF207 (BuGZ) associates with spindle microtubules and directly binds and stabilizes Bub3 through its GLEBS motif. Through its microtubule-binding domain it enhances Bub3 loading onto kinetochores in prometaphase, which is needed for chromosome alignment and metaphase-to-anaphase progression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG/other 2025 - RNA-coupled CRISPR Screens Reveal ZNF207 as a Regulator of LMNA Aberrant Splicing in Progeria (PMID: 40568141)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A pooled CRISPR splicing-reporter screen (CRASP-Seq) identified ZNF207 as a regulator of progerin splicing. ZNF207 depletion enhanced canonical LMNA splicing and lowered progerin in patient-derived cells. Its zinc finger domain interacts with U1 snRNP factors, which supports a role as a U1 snRNP auxiliary factor.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2018 - A distinct isoform of ZNF207 controls self-renewal and pluripotency of human embryonic stem cells (PMID: 30349051)",
+        "evidence_subtype": "function",
+        "summary": "ZNF207 was identified by proteomics as an OCT4 enhancer-associated protein. In hESCs a specific isoform partners with master pluripotency TFs to maintain self-renewal and pluripotency. Isoform switching directs ectoderm commitment through direct regulation of neuronal TFs such as OTX2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - ZNF207-driven PRDX1 lactylation and NRF2 activation in regorafenib resistance and ferroptosis evasion (PMID: 40680452)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A CRISPR/Cas9 screen in regorafenib-treated HCC cells identified ZNF207 as a driver of resistance. ZNF207 promotes PRDX1 lactylation at K67, which enhances NRF2 nuclear translocation and activation and suppresses ferroptosis. ZNF207 knockdown restores ferroptosis and regorafenib sensitivity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - Transcription factor ZNF207 drives aerobic glycolysis and facilitates malignancy progression in hepatocellular carcinoma (PMID: 40684964)",
+        "evidence_subtype": "function",
+        "summary": "ZNF207 acts as a transcription factor that regulates ENO1 and GAPDH transcription (shown by dual-luciferase and ChIP-qPCR), promoting aerobic glycolysis in HCC. Silencing ZNF207 reduced xenograft growth and lung metastasis in nude mice. The compound pinosylvin targets ZNF207 and lowers GAPDH and ENO1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2022 - System analysis based on the cancer-immunity cycle identifies ZNF207 as a novel immunotherapy target for hepatocellular carcinoma (PMID: 35246476)",
+        "evidence_subtype": "pathway",
+        "summary": "Hypoxia upregulates ZNF207 in HCC. ZNF207 acts through the MAPK-CX3CL1 axis in CD8+ T-cell chemotaxis and transcriptionally regulates IDO1, raising kynurenine and exhausting CD8+ T cells. Low ZNF207 expression predicts greater sensitivity to anti-PD1 therapy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2019 - Expression of ZNF207 in hepatocellular carcinoma and its significance (PMID: 31113916)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF207 mRNA and protein are elevated in HCC relative to adjacent non-tumor liver. High expression correlates with cirrhosis, nodule number, capsule, vascular invasion and TNM stage, and is an independent risk factor for poor OS and DFS.",
+        "sample_size": "10 paired fresh tissues (qPCR); 135 paraffin-embedded HCC cases (IHC)",
+        "significance": "P<0.01 (mRNA, survival); P<0.05 (clinicopathology, independent risk factor)"
+      },
+      {
+        "citation": "2025 - Downregulation of hnRNPA1 inhibits hepatocellular carcinoma cell progression by modulating alternative splicing of ZNF207 exon 9 (PMID: 39834948)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "hnRNPA1 binds ZNF207 RNA (RIP assay) and regulates skipping of ZNF207 exon 9. This links ZNF207 splicing to PI3K/Akt/mTOR signaling and to HCC cell proliferation, migration and apoptosis in Hep G2 cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2015 - Oncogenic HER2 fusions in gastric cancer (PMID: 25889497)",
+        "evidence_subtype": "other",
+        "summary": "A ZNF207-HER2 fusion was found in 3 of 21 HER2-amplified gastric cancers (14%, together with MDK-HER2 and NOS2-HER2 fusions). ZNF207-HER2 is oncogenic and activates HER2 kinase. It does not bind trastuzumab, so xenografts expressing it were resistant to trastuzumab.",
+        "sample_size": "21 HER2-positive GC samples",
+        "significance": null
+      },
+      {
+        "citation": "2023 - Conserved transcription factors promote cell fate stability and restrict reprogramming potential in differentiated cells (PMID: 36973293)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide TF screen identified ZNF207 as one of four TFs (ATF7IP, JUNB, SP7, ZNF207) that oppose cell fate reprogramming. They keep chromatin at reprogramming TF motifs closed and downregulate genes required for reprogramming. Knocking them down together with MGT overexpression improved heart function after myocardial infarction.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

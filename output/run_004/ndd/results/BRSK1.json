@@ -1,0 +1,196 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 3,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Haploinsufficiency of brain-specific kinase BRSK1 causes epilepsy and neurodevelopmental disorders (PMID: 41035394)",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "Frameshift/nonsense variants (including indels) in BRSK1; specific notations not given in abstract. Complete loss of detectable BRSK1 protein.",
+            "type": "LoF",
+            "phenotypes": [
+              "epilepsy",
+              "neurodevelopmental disorders"
+            ]
+          },
+          {
+            "description": "One missense variant (specific notation not given in abstract) that reduced BRSK1 protein levels",
+            "type": "missense",
+            "phenotypes": [
+              "epilepsy",
+              "neurodevelopmental disorders"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Six novel variants in seven probands from trio exome sequencing; five de novo, one inherited, one recurrent; LoF variants led to loss of BRSK1 protein, the missense reduced protein levels; Brsk1 knockout mice (heterozygous and homozygous) show seizure susceptibility, hyperexcitability and neurobehavioral impairments, supporting haploinsufficiency",
+        "center_country": "Not stated in abstract (cohort of 394 epilepsy probands; likely China)",
+        "cohort": null
+      },
+      {
+        "citation": "Monoallelic variants in BRSK1 are associated with a neurodevelopmental disorder with or without epilepsy (PMID: 42805187)",
+        "num_patients": 10,
+        "variants": [
+          {
+            "description": "p.Ile202Val (modeled in Drosophila)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "anxiety",
+              "ADHD",
+              "autism",
+              "seizures (variable)"
+            ]
+          },
+          {
+            "description": "p.Arg237Cys (modeled in Drosophila)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "anxiety",
+              "ADHD",
+              "autism",
+              "seizures (variable)"
+            ]
+          },
+          {
+            "description": "p.Thr406Ile (modeled in Drosophila)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "anxiety",
+              "ADHD",
+              "autism",
+              "seizures (variable)"
+            ]
+          },
+          {
+            "description": "Other missense and nonsense variants in the remaining individuals (notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "anxiety",
+              "ADHD",
+              "autism",
+              "seizures (variable)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare heterozygous variants predicted deleterious by in silico tools; one individual identified via the Texome Project using AI-MARRVEL, nine more via GeneMatcher; Drosophila sff null rescue assays showed the three tested missense alleles are partial loss-of-function",
+        "center_country": "Texas, USA (Texome Project); additional centers via GeneMatcher",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2022 - An emirati cohort of autism spectrum disorders",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Novel de novo variant in BRSK1 (notation and type not specified)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel de novo variant identified by trio exome sequencing in an Emirati ASD cohort; BRSK1 proposed as a candidate ASD gene (not classified as likely pathogenic)",
+        "center_country": "United Arab Emirates",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Haploinsufficiency of brain-specific kinase BRSK1 causes epilepsy and neurodevelopmental disorders (PMID: 41035394)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Brsk1 exon 4-7 deletion, Brsk1\u03944-7; both heterozygous and homozygous animals studied)",
+        "phenotypes": [
+          "increased seizure susceptibility in heterozygous and homozygous mice",
+          "neuronal hyperexcitability",
+          "neurobehavioral impairments",
+          "recapitulates the clinical features of human BRSK1 haploinsufficiency (epilepsy and neurodevelopmental disorders)",
+          "proteomic and phosphoproteomic dysregulation of pathways critical for axonal development and synaptic function"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Haploinsufficiency of brain-specific kinase BRSK1 causes epilepsy and neurodevelopmental disorders (PMID: 41035394)",
+        "evidence_subtype": "other",
+        "summary": "Trio exome sequencing found six novel BRSK1 variants (mostly de novo, frameshift/nonsense/missense) in seven epilepsy probands. Truncating variants abolished BRSK1 protein and a missense variant reduced it. Brsk1 \u03944-7 knockout mice (heterozygous and homozygous) showed seizure susceptibility, neuronal hyperexcitability and behavioral deficits, and proteomics/phosphoproteomics showed dysregulated axonal development and synaptic pathways.",
+        "sample_size": "394 epilepsy probands; 7 probands with BRSK1 variants; Brsk1\u03944-7 mouse line",
+        "significance": null
+      },
+      {
+        "citation": "Monoallelic variants in BRSK1 are associated with a neurodevelopmental disorder with or without epilepsy (PMID: 42805187)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Ten individuals with heterozygous BRSK1 variants had developmental delay, autism, ADHD, anxiety and seizures. The Drosophila ortholog sff is expressed in neurons. sff null flies show locomotor defects, bang/heat sensitivity, short lifespan, NMJ overgrowth and elevated Futsch (MAP1B). Human BRSK1 cDNA rescued these phenotypes, whereas the Ile202Val, Arg237Cys and Thr406Ile alleles gave only partial rescue, consistent with partial loss of function.",
+        "sample_size": "10 individuals; 3 missense variants modeled in Drosophila",
+        "significance": null
+      },
+      {
+        "citation": "Decreased expression and prognostic role of cytoplasmic BRSK1 in human breast carcinoma: correlation with Jab1 stability and PI3K/Akt pathway (PMID: 25036402)",
+        "evidence_subtype": "expression",
+        "summary": "Cytoplasmic BRSK1 was inversely correlated with Jab1 and with histologic grade in breast carcinoma, and low expression predicted poor survival. Release from serum starvation lowered BRSK1 and p27 and raised Jab1 and p-Akt. PI3K inhibition with LY294002 increased BRSK1. BRSK1 is proposed as a tumor suppressor acting through the PI3K/Akt\u2013Jab1\u2013p27 axis.",
+        "sample_size": "95 breast carcinoma samples; MDA-MB-231 and other breast cancer cell lines",
+        "significance": "P<0.01 (Jab1 correlation, survival); P=0.006 (histologic grade)"
+      },
+      {
+        "citation": "Integrative High-Throughput RNAi Screening Identifies BRSK1, STK32C and STK40 as Novel Activators of YAP/TAZ (PMID: 40869130)",
+        "evidence_subtype": "pathway",
+        "summary": "Two kinome RNAi screens in TNBC lines (YAP/TAZ localization and TEAD-luciferase reporter) identified BRSK1 as a regulator of YAP/TAZ activity. This places BRSK1 as an AMPK-family member in Hippo pathway regulation, alongside NUAKs, MARKs and SIKs.",
+        "sample_size": "MDA-MB-231 and MDA-MB-468 cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Brain specific kinase-1 BRSK1/SAD-B associates with lipid rafts: modulation of kinase activity by lipid environment (PMID: 22020259)",
+        "evidence_subtype": "function",
+        "summary": "Brain BRSK1, but not BRSK2, is palmitoylated, and a pool of it localizes to membrane lipid rafts. Raft-associated BRSK1 has higher Thr189 T-loop phosphorylation. Raft-like lipid vesicles increased recombinant BRSK1 activity about 3-fold, including the constitutively active T189E mutant, revealing lipid-environment regulation independent of T-loop phosphorylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRSK1 confers cisplatin resistance in cervical cancer cells via regulation of mitochondrial respiration (PMID: 37140697)",
+        "evidence_subtype": "cell_culture",
+        "summary": "BRSK1 was upregulated in cisplatin-treated cervical tumors and cell lines. Its depletion sensitized normal and resistant cells to cisplatin. This effect depends on kinase activity and on a mitochondrial pool of BRSK1 that regulates mitochondrial respiration. High BRSK1 expression correlated with poor prognosis in cisplatin-treated patients.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuronal Growth Factor regulates Brain Specific Kinase 1 expression by inhibiting promoter methylation and promoting Sp1 recruitment (PMID: 30196145)",
+        "evidence_subtype": "expression",
+        "summary": "BRSKs are preferentially expressed in brain after E12. NGF increased Brsk1 mRNA in PC12 cells through MAPK-dependent Sp1 activation. Sp1 binding at a CpG-island site in the minimal promoter (-342 to +125) was blocked by DNA methylation. 5'Aza-dC synergized with NGF, and DNMT3B overexpression (itself an NGF/MAPK target) abolished the promoter's NGF response.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LKB1 is a master kinase that activates 13 kinases of the AMPK subfamily, including MARK/PAR-1 (PMID: 14976552)",
+        "evidence_subtype": "pathway",
+        "summary": "LKB1 (with STRAD and MO25) phosphorylates the T-loop of BRSK1 and BRSK2 and other AMPK-related kinases, increasing activity more than 50-fold. This places BRSK1 downstream of LKB1 in the AMPK-related kinase cascade. AMPK activators phenformin and AICAR did not stimulate this pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulation of brain-specific kinases 1 and 2 (BRSK1/2) by Ca(2+)/calmodulin (PMID: 41905287)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A screen of 462 kinases identified calmodulin interaction with BRSK2, and BRSK1 also binds CaM in a Ca2+-dependent manner via its kinase domain. Ca2+/CaM blocks LKB1-mediated Thr189 phosphorylation and activation of BRSK1 (IC50 ~7 \u00b5M) without affecting LKB1 activity or PP2C\u03b1 dephosphorylation of already-phosphorylated BRSK1.",
+        "sample_size": "462 GST-fused human kinases screened",
+        "significance": "IC50 ~7 \u00b5M"
+      },
+      {
+        "citation": "The balance of mitochondrial fission and fusion in cortical axons depends on the kinases SadA and SadB (PMID: 34936879)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SadA/B (BRSK2/BRSK1) regulate axonal mitochondrial dynamics in cortical neurons through tau phosphorylation, stimulated by Ankyrin B. Loss of SadA/B causes hyper-fused mitochondria, integrated stress response activation, excess actin stabilization and reduced Drp1 recruitment to mitochondria.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

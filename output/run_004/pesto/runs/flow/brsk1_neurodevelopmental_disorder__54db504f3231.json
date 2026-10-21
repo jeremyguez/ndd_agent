@@ -1,0 +1,655 @@
+{
+ "gene": "BRSK1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of neurological development",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "KIAA1811",
+   "SAD-B",
+   "BR serine/threonine kinase 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 53,
+  "titlekicksparingfulltext": 18,
+  "read": 16
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 72,
+   "Existing": 23,
+   "Hypothesized": 5,
+   "Novel": 0
+  },
+  "justification": "Two independent human genetic studies report their own primary patient data: PMID 41035394 identified six novel BRSK1 variants (mostly de novo SNVs/indels, with loss of protein) in seven probands with epilepsy/neurodevelopmental disorder, supported by a knockout mouse recapitulating seizures and behavioral deficits; PMID 42805187 independently identified ten individuals with rare heterozygous BRSK1 variants via the Texome Project and GeneMatcher, with Drosophila modeling showing partial loss-of-function. These are independent probands/cohorts, not CNVs, and both include functional corroboration, satisfying replication criteria for Established. Supporting biology (LKB1\u2013SAD-A/SAD-B neuronal polarization pathway, PMIDs 17482548, 18339622) and the paralog BRSK2's established NDD association (PMID 30879638) strengthen plausibility. Some residual probability remains for Existing given the recency of both reports and limited independent clinical replication beyond them.",
+  "pmids": [],
+  "detail": {
+   "Established": 72,
+   "Existing": 23,
+   "Hypothesized": 5,
+   "Novel": 0
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41035394",
+   "title": "Haploinsufficiency of brain-specific kinase BRSK1 causes epilepsy and neurodevelopmental disorders.",
+   "abstract": "OBJECTIVE: The BRSK1 gene encodes brain-specific serine/threonine kinase 1 (also known as SAD-B kinase), which is almost exclusively expressed in the brain and plays critical roles in neuronal polarization, neurotransmitter release, mitochondrial dynamics, and neuronal maturation. This study aimed to investigate the pathogenicity of BRSK1 variants in epilepsy and neurodevelopmental disorders. METHODS: Trio-based exome sequencing was performed in 394 probands with epilepsy. Expression analyses and functional validation were conducted using a newly generated Brsk1 exon 4-7 knockout mouse line (Brsk1\u03944-7), with subsequent behavioral, electrophysiological, proteomic, and phosphoproteomic assessments. RESULTS: Six novel BRSK1 variants were identified in seven probands, including four single nucleotide variants (SNVs) and two indels; five were de novo, one inherited, and one recurrent. Frameshift or nonsense variants led to complete loss of detectable BRSK1 protein, whereas one missense variant reduced protein levels. Both heterozygous and homozygous Brsk1\u03944-7 mice exhibit increased seizure susceptibility, neuronal hyperexcitability, and neurobehavioral impairments-recapitulating key clinical features associated with BRSK1 haploinsufficiency in humans. Proteomic and phosphoproteomic analyses revealed dysregulation of pathways critical for axonal development and synaptic function. SIGNIFICANCE: Our genomic and functional studies strongly support BRSK1 haploinsufficiency as a pathogenic mechanism in a human epilepsy syndrome. To our knowledge, this is the first study to implicate the brain-specific serine/threonine kinase BRSK1 in epilepsy and neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2025 Dec",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42805187",
+   "title": "Monoallelic variants in BRSK1 are associated with a neurodevelopmental disorder with or without epilepsy.",
+   "abstract": "Brain-specific serine/threonine kinase (BRSK1; synapses of amphids defective [SAD]-B) encodes an AMP-activated protein kinase (AMPK)-related serine/threonine kinase required for neuronal polarization and synaptic function. An individual with a variant in BRSK1 was identified in the Texome Project, which provides genomic diagnosis to financially disadvantaged individuals in Texas, using AI-MARRVEL. We subsequently found nine individuals harboring rare heterozygous BRSK1 variants through GeneMatcher. Affected individuals present with developmental delay and variable phenotypes including anxiety, attention-deficit hyperactivity disorder (ADHD), autism, and seizures. All variants (missense and nonsense) are predicted to be deleterious by pathogenicity prediction tools. We utilized Drosophila to model three missense variants to assess the impact of the variants in vivo. We show that Drosophila sff (sugar-free frosting; ortholog of BRSK1) is expressed in neurons of the larval central nervous system (CNS) and adult brain. Loss of sff leads to viable flies with severe locomotor impairment, bang and heat sensitivity, and a short lifespan. In addition, the third-instar neuromuscular junctions (NMJs) in sff null mutants display a significant overgrowth, associated with elevated levels of Futsch (MAP1B), a microtubule-associated protein. Expression of the human reference BRSK1 cDNA in the sff null mutant rescues the behavioral, NMJ morphology, and Futsch phenotypes, showing that the human gene is functional in flies. In contrast, the three individual-derived alleles (BRSK1p.Ile202Val, BRSK1p.Arg237Cys, and BRSK1p.Thr406Ile) provide only a partial rescue and fail to normalize NMJ morphology and Futsch levels, suggesting that they are partial loss-of-function alleles. In summary, our data support a model that heterozygous loss of BRSK1 leads to a neurodevelopmental syndrome with variable phenotypes.",
+   "found_by": [],
+   "pubdate": "2026 Sep 28",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41291187",
+   "title": "Sh3rf3 Deficiency drives autism-like behaviors via presynaptic dysfunction in mice.",
+   "abstract": "Autism spectrum disorder (ASD) is a prevalent and complex neurodevelopmental disorder with a strong genetic basis. Although SH3RF3 has been identified as an ASD candidate gene, its biological function and pathophysiological mechanisms remain elusive. Here, we reveal that SH3RF3 functions as an essential scaffold protein that facilitates presynaptic vesicle docking. Mechanistically, it orchestrates the formation of a molecular complex between the kinase BRSK1/SAD-B and the ASD-associated active zone protein RIM1. Genetic ablation of Sh3rf3 disrupts this protein-protein interaction, leading to reduced RIM1 phosphorylation. This perturbation triggers synaptic dysfunctions, marked by a substantial reduction in both total synaptic vesicle (SV) density and readily releasable pool size, coupled with delayed SV replenishment kinetics. These deficits ultimately impair excitatory synaptic transmission in the prefrontal cortex, disturb the excitatory-inhibitory (E/I) balance, and elicit autistic-like behaviors in mice. Notably, prefrontal cortex-specific restoration of Sh3rf3 reverses behavioral and functional deficits in knockout mice. Furthermore, our characterization of the SH3RF3 interactome reveals a shared molecular network encompassing ASD-risk genes, indicating that synapse-targeted therapies may have broad applicability.",
+   "found_by": [],
+   "pubdate": "2026 Apr",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "17482548",
+   "title": "LKB1 and SAD kinases define a pathway required for the polarization of cortical neurons.",
+   "abstract": "The polarization of axon and dendrites underlies the ability of neurons to integrate and transmit information in the brain. We show here that the serine/threonine kinase LKB1, previously implicated in the establishment of epithelial polarity and control of cell growth, is required for axon specification during neuronal polarization in the mammalian cerebral cortex. LKB1 polarizing activity requires its association with the pseudokinase Stradalpha and phosphorylation by kinases such as PKA and p90RSK, which transduce neurite outgrowth-promoting cues. Once activated, LKB1 phosphorylates and thereby activates SAD-A and SAD-B kinases, which are also required for neuronal polarization in the cerebral cortex. SAD kinases, in turn, phosphorylate effectors such as microtubule-associated proteins that implement polarization. Thus, we provide evidence in vivo and in vitro for a multikinase pathway that links extracellular signals to the intracellular machinery required for axon specification.",
+   "found_by": [],
+   "pubdate": "2007 May 4",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "21490487",
+   "title": "Distribution of serine/threonine kinase SAD-B in mouse peripheral nerve synapse.",
+   "abstract": "The serine/threonine kinase SAD regulates neural functions such as axon/dendrite polarization and neurotransmitter release. In the vertebrate central nervous system, SAD-B, a homolog of Caenorhabditis elegans SAD-1, is associated with synaptic vesicles and the active zone cytomatrix in nerve terminals. However, the distribution of SAD-B in the peripheral nervous system remains elusive. Here, we show that SAD-B is specifically localized to neuromuscular junctions. Although the active zone protein bassoon showed a punctated signal indicating its localization to motor end plates, SAD-B shows relatively diffuse localization indicating its association with both the active zone and synaptic vesicles. Therefore, SAD kinase may regulate neurotransmitter release from motor end plates in a similar manner to its regulation of neurotransmitter release in the central nervous system.",
+   "found_by": [],
+   "pubdate": "2011 May 11",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "18794346",
+   "title": "Tuberous sclerosis complex proteins control axon formation.",
+   "abstract": "Axon formation is fundamental for brain development and function. TSC1 and TSC2 are two genes, mutations in which cause tuberous sclerosis complex (TSC), a disease characterized by tumor predisposition and neurological abnormalities including epilepsy, mental retardation, and autism. Here we show that Tsc1 and Tsc2 have critical functions in mammalian axon formation and growth. Overexpression of Tsc1/Tsc2 suppresses axon formation, whereas a lack of Tsc1 or Tsc2 function induces ectopic axons in vitro and in the mouse brain. Tsc2 is phosphorylated and inhibited in the axon but not dendrites. Inactivation of Tsc1/Tsc2 promotes axonal growth, at least in part, via up-regulation of neuronal polarity SAD kinase, which is also elevated in cortical tubers of a TSC patient. Our results reveal key roles of TSC1/TSC2 in neuronal polarity, suggest a common pathway regulating polarization/growth in neurons and cell size in other tissues, and have implications for the understanding of the pathogenesis of TSC and associated neurological disorders and for axonal regeneration.",
+   "found_by": [],
+   "pubdate": "2008 Sep 15",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "18339622",
+   "title": "Investigating the regulation of brain-specific kinases 1 and 2 by phosphorylation.",
+   "abstract": "Brain-specific kinases 1 and 2 (BRSK1/2) are AMP-activated protein kinase (AMPK)-related kinases that are highly expressed in mammalian forebrain. Studies using transgenic animal models have implicated a role for these kinases in the establishment of neuronal polarity. BRSK1 and BRSK2 are activated by phosphorylation of a threonine residue in the T-loop activation segment of the kinase domain. In vitro studies have demonstrated that LKB1, an upstream kinase in the AMPK cascade, can catalyze this phosphorylation. However, to date, a detailed comparative analysis of the molecular regulation of BRSK1/2 has not been undertaken. Here we present evidence that excludes another upstream kinase in the AMPK cascade, Ca(2+)/calmodulin-dependent protein kinase kinase beta, from a role in activating BRSK1/2. We show that equivalent mutations in the ubiquitin-associated domains of the BRSK isoforms produce differential effects on the activation of BRSK1 and BRSK2. Contrary to previous reports, activation of cAMP-dependent protein kinase does not affect BRSK1 or BRSK2 activity in mammalian cells. Furthermore, stimuli that activate AMPK had no effect on BRSK1/2. Finally, we provide evidence suggesting that protein phosphatase 2C is a likely candidate for catalyzing the dephosphorylation and inactivation of BRSK1/2.",
+   "found_by": [],
+   "pubdate": "2008 May 30",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38586025",
+   "title": "Redox Regulation of Brain Selective Kinases BRSK1/2: Implications for Dynamic Control of the Eukaryotic AMPK family through Cys-based mechanisms.",
+   "abstract": "In eukaryotes, protein kinase signaling is regulated by a diverse array of post-translational modifications (PTMs), including phosphorylation of Ser/Thr residues and oxidation of cysteine (Cys) residues. While regulation by activation segment phosphorylation of Ser/Thr residues is well understood, relatively little is known about how oxidation of cysteine residues modulate catalysis. In this study, we investigate redox regulation of the AMPK-related Brain-selective kinases (BRSK) 1 and 2, and detail how broad catalytic activity is directly regulated through reversible oxidation and reduction of evolutionarily conserved Cys residues within the catalytic domain. We show that redox-dependent control of BRSKs is a dynamic and multilayered process involving oxidative modifications of several Cys residues, including the formation of intramolecular disulfide bonds involving a pair of Cys residues near the catalytic HRD motif and a highly conserved T-Loop Cys with a BRSK-specific Cys within an unusual CPE motif at the end of the activation segment. Consistently, mutation of the CPE-Cys increases catalytic activity in vitro and drives phosphorylation of the BRSK substrate Tau in cells. Molecular modeling and molecular dynamics simulations indicate that oxidation of the CPE-Cys destabilizes a conserved salt bridge network critical for allosteric activation. The occurrence of spatially proximal Cys amino acids in diverse Ser/Thr protein kinase families suggests that disulfide mediated control of catalytic activity may be a prevalent mechanism for regulation within the broader AMPK family.",
+   "found_by": [],
+   "pubdate": "2024 Apr 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40172959",
+   "title": "Redox regulation and dynamic control of brain-selective kinases BRSK1/2 in the AMPK family through cysteine-based mechanisms.",
+   "abstract": "In eukaryotes, protein kinase signaling is regulated by a diverse array of post-translational modifications, including phosphorylation of Ser/Thr residues and oxidation of cysteine (Cys) residues. While regulation by activation segment phosphorylation of Ser/Thr residues is well understood, relatively little is known about how oxidation of cysteine residues modulate catalysis. In this study, we investigate redox regulation of the AMPK-related brain-selective kinases (BRSK) 1 and 2, and detail how broad catalytic activity is directly regulated through reversible oxidation and reduction of evolutionarily conserved Cys residues within the catalytic domain. We show that redox-dependent control of BRSKs is a dynamic and multilayered process involving oxidative modifications of several Cys residues, including the formation of intramolecular disulfide bonds involving a pair of Cys residues near the catalytic HRD motif and a highly conserved T-loop Cys with a BRSK-specific Cys within an unusual CPE motif at the end of the activation segment. Consistently, mutation of the CPE-Cys increases catalytic activity in vitro and drives phosphorylation of the BRSK substrate Tau in cells. Molecular modeling and molecular dynamics simulations indicate that oxidation of the CPE-Cys destabilizes a conserved salt bridge network critical for allosteric activation. The occurrence of spatially proximal Cys amino acids in diverse Ser/Thr protein kinase families suggests that disulfide-mediated control of catalytic activity may be a prevalent mechanism for regulation within the broader AMPK family.",
+   "found_by": [],
+   "pubdate": "2025 Apr 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18854318",
+   "title": "C-terminal phosphorylation of LKB1 is not required for regulation of AMP-activated protein kinase, BRSK1, BRSK2, or cell cycle arrest.",
+   "abstract": "The tumor suppressor protein kinase LKB1 exerts its effects by phosphorylating and activating AMP-activated protein kinase (AMPK) and members of the AMPK-related kinase family, such as the brain-specific kinases BRSK1/BRSK2 (SAD-B/SAD-A). LKB1 contains a conserved serine residue near the C terminus (Ser-431 in mouse LKB1) that is phosphorylated by cyclic AMP-dependent protein kinase and p90-RSK. Although some studies suggest that LKB1 is constitutively active and is not rate-limiting for activation of AMPK, others have suggested that phosphorylation of Ser-431 is necessary to allow LKB1 to phosphorylate and activate AMPK and other downstream kinases. Prompted by our discovery of an LKB1 splice variant (LKB1S) that lacks Ser-431, we have reinvestigated this question. In HeLa cells (which lack endogenous LKB1), co-expression with STRADalpha and MO25alpha of wild type LKB1, the S431A or S431E mutants of LKB1, or LKB1(S) gave equal levels of activation of endogenous AMPK. Similarly, recombinant STRADalpha.MO25alpha complexes containing these LKB1 variants were equally effective at phosphorylating and activating AMPK, BRSK1, and BRSK2 in cell-free assays. Finally, all four LKB1 variants and a truncated LKB1 lacking the C-terminal region altogether were equally effective at causing cell cycle arrest when co-expressed with STRADalpha and MO25alpha in the G361 melanoma cell line. Our results do not support the idea that phosphorylation of Ser-431 increases the ability of LKB1 to phosphorylate downstream targets.",
+   "found_by": [],
+   "pubdate": "2009 Jan 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41385589",
+   "title": "Activation of the ciliary kinase CDKL5 is mediated by the cyclin-dependent kinase CDK20/LF2 to control flagellar length.",
+   "abstract": "Variants in the protein kinase CDKL5 cause CDKL5 Deficiency Disorder (CDD), a severe neurodevelopmental condition characterized by seizures, developmental delay, and intellectual disability. The Chlamydomonas homolog of CDKL5, LF5, is a flagellar protein whose loss leads to elongated flagella. Here, we combine live-cell imaging, immunofluorescence, and biochemical approaches including mass spectrometry to define how CDKL5 activity is regulated and how its loss alters ciliary function. We find that Chlamydomonas CDKL5 is activated by LF2, a cyclin-dependent kinase, through phosphorylation of its activation loop. This activation controls CDKL5 localization in steady-state cilia, down-regulates its IFT-mediated transport as flagella reach steady-state, controls ciliary abundance of IFT proteins, and controls phosphorylation of the tubulin-binding domain of IFT74, thereby influencing flagellar length. Mouse Cdkl5 shows similar properties: it localizes within cilia, its loss leads to ciliary elongation, and its localization depends on both its kinase activity and Cdk20, the mammalian ortholog of LF2. These results extend our understanding of ciliary length control, challenge the prevailing model that CDKL5 is activated by autophosphorylation, and suggest that CDD pathogenesis arises, at least in part, from disruption of this conserved ciliary regulatory pathway. [full text, passages naming BRSK1] ...a . The four remaining proteins are mostly unstudied in the context of ciliary biology and only two (Cre02.g075900.t1.1 and Cre12.g499500.t1.1) are conserved in humans. These two are protein kinases similar to BRSK1 in humans and SNRK2 kinases in plants. BRSK1 is centrosome localized and phosphorylates gamma tubulin [ 45 ], whereas SNRK2 kinases are involved in stress responses and development [ 46 ]. Interestingly,... ...studied in the context of ciliary biology and only two (Cre02.g075900.t1.1 and Cre12.g499500.t1.1) are conserved in humans. These two are protein kinases similar to BRSK1 in humans and SNRK2 kinases in plants. BRSK1 is centrosome localized and phosphorylates gamma tubulin [ 45 ], whereas SNRK2 kinases are involved in stress responses and development [ 46 ]. Interestingly, four of the co-precipitated proteins\u2014FAP430,...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37671287",
+   "title": "Case report: A novel frameshift mutation in BRSK2 causes autism in a 16-year old Chinese boy.",
+   "abstract": "Serine/threonine protein kinases are involved in axon formation and neuronal polarization and have recently been implicated in autism spectrum disorder (ASD) and neurodevelopmental disorders (NDD). Here, we focus on BRSK2, which encodes brain-specific serine/threonine protein kinase 2. Although previous studies have reported 19 unrelated patients with BRSK2 pathogenic variation, only 15 of 19 patients have detailed clinical data. Therefore, more case reports are needed to enrich the phenotype associated with BRSK2 mutations. In this study, we report a novel de novo frameshift variant (c.442del, p.L148Cfs*39) identified by exome sequencing in a 16 year-old Chinese boy with ASD. The proband presented with attention-deficit, auditory hallucinations, limb tremor, and abnormal brain electrical activity mapping. This study expands the phenotypic spectrum of BRSK2-related cases and reveals the highly variable severity of disorders associated with BRSK2. [full text, passages naming BRSK1] ...pport and is a genome-wide significant risk gene for ASD ( 3 ). Brain selective kinase 2 (BRSK2) is a serine/threonine protein kinase that belongs to the AMPK-related protein kinase family, which also includes BRSK1 and 11 other kinases ( 4 ). BRSK2 was found to be selectively expressed in the mouse brain, and exhibited the highest expression in the brain among various human organs ( 5 ). Recent studies using KO mice... ...er kinases ( 4 ). BRSK2 was found to be selectively expressed in the mouse brain, and exhibited the highest expression in the brain among various human organs ( 5 ). Recent studies using KO mice suggested that BRSK1 and BRSK2 are essential for the development of polarity of forebrain neurons, which realizes distinct properties of axons and dendrites ( 6 ). In addition, BRSK2 mutations have been reported to be associa... ...isorders (e.g., autism). PTEN knockout mice exhibit neuronal structure malformation and autistic features caused by aberrant TSC-mTORC1 signaling ( 23 , 24 ). A previous publication reported that single mutant BRSK1 or BRSK2 mice were healthy and fertile, but BRSK1 and BRSK2 double knockout mice showed perinatal lethality with a severe defects in axon differentiation and died within 2 h after birth ( 4 ). Conversely,...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30879638",
+   "title": "Deleterious Variation in BRSK2 Associates with a Neurodevelopmental Disorder.",
+   "abstract": "Developmental delay and intellectual disability (DD and ID) are heterogeneous phenotypes that arise in many rare monogenic disorders. Because of this rarity, developing cohorts with enough individuals to robustly identify disease-associated genes is challenging. Social-media platforms that facilitate data sharing among sequencing labs can help to address this challenge. Through one such tool, GeneMatcher, we identified nine DD- and/or ID-affected probands with a rare, heterozygous variant in the gene encoding the serine/threonine-protein kinase BRSK2. All probands have a speech delay, and most present with intellectual disability, motor delay, behavioral issues, and autism. Six of the nine variants are predicted to result in loss of function, and computational modeling predicts that the remaining three missense variants are damaging to BRSK2 structure and function. All nine variants are absent from large variant databases, and BRSK2 is, in general, relatively intolerant to protein-altering variation among humans. In all six probands for whom parents were available, the mutations were found to have arisen de novo. Five of these de novo variants were from cohorts with at least 400 sequenced probands; collectively, the cohorts span 3,429 probands, and the observed rate of de novo variation in these cohorts is significantly higher than the estimated background-mutation rate (p = 2.46\u00a0\u00d7 10-6). We also find that exome sequencing provides lower coverage and appears less sensitive to rare variation in BRSK2 than does genome sequencing; this fact most likely reduces BRSK2's visibility in many clinical and research sequencing efforts. Altogether, our results implicate damaging variation in BRSK2 as a source of neurodevelopmental disease.",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35754711",
+   "title": "Deleterious Variation in BR Serine/Threonine Kinase 2 Classified a Subtype of Autism.",
+   "abstract": "Recently, deleterious variants in the BR serine/threonine kinase 2 (BRSK2) gene have been reported in patients with autism spectrum disorder (ASD), suggesting that BRSK2 is a new high-confidence ASD risk gene, which presents an opportunity to understand the underlying neuropathological mechanisms of ASD. In this study, we performed clinical and neurobehavioral evaluations of a proband with a de novo non-sense variant in BRSK2 (p.R222X) with other reported BRSK2 mutant patients. To validate BRSK2 as an ASD risk gene, we generated a novel brsk2b-deficient zebrafish line through CRISPR/Cas9 and characterized its morphological and neurobehavioral features as well as performed molecular analysis of neurogenesis-related markers. The proband displayed typical ASD behaviors and language and motor delay, which were similar to other published BRSK2 mutant patients. Morphologically, brsk2b -/- larvae exhibited a higher embryonic mortality and rate of pericardium edema, severe developmental delay, and depigmentation as well as growth retardation in the early developmental stage. Behaviorally, brsk2b-/- zebrafish displayed significantly decreased activity in open field tests and enhanced anxiety levels in light/dark tests and thigmotaxis analysis. Specifically, brsk2b-/- zebrafish showed a prominent reduction of social interaction with peers and disrupted social cohesion among homogeneous groups. Molecularly, the mRNA expression levels of homer1b (a postsynaptic density scaffolding protein), and mbpa, mpz, and plp1b (molecular markers of oligodendrocytes and myelination) were increased in the brain tissues of adult brsk2b-/- zebrafish, while the expression level of isl1a, a marker of motor neurons, was decreased. Taken together, for the first time, we established a novel brsk2b-deficient zebrafish model that showed prominent ASD-like behaviors. In addition, the disturbed mRNA expression levels of neurogenesis-related markers implied that the processes of postsynaptic signaling as well as oligodendrocytes and myelination may be involved. This discovery may suggest a path for further research to identify the underlying neuropathological mechanisms between BRSK2 and ASD. [full text, passages naming BRSK1] ...ance supporting BRSK2 as a novel risk gene for ASD. Also known as SAD1 or SADA, BRSK2 is located at 11p15.5 and is exclusively expressed in the human central nervous system and pancreas. Along with its homolog BRSK1 (also known as SAD2 or SAD-B, NP_115806.1 ), the BRSK2 ( NP_001243556.1 ) protein belongs to the AMPK-related family of protein kinases and plays a role in axon specification and arborization by regulatin... ...et al., 2014 ). Previous rodent models have been applied to study the molecular mechanisms underlying the neurodevelopmental effects of BRSK2 and these models displayed some of the phenotypes seen in patients. Brsk1/Brsk2 null mutant mice displayed neurodevelopmental disruptions including severe dyskinesia and lethality within 2 h after birth as well as a morphologically aberrant thin cortex and disturbed specificati... ...ere dyskinesia and lethality within 2 h after birth as well as a morphologically aberrant thin cortex and disturbed specification of axons and dendrites ( Kishi et al., 2005 ; Dhumale et al., 2018 ). Since the Brsk1/Brsk2 mutant mice died perinatally, several conditional knockout mice were also generated. The BRSK kinases were both deleted from motor neurons by embryonic day 13.5 in Brsk mice and 15.5 in Isl1 \u2013 cre B...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35011609",
+   "title": "KANPHOS: A Database of Kinase-Associated Neural Protein Phosphorylation in the Brain.",
+   "abstract": "Protein phosphorylation plays critical roles in a variety of intracellular signaling pathways and physiological functions that are controlled by neurotransmitters and neuromodulators in the brain. Dysregulation of these signaling pathways has been implicated in neurodevelopmental disorders, including autism spectrum disorder, attention deficit hyperactivity disorder and schizophrenia. While recent advances in mass spectrometry-based proteomics have allowed us to identify approximately 280,000 phosphorylation sites, it remains largely unknown which sites are phosphorylated by which kinases. To overcome this issue, previously, we developed methods for comprehensive screening of the target substrates of given kinases, such as PKA and Rho-kinase, upon stimulation by extracellular signals and identified many candidate substrates for specific kinases and their phosphorylation sites. Here, we developed a novel online database to provide information about the phosphorylation signals identified by our methods, as well as those previously reported in the literature. The \"KANPHOS\" (Kinase-Associated Neural Phospho-Signaling) database and its web portal were built based on a next-generation XooNIps neuroinformatics tool. To explore the functionality of the KANPHOS database, we obtained phosphoproteomics data for adenosine-A2A-receptor signaling and its downstream MAPK-mediated signaling in the striatum/nucleus accumbens, registered them in KANPHOS, and analyzed the related pathways. [full text, passages naming BRSK1] ...List of phosphoproteins along with phosphorylation site downstream of adenosine (A2AR) signaling. Motif | Identified Phosphoprotein and Phosphorylation Site | | PKA Arhgap21 | Arhgap21 | Arhgap21 | Arhgap23 | Brsk1 | Brsk2 | S472 | S851 | S875 | S401 | S324 | S383 | Bsn | Bsn | Cacna1b | Ccdc177 | Ccny | Cdk17 | S1987 | S2860 | S2219 | S303 | S301 | S180 | Chrna4 | Fam126b | Gpr75 | Hcn2 | Kcnh7 | Kif21b | S540 | S5... ...| Stim1 | Abi1 | Baiap2 | Cep170 | Erc2 | Lrrc7 | Panx2 | Rims1 | Syn1 | Abi2 | Bcr | Chrna4 | Etl4 | Madd | Pclo | Rims2 | Syn2 | Agap2 | Begain | Clasp2 | Fam171a1 | Map3k5 | Pfkfb2 | Rph3a | Syn3 | Agfg1 | Brsk1 | Crtc2 | Fam171a2 | Map4 | Pip5k1c | Rrad | Synpo | Akap6 | Brsk2 | Ctnnd2 | Fam171b | Mark1 | Pitpnm3 | Sh2d5 | Syt7 | Als2 | Bsn | Cyth3 | Frmd4a | Mark3 | Plekha5 | Shank3 | Tanc2 | Ampd2 | C17orf59 |...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38413626",
+   "title": "TBC1D23 mediates Golgi-specific LKB1 signaling.",
+   "abstract": "Liver kinase B1 (LKB1), an evolutionarily conserved serine/threonine kinase, is a master regulator of the AMPK subfamily and controls cellular events such as polarity, proliferation, and energy homeostasis. Functions and mechanisms of the LKB1-AMPK axis at specific subcellular compartments, such as lysosome and mitochondria, have been established. AMPK is known to be activated at the Golgi; however, functions and regulatory mechanisms of the LKB1-AMPK axis at the Golgi apparatus remain elusive. Here, we show that TBC1D23, a Golgi-localized protein that is frequently mutated in the neurodevelopment disorder pontocerebellar hypoplasia (PCH), is specifically required for the LKB1 signaling at the Golgi. TBC1D23 directly interacts with LKB1 and recruits LKB1 to Golgi, promoting Golgi-specific activation of AMPK upon energy stress. Notably, Golgi-targeted expression of LKB1 rescues TBC1D23 deficiency in zebrafish models. Furthermore, the loss of LKB1 causes neurodevelopmental abnormalities in zebrafish, which partially recapitulates defects in TBC1D23-deficient zebrafish, and LKB1 sustains normal neuronal development via TBC1D23 interaction. Our study uncovers a regulatory mechanism of the LKB1 signaling, and reveals that a disrupted Golgi-LKB1 signaling underlies the pathogenesis of PCH. [full text, passages naming BRSK1] ...metabolism, LKB1 functions in the nervous system mainly by activating other downstream effectors 7 , 8 . In addition to AMPK\u03b11/\u03b12, LKB1 also phosphorylates twelve other members of the AMPK subfamily, including BRSK1/2, NUAK1/2, SIK1/2/3, MARK1/2/3/4 and SNRK 1 , 9 . Accordingly, recent studies have uncovered critical roles of LKB1 in processes beyond controlling cellular metabolism, such as regulating neuronal develo... ...ent and homeostasis. LKB1 is necessary to promote neuronal polarity in cultured neurons and developing cortical neurons, and loss of LKB1 almost abolishes axonal formation 10 , 11 . LKB1-mediated activation of BRSK1/2 is critical for its role in neuronal polarity 12 , 13 . LKB1 regulates axon terminal branching and dendrite spacing through NUAK1 and SIK, respectively 12 \u2013 14 . In addition, LKB1 is also essential for...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "24493794": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40678382": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42703320": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23508249": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42580268": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24103315": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23360674": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28596382": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24759943": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24295069": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23424626": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37023992": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15287029": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40095483": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33262834": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14976552": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22131368": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28118297": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41035394": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42805187": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41291187": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17482548": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21490487": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18794346": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22248077": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31895179": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18339622": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27677186": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33582778": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38586025": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40172959": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18854318": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41385589": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37671287": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30879638": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40635396": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34568483": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40855463": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35754711": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35011609": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38413626": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32994493": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25006477": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39095355": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37771966": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22730494": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30518843": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32573857": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30617258": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20648061": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32452461": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32625571": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18538560": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "26 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "23 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 2255,
+   "output_tokens": 112,
+   "usd": 0.002815,
+   "calls": 4
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 48.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 20832,
+   "output_tokens": 810,
+   "usd": 0.024882,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 8.2,
+   "note": "",
+   "input_tokens": 12893,
+   "output_tokens": 649,
+   "usd": 0.08069,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>72</established>\n    <existing>23</existing>\n    <hypothesized>5</hypothesized>\n    <novel>0</novel>\n  </probabilities>\n  <justification>Two independent human genetic studies report their own primary patient data: PMID 41035394 identified six novel BRSK1 variants (mostly de novo SNVs/indels, with loss of protein) in seven probands with epilepsy/neurodevelopmental disorder, supported by a knockout mouse recapitulating seizures and behavioral deficits; PMID 42805187 independently identified ten individuals with rare heterozygous BRSK1 variants via the Texome Project and GeneMatcher, with Drosophila modeling showing partial loss-of-function. These are independent probands/cohorts, not CNVs, and both include functional corroboration, satisfying replication criteria for Established. Supporting biology (LKB1\u2013SAD-A/SAD-B neuronal polarization pathway, PMIDs 17482548, 18339622) and the paralog BRSK2's established NDD association (PMID 30879638) strengthen plausibility. Some residual probability remains for Existing given the recency of both reports and limited independent clinical replication beyond them.</justification>\n  <pmids>\n    <pmid>41035394</pmid>\n    <pmid>42805187</pmid>\n    <pmid>17482548</pmid>\n    <pmid>18339622</pmid>\n    <pmid>30879638</pmid>\n    <pmid>41291187</pmid>\n    <pmid>35754711</pmid>\n  </pmids>\n</response>"
+}

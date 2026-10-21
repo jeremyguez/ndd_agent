@@ -1,0 +1,20 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 1,
+    "biological": 1
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Transcriptome-wide Mendelian randomization study prioritising novel tissue-dependent genes for glioma susceptibility (PMID: 33504897)",
+        "evidence_subtype": "GWAS",
+        "summary": "Integrating multi-tissue eQTLs with glioma GWAS data using Mendelian randomisation and colocalisation, the study found that genetically predicted increased expression of RETREG2 (FAM134A) was associated with glioma risk. RETREG2 was one of three novel glioma susceptibility genes, alongside FAM178B and MVB12B. The effect appeared relatively consistent across glioma subtypes (GBM and non-GBM). This is genetic-association evidence only, with no direct functional experiments on RETREG2.",
+        "sample_size": "Glioma GWAS: 7,400 cases and 8,257 controls (GBM 3,112 cases; non-GBM 2,411 cases). eQTL data: brain effective n=1,194; whole blood n=31,684; 13 brain tissues n=114-209.",
+        "significance": "Reported as robust MR evidence with colocalisation support; specific p-values not given in the abstract."
+      }
+    ]
+  }
+}

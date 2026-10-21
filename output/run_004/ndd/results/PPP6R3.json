@@ -1,0 +1,180 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 6,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Zhang et al. 2015 - Increased co-expression of genes harboring the damaging de novo mutations in Chinese schizophrenic patients during prenatal development (PMID: 26666178)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo missense variant in PPP6R3 (chr11:68370926, G/C); protein change not given in the available passage",
+            "type": "missense",
+            "phenotypes": [
+              "schizophrenia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant identified by trio exome sequencing and predicted damaging by multiple in silico tools. PPP6R3 was not among the four genes prioritized by the authors (LRP1, MACF1, DICER1, ABCA2), so the evidence for pathogenicity is weak.",
+        "center_country": "China",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "PPP6R3-mediated dephosphorylation regulates mRNA translation during spermatogonial differentiation (PMID: 40721635)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Germline-specific deletion of Ppp6r3 causes abnormal spermatogonial differentiation",
+          "Male infertility",
+          "Translation inhibition in KIT+ spermatogonia",
+          "Increased phosphorylation of EIF3C (S39) and EIF4G1 (S1217) with enhanced protein degradation",
+          "Reduced non-phosphorylated EIF3C and EIF4G1 and reduced enrichment of differentiation-associated mRNAs",
+          "Phosphosite-mutant EIF3C S39A and EIF4G1 S1217A overexpression in Ppp6r3-cKO spermatogonial progenitor cells rescued differentiation potential"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role of ppp6r3 in zebrafish gonadal differentiation and gametogenesis (PMID: 40962474)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Two CRISPR/Cas9 ppp6r3 mutant lines generated",
+          "Mutants develop only as males (sex-biased development)",
+          "Mutant males cannot fertilize wild-type eggs",
+          "Spermatogenesis disrupted with block in transition from spermatocytes to mature sperm in testes",
+          "Defects in gonadal differentiation and gametogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Removal of developmentally regulated microexons has a minimal impact on larval zebrafish brain morphology and function (PMID: 41252186)",
+        "organism": "zebrafish",
+        "knockout_type": "other (CRISPR/Cas9 microexon deletion; partial loss of a microexon in ppp6r3)",
+        "phenotypes": [
+          "ppp6r3 microexon deletion mutant had mild neural phenotypes at larval stage (brain activity/morphology/behavior)",
+          "Most of the 45 microexon mutants had minimal or no phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SAPS3 subunit of protein phosphatase 6 is an AMPK inhibitor and controls metabolic homeostasis upon dietary challenge in male mice (PMID: 36914647)",
+        "organism": "mouse",
+        "knockout_type": "full knockout and liver-specific conditional knockout",
+        "phenotypes": [
+          "Whole-body or liver-specific Saps3 (Ppp6r3) deletion protects male mice from high-fat-diet-induced metabolic detriments",
+          "AMPK activation, improved glucose homeostasis and insulin sensitivity under HFD",
+          "Reversal of HFD-induced metabolic and transcriptional alterations",
+          "No effect of SAPS3 loss under balanced (normal) diet",
+          "Genetic inhibition of AMPK blocked the protective phenotype in knockout mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Recent Advances in Experimental Functional Characterization of GWAS Candidate Genes in Osteoporosis (PMID: 40806370)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Review notes that Ppp6r3 deletion in mice decreased bone mineral density (BMD)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zhang et al. 2024 - The protein phosphatase PP6 promotes RIPK1-dependent PANoptosis (PMID: 38807188)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A cell death-based CRISPR screen identified PP6 holoenzyme components as regulators of TAK1 inhibitor-induced PANoptosis. PPP6R3 acts redundantly with PPP6R1 and PPP6R2, and their combined depletion was needed to block cell death. PP6 promoted the pro-death RIPK1 S166 autophosphorylation and reduced the pro-survival S321 phosphorylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transcriptome-wide association study and eQTL colocalization identify potentially causal genes responsible for human bone mineral density GWAS associations (PMID: 36416764)",
+        "evidence_subtype": "GWAS",
+        "summary": "TWAS and eQTL colocalization using GTEx gave PPP6R3 the strongest support among 512 genes for the BMD GWAS, and it had not previously been implicated in BMD. Ppp6r3 deletion in mice decreased BMD, supporting it as a causal BMD gene.",
+        "sample_size": null,
+        "significance": "TWAS and colocalization significant (512 genes overall)"
+      },
+      {
+        "citation": "Role of ppp6r3 in zebrafish gonadal differentiation and gametogenesis (PMID: 40962474)",
+        "evidence_subtype": "other",
+        "summary": "CRISPR/Cas9 ppp6r3 mutant zebrafish lines developed only as males and could not fertilize wild-type eggs. In mutant testes, the transition from spermatocytes to mature sperm was blocked, disrupting spermatogenesis. Ppp6r3 is therefore needed for gonadal differentiation, sex determination and gametogenesis.",
+        "sample_size": "two mutant zebrafish lines",
+        "significance": null
+      },
+      {
+        "citation": "Interactome analysis of the influenza A virus transcription/replication machinery identifies protein phosphatase 6 as a cellular factor required for efficient virus replication (PMID: 25187537)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Affinity purification mass spectrometry of the influenza polymerase (Strep-tagged PB2) in infected human cells co-purified PPP6R3 with PPP6C and PPP6R1. PP6 interacted directly with PB1 and PB2, and PPP6C knockdown reduced viral RNA accumulation and virus growth.",
+        "sample_size": "171 co-purifying cellular proteins identified",
+        "significance": null
+      },
+      {
+        "citation": "Meta-Analysis of Genomewide Association Studies Reveals Genetic Variants for Hip Bone Geometry (PMID: 30888730)",
+        "evidence_subtype": "GWAS",
+        "summary": "Genome-wide significant hip geometry association at 11q13 near LRP5 and PPP6R3 (rs7102273). The SNP was also associated with fracture, and a bone transcriptome eQTL linked rs7102273 to PPP6R3 expression.",
+        "sample_size": "up to 18,719 discovery individuals plus 7 replication cohorts",
+        "significance": "GWS p\u22642.6\u00d710-8; fracture p=7.5\u00d710-5; eQTL p=0.0007"
+      },
+      {
+        "citation": "Bivariate genome-wide association meta-analysis of pediatric musculoskeletal traits reveals pleiotropic effects at the SREBF1/TOM1L2 locus (PMID: 28743860)",
+        "evidence_subtype": "GWAS",
+        "summary": "The PPP6R3/LRP5 locus was among eight loci with pleiotropic effects on lean mass and BMD in a bivariate GWAS of children.",
+        "sample_size": "10,414 children",
+        "significance": "genome-wide significant (P<5\u00d710-8)"
+      },
+      {
+        "citation": "ASHG 2012 - The PPP6R3/LRP5 locus influences lean mass in children of different ethnic background and highlights pleiotropic effects on muscle-bone interactions",
+        "evidence_subtype": "expression",
+        "summary": "A SNP in the PPP6R3/LRP5 locus was associated with lean mass in children and nominally with BMD. The abstract describes PPP6R3 as a gene of unknown function that is ubiquitously expressed across tissues, including bone and muscle. LD at the locus makes it hard to tell which gene drives the signal.",
+        "sample_size": "4,096 children",
+        "significance": "lean mass P=2.9\u00d710-8; bivariate P=4.8\u00d710-8; BMD P=7.6\u00d710-5"
+      },
+      {
+        "citation": "Causal genes for osteoporosis: Mendelian randomization analysis with multilayer xQTL data (PMID: 42260878)",
+        "evidence_subtype": "GWAS",
+        "summary": "SMR integrating FinnGen osteoporosis GWAS with expression, splicing, methylation and protein QTLs identified PPP6R3 as one of 15 high-confidence causal genes. It passed HEIDI filtering.",
+        "sample_size": "FinnGen GWAS; 106 xQTL datasets",
+        "significance": "passed multiple-testing correction and HEIDI filtering"
+      },
+      {
+        "citation": "NRG1 fusions in breast cancer (PMID: 33413557)",
+        "evidence_subtype": "other",
+        "summary": "The MDA-MB-175 fusion originally reported as TENM4-NRG1 is actually a double fusion, PPP6R3-TENM4-NRG1, producing multiple transcripts, some of which include the NRG1 cytoplasmic tail.",
+        "sample_size": "571 breast cancers analyzed, plus the MDA-MB-175 cell line",
+        "significance": null
+      },
+      {
+        "citation": "PPP6R3-USP6 amplification: Novel oncogenic mechanism in malignant nodular fasciitis (PMID: 27113271)",
+        "evidence_subtype": "other",
+        "summary": "A PPP6R3-USP6 gene fusion was amplified in a malignant nodular fasciitis case with metastasis, and it upregulated USP6 mRNA transcription. This is consistent with PPP6R3 promoter-driven USP6 activation.",
+        "sample_size": "1 case",
+        "significance": null
+      }
+    ]
+  }
+}

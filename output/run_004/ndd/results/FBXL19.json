@@ -1,0 +1,133 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 6,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2018 - Systematic scoring of candidate genes for neurodevelopmental disorders has a higher yield than large meta-analyses (Jamra et al.)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified; FBXL19 listed among top-scoring candidate genes with potentially causative variants in trio exome sequencing of undiagnosed NDD cases",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Candidate gene variant prioritized by a 13-parameter scoring system (inheritance, gene and variant attributes, literature); FBXL19 was in the top 10% of scores. No variant-level detail is provided.",
+        "center_country": "Germany (Leipzig/Jamra group, with collaborating German centers; exome sequencing by Centogene, Rostock, and CeGaT, T\u00fcbingen)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Williamson et al. 2018 - FBXL19 recruits CDK-Mediator to CpG islands of developmental genes priming them for activation during lineage commitment (PMID: 29809150)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "Recognition of CpG islands by FBXL19 (via its CxxC zinc finger domain) is reported to be essential for mouse development",
+          "The abstract does not give details of the in vivo phenotype (e.g. the stage of developmental failure)",
+          "In ES cells, loss of FBXL19 CpG island binding impairs CDK-Mediator recruitment to developmental gene promoters and priming of these genes for activation during lineage commitment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Posttranslational regulation of CREB-binding protein expression by F-box leucine-rich repeat-containing protein 19 and ubiquitin-specific peptidase 14 in the paraventricular nucleus participates in chronic stress-induced symptomatology via the modulation of the hypothalamic-pituitary-adrenal axis (PMID: 41028568)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Genetic knockdown of FBXL19 in the paraventricular nucleus (PVN) of naive mice mimicked chronic stress and produced a similar symptomatology",
+          "This was mediated by increased CRH biosynthesis, which required the CBP-CREB interaction and CBP acetyltransferase activity",
+          "Genetic knockout of FBXL19 aggravated chronic stress-induced symptomatology (depression-like/neuropsychiatric behaviors)",
+          "Overexpression of FBXL19 or TAT-FBXL19 infusion in the PVN reversed chronic stress-induced symptomatology",
+          "Chronic social defeat stress and chronic unpredictable mild stress altered the FBXL19-USP14-CBP system in the PVN"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Turberfield et al. 2019 - FBXL19 recruits CDK-Mediator to CpG islands of developmental genes priming them for activation during lineage commitment (PMID: 29809150)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FBXL19 was identified as a CpG island-binding protein in mouse ES cells that associates with the CDK-Mediator complex. It recruits CDK-Mediator to CpG island promoters of non-transcribed developmental genes, priming them for activation during lineage commitment. CpG island recognition by FBXL19 is essential for mouse development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification and characterization of FBXL19 gene in silico (PMID: 15547684)",
+        "evidence_subtype": "function",
+        "summary": "Bioinformatic identification of human FBXL19 (CXXC11) as a 674-aa protein encoded by 10 exons at 16p11.2, paralogous to FBXL10 and FBXL11 and sharing the FBXHA (containing CXXC) and FBXHB (containing F-box) domains. Human FBXL19 shows 97.5% amino-acid identity with mouse Fbxl19.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FBXL19 in endothelial cells protects the heart from influenza A infection by enhancing antiviral immunity and reducing cellular senescence programs (PMID: 39150394)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In a mouse model of influenza A infection, EC-specific FBXL19 overexpression reduced viral titers and M1 protein. It increased IFN-\u03b1/\u03b2/\u03b3 and RANTES, restored IRF3 protein (not mRNA) levels, and reduced cardiac inflammation. It also partially reversed IAV-induced senescence markers (p16/p21 up, lamin-B1 down).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic Regulation of Immune and Inflammatory Responses in Rheumatoid Arthritis (PMID: 35479077)",
+        "evidence_subtype": "pathway",
+        "summary": "An integrative epigenetic network analysis of RA datasets (GEO) identified FBXL19 as one of five hub genes (with CHD3, SETD1B, SMARCA4, SETD1A) associated with immune cells and inflammatory responses.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Meta-analysis of genome-wide association studies identifies additional susceptibility loci for psoriasis",
+        "evidence_subtype": "GWAS",
+        "summary": "A meta-GWAS of three European cohorts showed support for the FBXL19 locus as a known psoriasis susceptibility locus.",
+        "sample_size": "4011 cases, 7721 controls",
+        "significance": "p~8x10-7"
+      },
+      {
+        "citation": "The pathogenesis and genetics of psoriasis (PMID: 23369832)",
+        "evidence_subtype": "pathway",
+        "summary": "This review places FBXL19 among psoriasis-associated genes involved in innate immune responses and NF-\u03baB signaling, together with TNFAIP3, TNIP1, NFKBIA, REL, TYK2, NOS2 and CARD14.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Glucocorticoids unmask silent non-coding genetic risk variants for common diseases",
+        "evidence_subtype": "expression",
+        "summary": "Obesity-associated SNPs mediated cortisol-responsive (glucocorticoid receptor-dependent) expression of FBXL19, described as an adipogenesis-controlling gene, in a GR-mediated eQTL analysis in B-lymphoblastoid cell lines.",
+        "sample_size": "30 LCLs",
+        "significance": null
+      },
+      {
+        "citation": "Long Noncoding RNA FBXL19-AS1 Expedites Cell Growth, Migration and Invasion in Cervical Cancer by miR-193a-5p/PIN1 Signaling (PMID: 33116834)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The antisense lncRNA FBXL19-AS1 is upregulated in cervical cancer. It sponges miR-193a-5p to raise PIN1 expression, and its knockdown reduces proliferation, migration and invasion and induces apoptosis. This concerns the antisense lncRNA rather than the FBXL19 protein.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LIN28A-stabilized FBXL19-AS1 promotes breast cancer migration, invasion and EMT by regulating WDR66 (PMID: 31140103)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FBXL19-AS1 interacts with and is stabilized by the RNA-binding protein LIN28A (RIP assay) and promotes WDR66 expression, driving breast cancer migration, invasion and EMT.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Analysis of associations of FBXL19-AS1 with occurrence, development and prognosis of acute pancreatitis (PMID: 33378025)",
+        "evidence_subtype": "expression",
+        "summary": "Serum FBXL19-AS1 is elevated in severe acute pancreatitis and predicts severity (AUC 0.9177). Overexpression upregulated IL-1\u03b2, TNF-\u03b1 and IL-6 mRNA in AP cells, and knockdown had the opposite effect.",
+        "sample_size": null,
+        "significance": "p<0.001"
+      }
+    ]
+  }
+}

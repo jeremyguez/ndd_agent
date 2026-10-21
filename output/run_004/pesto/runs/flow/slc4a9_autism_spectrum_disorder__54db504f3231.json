@@ -1,0 +1,455 @@
+{
+ "gene": "SLC4A9",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "AE4",
+   "solute carrier family 4 member 9"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 21,
+  "titlekicksparingfulltext": 10,
+  "read": 11
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 3,
+   "Existing": 55,
+   "Hypothesized": 22,
+   "Novel": 20
+  },
+  "justification": "The only human genetic evidence linking SLC4A9 to ASD is the de novo mutation/TADA analysis (PMID 32066658), where SLC4A9 appears among prioritized candidate genes at a permissive threshold (0.05 < FDR < 0.1) in a male-specific subgroup; this is a single, statistically suggestive report rather than replicated clinical confirmation, which fits \"Existing\" at best and certainly not \"Established\" (no two independent proband/family reports of causal variants exist). All remaining SLC4A9 literature concerns renal intercalated cell transcription, salivary/enamel physiology, and anion/bicarbonate transport mechanisms (PMIDs 42855468, 38536494, 36603001, 19544066, 16159312, 40327716, 12847417), with no ASD relevance. One pH-regulation review mentions AE4/SLC4A9 only in passing while discussing NHE6/NHE9 in autism (PMID 26965387), a co-mention rather than evidence, and the microglia review ties SLC4A9 to depression risk loci, not ASD (PMID 42244505). Some probability remains for \"Novel\" given the weak, borderline-significance nature of the single ASD finding, and for \"Hypothesized\" given generic pH-homeostasis relevance to neuronal excitability.",
+  "pmids": [],
+  "detail": {
+   "Established": 3,
+   "Existing": 55,
+   "Hypothesized": 22,
+   "Novel": 20
+  }
+ },
+ "articles": [
+  {
+   "pmid": "42855468",
+   "title": "SLC4A9 deficiency is involved in Sj\u00f6gren's syndrome and enamel defects through RPS27-triggered ribosomal stress.",
+   "abstract": "Xerostomia, a salivary gland disorder affecting up to 30% of adults, compromises oral homeostasis by reducing salivary flow and buffering capacity. Amelogenesis imperfecta is a hereditary condition characterized by defective enamel formation and mineralization, with a prevalence ranging from 1 in 700 to 1 in 14,000 children worldwide. Although xerostomia has been associated with increased susceptibility to dental caries and subsequent enamel damage, its relationship with amelogenesis imperfecta remains unclear, and no shared molecular pathway has been causally linked to both hyposalivation and enamel malformation. Notably, several Cl-/HCO3- exchangers regulate ion transport and pH homeostasis, thereby influencing salivary secretion as well as enamel maturation and mineralization, raising the possibility that these transporters may serve as a common molecular link between xerostomia and amelogenesis imperfecta. Here, we report the identification of SLC4A9, a Na+-dependent Cl-/HCO3- exchanger whose dysfunction simultaneously disrupts salivary secretion and enamel mineralization. Genetic analyses identified variations in the SLC4A9 gene, including missense mutations in three cases of amelogenesis imperfecta and copy number variations with reduced SLC4A9 expression in a patient with Sj\u00f6gren's syndrome. Slc4a9 knockout mice exhibited dual pathological phenotypes, including salivary impairment with reduced secretion, female-predominant glandular inflammation and autoantibody production, as well as enamel malformation with delayed ameloblast differentiation. Mechanistically, SLC4A9 deficiency disrupted Cl-/pH homeostasis, leading to RPS27 upregulation and ribosomal stress, which in turn activated p53-dependent cell-cycle arrest and apoptosis in both glandular and enamel lineages. Treatment with the MDM2 antagonist Nutlin-3a reduced salivary inflammation, supporting the therapeutic potential of this pathway. Collectively, these findings suggest that xerostomia and amelogenesis imperfecta represent overlapping phenotypes driven by variations in the same gene and a shared mechanism of ribosomal stress-associated apoptosis, despite occurring in distinct tissues. This work highlights a unified diagnostic target and potential therapeutic strategy for restoring both salivary function and enamel integrity.",
+   "found_by": [],
+   "pubdate": "2026 Oct 9",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "38536494",
+   "title": "The role of Na(+)-coupled bicarbonate transporters (NCBT) in health and disease.",
+   "abstract": "Cellular and organism survival depends upon the regulation of pH, which is regulated by highly specialized cell membrane transporters, the solute carriers (SLC) (For a comprehensive list of the solute carrier family members, see: https://www.bioparadigms.org/slc/ ). The SLC4 family of bicarbonate (HCO3-) transporters consists of ten members, sorted by their coupling to either sodium (NBCe1, NBCe2, NBCn1, NBCn2, NDCBE), chloride (AE1, AE2, AE3), or borate (BTR1). The ionic coupling of SLC4A9 (AE4) remains controversial. These SLC4 bicarbonate transporters may be controlled by cellular ionic gradients, cellular membrane voltage, and signaling molecules to maintain critical cellular and systemic pH (acid-base) balance. There are profound consequences when blood pH deviates even a small amount outside the normal range (7.35-7.45). Chiefly, Na+-coupled bicarbonate transporters (NCBT) control intracellular pH in nearly every living cell, maintaining the biological pH required for life. Additionally, NCBTs have important roles to regulate cell volume and maintain salt balance as well as absorption and secretion of acid-base equivalents. Due to their varied tissue expression, NCBTs have roles in pathophysiology, which become apparent in physiologic responses when their expression is reduced or genetically deleted. Variations in physiological pH are seen in a wide variety of conditions, from canonically acid-base related conditions to pathologies not necessarily associated with acid-base dysfunction such as cancer, glaucoma, or various neurological diseases. The membranous location of the SLC4 transporters as well as recent advances in discovering their structural biology makes them accessible and attractive as a druggable target in a disease context. The role of sodium-coupled bicarbonate transporters in such a large array of conditions illustrates the potential of treating a wide range of disease states by modifying function of these transporters, whether that be through inhibition or enhancement.",
+   "found_by": [],
+   "pubdate": "2024 Apr",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36603001",
+   "title": "The transcription factor Foxi1 promotes expression of V-ATPase and Gpr116 in M-1 cells.",
+   "abstract": "The diverse functions of each nephron segment rely on the coordinated action of specialized cell populations that are uniquely defined by their transcriptional profile. In the collecting duct, there are two critical and distinct cell populations: principal cells and intercalated cells. Principal cells play key roles in the regulation of water, Na+, and K+, whereas intercalated cells are best known for their role in acid-base homeostasis. Currently, there are no in vitro systems that recapitulate the heterogeneity of the collecting ducts, which limits high-throughput and replicate investigations of genetic and physiological phenomena. Here, we demonstrated that the transcription factor Foxi1 is sufficient to alter the transcriptional identity of M-1 cells, a murine cortical collecting duct cell line. Specifically, overexpression of Foxi1 induces the expression of intercalated cell transcripts including Gpr116, Atp6v1b1, Atp6v1g3, Atp6v0d2, Slc4a9, and Slc26a4. These data indicate that overexpression of Foxi1 differentiates M-1 cells toward a non-A, non-B type intercalated cell phenotype and may provide a novel in vitro tool to study transcriptional regulation and physiological function of the renal collecting duct.NEW & NOTEWORTHY Transfection of M-1 cells with the transcription factor Foxi1 generates cells that express V-ATPase and Gpr116 as well as other genes associated with renal intercalated cells. This straightforward and novel in vitro system could be used to study processes including transcriptional regulation and cell specification and differentiation in renal intercalated cells.",
+   "found_by": [],
+   "pubdate": "2023 Mar 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "19544066",
+   "title": "The murine AE4 promoter predominantly drives type B intercalated cell specific transcription.",
+   "abstract": "AE4 is an anion exchanger almost exclusively expressed in the collecting ducts of the kidney. This very restricted expression prompted us to analyze its transcription in more detail. 5' RACE yielded alternative transcriptional start sites that are predicted to code for N-terminal protein variants. Comparison of the 5' genomic sequence between species identified a transcriptionally active region with three conserved spans. In transgenic mice beta-galactosidase expression driven by this fragment resembled endogenous AE4 expression and was predominantly restricted to type B intercalated cells. Hence this promoter could prove useful to target type B intercalated cells by genetic approaches.",
+   "found_by": [],
+   "pubdate": "2009 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16159312",
+   "title": "The forkhead transcription factor Foxi1 directly activates the AE4 promoter.",
+   "abstract": "Intercalated cells are highly specialized cells within the renal collecting duct epithelium and play an important role in systemic acid-base homoeostasis. Whereas type A intercalated cells secrete protons via an apically localized H+-ATPase, type B intercalated cells secrete HCO3-. Type B intercalated cells specifically express the HCO3-/Cl- exchanger AE4 (anion exchanger 4), encoded by Slc4a9. Mice with a targeted disruption of the gene for the forkhead transcription factor Foxi1 display renal tubular acidosis due to an intercalated cell-differentiation defect. Collecting duct cells in these mice are characterized by the absence of inter-calated cell markers including AE4. To test whether Slc4a9 is a direct target gene of Foxi1, an AE4 promoter construct was generated for a cell-based reporter gene assay. Co-transfection with the Foxi1 cDNA resulted in an approx. 100-fold activation of the AE4 promoter construct. By truncating the AE4 promoter at the 5'-end, we demonstrate that a fragment of approx. 462 bp upstream of the transcription start point is sufficient to mediate activation by Foxi1. Sequence analysis of this region revealed at least eight potential binding sites for Foxi1 in both sense and antisense orientation. Only one element was bound by recombinant Foxi1 protein in bandshift assays. Mutation of this site abolished both binding in bandshift assays and transcriptional activation by co-transfection of Foxi1 in the reporter gene assay. We thus identify the AE4 promoter as a direct target of Foxi1.",
+   "found_by": [],
+   "pubdate": "2006 Jan 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40327716",
+   "title": "Molecular determinants of [Formula: see text] and cation transport in the human cation-dependent Cl(-)/[Formula: see text] exchanger AE4.",
+   "abstract": "The [Formula: see text] transporter AE4 (SLC4A9) plays a role in NaCl reabsorption and pH sensing in the kidney, and Cl--dependent fluid secretion in salivary glands. Sharing functional features with other Cl-/[Formula: see text] exchangers and Na+-[Formula: see text] cotransporters, it has been proposed that AE4 mediates Cl-/cation-[Formula: see text] exchange. Our sequence alignments and molecular dynamics (MD) analysis showed that three residues, reported as critical for transport activity in other SLC4 transporters, are conserved in AE4, suggesting similarities in their ion transport mechanism. Site-directed mutagenesis and further functional experiments showed that two out of the three conserved residues (D709 and T448) are functionally relevant, but in contrast to other SLC4 transporters, where transport was almost completely abolished, AE4 mutants conserved about 50% of transport activity. In addition, alanine scanning showed that S446A and T756A decreased transport by nearly 30%. Consistent with an additive effect of mutations at positions T756 and T448, the double mutant T756A-T448I completely abolished transport in the presence of extracellular Na+ but interestingly exhibited anion transporter activity in the presence of K+ as the main extracellular cation. MD simulations revealed that the [Formula: see text] and cation coordination site is at the interface between the transmembrane segments TM3-TM10. The interaction network was importantly disrupted in the double mutant in the presence of Na+, but it is partially conserved in the presence of K+, suggesting differences in the cation coordination. In summary, we identified the putative cation coordination site of AE4 and the critical functional role of residues T756 and T448 in its transport cycle.NEW & NOTEWORTHY AE4 is a [Formula: see text] transporter that is important for electrolyte transport and pH regulation in epithelia, which has been proposed to mediate Cl-/cation-[Formula: see text] exchange. However, critical residues sustaining transport activity are not known. In this study, we show that AE4 can coordinate [Formula: see text] and Na+ or K+ at the TM3-TM10 interface and that residues T448 and T756 are crucial for cation binding and transport cycle.",
+   "found_by": [],
+   "pubdate": "2025 Jun 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "12847417",
+   "title": "Functional and molecular properties of Na+:HCO-3 cotransporters (NBC).",
+   "abstract": "The sodium bicarbonate cotransporter (NBC) is located on the basolateral membrane of the kidney proximal tubule and is responsible for the reabsorption of the majority of filtered bicarbonate. In secretory epithelia (such as pancreatic duct) NBC is responsible for the transport of bicarbonate from the blood to the cell for the eventual secretion at the apical membrane. As such and due to its versatility, NBC can function in 2 distinct modes of bicarbonate reabsorption or secretion depending on the epithelia. NBC is also present in a wide variety of non-epithelial tissues where it is mainly involved with cell pH regulation. Recent molecular cloning experiments have identified the existence of 4 NBC isoforms (NBC1, 2, 3 and 4) and 2 NBC-related proteins AE4 and NCBE (anion exchanger 4 and sodium-dependent chloride-bicarbonate exchanger). Except for AE4 which does not transport Na, all are presumed to mediate the cotransport of Na+ and HCO(3)-. NBC isoforms show significant homology to each other and to the AE (anion exchange) family. NBC1 shows a limited tissue expression pattern, is electrogenic and plays an important role in bicarbonate reabsorption in kidney proximal tubule. A variant of NBC1 is expressed in pancreatic duct and gastrointestinal tract, and plays an important role in HCO(3)- secretion. NBC2 and NBC3 have a wider tissue distribution than NBC1, are electroneutral, and are involved with cell pH regulation. The electrogenecity of NBC4 may be variant-specific. An NBC related protein called NCBE mediates Na-dependent, Cl-/bicarbonate ex-change. The purpose of this review is to summarize functional and molecular properties of NBC isoforms and related proteins, and discuss their role and regulation in pathophysiologic states.",
+   "found_by": [],
+   "pubdate": "2003 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42244505",
+   "title": "Defining functional states and roles of microglia in neuropsychiatric disorders.",
+   "abstract": "Microglia are myeloid cells of the central nervous system (CNS) that acquire a context-specific phenotype and adjust their functions to microenvironmental cues. They participate in immune signaling, synaptic remodeling, and circuit functions, and have emerged as key culprits in neurodevelopmental and psychiatric disorders such as depression, anxiety, autism spectrum disorder (ASD), and schizophrenia. We characterize and discuss different functional state of microglia defined by sc-omics approaches that bring a high resolution to cell functionalities. Subsequently, we review the evidence of microglial states, microglia-driven mechanisms and their impacts on development and progression of neuropsychiatric disorders. In affective mood disorders, chronic stress, glucocorticoid dysregulation, and peripheral inflammation drive microglial nefarious activation. This leads to excessive synaptic pruning, impaired neurotrophic support, glutamate excitotoxicity, and circuit dysfunction in mood-related brain regions, with strong modulation by circadian mechanisms and sex-dependent factors. In ASD, microglia adopt a hybrid activation state characterized by altered inflammatory signaling, dysregulated phagocytosis, and aberrant synaptic pruning, driven by genetic and epigenetic mechanisms, including TREM2, ARID1A, complement components, and calcium-dependent glial signaling, which together disrupt network connectivity and social behavior. In schizophrenia, genetic risk factors related to C4 and DISC1, along with inflammatory and metabolic stress, promote excessive microglia-mediated synapse elimination, cytoskeletal and motility deficits, and secondary neuronal metabolic dysfunction, which correlate with cognitive and negative symptoms. These findings strongly position microglia as a hub and key determinants of CNS homeostasis whose context-dependent dysregulation links immune, genetic, and environmental risk factors to synaptic and behavioral pathology. We discuss which microglial signaling pathways are shared and identify promising therapeutic targets across the neuropsychiatric disease spectrum. [full text, passages naming SLC4A9] ...act microglial function ( Thomas et al., 2025 ). Female-specific susceptibility to MDD is potentially linked to causal risk variants mapping to microglial immune signaling genes coding for TLR4, CYSTM1, PFDN1, SLC4A9, and RAB27B, as well as specific female-biased loci such as GPC6 and SHISA9 ( Fitzgerald et al., 2024 ; Thomas et al., 2025 ). Furthermore, a higher fetal microglial PGS (polygenic scores) in females mod...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32066658",
+   "title": "Genetic evidence of gender difference in autism spectrum disorder supports the female-protective effect.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder with a male-to-female prevalence of 4:1. However, the genetic mechanisms underlying this gender difference remain unclear. Mutation burden analysis, a TADA model, and co-expression and functional network analyses were performed on de novo mutations (DNMs) and corresponding candidate genes. We found that the prevalence of putative functional DNMs (loss-of-function and predicted deleterious missense mutations) in females was significantly higher than that in males, suggesting that a higher genetic load was required in females to reach the threshold for a diagnosis. We then prioritized 174 candidate genes, including 60 shared genes, 91 male-specific genes, and 23 female-specific genes. All of the three subclasses of candidate genes were significantly more frequently co-expressed in female brains than male brains, suggesting that compensation effects of the deficiency of ASD candidate genes may be more likely in females. Nevertheless, the three subclasses of candidate genes were co-expressed with each other, suggesting a convergent functional network of male and female-specific genes. Our analysis of different aspects of genetic components provides suggestive evidence supporting the female-protective effect in ASD. Moreover, further study is needed to integrate neuronal and hormonal data to elucidate the underlying gender difference in ASD. [full text, passages naming SLC4A9] ...05 | < FDR < 0.1 ( n = 42) TCF4, DUS1L, GALNT18, RFX7, KIAA0100, PLXNB1, SRRM2 | PHF2, DHX57, GIGYF1, PM20D1, RAI1, CSAD, TNC, SETBP1, KMT2E, OR10Z1, LRRK2, RIMS1, TNRC6B, RNF146, SHANK2, ZC3H4, PYHIN1, NXPE4, SLC4A9, LAMA3, TMEM39B, GLTSCR2 | MYO1E, TRRAP, BCL11A, POM121, SMARCC2, MYT1L, OR8U1, KIF21A, PAPOLG, OR8U8, C18orf54, TBL1XR1, NLGN1 | 0.1 | < FDR < 0.2 ( n = 67) RPS9, COL4A3BP, RASGRP3, RIPK1, GSAP, CBL, KC...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31976229",
+   "title": "The Effects of the Interspersal of Related Responses on the Emergence of Intraverbals for Children With Autism Spectrum Disorder.",
+   "abstract": "The present study evaluated the emergence of intraverbals for 2 children diagnosed with autism spectrum disorder. Prior to baseline, both children demonstrated tact, tact function, listener, and listener by function responses with 12 pictorial stimuli, yet they failed to demonstrate intraverbals related to the function of the items (e.g., \"What do you do with [item]?\" and \"What do you use to [function]?\"). Following baseline, previously mastered related tact, tact function, listener, and listener by function tasks were presented prior to probe trials for the target item-function and function-item intraverbals. Results showed that interspersal of the related tasks for a subset of the intraverbals led to the emergence of untrained item-function and function-item intraverbals for both participants. In Experiment 2, the long-term effects of this remedial training on the emergence of untrained intraverbals was evaluated as new tact and listener responses were trained. Results of Experiment 2 showed that tact function and listener by function training was sufficient to establish the emergence of item-function and function-item intraverbals in the absence of related-task interspersal. These results are discussed in relation to current explanations for emergent responding.",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "26965387",
+   "title": "Emerging roles of Na\u207a/H\u207a exchangers in epilepsy and developmental brain disorders.",
+   "abstract": "Epilepsy is a common central nervous system (CNS) disease characterized by recurrent transient neurological events occurring due to abnormally excessive or synchronous neuronal activity in the brain. The CNS is affected by systemic acid-base disorders, and epileptic seizures are sensitive indicators of underlying imbalances in cellular pH regulation. Na(+)/H(+) exchangers (NHEs) are a family of membrane transporter proteins actively involved in regulating intracellular and organellar pH by extruding H(+) in exchange for Na(+) influx. Altering NHE function significantly influences neuronal excitability and plays a role in epilepsy. This review gives an overview of pH regulatory mechanisms in the brain with a special focus on the NHE family and the relationship between epilepsy and dysfunction of NHE isoforms. We first discuss how cells translocate acids and bases across the membrane and establish pH homeostasis as a result of the concerted effort of enzymes and ion transporters. We focus on the specific roles of the NHE family by detailing how the loss of NHE1 in two NHE mutant mice results in enhanced neuronal excitability in these animals. Furthermore, we highlight new findings on the link between mutations of NHE6 and NHE9 and developmental brain disorders including epilepsy, autism, and attention deficit hyperactivity disorder (ADHD). These studies demonstrate the importance of NHE proteins in maintaining H(+) homeostasis and their intricate roles in the regulation of neuronal function. A better understanding of the mechanisms underlying NHE1, 6, and 9 dysfunctions in epilepsy formation may advance the development of new epilepsy treatment strategies. [full text, passages naming SLC4A9] ...ly also contains 4 Na + -independent, Cl \u2013 -dependent HCO 3 \u2013 anion exchangers (AE1-AE4). AEs are transmembrane proteins which generally act as acid loaders, extruding HCO 3 \u2013 in exchange for Cl \u2013 influx. AE4 (Slc4a9) is not yet fully characterized. Initial cloning of the gene demonstrated Cl \u2013 transport function of the protein, although phylogenetically this isoform is much more closely related to the Na + -coupled... ...relatives of sodium-coupled bicarbonate transporters. Physiol. Rev 2013 93 803 959 23589833 10.1152/physrev.00023.2012 PMC3768104 Pena-Munzenmayer G Catalan MA Kondo Y Jaramillo Y Liu F Shull GE Melvin JE Ae4 (Slc4a9) anion exchanger drives Cl\u2212 uptake-dependent fluid secretion by mouse submandibular gland acinar cells. J. Biol. Chem 2015 290 10677 10688 25745107 10.1074/jbc.M114.612895 PMC4409235 Pescosolido MF Stein...",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "2417702": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40215969": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15753476": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31642367": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20797995": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42818221": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33607790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26671068": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12027220": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33402871": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42855468": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38536494": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36603001": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19544066": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16159312": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40327716": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12847417": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42244505": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32066658": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31976229": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26965387": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 9.7,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 102.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "9 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 11.5,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 1135,
+   "output_tokens": 60,
+   "usd": 0.001435,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 50.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.3,
+   "note": "",
+   "input_tokens": 6994,
+   "output_tokens": 262,
+   "usd": 0.008304,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.6,
+   "note": "",
+   "input_tokens": 9173,
+   "output_tokens": 896,
+   "usd": 0.068265,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>3</established>\n    <existing>55</existing>\n    <hypothesized>22</hypothesized>\n    <novel>20</novel>\n  </probabilities>\n  <justification>The only human genetic evidence linking SLC4A9 to ASD is the de novo mutation/TADA analysis (PMID 32066658), where SLC4A9 appears among prioritized candidate genes at a permissive threshold (0.05 < FDR < 0.1) in a male-specific subgroup; this is a single, statistically suggestive report rather than replicated clinical confirmation, which fits \"Existing\" at best and certainly not \"Established\" (no two independent proband/family reports of causal variants exist). All remaining SLC4A9 literature concerns renal intercalated cell transcription, salivary/enamel physiology, and anion/bicarbonate transport mechanisms (PMIDs 42855468, 38536494, 36603001, 19544066, 16159312, 40327716, 12847417), with no ASD relevance. One pH-regulation review mentions AE4/SLC4A9 only in passing while discussing NHE6/NHE9 in autism (PMID 26965387), a co-mention rather than evidence, and the microglia review ties SLC4A9 to depression risk loci, not ASD (PMID 42244505). Some probability remains for \"Novel\" given the weak, borderline-significance nature of the single ASD finding, and for \"Hypothesized\" given generic pH-homeostasis relevance to neuronal excitability.</justification>\n  <pmids>\n    <pmid>32066658</pmid>\n    <pmid>26965387</pmid>\n    <pmid>42244505</pmid>\n    <pmid>38536494</pmid>\n    <pmid>40327716</pmid>\n  </pmids>\n</response>"
+}

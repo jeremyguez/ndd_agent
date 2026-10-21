@@ -1,0 +1,115 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 8,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "2025 - SEPTIN7 Deficiency Disrupts Endothelial Integrity and Causes Myxomatous Valve Disease in Juvenile Mice (PMID: 42657464)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Endocardial lineage-specific Septin2 conditional knockout mice developed normally with no detectable abnormalities",
+          "No cardiac/valve phenotype detected in Septin2 cKO (in contrast to Septin7 cKO, which showed juvenile lethality from aortic stenosis and myxomatous valve degeneration)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - Hypoxia exposure impairs male fertility via inhibiting Septin2-mediated spermatogonial proliferation (PMID: 40487848)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Sept2 knockdown in normoxic mice phenocopied hypoxia-induced defects in spermatogenesis",
+          "Impaired spermatogonial proliferation",
+          "G1-S phase arrest upon Sept2 depletion in spermatogonial cells in vitro",
+          "Sept2 loss stabilized PP2A B56\u03b3 and enhanced AKT dephosphorylation",
+          "Hypoxia-induced Sept2 downregulation associated with reduced sperm quality and fertility"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "n = 3-5 mice per intervention group",
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Toriyama et al. 2017 - Folate-dependent methylation of septins governs ciliogenesis during neural tube closure (PMID: 28432198)",
+        "evidence_subtype": "pathway",
+        "summary": "Embryos with neural tube defects failed to adequately methylate septin2, a regulator of cilium structure and function. Folate-dependent methylation of septin2 affects its GTP binding and formation of the septin2-6-7 complex, linking the folate/1-carbon pathway to ciliogenesis and neural tube closure.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Septin2 mediates podosome maturation and endothelial cell invasion associated with angiogenesis (PMID: 31865373)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Septin2, Septin6 and Septin7 are required for maturation of endothelial podosomes into matrix-degrading organelles. Septin2 is recruited after Tks5 and F-actin and localizes around the podosome perimeter. Its phosphoinositide-binding residues are required for podosome function and for endothelial invasion in angiogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "S-Nitrosylation of Septin2 Exacerbates Aortic Aneurysm and Dissection by Coupling the TIAM1-RAC1 Axis in Macrophages (PMID: 38357802)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Septin2 is S-nitrosylated at Cys111 in aortic tissue from dissection patients and Ang II-infused Apoe-/- mice. SNO-Septin2 shows reduced interaction with TIAM1, which activates the TIAM1-RAC1 axis and NF-\u03baB signaling. This drives macrophage inflammation and extracellular matrix degradation. RAC1 inhibition with R-Ketorolac or NSC23766 was protective.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SEPTIN2 suppresses an IFN-\u03b3-independent, proinflammatory macrophage activation pathway (PMID: 37978190)",
+        "evidence_subtype": "pathway",
+        "summary": "ER stress induces SEPT2 expression. SEPT2 balances acetylation versus ubiquitination of HSPA5 (BiP) at Lys327, which alleviates ER stress and limits M1-like polarization and proinflammatory cytokine release. Disrupting this feedback leads to unfolded protein accumulation and excessive inflammation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hypoxia exposure impairs male fertility via inhibiting Septin2-mediated spermatogonial proliferation (PMID: 40487848)",
+        "evidence_subtype": "function",
+        "summary": "Hypoxia downregulates Sept2 transcription in spermatogonia by disrupting POLR2A binding to the Sept2 promoter. Reduced Sept2 stabilizes PP2A B56\u03b3, which dephosphorylates AKT and causes G1-S arrest. Sept2 knockdown phenocopied hypoxia-induced spermatogenesis defects in mice, and Sept2 overexpression rescued proliferation.",
+        "sample_size": "24 high-altitude residents, 6 pathological hypoxia patients, 19 controls; mouse n=3-5 per group",
+        "significance": null
+      },
+      {
+        "citation": "Lysyl hydroxylase LH1 promotes confined migration and metastasis of cancer cells by stabilizing Septin2 to enhance actin network (PMID: 36721170)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "LH1 binds and stabilizes SEPT2 in a hydroxylase domain-dependent manner, which enhances actin polymerization and confined migration and metastasis in HCC and PDAC. Patients with high expression of both LH1 and SEPT2 had the poorest prognosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional interdependence between septin and actin cytoskeleton (PMID: 15541171)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Septin2 filaments associate with actin bundles but are excluded from dynamic leading edges and ruffles. FRAP showed Septin2 assemblies are highly dynamic independent of actin. RNAi and truncation constructs showed Septin2 stabilizes or maintains actin bundles.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FHL2-driven molecular network mediated Septin2 knockdown inducing apoptosis in mesangial cell (PMID: 25103794)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FHL2 was identified as a new Septin2 interaction partner. Septin2 knockdown induced mesangial cell apoptosis via FHL2-mediated p-ERK1 and p-AKT signaling, and FHL2 overexpression alleviated this effect. Septin2 and FHL2 expression were linked to apoptosis in the anti-Thy1 nephritis rat model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Septin2 regulates ARHGAP25-mediated suppression of lamellipodia formation and cell spreading (PMID: 40205813)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Septin2 interacts with ARHGAP25, a Rac GAP, and colocalizes with it at lamellipodia. Septin2 depletion relieved ARHGAP25-mediated suppression of lamellipodia and spreading, whereas septin2 overexpression enhanced the suppression, so septin2 regulates Rac signaling through ARHGAP25.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Septin2 is modified by SUMOylation and required for chromosome congression in mouse oocytes (PMID: 20372094)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Septin2 is SUMO-1 modified in mouse oocytes and localizes along the metaphase spindle and at the midbody. Inhibitor or siRNA disruption of septins caused metaphase I/anaphase I arrest, chromosome misalignment and spindle checkpoint activation (BubR1), but did not affect cytokinesis.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

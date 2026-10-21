@@ -1,0 +1,149 @@
+{
+  "gene": "H2BC8",
+  "phenotype": "congenital diaphragmatic hernia",
+  "ensembl_id": "ENSG00000273802",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0005550",
+      "name": "infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.3743742293495991
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.37050380432141355
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0005502",
+      "name": "dengue disease",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0030489",
+      "name": "epidermolysis bullosa simplex 2A, generalized severe",
+      "score": 0.05176335444713934
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0005550",
+      "name": "infectious disease",
+      "score": 0.5030392466541774
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.3743742293495991
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.37050380432141355
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0005502",
+      "name": "dengue disease",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0030489",
+      "name": "epidermolysis bullosa simplex 2A, generalized severe",
+      "score": 0.05176335444713934
+    }
+  ],
+  "gate_text": "DROP: 1, 3, 5, 6, 7",
+  "gate_dropped_ids": [
+    "MONDO_0005108",
+    "MONDO_0004989",
+    "MONDO_0005105",
+    "MONDO_0005502",
+    "MONDO_0030489"
+  ],
+  "tag_text": "1 | DIFFERENT\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0005108",
+      "name": "viral infectious disease",
+      "score": 0.5030392466541774,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005550",
+      "name": "infectious disease",
+      "score": 0.5030392466541774,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.3743742293495991,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004992",
+      "name": "cancer",
+      "score": 0.37050380432141355,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.3695798546847018,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005502",
+      "name": "dengue disease",
+      "score": 0.3695798546847018,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0030489",
+      "name": "epidermolysis bullosa simplex 2A, generalized severe",
+      "score": 0.05176335444713934,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 7,
+  "tokens": {
+    "gate_in": 394,
+    "gate_out": 19,
+    "read_in": 2240,
+    "read_out": 136
+  },
+  "articles": []
+}

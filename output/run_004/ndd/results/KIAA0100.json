@@ -1,0 +1,93 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 1,
+    "biological": 9
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Kosmicki/Kaplanis-type aggregate analysis: Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants (PMID: 35468861)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Recurrent de novo damaging missense variants (affecting the same amino acid positions) in KIAA0100; specific substitutions not given in the text provided",
+            "type": "missense",
+            "phenotypes": [
+              "Neurodevelopmental disorder (unspecified, aggregated NDD cohort)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent de novo damaging missense (d-MIS) variants affecting the same amino acids; KIAA0100 is listed among 26 candidate genes (with PSMC3, PIP5K1C, SEPT2, KBTBD7, REST, MAST3) whose recurrence is taken to suggest pathogenicity and NDD association. Gene-level enrichment in 41,165 NDD cases (including DDD and denovo-db data).",
+        "center_country": "Japan",
+        "cohort": "DDD"
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Multiple interactions recruit BLTP2 to ER-PM contacts to control plasma membrane dynamics (PMID: 40899996)",
+        "evidence_subtype": "function",
+        "summary": "BLTP2/KIAA0100 is a bridge-like lipid transfer protein that localizes to ER-PM contacts. It tethers the ER to tubular endosomes only after they become continuous with the PM, and to macropinosomes that are fusing with the PM. This supports a role in bulk ER-to-PM lipid transport. Loss of BLTP2 causes accumulation of intracellular vacuoles, many connected to the PM, which points to a role in PM dynamics.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Multiple interactions mediate the localization of BLTP2 at ER-PM contacts to control plasma membrane dynamics (PMID: 39974967)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "BLTP2 binds the PM through phosphoinositides, the adaptor proteins FAM102A/FAM102B, and N-BAR domain proteins at membrane-connected tubules. These interactions recruit it to ER-PM contacts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KIAA0100 Modulates Cancer Cell Aggression Behavior of MDA-MB-231 through Microtubule and Heat Shock Proteins (PMID: 29867023)",
+        "evidence_subtype": "cell_culture",
+        "summary": "siRNA silencing of KIAA0100 in MDA-MB-231 breast cancer cells reduced aggregation, reattachment, metastasis and invasion. It sensitized suspended cells to anoikis. IP-mass spectrometry and immunofluorescence suggest KIAA0100 binds and stabilizes microtubules and interacts with HSPA1A to promote anoikis resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Bioinformatic prediction and functional characterization of human KIAA0100 gene (PMID: 29404013)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CRISPR/Cas9 knockdown of KIAA0100 in U937 acute monocytic leukemia cells inhibited proliferation and promoted apoptosis, suggesting an anti-apoptotic role. Bioinformatics placed the gene at 17q11.2 and predicted a secretory pathway protein with a signal peptide, a transmembrane region and FMP27 domains.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circ_0000520 interacts with miR-512-5p to upregulate KIAA0100 to promote malignant behaviors in lung cancer (PMID: 35866672)",
+        "evidence_subtype": "pathway",
+        "summary": "KIAA0100 is a direct target of miR-512-5p, shown by dual-luciferase assay. The circ_0000520/miR-512-5p/KIAA0100 axis drives lung cancer proliferation, migration, invasion and angiogenesis, and tumor growth in xenografts. miR-512-5p suppresses these malignant behaviors by downregulating KIAA0100.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Preparation of monoclonal antibody against human KIAA0100 protein and Northern blot analysis of human KIAA0100 gene (PMID: 29404037)",
+        "evidence_subtype": "expression",
+        "summary": "A mouse monoclonal antibody was generated against KIAA0100 (residues 1557-2234). In U937 cells, Western blot suggested two protein products (254 kDa and <250 kDa). Northern blot showed two mRNA species (6000-10000 bp and 5000-6000 bp).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of BCOX1, a novel gene overexpressed in breast cancer (PMID: 16289875)",
+        "evidence_subtype": "expression",
+        "summary": "BCOX1, highly homologous to KIAA0100 at 17q11.2, is overexpressed in breast carcinoma. It is cytoplasmic in carcinoma epithelial cells but absent in normal epithelium, stroma and lymphocytes. Expression rises from DCIS to a peak in invasive and metastatic carcinoma.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Profiling the Somatic Mutational Landscape of Breast Tumors from Hispanic/Latina Women (PMID: 37145128)",
+        "evidence_subtype": "expression",
+        "summary": "A recurrent 17q11.2 copy-number amplification in Hispanic/Latina breast tumors was associated with high KIAA0100 expression. This amplification was more prevalent than in tumors from White women in TCGA.",
+        "sample_size": "146 tumors (WES and RNA-seq); 140 matched germline",
+        "significance": null
+      },
+      {
+        "citation": "Bioinformatics-based modeling of lung squamous cell carcinoma prognosis and prediction of immunotherapy response (PMID: 39724502)",
+        "evidence_subtype": "expression",
+        "summary": "KIAA0100 is one of 11 genes in a Cox prognostic risk model for lung squamous cell carcinoma built from GEO and TCGA expression data. Its expression is associated with patient survival.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

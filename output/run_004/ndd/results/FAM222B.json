@@ -1,0 +1,146 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 2,
+    "biological": 5
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Molecular characterization of FAM222B as a novel disease gene for dominant cardiovascular laterality defects (PMID: 42632841)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "c.899G>A, p.Arg300His (de novo in two unrelated families)",
+            "type": "missense",
+            "phenotypes": [
+              "cardiovascular laterality defects",
+              "situs inversus totalis",
+              "heterotaxy",
+              "congenital heart defects"
+            ]
+          },
+          {
+            "description": "Five additional FAM222B variants (not specified in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "cardiovascular laterality defects",
+              "situs inversus totalis",
+              "heterotaxy",
+              "congenital heart defects"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent de novo c.899G>A (p.Arg300His) in two unrelated families, identified by trio exome sequencing and exome survey of 2,109 individuals. Structural modelling suggests Arg300 is involved in NLK recognition. Zebrafish double-knockout fam222ba/bb showed aberrant cardiac looping, and injection of the human mutant mRNA perturbed cardiogenesis.",
+        "center_country": "Germany (likely)",
+        "cohort": null
+      },
+      {
+        "citation": "FAM222B Is Not a Likely Novel Candidate Gene for Cerebral Cavernous Malformations (PMID: 27587990)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Autosomal dominantly inherited frameshift mutation in FAM222B (C17orf63); exact notation not given in abstract",
+            "type": "LoF",
+            "phenotypes": [
+              "cerebral cavernous malformations"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by exome sequencing in CCM patients negative for CCM1-3, segregating dominantly in a family. Authors ultimately concluded FAM222B is not likely a CCM gene, since zebrafish double mutants and HUVEC siRNA assays showed no phenotype.",
+        "center_country": "Germany (likely)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Molecular characterization of FAM222B as a novel disease gene for dominant cardiovascular laterality defects (PMID: 42632841)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (double knockout of fam222ba/fam222bb paralogs); human c.899G>A mRNA overexpression injections in Tg(kdrl:EGFP) wild-type embryos",
+        "phenotypes": [
+          "aberrant cardiac looping in double-knockout larvae",
+          "enlarged atrium and ventricle in adult double-knockout zebrafish",
+          "perturbed cardiogenesis after injection of human mRNA carrying the c.899G>A (p.Arg300His) variant into Tg(kdrl:EGFP) wild-type embryos"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FAM222B Is Not a Likely Novel Candidate Gene for Cerebral Cavernous Malformations (PMID: 27587990)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (TALEN-generated fam222bb/fam222ba double mutant)",
+        "phenotypes": [
+          "no phenotype resembling existing CCM models (e.g., ccm1/ccm2/ccm3 mutants) in the double mutant zebrafish",
+          "no vascular phenotype reported in the double mutants",
+          "in vitro siRNA knockdown of FAM222B in HUVECs showed no sprouting phenotype (human cells, not an animal model)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Molecular characterization of FAM222B as a novel disease gene for dominant cardiovascular laterality defects (PMID: 42632841)",
+        "evidence_subtype": "other",
+        "summary": "Exome sequencing of 16 case-parent trios and a survey of 2,109 individuals with situs inversus totalis, heterotaxy, or isolated CHD found six FAM222B variants. The p.Arg300His variant (c.899G>A) arose de novo in two unrelated families. Structural modelling places Arg300 in NLK recognition, and NLK is linked to left-right axis determination. Human p.Arg300His mRNA injected into Tg(kdrl:EGFP) zebrafish perturbed cardiogenesis.",
+        "sample_size": "16 case-parent trios; 2,109 individuals in exome survey",
+        "significance": null
+      },
+      {
+        "citation": "Molecular characterization of FAM222B as a novel disease gene for dominant cardiovascular laterality defects (PMID: 42632841)",
+        "evidence_subtype": "function",
+        "summary": "A fam222ba/bb double-knockout zebrafish line showed aberrant cardiac looping in larvae and enlarged atrium and ventricle in adults. This supports a role for FAM222B in heart laterality and morphogenesis. The study also examined WISH expression patterns and genomic context of the zebrafish homologues fam222ba, fam222bb, and fam222aa.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FAM222B Is Not a Likely Novel Candidate Gene for Cerebral Cavernous Malformations (PMID: 27587990)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A yeast 2-hybrid screen showed FAM222B interacting with the tubulin cytoskeleton and with STAMBP, which is associated with microcephaly-capillary malformation syndrome. A frameshift mutation in FAM222B was found in an autosomal dominant CCM family by exome sequencing.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FAM222B Is Not a Likely Novel Candidate Gene for Cerebral Cavernous Malformations (PMID: 27587990)",
+        "evidence_subtype": "cell_culture",
+        "summary": "siRNA knockdown of FAM222B in HUVECs did not alter in vitro sprouting. TALEN-generated fam222bb/fam222ba double-mutant zebrafish also showed no CCM-like phenotype, arguing against a role in CCM formation.",
+        "sample_size": null,
+        "significance": "No phenotype observed"
+      },
+      {
+        "citation": "Delphinidin upregulates microRNA-let-7b expression through family with sequence similarity 222 member B (PMID: 40789939)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genetic functional screen in melanoma cells identified Fam222B as a mediator of delphinidin's anti-proliferative effect, which acts through upregulation of let-7b and suppression of cyclin D1. Fam222B siRNA in B16 cells altered miRNA expression, implicating Fam222B in regulating miRNA expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Evolutionary analysis through structural modeling of FAM222 proteins reveals a novel disordered conserved domain in vertebrates that interacts with NLK (PMID: 41365991)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FAM222B contains the conserved intrinsically disordered domain DCD222, which AlphaFold3 predicts binds NLK through a reverse docking motif and \u03b2-hairpin/\u03b2-sheet insertions. Molecular dynamics simulations showed the interface is stable. The catalytic site is not obstructed, so FAM222A/B are proposed to be NLK modulators rather than simple substrates.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Evolutionary analysis through structural modeling of FAM222 proteins reveals a novel disordered conserved domain in vertebrates that interacts with NLK (PMID: 41365991)",
+        "evidence_subtype": "pathway",
+        "summary": "Through its interaction with NLK, FAM222B is linked to NLK-regulated signaling (WNT, NOTCH, VEGF, mTOR, TGF-\u03b2). DCD222 is conserved from cyclostomes to humans, indicating strong evolutionary constraint.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Exploration of signature-related FAM genes and correlation between FAM50A expression and the pathogenesis and prognosis of hepatocellular carcinoma (PMID: 40950660)",
+        "evidence_subtype": "expression",
+        "summary": "Pan-database analysis (TCGA, GTEx, ICGC, GEO, HPA, CPTAC) identified FAM222B as one of five overexpressed, signature-related FAM genes in HCC, validated at mRNA and protein levels. The study's functional follow-up focused on FAM50A rather than FAM222B.",
+        "sample_size": "48 HCC patients (tissue microarray, for FAM50A)",
+        "significance": null
+      }
+    ]
+  }
+}

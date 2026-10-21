@@ -1,0 +1,973 @@
+{
+ "gene": "ALYREF",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "congenital heart malformation",
+   "congenital cardiac anomaly",
+   "congenital cardiovascular malformation",
+   "CHD",
+   "cardiac birth defect",
+   "heart malformation, congenital",
+   "congenital anomaly of heart",
+   "congenital cardiac defect",
+   "congenital cardiopathy"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "BEF",
+   "ALY",
+   "REF",
+   "ALY/REF",
+   "THOC4",
+   "Aly/REF export factor"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 110,
+  "titlekicksparingfulltext": 39,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 2,
+   "Existing": 14,
+   "Hypothesized": 36,
+   "Novel": 48
+  },
+  "justification": "No article in this set reports ALYREF variants in patients with congenital heart disease. The strongest human genetic evidence (PMID 34547244) identifies ALYREF as a de novo candidate risk gene for congenital diaphragmatic hernia \u2014 a different congenital anomaly, although one that frequently co-occurs with and shares developmental pathways with cardiac malformations, which gives a weak, indirect basis for a hypothesized link. PMID 42781784 places ALYREF within a TREX-subunit neurodevelopmental disability spectrum, with cognitive, speech, respiratory and dysmorphic features, and arthrogryposis attributable to THOC2 rather than ALYREF; no cardiac phenotype is attributed to ALYREF. The remaining ALYREF papers concern mRNA export, EJC assembly, TREX assembly, PI3K/Akt signaling and ALS/FTD, with no cardiac relevance, and the congenital heart disease papers (screening, prevalence, endocarditis, maternal age/Nkx2-5) do not mention ALYREF. Therefore the relationship is best described as Novel, with meaningful probability mass given to Hypothesized because of the shared \"constrained developmental gene\" and congenital-anomaly context.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 14,
+   "Hypothesized": 36,
+   "Novel": 48
+  }
+ },
+ "articles": [
+  {
+   "pmid": "25830876",
+   "title": "The maternal-age-associated risk of congenital heart disease is modifiable.",
+   "abstract": "Maternal age is a risk factor for congenital heart disease even in the absence of any chromosomal abnormality in the newborn. Whether the basis of this risk resides with the mother or oocyte is unknown. The impact of maternal age on congenital heart disease can be modelled in mouse pups that harbour a mutation of the cardiac transcription factor gene Nkx2-5 (ref. 8). Here, reciprocal ovarian transplants between young and old mothers establish a maternal basis for the age-associated risk in mice. A high-fat diet does not accelerate the effect of maternal ageing, so hyperglycaemia and obesity do not simply explain the mechanism. The age-associated risk varies with the mother's strain background, making it a quantitative genetic trait. Most remarkably, voluntary exercise, whether begun by mothers at a young age or later in life, can mitigate the risk when they are older. Thus, even when the offspring carry a causal mutation, an intervention aimed at the mother can meaningfully reduce their risk of congenital heart disease.",
+   "found_by": [],
+   "pubdate": "2015 Apr 9",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38729260",
+   "title": "Critical Cellular Functions and Mechanisms of Action of the RNA Helicase UAP56.",
+   "abstract": "Posttranscriptional maturation and export from the nucleus to the cytoplasm are essential steps in the normal processing of many cellular RNAs. The RNA helicase UAP56 (U2AF associated protein 56; also known as DDX39B) has emerged as a critical player in facilitating and co-transcriptionally linking these steps. Originally identified as a helicase involved in pre-mRNA splicing, UAP56 has been shown to facilitate formation of the A complex during spliceosome assembly. Additionally, it has been found to be critical for interactions between components of the exon junction and transcription and export complexes to promote the loading of export receptors. Although it appears to be structurally similar to other helicase superfamily 2 members, UAP56's ability to interact with multiple different protein partners allows it to perform its various cellular functions. Herein, we describe the structure-activity relationship studies that identified protein interactions of UAP56 and its human paralog URH49 (UAP56-related helicase 49; also known as DDX39A) and are beginning to reveal molecular mechanisms by which interacting proteins and substrate RNAs may regulate these helicases. We also provide an overview of reports that have demonstrated less well-characterized roles for UAP56, including R-loop resolution and telomere maintenance. Finally, we discuss studies that indicate a potential pathogenic effect of UAP56 in the development of autoimmune diseases and cancer, and identify the association of somatic and genetic mutations in UAP56 with neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2024 Jun 15",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "31036086",
+   "title": "Drosophila Ref1/ALYREF regulates transcription and toxicity associated with ALS/FTD disease etiologies.",
+   "abstract": "RNA-binding proteins (RBPs) are associated with amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), but the underlying disease mechanisms remain unclear. In an unbiased screen in Drosophila for RBPs that genetically interact with TDP-43, we found that downregulation of the mRNA export factor Ref1 (fly orthologue to human ALYREF) mitigated TDP-43 induced toxicity. Further, Ref1 depletion also reduced toxicity caused by expression of the C9orf72 GGGGCC repeat expansion. Ref1 knockdown lowered the mRNA levels for these related disease genes and reduced the encoded proteins with no effect on a wild-type Tau disease transgene or a control transgene. Interestingly, expression of TDP-43 or the GGGGCC repeat expansion increased endogenous Ref1 mRNA levels in the fly brain. Further, the human orthologue ALYREF was upregulated by immunohistochemistry in ALS motor neurons, with the strongest upregulation occurring in ALS cases harboring the GGGGCC expansion in C9orf72. These data support ALYREF as a contributor to ALS/FTD and highlight its downregulation as a potential therapeutic target that may affect co-existing disease etiologies.",
+   "found_by": [],
+   "pubdate": "2019 Apr 29",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "20074066",
+   "title": "Structure and function of mRNA export adaptors.",
+   "abstract": "The mRNA export adaptors provide an important link between multiple nuclear mRNA processing events and the mRNA export receptor TAP/NXF1/Mex67p. They are recruited to mRNA through transcriptional and post-transcriptional events, integrating this information to licence mRNA for export. Subsequently they hand mRNA over to TAP and switch TAP to a higher-affinity RNA-binding state, ensuring its stable association with mRNA destined for export. Here we discuss the structure and function of adaptors and how they are recruited to mRNA.",
+   "found_by": [],
+   "pubdate": "2010 Feb",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12781131",
+   "title": "Structure of the Y14-Magoh core of the exon junction complex.",
+   "abstract": "BACKGROUND: Splicing of pre-mRNA in eukaryotes imprints the resulting mRNA with a specific multiprotein complex, the exon-exon junction complex (EJC), at the sites of intron removal. The proteins of the EJC, Y14, Magoh, Aly/REF, RNPS1, Srm160, and Upf3, play critical roles in postsplicing processing, including nuclear export and cytoplasmic localization of the mRNA, and the nonsense-mediated mRNA decay (NMD) surveillance process. Y14 and Magoh are of particular interest because they remain associated with the mRNA in the same position after its export to the cytoplasm and require translation of the mRNA for removal. This tenacious, persistent, splicing-dependent, yet RNA sequence-independent, association suggests an important signaling function and must require distinct structural features for these proteins. RESULTS: We describe the high-resolution structure and biochemical properties of the highly conserved human Y14 and Magoh proteins. Magoh has an unusual structure comprised of an extremely flat, six-stranded anti-parallel beta sheet packed against two helices. Surprisingly, Magoh binds with high affinity to the RNP motif RNA binding domain (RBD) of Y14 and completely masks its RNA binding surface. CONCLUSIONS: The structure and properties of the Y14-Magoh complex suggest how the pre-mRNA splicing machinery might control the formation of a stable EJC-mRNA complex at splice junctions.",
+   "found_by": [],
+   "pubdate": "2003 May 27",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "19586903",
+   "title": "The RNA-binding motif protein 15B (RBM15B/OTT3) acts as cofactor of the nuclear export receptor NXF1.",
+   "abstract": "The human SPEN family proteins SHARP, RBM15/OTT1, and RBM15B/OTT3 share the structural domain architecture but show distinct functional properties. Here, we examined the function of OTT3 and compared it with its paralogues RBM15 and SHARP. We found that OTT3, like RBM15, has post-transcriptional regulatory activity, whereas SHARP does not, supporting a divergent role of RBM15 and OTT3. OTT3 shares with RBM15 the association with the splicing factor compartment and the nuclear envelope as well as the binding to mRNA export factors NXF1 and Aly/REF. Mutational analysis revealed direct interaction of OTT3 and RBM15 with NXF1 via their C-terminal regions. Biochemical and subcellular localization studies showed that OTT3 and RBM15 also interact with each other in vivo, further supporting a shared function. Genetic knockdown of RBM15 in mouse is embryonically lethal, indicating that OTT3 cannot compensate for the RBM15 loss, which supports the notion that these proteins, in addition to sharing similar activities, likely have distinct biological roles.",
+   "found_by": [],
+   "pubdate": "2009 Sep 18",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "23222130",
+   "title": "Aly and THO are required for assembly of the human TREX complex and association of TREX components with the spliced mRNA.",
+   "abstract": "The mRNA export complex TREX (TREX) is known to contain Aly, UAP56, Tex1 and the THO complex, among which UAP56 is required for TREX assembly. Here, we systematically investigated the role of each human TREX component in TREX assembly and its association with the mRNA. We found that Tex1 is essentially a subunit of the THO complex. Aly, THO and UAP56 are all required for assembly of TREX, in which Aly directly interacts with THO subunits Thoc2 and Thoc5. Both Aly and THO function in linking UAP56 to the cap-binding protein CBP80. Interestingly, association of UAP56 with the spliced mRNA, but not with the pre-mRNA, requires Aly and THO. Unexpectedly, we found that Aly and THO require each other to associate with the spliced mRNA. Consistent with these biochemical results, similar to Aly and UAP56, THO plays critical roles in mRNA export. Together, we propose that Aly, THO and UAP56 form a highly integrated unit to associate with the spliced mRNA and function in mRNA export.",
+   "found_by": [],
+   "pubdate": "2013 Jan",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "19106628",
+   "title": "Nuclear phosphoinositide signaling regulates messenger RNA export.",
+   "abstract": "Messenger RNA export from the nucleus to the cytoplasm plays an essential role in linking transcription to translation and consequently regulation of protein expression. mRNA export requires a series of events: pre-mRNA processing, ribonucleoprotein targeting to the NPC (nuclear pore complexes), and translocation through nuclear pores to the cytoplasm. Interestingly, the conventional nuclear export machinery, exportins and the Ran GTPase, is not required for mRNA export. Instead, a protein complex consisting of a number of RNA binding proteins is essential for this event including the Aly/REF protein. Phosphoinositide signaling regulates a variety of cellular functions including pre-mRNA splicing and mRNA export. In fact, a phospholipase C-dependent inositol polyphosphate kinase pathway is required for efficient mRNA export. Recently, we showed that Aly is a physiological target of nuclear phosphoinositide-3-kinase (PI3K) signaling, which regulates Aly localization as well as Aly function in cell proliferation and mRNA export through nuclear Akt-mediated phosphorylation and phosphoinositide association. Hence, water-soluble inositol polyphosphates and phosphatidylinositol lipids play pivotal roles in modulating mRNA export.",
+   "found_by": [],
+   "pubdate": "2009 Jan-Mar",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "18562279",
+   "title": "Akt phosphorylation and nuclear phosphoinositide association mediate mRNA export and cell proliferation activities by ALY.",
+   "abstract": "Nuclear PI3K and its downstream effectors play essential roles in a variety of cellular activities including cell proliferation, survival, differentiation, and pre-mRNA splicing. Aly is a nuclear speckle protein implicated in mRNA export. Here we show that Aly is a physiological target of nuclear PI3K signaling, which regulates its subnuclear residency, cell proliferation, and mRNA export activities through nuclear Akt phosphorylation and phosphoinositide association. Nuclear Akt phosphorylates Aly on threonine-219, which is required for its interaction with Akt. Aly binds phosphoinositides, and this action is regulated by Akt-mediated phosphorylation. Phosphoinositide binding but not Akt phosphorylation dictates Aly's nuclear speckle residency. Depletion of Aly results in cell growth suppression and mRNA export reduction. Inhibition of Aly phosphorylation substantially decreases cell proliferation and mRNA export. Furthermore, disruption of phosphoinositide association with Aly also significantly reduces these activities. Thus, nuclear PI3K signaling mediates both cell proliferation and mRNA export functions of Aly.",
+   "found_by": [],
+   "pubdate": "2008 Jun 24",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "14625303",
+   "title": "A simple whole cell lysate system for in vitro splicing reveals a stepwise assembly of the exon-exon junction complex.",
+   "abstract": "Pre-mRNA splicing removes introns and leaves in its wake a multiprotein complex near the exon-exon junctions of mRNAs. This complex, termed the exon-exon junction complex (EJC), contains at least seven proteins and provides a link between pre-mRNA splicing and downstream events, including transport, localization, and nonsense-mediated mRNA decay. Using a simple whole cell lysate system we developed for in vitro splicing, we prepared lysates from cells transfected with tagged EJC proteins and studied the association of these proteins with pre-mRNA, splicing intermediates, and mRNA, as well as formation of the EJC during splicing. Three of the EJC components, Aly/REF, RNPS1, and SRm160, are found on pre-mRNA by the time the spliceosome is formed, whereas Upf3b associates with splicing intermediates during or immediately after the first catalytic step of the splicing reaction (cleavage of exon 1 and intron-lariat formation). In contrast, Y14 and magoh, which remain stably associated with mRNA after export to the cytoplasm, join the EJC during or after completion of exon-exon ligation. These findings indicate that EJC formation is an ordered pathway that involves stepwise association of components and is coupled to specific intermediates of the splicing reaction.",
+   "found_by": [],
+   "pubdate": "2004 Feb 20",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "12438415",
+   "title": "REF1/Aly and the additional exon junction complex proteins are dispensable for nuclear mRNA export.",
+   "abstract": "The metazoan proteins UAP56, REF1, and NXF1 are thought to bind sequentially to mRNA to promote its export to the cytoplasm: UAP56 is thought to recruit REF1 to nascent mRNA; REF1 acts as an adaptor protein mediating the association of NXF1 with mRNA, whereas NXF1 translocates the mRNA across the nuclear pore complex. REF1 is a component of the exon-exon junction complex (EJC); thus, the EJC is thought to play a role in the export of spliced mRNA. NXF1 and UAP56 are essential for mRNA export. An essential role for metazoan REF1 or the additional EJC proteins in this process has not been established. Contrary to expectation, we show that REF1 and the additional components of the EJC are dispensable for export of bulk mRNA in Drosophila cells. Only when REF1 and RNPS1 are codepleted, or when all EJC proteins are simultaneously depleted is a partial nuclear accumulation of polyadenylated RNAs observed. Because a significant fraction of bulk mRNA is detected in the cytoplasm of cells depleted of all EJC proteins, we conclude that additional adaptor protein(s) mediate the interaction between NXF1 and cellular mRNAs in metazoa. Our results imply that the essential role of UAP56 in mRNA export is not restricted to the recruitment of REF1.",
+   "found_by": [],
+   "pubdate": "2002 Nov 25",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "38388531",
+   "title": "TREX tetramer disruption alters RNA processing necessary for corticogenesis in THOC6 Intellectual Disability Syndrome.",
+   "abstract": "THOC6 variants are the genetic basis of autosomal recessive THOC6 Intellectual Disability Syndrome (TIDS). THOC6 is critical for mammalian Transcription Export complex (TREX) tetramer formation, which is composed of four six-subunit THO monomers. The TREX tetramer facilitates mammalian RNA processing, in addition to the nuclear mRNA export functions of the TREX dimer conserved through yeast. Human and mouse TIDS model systems revealed novel THOC6-dependent, species-specific TREX tetramer functions. Germline biallelic Thoc6 loss-of-function (LOF) variants result in mouse embryonic lethality. Biallelic THOC6 LOF variants reduce the binding affinity of ALYREF to THOC5 without affecting the protein expression of TREX members, implicating impaired TREX tetramer formation. Defects in RNA nuclear export functions were not detected in biallelic THOC6 LOF human neural cells. Instead, mis-splicing was detected in human and mouse neural tissue, revealing novel THOC6-mediated TREX coordination of mRNA processing. We demonstrate that THOC6 is required for key signaling pathways known to regulate the transition from proliferative to neurogenic divisions during human corticogenesis. Together, these findings implicate altered RNA processing in the developmental biology of TIDS neuropathology.",
+   "found_by": [],
+   "pubdate": "2024 Feb 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34547244",
+   "title": "Rare and de novo variants in 827 congenital diaphragmatic hernia probands implicate LONP1 as candidate risk gene.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) is a severe congenital anomaly that is often accompanied by other anomalies. Although the role of genetics in the pathogenesis of CDH has been established, only a small number of disease-associated genes have been identified. To further investigate the genetics of CDH, we analyzed de novo coding variants in 827 proband-parent trios and confirmed an overall significant enrichment of damaging de novo variants, especially in constrained genes. We identified LONP1 (lon peptidase 1, mitochondrial) and ALYREF (Aly/REF export factor) as candidate CDH-associated genes on the basis of de novo variants at a false discovery rate below 0.05. We also performed ultra-rare variant association analyses in 748 affected individuals and 11,220 ancestry-matched population control individuals and identified LONP1 as a risk gene contributing to CDH through both de novo and ultra-rare inherited largely heterozygous variants clustered in the core of the domains and segregating with CDH in affected familial individuals. Approximately 3% of our CDH cohort who are heterozygous with ultra-rare predicted damaging variants in LONP1 have a range of clinical phenotypes, including other anomalies in some individuals and higher mortality and requirement for extracorporeal membrane oxygenation. Mice with lung epithelium-specific deletion of Lonp1 die immediately after birth, most likely because of the observed severe reduction of lung growth, a known contributor to the high mortality in humans. Our findings of both de novo and inherited rare variants in the same gene may have implications in the design and analysis for other genetic studies of congenital anomalies.",
+   "found_by": [],
+   "pubdate": "2021 Oct 7",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42781784",
+   "title": "Variants in TREX complex subunits (THOC2, ALYREF, THOC6, THOC7) define a neurodevelopmental disability spectrum.",
+   "abstract": "PURPOSE: TRranscription EXport (TREX) is an evolutionarily conserved multifunctional complex with essential roles in regulating transcription, mRNA export, genome stability, cell differentiation and survival. We aimed to determine if variation in the TREX subunits, in addition to THOC2 and THOC6 genes, caused Neurodevelopmental Disorders. METHODS: Through international collaboration we aggregated and assessed 40 individuals with high impact variants across four TREX subunit coding genes: THOC2 and THOC6 (known disease genes), and THOC7 and ALYREF (THOC4) (candidate disease genes). RESULTS: On the background of considerable heterogeneity of neurodevelopmental and clinical outcomes, we noted that all TREX subunit variants impact cognitive functioning and development, speech and the respiratory systems as well as result in recognisable facial dysmorphism. We identified and studied five recurrent THOC2 variants, which give overlapping yet variable clinical presentations, including severe perinatal lethal arthrogryposis multiplex congenita (AMC). Using cells from 13 affected individuals, we show that their TREX subunit variants are generally partial loss of function (LoF), which alter protein localisation, protein stability, protein-protein interactions or delete internal or C-terminal protein functional domains. Cells from affected individuals from across all four TREX subunits studied show consistent, yet variable accumulation of DNA damage. CONCLUSION: The molecular, cellular and in silico data with the clinical presentations define a TREX spectrum disorder due to functional variation across multiple TREX subunits.",
+   "found_by": [],
+   "pubdate": "2026 Sep 24",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42694962",
+   "title": "Congenital Heart Defect Screening Among Children with Down Syndrome in Rwanda: A Cross-Sectional Study.",
+   "abstract": "BACKGROUND: Congenital heart defects affect over half of children with Down syndrome. Screening is recommended within the first six weeks of life to enable timely management and improve survival. Despite this, congenital heart defect screening remains low and often delayed. OBJECTIVE: This study aimed to assess the uptake of congenital heart defect screening and its associated factors among children with Down syndrome in Rwanda. METHODS: This quantitative cross-sectional study was conducted from February to May 2025. A total of 313 participants were recruited using convenience sampling. The study was conducted in four hospitals and the Rwanda Down Syndrome Organization. Data were collected using a newly developed structured questionnaire that was pilot tested prior to the main data collection. Ethical approval and informed consent were obtained. Descriptive statistics summarized congenital heart defect screening uptake, while multivariable logistic regression was used to identify factors associated with screening uptake. RESULTS: Among 313 children with Down syndrome, 159 (51%) had undergone congenital heart defect screening. Among those screened, 45 (28%) were screened within the recommended first 6\u00a0weeks after birth. In the multivariable logistic regression analysis, place of residence was significantly associated with congenital heart defect screening uptake, with higher odds of screening among children in urban areas compared with those in rural areas (AOR = 2.17; 95% CI: 1.29-3.68; p = 0.004). CONCLUSION: Congenital heart defect screening among children with Down syndrome remains suboptimal, with delayed screening commonly observed. Urban residence is associated with higher screening uptake in the adjusted model. Targeted interventions are needed to improve timely screening, particularly addressing barriers in rural settings.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42466380",
+   "title": "Prevalence, Clinical Profile, and Factors Associated With Congenital Heart Disease in Children Diagnosed at National Referral Hospital, Bhutan: A Cross-Sectional Study.",
+   "abstract": "BACKGROUND: Congenital heart disease is a structural or functional abnormality of the heart. The prevalence of congenital heart disease varies between countries, and mortality and morbidities are high in children with congenital heart diseases. This study evaluated the prevalence, clinical profile, and the factors associated with congenital heart diseases in children in Bhutan. METHODS: A cross-sectional study was conducted at the Department of Pediatrics at the Jigme Dorji Wangchuck National Referral Hospital from January 1 to December 31, 2021. All pediatric patients aged 0 days to 12 years diagnosed with congenital heart disease (CHD) by echocardiography during the study period were included. Data were analyzed using IBM SPSS Statistics version 23. RESULTS: In 2021, a total of 41,145 pediatric patients attended the Department of Pediatrics at the Jigme Dorji Wangchuck (JDW) National Referral Hospital, among whom 221 were diagnosed with congenital heart disease (CHD), corresponding to a hospital prevalence of 0.54% (5.4 per 1000 pediatric patients). CHD was observed slightly more frequently in female than male children (50.2% vs. 49.8%, p\u2009>\u20090.05). More than two-thirds of CHD cases (68.3%) were diagnosed during the neonatal period, while over one-quarter were diagnosed between 1 month and 1 year of age. The median age at diagnosis was 30 days (IQR: 7-60 days). The most common presenting symptoms were breathlessness (26.7%), poor weight gain (26.2%), and cough (21.7%), and 78.3% of the children had audible heart murmurs on examination. The most frequently identified CHD was atrial septal defect (ASD) (74.2%), followed by ventricular septal defect (VSD) (29.9%) and patent ductus arteriosus (PDA) (20.4%). On multivariable logistic regression, female children showed a lower likelihood of having VSD compared with male children (aOR 0.5, 95% CI 0.28-0.95, p\u2009=\u20090.036), though this did not reach the Bonferroni-corrected significance threshold (p\u2009<\u20090.017). Female children were 1.5 times more likely to have ASD than male children, though this was not statistically significant (aOR 1.5, 95% CI 0.77-2.74, p\u2009=\u20090.245). CONCLUSION: The prevalence of congenital heart disease was 5.4 per 1000 pediatric patients, with most cases diagnosed postnatally, predominantly during the neonatal period. Atrial septal defect, ventricular septal defect, and patent ductus arteriosus were the most common types. These findings highlight the need to implement prenatal fetal cardiac screening to enable early detection and timely intervention, thereby improving outcomes for affected newborns.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41709283",
+   "title": "RAPID-CHD pathway improves clinical outcomes in neonates with congenital heart disease.",
+   "abstract": "BACKGROUND: Timely and effective management is crucial for neonates with critical congenital heart disease (CCHD). This study investigated the impact of the RAPID-CHD Pathway, a coordinated referral and transport system, compared with conventional management models. METHODS: This retrospective study included neonates (\u2264\u200928\u00a0days) with CCHD admitted between January 2019 and December 2024. Group 1 comprised neonates enrolled in the RAPID-CHD Pathway: prenatally diagnosed, delivered in designated maternity hospitals, and transferred via a dedicated fast-track pathway. Group 2 included those referred from other hospitals or self-admitted. Major adverse events (MAEs) were defined as in-hospital death or discharge against medical advice. Logistic regression was used to assess associations between management strategies and MAEs. RESULTS: Among 587 neonates (Group 1: n\u2009=\u2009141; Group 2: n\u2009=\u2009446), 439 underwent surgery (Group 1: n\u2009=\u2009116; Group 2: n\u2009=\u2009323). Group 1 had earlier ICU admission (0 vs 6\u00a0days, P\u2009<\u20090.001), earlier surgery (7 vs 15\u00a0days, P\u2009<\u20090.001), lower rates of low birth weight (<\u20092.5\u00a0kg: 5.7% vs 18.2%, P\u2009<\u20090.001), fewer emergency surgeries (9.5% vs 18.9%, P\u2009=\u20090.028), and higher surgical rates (82.3% vs 72.4%, P\u2009=\u20090.025). MAEs were lower in Group 1 (5.7% vs 12.6%, P\u2009=\u20090.033). Among patients who underwent surgery, the RAPID-CHD pathway remained associated with a trend toward reduced MAEs after adjustment (aOR 0.36; 95% CI, 0.11-1.20). CONCLUSIONS: The RAPID-CHD Pathway improves early access to care, surgical opportunities, and outcomes in neonates with CCHD. It supports wider adoption in tertiary pediatric cardiac centers.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41929461",
+   "title": "Young patients with congenital heart disease on psychotropic medications have higher recurrence of cardiac events than those without CHD.",
+   "abstract": "BACKGROUND: Congenital heart disease (CHD) is a known risk factor for cardiac events, but its role in recurrent events among patients receiving psychotropic medications remains unclear. This study examines the impact of CHD on the risk of recurrent cardiac events in patients treated with psychotropic medications. METHODS: This nationwide nested case-control study used Swedish register data from 2006 to 2018 and included individuals aged 5-30 years who were treated with psychotropic medications (attention-deficit hyperactivity disorder medications, antihistamines, antidepressants, anxiolytics, antipsychotics, and hypnotics) and experienced at least one cardiac event (e.g., cardiac arrest, arrhythmia, or syncope). Cases were individuals with recurrent cardiac events (\u22652), while controls had a single event. The association between CHD and recurrent cardiac events was assessed by estimating adjusted odds ratios (AORs), controlling for sex, age, and psychotropic polypharmacy (\u22652 medications). RESULTS: A total of 23,504 individuals receiving psychotropic medical treatment experienced at least one cardiac event, of whom 2,409 (10.25%) had recurrent events. The median age was 20 years (IQR 17-24) for cases and 22 years (IQR 18-26) for controls. Most cases were female (70%). Both overall CHD and severe CHD were associated with a higher risk of recurrent cardiac events compared with patients without CHD (AOR 1.82; 95% CI 1.35-2.47 and AOR 1.77; 95% CI 1.29-2.42, respectively). Among patients with CHD, male sex, age 15-30 years, and absence of psychotropic polypharmacy were associated with a lower risk of recurrence. CONCLUSION: CHD is an independent risk factor for recurrent cardiac events among individuals treated with psychotropic medicines. Lower-risk factors included male sex, older age group, and absence of psychotropic polypharmacy.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42748479",
+   "title": "Predictors of chronic kidney disease in children who underwent surgical correction of congenital heart disease: a long-term follow-up cohort study.",
+   "abstract": "INTRODUCTION: Chronic kidney disease (CKD) has emerged as a relevant late complication in patients who have undergone surgical correction of congenital heart disease (CHD). Albuminuria has been highlighted as an early marker of subclinical renal injury, which may precede a reduction in glomerular filtration rate (GFR). OBJECTIVE: To assess late renal outcomes in patients who underwent surgical correction of CHD and to identify independent predictors for the development of CKD. METHODS: A retrospective cohort study including patients who underwent pediatric cardiac surgery with long-term outpatient follow-up. Renal function was assessed through estimated GFR and the presence of albuminuria. Clinical, surgical, and genetic variables were analyzed using a multivariate logistic regression model. RESULTS: CKD was observed in 20.6% of patients, while albuminuria was present in 16.4%. In the multivariate analysis, the presence of a genetic syndrome was identified as an independent predictor of CKD (OR 4.06; 95% CI 1.29-12.74). A RACHS-1 surgical score of 2 had a protective effect on renal outcomes. CONCLUSIONS: Genetic syndromes represent a significant risk factor for the progression of renal injury, while surgeries of lower complexity are associated with a better prognosis. These findings reinforce the importance of early screening for albuminuria and long-term nephrological follow-up in this population.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42403547",
+   "title": "Endocarditis in Adults with Congenital Heart Disease.",
+   "abstract": "Infective endocarditis (IE) remains a major cause of morbidity and mortality in patients with congenital heart disease (CHD). Advances in medical and surgical care have led to a growing population of adults with CHD who carry a substantially higher lifetime risk of IE than the general population. This increased susceptibility reflects the combined effects of abnormal intracardiac flow patterns, the frequent presence of prosthetic material or intracardiac devices, and repeated surgical and transcatheter interventions. The epidemiology, microbiology, clinical presentation, and management of IE in CHD differ in several important aspects from those observed in patients without CHD. Streptococcal species and Staphylococcus aureus account for the majority of IE cases. Diagnosis is often challenging due to complex cardiac anatomy and the presence of prosthetic material, and therefore it requires a high index of suspicion and multimodality imaging. Medical therapy usually requires prolonged antimicrobial therapy. Surgical intervention is more frequently required than in non-CHD populations, reflecting both the burden of prosthetic material and the higher rate of complications at presentation. Preventive strategies, including meticulous dental and skin hygiene and appropriate antibiotic prophylaxis, remain the cornerstone of IE management in this high-risk population.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "36545327": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9326938": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40131294": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18243119": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33531709": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18974867": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37155024": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25943887": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7630399": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33790762": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11455389": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34759074": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24866055": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37523897": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12118255": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16541617": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16341202": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28111258": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25628355": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27509854": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28186491": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34872046": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7753170": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32269723": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37905873": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23880347": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9052785": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33400376": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33194076": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39190372": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12068296": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14737177": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38361753": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25303709": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37956700": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30538201": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38762037": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10470083": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9664734": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8138274": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32726112": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25830876": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28514318": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10573641": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29324491": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34928339": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33947025": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26621159": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17685001": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40473283": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33248453": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10802661": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38729260": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31036086": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42524522": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20074066": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12781131": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19586903": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23222130": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19264631": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19106628": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18562279": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14625303": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12438415": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38388531": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29728564": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22761374": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11675789": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17229714": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26773052": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34547244": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37720017": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41326692": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33191911": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42781784": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "22203037": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16024770": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20015986": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15235604": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26350084": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32317635": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11182545": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15286787": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11029008": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10080184": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42694962": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42466380": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41709283": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41929461": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42748479": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42403547": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42785148": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42391172": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42590211": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41506416": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42467607": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42694697": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42420759": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42756509": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42396789": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42136604": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41464353": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41757267": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42666706": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42505870": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41923748": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42188103": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41504464": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41447281": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42505906": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 219,
+   "usd": 0.007195,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "36 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 5195,
+   "output_tokens": 246,
+   "usd": 0.006425,
+   "calls": 9
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 63.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.5,
+   "note": "",
+   "input_tokens": 37386,
+   "output_tokens": 1758,
+   "usd": 0.046176,
+   "calls": 8
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 14.1,
+   "note": "",
+   "input_tokens": 12291,
+   "output_tokens": 1081,
+   "usd": 0.08848,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>14</existing>\n    <hypothesized>36</hypothesized>\n    <novel>48</novel>\n  </probabilities>\n  <justification>No article in this set reports ALYREF variants in patients with congenital heart disease. The strongest human genetic evidence (PMID 34547244) identifies ALYREF as a de novo candidate risk gene for congenital diaphragmatic hernia \u2014 a different congenital anomaly, although one that frequently co-occurs with and shares developmental pathways with cardiac malformations, which gives a weak, indirect basis for a hypothesized link. PMID 42781784 places ALYREF within a TREX-subunit neurodevelopmental disability spectrum, with cognitive, speech, respiratory and dysmorphic features, and arthrogryposis attributable to THOC2 rather than ALYREF; no cardiac phenotype is attributed to ALYREF. The remaining ALYREF papers concern mRNA export, EJC assembly, TREX assembly, PI3K/Akt signaling and ALS/FTD, with no cardiac relevance, and the congenital heart disease papers (screening, prevalence, endocarditis, maternal age/Nkx2-5) do not mention ALYREF. Therefore the relationship is best described as Novel, with meaningful probability mass given to Hypothesized because of the shared \"constrained developmental gene\" and congenital-anomaly context.</justification>\n  <pmids>\n    <pmid>34547244</pmid>\n    <pmid>42781784</pmid>\n    <pmid>38388531</pmid>\n    <pmid>23222130</pmid>\n    <pmid>25830876</pmid>\n  </pmids>\n</response>"
+}

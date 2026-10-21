@@ -1,0 +1,138 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 1,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Whole-genome sequencing identifies novel genes for autism in Chinese trios (PMID: 39126614)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified in the abstract. ZNF483 was highlighted as a high-confidence ASD risk gene based on de novo/inherited coding variants.",
+            "type": "other",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Gene-level association model with de novo and inherited coding variants in ASD trios; supported by GO enrichment, expression and network analysis. Variant-level details are not given in the abstract.",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic Variant Analyses Identify Novel Candidate Autism Risk Genes from a Highly Consanguineous Cohort of 104 Families from Oman (PMID: 39769462)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_133464.5 c.2047C>T, p.R683* (homozygous in the table; novel)",
+            "type": "LoF",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Nonsense variant classified Pathogenic, novel, in a candidate ASD gene. It is homozygous, not heterozygous, so it does not strictly meet the heterozygous criterion.",
+        "center_country": "Oman",
+        "cohort": null
+      },
+      {
+        "citation": "A novel familial 9q31.2q32 microdeletion: Muscle cramping, somnolence, fatigue, sensorineural hearing loss, pubertal delay, and short stature (PMID: 30847195)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Heterozygous 9q31.2q32 microdeletion, chr9:109195179-113974353 (hg18), encompassing ZNF483 (a multi-gene deletion)",
+            "type": "other",
+            "phenotypes": [
+              "Fatigue",
+              "Muscle cramps",
+              "Somnolence",
+              "Short stature",
+              "Delayed puberty (small testes, low testosterone, required testosterone induction)",
+              "Sensorineural hearing loss",
+              "Mild developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Familial microdeletion with a suggested critical region; ZNF483 was discussed as a candidate for the pubertal delay phenotype.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Hong et al. 2017 - TRIM28 and Interacting KRAB-ZNFs Control Self-Renewal of Human Pluripotent Stem Cells through Epigenetic Repression of Pro-differentiation Genes (PMID: 29198826)",
+        "evidence_subtype": "function",
+        "summary": "ZNF483 was identified from expression datasets as one of three KRAB-ZNFs (with ZNF114 and ZNF589) that maintain pluripotency in human PSCs. These KRAB-ZNFs act with TRIM28 to repress differentiation genes by altering H3K9me3 and DNA methylation at their promoters.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zinc finger protein 483 (ZNF483) regulates neuronal differentiation and methyl-CpG-binding protein 2 (MeCP2) intracellular localization (PMID: 34192606)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CRISPR-Cas9 ZNF483-knockout P19 cells showed decreased proliferation, altered aggregate formation, reduced NeuN expression and altered MeCP2 phosphorylation. ZNF483 overexpression enhanced cytosolic MeCP2 localization. ZNF483 may promote neuronal differentiation by regulating MeCP2 subcellular localization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zinc finger protein 483 (ZNF483) regulates neuronal differentiation and methyl-CpG-binding protein 2 (MeCP2) intracellular localization (PMID: 34192606)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ZNF483 was characterized as a MeCP2-binding protein, one of nine MeCP2-binding candidates proposed from the cerebral cortex. Phylogenetic profiling showed ZNF483 is broadly conserved in metazoans, whereas MeCP2 arose in chordates.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Whole-genome sequencing identifies novel genes for autism in Chinese trios (PMID: 39126614)",
+        "evidence_subtype": "GWAS",
+        "summary": "WGS of ASD trios highlighted ZNF483 as a high-confidence candidate autism risk gene. Support came from de novo and inherited coding variants, association modeling, and GO enrichment, expression and network analyses.",
+        "sample_size": "112 ASD patients and their parents (334 individuals)",
+        "significance": "P<0.001 for risk gene selection"
+      },
+      {
+        "citation": "Kentistou et al. 2024 - Understanding the genetic complexity of puberty timing across the allele frequency spectrum (PMID: 38951643)",
+        "evidence_subtype": "GWAS",
+        "summary": "Exome analysis found rare loss-of-function variants in ZNF483 associated with age at menarche. These variants abolished the impact of polygenic risk on pubertal timing.",
+        "sample_size": "~220,000 women (exomes); ~800,000 women (common variant analysis)",
+        "significance": null
+      },
+      {
+        "citation": "Understanding the genetic complexity of puberty timing across the allele frequency spectrum (PMID: 37503126)",
+        "evidence_subtype": "GWAS",
+        "summary": "The preprint reports the same finding: rare LoF variants in ZNF483 from exome sequencing of ~220,000 women affect pubertal timing and abolish the polygenic risk effect.",
+        "sample_size": "~220,000 women (exomes)",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Understanding the genetic complexity of puberty timing across the allele frequency spectrum",
+        "evidence_subtype": "GWAS",
+        "summary": "Exome sequence analysis identified rare loss-of-function variants in ZNF483 associated with age at menarche. These variants abolished the impact of polygenic risk.",
+        "sample_size": "~220,000 women",
+        "significance": null
+      },
+      {
+        "citation": "Gene transcripts expressed in equine white blood cells are potential biomarkers of extracorporeal shock wave therapy (PMID: 34008346)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF483 transcript in horse white blood cells was significantly down-regulated at various time points after extracorporeal shock wave therapy, by qPCR and microarray. It is a candidate biomarker of ESWT.",
+        "sample_size": "6 thoroughbred horses",
+        "significance": "significant (p<0.05)"
+      },
+      {
+        "citation": "Transcriptome Profiling of Prostate Cancer, Considering Risk Groups and the TMPRSS2-ERG Molecular Subtype (PMID: 37298233)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF483 was among the genes with the highest predictive potential in RNA-seq profiling of high-risk prostate cancer, including the TMPRSS2-ERG subtype.",
+        "sample_size": "58 localized and 43 locally advanced PCa samples",
+        "significance": null
+      },
+      {
+        "citation": "Effect of Heixiaoyao Powder on Hippocampal Gene Expression Profile of Alzheimer's Disease Rats (PMID: 30641629)",
+        "evidence_subtype": "expression",
+        "summary": "Znf483 mRNA increased in the hippocampus of the A\u03b2-induced AD rat model. It decreased after Heixiaoyao Powder or Western medicine treatment, and the authors suggest HP acts partly by regulating znf483, zfp37 and zic4.",
+        "sample_size": "14 rats per group, 6 groups",
+        "significance": "P<0.05 (model vs sham); P<0.01 (treatment)"
+      }
+    ]
+  }
+}

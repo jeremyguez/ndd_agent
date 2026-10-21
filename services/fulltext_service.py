@@ -128,7 +128,7 @@ def gene_excerpts(pmcid, gene, window=420, most=3):
     return out
 
 
-def add_excerpts(articles, gene, workers=8):
+def add_excerpts(articles, gene, workers=4):
     """Append full-text passages naming the gene to each article that has an open-access copy."""
     need = [a for a in articles if a.get("pmid") and not a.get("pmcid")]
     if need:

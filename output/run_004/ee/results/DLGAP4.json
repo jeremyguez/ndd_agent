@@ -1,0 +1,142 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 6,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Sapap4 deficiency leads to postsynaptic defects and abnormal behaviors relevant to hyperkinetic neuropsychiatric disorder in mice (PMID: 35368073)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced spine density in the prefrontal cortex",
+          "abnormal PSD composition: reduced PSD95, GluR1 and GluR2, increased SHANK3",
+          "hyperactivity",
+          "impulsivity",
+          "reduced despair/depression-like behavior",
+          "hypersensitivity to low-dose amphetamine",
+          "memory deficits",
+          "decreased prepulse inhibition",
+          "mania-like phenotype",
+          "hyperactivity partially rescued by valproate"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cognitive impairment and autistic-like behaviour in SAPAP4-deficient mice (PMID: 30664629)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "cognitive deficits",
+          "impaired vocal communication",
+          "impaired social interaction",
+          "autism-like behaviors",
+          "altered synapse morphology, function and plasticity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Novel role of the synaptic scaffold protein Dlgap4 in ventricular surface integrity and neuronal migration during cortical development (PMID: 35585091)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "in utero electroporation of Dlgap4 knockdown caused a ventricular surface phenotype",
+          "altered progenitor cell dynamics, morphology and proliferation",
+          "neuronal migration defects",
+          "disorganized radial glial adherens junction components",
+          "altered actin cytoskeleton dynamics at the apical domain",
+          "phenotype rescued by wild-type but not mutant DLGAP4",
+          "Dlgap4 heterozygous knockout mice show developmental defects in the dorsal telencephalon"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Novel role of the synaptic scaffold protein Dlgap4 in ventricular surface integrity and neuronal migration during cortical development (PMID: 35585091)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "DLGAP4 is strongly expressed in the mouse ventricular zone from early corticogenesis and interacts with key VZ proteins including EML1. A novel DLGAP4 variant was found in a patient with an EML1-like subcortical heterotopia phenotype. Dlgap4 knockdown disrupted radial glial adherens junctions, actin dynamics and neuronal migration, and was rescued by wild-type but not mutant DLGAP4. Heterozygous KO mice show dorsal telencephalon defects.",
+        "sample_size": "1 patient; mouse in utero electroporation and heterozygous KO cohorts",
+        "significance": null
+      },
+      {
+        "citation": "Cognitive impairment and autistic-like behaviour in SAPAP4-deficient mice (PMID: 30664629)",
+        "evidence_subtype": "function",
+        "summary": "SAPAP4 (DLGAP4)-deficient mice show cognitive deficits, impaired vocal communication and impaired social interaction, resembling ASD. They also show altered synapse morphology, function and plasticity. This indicates DLGAP4 is critical for functional neuronal network development.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic remodelling and dysregulation of DLGAP4 is linked with early-onset cerebellar ataxia (PMID: 24986922)",
+        "evidence_subtype": "other",
+        "summary": "The t(8;20)(p12;q11.23) translocation truncates DLGAP4 and co-segregates with cerebellar ataxia in a five-generation family. It causes monoallelic hypermethylation of the DLGAP4 promoter CpG island and chromatin remodelling. This results in dysregulated, monoallelic expression of DLGAP4 mRNAs and ncRNAs in carriers.",
+        "sample_size": "five-generation family",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - A familial translocation as a model for decoding regulatory mechanisms associated with an inherited epimutation",
+        "evidence_subtype": "expression",
+        "summary": "The long brain-specific DLGAP4 isoform is specifically expressed in fetal and adult cerebellum, particularly the Purkinje cell layer in both mouse and human. The widely expressed short isoform shows elevated monoallelic expression from the translocated allele. The translocation makes DLGAP4 a candidate gene for early-onset non-progressive cerebellar ataxia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Bipolar Disorder Associated microRNA, miR-1908-5p, Regulates the Expression of Genes Functioning in Neuronal Glutamatergic Synapses (PMID: 28035180)",
+        "evidence_subtype": "pathway",
+        "summary": "DLGAP4 was identified and validated as a target of the bipolar disorder-associated miR-1908-5p, together with GRIN1, STX1A, CLSTN1 and GRM4, all of which function in glutamatergic synapses. In human brain expression profiles, miR-1908-5p and its synaptic targets are inversely correlated.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circular RNA DLGAP4 Ameliorates Ischemic Stroke Outcomes by Targeting miR-143 to Regulate Endothelial-Mesenchymal Transition Associated with Blood-Brain Barrier Integrity (PMID: 29114076)",
+        "evidence_subtype": "cell_culture",
+        "summary": "circDLGAP4 acts as a miR-143 sponge, which relieves repression of HECTD1. Its levels are decreased in plasma of ischemic stroke patients and in a mouse stroke model. Overexpression reduced infarct size, neurological deficits and blood-brain barrier damage, and inhibited endothelial-mesenchymal transition in the tMCAO mouse model.",
+        "sample_size": "26 stroke patients (13 female, 13 male); mouse tMCAO model",
+        "significance": null
+      },
+      {
+        "citation": "Circular RNA DLGAP4 alleviates sevoflurane-induced neurotoxicity by regulating miR-9-5p/Sirt1/BDNF pathway (PMID: 38000773)",
+        "evidence_subtype": "cell_culture",
+        "summary": "circDLGAP4 expression falls with sevoflurane exposure in neonatal mouse hippocampus and HT22 cells. Overexpression increased viability and reduced apoptosis and TNF-\u03b1/IL-6. It acts by directly sponging miR-9-5p and so upregulating Sirt1/BDNF.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Circular RNA DLGAP4 is down-regulated and negatively correlates with severity, inflammatory cytokine expression and pro-inflammatory gene miR-143 expression in acute ischemic stroke patients (PMID: 31933904)",
+        "evidence_subtype": "expression",
+        "summary": "PBMC circ-DLGAP4 is down-regulated in AIS patients (AUC 0.816). It correlates negatively with NIHSS score, CRP, inflammatory cytokines and miR-143.",
+        "sample_size": "170 AIS patients and 170 controls",
+        "significance": "AUC 0.816; correlations reported as significant"
+      },
+      {
+        "citation": "DLGAP4 acts as an effective prognostic predictor for hepatocellular carcinoma and is closely related to tumour progression (PMID: 36396671)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DLGAP4 is overexpressed in HCC tissues and cell lines, and high expression is an independent poor-prognosis factor. Knockdown inhibited HCC proliferation and metastasis in vitro and in vivo and lowered PPAR\u03b2/\u03b4 protein. Overexpression had the opposite effects.",
+        "sample_size": "TCGA HCC cohort; HCC cell lines and xenografts",
+        "significance": "independent risk factor in multivariate Cox analysis"
+      },
+      {
+        "citation": "Examination of the expression and prognostic significance of DLGAPs in gastric cancer using the TCGA database and bioinformatic analysis (PMID: 30365066)",
+        "evidence_subtype": "expression",
+        "summary": "DLGAP4 is selectively upregulated in gastric cancer tissues compared with normal tissue, and high expression correlates with shorter overall survival. This was confirmed at mRNA and protein level by RT-qPCR and IHC, suggesting an oncogenic role.",
+        "sample_size": null,
+        "significance": "significant association with overall survival reported"
+      }
+    ]
+  }
+}

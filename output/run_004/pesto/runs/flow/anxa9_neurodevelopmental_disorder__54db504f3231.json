@@ -1,0 +1,404 @@
+{
+ "gene": "ANXA9",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental disability",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "disorder of neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental disorder of the nervous system",
+   "neurodevelopmental delay",
+   "neurodevelopmental syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "ANX31",
+   "annexin A9"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 19,
+  "titlekicksparingfulltext": 9,
+  "read": 6
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 17,
+   "Hypothesized": 12,
+   "Novel": 70
+  },
+  "justification": "The only neurodevelopmental article (PMID 27119313) reports a de novo 1q21.3 deletion in an ASD proband that happens to contain ANXA9 among 10 genes; the authors themselves attribute the phenotype to SETDB1 and explicitly state that the other genes, including ANXA9, are not known to relate to brain function. A multigene CNV cannot single out ANXA9, so this does not constitute gene-level evidence, and no second proband or point-variant study exists. All remaining articles concern ANXA9 in colorectal, gastric, and head/neck cancers or its biochemical Ca2+/lipid-binding properties, with no neural expression, pathway, or animal-model link. Therefore the co-mention is essentially incidental, favoring Novel, with a modest allowance for Existing because the gene does lie within a de novo pathogenic CNV found in an ASD patient.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 17,
+   "Hypothesized": 12,
+   "Novel": 70
+  }
+ },
+ "articles": [
+  {
+   "pmid": "37349657",
+   "title": "Annexin A9 promotes cell proliferation by regulating the Wnt signaling pathway in colorectal cancer.",
+   "abstract": "Colorectal cancer (CRC) is one of the leading causes of cancer-related mortality worldwide. Expression of Annexin A9 (ANXA9), a member of the annexin A family, is upregulated in CRC. However, the molecular role of ANXA9 in CRC remains unknown. In the present study, we aimed to investigate the function of ANXA9 and to elucidate the mechanisms underlying its regulation in CRC. In this study, mRNA expression data and clinical information were downloaded from The Cancer Genome Atlas (TCGA) and GEPIA database, respectively. Kaplan-Meier analysis was used to analyze the survival rates. LinkedOmics and Metascape databases were used to explore the potential mechanisms of regulation of ANXA9 and to identify genes co-expressed with ANXA9. Finally, in vitro experiments were used to evaluate the function of ANXA9 and explore potential mechanisms. We found that ANXA9 expression was significantly elevated in CRC tissue and cells. High ANXA9 expression was associated with shorter overall survival, poorer disease specific survival, as well as with patient age, clinical stage, M stage, and OS events in CRC. Knockdown of ANXA9 inhibited cell proliferation, invasion, migratory potential, and cell cycle arrest. Mechanistically, functional analysis revealed that genes co-expressed with ANXA9 were mainly enriched in the Wnt signaling pathway. ANXA9 deletion suppressed cell proliferation via the Wnt signaling pathway, while Wnt activation reversed the effects of ANXA9. In conclusion, ANXA9 may promote CRC progression by regulating the Wnt signaling pathway and may be a potential diagnostic biomarker in the clinical management of CRC.",
+   "found_by": [],
+   "pubdate": "2023 Sep",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30744186",
+   "title": "Frequent Alteration of Annexin A9 and A10 in HPV-Negative Head and Neck Squamous Cell Carcinomas: Correlation with the Histopathological Differentiation Grade.",
+   "abstract": "The annexin protein superfamily has been implicated in multiple physiological and pathological processes, including carcinogenesis. Altered expression of various annexins has frequently been observed and linked to the development and progression of various human malignancies. However, information is lacking on the expression and clinical significance of annexin A9 (ANXA9) and A10 (ANXA10) in head and neck squamous cell carcinomas (HNSCC). ANXA9 and ANXA10 expression was evaluated in a large cohort of 372 surgically treated HPV-negative HNSCC patients and correlated with the clinicopathologic parameters and disease outcomes. Down-regulation of ANXA9 expression was found in 42% of HNSCC tissue samples, compared to normal epithelia. ANXA9 expression in tumors was significantly associated with oropharyngeal location and histological differentiation grade (P < 0.001). In marked contrast, ANXA10 expression was absent in normal epithelium, but variably detected in the cytoplasm of cancer cells. Positive ANXA10 expression was found in 64% of tumors, and was significantly associated with differentiation grade (P < 0.001), being also more frequent in oropharyngeal tumors (P = 0.019). These results reveal that the expression of both ANXA9 and ANXA10 is frequently altered in HNSCC and associated to the tumor differentiation grade, suggesting that they could be implicated in the pathogenesis of these cancers.",
+   "found_by": [],
+   "pubdate": "2019 Feb 10",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "35003923",
+   "title": "ANXA9 as a novel prognostic biomarker associated with immune infiltrates in gastric cancer.",
+   "abstract": "BACKGROUND: Gastric cancer (GC) is the most prevalent malignancy among the digestive system tumors. Increasing evidence has revealed that lower mRNA expression of ANXA9 is associated with a poor prognosis in colorectal cancer. However, the role of ANXA9 in GC remains largely unknown. MATERIAL AND METHODS: The Gene Expression Profiling Interactive Analysis (GEPIA) and Human Protein Atlas databases were used to investigate the expression of ANXA9 in GC, which was then validated in the four Gene Expression Omnibus (GEO) datasets. The diagnostic value of ANXA9 for GC patients was demonstrated using a receiver operating characteristic (ROC) curve. The correlation between ANXA9 expression and clinicopathological parameters was analyzed in The Cancer Genome Atlas (TCGA) and UALCAN databases. The Kaplan-Meier (K-M) survival curve was used to elucidate the relationship between ANXA9 expression and the survival time of GC patients. We then performed a gene set enrichment analysis (GSEA) to explore the biological functions of ANXA9. The relationship of ANXA9 expression and cancer immune infiltrates was analyzed using the Tumor Immune Estimation Resource (TIMER). In addition, the potential mechanism of ANXA9 in GC was investigated by analyzing its related genes. RESULTS: ANXA9 was significantly up-regulated in GC tissues and showed obvious diagnostic value. The expression of ANXA9 was related to the age, gender, grade, TP53 mutation, and histological subtype of GC patients. We also found that ANXA9 expression was associated with immune-related biological function. ANXA9 expression was also correlated with the infiltration level of CD8+ T cells, neutrophils, and dendritic cells in GC. Additionally, copy number variation (VNV) of ANXA9 occurred in GC patients. Function enrichment analyses revealed that ANXA9 plays a role in the GC progression by interacting with its related genes. CONCLUSIONS: Our results provide strong evidence of ANXA9 expression as a prognostic indicator related to immune responses in GC.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40888974",
+   "title": "Clinical significance of ANXA9 expression in colorectal cancer and its impact on immune evasion and drug resistance.",
+   "abstract": "BACKGROUND: Colorectal cancer (CRC) is a major global health challenge, creating an urgent need to find new biomarkers that improve early detection and treatment success. While studies suggest that ANXA9 contributes to cancer development, its expression in CRC and its links to prognosis, immune evasion, and resistance are poorly understood. METHODS: This study conducted bioinformatics analysis of gene expression data from the TCGA and GEO to evaluate the prognostic and diagnostic potential of ANXA9. Kaplan-Meier survival analysis and ROC curves were employed to assess these capabilities. Furthermore, ANXA9 gene mutations were examined using cBioPortal, and promoter methylation levels were analyzed via UALCAN. Enrichment, immune infiltration, and treatment response analyses were also performed on ANXA9. RESULTS: Our research demonstrates that ANXA9 expression is significantly elevated in CRC tissues compared to normal tissues. This elevation is associated with pathological staging and TNM classification. Kaplan-Meier analysis reveals that increased ANXA9 levels are correlated with reduced overall survival and disease-specific survival. Furthermore, several mutations in ANXA9 have been identified, accompanied by a significant reduction in promoter methylation levels. Genes related to ANXA9 are significantly enriched in pathways involved in immune responses, such as cytokine secretion and T cell activation. We also observed a correlation between ANXA9 expression and the infiltration of immune cells, particularly M1 macrophages. ANXA9 expression is linked to increased levels of the immune checkpoint gene IGSF8 and resistance to chemotherapeutic agents. CONCLUSION: This study reveals the critical role of ANXA9 in colorectal cancer. Its increased expression is closely associated with poor prognosis, immune evasion, and chemotherapy resistance. This provides valuable evidence for future clinical research and treatment strategies.",
+   "found_by": [],
+   "pubdate": "2025 Sep 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "12832069",
+   "title": "Atypical properties displayed by annexin A9, a novel member of the annexin family of Ca(2+) and lipid binding proteins.",
+   "abstract": "Annexin A9 is a novel member of the annexin family of Ca(2+) and phospholipid binding proteins which has so far only been identified in EST data bases and whose deduced protein sequence shows mutations in residues considered crucial for Ca(2+) coordination in other annexins. To elucidate whether the annexin A9 protein is expressed as such and to characterize its biochemical properties we probed cell extracts with specific anti-annexin A9 antibodies and developed a recombinant expression system. We show that the protein is found in HepG2 hepatoma cell lysates and that a green fluorescent protein-tagged form is abundantly expressed in the cytosol of HeLa cells. Recombinant expression in bacteria yields a soluble protein that can be enriched by conventional chromatographic procedures. The protein is capable of binding phosphatidylserine containing liposomes albeit only at Ca(2+) concentrations exceeding 2 mM. Moreover and in contrast to other annexins this binding appears to be irreversible as the liposome-bound annexin A9 cannot be released by Ca(2+) chelation. These results indicate that annexin A9 is a unique member of the annexin family whose intracellular activity is not subject to Ca(2+) regulation.",
+   "found_by": [],
+   "pubdate": "2003 Jul 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27119313",
+   "title": "Chromosomal microarray analysis in clinical evaluation of neurodevelopmental disorders-reporting a novel deletion of SETDB1 and illustration of counseling challenge.",
+   "abstract": "BACKGROUND: The pathogenicity of copy number variations (CNV) in neurodevelopmental disorders is supported by research literature. However, few studies have evaluated the utility and counseling challenges of CNV analysis in clinic. METHODS: We analyzed the findings of CNV studies from a cohort referred for genetics evaluation of autism spectrum disorders (ASD), developmental disability (DD), and intellectual disability (ID). RESULTS: Twenty-two CNV in 21 out of 115 probands are considered to be pathogenic (18.3%). Five CNV are likely pathogenic and 22 CNV are variants of unknown significance (VUS). We have found seven cases with more than two CNV and two with a complex rearrangement of the 22q13.3 Phelan-McDermid syndrome region. We identified a new and de novo 1q21.3 deletion that encompasses SETDB1, a gene encoding methylates histone H3 on lysine-9 (H3K9) methyltransferase, in a case with ASD. CONCLUSION: We provide evidence to support the value of CNV analysis in etiological evaluation of neurodevelopmental disorders in autism genetics clinic. However, interpretation of the clinical significance and counseling families are still challenging because of the variable penetrance and pleotropic expressivity of CNV. In addition, the identification of a 1q21.3 deletion encompassing SETDB1 provides further support for the role of chromatin modifiers in the etiology of ASD. [full text, passages naming ANXA9] ...delay, and mild facial dysmorphisms including small chin and flat nasal bridge, and flat feet (case #18, ). This CNV has not been previously reported in the literature. There are 10 genes (ARNT, SETDB1, CERS2, ANXA9, FAM63A, PRUNE, CDC42SE1, BNIPL, MLLT11, C1orf56) mapped in the deleted interval. Figure 2 CERS2 encodes a ceramide synthase [ 15 ] and SETDB1 encodes a histone methyltransferase which methylates histone... ...aining histone methyltransferase associated with ASD and ID The finding of a de novo CNV loss in the 1q21.3 region is novel and has not been reported in the literature. There are 10 genes (ARNT, SETDB1, CERS2, ANXA9, FAM63A, PRUNE, CDC42SE1, BNIPL, MLLT11, C1orf56) mapped in the deleted interval. However, the functions for these genes, except CERS2 and SETDB1 , are either not related to brain function or have not bee...",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "16734677": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21980298": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36459440": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21926416": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31046077": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39222128": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41920366": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28623398": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21931561": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10899159": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29663394": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37349657": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20079508": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30744186": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16717448": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35003923": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40888974": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12832069": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27119313": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 3.5,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 353,
+   "usd": 0.010565,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "15 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 14.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 1138,
+   "output_tokens": 56,
+   "usd": 0.001418,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 12.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 5318,
+   "output_tokens": 230,
+   "usd": 0.006468,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 8.4,
+   "note": "",
+   "input_tokens": 5397,
+   "output_tokens": 629,
+   "usd": 0.04271,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>17</existing>\n    <hypothesized>12</hypothesized>\n    <novel>70</novel>\n  </probabilities>\n  <justification>The only neurodevelopmental article (PMID 27119313) reports a de novo 1q21.3 deletion in an ASD proband that happens to contain ANXA9 among 10 genes; the authors themselves attribute the phenotype to SETDB1 and explicitly state that the other genes, including ANXA9, are not known to relate to brain function. A multigene CNV cannot single out ANXA9, so this does not constitute gene-level evidence, and no second proband or point-variant study exists. All remaining articles concern ANXA9 in colorectal, gastric, and head/neck cancers or its biochemical Ca2+/lipid-binding properties, with no neural expression, pathway, or animal-model link. Therefore the co-mention is essentially incidental, favoring Novel, with a modest allowance for Existing because the gene does lie within a de novo pathogenic CNV found in an ASD patient.</justification>\n  <pmids>\n    <pmid>27119313</pmid>\n    <pmid>12832069</pmid>\n    <pmid>37349657</pmid>\n    <pmid>35003923</pmid>\n    <pmid>30744186</pmid>\n    <pmid>40888974</pmid>\n  </pmids>\n</response>"
+}

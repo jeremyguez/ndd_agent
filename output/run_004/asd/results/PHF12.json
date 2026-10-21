@@ -1,0 +1,104 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 2,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Pf1/Phf12 knockout study 2016 - The Chromatin-Associated Phf12 Protein Maintains Nucleolar Integrity and Prevents Premature Cellular Senescence (PMID: 27956701)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Required for mid- to late gestation viability",
+          "Pf1-deficient MEFs have impaired proliferative potential",
+          "Decreased BrdU incorporation in MEFs",
+          "Increased senescence-associated \u03b2-galactosidase activity (premature cellular senescence)",
+          "Elevated phosphorylated H2AX (\u03b3-H2A.X), indicating DNA double-strand breaks",
+          "Dysregulated ribosome biogenesis pathway transcripts",
+          "Abnormal nucleolar structure in Pf1-deficient cells",
+          "Pf1-interacting proteins enriched for ribosome biogenesis factors"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mouse knockout study - The Chromatin-Associated Phf12 Protein Maintains Nucleolar Integrity and Prevents Premature Cellular Senescence (PMID: 27956701)",
+        "evidence_subtype": "function",
+        "summary": "Pf1/Phf12 knockout mice die in mid-to-late gestation. Pf1-deficient MEFs show reduced proliferation and BrdU incorporation, increased SA-\u03b2-Gal and \u03b3-H2AX, abnormal nucleolar structure and dysregulated ribosome biogenesis transcripts. Pf1 is therefore required for nucleolar integrity and prevents premature senescence.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Proteomic analysis in Phf12 study - The Chromatin-Associated Phf12 Protein Maintains Nucleolar Integrity and Prevents Premature Cellular Senescence (PMID: 27956701)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Pf1 associates with a chromatin complex containing MRG15, Sin3B and HDAC1 that acts as a transcriptional modulator. Proteomic analysis of Pf1-interacting complexes identified proteins involved in ribosome biogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic inactivation of miR-203 as a key step in neural crest epithelial-to-mesenchymal transition (PMID: 30910825)",
+        "evidence_subtype": "pathway",
+        "summary": "Phf12 is a key regulator of neural crest delamination, together with Snail2. It shows a reciprocal expression pattern with miR-203 during the neural crest EMT, and miR-203 interacts with its 3'UTR. Ectopic miR-203 inhibits neural crest migration in chick, and miR-203 inhibition causes premature delamination.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MYC promotes cancer progression by modulating m(6)A modifications to suppress target gene translation (PMID: 33426808)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PHF12 is a MYC-repressed gene. MYC activates ALKBH5, which lowers m6A in PHF12 mRNA, and YTHDF3 reads this mark to control PHF12 translation. Overexpressing PHF12 (or SPI1) suppresses growth of MYC-driven B-cell lymphomas in vitro and in vivo, so PHF12 acts as a growth suppressor in this context.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PHF12 regulates HDAC1 to promote tumorigenesis via EGFR/AKT signaling pathway in non-small cell lung cancer (PMID: 39075515)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PHF12 is upregulated in NSCLC tumor tissue and correlates with HDAC1. ChIP showed PHF12 transcriptionally regulates HDAC1. PHF12 knockdown reduced proliferation, migration and xenograft growth, and HDAC1 overexpression rescued these effects. The PHF12-HDAC1 axis activates EGFR/AKT signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Invasive phenotype in triple negative breast cancer is inhibited by blocking SIN3A-PF1 interaction through KLF9 mediated repression of ITGA6 and ITGB1 (PMID: 34968869)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PF1 (PHF12) binds the SIN3A PAH2 domain through its SID and forms a complex with MRG15 and KDM5A/B. Disrupting PF1/SIN3A with PF1-SID in TNBC cells reduced invasion, migration and mammosphere formation and induced senescence. It also increased SIN3A and KLF9 occupancy at the ITGA6 and ITGB1 promoters and repressed those genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LncRNA RP11-116G8.5 promotes the progression of lung squamous cell carcinoma through sponging miR-3150b-3p/miR-6870-5p to upregulate PHF12/FOXP4 (PMID: 34500373)",
+        "evidence_subtype": "cell_culture",
+        "summary": "PHF12 is a direct target of miR-3150b-3p, shown by luciferase reporter and Ago2-RIP assays, and is upregulated by the RP11-116G8.5 sponge. PHF12 overexpression reversed the anti-proliferative, anti-migratory and anti-invasive effects of RP11-116G8.5 knockdown in LUSC cells, so it acts as an oncogenic effector.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Family-based exome sequencing identifies rare coding variants in age-related macular degeneration (PMID: 32246154)",
+        "evidence_subtype": "GWAS",
+        "summary": "Rare protein-altering PHF12 variants were found in three or more multiplex AMD families. PHF12 lies at an AMD-GWAS locus and is proposed as a candidate causal gene.",
+        "sample_size": "264 individuals from 63 multiplex families",
+        "significance": null
+      },
+      {
+        "citation": "Identifying drug candidates for pancreatic ductal adenocarcinoma based on integrative multiomics analysis (PMID: 38989421)",
+        "evidence_subtype": "expression",
+        "summary": "PHF12 was one of four hub genes in a methylation-based PDAC diagnostic model. Its protein level was upregulated in PDAC tumor tissue compared with adjacent normal tissue.",
+        "sample_size": null,
+        "significance": "P<0.05"
+      },
+      {
+        "citation": "Using gene expression from urine sediment to diagnose prostate cancer: development of a new multiplex mRNA urine test and validation of current biomarkers (PMID: 26856686)",
+        "evidence_subtype": "expression",
+        "summary": "PHF12 transcript level in post-prostatic massage urine sediment was an independent predictor discriminating prostate cancer patients from controls, among 42 genes tested by qPCR.",
+        "sample_size": "224 urine sediments",
+        "significance": null
+      }
+    ]
+  }
+}

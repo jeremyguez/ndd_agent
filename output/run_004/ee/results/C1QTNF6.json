@@ -1,0 +1,118 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 4,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Murakami et al. 2015 - CTRP6 is an endogenous complement regulator that can effectively treat induced arthritis (PMID: 26404464)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "C1qtnf6-/- mice highly susceptible to induced arthritis due to enhanced complement activation",
+          "C1qtnf6-transgenic mice refractory to arthritis",
+          "Enhanced Arthus reaction in knockout mice",
+          "Enhanced experimental autoimmune encephalomyelitis in knockout mice",
+          "Knockout embryos semi-lethal",
+          "CTRP6 suppresses the alternative complement pathway by competing with factor B for C3(H2O) binding",
+          "Intra-articular recombinant human CTRP6 cured arthritis in arthritis-induced mice"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTRP6 rapidly responds to acute nutritional changes, regulating adipose tissue expansion and inflammation in mice (PMID: 34632797)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "CTRP6-KO MEFs showed increased adipogenic gene expression (Pparg, Fabp4, Adipoq)",
+          "CTRP6-KO MEFs showed markedly reduced inflammatory genes (Tnf-\u03b1, Ccl2, Il6)",
+          "3-day high-fat feeding of CTRP6-KO mice induced greater whole body and adipose tissue weight gain than wild-type littermates"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Sun et al. 2015 - CTRP6 is an endogenous complement regulator that can effectively treat induced arthritis (PMID: 26404464)",
+        "evidence_subtype": "function",
+        "summary": "CTRP6 (C1qtnf6) specifically suppresses the alternative complement pathway by competing with factor B for C3(H2O) binding. C1qtnf6-/- mice are highly susceptible to induced arthritis, have enhanced Arthus reaction and EAE, and their embryos are semi-lethal. C1qtnf6-transgenic mice are refractory to arthritis, and recombinant human CTRP6 cures arthritis. CTRP6 is expressed in human synoviocytes and elevated in RA patients.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "C1QTNF6 participates in the pathogenesis of PCOS by affecting the inflammatory response of granulosa cells (PMID: 33959757)",
+        "evidence_subtype": "pathway",
+        "summary": "C1QTNF6 is elevated in serum and granulosa cells of PCOS patients and in PCOS mouse serum and ovary. Its overexpression raises CRP, IL6 and TNF\u03b1 and activates AKT/NF-\u03baB signaling in LPS-treated KGN cells. Knockdown or an NF-\u03baB inhibitor reverses these effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MiR-29b-3p promotes particulate matter-induced inflammatory responses by regulating the C1QTNF6/AMPK pathway (PMID: 31955152)",
+        "evidence_subtype": "pathway",
+        "summary": "miR-29b-3p directly targets C1QTNF6 (RNA-seq and luciferase reporter) in human bronchial epithelial cells. C1QTNF6 protects against PM-induced inflammation by activating AMPK signaling. In mice, miR-29b-3p antagomirs blocked PM-induced C1QTNF6 downregulation in lung and reduced inflammation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Long non-coding RNA H19 promotes leukocyte inflammation in ischemic stroke by targeting the miR-29b/C1QTNF6 axis (PMID: 35322553)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "C1QTNF6 is upregulated in leukocytes of stroke patients and MCAO rats. miR-29b binds C1QTNF6 mRNA and represses it, while lncRNA H19 sponges miR-29b to maintain C1QTNF6 expression. C1QTNF6 overexpression increased IL-1\u03b2 and TNF-\u03b1 release and worsened blood-brain barrier disruption and ischemic injury.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "C1QTNF6 regulates cell proliferation and apoptosis of NSCLC in vitro and in vivo (PMID: 33269376)",
+        "evidence_subtype": "cell_culture",
+        "summary": "C1QTNF6 promoted proliferation, migration and invasion and reduced apoptosis in SPCA1 and A549 NSCLC cells. C1QTNF6 downregulation weakened xenograft tumor growth in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "C1QTNF6 promotes oral squamous cell carcinoma by enhancing proliferation and inhibiting apoptosis (PMID: 34906149)",
+        "evidence_subtype": "cell_culture",
+        "summary": "C1QTNF6 is overexpressed in OSCC tissue (IHC and TCGA). Knockdown in CaL27 and SCC-9 cells reduced proliferation, caused G2/M arrest, increased apoptosis and inhibited xenograft growth. Microarray and IPA showed activation of Acute Phase Response signaling after silencing.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "C1QTNF6 is a Prognostic Biomarker and Related to Immune Infiltration and Drug Sensitivity: A Pan-Cancer Analysis (PMID: 35401204)",
+        "evidence_subtype": "expression",
+        "summary": "C1QTNF6 is overexpressed across many cancer types (TCGA/GTEx) and independently predicts poor survival. Its expression correlates positively with hallmark pathway scores, tumor microenvironment pathways and immune infiltration. Higher expression predicts resistance to most of 198 drugs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "C1QTNF6 as a Novel Diagnostic and Prognostic Biomarker for Clear Cell Renal Cell Carcinoma (PMID: 32282241)",
+        "evidence_subtype": "expression",
+        "summary": "C1QTNF6 is overexpressed in ccRCC and correlates with clinical progression. It is a diagnostic biomarker (ROC) and an independent risk factor for overall survival. GSEA links it to cell cycle, EMT and angiogenesis pathways.",
+        "sample_size": "993 ccRCC samples",
+        "significance": null
+      },
+      {
+        "citation": "C1QTNF6 Targeted by MiR-184 Regulates the Proliferation, Migration, and Invasion of Lung Adenocarcinoma Cells (PMID: 35578071)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "miR-184 binds the C1QTNF6 3'UTR (dual-luciferase) and downregulates its expression in LUAD cells. High C1QTNF6 promotes LUAD cell proliferation, migration and invasion, and miR-184 restrains these processes via C1QTNF6.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Localization and expression of C1QTNF6 in chicken follicles and its regulatory effect on follicular granulosa cells (PMID: 39566174)",
+        "evidence_subtype": "expression",
+        "summary": "Chicken C1QTNF6 is widely expressed in follicle tissues, predominantly in granulosa cells (qRT-PCR and FISH), and is induced by FSH and LH. Overexpression and knockdown affect granulosa cell proliferation and apoptosis, and C1QTNF6 reduces steroidogenic gene expression and progesterone and estrogen output. It also inhibits AdipoR1 expression.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

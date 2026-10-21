@@ -1,0 +1,624 @@
+{
+ "gene": "PCBP2",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "diaphragmatic hernia, congenital",
+   "congenital hernia of the diaphragm",
+   "congenital diaphragm defect",
+   "congenital defect of the diaphragm",
+   "Bochdalek hernia",
+   "posterolateral diaphragmatic hernia",
+   "herniation of abdominal viscera into the chest",
+   "diaphragmatic eventration/hernia (congenital)"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "HNRPE2",
+   "HNRNPE2",
+   "HNRNP-E2",
+   "poly(rC) binding protein 2"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 50,
+  "titlekicksparingfulltext": 27,
+  "read": 14
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 4,
+   "Hypothesized": 20,
+   "Novel": 75
+  },
+  "justification": "None of the provided articles mention congenital diaphragmatic hernia (CDH) at all; they cover PCBP2 biology in iron homeostasis, RNA splicing/stability, cancer, viral translation, trophoblast differentiation, and adipogenesis. The only human variant-level evidence (PMID 38965372) implicates de novo PCBP2 variants in neurodevelopmental disorders with motor and language delay, which is not a recognized precursor, subtype, or mechanism of CDH. The trophoblast/placental and developmental splicing work (PMID 34095140) establishes a general developmental regulatory role, which offers only a weak, indirect biological rationale rather than a CDH-specific hypothesis. No clinical studies in CDH probands or families exist here, so Established and Existing are essentially excluded; a small weight goes to Hypothesized given PCBP2's broad roles in cell proliferation, migration, and differentiation relevant to tissue morphogenesis.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 4,
+   "Hypothesized": 20,
+   "Novel": 75
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41036621",
+   "title": "Iron-sensitive RNA regulation by poly C-binding proteins.",
+   "abstract": "Iron is essential for normal cellular function. Homeostatic responses to low iron availability have long been known to rely on posttranscriptional mechanisms. Poly C-binding proteins (PCBPs) are essential RNA-binding proteins that regulate alternative splicing (AS), translation, and RNA stability. They also serve as critical iron chaperones that manage intracellular iron flux. However, the impact of cellular iron levels on the PCBP-directed transcriptome has not been globally evaluated. We found broad transcriptome changes, including AS, in response to low iron availability consistent with numerous operant posttranscriptional mechanisms that sense iron. By comparing AS directed by PCBP1 and PCBP2 to the iron-sensitive transcriptome, we found genes with iron-sensitive PCBP-mediated splicing regulation. We also found that iron chelation-induced splicing changes were attenuated with knockdown of PCBPs. Further, we demonstrate that iron chelation or mutation of PCBP1 iron binding residues enhances PCBP1 RNA association. This work highlights widespread iron-sensitive RNA regulation and identifies PCBP1 and PCBP2 as critical splicing factors contributing to this response.",
+   "found_by": [],
+   "pubdate": "2025 Sep 23",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39430249",
+   "title": "HNF4A-AS1 inhibits the progression of hepatocellular carcinoma by promoting the ubiquitin-modulated degradation of PCBP2 and suppressing the stability of ARG2 mRNA.",
+   "abstract": "Hepatocellular carcinoma (HCC) is a highly aggressive malignant tumor with a poor prognosis. Extensive research has revealed the significant role of long noncoding RNAs (lncRNAs) in the regulation of tumor development. In this study, high-throughput sequencing analysis was used to assess the expression levels of lncRNAs in three pairs of HCC tissues and their corresponding noncancerous tissues. Through quantitative real-time polymerase chain reaction (qRT-PCR) analysis and clinicopathological analysis, it was discovered that HNF4A-AS1 was downregulated in HCC tissues. Furthermore, its expression levels were found to be positively correlated with the prognosis of HCC patients. Subsequent in vitro and in vivo functional studies demonstrated that HNF4A-AS1 inhibits the proliferation, invasion, and stemness of HCC cells. Mechanistically, it was observed that HNF4A-AS1 physically interacts with the KH3 domain of PCBP2 through a specific segment (491-672 nt). This interaction facilitates the recruitment of PCBP2 by AIP4, leading to the ubiquitination and subsequent degradation of PCBP2. Furthermore, HNF4A-AS1 was found to regulate the stability of AGR2 mRNA by modulating PCBP2, thereby influencing the malignant phenotype of HCC. Overall, our study demonstrated a positive association between the decrease in HNF4A-AS1 expression and the prognosis of patients with HCC in a clinical setting. HNF4A-AS1 can suppress the stability of ARG2 mRNA by promoting the ubiquitin-modulated degradation of PCBP2, which suppresses HCC progression. HNF4A-AS1 may serve as a potential therapeutic target for HCC.",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32032745",
+   "title": "Functional expression of ZNF467 and PCBP2 supports adipogenic lineage commitment in adipose-derived mesenchymal stem cells.",
+   "abstract": "Bone marrow-derived mesenchymal stromal/stem cells (BMSCs) have the potential to be employed in many different skeletal therapies. A major limitation to utilizing BMSCs as a therapeutic strategy in human disease and tissue regeneration is the low cell numbers obtained from initial isolation necessitating multiple cell passages that can lead to decreased cell quality. Adipose-derived mesenchymal stromal/stem cells (AMSCs) have been proposed as an alternative cell source for regenerative therapies; however the differentiation capacity of these cells differs from BMSCs. To understand the differences between BMSCs and AMSCs, we compared the global gene expression profiles of BMSCs and AMSCs and identified two genes, PCBP2 and ZNF467 that were differentially expressed between AMSCs and BMSCs. We demonstrate that PCBP2 and ZNF467 impact adipogenic but not osteogenic differentiation, further supporting evidence that AMSCs and BMSCs appear to be adapted to their microenvironment.",
+   "found_by": [],
+   "pubdate": "2020 May 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12972621",
+   "title": "Identification of mRNAs associated with alphaCP2-containing RNP complexes.",
+   "abstract": "Posttranscriptional controls in higher eukaryotes are central to cell differentiation and developmental programs. These controls reflect sequence-specific interactions of mRNAs with one or more RNA binding proteins. The alpha-globin poly(C) binding proteins (alphaCPs) comprise a highly abundant subset of K homology (KH) domain RNA binding proteins and have a characteristic preference for binding single-stranded C-rich motifs. alphaCPs have been implicated in translation control and stabilization of multiple cellular and viral mRNAs. To explore the full contribution of alphaCPs to cell function, we have identified a set of mRNAs that associate in vivo with the major alphaCP2 isoforms. One hundred sixty mRNA species were consistently identified in three independent analyses of alphaCP2-RNP complexes immunopurified from a human hematopoietic cell line (K562). These mRNAs could be grouped into subsets encoding cytoskeletal components, transcription factors, proto-oncogenes, and cell signaling factors. Two mRNAs were linked to ceroid lipofuscinosis, indicating a potential role for alphaCP2 in this infantile neurodegenerative disease. Surprisingly, alphaCP2 mRNA itself was represented in alphaCP2-RNP complexes, suggesting autoregulatory control of alphaCP2 expression. In vitro analyses of representative target mRNAs confirmed direct binding of alphaCP2 within their 3' untranslated regions. These data expand the list of mRNAs that associate with alphaCP2 in vivo and establish a foundation for modeling its role in coordinating pathways of posttranscriptional gene regulation.",
+   "found_by": [],
+   "pubdate": "2003 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33037085",
+   "title": "PCBP2 Posttranscriptional Modifications Induce Breast Cancer Progression via Upregulation of UFD1 and NT5E.",
+   "abstract": "It is commonly accepted that cellular protein levels are primarily determined by mRNA levels. However, discordance between protein and mRNA expression has been implicated in many pathologic conditions including oncogenesis. The mechanisms involved in this discordance are complicated and far from understood. In this study, it was observed that the expression levels of poly(C) binding protein 2 (PCBP2) mRNA and protein were diametric in breast normal and cancer cell lines, paraffin-embedded and fresh tissue specimens, consistent with data from The Cancer Genome Atlas and the Clinical Proteomic Tumor Analysis Consortium. Moreover, PCBP2 protein expression was significantly associated with disease progression and poor outcome in patients with breast cancer. Depletion of PCBP2 protein inhibited cell proliferation, colony formation, migration, invasion, and in vivo tumor growth and metastasis. Forced expression of PCBP2 exhibited the opposite effect. Mechanistically, it was demonstrated that PCBP2 3' untranslated region (3'UTR) was subject to alternative splicing and polyadenylation (APA) in breast cancer tissues and cell lines. Non-full-length 3'UTR PCBP2 transcripts yielded more protein than the full-length 3'UTR transcripts and enhanced the oncogenic and metastatic capacities of human breast cancer cells. Furthermore, UFD1 and NT5E were identified as genes downstream of PCBP2. PCBP2 promoted oncogenicity of breast cancer cells via upregulation of the expression of UFD1 and NT5E by direct binding to their 3'UTR-B portions. IMPLICATIONS: Findings demonstrate that APA of PCBP2 3'UTR contributes to its increased expression with subsequent promotion of breast cancer progression by regulating UFD1 and NT5E. VISUAL OVERVIEW: http://mcr.aacrjournals.org/content/molcanres/19/1/86/F1.large.jpg.",
+   "found_by": [],
+   "pubdate": "2021 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29422543",
+   "title": "Poly(rC) binding protein 2 acts as a negative regulator of IRES-mediated translation of Hr mRNA.",
+   "abstract": "During the hair follicle (HF) cycle, HR protein expression is not concordant with the presence of the Hr mRNA transcript, suggesting an elaborate regulation of Hr gene expression. Here we present evidence that the 5' untranslated region (UTR) of the Hr gene has internal ribosome entry site (IRES) activity and this activity is regulated by the binding of poly (rC) binding protein 2 (PCBP2) to Hr mRNA. Overexpression and knockdown of PCBP2 resulted in a decrease in Hr 5' UTR IRES activity and an increase in HR protein expression without changing mRNA levels. We also found that this regulation was disrupted in a mutant Hr 5' UTR that has a mutation responsible for Marie Unna hereditary hypotrichosis (MUHH) in both mice and humans. These findings suggest that Hr mRNA expression is regulated at the post-transcriptional level via IRES-mediated translation control through interaction with PCPB2, but not in MUHH.",
+   "found_by": [],
+   "pubdate": "2018 Feb 9",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "7607214",
+   "title": "Characterisation of two major cellular poly(rC)-binding human proteins, each containing three K-homologous (KH) domains.",
+   "abstract": "We have revealed and characterised two nucleic-acid-binding proteins, termed PCBP-1 (M(r) 37,525, pI 7.07) and PCBP-2 (M(r) 38,579, pI 6.76), that together with heterogeneous ribonucleoparticle (hnRNP)-K correspond to the major cellular poly(rC)-binding proteins. mRNA for both PCBPs were detected in all the human tissues analysed. Both proteins contain three K-homologous (KH) domains which share similarity with other KH domain proteins, including the fragile-X protein FMR1, and which are positioned as in hnRNP-K and nova, i.e. with two closely spaced domains at the N-terminus and one at the C-terminus. PCBPs do not contain RGG boxes or any other known nucleic-acid-binding motifs. Expression in the vaccinia virus system showed that both proteins are post-translationally modified in vivo, a fact that was confirmed by [32P]orthophosphate labelling. Northwestern-blot analysis showed that the non-phosphorylated forms bind tenaciously to poly(rC) in vitro, while significantly less binding was observed for the phosphorylated variants. Escherichia coli expressed proteins also bound poly(rG), albeit at a lower level. In addition, PCBP-2 bound poly(rU), whereas very little binding to poly(rA) was observed for both proteins.",
+   "found_by": [],
+   "pubdate": "1995 Jun 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "9891025",
+   "title": "Regulation of tyrosine hydroxylase mRNA stability by protein-binding, pyrimidine-rich sequence in the 3'-untranslated region.",
+   "abstract": "The stability of mRNA for tyrosine hydroxylase (TH), the rate-limiting enzyme in catecholamine synthesis, is regulated by oxygen tension in the pheochromocytoma-derived PC12 cell line. We previously identified a pyrimidine-rich 27-base-long protein-binding sequence in the 3'-untranslated region of TH mRNA that is associated with hypoxia-inducible formation of a ribonucleoprotein complex (hypoxia-inducible protein-binding site (HIPBS)). In this study, we show that HIPBS is an mRNA stabilizing element necessary for both constitutive and hypoxia-regulated stability of TH mRNA. The mutations within this sequence that abolish protein binding markedly decrease constitutive TH mRNA stability and ablate its hypoxic regulation. A short fragment of TH mRNA that contains the wild-type HIPBS confers the increased mRNA stability to the reporter chloramphenicol acetyltransferase mRNA. However, it is not sufficient to confer hypoxic regulation. The HIPBS element binds two isoforms of a 40-kDa poly(C)-binding protein (PCBP). Hypoxia induces expression of the isoform 1, PCBP1, but not the isoform 2, PCBP2, in PC12 cells.",
+   "found_by": [],
+   "pubdate": "1999 Jan 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "25717101",
+   "title": "Cellular STAT3 functions via PCBP2 to restrain Epstein-Barr Virus lytic activation in B lymphocytes.",
+   "abstract": "UNLABELLED: A major hurdle to killing Epstein-Barr virus (EBV)-infected tumor cells using oncolytic therapy is the presence of a substantial fraction of EBV-infected cells that does not support the lytic phase of EBV despite exposure to lytic cycle-promoting agents. To determine the mechanism(s) underlying this refractory state, we developed a strategy to separate lytic from refractory EBV-positive (EBV(+)) cells. By examining the cellular transcriptome in separated cells, we previously discovered that high levels of host STAT3 (signal transducer and activator of transcription 3) curtail the susceptibility of latently infected cells to lytic cycle activation signals. The goals of the present study were 2-fold: (i) to determine the mechanism of STAT3-mediated resistance to lytic activation and (ii) to exploit our findings to enhance susceptibility to lytic activation. We therefore analyzed our microarray data set, cellular proteomes of separated lytic and refractory cells, and a publically available STAT3 chromatin immunoprecipitation sequencing (ChIP-Seq) data set to identify cellular PCBP2 [poly(C)-binding protein 2], an RNA-binding protein, as a transcriptional target of STAT3 in refractory cells. Using Burkitt lymphoma cells and EBV(+) cell lines from patients with hypomorphic STAT3 mutations, we demonstrate that single cells expressing high levels of PCBP2 are refractory to spontaneous and induced EBV lytic activation, STAT3 functions via cellular PCBP2 to regulate lytic susceptibility, and suppression of PCBP2 levels is sufficient to increase the number of EBV lytic cells. We expect that these findings and the genome-wide resources that they provide will accelerate our understanding of a longstanding mystery in EBV biology and guide efforts to improve oncolytic therapy for EBV-associated cancers. IMPORTANCE: Most humans are infected with Epstein-Barr virus (EBV), a cancer-causing virus. While EBV generally persists silently in B lymphocytes, periodic lytic (re)activation of latent virus is central to its life cycle and to most EBV-related diseases. However, a substantial fraction of EBV-infected B cells and tumor cells in a population is refractory to lytic activation. This resistance to lytic activation directly and profoundly impacts viral persistence and the effectiveness of oncolytic therapy for EBV(+) cancers. To identify the mechanisms that underlie susceptibility to EBV lytic activation, we used host gene and protein expression profiling of separated lytic and refractory cells. We find that STAT3, a transcription factor overactive in many cancers, regulates PCBP2, a protein important in RNA biogenesis, to regulate susceptibility to lytic cycle activation signals. These findings advance our understanding of EBV persistence and provide important leads on devising methods to improve viral oncolytic therapies.",
+   "found_by": [],
+   "pubdate": "2015 May",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17145707",
+   "title": "Selection and cloning of poly(rC)-binding protein 2 and Raf kinase inhibitor protein RNA activators of 2',5'-oligoadenylate synthetase from prostate cancer cells.",
+   "abstract": "The antiviral and antitumor functions of RNase L are enabled by binding to the allosteric effectors 5'-phosphorylated, 2',5'-linked oligoadenylates (2-5A). 2-5A is produced by interferon-inducible 2',5'-oligoadenylate synthetases (OAS) upon activation by viral double-stranded RNA (dsRNA). Because mutations in RNase L have been implicated as risk factors for prostate cancer, we sought to determine if OAS activators are present in prostate cancer cells. We show that prostate cancer cell lines (PC3, LNCaP and DU145), but not normal prostate epithelial cells (PrEC), contain RNA fractions capable of binding to and activating OAS. To identify the RNA activators, we developed a cDNA cloning strategy based on stringent affinity of RNAs for OAS. We thus identified mRNAs for Raf kinase inhibitor protein (RKIP) and poly(rC)-binding protein 2 (PCBP2) that bind and potently activate OAS. In addition, human endogenous retrovirus (hERV) envelope RNAs were present in PC3 cells that bind and activate OAS. Analysis of several gene expression profiling studies indicated that PCBP2 RNA was consistently elevated in metastatic prostate cancer. Results suggest that OAS activation may occur in prostate cancer cells in vivo stimulated by cellular mRNAs for RKIP and PCBP2.",
+   "found_by": [],
+   "pubdate": "2006",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "20497049",
+   "title": "La protein required for internal ribosome entry site-directed translation is a potential therapeutic target for hepatitis C virus replication.",
+   "abstract": "BACKGROUND: Translation of the hepatitis C virus (HCV) is mediated by an internal ribosome entry site (IRES). Here, we analyzed the functional relevance of La protein for replication of HCV using an infectious HCV clone, JFH-1. METHODS: A single-nucleotide mutation from A to U was introduced at the 338th nucleotide in the stem-loop domain IV structure of HCV IRES, which stabilized stem-loop IV and abolished translation and replication of JFH-1 almost completely. RESULTS: During JFH-1 replication, translation initiation factors required for HCV IRES activity, including La protein, polypyrimidine tract binding protein (PTB), PSMA7, and PCBP2, were significantly induced in Huh-7.5 cells. Interestingly, JFH-1 infection increased telomerase activity and induced the expression of human telomerase RNA (hTR) in Huh-7.5 cells. In 37 tissue specimens from patients with chronic hepatitis C, La protein significantly correlated with the representative essential telomerase components hTR, p23, and HSP90 (P<.001). Recombinant adenovirus that expressed short-hairpin RNA against La protein successfully suppressed the levels of La protein and core protein of JFH-1 to 30% of that in the control cells. CONCLUSIONS: HCV infection might be strongly related to telomerase activity in the liver through La protein induction. Inhibition of La protein substantially repressed JFH-1 replication; therefore, La protein is a potential therapeutic target for HCV.",
+   "found_by": [],
+   "pubdate": "2010 Jul 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32647012",
+   "title": "PCBP1 and PCBP2 both bind heavily oxidized RNA but cause opposing outcomes, suppressing or increasing apoptosis under oxidative conditions.",
+   "abstract": "PCBP1, a member of the poly(C)-binding protein (PCBP) family, has the capability of binding heavily oxidized RNA and therefore participates in the cellular response to oxidative conditions, helping to induce apoptosis. There are four other members of this family, PCBP2, PCBP3, PCBP4, and hnRNPK, but it is not known whether they play similar roles. To learn more, we first tested their affinity for an RNA strand carrying two 8-oxoguanine (8-oxoG) residues at sites located in close proximity to each other, representative of a heavily oxidized strand or RNA with one 8-oxoG or none. Among them, only PCBP2 exhibited highly selective binding to RNA carrying two 8-oxoG residues similar to that observed with PCBP1. In contrast, PCBP3, PCBP4, and hnRNPK bound RNA with or without 8-oxoG modifications and exhibited slightly increased binding to the former. Mutations in conserved RNA-binding domains of PCBP2 disrupted the specific interaction with heavily oxidized RNA. We next tested PCBP2 activity in cells. Compared with WT HeLa S3 cells, PCBP2-KO cells established by gene editing exhibited increased apoptosis with increased caspase-3 activity and PARP1 cleavage under oxidative conditions, which were suppressed by the expression of WT PCBP2 but not one of the mutants lacking binding activity. In contrast, PCBP1-KO cells exhibited reduced apoptosis with much less caspase-3 activity and PARP cleavage than WT cells. Our results indicate that PCBP2 as well as PCBP1 bind heavily oxidized RNA; however, the former may counteract PCBP1 to suppress apoptosis under oxidative conditions.",
+   "found_by": [],
+   "pubdate": "2020 Aug 21",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34095140",
+   "title": "Knockdown of Splicing Complex Protein PCBP2 Reduces Extravillous Trophoblast Differentiation Through Transcript Switching.",
+   "abstract": "Mutations in the LINC-HELLP non-coding RNA (HELLPAR) have been associated with familial forms of the pregnancy-specific HELLP syndrome. These mutations negatively affect extravillous trophoblast (EVT) differentiation from a proliferative to an invasive state and disturb the binding of RNA splicing complex proteins PCBP1, PCBP2, and YBX1 to LINC-HELLP. In this study, by using both in vitro and ex vivo experiments, we investigate if these proteins are involved in the regulation of EVT invasion during placentation. Additionally, we study if this regulation is due to alternative mRNA splicing. HTR-8/SVneo extravillous trophoblasts and human first trimester placental explants were used to investigate the effect of siRNA-mediated downregulation of PCBP1, PCBP2, and YBX1 genes on the differentiation of EVTs. Transwell invasion assays and proliferation assays indicated that upon knockdown of PCBP2 and, to a lesser extent, YBX1 and PCBP1, EVTs fail to differentiate toward an invasive phenotype. The same pattern was observed in placental explants where PCBP2 knockdown led to approximately 80% reduction in the number of explants showing any EVT outgrowth. Of the ones that still did show EVT outgrowth, the percentage of proliferating EVTs was significantly higher compared to explants transfected with non-targeting control siRNAs. To further investigate this effect of PCBP2 silencing on EVTs, we performed whole transcriptome sequencing (RNA-seq) on HTR-8/SVneo cells after PCBP2 knockdown. PCBP2 knockdown was found to have minimal effect on mRNA expression levels. In contrast, PCBP2 silencing led to a switch in splicing for a large number of genes with predominant functions in cellular assembly and organization, cellular function and maintenance, and cellular growth and proliferation and the cell cycle. EVTs, upon differentiation, alter their function to be able to invade the decidua of the mother by changing their cellular assembly and their proliferative activity by exiting the cell cycle. PCBP2 appears to be a paramount regulator of these differentiation mechanisms, where its disturbed binding to LINC-HELLP could contribute to dysfunctional placental development as seen in the HELLP syndrome.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38965372",
+   "title": "Burden re-analysis of neurodevelopmental disorder cohorts for prioritization of candidate genes.",
+   "abstract": "This study aimed to uncover novel genes associated with neurodevelopmental disorders (NDD) by leveraging recent large-scale de novo burden analysis studies to enhance a virtual gene panel used in a diagnostic setting. We re-analyzed historical trio-exome sequencing data from 745 individuals with NDD according to the most recent diagnostic standards, resulting in a cohort of 567 unsolved individuals. Next, we designed a virtual gene panel containing candidate genes from three large de novo burden analysis studies in NDD and prioritized candidate genes by stringent filtering for ultra-rare de novo variants with high pathogenicity scores. Our analysis revealed an increased burden of de novo variants in our selected candidate genes within the unsolved NDD cohort and identified qualifying de novo variants in seven candidate genes: RIF1, CAMK2D, RAB11FIP4, AGO3, PCBP2, LEO1, and VCP. Clinical data were collected from six new individuals with de novo or inherited LEO1 variants and three new individuals with de novo PCBP2 variants. Our findings add additional evidence for LEO1 as a risk gene for autism and intellectual disability. Furthermore, we prioritize PCBP2 as a candidate gene for NDD associated with motor and language delay. In summary, by leveraging de novo burden analysis studies, employing a stringent variant filtering pipeline, and engaging in targeted patient recruitment, our study contributes to the identification of novel genes implicated in NDDs.",
+   "found_by": [],
+   "pubdate": "2024 Nov",
+   "query_tier": "variant"
+  }
+ ],
+ "labels": {
+  "16001081": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35971620": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19211566": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32141009": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40651437": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41044642": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22951310": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15858019": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21723381": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17609276": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10606268": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35488273": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15094196": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41392552": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35972696": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35089637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24796666": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26173455": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8035790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18174314": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31919425": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17327219": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28666471": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22633452": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15134450": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21976648": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12867653": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41036621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39430249": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32032745": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12972621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33037085": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29422543": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7607214": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9891025": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25717101": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17145707": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20497049": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32647012": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34095140": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25463520": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23946460": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42379276": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19620256": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38965372": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29335020": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9326487": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36592411": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28539455": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41928225": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.8,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 379,
+   "usd": 0.011225,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "19 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "34 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 8.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3434,
+   "output_tokens": 158,
+   "usd": 0.004224,
+   "calls": 5
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 13389,
+   "output_tokens": 536,
+   "usd": 0.016069,
+   "calls": 3
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 7.6,
+   "note": "",
+   "input_tokens": 10047,
+   "output_tokens": 631,
+   "usd": 0.06601,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>4</existing>\n    <hypothesized>20</hypothesized>\n    <novel>75</novel>\n  </probabilities>\n  <justification>None of the provided articles mention congenital diaphragmatic hernia (CDH) at all; they cover PCBP2 biology in iron homeostasis, RNA splicing/stability, cancer, viral translation, trophoblast differentiation, and adipogenesis. The only human variant-level evidence (PMID 38965372) implicates de novo PCBP2 variants in neurodevelopmental disorders with motor and language delay, which is not a recognized precursor, subtype, or mechanism of CDH. The trophoblast/placental and developmental splicing work (PMID 34095140) establishes a general developmental regulatory role, which offers only a weak, indirect biological rationale rather than a CDH-specific hypothesis. No clinical studies in CDH probands or families exist here, so Established and Existing are essentially excluded; a small weight goes to Hypothesized given PCBP2's broad roles in cell proliferation, migration, and differentiation relevant to tissue morphogenesis.</justification>\n  <pmids>\n    <pmid>38965372</pmid>\n    <pmid>34095140</pmid>\n    <pmid>41036621</pmid>\n    <pmid>32032745</pmid>\n    <pmid>32647012</pmid>\n  </pmids>\n</response>"
+}

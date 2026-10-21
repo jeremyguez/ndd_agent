@@ -1,0 +1,882 @@
+{
+ "gene": "SUMO2",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of psychological development",
+   "neurologic developmental disorder",
+   "neurodevelopmental disease"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "SMT3B",
+   "SMT3H2",
+   "small ubiquitin like modifier 2"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 92,
+  "titlekicksparingfulltext": 15,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 3,
+   "Existing": 37,
+   "Hypothesized": 53,
+   "Novel": 7
+  },
+  "justification": "No article in this list reports a cohort or case series establishing SUMO2 variants as a cause of neurodevelopmental disorder; most SUMO2 papers are cell-biological (SUMOylation of DHX9, CENP-E, MEF2, TWIST2, APP, FIS1) and unrelated to NDD, with several being homonym-free but phenotype-irrelevant. The strongest human genetic hint is incidental: the AJAP1 study (PMID 38985877) lists a de novo nonsense variant, SUMO2 NM_006937.4 c.91C>T p.Gln31*, as an additional finding in a patient with epilepsy/NDD, which is a single, non-replicated, confounded observation. Supporting biological plausibility comes from SUMO2/3's documented role in neural stem cell proliferation/differentiation and synaptic function in ID (PMIDs 41507769, 32719102), from SUMO2-dependent regulation of the ID gene NACC1 (PMID 37533751), from ZMIZ1 network analysis (PMID 38686122), and from murine Sumo2 expression changes in a schizophrenia DOHaD model (PMID 42120553). This combination of mechanistic/animal data plus one incidental human de novo LoF variant places the weight mainly on Hypothesized with substantial probability for Existing, and essentially excludes Established since no two independent probands with SUMO2-attributed disease are reported.",
+  "pmids": [],
+  "detail": {
+   "Established": 3,
+   "Existing": 37,
+   "Hypothesized": 53,
+   "Novel": 7
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39438470",
+   "title": "\u03b2-catenin-inhibited Sumoylation modification of LKB1 and fatty acid metabolism is critical in renal fibrosis.",
+   "abstract": "Liver kinase B1 (LKB1) is a serine/threonine kinase controlling cell homeostasis. Among post-translational modification, Sumoylation is vital for LKB1 activating adenosine 5'-monophosphate (AMP)-activated protein kinase (AMPK), the key regulator in energy metabolism. Of note, AMPK-regulated fatty acid metabolism is highly involved in maintaining normal renal function. However, the regulative mechanisms of LKB1 Sumoylation remain elusive. In this study, we demonstrated that \u03b2-catenin, a notorious signal in renal fibrosis, inhibited the Sumoylation of LKB1, thereby disrupting fatty acid oxidation in renal tubular cells and triggering renal fibrosis. Mechanically, we found that Sumo3 was the key mediator for LKB1 Sumoylation in renal tubular cells, which was transcriptionally inhibited by \u03b2-catenin/Transcription factor 4 (TCF4) signaling. Overexpression of Sumo3, not Sumo1 or Sumo2, restored \u03b2-catenin-disrupted fatty acid metabolism, and retarded lipid accumulation and fibrogenesis in the kidney. In vivo, conditional knockout of \u03b2-catenin in tubular cells effectively preserved fatty acid oxidation and blocked lipid accumulation by maintaining LKB1 Sumoylation and AMPK activation. Furthermore, ectopic expression of Sumo3 strongly inhibited Wnt1-aggravated lipid accumulation and fibrogenesis in unilateral ischemia-reperfusion mice. In patients with chronic kidney disease, we found a loss of Sumo3 expression, and it was highly related to LKB1 repression. This contributes to fatty acid metabolism disruption and lipid accumulation, resulting in renal fibrosis. Overall, our study revealed a new mechanism in fatty acid metabolism dysfunction and provided a new therapeutic target pathway for regulating Sumo modification in renal fibrosis.",
+   "found_by": [],
+   "pubdate": "2024 Oct 22",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39019926",
+   "title": "DHX9 SUMOylation is required for the suppression of R-loop-associated genome instability.",
+   "abstract": "RNA helicase DHX9 is essential for genome stability by resolving aberrant R-loops. However, its regulatory mechanisms remain unclear. Here we show that SUMOylation at lysine 120 (K120) is crucial for DHX9 function. Preventing SUMOylation at K120 leads to R-loop dysregulation, increased DNA damage, and cell death. Cells expressing DHX9 K120R mutant which cannot be SUMOylated are more sensitive to genotoxic agents and this sensitivity is mitigated by RNase H overexpression. Unlike the mutant, wild-type DHX9 interacts with R-loop-associated proteins such as PARP1 and DDX21 via SUMO-interacting motifs. Fusion of SUMO2 to the DHX9 K120R mutant enhances its association with these proteins, reduces R-loop accumulation, and alleviates survival defects of DHX9 K120R. Our findings highlight the critical role of DHX9 SUMOylation in maintaining genome stability by regulating protein interactions necessary for R-loop balance.",
+   "found_by": [],
+   "pubdate": "2024 Jul 17",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39638786",
+   "title": "SENP3-FIS1 axis promotes mitophagy and cell survival under hypoxia.",
+   "abstract": "SUMOylation, the covalent attachment of the small ubiquitin-like modifier (SUMO) to target proteins, and its reversal, deSUMOylation by SUMO proteases like Sentrin-specific proteases (SENPs), are crucial for initiating cellular responses to hypoxia. However, their roles in subsequent adaptation processes to hypoxia such as mitochondrial autophagy (mitophagy) remain unexplored. Here, we show that general SUMOylation, particularly SUMO2/3 modification, suppresses mitophagy under both normoxia and hypoxia. Furthermore, we identify deSUMO2/3-ylation enzyme SENP3 and mitochondrial Fission protein 1 (FIS1) as key players in hypoxia-induced mitophagy (HIM), with SUMOylatable FIS1 acting as a crucial regulator for SENP3-mediated HIM regulation. Interestingly, we find that hypoxia promotes FIS1 SUMO2/3-ylation and triggers an interaction between SUMOylatable FIS1 and Rab GTPase-activating protein Tre-2/Bub2/Cdc16 domain 1 family member 17 (TBC1D17), which in turn suppresses HIM. Therefore, we propose a novel SUMOylation-dependent pathway where the SENP3-FIS1 axis promotes HIM, with TBC1D17 acting as a fine-tuning regulator. Importantly, the SENP3-FIS1 axis plays a protective role against hypoxia-induced cell death, highlighting its physiological significance, and hypoxia-inducible FIS1-TBC1D17 interaction is detectable in primary glioma stem cell-like (GSC) cultures derived from glioblastoma patients, suggesting its disease relevance. Our findings not only provide new insights into SUMOylation/deSUMOylation regulation of HIM but also suggest the potential of targeting this pathway to enhance cellular resilience under hypoxic stress.",
+   "found_by": [],
+   "pubdate": "2024 Dec 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "35579947",
+   "title": "KRAS mutant-driven SUMOylation controls extracellular vesicle transmission to trigger lymphangiogenesis in pancreatic cancer.",
+   "abstract": "Lymph node (LN) metastasis occurs frequently in pancreatic ductal adenocarcinoma (PDAC) and predicts poor prognosis for patients. The KRASG12D mutation confers an aggressive PDAC phenotype that is susceptible to lymphatic dissemination. However, the regulatory mechanism underlying KRASG12D mutation-driven LN metastasis in PDAC remains unclear. Herein, we found that PDAC with the KRASG12D mutation (KRASG12D PDAC) sustained extracellular vesicle-mediated (EV-mediated) transmission of heterogeneous nuclear ribonucleoprotein A1 (hnRNPA1) in a SUMOylation-dependent manner and promoted lymphangiogenesis and LN metastasis in vitro and in vivo. Mechanistically, hnRNPA1 bound with SUMO2 at the lysine 113 residue via KRASG12D-induced hyperactivation of SUMOylation, which enabled its interaction with TSG101 to enhance hnRNPA1 packaging and transmission via EVs. Subsequently, SUMOylation induced EV-packaged-hnRNPA1 anchoring to the adenylate- and uridylate-rich elements of PROX1 in lymphatic endothelial cells, thus stabilizing PROX1 mRNA. Importantly, impeding SUMOylation of EV-packaged hnRNPA1 dramatically inhibited LN metastasis of KRASG12D PDAC in a genetically engineered KrasG12D/+ Trp53R172H/+ Pdx-1-Cre (KPC) mouse model. Our findings highlight the mechanism by which KRAS mutant-driven SUMOylation triggers EV-packaged hnRNPA1 transmission to promote lymphangiogenesis and LN metastasis, shedding light on the potential application of hnRNPA1 as a therapeutic target in patients with KRASG12D PDAC.",
+   "found_by": [],
+   "pubdate": "2022 Jul 15",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33791162",
+   "title": "ZNF451 stabilizes TWIST2 through SUMOylation and promotes epithelial-mesenchymal transition.",
+   "abstract": "The epithelial-mesenchymal transition (EMT) is the process by which epithelial cells lose their tightly packed polarized characteristics and acquire a migratory mesenchymal phenotype. EMT plays a pivotal role in embryonic development, wound healing, tissue regeneration, organ fibrosis and cancer progression. The basic helix-loop-helix (bHLH) transcription factors TWIST1/2 are key EMT-inducing transcription factors that govern transcription of EMT-associated genes. Although regulation of TWIST1 activity and stability has been well studied, little is known about how TWIST2 is post-translationally regulated. Here we have identified ZNF451, a SUMO2/3 specific E3 ligase, as a novel regulator of TWIST2 in promoting its stability. ZNF451 directly binds to and SUMOylates TWIST2 at K129 residue, and consequently blocks ubiquitination and proteasome-dependent degradation of TWIST2. Ectopic expression of ZNF451 increases the protein level of TWIST2 in mammary epithelial cells, leading to increased expression of mesenchymal markers, whereas depletion of ZNF451 suppresses mesenchymal phenotypes. Collectively, our findings demonstrate that ZNF451 plays a vital role in EMT through SUMOylation-dependent stabilization of TWIST2.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "18675254",
+   "title": "Sumoylation of amyloid precursor protein negatively regulates Abeta aggregate levels.",
+   "abstract": "The proteolytic processing of amyloid precursor protein (APP) to produce Abeta peptides is thought to play an important role in the mechanism of Alzheimer's disease. Here, we show that lysines 587 and 595 of APP, which are immediately adjacent to the site of beta-secretase cleavage, are covalently modified by SUMO proteins in vivo. Sumoylation of these lysine residues is associated with decreased levels of Abeta aggregates. Further, overexpression of the SUMO E2 enzyme ubc9 along with SUMO-1 results in decreased levels of Abeta aggregates in cells transfected with the familial Alzheimer's disease-associated V642F mutant APP, indicating the potential of up-regulating activity of the cellular sumoylation machinery as an approach against Alzheimer's disease. The results also provide the first demonstration that the SUMO E2 enzyme (ubc9) is present within the endoplasmic reticulum, indicating how APP, and perhaps other proteins that enter this compartment, can be sumoylated.",
+   "found_by": [],
+   "pubdate": "2008 Oct 3",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "18212042",
+   "title": "Identification of a new site of sumoylation on Tel (ETV6) uncovers a PIAS-dependent mode of regulating Tel function.",
+   "abstract": "Cell proliferation and differentiation are governed by a finely controlled balance between repression and activation of gene expression. The vertebrate Ets transcriptional repressor Tel (ETV6) and its invertebrate orthologue Yan, play pivotal roles in cell fate determination although the precise mechanisms by which repression of gene expression by these factors is achieved are not clearly defined. Here, we report the identification and characterization of the primary site of sumoylation of Tel, lysine 11 (K11), which is highly conserved in vertebrates (except Danio rerio). We demonstrate that in cells PIAS3 binds to Tel and stimulates sumoylation of K11 in the nucleus. Both Tel monomers and oligomers are efficiently sumoylated on K11 in vitro; but in cells only Tel oligomers are found conjugated with SUMO, whereas sumoylation of Tel monomers is transitory and appears to sensitize them for proteasomal degradation. Mechanistically, sumoylation of K11 inhibits repression of gene expression by full-length Tel. In accordance with this observation, we found that sumoylation impedes Tel association with DNA. By contrast, a Tel isoform lacking K11 (TelM43) is strongly repressive. This isoform results from translation from an alternative initiation codon (M43) that is common to all Tel proteins that also contain the K11 sumoylation consensus site. We find that PIAS3 may have a dual, context-dependent influence on Tel; it mediates Tel sumoylation, but it also augments Tel's repressive function in a sumoylation-independent fashion. Our data support a model that suggests that PIAS-mediated sumoylation of K11 and the emergence of TelM43 in early vertebrates are linked and that this serves to refine spatiotemporal control of gene expression by Tel by establishing a pool of Tel molecules that are available either to be recycled to reinforce repression of gene expression or are degraded in a regulated fashion.",
+   "found_by": [],
+   "pubdate": "2008 Apr",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "18374647",
+   "title": "SUMO-2/3 modification and binding regulate the association of CENP-E with kinetochores and progression through mitosis.",
+   "abstract": "SUMOylation is essential for cell-cycle regulation in invertebrates; however, its functions during the mammalian cell cycle are largely uncharacterized. Mammals express three SUMO paralogs: SUMO-1, SUMO-2, and SUMO-3 (SUMO-2 and SUMO-3 are 96% identical and referred to as SUMO-2/3). We found that SUMO-2/3 localize to centromeres and condensed chromosomes, whereas SUMO-1 localizes to the mitotic spindle and spindle midzone, indicating that SUMO paralogs regulate distinct mitotic processes in mammalian cells. Consistent with this, global inhibition of SUMOylation caused a prometaphase arrest due to defects in targeting the microtubule motor protein CENP-E to kinetochores. CENP-E was found to be modified specifically by SUMO-2/3 and to possess SUMO-2/3 polymeric chain-binding activity essential for kinetochore localization. Our findings indicate that SUMOylation is a key regulator of the mammalian cell cycle, with SUMO-1 and SUMO-2/3 modification of different proteins regulating distinct processes.",
+   "found_by": [],
+   "pubdate": "2008 Mar 28",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "17346237",
+   "title": "Modulation of Abeta generation by small ubiquitin-like modifiers does not require conjugation to target proteins.",
+   "abstract": "The sequential processing of the APP (amyloid precursor protein) by the beta- and gamma-secretase and generation of the Abeta (amyloid-beta) peptide is a primary pathological factor in AD (Alzheimer's disease). Regulation of the processing or turnover of these proteins represents potential targets for the development of AD therapies. Sumoylation is a process by which SUMOs (small ubiquitin-like modifiers) are covalently conjugated to target proteins, resulting in a number of functional consequences. These include regulation of protein-protein interactions, intracellular trafficking and protein stability, which all have the potential to impact on several aspects of the amyloidogenic pathway. The present study examines the effects of overexpression and knockdown of the major SUMO isoforms (SUMO1, 2 and 3) on APP processing and the production of Abeta peptides. SUMO3 overexpression significantly increased Abeta40 and Abeta42 secretion, which was accompanied by an increase in full-length APP and its C-terminal fragments. These effects of SUMO3 were independent of its covalent attachment or chain formation, as mutants lacking the motifs responsible for SUMO chain formation or SUMO conjugation led to similar changes in Abeta. SUMO3 overexpression also up-regulated the expression of the transmembrane protease BACE (beta-amyloid-cleaving enzyme), but failed to affect levels of several other unrelated proteins. Suppression of SUMO1 or combined SUMO2+3 by RNA interference did not affect APP levels or Abeta production. These findings confirm a specific effect of SUMO3 overexpression on APP processing and the production of Abeta peptides but also suggest that endogenous sumoylation is not essential and likely plays an indirect role in modulating the amyloid processing pathway.",
+   "found_by": [],
+   "pubdate": "2007 Jun 1",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "16900103",
+   "title": "Sumoylated RGS-Rz proteins act as scaffolds for Mu-opioid receptors and G-protein complexes in mouse brain.",
+   "abstract": "The RGSZ1 and RGSZ2 proteins, members of the RGS-Rz subfamily of GTPase-activating proteins (GAP), are involved in Mu-opioid receptor desensitization. The expression of these proteins, as well as of their main target the Gz protein, is virtually restricted to the nervous tissue. In synaptosomal membranes, these Rz proteins undergo post-translational modifications such as glycosylation and phosphorylation, and they may covalently attach to small ubiquitin-like modifier (SUMO) proteins. While RGSZ1 exists in conjugated and non-conjugated forms, RGSZ2 is mostly conjugated to SUMO-1, SUMO-2 and SUMO-3 proteins. These sumoylated forms of the GAPs readily associated with Mu-opioid receptors but they associated only poorly with Delta receptors. Furthermore, G alpha i2 and G alpha z subunits co-precipitated with the sumoylated forms of RGSZ1/Z2 proteins, but to a lesser extent with the Ser phosphorylated SUMO-free form of RGSZ1. Upon Mu-opioid receptor activation, there is a strong increase in the association of G alpha proteins with RGSZ2 proteins that persists for intervals longer than 24 h. This effect probably accounts for their role in Mu-opioid receptor desensitization. Only a moderate increase was observed with RGSZ1, the non-sumoylated form of which probably acts as an efficient GAP for these G alpha subunits. Therefore, sumoylation regulates the biological activity of RGS-Rz proteins and it is likely that it serves to switch their behavior, from that of a GAP for activated G alpha subunits to that of a scaffold protein for specific signaling proteins.",
+   "found_by": [],
+   "pubdate": "2007 Apr",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "17012228",
+   "title": "Expression of SUMO-2/3 induced senescence through p53- and pRB-mediated pathways.",
+   "abstract": "Three highly homologous small ubiquitin-related modifier (SUMO) proteins have been identified in mammals. Modifications of proteins by SUMO-1 have been shown to regulate transcription, nucleocytoplasmic transport, protein stability, and protein-protein interactions. Relative to SUMO-1, little is known about the functions of SUMO-2 or SUMO-3 (referred to as SUMO-2/3). Here, stable cell lines overexpressing processed forms of SUMO-2/3 (SUMO-2/3GG) as well as their non-conjugatable derivatives, SUMO-2/3DeltaGG, were established. Cells overexpressing SUMO-2/3GG showed a premature senescence phenotype as revealed by cellular morphology and senescence-associated galactosidase activity. The senescence pathway protein p21 was up-regulated in cells overexpressing SUMO-2/3GG. In contrast, cells overexpressing non-conjugatable forms of SUMO-2/3DeltaGG showed neither an apparent senescent phenotype nor elevated p21. Both p53 and pRB were found to be modified by SUMO-2/3. Site-directed mutagenesis studies showed that Lys-386 of p53, the SUMO-1 modification site, is also the modification site for SUMO-2/3. In addition, H2O2 treatment of untransfected cells caused an increase in p53 sumoylation by SUMO-2/3, whereas that by SUMO-1 remained unchanged. Moreover, knocking down tumor suppressor proteins p53 or pRB using small interfering RNA significantly alleviated the premature senescence phenotypes in SUMO-2/3GG overexpressing cells. Together, our results reveal that p53 and pRB can be sumoylated by SUMO-2/3 in vivo, and such modification of p53 and pRB may play roles in premature senescence and stress response.",
+   "found_by": [],
+   "pubdate": "2006 Nov 24",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "16567619",
+   "title": "NXP-2 association with SUMO-2 depends on lysines required for transcriptional repression.",
+   "abstract": "Small ubiquitin-like modifier (SUMO) modification of transcription factors is generally associated with repression. Reverse genetic analysis of SUMO-1, and -2 conserved residues emphasized the importance of dual charge reversals in abrogating the critical role of SUMO-2 K33, K35, and K42 in repression. GST-SUMO-2-affinity chromatography followed by liquid chromatography (LC)-MS analysis identified proteins that appeared to bind preferentially to WT SUMO-2 versus SUMO-2 K33E and K35E. LSD1, NXP-2, KIAA0809 (ARIP4), SAE2, RanGAP1, PELP1, and SETDB1 bound to SUMO-2 and not to SUMO-2 K33E, K42E, or K35E and K42E. Although LSD1 is a histone lysine demethylase, and histone H3K4 was demethylated at a SUMO-2-repressed promoter, neither overexpression of a dominant-negative LSD1 nor LSD1 depletion with RNA interference affected SUMO-2-mediated repression, indicating that LSD1 is not essential for repression, in this context. When tethered to a promoter by fusion to Gal4, NXP-2 repressed transcription, consistent with a role for NXP-2 in SUMO-mediated repression. SUMO-2-associated proteins identified in this study may contribute to SUMO-dependent regulation of transcription or other processes.",
+   "found_by": [],
+   "pubdate": "2006 Apr 4",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "15743823",
+   "title": "Association with class IIa histone deacetylases upregulates the sumoylation of MEF2 transcription factors.",
+   "abstract": "The myocyte enhancer factor-2 (MEF2) family of transcription factors plays an important role in regulating cellular programs like muscle differentiation, neuronal survival, and T-cell apoptosis. Multisite phosphorylation is known to control the transcriptional activity of MEF2 proteins, but it is unclear whether other modifications are involved. Here, we report that human MEF2D, as well as MEF2C, is modified by SUMO2 and SUMO3 at a motif highly conserved among MEF2 proteins from diverse organisms. This motif is located within the C-terminal transcriptional activation domain, and its sumoylation inhibits transcription. As a transcriptional corepressor of MEF2, histone deacetylase 4 (HDAC4) potentiates sumoylation. This potentiation is dependent on the N-terminal region but not the C-terminal deacetylase domain of HDAC4 and is inhibited by the sumoylation of HDAC4 itself. Moreover, HDAC5, HDAC7, and an HDAC9 isoform also stimulate sumoylation of MEF2. Opposing the action of class IIa deacetylases, the SUMO protease SENP3 reverses the sumoylation to augment the transcriptional and myogenic activities of MEF2. Similarly, the calcium/calmodulin-dependent kinases [corrected] and extracellular signal-regulated kinase 5 signaling pathways negatively regulate the sumoylation. These results thus identify sumoylation as a novel regulatory mechanism for MEF2 and suggest that this modification interplays with phosphorylation to promote intramolecular signaling for coordinated regulation in vivo.",
+   "found_by": [],
+   "pubdate": "2005 Mar",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "12506199",
+   "title": "Positive and negative regulation of APP amyloidogenesis by sumoylation.",
+   "abstract": "Amyloid beta peptide (Abeta) generated from amyloid precursor protein (APP) is central to Alzheimer's disease (AD). Signaling pathways affecting APP amyloidogenesis play critical roles in AD pathogenesis and can be exploited for therapeutic intervention. Here, we show that sumoylation, covalent modification of cellular proteins by small ubiquitin-like modifier (SUMO) proteins, regulates Abeta generation. Increased protein sumoylation resulting from overexpression of SUMO-3 dramatically reduces Abeta production. Conversely, reducing endogenous protein sumoylation with dominant-negative SUMO-3 mutants significantly increases Abeta production. We also show that mutant SUMO-3, K11R, which can only be monomerically conjugated to target proteins, has an opposite effect on Abeta generation to that by SUMO-3, which can form polymeric chains on target proteins. In addition, SUMO-3 immunoreactivity is predominantly detected in neurons in brains from AD, Down's syndrome, and nondemented humans. Therefore, polysumoylation reduces whereas monosumoylation or undersumoylation enhances Abeta generation. These findings provide a regulatory mechanism in APP amyloidogenesis and suggest that components in the sumoylation pathway may be critical in AD onset or progression.",
+   "found_by": [],
+   "pubdate": "2003 Jan 7",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "41507769",
+   "title": "Structural variations in evolutionary novel genomic regions: new insights into neurodevelopmental disorders by long-read DNA Sequencing.",
+   "abstract": "BACKGROUND: Neurodevelopmental disorders (NDDs) are highly diverse conditions often associated with genetic abnormalities. However, a large number of NDD cases remain undiagnosed despite thorough genetic testing using short-read sequencing and chromosomal microarray analysis. Emerging evidence indicates that structural variants (SVs) in evolutionarily new and human-specific genomic regions may be responsible for these unresolved cases. METHODS: We used Oxford Nanopore long-read DNA sequencing in six patients with unexplained NDDs who had previously tested negative for genetic mutations. Structural variants were identified and filtered based on their genomic location, regulatory potential, and expression in the central nervous system. Confirmatory fluorescence in situ hybridization (FISH) was performed. Additionally, immunohistochemical analysis of the candidate gene ANKRD20A1 was carried out to assess its spatiotemporal expression in the developing human brain. Interactome analysis was also performed to evaluate the functional connections of genes impacted by SVs. RESULTS: A total of twenty-six candidate SVs were found, including deletions, duplications, insertions, and inversions. Many of these SVs affect rapidly evolving gene families such as NBPF, TBC1D3, and RGPD, as well as regulatory elements in brain-expressed genes, suggesting their potential to disrupt brain development and lead to NDD. FISH analysis confirmed several large SVs. Patient-specific interactome maps showed that most RGPD-disrupted genes create extensive interactions. Immunohistochemical analysis revealed that ANKRD20A1, a candidate gene, is dynamically expressed during midfetal human cortical development, suggesting its involvement in neurodevelopmental events. CONCLUSION: Our findings highlight the crucial role of long-read DNA sequencing in uncovering concealed structural variants within recently evolved genomic regions. These SVs may contribute to the development of NDDs by disrupting coding sequences, regulatory elements, or complex gene networks. This study supports integrating long-read sequencing into research workflows. [full text, passages naming SUMO2] ...oderate\u2013high prenatal expression in cortical & subcortical proliferative/differentiating zones (8\u201324 PCW), decreases after birth | Proteasome-mediated protein turnover during neurogenesis | | RGPD1 \u2194 EIF3C via SUMO2 | SUMO2 Posttranslational modifier; SUMOylates transcription factors (SOX1\u20133, SOX6, Bmi1, Nanog, Foxp1, Mecp2, MEF2A, SOX10) regulating NSC proliferation/differentiation (Bernstock et al. | 2019 ; Bertke... ...high prenatal expression in cortical & subcortical proliferative/differentiating zones (8\u201324 PCW), decreases after birth | Proteasome-mediated protein turnover during neurogenesis | | RGPD1 \u2194 EIF3C via SUMO2 | SUMO2 Posttranslational modifier; SUMOylates transcription factors (SOX1\u20133, SOX6, Bmi1, Nanog, Foxp1, Mecp2, MEF2A, SOX10) regulating NSC proliferation/differentiation (Bernstock et al. | 2019 ; Bertke et al. 2... ...enesis regulation. TBC1D3B is connected to RGPD6 through PSMD2, a 26S proteasome component with high prenatal expression, supporting intense protein turnover during neurodevelopment. Other connections included SUMO2, linking RGPD1 and EIF3C , highlighting SUMOylation\u2019s role in neural stem cell proliferation and differentiation. RGPD6 \u2013 EIF3C interactions passed through deubiquitinating enzymes ( USP14 , USP20 ) and o...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38686122",
+   "title": "Zmiz1 is a novel regulator of brain development associated with autism and intellectual disability.",
+   "abstract": "Neurodevelopmental disorders (NDDs) are a class of pathologies arising from perturbations in brain circuit formation and maturation with complex etiological triggers often classified as environmental and genetic. Neuropsychiatric conditions such as autism spectrum disorders (ASD), intellectual disability (ID), and attention deficit hyperactivity disorders (ADHD) are common NDDs characterized by their hereditary underpinnings and inherent heterogeneity. Genetic risk factors for NDDs are increasingly being identified in non-coding regions and proteins bound to them, including transcriptional regulators and chromatin remodelers. Importantly, de novo mutations are emerging as important contributors to NDDs and neuropsychiatric disorders. Recently, de novo mutations in transcriptional co-factor Zmiz1 or its regulatory regions have been identified in unrelated patients with syndromic ID and ASD. However, the role of Zmiz1 in brain development is unknown. Here, using publicly available databases and a Zmiz1 mutant mouse model, we reveal that Zmiz1 is highly expressed during embryonic brain development in mice and humans, and though broadly expressed across the brain, Zmiz1 is enriched in areas prominently impacted in ID and ASD such as cortex, hippocampus, and cerebellum. We investigated the relationship between Zmiz1 structure and pathogenicity of protein variants, the epigenetic marks associated with Zmiz1 regulation, and protein interactions and signaling pathways regulated by Zmiz1. Our analysis reveals that Zmiz1 regulates multiple developmental processes, including neurogenesis, neuron connectivity, and synaptic signaling. This work paves the way for future studies on the functions of Zmiz1 and highlights the importance of combining analysis of mouse models and human data. [full text, passages naming SUMO2] ...ll-known ZMIZ1 interactors such as TP53, Notch1, SMAD3/4, and AR are present in the interacting network, confirming the validity of the analysis. Also, novel potential interactors such as PCNA, CNTNAP2, SUMO1, SUMO2, SUMO4, UBE2I, RBPJ, NSMCE2, CTNNB1, NANOG, SATB1, SETD4, TBR1, BRCA1, HDAC1, NFATC3, HNRNPD, and ETS1 emerged in the ZMIZ1 network ( ). Cross-referencing these interactors with the SFARI gene scoring dat...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42120553",
+   "title": "Maternal fasting during early gestation induces epigenetic alterations and schizophrenia-related phenotypes.",
+   "abstract": "Schizophrenia is a severe neurodevelopmental disorder whose etiology remains incompletely understood. Epidemiological studies of the Dutch Hunger Winter demonstrated that maternal famine during early gestation increased the risk of schizophrenia in offspring, implicating the Developmental Origins of Health and Disease (DOHaD) framework. However, the molecular mechanisms underlying this association remain unclear. Here, we developed a novel DOHaD-based schizophrenia model by subjecting pregnant mice to transient fasting restricted to the peri-implantation period, a critical window of global epigenomic reprogramming. Male offspring of fasted dams exhibited schizophrenia-related phenotypes, including impaired sensorimotor gating, abnormal behavioral patterns, and reduced dendritic spine density in the medial prefrontal cortex. Multi-omics profiling, integrating bulk RNA sequencing, Visium HD spatial transcriptomics, and DNA methylation arrays, revealed convergent alterations in synaptic organization, protein homeostasis, and oxidative stress pathways. These findings highlight how brief maternal fasting reprograms the epigenome and reshapes neural circuitry. Our work establishes the first animal model that directly mirrors early gestational famine exposure linked to schizophrenia risk, providing a unique platform for uncovering epigenetic mechanisms underlying the developmental origins of psychiatric disorders. [full text, passages naming SUMO2] ...tructure/plasticity ( Ywhaz , Homer1 , Nptx2 , Cnih2 , Nrn1 , and Cask ), protein translation/mRNA processing ( Eif4a2 , Hnrnpa2b1 , and Pcbp2 ), and ubiquitin-related processes ( Ube2n , Ube2v1 , Ube2e1 , and Sumo2 ) (Fig. 4B ). Gene set enrichment analysis (GSEA) identified 261 positively enriched pathways (FDR < 0.05) and 81 negatively enriched pathways (Suppl. Table 11 ). Positively enriched pathways were predomi...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37533751",
+   "title": "An intellectual-disability-associated mutation of the transcriptional regulator <i>NACC1</i> impairs glutamatergic neurotransmission.",
+   "abstract": "Advances in genome sequencing technologies have favored the identification of rare de novo mutations linked to neurological disorders in humans. Recently, a de novo autosomal dominant mutation in NACC1 was identified (NM_052876.3: c.892C\u2009>\u2009T, NP_443108.1; p.Arg298Trp), associated with severe neurological symptoms including intellectual disability, microcephaly, and epilepsy. As NACC1 had never before been associated with neurological diseases, we investigated how this mutation might lead to altered brain function. We examined neurotransmission in autaptic glutamatergic mouse neurons expressing the murine homolog of the human mutant NACC1, i.e., Nacc1-R284W. We observed that expression of Nacc1-R284W impaired glutamatergic neurotransmission in a cell-autonomous manner, likely through a dominant negative mechanism. Furthermore, by screening for Nacc1 interaction targets in the brain, we identified SynGAP1, GluK2A, and several SUMO E3 ligases as novel Nacc1 interaction partners. At a biochemical level, Nacc1-R284W exhibited reduced binding to SynGAP1 and GluK2A, and also showed greatly increased SUMOylation. Ablating the SUMOylation of Nacc1-R284W partially restored its interaction with SynGAP1 but did not restore binding to GluK2A. Overall, these data indicate a role for Nacc1 in regulating glutamatergic neurotransmission, which is substantially impaired by the expression of a disease-associated Nacc1 mutant. This study provides the first functional insights into potential deficits in neuronal function in patients expressing the de novo mutant NACC1 protein. [full text, passages naming SUMO2] ...s gift from Thomas S\u00fcdhof (Stanford University, Stanford, USA). pcDNA3.1-GluK2A (Q edited form) was kindly provided by Christophe Mulle (University of Bordeaux, Bordeaux, France). cDNA encoding HA-SUMO1 and HA-SUMO2 were expressed in pCRUZ-HA and were kindly provided by Frauke Melchior (University of Heidelberg, Heidelberg, Germany). PRK5-SynGAP1\u03b1 (myc-tagged) was a kind gift from Richard Huganir (Johns Hopkins Unive... ...doublet), and the white arrow indicates Nacc1 conjugated to two SUMO1 peptides. (C) Anti-Nacc1 Western blot analysis of input and affinity purification eluate fractions (IP: anti-HA) of N2A cells expressing HA-SUMO2 plus either EGFP, Nacc1-WT, Nacc1-K167R, Nacc1-K485R, or Nacc1-2KR. The black arrowhead indicates unmodified Nacc1 and the white arrowheads indicate Nacc1 conjugated to a single SUMO2 peptide (appearing a... ...f N2A cells expressing HA-SUMO2 plus either EGFP, Nacc1-WT, Nacc1-K167R, Nacc1-K485R, or Nacc1-2KR. The black arrowhead indicates unmodified Nacc1 and the white arrowheads indicate Nacc1 conjugated to a single SUMO2 peptide (appearing as a doublet). Molecular weight markers (kDa) are indicated to the left of the blots. (D) Anti-HA Western blot analysis of lysate from primary hippocampal neuron infected with lentiviru...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38985877",
+   "title": "Monoallelic de novo &lt;i&gt;AJAP1&lt;/i&gt; loss-of-function variants disrupt trans-synaptic control of neurotransmitter release.",
+   "abstract": "Adherens junction-associated protein 1 (AJAP1) has been implicated in brain diseases; however, a pathogenic mechanism has not been identified. AJAP1 is widely expressed in neurons and binds to \u03b3-aminobutyric acid type B receptors (GBRs), which inhibit neurotransmitter release at most synapses in the brain. Here, we show that AJAP1 is selectively expressed in dendrites and trans-synaptically recruits GBRs to presynaptic sites of neurons expressing AJAP1. We have identified several monoallelic AJAP1 variants in individuals with epilepsy and/or neurodevelopmental disorders. Specifically, we show that the variant p.(W183C) lacks binding to GBRs, resulting in the inability to recruit them. Ultrastructural analysis revealed significantly decreased presynaptic GBR levels in Ajap1-/- and Ajap1W183C/+ mice. Consequently, these mice exhibited reduced GBR-mediated presynaptic inhibition at excitatory and inhibitory synapses, along with impaired synaptic plasticity. Our study reveals that AJAP1 enables the postsynaptic neuron to regulate the level of presynaptic GBR-mediated inhibition, supporting the clinical relevance of loss-of-function AJAP1 variants. [full text, passages naming SUMO2] ...| \u2212 | De novo c.3938A>G | [ NM_058243.2 ], p.Gl n1313Arg in BRD4 Paternal (mosaic) | deletion of exons 4\u20136 of CAMTA1 ( NM_015215.4 ; chr1:7030062-7589562) De novo c.91C>T | [ NM_006937.4 ], p.Gln31* variant in SUMO2 | Developmental phenotypes Global developmental | delay \u2212 | + | + | ND | ND | Motor delay | \u2212 | + | + | ND | ND | Speech delay | \u2212 | Nonverbal | Nonverbal | + | + | Ocular/visual problems | \u2212 | + | + | +...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32719102",
+   "title": "Ubiquitin and Ubiquitin-Like Proteins in the Critical Equilibrium between Synapse Physiology and Intellectual Disability.",
+   "abstract": "Posttranslational modifications (PTMs) represent a dynamic regulatory system that precisely modulates the functional organization of synapses. PTMs consist in target modifications by small chemical moieties or conjugation of lipids, sugars or polypeptides. Among them, ubiquitin and a large family of ubiquitin-like proteins (UBLs) share several features such as the structure of the small protein modifiers, the enzymatic cascades mediating the conjugation process, and the targeted aminoacidic residue. In the brain, ubiquitination and two UBLs, namely sumoylation and the recently discovered neddylation orchestrate fundamental processes including synapse formation, maturation and plasticity, and their alteration is thought to contribute to the development of neurological disorders. Remarkably, emerging evidence suggests that these pathways tightly interplay to modulate the function of several proteins that possess pivotal roles for brain homeostasis as well as failure of this crosstalk seems to be implicated in the development of brain pathologies. In this review, we outline the role of ubiquitination, sumoylation, neddylation, and their functional interplay in synapse physiology and discuss their implication in the molecular pathogenesis of intellectual disability (ID), a neurodevelopmental disorder that is frequently comorbid with a wide spectrum of brain pathologies. Finally, we propose a few outlooks that might contribute to better understand the complexity of these regulatory systems in regard to neuronal circuit pathophysiology. [full text, passages naming SUMO2] ...g whether this animal model is suitable to study sumoylation. (1) In His 6 -HA-SUMO1 KI mice, there is 20\u201330% less SUMO1 conjugation than WT mice, and this impairment is associated to a significant increase of SUMO2/3-conjugated proteins ( Tirard et al., 2012 ; Daniel et al., 2017 ). This reduction in the efficiency of SUMO1 conjugation could make particularly challenging the detection of SUMO targets in the synaptic... ...ranscriptional factors and the glucocorticoid receptor, which are known to control cognitive functions, are targeted by SUMO3 ( Schorova and Martin, 2016 ). In line with this, the levels of free and conjugated SUMO2/3 proteins are significantly higher in hippocampal lysates derived from DS patients compared with healthy individuals ( Gardiner, 2006 ). Yet, a comprehensive view of SUMO3 neuronal targets is lacking and... ...ner, 2006 ). Yet, a comprehensive view of SUMO3 neuronal targets is lacking and the impact of SUMO3 triplication on DS etiology remains elusive. Recently, Binda and colleagues reported a marked decrease of the SUMO2/3-specific deconjugating enzyme SENP3 in DS patients without any corresponding increase of SUMO2/3-conjugated proteins ( Binda et al., 2017 ). Future studies aiming at systematically analyzing SUMO3 subst...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "34745817": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36860866": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28851805": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30232383": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38739795": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41946996": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23504328": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20167237": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28390838": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38229033": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33615660": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30796101": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35838046": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15220215": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23560854": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39438470": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39019926": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39638786": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35579947": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28429347": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32001555": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29484374": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33791162": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18675254": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18212042": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18374647": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17346237": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16900103": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17012228": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16567619": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15743823": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12506199": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25880753": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38394330": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41390488": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25447205": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32395866": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34673284": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24362530": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28622293": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33842551": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21931855": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32209980": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18211901": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31087003": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38100286": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26921507": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19394292": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17610843": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19251700": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22194612": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16828461": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16904644": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9175795": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30135361": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16442531": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31502464": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20802522": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20346425": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15611636": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16934752": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26188511": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "8630065": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34244292": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25036361": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21527249": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28784659": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24086424": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41507769": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38686122": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42120553": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37533751": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38985877": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32719102": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39329733": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31447886": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28733602": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36803422": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41369365": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36613751": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35126089": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32150788": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35974412": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30992372": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24891386": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31927143": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34445074": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24962712": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32660023": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28901728": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19477152": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32233089": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 230,
+   "usd": 0.00749,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "20 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "23 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 5.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 4152,
+   "output_tokens": 130,
+   "usd": 0.004802,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 57.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.7,
+   "note": "",
+   "input_tokens": 43166,
+   "output_tokens": 1774,
+   "usd": 0.052036,
+   "calls": 8
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 16.7,
+   "note": "",
+   "input_tokens": 15958,
+   "output_tokens": 1186,
+   "usd": 0.10944,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>3</established>\n    <existing>37</existing>\n    <hypothesized>53</hypothesized>\n    <novel>7</novel>\n  </probabilities>\n  <justification>No article in this list reports a cohort or case series establishing SUMO2 variants as a cause of neurodevelopmental disorder; most SUMO2 papers are cell-biological (SUMOylation of DHX9, CENP-E, MEF2, TWIST2, APP, FIS1) and unrelated to NDD, with several being homonym-free but phenotype-irrelevant. The strongest human genetic hint is incidental: the AJAP1 study (PMID 38985877) lists a de novo nonsense variant, SUMO2 NM_006937.4 c.91C>T p.Gln31*, as an additional finding in a patient with epilepsy/NDD, which is a single, non-replicated, confounded observation. Supporting biological plausibility comes from SUMO2/3's documented role in neural stem cell proliferation/differentiation and synaptic function in ID (PMIDs 41507769, 32719102), from SUMO2-dependent regulation of the ID gene NACC1 (PMID 37533751), from ZMIZ1 network analysis (PMID 38686122), and from murine Sumo2 expression changes in a schizophrenia DOHaD model (PMID 42120553). This combination of mechanistic/animal data plus one incidental human de novo LoF variant places the weight mainly on Hypothesized with substantial probability for Existing, and essentially excludes Established since no two independent probands with SUMO2-attributed disease are reported.</justification>\n  <pmids>\n    <pmid>38985877</pmid>\n    <pmid>41507769</pmid>\n    <pmid>32719102</pmid>\n    <pmid>37533751</pmid>\n    <pmid>38686122</pmid>\n    <pmid>42120553</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,152 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Comparative analysis of the autism\u2011related variants between different autistic children in a family pedigree (PMID: 34368859)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "ATP2B4 NM_001001396 exon12 c.G1996A, p.A666T (rs138521935)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare heterozygous missense variant shared by both autistic siblings (IV2 and IV4) in a family pedigree on WES, passing the harmfulness and quality filters. However, ATP2B4 was not among the credible autism-related genes (AutismKB score >16) highlighted by the authors, so pathogenicity is not established.",
+        "center_country": "China",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Aravindan et al. 2021 - The plasma membrane calcium ATPase 4 does not influence parasite levels but partially promotes experimental cerebral malaria during murine blood stage malaria (PMID: 34215257)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced red blood cell size and haemoglobin content",
+          "Normal RBC maturation and reticulocyte count",
+          "No change in peripheral parasite burden or dynamics with P. chabaudi, P. yoelii or P. berghei infection",
+          "Slight protection against experimental cerebral malaria (P. berghei)",
+          "Minor reduction in antigen-experienced T cell accumulation in the brain"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pmca4 KO B-cell study 2020 - Plasma membrane Ca(2+) ATPase 1 (PMCA1) but not PMCA4 is critical for B-cell development and Ca(2+) homeostasis in mice (PMID: 33098669)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Normal B-cell development in Pmca4 (Atp2b4) KO mice",
+          "Normal calcium handling in Pmca4-/- B cells",
+          "Mouse and human naive B cells express PMCA1 but not PMCA4 (T cells do express PMCA4)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Okunade et al. 2004 - Targeted ablation of plasma membrane Ca2+-ATPase (PMCA) 1 and 4 indicates a major housekeeping function for PMCA1 and a critical role in hyperactivated sperm motility and male fertility for PMCA4 (PMID: 15178683)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "No embryonic lethality; Pmca4-/- mice outwardly normal",
+          "Male infertility with normal spermatogenesis and mating behavior",
+          "Sperm failed to achieve hyperactivated motility, with normal motility before capacitation",
+          "Increased mitochondrial condensation in sperm tails, indicating Ca2+ overload",
+          "Normal ultrastructure of the sperm tail motility apparatus",
+          "Impaired phasic contractions and apoptosis in portal vein smooth muscle in vitro, strain-dependent (absent on Black Swiss background unless also Pmca1+/-)",
+          "Pmca1 null mice were embryonic lethal, Pmca1 heterozygotes had no overt phenotype"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Lessard et al. 2017 - An erythroid-specific ATP2B4 enhancer mediates red blood cell hydration and malaria susceptibility (PMID: 28714864)",
+        "evidence_subtype": "GWAS",
+        "summary": "Erythroblast eQTL mapping found erythroid-specific eQTLs for ATP2B4 at the same SNPs associated with MCHC and severe malaria. Atp2b4-/- mice have increased MCHC. CRISPR deletion of the erythroid enhancer raised intracellular calcium in erythroid cells, supporting ATP2B4 as the causal gene at this locus.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Combining eQTL analyses with CRISPR/Cas9 experiments to fine-map causal variants that regulate ATP2B4, a gene associated with red blood cell traits and malaria resistance",
+        "evidence_subtype": "cell_culture",
+        "summary": "A cluster of SNPs in an erythroid-specific DHS is an eQTL for ATP2B4. CRISPR deletion of the DHS in a human erythroid cell line reduced ATP2B4 expression in a dose-dependent way, and bi-allelic deletion nearly abolished it. The essential element was narrowed to a 98 bp region with 5 GATA1 motifs that appear to act cooperatively.",
+        "sample_size": "534 genes with allelic imbalance; 215 with eQTL in erythroblasts",
+        "significance": "eQTL P=5x10-6 for ATP2B4; FDR<5%"
+      },
+      {
+        "citation": "Identification of ATP2B4 Regulatory Element Containing Functional Genetic Variants Associated with Severe Malaria (PMID: 35563239)",
+        "evidence_subtype": "GWAS",
+        "summary": "Five ATP2B4 SNPs in LD with rs10900585 lie in a regulatory region associated with severe malaria in a Senegalese cohort. Individual SNPs and their combination had regulatory effects. CRISPR/Cas9 deletion of the region in K562 cells decreased ATP2B4 transcript and protein and raised intracellular Ca2+.",
+        "sample_size": null,
+        "significance": "Significant association with severe malaria (Senegalese population)"
+      },
+      {
+        "citation": "Genetic variations in human ATP2B4 gene alter Plasmodium falciparum in vitro growth in RBCs from Gambian adults (PMID: 36604655)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Recall-by-genotype study of rs1541252. C/C homozygote RBCs had reduced PMCA4b protein and slower calcium expulsion. P. falciparum growth was lower in these RBCs, while adhesion and var-gene expression were unchanged. The PMCA4b inhibitor aurintricarboxylic acid also inhibited parasite growth.",
+        "sample_size": "96 donors",
+        "significance": "p<0.0001 for PMCA4b expression and calcium t\u00bd; p<0.01 for parasite growth"
+      },
+      {
+        "citation": "Decreased calcium pump expression in human erythrocytes is connected to a minor haplotype in the ATP2B4 gene (PMID: 28216081)",
+        "evidence_subtype": "expression",
+        "summary": "Some healthy volunteers had markedly reduced RBC PMCA4b by flow cytometry and western blot, with no compensation by other PMCA isoforms and lower calcium extrusion. Low PMCA4b correlated with a minor haplotype in the predicted second promoter region, the same haplotype linked to MCHC and malaria protection in GWAS.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ATP2B4 is an essential gene for epidermal growth factor-induced macropinocytosis in A431 cells (PMID: 38597132)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ATP2B4 (PMCA4) knockout in A431 cells blocked ruffle closure and macropinosome formation but not ruffle formation, and reduced EGF-stimulated Ca2+ oscillations. Pump activity itself was required, independent of its C-terminal PDZ-binding motif.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Molecular and Electrophysiological Analyses of ATP2B4 Gene Variants in Bilateral Adrenal Hyperaldosteronism (PMID: 32002807)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rare ATP2B4 variants from BHA patients did not alter basal or agonist-stimulated CYP11B2 expression in HAC15 adrenal cells, unlike the ATP2B3 control. ATP2B4 is expressed in adrenal tissue, and HAC15 cells show endogenous ATP2B4 conductance. Knockdown reduced angiotensin II response in only 1 of 4 shRNA clones, so no pathogenic role in BHA was confirmed.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ultrastructural and immunohistochemical localization of plasma membrane Ca2+-ATPase 4 in Ca2+-transporting epithelia (PMID: 26180241)",
+        "evidence_subtype": "expression",
+        "summary": "Pmca4 was found only in intestinal smooth muscle, not enterocytes. In kidney it was broadly expressed in the distal nephron (highest in TRPV5- and NCC-positive segments), at the basolateral membrane and perinuclear compartments. Expression was unchanged by Ca2+ balance perturbations, suggesting a housekeeping role.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Molecular signatures of labor and nonlabor myometrium with parsimonious classification from 2 calcium transporter genes (PMID: 33945511)",
+        "evidence_subtype": "expression",
+        "summary": "The ATP2B4/ATP2A2 expression ratio separated nonquiescent from quiescent human myometrium in RNA-seq, two public datasets, and qPCR. This links ATP2B4 (PMCA4) expression to the myometrial contractile program.",
+        "sample_size": "31 specimens (plus 11 for qPCR validation)",
+        "significance": "AUC 0.94 (RNA-seq); AUC 1.00 (qPCR)"
+      },
+      {
+        "citation": "Circadian miR-449c-5p regulates uterine Ca(2+) transport during eggshell calcification in chickens (PMID: 34702171)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ATP2B4 mRNA and protein are rhythmically expressed in chicken uterus and are a direct target of miR-449c-5p, confirmed by dual-luciferase assay. ATP2B4 overexpression lowered intracellular Ca2+ and knockdown raised it, supporting a role in uterine trans-epithelial Ca2+ transport.",
+        "sample_size": "18 hens",
+        "significance": "P<0.05"
+      }
+    ]
+  }
+}

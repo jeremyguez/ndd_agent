@@ -1,0 +1,848 @@
+{
+ "gene": "RAB14",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental disability",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental impairment",
+   "abnormal neurodevelopment",
+   "disorder of neurodevelopment",
+   "neurodevelopmental delay",
+   "developmental disorder of the nervous system",
+   "neurodevelopmental anomaly",
+   "neurodevelopmental syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "FBP",
+   "RAB-14",
+   "RAB14, member RAS oncogene family"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 90,
+  "titlekicksparingfulltext": 49,
+  "read": 17
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 2,
+   "Existing": 38,
+   "Hypothesized": 35,
+   "Novel": 25
+  },
+  "justification": "No article demonstrates that RAB14 variants cause neurodevelopmental disorder in independent probands; the closest human genetic data is the gene-family burden framework (PMID 32183904), which lists two de novo variants in RAB14 as part of a collectively enriched RAB2A/RAB4/RAB11/RAB14 family rather than gene-specific, exome-wide significant evidence. The CNV reports (PMIDs 37064343, 31277718, 42192297) include RAB14 (or its GEF DENND6B) only within multi-megabase deletions/duplications spanning dozens of genes, which cannot single out RAB14. Supporting biology is indirect: RAB14 interacts with VPS13B, the Cohen syndrome protein (PMID 35690661), and participates in endosomal/Golgi trafficking relevant to neurodevelopment (PMIDs 38565878, 25694446), and a murine ADHD model showed differential methylation at Rab14 (PMID 40465750, non-human). This supports a limited \"Existing\" claim at best, with substantial weight on hypothesized/biological plausibility and a real chance the co-mentions are incidental.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 38,
+   "Hypothesized": 35,
+   "Novel": 25
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38565878",
+   "title": "Biogenesis of Rab14-positive endosome buds at Golgi-endosome contacts by the RhoBTB3-SHIP164-Vps26B complex.",
+   "abstract": "Early endosomes (EEs) are crucial in cargo sorting within vesicular trafficking. While cargoes destined for degradation are retained in EEs and eventually transported to lysosomes, recycled cargoes for the plasma membrane (PM) or the Golgi undergo segregation into specialized membrane structures known as EE buds during cargo sorting. Despite this significance, the molecular basis of the membrane expansion during EE bud formation has been poorly understood. In this study, we identify a protein complex comprising SHIP164, an ATPase RhoBTB3, and a retromer subunit Vps26B, which promotes the formation of EE buds at Golgi-EE contacts. Our findings reveal that Vps26B acts as a novel Rab14 effector, and Rab14 activity regulates the association of SHIP164 with EEs. Depletion of SHIP164 leads to enlarged Rab14+ EEs without buds, a phenotype rescued by wild-type SHIP164 but not the lipid transfer-defective mutants. Suppression of RhoBTB3 or Vps26B mirrors the effects of SHIP164 depletion. Together, we propose a lipid transport-dependent pathway mediated by the RhoBTB3-SHIP164-Vps26B complex at Golgi-EE contacts, which is essential for EE budding.",
+   "found_by": [],
+   "pubdate": "2024 Apr 2",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33712449",
+   "title": "RBD11, a bioengineered Rab11-binding module for visualizing and analyzing endogenous Rab11.",
+   "abstract": "The small GTPase Rab11 (herein referring to the Rab11A and Rab11B isoforms) plays pivotal roles in diverse physiological phenomena, including the recycling of membrane proteins, cytokinesis, neurite outgrowth and epithelial morphogenesis. One effective method of analyzing the function of endogenous Rab11 is to overexpress a Rab11-binding domain from one of its effectors, for example, the C-terminal domain of Rab11-FIP2 (Rab11-FIP2-C), as a dominant-negative construct. However, the drawback of this method is the broader Rab-binding specificity of the effector domain, because Rab11-FIP2-C binds to Rabs other than Rab11, for example, to Rab14 and Rab25. In this study, we bioengineered an artificial Rab11-specific binding domain, named RBD11. Expression of RBD11 allowed visualization of endogenous Rab11 without affecting its localization or function, whereas expression of a tandem RBD11, named 2\u00d7RBD11, inhibited epithelial morphogenesis and induced a multi-lumen phenotype characteristic of Rab11-deficient cysts. We also developed two tools for temporally and reversibly analyzing Rab11-dependent membrane trafficking - tetracycline-inducible 2\u00d7RBD11 and an artificially oligomerized domain (FM)-tagged RBD11.",
+   "found_by": [],
+   "pubdate": "2021 Apr 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "23387437",
+   "title": "Antagonistic control of lysosomal fusion by Rab14 and the Lyst-related protein LvsB.",
+   "abstract": "While loss of the protein Lyst causes abnormal lysosomes in patients with Chediak-Higashi syndrome, the contribution of Lyst to lysosome biology is not known. Previously we found that the Dictyostelium ortholog of Lyst, LvsB, is a cytosolic protein that associates with lysosomes and post-lysosomes to prevent their inappropriate fusion. Here we provide three lines of evidence that indicate that LvsB contributes to lysosome function by antagonizing the function of DdRab14, a protein that promotes homotypic fusion among lysosomes. (1) Instead of restricting DdRab14 to lysosomes, cells that lack LvsB expand DdRab14 localization to include post-lysosomes. (2) Expression of activated DdRab14 phenocopies the loss of LvsB, causing inappropriate heterotypic fusion between lysosomes and post-lysosomes and their subsequent enlargement. (3) Conversely, expression of inactivated DdRab14 suppresses the phenotype of LvsB null cells and restores their lysosomal size and segregation from post-lysosomes. Our data suggest a scenario where LvsB binds to late lysosomes and promotes the inactivation of DdRab14. This inactivation allows the lysosomes to mature into post-lysosomes for eventual secretion. We propose that human Lyst may function similarly to regulate Rab-dependent fusion of lysosomal compartments.",
+   "found_by": [],
+   "pubdate": "2013 May",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25694446",
+   "title": "PKC\u03b9 interacts with Rab14 and modulates epithelial barrier function through regulation of claudin-2 levels.",
+   "abstract": "PKC\u03b9 is essential for the establishment of epithelial polarity and the normal assembly of tight junctions. We find that PKC\u03b9 knockdown does not compromise the steady-state distribution of most tight junction proteins but results in increased transepithelial resistance (TER) and decreased paracellular permeability. Analysis of the levels of tight junction components demonstrates that claudin-2 protein levels are decreased. However, other tight junction proteins, such as claudin-1, ZO-1, and occludin, are unchanged. Incubation with an aPKC pseudosubstrate recapitulates the phenotype of PKC\u03b9 knockdown, including increased TER and decreased levels of claudin-2. In addition, overexpression of PKC\u03b9 results in increased claudin-2 levels. ELISA and coimmunoprecipitation show that the TGN/endosomal small GTPase Rab14 and PKC\u03b9 interact directly. Immunolabeling shows that PKC\u03b9 and Rab14 colocalize in both intracellular puncta and at the plasma membrane and that Rab14 expression is required for normal PKC\u03b9 distribution in cysts in 3D culture. We showed previously that knockdown of Rab14 results in increased TER and decreased claudin-2. Our results suggest that Rab14 and aPKC interact to regulate trafficking of claudin-2 out of the lysosome-directed pathway.",
+   "found_by": [],
+   "pubdate": "2015 Apr 15",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "23006599",
+   "title": "Rab11-family of interacting protein 2 associates with chlamydial inclusions through its Rab-binding domain and promotes bacterial multiplication.",
+   "abstract": "Chlamydia trachomatis, an obligate intracellular pathogen, survives within host cells in a special compartment named 'inclusion' and takes advantage of host vesicular transport pathways for its growth and replication. Rab GTPases are key regulatory proteins of intracellular trafficking. Several Rabs, among them Rab11 and Rab14, are implicated in chlamydial development. FIP2, a member of the Rab11-Family of Interacting Proteins, presents at the C-terminus a Rab-binding domain that interacts with both Rab11 and Rab14. In this study, we determined and characterized the recruitment of endogenous and GFP-tagged FIP2 to the chlamydial inclusions. The recruitment of FIP2 is specific since other members of the Rab11-Family of Interacting Proteins do not associate with the chlamydial inclusions. The Rab-binding domain of FIP2 is essential for its association. Our results indicate that FIP2 binds to Rab11 at the chlamydial inclusion membrane through its Rab-binding domain. The presence of FIP2 at the chlamydial inclusion favours the recruitment of Rab14. Furthermore, our results show that FIP2 promotes inclusion development and bacterial replication. In agreement, the silencing of FIP2 decreases the bacterial progeny. C.\u2009trachomatis likely recruits FIP2 to hijack host intracellular trafficking to redirect vesicles full of nutrients towards the inclusion.",
+   "found_by": [],
+   "pubdate": "2013 Jan",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "20209493",
+   "title": "Rab4 interacts with the human P-glycoprotein and modulates its surface expression in multidrug resistant K562 cells.",
+   "abstract": "P-glycoprotein (P-gp) is a plasma membrane glycoprotein that has been signaled as a primary cause of multidrug resistance (MDR) in tumors. We performed a yeast 2-hybrid screen using the C-terminal domain of P-gp and identified 2 small GTPases involved in vesicular trafficking, Rab4 and Rab14, which complex with P-gp. The overexpression of GFP-Rab4, either transiently or stably, but not of Rab14, in K562ADR cells decreased the presence of P-gp in the cell surface. As a result, expression of this GTPase reduced the MDR phenotype of K562ADR cells, by augmenting the intracellular accumulation of daunomycin (DNM). This effect was mimicked by the constitutively active Rab4Q72L mutant, but not by the dominant negative Rab4S27N mutant. Rab4 regulated excocytotic P-gp trafficking to the plasma membrane from intracellular compartments, and this modulation required the interaction of both proteins and the GTPase activity. Noteworthy, K562ADR cells exhibited a significant reduction of Rab4 levels, but not of other Rab GTPases, as compared with the sensitive parental cell line, suggesting that the development of the MDR phenotype in these cells involves upregulation of P-gp and a concomitant downregulation of proteins that regulate its surface expression. Attenuation of endogenous Rab4 levels in K562ADR by RNA interference enhanced the expression of P-gp in the cell surface, and reduced the uptake of DNM. Accordingly, these findings substantiate the notion that modulation of the temporal and spatial distribution of P-gp in cancer cells may be a valid therapeutic strategy to alleviate the MDR phenotype, and signal to Rab4 as a potential target.",
+   "found_by": [],
+   "pubdate": "2011 Jan 1",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "18980612",
+   "title": "Proteome analysis of Legionella vacuoles purified by magnetic immunoseparation reveals secretory and endosomal GTPases.",
+   "abstract": "Legionella pneumophila, the causative agent of Legionnaires' disease, replicates in macrophages and amoebae within 'Legionella-containing vacuoles' (LCVs), which communicate with the early secretory pathway and the endoplasmic reticulum. Formation of LCVs requires the bacterial Icm/Dot type IV secretion system. The Icm/Dot-translocated effector protein SidC selectively anchors to LCVs by binding the host lipid phosphatidylinositol-4-phosphate (PtdIns(4)P). Here, we describe a novel and simple approach to purify intact vacuoles formed by L. pneumophila within Dictyostelium discoideum by using magnetic immunoseparation with an antibody against SidC, followed by density gradient centrifugation. To monitor LCV purification by fluorescence microscopy, we used Dictyostelium producing the LCV marker calnexin-GFP and L. pneumophila labeled with the red fluorescent protein DsRed. A proteome analysis of purified LCVs by liquid chromatography coupled to tandem mass spectrometry revealed 566 host proteins, including known LCV components, such as the small GTPases Arf1, Rab1 and Rab7. Rab8, an endosomal regulator of the late secretory pathway originating from the trans Golgi network, and the endosomal GTPase Rab14 were identified as novel LCV components, which were found to be present on vacuoles harboring wild-type but not Icm/Dot-deficient L. pneumophila. Thus, LCVs also communicate with the late secretory and endosomal pathways. Depletion of Rab8 or Arf1 by RNA interference reduced the amount of SidC on LCVs, indicating that the GTPases promote the recruitment of Legionella effectors by regulating the level of PtdIns(4)P.",
+   "found_by": [],
+   "pubdate": "2009 Jan",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "16154996",
+   "title": "Characterization of the role of the Rab GTPase-activating protein AS160 in insulin-regulated GLUT4 trafficking.",
+   "abstract": "Insulin stimulates the translocation of the glucose transporter GLUT4 from intracellular vesicles to the plasma membrane. In the present study we have conducted a comprehensive proteomic analysis of affinity-purified GLUT4 vesicles from 3T3-L1 adipocytes to discover potential regulators of GLUT4 trafficking. In addition to previously identified components of GLUT4 storage vesicles including the insulin-regulated aminopeptidase insulin-regulated aminopeptidase and the vesicle soluble N-ethylmaleimide factor attachment protein (v-SNARE) VAMP2, we have identified three new Rab proteins, Rab10, Rab11, and Rab14, on GLUT4 vesicles. We have also found that the putative Rab GTPase-activating protein AS160 (Akt substrate of 160 kDa) is associated with GLUT4 vesicles in the basal state and dissociates in response to insulin. This association is likely to be mediated by the cytosolic tail of insulin-regulated aminopeptidase, which interacted both in vitro and in vivo with AS160. Consistent with an inhibitory role of AS160 in the basal state, reduced expression of AS160 in adipocytes using short hairpin RNA increased plasma membrane levels of GLUT4 in an insulin-independent manner. These findings support an important role for AS160 in the insulin regulated trafficking of GLUT4.",
+   "found_by": [],
+   "pubdate": "2005 Nov 11",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "42389534",
+   "title": "Fc\u03b3RIIA signalling as a host-associated determinant of endosomal trafficking and antibody-dependent enhancement in flavivirus infection.",
+   "abstract": "BACKGROUND: Antibody-dependent enhancement (ADE) is a major determinant of disease severity in flavivirus infections, yet the host-associated factors that regulate the transition from antibody-mediated uptake to productive infection remain incompletely defined. Fc gamma receptor IIA (Fc\u03b3RIIA/CD32A), an activating Fc receptor expressed on myeloid cells, represents a key host determinant linking pre-existing immunity to viral entry pathways. Here, we investigated how Fc\u03b3RIIA signalling influences intracellular trafficking and ADE efficiency across dengue virus (DENV), Zika virus (ZIKV), and Japanese encephalitis virus (JEV). METHOD: Using BHK-21 cells expressing either wild-type Fc\u03b3RIIA (WT) or a cytoplasmic-truncated variant lacking the immunoreceptor tyrosine-based activation motif (ITAM), we show that immune-complex internalization occurs independently of the cytoplasmic domain, but that signalling competence significantly modulates downstream infection efficiency. WT cells generally showed higher ADE efficiency, whereas cytoplasmic-truncated receptors preserved ADE activity but showed virus-dependent reductions in enhancement magnitude. RESULT: Fc\u03b3RIIA signalling altered the intracellular routing of virus-antibody complexes. WT receptors promoted rapid trafficking from EEA1-positive early endosomes to Rab7-positive late endosomes, whereas signalling-deficient receptors displayed delayed progression and increased association with IRAP- and Rab14-positive compartments. These trafficking differences correlated with virus-specific patterns of enhancement, with DENV showing the strongest dependence on late endosomal maturation, while ZIKV and JEV utilized more flexible or alternative pathways. Transcriptomic analysis revealed minimal differences between WT and truncated receptors at later time points, indicating that Fc\u03b3RIIA primarily modulates early post-entry events rather than sustained transcriptional responses. CONCLUSION: Collectively, these findings identify Fc\u03b3RIIA signalling as a host-associated determinant that regulates the intracellular fate of virus-antibody complexes and influences ADE efficiency through modulation of endosomal trafficking dynamics. The work provides a mechanistic framework linking host receptor signalling to variability in infection outcomes under conditions of pre-existing immunity, with implications for understanding disease heterogeneity and optimizing vaccine and antibody-based interventions.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27377765",
+   "title": "Mevalonate kinase deficiency leads to decreased prenylation of Rab GTPases.",
+   "abstract": "Mevalonate kinase deficiency (MKD) is caused by mutations in a key enzyme of the mevalonate-cholesterol biosynthesis pathway, leading to recurrent autoinflammatory disease characterised by enhanced release of interleukin-1\u03b2 (IL-1\u03b2). It is currently believed that the inflammatory phenotype of MKD is triggered by temperature-sensitive loss of mevalonate kinase activity and reduced biosynthesis of isoprenoid lipids required for the prenylation of small GTPase proteins. However, previous studies have not clearly shown any change in protein prenylation in patient cells under normal conditions. With lymphoblast cell lines from two compound heterozygous MKD patients, we used a highly sensitive in vitro prenylation assay, together with quantitative mass spectrometry, to reveal a subtle accumulation of unprenylated Rab GTPases in cells cultured for 3 days or more at 40\u2009\u00b0C compared with 37\u2009\u00b0C. This included a 200% increase in unprenylated Rab7A, Rab14 and Rab1A. Inhibition of sterol regulatory element-binding protein (SREBP) activation by fatostatin led to more pronounced accumulation of unprenylated Rab proteins in MKD cells but not parent cells, suggesting that cultured MKD cells may partially overcome the loss of isoprenoid lipids by SREBP-mediated upregulation of enzymes required for isoprenoid biosynthesis. Furthermore, while inhibition of Rho/Rac/Rap prenylation promoted the release of IL-1\u03b2, specific inhibition of Rab prenylation by NE10790 had no effect in human peripheral blood mononuclear cells or human THP-1 monocytic cells. These studies demonstrate for the first time that mutations in mevalonate kinase can lead to a mild, temperature-induced defect in the prenylation of small GTPases, but that loss of prenylated Rab GTPases is not the cause of enhanced IL-1\u03b2 release in MKD.",
+   "found_by": [],
+   "pubdate": "2016 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39454304",
+   "title": "Histone deacetylase inhibition disrupts the molecular signature of the glioblastoma secretome related to extracellular vesicle-associated proteins and targets RAB7a and RAB14 in vitro.",
+   "abstract": "Glioblastoma (GBM) is the most aggressive brain tumor with a poor prognosis. While Histone Deacetylase inhibitors have shown promising results in inhibiting cancer cell invasion and promoting apoptosis, their effects on GBM secretion, specifically focusing on extracellular vesicles (EVs) secretion, remain largely unexplored. Using label-free NANOLC-MS/MS methodology, we identified significant changes in the abundance of membrane traffic regulatory proteins in the secretome of U87MG cells after the treatment with the HDAC inhibitor Trichostatin A (TSA). In silico analysis showed that TSA treatment disrupted the secretion pattern of EVs-associated proteins and cellular signaling pathways, both qualitatively and quantitatively. Notably, RAB14/RAB7a interaction was only observed in the secretome of cells treated with TSA. In vitro assays revealed that TSA treatment of glioma cells increased EVs secretion and intracellular protein levels of RAB7a and RAB14 without affecting gene expression, suggesting a role of these two EVs-associated proteins in grade IV glioma cells. Additionally, an integrative approach using clinical data highlighted a correlation between DNA mutations affecting vesicle traffic coding-genes and clinical and phenotypic outcomes in glioma patients. These findings provide insights into the interplay between epigenetics and GBM intracellular trafficking, potentially leading to improved strategies for targeting and modifying the complex signaling network established between GBM cells and the tumor cell microenvironment.",
+   "found_by": [],
+   "pubdate": "2024 Dec 3",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40465750",
+   "title": "Genome-wide DNA methylation analysis of hippocampal tissue in a murine model of attention deficit-hyperactivity disorder.",
+   "abstract": "Attention Deficit-Hyperactivity Disorder (ADHD) is a neurodevelopmental disorder with a prevalence around 5% in children and adolescents and 2.5% in adults. Recent reports using GWAS approaches have identified several genetic risk loci for this disorder. However, the epigenetic influence of extrinsic factors during pregnancy or the exposure to environmental factors during childhood, on the onset of the disorder remains unclear. This question has been addressed by analyzing blood or saliva samples from ADHD patients or by postmortem analysis. The aim of this study was to determine differential patterns in DNA methylation in fresh hippocampal samples using a murine model of ADHD. We analyzed the genome-wide pattern of differentially methylated CpG sites using the Illumina Infinium Mouse Methylation BeadChip in fresh hippocampal samples from the prenatal nicotine exposure (PNE) mouse model of ADHD and control animals. Our analysis revealed 218 DMPs including genes associated with growth factors signaling, such as adhesion G protein-coupled receptor B2 (ADGRB2), leukemia inhibitory factor receptor (LIFR) and erb-b2 receptor tyrosine kinase 3 (ERBB3) involved in synaptogenesis, proliferation, and differentiation of neural stem cells. The functional gene enrichment analysis of differentially methylated positions (DMPs) revealed the nervous system development as the biological process with highest enrichment factor. In addition, the GO and KEEG enrichment analysis of 113 differentially methylated regions (DMR) revealed several loci associated with the positive regulation of Hippo signaling (involved in neuronal development) in PNE samples. In addition, our results revealed a DMP previously associated to ADHD patients supporting the PNE murine model of ADHD. These results are relevant in terms of the validation of PNE model of ADHD and for the identification of epigenetic markers of the disorder in humans. In addition, our results are relevant for the characterization of the cellular and molecular mechanisms underlying the ADHD, currently unknown. [full text, passages naming RAB14] ...ivated protein kinase kinase kinase 13 | Zg16 | cg45127550 | 0.4197 | 69036 | Protein coding | Zymogen granule protein 16 | Vmn1r72 | cg44232693 | 0.4119 | 252905 | Protein coding | Vomeronasal 1 receptor 72 | Rab14 | cg38276813 | 0.4103 | 51552 | Protein coding | RAB14, member RAS oncogene family | Erbb3 | cg29163869 | \u22120.5408 | 13867 | Protein coding | erb-b2 receptor tyrosine kinase 3 | Rnf141 | cg44986716 | \u22120.53... ...550 | 0.4197 | 69036 | Protein coding | Zymogen granule protein 16 | Vmn1r72 | cg44232693 | 0.4119 | 252905 | Protein coding | Vomeronasal 1 receptor 72 | Rab14 | cg38276813 | 0.4103 | 51552 | Protein coding | RAB14, member RAS oncogene family | Erbb3 | cg29163869 | \u22120.5408 | 13867 | Protein coding | erb-b2 receptor tyrosine kinase 3 | Rnf141 | cg44986716 | \u22120.5343 | 67150 | Protein coding | Ring finger protein 141 |...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37064343",
+   "title": "Overlapping Interstitial Deletions of the Region 9q22.33 to 9q33.3 of Three Patients Allow Pinpointing Candidate Genes for Epilepsy and Cleft Lip and Palate.",
+   "abstract": "INTRODUCTION: Patients carrying interstitial deletions of the long arm of chromosome 9 show similar features. These phenotypes are often characterized by developmental delay, intellectual disability, short stature, and dysmorphism. Previously reported deletions differ in size and location spanning from 9q21 to 9q34 and were mostly detected by conventional cytogenetic techniques. METHODS: Based on clinical features suggesting primarily chromosomal diseases, aCGH analysis was indicated. We report on de novo overlapping interstitial 9q deletions in 3 unrelated individuals presenting neurodevelopmental disorder and multiple congenital anomalies. RESULTS: An 8.03-Mb (90 genes), a 15.71-Mb (193 genes), and a 15.81-Mb (203 genes) deletion were identified in 9q affecting 9q22.33q33.3. The overlapping region was 1.50 Mb, including 2 dosage-sensitive genes, namely EPB41L4B (OMIM #610340) and SVEP1 (OMIM #611691). These genes are thought to be involved in cellular adhesion, migration, and motility. The non-overlapping regions contain 24 dosage-sensitive genes. CONCLUSION: Besides the frequently described symptoms (developmental delay, intellectual disability, skeletal abnormalities, short stature, and dysmorphic facial features) shared by the patients with interstitial deletions of chromosome 9q reported thus far, two of our patients showed distinct forms of epilepsy, which were successfully treated, and one had a bilateral cleft lip and palate. Possible candidate genes for epilepsy and cleft lip and palate are discussed. [full text, passages naming RAB14] ...e regulation of gene expression in developing germ cells | | | PHF19 (609740) 1.00 | PHD finger protein 19 | Has a role in the transition from an active state to a repressed state in embryonic stem cells | | | RAB14 (612673) 0.99 | RAB14, RAS oncogene family member | Involved in membrane trafficking between the Golgi complex and endosomes during early embryonic development | | | RABGAP1 (615882) 1.00 | RAB GTPase act... ...xpression in developing germ cells | | | PHF19 (609740) 1.00 | PHD finger protein 19 | Has a role in the transition from an active state to a repressed state in embryonic stem cells | | | RAB14 (612673) 0.99 | RAB14, RAS oncogene family member | Involved in membrane trafficking between the Golgi complex and endosomes during early embryonic development | | | RABGAP1 (615882) 1.00 | RAB GTPase activating protein 1 | Pr...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42192297",
+   "title": "Chromosome 22q13 terminal deletion size is associated with relevant clinical features in a sample of 63 Italian patients with Phelan-McDermid syndrome.",
+   "abstract": "BACKGROUND: Phelan-McDermid syndrome (PMS) is caused in the majority of cases by the loss or mutation of one allele of the SHANK3 gene, located in human chr 22q13.33. PMS displays large interindividual differences in clinical severity and longitudinal trajectory. Other genes located in this chromosomal region are known to contribute to the clinical phenotype (CELSR1, TCF20) in patients with larger deletions. The aim of this study is to identify clinically-relevant phenotypic features significantly influenced by the size of chromosome 22q terminal deletion and to identify new potential candidate genes likely to be involved in these phenotypic effects. METHODS: Genotype-phenotype correlations were investigated in 63 PMS patients directly ascertained by deep clinical phenotyping and determination of deletion size (Agilent CGH-array 180K or 400K). Patients were partitioned into eleven categories, based on deletion size (Mb). Phenotypic variables significantly influenced by deletion size were initially detected by exact \u03c72 (10,000 iterations) and Kendall's Tau. Candidate genes were then sought using: (a) ROC curves for binary dichotomous variables; (b) best separation threshold for quantitative variables. RESULTS: Phenotypic variables significantly associated with chromosome 22q deletion size in our sample include: expressive language (p\u2009<\u20090.001); motor development timing (p\u2009<\u20090.001); gait (p\u2009<\u20090.001); muscle strength (p\u2009<\u20090.01); social cognition, encompassing eye contact, exchange gesture, and joint attention (p\u2009<\u20090.001-<\u20090.05); infectious diseases coincident with the onset of behavioral manifestations (p\u2009<\u20090.001); brain structural abnormalities on MRI (p\u2009<\u20090.001); dysmorphisms (p\u2009<\u20090.001); renal and urinary malformations (p\u2009<\u20090.01); comorbid lifelong bipolar disorder (p\u2009<\u20090.05). The best separation thresholds for many of these variables were located within or nearby genes playing important morphogenetic (PLXNB2, TAFA5) or neurodevelopmental roles (BRD1, TBC1D22A, ATXN10 and/or FBLN1). For renal malformations, the two best thresholds point toward one long non-coding RNA and a cluster of antisense RNAs. CONCLUSIONS: The genes identified in this study appear as strong candidates to contribute to the PMS phenotype, by conferring an additional layer of abnormal neurodevelopment and impaired morphogenesis to the disruptive effects produced by SHANK3 haploinsufficiency. [full text, passages naming RAB14] ...lity during the mitotic cycle (Fig. 2 , Suppl. Fig. S5A). Centromeric to this gene, at only 66.8 and 86.3 kb from PPP6R2 , are located DENND6B , which encodes for a guanine nucleotide exchange factor (GEF) for RAB14, and most importantly the morphogenetic PLXNB2 , involved in embryonic brain and kidney development (see Discussion ) (Suppl. Fig. S5A). The second threshold falls at 53.6 and 99.2 kb telomeric from PIM3...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35690661",
+   "title": "Disease relevance of rare VPS13B missense variants for neurodevelopmental Cohen syndrome.",
+   "abstract": "Autosomal recessive Cohen syndrome is a neurodevelopmental disorder characterized by postnatal microcephaly, intellectual disability, and a typical facial gestalt. Genetic variants in VPS13B have been found to cause Cohen syndrome, but have also been linked to autism, retinal disease, primary immunodeficiency, and short stature. While it is well established that loss-of-function mutations of VPS13B cause Cohen syndrome, the relevance of missense variants for the pathomechanism remains unexplained. Here, we investigate their pathogenic effect through a systematic re-evaluation of clinical patient information, comprehensive in silico predictions, and in vitro testing of previously published missense variants. In vitro analysis of 10 subcloned VPS13B missense variants resulted in full-length proteins after transient overexpression. 6/10 VPS13B missense variants show reduced accumulation at the Golgi complex in the steady state. The overexpression of these 6/10 VPS13B missense variants did not rescue the Golgi fragmentation after the RNAi-mediated depletion of endogenous VPS13B. These results thus validate 6/10 missense variants as likely pathogenic according to the classification of the American College of Medical Genetics through the integration of clinical, genetic, in silico, and experimental data. In summary, we state that exact variant classification should be the first step towards elucidating the pathomechanisms of genetically inherited neuronal diseases. [full text, passages naming RAB14] ...spans a genomic region of about 864 kb comprising 62 exons . The VPS13B protein is ~ 450 kDa in size ( 8 NP_689777.3 , NP_060360.3 ) and important for Golgi structure maintenance . VPS13B interacts with RAB6, RAB14, STX6, STX13, and PI3P 6 . Genetic variants in 7 , 9 VPS13B have been linked to the neurodevelopmental disorder Cohen syndrome . The autosomal recessive (AR) Cohen syndrome is characterized by intellectua...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32183904",
+   "title": "Gene family information facilitates variant interpretation and identification of disease-associated genes in neurodevelopmental disorders.",
+   "abstract": "BACKGROUND: Classifying pathogenicity of missense variants represents a major challenge in clinical practice during the diagnoses of rare and genetic heterogeneous neurodevelopmental disorders (NDDs). While orthologous gene conservation is commonly employed in variant annotation, approximately 80% of known disease-associated genes belong to gene families. The use of gene family information for disease gene discovery and variant interpretation has not yet been investigated on a genome-wide scale. We empirically evaluate whether paralog-conserved or non-conserved sites in human gene families are important in NDDs. METHODS: Gene family information was collected from Ensembl. Paralog-conserved sites were defined based on paralog sequence alignments; 10,068 NDD patients and 2078 controls were statistically evaluated for de novo variant burden in gene families. RESULTS: We demonstrate that disease-associated missense variants are enriched at paralog-conserved sites across all disease groups and inheritance models tested. We developed a gene family de novo enrichment framework that identified 43 exome-wide enriched gene families including 98 de novo variant carrying genes in NDD patients of which 28 represent novel candidate genes for NDD which are brain expressed and under evolutionary constraint. CONCLUSION: This study represents the first method to incorporate gene family information into a statistical framework to interpret variant data for NDDs and to discover new NDD-associated genes. [full text, passages naming RAB14] ...BL1Y TBL1X | 0.52 | 9 | 5.01E\u221209 | 7 | 2 | 0 | 0 | PHIP (10) , BRWD3 (2) | 1.46 | 13 | 5.64E\u221209 | 10 | 2 | 1 | 0 | CTCF (9) , CTCFL | 0.56 | 9 | 9.00E\u221209 | 7 | 2 | 0 | 0 | RAB11A (3) , RAB2A (2) , RAB11B (2) , RAB14 (2) , RAB19 (1) , RAB43 (1) , , RAB39A , RAB25 , RAB4B , RAB39B , RAB4A , RAB30 RAB2B | 1.01 | 11 | 1.14E\u221208 | 9 | 2 | 0 | 0 | GABRB3 (8) , GABRB2 (3) , GLRA2 (1) , GABRB1 (2) , GLRB (1) , , GLRA1 , GABRR... ...without prior evidence for any gene on the genome-wide level, even though some individual genes are known disease genes (Additional file 1 : Table S1). These gene families include the RAB2A/B-RAB4A/B-RAB11A/B-RAB14-RAB19-RAB25-RAB30-RAB39A/B-RAB43 -, the HECW1/2 -, the SOX1/4/7/8/9/10/11 -, and the TCF7L1/2 - family. To find further evidence of disease association for less frequently mutated gene family members, we... ...M-enriched gene families. Besides highlighting four gene families with genome-wide gene family enrichment without carrying any previously exome-wide established disease gene, the RAB2A/ B- RAB4A/B - RAB11A/B - RAB14 - RAB19 - RAB25 - RAB30 - RAB39A/B - RAB43 , the HECW1/2 , the SOX1/4/7/8/9/10/11 , and the TCF7L1/2 , we additionally report 28 genes showing for the first time statistical support as disease genes. Path...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31277718",
+   "title": "Genomic imbalances defining novel intellectual disability associated loci.",
+   "abstract": "BACKGROUND: High resolution genome-wide copy number analysis, routinely used in clinical diagnosis for several years, retrieves new and extremely rare copy number variations (CNVs) that provide novel candidate genes contributing to disease etiology. The aim of this work was to identify novel genetic causes of neurodevelopmental disease, inferred from CNVs detected by array comparative hybridization (aCGH), in a cohort of 325 Portuguese patients with intellectual disability (ID). RESULTS: We have detected CNVs in 30.1% of the patients, of which 5.2% corresponded to novel likely pathogenic CNVs. For these 11 rare CNVs (which encompass novel ID candidate genes), we identified those most likely to be relevant, and established genotype-phenotype correlations based on detailed clinical assessment. In the case of duplications, we performed expression analysis to assess the impact of the rearrangement. Interestingly, these novel candidate genes belong to known ID-related pathways. Within the 8% of patients with CNVs in known pathogenic loci, the majority had a clinical presentation fitting the phenotype(s) described in the literature, with a few interesting exceptions that are discussed. CONCLUSIONS: Identification of such rare CNVs (some of which reported for the first time in ID patients/families) contributes to our understanding of the etiology of ID and for the ever-improving diagnosis of this group of patients. [full text, passages naming RAB14] ...| f dup | 216 | 2 | | CALD1, AGBL3 qPCR | maternal | a No | No | 1 | Lopes F, et al., 2018 | R21 | Female | arr 9q33.2-q33.3(123,525,064-127,187,619)x4dn | tri | 3600 | 52 | | CRB2, LHX2, LHX6, DENND1A, STRBP, RAB14, GSN, PSMB7, ZBTB26 qPCR | de novo | No | No | 2 | \u2013 | C19 | Female | arr 9q34.3(140540819\u2013140,659,057)\u00d73mat | dup | 0.118 | 2 | | EHMT1 NP | maternal | 1/2504 (smaller) | No | 1 | \u2013 | R22, R23 | e Male,...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "22902555": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33381254": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11484377": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25795593": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31040861": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31642061": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29182273": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24784385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40157906": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20585466": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38835119": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37286036": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28715126": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33465070": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29212940": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18648001": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16717408": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23881342": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26775587": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8771208": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27197155": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27481063": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26216420": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26755725": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31794410": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11929103": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31992121": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40284901": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30003933": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8544848": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10679523": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28787457": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8939429": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22523066": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33649539": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19015535": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30979336": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41054643": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27142690": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26790954": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22562760": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31264961": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30275018": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26444867": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17664609": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40288942": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19329634": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21257380": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33329938": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38565878": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33712449": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23387437": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25694446": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23006599": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20209493": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18980612": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16154996": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42389534": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27377765": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39454304": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14618241": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25671302": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19273283": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40921933": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21209200": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40465750": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42651835": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40968989": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42251495": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41641220": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37064343": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42192297": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41461932": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35690661": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36581671": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41561085": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40077761": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37242226": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33489995": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39984594": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32183904": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40271197": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37807670": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31277718": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41098540": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36692473": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40185232": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38612445": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39063993": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42346510": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.3,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 395,
+   "usd": 0.011615,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "17 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 11.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4110,
+   "output_tokens": 266,
+   "usd": 0.00544,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 48.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 25049,
+   "output_tokens": 952,
+   "usd": 0.029809,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.5,
+   "note": "",
+   "input_tokens": 14329,
+   "output_tokens": 923,
+   "usd": 0.09472,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>38</existing>\n    <hypothesized>35</hypothesized>\n    <novel>25</novel>\n  </probabilities>\n  <justification>No article demonstrates that RAB14 variants cause neurodevelopmental disorder in independent probands; the closest human genetic data is the gene-family burden framework (PMID 32183904), which lists two de novo variants in RAB14 as part of a collectively enriched RAB2A/RAB4/RAB11/RAB14 family rather than gene-specific, exome-wide significant evidence. The CNV reports (PMIDs 37064343, 31277718, 42192297) include RAB14 (or its GEF DENND6B) only within multi-megabase deletions/duplications spanning dozens of genes, which cannot single out RAB14. Supporting biology is indirect: RAB14 interacts with VPS13B, the Cohen syndrome protein (PMID 35690661), and participates in endosomal/Golgi trafficking relevant to neurodevelopment (PMIDs 38565878, 25694446), and a murine ADHD model showed differential methylation at Rab14 (PMID 40465750, non-human). This supports a limited \"Existing\" claim at best, with substantial weight on hypothesized/biological plausibility and a real chance the co-mentions are incidental.</justification>\n  <pmids>\n    <pmid>32183904</pmid>\n    <pmid>37064343</pmid>\n    <pmid>31277718</pmid>\n    <pmid>42192297</pmid>\n    <pmid>35690661</pmid>\n    <pmid>40465750</pmid>\n    <pmid>38565878</pmid>\n    <pmid>25694446</pmid>\n  </pmids>\n</response>"
+}

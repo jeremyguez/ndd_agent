@@ -1,0 +1,216 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 11,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2017 - Debunking the cerebral palsy (CP)-birth asphyxia myth: Frequent genomic etiologies for CP identified by exome sequencing (Moreno-De-Luca et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Rare loss-of-function variant in MAP3K12 (specific nucleotide/protein change not provided in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "Cerebral palsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare LoF variant absent from population databases (ExAC, EVS, 1000G); MAP3K12 predicted to be extremely LoF intolerant; proposed as a novel CP candidate gene",
+        "center_country": "Geisinger / Regeneron Genetics Center (DiscovEHR), USA",
+        "cohort": null
+      },
+      {
+        "citation": "Prioritizing de novo potential non-canonical splicing variants in neurodevelopmental disorders (PMID: 38113761)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "MAP3K12 c.436G>A (chr12:53880317 C>T), missense; non-canonical splicing variant causing exon 4 91bp deletion in minigene assay",
+            "type": "missense",
+            "phenotypes": [
+              "Neurodevelopmental disorder (unspecified developmental delay/NDD)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant in a patient with NDD; minigene assay showed abnormal splicing (exon 4 91bp deletion); MAP3K12 implicated in axon growth",
+        "center_country": "China",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Xenopus Dlk study - Dual leucine zipper kinase is necessary for retinal ganglion cell axonal regeneration in Xenopus laevis (PMID: 37152673)",
+        "organism": "Xenopus laevis",
+        "knockout_type": "other (CRISPR/Cas9 F0 mosaic knockout/knockdown of map3k12 injected at the one-cell stage)",
+        "phenotypes": [
+          "map3k12/Dlk is necessary for RGC axonal regeneration after optic nerve crush, in a dose-dependent manner",
+          "Loss of Dlk does not affect RGC innervation of the brain during development",
+          "Loss of Dlk does not affect visually driven behavior",
+          "Loss of Dlk blocks axonal regeneration and functional vision restoration after optic nerve crush",
+          "Loss of Dlk does not alter acute mitochondrial movement in RGC axons after crush",
+          "Loss of Dlk blocks Jun phosphorylation and nuclear translocation in RGCs days after crush",
+          "Jun is dispensable for reinnervation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dual leucine zipper kinase is required for mechanical allodynia and microgliosis after nerve injury (PMID: 29968565)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Genetic or pharmacological inhibition of DLK reduces mechanical hypersensitivity (allodynia) in a neuropathic pain model",
+          "DLK inhibition prevents spinal cord microgliosis after nerve injury",
+          "DLK controls a transcriptional program in somatosensory neurons, including Csf1 and other pain-related genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DLK signaling in axotomized neurons triggers complement activation and loss of upstream synapses (PMID: 38363678)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "DLK signaling in injured motoneurons triggers induction of phagocytic microglia and synapse loss",
+          "DLK regulates C1q expression, first in the axotomized motoneuron and later in microglia",
+          "Microglia phagocytose presynaptic components of upstream synapses",
+          "Loss of cholinergic C boutons from axotomized motoneurons depends on DLK and on microglia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Promoting regeneration while blocking cell death preserves motor neuron function in a model of ALS (PMID: 36342754)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (DLK deletion combined with constitutive ATF3 expression in SOD1G93A mice)",
+        "phenotypes": [
+          "DLK deletion plus ATF3 expression gives synergistic protection in the SOD1G93A ALS model",
+          "Fewer motor neurons undergo cell death",
+          "Reduced axon degeneration",
+          "Preserved motor function and neuromuscular connectivity",
+          "Improved motor neuron electrophysiology, histology and behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Translatome analysis reveals cellular network in DLK-dependent hippocampal glutamatergic neuron degeneration (PMID: 40067879)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (plus induced overexpression)",
+        "phenotypes": [
+          "DLK-dependent translatome identified in hippocampal glutamatergic neurons",
+          "Dorsal CA1 and dentate gyrus neurons are vulnerable to elevated DLK expression, while CA3 neurons are less vulnerable",
+          "Increased DLK signaling is associated with microtubule disruption, potentially via STMN4",
+          "Altered neurite outgrowth, axon specification and synapse formation in cultured hippocampal neurons with different DLK levels"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dual Leucine Zipper Kinase Is Constitutively Active in the Adult Mouse Brain and Has Both Stress-Induced and Homeostatic Functions (PMID: 32659913)",
+        "organism": "mouse",
+        "knockout_type": "other (pharmacological DLK inhibition; rTg4510 tauopathy model)",
+        "phenotypes": [
+          "DLK constitutively drives nuclear p-c-Jun in cerebellar granule neurons",
+          "In rTg4510 forebrain, p-c-Jun accumulation is DLK-dependent and correlates with synaptic loss and gliosis",
+          "DLK inhibition reduces a core set of JNK-pathway transcripts",
+          "In the cerebellum, DLK regulates IGF1 signaling through IGFBP5 induction"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Sun et al. 2026 - ATF2 phosphorylation is a core transcriptional driver of neuron apoptosis (PMID: 42161275)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPR inhibition screen in human neurons identified DLK/MAP3K12, JUN and ATF2 as a pro-death cascade. MAP3 kinase phosphorylation of ATF2 drives upregulation of JUN and neuronal apoptosis. Interfering with ATF2 prevents neuronal apoptosis in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kim et al. 2022 - FK506-binding protein-like and FK506-binding protein 8 regulate dual leucine zipper kinase degradation and neuronal responses to axon injury (PMID: 35101451)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A yeast two-hybrid screen identified FKBPL as a DLK-binding protein. FKBPL binds the DLK kinase domain, inhibits its kinase activity and induces ubiquitin-dependent degradation. FKBP8 also promotes DLK degradation via autophagy and proteasome, with K271 as the ubiquitination/SUMO3 site. FKBP8 overexpression delays axon degeneration and neuronal death after axotomy in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Shin et al. 2022 - A Critical Role for DLK and LZK in Axonal Repair in the Mammalian Spinal Cord (PMID: 35361703)",
+        "evidence_subtype": "function",
+        "summary": "In mice, inducible neuronal deletion of both DLK (MAP3K12) and LZK (MAP3K13), but not either alone, abolished PTEN deletion-induced regeneration and sprouting of corticospinal tract axons. The two kinases are redundant and act in both injured and uninjured neurons, independently of PTEN/mTOR signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Bhattacharyya et al. 2024 - DLK signaling in axotomized neurons triggers complement activation and loss of upstream synapses (PMID: 38363678)",
+        "evidence_subtype": "function",
+        "summary": "In conditional knockout mice, DLK/MAP3K12 activation in axotomized motoneurons triggers C1q expression, first in the neuron and later in microglia, along with phagocytic microglia and loss of upstream synapses. DLK is therefore a neuronal driver of injury-induced inflammation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pozniak/Wang et al. 2018 - Dual leucine zipper kinase is required for mechanical allodynia and microgliosis after nerve injury (PMID: 29968565)",
+        "evidence_subtype": "function",
+        "summary": "Genetic or pharmacological inhibition of DLK (Map3k12) reduces mechanical hypersensitivity and spinal microgliosis after nerve injury in mice. DLK controls a transcriptional program in somatosensory neurons that includes pain-related genes such as Csf1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Patel et al. 2015 - Discovery of dual leucine zipper kinase (DLK, MAP3K12) inhibitors with activity in neurodegeneration models (PMID: 25341110)",
+        "evidence_subtype": "function",
+        "summary": "The selective, brain-penetrant DLK inhibitor GNE-3511 protected neurons from degeneration in vitro. It was also active in two animal models of neurodegeneration, supporting DLK kinase activity as a driver of neuronal degeneration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wang et al. 2021 - MiR-191-5p alleviates microglial cell injury by targeting Map3k12 to inhibit the MAPK signaling pathway in Alzheimer's disease (PMID: 34818971)",
+        "evidence_subtype": "pathway",
+        "summary": "miR-191-5p directly targets the Map3k12 3'UTR (shown by luciferase assay) and downregulates its expression. In A\u03b21-42-treated microglia and APP/PS1 mice, this inhibits MAPK signaling and reduces microglial injury and apoptosis. Map3k12 therefore promotes MAPK signaling and injury in AD models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Li et al. 2015 - MicroRNA-130a Targets MAP3K12 to Modulate Diabetic Endothelial Progenitor Cell Function (PMID: 25999017)",
+        "evidence_subtype": "pathway",
+        "summary": "MAP3K12 is a target of miR-130a in endothelial progenitor cells. Reduced miR-130a in diabetic EPCs and high glucose lead to sustained JNK activation, apoptosis and dysfunction through MAP3K12.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tang et al. 2024 - Comprehensive analysis of MAPK genes in the prognosis, immune characteristics, and drug treatment of renal clear cell carcinoma (PMID: 39038636)",
+        "evidence_subtype": "function",
+        "summary": "MAP3K12 was the most significant gene in a six-gene MAPK prognostic signature in ccRCC and had independent prognostic value. Knockout and overexpression experiments in vitro and in vivo showed it promotes RCC proliferation, migration, invasion and tumour progression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wang et al. 2021 - Celastrol attenuates ischemia/reperfusion-mediated memory dysfunction by downregulating AK005401/MAP3K12 (PMID: 33387968)",
+        "evidence_subtype": "expression",
+        "summary": "Ischemia/reperfusion in mice and OGD/R in HT-22 hippocampal cells upregulated lncRNA AK005401 and MAP3K12, with increased p-JNK/p-c-Jun and reduced PI3K/Akt activity, leading to mitochondrial dysfunction and apoptosis. Celastrol downregulated AK005401/MAP3K12 and improved memory.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

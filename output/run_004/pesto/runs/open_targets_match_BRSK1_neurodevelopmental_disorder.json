@@ -1,0 +1,245 @@
+{
+  "gene": "BRSK1",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000160469",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.4209514544858753
+    },
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.2243035081479172
+    },
+    {
+      "disease_id": "OBA_0003747",
+      "name": "glomerular filtration rate",
+      "score": 0.19595447668115049
+    },
+    {
+      "disease_id": "MONDO_0000568",
+      "name": "autoimmune disorder of central nervous system",
+      "score": 0.15387585186717184
+    },
+    {
+      "disease_id": "EFO_0803063",
+      "name": "serine/threonine-protein kinase BRSK2 measurement",
+      "score": 0.11742650061722786
+    },
+    {
+      "disease_id": "EFO_0004704",
+      "name": "age at menopause",
+      "score": 0.11432454699250788
+    },
+    {
+      "disease_id": "EFO_0004617",
+      "name": "cystatin C measurement",
+      "score": 0.09449576885905024
+    },
+    {
+      "disease_id": "EFO_0004533",
+      "name": "alkaline phosphatase measurement",
+      "score": 0.08556245611599923
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.07107546651910619
+    },
+    {
+      "disease_id": "GO_0030728",
+      "name": "ovulation",
+      "score": 0.0687592627626497
+    },
+    {
+      "disease_id": "EFO_0004697",
+      "name": "estradiol measurement",
+      "score": 0.05813997053840185
+    },
+    {
+      "disease_id": "OBA_1001009",
+      "name": "Luteinizing hormone level",
+      "score": 0.05554294742948006
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.4209514544858753
+    },
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.2243035081479172
+    },
+    {
+      "disease_id": "OBA_0003747",
+      "name": "glomerular filtration rate",
+      "score": 0.19595447668115049
+    },
+    {
+      "disease_id": "MONDO_0000568",
+      "name": "autoimmune disorder of central nervous system",
+      "score": 0.15387585186717184
+    },
+    {
+      "disease_id": "EFO_0803063",
+      "name": "serine/threonine-protein kinase BRSK2 measurement",
+      "score": 0.11742650061722786
+    },
+    {
+      "disease_id": "EFO_0004704",
+      "name": "age at menopause",
+      "score": 0.11432454699250788
+    },
+    {
+      "disease_id": "EFO_0004617",
+      "name": "cystatin C measurement",
+      "score": 0.09449576885905024
+    },
+    {
+      "disease_id": "EFO_0004533",
+      "name": "alkaline phosphatase measurement",
+      "score": 0.08556245611599923
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.07107546651910619
+    },
+    {
+      "disease_id": "GO_0030728",
+      "name": "ovulation",
+      "score": 0.0687592627626497
+    },
+    {
+      "disease_id": "EFO_0004697",
+      "name": "estradiol measurement",
+      "score": 0.05813997053840185
+    },
+    {
+      "disease_id": "OBA_1001009",
+      "name": "Luteinizing hormone level",
+      "score": 0.05554294742948006
+    }
+  ],
+  "gate_text": "DROP: 3, 5, 7, 8, 9, 10, 11, 12",
+  "gate_dropped_ids": [
+    "OBA_0003747",
+    "EFO_0803063",
+    "EFO_0004617",
+    "EFO_0004533",
+    "EFO_0004736",
+    "GO_0030728",
+    "EFO_0004697",
+    "OBA_1001009"
+  ],
+  "tag_text": "1 | EXACT\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT\n12 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.4209514544858753,
+      "tag": "EXACT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.2243035081479172,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_0003747",
+      "name": "glomerular filtration rate",
+      "score": 0.19595447668115049,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0000568",
+      "name": "autoimmune disorder of central nervous system",
+      "score": 0.15387585186717184,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0803063",
+      "name": "serine/threonine-protein kinase BRSK2 measurement",
+      "score": 0.11742650061722786,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004704",
+      "name": "age at menopause",
+      "score": 0.11432454699250788,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004617",
+      "name": "cystatin C measurement",
+      "score": 0.09449576885905024,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004533",
+      "name": "alkaline phosphatase measurement",
+      "score": 0.08556245611599923,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.07107546651910619,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "GO_0030728",
+      "name": "ovulation",
+      "score": 0.0687592627626497,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004697",
+      "name": "estradiol measurement",
+      "score": 0.05813997053840185,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_1001009",
+      "name": "Luteinizing hormone level",
+      "score": 0.05554294742948006,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 12,
+  "tokens": {
+    "gate_in": 453,
+    "gate_out": 28,
+    "read_in": 2323,
+    "read_out": 255
+  },
+  "articles": [
+    {
+      "pmid": "41035394",
+      "title": "Haploinsufficiency of brain-specific kinase BRSK1 causes epilepsy and neurodevelopmental disorders.",
+      "abstract": "",
+      "year": "2025 Dec",
+      "source": "genomics_england"
+    }
+  ]
+}

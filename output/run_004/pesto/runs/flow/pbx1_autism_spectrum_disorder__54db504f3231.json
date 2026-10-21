@@ -1,0 +1,826 @@
+{
+ "gene": "PBX1",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "childhood autism",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "PBX homeobox 1"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 81,
+  "titlekicksparingfulltext": 35,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 12,
+   "Existing": 62,
+   "Hypothesized": 24,
+   "Novel": 2
+  },
+  "justification": "Large de novo variant analyses in human trios implicate PBX1 as a neurodevelopmental disorder gene, with DNMs observed across ASD/DD/ID cohorts (PMID 36350923; PMID 33970367), though PBX1 reached exome-wide significance only when ASD and DD cohorts were combined, and no ASD-specific signal was claimed. Clinical PBX1 haploinsufficiency (CAKUTHED) consistently includes developmental delay and intellectual disability, ASD-adjacent phenotypes, and a minimally verbal autistic patient carried a PBX1 nonsense variant, albeit alongside a pathogenic TBR1 variant (PMIDs 34797033, 33098248, 41716258). Functional human iPSC work shows PBX1 is a convergent downstream node of three autism risk genes regulating neural progenitor proliferation (PMID 40161581), which supports biological plausibility but does not involve PBX1 variants in patients. Because no two independent primary studies demonstrate PBX1 point variants causing ASD in distinct probands (deletion/CNV reports cannot isolate the gene), \"Established\" is not justified; the human de novo variant evidence supports \"Existing,\" with remaining weight on \"Hypothesized\" given the mechanistic/convergence data.",
+  "pmids": [],
+  "detail": {
+   "Established": 12,
+   "Existing": 62,
+   "Hypothesized": 24,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "40161581",
+   "title": "Autism risk genes converge on PBX1 to govern neural cell growth.",
+   "abstract": "The alteration of neural progenitor cell (NPC) proliferation underlies autism spectrum disorders (ASD). It remains unclear whether targeting convergent downstream targets among mutations from different genes and individuals can rescue this alteration. We identified PBX1 as a convergent target of three autism risk genes: CTNNB1, PTEN, and DVL3, using isogenic iPSC-derived 2D NPCs. Overexpression of the PBX1a isoform effectively rescued increased NPC proliferation in all three isogenic ASD-related variants. Dysregulation of PBX1 in NPCs was further confirmed in publicly available datasets from other models of ASD. These findings spotlight PBX1, known to play important roles during olfactory bulb/adult neurogenesis and in multiple cancers, as an unexpected and key downstream target, influencing NPC proliferation in ASD and neurodevelopmental syndromes.",
+   "found_by": [],
+   "pubdate": "2025 Mar 13",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "36544198",
+   "title": "Prenatal diagnosis and molecular cytogenetic analyses of a paternal inherited deletion of 1q23.3 encompassing PBX1 gene.",
+   "abstract": "BACKGROUND: Patients with deletions involving the long arm of chromosome 1 are rare. The PBX1 gene is located on chromosome 1q23.3. PBX1 encodes a transcription factor which promotes protein-protein interaction and plays a crucial role in several developmental processes. PBX1 haploinsufficiency had been reported to lead syndromic congenital anomalies of kidney and urinary tract (CAKUT) in humans. CASE PRESENTATION: In this research, a 24-year-old woman (gravida 1, para 0) underwent amniocentesis at 22 weeks' gestation because of a horseshoe kidney of the fetus on prenatal ultrasound. RESULTS: Chromosomal microarray analysis (CMA) from this family revealed a 1.14\u00a0Mb paternal inherited deletion on chromosome 1q23.3, spanning from position 163,620,000 to 164,760,000 (hg19). Trio whole-exome sequencing (WES) showed heterozygous deletions in exons 1-2 of the PBX1 in fetal and paternal samples. At the 3-year follow-up, the baby did not have an abnormal phenotype except a horseshoe kidney. CONCLUSION: We provide a detailed description of the phenotype in a family with paternal inherited deletion of 1q23.3 encompassing exons 1-2 of the PBX1 gene. Combination of karyotype analysis, CMA, WES, prenatal ultrasound and genetic counseling is helpful for the prenatal diagnosis of chromosomal microdeletions/microduplications.",
+   "found_by": [],
+   "pubdate": "2022 Dec 21",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33098248",
+   "title": "Inherited intragenic PBX1 deletion: Expanding the phenotype.",
+   "abstract": "PBX1 encodes the pre-B cell leukemia homeobox transcription factor, a three amino acid loop extension (TALE) homeodomain transcription factor, which forms nuclear complexes with other TALE class homeodomain proteins that ultimately regulate target genes controlling organ patterning during embryogenesis. Heterozygous de novo pathogenic variants in PBX1 resulting in haploinsufficiency are associated with congenital anomalies of the kidneys and urinary tract, most commonly renal hypoplasia, as well as anomalies involving the external ear, branchial arch, heart, and genitalia, and they cause intellectual disability and developmental delay. Affected individuals described thus far have had de novo variants. Here, we report three related individuals with an inherited pathogenic intragenic PBX1 deletion with variable clinical features typical for this syndrome.",
+   "found_by": [],
+   "pubdate": "2021 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34797033",
+   "title": "De novo PBX1 variant in a patient with glaucoma, kidney anomalies, and developmental delay: An expansion of the CAKUTHED phenotype.",
+   "abstract": "An infant was referred for evaluation of congenital glaucoma and corneal clouding. In addition, he had a pelvic kidney, hypotonia, patent ductus arteriosus, abnormal pinnae, and developmental delay. Exome sequencing identified a previously unpublished de novo single nucleotide insertion in PBX1 c.400dupG (NM_002585.3), predicted to cause a frameshift resulting in a truncated protein with loss of function (p.Ala134Glyfs*65). Identification of this loss of function variant supports the diagnosis of congenital anomalies of the kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay (CAKUTHED). Here, we propose glaucoma as an extra-renal manifestation associated with PBX1-related disease due to the relationship of PBX1 with MEIS1, MEIS2, and FOXC1 transcription factors associated with eye development.",
+   "found_by": [],
+   "pubdate": "2022 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42230622",
+   "title": "Assessing the contribution of rare variants to congenital heart disease through a large-scale case-control exome study.",
+   "abstract": "Several studies have demonstrated the value of large-scale human exome and genome data analysis to maximise gene discovery in rare diseases. Using this approach, we have analysed the exomes of 4747 cases and 52,881 controls to identify genes which confer a substantial risk of congenital heart disease (CHD). We identified both rare loss-of-function and missense coding variants in 14 genes, which reached genome-wide significance at FDR 5%. Ten genes have been associated with CHD, whereas four genes (PBX1, KAT6B, SHOX2, HCAR1) have not been reported as genome-wide significant so far. We highlight distinct genetic contributions to syndromic and non-syndromic CHD by independently analysing probands from these two groups. In addition, by integrative analysis of exome data with single-cell transcriptomics data from human embryonic hearts, we identified cardiac-specific cells, such as neural crest cells and endothelial cells, as well as putative biological processes underlying the pathogenesis of CHD. In summary, our findings strengthen the association of known CHD genes and have identified additional novel disease genes contributing to the aetiology of CHD.",
+   "found_by": [],
+   "pubdate": "2026 Jun 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11010815",
+   "title": "A conformational change in PBX1A is necessary for its nuclear localization.",
+   "abstract": "The fly homeodomain (HD) protein EXTRADENTICLE (EXD) is dependent on a second HD protein, HOMOTHORAX (HTH), for nuclear localization. We show here that in insect cells the mammalian homolog of EXD, PBX1A, shows a similar dependence on the HTH homologs MEIS1, 2, and 3 and the MEIS-like protein PREP1. Paradoxically, removal of residues N-terminal to the PBX1A HD abolishes interactions with MEIS/PREP but allows nuclear accumulation of PBX1A. We use deletion mapping and fusion to green fluorescent protein to map two cooperative nuclear localization signals (NLSs) in the PBX HD. The results of DNA-binding assays and pull-down experiments are consistent with a model whereby the PBX N-terminus binds to the HD and masks the two NLSs. In support of the model, a mutation in the PBX HD that disrupts contact with the N-terminus leads to constitutive nuclear localization. The HD mutation also increases sensitivity to protease digestion, consistent with a change in conformation. We propose that MEIS family proteins induce a conformational change in PBX that unmasks the NLS, leading to nuclear localization and increased DNA-binding activity. Consistent with this, PBX1 is nuclear only where Meis1 is expressed in the mouse limb bud.",
+   "found_by": [],
+   "pubdate": "2000 Oct 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31058389",
+   "title": "The TALE homeodomain of PBX1 is involved in human primary testis-determination.",
+   "abstract": "Human sex-determination is a poorly understood genetic process, where gonad development depends on a cell fate decision that occurs in a somatic cell to commit to Sertoli (male) or granulosa (female) cells. A lack of testis-determination in the human results in 46,XY gonadal dysgenesis. A minority of these cases is explained by mutations in genes known to be involved in sex-determination. Here, we identified a de novo missense mutation, p.Arg235Gln in the highly conserved TALE homeodomain of the transcription factor Pre-B-Cell Leukemia Transcription Factor 1 (PBX1) in a child with 46,XY gonadal dysgenesis and radiocubital synostosis. This mutation, within the nuclear localization signal of the protein, modifies the ability of the PBX1 protein to localize to the nucleus. The mutation abolishes the physical interaction of PBX1 with two proteins known to be involved in testis-determination, CBX2 and EMX2. These results provide a mechanism whereby this mutation results specifically in the absence of testis-determination.",
+   "found_by": [],
+   "pubdate": "2019 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18723445",
+   "title": "Pbx/Meis deficiencies demonstrate multigenetic origins of congenital heart disease.",
+   "abstract": "Congenital heart diseases are traditionally considered to be multifactorial in pathogenesis resulting from environmental and genetic interactions that determine penetrance and expressivity within a genetically predisposed family. Recent evidence suggests that genetic contributions have been significantly underestimated. However, single gene defects occur only in a minority of cases, and multigenetic causes of congenital heart diseases have not been fully demonstrated. Here, we show that interactions between alleles of 3 Pbx genes, which encode homeodomain transcription factors, are sufficient to determine the phenotypic presentation of congenital heart diseases in mice. A major role is served by Pbx1, whose inactivation results in persistent truncus arteriosus. Reduction or absence of Pbx2 or Pbx3 leads to Pbx1 haploinsufficiency and specific malformations that resemble tetralogy of Fallot, overriding aorta with ventricular septal defect, and bicuspid aortic valves. Disruption of Meis1, which encodes a Pbx DNA-binding partner, results in cardiac anomalies that resemble those caused by Pbx mutations. Each of the observed cardiac defects represents developmental abnormalities affecting distinct stages of cardiac outflow tract development and corresponds to specific types of human congenital heart disease. Thus, varied deficiencies in the Pbx gene family produce a full spectrum of cardiac defects involving the outflow tract, providing a framework for determining multigenetic causes of congenital heart anomalies.",
+   "found_by": [],
+   "pubdate": "2008 Sep 26",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "21957483",
+   "title": "The Pbx interaction motif of Hoxa1 is essential for its oncogenic activity.",
+   "abstract": "Hoxa1 belongs to the Hox family of homeodomain transcription factors involved in patterning embryonic territories and governing organogenetic processes. In addition to its developmental functions, Hoxa1 has been shown to be an oncogene and to be overexpressed in the mammary gland in response to a deregulation of the autocrine growth hormone. It has therefore been suggested that Hoxa1 plays a pivotal role in the process linking autocrine growth hormone misregulation and mammary carcinogenesis. Like most Hox proteins, Hoxa1 can interact with Pbx proteins. This interaction relies on a Hox hexapeptidic sequence centred on conserved Tryptophan and Methionine residues. To address the importance of the Hox-Pbx interaction for the oncogenic activity of Hoxa1, we characterized here the properties of a Hoxa1 variant with substituted residues in the hexapeptide and demonstrate that the Hoxa1 mutant lost its ability to stimulate cell proliferation, anchorage-independent cell growth, and loss of contact inhibition. Therefore, the hexapeptide motif of Hoxa1 is required to confer its oncogenic activity, supporting the view that this activity relies on the ability of Hoxa1 to interact with Pbx.",
+   "found_by": [],
+   "pubdate": "2011",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "7914871",
+   "title": "Coordinate regulation of downstream genes by extradenticle and the homeotic selector proteins.",
+   "abstract": "Mutations in the Drosophila gene extradenticle (exd), a homologue of the human proto-oncogene pbx1, cause homeotic transformations by altering the morphological consequences of homeotic selector gene activity. exd has been proposed to act by contributing to the specificity of selector homeodomain proteins for their downstream targets. Here we show that exd is indeed required for the appropriate regulation of at least some of these target genes. Expression patterns of wingless, teashirt and decapentaplegic (dpp) are altered in the embryonic midgut of embryos lacking exd, while the expression of their respective regulators (abd-A, Antp and Ubx) remains normal. Co-regulation of dpp by exd and Ubx was investigated in greater detail by examining the expression of reporter constructs in exd embryos. These experiments not only define dpp regulatory regions responsive to exd, but also distinguish two functions of exd in the regulation of dpp. exd acts with Ubx to activate dpp expression in parasegment 7 (PS7), via a minimal visceral mesoderm enhancer, and exd represses dpp expression anterior to PS7. We show that even when Ubx is ubiquitously expressed at high levels in exd embryos, Ubx is incapable of activating dpp enhancer expression. Thus, exd is an indispensable component in target gene regulation by the homeotic selector proteins.",
+   "found_by": [],
+   "pubdate": "1994 Aug 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "7623795",
+   "title": "Cooperative interactions between HOX and PBX proteins mediated by a conserved peptide motif.",
+   "abstract": "Homeoprotein products of the Hox/HOM gene family pattern the animal embryo through the transcriptional regulation of target genes. We have previously shown that the labial group protein HOXA-1 has intrinsically weak DNA-binding activity due to residues in the N-terminal arm of its homeodomain (M. L. Phelan, R. Sadoul, and M. S. Featherstone, Mol. Cell. Biol. 14:5066-5075, 1994). This observation, among others, suggests that HOX and HOM proteins require cofactors for stable interactions with DNA. We have demonstrated that a putative HOX cofactor, PBX1A, participates in cooperative DNA binding with HOXA-1 and the Deformed group protein HOXD-4. Three Abdominal-B class HOX proteins failed to cooperate with PBX1A. We mapped the interacting domain of HOXD-4 to the YPWMK pentapeptide motif, a conserved sequence found N terminal to the homeodomain of HOXA-1 and many other homeoproteins but absent from the Abdominal-B class. The naturally occurring fusion of the transcriptional activation domain of E2A with PBX1 creates an oncoprotein implicated in human pre-B-cell leukemias (M. P. Kamps, C. Murre, X.-H. Sun, and D. Baltimore, Cell 60:547-555, 1990; J. Nourse, J. D. Mellentin, N. Galili, J. Wilkinson, E. Starbridge, S. D. Smith, and M. L. Cleary, Cell 60:535-545, 1990). A pentapeptide mutation that abolished cooperative interaction with PBX1A in vitro also abrogated synergistic transcriptional activation with the E2A/PBX oncoprotein. The direct contact of PBX family members by the HOX pentapeptide is likely to play an important role in developmental and oncogenic processes.",
+   "found_by": [],
+   "pubdate": "1995 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39481989",
+   "title": "Prenatal genetic investigation in pregnancies with oligohydramnios: Results from a single referral medical center.",
+   "abstract": "OBJECTIVE: The aim of this study was to investigate the value of genetic testing using exome sequencing (ES) in oligohydramnios pregnancies with or without other structural abnormalities. MATERIALS AND METHODS: A total of 110 singleton pregnancies complicated by oligohydramnios were enrolled, including 52 of isolated oligohydramnios and 58 of non-isolated oligohydramnios. All fetal samples were first tested by quantitative fluorescent polymerase chain reaction (QF-PCR) and followed by chromosomal microarray analysis (CMA). Those with normal CMA were informed of the option of trio ES. RESULTS: QF-PCR detected chromosomal abnormality in 4 cases (4/110, 3.6%), including 1 of XXY, 1 of XYY and 2 of triploidy. The remaining 106 cases were tested by CMA, with pathogenic copy number variations (CNVs) detected in 5 cases (5/106, 4.7%), and uniparental disomy (UPD) in 2 cases (2/106, 1.9%). As an option for cases with a normal CMA, ES was accepted by 12 non-isolated cases, and pathogenic or likely pathogenic variants were detected in 5, involving the following genes: PBX1, FREM2, PKHD1 and BBS2, with a 41.7% (5/12) diagnostic rate. CONCLUSION: We provided further evidence of using advanced genetic approaches for oligohydramnios pregnancy. Non-isolated oligohydramnios increases the risk of having monogenetic conditions.",
+   "found_by": [],
+   "pubdate": "2024 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33907292",
+   "title": "Identification of candidate PAX2-regulated genes implicated in human kidney development.",
+   "abstract": "PAX2 is a transcription factor essential for kidney development and the main causative gene for renal coloboma syndrome (RCS). The mechanisms of PAX2 action during kidney development have been evaluated in mice but not in humans. This is a critical gap in knowledge since important differences have been reported in kidney development in the two species. In the present study, we hypothesized that key human PAX2-dependent kidney development genes are differentially expressed in nephron progenitor cells from induced pluripotent stem cells (iPSCs) in patients with RCS relative to healthy individuals. Cap analysis of gene expression revealed 189 candidate promoters and 71 candidate enhancers that were differentially activated by PAX2 in this system in three patients with RCS with PAX2 mutations. By comparing this list with the list of candidate Pax2-regulated mouse kidney development genes obtained from the Functional Annotation of the Mouse/Mammalian (FANTOM) database, we prioritized 17 genes. Furthermore, we ranked three genes-PBX1, POSTN, and ITGA9-as the top candidates based on closely aligned expression kinetics with PAX2 in the iPSC culture system and susceptibility to suppression by a Pax2 inhibitor in cultured mouse embryonic kidney explants. Identification of these genes may provide important information to clarify the pathogenesis of RCS, human kidney development, and kidney regeneration.",
+   "found_by": [],
+   "pubdate": "2021 Apr 27",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22231354",
+   "title": "The role of Pbx1 in T cells.",
+   "abstract": "Tissue and organ differentiation is tightly controlled to ensure proper development and function of the growing embryo as well as cells such as lymphocytes that differentiate throughout the adult stage. Therefore it is vital that the genes and the protein they encode that are involved in these processes function accurately. Hence, any mutation or error that occurs along the way can result in extensive damage, which is expressed in various ways in the embryo and can result in immune pathogenesis, including immunodeficiency and autoimmune diseases, when lymphocyte development is altered. A number of studies have been carried out to look at the genes regulating transcription in tissue differentiation, including the transcription factors Pbx1. This gene is of particular interest to us as we have identified that it is associated with systemic lupus erythematosus susceptibility (Cuda et al., in press). This perspective summarizes the known roles of Pbx1 in tissue differentiation as well as our recent findings associating genetic variations in Pbx1 to lupus susceptibility, and we will speculate on how this gene controls the maintenance of immune tolerance in T cells.",
+   "found_by": [],
+   "pubdate": "2011 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming PBX1] ...C1 , NCOA1 , NDNL2 , NEDD4 , NEK1 , NEUROG1 , NF1 , NFKB1 , NIPBL , NKX2-2 , NLGN1 , NLGN3 , NLGN4/NLGN4X , NR2F1 , NR3C2 , NR4A2 , NRG2 , NRXN1 , NRXN3 , NSD1 , NUP155 , OBSCN , OCA2 , P2RX7 , PAPOLG , PAX5 , PBX1 , PDZD4 , PHF12 , PHF2 , PHF21A , PHF3 , PIEZO1 , PIK3R2 , PINX1 , PLXNB1 , POGZ , POLA2 , POLR3G , PPP1R16B , PPP1R9B , PPP2R5D , PPP5C , PRKG2 , PRR12 , PRR14L , PRSS12 , PSMD6 , PSMD11 , PTCHD1/PTCHD1-A...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42794468",
+   "title": "Targeted 3.34-Million CpG Site Sequencing Reveals Preliminary Cord Blood Epigenetic Alterations of Autism Spectrum Disorder: A Pilot Study Highlighting the &lt;i&gt;PCDHA1&lt;/i&gt;-&lt;i&gt;PCDHA8&lt;/i&gt; Cluster.",
+   "abstract": "Rising reported Autism Spectrum Disorder (ASD) prevalence underscores the need to explore early perinatal biological markers. To conduct an exploratory pilot investigation of cord blood DNA methylation patterns as potential early epigenetic candidate loci associated with ASD in infants born to mothers with obesity and gestational diabetes. This prospective pilot study analyzed 14 mother-infant pairs comprising infants born to mothers with obesity and gestational diabetes later diagnosed with ASD (n = 2); healthy infants born to mothers with obesity and diabetes (IODM, n = 6); and healthy controls (IHM, n = 6). Targeted methyl-capture sequencing (covering 3.34 million CpG sites) identified differentially methylated region (DMR)-associated genes. Neurodevelopment was evaluated at 24-26 months using Bayley-III scales. ASD infants showed lower Bayley-III scores across all domains. In this small cohort (n = 2 ASD cases), we identified 249 DMR-associated genes common to both ASD vs. IHM and ASD vs. IODM comparisons, representing preliminary candidate loci. Enrichment analysis identified homophilic cell-cell adhesion as the most significant pathway (fold enrichment = 8.28; FDR = 6.31 \u00d7 10-6), driven by the PCDH1-PCDHA8 cluster, alongside morphogenesis in neuron differentiation (fold enrichment = 3.45; FDR = 2.08 \u00d7 10-2). Although prospective validation in larger independent cohorts is required, these pilot results suggest that cord blood PCDHA1-PCDHA8 cluster methylation alterations represent preliminary candidate loci for hypothesis generation and future biomarker evaluation, regardless of maternal metabolic status. [full text, passages naming PBX1] ...1 , DEAF1 , DMPK , EBF3 , , GABRB3 , MYT1L PCDH19 2: Strong Candidate | | ABAT , ABCA13 , , AGAP2 , BCAS1 , CACNA1H , CDH22 , CMIP , CNTN4 , CSMD1 CUX1 , CYFIP1 , , DLGAP2 DOCK4 , , GNAS , KCNQ2 NOTCH1 , , OXT PBX1 , \u2013 PCDHA1 , PCDHA8 POLA2 , PRKAR1B , PTPRC , , SAMD11 SNTG2 , SRGAP3 , , TRAPPC9 ZMIZ1 | , AGAP2 ARHGEF10 , BCAS1 , , CACNA1H CASKIN1 , , CDH22 , CMIP , CNTN4 , CSMD1 DIP2C , DLGAP1 , , DLGAP2 , GNAS GPC6...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41716258",
+   "title": "Analyzing the genetic profile of autistic children and adolescents with minimal verbal abilities.",
+   "abstract": "INTRODUCTION: Comprehensive care for autistic youth with severe symptoms and language impairment includes genetic testing to find underlying causes. Identifying a genetic diagnosis helps determine prognosis, guide treatment, assess recurrence risk, and connect families with targeted resources and support networks. METHODS: This cross-sectional study analyzed retrospectively data of a cohort of 60 Autism Spectrum Disorder Minimally Verbal (MV) past age 5 children and adolescents who underwent several genetic investigations and were included in an evaluation protocol including cognitive, adaptive, psychiatric, parental stress and autism characteristics' evaluations to identify whether there were any specific clinical or genetic characteristics in the group of minimally verbal autistic individuals. RESULTS: The percentage of genetic disorders detected in the series is 22.6%. Two groups of MV autistic individuals were defined: those without a known genetic cause (n = 46, neuropsychological data available for 32 individuals) and those with an associated genetic condition (n = 14, neuropsychological data available for 8 individuals). Most participants in both groups scored below 70 on Nonverbal Intelligence Quotient (NVIQ) (77.5% in the first group versus 77.7% in the latter) and adaptive functioning was impaired in both groups, without significant differences. Autism severity, measured by the ADOS-2, was significantly higher in individuals without causative alteration, particularly in Total Comparison Score. However, no differences were found between groups in restricted and repetitive behaviors. CBCL showed high levels of internalizing and externalizing problems in both groups, with no differences. Similarly, parental stress levels were high in both groups. DISCUSSION: This is the first study analyzing the genotype-phenotype correlation in MV autistic individuals. In this sample, the prevalence of genetic syndromes was found to be twice as high as in the general autistic population (22.6% versus 10%). Regarding the autistic characteristics' severity which appear to be higher in individuals without genetic causative alteration and the absence of significant differences in cognitive, functional and behavioural characteristics, we hypothesised that, in the MV autistic population without genetic causative alteration, there are specific and unknown characteristics of the MV profile which have a greater impact than the individual genetic condition reported. [full text, passages naming PBX1] ...re case of a patient with Congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay (CAKUTHED) (OMIM #617641), due to heterozygous variant in PBX1, and Intellectual developmental disorder with autism and speech delay (OMIM # 606053), associated to a heterozygous pathogenic variation in TBR1 . The patients\u2019 sex, the age at diagnosis, the specific path... ...ngenital heart defects, gastrointestinal abnormalities, epilepsy and brain malformatons | \u200b | | AD | P 5%\u201339% | | Akhtar and Bokhari (2025) ; Lowenthal et al. (2007) ; Moss et al. (2013) 14 | M | 15 ys old | | PBX1 heterozygous c.121C>T (p.Gln41Ter) TBR1 heterozygous c.1896C>G (p.Tyr632Ter) PBX1 | TBR1 Congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmen... ...atons | \u200b | | AD | P 5%\u201339% | | Akhtar and Bokhari (2025) ; Lowenthal et al. (2007) ; Moss et al. (2013) 14 | M | 15 ys old | | PBX1 heterozygous c.121C>T (p.Gln41Ter) TBR1 heterozygous c.1896C>G (p.Tyr632Ter) PBX1 | TBR1 Congenital anomalies of kidney and urinary tract syndrome with or without hearing loss, abnormal ears, or developmental delay (CAKUTHED; OMIM #617641) | Intellectual developmental disorder with auti...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36350923",
+   "title": "Integrated gene analyses of de novo variants from 46,612 trios with autism and developmental disorders.",
+   "abstract": "Most genetic studies consider autism spectrum disorder (ASD) and developmental disorder (DD) separately despite overwhelming comorbidity and shared genetic etiology. Here, we analyzed de novo variants (DNVs) from 15,560 ASD (6,557 from SPARK) and 31,052 DD trios independently and also combined as broader neurodevelopmental disorders (NDDs) using three models. We identify 615 NDD candidate genes (false discovery rate [FDR] < 0.05) supported by \u22651 models, including 138 reaching Bonferroni exome-wide significance (P < 3.64e-7) in all models. The genes group into five functional networks associating with different brain developmental lineages based on single-cell nuclei transcriptomic data. We find no evidence for ASD-specific genes in contrast to 18 genes significantly enriched for DD. There are 53 genes that show mutational bias, including enrichments for missense (n = 41) or truncating (n = 12) DNVs. We also find 10 genes with evidence of male- or female-bias enrichment, including 4 X chromosome genes with significant female burden (DDX3X, MECP2, WDR45, and HDAC8). This large-scale integrative analysis identifies candidates and functional subsets of NDD genes. [full text, passages naming PBX1] ...ing significance in the broader NDD supergroup show DNVs in both ASD and DD patients, but 10 genes reach genome-wide significance only when cohorts are combined as a broader NDD group ( MYT1L , PHF21A , FBN1 , PBX1 , GNB2 , PABPC1 , CLCN4 , NALCN , PSMC5 , and CERT1 ), highlighting the value of this integrated analysis. In addition, we also repeated de novo enrichment analyses using the same three models (CH model, d...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33970367",
+   "title": "Cross-Disorder Analysis of De Novo Mutations in Neuropsychiatric Disorders.",
+   "abstract": "The clinical similarity among different neuropsychiatric disorders (NPDs) suggested a shared genetic basis. We catalogued 23,109 coding de novo mutations (DNMs) from 6511 patients with autism spectrum disorder (ASD), 4,293 undiagnosed developmental disorder (UDD), 933 epileptic encephalopathy (EE), 1022 intellectual disability (ID), 1094 schizophrenia (SCZ), and 3391 controls. We evaluated that putative functional DNMs contribute to 38.11%, 34.40%, 33.31%, 10.98% and 6.91% of patients with ID, EE, UDD, ASD and SCZ, respectively. Consistent with phenotype similarity and heterogeneity in different NPDs, they show different degree of genetic association. Cross-disorder analysis of DNMs prioritized 321 candidate genes (FDR\u2009<\u20090.05) and showed that genes shared in more disorders were more likely to exhibited specific expression pattern, functional pathway, genetic convergence, and genetic intolerance. [full text, passages naming PBX1] ...00, PURA, WDR45, CDK13, TBL1XR1, IRF2BPL, PTEN, KAT6A, DNM1, PACS1, SHANK3, TRIP12*, PPM1D, NAA10, TCF20, CLTC, SET*, BRAF, CACNA1A, BCL11A, CHD3, EFTUD2, SMARCA4*, SOX5, HECW2, KMT5B**, FBXO11**, USP9X, DLG4, PBX1***, MYT1L**, TCF7L2**, NR2F1**, ATP1A3***, SLC35A2**, NALCN, NSD2**, ANK2 | CHD8, CHD2, POGZ, STXBP1, KCNQ2, KMT2A, ANKRD11, DDX3X, ARID1B, SCN8A, GRIN2B, CSNK2A1, WAC, FOXG1, CASK, IQSEC2, AHDC1, EEF1A2,... ...e disorder and 32.71% (105/321), 27.10% (87/321), 13.71% (44/321) of candidate genes carrying Pfun DNMs in two, three, and at least four disorders, respectively (Table 2 ). For example, ATP1A3 (FDR = 2.61E\u22125), PBX1 (FDR = 3.95E\u22126) carried Pfun DNMs in three disorders and KIAA2022 (FDR = 6.34E\u22127), AGO1 (FDR = 3.31E\u22126), NACC1 (FDR = 4.38E\u22124) in four disorders, and increase significant genetic evidence from combined ana...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41231825",
+   "title": "Unveiling complex patterns: An information-theoretic approach to high-order behaviors in microarray data.",
+   "abstract": "The information-theoretic approach can shed light on the role of groups of correlated elements within a network. While there are already established methods for measuring new information, storage and transmission, the definition and application of methods for measuring information change remains an unresolved challenge. The change of information in a network is associated with redundancy and synergy between systems that share information about a target. Redundancy involves shared information about the target that can be retrieved using the individual source systems, while synergy involves information that can only be obtained by sharing the systems. A more refined approach, called partial information decomposition (PID), separates the unique, redundant and synergetic contributions of the shared information. However, these contributions cannot be directly derived from the classical measures of information theory. In this work, we apply PID approach to publicly available microarray gene expression data from 2 different experiments derived from patients affected by HCC and ASD. By comparing sample and gene synergy clusters with classical correlation clusters, we uncover higher order behaviours, such as differential genes and enriched functions closely linked to diseases phenotype, that emerge with this novel approach. These findings and further applications of this approach to gene expression data could shed light on the genetic aspects related to physiological aspects of complex diseases. [full text, passages naming PBX1] ...luster 2 | 2(+2, \u22126) | In the synergy clusters we found 8 new DGs respect to the whole community. Instead 4 are the new DGs presented in the MI clusters: Unique Synergy 8 DGs: SLC26A11, PPP1R9B [ 68 ], GPR150, PBX1 [ 69 ], RXRG [ 70 ], LOC286526, ZNF706, RUFY3; Unique MI 4 DGs: MGC40222, WAC [ 71 ], PRKCBP1, LOC286526. Also in this case, to further validate these findings, we derived empirical p-values by comparing t... ...and also associated with the development of the prefrontal cortex-medial dorsal thalamus connection. RXRG is believed to be altered in ASD [ 69 ]. An other differentially expressed gene in synergy clusters is PBX1. In ASD probands, a de novo likely gene disruptive (LGD) variant and two de novo missense variants in the PBX1 gene were identified [ 84 , 85 ]. Additionally, two de novo loss-of-function variants and two... ...elieved to be altered in ASD [ 69 ]. An other differentially expressed gene in synergy clusters is PBX1. In ASD probands, a de novo likely gene disruptive (LGD) variant and two de novo missense variants in the PBX1 gene were identified [ 84 , 85 ]. Additionally, two de novo loss-of-function variants and two rare, potentially damaging missense variants in the PBX1 gene were reported in ASD probands from the Autism Seq...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "25363539": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33895809": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32378810": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31902036": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22293114": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12651265": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41125582": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16141323": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34460133": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35092653": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39239563": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22770981": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36848637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29991556": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36091765": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30139389": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31647544": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33414485": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28336670": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40936710": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8152250": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29251627": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38528581": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31221640": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42049996": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40725249": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34597466": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23431465": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35685361": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30510082": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15841388": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34122504": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41315579": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34933343": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25882494": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40161581": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36544198": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33098248": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37486226": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34797033": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42230622": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11010815": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31058389": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "18723445": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11432851": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21957483": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7914871": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7623795": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38825283": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10523646": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39481989": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33907292": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "22231354": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "20553494": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18312624": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17875935": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42526765": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42794468": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41716258": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41191625": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40344520": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41543180": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39376742": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40894881": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42748249": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37761876": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36973392": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34575699": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34354167": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33679889": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36418415": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32066658": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36350923": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33970367": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41231825": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "27956632": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39312666": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40398411": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28367004": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39334827": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 182,
+   "usd": 0.00628,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.4,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 90.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 6.4,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3392,
+   "output_tokens": 200,
+   "usd": 0.004392,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 63.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 27845,
+   "output_tokens": 1062,
+   "usd": 0.033155,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.0,
+   "note": "",
+   "input_tokens": 14511,
+   "output_tokens": 1065,
+   "usd": 0.09918,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>12</established>\n    <existing>62</existing>\n    <hypothesized>24</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Large de novo variant analyses in human trios implicate PBX1 as a neurodevelopmental disorder gene, with DNMs observed across ASD/DD/ID cohorts (PMID 36350923; PMID 33970367), though PBX1 reached exome-wide significance only when ASD and DD cohorts were combined, and no ASD-specific signal was claimed. Clinical PBX1 haploinsufficiency (CAKUTHED) consistently includes developmental delay and intellectual disability, ASD-adjacent phenotypes, and a minimally verbal autistic patient carried a PBX1 nonsense variant, albeit alongside a pathogenic TBR1 variant (PMIDs 34797033, 33098248, 41716258). Functional human iPSC work shows PBX1 is a convergent downstream node of three autism risk genes regulating neural progenitor proliferation (PMID 40161581), which supports biological plausibility but does not involve PBX1 variants in patients. Because no two independent primary studies demonstrate PBX1 point variants causing ASD in distinct probands (deletion/CNV reports cannot isolate the gene), \"Established\" is not justified; the human de novo variant evidence supports \"Existing,\" with remaining weight on \"Hypothesized\" given the mechanistic/convergence data.</justification>\n  <pmids>\n    <pmid>36350923</pmid>\n    <pmid>33970367</pmid>\n    <pmid>40161581</pmid>\n    <pmid>41716258</pmid>\n    <pmid>34797033</pmid>\n    <pmid>33098248</pmid>\n    <pmid>41231825</pmid>\n    <pmid>42401939</pmid>\n  </pmids>\n</response>"
+}

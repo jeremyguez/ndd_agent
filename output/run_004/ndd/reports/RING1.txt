@@ -1,0 +1,64 @@
+RING1 EVIDENCE REPORT: NEURODEVELOPMENTAL DISORDER GENE (HETEROZYGOUS / AUTOSOMAL DOMINANT)
+
+1. GENE SUMMARY
+RING1 (RING1A) encodes an E3 ubiquitin ligase that is a core catalytic component of the Polycomb repressive complex 1 (PRC1). It monoubiquitinates histone H2A at K119 (H2AUb1) to silence developmental genes (PMID: 15386022).
+
+2. CLINICAL EVIDENCE SUMMARY
+- Independent case reports/series: The extracted clinical data contain only one source, a conference abstract (ASHG 2023 - A RING1 contribution to neurogenesis and schizophrenia). It does not describe individual patients. A de novo RING1 p.R95Q variant in a girl with syndromic neurodevelopmental disability appears in the biological evidence (PMID: 29386386). That is a single case, and it was not captured in the clinical extraction.
+- Total patients: Approximately 1 clearly described patient (PMID: 29386386). The ASHG 2023 abstract gives no patient count.
+- Phenotypes: The ASHG 2023 abstract links RING1/RNF2 missense variants to neurodevelopmental disorder, microcephaly, intellectual disability and early-onset schizophrenia. The PMID 29386386 patient had syndromic neurodevelopmental disability.
+- Variant type: Missense only (p.R95Q in the catalytic RING domain, PMID: 29386386; p.G284A, modeled homozygously in hESCs, ASHG 2023). No loss-of-function variants are reported.
+- Cohorts: None of the known cohorts (UDN, GREGoR, DDD, RUMC, GEL) are identified.
+- Strength of clinical evidence: LIMITED. There is one de novo case with supportive functional data, but no case series, no recurrence and no statistical genetic evidence.
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Organisms: Mouse, Xenopus and C. elegans (the C. elegans spat-3 work is in PMID: 29386386).
+- Key phenotypes:
+  - C. elegans: Both the equivalent of R95Q in spat-3 and a spat-3 knockout reduced H2A ubiquitylation and caused neuronal migration and axon guidance defects, including in heterozygotes (PMID: 29386386). This is the most relevant model finding and fits a dominant mechanism.
+  - Mouse Ring1 (Ring1A) knockouts: These are viable with relatively mild phenotypes. Hemizygous mice show skeletal transformation (PMID: 12589020). Full Ring1A knockout mice show cardiac abnormalities (PMID: 36413948) and increased susceptibility to infection and sepsis, with increased GSDMD and pyroptosis (PMID: 40369166).
+  - Mouse Rnf2/Ring1b: Null embryos are lethal, arresting at gastrulation (PMID: 12589020). This gene is a paralog and not RING1 itself.
+  - Mouse conditional deletion of Ring1b or both Ring1a and Ring1b in neuroepithelium: This caused ectopic dorsal gene expression (BMP and Wnt), reduced Shh and impaired ventral telencephalon development (PMID: 33177537). It supports a role in brain patterning, but the phenotype requires loss of Ring1b, alone or together with Ring1a.
+  - Xenopus: RSF1 and Ring1 knockdown affected mesoderm specification and gastrulation (PMID: 28855339).
+- Consistency with human phenotype: Partial. The worm neuronal defects and the mouse telencephalic patterning defects are relevant. The mild phenotype of single Ring1A knockout mice, and the lack of a reported mouse neurodevelopmental phenotype for Ring1A alone, argue against a simple haploinsufficiency mechanism. A dominant-negative or missense-specific mechanism is possible.
+- Strength of model organism evidence: MODERATE (limited for RING1 specifically, because the key brain phenotypes rely on Ring1b or double deletion, plus the worm model).
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Pathways and function: RING1 is part of PRC1 (with RING2, BMI1 and HPH2) and monoubiquitinates nucleosomal H2A at K119 (PMID: 15386022). Loss of Ring1A/B in mouse ES cells causes loss of H2A ubiquitination, release of poised RNAP II and de-repression of bivalent developmental genes (PMID: 18037880). RING1 also participates in other processes, such as p53 ubiquitination in cancer (PMID: 36842710) and Wnt/β-catenin signaling (PMID: 31292221).
+- Expression: RING1A is expressed in CD34+ bone marrow progenitors (PMID: 29383137). Neural expression data are not detailed in the supplied evidence, though Ring1 is active in the neuroepithelium (PMID: 33177537).
+- Key experimental findings:
+  - The p.R95Q variant retains ubiquitin chain formation but cannot ubiquitylate nucleosomal H2A, and patient cells show reduced H2A monoubiquitylation (PMID: 29386386).
+  - In isogenic hESC-derived NPCs and cerebral organoids, RING1 G284A lowered global H2AUb1, increased DNA repair gene expression, impaired double-strand break repair and prolonged S phase (ASHG 2023 - A RING1 contribution to neurogenesis and schizophrenia).
+- Strength of biological evidence: MODERATE. The catalytic mechanism is well established and variant-specific functional data exist. The neurodevelopmental data come from a single published variant and a conference abstract.
+
+5. OVERALL ASSESSMENT
+- Overall evidence level: LIMITED
+- Key strengths:
+  - A de novo missense variant with demonstrated loss of nucleosomal H2A ubiquitylation, in patient cells and in a C. elegans model that reproduces neuronal defects, including in heterozygotes (PMID: 29386386).
+  - A coherent epigenetic mechanism, with H2AUb1 reduction also seen in hESC-derived neural models (ASHG 2023).
+  - Brain patterning phenotypes in mouse Ring1 conditional knockouts (PMID: 33177537).
+- Key gaps:
+  - Only one clearly described patient, with no replication or case series.
+  - The ASHG 2023 data are an abstract without patient-level information.
+  - No cohort data and no loss-of-function variants.
+  - The G284A variant was modeled homozygously, which does not match a heterozygous dominant disease model.
+  - Single Ring1A knockout mice have mild phenotypes and no reported neurodevelopmental phenotype.
+  - Paralog redundancy with RING2/RNF2 complicates interpretation.
+- Conclusion: RING1 is a plausible but unconfirmed candidate gene for a neurodevelopmental disorder with heterozygous de novo missense variants. The evidence consists of one de novo case with strong functional support and a preliminary abstract. Additional unrelated patients with de novo variants and phenotypic overlap are needed before the gene-disease relationship can be considered established.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. Rnf2 (Ring1b) deficiency causes gastrulation arrest and cell cycle inhibition (PMID: 12589020)
+2. Essential role of MESP1-RING1A complex in cardiac differentiation (PMID: 36413948)
+3. RING1 dictates GSDMD-mediated inflammatory response and host susceptibility to pathogen infection (PMID: 40369166)
+4. Ring1 regulates dorsoventral patterning of the mouse telencephalon (PMID: 33177537)
+5. Role of remodeling and spacing factor 1 in histone H2A ubiquitination-mediated gene silencing (PMID: 28855339)
+
+### Biological Evidence
+1. Role of histone H2A ubiquitination in Polycomb silencing (PMID: 15386022)
+2. De novo mutation in RING1 with epigenetic effects on neurodevelopment (PMID: 29386386)
+3. Ring1-mediated ubiquitination of H2A restrains poised RNA polymerase II at bivalent genes in mouse ES cells (PMID: 18037880)
+4. Targeting UBE2T Potentiates Gemcitabine Efficacy in Pancreatic Cancer by Regulating Pyrimidine Metabolism and Replication Stress (PMID: 36842710)
+5. Down-regulation of lncRNA XIST inhibits cell proliferation via regulating miR-744/RING1 axis in non-small cell lung cancer (PMID: 31292221)
+6. Polycomb protein RING1A limits hematopoietic differentiation in myelodysplastic syndromes (PMID: 29383137)

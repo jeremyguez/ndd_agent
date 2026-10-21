@@ -1,0 +1,169 @@
+{
+  "articles_found": {
+    "clinical": 4,
+    "model_organism": 6,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Ap2s1 mutation causes hypercalcaemia in mice and impairs interaction between calcium-sensing receptor and adaptor protein-2 (PMID: 33729479)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Heterozygous Ap2s1+/L15 (p.Arg15Leu, CRISPR/Cas9) mice were viable",
+          "Marked hypercalcaemia, hypermagnesaemia and hypophosphataemia in heterozygotes",
+          "Increased alkaline phosphatase activity and increased FGF23 in heterozygotes",
+          "Normal plasma 1,25-dihydroxyvitamin D, bone mineral density and bone turnover",
+          "Homozygous Ap2s1L15/L15 mice invariably died perinatally",
+          "Arg15Leu impaired interaction of AP2\u03c32 with other AP2 subunits and with CaSR",
+          "Cinacalcet decreased plasma calcium and PTH in heterozygotes",
+          "Mouse model recapitulates FHH3"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "N-ethyl-N-nitrosourea-Induced Adaptor Protein 2 Sigma Subunit 1 (Ap2s1) Mutations Establish Ap2s1 Loss-of-Function Mice (PMID: 29479578)",
+        "organism": "mouse",
+        "knockout_type": "other (ENU-induced splice-site mutation causing in-frame 17 amino acid deletion; loss-of-function; heterozygous and homozygous)",
+        "phenotypes": [
+          "Heterozygous Ap2s1+/del17 mice were viable with normal appearance and growth",
+          "Heterozygotes had AP2\u03c3 haploinsufficiency without a calcium phenotype",
+          "Normal plasma calcium, phosphate, magnesium, creatinine, urea, sodium, potassium, ALP, PTH and 1,25(OH)2D",
+          "Normal urinary fractional excretion of calcium, phosphate, sodium and potassium in heterozygotes",
+          "Homozygous Ap2s1del17/del17 mice were non-viable, dying between E3.5 and E9.5",
+          "Suggests AP2\u03c3 is important in early embryonic patterning and organogenesis"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The adaptor protein 2 (AP2) complex modulates habituation and behavioral selection across multiple pathways and time windows (PMID: 38550987)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Disruption of ap2s1 and other AP2 subunits altered acoustically evoked behavior selection",
+          "Impaired acoustically evoked habituation learning",
+          "ap2s1 biased escape behavior choice in sensory modality-specific ways",
+          "Broad dysregulation of action selection across sensory contexts",
+          "AP2 complex acts acutely in the nervous system to modulate habituation",
+          "Model for autism-linked ap2s1"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Integration of cooperative and opposing molecular programs drives learning-associated behavioral plasticity (PMID: 36972301)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "ap2s1 mutant larvae showed impaired habituation learning",
+          "Ap2s1 promotes habituation by antagonizing dopamine signaling (module 3)",
+          "Whole-brain activity mapping identified molecularly defined brain regions associated with habituation modules"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Habituation learning: insights from zebrafish larvae (PMID: 41323234)",
+        "organism": "zebrafish",
+        "knockout_type": "other (review of ap2s1 disruption)",
+        "phenotypes": [
+          "Disrupting ap2s1 in zebrafish larvae results in severe acoustic startle response habituation deficits",
+          "Human AP2S1 variants are associated with ASD, ADHD, learning disabilities and cognitive deficits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Integration of cooperative and opposing molecular programs drives learning-associated behavioral plasticity (PMID: 36972301)",
+        "evidence_subtype": "other",
+        "summary": "In larval zebrafish, pharmacogenetic pathway analysis with whole-brain activity mapping placed the adaptor protein complex subunit Ap2s1 in 'module 3' of habituation learning. Ap2s1 drives habituation by antagonizing dopamine signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "N-ethyl-N-nitrosourea-Induced Adaptor Protein 2 Sigma Subunit 1 (Ap2s1) Mutations Establish Ap2s1 Loss-of-Function Mice (PMID: 29479578)",
+        "evidence_subtype": "other",
+        "summary": "An ENU screen of >10,000 mice found 5 Ap2s1 variants. The missense variants did not alter AP2\u03c3 structure or CaSR signaling. A splice-site variant caused a 17-amino-acid in-frame deletion (del17). Heterozygotes were viable with normal calcium, PTH and electrolyte homeostasis. Homozygous del17 mice died between E3.5 and E9.5, indicating AP2\u03c3 is essential for early embryonic development.",
+        "sample_size": ">10,000 mice screened; 5 variants",
+        "significance": null
+      },
+      {
+        "citation": "High-Confidence Interactome for RNF41 Built on Multiple Orthogonal Assays (PMID: 29560723)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "AP2S1 was identified as a novel RNF41 interaction partner by AP-MS, BioID, Virotrap, MAPPIT and Y2H. Functionally, AP2S1 has a role in leptin and LIF receptor signaling, and RNF41 stabilizes and relocalizes AP2S1.",
+        "sample_size": "175 candidate partners; 19 high-confidence hits",
+        "significance": null
+      },
+      {
+        "citation": "The HAVCR1-centric host factor network drives Zika virus vertical transmission (PMID: 40156834)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPR screen and proteomic profiling showed AP2S1 cooperates with the ZIKV receptor HAVCR1 to mediate viral internalization through clathrin-mediated endocytosis in placental trophoblasts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Familial Hypocalciuric Hypercalcemia Types 1 and 3 and Primary Hyperparathyroidism: Similarities and Differences (PMID: 26963950)",
+        "evidence_subtype": "other",
+        "summary": "Recurrent AP2S1 loss-of-function mutations cause FHH3 in 19 families. FHH3 patients had higher plasma calcium and higher renal tubular calcium reabsorption than FHH1 patients, so AP2S1 mutations affect calcium homeostasis more severely than CASR mutations.",
+        "sample_size": "22 FHH3, 52 FHH1, 60 PHPT, 24 controls; 133 families",
+        "significance": null
+      },
+      {
+        "citation": "Codon Arg15 mutations of the AP2S1 gene: common occurrence in familial hypocalciuric hypercalcemia cases negative for CASR mutations (PMID: 24731014)",
+        "evidence_subtype": "other",
+        "summary": "AP2S1 p.R15 mutations (R15C, R15L, R15H) were found in 5 of 39 CASR-negative FHH patients (13%). The FHH3 phenotype did not differ materially from FHH1.",
+        "sample_size": "39 patients",
+        "significance": null
+      },
+      {
+        "citation": "AP2S1 and GNA11 mutations - not a common cause of familial hypocalciuric hypercalcemia (PMID: 27913609)",
+        "evidence_subtype": "other",
+        "summary": "In Danish CASR-negative suspected FHH patients, AP2S1 codon 15 mutations (Arg15Leu and Arg15His) were found in ~6% (2 of 33). None were found in PHPT controls.",
+        "sample_size": "33 CASR-negative FHH patients; 421 tested for CASR",
+        "significance": null
+      },
+      {
+        "citation": "Disorders of the calcium-sensing receptor and partner proteins: insights into the molecular basis of calcium homeostasis (PMID: 27647839)",
+        "evidence_subtype": "pathway",
+        "summary": "AP2S1 encodes the AP2\u03c3 subunit of the AP2 complex, which mediates clathrin-mediated endocytosis and regulates CaSR signaling and trafficking. Its loss-of-function mutations cause FHH3, a more severe FHH variant with symptomatic hypercalcemia, low bone mineral density and cognitive dysfunction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Single-cell extracellular vesicle-program scoring maps immunometabolic rewiring and immune crosstalk of mesenchymal stromal cells in intervertebral disc degeneration, prioritizing AP2S1 and CSTB (PMID: 42253998)",
+        "evidence_subtype": "expression",
+        "summary": "In scRNA-seq of IDD nucleus pulposus, AP2S1 was a machine-learning-prioritized hub gene of the MSC EV-program. It showed dynamic expression along MSC pseudotime and was supported by RT-qPCR in an inflammatory NP-cell model. The hub-gene model distinguished IDD from control samples (AUC 0.836).",
+        "sample_size": "8 IDD and 3 control samples (GSE230809)",
+        "significance": "AUC=0.836"
+      },
+      {
+        "citation": "DNA methylation microarrays identify epigenetically regulated lipid related genes in obese patients with hypercholesterolemia (PMID: 33028190)",
+        "evidence_subtype": "expression",
+        "summary": "AP2S1, along with AP2A2, AP2M1 and CLTC, showed differential CpG methylation in leukocytes of obese individuals with high LDL-cholesterol versus controls, suggesting epigenetic regulation of AP2S1.",
+        "sample_size": "10 samples",
+        "significance": null
+      }
+    ]
+  }
+}

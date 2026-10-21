@@ -1,0 +1,417 @@
+{
+ "gene": "ZNF483",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of neurological development",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "ZSCAN48",
+   "ZKSCAN16",
+   "KIAA1962",
+   "zinc finger protein 483"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 18,
+  "titlekicksparingfulltext": 6,
+  "read": 8
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 14,
+   "Existing": 62,
+   "Hypothesized": 22,
+   "Novel": 2
+  },
+  "justification": "Two human genetic studies report ZNF483 variants in autism probands: a Chinese WGS trio study listing ZNF483 among 33 candidate risk genes with supporting expression/network evidence (PMID 39126614), and an Omani consanguineous cohort reporting a homozygous nonsense variant p.R683* (PMID 39769462). A GWAS of speech sound disorder also flags a locus near PTGR1;ZNF483 (PMID 34315907), adding suggestive but non-specific human support. These are candidate-gene discovery lists rather than replicated, well-powered clinical validation, so Established is unlikely; the microdeletion case (PMID 30847195) spans many genes and cannot implicate ZNF483 alone. Strong biological plausibility exists through ZNF483's interaction with MeCP2 and its role in neuronal differentiation, but that work is in vitro (P19 cells) and therefore supports Hypothesized rather than Existing (PMIDs 34192606, 31717404, 38027357).",
+  "pmids": [],
+  "detail": {
+   "Established": 14,
+   "Existing": 62,
+   "Hypothesized": 22,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39126614",
+   "title": "Whole-genome sequencing identifies novel genes for autism in Chinese trios.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder with high genetic heritability but heterogeneity. Fully understanding its genetics requires whole-genome sequencing (WGS), but the ASD studies utilizing WGS data in Chinese population are limited. In this study, we present a WGS study for 334 individuals, including 112 ASD patients and their non-ASD parents. We identified 146 de novo variants in coding regions in 85 cases and 60 inherited variants in coding regions. By integrating these variants with an association model, we identified 33 potential risk genes (P<0.001) enriched in neuron and regulation related biological process. Besides the well-known ASD genes (SCN2A, NF1, SHANK3, CHD8 etc.), several high confidence genes were highlighted by a series of functional analyses, including CTNND1, DGKZ, LRP1, DDN, ZNF483, NR4A2, SMAD6, INTS1, and MRPL12, with more supported evidence from GO enrichment, expression and network analysis. We also integrated RNA-seq data to analyze the effect of the variants on the gene expression and found 12 genes in the individuals with the related variants had relatively biased expression. We further presented the clinical phenotypes of the proband carrying the risk genes in both our samples and Caucasian samples to show the effect of the risk genes on phenotype. Regarding variants in non-coding regions, a total of 74 de novo variants and 30 inherited variants were predicted as pathogenic with high confidence, which were mapped to specific genes or regulatory features. The number of de novo variants found in patient was significantly associated with the parents' ages at the birth of the child, and gender with trend. We also identified small de novo structural variants in ASD trios. The results in this study provided important evidence for understanding the genetic mechanism of ASD.",
+   "found_by": [],
+   "pubdate": "2024 Nov",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34192606",
+   "title": "Zinc finger protein 483 (ZNF483) regulates neuronal differentiation and methyl-CpG-binding protein 2 (MeCP2) intracellular localization.",
+   "abstract": "Rett syndrome (OMIM #312750) is a developmental neurological disorder that is caused by a mutation in methyl-CpG-binding protein 2 (MeCP2). MeCP2 localizes to the nucleus, binds to methylated DNA, and regulates gene expression during neuronal development. MeCP2 assembles multiple protein complexes and its functions are controlled by interactions with its binding partners. Therefore, functional analysis of MeCP2 binding proteins is important. Previously, we proposed nine MeCP2-binding candidates in the cerebral cortex. In this study, we characterized and examined the function of the MeCP2 binding protein zinc finger protein 483 (ZNF483) to determine the significance of the MeCP2-ZNF483 interaction in neuronal development. Phylogenetic profiling revealed that the ZNF483 protein is broadly conserved in metazoans. In contrast, MeCP2 was obtained during evolution to chordates. To investigate ZNF483 functions, ZNF483-knockout P19\u00a0cell lines were established using the CRISPR-Cas9 system. These cell lines showed decreased cell proliferation, altered aggregate formation, decreased neuronal marker NeuN expression, and altered MeCP2 phosphorylation patterns. Notably, cytosolic localization of MeCP2 was enhanced by ZNF483-overexpression. Taken together, we propose that ZNF483 might be involved in the promotion of neuronal differentiation by regulating the subcellular localization of MeCP2 in P19\u00a0cells.",
+   "found_by": [],
+   "pubdate": "2021 Sep 3",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39769462",
+   "title": "Genetic Variant Analyses Identify Novel Candidate Autism Risk Genes from a Highly Consanguineous Cohort of 104 Families from Oman.",
+   "abstract": "Deficits in social communication, restricted interests, and repetitive behaviours are hallmarks of autism spectrum disorder (ASD). Despite high genetic heritability, the majority of clinically diagnosed ASD cases have unknown genetic origins. We performed genome sequencing on mothers, fathers, and affected individuals from 104 families with ASD in Oman, a Middle Eastern country underrepresented in international genetic studies. This approach identified 48 novel candidate genes significantly associated with ASD in Oman. In particular, 35 of these genes have been previously implicated in neurodevelopmental disorders (NDDs) in other populations, underscoring the conserved genetic basis of ASD across ethnicities. Genetic variants within these candidate genes that would impact the encoded protein included 1 insertion, 4 frameshift, 6 splicing, 12 nonsense, and 67 missense changes. Notably, 61% of the SNVs were homozygous, suggesting a prominent recessive genetic architecture for ASD in this unique population. The scarcity of genetic studies on ASD in the Arabian Peninsula has impeded the understanding of the unique genetic landscape of ASD in this region. These findings help bridge this knowledge gap and provide valuable insights into the complex genetic basis of ASD in Oman. [full text, passages naming ZNF483] ...| c.633-2A>G | splicing | splicing | de novo | 0 | 0 | 33 | P | \u22120.12 | 0 | Known | | CLEC18C | NM_173619.4 16 | c.994G>A | p.G332R | missense | homoz. | 0 | 0 | 29 | LP | 3.26 | 0.94 | Novel | 36 | M | + | | ZNF483 | NM_133464.5 9 | c.2047C>T | p.R683* | nonsense | | homoz. 0 | 0 | 35 | P | 3 | 0.97 | Novel | | PREP | NM_002726.5 6 | c.1213+1G>A | splicing | splicing | | homoz. 0.0013 European | 3.40855 \u00d7 10 | \u22125 3...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38027357",
+   "title": "Comprehensive Transcriptomic Investigation of Rett Syndrome Reveals Increasing Complexity Trends from Induced Pluripotent Stem Cells to Neurons with Implications for Enriched Pathways.",
+   "abstract": "Rett syndrome (RTT) is a rare genetic neurodevelopmental disorder that has no cure apart from symptomatic treatments. While intense research efforts are required to fulfill this unmet need, the fundamental challenge is to obtain sufficient patient data. In this study, we used human transcriptomic data of four different sample types from RTT patients including induced pluripotent stem cells, differentiated neural progenitor cells, differentiated neurons, and postmortem brain tissues with an increasing in vivo-like complexity to unveil specific trends in gene expressions across the samples. Based on DEG analysis, we identified F8A3, CNTN6, RPE65, and COL19A1 to have differential expression levels in three sample types and also observed previously reported genes such as MECP2, FOXG1, CACNA1G, SATB2, GABBR2, MEF2C, KCNJ10, and CUX2 in our study. Considering the significantly enriched pathways for each sample type, we observed a consistent increase in numbers from iPSCs to NEUs where MECP2 displayed profound effects. We also validated our GSEA results by using single-cell RNA-seq data. In WGCNA, we elicited a connection among MECP2, TNRC6A, and HOXA5. Our findings highlight the utility of transcriptomic analyses to determine genes that might lead to therapeutic strategies. [full text, passages naming ZNF483] ...xpression levels of CNTN6 and CNTN5, no significant change was observed in CNTN1 ( Figure D). We detected 18 genes connected to MECP2 and 7 of these genes ( 4 CREB1 , FOSB , EGR1 , REL , ZBTB38 , SMARCA1 , and ZNF483 ) are intracellular transcription factors in NEU module 3. While we observed an increase in the expression level of EGR1,we observed a decrease in the expression level of FOSB ( Figure F). 4 Apart from t...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31717404",
+   "title": "In Silico Study of Rett Syndrome Treatment-Related Genes, <i>MECP2</i>, <i>CDKL5</i>, and <i>FOXG1</i>, by Evolutionary Classification and Disordered Region Assessment.",
+   "abstract": "Rett syndrome (RTT), a neurodevelopmental disorder, is mainly caused by mutations in methyl CpG-binding protein 2 (MECP2), which has multiple functions such as binding to methylated DNA or interacting with a transcriptional co-repressor complex. It has been established that alterations in cyclin-dependent kinase-like 5 (CDKL5) or forkhead box protein G1 (FOXG1) correspond to distinct neurodevelopmental disorders, given that a series of studies have indicated that RTT is also caused by alterations in either one of these genes. We investigated the evolution and molecular features of MeCP2, CDKL5, and FOXG1 and their binding partners using phylogenetic profiling to gain a better understanding of their similarities. We also predicted the structural order-disorder propensity and assessed the evolutionary rates per site of MeCP2, CDKL5, and FOXG1 to investigate the relationships between disordered structure and other related properties with RTT. Here, we provide insight to the structural characteristics, evolution and interaction landscapes of those three proteins. We also uncovered the disordered structure properties and evolution of those proteins which may provide valuable information for the development of therapeutic strategies of RTT. [full text, passages naming ZNF483] ...mes [ 52 , 59 , 60 ]. CDKL5 belongs to the same molecular pathway of MeCP2. MeCP2 was acquired during chordate evolution; a prerequisite for this step was the acquisition of MeCP2-interacting molecules such as ZNF483, SOX2, HIPK2, and HIST2H2A. The MeCP2 kinase HIPK2 was shown to be required for the induction of apoptotic cell death in neuronal and other cell types via phosphorylation of the MeCP2 N-terminus [ 61 ].... ...n-dependent regulator of chromatin subfamily A member 5 | SOX2 | SRY-box transcription factor 2 | SSDB | Sequence Similarity DataBase | TRD | Transcriptional repression domain | TPM | Transcripts per million | ZNF483 | zinc finger protein (ZNF)483 | References 1. Rett A. On a unusual brain atrophy syndrome in hyperammonemia in childhood Wien. Med. Wochenschr. 1966 116 723 726 5300597 2. Hanefeld F. The clinical patte...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34315907",
+   "title": "Association between genes regulating neural pathways for quantitative traits of speech and language disorders.",
+   "abstract": "Speech sound disorders (SSD) manifest as difficulties in phonological memory and awareness, oral motor function, language, vocabulary, reading, and spelling. Families enriched for SSD are rare, and typically display a cluster of deficits. We conducted a genome-wide association study (GWAS) in 435 children from 148 families in the Cleveland Family Speech and Reading study (CFSRS), examining 16 variables representing 6 domains. Replication was conducted using the Avon Longitudinal Study of Parents and Children (ALSPAC). We identified 18 significant loci (combined p\u2009<\u200910-8) that we pursued bioinformatically. We prioritized 5 novel gene regions with likely functional repercussions on neural pathways, including those which colocalized with differentially methylated regions in our sample. Polygenic risk scores for receptive language, expressive vocabulary, phonological awareness, phonological memory, spelling, and reading decoding associated with increasing clinical severity. In summary, neural-genetic influence on SSD is primarily multigenic and acts on genomic regulatory elements, similar to other neurodevelopmental disorders. [full text, passages naming ZNF483] ...1.6 \u00d7 10 | \u22122 2.3 \u00d7 10 | \u22126 | 4 1 | 1 | 0 | 1 | 1 | 0 | 0 | 0 | 7:154706515 | DPP6;PAXIP1-AS2 | 1 | 1 | 0.05 | 2.5 \u00d7 10 | \u22124 7.2 \u00d7 10 | \u22126 3.9 \u00d7 10 | \u22128 | 5 1 | 1 | 0 | 1 | 1 | 0 | 1 | 0 | 9:114335864 | PTGR1;ZNF483 | 0 | 1 | 0.24 | 5.4 \u00d7 10 | \u22124 5.5 \u00d7 10 | \u22126 6.2 \u00d7 10 | \u22128 | 6 1 | 1 | 0 | 1 | 1 | 1 | 0 | 1 | 10:46027420 | MARCH8 | 2 | 1 | 0.39 | 1.6 \u00d7 10 | \u22126 3.1 \u00d7 10 | \u22122 9.1 \u00d7 10 | \u22127 | 4 1 | 1 | 0 | 0 | 1 | 1 |...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30847195",
+   "title": "A novel familial 9q31.2q32 microdeletion: Muscle cramping, somnolence, fatigue, sensorineural hearing loss, pubertal delay, and short stature.",
+   "abstract": "We report a novel 9q31.2q32 (chr9: 109195179-113974353, hg 18) microdeletion characterized by fatigue, muscle cramps, short stature, delayed puberty, sensorineural hearing loss, and mild developmental delay. Overlapping microdeletions reported in this region also demonstrate facial dysmorphism, skeletal anomalies, cleft palate, and cardiac valvular abnormalities. In comparing these cases, we suggest critical region of chr9: 109711873-113407621 (hg 18). [full text, passages naming ZNF483] ...e common phenotypic features in many male cases with 9q31.2q32 deletions. Our index case was found to have small testes, low testosterone, and a requirement for pubertal induction with testosterone injections. ZNF483 is located at 9q31.3 (chr9: 113327268\u2010113346533, hg18) and while scant information exists as to its function beyond potential transcriptional regulation, 23 numerous groups have identified ZNF483 to be a... ...e injections. ZNF483 is located at 9q31.3 (chr9: 113327268\u2010113346533, hg18) and while scant information exists as to its function beyond potential transcriptional regulation, 23 numerous groups have identified ZNF483 to be associated with age at menarche in women. 24 , 25 , 26 , 27 , 28 A key clinical feature of the female patients in our cohort is that of delayed puberty, potentially reflecting the importance of ZNF... ...ed ZNF483 to be associated with age at menarche in women. 24 , 25 , 26 , 27 , 28 A key clinical feature of the female patients in our cohort is that of delayed puberty, potentially reflecting the importance of ZNF483 in the normal onset of puberty. The FRRS1L gene (ferric chelate reductase 1 like, OMIM 604574) is located at 9q31.3 (chr9: 110939402\u2010110969268, hg18) and encodes a component of \u03b1\u2010amino\u20103\u2010hydroxy\u20105\u2010methyl...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "24558408",
+   "title": "Maternal obesity affects fetal neurodevelopmental and metabolic gene expression: a pilot study.",
+   "abstract": "OBJECTIVE: One in three pregnant women in the United States is obese. Their offspring are at increased risk for neurodevelopmental and metabolic morbidity. Underlying molecular mechanisms are poorly understood. We performed a global gene expression analysis of mid-trimester amniotic fluid cell-free fetal RNA in obese versus lean pregnant women. METHODS: This prospective pilot study included eight obese (BMI\u226530) and eight lean (BMI<25) women undergoing clinically indicated mid-trimester genetic amniocentesis. Subjects were matched for gestational age and fetal sex. Fetuses with abnormal karyotype or structural anomalies were excluded. Cell-free fetal RNA was extracted from amniotic fluid and hybridized to whole genome expression arrays. Genes significantly differentially regulated in 8/8 obese-lean pairs were identified using paired t-tests with the Benjamini-Hochberg correction (false discovery rate of <0.05). Biological interpretation was performed with Ingenuity Pathway Analysis and the BioGPS gene expression atlas. RESULTS: In fetuses of obese pregnant women, 205 genes were significantly differentially regulated. Apolipoprotein D, a gene highly expressed in the central nervous system and integral to lipid regulation, was the most up-regulated gene (9-fold). Apoptotic cell death was significantly down-regulated, particularly within nervous system pathways involving the cerebral cortex. Activation of the transcriptional regulators estrogen receptor, FOS, and STAT3 was predicted in fetuses of obese women, suggesting a pro-estrogenic, pro-inflammatory milieu. CONCLUSION: Maternal obesity affects fetal neurodevelopmental and metabolic gene expression as early as the second trimester. These findings may have implications for postnatal neurodevelopmental and metabolic abnormalities described in the offspring of obese women. [full text, passages naming ZNF483] ...tion currently unknown | 5.0 | 0.01 | | Zinc finger protein 551 | ZNF551 Nuclear protein involved in DNA and metal ion binding; DNA-dependent transcription regulation | 4.6 | 0.01 | | Zinc finger protein 483 | ZNF483 Nuclear protein involved in DNA and metal ion binding; DNA-dependent transcription regulation; viral reproduction | 4.3 | <0.001 | | B-cell CLL/lymphoma 3 | BCL3 Transcriptional co-activator; associates...",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "23667675": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39256164": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39320385": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38951643": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22131368": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29077908": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39126614": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34192606": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30641629": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41751513": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39769462": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38027357": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31717404": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36002036": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34315907": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30847195": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28302723": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24558408": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "7 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "9 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 578,
+   "output_tokens": 34,
+   "usd": 0.000748,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 42.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 9139,
+   "output_tokens": 284,
+   "usd": 0.010559,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.2,
+   "note": "",
+   "input_tokens": 7434,
+   "output_tokens": 941,
+   "usd": 0.060695,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>14</established>\n    <existing>62</existing>\n    <hypothesized>22</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Two human genetic studies report ZNF483 variants in autism probands: a Chinese WGS trio study listing ZNF483 among 33 candidate risk genes with supporting expression/network evidence (PMID 39126614), and an Omani consanguineous cohort reporting a homozygous nonsense variant p.R683* (PMID 39769462). A GWAS of speech sound disorder also flags a locus near PTGR1;ZNF483 (PMID 34315907), adding suggestive but non-specific human support. These are candidate-gene discovery lists rather than replicated, well-powered clinical validation, so Established is unlikely; the microdeletion case (PMID 30847195) spans many genes and cannot implicate ZNF483 alone. Strong biological plausibility exists through ZNF483's interaction with MeCP2 and its role in neuronal differentiation, but that work is in vitro (P19 cells) and therefore supports Hypothesized rather than Existing (PMIDs 34192606, 31717404, 38027357).</justification>\n  <pmids>\n    <pmid>39126614</pmid>\n    <pmid>39769462</pmid>\n    <pmid>34315907</pmid>\n    <pmid>34192606</pmid>\n    <pmid>31717404</pmid>\n    <pmid>38027357</pmid>\n    <pmid>30847195</pmid>\n  </pmids>\n</response>"
+}

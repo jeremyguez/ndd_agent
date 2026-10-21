@@ -1,0 +1,207 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 5,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2016 - Partial trisomy 5q and partial monosomy 13q result in developmental delay with characteristic facial features. (L. Dupuis, M. Shago, R. Mendoza-Londono)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Terminal deletion of 13q34 (~1.765 Mb, 33 RefSeq genes including CHAMP1) from a paternal t(5;13)(q33.3;q34), with concurrent 23.2 Mb duplication of 5q33.3-qter",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay (moderate, mainly language and fine motor)",
+              "hypertelorism",
+              "flat midface",
+              "thin upper lip with long simple philtrum",
+              "low-set posteriorly rotated ears",
+              "small mouth",
+              "small patent foramen ovale"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Unbalanced derivative of a paternal balanced translocation, detected by genomic microarray. The phenotype is attributed mainly to the distal 5q trisomy. CHAMP1 is only one of several genes lost in the 13q34 deletion, so its individual contribution is unclear.",
+        "center_country": "Hospital for Sick Children, Toronto, Canada (presumed from the authors; not explicitly stated)",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "Mutations in genes related to myocyte contraction and ventricular septum development in non-syndromic tetralogy of Fallot (PMID: 37840956)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "chr13:114324530 C>T, p.Gln230* (stop gained)",
+            "type": "LoF",
+            "phenotypes": [
+              "non-syndromic tetralogy of Fallot"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare de novo stop-gained variant identified by trio exome sequencing and predicted high impact (listed among 120 likely deleterious variants). CHAMP1 is annotated to autism/intellectual disability and cytoskeleton organization.",
+        "center_country": "Pediatric Cardiac Genomics Consortium (PCGC), USA",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "Genomic testing and molecular diagnosis among infants with congenital heart disease in the neonatal intensive care unit (PMID: 38499751)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Single nucleotide variant in CHAMP1 (specific change not given in the available text)",
+            "type": "other",
+            "phenotypes": [
+              "congenital heart disease",
+              "NICU admission with suspicion of a genetic disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Molecular diagnosis from genetic testing (exome or gene panel) in an infant with CHD. No variant-level detail is given.",
+        "center_country": "Boston Children's Hospital and Children's Memorial Hermann Hospital (Houston), USA",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "Identifying phenotypic expansions for congenital diaphragmatic hernia plus (CDH+) using DECIPHER data (PMID: 35904974)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1741delG, p.(Glu581Asnfs*4) (NM_001164144.3)",
+            "type": "LoF",
+            "phenotypes": [
+              "Congenital diaphragmatic hernia plus (CDH+) with additional birth defects",
+              "Mental retardation, autosomal dominant 40 (MIM 616579) as the associated disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Classified as pathogenic frameshift variant in a CDH+ individual (Subject 2) from the DECIPHER database; the gene is associated with autosomal dominant MRD40. The table lists a 81% value, which probably reflects a predicted score from a CDH machine-learning model. Inheritance is not stated in the excerpt.",
+        "center_country": null,
+        "cohort": null,
+        "disease": "CDH"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Deficiency of CHAMP1, a gene related to intellectual disability, causes impaired neuronal development and a mild behavioural phenotype (PMID: 36106092)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (homozygous) and heterozygous knockout; also in vivo knockdown",
+        "phenotypes": [
+          "Homozygous KO mice slightly smaller than wild-type",
+          "Homozygous KO mice died soon after birth on pure C57BL/6J background",
+          "No gross anatomical brain defects in CHAMP1-/- mice",
+          "Increased mitotic cells in cerebral cortex",
+          "Delayed neuronal differentiation in CHAMP1-/- neural stem cells in vitro, also suggested in vivo by CHAMP1 knockdown",
+          "Heterozygous KO adults showed mild memory defects, altered social interaction, and depression-like behaviours",
+          "Downregulation of genes related to neurotransmitter transport and neurodevelopmental disorder in embryonic CHAMP1-/- brains"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Characterization of a novel mouse model with 35 bp deletion in Champ1 gene and exploration of AAV gene therapy to correct phenotypic consequences arising from CHAMP1 mutations",
+        "organism": "mouse",
+        "knockout_type": "other (CRISPR/Cas9 35 bp deletion in exon 2; heterozygous breeding, likely loss-of-function)",
+        "phenotypes": [
+          "Delay in motor development",
+          "Impairment in memory and learning abilities"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "20 mice per battery (4 cohorts total, 2 cohorts per battery)",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Characterization of novel mouse model with 35 bp deletion in Champ1 gene and exploration of AAV gene therapy to correct syndromes arising from mutations in the CHAMP1",
+        "organism": "mouse",
+        "knockout_type": "other (CRISPR/Cas9 deletion, C57BL/6NCrl-Champ1em1(IMPC)Mbp/Mmucd)",
+        "phenotypes": [
+          "Females presented difficulty giving birth due to dystocia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Tomida et al. 2022 - CHAMP1-POGZ counteracts the inhibitory effect of 53BP1 on homologous recombination and affects PARP inhibitor resistance (PMID: 35393543)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CHAMP1 is recruited to laser-induced DSB sites and, together with POGZ, promotes HR through DNA end resection (pRPA2 and CtIP recruitment) but not NHEJ. CHAMP1 depletion reduced BRCA1 recruitment but not 53BP1 recruitment. Loss of CHAMP1 or POGZ restored PARP inhibitor sensitivity in cells depleted of both 53BP1 and BRCA1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHAMP1 binds to REV7/FANCV and promotes homologous recombination repair (PMID: 36044844)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CHAMP1 binds directly to the REV7 seatbelt domain and reduces Shieldin complex levels, which increases DSB end resection and promotes HR. It also interacts with POGZ in a heterochromatin complex. CHAMP1 overexpression in human tumors promotes HR, confers PARP inhibitor resistance, and correlates with poor prognosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Structural basis for MAD2L2 (REV7) interaction with CAMP/CHAMP1 (PMID: 28887307)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Crystal structures of human MAD2L2 in complex with a CHAMP1 (CAMP) fragment show a binding mode similar to MAD2L2-REV3 but with different residue interactions. The interaction depends on the WK motif of CHAMP1. In one crystal form the complex dimerized with a swapped MAD2L2 C-terminal region.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHAMP1 complex directs heterochromatin assembly and promotes homology-directed DNA repair (PMID: 39962076)",
+        "evidence_subtype": "pathway",
+        "summary": "The CHAMP1-POGZ-HP1\u03b1 complex recruits SETDB1 and promotes heterochromatin assembly at centromeres, telomeres, and ALT telomeres, and enhances HDR in these regions. Peripheral blood lymphocytes from CHAMP1 syndrome patients show defective heterochromatin clustering and DSB repair.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHAMP1 complex promotes heterochromatin assembly and reduces replication stress (PMID: 41481470)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The CHAMP1 complex is transiently recruited to stalled replication forks, where it deposits H3K9me3, stabilizes forks, and protects them from MRE11 degradation. CHAMP1 loss increases micronuclei and compensatory FA and ATR/CHK1 pathway activity. CHAMP1 deficiency is synthetic lethal with FANCM inhibition in ALT tumor cells, and the complex is essential for survival of CCNE1-amplified ovarian cancer.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHAMP1 PTC mutations cause a homologous recombination defect through haploinsufficiency (PMID: 39738383)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Patient LCLs and fibroblasts with CHAMP1 PTC mutations express truncated proteins, and the fibroblasts have an HR defect. The PTC mutants could not restore HR when endogenous CHAMP1 was depleted, whereas missense mutants could. Heterozygous CHAMP1 depletion in DLD-1 cells caused an HR defect, indicating haploinsufficiency.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CHAMP1 is an essential regulator for human myoblast fusion and muscle development (PMID: 41540007)",
+        "evidence_subtype": "function",
+        "summary": "CHAMP1 acts as a MyoD cofactor that directly activates expression of the fusogen Myomaker, and is needed for human myoblast fusion in vitro and in vivo. Patient-derived cells show fusion defects that Myomaker restoration fully rescues. The C2H2 zinc-finger motifs of CHAMP1 are necessary and sufficient for MyoD interaction and Myomaker expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chromosome alignment-maintaining phosphoprotein CHAMP1 plays a role in cell survival through regulating Mcl-1 expression (PMID: 34107118)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CHAMP1 depletion accelerates mitotic cell death after mitotic arrest and reduces anti-apoptotic Bcl-2 family proteins, especially Mcl-1. CHAMP1 maintains Mcl-1 mRNA and protein, stabilizing the protein by suppressing proteasomal degradation. Depletion reduces cell viability and acts synergistically with antimitotic drugs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Characterization of Electrophysiological and Transcriptomic Alterations in Patient-Derived Neurons from CHAMP1 Syndrome (PMID: 42395457)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Patient iPSC-derived NPCs and excitatory neurons carrying two CHAMP1 mutations show dosage-dependent reduced proliferation and allele-specific DNA repair/HR dysfunction. Mutant neurons have depolarized resting potential, reduced firing, reduced Na+/K+ currents, impaired neurite outgrowth, and altered synaptic activity. Single-nucleus RNA-seq shows delayed developmental trajectories and dysregulated synaptic genes enriched for autism, ADHD, and epilepsy risk genes.",
+        "sample_size": "two patient iPSC lines with different CHAMP1 mutations",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Characterization of a novel mouse model with 35 bp deletion in Champ1 gene and exploration of AAV gene therapy (T. Carneiro et al.)",
+        "evidence_subtype": "other",
+        "summary": "A CRISPR/Cas9 35 bp deletion in Champ1 exon 2 in C57BL/6NCrl mice produced heterozygous mice with delayed motor development and impaired learning and memory. An AAV9 vector carrying wild-type CHAMP1 is planned to rescue the phenotype.",
+        "sample_size": "4 cohorts; 2 cohorts (20 mice) per behavioral battery",
+        "significance": null
+      }
+    ]
+  }
+}

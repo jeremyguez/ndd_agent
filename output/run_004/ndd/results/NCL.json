@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 4,
+    "biological": 10
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Integrating single-cell RNA-seq and spatial transcriptomics reveals MDK-NCL dependent immunosuppressive environment in endometrial carcinoma (PMID: 37081869)",
+        "evidence_subtype": "pathway",
+        "summary": "Cell-cell communication analysis of scRNA-seq and spatial transcriptomics placed NCL as the receptor in the MK (midkine) pathway. MDK-NCL signaling from malignant epithelial cells to endothelial cells was confirmed between spatial neighbors. NCL expression was inversely correlated with ImmuneScore in TCGA and GEO data.",
+        "sample_size": "33,162 cells from 5 scRNA-seq datasets, 1 ST dataset, 569 TCGA-UCEC RNA-seq samples",
+        "significance": null
+      },
+      {
+        "citation": "Single-cell and spatial transcriptomics integration reveals FAM49B promotes tumor-associated macrophages polarization in colorectal cancer via the MK pathway (PMID: 41246334)",
+        "evidence_subtype": "pathway",
+        "summary": "In colorectal cancer, MDK-NCL signaling from High_FAM49B epithelial cells to macrophages drives TAM polarization. NCL upregulation accompanied the CXCL3+ to SPP1+ TAM transition in pseudotime analysis, and NCL+ TAMs co-localized with MDK+ epithelial cells spatially. FAM49B knockdown reduced MDK expression.",
+        "sample_size": "33 scRNA-seq samples from 16 CRC patients, 2 paired ST samples",
+        "significance": null
+      },
+      {
+        "citation": "Integrative single-cell and spatial transcriptomics analysis reveals MDK-NCL pathway's role in shaping the immunosuppressive environment of lung adenocarcinoma (PMID: 40396179)",
+        "evidence_subtype": "expression",
+        "summary": "NCL and MDK mRNA and protein were significantly upregulated in LUAD tumors compared with normal tissue, validated by qPCR and western blot in an in-house cohort. MDK-NCL signaling was enriched at the tumor-immune interface. High MDK-NCL expression correlated with reduced immune infiltration, higher TMB and MSI, higher PD-1 and CTLA-4, and poorer survival.",
+        "sample_size": "TCGA-LUAD plus in-house paired tumor/normal cohort",
+        "significance": "Significant upregulation in tumor vs normal (reported as significant)"
+      },
+      {
+        "citation": "Repurposing AS1411 for constructing ANM-PROTACs (PMID: 38657608)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "NCL is a membrane-nucleus shuttling protein recognized by the AS1411 aptamer, and it forms a complex with the E3 ligase MDM2. AS1411 anchoring of the NCL-MDM2 complex was used to recruit MDM2 and degrade STAT3, c-Myc, p53-R175H and AR-V7 in tumor cells and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phase separation of circCHD6-encoded 216aa protein promotes colorectal cancer metastasis (PMID: 41120080)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "circCHD6-216aa binds nucleolin and stabilizes NCL's phase-separated nuclear condensates. This promotes NCL-dependent transcription of CD44 and drives CRC metastasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NF-\u03baB1 p50 stabilizes HIF-1\u03b1 protein through suppression of ATG7-dependent autophagy (PMID: 36575197)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In p50-/- cells under arsenic exposure, NCL protein translation increased. NCL binds Sp1 mRNA and stabilizes it, which raises ATG7 transcription and autophagy. miR-494 targets the NCL 3'-UTR to inhibit its translation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nucleolin loss of function leads to aberrant Fibroblast Growth Factor signaling and craniofacial anomalies (PMID: 35762670)",
+        "evidence_subtype": "function",
+        "summary": "ncl-/- zebrafish show craniofacial anomalies with reduced rRNA synthesis and p53-dependent apoptosis. NCL also stabilizes fgf8a mRNA, so loss shortens its half-life and disrupts Fgf signaling, Sox9a-mediated chondrogenesis and Runx2-mediated osteogenesis. Exogenous FGF8 rescued the phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aptamer-based approaches to detect nucleolin in prostate cancer (PMID: 33676639)",
+        "evidence_subtype": "expression",
+        "summary": "NCL protein was markedly higher in PBMC lysates of prostate cancer patients (mean 626.1 pg/mL) than in healthy controls (mean 198.5 pg/mL), with greater levels in advanced stages. The modified AS1411-N5 G-quadruplex aptamer bound NCL with KD of about 138 nM.",
+        "sample_size": "158 individuals (PCa patients and healthy controls)",
+        "significance": null
+      },
+      {
+        "citation": "Targeting epigenetic pathway with gold nanoparticles for acute myeloid leukemia therapy (PMID: 29554483)",
+        "evidence_subtype": "pathway",
+        "summary": "NCL was identified as part of an NCL/miR-221/NF\u03baB/DNMT1 axis that promotes aggressive AML. Targeting it with AS1411 and anti-miR-221 nanoparticles reduced DNMT1 and global DNA methylation, restored p15INK4B and p27Kip1, blocked proliferation and clonogenicity, and extended survival in an AML animal model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Genome-wide association analyses in up to 181,171 individuals reveal 14 new loci associated with heart rate",
+        "evidence_subtype": "GWAS",
+        "summary": "A heart rate-associated variant was associated with NCL transcript levels in blood (eQTL), which makes NCL one of 11 nearby transcripts implicated at the heart rate loci.",
+        "sample_size": "up to 181,171 individuals",
+        "significance": "p<1.6x10^-3 (eQTL)"
+      }
+    ]
+  }
+}

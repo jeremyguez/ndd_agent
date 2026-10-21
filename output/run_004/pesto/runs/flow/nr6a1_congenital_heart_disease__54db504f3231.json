@@ -1,0 +1,712 @@
+{
+ "gene": "NR6A1",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "congenital heart malformation",
+   "congenital heart anomaly",
+   "CHD",
+   "congenital cardiovascular malformation",
+   "congenital cardiac defect",
+   "cardiac malformation",
+   "heart malformation, congenital",
+   "congenital abnormality of the heart",
+   "congenital cardiovascular disease"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "CT150",
+   "GCNF1",
+   "RTR",
+   "GCNF",
+   "nuclear receptor subfamily 6 group A member 1"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 58,
+  "titlekicksparingfulltext": 32,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 10,
+   "Existing": 63,
+   "Hypothesized": 25,
+   "Novel": 2
+  },
+  "justification": "The strongest human evidence is the large sequencing study of 11,555 CHD probands (PMID 40127276), where NR6A1 appears among genes with a significant burden of damaging heterozygous variants and is discussed as a novel CHD candidate\u2014this is a single, credible human genetic study supporting \"Existing\" but not replicated independently. Other human NR6A1 variant studies establish an oculo-vertebral-renal syndrome and CAKUT (PMIDs 40610405, 39606449, 40774958, 41733738), phenotypes that are extracardiac, although these confirm NR6A1 as a developmental disease gene and note co-occurring developmental/cardiac phenotypes in the cohort. The de novo 9q33.3 duplication in pulmonary atresia (PMID 24826987) spans NR5A1 and NR6A1 and cannot implicate NR6A1 specifically. Supporting but non-human/mechanistic evidence includes miR-377-3p/NR6A1 regulation of placental macrophages in MC-LR-induced CHD in mice (PMID 39053546), upregulation in embryos of diabetic mice (PMID 29286097), and cardiac fibrosis modifier mapping in BXD mice (PMID 33529666). Since no two independent human studies report NR6A1 point variants causing CHD, \"Established\" is not warranted.",
+  "pmids": [],
+  "detail": {
+   "Established": 10,
+   "Existing": 63,
+   "Hypothesized": 25,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39053546",
+   "title": "Microcystin-LR prenatal exposure induces coronary heart disease through macrophage polarization imbalance mediated by trophoblast-derived extracellular vesicles.",
+   "abstract": "Microcystin-leucine arginine (MC-LR) has been reported to exhibit placental toxicity, leading to potential adverse pregnancy outcomes. Placental abnormalities often coincide with congenital heart defects (CHD). However, the extent to which MC-LR-induced placental abnormalities contribute to CHD and the cellular mechanisms underlying this association remain unknown. In this study, we observed abnormal polarization of placental macrophages in pregnant mice exposed to MC-LR during pregnancy, and the embryos developed cardiac developmental defects that persisted into adulthood. Trophoblast-derived extracellular vesicles (T-EVs) increase in number during pregnancy and act as a critical signal in macrophage polarization. However, MC-LR significantly affected the miRNA expression profile of T-EVs. Upon internalization into macrophages, T-EV-derived miR-377-3p specifically targets the 3'UTR region of NR6A1 to inhibit gene expression. Silencing of transcription suppressor NR6A1 leads to abnormal activation of the downstream mTOR/S6K1/SREBP pathway, inducing metabolic reprogramming and ultimately leading to M1 polarization of macrophages. This study elucidated the placental mechanism underlying MC-LR-induced CHD for the first time, providing insights into the environmental risks associated with CHD.",
+   "found_by": [],
+   "pubdate": "2024 Oct 20",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40610405",
+   "title": "Variants in NR6A1 cause a novel oculo vertebral renal syndrome.",
+   "abstract": "Colobomatous microphthalmia is a potentially blinding congenital ocular malformation that can present either in isolation or together with other syndromic features. Despite a strong genetic component to disease, many cases lack a molecular diagnosis. We describe an autosomal dominant oculo-vertebral-renal (OVR) syndrome in six independent families characterized by colobomatous microphthalmia, missing vertebrae and congenital kidney abnormalities. Genome sequencing identified six rare variants in the orphan nuclear receptor gene NR6A1 in these families. We performed in silico, cellular, and zebrafish experiments to demonstrate the NR6A1 variants were pathogenic or likely pathogenic for OVR syndrome. Knockdown of either or both zebrafish paralogs of NR6A1 results in abnormal eye, kidney, and somite development, which was rescued by wild-type but not variant NR6A1 mRNA. Illustrating the power of genomic ascertainment in medicine, our study establishes NR6A1 as a critical factor in eye, kidney, and vertebral development, and a pleiotropic gene responsible for OVR syndrome.",
+   "found_by": [],
+   "pubdate": "2025 Jul 3",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12729562",
+   "title": "The function of Xenopus germ cell nuclear factor (xGCNF) in morphogenetic movements during neurulation.",
+   "abstract": "The germ cell nuclear factor (GCNF, NR6A1) is a nuclear orphan receptor first described in the mouse testis and subsequently identified as an essential transcription factor in vertebrate embryogenesis. Here, we analyze the phenotype of Xenopus embryos after depletion of embryonic GCNF (xEmGCNF) protein using a specific morpholino antisense oligonucleotide. Morphological defects after xEmGCNF knockdown became obvious from neurulation onward. Among the abnormalities observed, defective formation of the neural tube and a short and curved main body axis were the most remarkable traits. Histological analysis, lineage tracing of injected blastomeres, and Keller sandwich explants revealed that xEmGCNF function is required for different patterns of cell intercalation during neurulation and consequently for the sequence of morphogenetic movements leading to formation of the neural tube. Further characterization of the phenotype at the molecular level showed an abnormal distribution of the extracellular matrix protein fibronectin and a reduction in the expression level of the integrin subunits alpha5 and alpha6, the limiting components of the laminin and fibronectin receptors, respectively. We propose integrin-mediated cell-matrix interaction as a process that requires xEmGCNF function and provides, in concert with cadherins-mediated cell-cell interactions, a molecular basis for morphogenetic cell movements during neurulation.",
+   "found_by": [],
+   "pubdate": "2003 May 15",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25140725",
+   "title": "Germ cell nuclear factor regulates gametogenesis in developing gonads.",
+   "abstract": "Expression of germ cell nuclear factor (GCNF; Nr6a1), an orphan member of the nuclear receptor gene family of transcription factors, during gastrulation and neurulation is critical for normal embryogenesis in mice. Gcnf represses the expression of the POU-domain transcription factor Oct4 (Pou5f1) during mouse post-implantation development. Although Gcnf expression is not critical for the embryonic segregation of the germ cell lineage, we found that sexually dimorphic expression of Gcnf in germ cells correlates with the expression of pluripotency-associated genes, such as Oct4, Sox2, and Nanog, as well as the early meiotic marker gene Stra8. To elucidate the role of Gcnf during mouse germ cell differentiation, we generated an ex vivo Gcnf-knockdown model in combination with a regulated CreLox mutation of Gcnf. Lack of Gcnf impairs normal spermatogenesis and oogenesis in vivo, as well as the derivation of germ cells from embryonic stem cells (ESCs) in vitro. Inactivation of the Gcnf gene in vivo leads to loss of repression of Oct4 expression in both male and female gonads.",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29057499",
+   "title": "GCNF regulates OCT4 expression through its interactions with nuclear receptor binding elements in NCCIT cells.",
+   "abstract": "We demonstrate that OCT4 expression is regulated by germ cell nuclear factor (GCNF) via its interactions with three nuclear receptor (NR) binding sites within OCT4 promoter conserved regions (CRs) in human embryonic carcinoma (EC) NCCIT cells. OCT4 expression is gradually reduced during the retinoic acid-induced differentiation, while GCNF temporarily increased after 2 days and then significantly decreased. In addition, OCT4 expression is significantly reduced by overexpression of exogenous GCNF, but increased by GCNF shRNA-mediated knockdown. The transcriptional activity of OCT4 is significantly inhibited by dose-dependent overexpression of GCNF. While mutants at each of the NR binding sites retain the repressive effects of GCNF on OCT4 promoter activity, the repressive effect was completely eliminated in the reporter construct with all binding sites mutated even in the presence of GCNF. Furthermore, the transcriptional activity of native minimal promoter (CR1-Luc) containing the first NR binding site was significantly reduced by GCNF overexpression, while the mutant retained basal activity to some extent. Next, an exogenous minimal ti promoter-inserted CR2 reporter construct containing the second and third NR binding sites (CR2-ti-Luc) was co-transfected with GCNF expression vector. The transcriptional activity of CR2-ti-Luc was significantly decreased by GCNF overexpression, while mutation of both binding sites retained the transcriptional activity of the reporter construct. Binding assays confirmed the direct interaction of GCNF with all three NR binding sites cooperatively. Taken together, GCNF acts as a transcriptional repressor in the regulation of OCT4 gene expression through cooperative interaction with three NR binding elements in pluripotent NCCIT cells.",
+   "found_by": [],
+   "pubdate": "2018 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18330480",
+   "title": "Germ cell nuclear factor directly represses the transcription of peroxisome proliferator-activated receptor delta gene.",
+   "abstract": "Germ cell nuclear factor (GCNF) is a transcription factor that can repress gene transcription and plays an important role during spermatogenesis. Peroxisome proliferator-activated receptor delta (PPARdelta) is a nuclear hormone receptor belonging to the steroid receptor superfamily. It can activate the expression of many genes, including those involved in lipid metabolism. In this report, we showed that GCNF specifically interacts with PPARdelta promoter. Overexpression of GCNF in African green monkey SV40-transformed kidney fibroblast COS7 cells and mouse embryo fibroblast NIH 3T3 cells represses the activity of PPARdelta promoter. The mutation of GCNF response element in PPARdelta promoter relieves the repression in NIH 3T3 cells and mouse testis. Moreover, we showed that GCNF in nuclear extracts of mouse testis is able to bind to PPARdelta promoter directly. We also found that GCNF and PPARdelta mRNA were expressed with different patterns in mouse testis by in situ hybridization. These results suggested that GCNF might be a negative regulator of PPARdelta gene expression through its direct interaction with PPARdelta promoter in mouse testis.",
+   "found_by": [],
+   "pubdate": "2008 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16155958",
+   "title": "The germ cell nuclear factor (GCNF).",
+   "abstract": "The germ cell nuclear factor (GCNF), which is also known as RTR (retinoid receptor-related testis-associated receptor) is a member of the nuclear receptor superfamily. As a natural ligand remains to be discovered, GCNF is referred to as an orphan receptor. Owing to GCNF's unique features and its distant relation to any other known nuclear receptor it has been classified as the only member of the subgroup six and designated NR6A1 by the Receptor Nomenclature Committee (Duarte et al., 2002: Nucleic Acids Res 30: 364-368). To date, GCNF has been cloned from distinct vertebrate species, including zebrafish, Xenopus laevis, mouse, rat, and human. Cloning and characterization of the gene, domain organization and DNA binding properties of the protein, as well as the differential expression of mRNA splice variants or the protein during development and in the adult animal have been comprehensively reviewed by others (Greschik and Sch\u00fcle, 1998: J Mol Med 76:800-810; Cooney et al., 1999: Am Zool 39:796-806). In this minireview I focus on the pleiotropic function of GCNF in embryogenesis and germ cell differentiation, and discuss novel concepts about its putative role in neurogenesis.",
+   "found_by": [],
+   "pubdate": "2005 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33529666",
+   "title": "Characterizing modifier genes of cardiac fibrosis phenotype in hypertrophic cardiomyopathy.",
+   "abstract": "BACKGROUND: Clinical phenotypes of hypertrophic cardiomyopathy (HCM) vary greatly even among patients with the same gene mutations. This variability is largely regulated by unidentified modifier loci. The purpose of the study is to identify modifier genes for cardiac fibrosis-a major phenotype of HCM-using the BXD family, a murine cohort. METHODS: The relative severity of cardiac fibrosis was estimated by quantitation of cardiac collagen volume fraction (CCVF) across 66 members of the BXD family. Quantitative trait locus (QTL) mapping for cardiac fibrosis was done using GeneNetwork. Candidate modifier loci and genes associated with fibrosis were prioritized based on an explicit scoring system. Networks of correlation between fibrosis and cardiac transcriptomes were evaluated to generate causal models of disease susceptibility. RESULTS: CCVF levels varied greatly within this family. Interval mapping identified a significant CCVF-related QTL on chromosome (Chr) 2 in males, and a significant QTL on Chr 4\u00a0Mb in females. The scoring system highlighted two strong candidate genes in the Chr 2 locus-Nek6 and Nr6a1. Both genes are highly expressed in the heart. Cardiac Nek6 mRNA levels are significantly correlated with CCVF. Nipsnap3b and Fktn are lead candidate genes for the Chr 4 locus, and both are also highly expressed in heart. Cardiac Nipsnap3b gene expression correlates well with CCVF. CONCLUSION: Our study demonstrated that candidate modifier genes of cardiac fibrosis phenotype in HCM are different in males and females. Nek6 and Nr6a1 are strong candidates in males, while Nipsnap3b and Fktn are top candidates in females.",
+   "found_by": [],
+   "pubdate": "2021 May 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40774958",
+   "title": "Exome analysis links kidney malformations to developmental disorders and reveals causal genes.",
+   "abstract": "Congenital anomalies of the kidneys and urinary tract (CAKUT) are developmental disorders that commonly cause pediatric chronic kidney disease and mortality. We examine here rare coding variants in 248 CAKUT trios and 1742 singleton CAKUT cases and compare them to 22,258 controls. Diagnostic and candidate diagnostic variants are detected in 14.1% of cases. We find a significant enrichment of rare damaging variants in constrained genes expressed during kidney development and in genes associated with other developmental disorders, suggesting phenotype expansion. Consistent with these data, 18% of CAKUT patients with diagnostic variants have neurodevelopmental or cardiac phenotypes. We identify 40 candidate genes, including CELSR1, SSBP2, XPO1, NR6A1, and ARID3A. Two are confirmed as CAKUT genes: ARID3A and NR6A1. This study suggests that many yet-unidentified syndromes would be discoverable with larger cohorts and cross-phenotype analysis, leading to clarification of the genetic and phenotypic spectrum of developmental disorders.",
+   "found_by": [],
+   "pubdate": "2025 Aug 7",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "9099702",
+   "title": "Characterization of the response element and DNA binding properties of the nuclear orphan receptor germ cell nuclear factor/retinoid receptor-related testis-associated receptor.",
+   "abstract": "Recently, we have reported the cloning of the germ cell-specific, nuclear orphan receptor germ cell nuclear factor (GCNF)/RTR. In this study, we characterize the RTR response elements by an electrophoretic mobility shift assay/polymerase chain reaction-based, DNA binding site selection strategy. RTR binds with the greatest affinity to response elements containing TCA(AG(G/T)TCA)2 (consensus RTR response element; conRTRE), to which it binds as a homodimer. RTR is also able to bind as a monomer to a single core motif TCAAG(G/T)TCA, albeit with a lower affinity. Mutation analysis supports the specific requirements of the 5'-flanking sequence and the core motif of the RTRE for optimal binding of RTR. An RTR-specific antiserum (RTR-Ab2) was raised that causes supershift of the RTR-conRTRE complex in EMSA. Based on the sequence of the conRTRE, we located a putative RTRE, referred to as P2-RE, in the 5' promoter-flanking region of the mouse protamine 2 gene, which is induced during the same stage of spermatogenesis as RTR. The ability of RTR-Ab2 to cause a supershift of an RTR-RTRE complex with nuclear extracts from different tissues correlated with the tissue- and development-specific expression of RTR. Transfection of RTR in CV-1 cells was unable to cause RTRE-dependent transactivation of a CAT reporter gene; however, an RTR-VP16 fusion protein could induce transactivation through several RTREs, including P2-RE.",
+   "found_by": [],
+   "pubdate": "1997 Apr 18",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11387038",
+   "title": "Genomic structure of the gene for mouse germ-cell nuclear factor (GCNF). II. Comparison with the genomic structure of the human GCNF gene.",
+   "abstract": "BACKGROUND: Germ-cell nuclear factor (GCNF, NR6AI) is an orphan nuclear receptor. Its expression pattern suggests it functions during embryogenesis, in the placenta and in germ-cell development. Mouse GCNF cDNA codes for a protein of 495 amino acids, whereas the four reported human cDNA variants code for proteins of 454 to 480 amino acids. Apart from this size difference, there is sequence conservation of up to 98.7%. To elucidate the genomic structure that gives rise to the different human GCNF mRNAs, the sequence information of the human GCNF locus is compared to the previously reported structure of the mouse locus. RESULTS: The genomic structures of the mouse and human GCNF genes are highly conserved. The comparison reveals that the shorter human protein results from skipping the 45 base-pair third exon. Three different human isoforms - GCNF-1, GCNF-2a and GCNF-2b - are generated by differential usage of alternative splice acceptor sites of the fourth and the seventh exon. CONCLUSION: By homology with the mouse gene, 11 GCNF coding exons can be defined on human chromosome 9. All human GCNF cDNAs identified so far are, however, derived from mRNAs generated by splicing the fourth to the second exon. Although the genomic sequence is highly conserved, the analysis suggests that alternative splicing generates a higher complexity of human GCNF isoforms compared with the situation in the mouse.",
+   "found_by": [],
+   "pubdate": "2001",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39606449",
+   "title": "Variants in NR6A1 cause a novel oculo-vertebral-renal (OVR) syndrome.",
+   "abstract": "Colobomatous microphthalmia is a potentially blinding congenital ocular malformation that can present either in isolation or together with other syndromic features. Despite a strong genetic component to disease, many cases lack a molecular diagnosis. We describe a novel autosomal dominant oculo-vertebral-renal (OVR) syndrome in six independent families characterized by colobomatous microphthalmia, missing vertebrae and congenital kidney abnormalities. Genome sequencing identified six rare variants in the orphan nuclear receptor gene NR6A1 in these families. We performed in silico, cellular and zebrafish experiments to demonstrate the NR6A1 variants were pathogenic or likely pathogenic for OVR syndrome. Knockdown of either or both zebrafish paralogs of NR6A1 results in abnormal eye and somite development, which was rescued by wild-type but not variant NR6A1 mRNA. Illustrating the power of genomic ascertainment in medicine, our study establishes NR6A1 as a critical factor in eye and vertebral development and a pleiotropic gene responsible for OVR syndrome.",
+   "found_by": [],
+   "pubdate": "2024 Nov 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41733738",
+   "title": "Variants in NR6A1 as a cause for congenital renal, vertebral and uterine anomalies.",
+   "abstract": "The underlying cause for renal and uterine agenesis remains unknown in many cases, whereas recurrence in some families strongly suggests the involvement of genetic factors. Here, we identify 5 affected individuals from 3 families with phenotypes including bilateral or unilateral renal agenesis/hypoplasia, along with variable congenital uterine anomalies and costovertebral defects associated with heterozygous deleterious variants in NR6A1. The variant spectrum includes two inherited missense (c.1175T>G;p.(Met392Arg) and c.196C>T;p.(Arg66Cys)) as well as de novo loss of function, with the latter associated with a perinatal lethal phenotype characterized by bilateral renal agenesis. In vitro studies demonstrated partial loss-of-function for both missense variants. To investigate the role of NR6A1 in development, CRISPR-Cas9 zebrafish mutants for the orthologs nr6a1a and nr6a1b were generated. Mutants recapitulate the human phenotype, exhibiting impaired kidney development, including pronephros segmentation defects and adult kidney hypoplasia, along with axial skeletal abnormalities, cloacal anomalies, and disrupted anteroposterior expression of posterior hox genes. This study provides strong evidence linking NR6A1 heterozygous deleterious variants to renal, uterine and costovertebral defects in humans.",
+   "found_by": [],
+   "pubdate": "2026 Feb 24",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41973132",
+   "title": "Correction: Variants in NR6A1 as a cause for congenital renal, vertebral and uterine anomalies.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2026 Apr 13",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41080762",
+   "title": "Non-coding RNAs in congenital heart disease and placental development: Bridging molecular mechanisms to clinical biomarkers and therapies.",
+   "abstract": "Non-coding RNAs (ncRNAs) have emerged as pivotal regulators of gene expression, orchestrating embryonic development and disease pathogenesis. This review synthesizes current knowledge on the origin, biogenesis, and functional diversity of ncRNAs, with a focus on their regulatory crosstalk in congenital heart disease (CHD) and placental development. The fetal heart-placenta axis, a bidirectional signaling network essential for cardiogenesis and placental morphogenesis, is spatiotemporally modulated by ncRNAs through epigenetic and post-transcriptional mechanisms. Through precise regulation of cardiac cell differentiation, angiogenesis, and trophoblast invasion, ncRNAs maintain developmental homeostasis, whereas their dysregulation disrupts these processes, contributing to CHD pathogenesis and positioning them as promising biomarkers. Collectively, this review establishes ncRNAs as molecular bridges between the fetal heart-placenta axis and clinical translation, underscoring their dual utility as diagnostic biomarkers for CHD and modifiable targets to correct placental maldevelopment, thereby advancing precision therapies for congenital disorders. [full text, passages naming NR6A1] ...receptor. | \u2013 | [ | 201 ] miR-205 | Both | IL-32 | Regulate trophoblast proliferation, migration, invasion and tube formation ability of HUVECs | Pregnancy-induced hypertension | [ | 202 ] miR-377-3p | Both | NR6A1 | Regulate placental immune function | CHD | [ | 203 ] miR-424-5p | In vitro | LRP6 | suppressed trophoblast proliferation, migration, and invasion, as well as the tube formation of HUVECs | Placenta accr...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40127276",
+   "title": "Genomic analysis of 11,555 probands identifies 60 dominant congenital heart disease genes.",
+   "abstract": "Congenital heart disease (CHD) is a leading cause of infant mortality. We analyzed de novo mutations (DNMs) and very rare transmitted/unphased damaging variants in 248 prespecified genes in 11,555 CHD probands. The results identified 60 genes with a significant burden of heterozygous damaging variants. Variants in these genes accounted for CHD in 10.1% of probands with similar contributions from de novo and transmitted variants in parent-offspring trios that showed incomplete penetrance. DNMs in these genes accounted for 58% of the signal from DNMs. Thirty-three genes were linked to a single CHD subtype while 12 genes were associated with 2 to 4 subtypes. Seven genes were only associated with isolated CHD, while 37 were associated with 1 or more extracardiac abnormalities. Genes selectively expressed in the cardiomyocyte lineage were associated with isolated CHD, while those widely expressed in the brain were also associated with neurodevelopmental delay (NDD). Missense variants introducing or removing cysteines in epidermal growth factor (EGF)-like domains of NOTCH1 were enriched in tetralogy of Fallot and conotruncal defects, unlike the broader CHD spectrum seen with loss of function variants. Transmitted damaging missense variants in MYH6 were enriched in multiple CHD phenotypes and account for ~1% of all probands. Probands with characteristic mutations causing syndromic CHD were frequently not diagnosed clinically, often due to missing cardinal phenotypes. CHD genes that were positively or negatively associated with development of NDD suggest clinical value of genetic testing. These findings expand the understanding of CHD genetics and support the use of molecular diagnostics in CHD. [full text, passages naming NR6A1] ...scaffolding protein that regulates L-type calcium channels ( 52 ). SVEP1 encodes an extracellular adhesion protein that, in zebrafish, was responsive to blood flow and interacted with the VEGF pathway ( 53 ). NR6A1 , encoding a nuclear receptor, is implicated in vascular smooth muscle cell migration ( 54 ) and was upregulated in mice with CHD born of diabetic mothers ( 55 ). CLUH (pLI = 0.99), encodes an mRNA-bindin... ...40 10.1096/fj.05-3997com 53 , B. Coxam Svep1 stabilises developmental vascular anastomosis in reduced flow conditions . Development , 149 dev199858 ( 2022 ). 35312765 10.1242/dev.199858 PMC8977097 54 , Y. Wang NR6A1 couples with cAMP response element binding protein and regulates vascular smooth muscle cell migration . Int. J. Biochem. Cell Biol. , 69 225 \u2013 232 ( 2015 ). 26546462 10.1016/j.biocel.2015.10.026 55 , , N...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39132229",
+   "title": "Current genetic models for studying congenital heart diseases: Advantages and disadvantages.",
+   "abstract": "Congenital heart disease (CHD) encompasses a diverse range of structural and functional anomalies that affect the heart and the major blood vessels. Epidemiological studies have documented a global increase in CHD prevalence, which can be attributed to advancements in diagnostic technologies. Extensive research has identified a plethora of CHD-related genes, providing insights into the biochemical pathways and molecular mechanisms underlying this pathological state. In this review, we discuss the advantages and challenges of various In vitro and in vivo CHD models, including primates, canines, Xenopus frogs, rabbits, chicks, mice, Drosophila, zebrafish, and induced pluripotent stem cells (iPSCs). Primates are closely related to humans but are rare and expensive. Canine models are costly but structurally comparable to humans. Xenopus frogs are advantageous because of their generation of many embryos, ease of genetic modification, and cardiac similarity. Rabbits mimic human physiology but are challenging to genetically control. Chicks are inexpensive and simple to handle; however, cardiac events can vary among humans. Mice differ physiologically, while being evolutionarily close and well-resourced. Drosophila has genes similar to those of humans but different heart structures. Zebrafish have several advantages, including high gene conservation in humans and physiological cardiac similarities but limitations in cross-reactivity with mammalian antibodies, gene duplication, and limited embryonic stem cells for reverse genetic methods. iPSCs have the potential for gene editing, but face challenges in terms of 2D structure and genomic stability. CRISPR-Cas9 allows for genetic correction but requires high technical skills and resources. These models have provided valuable knowledge regarding cardiac development, disease simulation, and the verification of genetic factors. This review highlights the distinct features of various models with respect to their biological characteristics, vulnerability to developing specific heart diseases, approaches employed to induce particular conditions, and the comparability of these species to humans. Therefore, the selection of appropriate models is based on research objectives, ultimately leading to an enhanced comprehension of disease pathology and therapy. [full text, passages naming NR6A1] ...XRCC5 | Ku80 | Missense | K238Q | 27710 | NAA16 | Nat1 | Missense | R70C | 32357 | DTNA | Dyb | Missense | P295S | 32935 | ITGA7 | Mew | Missense | R279W | 44553 | PIK3CD | Pi3K92E | Missense | L347V | 61182 | NR6A1 | Hr4 | Missense | C120R | 54803 | BICD1 | BicD | Missense | D760E | 35405 | ALPL | CG5656 | Missense | A102T | 58334 | | CG10827 | | | 57526 | RDH5 | Sni | Missense | R280S | 31978 | FGFR4 | Htl | Missen...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "29286097",
+   "title": "Identification of key genes associated with congenital heart defects in embryos of diabetic mice.",
+   "abstract": "Maternal diabetes has been reported to be a critical factor for congenital heart defects (CHD) in offspring. The present study aimed to screen the key genes that may be involved in CHD in offspring of diabetic mothers. The present study obtained the gene expression profile of GSE32078, including three embryonic heart tissue samples at embryonic day\u00a013.5 (E13.5), three embryonic heart tissue samples at embryonic day 15.5 (E15.5) from diabetic mice and their respective controls from normal mice. The cut\u2011off criterion of P<0.08 was set to screen differentially expressed genes (DEGs). Their enrichment functions were predicted by Gene Ontology. The enriched pathways were forecasted by Kyoto Encyclopedia of Genes and Genomes and Reactome analysis. Protein\u2011protein interaction (PPI) networks for DEGs were constructed using Cytoscape. The present study identified 869 and 802 DEGs in E13.5 group and E15.5 group, respectively and 182 DEGs were shared by the two developmental stages. The pathway enrichment analysis results revealed that DEGs including intercellular adhesion molecule 1 (Icam1) and H2\u2011M9 were enriched in cell adhesion molecules; DEGs including bone morphogenetic protein receptor type 1A, transforming growth factor \u03b2 receptor 1 and SMAD specific E3 ubiquitin protein ligase 1 were enriched in the tumor growth factor\u2011\u03b2 signaling pathway. In addition, DEGs including Icam1, C1s and Fc fragment of IgG receptor IIb were enriched in Staphylococcus aureus infection. Furthermore, the shared DEGs including Icam1, nuclear receptor corepressor 1 (Ncor1) and AKT serine/threonine kinase 3 (Akt3) had high connectivity degrees in the PPI network. The shared DEGs including Icam1, Ncor1 and Akt3 may be important in the cardiogenesis of embryos. These genes may be involved in the development of CHD in the offspring of diabetic mothers. [full text, passages naming NR6A1] ...192 pathways. The upregulated DEGs in E15.5 group were enriched in 27 pathways and the downregulated DEGs in E15.5 group were enriched in 24 pathways. In addition, the shared DEGs that were upregulated such as Nr6a1 and Esrrg were enriched in nuclear receptor transcription pathway (P=5.09E-03) and the shared DEGs that were downregulated such as Pak3 and Pak1 were enriched in activation of Rac (P=1.85E-03) ( Table II... ...00 | Defects in vitamin and cofactor metabolism | 2.69\u00d710 | \u221203 | Amn, Mmaa, Mmab, Tcn2, Slc23a2, Mthfr, Rfk, Slc5a6, Mocs1, Ppcs 10 | Upregulated | 4810720 | Nuclear receptor genes in shared | 5.09\u00d710 | \u221203 | Nr6a1, Esrrg transcription pathway' 2 | DEGs | 4810917 | Interferon \u03b3 signaling | 9.26\u00d710 | \u221203 | Icam1, Oas1h 2 | | 4810918 | Interferon signaling | 2.35\u00d710 | \u221202 | Icam1, Oas1h 2 | | 4810429 | Generic transcr... ...y' 2 | DEGs | 4810917 | Interferon \u03b3 signaling | 9.26\u00d710 | \u221203 | Icam1, Oas1h 2 | | 4810918 | Interferon signaling | 2.35\u00d710 | \u221202 | Icam1, Oas1h 2 | | 4810429 | Generic transcription pathway | 3.07\u00d710 | \u221202 | Nr6a1, Esrrg 2 | | 4810016 | Immune system | 6.30\u00d710 | \u221202 | Icam1, Oas1h, C6, Fbxw11, Kif2a 5 | Downregulated | 4810839 | Activation of Rac | 1.85\u00d710 | \u221203 | Pak3, Pak1 2 | genes in shared | 4810573 | CD28 co-...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "24826987",
+   "title": "Rare de novo copy number variants in patients with congenital pulmonary atresia.",
+   "abstract": "BACKGROUND: Ongoing studies using genomic microarrays and next-generation sequencing have demonstrated that the genetic contributions to cardiovascular diseases have been significantly ignored in the past. The aim of this study was to identify rare copy number variants in individuals with congenital pulmonary atresia (PA). METHODS AND RESULTS: Based on the hypothesis that rare structural variants encompassing key genes play an important role in heart development in PA patients, we performed high-resolution genome-wide microarrays for copy number variations (CNVs) in 82 PA patient-parent trios and 189 controls with an Illumina SNP array platform. CNVs were identified in 17/82 patients (20.7%), and eight of these CNVs (9.8%) are considered potentially pathogenic. Five de novo CNVs occurred at two known congenital heart disease (CHD) loci (16p13.1 and 22q11.2). Two de novo CNVs that may affect folate and vitamin B12 metabolism were identified for the first time. A de novo 1-Mb deletion at 17p13.2 may represent a rare genomic disorder that involves mild intellectual disability and associated facial features. CONCLUSIONS: Rare CNVs contribute to the pathogenesis of PA (9.8%), suggesting that the causes of PA are heterogeneous and pleiotropic. Together with previous data from animal models, our results might help identify a link between CHD and folate-mediated one-carbon metabolism (FOCM). With the accumulation of high-resolution SNP array data, these previously undescribed rare CNVs may help reveal critical gene(s) in CHD and may provide novel insights about CHD pathogenesis. [full text, passages naming NR6A1] ...De novo | | NFKBIL1,LTA,TNF,NCR3 UK | 706346 | 6p21.33 | Loss | chr6:31467627-31570907 | 103 | De novo | | NFKBIL1,LTA,TNF,NCR3 UK | 875001 | 9q33.3 | Gain | Chr9:127104486-127759670 | 655 | De novo | | NR5A1,NR6A1 UK | 765647 | 10p13 | Gain | chr10:16883466-17058324 | 175 | De novo | | CUBN PP | 807411 | 13q33.1 | Gain | chr13:102902377-103345247 | 443 | De novo | | FGF14 UK | 894147 | 15q26.3 | Gain | chr15:990041...",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "28819228",
+   "title": "Convergent and divergent genetic changes in the genome of Chinese and European pigs.",
+   "abstract": "Since 10,000 BC, continuous human selection has led to intense genetic and phenotypic changes in pig (Sus scrofa) domestication. Through whole genome analysis of 257 individuals, we demonstrated artificial unidirectional and bidirectional selection as the primary force to shape the convergent and divergent changes between Chinese domestic pigs (CHD) and European domestic pigs (EUD). We identified 31 genes in unidirectional selection regions that might be related to fundamental domestication requirements in pigs. And these genes belong predominantly to categories related to the nervous system, muscle development, and especially to metabolic diseases. In addition, 35 genes, representing different breeding preference, were found under bidirectional selection for the distinct leanness and reproduction traits between CHD and EUD. The convergent genetic changes, contributing physical and morphological adaption, represent the common concerns on pig domestication. And the divergent genetic changes reflect distinct breeding goals between Chinese and European pigs. Using ITPR3, AHR and NMU as examples, we explored and validated how the genetic variations contribute to the phenotype changes. [full text, passages naming NR6A1] ...igned to meet human need . Previous genome scans for positive selection have identified sizeable genes that affect coat color, reproduction, body size, growth and metabolism 1 , 7 , 8 . For example, 7 , 9 \u2013 13 NR6A1 , LCORL , and PLAG1 exhibit strong signals of selection for increasing body length, and increase meat production in European domesticated pigs . 7 ESR1 , as a major quantitative trait locus for litter siz...",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "20623552": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11087161": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19220230": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28219741": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40252971": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30697340": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34828436": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41143168": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31302865": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33402462": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12080054": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24952347": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38754473": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31597862": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38505001": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34461824": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16293671": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25786244": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28776879": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7630732": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40740300": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37703114": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28377593": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35821031": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37889646": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30741434": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22435535": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35681814": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15882292": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26505423": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17431898": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23151514": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39053546": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40610405": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "12729562": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17305537": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25140725": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29057499": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18330480": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16155958": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33529666": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9177477": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40774958": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "9099702": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11387038": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15994320": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39606449": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "9537518": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41733738": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11134352": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41973132": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41261143": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41080762": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40127276": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39132229": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29286097": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24826987": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "28819228": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 219,
+   "usd": 0.007195,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "45 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3488,
+   "output_tokens": 188,
+   "usd": 0.004428,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 36.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 13069,
+   "output_tokens": 602,
+   "usd": 0.016079,
+   "calls": 3
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.6,
+   "note": "",
+   "input_tokens": 13910,
+   "output_tokens": 1021,
+   "usd": 0.095075,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>10</established>\n    <existing>63</existing>\n    <hypothesized>25</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>The strongest human evidence is the large sequencing study of 11,555 CHD probands (PMID 40127276), where NR6A1 appears among genes with a significant burden of damaging heterozygous variants and is discussed as a novel CHD candidate\u2014this is a single, credible human genetic study supporting \"Existing\" but not replicated independently. Other human NR6A1 variant studies establish an oculo-vertebral-renal syndrome and CAKUT (PMIDs 40610405, 39606449, 40774958, 41733738), phenotypes that are extracardiac, although these confirm NR6A1 as a developmental disease gene and note co-occurring developmental/cardiac phenotypes in the cohort. The de novo 9q33.3 duplication in pulmonary atresia (PMID 24826987) spans NR5A1 and NR6A1 and cannot implicate NR6A1 specifically. Supporting but non-human/mechanistic evidence includes miR-377-3p/NR6A1 regulation of placental macrophages in MC-LR-induced CHD in mice (PMID 39053546), upregulation in embryos of diabetic mice (PMID 29286097), and cardiac fibrosis modifier mapping in BXD mice (PMID 33529666). Since no two independent human studies report NR6A1 point variants causing CHD, \"Established\" is not warranted.</justification>\n  <pmids>\n    <pmid>40127276</pmid>\n    <pmid>39053546</pmid>\n    <pmid>29286097</pmid>\n    <pmid>24826987</pmid>\n    <pmid>33529666</pmid>\n    <pmid>40610405</pmid>\n    <pmid>39606449</pmid>\n    <pmid>40774958</pmid>\n    <pmid>41733738</pmid>\n  </pmids>\n</response>"
+}

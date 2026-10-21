@@ -1,0 +1,559 @@
+{
+ "gene": "ZMYND8",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "childhood autism",
+   "autistic behavior",
+   "Kanner syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "PRKCBP1",
+   "KIAA1125",
+   "RACK7",
+   "zinc finger MYND-type containing 8"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 43,
+  "titlekicksparingfulltext": 17,
+  "read": 10
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 24,
+   "Existing": 58,
+   "Hypothesized": 16,
+   "Novel": 2
+  },
+  "justification": "The only primary patient-based study in the list is PMID 35916866, which reports 11 unrelated individuals with (mostly de novo) ZMYND8 variants causing a syndromic neurodevelopmental disorder with intellectual disability and cardiac anomalies \u2014 directly relevant to ASD-related neurodevelopment but not framed as an ASD cohort. Several reviews (PMIDs 31220745, 34768579, 42401939, 42794468) list ZMYND8 as an ASD risk gene based on the Autism Sequencing Consortium exome study (Satterstrom et al.) and SFARI Category 1 classification, but these are secondary citations rather than independent primary evidence. The remaining papers (PMIDs 26655721, 34764296, 36153585) are purely molecular/chromatin-biology studies, and PMID 36803626 is a rat BPA model, supporting only biological plausibility. Since I cannot cite two independent primary human studies with ZMYND8 variants in ASD probands, Established is not justified, and Existing best captures the credible but limited/indirect human genetic evidence.",
+  "pmids": [],
+  "detail": {
+   "Established": 24,
+   "Existing": 58,
+   "Hypothesized": 16,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35916866",
+   "title": "De Novo ZMYND8 variants result in an autosomal dominant neurodevelopmental disorder with cardiac malformations.",
+   "abstract": "PURPOSE: ZMYND8 encodes a multidomain protein that serves as a central interactive hub for coordinating critical roles in transcription regulation, chromatin remodeling, regulation of super-enhancers, DNA damage response and tumor suppression. We delineate a novel neurocognitive disorder caused by variants in the ZMYND8 gene. METHODS: An international collaboration, exome sequencing, molecular modeling, yeast two-hybrid assays, analysis of available transcriptomic data and a knockdown Drosophila model were used to characterize the ZMYND8 variants. RESULTS: ZMYND8 variants were identified in 11 unrelated individuals; 10 occurred de novo and one suspected de novo; 2 were truncating, 9 were missense, of which one was recurrent. The disorder is characterized by intellectual disability with variable cardiovascular, ophthalmologic and minor skeletal anomalies. Missense variants in the PWWP domain of ZMYND8 abolish the interaction with Drebrin and missense variants in the MYND domain disrupt the interaction with GATAD2A. ZMYND8 is broadly expressed across cell types in all brain regions and shows highest expression in the early stages of brain development. Neuronal knockdown of the DrosophilaZMYND8 ortholog results in decreased habituation learning, consistent with a role in cognitive function. CONCLUSION: We present genomic and functional evidence for disruption of ZMYND8 as a novel etiology of syndromic intellectual disability.",
+   "found_by": [],
+   "pubdate": "2022 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34764296",
+   "title": "ZMYND8 mediated liquid condensates spatiotemporally decommission the latent super-enhancers during macrophage polarization.",
+   "abstract": "Super-enhancers (SEs) govern macrophage polarization and function. However, the mechanism underlying the signal-dependent latent SEs remodeling in macrophages remains largely undefined. Here we show that the epigenetic reader ZMYND8 forms liquid compartments with NF-\u03baB/p65 to silence latent SEs and restrict macrophage-mediated inflammation. Mechanistically, the fusion of ZMYND8 and p65 liquid condensates is reinforced by signal-induced acetylation of p65. Then acetylated p65 guides the ZMYND8 redistribution onto latent SEs de novo generated in polarized macrophages, and consequently, recruit LSD1 to decommission latent SEs. The liquidity characteristic of ZMYND8 is critical for its regulatory effect since mutations coagulating ZMYND8 into solid compartments disable the translocation of ZMYND8 and its suppressive function. Thereby, ZMYND8 serves as a molecular rheostat to switch off latent SEs and control the magnitude of the immune response. Meanwhile, we propose a phase separation model by which the latent SEs are fine-tuned in a spatiotemporal manner.",
+   "found_by": [],
+   "pubdate": "2021 Nov 11",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "26655721",
+   "title": "Selective Recognition of H3.1K36 Dimethylation/H4K16 Acetylation Facilitates the Regulation of All-trans-retinoic Acid (ATRA)-responsive Genes by Putative Chromatin Reader ZMYND8.",
+   "abstract": "ZMYND8 (zinc finger MYND (Myeloid, Nervy and DEAF-1)-type containing 8), a newly identified component of the transcriptional coregulator network, was found to interact with the Nucleosome Remodeling and Deacetylase (NuRD) complex. Previous reports have shown that ZMYND8 is instrumental in recruiting the NuRD complex to damaged chromatin for repressing transcription and promoting double strand break repair by homologous recombination. However, the mode of transcription regulation by ZMYND8 has remained elusive. Here, we report that through its specific key residues present in its conserved chromatin-binding modules, ZMYND8 interacts with the selective epigenetic marks H3.1K36Me2/H4K16Ac. Furthermore, ZMYND8 shows a clear preference for canonical histone H3.1 over variant H3.3. Interestingly, ZMYND8 was found to be recruited to several developmental genes, including the all-trans-retinoic acid (ATRA)-responsive ones, through its modified histone-binding ability. Being itself inducible by ATRA, this zinc finger transcription factor is involved in modulating other ATRA-inducible genes. We found that ZMYND8 interacts with transcription initiation-competent RNA polymerase II phosphorylated at Ser-5 in a DNA template-dependent manner and can alter the global gene transcription. Overall, our study identifies that ZMYND8 has CHD4-independent functions in regulating gene expression through its modified histone-binding ability.",
+   "found_by": [],
+   "pubdate": "2016 Feb 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36153585",
+   "title": "ARID1A-dependent maintenance of H3.3 is required for repressive CHD4-ZMYND8 chromatin interactions at super-enhancers.",
+   "abstract": "BACKGROUND: SWI/SNF (BAF) chromatin remodeling complexes regulate lineage-specific enhancer activity by promoting accessibility for diverse DNA-binding factors and chromatin regulators. Additionally, they are known to modulate the function of the epigenome through regulation of histone post-translational modifications and nucleosome composition, although the way SWI/SNF complexes govern the epigenome remains poorly understood. Here, we investigate the function of ARID1A, a subunit of certain mammalian SWI/SNF chromatin remodeling complexes associated with malignancies and benign diseases originating from the uterine endometrium. RESULTS: Through genome-wide analysis of human endometriotic epithelial cells, we show that more than half of ARID1A binding sites are marked by the variant histone H3.3, including active regulatory elements such as super-enhancers. ARID1A knockdown leads to H3.3 depletion and gain of canonical H3.1/3.2 at ARID1A-bound active regulatory elements, and a concomitant redistribution of H3.3 toward genic elements. ARID1A interactions with the repressive chromatin remodeler CHD4 (NuRD) are associated with H3.3, and ARID1A is required for CHD4 recruitment to H3.3. ZMYND8 interacts with CHD4 to suppress a subset of ARID1A, CHD4, and ZMYND8 co-bound, H3.3+ H4K16ac+ super-enhancers near genes governing extracellular matrix, motility, adhesion, and epithelial-to-mesenchymal transition. Moreover, these gene expression alterations are observed in human endometriomas. CONCLUSIONS: These studies demonstrate that ARID1A-containing BAF complexes are required for maintenance of the histone variant H3.3 at active regulatory elements, such as super-enhancers, and this function is required for the physiologically relevant activities of alternative chromatin remodelers.",
+   "found_by": [],
+   "pubdate": "2022 Sep 25",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42794468",
+   "title": "Targeted 3.34-Million CpG Site Sequencing Reveals Preliminary Cord Blood Epigenetic Alterations of Autism Spectrum Disorder: A Pilot Study Highlighting the &lt;i&gt;PCDHA1&lt;/i&gt;-&lt;i&gt;PCDHA8&lt;/i&gt; Cluster.",
+   "abstract": "Rising reported Autism Spectrum Disorder (ASD) prevalence underscores the need to explore early perinatal biological markers. To conduct an exploratory pilot investigation of cord blood DNA methylation patterns as potential early epigenetic candidate loci associated with ASD in infants born to mothers with obesity and gestational diabetes. This prospective pilot study analyzed 14 mother-infant pairs comprising infants born to mothers with obesity and gestational diabetes later diagnosed with ASD (n = 2); healthy infants born to mothers with obesity and diabetes (IODM, n = 6); and healthy controls (IHM, n = 6). Targeted methyl-capture sequencing (covering 3.34 million CpG sites) identified differentially methylated region (DMR)-associated genes. Neurodevelopment was evaluated at 24-26 months using Bayley-III scales. ASD infants showed lower Bayley-III scores across all domains. In this small cohort (n = 2 ASD cases), we identified 249 DMR-associated genes common to both ASD vs. IHM and ASD vs. IODM comparisons, representing preliminary candidate loci. Enrichment analysis identified homophilic cell-cell adhesion as the most significant pathway (fold enrichment = 8.28; FDR = 6.31 \u00d7 10-6), driven by the PCDH1-PCDHA8 cluster, alongside morphogenesis in neuron differentiation (fold enrichment = 3.45; FDR = 2.08 \u00d7 10-2). Although prospective validation in larger independent cohorts is required, these pilot results suggest that cord blood PCDHA1-PCDHA8 cluster methylation alterations represent preliminary candidate loci for hypothesis generation and future biomarker evaluation, regardless of maternal metabolic status. [full text, passages naming ZMYND8] ...= 29), with the PCDH gene cluster also highlighted in blue. SFARI Category | ASD vs. IHM ( | n = 45) ASD vs. IODM ( | n = 52) 1: High Confidence | | CACNA1A , CASZ1 , , GABRB3 GRIN1 , , MYT1L NLGN2 , , PCDH19 ZMYND8 | ANKRD11 , DEAF1 , DMPK , EBF3 , , GABRB3 , MYT1L PCDH19 2: Strong Candidate | | ABAT , ABCA13 , , AGAP2 , BCAS1 , CACNA1H , CDH22 , CMIP , CNTN4 , CSMD1 CUX1 , CYFIP1 , , DLGAP2 DOCK4 , , GNAS , KCNQ2... ...revealed that 45 genes were common to both comparisons. Notably, 8 genes were identified as Category 1 (High Confidence) risk factors, including CACNA1A , CASZ1 , GABRB3 , GRIN1 , MYT1L , NLGN2 , PCDH19 , and ZMYND8 . The largest proportion of overlapping genes ( n = 34) was classified as Category 2 (Strong Candidate), featuring essential synaptic and cell-adhesion molecules such as KCNQ2 , CNTN4 , and the PCDHA1 \u2013...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming ZMYND8] ...EM232 , TMEM8A , TNPO3 , TRAF7 , TRANK1 , TRIM23 , TRIP12 , TRPM1 , TSC1 , TSC2 , TSHZ1 , TTC19 , TTC21A , UBAC1 , UBE3A , UBR1 , UNC13A , UNC79 , USP7 , VAMP2 , VEZF1 , VPS13B , WAC , WDFY3 , ZBTB21 , ZMYM2 , ZMYND8 , ZNF292 , ZNF816 Functions of the abovementioned genes and possible ASD associations are listed in Supplementary Table 3 [ 4 , 5 , 6 , 9 , 21 , 35 \u2013 50 ]. Protein functions of each gene were searched us...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34768579",
+   "title": "Genotype-Phenotype Correlations in Relation to Newly Emerging Monogenic Forms of Autism Spectrum Disorder and Associated Neurodevelopmental Disorders: The Importance of Phenotype Reevaluation after Pangenomic Results.",
+   "abstract": "ASD genetic diagnosis has dramatically improved due to NGS technologies, and many new causative genes have been discovered. Consequently, new ASD phenotypes have emerged. An extensive exome sequencing study carried out by the Autism Sequencing Consortium (ASC) was published in February 2020. The study identified 102 genes which are de novo mutated in subjects affected by autism spectrum disorder (ASD) or similar neurodevelopmental disorders (NDDs). The majority of these genes was already known to be implicated in ASD or NDDs, whereas approximately 30 genes were considered \"novel\" as either they were not previously associated with ASD/NDDs or very little information about them was present in the literature. The aim of this work is to review the current literature since the publication of the ASC paper to see if new data mainly concerning genotype-phenotype correlations of the novel genes have been added to the existing one. We found new important clinical and molecular data for 6 of the 30 novel genes. Though the broad and overlapping neurodevelopmental phenotypes observed in most monogenic forms of NDDs make it difficult for the clinical geneticist to address gene-specific tests, knowledge of these new data can at least help to prioritize and interpret results of pangenomic tests to some extent. Indeed, for some of the new emerging genes analyzed in the present work, specific clinical features emerged that may help the clinical geneticist to make the final diagnosis by associating the genetic test results with the phenotype. The importance of this relatively new approach known as \"reverse phenotyping\" will be discussed. [full text, passages naming ZMYND8] ...PRR12 Neuronal communication | Variable structural eye defects | LDB1 | Gene expression regulation | - | EIF3G | Gene expression regulation | - | KIAA0232 | Other | - | VEZF1 | Gene expression regulation | - | ZMYND8 | Gene expression regulation | - | | SATB1 Gene expression regulation | Severe ID and epilepsy (patients with missense variants), eye and dental anomalies | | RFX3 Gene expression regulation | Distinct b...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31220745",
+   "title": "Convergence of spectrums: neuronal gene network states in autism spectrum disorder.",
+   "abstract": "Autism spectrum disorder (ASD) is a prevalent neurodevelopmental disorder characterized by social deficits and restrictive and/or repetitive behaviors. The breadth of ASD symptoms is paralleled by the multiplicity of genes that have been implicated in its etiology. Initial findings revealed numerous ASD risk genes that contribute to synaptic function. More recently, genomic and gene expression studies point to altered chromatin function and impaired transcriptional control as additional risk factors for ASD. The consequences of impaired transcriptional alterations in ASD involve consistent changes in synaptic gene expression and cortical neuron specification during brain development. The multiplicity of genetic and environmental factors associated with ASD risk and their convergence onto common molecular pathways in neurons point to ASD as a disorder of gene regulatory networks. [full text, passages naming ZMYND8] ...., 2018 | | | | Tuoc et al., 2017; Tuoc et al., 2013 | | SUV420H1/K MT5B | De Rubeis et al., 2014; Sanders et al., 2015; Satterstrom et al., 2018 | Mental retardation, autosomal dominant 51 | AD | 617788 | | | ZMYND8 | Satterstrom et al., 2018 | | | | | | | Transcription regulator BCL11A | De Rubeis et al., 2014; Sanders et al., 2015; Satterstrom et al., 2018 | Dias-Logan syndrome | AD | 617101 | Dias et al., 2016 |...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33679889",
+   "title": "Case Report: Whole Exome Sequencing Revealed Disease-Causing Variants in Two Genes in a Patient With Autism Spectrum Disorder, Intellectual Disability, Hyperactivity, Sleep and Gastrointestinal Disturbances.",
+   "abstract": "Autism Spectrum Disorder (ASD) refers to a broad range of conditions characterized by difficulties in communication, social interaction and behavior, and may be accompanied by other medical or psychiatric conditions. Patients with ASD and comorbidities are often difficult to diagnose because of the tendency to consider the multiple symptoms as the presentation of a complicated syndromic form. This view influences variant filtering which might ignore causative variants for specific clinical features shown by the patient. Here we report on a male child diagnosed with ASD, showing cognitive and motor impairments, stereotypies, hyperactivity, sleep, and gastrointestinal disturbances. The analysis of whole exome sequencing (WES) data with bioinformatic tools for oligogenic diseases helped us to identify two major previously unreported pathogenetic variants: a maternally inherited missense variant (p.R4122H) in HUWE1, an ubiquitin protein ligase associated to X-linked intellectual disability and ASD; and a de novo stop variant (p.Q259X) in TPH2, encoding the tryptophan hydroxylase 2 enzyme involved in serotonin synthesis and associated with susceptibility to attention deficit-hyperactivity disorder (ADHD). TPH2, expressed in central and peripheral nervous tissues, modulates various physiological functions, including gut motility and sleep. To the best of our knowledge, this is the first case presenting with ASD, cognitive impairment, sleep, and gastrointestinal disturbances linked to both HUWE1 and TPH2 genes. Our findings could contribute to the existing knowledge on clinical and genetic diagnosis of patients with ASD presentation with comorbidities. [full text, passages naming ZMYND8] ...AMP2, SNAP25, PTEN, RELN, NTRK2, MECP2, | ITPR3 , GRIN2B, GRIN2A, SHANK3, DRD1, TSHZ3, NLGN3, SHANK1 GO:0060999 | Positive regulation of dendritic spine development | 10 | 934 | 23 | 18,883 | 0.0000 | 0.0000 | ZMYND8, SHANK2, NLGN1, | DLG5 , CDKL5, ITSN1, MTOR, FMR1, SHANK3, SHANK1 GO:0007623 | Circadian rhythm | 17 | 934 | 91 | 18,883 | 0.0000 | 0.0001 | NCOR1, NR1D1, PER2, SLC6A4, RORA, PER1, SERPINE1, NTRK3, NTRK2...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36803626",
+   "title": "Investigation of autism-related transcription factors underlying sex differences in the effects of bisphenol A on transcriptome profiles and synaptogenesis in the offspring hippocampus.",
+   "abstract": "BACKGROUND: Bisphenol A (BPA) has been linked to susceptibility to autism spectrum disorder (ASD). Our recent studies have shown that prenatal BPA exposure disrupted ASD-related gene expression in the hippocampus, neurological functions, and behaviors associated with ASD in a sex-specific pattern. However, the molecular mechanisms underlying the effects of BPA are still unclear. METHODS: Transcriptome data mining and molecular docking analyses were performed to identify ASD-related transcription factors (TFs) and their target genes underlying the sex-specific effects of prenatal BPA exposure. Gene ontology analysis was conducted to predict biological functions associated with these genes. The expression levels of ASD-related TFs and targets in the hippocampus of rat pups prenatally exposed to BPA were measured using qRT-PCR analysis. The role of the androgen receptor (AR) in BPA-mediated regulation of ASD candidate genes was investigated using a human neuronal cell line stably transfected with AR-expression or control plasmid. Synaptogenesis, which is a function associated with genes transcriptionally regulated by ASD-related TFs, was assessed using primary hippocampal neurons isolated from male and female rat pups prenatally exposed to BPA. RESULTS: We found that there was a sex difference in ASD-related TFs underlying the effects of prenatal BPA exposure on the transcriptome profiles of the offspring hippocampus. In addition to the known BPA targets AR and ESR1, BPA could directly interact with novel targets (i.e., KDM5B, SMAD4, and TCF7L2). The targets of these TFs were also associated with ASD. Prenatal BPA exposure disrupted the expression of ASD-related TFs and targets in the offspring hippocampus in a sex-dependent manner. Moreover, AR was involved in the BPA-mediated dysregulation of AUTS2, KMT2C, and SMARCC2. Prenatal BPA exposure altered synaptogenesis by increasing synaptic protein levels in males but not in females, but the number of excitatory synapses was increased in female primary neurons only. CONCLUSIONS: Our findings suggest that AR and other ASD-related TFs are involved in sex differences in the effects of prenatal BPA exposure on transcriptome profiles and synaptogenesis in the offspring hippocampus. These TFs may play an essential role in an increased ASD susceptibility associated with endocrine-disrupting chemicals, particularly BPA, and the male bias of ASD. [full text, passages naming ZMYND8] ...trum disorder or intellectual disability | 1.04E\u221207 | | Adnp , Chd2 , Cic , Dst , Gria3 , Kirrel3 , Kmt2b , Kmt2c , Kmt2d , Mef2c , Nipbl , Nsd1 , Slc25a12 , Snap25 , Sptan1 , Syncrip , Tnrc6c , Wdfy3 , Zic1 , Zmynd8 20 | Microcephaly | 1.16E\u221205 | | Adnp , Hspg2 , Kmt2c , Kmt2d , Nsd1 , Sptan1 , Tp53bp1 , Trps1 , Wdfy3 9 | Growth failure or short stature | 3.08E\u221205 | | Ckb , Eif2ak3 , Hspg2 , Itpkb , Jup , Kdm2a , Km...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "26413716": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42458442": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40125808": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40663630": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28486105": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32832624": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38670588": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32530565": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40486545": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11888892": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28055972": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39017853": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30952871": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31692588": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11003709": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37463531": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42894051": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33323928": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36692427": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34487730": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33670804": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35916866": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34764296": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26655721": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36153585": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35253884": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42794468": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40188316": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40081369": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34768579": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42680762": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31220745": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33679889": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36803626": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35294868": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32668441": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41231825": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36950384": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39068192": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31398277": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25525873": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23647072": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.3,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 189,
+   "usd": 0.006455,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "17 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "18 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 1757,
+   "output_tokens": 98,
+   "usd": 0.002247,
+   "calls": 3
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 79.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 16273,
+   "output_tokens": 602,
+   "usd": 0.019283,
+   "calls": 3
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.5,
+   "note": "",
+   "input_tokens": 9677,
+   "output_tokens": 955,
+   "usd": 0.07226,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>24</established>\n    <existing>58</existing>\n    <hypothesized>16</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>The only primary patient-based study in the list is PMID 35916866, which reports 11 unrelated individuals with (mostly de novo) ZMYND8 variants causing a syndromic neurodevelopmental disorder with intellectual disability and cardiac anomalies \u2014 directly relevant to ASD-related neurodevelopment but not framed as an ASD cohort. Several reviews (PMIDs 31220745, 34768579, 42401939, 42794468) list ZMYND8 as an ASD risk gene based on the Autism Sequencing Consortium exome study (Satterstrom et al.) and SFARI Category 1 classification, but these are secondary citations rather than independent primary evidence. The remaining papers (PMIDs 26655721, 34764296, 36153585) are purely molecular/chromatin-biology studies, and PMID 36803626 is a rat BPA model, supporting only biological plausibility. Since I cannot cite two independent primary human studies with ZMYND8 variants in ASD probands, Established is not justified, and Existing best captures the credible but limited/indirect human genetic evidence.</justification>\n  <pmids>\n    <pmid>35916866</pmid>\n    <pmid>31220745</pmid>\n    <pmid>34768579</pmid>\n    <pmid>42401939</pmid>\n    <pmid>42794468</pmid>\n    <pmid>36803626</pmid>\n    <pmid>33679889</pmid>\n  </pmids>\n</response>"
+}

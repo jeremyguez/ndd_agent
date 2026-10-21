@@ -1,0 +1,272 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 7,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Expanding the phenotype of NEDAMSS with a psychiatric perspective: analysis of a new case, and a systematic review of the literature (PMID: 39031186)",
+        "num_patients": 33,
+        "variants": [
+          {
+            "description": "Not specified in abstract (novel case plus 32 previously reported NEDAMSS cases)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental regression",
+              "abnormal movements",
+              "loss of speech",
+              "seizures",
+              "catatonia",
+              "affective disorders",
+              "psychotic symptoms",
+              "developmental disorders",
+              "motor symptoms improved with lorazepam after catatonia diagnosis"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic IRF2BPL variants causing NEDAMSS; variant-level details not given in abstract",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - PgmNr 3148: Unravelling the mechanism underlying IRF2BPL in a neurodevelopmental disorder with regression, abnormal movements, loss of speech, and seizures",
+        "num_patients": 7,
+        "variants": [
+          {
+            "description": "De novo nonsense variants in IRF2BPL (5 individuals; specific changes not given)",
+            "type": "LoF",
+            "phenotypes": [
+              "severe neurodevelopmental disorder with regression",
+              "abnormal movements",
+              "loss of speech",
+              "seizures"
+            ]
+          },
+          {
+            "description": "De novo missense variants in IRF2BPL (2 individuals; specific changes not given)",
+            "type": "missense",
+            "phenotypes": [
+              "seizures",
+              "global developmental delay",
+              "autism spectrum disorder",
+              "milder phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants; nonsense variants behaved as severe loss-of-function alleles in Drosophila and missense variants gave milder phenotypes",
+        "center_country": "Duke University (Shashi) and Baylor College of Medicine/Texas Children's (Bellen, Wangler), USA",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - PgmNr 1279: Development of clinical and model organism platforms to inform the phenotypic spectrum and functional characteristics of newly-identified variants in IRF2BPL",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "De novo truncating variants (specific changes not given)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurological regression after initial normal development",
+              "gait deterioration",
+              "loss of intentional movements",
+              "dysarthria",
+              "loss of speech",
+              "movement disorder",
+              "seizures",
+              "loss of fine motor skills"
+            ]
+          },
+          {
+            "description": "Missense variants (specific changes not given)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "autism spectrum disorder",
+              "seizures",
+              "no neuroregression"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo truncating variants; Drosophila functional studies used to assess variants of uncertain significance",
+        "center_country": "Duke University, USA",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - The genetic landscape of the developmental and epileptic encephalopathies",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo variant in IRF2BPL (specific change not given); second case identified by targeted sequencing",
+            "type": "other",
+            "phenotypes": [
+              "developmental and epileptic encephalopathy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant in a candidate gene, with a second case identified in targeted sequencing of about 750 DEE patients",
+        "center_country": "University of Washington, USA; University of Melbourne, Australia",
+        "cohort": null
+      },
+      {
+        "citation": "Drosophila functional screening of de novo variants in autism uncovers damaging variants and facilitates discovery of rare neurodevelopmental diseases (PMID: 35294868)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "IRF2BPL p.Arg86Pro (R86P), de novo missense from the Simons Simplex Collection",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "IRF2BPL N701Tfs*66 frameshift (possibly another variant listed as F30L, which is ambiguous in the text)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants in ASD probands; behaved as loss-of-function alleles in Drosophila overexpression assays",
+        "center_country": "Baylor College of Medicine, USA",
+        "cohort": null
+      },
+      {
+        "citation": "Phenotypic and genetic analysis of children with unexplained neurodevelopmental delay and neurodevelopmental comorbidities in a Chinese cohort using trio-based whole-exome sequencing (PMID: 38764027)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "IRF2BPL variant (specific change not given)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental delay",
+              "neurodevelopmental comorbidities",
+              "autism spectrum disorder gene category (SFARI high-confidence/syndromic)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic variant identified by trio whole-exome sequencing",
+        "center_country": "China",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Marcogliese et al. 2022 - Loss of IRF2BPL impairs neuronal maintenance through excess Wnt signaling (PMID: 35044823)",
+        "organism": "zebrafish",
+        "knockout_type": "other (irf2bpl loss-of-function in zebrafish; the abstract does not specify whether it was a knockout or a knockdown)",
+        "phenotypes": [
+          "neurological defects",
+          "increased wnt1 transcription and increased downstream Wnt signaling",
+          "pharmacological inhibition of Wnt suppressed the neurological phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "De novo variants of IRF2BPL result in developmental epileptic disorder (PMID: 38481258)",
+        "organism": "zebrafish",
+        "knockout_type": "other (CRISPR crispants, F0 mosaic disruption of irf2bpl)",
+        "phenotypes": [
+          "reduced body length",
+          "spontaneous ictal-like and interictal-like electrographic discharges (seizures) on electrophysiology",
+          "some developmental improvement after spasms were controlled"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zhang et al. 2022 - N(6)-methyladenosine-modified circRNA RERE modulates osteoarthritis by regulating \u03b2-catenin ubiquitination and degradation (PMID: 35733354)",
+        "organism": "mouse",
+        "knockout_type": "knockdown (AAV-sh-Irf2bpl intra-articular injection in the DMM osteoarthritis model)",
+        "phenotypes": [
+          "Irf2bpl knockdown reduced the chondroprotective effect of circRere overexpression in DMM-induced osteoarthritis",
+          "the detrimental effects of sh-Irf2bpl were counteracted by the \u03b2-catenin inhibitor ICG-001"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Marcogliese et al. 2022 - Loss of IRF2BPL impairs neuronal maintenance through excess Wnt signaling (PMID: 35044823)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In Drosophila and zebrafish, IRF2BPL and its ortholog Pits repress Wnt transcription. Neuronal loss of Pits raises wingless levels and causes axonal loss, and Wg inhibition is neuroprotective. Zebrafish irf2bpl loss increases wnt1 signaling, and patient astrocytes show increased WNT1. IRF2BPL physically and genetically interacts with the Wnt antagonist CKI\u03b1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ginevrino/Tsai et al. 2022 - Mechanisms of IRF2BPL-related disorders and identification of a potential therapeutic strategy (PMID: 36476864)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In patient fibroblast-derived astrocytes and neurons, full-length IRF2BPL is nuclear. Truncated NEDAMSS variants sequester wild-type protein to the cytoplasm and cause aggregation. Patient astrocytes fail to support neuronal survival and show mitochondrial and respiratory dysfunction, which CuATSM rescues. In flies, truncated IRF2BPL causes cytoplasmic accumulation of full-length protein, and heterozygous Pits truncations cause progressive motor defects that CuATSM ameliorates.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Marcogliese et al. 2018 - IRF2BPL Is Associated with Neurological Phenotypes (PMID: 30057031)",
+        "evidence_subtype": "fly_worm",
+        "summary": "The fly ortholog pits is broadly expressed, including in the nervous system. Complete loss of pits is lethal early in development, and neuronal RNAi knockdown causes neurodegeneration. Patient nonsense variants act as severe loss-of-function alleles in flies, while missense variants give a range of phenotypes.",
+        "sample_size": "7 patients",
+        "significance": null
+      },
+      {
+        "citation": "Gastric cancer study 2018 - Forkhead Box F2 Suppresses Gastric Cancer through a Novel FOXF2-IRF2BPL-\u03b2-Catenin Signaling Axis (PMID: 29374064)",
+        "evidence_subtype": "pathway",
+        "summary": "FOXF2 directly binds the IRF2BPL promoter and induces its transcription. IRF2BPL, an E3 ligase, interacts with \u03b2-catenin and increases its ubiquitination and degradation, which blunts Wnt signaling in gastric cancer cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2022 - N(6)-methyladenosine-modified circRNA RERE modulates osteoarthritis by regulating \u03b2-catenin ubiquitination and degradation (PMID: 35733354)",
+        "evidence_subtype": "pathway",
+        "summary": "circRERE sponges miR-195-5p to upregulate IRF2BPL, which promotes \u03b2-catenin ubiquitination and degradation in chondrocytes. In a mouse DMM osteoarthritis model, AAV-sh-Irf2bpl worsened OA and the \u03b2-catenin inhibitor ICG-001 reversed this effect.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - IRF2BPL inhibits proliferation, migration and invasion of osteosarcoma cells by inhibiting FOSL2-mediated PI3K/AKT pathway activation (PMID: 40834975)",
+        "evidence_subtype": "cell_culture",
+        "summary": "IRF2BPL is downregulated in osteosarcoma and correlates with patient survival. Overexpression suppresses proliferation, migration and invasion in vitro and in xenografts, and silencing enhances them. It acts by promoting ubiquitin-mediated degradation of FOSL2, thereby inhibiting PI3K/AKT/mTOR signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - IRF2BPL transcriptionally regulates IGFBP2 to promote tumor progression and suppresses immune cell infiltration in esophageal squamous cell carcinoma (PMID: 41413713)",
+        "evidence_subtype": "function",
+        "summary": "IRF2BPL is highly expressed in ESCC cells and acts as a transcriptional activator of IGFBP2, promoting tumor progression in vitro and in vivo and reducing immune cell infiltration. ONC201 impedes the progression driven by the IRF2BPL-IGFBP2 axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2021 - Identification and Functional Characterization of a Novel Androgen Receptor Coregulator, EAP1 (PMID: 34585037)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EAP1 (IRF2BPL) was identified by rapid immunoprecipitation mass spectrometry as a labile AR interactor. It enhances AR transcriptional activity through E3 ubiquitin ligase activity, with AR and HDAC1 as ubiquitination substrates. Its expression correlates with AR expression and poor prognosis in prostate cancer specimens.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2020 - Neurodevelopmental disorder caused by a truncating de novo variant of IRF2BPL (PMID: 33278788)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Bioinformatic PPI network analysis links IRF2BPL to IRF2 and 10 other genes and to ubiquitin binding. The truncating variant altered the cellular localization of IRF2BPL and significantly decreased ubiquitinated protein levels, suggesting impaired ubiquitin-proteasome function.",
+        "sample_size": "1 patient; 25 patients reviewed",
+        "significance": null
+      },
+      {
+        "citation": "2024 - IRF2BPL-Related Disorder (NEDAMSS) Is Characterized by Pathology Consistent with DRPLA (PMID: 39224955)",
+        "evidence_subtype": "expression",
+        "summary": "The p.Arg188Ter variant gives variable mRNA levels by cell type, with decreased mRNA in brain, and destabilizes the protein in patient-derived cells. Postmortem brain showed DRPLA-like pathology with polyQ inclusions, suggesting a role for the IRF2BPL polyQ tract.",
+        "sample_size": "1 patient",
+        "significance": null
+      }
+    ]
+  }
+}

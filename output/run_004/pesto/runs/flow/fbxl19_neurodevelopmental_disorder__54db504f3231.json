@@ -1,0 +1,497 @@
+{
+ "gene": "FBXL19",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental disability",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "neurodevelopmental impairment",
+   "neurodevelopmental delay",
+   "neurodevelopmental phenotype"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "DKFZP434K0410",
+   "FBL19",
+   "JHDM1C",
+   "CXXC11",
+   "F-box and leucine rich repeat protein 19"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 29,
+  "titlekicksparingfulltext": 15,
+  "read": 11
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 2,
+   "Existing": 37,
+   "Hypothesized": 52,
+   "Novel": 9
+  },
+  "justification": "No article reports independent probands or families with single-gene FBXL19 variants causing a neurodevelopmental disorder, so Established is excluded. The strongest human genetic signal comes from the CNV meta-analysis (PMID 38850022), which nominates FBXL19 as a candidate dosage-sensitive driver within 16p11.2/16p12.2 NDD-risk CNVs; however, multigenic CNVs cannot single out FBXL19, and it is only listed as a \"possible\" gene (not exome-wide significant) in the arachnoid cyst de novo variant study (PMID 36879130). Biological plausibility is substantial: FBXL19 is a CXXC-domain CpG-island reader that recruits the CDK-Mediator complex to prime developmental gene activation and interacts with MED13L, a bona fide NDD gene (PMID 40775066); it also regulates Rac3, implicated in neuronal development (PMIDs 31514269, 24684802), and belongs to the ubiquitin machinery expressed during corticogenesis (PMID 35974412). Most remaining literature concerns lung/endothelial inflammation and is irrelevant, and the GWAS mention of FBXL19 in suicidality failed replication (PMID 36515925), so the balance favors Hypothesized with meaningful probability for Existing.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 37,
+   "Hypothesized": 52,
+   "Novel": 9
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38712759",
+   "title": "FBXL19 Targeted STK11 Degradation Enhances Cigarette Smoke-Induced Airway Epithelial Cell Cytotoxicity.",
+   "abstract": "Objective: To investigate the effects of cigarette smoke (CS) on Serine/Threonine Kinase 11 (STK11) and to determine STK11's role in CS-induced airway epithelial cell cytotoxicity.Methods: STK11 expression levels in the lung tissues of smokers with or without COPD and mice exposed to CS or room air (RA) were determined by immunoblotting and RT-PCR. BEAS-2Bs-human bronchial airway epithelial cells were exposed to CS extract (CSE), and the changes in STK11 expression levels were determined by immunoblotting and RT-PCR. BEAS-2B cells were transfected with STK11-specific siRNA or STK11 expression plasmid, and the effects of CSE on airway epithelial cell cytotoxicity were measured. To determine the specific STK11 degradation-proteolytic pathway, BEAS-2Bs were treated with cycloheximide alone or combined with MG132 or leupeptin. Finally, to identify the F-box protein mediating the STK11 degradation, a screening assay was performed using transfection with a panel of FBXL E3 ligase subunits.Results: STK11 protein levels were significantly decreased in the lung tissues of smokers with COPD relative to smokers without COPD. STK11 protein levels were also significantly decreased in mouse lung tissues exposed to CS compared to RA. Exposure to CSE shortened the STK11 mRNA and protein half-life to 4\u2009h in BEAS-2B cells. STK11 protein overexpression attenuated the CSE-induced cytotoxicity; in contrast, its knockdown augmented CSE-induced cytotoxicity. FBXL19 mediates CSE-induced STK11 protein degradation via the ubiquitin-proteasome pathway in cultured BEAS-2B cells. FBXL19 overexpression led to accelerated STK11 ubiquitination and degradation in a dose-dependent manner.Conclusions: Our results suggest that CSE enhances the degradation of STK11 protein in airway epithelial cells via the FBXL19-mediated ubiquitin-proteasomal pathway, leading to augmented cell death.HIGHLIGHTSLung tissues of COPD-smokers exhibited a decreased STK11 RNA and protein expression.STK11 overexpression attenuates CS-induced airway epithelial cell cytotoxicity.STK11 depletion augments CS-induced airway epithelial cell cytotoxicity.CS diminishes STK11 via FBXL19-mediated ubiquitin-proteasome degradation.",
+   "found_by": [],
+   "pubdate": "2024 Dec",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36994728",
+   "title": "ISGylation of NF-\u03baBp65 by SCF(FBXL19) E3 Ligase Diminishes Endothelial Inflammation.",
+   "abstract": "BACKGROUND: NF-\u03baB (nuclear factor kappa B) plays a pivotal role in endothelial cell (EC) inflammation. Protein ISGylation is regulated by E3 ISG15 (interferon-stimulated gene 15) ligases; however, ISGylation of NF-\u03baBp65 and its role in EC functions have not been investigated. Here, we investigate whether p65 is ISGylated and the role of its ISGylation in endothelial functions. METHODS: In vitro ISGylation assay and EC inflammation were performed. EC-specific transgenic mice were utilized in a murine model of acute lung injury. RESULTS: We find that NF-\u03baBp65 is ISGylated in resting ECs and that the posttranslational modification is reversible. TNF\u03b1 (tumor necrosis factor alpha) and endotoxin stimulation of EC reduce p65 ISGylation, promoting its serine phosphorylation through reducing its association with a phosphatase WIP1 (wild-type p53-induced phosphatase 1). Mechanistically, an SCF (Skp1-Cul1-F-box) protein E3 ligase SCFFBXL19 is identified as a new ISG15 E3 ligase that targets and catalyzes ISGylation of p65. Depletion of FBXL19 (F-box and leucine-rich repeat protein 19) increases p65 phosphorylation and EC inflammation, suggesting a negative correlation between p65 ISGylation and phosphorylation. Moreover, EC-specific FBXL19 overexpressing humanized transgenic mice exhibit reduced lung inflammation and severity of experimental acute lung injury. CONCLUSIONS: Together, our data reveal a new posttranslational modification of p65 catalyzed by a previously unrecognized role of SCFFBXL19 as an ISG15 E3 ligase that modulates EC inflammation.",
+   "found_by": [],
+   "pubdate": "2023 May",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "24684802",
+   "title": "F-box protein complex FBXL19 regulates TGF\u03b21-induced E-cadherin down-regulation by mediating Rac3 ubiquitination and degradation.",
+   "abstract": "BACKGROUND: Rac3 is a small GTPase multifunctional protein that regulates cell adhesion, migration, and differentiation. It has been considered as an oncogene in breast cancer; however, its role in esophageal cancer and the regulation of its stability have not been studied. F-box proteins are major subunits within the Skp1-Cullin-1-F-box (SCF) E3 ubiquitin ligases that recognize particular substrates for ubiquitination and proteasomal degradation. Recently, we have shown that SCFFBXL19 targets Rac1 and RhoA, thus regulating Rac1 and RhoA ubiquitination and degradation. Here, we demonstrate the role of FBXL19 in the regulation of Rac3 site-specific ubiquitination and stability. Expression of TGF\u03b21 is associated with poor prognosis of esophageal cancer. TGF\u03b21 reduces tumor suppressor, E-cadherin, expression in various epithelial-derived cancers. Here we investigate the role of FBXL19-mediated Rac3 degradation in TGF\u03b21-induced E-cadherin down-regulation in esophageal cancer cells. METHODS: FBXL19-regulated endogenous and over-expressed Rac3 stability were determined by immunoblotting and co-immunoprecipitation. Esophageal cancer cells (OE19 and OE33) were used to investigate TGF\u03b21-induced E-cadherin down-regulation by Immunoblotting and Immunostaining. RESULTS: Overexpression of FBXL19 decreased endogenous and over-expressed Rac3 expression by interacting and polyubiquitinating Rac3, while down-regulation of FBXL19 suppressed Rac3 degradation. Lysine166 within Rac3 was identified as an ubiquitination acceptor site. The FBXL19 variant with truncation at the N-terminus resulted in an increase in Rac3 degradation; however, the FBXL19 variant with truncation at the C-terminus lost its ability to interact with Rac3 and ubiquitinate Rac3 protein. Further, we found that Rac3 plays a critical role in TGF\u03b21-induced E-cadherin down-regulation in esophageal cancer cells. Over-expression of FBXL19 attenuated TGF\u03b21-induced E-cadherin down-regulation and esophageal cancer cells elongation phenotype. CONCLUSIONS: Collectively these data unveil that FBXL19 functions as an antagonist of Rac3 by regulating its stability and regulates the TGF\u03b21-induced E-cadherin down-regulation. This study will provide a new potential therapeutic strategy to regulate TGF\u03b21 signaling, thus suppressing esophageal tumorigenesis.",
+   "found_by": [],
+   "pubdate": "2014 Apr 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39150394",
+   "title": "FBXL19 in endothelial cells protects the heart from influenza A infection by enhancing antiviral immunity and reducing cellular senescence programs.",
+   "abstract": "Influenza A virus (IAV) infection while primarily affecting the lungs, is often associated with cardiovascular complications. However, the mechanisms underlying this association are not fully understood. Here, we investigated the potential role of FBXL19, a member of the Skp1-Cullin-1-F-box family of E3 ubiquitin ligase, in IAV-induced cardiac inflammation. We demonstrated that FBXL19 overexpression in endothelial cells (ECs) reduced viral titers and IAV matrix protein 1 (M1) levels while increasing antiviral gene expression, including interferon (IFN)-\u03b1, -\u03b2, and -\u03b3 and RANTES (regulated on activation normal T cell expressed and secreted) in the cardiac tissue of IAV-infected mice. Moreover, EC-specific overexpression of FBXL19 attenuated the IAV infection-reduced interferon regulatory factor 3 (IRF3) level without altering its mRNA level and suppressed cardiac inflammation. Furthermore, IAV infection triggered cellular senescence programs in the heart as indicated by the upregulation of p16 and p21 mRNA levels and the downregulation of lamin-B1 levels, which were partially reversed by FBXL19 overexpression in ECs. Our findings indicate that EC-specific overexpression of FBXL19 protects against IAV-induced cardiac damage by enhancing interferon-mediated antiviral signaling, reducing cardiac inflammation, and suppressing cellular senescence programs.NEW & NOTEWORTHY Our study reveals a novel facet of IAV infection, demonstrating that it can trigger cellular senescence within the heart. Intriguingly, upregulation of endothelial FBXL19 promotes host innate immunity, reduces cardiac senescence, and diminishes inflammation. These findings highlight the therapeutic potential of targeting FBXL19 to mitigate IAV-induced cardiovascular complications.",
+   "found_by": [],
+   "pubdate": "2024 Oct 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36515925",
+   "title": "Identification of Novel, Replicable Genetic Risk Loci for Suicidal Thoughts and Behaviors Among US Military Veterans.",
+   "abstract": "IMPORTANCE: Suicide is a leading cause of death; however, the molecular genetic basis of suicidal thoughts and behaviors (SITB) remains unknown. OBJECTIVE: To identify novel, replicable genomic risk loci for SITB. DESIGN, SETTING, AND PARTICIPANTS: This genome-wide association study included 633\u202f778 US military veterans with and without SITB, as identified through electronic health records. GWAS was performed separately by ancestry, controlling for sex, age, and genetic substructure. Cross-ancestry risk loci were identified through meta-analysis. Study enrollment began in 2011 and is ongoing. Data were analyzed from November 2021 to August 2022. MAIN OUTCOME AND MEASURES: SITB. RESULTS: A total of 633\u202f778 US military veterans were included in the analysis (57\u202f152 [9%] female; 121\u202f118 [19.1%] African ancestry, 8285 [1.3%] Asian ancestry, 452\u202f767 [71.4%] European ancestry, and 51\u202f608 [8.1%] Hispanic ancestry), including 121\u202f211 individuals with SITB (19.1%). Meta-analysis identified more than 200 GWS (P\u2009<\u20095\u2009\u00d7\u200910-8) cross-ancestry risk single-nucleotide variants for SITB concentrated in 7 regions on chromosomes 2, 6, 9, 11, 14, 16, and 18. Top single-nucleotide variants were largely intronic in nature; 5 were independently replicated in ISGC, including rs6557168 in ESR1, rs12808482 in DRD2, rs77641763 in EXD3, rs10671545 in DCC, and rs36006172 in TRAF3. Associations for FBXL19 and AC018880.2 were not replicated. Gene-based analyses implicated 24 additional GWS cross-ancestry risk genes, including FURIN, TSNARE1, and the NCAM1-TTC12-ANKK1-DRD2 gene cluster. Cross-ancestry enrichment analyses revealed significant enrichment for expression in brain and pituitary tissue, synapse and ubiquitination processes, amphetamine addiction, parathyroid hormone synthesis, axon guidance, and dopaminergic pathways. Seven other unique European ancestry-specific GWS loci were identified, 2 of which (POM121L2 and METTL15/LINC02758) were replicated. Two additional GWS ancestry-specific loci were identified within the African ancestry (PET112/GATB) and Hispanic ancestry (intergenic locus on chromosome 4) subsets, both of which were replicated. No GWS loci were identified within the Asian ancestry subset; however, significant enrichment was observed for axon guidance, cyclic adenosine monophosphate signaling, focal adhesion, glutamatergic synapse, and oxytocin signaling pathways across all ancestries. Within the European ancestry subset, genetic correlations (r\u2009>\u20090.75) were observed between the SITB phenotype and a suicide attempt-only phenotype, depression, and posttraumatic stress disorder. Additionally, polygenic risk score analyses revealed that the Million Veteran Program polygenic risk score had nominally significant main effects in 2 independent samples of veterans of European and African ancestry. CONCLUSIONS AND RELEVANCE: The findings of this analysis may advance understanding of the molecular genetic basis of SITB and provide evidence for ESR1, DRD2, TRAF3, and DCC as cross-ancestry candidate risk genes. More work is needed to replicate these findings and to determine if and how these genes might impact clinical care.",
+   "found_by": [],
+   "pubdate": "2023 Feb 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40775066",
+   "title": "Regulation of cortical neurogenesis by MED13L via transcriptional priming and its implications for MED13L syndrome.",
+   "abstract": "Pathogenic variants in MED13L cause MED13L syndrome, a well-defined neurodevelopmental disorder characterized by motor deficits, intellectual disability, and language delay, yet its underlying developmental and molecular mechanisms remain largely elusive. To address this gap, we generated a gene knockout mouse model of MED13L syndrome. While homozygous Med13l knockout exhibit neonatal lethality accompanied by reduced brain volume and cortical thickness, heterozygous mice are viable and display hallmarks of MED13L syndrome, including impaired learning and memory, reduced motor coordination, and heightened anxiety. Additionally, heterozygous mice show microcephaly with simplified neuronal morphology in the motor cortex. Single-cell transcriptomics and immunofluorescence reveal severe cortical neurogenesis deficits in Med13l knockout embryos, driven by impaired neural progenitor differentiation. Integrative multi-omics analyses reveal that MED13L orchestrates cortical neurogenesis by priming the transcriptional activation of key developmental genes, including Neurod2, Sox5, Auts2, and Nfib. This priming effect is mediated by MED13L binding to the core mediator complex, which facilitates the complex's association with RNA Pol II and subsequent dissociation from MED13L. These findings uncover a pivotal role for MED13L in transcriptional regulation during brain development and highlight potential targets for restoring normal transcriptional programs in MED13L syndrome. [full text, passages naming FBXL19] ...\u2013 F , H \u2013 K) . * p < 0.05; ** p < 0.01; ns not significant. Error bars represent SEM. In addition to mediator components, several unexpected proteins were discovered among MED13L-interacting proteins, such as FBXL19 (F-Box and Leucine-Rich Repeat Protein 19), TASP1 (Threonine Aspartase 1), ATF7IP (Activating Transcription Factor 7 Interacting Protein), ERCC1 (Excision Repair Cross-Complementation Group 1), and SENP2... ...Factor 7 Interacting Protein), ERCC1 (Excision Repair Cross-Complementation Group 1), and SENP2 (SUMO Specific Peptidase 2), as shown in Fig. 4A and detailed in Supplementary Data 3 . Of particular interest is FBXL19, a class II CXXC domain protein that specifically binds unmethylated CpG-containing DNA and recruits the CKM-mediator complex to promoters of silent developmental genes, leading to their induction during... ...ediator complex, thus interfering with its interaction with Pol II. However, components of the CKM, such as MED12 and MED13, have also been discovered to positively regulate gene expression. We discovered that FBXL19 and TASP1, both epigenetic regulators of transcriptional activation, are part of the MED13L interactome. Previous studies have demonstrated that FBXL19 recruits the CDK-Mediator complex to CpG island-ass...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming FBXL19] ...N/A | | UBE3A\u2217\u2217+, CYFIP1\u2217+, NIPA2\u2217+, TJP1\u2217+ N/A | duplication | 15 | 15q13.2-q13.3 | N/A | | OTUD7A\u2217+ N/A | deletion-duplication | 15 | 15q13.3 | N/A | | OTUD7A\u2217+ N/A | deletion-duplication | 15 | 16p11.2 | | FBXL19\u2217 | FBRS\u2217, FUS\u2217, SH2B1\u2217+, TAOK2\u2217+, TBC1D10B\u2217, SRCAP\u2217\u2217, SETD1A\u2217\u2217, ATXN2L\u2217+ | MAZ\u2217+, STX1B\u2217\u2217 deletion-duplication | 16 | 16p12.1 (novel) | N/A | | RBBP6\u2217, ARHGAP17 , IL21R\u2217, TNRC6A\u2217, GTF3C1\u2217, XPO6\u2217 N/A | de... ...AZ\u2217+, STX1B\u2217\u2217 deletion-duplication | 16 | 16p12.1 (novel) | N/A | | RBBP6\u2217, ARHGAP17 , IL21R\u2217, TNRC6A\u2217, GTF3C1\u2217, XPO6\u2217 N/A | deletion-duplication | 16 | 16p12.2-p11.2 (novel due to novel region boundaries) | | FBXL19\u2217 | PLK1\u2217, FBRS\u2217, FUS\u2217, RBBP6\u2217, ARHGAP17 , IL21R\u2217, SH2B1\u2217+, TAOK2\u2217+, TBC1D10B\u2217, SRCAP\u2217\u2217, SETD1A\u2217\u2217, TNRC6A\u2217, GTF3C1\u2217, XPO6\u2217, ATXN2L\u2217+, PRKCB\u2217, USP31 | MAZ\u2217+, STX1B\u2217\u2217 duplication | 16 | 16p13.11 | N/A | | M...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33282601",
+   "title": "First Whole Transcriptome RNAseq on CHD8 Haploinsufficient Patient and Meta-Analyses Across Cellular Models Uncovers Likely Key Pathophysiological Target Genes.",
+   "abstract": "In 2019, we confirmed that the haploinsufficiency of CHD8 does indeed cause the novel syndromic neurodevelopmental disease we first discovered a dozen years before. Here, we report the first whole transcriptome RNAseq gene expression profiling for a patient with this new syndrome, as a preliminary exploration of potential pathophysiological mechanisms. We compared our patient transcriptome profile with that of all publicly available RNAseq datasets from human cellular models including neuronal progenitor cells, neurons and organoids. We compared differential gene expression profiles overall and conducted phenotype-informed data filtration based on the characteristic syndrome presentation. We found that concordance among differential gene expression profiles was poor across all datasets. Nevertheless, remarkably, we show that the patient blood differential gene expression profile most resembled that of the neuronal cell model, a finding that encourages further transcriptome profiling using patient blood samples. In addition, our custom phenotype-informed analyses yielded important, differentially expressed syndrome pathophysiology target genes. Finally, we note that genes dysregulated due to CHD8 heterozygous deletion are linked to known neurological as well as oncological pathways. [full text, passages naming FBXL19] ...-0.565876 | down | WBSCR27 | 9 | -3.16821 | down | Comparison of the patient transcriptome with cellular model transcriptomes The DEG landscape across the patient sample and all models is discordant, with only FBXL19 and EML6 appearing as DEGs in all datasets: We compared the number and distribution of DEGs across all cellular samples and the patient\u2019s transcriptome. DEGs that met the expression threshold of q>0.5 in... ...838 | NPC_ Sugathan | 369 | DEGs Average | 2157 | DEGs Median | 1530 | We sought to determine the overlap among the DEGs identified across all datasets. Concordance was poor among all transcriptomes, with only FBXL19 and EML6 as concordant DEGs across all datasets. Omitting Sugathan et al., we found CELF2, PODXL, RGMB, NFIA, and TCF4 were differentially expressed in the four cellular model datasets and in the patient... ...ptomes that are not found in the patient. RIMS3 was the only other gene common to four cellular models and the patient; it was not a DEG only in the Wang organoid sample. Of the eight genes above, we note that FBXL19 and EML6, as well as CELF2, PODXL, and RIMS3, are not seed genes in any of our PSG lists while TCF4, NFIA, and RGMB are PSGs (Table 6 ). Table 6 DEGs that are PSGs and found in at least five of the six s...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31514269",
+   "title": "The Rac3 GTPase in Neuronal Development, Neurodevelopmental Disorders, and Cancer.",
+   "abstract": "Rho family small guanosine triphosphatases (GTPases) are important regulators of the cytoskeleton, and are critical in many aspects of cellular and developmental biology, as well as in pathological processes such as intellectual disability and cancer. Of the three members of the family, Rac3 has a more restricted expression in normal tissues compared to the ubiquitous member of the family, Rac1. The Rac3 polypeptide is highly similar to Rac1, and orthologues of the gene for Rac3 have been found only in vertebrates, indicating the late appearance of this gene during evolution. Increasing evidence over the past few years indicates that Rac3 plays an important role in neuronal development and in tumor progression, with specificities that distinguish the functions of Rac3 from the established functions of Rac1 in these processes. Here, results highlighting the importance of Rac3 in distinct aspects of neuronal development and tumor cell biology are presented, in support of the non-redundant role of different members of the two Rac GTPases in physiological and pathological processes. [full text, passages naming FBXL19] ...uitination and proteasome degradation. F-box proteins are subunits of E3 ubiquitin ligases that recognize specific substrates for ubiquitination and degradation in the proteasome [ 83 , 84 ]. The F-box protein FBXL19 regulates Rac3 ubiquitination and stability. Rac3 supports Transforming Growth Factor (TGF)\u03b21\u2013induced E-cadherin down-regulation in esophageal cancer cells that is associated with poor prognosis in esoph... ...ability. Rac3 supports Transforming Growth Factor (TGF)\u03b21\u2013induced E-cadherin down-regulation in esophageal cancer cells that is associated with poor prognosis in esophageal cancer [ 85 ]. The overexpression of FBXL19 decreases the expression of Rac3 by inducing its degradation; by antagonizing Rac3, FBXL19 affects TGF\u03b21-induced E-cadherin down-regulation. Thus, Rac3 represents a potential target to suppress TGF\u03b21\u2013ind... ...n in esophageal cancer cells that is associated with poor prognosis in esophageal cancer [ 85 ]. The overexpression of FBXL19 decreases the expression of Rac3 by inducing its degradation; by antagonizing Rac3, FBXL19 affects TGF\u03b21-induced E-cadherin down-regulation. Thus, Rac3 represents a potential target to suppress TGF\u03b21\u2013induced esophageal tumorigenesis. 6. Conclusions The data presented in this review highlight t...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36879130",
+   "title": "Multiomic analyses implicate a neurodevelopmental program in the pathogenesis of cerebral arachnoid cysts.",
+   "abstract": "Cerebral arachnoid cysts (ACs) are one of the most common and poorly understood types of developmental brain lesion. To begin to elucidate AC pathogenesis, we performed an integrated analysis of 617 patient-parent (trio) exomes, 152,898 human brain and mouse meningeal single-cell RNA sequencing transcriptomes and natural language processing data of patient medical records. We found that damaging de novo variants (DNVs) were highly enriched in patients with ACs compared with healthy individuals (P\u2009=\u20091.57\u2009\u00d7\u200910-33). Seven genes harbored an exome-wide significant DNV burden. AC-associated genes were enriched for chromatin modifiers and converged in midgestational transcription networks essential for neural and meningeal development. Unsupervised clustering of patient phenotypes identified four AC subtypes and clinical severity correlated with the presence of a damaging DNV. These data provide insights into the coordinated regulation of brain and meningeal development and implicate epigenomic dysregulation due to DNVs in AC pathogenesis. Our results provide a preliminary indication that, in the appropriate clinical context, ACs may be considered radiographic harbingers of neurodevelopmental pathology warranting genetic testing and neurobehavioral follow-up. These data highlight the utility of a systems-level, multiomics approach to elucidate sporadic structural brain disease. [full text, passages naming FBXL19] ...| USP9X | COL2A1 | KDM5C | PTEN | ZFHX4 | | Possible AC (pAC) genes | | ACLY | DPF2 | MAGEL2 | PURA | ADNP | DYNC1H1 | MAP2K1 | RALA | AKT1 | EHBP1 | MAP2K4 | RASA1 | ANKRD11 | EZR | MED13L | REV3L | ANKRD12 | FBXL19 | MFN2 | RIMS2 | AP1G1 | FBXO11 | MTF1 | SATB2 | APC | FOXP1 | MTOR | SCN2A | APC2 | FURIN | MTPAP | SCN8A | ARID1A | GABRA5 | MYH14 | SETBP1 | ARID1B | GABRG2 | MYO18A | SETD5 | ARID2 | GATAD2B | MYT1L...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35974412",
+   "title": "Genome-wide analysis of genes encoding core components of the ubiquitin system during cerebral cortex development.",
+   "abstract": "Ubiquitination involves three types of enzymes (E1, E2, and E3) that sequentially attach ubiquitin (Ub) to target proteins. This posttranslational modification controls key cellular processes, such as the degradation, endocytosis, subcellular localization and activity of proteins. Ubiquitination, which can be reversed by deubiquitinating enzymes (DUBs), plays important roles during brain development. Furthermore, deregulation of the Ub system is linked to the pathogenesis of various diseases, including neurodegenerative disorders. We used a publicly available RNA-seq database to perform an extensive genome-wide gene expression analysis of the core components of the ubiquitination machinery, covering Ub genes as well as E1, E2, E3 and DUB genes. The ubiquitination network was governed by only Uba1 and Ube2m, the predominant E1 and E2 genes, respectively; their expression was positively regulated during cortical formation. The principal genes encoding HECT (homologous to the E6-AP carboxyl terminus), RBR (RING-in-between-RING), and RING (really interesting new gene) E3 Ub ligases were also highly regulated. Pja1, Dtx3 (RING ligases) and Stub1 (U-box RING) were the most highly expressed E3 Ub ligase genes and displayed distinct developmental expression patterns. Moreover, more than 80 DUB genes were expressed during corticogenesis, with two prominent genes, Uch-l1 and Usp22, showing highly upregulated expression. Several components of the Ub system overexpressed in cancers were also highly expressed in the cerebral cortex under conditions not related to tumour formation or progression. Altogether, this work provides an in-depth overview of transcriptomic changes during embryonic formation of the cerebral cortex. The data also offer new insight into the characterization of the Ub system and may contribute to a better understanding of its involvement in the pathogenesis of neurodevelopmental disorders. [full text, passages naming FBXL19] ...s positively regulated during corticogenesis except Fbxw8 (Additional file 1 : Fig. S2A). Of note, two Fbxw genes were not expressed ( Fbxw10 and Fbxw12 ). Fbxl genes: The major Fbxl genes were Fbxl6 , Fbxl16, Fbxl19 associated with the predominant Fbxl14 gene (Fig. 5 E). This gene had elevated TPM values that decreased during corticogenesis (from 202 to 98 TPM). The proteins FBXL14 has been reported to associate wit...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35479077": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26194362": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25488777": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35729600": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28611184": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22274791": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25654763": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22532288": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22298274": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38898675": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23369832": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20953189": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38706793": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38792999": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26613086": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30610161": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38712759": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36994728": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24684802": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39150394": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36515925": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40775066": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37303953": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33282601": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37107578": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31514269": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36879130": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35974412": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.9,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 430,
+   "usd": 0.01249,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "18 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "8 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "8 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 9.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1585,
+   "output_tokens": 90,
+   "usd": 0.002035,
+   "calls": 3
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 32.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 11031,
+   "output_tokens": 328,
+   "usd": 0.012671,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.1,
+   "note": "",
+   "input_tokens": 12041,
+   "output_tokens": 1092,
+   "usd": 0.087505,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>37</existing>\n    <hypothesized>52</hypothesized>\n    <novel>9</novel>\n  </probabilities>\n  <justification>No article reports independent probands or families with single-gene FBXL19 variants causing a neurodevelopmental disorder, so Established is excluded. The strongest human genetic signal comes from the CNV meta-analysis (PMID 38850022), which nominates FBXL19 as a candidate dosage-sensitive driver within 16p11.2/16p12.2 NDD-risk CNVs; however, multigenic CNVs cannot single out FBXL19, and it is only listed as a \"possible\" gene (not exome-wide significant) in the arachnoid cyst de novo variant study (PMID 36879130). Biological plausibility is substantial: FBXL19 is a CXXC-domain CpG-island reader that recruits the CDK-Mediator complex to prime developmental gene activation and interacts with MED13L, a bona fide NDD gene (PMID 40775066); it also regulates Rac3, implicated in neuronal development (PMIDs 31514269, 24684802), and belongs to the ubiquitin machinery expressed during corticogenesis (PMID 35974412). Most remaining literature concerns lung/endothelial inflammation and is irrelevant, and the GWAS mention of FBXL19 in suicidality failed replication (PMID 36515925), so the balance favors Hypothesized with meaningful probability for Existing.</justification>\n  <pmids>\n    <pmid>38850022</pmid>\n    <pmid>36879130</pmid>\n    <pmid>40775066</pmid>\n    <pmid>31514269</pmid>\n    <pmid>24684802</pmid>\n    <pmid>35974412</pmid>\n    <pmid>36515925</pmid>\n    <pmid>33282601</pmid>\n  </pmids>\n</response>"
+}

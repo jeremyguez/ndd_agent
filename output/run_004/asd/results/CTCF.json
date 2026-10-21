@@ -1,0 +1,240 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Wang et al. 2020 - Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders (PMID: 33004838)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Ultra-rare gene-disruptive (LoF) variants in CTCF; individual variants not specified in the abstract",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "autism spectrum disorder",
+              "developmental delay",
+              "genotype-phenotype correlations presented for CTCF (details not in abstract)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Significant burden of ultra-rare (MAF<0.01%) gene-disruptive mutations in NDD cases vs ExAC controls (FDR 5%); de novo mutation excess",
+        "center_country": "University of Washington (Eichler lab), USA; multi-center international collaboration",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - Large-scale targeted sequencing identifies risk genes for autism and developmental delay (Wang T, et al.)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Likely gene-disruptive and severe missense (CADD>30) variants in CTCF; individual variants not specified",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "developmental delay"
+            ]
+          },
+          {
+            "description": "Severe missense (CADD>30) variants not present in ExAC controls; CTCF-specific variants not specified",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Increased mutational burden in cases vs ExAC controls (not present in controls; CADD>30 for missense); family transmission evaluation ongoing",
+        "center_country": "University of Washington, USA (Eichler lab); 17 centers worldwide",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "CTCF knockout in zebrafish induces alterations in regulatory landscapes and developmental gene expression (PMID: 34518536)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Loss of chromatin structure (TADs)",
+          "Altered expression of thousands of genes, including many developmental regulators",
+          "Disrupted enhancer-promoter interactions during patterning and organogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cohesin facilitates zygotic genome activation in zebrafish (PMID: 29158440)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "CTCF depletion had little effect on zygotic genome activation",
+          "Complete abrogation of CTCF is lethal",
+          "Rad21 depletion (comparison) delayed ZGA and disrupted nucleoli and RNA Pol II foci"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTCF loss induces giant lamellar bodies in Purkinje cell dendrites (PMID: 36447271)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Progressive motor dysfunction",
+          "Abnormal Purkinje cell dendritic morphology with self-avoidance defects",
+          "Proximal shift in climbing fibre innervation territory",
+          "Giant lamellar bodies in Purkinje cell dendrites developing over time",
+          "Loss of ER around nuclei, swollen mitochondria with reduced cristae",
+          "Near-complete Purkinje cell loss with severe motor deficits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ctcf is required for renin expression and maintenance of the structural integrity of the kidney (PMID: 32619009)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Decreased number of renin-expressing cells",
+          "Decreased circulating renin",
+          "Hypotension",
+          "Severe kidney morphological abnormalities, including defects in arteriolar branching",
+          "Renal failure"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTCF is required for maintenance of auditory hair cells and hearing function in the mouse cochlea (PMID: 30107916)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "No obvious hair cell developmental defects until P8",
+          "Degeneration of outer hair cell stereociliary bundles at 3 weeks",
+          "Profound hearing impairment",
+          "Most hair cells degenerated by 5 weeks",
+          "Defects in tunnel of Corti and Nuel's space"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The transcriptional regulator CCCTC-binding factor limits oxidative stress in endothelial cells (PMID: 29610276)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Impaired embryonic growth",
+          "Defective yolk sac and placental vascular development",
+          "Frataxin strongly downregulated in placental endothelial cells",
+          "ROS accumulation and DNA damage in placental endothelium"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - Deciphering the genetic basis of intellectual disability using 1000 knockouts",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ctcf knockout mice identified among known ID genes with brain morphology abnormalities in the MGP/IMPC neuroanatomy screen"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "992 knockout genes screened overall",
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Nora et al. 2017 - Targeted Degradation of CTCF Decouples Local Insulation of Chromosome Domains from Genomic Compartmentalization (PMID: 28525758)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Auxin-inducible degron depletion of CTCF in mouse ES cells showed that CTCF is required, in a dose-dependent manner, for CTCF-site looping and TAD insulation, including in non-dividing cells. A/B compartments stayed segregated after depletion. CTCF acts as an enhancer blocker but not as a direct barrier to heterochromatin spreading.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "G-quadruplexes associated with R-loops promote CTCF binding (PMID: 37552993)",
+        "evidence_subtype": "function",
+        "summary": "R-loops and G-quadruplexes co-localize with CTCF in mouse ES cells and promote CTCF binding to its motif in vitro. R-loop attenuation reduces CTCF binding in vivo, deleting a G4 motif reduces CTCF binding and alters gene expression, and G4 stabilization increases CTCF binding and alters chromatin organization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTCF directly binds G-quadruplex structures to regulate genome topology and gene expression (PMID: 42201978)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A proteomics screen identified CTCF as one of the strongest G4 binders, and biochemical work identified a CTCF mutant that prefers G4s over its consensus dsDNA motif. In mESCs reconstituted with this mutant, G4-linked loops were stronger, persistent, and less sensitive to CTCF depletion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Flavahan et al. 2016 - Insulator dysfunction and oncogene activation in IDH mutant gliomas (PMID: 26700815)",
+        "evidence_subtype": "cell_culture",
+        "summary": "IDH mutant gliomas show hypermethylation at CTCF/cohesin sites, which reduces methylation-sensitive CTCF binding. This causes loss of domain insulation and lets an enhancer contact PDGFRA. CRISPR disruption of the CTCF motif in IDH wild-type gliomaspheres upregulates PDGFRA and increases proliferation, while demethylating treatment partly restores insulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "T cell-intrinsic cGAS-CTCF regulation maintains regulatory T cell development and function (PMID: 40966077)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Nuclear cGAS in Treg cells recruits CTCF to the Tnfrsf9 (4-1BB) and Tnfrsf4 (OX40) loci through chromatin interactions, sustaining their expression and TCR signaling. This cGAS-CTCF axis acts independently of STING, and Treg-specific cGAS deletion impairs tumor growth in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTCF-Mediated and Pax6-Associated Gene Expression in Corneal Epithelial Cell-Specific Differentiation (PMID: 27583466)",
+        "evidence_subtype": "expression",
+        "summary": "CTCF expression falls and PAX6 rises during corneal epithelial differentiation. CTCF-mediated chromatin remodeling controls PAX6 interaction with RCN1 and ADAM17 (shown by 4C, ChIP-on-chip and FISH). CTCF shRNA knockdown weakened these interactions and caused earlier onset of the differentiation genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTCF Expression is Essential for Somatic Cell Viability and Protection Against Cancer (PMID: 30513694)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CTCF knockdown or CRISPR editing in K562 cells reduced growth and colony formation and induced cell cycle arrest. In p53-shRNA Ctcf+/- MEFs, haploinsufficiency increased proliferation, supporting CTCF as a haploinsufficient tumour suppressor. Endometrial cancers with CTCF mutations show locus-specific gene dysregulation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CTCF loss induces giant lamellar bodies in Purkinje cell dendrites (PMID: 36447271)",
+        "evidence_subtype": "expression",
+        "summary": "CTCF is highly expressed in mature cerebellar Purkinje cells compared with other cerebellar neurons. Conditional deletion in mouse PCs caused progressive motor dysfunction, dendritic self-avoidance defects, giant lamellar bodies, mitochondrial swelling and eventual PC loss.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Acute depletion of CTCF rewires genome-wide chromatin accessibility (PMID: 34429148)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Acute auxin-induced degradation of endogenous CTCF rewired chromatin accessibility. Gains in accessibility were found near CTCF sites at promoters and insulators and were associated with increased transcription of nearby genes. A multi-omics pipeline identified 40 candidate CTCF co-regulatory partners.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-binding proteins mediate the maturation of chromatin topology during differentiation (PMID: 40921733)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CTCF-RBP interactions increase on ES-to-neural stem cell differentiation, and the ncRNA Pantr1 facilitates them to reinforce CTCF-anchored topology. Acute CTCF degradation showed that CTCF maintains neuronal gene silencing in NS cells by acting as a barrier to premature gene activation.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

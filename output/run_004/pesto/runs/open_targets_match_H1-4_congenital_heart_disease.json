@@ -1,0 +1,268 @@
+{
+  "gene": "H1-4",
+  "phenotype": "congenital heart disease",
+  "ensembl_id": "ENSG00000168298",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0044323",
+      "name": "Rahman syndrome",
+      "score": 0.6937401562257985
+    },
+    {
+      "disease_id": "MONDO_0000508",
+      "name": "syndromic intellectual disability",
+      "score": 0.40653784015317196
+    },
+    {
+      "disease_id": "MONDO_0003847",
+      "name": "hereditary disease",
+      "score": 0.39001762064876566
+    },
+    {
+      "disease_id": "MONDO_0014382",
+      "name": "Tatton-Brown-Rahman overgrowth syndrome",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0012589",
+      "name": "Pitt-Hopkins syndrome",
+      "score": 0.3400134663099256
+    },
+    {
+      "disease_id": "MONDO_0021944",
+      "name": "auditory neuropathy",
+      "score": 0.3326218692162316
+    },
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.26734482738254617
+    },
+    {
+      "disease_id": "MONDO_0009693",
+      "name": "plasma cell myeloma",
+      "score": 0.2610135651580496
+    },
+    {
+      "disease_id": "EFO_0004527",
+      "name": "mean corpuscular hemoglobin",
+      "score": 0.17252051381582376
+    },
+    {
+      "disease_id": "OBA_VT0001253",
+      "name": "body height",
+      "score": 0.1349896123954106
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.07409740829019558
+    },
+    {
+      "disease_id": "MONDO_0005173",
+      "name": "actinic keratosis",
+      "score": 0.06878620255391671
+    },
+    {
+      "disease_id": "EFO_1001841",
+      "name": "sebaceous of Jadassohn nevus",
+      "score": 0.06585913010481387
+    },
+    {
+      "disease_id": "MONDO_0005096",
+      "name": "squamous cell carcinoma",
+      "score": 0.058541448982056765
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0044323",
+      "name": "Rahman syndrome",
+      "score": 0.6937401562257985
+    },
+    {
+      "disease_id": "MONDO_0000508",
+      "name": "syndromic intellectual disability",
+      "score": 0.40653784015317196
+    },
+    {
+      "disease_id": "MONDO_0003847",
+      "name": "hereditary disease",
+      "score": 0.39001762064876566
+    },
+    {
+      "disease_id": "MONDO_0014382",
+      "name": "Tatton-Brown-Rahman overgrowth syndrome",
+      "score": 0.3695798546847018
+    },
+    {
+      "disease_id": "MONDO_0012589",
+      "name": "Pitt-Hopkins syndrome",
+      "score": 0.3400134663099256
+    },
+    {
+      "disease_id": "MONDO_0021944",
+      "name": "auditory neuropathy",
+      "score": 0.3326218692162316
+    },
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.26734482738254617
+    },
+    {
+      "disease_id": "MONDO_0009693",
+      "name": "plasma cell myeloma",
+      "score": 0.2610135651580496
+    },
+    {
+      "disease_id": "EFO_0004527",
+      "name": "mean corpuscular hemoglobin",
+      "score": 0.17252051381582376
+    },
+    {
+      "disease_id": "OBA_VT0001253",
+      "name": "body height",
+      "score": 0.1349896123954106
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.07409740829019558
+    },
+    {
+      "disease_id": "MONDO_0005173",
+      "name": "actinic keratosis",
+      "score": 0.06878620255391671
+    },
+    {
+      "disease_id": "EFO_1001841",
+      "name": "sebaceous of Jadassohn nevus",
+      "score": 0.06585913010481387
+    },
+    {
+      "disease_id": "MONDO_0005096",
+      "name": "squamous cell carcinoma",
+      "score": 0.058541448982056765
+    }
+  ],
+  "gate_text": "DROP: 8, 9, 12, 13, 14",
+  "gate_dropped_ids": [
+    "MONDO_0009693",
+    "EFO_0004527",
+    "MONDO_0005173",
+    "EFO_1001841",
+    "MONDO_0005096"
+  ],
+  "tag_text": "1 | SYMPTOM_NONSPECIFIC\n2 | DIFFERENT\n3 | PARENT_DISTANT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT\n12 | DIFFERENT\n13 | DIFFERENT\n14 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0044323",
+      "name": "Rahman syndrome",
+      "score": 0.6937401562257985,
+      "tag": "SYMPTOM_NONSPECIFIC",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0000508",
+      "name": "syndromic intellectual disability",
+      "score": 0.40653784015317196,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0003847",
+      "name": "hereditary disease",
+      "score": 0.39001762064876566,
+      "tag": "PARENT_DISTANT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0014382",
+      "name": "Tatton-Brown-Rahman overgrowth syndrome",
+      "score": 0.3695798546847018,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0012589",
+      "name": "Pitt-Hopkins syndrome",
+      "score": 0.3400134663099256,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0021944",
+      "name": "auditory neuropathy",
+      "score": 0.3326218692162316,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.26734482738254617,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0009693",
+      "name": "plasma cell myeloma",
+      "score": 0.2610135651580496,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004527",
+      "name": "mean corpuscular hemoglobin",
+      "score": 0.17252051381582376,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_VT0001253",
+      "name": "body height",
+      "score": 0.1349896123954106,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.07409740829019558,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005173",
+      "name": "actinic keratosis",
+      "score": 0.06878620255391671,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_1001841",
+      "name": "sebaceous of Jadassohn nevus",
+      "score": 0.06585913010481387,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005096",
+      "name": "squamous cell carcinoma",
+      "score": 0.058541448982056765,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 14,
+  "tokens": {
+    "gate_in": 459,
+    "gate_out": 19,
+    "read_in": 2341,
+    "read_out": 593
+  },
+  "articles": []
+}

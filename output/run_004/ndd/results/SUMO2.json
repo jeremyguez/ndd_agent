@@ -1,0 +1,184 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Sumo2 knockout study - SUMO2 is essential while SUMO3 is dispensable for mouse embryonic development (PMID: 24891386)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Sumo2-/- embryos show severe developmental delay and die at ~E10.5",
+          "Sumo2+/- and Sumo2+/-;Sumo3+/- mice have no overt phenotype",
+          "Sumo3-/- mice are viable",
+          "Sumo2+/-;Sumo3-/- mice are nearly absent at birth (only 2 found in 35 litters) and the rare survivors are considerably smaller than littermates",
+          "SUMO2 is the predominantly expressed SUMO isoform"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": "35 litters from Sumo2+/-;Sumo3+/- x Sumo3-/- crosses (only 2 Sumo2+/-;Sumo3-/- mice born)",
+        "significance": null
+      },
+      {
+        "citation": "Small ubiquitin-like modifier 2 (SUMO2) is critical for memory processes in mice (PMID: 32910521)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Conditional deletion of Sumo2 in forebrain neurons caused marked cognitive impairments, including episodic and fear memory deficits",
+          "Impaired dynamic SUMOylation associated with synaptic plasticity",
+          "Deficit in maintenance of hippocampal long-term potentiation",
+          "No constitutive changes in gene expression or neuronal morphology"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The requirement of SUMO2/3 for SENP2 mediated extraembryonic and embryonic development (PMID: 31625212)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Inactivation of Sumo2 (or Sumo3) alleviated the placental deficiencies of Senp2 knockouts (trophoblast layer defects)",
+          "Reduction of Sumo2 rescued heart structure formation (atrioventricular cushion and myocardium) in Senp2 knockouts",
+          "Hyper-SUMOylation from SENP2 deficiency compensated by reducing SUMO levels"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SUMO2 deletion changes chromatin accessibility and enhances cytotoxic T cell activation and tumor infiltration (PMID: 42853933)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "T cell-specific Sumo2 KO enhanced CD8+ T cell activation",
+          "Increased chromatin accessibility at AP-1 (BATF, JunB) enhancer regions",
+          "Greater tumor infiltration of Sumo2 KO OT1 and CAR T cells",
+          "Greater tumor growth inhibition than wild-type T cells",
+          "Increased TRAIL expression and activated antitumor immune microenvironment"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ubiquitin-like proteins NEDD8 and SUMO2 control epithelial homeostasis, regeneration, and inflammation (PMID: 42348677)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Epithelial conditional Sumo2 knockout showed SUMO2 is required for epithelial differentiation",
+          "Opposite function to NEDD8, which is needed for progenitor maintenance, regeneration and inflammation control"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Ferroptosis-induced SUMO2 lactylation counteracts ferroptosis by enhancing ACSL4 degradation in lung adenocarcinoma (PMID: 41057295)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Ferroptosis induces SUMO2 lactylation at K11 (SUMO2-K11la), catalyzed by the lactyltransferase AARS1 and reversed by the delactylase HDAC1. SUMO2-K11la disrupts the SUMO2\u2013ACSL4 interaction, which promotes ACSL4 degradation and ferroptosis resistance in LUAD cells. A cell-penetrating peptide blocking SUMO2-K11la sensitized xenografts to cisplatin and enhanced chemoimmunotherapy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SUMOylation-Driven mRNA Circularization Enhances Translation and Promotes Lymphatic Metastasis of Bladder Cancer (PMID: 37991737)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DHCR24 mediates and recognizes SUMO2 modification of hnRNPA2B1 at K108. This promotes hnRNPA2B1\u2013eIF4G1 interaction, TBK1 mRNA circularization and eIF4F assembly, which drives Akt/VEGFC signaling, lymphangiogenesis and lymph node metastasis. DHCR24 silencing impaired metastasis in a PDX model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Induced proximity to PML protects TDP-43 from aggregation via SUMO-ubiquitin networks (PMID: 40246979)",
+        "evidence_subtype": "function",
+        "summary": "SUMO2 attachment to TDP-43 compartmentalizes it in PML nuclear bodies and limits its aggregation under proteotoxic stress. Recruiting TDP-43 to PML triggers a SUMOylation-ubiquitylation cascade that works with p97 to protect against insolubility.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aberrant Nuclear Export of circNCOR1 Underlies SMAD7-Mediated Lymph Node Metastasis of Bladder Cancer (PMID: 35395674)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SUMO2 binding to the RNA export factor DDX39B (SUMOylation) drives nuclear export of circNCOR1. Reduced SUMO2\u2013DDX39B binding increases circNCOR1 nuclear retention, which suppresses TGF\u03b2-SMAD signaling and bladder cancer lymph node metastasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Guanosine modulates SUMO2/3-ylation in neurons and astrocytes via adenosine receptors (PMID: 32892251)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In primary cortical neurons and astrocytes, guanosine at concentrations above 10 \u03bcM increased global SUMO2/3-ylation at 1 h. The effect was extracellular and blocked by the A1 receptor antagonist DPCPX, which implicates an A1\u2013A2A receptor interaction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SUMOylation regulates USP5-Cav3.2 calcium channel interactions (PMID: 31455361)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "USP5 is SUMO2/3-modified at K113 in dorsal root ganglia, and this modification falls after peripheral nerve injury. SUMO2/3 modification reduces USP5 affinity for Cav3.2, since the SUMO-resistant K113R mutant bound Cav3.2 more strongly.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting SUMO2 reverses aberrant epigenetic rewiring driven by SS18::SSX fusion oncoproteins and impairs sarcomagenesis (PMID: 40804185)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A CRISPR screen identified SUMO2 as a strong, selective dependency in synovial sarcoma, in vitro and in vivo. Genetic depletion or TAK-981 inhibition reduced SS18::SSX expression and chromatin occupancy and H2AK119ub, and reversed the fusion-driven transcriptional program.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Astragaloside IV combined with ligustrazine ameliorates abnormal mitochondrial dynamics via Drp1 SUMO/deSUMOylation in cerebral ischemia-reperfusion injury (PMID: 38615367)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In rat MCAO and SH-SY5Y OGD/R models, SUMO2/3 overexpression suppressed mitochondrial fission, whereas SUMO1 promoted it. The treatment increased Drp1 SUMO2/3 binding, which was protective.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Acetylation of SUMO2 at lysine 11 favors the formation of non-canonical SUMO chains (PMID: 30201799)",
+        "evidence_subtype": "function",
+        "summary": "SUMO2/3 K11 is reversibly acetylated, with SIRT1 as the deacetylase. Acetylation impairs chain formation in vitro, and in cells a K11 acetyl-mimic favors K5- and K35-linked chains over K7 and K21 linkages.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Noncovalent structure of SENP1 in complex with SUMO2 (PMID: 31045562)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A 2.62 \u00c5 crystal structure of the SENP1\u2013SUMO2 complex shows that binding is driven mainly by polar interactions. The SUMO2 C-terminal QQTGG motif inserts into the SENP1 catalytic triad, which explains SUMO maturation and deSUMOylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Gene expression and cell growth are modified by silencing SUMO2 and SUMO3 expression (PMID: 19275883)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Stable miRNA silencing of SUMO2/3 in B35 neuroblastoma cells up-regulated 105 genes and down-regulated 58 genes. About 20% of these were linked to growth and differentiation, and cell division was suppressed.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2022 - Maternally Inherited novel SUMO2 variant associated with a complex phenotype",
+        "evidence_subtype": "other",
+        "summary": "A maternally inherited heterozygous start-loss variant in SUMO2 (c.2T>A, p.Met1?) was found in a proband and his mother. Both have limb malformations (tibial agenesis, syndactyly) and the proband also has congenital heart defects. SUMO2 knockdown in animal studies altered CDX2, OCT4 and NANOG expression and caused embryonic lethality.",
+        "sample_size": "1 family (proband and mother)",
+        "significance": null
+      },
+      {
+        "citation": "Vagal stimulation ameliorates murine colitis by regulating SUMOylation (PMID: 39565873)",
+        "evidence_subtype": "expression",
+        "summary": "SUMO2 and SUMO3 were increased in colonic biopsies from IBD patients and in mouse colitis models during active disease. Sumo3 knockout protected against colitis, and the SUMO E1 inhibitor TAK-981 ameliorated colitis in three mouse models.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

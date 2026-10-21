@@ -1,0 +1,388 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Bosch et al. 2019 (Weckhuysen/Lemke-associated international collaboration) - Autism and developmental disability caused by KCNQ3 gain-of-function variants (PMID: 31177578)",
+        "num_patients": 11,
+        "variants": [
+          {
+            "description": "R230C, R230H, R230S (S4 voltage sensor), heterozygous de novo",
+            "type": "missense",
+            "phenotypes": [
+              "global developmental delay",
+              "nonverbal or few words",
+              "autistic features / ASD",
+              "sleep-activated multifocal epileptiform discharges",
+              "near-continuous spikes in sleep (CSWS-like)",
+              "seizures in a minority (2/11)"
+            ]
+          },
+          {
+            "description": "R227Q, heterozygous de novo",
+            "type": "missense",
+            "phenotypes": [
+              "global developmental delay",
+              "autistic features / ASD",
+              "sleep-activated epileptiform EEG",
+              "mostly no seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent de novo variants at R227/R230; patch-clamp showed gain-of-function effects",
+        "center_country": "International collaboration",
+        "cohort": null
+      },
+      {
+        "citation": "Autism Spectrum Disorder and Atypical Epilepsy Presentation in KCNQ3 Mutations: Expansion of Phenotypic Spectrum With Neuroimaging Findings (PMID: 42255468)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo heterozygous KCNQ3 variant (specific notation not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neonatal-onset seizures",
+              "later drug-resistant atypical seizures",
+              "moderate intellectual disability",
+              "ASD features",
+              "speech delay",
+              "hippocampal asymmetry",
+              "diffuse enlarged perivascular spaces"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo heterozygous variant on WES, absent in both parents; consistent phenotype",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Heteromeric Assembly of Truncated Neuronal Kv7 Channels: Implications for Neurologic Disease and Pharmacotherapy (PMID: 32580997)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "KCNQ3-FS534 de novo frameshift (C-terminal truncation of ~300 aa)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disability",
+              "autism traits",
+              "inattention",
+              "hyperactivity",
+              "ataxia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo frameshift; functional studies showed no functional channels alone and failure to promote KCNQ2/3 heteromer expression despite assembly with KCNQ2",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Dysfunction of the Heteromeric KV7.3/KV7.5 Potassium Channel is Associated with Autism Spectrum Disorders (PMID: 23596459)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "de novo t(3;8)(q21;q24) translocation truncating KCNQ3",
+            "type": "other",
+            "phenotypes": [
+              "childhood autism"
+            ]
+          },
+          {
+            "description": "c.1720C>T, p.Pro574Ser (3 unrelated individuals)",
+            "type": "missense",
+            "phenotypes": [
+              "childhood autism",
+              "no history of convulsions"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo translocation disrupting KCNQ3; P574S reduced current with KV7.5 in oocytes, though also a rare SNP in dbSNP (rs74582884) previously reported in epilepsy",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Self-limited Neonatal Epilepsy associated with global developmental delay and high-threshold sensory profile: A novel KCNQ3 de novo variant in the S4 segment (PMID: 42024975)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_004519.4:c.730G>A, p.Gly244Ser, de novo",
+            "type": "missense",
+            "phenotypes": [
+              "self-limited neonatal epilepsy",
+              "global developmental delay",
+              "high-threshold sensory profile",
+              "seizures controlled with levetiracetam"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo, absent from population databases, conserved S4 residue, in silico deleterious; ACMG likely pathogenic (PS2, PM2, PP3)",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Phenotypic Spectrum in a Family Sharing a Heterozygous KCNQ3 Variant (PMID: 35384780)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "c.1091G>A, p.Arg364His",
+            "type": "missense",
+            "phenotypes": [
+              "neonatal seizures",
+              "developmental delay",
+              "autism spectrum disorder",
+              "anxiety",
+              "absence epilepsy",
+              "infrequent convulsive seizures",
+              "adult-onset epilepsy (mother)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variant segregating in all affected family members (3 siblings and mother); classified pathogenic",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Donepezil as a new therapeutic potential in KCNQ2- and KCNQ3-related autism (PMID: 39175503)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "p.Arg227Gln",
+            "type": "missense",
+            "phenotypes": [
+              "autism",
+              "developmental encephalopathy",
+              "improvement in CARS-2/CGI-c with donepezil"
+            ]
+          },
+          {
+            "description": "p.Arg230Cys",
+            "type": "missense",
+            "phenotypes": [
+              "autism",
+              "developmental encephalopathy",
+              "improvement in CARS-2/CGI-c with donepezil"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Known gain-of-function variants; the KCNQ3 patients were two of the four treated children (the other had a KCNQ2 variant)",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Genomic backgrounds of Japanese patients with undiagnosed neurodevelopmental disorders (PMID: 31171384)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "pathogenic/likely pathogenic KCNQ3 variant (details not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder (DD/ID/ASD/epilepsy)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic/likely pathogenic variant on targeted panel; most variants de novo",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "New genes involved in Angelman syndrome-like: Expanding the genetic spectrum (PMID: 34653234)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "pathogenic/likely pathogenic variant in KCNQ3 (details not given in abstract), likely de novo",
+            "type": "missense",
+            "phenotypes": [
+              "Angelman-like syndrome",
+              "severe developmental delay",
+              "seizures"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo pathogenic/likely pathogenic variant identified by WES in a patient with AS-like phenotype",
+        "center_country": "Spain",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic Heterogeneity in Autism Spectrum Disorder: Diagnostic Yield, Recurrent Genes, and Rare Variant-Phenotype Associations from WES (PMID: 42589554)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_004519.4:c.1657G>A, p.Gly553Arg",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "listed disease: juvenile myoclonic epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Classified likely pathogenic by ACMG; heterozygous, mother reference",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Kcnq3 knockout mouse study - KCNQ3 is the principal target of retigabine in CA1 and subicular excitatory neurons (PMID: 33729829)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Deletion of Kcnq3 severely limited the ability of retigabine to reduce neuronal excitability in CA1 and subiculum excitatory neurons",
+          "In the absence of KCNQ3, retigabine enhanced CA1 pyramidal neuron activity, producing more action potentials and reduced spike frequency adaptation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Place fields of single spikes in hippocampus involve Kcnq3 channel-dependent entrainment of complex spike bursts (PMID: 34376649)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Pyramidal cell bursts less coordinated by theta rhythm during spatial navigation, but not during alert immobility",
+          "Intact post-burst pause of single spike firing, causing temporal discoordination of network oscillations and intrinsic excitability",
+          "Smaller place fields of single spikes in one- and two-dimensional environments",
+          "Altered burst and single-spike representations that may contribute to cognitive deficits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Contribution of KCNQ2 and KCNQ3 to the medium and slow afterhyperpolarization currents (PMID: 19060215)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "ImAHP not impaired in CA1 pyramidal neurons of KCNQ3-deficient (or KCNQ2-deficient) mice",
+          "ImAHP reduced about 50% in dentate granule cells of KCNQ-deficient mice",
+          "Calcium-activated slow AHP current (IsAHP) also reduced in dentate granule cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of KCNQ2 or KCNQ3 Leads to Multifocal Time-Varying Activity in the Neonatal Forebrain Ex Vivo (PMID: 33863780)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Constitutive Kcnq3 deletion led to sprawling hyperactivity across the neocortex in neonatal brain slices",
+          "Neocortical activity in Kcnq3 knockouts remained primarily driven by fast synaptic transmission",
+          "Hypersynchronous activity in the hippocampal formation persisted with synaptic transmission blockers",
+          "Region-specific network hyperactivity across the forebrain"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cortical KCNQ2/3 channels; insights from knockout mice (PMID: 25483580)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Review of knockout mouse studies of cortical KCNQ2/3 channels; no abstract available, so specific phenotypes are not extractable"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chege et al. 2012 (cited in Diverse species of animal models in epilepsy research, PMID: 41320877) - kcnq3 morphants in zebrafish",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "kcnq3 morpholino knockdown models benign familial neonatal seizures (BFNS); details are not given in the available text"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Expression and function of KCNQ channels in larval zebrafish (PMID: 21692188)",
+        "evidence_subtype": "expression",
+        "summary": "qPCR and whole-mount in situ hybridization showed KCNQ2, 3 and 5 mRNA in zebrafish brain between 2 and 7 dpf. Morpholino knockdown of KCNQ3 confirmed a role for KCNQ channels in generating electrical burst discharges. Kv7 inhibitors (linopirdine, XE991) induced burst discharges and convulsive behavior, and retigabine blocked them.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Immunohistochemical analysis of KCNQ3 potassium channels in mouse brain (PMID: 16513263)",
+        "evidence_subtype": "expression",
+        "summary": "An N-terminal KCNQ3 antibody showed widespread immunoreactivity in adult mouse brain, mainly neuropil but also somata, in hippocampus, cortex, thalamus and cerebellum. Staining increased gradually during development. In hippocampal pyramidal cells it shifted from somatic to neuropil, which may relate to the age-dependent BFNC phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Triclosan is a KCNQ3 potassium channel activator (PMID: 35459955)",
+        "evidence_subtype": "function",
+        "summary": "Triclosan activates KCNQ3 but not KCNQ2. It shifts the voltage dependence of activation, increases conductance and slows channel closing, independently of PIP2. Docking and mutagenesis place the binding site in the voltage-sensor domain.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lipophilic compounds restore function to neurodevelopmental-associated KCNQ3 mutations (PMID: 39300259)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Voltage clamp fluorometry, MD simulations and electrophysiology showed that NDD-associated KCNQ3 variants alter gating either by affecting S4 movement or by changing S4-to-pore coupling. PUFAs target the activated voltage-sensing domain. They partially restored function in R227Q channels and fully restored it in R236C channels.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Electrophysiological Abnormalities and Pharmacological Corrections of Pathogenic Missense Variants in KCNQ3 (PMID: 40095209)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Patch-clamp of 24 KCNQ3 missense variants showed that pore-domain variants cause near-complete loss of function and are associated with self-limited familial neonatal epilepsy. Variants with leftward-shifted V1/2 (gain of function), including the novel G553R, are associated with NDD. Loss-of-function variants were rescued by pynegabine (HN37), and the gain-of-function variant was corrected by amitriptyline.",
+        "sample_size": "24 missense variants",
+        "significance": null
+      },
+      {
+        "citation": "Altered KCNQ3 potassium channel function caused by the W309R pore-helix mutation found in human epilepsy (PMID: 18425618)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Homomeric KCNQ3 W309R channels lacked current. Heteromeric KCNQ2/KCNQ3 W309R channels showed dominant-negative current suppression and altered gating. Homology modeling suggests the mutation disrupts the pore helix\u2013selectivity filter interaction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A novel KCNQ3 mutation in familial epilepsy with focal seizures and intellectual disability (PMID: 25524373)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The KCNQ3 R330L variant segregated with early-onset epilepsy and intellectual disability in a family. Electrophysiology in mammalian cells showed impaired channel function, more severe than that of R330C, which causes typical BFNS. The degree of functional impairment may therefore track clinical severity.",
+        "sample_size": "one family",
+        "significance": null
+      },
+      {
+        "citation": "Cilantro leaf harbors a potent potassium channel-activating anticonvulsant (PMID: 31311306)",
+        "evidence_subtype": "function",
+        "summary": "(E)-2-dodecenal from cilantro activates the neuronal KCNQ2/KCNQ3 channel with an EC50 of about 60 nM. It binds between the S5 segment and the S4-5 linker and delays PTZ-induced seizures.",
+        "sample_size": null,
+        "significance": "EC50 60 \u00b1 20 nM"
+      },
+      {
+        "citation": "ASHG 2018 - Large-scale targeted sequencing identifies risk genes for autism and developmental delay",
+        "evidence_subtype": "GWAS",
+        "summary": "Targeted sequencing of 18,836 NDD cases (ASD and DD) found KCNQ3 among genes with increased burden of gene-disruptive and severe missense mutations compared with ExAC controls.",
+        "sample_size": "18,836 NDD cases; 45,376 controls",
+        "significance": null
+      },
+      {
+        "citation": "Differential Dorsolateral Prefrontal Cortex Proteomic Profiles of Suicide Victims with Mood Disorders (PMID: 32120974)",
+        "evidence_subtype": "expression",
+        "summary": "KCNQ3 was the top differentially expressed protein in the DLPFC, reduced in male suicide cases with mood disorders versus non-suicide mood disorder controls. Western blot showed a trend to downregulation.",
+        "sample_size": "5 suicide vs 5 non-suicide mood disorder cases",
+        "significance": "Log2FC=-0.481, p=2.10e-09, FDR=5.93e-06; Western blot p=0.045 (Bonferroni 0.090)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+MAP3K12 LITERATURE EVIDENCE REPORT: NEURODEVELOPMENTAL DISORDER (HETEROZYGOUS / AUTOSOMAL DOMINANT)
+
+1. GENE SUMMARY
+MAP3K12 encodes dual leucine zipper kinase (DLK), a MAP kinase kinase kinase that activates the JNK/c-Jun stress-signaling cascade. Its best-characterized role is as a neuronal injury sensor that regulates axon regeneration, axon degeneration and neuronal apoptosis.
+
+2. CLINICAL EVIDENCE SUMMARY
+- Independent reports: 2, both single-patient observations.
+- Total patients: about 2.
+  - One patient had a rare LoF variant and cerebral palsy, from a Geisinger/Regeneron DiscovEHR exome study (ASHG 2017 - Debunking the cerebral palsy (CP)-birth asphyxia myth: Frequent genomic etiologies for CP identified by exome sequencing). The variant was absent from ExAC, EVS and 1000G, and MAP3K12 is predicted to be highly LoF intolerant. The specific change was not given in the abstract, and inheritance or de novo status was not stated.
+  - One patient had a neurodevelopmental disorder (unspecified developmental delay) with a de novo missense variant, c.436G>A (PMID: 38113761). A minigene assay showed that the variant acts as a non-canonical splicing variant causing a 91 bp deletion in exon 4. The patient was from China.
+- Phenotypes: cerebral palsy and non-specific NDD/developmental delay. Details are minimal, and no recurrent phenotype has been established.
+- Variant types: one LoF and one missense with a splicing effect. The two are not directly comparable, though the splicing variant would likely be LoF.
+- Cohorts: none of the patients are from UDN, GREGoR, DDD, RUMC or GEL. One is from the Geisinger/DiscovEHR population cohort, and one is from a Chinese NDD cohort.
+- Strength of clinical evidence: LIMITED. There are only two cases, no recurrence of a specific syndrome, no variant-level segregation data, and no functional validation beyond the minigene assay.
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Organisms: Xenopus laevis (CRISPR F0 map3k12 knockout/knockdown; PMID: 37152673) and mouse (conditional knockout and pharmacological DLK inhibition; PMIDs: 29968565, 38363678, 36342754, 40067879, 32659913).
+- Key phenotypes:
+  - Xenopus: map3k12 loss was viable. It did not affect RGC innervation of the brain during development or visually driven behavior. It blocked axonal regeneration and functional vision restoration after optic nerve crush (PMID: 37152673).
+  - Mouse: DLK loss reduced neuropathic allodynia and microgliosis (PMID: 29968565). It reduced complement activation and synapse loss after axotomy (PMID: 38363678). Combined with ATF3 expression, it was protective in the SOD1G93A ALS model (PMID: 36342754). DLK levels affected hippocampal neuron vulnerability, neurite outgrowth, axon specification and synapse formation (PMID: 40067879).
+  - Studies were largely conditional or injury-based, and no germline heterozygous knockout phenotype, lethality ratio, or Mendelian ratio data were reported. The Xenopus study showed no developmental innervation defect.
+- Consistency with human phenotype: weak. The model data concern injury responses and neurodegeneration, not developmental or cerebral palsy-like phenotypes. The signals that do touch on development are limited to in vitro neurite and synapse effects (PMID: 40067879).
+- Strength of model organism evidence: LIMITED. The data are relevant to neuronal biology but do not model a neurodevelopmental disorder.
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Pathways and function: DLK sits upstream of JNK/c-Jun and ATF2 signaling. A genome-wide CRISPR inhibition screen in human neurons identified DLK/MAP3K12, JUN and ATF2 as a pro-death cascade (PMID: 42161275). DLK is regulated by FKBPL and FKBP8, which promote its degradation, with K271 as the ubiquitination/SUMO3 site (PMID: 35101451). DLK is redundant with LZK (MAP3K13) in corticospinal axon regeneration (PMID: 35361703). DLK activity drives neuronal degeneration, and the selective brain-penetrant inhibitor GNE-3511 is neuroprotective (PMID: 25341110). DLK also drives injury-induced inflammation through C1q and microglia (PMID: 38363678).
+- Expression: the evidence supplied gives no systematic expression data. DLK is constitutively active in the adult mouse brain, for example in cerebellar granule neurons (PMID: 32659913). MAP3K12 is upregulated after ischemia/reperfusion (PMID: 33387968). It is also regulated by miRNAs in other contexts (PMID: 34818971; PMID: 25999017).
+- Other roles: MAP3K12 promotes tumor progression in renal clear cell carcinoma (PMID: 39038636).
+- Strength of biological evidence: MODERATE. The evidence for a role in neuronal stress, axon biology and neurodegeneration is robust, but it is not specific to neurodevelopmental disease mechanisms, and the direction of effect (LoF versus gain of function) in human disease is unclear.
+
+5. OVERALL ASSESSMENT
+- Overall evidence level: LIMITED (bordering on insufficient for a definitive gene-disease relationship).
+- Key strengths:
+  - Two reported patients with a rare LoF variant and a de novo splicing-disrupting variant.
+  - High predicted LoF intolerance.
+  - A well-defined neuronal function for DLK in axon and synapse biology.
+  - Extensive mouse and Xenopus data on neuronal responses to injury.
+- Key gaps:
+  - Only two patients, with sparse phenotyping and no recurrent syndrome.
+  - Incomplete variant details and no confirmed de novo status for the LoF case.
+  - No germline heterozygous knockout or developmental phenotype in animals.
+  - Animal phenotypes concern injury and degeneration rather than neurodevelopment.
+  - Unclear mechanism, since DLK inhibition is neuroprotective, so LoF in humans is not an obvious pathomechanism.
+  - No case-control or burden evidence.
+
+Conclusion: MAP3K12 is a plausible but unproven candidate for a heterozygous neurodevelopmental disorder. The two cases (ASHG 2017; PMID: 38113761) are hypothesis-generating, and the model organism and biological data support a role in neuronal function rather than directly validating a developmental phenotype. Additional unrelated individuals with de novo or LoF variants, detailed phenotyping, and functional or developmental animal studies are needed before the gene-disease relationship can be upgraded.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Prioritizing de novo potential non-canonical splicing variants in neurodevelopmental disorders (PMID: 38113761)
+
+### Model Organism Evidence
+1. Xenopus Dlk study - Dual leucine zipper kinase is necessary for retinal ganglion cell axonal regeneration in Xenopus laevis (PMID: 37152673)
+2. Dual leucine zipper kinase is required for mechanical allodynia and microgliosis after nerve injury (PMID: 29968565)
+3. DLK signaling in axotomized neurons triggers complement activation and loss of upstream synapses (PMID: 38363678)
+4. Promoting regeneration while blocking cell death preserves motor neuron function in a model of ALS (PMID: 36342754)
+5. Translatome analysis reveals cellular network in DLK-dependent hippocampal glutamatergic neuron degeneration (PMID: 40067879)
+6. Dual Leucine Zipper Kinase Is Constitutively Active in the Adult Mouse Brain and Has Both Stress-Induced and Homeostatic Functions (PMID: 32659913)
+
+### Biological Evidence
+1. Sun et al. 2026 - ATF2 phosphorylation is a core transcriptional driver of neuron apoptosis (PMID: 42161275)
+2. Kim et al. 2022 - FK506-binding protein-like and FK506-binding protein 8 regulate dual leucine zipper kinase degradation and neuronal responses to axon injury (PMID: 35101451)
+3. Shin et al. 2022 - A Critical Role for DLK and LZK in Axonal Repair in the Mammalian Spinal Cord (PMID: 35361703)
+4. Patel et al. 2015 - Discovery of dual leucine zipper kinase (DLK, MAP3K12) inhibitors with activity in neurodegeneration models (PMID: 25341110)
+5. Wang et al. 2021 - Celastrol attenuates ischemia/reperfusion-mediated memory dysfunction by downregulating AK005401/MAP3K12 (PMID: 33387968)
+6. Wang et al. 2021 - MiR-191-5p alleviates microglial cell injury by targeting Map3k12 to inhibit the MAPK signaling pathway in Alzheimer's disease (PMID: 34818971)
+7. Li et al. 2015 - MicroRNA-130a Targets MAP3K12 to Modulate Diabetic Endothelial Progenitor Cell Function (PMID: 25999017)
+8. Tang et al. 2024 - Comprehensive analysis of MAPK genes in the prognosis, immune characteristics, and drug treatment of renal clear cell carcinoma (PMID: 39038636)

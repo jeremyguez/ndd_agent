@@ -1,0 +1,225 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Grandparental genotyping enhances exome variant interpretation (PMID: 32027463)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Pathogenic/likely pathogenic SOX10 variant (exact notation not given in abstract); apparently inherited from an unaffected parent but shown to be de novo in the grandparent generation",
+            "type": "other",
+            "phenotypes": [
+              "Phenotype not specified in abstract",
+              "Parent reported as unaffected"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic/likely pathogenic variant identified on trio exome. Grandparental segregation showed the variant was de novo in the parent (apparent parental mosaicism or de novo event), explaining the parent's lack of symptoms.",
+        "center_country": null,
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "22q12.3-q13.1 microdeletion including SOX10 causes atypical Waardenburg syndrome (PMID: 32703023)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "1.99 Mb deletion arr[hg19]22q12.3-13.1 (chr22:36656004-38643920) including SOX10 and 13 other RefSeq genes",
+            "type": "other",
+            "phenotypes": [
+              "Atypical Waardenburg syndrome",
+              "Severe congenital heart disease",
+              "Strabismus",
+              "Iris pigment disturbance/heterochromia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous contiguous deletion encompassing SOX10, interpreted as acting as a dominant pathogenic variant. Family exome testing was performed.",
+        "center_country": "China (likely)",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "Clinical, endocrinological, and molecular characterization of Kallmann syndrome and normosmic idiopathic hypogonadotropic hypogonadism: a single center experience (PMID: 25883924)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "SOX10 variant(s) identified in a small number of patients (exact notation not given in abstract). Together with KAL1 and CHD7, molecular defects were found in 5 patients from 4 families.",
+            "type": "other",
+            "phenotypes": [
+              "Kallmann syndrome / isolated GnRH deficiency",
+              "Hearing loss (SOX10 was tested in patients with CHARGE features or deafness)",
+              "Absent or hypoplastic olfactory bulb/sulci"
+            ]
+          }
+        ],
+        "diagnostic_reason": "SOX10 was analyzed in patients with deafness or CHARGE features, and a molecular defect was identified in SOX10 in at least one patient.",
+        "center_country": "South Korea",
+        "cohort": null,
+        "disease": "CHD"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Interactions between Sox10 and EdnrB modulate penetrance and severity of aganglionosis in the Sox10Dom mouse model of Hirschsprung disease (PMID: 15294878)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout (Sox10Dom spontaneous mutant allele; Sox10Dom/+ crossed with EdnrB mutants)",
+        "phenotypes": [
+          "Enteric aganglionosis with variable penetrance and expressivity depending on genetic background",
+          "C57BL/6J EdnrB alleles increased penetrance and severity of aganglionosis in Sox10Dom/+ mice",
+          "Sox10/EdnrB double mutants showed significantly more severe aganglionosis",
+          "The background strain of the EdnrB mutant further modified the phenotype of double mutants"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": "highly significant effect of EdnrB alleles (no specific p-value given in abstract)"
+      },
+      {
+        "citation": "Control of cranial ectomesenchyme fate by Nr2f nuclear receptors (PMID: 36367707)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (sox10 mutation combined with nr2f5 single and nr2f2;nr2f5 double mutants)",
+        "phenotypes": [
+          "nr2f5 and nr2f2;nr2f5 mutants showed delayed downregulation of sox10 and delayed upregulation of ectomesenchyme genes",
+          "Mutation of sox10 fully rescued skeletal development in nr2f5 single mutants",
+          "sox10 mutation did not rescue skeletal development in nr2f2;nr2f5 double mutants",
+          "Initial ectomesenchyme delay persisted in both single and double mutants despite sox10 loss"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - Additive toxicity of SOX10 mutation underlies a complex neurological phenotype of PCWH",
+        "organism": "mouse",
+        "knockout_type": "other (BAC transgenic expressing PCWH-causing SOX10 c.1400del12 mutant in Sox10-expressing cells; dominant toxic gain-of-function model)",
+        "phenotypes": [
+          "Delayed integration of Schwann cells in the sciatic nerve",
+          "Delayed terminal differentiation of oligodendrocytes in the spinal cord",
+          "Hypomyelination in the PNS and CNS",
+          "Neurosensory deafness",
+          "Abnormal skin pigmentation (melanocyte defects)",
+          "Loss of the enteric nervous system",
+          "Phenotype severity increased with transgene copy number (dosage effect)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - Sox10 BAC transgenic mouse modeling a complex neurocristopathy, PCWH",
+        "organism": "mouse",
+        "knockout_type": "other (BAC transgenic expressing PCWH-causing mutant Sox10)",
+        "phenotypes": [
+          "Circling behavior",
+          "Hypopigmented coat color",
+          "Neurosensory deafness",
+          "Abnormal enlargement of colon",
+          "Abnormal motor coordination",
+          "Relatively normal migration and differentiation of oligodendrocytes and Schwann cells but delayed myelination"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Adult sox10(+) Cardiomyocytes Contribute to Myocardial Regeneration in the Zebrafish (PMID: 31644901)",
+        "organism": "zebrafish",
+        "knockout_type": "other (genetic ablation of sox10+ cardiomyocytes; fate mapping)",
+        "phenotypes": [
+          "Genetic ablation of sox10+ cardiomyocytes impaired cardiac regeneration after cryoinjury",
+          "sox10+ cardiomyocyte subset expanded after cryoinjury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Control of cranial ectomesenchyme fate by Nr2f nuclear receptors (PMID: 36367707)",
+        "evidence_subtype": "other",
+        "summary": "In zebrafish, nr2f5 and nr2f2;nr2f5 mutants fail to downregulate sox10, which is normally restricted to early neural crest and non-ectomesenchyme lineages. Mutating sox10 fully rescued skeletal development in nr2f5 single mutants but not in double mutants. Sox10 perdurance therefore antagonizes the ectomesenchyme transition but does not explain the Nr2f-dependent delay.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sox10 Functions as an Inducer of the Direct Conversion of Keratinocytes Into Neural Crest Cells (PMID: 33040687)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Sox10 overexpression converted bone marrow mesenchymal cells, but not keratinocytes, into P75+ neural crest cells. Keratinocytes converted when Sox10 was co-expressed with Snail1, Snail2, Twist1 and Tcfap2a. Sox10 expressed after the four factors produced multipotent neural crest cells, so the order of expression matters.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2023 - Genetic epistasis between RET and ELP1 explains gastrointestinal motility dysfunction in Familial Dysautonomia patients",
+        "evidence_subtype": "cell_culture",
+        "summary": "Sox10 expression is altered in both Ret and Elp1 knockout mouse embryonic gut (scRNA-seq, E14.5). In SK-N-SH cells, ELP1 heterozygous knockout reduced SOX10 by about 15%, and RET heterozygous knockout reduced SOX10 by about 80%. SOX10 therefore sits in a shared gene regulatory network with RET, ELP1 and EDNRB in the enteric nervous system.",
+        "sample_size": null,
+        "significance": "p<0.01"
+      },
+      {
+        "citation": "ASHG 2016 - Investigating the role of SOX10-regulated alternative promoter use in Schwann cells",
+        "evidence_subtype": "function",
+        "summary": "Integrating CAGE data with SOX10 ChIP-seq identified 55 previously unannotated promoters bound by SOX10 in Schwann cells. SOX10 is necessary and sufficient for activity of an alternative MTMR2 promoter and expression of its transcript, which encodes a protein isoform with different nuclear localization.",
+        "sample_size": "10,679 putative TSSs; 407 novel TSSs; 55 SOX10-bound promoters",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Investigating the role of SOX6 during the development of the peripheral nervous system",
+        "evidence_subtype": "pathway",
+        "summary": "SOX10 activates SOX6 through an intronic alternative promoter. Deleting the SOX10 consensus sites reduced promoter activity in Schwann cells, and SOX10 expression in SOX10-negative motor neurons induced the promoter and endogenous SOX6 transcription. SOX6 may in turn repress a subset of SOX10 targets to maintain a premyelinating state.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - SOX10 Regulates an Alternative Promoter at the Charcot-Marie-Tooth Disease Locus MTMR2",
+        "evidence_subtype": "function",
+        "summary": "SOX10 drives a Schwann cell-specific alternative MTMR2 promoter. Ectopic SOX10 induced the endogenous transcript in a heterologous cell line, and impairing SOX10 function nearly ablated it in Schwann cells. The resulting N-terminally truncated MTMR2 isoform shows higher nuclear localization, which may be relevant to CMT4B1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOX10: 20 years of phenotypic plurality and current understanding of its developmental function (PMID: 34667088)",
+        "evidence_subtype": "function",
+        "summary": "SOX10 is a transcription factor of the SOX family. Heterozygous mutations cause Waardenburg syndrome types 2 and 4, PCWH, intestinal pseudo-obstruction, Kallmann syndrome and isolated hearing loss. SOX10 regulates neural crest derivatives (melanocytes, enteric nervous system, Schwann cells, olfactory ensheathing cells) and the inner ear and oligodendrocytes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rapid and efficient generation of oligodendrocytes from human induced pluripotent stem cells using transcription factors (PMID: 28246330)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Induced expression of SOX10, OLIG2 and NKX6.2 in iPSC-derived neural progenitors rapidly generated O4+ oligodendrocytes with up to 70% efficiency in 28 days. The cells resembled primary human oligodendrocytes and myelinated the CNS of Mbp shi/shi Rag-/- mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SOX10-dependent CMTM7 expression inhibits cell proliferation and tumor growth in gastric carcinoma (PMID: 30392914)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SOX10 and CMTM7 are both down-regulated in gastric cancer tissue and their expression is correlated (r=0.6455). SOX10 transcriptionally regulates CMTM7 in luciferase assays. SOX10 overexpression in CMTM7-silenced cells inhibited proliferation and tumor growth.",
+        "sample_size": null,
+        "significance": "r=0.6455, p<0.001"
+      },
+      {
+        "citation": "ADRB2 inhibition suppresses cancer immune evasion by regulating tumor SOX10-PD-L1 axis and T cell function (PMID: 40514069)",
+        "evidence_subtype": "pathway",
+        "summary": "ADRB2 signaling through PKA upregulates SOX10, which transcriptionally regulates PD-L1 (shown by luciferase reporter and ChIP-PCR). SOX10 knockdown mimicked ADRB2 inhibition and SOX10 overexpression reversed it. The axis was conserved in colorectal cancer models.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

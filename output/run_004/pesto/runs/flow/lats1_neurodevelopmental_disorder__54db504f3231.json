@@ -1,0 +1,831 @@
+{
+ "gene": "LATS1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of neurological development",
+   "neurodevelopmental impairment",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "WARTS",
+   "large tumor suppressor kinase 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 82,
+  "titlekicksparingfulltext": 20,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 0,
+   "Existing": 4,
+   "Hypothesized": 80,
+   "Novel": 16
+  },
+  "justification": "No article in this set reports LATS1 variants in human probands or families with neurodevelopmental disorder; LATS1 appears almost exclusively as a core Hippo pathway kinase in cancer, metabolic, and signaling studies (PMIDs 37937799, 34294713, 35613278, 27912098, 12379777). The only disease-variant evidence concerns WWC1 (W88C) in Tourette's syndrome, where LATS1/2 phosphorylation is a downstream readout in a mouse model, not a LATS1 variant (PMID 40153501). Reviews explicitly connect YAP/TAZ\u2013LATS1/2 signaling to brain development and neurodevelopmental disorders, and mouse Lats1/Lats2 inactivation perturbs neural progenitor proliferation and survival (PMIDs 39936032, 41597251, 37124926), which supports biological plausibility rather than genetic causation. This pattern fits \"Hypothesized\": pathway and animal-model relevance without human variant data. A small residual probability is given to \"Existing\" in case unreported human association data exist, and some to \"Novel\" since several co-mentions are incidental.",
+  "pmids": [],
+  "detail": {
+   "Established": 0,
+   "Existing": 4,
+   "Hypothesized": 80,
+   "Novel": 16
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39936032",
+   "title": "YAP/TAZ-associated cell signaling - at the crossroads of cancer and neurodevelopmental disorders.",
+   "abstract": "YAP/TAZ (Yes-associated protein/paralog transcriptional co-activator with PDZ-binding domain) are transcriptional cofactors that are the key and major downstream effectors of the Hippo signaling pathway. Both are known to play a crucial role in defining cellular outcomes, including cell differentiation, cell proliferation, and apoptosis. Aside from the canonical Hippo signaling cascade with the key components MST1/2 (mammalian STE20-like kinase 1/2), SAV1 (Salvador homologue 1), MOB1A/B (Mps one binder kinase activator 1A/B) and LATS1/2 (large tumor suppressor kinase 1/2) upstream of YAP/TAZ, YAP/TAZ activation is also influenced by numerous other signaling pathways. Such non-canonical regulation of YAP/TAZ includes well-known growth factor signaling pathways such as the epidermal growth factor receptor (EGFR)/ErbB family, Notch, and Wnt signaling as well as cell-cell adhesion, cell-matrix interactions and mechanical cues from a cell's microenvironment. This puts YAP/TAZ at the center of a complex signaling network capable of regulating developmental processes and tissue regeneration. On the other hand, dysregulation of YAP/TAZ signaling has been implicated in numerous diseases including various cancers and neurodevelopmental disorders. Indeed, in recent years, parallels between cancer development and neurodevelopmental disorders have become apparent with YAP/TAZ signaling being one of these pathways. This review discusses the role of YAP/TAZ in brain development, cancer and neurodevelopmental disorders with a special focus on the interconnection in the role of YAP/TAZ in these different conditions.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37937799",
+   "title": "MAP4K2 connects the Hippo pathway to autophagy in response to energy stress.",
+   "abstract": "As a key regulator of development, organ size, tissue homeostasis and cancer, the Hippo pathway is tightly regulated by various growth-related signaling events. Among them, energy stress activates the Hippo pathway to inhibit its downstream effector YAP1. Our recent work reported a YAP1-independent role of the Hippo pathway in promoting macroautophagy/autophagy and cell survival in response to energy stress, a process mediated by Hippo kinase MAP4K2. MAP4K2 interacts with and phosphorylates MAP1LC3A/LC3A at S87, which in turn drives autophagosome-lysosome fusion via the RAB3GAP-RAB18 axis. Energy stress activates MAP4K2 by reducing its association with the Hippo phosphatase complex STRIPAK component STRN4. Moreover, MAP4K2 is highly expressed in head and neck cancer, while MAP4K2 and its mediated autophagy are required for head and neck cancer development. Taken together, our study not only reveals a noncanonical role of the Hippo pathway in energy stress response, but also suggests Hippo kinase MAP4K2 as a potential therapeutic target for head and neck cancer treatment.Abbreviation: AMPK: 5'-AMP-activated protein kinase; Atg8: autophagy related 8; LATS1: large tumor suppressor 1; LIR: microtubule-associated protein 1 light chain 3-interacting region; MAP1LC3A/LC3A: microtubule-associated protein 1 light chain 3 alpha; MAP4K2: mitogen-activated protein kinase kinase kinase kinase 2; PPP2/PP2A: protein phosphatase 2; RAB3GAP: RAB3 GTPase activating protein; RAB18: RAB18, member RAS oncogene family; SLMAP: sarcolemma associated protein; STK3/MST2: serine/threonine kinase 3; STK4/MST1: serine/threonine kinase 4; STRIPAK: striatin-interacting phosphatase and kinase; STRN4: striatin, calmodulin binding protein 4; SQSTM1/p62: sequestosome 1; TEAD: TEA domain family member; ULK1: unc-51 like kinase 1; WWTR1/TAZ: WW domain containing transcription regulator 1; YAP1: yes-associated protein 1.",
+   "found_by": [],
+   "pubdate": "2024 Mar",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34294713",
+   "title": "S-nitrosylation-mediated coupling of G-protein alpha-2 with CXCR5 induces Hippo/YAP-dependent diabetes-accelerated atherosclerosis.",
+   "abstract": "Atherosclerosis-associated cardiovascular disease is one of the main causes of death and disability among patients with diabetes mellitus. However, little is known about the impact of S-nitrosylation in diabetes-accelerated atherosclerosis. Here, we show increased levels of S-nitrosylation of guanine nucleotide-binding protein G(i) subunit alpha-2 (SNO-GNAI2) at Cysteine 66 in coronary artery samples from diabetic patients with atherosclerosis, consistently with results from mice. Mechanistically, SNO-GNAI2 acted by coupling with CXCR5 to dephosphorylate the Hippo pathway kinase LATS1, thereby leading to nuclear translocation of YAP and promoting an inflammatory response in endothelial cells. Furthermore, Cys-mutant GNAI2 refractory to S-nitrosylation abrogated GNAI2-CXCR5 coupling, alleviated atherosclerosis in diabetic mice, restored Hippo activity, and reduced endothelial inflammation. In addition, we showed that melatonin treatment restored endothelial function and protected against diabetes-accelerated atherosclerosis by preventing GNAI2 S-nitrosylation. In conclusion, SNO-GNAI2 drives diabetes-accelerated atherosclerosis by coupling with CXCR5 and activating YAP-dependent endothelial inflammation, and reducing SNO-GNAI2 is an efficient strategy for alleviating diabetes-accelerated atherosclerosis.",
+   "found_by": [],
+   "pubdate": "2021 Jul 22",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40985618",
+   "title": "SARS-CoV-2 NSP13 interacts with TEAD to suppress Hippo-YAP signaling.",
+   "abstract": "The Hippo pathway controls organ development, homeostasis, and regeneration primarily by modulating YAP/TEAD-mediated gene expression. Although emerging studies report Hippo-YAP dysfunction after viral infection, it is largely unknown in the context of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). Here, we analyzed RNA sequencing data from human-induced pluripotent stem cell-derived cardiomyocytes (iPSC-CMs) and SARS-CoV-2-infected human lung samples, and observed a decrease in YAP target gene expression. In screening SARS-CoV-2 nonstructural proteins, we found that nonstructural protein 13 (NSP13), a conserved coronavirus helicase, inhibits YAP transcriptional activity independent of the upstream Hippo kinases LATS1/2. Consistently, introducing NSP13 into mouse cardiomyocytes suppresses an active form of YAP (YAP5SA) in vivo. Subsequent investigations on NSP13 mutants revealed that NSP13 helicase activity, including DNA binding and unwinding, is crucial for suppressing YAP transactivation in HEK293T cells. Mechanistically, TEAD4 serves as a platform to recruit NSP13 and YAP. NSP13 likely inactivates the YAP/TEAD4 transcription complex by remodeling chromatin to recruit proteins, such as transcription termination factor 2 (TTF2), to bind the YAP/TEAD/NSP13 complex. These findings reveal a novel YAP/TEAD regulatory mechanism and uncover molecular insights into Hippo-YAP regulation after SARS-CoV-2 infection in humans.",
+   "found_by": [],
+   "pubdate": "2025 Sep 23",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "35613278",
+   "title": "The Hippo pathway mediates Semaphorin signaling.",
+   "abstract": "Semaphorins were originally identified as axonal guidance molecules, but they also control processes such as vascular development and tumorigenesis. The downstream signaling cascades of Semaphorins in these biological processes remain unclear. Here, we show that the class 3 Semaphorins (SEMA3s) activate the Hippo pathway to attenuate tissue growth, angiogenesis, and tumorigenesis. SEMA3B restoration in lung cancer cells with SEMA3B loss of heterozygosity suppresses cancer cell growth via activating the core Hippo kinases LATS1/2 (large tumor suppressor kinase 1/2). Furthermore, SEMA3 also acts through LATS1/2 to inhibit angiogenesis. We identified p190RhoGAPs as essential partners of the SEMA3A receptor PlexinA in Hippo regulation. Upon SEMA3 treatment, PlexinA interacts with the pseudo-guanosine triphosphatase (GTPase) domain of p190RhoGAP and simultaneously recruits RND GTPases to activate p190RhoGAP, which then stimulates LATS1/2. Disease-associated etiological factors, such as genetic lesions and oscillatory shear, diminish Hippo pathway regulation by SEMA3. Our study thus discovers a critical role of Hippo signaling in mediating SEMA3 physiological function.",
+   "found_by": [],
+   "pubdate": "2022 May 27",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34079799",
+   "title": "Hippo Signaling Pathway in Pancreas Development.",
+   "abstract": "The Hippo signaling pathway is a vital regulator of pancreatic development and homeostasis, directing cell fate decisions, morphogenesis, and adult pancreatic cellular plasticity. Through loss-of-function research, Hippo signaling has been found to play key roles in maintaining the proper balance between progenitor cell renewal, proliferation, and differentiation in pancreatic organogenesis. Other studies suggest that overactivation of YAP, a downstream effector of the pathway, promotes ductal cell development and suppresses endocrine cell fate specification via repression of Ngn3. After birth, disruptions in Hippo signaling have been found to lead to de-differentiation of acinar cells and pancreatitis-like phenotype. Further, Hippo signaling directs pancreatic morphogenesis by ensuring proper cell polarization and branching. Despite these findings, the mechanisms through which Hippo governs cell differentiation and pancreatic architecture are yet to be fully understood. Here, we review recent studies of Hippo functions in pancreatic development, including its crosstalk with NOTCH, WNT/\u03b2-catenin, and PI3K/Akt/mTOR signaling pathways.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39674114",
+   "title": "USP20 mediates malignant phenotypic changes in bladder cancer through direct interactions with YAP1.",
+   "abstract": "Yes-associated protein 1 (YAP1) has attracted attention for its potential in the treatment of various types of malignancies. The Hippo-YAP1 axis is inhibited in bladder cancer (BC), which is a major driver of BC progression and oncogenesis. Hippo pathway activity is controlled by the phosphorylation cascade in the MST1/2-LATS1/2-YAP1 axis, in addition to other modifications such as ubiquitination of the Hippo pathway proteins through the co-regulation of E3 ligases and deubiquitinases. In this study, we identified USP20 as a Hippo/YAP1 pathway-related deubiquitinase using combined siRNA screening and a deubiquitinase overexpression assay. Further analysis revealed that USP20 directly regulated the expression of YAP1 and its downstream target genes connective tissue growth factor and cysteine-rich angiogenic inducer 61. A tissue microarray assay confirmed that USP20 expression was elevated in tumor tissues and correlated with YAP1 expression. Analysis of the underlying mechanisms revealed that USP20 directly interacted with the YAP1 protein and promoted its stability through inhibition of K48-linked poly-ubiquitination. Our findings revealed that USP20 serves as a deubiquitinase and regulates the Hippo-YAP1 pathway in BC.",
+   "found_by": [],
+   "pubdate": "2025 Feb",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40069162",
+   "title": "LATS1-modulated ZBTB20 perturbing cartilage matrix homeostasis contributes to early-stage osteoarthritis.",
+   "abstract": "Osteoarthritis (OA) is one of the most common degenerative joint diseases in the elderly, increasing in prevalence and posing a substantial socioeconomic challenge, while no disease-modifying treatments available. Better understanding of the early molecular events will benefit the early-stage diagnosis and clinical therapy. Here, we observed the nucleus accumulation of ZBTB20, a member of ZBTB-protein family, in the chondrocytes of early-stage OA. Chondrocytes-specific depletion of Zbtb20 in adult mice attenuated DMM-induced OA progress, restored the balance of extracellular matrix anabolism and catabolism. The NF-\u03baB signaling mediated disturbance of ECM maintenance by ZBTB20 requires its suppression of Pten and consequent PI3K-Akt signaling activation. Furthermore, the subcellular localization of ZBTB20 was modulated by the kinase LATS1. Independent approaches to modulating ZBTB20 via utilizing TRULI and DAPA can restore ECM homeostasis, improving the abnormal behavior and moderating cartilage degeneration. The compounds TRULI and DAPA modulating ZBTB20 may serve as anti-OA drugs.",
+   "found_by": [],
+   "pubdate": "2025 Mar 12",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "42150850",
+   "title": "Structural Studies of Core Hippo Pathway Components.",
+   "abstract": "The Hippo signaling pathway represents a critical regulatory mechanism governing organ size control, tissue homeostasis, and tumor suppression through modulation of the transcriptional coactivators Yes-associated protein (YAP) and transcriptional coactivator with PDZ-binding motif (TAZ). This review focuses on recent structural biology advances in understanding the molecular architecture and regulatory mechanisms of the Hippo pathway. We examine the core signaling complexes, mammalian sterile 20-like kinases 1 and 2 (MST1/2)-Salvador ortholog 1 (SAV1) and large tumor suppressor 1/2 (LATS1/2)-Mps One Binder (MOB1), revealing their intricate assembly mechanisms and activation dynamics. The review highlights the striatin-interacting phosphatase and kinase (STRIPAK) complex as a pivotal negative regulator through its unique PP2A-striatin core architecture. We further explore upstream regulatory proteins including NF2/Merlin and angiomotin family proteins, highlighting angiomotin-induced conformational changes and membrane-associated spatial organization that orchestrate pathway activation. Importantly, disease-associated mutations cluster at critical structural interfaces, providing mechanistic insights into pathological Hippo pathway dysregulation. These structural studies not only advance our fundamental understanding of signal transduction mechanisms but also provide a foundation for exploiting the Hippo pathway in regenerative medicine and cancer therapy.",
+   "found_by": [],
+   "pubdate": "2026 May 26",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "24929361",
+   "title": "Protein interaction switches coordinate Raf-1 and MST2/Hippo signalling.",
+   "abstract": "Signal transduction requires the coordination of activities between different pathways. In mammalian cells, Raf-1 regulates the MST-LATS and MEK-ERK pathways. We found that a complex circuitry of competing protein interactions coordinates the crosstalk between the ERK and MST pathways. Combining mathematical modelling and experimental validation we show that competing protein interactions can cause steep signalling switches through phosphorylation-induced changes in binding affinities. These include Akt phosphorylation of MST2 and a feedback phosphorylation of Raf-1 Ser\u00a0259 by LATS1, which enables Raf-1 to suppress both MST2 and MEK signalling. Mutation of Raf-1 Ser\u00a0259 stimulates both pathways, simultaneously driving apoptosis and proliferation, whereas concomitant MST2 downregulation switches signalling to cell proliferation, transformation and survival. Thus, competing protein interactions provide a versatile regulatory mechanism for signal distribution through the dynamic integration of graded signals into switch-like responses.",
+   "found_by": [],
+   "pubdate": "2014 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29934311",
+   "title": "p190 RhoGAP promotes contact inhibition in epithelial cells by repressing YAP activity.",
+   "abstract": "ARHGAP35 encoding p190A RhoGAP is a cancer-associated gene with a mutation spectrum suggestive of a tumor-suppressor function. In this study, we demonstrate that loss of heterozygosity for ARHGAP35 occurs in human tumors. We sought to identify tumor-suppressor capacities for p190A RhoGAP (p190A) and its paralog p190B in epithelial cells. We reveal an essential role for p190A and p190B to promote contact inhibition of cell proliferation (CIP), a function that relies on RhoGAP activity. Unbiased mRNA sequencing analyses establish that p190A and p190B modulate expression of genes associated with the Hippo pathway. Accordingly, we determine that p190A and p190B induce CIP by repressing YAP-TEAD-regulated gene transcription through activation of LATS kinases and inhibition of the Rho-ROCK pathway. Finally, we demonstrate that loss of a single p190 paralog is sufficient to elicit nuclear translocation of YAP and perturb CIP in epithelial cells cultured in Matrigel. Collectively, our data reveal a novel mechanism consistent with a tumor-suppressor function for ARHGAP35.",
+   "found_by": [],
+   "pubdate": "2018 Sep 3",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27912098",
+   "title": "Characterization of Hippo Pathway Components by Gene Inactivation.",
+   "abstract": "The Hippo pathway is important for regulating tissue homeostasis, and its dysregulation has been implicated in human cancer. However, it is not well understood how the Hippo pathway becomes dysregulated because few mutations in core Hippo pathway components have been identified. Therefore, much work in the Hippo field has focused on identifying upstream regulators, and a complex Hippo interactome has been identified. Nevertheless, it is not always clear which components are the most physiologically relevant in regulating YAP/TAZ. To provide an overview of important Hippo pathway components, we created knockout cell lines for many of these components and compared their relative contributions to YAP/TAZ regulation in response to a wide range of physiological signals. By this approach, we provide an overview of the functional importance of many Hippo pathway components and demonstrate NF2 and RHOA as important regulators of YAP/TAZ and TAOK1/3 as direct kinases for LATS1/2.",
+   "found_by": [],
+   "pubdate": "2016 Dec 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32271880",
+   "title": "MST4 kinase suppresses gastric tumorigenesis by limiting YAP activation via a non-canonical pathway.",
+   "abstract": "Hyperactivation of YAP has been commonly associated with tumorigenesis, and emerging evidence hints at multilayered Hippo-independent regulations of YAP. In this study, we identified a new MST4-YAP axis, which acts as a noncanonical Hippo signaling pathway that limits stress-induced YAP activation. MST4 kinase directly phosphorylated YAP at Thr83 to block its binding with importin \u03b1, therefore leading to YAP cytoplasmic retention and inactivation. Due to a consequential interplay between MST4-mediated YAP phospho-Thr83 signaling and the classical YAP phospho-Ser127 signaling, the phosphorylation level of YAP at Thr83 was correlated to that at Ser127. Mutation of T83E mimicking MST4-mediated alternative signaling restrained the activity of both wild-type YAP and its S127A mutant mimicking loss of classical Hippo signal. Depletion of MST4 in mice promoted gastric tumorigenesis with diminished Thr83 phosphorylation and hyperactivation of YAP. Moreover, loss of MST4-YAP signaling was associated with poor prognosis of human gastric cancer. Collectively, our study uncovered a noncanonical MST4-YAP signaling axis essential for suppressing gastric tumorigenesis.",
+   "found_by": [],
+   "pubdate": "2020 Jun 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "12379777",
+   "title": "Molecular alterations of h-warts/LATS1 tumor suppressor in human soft tissue sarcoma.",
+   "abstract": "h-warts/LATS1 is a human homolog of the Drosophila warts tumor suppressor gene, which functions as a component of the mitotic apparatus. LATS1-deficient (Lats1(-/-)) mice have been reported to develop ovarian stromal tumors and soft tissue sarcomas. We investigated the status of the h-warts/LATS1 in 50 human soft tissue sarcomas to address its potential function as a tumor suppressor in human sarcoma development. In our RT-PCR assay, 7 (14%) (3 of 4 myxoid liposarcomas, 3 of 7 leiomyosarcomas, 1 of 9 malignant fibrous histiocytomas) of 50 sarcomas examined had no or a reduced expression of the h-warts/LATS1, indicating down-regulated gene expression. We further analyzed alterations of the h-warts/LATS1 in these seven sarcomas. Using microsatellite markers for chromosome 6q23-25.1, to which the h-warts/LATS1 is localized, an allelic loss of this locus was detected in one leiomyosarcoma, in which a missense point mutation of the h-warts/LATS1 was detected by PCR single-strand conformation polymorphism. Clusters of CpG dinucleotides in a 5' putative promoter region were hypermethylated in the other six sarcomas. Our data suggest that the molecular alterations of the h-warts/LATS1 could be of pathologic importance in human sarcomagenesis.",
+   "found_by": [],
+   "pubdate": "2002 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41274961",
+   "title": "Precision diagnostic and therapeutic interventions in rare genetic neurodevelopmental disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) include a broad spectrum of phenotypes spanning from intellectual disability (ID) to developmental delay (DD) and autism spectrum disorder (ASD). As neurodevelopmental phenotypes are a common presenting feature of an underlying genetic condition, professional medical organizations recommend genetic testing for all individuals with a NDD. When testing is pursued, identified genetic differences can lead to personalized clinical management with early diagnosis supporting the development of surveillance and intervention for co-occurring adverse health outcomes. Despite this, barriers to testing have prevented individuals from receiving a genetics referral and testing. Current therapeutic modalities including small molecule drugs, gene therapies, and antisense oligonucleotide therapies have emerged and shown promise in preclinical trials with therapeutic drugs gaining FDA approval. However, translational challenges are extensive, especially for identifying biomarkers of drug effects in the CNS. In this review, we discuss diagnostic approaches and clinical utility of genetic testing for rare genetic neurodevelopmental disorders, emerging development of individualized therapies, and progress for current therapeutics in addition to challenges with clinical translation and delivery. We will highlight opportunities for early diagnosis and treatment that are steadily gaining ground in favor of optimizing long-term health outcomes and improving quality of life for neurodiverse individuals. IMPACT: The path from genomics to therapeutics for neurodevelopmental disorders continues to present multiple opportunities and challenges. While emerging genome-wide sequencing and gene editing technologies deliver increased diagnostic yields and alternatives to life-long small molecule therapies, clinical translation has been challenging due to inherent cost and genetic heterogeneity. Limited access to genetic testing despite practice guidelines remains a barrier towards precision therapeutics for rare neurodevelopmental disorders, while pre-clinical investigations face obstacles when translating to human subjects. This review will summarize the impact of existing successes in diagnosis and therapeutics for neurodevelopmental disorders while highlighting ongoing challenges and areas of future opportunities. [full text, passages naming LATS1] ...sm unknown | Niemann\u2013Pick disease type C | 2024 | Arimoclomol (Miplyffa) | Mechanism unknown | Niemann\u2013Pick disease type C | 2024 | Mavorixafor (Xolremdi) | CXC chemokine receptor 4 antagonist | WHIM syndrome (warts, hypogammaglobulinemia, infections and myelokathexis) | 2024 | Givinostat (Duvyzat) | Histone deacetylase inhibitor | Duchenne muscular dystrophy in individuals aged 6 years and older | 2024 | Rett syndro...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42411771",
+   "title": "From Synapses to Circuits, the Role of KIBRA and the WWC Family in Adaptive Brain Function.",
+   "abstract": "KIBRA (WWC1) has been a subject of scientific interest and investigation for almost two decades following its initial association with nonpathological variation in human memory performance. Work in a variety of animal models confirms that KIBRA supports memory function and demonstrates that regulation of AMPA-type glutamate receptors is a key mechanism by which KIBRA modulates neuronal function. KIBRA is a scaffolding protein at excitatory synapses, and its interactome is enriched for proteins that regulate AMPA receptor (AMPAR) trafficking and synaptic plasticity as well as neurodevelopmental disorders. Here, I provide a comprehensive discussion of known and potential mechanisms by which KIBRA and its interactome regulate adaptive brain function, encompassing AMPAR trafficking, synaptic plasticity, and experience-induced modification of circuit dynamics. Disrupted KIBRA function is implicated in a variety of cognitive disorders, and I review mechanisms by which KIBRA may contribute to neuropathology as well as recent work suggesting that KIBRA manipulation may be a target for cognitive enhancement. I expand the discussion to include recent data identifying the KIBRA homolog WWC2 as a regulator of GABAA receptor expression at inhibitory synapses. In contrast to their distinct roles at excitatory and inhibitory synapses, KIBRA and WWC2 promote dendritic arborization in a non-redundant manner, and I discuss potential shared mechanisms by which WWC proteins regulate neuronal morphology as well as evidence that this function of WWC proteins may be disrupted in neurodevelopmental pathology. [full text, passages naming LATS1] ...ynaptic current ITC isothermal titration calorimetry KI knockin KIBRA (WWC1) kidney and brain protein (WW and C2 domain\u2010containing protein 1) KIF5B kinesin family member 5B KO/cKO knockout/conditional knockout LATS1/2 large tumor suppressor1/2 LLPS liquid\u2013liquid phase separation LTD long\u2010term depression LTF long\u2010term facilitation LTP/cLTP long\u2010term potentiation/chemical long\u2010term potentiation MPP2 MAGUK P55 subfamily... ...clarity only the closest links to KIBRA are depicted, therefore not all within\u2010complex interactions are shown. For example, AMOT interacts directly with KIBRA, thus AMOT interactions with NF2, WWC2, PATJ, and LATS1/2 are not depicted in the figure. Likewise, AKAP5 interacts with the KIBRA\u2010binding proteins PP1 and aPKCs, thus AKAP5 interactions with the secondary and tertiary interactors PSD\u201095 and SAP97 are not depi... ...Mendoza et al. 2022 ). While the mechanism of such regulation is not yet known for AMPARs, KIBRA has been shown to protect multiple binding partners from ubiquitination and degradation, including PKM\u03b6, Rab27a, LATS1/2, and AMOT (Vogt\u2010Eisele et al. 2014 ; Xiao, Chen, Ji, and Dong 2011 ; Cao et al. 2023 ; Song et al. 2019 ), suggesting that this may be a common mechanism by which KIBRA regulates members of its interact...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39624684",
+   "title": "The role of prenatal choline and its impact on neurodevelopmental disorders.",
+   "abstract": "Extensive evidence demonstrates that prenatal nutrition is crucial for adequate fetal development. Specifically, maternal choline intake plays a significant role in gene expression, epigenetics, and cell membrane formation. Preclinical models have shown that maternal dietary intake improves the development of the cerebral cortex and hippocampus. This review focuses on the role of prenatal choline intake and discusses its potential role in neurodevelopmental disorders especially since choline has emerged as a promising coadjutant to mitigate cognitive and developmental disorders. However, more evidence regarding timing, dosage, and molecular mechanisms is needed. In this review, we discuss the impact of prenatal choline availability, evidence from current models, and gaps to address in how choline may impact the symptomology and manifestation of Rett syndrome, fragile X syndrome, and Down syndrome. Our ultimate goal is to highlight the importance of choline for maternal health and its potential beneficial impact on neurodevelopmental disorders. [full text, passages naming LATS1] ...nter of executive function, the exact molecular mechanism by which choline deficiency elicits these effects remains under investigation. However, mechanisms such as the regulation of microRNAs and the Salvador\u2013Warts\u2013Hippo pathway (also known as Hippo signaling pathway), which govern cellular proliferation and apoptosis, have been identified as potential contributors ( 28 , 29 ). Low choline intake during pregnancy no...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41597251",
+   "title": "Neuromechanobiology: Bridging Mechanobiology and Neuroscience Through Evidence and Open Questions.",
+   "abstract": "Neuromechanobiology has emerged as a multidisciplinary field at the interface of neuroscience and mechanobiology, aiming to elucidate how mechanical forces influence the development, organization, and function of the nervous system. This review offers a comprehensive overview of the historical evolution of the discipline, its molecular and biophysical foundations, and the experimental strategies employed to investigate it. Recent advances have revealed the pivotal roles of substrate stiffness, mechanical signaling, and force transduction in neural stem proliferation, axon guidance, synapse formation, and neural circuit maturation. All these effects originate at the molecular level and extend to the mesoscopic scale. Disrupted mechanotransduction has been increasingly implicated in neurodevelopmental disorders and neurodegenerative diseases, underscoring its clinical relevance. Key unresolved questions and future directions are also highlighted, with emphasis on the need for integrative approaches to decipher the complex interplay between mechanical forces and neural function. [full text, passages naming LATS1] ...1/2) kinases, which, upon autophosphorylation at Thr183/Thr180, associate with the scaffolding protein Salvador homolog 1 (SAV1), facilitating recruitment and phosphorylation of the Large Tumor Suppressor 1/2 (LATS1/2) kinases at Thr1079/Thr1041. Activated LATS1/2 subsequently phosphorylate YAP at Ser61, Ser109, Ser127, Ser164, Ser381, and TAZ at Ser66, Ser89, Ser117, Ser311, generating binding sites for 14-3-3 prote... ...t Thr183/Thr180, associate with the scaffolding protein Salvador homolog 1 (SAV1), facilitating recruitment and phosphorylation of the Large Tumor Suppressor 1/2 (LATS1/2) kinases at Thr1079/Thr1041. Activated LATS1/2 subsequently phosphorylate YAP at Ser61, Ser109, Ser127, Ser164, Ser381, and TAZ at Ser66, Ser89, Ser117, Ser311, generating binding sites for 14-3-3 proteins and promoting cytoplasmic sequestration, ub... ...ction of radial glial cells and the formation of heterotopias [ 278 , 279 ] or enlarged neocortex with abnormal folding [ 280 ] as also occurs in the developing cerebellum [ 281 ]. Furthermore, inactivation of LATS1 and LATS2, the main negative regulators of YAP/TAZ activity, leads neural progenitor cells to transiently over-proliferate, followed by rapid and extensive cell death [ 282 ]. 4. Mechanotransduction in Ne...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37124926",
+   "title": "Neurodevelopmental disorders, like cancer, are connected to impaired chromatin remodelers, PI3K/mTOR, and PAK1-regulated MAPK.",
+   "abstract": "Neurodevelopmental disorders (NDDs) and cancer share proteins, pathways, and mutations. Their clinical symptoms are different. However, individuals with NDDs have higher probabilities of eventually developing cancer. Here, we review the literature and ask how the shared features can lead to different medical conditions and why having an NDD first can increase the chances of malignancy. To explore these vital questions, we focus on dysregulated PI3K/mTOR, a major brain cell growth pathway in differentiation, and MAPK, a critical pathway in proliferation, a hallmark of cancer. Differentiation is governed by chromatin organization, making aberrant chromatin remodelers highly likely agents in NDDs. Dysregulated chromatin organization and accessibility influence the lineage of specific cell brain types at specific embryonic development stages. PAK1, with pivotal roles in brain development and in cancer, also regulates MAPK. We review, clarify, and connect dysregulated pathways with dysregulated proliferation and differentiation in cancer and NDDs and highlight PAK1 role in brain development and MAPK regulation. Exactly how PAK1 activation controls brain development, and why specific chromatin remodeler components, e.g., BAF170 encoded by SMARCC2 in autism, await clarification. [full text, passages naming LATS1] ...protein, promoting dimerization of mammalian sterile 20-like kinase 1/2 (MST1/2). Cross-phosphorylated MST1/2 by each kinase domain phosphorylates MOB kinase activator 1 (MOB1) and large tumor suppressor 1/2 (LATS1/2), leading to phosphorylation of YAP/TAZ (Yes-associated protein/transcriptional coactivator with PDZ-binding motif) proteins. Phosphorylation of YAP/TAZ stimulates proteolytic degradation. In the absenc...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40153501",
+   "title": "&lt;i&gt;WWC1&lt;/i&gt; mutation drives dopamine dysregulation and synaptic imbalance in Tourette's syndrome.",
+   "abstract": "Tourette's syndrome (TS) is a major neurodevelopmental disorder characterized by childhood-onset motor and vocal tics. A W88C mutation in WWC1 gene is a notable risk factor for TS, but the underlying molecular mechanisms remain unclear due to the lack of suitable animal models. Here, we generate a mutant mouse line with human W88C mutation (W88CMut mice), which exhibits behavioral deficits similar to those observed in patients with TS, including repetitive motor behaviors and sensorimotor gating abnormalities. The W88C mutation leads to the degradation of kidney and brain (KIBRA) protein via a proteasomal pathway, evokes dopamine release in the dorsal striatum, and disrupts synaptic function through the dysregulation of Hippo pathway. Neuron-specific overexpression of wild-type WWC1 rescues synaptic and behavioral phenotypes in W88CMut mice. Together, this study not only provides a valuable mouse model for studying TS but also offers fresh insights into the molecular and synaptic mechanisms underlying neurodevelopmental abnormalities in TS. [full text, passages naming LATS1] ...t of the mutation on the Hippo pathway. Western blot analysis of total tissue proteins from the striatal regions showed no significant differences in the levels of MST1 (mammalian STE20-like protein kinase 1), LATS1 (large tumor suppressor kinase 1), YAP1, and P-MST (phosphorylated MST) (Thr 183 ) between W88C homo and WT mice (fig. S18, A and B). However, we observed elevated phosphorylation levels of LATS [P-LATS (... ...s of brain-wide overexpression of Kibra on the Hippo pathway and the striatum in W88C homo mice. ( A ) Western blots illustrating comparative levels of Kibra and other key hippo pathway proteins, namely, MST1, LATS1, YAP1, and their phosphorylated forms (p-MST, p-LATS, and p-YAP), in the brain tissue of WT and W88C homo mice, with and without Kibra overexpression. ( B ) Quantification of protein expression changes. D... ...TS-like behaviors. The W88C mutation in WWC1 results in increased ubiquitination and degradation of the Kibra protein, leading to hyperactivation of the Hippo pathway, evidenced by elevated phosphorylation of Lats1/2 and YAP/TAZ. This overactivation causes developmental impairments, including increased dopamine release in the dorsal striatum, enhanced complexity of MSNs, and altered synaptic dynamics, which collecti...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "38945748": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25723520": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19962312": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39562566": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26950094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36594740": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26045165": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34580349": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35697803": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36092890": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42394646": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16054751": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30862609": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31801083": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38402949": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41072140": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26969498": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39550386": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20460113": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25526026": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39936032": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37937799": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34294713": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40985618": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35613278": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34079799": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39674114": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40069162": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42150850": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24929361": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29934311": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27912098": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32271880": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12379777": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40570855": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25628125": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33195240": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31055025": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25350971": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33058421": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12202036": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34150758": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29108249": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38383447": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30961610": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7661848": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28579171": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15777619": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34761265": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25482410": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29565815": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29366445": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28969054": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25119020": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31028364": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22195963": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26193883": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27618557": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24225952": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41274961": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39047730": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42411771": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39624684": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42131344": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42807679": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37117247": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41597251": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37124926": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40153501": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40427560": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37761411": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38166033": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40770117": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41506459": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40258770": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32324743": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37141984": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41226651": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40482638": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41361459": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40098461": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34938854": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 233,
+   "usd": 0.007565,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3558,
+   "output_tokens": 140,
+   "usd": 0.004258,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 73.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.4,
+   "note": "",
+   "input_tokens": 34911,
+   "output_tokens": 1434,
+   "usd": 0.042081,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 9.7,
+   "note": "",
+   "input_tokens": 14309,
+   "output_tokens": 744,
+   "usd": 0.090145,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>0</established>\n    <existing>4</existing>\n    <hypothesized>80</hypothesized>\n    <novel>16</novel>\n  </probabilities>\n  <justification>No article in this set reports LATS1 variants in human probands or families with neurodevelopmental disorder; LATS1 appears almost exclusively as a core Hippo pathway kinase in cancer, metabolic, and signaling studies (PMIDs 37937799, 34294713, 35613278, 27912098, 12379777). The only disease-variant evidence concerns WWC1 (W88C) in Tourette's syndrome, where LATS1/2 phosphorylation is a downstream readout in a mouse model, not a LATS1 variant (PMID 40153501). Reviews explicitly connect YAP/TAZ\u2013LATS1/2 signaling to brain development and neurodevelopmental disorders, and mouse Lats1/Lats2 inactivation perturbs neural progenitor proliferation and survival (PMIDs 39936032, 41597251, 37124926), which supports biological plausibility rather than genetic causation. This pattern fits \"Hypothesized\": pathway and animal-model relevance without human variant data. A small residual probability is given to \"Existing\" in case unreported human association data exist, and some to \"Novel\" since several co-mentions are incidental.</justification>\n  <pmids>\n    <pmid>39936032</pmid>\n    <pmid>41597251</pmid>\n    <pmid>37124926</pmid>\n    <pmid>40153501</pmid>\n    <pmid>42411771</pmid>\n    <pmid>27912098</pmid>\n    <pmid>12379777</pmid>\n  </pmids>\n</response>"
+}

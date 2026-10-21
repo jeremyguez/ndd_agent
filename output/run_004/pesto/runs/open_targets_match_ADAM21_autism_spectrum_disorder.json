@@ -1,0 +1,215 @@
+{
+  "gene": "ADAM21",
+  "phenotype": "autism spectrum disorder",
+  "ensembl_id": "ENSG00000139985",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "EFO_0022285",
+      "name": "free cholesterol to total lipids in small HDL percentage",
+      "score": 0.28780142638339823
+    },
+    {
+      "disease_id": "MONDO_0021559",
+      "name": "non-autoimmune hemolytic anemia",
+      "score": 0.24060938063418588
+    },
+    {
+      "disease_id": "EFO_0022279",
+      "name": "free cholesterol to total lipids in large HDL percentage",
+      "score": 0.23804039407321564
+    },
+    {
+      "disease_id": "EFO_0004611",
+      "name": "low density lipoprotein cholesterol measurement",
+      "score": 0.23688749665759354
+    },
+    {
+      "disease_id": "OBA_1001011",
+      "name": "phospholipid level",
+      "score": 0.21727032889040304
+    },
+    {
+      "disease_id": "EFO_0020044",
+      "name": "eicosanoids measurement",
+      "score": 0.2049329926926093
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.11901302513457121
+    },
+    {
+      "disease_id": "EFO_0009048",
+      "name": "Intrahepatic cholestasis of pregnancy",
+      "score": 0.08217181863378857
+    },
+    {
+      "disease_id": "OBA_2041446",
+      "name": "level of eukaryotic translation initiation factor 3 subunit B in blood serum",
+      "score": 0.07647390884721095
+    },
+    {
+      "disease_id": "EFO_0004615",
+      "name": "apolipoprotein B measurement",
+      "score": 0.06798014803866759
+    },
+    {
+      "disease_id": "EFO_0022168",
+      "name": "total lipids in small LDL",
+      "score": 0.05216322727875962
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "EFO_0022285",
+      "name": "free cholesterol to total lipids in small HDL percentage",
+      "score": 0.28780142638339823
+    },
+    {
+      "disease_id": "MONDO_0021559",
+      "name": "non-autoimmune hemolytic anemia",
+      "score": 0.24060938063418588
+    },
+    {
+      "disease_id": "EFO_0022279",
+      "name": "free cholesterol to total lipids in large HDL percentage",
+      "score": 0.23804039407321564
+    },
+    {
+      "disease_id": "EFO_0004611",
+      "name": "low density lipoprotein cholesterol measurement",
+      "score": 0.23688749665759354
+    },
+    {
+      "disease_id": "OBA_1001011",
+      "name": "phospholipid level",
+      "score": 0.21727032889040304
+    },
+    {
+      "disease_id": "EFO_0020044",
+      "name": "eicosanoids measurement",
+      "score": 0.2049329926926093
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.11901302513457121
+    },
+    {
+      "disease_id": "EFO_0009048",
+      "name": "Intrahepatic cholestasis of pregnancy",
+      "score": 0.08217181863378857
+    },
+    {
+      "disease_id": "OBA_2041446",
+      "name": "level of eukaryotic translation initiation factor 3 subunit B in blood serum",
+      "score": 0.07647390884721095
+    },
+    {
+      "disease_id": "EFO_0004615",
+      "name": "apolipoprotein B measurement",
+      "score": 0.06798014803866759
+    },
+    {
+      "disease_id": "EFO_0022168",
+      "name": "total lipids in small LDL",
+      "score": 0.05216322727875962
+    }
+  ],
+  "gate_text": "DROP: 2, 7, 8",
+  "gate_dropped_ids": [
+    "MONDO_0021559",
+    "EFO_0004736",
+    "EFO_0009048"
+  ],
+  "tag_text": "1 | DIFFERENT\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "EFO_0022285",
+      "name": "free cholesterol to total lipids in small HDL percentage",
+      "score": 0.28780142638339823,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0021559",
+      "name": "non-autoimmune hemolytic anemia",
+      "score": 0.24060938063418588,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0022279",
+      "name": "free cholesterol to total lipids in large HDL percentage",
+      "score": 0.23804039407321564,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004611",
+      "name": "low density lipoprotein cholesterol measurement",
+      "score": 0.23688749665759354,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_1001011",
+      "name": "phospholipid level",
+      "score": 0.21727032889040304,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0020044",
+      "name": "eicosanoids measurement",
+      "score": 0.2049329926926093,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.11901302513457121,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0009048",
+      "name": "Intrahepatic cholestasis of pregnancy",
+      "score": 0.08217181863378857,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_2041446",
+      "name": "level of eukaryotic translation initiation factor 3 subunit B in blood serum",
+      "score": 0.07647390884721095,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004615",
+      "name": "apolipoprotein B measurement",
+      "score": 0.06798014803866759,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0022168",
+      "name": "total lipids in small LDL",
+      "score": 0.05216322727875962,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 11,
+  "tokens": {
+    "gate_in": 475,
+    "gate_out": 13,
+    "read_in": 2357,
+    "read_out": 122
+  },
+  "articles": []
+}

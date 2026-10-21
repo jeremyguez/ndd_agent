@@ -1,0 +1,224 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Qiao et al. 2021 - Rare and de novo variants in 827 congenital diaphragmatic hernia probands implicate LONP1 as candidate risk gene (PMID: 34547244)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified in abstract; de novo damaging variants in ALYREF identified in CDH probands (number of carriers and variant details not given)",
+            "type": "other",
+            "phenotypes": [
+              "Congenital diaphragmatic hernia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Enrichment of de novo damaging variants in ALYREF in 827 CDH proband-parent trios; significant at FDR < 0.05, identifying ALYREF as a candidate CDH risk gene",
+        "center_country": "Columbia University, USA (CDH study consortium, multicenter)",
+        "cohort": null,
+        "disease": "CDH"
+      },
+      {
+        "citation": "ASHG 2022 - Integrated genetic analysis of transcriptome sequencing data in congenital diaphragmatic hernia (Qiao et al.)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Putative pathogenic ALYREF variant (details not given); RNA-seq of diaphragm cells showed functional effect (aberrant splicing/RNA processing)",
+            "type": "other",
+            "phenotypes": [
+              "Congenital diaphragmatic hernia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "RNA-seq of diaphragm tissue showed functional effects of ALYREF variant on RNA processing, supporting pathogenicity of putative pathogenic de novo variant",
+        "center_country": "Columbia University, USA (multicenter CDH cohort)",
+        "cohort": null,
+        "disease": "CDH"
+      },
+      {
+        "citation": "The Role of De Novo Variants in Patients with Congenital Diaphragmatic Hernia (PMID: 34573387)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo ALYREF variant (chr17: 81,887,835\u201381,891,586 locus), detected by trio WES/WGS; details not given, citing ref 12",
+            "type": "other",
+            "phenotypes": [
+              "Congenital diaphragmatic hernia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant identified by trio WES/WGS in a CDH patient (review summarizing previously published data)",
+        "center_country": null,
+        "cohort": null,
+        "disease": "CDH"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Incomplete activation of Alyref and Gabpb1 leads to preimplantation arrest in cloned mouse embryos (PMID: 37640449)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Early developmental (preimplantation) arrest after CRISPR/Cas9 knockout of Alyref",
+          "Improper inner cell mass formation, via dysregulation of Nanog",
+          "Alyref mRNA supplementation rescued preimplantation development of cloned (NT) embryos"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Alyref Deficiency Exacerbates Chronic Inflammatory Pain by Impairing Nuclear Export of Ccn3 MRNA (PMID: 42242915)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Conditional deletion of Alyref in NaV1.8+ nociceptive neurons exacerbated CFA-induced thermal and cold hypersensitivity, mechanical allodynia and hyperalgesia",
+          "Increased microglial and astrocyte activation in the spinal dorsal horn",
+          "Elevated proinflammatory mediators and MMP-9",
+          "Impaired nuclear export of Ccn3 mRNA and reduced Ccn3 expression in DRG neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ALYREF stabilizes MZF1 via m5C modification to exacerbate cardiac remodeling and atrial fibrillation in heart failure (PMID: 42249105)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "In ISO-induced heart failure model, Alyref knockdown reduced MZF1 and HTRA1 expression",
+          "Alleviated myocardial hypertrophy, fibrosis and cardiac dysfunction",
+          "Reduced atrial fibrillation inducibility"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ALYREF drives NLRP3 inflammasome-dependent macrophage pyroptosis to promote sepsis-associated acute liver injury by enhancing GADD45A mRNA stability (PMID: 42425434)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Alyref knockdown inhibited NLRP3 inflammasome-dependent macrophage pyroptosis",
+          "Alleviated sepsis-associated acute liver injury in the CLP model",
+          "Reduced GADD45A expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NEDD4L-mediated ALYREF ubiquitination degradation suppresses RUBCNL expression to impair autophagy and promote lipogenesis in alcoholic hepatic fibrosis (PMID: 42715837)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "AAV-mediated ALYREF silencing in AHF mice partially reversed the protective effects of NEDD4L depletion",
+          "Reduced RUBCNL, impaired autophagy, lipid accumulation and fibrosis in the AHF context"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ALYREF Promotes Progression of Intrahepatic Cholangiocarcinoma through Increasing the Level of Isocitrate Dehydrogenase 1 in an m5C-Dependent Manner (PMID: 40369958)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "ALYREF knockdown in a xenograft tumor model significantly suppressed tumor growth"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Wang et al. 2024 - The molecular chaperone ALYREF promotes R-loop resolution and maintains genome stability (PMID: 39547511)",
+        "evidence_subtype": "function",
+        "summary": "Purified ALYREF binds DNA-RNA hybrids and R-loops and stimulates UAP56-mediated R-loop dissociation in vitro, which depends on its interaction with UAP56 and R-loops. ALYREF depletion in cells causes R-loop accumulation and R-loop-mediated genome instability, so ALYREF acts as an R-loop coregulator.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MicroRNA sequence codes for small extracellular vesicle release and cellular retention (PMID: 34937935)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The RNA-binding proteins Alyref and Fus are involved in exporting miRNAs that carry the EXOmotif CGGGAG into small extracellular vesicles. This identifies a role for Alyref in sorting miRNAs for secretion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The role of the HIF-1\u03b1/ALYREF/PKM2 axis in glycolysis and tumorigenesis of bladder cancer (PMID: 33991457)",
+        "evidence_subtype": "pathway",
+        "summary": "ALYREF binds m5C sites in the PKM2 3'UTR and stabilizes PKM2 mRNA, and its overexpression promotes bladder cancer proliferation through PKM2-mediated glycolysis. HIF-1\u03b1 activates ALYREF, which makes ALYREF part of a HIF-1\u03b1/ALYREF/PKM2 axis. High ALYREF and PKM2 predicted poor patient survival.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aging-declined RNA exportation impairs hematopoietic stem cells by inducing R-loop (PMID: 40605703)",
+        "evidence_subtype": "expression",
+        "summary": "Alyref, the main TREX component, declines in aged hematopoietic stem cells, which causes nuclear RNA retention, R-loop formation, replication stress and DNA damage. Restoring Alyref in aged HSCs rescues RNA export, reduces R-loops and replication stress, and improves HSC function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NSUN4 mediated RNA 5-methylcytosine promotes the malignant progression of glioma through improving the CDC42 mRNA stabilization (PMID: 38876383)",
+        "evidence_subtype": "cell_culture",
+        "summary": "NSUN4-mediated m5C modification promotes ALYREF binding to CDC42 mRNA and stabilizes it. CDC42 then activates PI3K-AKT signaling to drive glioma proliferation, migration and invasion in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenetic addition of m(5)C to HBV transcripts promotes viral replication and evasion of innate antiviral responses (PMID: 38216565)",
+        "evidence_subtype": "function",
+        "summary": "The m5C site at nt 1291 of HBV mRNA is required for ALYREF recognition, which promotes viral mRNA export and HBx translation. NSUN2 catalyzes the m5C addition.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "5-Methylcytosine RNA Modifications Promote Retrovirus Replication in an ALYREF Reader Protein-Dependent Manner (PMID: 32321818)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ALYREF functions as an m5C reader that regulates murine leukemia virus replication, and MLV genomic RNA is highly enriched for m5C.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ALYREF m5C RNA methylation reader predicts bladder cancer prognosis by regulating the tumor immune microenvironment (PMID: 38579085)",
+        "evidence_subtype": "expression",
+        "summary": "ALYREF mRNA and protein are upregulated in bladder cancer, and immunofluorescence shows it localizes mainly to nuclear speckles. Among the m5C regulators, only ALYREF was significantly correlated with overall survival, and it is associated with macrophage infiltration.",
+        "sample_size": null,
+        "significance": "P < .05"
+      },
+      {
+        "citation": "TREX tetramer disruption alters RNA processing necessary for corticogenesis in THOC6 Intellectual Disability Syndrome (PMID: 38388531)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Biallelic THOC6 loss-of-function variants reduce the binding affinity of ALYREF to THOC5 without changing TREX protein levels, which implicates impaired TREX tetramer formation. The neural phenotype involves mis-splicing rather than detectable mRNA export defects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HnRNPA2B1 ISGylation Regulates m6A-Tagged mRNA Selective Export via ALYREF/NXF1 Complex to Foster Breast Cancer Development (PMID: 38626369)",
+        "evidence_subtype": "pathway",
+        "summary": "hnRNPA2B1 acts as an m6A reader and exports m6A-tagged mRNAs through the ALYREF/NXF1 complex, which promotes stemness gene expression in breast cancer stem cells.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

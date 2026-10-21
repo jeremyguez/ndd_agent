@@ -1,0 +1,376 @@
+{
+ "gene": "EPS8L1",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "CHD",
+   "congenital heart malformation",
+   "congenital cardiac defect",
+   "congenital cardiac anomaly",
+   "congenital cardiovascular malformation",
+   "cardiac malformation",
+   "heart malformation",
+   "congenital anomaly of the heart",
+   "congenital cardiopathy"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "MGC23164",
+   "MGC4642",
+   "DRC3",
+   "FLJ20258",
+   "EPS8 signaling adaptor L1"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 18,
+  "titlekicksparingfulltext": 11,
+  "read": 3
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 4,
+   "Hypothesized": 35,
+   "Novel": 60
+  },
+  "justification": "No article reports EPS8L1 variants in human patients with congenital heart disease. The 22q11 CNV study (PMID 36777701) concerns chromosome 22q11.2 microdeletions and unrelated genes, not EPS8L1 (19q13), and multigene CNVs would not implicate this gene anyway. The only direct mention of Eps8l1 is as one entry in a differential-expression table from mouse heart tissue/HL-1 cardiomyocytes in an ASXL3-mutation study (PMID 37435360) \u2014 murine expression data incidental to the paper's conclusions, providing at most a very weak hypothesis-level link. The EPS8 family characterization paper (PMID 14565974) establishes a role in Rac/actin remodeling, biology that is generically relevant to development but with no cardiac phenotype reported (eps8-null mice are healthy). Overall the evidence is essentially incidental co-mention, favoring Novel with some weight to Hypothesized based on the mouse cardiomyocyte expression change.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 4,
+   "Hypothesized": 35,
+   "Novel": 60
+  }
+ },
+ "articles": [
+  {
+   "pmid": "14565974",
+   "title": "The eps8 family of proteins links growth factor stimulation to actin reorganization generating functional redundancy in the Ras/Rac pathway.",
+   "abstract": "Sos-1, a guanine nucleotide exchange factor (GEF), eps8 and Abi1, two signaling proteins, and the lipid kinase phosphoinositide 3-kinase (PI3-K), assemble in a multimolecular complex required for Rac activation leading to actin cytoskeletal remodeling. Consistently, eps8 -/- fibroblasts fail to form membrane ruffles in response to growth factor stimulation. Surprisingly, eps8 null mice are healthy, fertile, and display no overt phenotype, suggesting the existence of functional redundancy within this pathway. Here, we describe the identification and characterization of a family of eps8-related proteins, comprising three novel gene products, named eps8L1, eps8L2, and eps8L3. Eps8Ls display collinear topology and 27-42% identity to eps8. Similarly to eps8, eps8Ls interact with Abi1 and Sos-1; however, only eps8L1 and eps8L2 activate the Rac-GEF activity of Sos-1, and bind to actin in vivo. Consistently, eps8L1 and eps8L2, but not eps8L3, localize to PDGF-induced, F-actin-rich ruffles and restore receptor tyrosine kinase (RTK)-mediated actin remodeling when expressed in eps8 -/- fibroblasts. Thus, the eps8Ls define a novel family of proteins responsible for functional redundancy in the RTK-activated signaling pathway leading to actin remodeling. Finally, the patterns of expression of eps8 and eps8L2 in mice are remarkably overlapping, thus providing a likely explanation for the lack of overt phenotype in eps8 null mice.",
+   "found_by": [],
+   "pubdate": "2004 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36777701",
+   "title": "22q11 Copy Number Variations in a Brazilian Cohort of Children with Congenital Heart Disorders.",
+   "abstract": "INTRODUCTION: Congenital heart disease (CHD) is the most common type of congenital defect reported to be one of the leading causes of mortality in the first year of life. Microdeletion and microduplication syndromes (MMS) are associated with cardiac malformations. Understanding which genetic factors are involved in these conditions directly impacts treatment decisions. We aimed to identify the occurrence of genetic alterations and their association with MMS in CHD pediatric patients evaluated in a reference service of Southern Brazil. METHODS: Participants were recruited during 2010 in the intensive care unit of a pediatric hospital. MMs and regions of chromosome 22 were screened by SALSA MLPA Probemix P245 Microdeletion Syndromes-1A kit for detection of copy number variations (CNVs). RESULTS: MMS were detected in 11 from 207 patients (5.3%). Heterozygous deletion in the 22q11.2 chromosome region was the most prevalent CNV (5 from 11 patients). Also, atypical RTDR1 deletion and 22q11.2 duplication were detected. MLPA was able to reveal microdeletions in SNRPN and NF1 genes in patients with a normal karyotype and FISH. CONCLUSION: Our study reports the prevalence and variability of genomic alterations associated with MMS in CHD pediatric patients. The results by MLPA are of great help in planning and specialized care.",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37435360",
+   "title": "ASXL3 gene mutations inhibit cell proliferation and promote cell apoptosis in mouse cardiomyocytes by upregulating lncRNA NONMMUT063967.2.",
+   "abstract": "Congenital heart disease (CHD) is a serious condition with unknown etiology. In a recent study, a compound heterozygous mutation (c.3526C\u00a0>\u00a0T [p.Arg1176Trp] and c.4643A\u00a0>\u00a0G [p.Asp1548Gly]) in the ASXL3 gene was identified, which is associated with CHD. This mutation was overexpressed in HL-1 mouse cardiomyocyte cells, leading to increased cell apoptosis and decreased cell proliferation. However, whether this effect is mediated by long noncoding RNAs (lncRNAs) is yet to be determined. We identified the differences among lncRNA and mRNA profiles in mouse heart tissues using sequencing to explore this issue. We detected HL-1\u00a0cell proliferation and apoptosis through CCK8 and flow cytometry. Fgfr2, lncRNA, and Ras/ERK signaling pathway expressions were evaluated using quantitative real time polymerase chain reaction (qRT-PCR) and western blot (WB) assays. We also conducted functional investigations by silencing lncRNA NONMMUT063967.2. The sequencing revealed significant changes in lncRNA and mRNA profiles, with the expression of lncRNA NONMMUT063967.2 being significantly promoted in the ASXL3 gene mutations group (MT) while the expression of Fgfr2 being downregulated. The in vitro experiments showed that ASXL3 gene mutations inhibited the proliferation of cardiomyocytes and accelerated cell apoptosis by promoting the expression of lncRNAs (NONMMUT063967.2, NONMMUT063918.2, and NONMMUT063891.2), suppressing the formation of FGFR2 transcripts, and inhibiting the Ras/ERK signaling pathway. The decrease in FGFR2 had the same effect on the Ras/ERK signaling pathway, proliferation, and apoptosis in mouse cardiomyocytes as ASXL3 mutations. Further mechanistic studies revealed that suppression of lncRNA NONMMUT063967.2 and overexpression of FGFR2 reversed the effects of the ASXL3 mutations on the Ras/ERK signaling pathway, proliferation, and apoptosis in mouse cardiomyocytes. Therefore, ASXL3 mutation decreases FGFR2 expression by upregulating lncRNA NONMMUT063967.2, inhibiting cell proliferation and promoting cell apoptosis in mouse cardiomyocytes. [full text, passages naming EPS8L1] ...13 | Lrrc4c | 0.374 | 0.0297614 | NONMMUT051274.2 | \u22121.703 | 0.00561238 | Pclo | 0.449 | 0.020452 | NONMMUT032720.2 | \u22121.703 | 0.00265596 | Ccbe1 | 0.279 | 0.000372996 | NONMMUT059766.2 | \u22121.703 | 0.00060838 | Eps8l1 | 0.212 | 1.78E-07 | NONMMUT053388.2 | \u22121.703 | 0.011988 | Mapk10 | 0.349 | 8.11E-10 | NONMMUT063887.2 | \u22121.703 | 0.00561238 | Fgfr2 | 0.560 | 8.28E-10 | NONMMUT064221.2 | \u22121.703 | 0.00561238 | Pnpla2 |...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "8534099": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30018765": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34122391": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38650655": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24913449": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37936615": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36627902": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39733410": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37889708": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "6421231": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36835202": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14565974": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27120127": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26063732": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38769386": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27261005": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36777701": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37435360": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 215,
+   "usd": 0.007095,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 1.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1175,
+   "output_tokens": 64,
+   "usd": 0.001495,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 29.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 1.8,
+   "note": "",
+   "input_tokens": 4245,
+   "output_tokens": 164,
+   "usd": 0.005065,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.0,
+   "note": "",
+   "input_tokens": 3578,
+   "output_tokens": 768,
+   "usd": 0.03709,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>4</existing>\n    <hypothesized>35</hypothesized>\n    <novel>60</novel>\n  </probabilities>\n  <justification>No article reports EPS8L1 variants in human patients with congenital heart disease. The 22q11 CNV study (PMID 36777701) concerns chromosome 22q11.2 microdeletions and unrelated genes, not EPS8L1 (19q13), and multigene CNVs would not implicate this gene anyway. The only direct mention of Eps8l1 is as one entry in a differential-expression table from mouse heart tissue/HL-1 cardiomyocytes in an ASXL3-mutation study (PMID 37435360) \u2014 murine expression data incidental to the paper's conclusions, providing at most a very weak hypothesis-level link. The EPS8 family characterization paper (PMID 14565974) establishes a role in Rac/actin remodeling, biology that is generically relevant to development but with no cardiac phenotype reported (eps8-null mice are healthy). Overall the evidence is essentially incidental co-mention, favoring Novel with some weight to Hypothesized based on the mouse cardiomyocyte expression change.</justification>\n  <pmids>\n    <pmid>37435360</pmid>\n    <pmid>14565974</pmid>\n    <pmid>36777701</pmid>\n  </pmids>\n</response>"
+}

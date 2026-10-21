@@ -1,0 +1,346 @@
+{
+  "articles_found": {
+    "clinical": 19,
+    "model_organism": 18,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "The phenotypic and genotypic spectrum of individuals with mono- or biallelic ANK3 variants (PMID: 38988293)",
+        "num_patients": 16,
+        "variants": [
+          {
+            "description": "Monoallelic ANK3 variants (majority predicted truncating; specific notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "language delay",
+              "autism spectrum disorder",
+              "intellectual disability",
+              "hypotonia",
+              "motor delay",
+              "ADD/ADHD",
+              "sleep disturbances",
+              "aggressivity/self-injury",
+              "epilepsy",
+              "no ataxia in monoallelic individuals"
+            ]
+          },
+          {
+            "description": "Monoallelic missense ANK3 variants (minority; specific notations not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "language delay",
+              "autism spectrum disorder",
+              "intellectual disability",
+              "hypotonia",
+              "motor delay",
+              "ADD/ADHD",
+              "sleep disturbances"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variants in ANK3 identified in individuals with non-specific syndromic neurodevelopmental disorder/intellectual disability; majority predicted to cause a truncated protein. Review of 16 monoallelic and 11 biallelic individuals (13 newly described).",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ANK3 related neurodevelopmental disorders: expanding the spectrum of heterozygous loss-of-function variants (PMID: 34218362)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "Heterozygous frameshift or nonsense variants affecting all ANK3 transcripts (specific notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "variable neurodevelopmental phenotype"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous frameshift/nonsense variants affecting all ANK3 transcripts, in individuals with neurodevelopmental disorder",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Mutations of ANK3 identified by exome sequencing are associated with autism susceptibility (PMID: 22865819)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "c.4705T>G, p.Ser1569Ala (de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "Two other ANK3 missense mutations in three unrelated ASD patients (notations not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel missense mutations identified by exome sequencing in ASD patients; one confirmed de novo; ANK3 associated with schizophrenia/bipolar disorder",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Sequencing chromosomal abnormalities reveals neurodevelopmental loci that confer risk across diagnostic boundaries (PMID: 22521361)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Balanced chromosomal abnormality disrupting ANK3 (details not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "autism or related neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Balanced chromosomal abnormality breakpoint disrupting ANK3 in a patient with a neurodevelopmental disorder; ANK3 categorized as a gene associated with later-onset psychiatric disorders",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Age-dependent regulation of axoglial interactions and behavior by oligodendrocyte AnkyrinG (PMID: 39738113; companion preprint version PMID: 38617359)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Oligodendroglia-specific AnkG cKO destabilized axoglial interactions (paranodal junctions) in aged but not young adult mice",
+          "Histological abnormalities",
+          "Electrophysiological abnormalities",
+          "Behavioral pathophysiologies relevant to BD-like phenotypes",
+          "Translatomic profiling revealed potential compensatory machineries"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A neuron type-specific microexon in Ank3/ankyrin-G modulates calcium activity and neuronal excitability (PMID: 41688438)",
+        "organism": "mouse",
+        "knockout_type": "other (microexon E35a deletion)",
+        "phenotypes": [
+          "Interneurons show increased excitability and somatic Ca2+ activity",
+          "No disruption of the axon initial segment",
+          "E35a inclusion facilitates AnkG interaction with an InsP3R-containing complex"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ank3 loss in adult forebrain excitatory neurons disrupts behavior, neuronal activity, membrane proteome, and myelination (PMID: 42640795)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Hyperactivity",
+          "Reduced anxiety-like behavior",
+          "Decreased depression-like responses",
+          "Reduced spontaneous and evoked neuronal activity (calcium imaging in cultured neurons and slices)",
+          "Remodeling of the synaptic proteome, with Taok2 upregulated",
+          "Downregulation of myelin basic protein (Mbp)",
+          "Chronic lithium restored Mbp expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Abnormal patterns of sleep and waking behaviors are accompanied by neocortical oscillation disturbances in an Ank3 mouse model of epilepsy-bipolar disorder comorbidity (PMID: 38123552)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Ank3-1b isoform-specific KO)",
+        "phenotypes": [
+          "Increased slow gamma (~25-45 Hz) EEG power",
+          "Slow gamma power correlated with seizure severity",
+          "Reduced REM sleep time associated with increased slow gamma power",
+          "Seizures more common in REM than NREM sleep",
+          "Hyperactivity",
+          "Repetitive behaviors",
+          "Absence epilepsy"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ank3-dependent SVZ niche assembly is required for the continued production of new neurons (PMID: 21745638)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Ank3 is required for SVZ niche assembly through ependymal progenitor lateral adhesion",
+          "Genetic deletion of the Foxj1-Ank3 pathway led to complete loss of SVZ niche structure",
+          "Radial glia still transitioned into postnatal NSCs without the niche",
+          "Inducible deletion of Foxj1-Ank3 from mature SVZ ependyma caused dramatic depletion of neurogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ankyrin-G Heterozygous Knockout Mice Display Increased Sensitivity to Social Defeat Stress (PMID: 35928299)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout (conditional, forebrain)",
+        "phenotypes": [
+          "No significant difference from controls at baseline or after chronic social defeat stress",
+          "Increased sensitivity to short-duration social defeat stress, which did not affect controls",
+          "Stress-induced depression-like phenotype persistent for at least 28 days and fluoxetine-responsive"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Behavioural characterization of AnkyrinG deficient mice, a model for ANK3 related disorders (PMID: 28411148)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout (large 270/480 kDa isoforms)",
+        "phenotypes": [
+          "Increased anxiety in the open field, elevated plus maze and social interaction tests",
+          "Smaller cingulate cortex, granular retrosplenial cortex, primary motor cortex and hippocampal fimbria"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Giant ankyrin-G: a critical innovation in vertebrate evolution of fast and integrated neuronal signaling (PMID: 25552556)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (giant 480-kDa AnkG exon-specific)",
+        "phenotypes": [
+          "Loss of AIS assembly and abnormal node of Ranvier morphogenesis",
+          "Impaired proximal axonal polarity",
+          "Loss of \u03b24 spectrin recruitment to the AIS",
+          "Knockout neurons retain distal axonal polarity and generate action potentials, but with abnormal frequency",
+          "Giant AnkG-deficient mice live to weaning"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lithium reverses behavioral and axonal transport-related changes associated with ANK3 bipolar disorder gene disruption (PMID: 28109561)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Increased psychiatric-related behavior in the novelty-suppressed feeding, elevated plus maze and passive avoidance tests, ameliorated by lithium",
+          "Hippocampal proteome changes in kinesin-related axonal transport and glutamate signaling",
+          "Altered abundance of ANK3 interaction partners"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of 4 novel human ocular coloboma genes ANK3, BMPR1B, PDGFRA, and CDH4 through evolutionary conserved vertebrate gene analysis (PMID: 35034853)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "ank3 knockdown produced a coloboma and/or microphthalmia phenotype",
+          "ank3a expression localized to the optic fissure, periocular mesenchyme and ciliary marginal zone"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mapping the expression of an ANK3 isoform associated with bipolar disorder in the human brain (PMID: 35091539)",
+        "evidence_subtype": "expression",
+        "summary": "ddPCR combined with amplicon sequencing in postmortem brain showed that ANK3 splice forms and transcription start sites differ between brain regions. The BD-associated isoform is higher in corpus callosum than in frontal tissue. Its expression is higher in adolescents than in younger children, which suggests a role in myelin maturation. Expression did not differ between BD/SCZ cases and controls.",
+        "sample_size": "568 postmortem brain samples; 41 healthy males in the child-development cohort",
+        "significance": "corpus callosum vs frontal fold change 1.80, p<1e-4; adolescents vs children fold change 1.97, p=5e-3"
+      },
+      {
+        "citation": "Hughes et al. 2015 - A Loss-of-Function Variant in a Minor Isoform of ANK3 Protects Against Bipolar Disorder and Schizophrenia (PMID: 26682468)",
+        "evidence_subtype": "GWAS",
+        "summary": "The splice-site SNP rs41283526 in an alternatively spliced ANK3 exon is protective against BD and SCZ. The minor allele disables correct splicing (loss of function). BrainSpan data show the exon is present only in a minor isoform whose transcription starts in early adolescence.",
+        "sample_size": "402 BD, 293 SCZ, 330 controls, plus two replication samples",
+        "significance": "BD OR=0.31; SCZ OR=0.21"
+      },
+      {
+        "citation": "ANK3 Gene Polymorphism Rs10994336 Influences Executive Functions by Modulating Methylation in Patients With Bipolar Disorder (PMID: 34421516)",
+        "evidence_subtype": "GWAS",
+        "summary": "The intronic BD risk SNP rs10994336 acts as a meQTL in ANK3. The risk T allele is associated with lower methylation at CpG cg02172182. That methylation mediates the association between the SNP and executive function (WCST) in BD patients.",
+        "sample_size": "154 BD patients, 181 healthy controls",
+        "significance": "significant after multiple-testing correction (specific p-values not given)"
+      },
+      {
+        "citation": "Behavioural characterization of AnkyrinG deficient mice, a model for ANK3 related disorders (PMID: 28411148)",
+        "evidence_subtype": "function",
+        "summary": "Heterozygous knockout of the large Ank3 isoforms (270/480 kDa) in mice increased anxiety-like behavior in the open field, elevated plus maze and social interaction tests. The mice also had a smaller cingulate cortex, granular retrosplenial cortex, primary motor cortex and hippocampal fimbria.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ank3 loss in adult forebrain excitatory neurons disrupts behavior, neuronal activity, membrane proteome, and myelination (PMID: 42640795)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Ank3 deletion in forebrain excitatory neurons, either prenatal (Emx1-Cre) or adolescent (CaMKII\u03b1-Cre), caused hyperactivity and reduced anxiety- and depression-like behavior. It lowered spontaneous and evoked neuronal activity in cultured neurons and slices. Membrane proteomics showed Taok2 upregulation and Mbp downregulation, and chronic lithium restored Mbp expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lithium restores inhibitory function and neuronal excitability through GSK-3\u03b2 inhibition in a bipolar disorder-associated Ank3 variant mouse model (PMID: 40849089)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The BD-associated ANK3 p.W1989R variant disrupts the ankyrin-G/GABARAP interaction, causing inhibitory deficits and pyramidal neuron hyperexcitability. Chronic lithium enhanced presynaptic GABAergic transmission, reduced hyperexcitability and partially rescued AIS length. The GSK-3\u03b2 inhibitor Tideglusib mimicked the effect on GABAergic signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Live imaging of excitable axonal microdomains in ankyrin-G-GFP mice (PMID: 39898808)",
+        "evidence_subtype": "function",
+        "summary": "A Cre-activated ankyrin-G-GFP knock-in at the native Ank3 locus labels the AIS without altering the AIS scaffold or electrophysiology. It revealed rapid AIS remodeling after increased network activity and allowed stable in vivo AIS labeling over weeks.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of ANK3 Function Causes a Recessive Neurodevelopmental Disorder with Cerebellar Ataxia (PMID: 40879451)",
+        "evidence_subtype": "other",
+        "summary": "Homozygous ANK3 predicted loss-of-function variants cause developmental delay, intellectual disability, hypotonia, variable epilepsy and cerebellar ataxia with cerebellar atrophy. This matches mouse models lacking the cerebellar ankyrin-G isoform, and cerebellar ANK3 expression is high.",
+        "sample_size": "5 individuals from 3 consanguineous families",
+        "significance": null
+      },
+      {
+        "citation": "The phenotypic and genotypic spectrum of individuals with mono- or biallelic ANK3 variants (PMID: 38988293)",
+        "evidence_subtype": "other",
+        "summary": "In 27 individuals, biallelic ANK3 variants (mostly missense) give a more severe phenotype than monoallelic variants (mostly truncating), and ataxia occurs only with biallelic variants. Mono- and biallelic variants localize to different ankyrin-G isoforms, suggesting isoform-specific mechanisms.",
+        "sample_size": "27 individuals (16 monoallelic, 11 biallelic)",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2018 - Genetic variation in the AnkyrinG interactome causes a range of neurological disorders",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A literature-curated AnkyrinG PPI network of 17 proteins includes \u03b24-spectrin, cell adhesion molecules, Na+/K+ channel components and casein kinase 2. MIP sequencing of network genes found 14 de novo variants, a significant excess over expectation.",
+        "sample_size": "1009 patient-parent trios",
+        "significance": "p=0.007 (Fisher's exact test)"
+      },
+      {
+        "citation": "ASHG 2015 - RNA-sequencing identifies differentially expressed novel gene isoforms in bipolar disorder",
+        "evidence_subtype": "expression",
+        "summary": "Deep RNA-seq of dorsolateral prefrontal cortex identified novel ANK3 isoforms differentially expressed in BD, mostly with intron retention. ANK3 is one of 7 BD GWAS genes with differentially expressed isoforms.",
+        "sample_size": "6 BD cases, 6 controls",
+        "significance": "FDR<0.05"
+      }
+    ]
+  }
+}

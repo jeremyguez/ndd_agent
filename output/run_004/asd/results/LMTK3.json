@@ -1,0 +1,138 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 10,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Iossifov et al. 2012 - De novo gene disruptions in children on the autistic spectrum (PMID: 22542183)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Family 13092, male proband: de novo insertion ins(AGGTCAG) in LMTK3 (affected residue ~307/1,490); the exact HGVS notation is not given. The row assignment is inferred from a garbled table.",
+            "type": "LoF",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo gene-disrupting (frameshift indel) variant found by exome sequencing in a child with autism. The study's cohort-level excess of de novo gene-disrupting mutations in affected children over unaffected siblings supports its relevance. No gene-specific functional or segregation evidence is given.",
+        "center_country": "Cold Spring Harbor Laboratory, USA (Simons Simplex Collection families)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Lmtk3-KO Mice Display a Range of Behavioral Abnormalities and Have an Impairment in GluA1 Trafficking (PMID: 31310731)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "hyper-sociability",
+          "prepulse inhibition (PPI) deficits",
+          "cognitive dysfunction",
+          "behavioral abnormalities linked to psychiatric disease, suppressed by clozapine treatment",
+          "severely impaired LTP induction",
+          "abnormal GluA1 trafficking after AMPA stimulation in KO neurons",
+          "reduced GluA1 expression in the post-synaptic density"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 deficiency causes pronounced locomotor hyperactivity and impairs endocytic trafficking (PMID: 24760852)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "pronounced locomotor hyperactivity",
+          "reduced anxiety behavior",
+          "decreased depression-like behavior",
+          "increased striatal dopamine metabolite levels and dopamine turnover rate",
+          "impaired endocytic trafficking of NMDA receptors in cultured primary neurons",
+          "no histological abnormalities in the brain (per citing review)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "The structure-function relationship of oncogenic LMTK3 (PMID: 33188023)",
+        "evidence_subtype": "function",
+        "summary": "The 2.1\u00c5 crystal structure of the LMTK3 kinase domain was solved, and its consensus motif, phosphoproteome and substrates were defined. LMTK3 is an HSP90 client that needs HSP90 for folding and stability. The inhibitor C28 triggers proteasomal degradation of LMTK3, increases apoptosis in breast cancer cells, reduces proliferation across the NCI-60 panel, and slows xenograft and transgenic breast tumor growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 regulation of EV biogenesis and cargo sorting promotes tumour growth by reducing monocyte infiltration and driving pro-tumourigenic macrophage polarisation in breast cancer (PMID: 40405280)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "LMTK3 phosphorylates Rab7, which reduces MVB-lysosome fusion and alters EV size, subpopulations and cargo. LMTK3 increases PSAT1 packaging in EVs, which upregulates PHGDH in monocytes, reduces monocyte infiltration and promotes M2-like macrophage polarisation. LMTK3 inhibition reverses these effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 Represses Tumor Suppressor-like Genes through Chromatin Remodeling in Breast Cancer (PMID: 26212333)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "LMTK3 ChIP-seq binding correlates with repressive chromatin marks. LMTK3 binds KAP1, and the interaction is stabilized by PP1\u03b1, which blocks KAP1 phosphorylation at LMTK3-bound chromatin. This condenses chromatin, tethers it to the nuclear periphery with H3K9me3, and silences tumor suppressor-like genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 escapes tumour suppressor miRNAs via sequestration of DDX5 (PMID: 26739063)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "LMTK3 interacts with DDX5 (p68) and binds, via DDX5, the pri-miRNAs of miR-34a, miR-196a2 and miR-182, sequestering them from Microprocessor processing. miR-34a and miR-182 in turn bind the LMTK3 3'UTR and inhibit its stability and translation, forming a feedback loop.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 promotes tumorigenesis in bladder cancer via the ERK/MAPK pathway (PMID: 32865871)",
+        "evidence_subtype": "pathway",
+        "summary": "LMTK3 is overexpressed in bladder cancer, and high expression predicts poor overall survival. Knockdown causes G2/M arrest, apoptosis and reduced EMT-linked migration, and lowers MEK/ERK1/2 phosphorylation. Overexpression promotes proliferation and migration, which the MEK inhibitor U0126 rescues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 is essential for oncogenic KIT expression in KIT-mutant GIST and melanoma (PMID: 30242244)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A tyrosine kinome siRNA screen identified LMTK3 as a regulator of KIT translation rate. LMTK3 silencing reduced total KIT and downstream signaling, decreased viability and increased death in KIT-dependent GIST and melanoma lines, including those with TKI-resistant secondary KIT mutations. LMTK3 siRNA also delayed GIST xenograft growth.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lmtk3-KO Mice Display a Range of Behavioral Abnormalities and Have an Impairment in GluA1 Trafficking (PMID: 31310731)",
+        "evidence_subtype": "other",
+        "summary": "Lmtk3-knockout mice show hyper-sociability, PPI deficits and cognitive dysfunction, which clozapine suppressed. They also have severely impaired LTP, abnormal GluA1 trafficking after AMPA stimulation, and reduced GluA1 in the postsynaptic density.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The lncRNA MIR2052HG regulates ER\u03b1 levels and aromatase inhibitor resistance through LMTK3 by recruiting EGR1 (PMID: 30944027)",
+        "evidence_subtype": "pathway",
+        "summary": "MIR2052HG recruits EGR1 to the LMTK3 promoter to drive LMTK3 transcription, in a SNP- and aromatase inhibitor-dependent manner. LMTK3 sustains ER\u03b1 levels by reducing PKC activity, which raises AKT/FOXO3-driven ESR1 transcription and limits PKC/MEK/ERK/RSK1-mediated ER\u03b1 degradation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 confers chemo-resistance in breast cancer (PMID: 29540829)",
+        "evidence_subtype": "cell_culture",
+        "summary": "LMTK3 overexpression reduced doxorubicin sensitivity in 2D and 3D cultures and in mice. It delayed \u03b3H2AX-marked double-strand breaks and lowered ATM phosphorylation. Doxorubicin differentially regulated more than 700 genes depending on LMTK3 level, and LMTK3 IHC rose after chemotherapy in four clinical cohorts.",
+        "sample_size": "four clinical cohorts of pre-/post-chemotherapy breast tumor pairs",
+        "significance": null
+      },
+      {
+        "citation": "LMTK3 knockdown retards cell growth and invasion and promotes apoptosis in thyroid cancer (PMID: 28260052)",
+        "evidence_subtype": "expression",
+        "summary": "Serum LMTK3 was higher in thyroid carcinoma than in benign tumors and healthy controls. LMTK3 protein and mRNA were higher in cancer tissue and associated with disease stage. Knockdown in SW579 cells reduced proliferation, invasion and migration and induced apoptosis.",
+        "sample_size": "102 thyroid carcinoma, 52 benign tumor, 50 healthy volunteers",
+        "significance": "P=0.001"
+      }
+    ]
+  }
+}

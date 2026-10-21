@@ -1,0 +1,823 @@
+{
+ "gene": "XPO1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of neurological development",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "CRM-1",
+   "CRM1",
+   "EMB",
+   "exportin 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 80,
+  "titlekicksparingfulltext": 22,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 62,
+   "Existing": 32,
+   "Hypothesized": 5,
+   "Novel": 1
+  },
+  "justification": "PMID 40819229 reports 22 individuals with de novo XPO1 single-nucleotide/in-frame variants (half loss-of-function) sharing an overlapping phenotype, with Drosophila knockdown supporting developmental and habituation defects\u2014this is a dedicated clinical cohort of many independent probands establishing a dominant monogenic NDD. Independently, PMID 35468861 found statistically significant enrichment of de novo deleterious variants in XPO1 across 41,165 NDD cases and ranked it a high-confidence NDD gene, providing human genetic support from a separate dataset. Additional support is indirect: 2p15p16.1 microdeletion/microduplication reports (PMIDs 39050773, 36807877, 42315110, 29951117, 38392344) implicate XPO1 as a candidate, but contiguous CNVs cannot isolate XPO1 from USP34/BCL11A and therefore do not count as gene-specific evidence. Other XPO1 papers concern nuclear export biology, ALS/TDP-43, or cancer and are mechanistic or homonymous (CRM1) co-mentions. Given one large definitive proband cohort plus a corroborating statistical de novo study, Established is most likely, with residual probability on Existing because formal independent replication rests largely on a single primary report.",
+  "pmids": [],
+  "detail": {
+   "Established": 62,
+   "Existing": 32,
+   "Hypothesized": 5,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "40819229",
+   "title": "Pathogenic XPO1 variants cause a dominant neurodevelopmental disorder.",
+   "abstract": "PURPOSE: XPO1 functions in key cellular processes, including nucleo-cytoplasmic export and mitosis. The gene is deleted in a subset of patients with the 2p15p16.1 microdeletion syndrome; however, no monogenic XPO1-related disorder has been described to date. METHODS: We collected clinical data of individuals with de novo XPO1 variants through online matchmaking. We used Drosophila to study XPO1 function in development and habituation learning. RESULTS: A total of 22 individuals met the criteria to be included in the main study cohort. Of these, half have putative loss-of-function variants, and half have coding variants (10 missense and 1 in-frame deletion variant). We found an overlapping phenotype, consistent with a monogenic neurodevelopmental disorder. We demonstrate XPO1 functions in development by ubiquitous and neuron-specific knockdown in Drosophila. GABAergic neuron specific knockdown flies demonstrated impaired habituation. CONCLUSION: Our results establish XPO1 as a novel dominant monogenic neurodevelopmental disorder gene and demonstrate a central role for XPO1 in development.",
+   "found_by": [],
+   "pubdate": "2025 Nov",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "35468861",
+   "title": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants.",
+   "abstract": "BACKGROUND: Previous large-scale studies of de novo variants identified a number of genes associated with neurodevelopmental disorders (NDDs); however, it was also predicted that many NDD-associated genes await discovery. Such genes can be discovered by integrating copy number variants (CNVs), which have not been fully considered in previous studies, and increasing the sample size. METHODS: We first constructed a model estimating the rates of de novo CNVs per gene from several factors such as gene length and number of exons. Second, we compiled a comprehensive list of de novo single-nucleotide variants (SNVs) in 41,165 individuals and de novo CNVs in 3675 individuals with NDDs by aggregating our own and publicly available datasets, including denovo-db and the Deciphering Developmental Disorders study data. Third, summing up the de novo CNV rates that we estimated and SNV rates previously established, gene-based enrichment of de novo deleterious SNVs and CNVs were assessed in the 41,165 cases. Significantly enriched genes were further prioritized according to their similarity to known NDD genes using a deep learning model that considers functional characteristics (e.g., gene ontology and expression patterns). RESULTS: We identified a total of 380 genes achieving statistical significance (5% false discovery rate), including 31 genes affected by de novo CNVs. Of the 380 genes, 52 have not previously been reported as NDD genes, and the data of de novo CNVs contributed to the significance of three genes (GLTSCR1, MARK2, and UBR3). Among the 52 genes, we reasonably excluded 18 genes [a number almost identical to the theoretically expected false positives (i.e., 380 \u00d7 0.05 = 19)] given their constraints against deleterious variants and extracted 34 \"plausible\" candidate genes. Their validity as NDD genes was consistently supported by their similarity in function and gene expression patterns to known NDD genes. Quantifying the overall similarity using deep learning, we identified 11 high-confidence (> 90% true-positive probabilities) candidate genes: HDAC2, SUPT16H, HECTD4, CHD5, XPO1, GSK3B, NLGN2, ADGRB1, CTR9, BRD3, and MARK2. CONCLUSIONS: We identified dozens of new candidates for NDD genes. Both the methods and the resources developed here will contribute to the further identification of novel NDD-associated genes.",
+   "found_by": [],
+   "pubdate": "2022 Apr 26",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42315110",
+   "title": "USP34 Haploinsufficiency as a Cause of Neurodevelopmental Phenotypes.",
+   "abstract": "The 2p15p16.1 microdeletion syndrome is a rare neurodevelopmental disorder caused by heterozygous deletions of variable size involving multiple dosage-sensitive genes. Within the narrowed critical interval, USP34 has emerged as a particularly strong candidate for the core phenotype, supported by reports of smaller deletions involving only USP34 and XPO1, and by the fact that USP34 encodes a deubiquitinating enzyme that stabilizes Axin and thereby regulates canonical Wnt/\u03b2-catenin signaling, a pathway critical for neurodevelopment, craniofacial morphogenesis, and limb patterning. We report six individuals with heterozygous loss-of-function variants in USP34, including five with confirmed de novo variants, associated with global developmental delay, craniofacial dysmorphism, marked speech impairment, variable autism spectrum disorder, and distal limb anomalies. The phenotype associated with isolated loss of USP34 overlaps substantially with that reported in 2p15p16.1 microdeletion syndrome, while suggesting that some features seen in larger deletions may reflect the contribution of additional genes within the interval. These findings support haploinsufficiency of USP34 as sufficient to cause a distinct neurodevelopmental disorder, establish USP34 as a major contributor to the neurodevelopmental and dysmorphic phenotype associated with the 2p15p16.1 locus, and refine gene-specific contributions within this microdeletion syndrome.",
+   "found_by": [],
+   "pubdate": "2026 Sep",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "36807877",
+   "title": "Trait\u2009-\u2009driven analysis of the 2p15p16.1 microdeletion syndrome suggests a complex pattern of interactions between candidate genes.",
+   "abstract": "BACKGROUND: Individuals with the 2p15p16.1 microdeletion syndrome share a complex phenotype including neurodevelopmental delay, brain malformations, microcephaly, and autistic behavior. The analysis of the shortest region of overlap (SRO) between deletions in\u2009~\u200940 patients has led to the identification of two critical regions and four strongly candidate genes (BCL11A, REL, USP34 and XPO1). However, the delineation of their role in the occurrence of specific traits is hampered by their incomplete penetrance. OBJECTIVE: To better delineate the role of hemizygosity of specific regions in selected traits by leveraging information both from penetrant and non\u2009-\u2009penetrant deletions. METHODS: Deletions in patients that do not present a specific trait cannot contribute to delineate the SROs. We recently developed a probabilistic model that, by considering also the non\u2009-\u2009penetrant deletions, allows a more reliable assignment of peculiar traits to specific genomic segments. We apply this method adding two new patients to the published cases. RESULTS: Our results delineate an intricate pattern of genotype\u2009-\u2009phenotype correlation where BCL11A emerges as the main gene for autistic behavior while USP34 and/or XPO1 haploinsufficiency are mainly associated with microcephaly, hearing loss and IUGR. BCL11A, USP34 and XPO1 genes are broadly related with brain malformations albeit with distinct patterns of brain damage. CONCLUSIONS: The observed penetrance of deletions encompassing different SROs and that predicted when considering each single SRO as acting independently, may reflect a more complex model than the additive one. Our approach may improve the genotype/phenotype correlation and may help to identify specific pathogenic mechanisms in contiguous gene syndromes.",
+   "found_by": [],
+   "pubdate": "2023 Apr",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41481226",
+   "title": "CRM1 inhibits NPAT condensation and histone locus body formation via a competitive occupation strategy.",
+   "abstract": "Importins could inhibit the condensation of RNA-binding proteins, while it remains unknown whether exportins elicit a similar function. Here, we identified that exportin CRM1 binds to the nuclear protein NPAT, which initiates and maintains the formation of the histone locus body (HLB), a membraneless nuclear body regulating histone transcription. CRM1 drives the nuclear export of NPAT by targeting a nuclear export signal (NES) within the LisH domain. The LisH domain contributes to NPAT condensation by mediating its self-association. Mechanistically, CRM1 competitively occupies the self-association sites in the NES motif, thereby suppressing NPAT condensation. In contrast, the two recurrent CRM1 E571K and E571G mutants could not regulate NPAT condensation and HLB remodeling due to their impaired binding to the NES of NPAT. Based on the \"competitive occupation\" model, we designed a LisH domain-derived short peptide that competes with homotypic intermolecular interactions of NPAT to perturb HLB formation. Our findings reveal that exportin regulates nuclear protein condensation via a competitive occupation strategy.",
+   "found_by": [],
+   "pubdate": "2026 Feb 2",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40068679",
+   "title": "Exportin-1 functions as an adaptor for transcription factor-mediated docking of chromatin at the nuclear pore complex.",
+   "abstract": "Nuclear pore proteins (nucleoporins [Nups]) physically interact with hundreds of chromosomal sites, impacting transcription. In yeast, transcription factors mediate interactions between Nups and enhancers and promoters. To define the molecular basis of this mechanism, we exploited a separation-of-function mutation in the Gcn4 transcription factor that blocks its interaction with the nuclear pore complex (NPC). This mutation reduces the interaction of Gcn4 with the highly conserved nuclear export factor Crm1/Xpo1. Crm1 and Nups co-occupy enhancers, and Crm1 inhibition blocks interaction of the nuclear pore protein Nup2 with the genome. In\u00a0vivo, Crm1 interacts stably with the NPC and in\u00a0vitro, Crm1 binds directly to both Gcn4 and Nup2. Importantly, the interaction between Crm1 and Gcn4 requires neither Ran-guanosine triphosphate (GTP) nor the nuclear export sequence binding site. Finally, Crm1 and Ran-GTP stimulate DNA binding by Gcn4, suggesting that allosteric coupling between Crm1-Ran-GTP binding and DNA binding facilitates the docking of transcription-factor-bound enhancers at the NPC.",
+   "found_by": [],
+   "pubdate": "2025 Mar 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29526737",
+   "title": "KLF4 Nuclear Export Requires ERK Activation and Initiates Exit from Naive Pluripotency.",
+   "abstract": "Cooperative action of a transcription factor complex containing OCT4, SOX2, NANOG, and KLF4 maintains the naive pluripotent state; however, less is known about the mechanisms that disrupt this complex, initiating exit from pluripotency. We show that, as embryonic stem cells (ESCs) exit pluripotency, KLF4 protein is exported from the nucleus causing rapid decline in Nanog and Klf4 transcription; as a result, KLF4 is the first pluripotency transcription factor removed from transcription-associated complexes during differentiation. KLF4 nuclear export requires ERK activation, and phosphorylation of KLF4 by ERK initiates interaction of KLF4 with nuclear export factor XPO1, leading to KLF4 export. Mutation of the ERK phosphorylation site in KLF4 (S132) blocks KLF4 nuclear export, the decline in Nanog, Klf4, and Sox2 mRNA, and differentiation. These findings demonstrate that relocalization of KLF4 to the cytoplasm is a critical first step in exit from the naive pluripotent state and initiation of ESC differentiation.",
+   "found_by": [],
+   "pubdate": "2018 Apr 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41993496",
+   "title": "Nuclear export modulates TDP-43 phase transition and cytoplasmic aggregation.",
+   "abstract": "RNA-binding protein TAR DNA-binding protein 43 (TDP-43) can form liquid-like, nuclear assemblies whose phase behavior may influence its aggregation propensity and neurotoxic activity. The mechanism(s) that modulates the transition of TDP-43 from a liquid to solid phase is poorly defined. Here we combine chemical and genome-wide genetic screenings to identify cellular factors that modulate the phase behavior of an RNA-binding defective TDP-43 mutant that mimics an Amyotrophic Lateral Sclerosis (ALS)-associated variant. Our screens uncover multiple cellular processes including RNA splicing, protein translation, proteostasis imbalance and nuclear export as TDP-43 phase regulators. Importantly, TDP-43 phase transition can be dynamically recapitulated in vitro in a semi-permeabilized cell system, which reveals that the inhibition of nuclear export reshapes the nuclear environment in favor of an RNA-dependent TDP-43 liquid-liquid phase separation (LLPS) state, which mitigates cytoplasmic TDP-43 aggregation. We validated this mechanism in a brain organoid model bearing an ALS-associated mutation, showing that nuclear export deficiency can limit pathogenic phospho-TDP-43 accumulation. These findings establish nuclear export as a key regulator of TDP-43 phase transitions and define a mechanistic framework that links altered nuclear transport and phase dynamics to TDP-43 aggregation potential.",
+   "found_by": [],
+   "pubdate": "2026 Apr 12",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41691309",
+   "title": "Impaired nucleocytoplasmic transport in SOD1-mediated ALS.",
+   "abstract": "BACKGROUND: Impaired nucleocytoplasmic transport (NCT) has emerged as a shared pathogenic mechanism in various neurodegenerative disorders, including amyotrophic lateral sclerosis (ALS). Although mutations in the gene encoding superoxide dismutase 1 (SOD1) account for approximately 20% of familial ALS cases, the impact of mutant SOD1 accumulation on the NCT remains unclear. METHODS: Utilizing in vitro and in vivo models, patient-derived fibroblasts, and postmortem spinal cord tissues from ALS patients with SOD1 mutations, we determined the effects of mutant SOD1 on NCT dynamics, nuclear morphology and cellular localization of transport receptors and nuclear pore components. RESULTS: Mutant SOD1 disrupts nuclear import and export trafficking, causing cytosolic accumulation of key transport regulators such as RanGAP1 and exportin 1 (XPO1). Mutant SOD1 also lowers the abundance of FG-Nups at the nuclear pore without altering nuclear circularity. Abnormal accumulation of NCT components was identified in Iba1-positive microglia, indicating a previously overlooked, non-cell-autonomous contribution to disease pathogenesis. Importantly, AAV-mediated reduction of mutant SOD1 in transgenic mice restored nuclear XPO1 localization, underscoring the causal role of mutant SOD1 in NCT abnormalities. Finally, comparable NCT perturbations were observed in patient-derived fibroblasts and in post-mortem spinal cord tissues from individuals with SOD1-ALS. CONCLUSIONS: Our results implicate NCT disruption as a shared disease mechanism between SOD1-mediated ALS and other familial and sporadic forms of ALS, adding support for targeting this pathway as an attractive therapeutic strategy in this fatal disease.",
+   "found_by": [],
+   "pubdate": "2026 Feb 14",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "25895666",
+   "title": "A non-canonical mechanism for Crm1-export cargo complex assembly.",
+   "abstract": "The transport receptor Crm1 mediates the export of diverse cargos containing leucine-rich nuclear export signals (NESs) through complex formation with RanGTP. To ensure efficient cargo release in the cytoplasm, NESs have evolved to display low affinity for Crm1. However, mechanisms that overcome low affinity to assemble Crm1-export complexes in the nucleus remain poorly understood. In this study, we reveal a new type of RanGTP-binding protein, Slx9, which facilitates Crm1 recruitment to the 40S pre-ribosome-associated NES-containing adaptor Rio2. In vitro, Slx9 binds Rio2 and RanGTP, forming a complex. This complex directly loads Crm1, unveiling a non-canonical stepwise mechanism to assemble a Crm1-export complex. A mutation in Slx9 that impairs Crm1-export complex assembly inhibits 40S pre-ribosome export. Thus, Slx9 functions as a scaffold to optimally present RanGTP and the NES to Crm1, therefore, triggering 40S pre-ribosome export. This mechanism could represent one solution to the paradox of weak binding events underlying rapid Crm1-mediated export.",
+   "found_by": [],
+   "pubdate": "2015 Apr 21",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27312238",
+   "title": "A cellular reporter to evaluate CRM1 nuclear export activity: functional analysis of the cancer-related mutant E571K.",
+   "abstract": "The exportin CRM1 binds nuclear export signals (NESs), and mediates active transport of NES-bearing proteins from the nucleus to the cytoplasm. Structural and biochemical analyses have uncovered the molecular mechanisms underlying CRM1/NES interaction. CRM1 binds NESs through a hydrophobic cleft, whose open or closed conformation facilitates NES binding and release. Several cofactors allosterically modulate the conformation of the NES-binding cleft through intramolecular interactions involving an acidic loop and a C-terminal helix in CRM1. This current model of CRM1-mediated nuclear export has not yet been evaluated in a cellular setting. Here, we describe SRV100, a cellular reporter to interrogate CRM1 nuclear export activity. Using this novel tool, we provide evidence further validating the model of NES binding and release by CRM1. Furthermore, using both SRV100-based cellular assays and in vitro biochemical analyses, we investigate the functional consequences of a recurrent cancer-related mutation, which targets a residue near CRM1 NES-binding cleft. Our data indicate that this mutation does not necessarily abrogate the nuclear export activity of CRM1, but may increase its affinity for NES sequences bearing a more negatively charged C-terminal end.",
+   "found_by": [],
+   "pubdate": "2016 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16030253",
+   "title": "Cross-talk between snurportin1 subdomains.",
+   "abstract": "The initial steps of spliceosomal small nuclear ribonucleoprotein (snRNP) maturation take place in the cytoplasm. After formation of an Sm-core and a trimethylguanosine (TMG) cap, the RNPs are transported into the nucleus via the import adaptor snurportin1 (SPN) and the import receptor importin-beta. To better understand this process, we identified SPN residues that are required to mediate interactions with TMG caps, importin-beta, and the export receptor, exportin1 (Xpo1/Crm1). Mutation of a single arginine residue within the importin-beta binding domain (IBB) disrupted the interaction with importin-beta, but preserved the ability of SPN to bind Xpo1 or TMG caps. Nuclear transport assays showed that this IBB mutant is deficient for snRNP import but that import can be rescued by addition of purified survival of motor neurons (SMN) protein complexes. Conserved tryptophan residues outside of the IBB are required for TMG binding. However, SPN can be imported into the nucleus without cargo. Interestingly, SPN targets to Cajal bodies when U2 but not U1 snRNPs are imported as cargo. SPN also relocalizes to Cajal bodies upon treatment with leptomycin B. Finally, we uncovered an interaction between the N- and C-terminal domains of SPN, suggesting an autoregulatory function similar to that of importin-alpha.",
+   "found_by": [],
+   "pubdate": "2005 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42630732",
+   "title": "Nuclear-Cytoplasmic Axis in Cancer: From Protein Mislocalization to Anticancer Drug Resistance.",
+   "abstract": "Nucleocytoplasmic transport (NCT) regulates the spatial distribution of proteins and RNA between the nucleus and cytoplasm. NCT dysregulation can mislocalize tumor suppressors, DNA-repair factors, transcription factors, and drug targets in cancer. In this review, we conceptualize NCT-dependent protein mislocalization as a spatial regulatory framework for anticancer drug resistance, rather than as a catalogue of transport components. We systematically discuss how nuclear pore complex (NPC) remodeling, transport-receptor imbalance, post-translational modification (PTM)-regulated cargo routing, signaling-NCT crosstalk, nuclear localization signal/nuclear export signal (NLS/NES) alterations, and tumor microenvironmental pressures jointly drive aberrant nucleocytoplasmic distribution. These processes can further regulate apoptosis, DNA-damage repair, oncogenic transcription, oxidative stress adaptation and drug-target accessibility, which ultimately promote drug tolerance and therapeutic resistance. We further distinguish clinically validated mechanisms from preclinical phenotypes and correlative observations. At present, the most advanced therapeutic evidence mainly supports exportin 1/chromosome region maintenance 1 (XPO1/CRM1) inhibition, particularly selinexor in selected hematologic malignancies; in contrast, strategies targeting the NPC, importins, PTM pathways, microenvironmental cues, or localization signals remain largely investigational. By integrating mechanistic, preclinical, translational, and clinical evidence, this review aims to synthesize current evidence on NCT-dependent protein mislocalization as a resistance-relevant axis and to highlight the need for cargo-specific biomarkers and rational combination strategies to translate this biology into anticancer therapy.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35347147",
+   "title": "Distinct genomic landscape of Chinese pediatric acute myeloid leukemia impacts clinical risk classification.",
+   "abstract": "Studies have revealed key genomic aberrations in pediatric acute myeloid leukemia (AML) based on Western populations. It is unknown to what extent the current genomic findings represent populations with different ethnic backgrounds. Here we present the genomic landscape of driver alterations of Chinese pediatric AML and discover previously undescribed genomic aberrations, including the XPO1-TNRC18 fusion. Comprehensively comparing between the Chinese and Western AML cohorts reveal a substantially distinct genomic alteration profile. For example, Chinese AML patients more commonly exhibit mutations in KIT and CSF3R, and less frequently mutated of genes in the RAS signaling pathway. These differences in mutation frequencies lead to the detection of previously uncharacterized co-occurring mutation pairs. Importantly, the distinct driver profile is clinical relevant. We propose a refined prognosis risk classification model which better reflected the adverse event risk for Chinese AML patients. These results emphasize the importance of genetic background in precision medicine.",
+   "found_by": [],
+   "pubdate": "2022 Mar 28",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42387534",
+   "title": "De novo variants in NPTN cause a neurodevelopmental disorder with autism and neuroplastin-PMCA hypofunction.",
+   "abstract": "BACKGROUND: NPTN encodes human neuroplastin (hNp), a transmembrane immunoglobulin (Ig)-superfamily glycoprotein and a subunit of the plasma membrane calcium (Ca2+)-ATPases (PMCA). The critical importance of hNp and its associations with PMCA in the human brain remains unknown. METHODS: Here, we describe de novo NPTN variants in individuals with autism and mild-to-severe DD/ID and evaluate their effects using animal models and in silico, molecular, and cellular approaches. RESULTS: Four individuals present variants affecting the two hNp isoforms, hNp55 and hNp65. Other four variants affect only the hNp65 isoform. Two individuals independently carry the same loss-of-function nonsense variant, predicted to cause haploinsufficient production of all hNp isoforms. Haploinsufficient Nptn+/- mice displayed reduced levels of Np and PMCA and exhibited altered social behavior. Insufficient Np55/65 production in neurons resulted in reduced PMCA expression and function. Two missense variants caused particular structural and thermodynamic abnormalities and lower expression of hNps in human embryonic kidney (HEK) cells. In primary neurons, these hNp variants failed to regulate cytosolic Ca2\u207a transients. In Drosophila, a missense mutation affecting the PMCA interaction failed to prevent the lethal phenotype caused by hNp ortholog elimination. CONCLUSIONS: We show that a novel neurodevelopmental disorder characterized by intellectual disability and autism originates from haploinsufficient NPTN gene dosage or insufficient functionality of mutant hNp related to PMCA hypofunction.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42023152",
+   "title": "ISGylation is disrupted by &lt;i&gt;UBA7&lt;/i&gt; gene variants identified in individuals with neurodevelopmental disorder phenotypes.",
+   "abstract": "ISGylation is a ubiquitin-like enzymatic cascade that transfers the small modifier ISG15 to lysine residues of protein substrates. ISGylation occurs in a three-step enzymatic cascade involving UBA7 (E1), UBE2L6 (E2), and HERC5, TRIM25, or human homolog of ariadne (HHARI) (E3) enzymes. This mechanism regulates core cellular processes, but its role in neurodevelopmental disorders remains unclear. Here, we identified individuals with neurodevelopmental disorder phenotypes harboring biallelic UBA7 gene variants and assessed their functional effects. Truncating UBA7 variants result in loss of catalytic activity, protein stability, and localization. In contrast, a missense variant drives no functional defects. Fibroblasts harboring the variant p.Lys709Serfs\u221745 had reduced UBA7 transcript and produced a truncated and unstable UBA7 protein. These fibroblasts were unable to induce ISGylation upon interferon beta treatment, indicating a dysfunctional ISGylation system. Together, our findings identify cellular mechanisms disrupted by UBA7 variants and lay the foundation for uncovering the role of the ISGylation system and UBA7 in neurodevelopment.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41507769",
+   "title": "Structural variations in evolutionary novel genomic regions: new insights into neurodevelopmental disorders by long-read DNA Sequencing.",
+   "abstract": "BACKGROUND: Neurodevelopmental disorders (NDDs) are highly diverse conditions often associated with genetic abnormalities. However, a large number of NDD cases remain undiagnosed despite thorough genetic testing using short-read sequencing and chromosomal microarray analysis. Emerging evidence indicates that structural variants (SVs) in evolutionarily new and human-specific genomic regions may be responsible for these unresolved cases. METHODS: We used Oxford Nanopore long-read DNA sequencing in six patients with unexplained NDDs who had previously tested negative for genetic mutations. Structural variants were identified and filtered based on their genomic location, regulatory potential, and expression in the central nervous system. Confirmatory fluorescence in situ hybridization (FISH) was performed. Additionally, immunohistochemical analysis of the candidate gene ANKRD20A1 was carried out to assess its spatiotemporal expression in the developing human brain. Interactome analysis was also performed to evaluate the functional connections of genes impacted by SVs. RESULTS: A total of twenty-six candidate SVs were found, including deletions, duplications, insertions, and inversions. Many of these SVs affect rapidly evolving gene families such as NBPF, TBC1D3, and RGPD, as well as regulatory elements in brain-expressed genes, suggesting their potential to disrupt brain development and lead to NDD. FISH analysis confirmed several large SVs. Patient-specific interactome maps showed that most RGPD-disrupted genes create extensive interactions. Immunohistochemical analysis revealed that ANKRD20A1, a candidate gene, is dynamically expressed during midfetal human cortical development, suggesting its involvement in neurodevelopmental events. CONCLUSION: Our findings highlight the crucial role of long-read DNA sequencing in uncovering concealed structural variants within recently evolved genomic regions. These SVs may contribute to the development of NDDs by disrupting coding sequences, regulatory elements, or complex gene networks. This study supports integrating long-read sequencing into research workflows. [full text, passages naming XPO1] ...raction network focused on EIF3C and ribosomal proteins, emphasizing translation-related processes. RGPD6 appears in a separate subnetwork, interacting with nuclear transport-related proteins such as RANGAP1 , XPO1 , and RAN , as well as RGPD1 and GRIP1 . GO term annotations include translation (blue), cytosolic small ribosomal subunit (aqua), translation initiation factor activity (green), eukaryotic 43S preinitiati...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38392344",
+   "title": "The Role of Bcl11 Transcription Factors in Neurodevelopmental Disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) comprise a diverse group of diseases, including developmental delay, autism spectrum disorder (ASD), intellectual disability (ID), and attention-deficit/hyperactivity disorder (ADHD). NDDs are caused by aberrant brain development due to genetic and environmental factors. To establish specific and curative therapeutic approaches, it is indispensable to gain precise mechanistic insight into the cellular and molecular pathogenesis of NDDs. Mutations of BCL11A and BCL11B, two closely related, ultra-conserved zinc-finger transcription factors, were recently reported to be associated with NDDs, including developmental delay, ASD, and ID, as well as morphogenic defects such as cerebellar hypoplasia. In mice, Bcl11 transcription factors are well known to orchestrate various cellular processes during brain development, for example, neural progenitor cell proliferation, neuronal migration, and the differentiation as well as integration of neurons into functional circuits. Developmental defects observed in both, mice and humans display striking similarities, suggesting Bcl11 knockout mice provide excellent models for analyzing human disease. This review offers a comprehensive overview of the cellular and molecular functions of Bcl11a and b and links experimental research to the corresponding NDDs observed in humans. Moreover, it outlines trajectories for future translational research that may help to better understand the molecular basis of Bcl11-dependent NDDs as well as to conceive disease-specific therapeutic approaches. [full text, passages naming XPO1] ...types, including hearing loss, intrauterine growth restriction, and short stature, that cannot be delineated to variations in the BCL11A gene but are associated with USP34 (ubiquitin specific peptidase 34) and XPO1 (exportin 1), two candidate genes in close proximity [ 47 ]. In 2014, a patient with a microdeletion restricted to the BCL11A gene was described with neurodevelopmental delay, severe speech disorder, and a...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39050773",
+   "title": "Rare Case of <i>de Novo</i> 2p15 Microdeletion Syndrome with Deletion Covering <i>XPO1</i> and <i>USP34</i> Genes Diagnosed in a Child - A Case Report.",
+   "abstract": "INTRODUCTION: 2p15p16.1 microdeletion syndrome was described for the first time in 2007. The size of the microdeletion is variable and encompasses several genes, like XPO1, USP34, BCL11A, REL, PAPOLG, PEX13, COMMD1, B3GNT2, and EHBP1. Features of the syndrome include short stature, microcephaly, hypotonia, psychomotor developmental delay, anomalies of the fingers of the upper and lower limbs, dysmorphic features like receding forehead, broad nasal bridge, telecanthus, ptosis, flat philtrum, small mouth with a high, narrow palate and everted lower lip. The precise genotype-phenotype correlation in 2p15 deletion syndrome is not understood. The aim of the study is to present the patient's medical history and the diagnostic process. CASE PRESENTATION: A boy aged 9 was admitted to the Genetic Outpatient Clinic due to dysmorphic features and mild mental retardation. Full lips, broad nasal root, very light hair, excessively developed subcutaneous tissue, joint laxity, postural defect, flat-valgus foot with sandal gap, brachydactyly, and problems with concentration, memory, and counting were found. Diagnosis was based on microarray testing, and copy-number variation analysis was performed using CytoScan 750K array. Genetic imbalance in the form of a deletion within the short arm of chromosome 2 in the 2p15 region (containing 50 kbp) was shown. The microdeletion covers 2 genes: USP34 and XPO1. Parents were not carriers of that mutation. CONCLUSION: The phenotypic features presented by the patient were reflected in the genetic test. 2p15 microdeletion syndrome is genetically heterogeneous with possible de novo occurrence, as in the presented case. The precise genotype-phenotype correlation in 2p15 deletion syndrome should be widely studied because in the literature there is mainly mentioned 2p15p16.1 syndrome. Even though 2p15 microdeletion syndrome is a rare discovery and its features are mainly mild, it is necessary to pay special attention to them to refer patients to genetic counseling to make an accurate diagnosis.",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "29951117",
+   "title": "Microduplication in the 2p16.1p15 chromosomal region linked to developmental delay and intellectual disability.",
+   "abstract": "BACKGROUND: Several patients with the 2p16.1p15 microdeletion syndrome have been reported. However, microduplication in the 2p16.1p15 chromosomal region has only been reported in one case, and milder clinical features were present compared to those attributed to 2p16.1p15 microdeletion syndrome. Some additional cases were deposited in DECIPHER database. CASE PRESENTATION: In this report we describe four further cases of 2p16.1p15 microduplication in four unrelated probands. They presented with mild gross motor delay, delayed speech and language development, and mild dysmorphic features. In addition, two probands have macrocephaly and one a congenital heart anomaly. Newly described cases share several phenotype characteristics with those detailed in one previously reported microduplication case. CONCLUSION: The common features among patients are developmental delay, speech delay, mild to moderate intellectual disability and unspecific dysmorphic features. Two patients have bilateral clinodactyly of the 5th finger and two have bilateral 2nd-3rd toes syndactyly. Interestingly, as opposed to the deletion phenotype with some cases of microcephaly, 2 patients are reported with macrocephaly. The reported cases suggest that microduplication in 2p16.1p15 chromosomal region might be causally linked to developmental delay, speech delay, and mild intellectual disability. [full text, passages naming XPO1] ...ding those from available databases with no specific phenotype data, do not differ by gene content (Fig. 2 ). On the centromeric border, there are 4 genes that are not uniformly duplicated in all cases, namely XPO1 (OMIM#602559), FAM16A1 (OMIM#613596), CCT4 (OMIM#605142) and COMMD1 (OMIM#607238). FAM16A1 is a known morbid gene, linked to autosomal recessive Retinitis pigmentosa 28. The other 3 genes have not been lin...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "32569833": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40647396": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33728727": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42238415": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30962349": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32511022": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38186637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37317978": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30065256": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34680358": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31914847": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41481253": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37835560": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39174699": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40897473": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33217322": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10790690": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12684371": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38985764": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32609823": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32545904": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22992674": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40819229": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35468861": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42315110": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36807877": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40204893": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35721113": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41481226": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36831522": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30205049": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38429501": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36237321": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36037515": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41192422": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40068679": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41437068": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29526737": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41993496": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42277036": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41691309": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25895666": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40608889": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30632059": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36796466": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34209894": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27312238": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25838351": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33190294": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "16030253": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42630732": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35660848": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36944324": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42146671": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35785714": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35347147": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32986498": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29650799": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42387534": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42023152": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41507769": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38392344": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40794298": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40496139": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39414258": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40577382": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42171687": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42343740": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40716795": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41217573": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40838839": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36767145": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39050773": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33963192": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39825586": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36768521": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41601480": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37185208": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29951117": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38908375": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "14 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "3 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3534,
+   "output_tokens": 148,
+   "usd": 0.004274,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 57.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.0,
+   "note": "",
+   "input_tokens": 30128,
+   "output_tokens": 1336,
+   "usd": 0.036808,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.0,
+   "note": "",
+   "input_tokens": 13544,
+   "output_tokens": 998,
+   "usd": 0.09267,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>62</established>\n    <existing>32</existing>\n    <hypothesized>5</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>PMID 40819229 reports 22 individuals with de novo XPO1 single-nucleotide/in-frame variants (half loss-of-function) sharing an overlapping phenotype, with Drosophila knockdown supporting developmental and habituation defects\u2014this is a dedicated clinical cohort of many independent probands establishing a dominant monogenic NDD. Independently, PMID 35468861 found statistically significant enrichment of de novo deleterious variants in XPO1 across 41,165 NDD cases and ranked it a high-confidence NDD gene, providing human genetic support from a separate dataset. Additional support is indirect: 2p15p16.1 microdeletion/microduplication reports (PMIDs 39050773, 36807877, 42315110, 29951117, 38392344) implicate XPO1 as a candidate, but contiguous CNVs cannot isolate XPO1 from USP34/BCL11A and therefore do not count as gene-specific evidence. Other XPO1 papers concern nuclear export biology, ALS/TDP-43, or cancer and are mechanistic or homonymous (CRM1) co-mentions. Given one large definitive proband cohort plus a corroborating statistical de novo study, Established is most likely, with residual probability on Existing because formal independent replication rests largely on a single primary report.</justification>\n  <pmids>\n    <pmid>40819229</pmid>\n    <pmid>35468861</pmid>\n    <pmid>36807877</pmid>\n    <pmid>39050773</pmid>\n    <pmid>42315110</pmid>\n    <pmid>38392344</pmid>\n    <pmid>29951117</pmid>\n  </pmids>\n</response>"
+}

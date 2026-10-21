@@ -1,0 +1,93 @@
+KLF2 EVIDENCE REPORT: CHD and CDH (heterozygous / autosomal dominant)
+
+1. GENE SUMMARY
+KLF2 encodes Krüppel-like factor 2, a zinc-finger transcription factor. It is best known as a flow-responsive regulator of endothelial quiescence, anti-inflammatory signaling, and vascular and valve development. It also controls T-cell, NK-cell and myeloid-cell trafficking and activation.
+
+2. CLINICAL EVIDENCE SUMMARY
+
+Congenital heart disease (CHD)
+- Number of independent reports: one, a large exome/genome-based cohort study of 11,555 probands (PMID: 40127276).
+- Patients: no individual case count is given. The finding is a gene-level burden result, with no individual patient descriptions.
+- Phenotypes: CHD associated with a single cardiac phenotype. KLF2 was one of 33 genes associated with a single cardiac phenotype (Table 1), and the specific subtype is not stated in the excerpt.
+- Variant type: damaging heterozygous variants, both de novo and rare transmitted/unphased, were significantly enriched. The precise variants and their class (LoF vs missense) are not specified in the available text.
+- Cohorts: the extracted data do not name UDN, GREGoR, DDD, RUMC or GEL.
+- Caveats: there are no segregation data, no functional testing of individual variants, and no case-level detail. The statistical signal passed multiple-comparison adjustment, which is meaningful, but the evidence rests on one study.
+
+Strength of clinical evidence for CHD: MODERATE (a statistically significant gene-level burden in a large cohort, but a single study without variant-level detail; borderline LIMITED)
+
+Congenital diaphragmatic hernia (CDH)
+- No clinical reports of KLF2 variants in CDH patients were found.
+
+Strength of clinical evidence for CDH: NONE
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Organisms: mouse (conditional knockouts and in vivo CRISPR) and zebrafish.
+- Cardiac and vascular relevance:
+  - Zebrafish klf2a mutants show atrioventricular valve defects, valvular hypoplasia and absent leaflets (PMID: 38892128, review). This is the most relevant observation for structural CHD.
+  - Klf2 knockout lymphatics show sprouting defects during embryonic development (PMID: 35701867).
+  - Neutrophil-specific Klf2 loss causes microvascular thrombosis, myocardial hypoxia, hypertrophy and heart failure progression in the angiotensin II model (PMID: 34793333). This is an acquired cardiac phenotype, not a structural malformation.
+- Immune phenotypes:
+  - Myeloid Klf2 deletion increases neonatal mortality from endotoxemia through NLRP3 inflammasome activation (PMID: 40170486).
+  - Klf2 loss in NK cells causes altered homing and tissue-resident-like features (PMID: 40857665).
+  - Klf2 loss in CD8 T cells causes aberrant differentiation toward exhaustion (PMID: 39946463, PMID: 40954251).
+- Lethality and Mendelian ratios: not reported in the extracted data. The conditional models were viable.
+- Diaphragm: no diaphragm or CDH phenotype was reported.
+- Consistency with human phenotype: partial. The zebrafish valve defects fit a CHD role, but no mouse structural heart phenotype was extracted. Most mouse data concern immune and acquired cardiac disease.
+
+Strength of model organism evidence: LIMITED for CHD (zebrafish valve defects only, from a review); NONE for CDH.
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Pathways: laminar shear stress induces KLF2 through the MEKK2/3-MEK5-ERK5 module, with mitochondrial calcium/ROS signaling and a mitophagy/p62 scaffold (PMID: 35695893). KLF2 drives eNOS and other anti-inflammatory endothelial genes, and its expression is limited in regions of disturbed flow. This is consistent with a role in flow-dependent cardiac valve and vascular development.
+- Regulation: KLF2 expression is regulated by ATF3 (PMID: 41195527) and by METTL3-mediated m6A modification (PMID: 38741032).
+- Disease links:
+  - KLF2 and its exosomal miRNAs are reduced in pulmonary arterial hypertension, including one heritable case with a p.H288Y missense variant (PMID: 32132543).
+  - KLF2 acts in the MAPK-KLF2 cascade of cerebral cavernous malformations (PMID: 39402138).
+  - KLF2 is reduced in human heart failure leukocytes (PMID: 34793333).
+- Expression: endothelial, immune and myeloid expression is well documented. No neurodevelopmental or diaphragm-specific data were provided.
+- No functional assays of the CHD-associated variants were provided.
+
+Strength of biological evidence: MODERATE for CHD (strong endothelial/flow biology that is plausibly relevant to valve and heart development); NONE for CDH.
+
+5. OVERALL ASSESSMENT
+
+Overall evidence level for CHD: LIMITED
+Overall evidence level for CDH: INSUFFICIENT
+Overall evidence level: LIMITED
+
+Syndrome: the evidence does not point to a syndrome affecting several of these conditions. CHD is the only phenotype with human genetic support, and nothing links KLF2 to CDH.
+
+Key strengths:
+- A significant burden of damaging heterozygous variants in a large CHD cohort (PMID: 40127276).
+- Zebrafish klf2a valve phenotypes (PMID: 38892128).
+- Well-established role in flow-mediated endothelial signaling.
+
+Key gaps and limitations:
+- No variant-level data, patient counts, or phenotype subtype for the CHD signal.
+- No segregation or functional testing of variants.
+- No mouse structural heart phenotype in the extracted data.
+- No CDH evidence of any kind.
+- The reported mouse phenotypes are mostly immune or acquired cardiac disease.
+
+Conclusion: KLF2 has a statistically supported association with CHD from a single large cohort burden analysis. It is biologically plausible given its role in flow-responsive endothelial and valve biology and the zebrafish valve defects. Independent case reports with variant detail, functional validation, and mammalian developmental data are needed to raise confidence. There is currently no evidence for KLF2 in CDH.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Genomic analysis of 11,555 probands identifies 60 dominant congenital heart disease genes (PMID: 40127276)
+
+### Model Organism Evidence
+1. Zebrafish Congenital Heart Disease Models: Opportunities and Challenges (PMID: 38892128)
+2. Piezo1-Regulated Mechanotransduction Controls Flow-Activated Lymphatic Expansion (PMID: 35701867)
+3. Tang et al. 2021 - KLF2 regulates neutrophil activation and thrombosis in cardiac hypertrophy and heart failure progression (PMID: 34793333)
+4. Neutrophil KLF2 regulates inflammasome-dependent neonatal mortality from endotoxemia (PMID: 40170486)
+5. Chronic NK cell activation results in a dysfunctional, tissue resident-like state mediated by KLF2 deficiency (PMID: 40857665)
+6. KLF2 maintains lineage fidelity and suppresses CD8 T cell exhaustion during acute LCMV infection (PMID: 39946463)
+7. Lymph nodes fuel KLF2-dependent effector CD8(+) T cell differentiation during chronic infection and checkpoint blockade (PMID: 40954251)
+
+### Biological Evidence
+1. 2022 - A mitochondrial contribution to anti-inflammatory shear stress signaling in vascular endothelial cells (PMID: 35695893)
+2. 2025 - Endothelial SRSF1 Promotes Ischemia-Induced Angiogenesis via ATF3-KLF2-S1PR1 Pathway (PMID: 41195527)
+3. 2024 - N6-methyladenosine modification of KLF2 may contribute to endothelial-to-mesenchymal transition in pulmonary hypertension (PMID: 38741032)
+4. 2020 - Therapeutic potential of KLF2-induced exosomal microRNAs in pulmonary hypertension (PMID: 32132543)
+5. 2024 - Epigenetic regulation by polycomb repressive complex 1 promotes cerebral cavernous malformations (PMID: 39402138)

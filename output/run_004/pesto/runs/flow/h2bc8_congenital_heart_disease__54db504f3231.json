@@ -1,0 +1,465 @@
+{
+ "gene": "H2BC8",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "congenital heart malformation",
+   "congenital heart anomaly",
+   "CHD",
+   "congenital cardiac defect",
+   "congenital cardiac anomaly",
+   "congenital cardiovascular malformation",
+   "cardiac malformation",
+   "heart malformation",
+   "abnormality of cardiovascular system morphology"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "HIST1H2BG",
+   "H2B.1A",
+   "H2BFA",
+   "H2B/A",
+   "H2B clustered histone 8"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 31,
+  "titlekicksparingfulltext": 5,
+  "read": 6
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 6,
+   "Hypothesized": 38,
+   "Novel": 55
+  },
+  "justification": "No article in the list reports variants in H2BC8 (HIST1H2BG) in patients with congenital heart disease, so neither Established nor Existing can be supported. The \"CHD remodelers\" paper (PMID 42439481) uses CHD as the acronym for chromodomain-helicase-DNA-binding proteins and neurodevelopmental syndromes, a homonym that must be dismissed. The epigenetics/genetics reviews (PMIDs 35348004, 33803261, 34209044, 33294766) discuss chromatin modification generally but do not implicate this specific histone cluster gene. The only tangential biological link is PMID 41145490, where RNF20-mediated histone H2B monoubiquitination (H2Bub1) in cardiac endothelium is required for normal heart development\u2014this makes H2B biology plausibly relevant to cardiogenesis, supporting a modest Hypothesized weight, but the evidence concerns RNF20 in mouse models, not H2BC8 variants in humans.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 6,
+   "Hypothesized": 38,
+   "Novel": 55
+  }
+ },
+ "articles": [
+  {
+   "pmid": "42439481",
+   "title": "Molecular Acrobats: How CHD Remodelers Shape the Genetic Playground to License Cell Identity.",
+   "abstract": "In eukaryotes, DNA is not a naked repository of genetic information but is tightly wound around histone octamers to form nucleosomes. While this packaging solves the spatial problem of fitting 2\u00a0meters of DNA into a microscopic nucleus, it creates a massive accessibility problem for DNA-templated events, including transcription, replication, and DNA repair. Here, we review how the chromodomain helicase DNA-binding (CHD) family of ATP-dependent nucleosome remodelers act as the molecular acrobats of the chromatin accessibility landscape. We highlight that the three CHD subfamilies represent a developmental division of labor: subfamily I maintains pluripotent chromatin accessibility, subfamily II drives lineage commitment through chromatin closure, and subfamily III establishes tissue-specific enhancer and promoter accessibility during organogenesis. By dynamically transforming chromatin architecture through nucleosome sliding, spacing, and ejection, CHD remodelers license the transitions between cell states, ensuring that the epigenetic landscape is reshaped for the specific needs of a stem cell today and a differentiated cell type tomorrow. We discuss how disruption of this licensing, through mutation or loss of family members, leads to severe neurodevelopmental disorders, including CHARGE syndrome, autism spectrum disorder, and intellectual disability. We close by raising outstanding questions including how CHD activity is regulated, how co-expressed paralogs coordinate their activities, and whether CHD dysfunction can be therapeutically targeted.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41145490",
+   "title": "Endothelial RNF20 suppresses endothelial-to-mesenchymal transition and safeguards physiological angiocrine signaling to prevent congenital heart disease.",
+   "abstract": "Heart morphogenesis and function rely on intricate communication among distinct cardiac cell types. How their co-development and crosstalk are coordinated is largely unexplored. Our study unveils key functions of the histone H2B ubiquitin (H2Bub1) ligase RNF20 in second heart field development and cardiac endothelial cells. We demonstrate that RNF20 promotes Nrg1 expression through a RNF20-H2Bub1-dependent mechanism and restrains TGF-\u03b2 signaling by influencing RNA polymerase II pause release at TGF-\u03b2 target genes in endothelial cells. While heightened TGF-\u03b2 signaling following RNF20 loss results endothelial-to-mesenchymal transition (EndMT), both impaired Nrg1 signaling and elevated TGF-\u03b2 activity contribute to abnormal cardiomyocyte proliferation and contractility. Importantly, RNF20 expression is significantly reduced in cardiac endothelial cells from congenital heart disease patients showing a positive correlation with oxygen saturation and a negative correlation with key components and downstream effectors of TGF-\u03b2 signaling. In summary, our work identifies a crucial role for RNF20 in safeguarding endothelial identity and physiological angiocrine signaling, thereby ensuring proper heart development and function.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35348004",
+   "title": "Epigenetics in Congenital Heart Disease.",
+   "abstract": "Embryonic heart development is an intricate process that mainly involves morphogens, transcription factors, and cardiac genes. The precise spatiotemporal expression of these genes during different developmental stages underlies normal heart development. Thus, mutation or aberrant expression of these genes may lead to congenital heart disease (CHD). However, evidence demonstrates that the mutation of genes accounts for only a small portion of CHD cases, whereas the aberrant expression regulated by epigenetic modification plays a predominant role in the pathogenesis of CHD. In this review, we provide essential knowledge on the aberrant epigenetic modification involved in the pathogenesis of CHD. Then, we discuss recent advances in the identification of novel epigenetic biomarkers. Last, we highlight the epigenetic roles in some adverse intrauterine environment-related CHD, which may help the prevention, diagnosis, and treatment of these kinds of CHD.",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34209044",
+   "title": "Molecular Genetics and Complex Inheritance of Congenital Heart Disease.",
+   "abstract": "Congenital heart disease (CHD) is the most common congenital malformation and the leading cause of mortality therein. Genetic etiologies contribute to an estimated 90% of CHD cases, but so far, a molecular diagnosis remains unsolved in up to 55% of patients. Copy number variations and aneuploidy account for ~23% of cases overall, and high-throughput genomic technologies have revealed additional types of genetic variation in CHD. The first CHD risk genotypes identified through high-throughput sequencing were de novo mutations, many of which occur in chromatin modifying genes. Murine models of cardiogenesis further support the damaging nature of chromatin modifying CHD mutations. Transmitted mutations have also been identified through sequencing of population scale CHD cohorts, and many transmitted mutations are enriched in cilia genes and Notch or VEGF pathway genes. While we have come a long way in identifying the causes of CHD, more work is required to end the diagnostic odyssey for all CHD families. Complex genetic explanations of CHD are emerging but will require increasingly sophisticated analysis strategies applied to very large CHD cohorts before they can come to fruition in providing molecular diagnoses to genetically unsolved patients. In this review, we discuss the genetic architecture of CHD and biological pathways involved in its pathogenesis.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33803261",
+   "title": "The Role of Epigenetics in Congenital Heart Disease.",
+   "abstract": "Congenital heart disease (CHD) is the most common birth defect among newborns worldwide and contributes to significant infant morbidity and mortality. Owing to major advances in medical and surgical management, as well as improved prenatal diagnosis, the outcomes for these children with CHD have improved tremendously so much so that there are now more adults living with CHD than children. Advances in genomic technologies have discovered the genetic causes of a significant fraction of CHD, while at the same time pointing to remarkable complexity in CHD genetics. For this reason, the complex process of cardiogenesis, which is governed by multiple interlinked and dose-dependent pathways, is a well investigated process. In addition to the sequence of the genome, the contribution of epigenetics to cardiogenesis is increasingly recognized. Significant progress has been made dissecting the epigenome of the heart and identified associations with cardiovascular diseases. The role of epigenetic regulation in cardiac development/cardiogenesis, using tissue and animal models, has been well reviewed. Here, we curate the current literature based on studies in humans, which have revealed associated and/or causative epigenetic factors implicated in CHD. We sought to summarize the current knowledge on the functional role of epigenetics in cardiogenesis as well as in distinct CHDs, with an aim to provide scientists and clinicians an overview of the abnormal cardiogenic pathways affected by epigenetic mechanisms, for a better understanding of their impact on the developing fetal heart, particularly for readers interested in CHD research.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33294766",
+   "title": "Exploring the Role of Maternal Nutritional Epigenetics in Congenital Heart Disease.",
+   "abstract": "Congenital heart disease (CHD) is one of the major debilitating birth defects resulting in significant impact on neonatal and child mortality globally. The etiology of CHD is complex and multifactorial. Many causative genes responsible for CHDs have been identified from the familial forms previously. Still, the non-Mendelian inheritance and predominant sporadic cases have stimulated research to understand the epigenetic basis and environmental impact on the incidence of CHD. The fetal epigenetic programming affecting cardiac development is susceptible to the availability of key dietary factors during the crucial periconceptional period. This article highlights the need and importance of in-depth research in the new emerging area of maternal nutritional epigenetics and CHD. It summarizes the current research and underlines the limitations in these types of studies. This review will benefit the future research on nutrition as a modifiable environmental factor to decrease the incidence of CHD.",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "23904455": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34529670": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42241629": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42293249": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37446311": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31606046": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42439481": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41145490": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35348004": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34209044": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41824417": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38933910": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38367868": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33294766": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42458295": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42747431": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39437788": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38081975": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41596483": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37719080": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41278204": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40497996": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40176795": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38038666": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36474778": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40694614": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36647159": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40650308": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31235600": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37504561": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33803261": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 219,
+   "usd": 0.007195,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "3 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 2.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 464,
+   "output_tokens": 30,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 69.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 11046,
+   "output_tokens": 580,
+   "usd": 0.013946,
+   "calls": 3
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 9.1,
+   "note": "",
+   "input_tokens": 3996,
+   "output_tokens": 765,
+   "usd": 0.039105,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>6</existing>\n    <hypothesized>38</hypothesized>\n    <novel>55</novel>\n  </probabilities>\n  <justification>No article in the list reports variants in H2BC8 (HIST1H2BG) in patients with congenital heart disease, so neither Established nor Existing can be supported. The \"CHD remodelers\" paper (PMID 42439481) uses CHD as the acronym for chromodomain-helicase-DNA-binding proteins and neurodevelopmental syndromes, a homonym that must be dismissed. The epigenetics/genetics reviews (PMIDs 35348004, 33803261, 34209044, 33294766) discuss chromatin modification generally but do not implicate this specific histone cluster gene. The only tangential biological link is PMID 41145490, where RNF20-mediated histone H2B monoubiquitination (H2Bub1) in cardiac endothelium is required for normal heart development\u2014this makes H2B biology plausibly relevant to cardiogenesis, supporting a modest Hypothesized weight, but the evidence concerns RNF20 in mouse models, not H2BC8 variants in humans.</justification>\n  <pmids>\n    <pmid>41145490</pmid>\n    <pmid>35348004</pmid>\n    <pmid>33803261</pmid>\n    <pmid>34209044</pmid>\n    <pmid>42439481</pmid>\n  </pmids>\n</response>"
+}

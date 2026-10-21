@@ -1,0 +1,720 @@
+{
+ "gene": "HLA-F",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental delay",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "disorder of neurological development",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "major histocompatibility complex, class I, F"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 60,
+  "titlekicksparingfulltext": 24,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 6,
+   "Existing": 57,
+   "Hypothesized": 30,
+   "Novel": 7
+  },
+  "justification": "Several human genetic studies implicate HLA-F regulatory variation in neurodevelopmental phenotypes: ASD-associated GWAS SNPs act as eQTLs regulating HLA-F in fetal cortex and immune tissue (PMID 34354167), and local genetic correlation/transcriptome analyses at chr6:29\u201330 Mb link HLA-F expression to ASD risk (PMID 38020478); a transdiagnostic TWAS also reports HLA-F among significant genes for schizophrenia (PMID 42448663). These are human, variant-based associations, but they are within the highly pleiotropic, strong-LD MHC region, making gene-level attribution uncertain and non-replicated at the level of a specific causal variant, so Established is not supported (no study reports HLA-F variants segregating in independent probands/families causing NDD). Supporting but non-genetic human data include dysregulated HLA-F expression in patient-derived hiPSC neurons (PMID 31358727) and MHC class I roles in synapse formation and neuron-glia signaling during cortical development (PMID 42158555), which keep a meaningful share on Hypothesized. Remaining papers (HLA-F structure, peptide presentation, transplantation, ALS, PTSD) are background immunology and do not address NDD.",
+  "pmids": [],
+  "detail": {
+   "Established": 6,
+   "Existing": 57,
+   "Hypothesized": 30,
+   "Novel": 7
+  }
+ },
+ "articles": [
+  {
+   "pmid": "26928464",
+   "title": "Major histocompatibility complex class I molecules protect motor neurons from astrocyte-induced toxicity in amyotrophic lateral sclerosis.",
+   "abstract": "Astrocytes isolated from individuals with amyotrophic lateral sclerosis (ALS) are toxic to motor neurons (MNs) and play a non-cell autonomous role in disease pathogenesis. The mechanisms underlying the susceptibility of MNs to cell death remain unclear. Here we report that astrocytes derived from either mice bearing mutations in genes associated with ALS or human subjects with ALS reduce the expression of major histocompatibility complex class I (MHCI) molecules on MNs; reduced MHCI expression makes these MNs susceptible to astrocyte-induced cell death. Increasing MHCI expression on MNs increases survival and motor performance in a mouse model of ALS and protects MNs against astrocyte toxicity. Overexpression of a single MHCI molecule, HLA-F, protects human MNs from ALS astrocyte-mediated toxicity, whereas knockdown of its receptor, the killer cell immunoglobulin-like receptor KIR3DL2, on human astrocytes results in enhanced MN death. Thus, our data indicate that, in ALS, loss of MHCI expression on MNs renders them more vulnerable to astrocyte-mediated toxicity.",
+   "found_by": [],
+   "pubdate": "2016 Apr",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34393704",
+   "title": "Gene Expression Analysis in Three Posttraumatic Stress Disorder Cohorts Implicates Inflammation and Innate Immunity Pathways and Uncovers Shared Genetic Risk With Major Depressive Disorder.",
+   "abstract": "Posttraumatic stress disorder (PTSD) is a complex psychiatric disorder that can develop following exposure to traumatic events. The Psychiatric Genomics Consortium PTSD group (PGC-PTSD) has collected over 20,000 multi-ethnic PTSD cases and controls and has identified both genetic and epigenetic factors associated with PTSD risk. To further investigate biological correlates of PTSD risk, we examined three PGC-PTSD cohorts comprising 977 subjects to identify differentially expressed genes among PTSD cases and controls. Whole blood gene expression was quantified with the HumanHT-12 v4 Expression BeadChip for 726 OEF/OIF veterans from the Veterans Affairs (VA) Mental Illness Research Education and Clinical Center (MIRECC), 155 samples from the Injury and Traumatic Stress (INTRuST) Clinical Consortium, and 96 Australian Vietnam War veterans. Differential gene expression analysis was performed in each cohort separately followed by meta-analysis. In the largest cohort, we performed co-expression analysis to identify modules of genes that are associated with PTSD and MDD. We then conducted expression quantitative trait loci (eQTL) analysis and assessed the presence of eQTL interactions involving PTSD and major depressive disorder (MDD). Finally, we utilized PTSD and MDD GWAS summary statistics to identify regions that colocalize with eQTLs. Although not surpassing correction for multiple testing, the most differentially expressed genes in meta-analysis were interleukin-1 beta (IL1B), a pro-inflammatory cytokine previously associated with PTSD, and integrin-linked kinase (ILK), which is highly expressed in brain and can rescue dysregulated hippocampal neurogenesis and memory deficits. Pathway analysis revealed enrichment of toll-like receptor (TLR) and interleukin-1 receptor genes, which are integral to cellular innate immune response. Co-expression analysis identified four modules of genes associated with PTSD, two of which are also associated with MDD, demonstrating common biological pathways underlying the two conditions. Lastly, we identified four genes (UBA7, HLA-F, HSPA1B, and RERE) with high probability of a shared causal eQTL variant with PTSD and/or MDD GWAS variants, thereby providing a potential mechanism by which the GWAS variant contributes to disease risk. In summary, we provide additional evidence for genes and pathways previously reported and identified plausible novel candidates for PTSD. These data provide further insight into genetic factors and pathways involved in PTSD, as well as potential regions of pleiotropy between PTSD and MDD.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31717259",
+   "title": "HLA-F Allele-Specific Peptide Restriction Represents an Exceptional Proteomic Footprint.",
+   "abstract": "Peptide-dependent engagement between human leucocyte antigens class I (HLA-I) molecules and their cognate receptors has been extensively analyzed. HLA-F belongs to the non-classical HLA-Ib molecules with marginal polymorphic nature and tissue restricted distribution. The three common allelic variants HLA-F*01:01/01:03/01:04 are distinguished by polymorphism outside the peptide binding pockets (residue 50, \u03b11 or residue 251, \u03b13) and are therefore not considered relevant for attention. However, peptide selection and presentation undergoes a most elaborated extraction from the whole available proteome. It is known that HLA-F confers a beneficial effect on disease outcome during HIV-1 infections. The interaction with the NK cell receptor initiates an antiviral downstream immune response and lead to delayed disease progression. During the time of HIV infection, HLA-F expression is upregulated, while its interaction with KIR3DS1 is diminished. The non-polymorphic nature of HLA-F facilitates the conclusion that understanding HLA-F peptide selection and presentation is essential to a comprehensive understanding of this dynamic immune response. Utilizing soluble HLA technology we recovered stable pHLA-F*01:01, 01:03 and 01:04 complexes from K562 cells and analyzed the peptides presented. Utilizing a sophisticated LC-MS-method, we analyzed the complete K562 proteome and matched the peptides presented by the respective HLA-F subtypes with detected proteins. All peptides featured a length of 8 to 24 amino acids and are not N-terminally anchored; the C-terminus is preferably anchored by Lys. To comprehend the alteration of the pHLA-F surface we structurally compared HLA-F variants bound to selected peptides. The peptides were selected from the same cellular content; however, no overlap between the proteomic source of F*01:01, 01:03 or 01:04 selected peptides could be observed. Recognizing the balance between HLA-F expression, HLA-F polymorphism and peptide selection will support to understand the role of HLA-F in viral pathogenesis.",
+   "found_by": [],
+   "pubdate": "2019 Nov 8",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35935961",
+   "title": "Sequence Variations Within HLA-G and HLA-F Genomic Segments at the Human Leukocyte Antigen Telomeric End Associated With Acute Graft-Versus-Host Disease in Unrelated Bone Marrow Transplantation.",
+   "abstract": "Acute graft-versus-host disease (aGVHD) is defined as a syndrome of an immunological response of graft to the host that occurs early after allogeneic hematopoietic stem cell transplantation (HCT). This disease is frequently observed even in HCT matched for human leukocyte antigen (HLA) alleles at multiple gene loci. Although the HLA region represents complex and diverse genomic characteristics, detailed association analysis is required for the identification of uncharacterized variants that are strongly associated with aGVHD. We genotyped three loci, OR2H2, HLA-F-AS1, and HLA-G, that are located in the 460 kb of HLA telomeric region and statistically analyzed the genotypes including HLA-DPB1 with clinical and transplantation outcomes using 338 unrelated bone marrow transplantation (UR-BMT) patient-donor pairs who were matched for HLA-A, HLA-B, HLA-C, HLA-DRB1, and HLA-DQB1 (HLA-10/10). Multivariate analyses demonstrated that HLA-F-AS1 and HLA-DPB1 mismatches were associated with grade II-IV aGVHD (hazard ratio (HR), 1.76; 95% CI, 1.07-2.88; p = 0.026; and HR, 1.59; CI, 1.02-2.49; p = 0.042, respectively). There was no confounding between HLA-F-AS1 and HLA-DPB1 (p = 0.512), suggesting that the HLA-F-AS1 mismatch has a strong effect on aGVHD independently of HLA-DPB1. Moreover, a stratified analysis suggested possible associations of HLA-F-AS1, HLA-DPB1, and/or HLA-G mismatches with grade II-IV aGVHD and the more severe grade III-IV aGVHD. These findings provide new insights into understanding the molecular mechanism of aGVHD caused by HLA-matched UR-BMT.",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33839310",
+   "title": "Peripheral spectrum neurological disorder after arbovirus infection is associated with HLA-F variants among Northeastern Brazilians.",
+   "abstract": "INTRODUCTION: Non-classical class I human leukocyte antigens (HLA) molecules are known to modulate the function of cytotoxic cells (NK and T CD8+) during viral infection by interacting with inhibitory/activating receptors. However, little is known about the HLA-E/-F genetic variability on arbovirus infections. METHODS: We evaluated by massive parallel sequencing the full HLA-E/-F genetic diversity among patients infected during the arbovirus (ZIKV, DENV, and CHIKV) outbreak leading to a broad range of neurological complications in the Brazilian State of Pernambuco. In parallel, healthy blood donors from the same area were also studied. Plink and R software were used for genetic association study. To limit the false-positive results and enhance the reliability of the results, we adopted P-values <0.01 as significant levels. RESULTS: Compared to controls, the HLA-F alleles: -1610 C (rs17875375), +1383 G (rs17178385), and +3537 A (rs17875384), all in complete linkage disequilibrium with each other (r2\u00a0=\u00a01), were overrepresented in patients presenting peripheral spectrum disorders (PSD). The HLA-F*Distal-D haplotype that harbored the -1610 C allele exhibited a trend increase in PSD group. No associations were found for HLA-E. CONCLUSIONS: Our findings showed that the HLA-F genetic background seems to be more important than HLA-E on the susceptibility to PSD complications.",
+   "found_by": [],
+   "pubdate": "2021 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16570139",
+   "title": "HLA-E, HLA-F, and HLA-G polymorphism: genomic sequence defines haplotype structure and variation spanning the nonclassical class I genes.",
+   "abstract": "Despite several studies that defined the polymorphism of the nonclassical human leukocyte antigen-E (HLA-E), HLA-F, and HLA-G genes, most polymorphisms thus far examined in correlative studies were derived from the coding sequences of these genes. In addition, some discrepancies and ambiguities in the available data have persisted in current databases. To expand the data available and to resolve some of the discrepant data, we have defined protocols that allow for the amplification of 6 to 7 kb of contiguous genomic sequence for each gene, including all of the coding and intron sequences, approximately 2 kb of 5' flanking promoter sequence, and 1 kb of 3' flanking sequence. Using long-range polymerase chain reaction (PCR) protocols, generating either one or two PCR products depending on the locus, amplified genomic DNA was directly sequenced to completion using a set of about 30 primers over each locus to yield contiguous sequence data from both strands. Using this approach, we sequenced 33 genomic DNAs, from Asian, African American, and Caucasian samples. The results of this analysis confirmed several previously reported coding sequence variants, identified several new allelic variants, and also defined extensive variation in intron and flanking sequences. It was possible to construct haplotype maps and to identify tagging single nucleotide polymorphisms that can be used to detect the composite variation spanning all three genes.",
+   "found_by": [],
+   "pubdate": "2006 May",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "28636952",
+   "title": "Human Leukocyte Antigen F Presents Peptides and Regulates Immunity through Interactions with NK Cell Receptors.",
+   "abstract": "Evidence is mounting that the major histocompatibility complex (MHC) molecule HLA-F (human leukocyte antigen\u00a0F) regulates the immune system in pregnancy, infection, and autoimmunity by signaling through NK\u00a0cell receptors (NKRs). We present structural, biochemical, and evolutionary analyses demonstrating that HLA-F presents peptides of unconventional length dictated by a newly arisen mutation (R62W) that has produced an open-ended groove accommodating particularly long peptides. Compared to empty HLA-F open conformers (OCs), HLA-F tetramers bound with human-derived peptides differentially stained leukocytes, suggesting peptide-dependent engagement. Our in\u00a0vitro studies confirm that NKRs differentiate between peptide-bound and peptide-free HLA-F. The complex structure of peptide-loaded \u03b22m-HLA-F bound to the inhibitory LIR1 revealed similarities to high-affinity recognition of the viral MHC-I mimic UL18 and a docking strategy that relies on contacts with HLA-F as well as \u03b22m, thus precluding binding to HLA-F OCs. These findings provide a biochemical framework to understand how HLA-F could regulate immunity via interactions with NKRs.",
+   "found_by": [],
+   "pubdate": "2017 Jun 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "2089074",
+   "title": "HLA non-A,B,C class I genes: their structure and expression.",
+   "abstract": "Clearly, the human genome includes a group of genes closely related to but distinct from the HLA class I genes encoding the HLA-A, -B, and -C major transplantation antigens. These non-A,B,C class I genes, designated as HLA-E, HLA-F, and HLA-G, are on the short arm of chromosome 6 and part of the HLA class I gene family. Although the human HLA-E, -F, and -G genes have features in common with the murine Qa- and Tla-genes, e.g. little allelic polymorphism, their relationship to the murine Qa- and Tla-region genes remains unclear. It has been suggested that the nonclassical MHC class I molecules function as ligands for gamma-delta T lymphocytes. The speculation is supported by the recent reports of a murine Qa-1 restricted gamma-delta T cell hybridoma and recognition of a TL antigen by gamma delta T cell receptors. The amino acid sequences of the HLA-E, -F, and -G encoded proteins suggest that each protein is likely to fold three-dimensionally into a structure very similar to HLA-A2 and has a capability of presenting a bound peptide at the cell surface. In light of the possible role of bound peptide in the expression of a class I molecule at the cell surface, it is interesting to note that the HLA-E and HLA-F molecules, even in association with beta 2-microglobulin, could not be detected at the cell surface of a transfected B-LCL. In contrast, the HLA-G molecule was found at the surface of transfected B-LCLs. Both HLA-E and HLA-F are less similar in sequence to HLA-A,B,C than is HLA-G. One explanation would be that the HLA-E and -F molecules have a mutation such that they are no longer able to bind peptide. If the HLA-G molecule does function to present peptide to T lymphocytes, there are features unique to HLA-G that should impact on its ability to perform this function. Both the analysis of HLA-G RNA and protein in trophoblasts indicate that HLA-G, unlike HLA-A, -B, -C, is relatively nonpolymorphic. Since HLA-A,B,C polymorphism is thought to increase the number of different peptides that these molecules can bind, HLA-G is likely to be able to bind a relatively limited variety of peptides. HLA-G also differs from HLA-A, -B, and -C in that it seems to only be expressed by placental amniochorionic trophoblasts.(ABSTRACT TRUNCATED AT 400 WORDS)",
+   "found_by": [],
+   "pubdate": "1990",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30245028",
+   "title": "An Ancient Fecundability-Associated Polymorphism Creates a GATA2 Binding Site in a Distal Enhancer of HLA-F.",
+   "abstract": "Variation in female reproductive traits, such as fertility, fecundity, and fecundability, are heritable in humans, but identifying and functionally characterizing genetic variants associated with these traits have been challenging. Here, we explore the functional significance and evolutionary history of a G/A polymorphism at SNP rs2523393, which is an eQTL for HLA-F and is significantly associated with fecundability (the probability of being pregnant within a single menstrual cycle). We replicated the association between the rs2523393 genotype and HLA-F expression by using GTEx data and demonstrate that HLA-F is upregulated in the endometrium during the window of implantation and by progesterone in decidual stromal cells. Next, we show that the rs2523393 A allele creates a GATA2 binding site in a progesterone-responsive distal enhancer that loops to the HLA-F promoter. Remarkably, we found that the A allele is\u00a0derived in the human lineage and that the G/A polymorphism arose before the divergence of modern and archaic humans and segregates at intermediate to high frequencies across human populations. Remarkably, the derived A allele is has also been identified in a GWAS as a risk allele for multiple sclerosis. These data suggest that the polymorphism is maintained by antagonistic pleiotropy and a reproduction-health tradeoff in human evolution.",
+   "found_by": [],
+   "pubdate": "2018 Oct 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35214796",
+   "title": "Four Faces of Cell-Surface HLA Class-I: Their Antigenic and Immunogenic Divergence Generating Novel Targets for Vaccines.",
+   "abstract": "Leukocyte cell-surface HLA-I molecules, involved in antigen presentation of peptides to CD8+ T-cells, consist of a heavy chain (HC) non-covalently linked to \u03b22-microglobulin (\u03b22m) (Face-1). The HC amino acid composition varies across all six isoforms of HLA-I, while that of \u03b22m remains the same. Each HLA-allele differs in one or more amino acid sequences on the HC \u03b11 and \u03b12 helices, while several sequences among the three helices are conserved. HCs without \u03b22m (Face-2) are also observed on human cells activated by malignancy, viral transformation, and cytokine or chemokine-mediated inflammation. In the absence of \u03b22m, the monomeric Face-2 exposes immunogenic cryptic sequences on these cells as confirmed by HLA-I monoclonal antibodies (LA45, L31, TFL-006, and TFL-007). Furthermore, such exposure enables dimerization between two Face-2 molecules by SH-linkage, salt linkage, H-bonding, and van der Waal forces. In HLA-B27, the linkage between two heavy chains with cysteines at position of 67 of the amino acid residues was documented. Similarly, several alleles of HLA-A, B, C, E, F and G express cysteine at 67, 101, and 164, and additionally, HLA-G expresses cysteine at position 42. Thus, the monomeric HC (Face-2) can dimerize with another HC of its own allele, as homodimers (Face-3), or with a different HC-allele, as heterodimers (Face-4). The presence of Face-4 is well documented in HLA-F. The post-translational HLA-variants devoid of \u03b22m may expose several cryptic linear and non-linear conformationally altered sequences to generate novel epitopes. The objective of this review, while unequivocally confirming the post-translational variants of HLA-I, is to highlight the scientific and clinical importance of the four faces of HLA and to prompt further research to elucidate their functions and their interaction with non-HLA molecules during inflammation, infection, malignancy and transplantation. Indeed, these HLA faces may constitute novel targets for passive and active specific immunotherapy and vaccines.",
+   "found_by": [],
+   "pubdate": "2022 Feb 21",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22260070",
+   "title": "[Expression, purification and interaction of human leukocyte antigen F and cluster of differentiation 8alpha homodimers].",
+   "abstract": "To obtain large quantity of human leukocyte antigen F (HLA-F) and cluster of differentiation 8alpha homodimers (CD8alphaalpha) proteins and to study their relationship, HLA-F and CD8alpha genes with rare codon in Escherichia coli were cloned using an N-terminal synonymous mutation method. High-efficiency expression protein inclusion bodies were acquired. The proteins were refolded using the dilution method and purified with gel-filtration and anion exchange chromatography. The results of gel-filtration and native-PAGE indicate that HLA-F interacts with CD8alphaalpha. This interaction may affect the binding between CD8alphaalpha and other MHC molecules to regulate immune responses. These results provide a basis for further research of HLA-F.",
+   "found_by": [],
+   "pubdate": "2011 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30488760",
+   "title": "Human Leukocyte Antigen Class I and II Knockout Human Induced Pluripotent Stem Cell-Derived Cells: Universal Donor for Cell Therapy.",
+   "abstract": "Background We aim to generate a line of \"universal donor\" human induced pluripotent stem cells (hi PSC s) that are nonimmunogenic and, therefore, can be used to derive cell products suitable for allogeneic transplantation. Methods and Results hi PSC s carrying knockout mutations for 2 key components (\u03b22 microglobulin and class II major histocompatibility class transactivator) of major histocompatibility complexes I and II (ie, human leukocyte antigen [HLA] I/ II knockout hi PSC s) were generated using the Clustered Regularly Interspaced Short Palindromic Repeats (CRISPR)/CRISPR associated protein 9 (Cas9) gene-editing system and differentiated into cardiomyocytes. Pluripotency-gene expression and telomerase activity in wild-type ( WT ) and HLAI / II knockout hi PSC s, cardiomyocyte marker expression in WT and HLAI / II knockout hi PSC -derived cardiomyocytes, and assessments of electrophysiological properties (eg, conduction velocity, action-potential and calcium transient half-decay times, and calcium transient increase times) in spheroid-fusions composed of WT and HLAI / II knockout cardiomyocytes, were similar. However, the rates of T-cell activation before (\u224821%) and after (\u224824%) exposure to HLAI / II knockout hi PSC -derived cardiomyocytes were nearly indistinguishable and dramatically lower than after exposure to WT hi PSC -derived cardiomyocytes (\u224875%), and when WT and HLAI / II knockout hi PSC -derived cardiomyocyte spheroids were cultured with human peripheral blood mononuclear cells, the WT hi PSC -derived cardiomyocyte spheroids were smaller and displayed contractile irregularities. Finally, expression of HLA -E and HLA -F was inhibited in HLAI / II knockout cardiomyocyte spheroids after coculture with human peripheral blood mononuclear cells, although HLA -G was not inhibited; these results are consistent with the essential role of class II major histocompatibility class transactivator in transcriptional activation of the HLA -E and HLA-F genes, but not the HLA -G gene. Expression of HLA -G is known to inhibit natural killer cell recognition and killing of cells that lack other HLAs. Conclusions HLAI / II knockout hi PSC s can be differentiated into cardiomyocytes that induce little or no activity in human immune cells and, consequently, are suitable for allogeneic transplantation.",
+   "found_by": [],
+   "pubdate": "2018 Dec 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42576171",
+   "title": "Genetic Diversity and Haplotype Architecture of Non-Classical HLA Class I Genes in the Japanese Population.",
+   "abstract": "The non-classical Class I genes (HLA-E, HLA-F and HLA-G) show limited protein-level diversity; however, full-length analyses that include regulatory and noncoding regions have not been sufficiently performed in East Asian populations. We designed new primers for long-range PCR and conducted PacBio SMRT sequencing to generate full-length gene sequences of HLA-E, HLA-F and HLA-G, including 5' and 3' untranslated regions (UTRs) as well as coding and intronic regions in 531 healthy Japanese individuals. These data enabled the full phasing of HLA-E, HLA-F and HLA-G, including upstream and downstream variants, at four-field resolution. We identified 24 HLA-E alleles, 30 HLA-F alleles and 19 HLA-G alleles, including a total of 36 novel (10 HLA-E, 19 HLA-F and 7 HLA-G) and 16 extended alleles (13 HLA-E, 1 HLA-F and 2 HLA-G). Protein-level diversity for HLA-E was limited, with E*01:03 and E*01:01 predominating. For HLA-F, despite the predominance of F*01:01 (96.7%), noncoding diversity at four-field resolution was abundant; the expression-linked rs2523405-T allele phased with F*01:01:02 and F*01:01:06, as well as with a subset of F*01:01:01 sub alleles. For HLA-G, consistent with previous reports, four-field resolution alleles and UTR variants formed fully co-segregating haplotypes. Linkage disequilibrium (LD) analysis at four-field resolution showed no LD between HLA-E and either HLA-F or HLA-G, whereas moderate LD was observed between HLA-F and HLA-G; the strongest signal was driven by F*01:01:02:09, which forms a haplotype with G*01:01:03:03. In summary, full-gene long-read sequencing clarified allele frequencies of non-classical Class I genes in the Japanese population, delineated phasing in regulatory regions and refined the LD structure between HLA-F and HLA-G by resolving four-field haplotypes. These data constitute an important reference for immunogenetic research, transplantation and disease-association studies in the Japanese population.",
+   "found_by": [],
+   "pubdate": "2026 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11987829",
+   "title": "[Histocompatibility HLA system of man. Considerations in the light of current concepts. VII. Nonclassical HLA- E, F, and H loci].",
+   "abstract": "Current opinions connected with HLA-E and HLA-F genes determining \"nonclassical\" (HLA-Ib) class I antigens of the Main Histocompatibility Complex MHC, and formed in the consequence of mutation or partial deletion of HLA-H pseudogene loci were presented. The expression of protein products of HLA-E and -F genes on some cells and tissues, their polymorphism, and also their biological functions in organisms were qualified by the use of molecular technics. The kind and frequency of occurrence of mutations 845 A (C282Y) and 187 G (H63D) in gene HLA-H were analysed, and in this context some genetic aspects of hereditary hemochromatozy (HH) were discussed.",
+   "found_by": [],
+   "pubdate": "2001",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42158555",
+   "title": "The Role of Astrocyte-Neuron Interactions in Shaping Neuronal Maturation during Human Brain Development.",
+   "abstract": "The human brain undergoes extensive transcriptomic remodeling during the perinatal period and early postnatal development, yet the cellular basis and regulatory logic underlying these changes remain unclear. By integrating single-cell and bulk RNA sequencing data across 9 developmental stages of the human cerebral cortex, we systematically characterized the temporal dynamics of gene expression across major cell types. From late fetal stages to infancy, pronounced transcriptomic changes occur, accompanied by shifts in cellular composition and gene expression programs. During this period, glial cells exhibit gene expression patterns and computationally inferred signaling features consistent with ongoing neuronal maturation. Cell-cell communication analysis further suggests that astrocyte subtypes exhibit distinct interaction patterns with neurons, characterized by subtype-specific temporal dynamics and lineage-associated features. Comparative analyses with mouse brains reveal human-specific features in synaptogenesis and axonogenesis that coincide with the evolutionary divergence of astrocyte subtypes. In addition, immature and mature astrocyte subtypes show distinct associations with neuronal maturation, and their developmental transitions align with stages of increased transcriptomic divergence. These findings provide new insights into how astrocyte subtypes in the postnatal human brain may contribute to neuronal development and circuit formation during critical developmental periods, and offer clues to the potential origins of neurodevelopmental disorders. [full text, passages naming HLA-F] ...T10B, while their mature counterparts were enriched for WNT9B, WNT7A, and WNT3. Furthermore, iAstro and fAstro shared signaling pathways distinct from pAstro, including BMP4 and LAMC3 in the immature stage and HLA-F, WNT3, WNT7, WNT9, NRXN2, and COL6A2 in the mature stage. The subtype-specific axonogenesis-related signaling appeared to involve shared pathways that were associated with distinct ligand\u2013receptor pairs i...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38020478",
+   "title": "Genetic relationship between the immune system and autism.",
+   "abstract": "Autism spectrum disorder (ASD) is a common and complex neurodevelopmental condition. The pathophysiology of ASD is poorly defined; however, it includes a strong genetic component and there is increasing evidence to support a role of immune dysregulation. Nonetheless, it is unclear which immune phenotypes link to ASD through genetics. Hence, we investigated the genetic correlation between ASD and diverse classes of immune conditions and markers; and if these immune-related genetic factors link to specific autistic-like traits in the population. We estimated global and local genetic correlations between ASD (n\u00a0=\u00a055,420) and 11 immune phenotypes (n\u00a0=\u00a014,256-755,406) using genome-wide association study summary statistics. Subsequently, polygenic scores (PGS) for these immune phenotypes were calculated in a population-based sample (n\u00a0=\u00a02487) and associated to five autistic-like traits (i.e., attention to detail, childhood behaviour, imagination, rigidity, social skills), and a total autistic-like traits score. Sex-stratified PGS analyses were also performed. At the genome-wide level, ASD was positively correlated with allergic diseases (ALG), and negatively correlated with lymphocyte count, rheumatoid arthritis (RA), and systemic lupus erythematosus (SLE) (FDR-p\u00a0=\u00a00.01-0.02). At the local genetic level, ASD was correlated with RA, C-reactive protein, and granulocytes and lymphocyte counts (p\u00a0=\u00a05.8\u00a0\u00d7\u00a010-6-0.002). In the general population sample, increased genetic liability for SLE, RA, ALG, and lymphocyte levels, captured by PGS, was associated with the total autistic score and with rigidity and childhood behaviour (FDR-p\u00a0=\u00a00.03). In conclusion, we demonstrated a genetic relationship between ASD and immunity that depends on the type of immune phenotype considered; some increase likelihood whereas others may potentially help build resilience. Also, this relationship may be restricted to specific genetic loci and link to specific autistic dimensions (e.g., rigidity). [full text, passages naming HLA-F] ...5 | MEF2C NEU | 5 | 74,245,355 | 75,239,302 | 0.45 | 0.25\u20130.66 | 2.3 \u00d7 10 | \u22125 | GCNT4 | ANKRD31 | HMGCR | CERT1 | POLK | ANKDD1B | POC5 CRP | 6 | 29,529,756 | 29,833,843 | 0.74 | 0.39\u20131 | 0.00048 | | GABBR1 | HLA-F | MOG | HLA-G | OR2H2 | ZFP57 RA | 10 | 38,566,461 | 42,392,742 | | \u22120.84 \u22121\u2013\u22120.50 | 0.00021 | | - NEU | 10 | 129,134,739 | 129,831,969 | \u2212 | 0.39 \u22120.66\u2013\u22120.19 | 0.00020 | | DOCK1 | NPS | FOXI2 | CLRN3 | P... ...9 expression in the cortex and immune cells was significantly associated with ASD and eosinophil count (p = 0.01\u20130.0009); at the locus chr6:29\u201330 Mb, the expression of RNF39 in the cortex and the expression of HLA-F and ZFP57 immune tissues were significantly associated with ASD and CRP (p = 0.03\u20132.9 \u00d7 10 \u22125 ); at the locus chr12:68\u201370 Mb, the expression of YEATS4 in the cortex and immune cells, and the expression of...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34354167",
+   "title": "Understanding the impact of SNPs associated with autism spectrum disorder on biological pathways in the human fetal and adult cortex.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by significant and complex genetic etiology. GWAS studies have identified genetic variants associated with ASD, but the functional impacts of these variants remain unknown. Here, we integrated four distinct levels of biological information (GWAS, eQTL, spatial genome organization and protein-protein interactions) to identify potential regulatory impacts of ASD-associated SNPs (p\u2009<\u20095\u2009\u00d7\u200910-8) on biological pathways within fetal and adult cortical tissues. We found 80 and 58 SNPs that mark regulatory regions (i.e. expression quantitative trait loci or eQTLs) in the fetal and adult cortex, respectively. These eQTLs were also linked to other psychiatric disorders (e.g. schizophrenia, ADHD, bipolar disorder). Functional annotation of ASD-associated eQTLs revealed that they are involved in diverse regulatory processes. In particular, we found significant enrichment of eQTLs within regions repressed by Polycomb proteins in the fetal cortex compared to the adult cortex. Furthermore, we constructed fetal and adult cortex-specific protein-protein interaction networks and identified that ASD-associated regulatory SNPs impact on immune pathways, fatty acid metabolism, ribosome biogenesis, aminoacyl-tRNA biosynthesis and spliceosome in the fetal cortex. By contrast, in the adult cortex they largely affect immune pathways. Overall, our findings highlight potential regulatory mechanisms and pathways important for the etiology of ASD in early brain development and adulthood. This approach, in combination with clinical studies on ASD, will contribute to individualized mechanistic understanding of ASD development. [full text, passages naming HLA-F] ...are associated with a trans-acting ASD-associated eQTL. \u00a5 Genes regulated by Polycomb-repressed ASD-associated eQTLs in the fetal cortex. The fetal immune PPI cluster contains both MHC class I (i.e. HLA-C and HLA-F ; associated with endogenous antigen processing) and MHC class II (i.e. HLA-DRB1 , HLA-DMB and HLA-DMA; associated with exogenous peptide processing) genes. Five genes within this cluster (i.e. HCG27 , TA... ...; associated with endogenous antigen processing) and MHC class II (i.e. HLA-DRB1 , HLA-DMB and HLA-DMA; associated with exogenous peptide processing) genes. Five genes within this cluster (i.e. HCG27 , TAP2 , HLA-F , HLA-DMA and HLA-DMB ) are not highly expressed (TPM < 3) within fetal cortical tissue. However, switching the ASD-eQTL to the minor allele is associated with an increase in transcript levels for these g... ...s were also associated with increases in HCG27 (TPM = 3) and NDUFA6 (TPM = 116.31) transcript levels within fetal cortex. Notably, the transcript levels for 6 genes in the fetal immune cluster ( HCG27 , TAP2 , HLA-F , HLA-DMA , HLA-C and HLA-DMB ) are associated with regulation by Polycomb-repressed ASD-eQTLs. ASD-eQTLs within the fetal cortex PPI aminoacyl-tRNA biosynthesis cluster are associated with: (a) increases...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42448663",
+   "title": "Integrative multi-omics reveals MHC class II-mediated neuroinflammation and systemic metabolic dysregulation as transdiagnostic drivers in major brain disorders.",
+   "abstract": "Psychiatric, neurodevelopmental, and neurodegenerative disorders, including Alzheimer's disease (AD), attention-deficit/hyperactivity disorder (ADHD), autism spectrum disorder (ASD), bipolar disorder (BIP), major depressive disorder (MDD), and schizophrenia (SCZ), exhibit complex etiologies driven by immune and metabolic dysregulation. While distinct in their clinical onset, these conditions share overlapping molecular vulnerabilities. This study pioneers an integrative multi-omics framework, combining multi-tissue TWAS, cross-disorder pleiotropy analyses, Mendelian Randomization (MR), predictive machine learning, and BV2 microglial profiling. Crucially, our analysis uncovered a robust \"Dual-Axis\" etiological architecture. First, a systemic metabolic axis emerged as a primary driver, particularly involving FADS2-mediated lipid dysregulation and gut-brain axis interactions. This axis shares mechanisms between bipolar disorder and schizophrenia, with Multi-tissue TWAS revealing peripheral contributions (e.g., liver, colon) to CNS pathology. Second, MHC Class II-mediated pathways, driven by HLA-DRA, HLA-DRB1, HLA-DQB1, and HLA-DQA1, emerged as a transdiagnostic neuroinflammatory nexus across AD, BIP, MDD, and SCZ, orchestrating antigen presentation to CD4+ T-helper cells. To bridge these genomic findings with cellular function, BV2 microglial profiling was performed to provide a cellular-context reference specifically for the identified immune risk component. This cellular model confirmed that the immunogenetic risk burden maps to a specific proinflammatory activation state characterized by upregulated neurotoxins (Lcn2, Nos2, Ccl2) and suppressed lipid transport/phagocytosis (Apoe, Cd68). Machine learning models leveraging these signatures achieved robust predictive performance, particularly for BIP and MDD. MR analyses uncovered causal roles of immune, lipid, and microbial pathways, with shared metabolic signatures (e.g., N-acetylarginine) across disorders. Integration with traditional medicine databases linked lipid metabolism to Artemisia argyi, suggesting novel therapeutic avenues. This integrative approach redefines the molecular framework of these disorders by highlighting systemic metabolic dysregulation and strongly implicating MHC Class II-mediated neuroinflammation as two convergent drivers, advancing precision psychiatry through targeted immunotherapies and metabolic modulators. [full text, passages naming HLA-F] ...In SCZ, 252 significant gene associations were identified, including established genes such as BRD2 , C4A , C4B , DRD2 , HLA-A , HLA-C , HLA-DMA , HLA-DMB , HLA-DOA , HLA-DQA1 , HLA-DQB1 , HLA-DRA , HLA-DRB1 , HLA-F , HLA-G , MICB , NOTCH4 , TCF4 , and ZNF804A . Additional signals included numerous genes within the MHC region (e.g., BTN1A1 , BTN2A2 , BTN3A2 , C2 , TRIM27 , TRIM38 , ZSCAN12 , ZSCAN26 , ZSCAN31 ) and h...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31358727",
+   "title": "Comparative characterization of human induced pluripotent stem cells (hiPSC) derived from patients with schizophrenia and autism.",
+   "abstract": "Human induced pluripotent stem cells (hiPSC) provide an attractive tool to study disease mechanisms of neurodevelopmental disorders such as schizophrenia. A pertinent problem is the development of hiPSC-based assays to discriminate schizophrenia (SZ) from autism spectrum disorder (ASD) models. Healthy control individuals as well as patients with SZ and ASD were examined by a panel of diagnostic tests. Subsequently, skin biopsies were taken for the generation, differentiation, and testing of hiPSC-derived neurons from all individuals. SZ and ASD neurons share a reduced capacity for cortical differentiation as shown by quantitative analysis of the synaptic marker PSD95 and neurite outgrowth. By contrast, pattern analysis of calcium signals turned out to discriminate among healthy control, schizophrenia, and autism samples. Schizophrenia neurons displayed decreased peak frequency accompanied by increased peak areas, while autism neurons showed a slight decrease in peak amplitudes. For further analysis of the schizophrenia phenotype, transcriptome analyses revealed a clear discrimination among schizophrenia, autism, and healthy controls based on differentially expressed genes. However, considerable differences were still evident among schizophrenia patients under inspection. For one individual with schizophrenia, expression analysis revealed deregulation of genes associated with the major histocompatibility complex class II (MHC class II) presentation pathway. Interestingly, antipsychotic treatment of healthy control neurons also increased MHC class II expression. In conclusion, transcriptome analysis combined with pattern analysis of calcium signals appeared as a tool to discriminate between SZ and ASD phenotypes in vitro. [full text, passages naming HLA-F] ...tant nonimmune implications as in the case of MHC I-related genes that were shown to be involved in synapse formation and functioning 50 , 51 . In this line, we found deregulated MHC class I-associated protein HLA-F and ERAP2 in patient SZ2 (Supplementary Table 52 S2 ). The finding that clozapine treatment increases MHC class II expression in healthy control neurons raises the question whether clozapine treatment ind...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37407551",
+   "title": "A human leukocyte antigen imputation study uncovers possible genetic interplay between gut inflammatory processes and autism spectrum disorders.",
+   "abstract": "Autism spectrum disorders (ASD) are neurodevelopmental conditions that are for subsets of individuals, underpinned by dysregulated immune processes, including inflammation, autoimmunity, and dysbiosis. Consequently, the major histocompatibility complex (MHC)-hosted human leukocyte antigen (HLA) has been implicated in ASD risk, although seldom investigated. By utilizing a GWAS performed by the EU-AIMS consortium (LEAP cohort), we compared HLA and MHC genetic variants, single nucleotide polymorphisms (SNP), and haplotypes in ASD individuals, versus typically developing controls. We uncovered six SNPs, namely rs9268528, rs9268542, rs9268556, rs14004, rs9268557, and rs8084 that crossed the Bonferroni threshold, which form the underpinnings of 3 independent genetic pathways/blocks that differentially associate with ASD. Block 1 (rs9268528-G, rs9268542-G, rs9268556-C, and rs14004-A) afforded protection against ASD development, whilst the two remaining blocks, namely rs9268557-T, and rs8084-A, associated with heightened risk. rs8084 and rs14004 mapped to the HLA-DRA gene, whilst the four other SNPs located in the BTNL2 locus. Different combinations amongst BTNL2 SNPs and HLA amino acid variants or classical alleles were found either to afford protection from or contribute to ASD risk, indicating a genetic interplay between BTNL2 and HLA. Interestingly, the detected variants had transcriptional and/or quantitative traits loci implications. As BTNL2 modulates gastrointestinal homeostasis and the identified HLA alleles regulate the gastrointestinal tract in celiac disease, it is proposed that the data on ASD risk may be linked to genetically regulated gut inflammatory processes. These findings might have implications for the prevention and treatment of ASD, via the targeting of gut-related processes. [full text, passages naming HLA-F] ...HLA gene cluster is physically divided into three functionally distinct sub-regions namely: (i) the HLA-class I region includes the classical HLA-A, HLA-B , and HLA-C genes as well as the non-classical HLA-E , HLA-F and HLA-G loci. These HLA genes differentially regulate antigen presentation to CD8 + T lymphocytes towards adaptive cellular immune responses, and immunomodulatory properties important for immune surveil...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35802651": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11546828": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29453317": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36570792": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7666396": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8834246": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28800327": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9933300": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25180181": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7847378": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8117056": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39428960": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19622345": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24821759": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8595409": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9378125": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24528925": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32373210": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12555235": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22292662": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25566263": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38295895": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25422469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32978482": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33359499": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26928464": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16434165": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33420581": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37371767": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "14705989": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "8781118": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37092447": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33126487": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34393704": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31717259": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35935961": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33839310": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "16570139": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28636952": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "2089074": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30245028": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35214796": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22260070": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23396137": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27447835": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30488760": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19664746": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10402495": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37418079": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23209447": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42576171": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11987829": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42158555": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42343321": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38020478": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34354167": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42448663": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31358727": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34768946": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37407551": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 233,
+   "usd": 0.007565,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "44 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "9 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3542,
+   "output_tokens": 156,
+   "usd": 0.004322,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 28.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 21848,
+   "output_tokens": 832,
+   "usd": 0.026008,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.7,
+   "note": "",
+   "input_tokens": 16754,
+   "output_tokens": 1076,
+   "usd": 0.11067,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>6</established>\n    <existing>57</existing>\n    <hypothesized>30</hypothesized>\n    <novel>7</novel>\n  </probabilities>\n  <justification>Several human genetic studies implicate HLA-F regulatory variation in neurodevelopmental phenotypes: ASD-associated GWAS SNPs act as eQTLs regulating HLA-F in fetal cortex and immune tissue (PMID 34354167), and local genetic correlation/transcriptome analyses at chr6:29\u201330 Mb link HLA-F expression to ASD risk (PMID 38020478); a transdiagnostic TWAS also reports HLA-F among significant genes for schizophrenia (PMID 42448663). These are human, variant-based associations, but they are within the highly pleiotropic, strong-LD MHC region, making gene-level attribution uncertain and non-replicated at the level of a specific causal variant, so Established is not supported (no study reports HLA-F variants segregating in independent probands/families causing NDD). Supporting but non-genetic human data include dysregulated HLA-F expression in patient-derived hiPSC neurons (PMID 31358727) and MHC class I roles in synapse formation and neuron-glia signaling during cortical development (PMID 42158555), which keep a meaningful share on Hypothesized. Remaining papers (HLA-F structure, peptide presentation, transplantation, ALS, PTSD) are background immunology and do not address NDD.</justification>\n  <pmids>\n    <pmid>34354167</pmid>\n    <pmid>38020478</pmid>\n    <pmid>42448663</pmid>\n    <pmid>31358727</pmid>\n    <pmid>42158555</pmid>\n    <pmid>37407551</pmid>\n    <pmid>28636952</pmid>\n  </pmids>\n</response>"
+}

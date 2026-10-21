@@ -1,0 +1,114 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 1,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Anonymous et al. 2022 - de novo variant calling identifies cancer mutation signatures in the 1000 Genomes Project (PMID: 36054329)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Excess of protein-coding de novo variants in IGLL5 in 1000 Genomes LCL-derived WGS data; specific variants not given in abstract; likely cell line (somatic hypermutation) artifacts",
+            "type": "other",
+            "phenotypes": []
+          }
+        ],
+        "diagnostic_reason": "Statistically significant excess of protein-coding DNVs in IGLL5, a gene involved in B-cell lymphomas; interpreted as likely LCL cell-line artifacts rather than pathogenic germline variants",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A discovery resource of rare copy number variations in individuals with autism spectrum disorder (PMID: 23275889)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "22q11.23 gain (~656 kb), maternally inherited, encompassing RAB36, FBXW4P1, RTDR1, GNAZ, MIR650, IGLL5, BCR (heterozygous copy gain)",
+            "type": "other",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare inherited CNV in an ASD case detected by CGH array; IGLL5 only one of several genes in the interval, not specifically implicated as causal",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "IGLL5 controlled by super-enhancer affects cell survival and MYC expression in mature B-cell lymphoma (PMID: 38444524)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Two mature B-cell lymphoma cell lines expressed IGLL5 mRNA containing the C\u03bb1 segment. JQ1 (BET inhibitor) treatment down-regulated IGLL5, indicating super-enhancer control. IGLL5 knockdown induced cell death with reduced MYC expression, suggesting a role in survival and MYC regulation.",
+        "sample_size": "2 mature B-cell lymphoma cell lines",
+        "significance": null
+      },
+      {
+        "citation": "A multiple myeloma-specific capture sequencing platform discovers novel translocations and frequent, risk-associated point mutations in IGLL5 (PMID: 29563506)",
+        "evidence_subtype": "other",
+        "summary": "IGLL5 was recurrently mutated in 18% of multiple myeloma tumors. The mutations were mutually exclusive with RAS mutations and associated with increased risk of disease progression. Novel IGLL5/IGH translocations were found in two samples.",
+        "sample_size": "95 tumor-normal pairs",
+        "significance": "p=0.03 (progression risk)"
+      },
+      {
+        "citation": "Identification of hub genes and therapeutic drugs in rheumatoid arthritis patients (PMID: 33604823)",
+        "evidence_subtype": "expression",
+        "summary": "IGLL5 was identified as an upregulated hub gene in RA synovial expression datasets, in the context of enrichment for B cell receptor signalling and immune response. qRT-PCR confirmed its overexpression in RA patient blood versus healthy controls. hsa-miR-1185-5p and hsa-miR-3679-5p were predicted to regulate it.",
+        "sample_size": "GEO datasets GSE55235 and GSE12021 plus RA patient and healthy control blood samples",
+        "significance": null
+      },
+      {
+        "citation": "Gene expression profiling of periodontitis-affected gingival tissue by spatial transcriptomics (PMID: 29921943)",
+        "evidence_subtype": "expression",
+        "summary": "IGLL5 was the most up-regulated gene in inflamed versus non-inflamed gingival connective tissue, together with SSR4, MZB1 and XBP1. RT-qPCR confirmed higher expression in periodontitis patients than in healthy controls, and protein expression was supported by immunohistochemistry.",
+        "sample_size": null,
+        "significance": "significantly up-regulated (specific p-values not given in abstract)"
+      },
+      {
+        "citation": "IGLL5 is correlated with tumor-infiltrating immune cells in clear cell renal cell carcinoma (PMID: 33449444)",
+        "evidence_subtype": "expression",
+        "summary": "In TCGA ccRCC, IGLL5 was the single gene overlapping between the PPI network and Cox regression analyses. Its expression correlated positively with three types of tumor-infiltrating immune cells and may be a prognostic biomarker.",
+        "sample_size": "539 ccRCC samples (TCGA)",
+        "significance": null
+      },
+      {
+        "citation": "Lineage-negative lymphoma with a helper innate lymphoid cell phenotype (PMID: 31522287)",
+        "evidence_subtype": "other",
+        "summary": "Next-generation sequencing of an aggressive lineage-negative lymphoma with a helper ILC phenotype identified a novel IGLV2-14/IGLL5 fusion. This adds IGLL5 to the list of genes involved in rearrangements in hematologic malignancy.",
+        "sample_size": "1 patient",
+        "significance": null
+      },
+      {
+        "citation": "Lymphoma driver mutations at the root of somatic evolution of nerve-damaging autoantibodies in myelin associated glycoprotein neuropathy (PMID: 40915157)",
+        "evidence_subtype": "other",
+        "summary": "Single-cell DNA and RNA analysis of MAG-autoantibody B cell clones found sub-clonal branches with somatic mutations in IGLL5, along with CXCR4 and BTG2, acquired after MYD88 L265P. This implicates IGLL5 mutation in the clonal evolution of autoreactive B cells.",
+        "sample_size": "3 patients",
+        "significance": null
+      },
+      {
+        "citation": "Comprehensive characterization of driver genes in diffuse large B cell lymphoma (PMID: 32565964)",
+        "evidence_subtype": "other",
+        "summary": "Computational driver-gene analysis identified IGLL5 as the most frequently mutated gene in DLBCL, ahead of MLL2, BTG2, B2M, PIM1 and CARD11.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dynamic landscape of m6A modifications and related post-transcriptional events in muscle-invasive bladder cancer (PMID: 39380003)",
+        "evidence_subtype": "other",
+        "summary": "Nanopore direct-RNA sequencing identified a novel m6A site in the IGLL5 3'UTR in MIBC tumors. The site showed a lower m6A methylation ratio, elongated poly(A) tails and biased transcript usage, suggesting post-transcriptional regulation of IGLL5.",
+        "sample_size": "3 paired MIBC tumor/normal samples plus validation pairs",
+        "significance": null
+      },
+      {
+        "citation": "Molecular biomarkers screened by next-generation RNA sequencing for non-sentinel lymph node status prediction in breast cancer patients with metastatic sentinel lymph nodes (PMID: 26311227)",
+        "evidence_subtype": "other",
+        "summary": "RNA-seq of sentinel lymph node metastases found that IGLL5 was the most frequently fused gene among 10 gene fusions in the NSLN-positive group.",
+        "sample_size": "6 patients",
+        "significance": "FDR<0.05 for differential expression"
+      }
+    ]
+  }
+}

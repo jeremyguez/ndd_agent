@@ -1,0 +1,364 @@
+{
+ "gene": "NUDCD2",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "childhood autism",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "NUDCL2",
+   "DKFZP686E10109",
+   "NudC domain containing 2"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 9,
+  "titlekicksparingfulltext": 2,
+  "read": 7
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 3,
+   "Existing": 45,
+   "Hypothesized": 35,
+   "Novel": 17
+  },
+  "justification": "No article reports NUDCD2 variants causing autism in independent probands; the only clinical variant paper (PMID 37272762) describes biallelic loss-of-function causing a multiple malformation syndrome with cholestasis, renal failure and early death, not ASD, so Established is excluded. Human genetic support comes indirectly from PMID 32066658, where NUDCD2 was prioritized as an ASD candidate gene from de novo mutation/TADA analysis in patient cohorts, and from network meta-analyses of ASD-associated genes (PMIDs 31323926, 38102483) that include NUDCD2 \u2014 these constitute limited, non-definitive human association evidence consistent with \"Existing.\" Supporting biology is plausible but non-human/in vitro: NudCL2 regulates LIS1 and myosin-9 stability in cell migration and acts as an autophagy receptor promoting ciliogenesis (PMIDs 32665550, 34480124), and it was identified as a HERC2 interactor, a gene linked to Angelman syndrome and ASD (PMID 25476789), supporting a Hypothesized weighting. Because the candidate-gene listings are derived from large prioritization pipelines rather than replicated, variant-level clinical findings, a meaningful probability remains for Novel.",
+  "pmids": [],
+  "detail": {
+   "Established": 3,
+   "Existing": 45,
+   "Hypothesized": 35,
+   "Novel": 17
+  }
+ },
+ "articles": [
+  {
+   "pmid": "37272762",
+   "title": "Biallelic variants in NUDCD2 associated with a multiple malformation syndrome with cholestasis and renal failure.",
+   "abstract": "NudC-like protein 2 (NUDCD2) is a 4-exon protein-coding gene at 5q34. The protein appears to act in concert with other genes regulating cell migration and microtubule extension. Early studies in model organisms show associations with LIS1, HERC2, and cohesin subunits via a co-chaperone function with Heat shock protein 90 (Hsp90). It is a candidate gene for human pathology. We present two unrelated patients with biallelic variants in NUDCD2. Their phenotypes comprise similar dysmorphic facies, midline brain hypoplasia, hypothyroidism, pulmonary and aortic valve stenosis, severe dysfunction of the liver and kidneys, profound hypotonia, and early death. The cellular analysis demonstrates the absence of the NUDCD2 protein in fibroblasts of one patient with biallelic loss-of-function variants. The data suggest that NUDCD2 deficiency causes this recognizable syndrome that has features of a ciliopathy with additional complications.",
+   "found_by": [],
+   "pubdate": "2023 Sep",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32665550",
+   "title": "NudCL2 regulates cell migration by stabilizing both myosin-9 and LIS1 with Hsp90.",
+   "abstract": "Cell migration plays pivotal roles in many biological processes; however, its underlying mechanism remains unclear. Here, we find that NudC-like protein 2 (NudCL2), a cochaperone of heat shock protein 90 (Hsp90), modulates cell migration by stabilizing both myosin-9 and lissencephaly protein 1 (LIS1). Either knockdown or knockout of NudCL2 significantly increases single-cell migration, but has no significant effect on collective cell migration. Immunoprecipitation-mass spectrometry and western blotting analyses reveal that NudCL2 binds to myosin-9 in mammalian cells. Depletion of NudCL2 not only decreases myosin-9 protein levels, but also results in actin disorganization. Ectopic expression of myosin-9 efficiently reverses defects in actin disorganization and single-cell migration in cells depleted of NudCL2. Interestingly, knockdown of myosin-9 increases both single and collective cell migration. Depletion of LIS1, a NudCL2 client protein, suppresses both single and collective cell migration, which exhibits the opposite effect compared with myosin-9 depletion. Co-depletion of myosin-9 and LIS1 promotes single-cell migration, resembling the phenotype caused by NudCL2 depletion. Furthermore, inhibition of Hsp90 ATPase activity also reduces the Hsp90-interacting protein myosin-9 stability and increases single-cell migration. Forced expression of Hsp90 efficiently reverses myosin-9 protein instability and the defects induced by NudCL2 depletion, but not vice versa. Taken together, these data suggest that NudCL2 plays an important role in the precise regulation of cell migration by stabilizing both myosin-9 and LIS1 via Hsp90 pathway.",
+   "found_by": [],
+   "pubdate": "2020 Jul 14",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34480124",
+   "title": "NudCL2 is an autophagy receptor that mediates selective autophagic degradation of CP110 at mother centrioles to promote ciliogenesis.",
+   "abstract": "Primary cilia extending from mother centrioles are essential for vertebrate development and homeostasis maintenance. Centriolar coiled-coil protein 110 (CP110) has been reported to suppress ciliogenesis initiation by capping the distal ends of mother centrioles. However, the mechanism underlying the specific degradation of mother centriole-capping CP110 to promote cilia initiation remains unknown. Here, we find that autophagy is crucial for CP110 degradation at mother centrioles after serum starvation in MEF cells. We further identify NudC-like protein 2 (NudCL2) as a novel selective autophagy receptor at mother centrioles, which contains an LC3-interacting region (LIR) motif mediating the association of CP110 and the autophagosome marker LC3. Knockout of NudCL2 induces defects in the removal of CP110 from mother centrioles and ciliogenesis, which are rescued by wild-type NudCL2 but not its LIR motif mutant. Knockdown of CP110 significantly attenuates ciliogenesis defects in NudCL2-deficient cells. In addition, NudCL2 morphants exhibit ciliation-related phenotypes in zebrafish, which are reversed by wild-type NudCL2, but not its LIR motif mutant. Importantly, CP110 depletion significantly reverses these ciliary phenotypes in NudCL2 morphants. Taken together, our data suggest that NudCL2 functions as an autophagy receptor mediating the selective degradation of mother centriole-capping CP110 to promote ciliogenesis, which is indispensable for embryo development in vertebrates.",
+   "found_by": [],
+   "pubdate": "2021 Nov",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "38102483",
+   "title": "Curation of causal interactions mediated by genes associated with autism accelerates the understanding of gene-phenotype relationships underlying neurodevelopmental disorders.",
+   "abstract": "Autism spectrum disorder (ASD) comprises a large group of neurodevelopmental conditions featuring, over a wide range of severity and combinations, a core set of manifestations (restricted sociality, stereotyped behavior and language impairment) alongside various comorbidities. Common and rare variants in several hundreds of genes and regulatory regions have been implicated in the molecular pathogenesis of ASD along a range of causation evidence strength. Despite significant progress in elucidating the impact of few paradigmatic individual loci, such sheer complexity in the genetic architecture underlying ASD as a whole has hampered the identification of convergent actionable hubs hypothesized to relay between the vastness of risk alleles and the core phenotypes. In turn this has limited the development of strategies that can revert or ameliorate this condition, calling for a systems-level approach to probe the cross-talk of cooperating genes in terms of causal interaction networks in order to make convergences experimentally tractable and reveal their clinical actionability. As a first step in this direction, we have captured from the scientific literature information on the causal links between the genes whose variants have been associated with ASD and the whole human proteome. This information has been annotated in a computer readable format in the SIGNOR database and is made freely available in the resource website. To link this information to cell functions and phenotypes, we have developed graph algorithms that estimate the functional distance of any protein in the SIGNOR causal interactome to phenotypes and pathways. The main novelty of our approach resides in the possibility to explore the mechanistic links connecting the suggested gene-phenotype relations. [full text, passages naming NUDCD2] ...proteins that are classified as Tdark according to Pharos are part of the SIGNOR causal interactome and can link to nodes in the network, including phenotypes. As examples, four causal edges or fewer can link NUDCD2 to cerebral cortex development , TANC2 to dendritic spine morphogenesis and IRF2BPL to secretory granules organization , three phenotypes that have already been implicated in ASD [ 49 \u2013 51 ] (Fig. 5B )....",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32066658",
+   "title": "Genetic evidence of gender difference in autism spectrum disorder supports the female-protective effect.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder with a male-to-female prevalence of 4:1. However, the genetic mechanisms underlying this gender difference remain unclear. Mutation burden analysis, a TADA model, and co-expression and functional network analyses were performed on de novo mutations (DNMs) and corresponding candidate genes. We found that the prevalence of putative functional DNMs (loss-of-function and predicted deleterious missense mutations) in females was significantly higher than that in males, suggesting that a higher genetic load was required in females to reach the threshold for a diagnosis. We then prioritized 174 candidate genes, including 60 shared genes, 91 male-specific genes, and 23 female-specific genes. All of the three subclasses of candidate genes were significantly more frequently co-expressed in female brains than male brains, suggesting that compensation effects of the deficiency of ASD candidate genes may be more likely in females. Nevertheless, the three subclasses of candidate genes were co-expressed with each other, suggesting a convergent functional network of male and female-specific genes. Our analysis of different aspects of genetic components provides suggestive evidence supporting the female-protective effect in ASD. Moreover, further study is needed to integrate neuronal and hormonal data to elucidate the underlying gender difference in ASD. [full text, passages naming NUDCD2] ...C23, TCF3, TSC2, CCIN, CCNT2, FBXO11, TLK2, CNGB3, UBE3C, ZC3H11A, NUAK1, LRRC4, RPH3A, MSH2, MYH10, SKI, DPP3, PSD3, RAPGEF4, TGM1, ERBB2IP, MTUS1, ATP1A1, GIGYF2, RBM19, RBP7, BRIP1, IRF2BPL, CASZ1, DENND5A, NUDCD2, FBXO18, SPAG9, SRGAP2B, KIAA0195, OR6C76, PRPF8, CHMP1A, PTK7, S100G | BTAF1, BRF1, FAM8A1, ACHE, OXR1, TSPYL1, MED13, TRIP12, AMPD1, CTNNB1, PLCD4, CTCF, GRIA2, SH2B1, CEP120, GRIK1, TPK1 | Candidate g...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31323926",
+   "title": "Network-Based Integrative Analysis of Genomics, Epigenomics and Transcriptomics in Autism Spectrum Disorders.",
+   "abstract": "Current studies suggest that autism spectrum disorders (ASDs) may be caused by many genetic factors. In fact, collectively considering multiple studies aimed at characterizing the basic pathophysiology of ASDs, a large number of genes has been proposed. Addressing the problem of molecular data interpretation using gene networks helps to explain genetic heterogeneity in terms of shared pathways. Besides, the integrative analysis of multiple omics has emerged as an approach to provide a more comprehensive view of a disease. In this work, we carry out a network-based meta-analysis of the genes reported as associated with ASDs by studies that involved genomics, epigenomics, and transcriptomics. Collectively, our analysis provides a prioritization of the large number of genes proposed to be associated with ASDs, based on genes' relevance within the intracellular circuits, the strength of the supporting evidence of association with ASDs, and the number of different molecular alterations affecting genes. We discuss the presence of the prioritized genes in the SFARI (Simons Foundation Autism Research Initiative) database and in gene networks associated with ASDs by other investigations. Lastly, we provide the full results of our analyses to encourage further studies on common targets amenable to therapy. [full text, passages naming NUDCD2] ...uch as UBC, ubiquitin C; DYNC1H1, dynein cytoplasmic 1 heavy chain 1; and EP300, E1A binding protein p300) and genes with a lower number of connections (e.g., CHD2, chromodomain helicase DNA binding protein 2; NUDCD2, NudC domain containing 2; and SETD5, SET domain containing 5), which are nevertheless important for the information flow within the network ( Figure 1 A). Interestingly, 13 genes obtained scores compara...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "25476789",
+   "title": "Proteomic analysis and identification of cellular interactors of the giant ubiquitin ligase HERC2.",
+   "abstract": "HERC2 is a large E3 ubiquitin ligase with multiple structural domains that has been implicated in an array of cellular processes. Mutations in HERC2 are linked to developmental delays and impairment caused by nervous system dysfunction, such as Angelman Syndrome and autism-spectrum disorders. However, HERC2 cellular activity and regulation remain poorly understood. We used a broad proteomic approach to survey the landscape of cellular proteins that interact with HERC2. We identified nearly 300 potential interactors, a subset of which we validated binding to HERC2. The potential HERC2 interactors included the eukaryotic translation initiation factor 3 complex, the intracellular transport COPI coatomer complex, the glycogen regulator phosphorylase kinase, beta-catenin, PI3 kinase, and proteins involved in fatty acid transport and iron homeostasis. Through a complex bioinformatic analysis of potential interactors, we linked HERC2 to cellular processes including intracellular protein trafficking and transport, metabolism of cellular energy, and protein translation. Given its size, multidomain structure, and association with various cellular activities, HERC2 may function as a scaffold to integrate protein complexes and bridge critical cellular pathways. This work provides a significant resource with which to interrogate HERC2 function more deeply and evaluate its contributions to mechanisms governing cellular homeostasis and disease. [full text, passages naming NUDCD2] ...1 6 | | TUBA1C 2.1 | KRT80 | 1.6 | | HLA-E 2.83 | | AKAP9 4.9 | | EIF3E 4.78 | | TXLNG 6 | MLL4 | 2 | CSTA | 1.5 | LMNB2 | 2 | | NIN 4.41 | | PHKA1 4.74 | CBX2 | 6 | RAB34 | 2 | BLMH | 1.21 | | TUBA1C 1.77 | | NUDCD2 4.24 | | WDR59 4.58 | | PRR14L 3 | NEURL4 | 1.98 | | PSMB4 1.03 | FTH1 | 1.73 | | SLC27A4 3.67 | | EIF3B 4.38 | SENP1 | 3 | ZDHHC17 | 1.73 | | PSMD1 1.11 | MLEC | 1.7 | | ASPM 3.46 | | EIF3L 4.04 | ATP4A...",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "41644998": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31310629": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37272762": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32665550": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34480124": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38102483": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32066658": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31323926": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25476789": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 182,
+   "usd": 0.00628,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "5 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 458,
+   "output_tokens": 18,
+   "usd": 0.000548,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 42.5,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 1.9,
+   "note": "",
+   "input_tokens": 4242,
+   "output_tokens": 164,
+   "usd": 0.005062,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.7,
+   "note": "",
+   "input_tokens": 6079,
+   "output_tokens": 903,
+   "usd": 0.05297,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>3</established>\n    <existing>45</existing>\n    <hypothesized>35</hypothesized>\n    <novel>17</novel>\n  </probabilities>\n  <justification>No article reports NUDCD2 variants causing autism in independent probands; the only clinical variant paper (PMID 37272762) describes biallelic loss-of-function causing a multiple malformation syndrome with cholestasis, renal failure and early death, not ASD, so Established is excluded. Human genetic support comes indirectly from PMID 32066658, where NUDCD2 was prioritized as an ASD candidate gene from de novo mutation/TADA analysis in patient cohorts, and from network meta-analyses of ASD-associated genes (PMIDs 31323926, 38102483) that include NUDCD2 \u2014 these constitute limited, non-definitive human association evidence consistent with \"Existing.\" Supporting biology is plausible but non-human/in vitro: NudCL2 regulates LIS1 and myosin-9 stability in cell migration and acts as an autophagy receptor promoting ciliogenesis (PMIDs 32665550, 34480124), and it was identified as a HERC2 interactor, a gene linked to Angelman syndrome and ASD (PMID 25476789), supporting a Hypothesized weighting. Because the candidate-gene listings are derived from large prioritization pipelines rather than replicated, variant-level clinical findings, a meaningful probability remains for Novel.</justification>\n  <pmids>\n    <pmid>32066658</pmid>\n    <pmid>31323926</pmid>\n    <pmid>38102483</pmid>\n    <pmid>37272762</pmid>\n    <pmid>32665550</pmid>\n    <pmid>34480124</pmid>\n    <pmid>25476789</pmid>\n  </pmids>\n</response>"
+}

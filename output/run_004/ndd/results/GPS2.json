@@ -1,0 +1,257 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 12,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Constitutional haploinsufficiency of tumor suppressor genes in mentally retarded patients with microdeletions in 17p13.1 (PMID: 19617690)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "De novo 17p13.1 microdeletions sharing an overlapping ~180 kb segment encompassing 18 genes including KCTD11, DLG4, GPS2 (and GABARAP); 2 of 4 patients' deletions also included TP53. Detected by array-CGH.",
+            "type": "other",
+            "phenotypes": [
+              "mental impairment/intellectual disability",
+              "developmental delay",
+              "congenital abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo microdeletions with an overlapping minimal region in 17p13.1; GPS2 is one of several candidate genes (with KCTD11, DLG4, GABARAP) for neuronal development and mental impairment. GPS2 is not individually established as causal.",
+        "center_country": "Brazil (3 patients from a cohort of 300 mentally retarded individuals)",
+        "cohort": null
+      },
+      {
+        "citation": "Yamamoto et al. 2010 - A functional analysis of GABARAP on 17p13.1 by knockdown zebrafish (PMID: 20111057)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "2.3-Mb microdeletion of 17p13.2p13.1 (includes GPS2, DLG4, GABARAP, KCTD11) detected by array-CGH",
+            "type": "other",
+            "phenotypes": [
+              "moderate mental retardation",
+              "intractable epilepsy",
+              "dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Deletion overlaps the previously proposed shortest region of overlap for 17p13.1 microdeletions; GPS2 is among the neuronal-development candidate genes, but the functional work focused on GABARAP and DLG4.",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2010 - A functional analysis of GABARAP on 17p13.1 by knockdown zebrafish (T. Yamamoto et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "2.3-Mb microdeletion of 17p13.2p13.1 (includes GPS2, DLG4, GABARAP, KCTD11) detected by array-CGH",
+            "type": "other",
+            "phenotypes": [
+              "moderate mental retardation",
+              "intractable epilepsy",
+              "dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Deletion overlaps the shortest region of overlap for 17p13.1 microdeletions; GPS2 is a candidate gene among several in the region.",
+        "center_country": "Japan",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "2025 - GPS2 regulates embryonic angiogenesis by enhancing endothelial cell survival through stabilizing HOIP (PMID: 41507360)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Endothelial cell-specific Gps2 deletion (Gps2ECKO) causes embryonic lethality at E16.5 due to defective vascularization",
+          "Aberrant TNFR1-mediated endothelial cell death",
+          "HOIP degradation and LUBAC instability in ECs",
+          "Attenuated TNF-induced NF-\u03baB activation and increased formation of cell-death-inducing complex-II",
+          "TNFR1 deletion restored normal vascularization and rescued embryonic lethality"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2018 - GPS2 Deficiency Triggers Maladaptive White Adipose Tissue Expansion in Obesity via HIF1A Activation (PMID: 30208320)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Adipocyte-specific GPS2 knockout (GPS2 AKO) causes adipocyte hypertrophy, inflammation and mitochondrial dysfunction during surplus energy",
+          "Phenotype driven by HIF1A activation, with inadequate WAT remodeling",
+          "Reversible by pharmacological or genetic HIF1A inhibition"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2017 - Inhibition of Ubc13-mediated Ubiquitination by GPS2 Regulates Multiple Stages of B Cell Development (PMID: 28039360)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "B cell-targeted GPS2 deletion causes developmental defects at multiple stages of B cell differentiation",
+          "Increased TLR/BCR and AKT/FOXO1 signaling through loss of Ubc13 inhibition"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2020 - Adipocyte Reprogramming by the Transcriptional Coregulator GPS2 Impacts Beta Cell Insulin Secretion (PMID: 32937117)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Adipocyte-specific GPS2 knockout causes inappropriate insulin secretion and glucose intolerance",
+          "Adipose-secreted factors cause increased pancreatic islet inflammation and impaired beta cell function"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2016 - Loss of the co-repressor GPS2 sensitizes macrophage activation upon metabolic stress induced by obesity and type 2 diabetes (PMID: 27270589)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Macrophage-specific Gps2 KO causes enhancer activation, pro-inflammatory gene expression and hypersensitivity to metabolic-stress signals",
+          "Adipose tissue inflammation and insulin resistance",
+          "Transplantation of GPS2-overexpressing bone marrow into ob/ob and diet-induced obese mice reduced inflammation and improved insulin sensitivity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2019 - Hepatocyte-specific loss of GPS2 in mice reduces non-alcoholic steatohepatitis via activation of PPAR\u03b1 (PMID: 30975991)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Hepatocyte-specific Gps2 knockout alleviates diet-induced steatosis and fibrosis",
+          "Activation of lipid catabolic genes via PPAR\u03b1 as a direct GPS2 target"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2022 - Genome-wide CRISPR knockout screening identified G protein pathway suppressor 2 as a novel tumor suppressor for uveal melanoma metastasis (PMID: 35941228)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "GPS2 knockdown in uveal melanoma cells xenografted in mice promoted proliferation and metastasis in vivo",
+          "Upregulation of MAPK and PI3K-Akt signaling and downregulation of Slit/Robo signaling"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2021 - Loss of G-Protein Pathway Suppressor 2 Promotes Tumor Growth Through Activation of AKT Signaling (PMID: 33490071)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "GPS2-deleted MDA-MB-231 human breast cancer cells in an orthotopic xenograft mouse model conferred greater tumor burden",
+          "Increased proliferation, migration and invasion in vitro",
+          "Sustained AKT activation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Ceccarelli/Fan et al. - GPS2 Deficiency Triggers Maladaptive White Adipose Tissue Expansion in Obesity via HIF1A Activation (PMID: 30208320)",
+        "evidence_subtype": "function",
+        "summary": "Adipocyte-specific GPS2 knockout mice show adipocyte hypertrophy, inflammation and mitochondrial dysfunction during surplus energy, driven by HIF1A activation and reversible by HIF1A inhibition. In human adipose tissue, GPS2 expression correlates negatively with HIF1A, adipocyte hypertrophy and insulin resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GPS2 promotes erythroid differentiation in K562 erythroleukemia cells primarily via NCOR1 (PMID: 38814500)",
+        "evidence_subtype": "cell_culture",
+        "summary": "GPS2 overexpression promoted hemin- and Ara-C-induced hemoglobin synthesis in K562 cells and increased globin and ALAS2 expression, while GPS2 knockdown inhibited differentiation. The effect depends mainly on NCOR1, since NCOR1 knockdown or deletion of the NCOR1-binding domain of GPS2 diminished it.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of K63 ubiquitination by G-Protein pathway suppressor 2 (GPS2) regulates mitochondria-associated translation (PMID: 39094987)",
+        "evidence_subtype": "function",
+        "summary": "GPS2 inhibits Ubc13-mediated K63 ubiquitination of RNA-binding and translation proteins on the outer mitochondrial membrane (PABPC1, RPS1, RACK1, eIF3M) in MEFs and human breast cancer cells. Loss of GPS2 or stress-induced nuclear translocation promotes import-coupled translation of nuclear-encoded mitochondrial proteins and an antioxidant program.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nonproteolytic ubiquitination regulates chromatin occupancy by the NCoR/SMRT/HDAC3 corepressor complex in MCF-7 breast cancer cells (PMID: 40305047)",
+        "evidence_subtype": "pathway",
+        "summary": "In MCF-7 cells, nuclear GPS2 licenses HDAC3 recruitment to chromatin by restricting TRAF6-mediated ubiquitination within the NCoR/SMRT complex. TRAF6 translocates to the nucleus after IL-1\u03b2, binds NCoR/SMRT directly and ubiquitinates TAB2, which contributes to corepressor clearance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GPS2 confers l-asparaginase resistance in acute lymphoblastic leukemia cells through ATF4/ASNS axis (PMID: 40693356)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "GPS2 binds ATF4 and stabilizes it by impairing the ATF4-BTRC (E3 ligase) interaction, which reduces ubiquitin-proteasome degradation and sustains ASNS expression. GPS2 knockdown sensitizes ALL cells to l-asparaginase in vitro and in xenografts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Exchange Factor TBL1 and Arginine Methyltransferase PRMT6 Cooperate in Protecting GPS2 from Proteasomal Degradation (PMID: 26070566)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "GPS2 is polyubiquitinated and degraded via the E3 ligase Siah2. Interaction with TBL1 protects GPS2 from degradation, and PRMT6-mediated arginine methylation of GPS2 regulates the TBL1 interaction and inhibits proteasomal degradation. GPS2 was first identified as part of the NCoR-SMRT corepressor complex.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Liquid-liquid phase separation of GPS2-LATS1 promotes colorectal cancer progression by reprogramming lipid metabolism (PMID: 40715488)",
+        "evidence_subtype": "pathway",
+        "summary": "GPS2 is overexpressed in CRC, and its depletion inhibits tumor growth in vitro and in vivo. GPS2 undergoes LLPS and binds the LATS1 kinase domain through its coiled-coil domain, suppressing Hippo signaling and releasing YAP. This promotes SREBP1 nuclear translocation and PPAR\u03b1 transcription, reprogramming lipid metabolism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Interaction of NEP with GPS2 Facilitates Influenza A Virus Replication by Weakening the Inhibition of GPS2 to RNA Synthesis and Ribonucleoprotein Assembly (PMID: 33658351)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Yeast two-hybrid, GST-pulldown and co-IP showed GPS2 binds influenza NEP. GPS2 knockdown or knockout enhanced IAV titers and overexpression impaired replication, because GPS2 reduces PB1-PB2 interaction and vRNP assembly. NEP mediates nuclear export and degradation of GPS2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GPS2 regulates embryonic angiogenesis by enhancing endothelial cell survival through stabilizing HOIP (PMID: 41507360)",
+        "evidence_subtype": "function",
+        "summary": "Endothelial-specific Gps2 knockout mice die embryonically at E16.5 from defective vascularization and TNFR1-mediated endothelial cell death, rescued by TNFR1 deletion. GPS2 binds the HOIP NZF domain and blocks K48-linked ubiquitination at K579, K737 and K988, stabilizing LUBAC and supporting TNF-induced NF-\u03baB activation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hepatocyte-specific loss of GPS2 in mice reduces non-alcoholic steatohepatitis via activation of PPAR\u03b1 (PMID: 30975991)",
+        "evidence_subtype": "function",
+        "summary": "GPS2, a subunit of the NCOR-HDAC3 complex, promotes NAFLD-to-NASH progression. Hepatocyte-specific Gps2 knockout protects against diet-induced steatosis and fibrosis and activates lipid catabolic genes, with PPAR\u03b1 identified as a direct target. In human liver, GPS2 expression correlates positively with a NASH/fibrosis signature.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

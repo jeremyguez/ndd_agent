@@ -1,0 +1,244 @@
+{
+  "gene": "PHF12",
+  "phenotype": "autism spectrum disorder",
+  "ensembl_id": "ENSG00000109118",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.4623854626388602
+    },
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.4468694465382244
+    },
+    {
+      "disease_id": "MONDO_0100038",
+      "name": "complex neurodevelopmental disorder",
+      "score": 0.4157773365202895
+    },
+    {
+      "disease_id": "MONDO_0005287",
+      "name": "developmental disability",
+      "score": 0.3714277539581253
+    },
+    {
+      "disease_id": "OBA_0003460",
+      "name": "erythrocyte volume",
+      "score": 0.16525053878537918
+    },
+    {
+      "disease_id": "MONDO_0005258",
+      "name": "autism spectrum disorder",
+      "score": 0.09239496367117545
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.08982310818770198
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.07742697955644502
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "name": "lung carcinoma",
+      "score": 0.07685207756026882
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "name": "lung cancer",
+      "score": 0.07685207756026882
+    },
+    {
+      "disease_id": "MONDO_0005494",
+      "name": "triple-negative breast carcinoma",
+      "score": 0.05634039562526788
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.05502713627263419
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.4623854626388602
+    },
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.4468694465382244
+    },
+    {
+      "disease_id": "MONDO_0100038",
+      "name": "complex neurodevelopmental disorder",
+      "score": 0.4157773365202895
+    },
+    {
+      "disease_id": "MONDO_0005287",
+      "name": "developmental disability",
+      "score": 0.3714277539581253
+    },
+    {
+      "disease_id": "OBA_0003460",
+      "name": "erythrocyte volume",
+      "score": 0.16525053878537918
+    },
+    {
+      "disease_id": "MONDO_0005258",
+      "name": "autism spectrum disorder",
+      "score": 0.09239496367117545
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.08982310818770198
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.07742697955644502
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "name": "lung carcinoma",
+      "score": 0.07685207756026882
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "name": "lung cancer",
+      "score": 0.07685207756026882
+    },
+    {
+      "disease_id": "MONDO_0005494",
+      "name": "triple-negative breast carcinoma",
+      "score": 0.05634039562526788
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.05502713627263419
+    }
+  ],
+  "gate_text": "DROP: 5, 7, 8, 9, 10, 11, 12",
+  "gate_dropped_ids": [
+    "OBA_0003460",
+    "MONDO_0005070",
+    "MONDO_0005233",
+    "MONDO_0005138",
+    "MONDO_0008903",
+    "MONDO_0005494",
+    "MONDO_0007915"
+  ],
+  "tag_text": "1 | PARENT_FIRST\n2 | DIFFERENT\n3 | PARENT_FIRST\n4 | PARENT_FIRST\n5 | DIFFERENT\n6 | EXACT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT\n12 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0700092",
+      "name": "neurodevelopmental disorder",
+      "score": 0.4623854626388602,
+      "tag": "PARENT_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.4468694465382244,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0100038",
+      "name": "complex neurodevelopmental disorder",
+      "score": 0.4157773365202895,
+      "tag": "PARENT_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005287",
+      "name": "developmental disability",
+      "score": 0.3714277539581253,
+      "tag": "PARENT_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_0003460",
+      "name": "erythrocyte volume",
+      "score": 0.16525053878537918,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005258",
+      "name": "autism spectrum disorder",
+      "score": 0.09239496367117545,
+      "tag": "EXACT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.08982310818770198,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005233",
+      "name": "non-small cell lung carcinoma",
+      "score": 0.07742697955644502,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005138",
+      "name": "lung carcinoma",
+      "score": 0.07685207756026882,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0008903",
+      "name": "lung cancer",
+      "score": 0.07685207756026882,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005494",
+      "name": "triple-negative breast carcinoma",
+      "score": 0.05634039562526788,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0007915",
+      "name": "systemic lupus erythematosus",
+      "score": 0.05502713627263419,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 12,
+  "tokens": {
+    "gate_in": 430,
+    "gate_out": 25,
+    "read_in": 2302,
+    "read_out": 403
+  },
+  "articles": [
+    {
+      "pmid": "31981491",
+      "title": "Large-Scale Exome Sequencing Study Implicates Both Developmental and Functional Changes in the Neurobiology of Autism.",
+      "abstract": "",
+      "year": "2020 Feb 6",
+      "source": "gene_burden"
+    }
+  ]
+}

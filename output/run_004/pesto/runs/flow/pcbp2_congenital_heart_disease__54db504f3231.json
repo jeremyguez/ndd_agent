@@ -1,0 +1,687 @@
+{
+ "gene": "PCBP2",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "CHD",
+   "congenital heart malformation",
+   "congenital cardiac anomaly",
+   "congenital cardiovascular malformation",
+   "cardiac birth defect",
+   "congenital anomaly of the heart",
+   "congenital cardiac defect",
+   "congenital cardiopathy",
+   "heart malformation, congenital"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "HNRPE2",
+   "HNRNPE2",
+   "HNRNP-E2",
+   "poly(rC) binding protein 2"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 58,
+  "titlekicksparingfulltext": 25,
+  "read": 17
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 2,
+   "Existing": 20,
+   "Hypothesized": 63,
+   "Novel": 15
+  },
+  "justification": "No article in this set reports PCBP2 variants in CHD probands or families, so an Established call is impossible (no candidate PMIDs exist for causal variant evidence). The strongest link is PMID 35984151, a human bioinformatic study of CHD patient tissue and CHD-iPSC-derived cardiomyocytes in which PCBP2 is predicted as an RNA-binding protein regulating CHD-associated alternative splicing events (e.g., IRF7), which is functional/transcriptomic rather than genetic evidence. PMID 38556427 is a review that merely cites PCBP2 as part of a reported \"CHD gene network,\" a background citation rather than primary variant evidence, which supports at most a modest Existing weight. The remaining papers concern PCBP2 biology in iron homeostasis, miRNA processing, IRES translation, cancer, Alzheimer's, and adipogenesis, providing general mechanistic plausibility (RBP/splicing regulation relevant to cardiogenesis) but no CHD-specific genetic data. Therefore the evidence best fits Hypothesized, with residual probability for Existing and Novel.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 20,
+   "Hypothesized": 63,
+   "Novel": 15
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41036621",
+   "title": "Iron-sensitive RNA regulation by poly C-binding proteins.",
+   "abstract": "Iron is essential for normal cellular function. Homeostatic responses to low iron availability have long been known to rely on posttranscriptional mechanisms. Poly C-binding proteins (PCBPs) are essential RNA-binding proteins that regulate alternative splicing (AS), translation, and RNA stability. They also serve as critical iron chaperones that manage intracellular iron flux. However, the impact of cellular iron levels on the PCBP-directed transcriptome has not been globally evaluated. We found broad transcriptome changes, including AS, in response to low iron availability consistent with numerous operant posttranscriptional mechanisms that sense iron. By comparing AS directed by PCBP1 and PCBP2 to the iron-sensitive transcriptome, we found genes with iron-sensitive PCBP-mediated splicing regulation. We also found that iron chelation-induced splicing changes were attenuated with knockdown of PCBPs. Further, we demonstrate that iron chelation or mutation of PCBP1 iron binding residues enhances PCBP1 RNA association. This work highlights widespread iron-sensitive RNA regulation and identifies PCBP1 and PCBP2 as critical splicing factors contributing to this response.",
+   "found_by": [],
+   "pubdate": "2025 Sep 23",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "41392552",
+   "title": "Single-cell transcriptomic analysis reveals RNA-binding protein dysregulation in immune checkpoint inhibitor-induced colitis.",
+   "abstract": "Immune checkpoint inhibitors (ICIs) have revolutionized cancer therapy by enhancing antitumor immunity, but their use is frequently complicated by immune-related adverse events, particularly ICI-induced diarrhea and colitis. Growing evidence suggests that RNA-binding proteins (RBPs), which are critical post-transcriptional regulators of immune responses, may play a pivotal role in inflammatory diseases. To systematically investigate the involvement of RBPs in ICI-induced colitis, we performed a comprehensive reanalysis of published single-cell RNA sequencing data from CD45+ immune cells isolated from ICI colitis patients, ICI-treated noncolitis patients, and healthy control subjects. Our analysis revealed distinct, cell-type-specific RBP expression patterns across immune cell populations, with several RBP clusters (e.g. R4 in innate lymphoid cells and T cells, R5 in T cells, R8 in IgA+ plasma B cells, and R10 in B cells) being uniquely enriched in ICI colitis samples, suggesting their potential involvement in colitis pathogenesis. Further subpopulation analysis identified ICI colitis-deregulated RBPs: RPL26 was markedly downregulated in both innate lymphoid cells and T cells from ICI colitis patients, while PCBP2, ISG20, HSPA1A, and HSPA1B were upregulated in T cells. A colitis-specific RBP cluster was identified in B cells, among which ISG20 and ZFP36L2 showed elevated expression in specific subpopulations from colitis patients. ZFP36L2 potentially targets CD83 and JUNB, as their expression decreased in mouse germinal center B cells upon ZFP36L2 knockout. These findings highlight the regulatory role of RBPs in ICI-induced colitis and identify cell-type-specific alterations that may drive disease progression. Importantly, we pinpoint immune checkpoint-related RBPs as potential therapeutic targets, offering new strategies to manage this clinically significant immune-related adverse events.",
+   "found_by": [],
+   "pubdate": "2026 Feb 9",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32032745",
+   "title": "Functional expression of ZNF467 and PCBP2 supports adipogenic lineage commitment in adipose-derived mesenchymal stem cells.",
+   "abstract": "Bone marrow-derived mesenchymal stromal/stem cells (BMSCs) have the potential to be employed in many different skeletal therapies. A major limitation to utilizing BMSCs as a therapeutic strategy in human disease and tissue regeneration is the low cell numbers obtained from initial isolation necessitating multiple cell passages that can lead to decreased cell quality. Adipose-derived mesenchymal stromal/stem cells (AMSCs) have been proposed as an alternative cell source for regenerative therapies; however the differentiation capacity of these cells differs from BMSCs. To understand the differences between BMSCs and AMSCs, we compared the global gene expression profiles of BMSCs and AMSCs and identified two genes, PCBP2 and ZNF467 that were differentially expressed between AMSCs and BMSCs. We demonstrate that PCBP2 and ZNF467 impact adipogenic but not osteogenic differentiation, further supporting evidence that AMSCs and BMSCs appear to be adapted to their microenvironment.",
+   "found_by": [],
+   "pubdate": "2020 May 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12972621",
+   "title": "Identification of mRNAs associated with alphaCP2-containing RNP complexes.",
+   "abstract": "Posttranscriptional controls in higher eukaryotes are central to cell differentiation and developmental programs. These controls reflect sequence-specific interactions of mRNAs with one or more RNA binding proteins. The alpha-globin poly(C) binding proteins (alphaCPs) comprise a highly abundant subset of K homology (KH) domain RNA binding proteins and have a characteristic preference for binding single-stranded C-rich motifs. alphaCPs have been implicated in translation control and stabilization of multiple cellular and viral mRNAs. To explore the full contribution of alphaCPs to cell function, we have identified a set of mRNAs that associate in vivo with the major alphaCP2 isoforms. One hundred sixty mRNA species were consistently identified in three independent analyses of alphaCP2-RNP complexes immunopurified from a human hematopoietic cell line (K562). These mRNAs could be grouped into subsets encoding cytoskeletal components, transcription factors, proto-oncogenes, and cell signaling factors. Two mRNAs were linked to ceroid lipofuscinosis, indicating a potential role for alphaCP2 in this infantile neurodegenerative disease. Surprisingly, alphaCP2 mRNA itself was represented in alphaCP2-RNP complexes, suggesting autoregulatory control of alphaCP2 expression. In vitro analyses of representative target mRNAs confirmed direct binding of alphaCP2 within their 3' untranslated regions. These data expand the list of mRNAs that associate with alphaCP2 in vivo and establish a foundation for modeling its role in coordinating pathways of posttranscriptional gene regulation.",
+   "found_by": [],
+   "pubdate": "2003 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32141009",
+   "title": "Isobaric tags for relative and absolute quantitation (iTRAQ)-based proteomic analysis of mRNA splicing relevant proteins in aging HSPCs.",
+   "abstract": "BACKGROUND: HSPC (hematopoietic stem/progenitor cell) aging was closely associated with the organism aging, senile diseases and hematopoietic related diseases. Therefore, study on HSPC aging is of great significance to further elucidate the mechanisms of aging and to treat hematopoietic disease resulting from HSPC aging. Little attention had been paid to mRNA splicing as a mechanism underlying HSPC senescence. RESULTS: We used our lab's patented in vitro aging model of HSPCs to analyze mRNA splicing relevant protein alterations with iTRAQ-based proteomic analysis. We found that not only the notable mRNA splicing genes such as SR, hnRNP, WBP11, Sf3b1, Ptbp1 and U2AF1 but also the scarcely reported mRNA splicing relevant genes such as Rbmxl1, Dhx16, Pcbp2, Pabpc1 were significantly down-regulated. We further verified their gene expressions by qRT-PCR. In addition, we reported the effect of Spliceostatin A (SSA), which inhibits mRNA splicing in vivo and in vitro, on HSPC aging. CONCLUSIONS: It was concluded that mRNA splicing emerged as an important factor for the vulnerability of HSPC aging. This study improved our understanding of the role of mRNA splicing in the HSPC aging process.",
+   "found_by": [],
+   "pubdate": "2021 Nov",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33037085",
+   "title": "PCBP2 Posttranscriptional Modifications Induce Breast Cancer Progression via Upregulation of UFD1 and NT5E.",
+   "abstract": "It is commonly accepted that cellular protein levels are primarily determined by mRNA levels. However, discordance between protein and mRNA expression has been implicated in many pathologic conditions including oncogenesis. The mechanisms involved in this discordance are complicated and far from understood. In this study, it was observed that the expression levels of poly(C) binding protein 2 (PCBP2) mRNA and protein were diametric in breast normal and cancer cell lines, paraffin-embedded and fresh tissue specimens, consistent with data from The Cancer Genome Atlas and the Clinical Proteomic Tumor Analysis Consortium. Moreover, PCBP2 protein expression was significantly associated with disease progression and poor outcome in patients with breast cancer. Depletion of PCBP2 protein inhibited cell proliferation, colony formation, migration, invasion, and in vivo tumor growth and metastasis. Forced expression of PCBP2 exhibited the opposite effect. Mechanistically, it was demonstrated that PCBP2 3' untranslated region (3'UTR) was subject to alternative splicing and polyadenylation (APA) in breast cancer tissues and cell lines. Non-full-length 3'UTR PCBP2 transcripts yielded more protein than the full-length 3'UTR transcripts and enhanced the oncogenic and metastatic capacities of human breast cancer cells. Furthermore, UFD1 and NT5E were identified as genes downstream of PCBP2. PCBP2 promoted oncogenicity of breast cancer cells via upregulation of the expression of UFD1 and NT5E by direct binding to their 3'UTR-B portions. IMPLICATIONS: Findings demonstrate that APA of PCBP2 3'UTR contributes to its increased expression with subsequent promotion of breast cancer progression by regulating UFD1 and NT5E. VISUAL OVERVIEW: http://mcr.aacrjournals.org/content/molcanres/19/1/86/F1.large.jpg.",
+   "found_by": [],
+   "pubdate": "2021 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "41298370",
+   "title": "Pharmacologic inhibition of PCBP2 biomolecular condensates relieves Alzheimer's disease.",
+   "abstract": "Biomolecular condensates, membrane-less assemblies formed by phase separation, are implicated in neurodegenerative disease, but their role in Alzheimer's disease (AD) remains unclear. Here, we report that in the brain of AD patients and animal models, an elevation of poly(C)-binding protein 2 (PCBP2) correlates with biomolecular condensation that involves phase separation. These condensates sequester large numbers of mitochondrial and mRNA-binding proteins, leading to the outside impairment of mitochondrial morphology and function, and BACE1 mRNA decay relative to amyloid deposition. We then identify a small molecule CN-0928 that inhibits the condensates by reducing PCBP2 protein level and mitigates AD pathology and cognitive decline, in which CN-0928 binding to a target protein integrator complex subunit 1 (INTS1) allows to regulate PCBP2 expression. Our findings place PCBP2 condensates as a key player that cooperates the seemingly disparate but important pathways, and show pharmacological modulation of PCBP2 as an effective approach for treating AD.",
+   "found_by": [],
+   "pubdate": "2025 Nov 26",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "22633452",
+   "title": "Iron homeostasis regulates the activity of the microRNA pathway through poly(C)-binding protein 2.",
+   "abstract": "MicroRNAs (miRNAs) control gene expression by promoting degradation or repressing translation of target mRNAs. The components of the miRNA pathway are subject to diverse modifications that can modulate the abundance and function of miRNAs. Iron is essential for fundamental metabolic processes, and its homeostasis is tightly regulated. Here we identified iron chelators as a class of activator of the miRNA pathway that could promote the processing of miRNA precursors. We show that cytosolic iron could regulate the activity of the miRNA pathway through poly(C)-binding protein 2 (PCBP2). PCBP2 is associated with Dicer and promotes the processing of miRNA precursors. Cytosolic iron could modulate the association between PCBP2 and Dicer, as well as the multimerization of PCBP2 and its ability to bind to miRNA precursors, which can alter the processing of miRNA precursors. Our findings reveal a role of iron homeostasis in the regulation of miRNA biogenesis.",
+   "found_by": [],
+   "pubdate": "2012 Jun 6",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "19211566",
+   "title": "Depletion of the poly(C)-binding proteins alphaCP1 and alphaCP2 from K562 cells leads to p53-independent induction of cyclin-dependent kinase inhibitor (CDKN1A) and G1 arrest.",
+   "abstract": "The alpha-globin poly(C)-binding proteins (alphaCPs) comprise an abundant and widely expressed set of K-homolog domain RNA-binding proteins. alphaCPs regulate the expression of a number of cellular and viral mRNAs at the levels of splicing, stability, and translation. Previous surveys have identified 160 mRNAs that are bound by alphaCP in the human hematopoietic cell line, K562. To explore the functions of these alphaCP/mRNA interactions, we identified mRNAs whose levels are altered in K562 cells acutely depleted of the two major alphaCP proteins, alphaCP1 and alphaCP2. Microarray analysis identified 27 mRNAs that are down-regulated and 14 mRNAs that are up-regulated in the alphaCP1/2-co-depleted cells. This alphaCP1/2 co-depletion was also noted to inhibit cell proliferation and trigger a G(1) cell cycle arrest. Targeted analysis of genes involved in cell cycle control revealed a marked increase in p21(WAF) mRNA and protein. Analysis of mRNP complexes in K562 cells demonstrates in vivo association of p21(WAF) mRNA with alphaCP1 and alphaCP2. In vitro binding assays indicate that a 127-nucleotide region of the 3'-untranslated region of p21(WAF) interacts with both alphaCP1 and alphaCP2, and co-depletion of alphaCP1/2 results in a marked increase in p21(WAF) mRNA half-life. p21(WAF) induction and G(1) arrest in the alphaCP1/2-co-depleted cells occur in the absence of p53 and are not observed in cells depleted of the individual alphaCP isoforms. The apparent redundancy in the actions of alphaCP1 and alphaCP2 upon p21(WAF) expression correlates with a parallel redundancy in their effects on cell cycle control. These data reveal a pivotal role for alphaCP1 and alphaCP2 in a p53-independent pathway of p21(WAF) control and cell cycle progression.",
+   "found_by": [],
+   "pubdate": "2009 Apr 3",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "18174314",
+   "title": "Identification of PCBP2, a facilitator of IRES-mediated translation, as a novel constituent of stress granules and processing bodies.",
+   "abstract": "Recent advances in microscopic techniques have shed light on the roles of specific subcellular structures in the regulation of gene expression. One such structure is the stress granule (SG), which is engaged in stress-triggered translational arrest by sequestering pre-initiation complexes of translation. Recent studies revealed the spatial, compositional, and functional linkage of the SG to the processing body (P-body), another cytoplasmic structure that has been implicated in mRNA degradation and siRNA- or miRNA-mediated gene silencing. In this study, we report that PCBP2, a facilitator of IRES (Internal Ribosomal Entry Site)-mediated translation, is a novel constituent of the SG and P-body. Immunofluorescence studies revealed that while PCBP2 is diffusely distributed throughout the nucleoplasm and the cytoplasm, the protein is enriched in a subset of P-bodies under normal conditions. Upon exposure to heat and arsenic stress, PCBP2 became predominantly accumulated at the SG, but was still present in Dcp1a-positive P-bodies. Live-cell imaging revealed the dynamic association of PCBP2-enriched P-bodies and the SG, and FRAP experiments demonstrated that PCBP2 actively moves in and out of the SG and P-body. Taken together, these results suggest that PCBP2 shuttles between the cytoplasm and the two structures under stress. We propose that PCBP2 may be involved in stress-induced remodeling of mRNP complexes and that it may also play a role in the rapid transition of certain silenced mRNAs into a translationally active state. Additionally, given the property of PCBP2 as a nuclear-cytoplasmic shuttling protein, PCBP2 may play a role in directly targeting nascent mRNPs to specific P-bodies for storage.",
+   "found_by": [],
+   "pubdate": "2008 Mar",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "29422543",
+   "title": "Poly(rC) binding protein 2 acts as a negative regulator of IRES-mediated translation of Hr mRNA.",
+   "abstract": "During the hair follicle (HF) cycle, HR protein expression is not concordant with the presence of the Hr mRNA transcript, suggesting an elaborate regulation of Hr gene expression. Here we present evidence that the 5' untranslated region (UTR) of the Hr gene has internal ribosome entry site (IRES) activity and this activity is regulated by the binding of poly (rC) binding protein 2 (PCBP2) to Hr mRNA. Overexpression and knockdown of PCBP2 resulted in a decrease in Hr 5' UTR IRES activity and an increase in HR protein expression without changing mRNA levels. We also found that this regulation was disrupted in a mutant Hr 5' UTR that has a mutation responsible for Marie Unna hereditary hypotrichosis (MUHH) in both mice and humans. These findings suggest that Hr mRNA expression is regulated at the post-transcriptional level via IRES-mediated translation control through interaction with PCPB2, but not in MUHH.",
+   "found_by": [],
+   "pubdate": "2018 Feb 9",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "7607214",
+   "title": "Characterisation of two major cellular poly(rC)-binding human proteins, each containing three K-homologous (KH) domains.",
+   "abstract": "We have revealed and characterised two nucleic-acid-binding proteins, termed PCBP-1 (M(r) 37,525, pI 7.07) and PCBP-2 (M(r) 38,579, pI 6.76), that together with heterogeneous ribonucleoparticle (hnRNP)-K correspond to the major cellular poly(rC)-binding proteins. mRNA for both PCBPs were detected in all the human tissues analysed. Both proteins contain three K-homologous (KH) domains which share similarity with other KH domain proteins, including the fragile-X protein FMR1, and which are positioned as in hnRNP-K and nova, i.e. with two closely spaced domains at the N-terminus and one at the C-terminus. PCBPs do not contain RGG boxes or any other known nucleic-acid-binding motifs. Expression in the vaccinia virus system showed that both proteins are post-translationally modified in vivo, a fact that was confirmed by [32P]orthophosphate labelling. Northwestern-blot analysis showed that the non-phosphorylated forms bind tenaciously to poly(rC) in vitro, while significantly less binding was observed for the phosphorylated variants. Escherichia coli expressed proteins also bound poly(rG), albeit at a lower level. In addition, PCBP-2 bound poly(rU), whereas very little binding to poly(rA) was observed for both proteins.",
+   "found_by": [],
+   "pubdate": "1995 Jun 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35971620",
+   "title": "N4-acetylcytidine regulates the replication and pathogenicity of enterovirus 71.",
+   "abstract": "Chemical modifications are important for RNA function and metabolism. N4-acetylcytidine (ac4C) is critical for the translation and stability of mRNA. Although ac4C is found in RNA viruses, the detailed mechanisms through which ac4C affects viral replication are unclear. Here, we reported that the 5' untranslated region of the enterovirus 71 (EV71) genome was ac4C modified by the host acetyltransferase NAT10. Inhibition of NAT10 and mutation of the ac4C sites within the internal ribosomal entry site (IRES) suppressed EV71 replication. ac4C enhanced viral RNA translation via selective recruitment of PCBP2 to the IRES and boosted RNA stability. Additionally, ac4C increased the binding of RNA-dependent RNA polymerase (3D) to viral RNA. Notably, ac4C-deficient mutant EV71 showed reduced pathogenicity in vivo. Our findings highlighted the essential role of ac4C in EV71 infection and provided insights into potential antiviral treatments.",
+   "found_by": [],
+   "pubdate": "2022 Sep 9",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "9891025",
+   "title": "Regulation of tyrosine hydroxylase mRNA stability by protein-binding, pyrimidine-rich sequence in the 3'-untranslated region.",
+   "abstract": "The stability of mRNA for tyrosine hydroxylase (TH), the rate-limiting enzyme in catecholamine synthesis, is regulated by oxygen tension in the pheochromocytoma-derived PC12 cell line. We previously identified a pyrimidine-rich 27-base-long protein-binding sequence in the 3'-untranslated region of TH mRNA that is associated with hypoxia-inducible formation of a ribonucleoprotein complex (hypoxia-inducible protein-binding site (HIPBS)). In this study, we show that HIPBS is an mRNA stabilizing element necessary for both constitutive and hypoxia-regulated stability of TH mRNA. The mutations within this sequence that abolish protein binding markedly decrease constitutive TH mRNA stability and ablate its hypoxic regulation. A short fragment of TH mRNA that contains the wild-type HIPBS confers the increased mRNA stability to the reporter chloramphenicol acetyltransferase mRNA. However, it is not sufficient to confer hypoxic regulation. The HIPBS element binds two isoforms of a 40-kDa poly(C)-binding protein (PCBP). Hypoxia induces expression of the isoform 1, PCBP1, but not the isoform 2, PCBP2, in PC12 cells.",
+   "found_by": [],
+   "pubdate": "1999 Jan 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41080762",
+   "title": "Non-coding RNAs in congenital heart disease and placental development: Bridging molecular mechanisms to clinical biomarkers and therapies.",
+   "abstract": "Non-coding RNAs (ncRNAs) have emerged as pivotal regulators of gene expression, orchestrating embryonic development and disease pathogenesis. This review synthesizes current knowledge on the origin, biogenesis, and functional diversity of ncRNAs, with a focus on their regulatory crosstalk in congenital heart disease (CHD) and placental development. The fetal heart-placenta axis, a bidirectional signaling network essential for cardiogenesis and placental morphogenesis, is spatiotemporally modulated by ncRNAs through epigenetic and post-transcriptional mechanisms. Through precise regulation of cardiac cell differentiation, angiogenesis, and trophoblast invasion, ncRNAs maintain developmental homeostasis, whereas their dysregulation disrupts these processes, contributing to CHD pathogenesis and positioning them as promising biomarkers. Collectively, this review establishes ncRNAs as molecular bridges between the fetal heart-placenta axis and clinical translation, underscoring their dual utility as diagnostic biomarkers for CHD and modifiable targets to correct placental maldevelopment, thereby advancing precision therapies for congenital disorders. [full text, passages naming PCBP2] ...tes trophoblast cell pyroptosis | Miscarriage | [ | 221 ] Lnc HZ09 | Both | PLD1 | Regulate trophoblast cell migration and invasion and affect the occurrence of miscarriage | RA | [ | 222 ] Lnc DUXAP8 | Both | PCBP2 | Regulate endoplasmic reticulum selective autophagy | PE | [ | 223 ] Lnc DUXAP8 | In vitro | EZH2/SUZ12/LSD1 | Promoted trophoblast cell proliferation, migration and invasion and regulate cell cycle and...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35984151",
+   "title": "Alternative splicing signatures of congenital heart disease and induced pluripotent stem cell-derived cardiomyocytes from congenital heart disease patients.",
+   "abstract": "Congenital heart disease (CHD) is the most serious congenital defect in newborns with higher mortality. Alternative splicing (AS) plays an essential role in numerous heart diseases. However, our understanding of the link between mRNA splicing and CHD in humans is limited. Here, we try to investigate the genome-wide AS events in CHD using bioinformatics methods. We collected available RNA-seq datasets of CHD-induced pluripotent stem cell-cardiomyocytes (iPSC-CMs) (including single ventricle disease [SVD] and tetralogy of Fallot [TOF]) and non-CHD from the Gene Expression Omnibus database. Then, we unprecedentedly performed AS profiles in CHD-iPSC-CMs and non-CHD-iPSC-CMs. The rMAPS was used to generate RNA-maps for the analysis of RNA-binding proteins' (RBPs) binding sites. We used StringTie to identify and quantify the transcripts from aligned RNA-Seq reads. A quantification matrix was generated with respect to different groups by extracting the transcripts per million values from StringTie outputs. Then, this matrix was used for correlation analysis between the expression level of RBP and AS level. Finally, we validated our AS results using RNA-seq data from CHD and non-CHD patient tissue samples. We identified CHD-related AS events using CHD-iPSC-CMs and CHD samples from patients. The results showed that functional enrichment of abnormal AS in SVD and TOF was transcription factor-related. Using rMAPS, RNA-binding proteins which regulated these AS were also determined, and RBP-AS regulatory network was constructed. Overall, we identified abnormal AS in CHD-iPSC-CMs and CHD samples from patients. We predicted AS regulators in SVD and TOF, respectively. At last, we concluded that AS played a key role in the pathogenesis of CHD. [full text, passages naming PCBP2] ...of the FXR2 motif [AGT]GAC[AG][AG][AG] around differential exon skipping events and showed FXR2 motif [AGT]GAC[AG][AG][AG] enrich downstream of the silenced and enhanced exons in SVD (Fig. 23 ] 4 A). Besides, PCBP2 showed the same results. For TOF-iPSC-CMs, the result depicted the spatial distribution of the HuR and TIA1 around differential exon skipping events in TOF-iPSC-CMs (Fig. 4 B), indicating HuR and TIA1 reg... ...ed by rMAPS, and RBP-AS regulation networks were constructed using Cytoscape. [ To validate the relationship calculated by rMAPS, the Spearman test was used to evaluate the correlations between splicing factor PCBP2 and AS events in IRF7 (Fig. 29 ] 4 C and D). Spearman correlation coefficient showed that the results of the theoretical calculation of RBP-AS network were reliable. Figure 4. Results of RNA-maps. (A) RNA... ...P motifs in the vicinity of differential alternative splicing events of TOF-iPSC-CMs. (C) splicing network in CHD-iPSC-CMs constructed by Cytoscape. (D) Correlation between IRF7 expression and the PSI value of PCBP2. CMs = cardiomyocytes, iPSC = induced pluripotent stem cell, PSI = Percentage Splicing Index, RBP = RNA-binding proteins, SVD = single ventricle disease, TOF = tetralogy of Fallot. 3.5. Dynamic AS events...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38556427",
+   "title": "RNA binding proteins in cardiovascular development and disease.",
+   "abstract": "Congenital heart disease (CHD) is the most common birth defect affecting>1.35 million newborn babies worldwide. CHD can lead to prenatal, neonatal, postnatal lethality or life-long cardiac complications. RNA binding protein (RBP) mutations or variants are emerging as contributors to CHDs. RBPs are wizards of gene regulation and are major contributors to mRNA and protein landscape. However, not much is known about RBPs in the developing heart and their contributions to CHD. In this chapter, we will discuss our current knowledge about specific RBPs implicated in CHDs. We are in an exciting era to study RBPs using the currently available and highly successful RNA-based therapies and methodologies. Understanding how RBPs shape the developing heart will unveil their contributions to CHD. Identifying their target RNAs in the embryonic heart will ultimately lead to RNA-based treatments for congenital heart disease. [full text, passages naming PCBP2] ...ar development need further investigations. 31. PCBP1/poly(RC) binding protein1/ hnRNPE1/ heterogeneous nuclear ribonucleoprotein E1 PCBP1 belongs to a family of proteins with KH domains that bind RNA (hnRNPK, PCBP2, PCBP3, and PCBP4) ( Makeyev & Liebhaber, 2002 ). PCBP1 binds single stranded polyC motifs or UC repeats in RNA ( Matunis, Michael, & Dreyfuss, 1992 ). PCBP1 regulates AS, transcription, mRNA stabilizatio... ...RBPs tend to control cytoskeletal/contractile, calcium handling and cell cycle genes, supporting why mutations in these RBPs can impair heart development and function. Recently, multiple RBPs including PCBP3, PCBP2, RBM8A, RBFOX2, eFI4A2, EIF5B are identified in a CHD gene network ( Wang et al., 2022c ). CHD associated RBPs are not exclusively expressed in the heart. Some of these RBPs are not well characterized in...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "36592411": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16001081": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40651437": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41044642": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22951310": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15858019": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38965372": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17609276": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21723381": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10606268": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35488273": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15094196": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35972696": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29335020": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35089637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24796666": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26173455": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8035790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31919425": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17327219": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28666471": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15134450": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21976648": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12867653": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41999843": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41036621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41392552": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32032745": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12972621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32141009": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33037085": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41298370": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22633452": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19211566": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18174314": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29422543": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7607214": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35971620": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9891025": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25717101": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17145707": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20497049": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32647012": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34095140": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25463520": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23946460": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42379276": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19620256": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9326487": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28539455": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41928225": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41080762": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35984151": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38556427": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39273537": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14527359": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26597775": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40773290": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 220,
+   "usd": 0.00722,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "19 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "34 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "3 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 3.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3843,
+   "output_tokens": 160,
+   "usd": 0.004643,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 38.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 18576,
+   "output_tokens": 766,
+   "usd": 0.022406,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.1,
+   "note": "",
+   "input_tokens": 11760,
+   "output_tokens": 992,
+   "usd": 0.0836,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>20</existing>\n    <hypothesized>63</hypothesized>\n    <novel>15</novel>\n  </probabilities>\n  <justification>No article in this set reports PCBP2 variants in CHD probands or families, so an Established call is impossible (no candidate PMIDs exist for causal variant evidence). The strongest link is PMID 35984151, a human bioinformatic study of CHD patient tissue and CHD-iPSC-derived cardiomyocytes in which PCBP2 is predicted as an RNA-binding protein regulating CHD-associated alternative splicing events (e.g., IRF7), which is functional/transcriptomic rather than genetic evidence. PMID 38556427 is a review that merely cites PCBP2 as part of a reported \"CHD gene network,\" a background citation rather than primary variant evidence, which supports at most a modest Existing weight. The remaining papers concern PCBP2 biology in iron homeostasis, miRNA processing, IRES translation, cancer, Alzheimer's, and adipogenesis, providing general mechanistic plausibility (RBP/splicing regulation relevant to cardiogenesis) but no CHD-specific genetic data. Therefore the evidence best fits Hypothesized, with residual probability for Existing and Novel.</justification>\n  <pmids>\n    <pmid>35984151</pmid>\n    <pmid>38556427</pmid>\n    <pmid>41080762</pmid>\n    <pmid>41036621</pmid>\n    <pmid>22633452</pmid>\n    <pmid>12972621</pmid>\n    <pmid>19211566</pmid>\n  </pmids>\n</response>"
+}

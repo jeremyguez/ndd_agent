@@ -1,0 +1,887 @@
+{
+ "gene": "GABRA1",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "EJM5",
+   "gamma-aminobutyric acid type A receptor subunit alpha1"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 93,
+  "titlekicksparingfulltext": 25,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 20,
+   "Existing": 62,
+   "Hypothesized": 16,
+   "Novel": 2
+  },
+  "justification": "Human evidence directly linking GABRA1 variants to ASD exists but is limited: PMID 37434477 describes a single patient with a de novo loss-of-function GABRA1 variant (p.Arg112Gln) presenting with autism spectrum disorder plus refractory epilepsy, and PMID 38256266 reports de novo/qualifying GABRA1 variants in ASD probands from trio whole-genome sequencing (though classified as a second-tier, not primary, ASD gene). Reviews (PMIDs 41625255, 35718920) note GABRA1 de novo missense variants in patients with ASD co-occurring with epilepsy/ID, but these largely restate the association as background rather than provide new primary proband data. Candidate-gene association studies that explicitly tested GABRA1 SNPs were negative for GABRA1 itself (PMIDs 16080114, 24249596), with signals attributed to GABRA4/GABRB3/GABRD. GABRA1 is, however, firmly established in epileptic encephalopathy/Dravet-spectrum neurodevelopmental disorders (PMIDs 24623842, 23934111, 31618474), phenotypes strongly linked to ASD, supporting \"Existing\" rather than \"Established\", since independent, well-powered ASD-specific proband replication isolating GABRA1 is not yet demonstrated.",
+  "pmids": [],
+  "detail": {
+   "Established": 20,
+   "Existing": 62,
+   "Hypothesized": 16,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "23934111",
+   "title": "De novo mutations in epileptic encephalopathies.",
+   "abstract": "Epileptic encephalopathies are a devastating group of severe childhood epilepsy disorders for which the cause is often unknown. Here we report a screen for de novo mutations in patients with two classical epileptic encephalopathies: infantile spasms (n = 149) and Lennox-Gastaut syndrome (n = 115). We sequenced the exomes of 264 probands, and their parents, and confirmed 329 de novo mutations. A likelihood analysis showed a significant excess of de novo mutations in the \u223c4,000 genes that are the most intolerant to functional genetic variation in the human population (P = 2.9\u2009\u00d7\u200910(-3)). Among these are GABRB3, with de novo mutations in four patients, and ALG13, with the same de novo mutation in two patients; both genes show clear statistical evidence of association with epileptic encephalopathy. Given the relevant site-specific mutation rates, the probabilities of these outcomes occurring by chance are P = 4.1\u2009\u00d7\u200910(-10) and P = 7.8\u2009\u00d7\u200910(-12), respectively. Other genes with de novo mutations in this cohort include CACNA1A, CHD2, FLNA, GABRA1, GRIN1, GRIN2B, HNRNPU, IQSEC2, MTOR and NEDD4L. Finally, we show that the de novo mutations observed are enriched in specific gene sets including genes regulated by the fragile X protein (P\u2009<\u200910(-8)), as has been reported previously for autism spectrum disorders.",
+   "found_by": [],
+   "pubdate": "2013 Sep 12",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37434477",
+   "title": "Vinpocetine improved neuropsychiatric and epileptic outcomes in a patient with a GABRA1 loss-of-function variant.",
+   "abstract": "Vinpocetine is a synthetic derivative of the alkaloid vincamine and has been used as a dietary supplement for decades. Following a positive report of the use of vinpocetine in a patient with a loss-of-function GABRB3 variant, we here describe another patient with a loss-of-function GABRA1 variant (p.(Arg112Gln)) who benefited from vinpocetine treatment. This patient was diagnosed with autism spectrum disorder, psychiatric complications, and therapy-resistant focal epilepsy. Upon add-on treatment with 40\u2009mg vinpocetine daily for 16\u2009months, the patient experienced an overall improved quality of life as well as seizure freedom. Our findings corroborate that vinpocetine can attenuate epilepsy-associated behavioral issues in patients with loss-of-function GABAA receptor gene variants.",
+   "found_by": [],
+   "pubdate": "2023 Aug",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "31653223",
+   "title": "Dissecting the genetic basis of comorbid epilepsy phenotypes in neurodevelopmental disorders.",
+   "abstract": "BACKGROUND: Neurodevelopmental disorders (NDDs) such as autism spectrum disorder, intellectual disability, developmental disability, and epilepsy are characterized by abnormal brain development that may affect cognition, learning, behavior, and motor skills. High co-occurrence (comorbidity) of NDDs indicates a shared, underlying biological mechanism. The genetic heterogeneity and overlap observed in NDDs make it difficult to identify the genetic causes of specific clinical symptoms, such as seizures. METHODS: We present a computational method, MAGI-S, to discover modules or groups of highly connected genes that together potentially perform a similar biological function. MAGI-S integrates protein-protein interaction and co-expression networks to form modules centered around the selection of a single \"seed\" gene, yielding modules consisting of genes that are highly co-expressed with the seed gene. We aim to dissect the epilepsy phenotype from a general NDD phenotype by providing MAGI-S with high confidence NDD seed genes with varying degrees of association with epilepsy, and we assess the enrichment of de novo mutation, NDD-associated genes, and relevant biological function of constructed modules. RESULTS: The newly identified modules account for the increased rate of de novo non-synonymous mutations in autism, intellectual disability, developmental disability, and epilepsy, and enrichment of copy number variations (CNVs) in developmental disability. We also observed that modules seeded with genes strongly associated with epilepsy tend to have a higher association with epilepsy phenotypes than modules seeded at other neurodevelopmental disorder genes. Modules seeded with genes strongly associated with epilepsy (e.g., SCN1A, GABRA1, and KCNB1) are significantly associated with synaptic transmission, long-term potentiation, and calcium signaling pathways. On the other hand, modules found with seed genes that are not associated or weakly associated with epilepsy are mostly involved with RNA regulation and chromatin remodeling. CONCLUSIONS: In summary, our method identifies modules enriched with de novo non-synonymous mutations and can capture specific networks that underlie the epilepsy phenotype and display distinct enrichment in relevant biological processes. MAGI-S is available at https://github.com/jchow32/magi-s .",
+   "found_by": [],
+   "pubdate": "2019 Oct 25",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "24249596",
+   "title": "Evidence for interaction between markers in GABA(A) receptor subunit genes in an Argentinean autism spectrum disorder population.",
+   "abstract": "Autism spectrum disorders (ASD) can be conceptualized as a genetic dysfunction that disrupts development and function of brain circuits mediating social cognition and language. At least some forms of ASD may be associated with high level of excitation in neural circuits, and gamma-aminobutyric acid (GABA) has been implicated in its etiology. Single-nucleotide polymorphisms (SNP) located within the GABA receptor (GABAR) subunit genes GABRA1, GABRG2, GABRB3, and GABRD were screened. A hundred and thirty-six Argentinean ASD patients and 150 controls were studied, and the contribution of the SNPs in the etiology of ASD was evaluated independently and/or through gene-gene interaction using multifactor dimensionality reduction (MDR) method. From the 18 SNP studied, 11 were not present in our Argentinean population (patients and controls) and 1 SNP had minor allele frequency < 0.1%. For the remaining six SNPs, none provided statistical significant association with ASD when considering allelic or genotypic frequencies. Non-significant association with ASD was found for the haplotype analysis. MDR identified evidence for synergy between markers in GABRB3 (chromosome 15) and GABRD (chromosome 1), suggesting potential gene-gene interaction across chromosomes associated with increased risk for autism (testing balanced accuracy: 0.6081 and cross-validation consistency: 10/10, P < 0.001). Considering our Argentinean ASD sample, it can be inferred that GABRB3 would be involved in the etiology of autism through interaction with GABRD. These results support the hypothesis that GABAR subunit genes are involved in autism, most likely via complex gene-gene interactions.",
+   "found_by": [],
+   "pubdate": "2014 Feb",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41726570",
+   "title": "Genetic Risk Factors for Epilepsy: From Familial Studies to Gene Discoveries and Polygenic Risk Scores, Strides Toward Unlocking an Age-Old Question in Epilepsy.",
+   "abstract": "Article 1: Epileptic encephalopathies are a devastating group of severe childhood epilepsy disorders for which the cause is often unknown. Here, we report a screen for de novo mutations in patients with 2 classical epileptic encephalopathies: infantile spasms (n\u2009=\u2009149) and Lennox-Gastaut syndrome (n\u2009=\u2009115). We sequenced the exomes of 264 probands, and their parents, and confirmed 329 de novo mutations. A likelihood analysis showed a significant excess of de novo mutations in the \u223c4000 genes that are the most intolerant to functional genetic variation in the human population (P\u2009=\u20092.9\u2009\u00d7\u200910(-3)). Among these are GABRB3, with de novo mutations in 4 patients, and ALG13, with the same de novo mutation in 2 patients; both genes show clear statistical evidence of association with epileptic encephalopathy. Given the relevant site-specific mutation rates, the probabilities of these outcomes occurring by chance are P\u2009=\u20094.1\u2009\u00d7\u200910(-10) and P\u2009=\u20097.8\u2009\u00d7\u200910(-12), respectively. Other genes with de novo mutations in this cohort include CACNA1A, CHD2, FLNA, GABRA1, GRIN1, GRIN2B, HNRNPU, IQSEC2, MTOR, and NEDD4L. Finally, we show that the de novo mutations observed are enriched in specific gene sets including genes regulated by the fragile X protein (P\u2009<\u200910(-8)), as has been reported previously for autism spectrum disorders. Article 2: Identifying genetic risk factors for highly heterogeneous disorders such as epilepsy remains challenging. Here, we present, to our knowledge, the largest whole-exome sequencing study of epilepsy to date, with more than 54,000 human exomes, comprising 20,979 deeply phenotyped patients from multiple genetic ancestry groups with diverse epilepsy subtypes and 33,444 controls, to investigate rare variants that confer disease risk. These analyses implicate 7 individual genes, 3 gene sets and 4 copy number variants at exome-wide significance. Genes encoding ion channels show strong association with multiple epilepsy subtypes, including epileptic encephalopathies and generalized and focal epilepsies, whereas most other gene discoveries are subtype specific, highlighting distinct genetic contributions to different epilepsies. Combining results from rare single-nucleotide/short insertion and deletion variants, copy number variants and common variants, we offer an expanded view of the genetic architecture of epilepsy, with growing evidence of convergence among different genetic risk loci on the same genes. Top candidate genes are enriched for roles in synaptic transmission and neuronal excitability, particularly postnatally and in the neocortex. We also identify shared rare variant risk between epilepsy and other neurodevelopmental disorders. Our data can be accessed via an interactive browser, hopefully facilitating diagnostic efforts and accelerating the development of follow-up studies. Article 3: Background: The epilepsies are highly heritable conditions that commonly follow complex inheritance. While monogenic causes have been identified in rare familial epilepsies, most familial epilepsies remain unsolved. We aimed to determine (1) whether common genetic variation contributes to familial epilepsy risk, and (2) whether that genetic risk is enriched in familial compared with nonfamilial (sporadic) epilepsies. Methods: Using common variants derived from the largest epilepsy genome-wide association study, we calculated polygenic risk scores (PRS) for patients with familial epilepsy (n\u2009=\u20091818 from 1181 families), their unaffected relatives (n\u2009=\u2009771), sporadic patients (n\u2009=\u20091182), and population controls (n\u2009=\u200915,929). We also calculated separate PRS for genetic generalized epilepsy (GGE) and focal epilepsy. Statistical analyses used mixed-effects regression models to account for familial relatedness, sex, and ancestry. Findings: Patients with familial epilepsies had higher epilepsy PRS compared to population controls (OR 1\u00b720, padj = 5\u2009\u00d7\u200910-9), sporadic patients (OR 1\u00b711, padj = 0.008), and their own unaffected relatives (OR 1\u00b712, padj = 0.01). The top 1% of the PRS distribution was enriched 3.8-fold for individuals with familial epilepsy when compared to the lowest decile (padj = 5\u2009\u00d7\u200910-11). Familial PRS enrichment was consistent across epilepsy type; overall, polygenic risk was greatest for the GGE clinical group. There was no significant PRS difference in familial cases with established rare variant genetic etiologies compared to unsolved familial cases. Interpretation: The aggregate effects of common genetic variants, measured as PRS, play an important role in explaining why some families develop epilepsy, why specific family members are affected while their relatives are not, and why families manifest specific epilepsy types. Polygenic risk contributes to the complex inheritance of the epilepsies, including in individuals with a known genetic etiology.",
+   "found_by": [],
+   "pubdate": "2026 Feb 19",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "16080114",
+   "title": "Identification of significant association and gene-gene interaction of GABA receptor subunit genes in autism.",
+   "abstract": "Autism is a common neurodevelopmental disorder with a significant genetic component. Existing research suggests that multiple genes contribute to autism and that epigenetic effects or gene-gene interactions are likely contributors to autism risk. However, these effects have not yet been identified. Gamma-aminobutyric acid (GABA), the primary inhibitory neurotransmitter in the adult brain, has been implicated in autism etiology. Fourteen known autosomal GABA receptor subunit genes were studied to look for the genes associated with autism and their possible interactions. Single-nucleotide polymorphisms (SNPs) were screened in the following genes: GABRG1, GABRA2, GABRA4, and GABRB1 on chromosome 4p12; GABRB2, GABRA6, GABRA1, GABRG2, and GABRP on 5q34-q35.1; GABRR1 and GABRR2 on 6q15; and GABRA5, GABRB3, and GABRG3 on 15q12. Intronic and/or silent mutation SNPs within each gene were analyzed in 470 white families with autism. Initially, SNPs were used in a family-based study for allelic association analysis--with the pedigree disequilibrium test and the family-based association test--and for genotypic and haplotypic association analysis--with the genotype-pedigree disequilibrium test (geno-PDT), the association in the presence of linkage (APL) test, and the haplotype family-based association test. Next, with the use of five refined independent marker sets, extended multifactor-dimensionality reduction (EMDR) analysis was employed to identify the models with locus joint effects, and interaction was further verified by conditional logistic regression. Significant allelic association was found for markers RS1912960 (in GABRA4; P = .01) and HCV9866022 (in GABRR2; P = .04). The geno-PDT found significant genotypic association for HCV8262334 (in GABRA2), RS1912960 and RS2280073 (in GABRA4), and RS2617503 and RS12187676 (in GABRB2). Consistent with the allelic and genotypic association results, EMDR confirmed the main effect at RS1912960 (in GABRA4). EMDR also identified a significant two-locus gene-gene effect model involving RS1912960 in GABRA4 and RS2351299 in GABRB1. Further support for this two-locus model came from both the multilocus geno-PDT and the APL test, which indicated a common genotype and haplotype combination positively associated with disease. Finally, these results were also consistent with the results from the conditional logistic regression, which confirmed the interaction between GABRA4 and GABRB1 (odds ratio = 2.9 for interaction term; P = .002). Through the convergence of all analyses, we conclude that GABRA4 is involved in the etiology of autism and potentially increases autism risk through interaction with GABRB1. These results support the hypothesis that GABA receptor subunit genes are involved in autism, most likely via complex gene-gene interactions.",
+   "found_by": [],
+   "pubdate": "2005 Sep",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "25124326",
+   "title": "A novel variant in GABRB2 associated with intellectual disability and epilepsy.",
+   "abstract": "The \u03b3-aminobutyric acid type A (GABAA ) receptor is one of the three main classes of receptors activated by GABA, the principal inhibitory neurotransmitter in the central nervous system. Mutations in genes encoding various subunits of this receptor (GABRA1, GABRA2, GABRA4, GABRA5, GABRA6, GABRB1, GABRB3, GABRG1, GABRG2, GABRG3, and GABRD) are implicated in a number of neurological and developmental disorders, including epilepsy and autism. To date, no human genetics studies have implicated mutations in GABRB2, encoding the \u03b22 subunit of the GABAA receptor, with neurodevelopmental disorders. Here we present a 12-year-old girl with intellectual disability and epilepsy, who was discovered by whole exome sequencing to have a de novo heterozygous missense variant in exon 4 of GABRB2 (c.236T>C; p.M79T). This variant is likely pathogenic, based on in silico analyses, as well as the fact that it results in the non-conservative substitution of a non-polar amino acid with a polar amino acid at a position that is evolutionarily conserved across multiple species. Our findings underscore the need for further investigation into the mechanisms by which mutations in GABRB2 contribute to neurological and developmental dysfunction.",
+   "found_by": [],
+   "pubdate": "2014 Nov",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "24623842",
+   "title": "GABRA1 and STXBP1: novel genetic causes of Dravet syndrome.",
+   "abstract": "OBJECTIVE: To determine the genes underlying Dravet syndrome in patients who do not have an SCN1A mutation on routine testing. METHODS: We performed whole-exome sequencing in 13 SCN1A-negative patients with Dravet syndrome and targeted resequencing in 67 additional patients to identify new genes for this disorder. RESULTS: We detected disease-causing mutations in 2 novel genes for Dravet syndrome, with mutations in GABRA1 in 4 cases and STXBP1 in 3. Furthermore, we identified 3 patients with previously undetected SCN1A mutations, suggesting that SCN1A mutations occur in even more than the currently accepted \u223c 75% of cases. CONCLUSIONS: We show that GABRA1 and STXBP1 make a significant contribution to Dravet syndrome after SCN1A abnormalities have been excluded. Our results have important implications for diagnostic testing, clinical management, and genetic counseling of patients with this devastating disorder and their families.",
+   "found_by": [],
+   "pubdate": "2014 Apr 8",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30977854",
+   "title": "Use of a Dynamic Genetic Testing Approach for Childhood-Onset Epilepsy.",
+   "abstract": "IMPORTANCE: Although genetic testing is important for bringing precision medicine to children with epilepsy, it is unclear what genetic testing strategy is best in maximizing diagnostic yield. OBJECTIVES: To evaluate the diagnostic yield of an exome-based gene panel for childhood epilepsy and discuss the value of follow-up testing. DESIGN, SETTING, AND PARTICIPANTS: A case series study was conducted on data from clinical genetic testing at Children's Hospital of Philadelphia was conducted from September 26, 2016, to January 8, 2018. Initial testing targeted 100 curated epilepsy genes for sequence and copy number analysis in 151 children with idiopathic epilepsy referred consecutively by neurologists. Additional genetic testing options were offered afterward. EXPOSURES: Clinical genetic testing. MAIN OUTCOMES AND MEASURES: Molecular diagnostic findings. RESULTS: Of 151 patients (84 boys [55.6%]; median age, 4.2 years [interquartile range, 1.4-8.7 years]), 16 children (10.6%; 95% CI, 6%-16%) received a diagnosis after initial panel analysis. Parental testing for 15 probands with inconclusive results revealed de novo variants in 7 individuals (46.7%), resulting in an overall diagnostic yield of 15.3% (23 of 151; 95% CI, 9%-21%). Twelve probands with nondiagnostic panel findings were reflexed to exome sequencing, and 4 were diagnostic (33.3%; 95% CI, 6%-61%), raising the overall diagnostic yield to 17.9% (27 of 151; 95% CI, 12%-24%). The yield was highest (17 of 44 [38.6%; 95% CI, 24%-53%]) among probands with epilepsy onset in infancy (age, 1-12 months). Panel diagnostic findings involved 16 genes: SCN1A (n\u2009=\u20094), PRRT2 (n\u2009=\u20093), STXBP1 (n\u2009=\u20092), IQSEC2 (n\u2009=\u20092), ATP1A2, ATP1A3, CACNA1A, GABRA1, KCNQ2, KCNT1, SCN2A, SCN8A, DEPDC5, TPP1, PCDH19, and UBE3A (all n\u2009=\u20091). Exome sequencing analysis identified 4 genes: SMC1A, SETBP1, NR2F1, and TRIT1. For the remaining 124 patients, analysis of 13 additional genes implicated in epilepsy since the panel was launched in 2016 revealed promising findings in 6 patients. CONCLUSIONS AND RELEVANCE: Exome-based targeted panels appear to enable rapid analysis of a preselected set of genes while retaining flexibility in gene content. Successive genetic workup should include parental testing of select probands with inconclusive results and reflex to whole-exome trio analysis for the remaining nondiagnostic cases. Periodic reanalysis is needed to capture information in newly identified disease genes.",
+   "found_by": [],
+   "pubdate": "2019 Apr 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29655203",
+   "title": "Diagnostic outcomes for genetic testing of 70 genes in 8565 patients with epilepsy and neurodevelopmental disorders.",
+   "abstract": "OBJECTIVE: We evaluated >8500 consecutive, unselected patients with epilepsy and neurodevelopmental disorders who underwent multigene panel testing to determine the average age at molecular diagnosis and diagnostic yield of 70 genes. METHODS: We reviewed molecular test results for 70 genes known to cause epilepsy and neurodevelopmental disorders using next generation sequencing (NGS) and exon-level array comparative genomic hybridization (aCGH). A positive result was defined as the presence of 1 or 2 pathogenic or likely pathogenic (P/LP) variants in a single gene, depending on the mode of inheritance of the associated disorder. RESULTS: Overall, 22 genes were found to have a high yield of positive findings by genetic testing, with SCN1A and KCNQ2 accounting for the greatest number of positive findings. In contrast, there were no positive findings in 16 genes. Most of the P/LP variants were sequence changes identified by NGS (90.9%), whereas ~9% were gross deletions or duplications detected by exon-level aCGH. The mean age of molecular diagnosis for the cohort was 5 years, 8 months (ranging from 1 week to 47 years). Recurrent P/LP variants were observed in 14 distinct genes, most commonly in MECP2, KCNQ2, SCN1A, SCN2A, STXBP1, and PRRT2. Parental testing was performed in >30% of positive cases. All variants identified in CDKL5, STXBP1, SCN8A, GABRA1, and FOXG1 were de novo, whereas 85.7% of variants in PRRT2 were inherited. SIGNIFICANCE: Using a combined approach of NGS and exon-level aCGH, testing identified a genetic etiology in 15.4% of patients in this cohort and revealed the age at molecular diagnosis for patients. Our study highlights both high- and low-yield genes associated with epilepsy and neurodevelopmental disorders, indicating which genes may be considered for molecular diagnostic testing.",
+   "found_by": [],
+   "pubdate": "2018 May",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31618474",
+   "title": "The Genetic Landscape of Epilepsy of Infancy with Migrating Focal Seizures.",
+   "abstract": "OBJECTIVE: Epilepsy of infancy with migrating focal seizures (EIMFS) is one of the most severe developmental and epileptic encephalopathies. We delineate the genetic causes and genotype-phenotype correlations of a large EIMFS cohort. METHODS: Phenotypic and molecular data were analyzed on patients recruited through an international collaborative study. RESULTS: We ascertained 135 patients from 128 unrelated families. Ninety-three of 135 (69%) had causative variants (42/55 previously reported) across 23 genes, including 9 novel EIMFS genes: de novo dominant GABRA1, GABRB1, ATP1A3; X-linked CDKL5, PIGA; and recessive ITPA, AIMP1, KARS, WWOX. The most frequently implicated genes were KCNT1 (36/135, 27%) and SCN2A (10/135, 7%). Mosaicism occurred in 2 probands (SCN2A, GABRB3) and 3 unaffected mothers (KCNT1). Median age at seizure onset was 4\u2009weeks, with earlier onset in the SCN2A, KCNQ2, and BRAT1 groups. Epileptic spasms occurred in 22% patients. A total of 127 patients had severe to profound developmental impairment. All but 7 patients had ongoing seizures. Additional features included microcephaly, movement disorders, spasticity, and scoliosis. Mortality occurred in 33% at median age 2\u2009years 7 months. INTERPRETATION: We identified a genetic cause in 69% of patients with EIMFS. We highlight the genetic heterogeneity of EIMFS with 9 newly implicated genes, bringing the total number to 33. Mosaicism was observed in probands and parents, carrying critical implications for recurrence risk. EIMFS pathophysiology involves diverse molecular processes from gene and protein regulation to ion channel function and solute trafficking. ANN NEUROL 2019;86:821-831.",
+   "found_by": [],
+   "pubdate": "2019 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "23756480",
+   "title": "The quest for juvenile myoclonic epilepsy genes.",
+   "abstract": "Introduced into a specific population, a juvenile myoclonic epilepsy (JME) mutation generates linkage disequilibrium (LD). Linkage disequilibrium is strongest when the JME mutation is of recent origin, still \"hitchhiking\" alleles surrounding it, as a haplotype into the next thousands of generations. Recombinations decay LD over tens of thousands of generations causing JME alleles to produce smaller genetic displacements, requiring other genes or environment to produce an epilepsy phenotype. Family-based linkage analysis captures rare epilepsy alleles and their \"hitchhiking\" haplotypes, transmitted as Mendelian traits, supporting the common disease/multiple rare allele model. Genome-wide association studies identify JME alleles whose linkage disequilibrium has decayed through thousands of generations and are sorting out the common disease/common allele versus rare allele models. Five Mendelian JME genes have been identified, namely, CACNB4, CASR, GABRa1, GABRD, and Myoclonin1/EFHC1. Three SNP alleles in BRD2, Cx-36, and ME2 and microdeletions in 15q13.3, 15q11.2, and 16p13.11 also contribute risk to JME.",
+   "found_by": [],
+   "pubdate": "2013 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "21704126",
+   "title": "Mutation screening of three Chinese families with genetic epilepsy with febrile seizures plus.",
+   "abstract": "Genetic epilepsy with febrile seizures plus (GEFS+) is a familial autosomal dominant condition characterized by genetic heterogeneity. Five genes for GEFS+ identified in large families account for only a small proportion of families. Mutation in the majority of families with GEFS+ has not identified yet. The aim of our study is to search for the gene responsible for GEFS+ in three Chinese families by linkage analyses and a sequencing approach and to investigate the importance of coding and noncoding regions variations of four known GEFS+ genes (SCN1A, SCN1B, GABRG2 and SCN2A) in Chinese families. Results showed that a 6-cM candidate interval at 5q33-34 with a maximum LOD scores of 2.043 was identified in families B. Sequencing candidate gene GABRG2 and GABRA1 in this region did not identify a causative mutation. Moreover, no mutation was found in coding and noncoding regions of the four genes in three Chinese families. Besides excluding coding regions of four known GEFS+ genes, we also excluded the possibility of a mutation in the promoter, exon-intron boundaries, 5' untranslated regions (5' UTRs), and 3' UTRs of four known GEFS+ genes in three Chinese families. In conclusion, the present study demonstrates the heterogeneity of the etiologies of GEFS+. There are as yet undiscovered mechanisms underlying GEFS+.",
+   "found_by": [],
+   "pubdate": "2011 Aug 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35718920",
+   "title": "Molecular and clinical descriptions of patients with GABA(A) receptor gene variants (GABRA1, GABRB2, GABRB3, GABRG2): A cohort study, review of literature, and genotype-phenotype correlation.",
+   "abstract": "OBJECTIVE: \u03b3-Aminobutyric acid (GABA)A -receptor subunit variants have recently been associated with neurodevelopmental disorders and/or epilepsy. The phenotype linked with each gene is becoming better known. Because of the common molecular structure and physiological role of these phenotypes, it seemed interesting to describe a putative phenotype associated with GABAA -receptor-related disorders as a whole and seek possible genotype-phenotype correlations. METHODS: We collected clinical, electrophysiological, therapeutic, and molecular data from patients with GABAA -receptor subunit variants (GABRA1, GABRB2, GABRB3, and GABRG2) through a national French collaboration using the EPIGENE network and compared these data to the one already described in the literature. RESULTS: We gathered the reported patients in three epileptic phenotypes: 15 patients with fever-related epilepsy (40%), 11 with early developmental epileptic encephalopathy (30%), 10 with generalized epilepsy spectrum (27%), and 1 patient without seizures (3%). We did not find a specific phenotype for any gene, but we showed that the location of variants on the transmembrane (TM) segment was associated with a more severe phenotype, irrespective of the GABAA -receptor subunit gene, whereas N-terminal variants seemed to be related to milder phenotypes. SIGNIFICANCE: GABAA -receptor subunit variants are associated with highly variable phenotypes despite their molecular and physiological proximity. None of the genes described here was associated with a specific phenotype. On the other hand, it appears that the location of the variant on the protein may be a marker of severity. Variant location may have important weight in the development of targeted therapeutics.",
+   "found_by": [],
+   "pubdate": "2022 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming GABRA1] ...AH14 , DNMT3A , DOC2A , DPP6 , DPYD , DPYSL2 , DSCAM , DYNC1H1 , DYRK1A , DZANK1 , EBF3 , EEF1A2 , EFCAB12 , EHMT1 , EIF3G , EIF3H , EIF4E , ELAVL3 , ENC1 , EPOR , ERI1 , FBN1 , FOXP1 , FOXP2 , FUBP3 , G3BP1 , GABRA1 , GABRB2 , GABRB3 , GABRG1 , GABRR2 , GFAP , GIGYF1 , GMIP , GML , GNAI1 , GPR179 , GRIA2 , GRIN2B , GTF2I , HAX1 , HCN1 , HCN2 , HCN4 , HDLBP , HECTD4 , HIRIP3 , HMGXB4 , HNRNPD , HNRNPUL2 , HYDIN , INT...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41977462",
+   "title": "Unraveling the Genetic and Molecular Architecture of Autism Spectrum Disorder: Implications for Clinical Genetics and Genomic Diagnostics.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental condition that occurs in early childhood, characterized by a broad range of clinical manifestations and impairments in social communication. It represents one of the most prevalent neurodevelopmental disorders, affecting approximately 1% of the general population. The phenotypic heterogeneity of ASD arises from different genetic causes, including chromosomal abnormalities, copy number variants (CNVs), and single-nucleotide variants (SNVs), which may occur as de novo or inherited events. Moreover, the polygenic and multifactorial nature of ASD, together with epigenetic regulation and environmental influences, contributes substantially to its complex genetic architecture. Molecular diagnosis remains challenging and relies on multiple genomic approaches, such as array comparative genomic hybridization (array-CGH), whole-exome sequencing (WES), and whole-genome sequencing (WGS); however, the diagnostic yields of these methods remain limited, reflecting the complexity of ASD's genetic architecture. Notably, ASD-associated genes converge on key biological pathways, particularly those involved in transcriptional regulation, chromatin remodeling, synaptic function, and neuronal signaling. These include well-established risk genes such as CHD8, ADNP, ARID1B, SHANK3, SYNGAP1, SCN2A, GRIN2B, FOXP1, and DYRK1A, among others. This review summarizes the current knowledge on the genetic basis of ASD, highlighting key aspects of its complex genetic architecture. By integrating evidence from major clinical and research databases, it provides a clearer understanding of the underlying mechanisms, supporting improved diagnosis and future research and therapeutic strategies. [full text, passages naming GABRA1] ...s affecting both the glutamatergic and GABAergic systems, as well as genes operating at their interface. Variants in glutamatergic genes, such as GRIN2B , GRIA , and SLC17A7 , and in GABAergic genes, including GABRA1 , GABRB3 , GAD1/2 , and SLC6A1 , have been repeatedly implicated in ASD and related neurodevelopmental phenotypes. For instance, genetic variants in GRIN2B have been associated with a broad spectrum of n...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41523331",
+   "title": "Excitatory/Inhibitory balance in autism spectrum disorders: Integrating genetic, neurotransmitter and computational perspectives.",
+   "abstract": "Computational modeling of excitatory/inhibitory (E/I) balance offers transformative insights into the neurobiological underpinnings of autism spectrum disorder (ASD). In this review, we examined the integration of neurotransmitter dynamics and genetic factors into multiscale computational frameworks to elucidate the mechanisms driving E/I dysregulation in ASD. We explored the pivotal roles of glutamate and GABA, the primary excitatory and inhibitory neurotransmitters, and the modulatory impact of serotonin and dopamine (DA), in shaping neural circuit stability, behavioral outcomes, and ASD core symptoms. Genetic mutations affecting synaptic proteins such as SHANK3, GRIN2A, and GABRB3 were highlighted for their capacity to disturb synaptic scaffolding and glutamatergic and GABAergic signaling, thereby shifting the E/I ratio. Computational approaches, ranging from detailed neuronal simulations to neural mass and spiking network models, captured the heterogeneous manifestations of E/I imbalance and aligned with molecular, neuroimaging, and electrophysiological findings in ASD. We discussed how these models informed individualized diagnostic strategies, enabled prediction of treatment responses, and offered targets for precision medicine. Major challenges included methodological inconsistencies, neurochemical measurement discrepancies, polygenic interactions, and the translation of model predictions into clinical practice. We concluded that the integration of neurotransmitter and genetic data within advanced computational models represents a significant advance toward unraveling ASD pathophysiology, with the promise of developing dynamic, personalized interventions. Ongoing efforts should emphasize longitudinal data, multiomic integration, sex-specific trajectories, and cross-disciplinary collaboration to further the clinical applicability and translational potential of computational E/I balance modeling in autism research. [full text, passages naming GABRA1] ...oms and cortical thickness impairments [78] . Mechanistically, in animal models, genetic perturbations exacerbate E/I imbalance through multiple pathways: Valproate models in rats exhibit the downregulation of Gabra1 and Gabrb3 as well as the upregulation of NMDA receptor subunits in the hippocampus [97] . Shank3 knockout mice exhibit reduced GABA receptor densities in thalamocortical circuits [98] . Developmental de... ...and elevated glutamatergic (excitatory) activity. The depicted E/I imbalance is mechanistically traced to essential molecular and genetic defects, including: 1) downregulation of GABA receptor subunits such as Gabra1 and Gabrb3, resulting in decreased inhibitory tone; 2) insufficient levels of the synaptic scaffolding protein SHANK3, leading to disrupted synaptic integrity; and 3) alterations in NMDA receptor functio... ...n stroke and traumatic brain injury. NMDA receptor dysfunction is implicated in the pathophysiology of schizophrenia. Glutamatergic dysfunction can affect the brain's E/I balance. | | [168] \u2013 [172] GABAergic | GABRA1\u20136, GABRB1\u20133, GABRG1\u20133 (GABAA receptors), GABBR1\u20132 (GABAB receptors), GAD1/2, SLC6A1 (GAT1) | GABAA and GABAB receptors mediate inhibitory neurotransmission; GAD1/2 are involved in GABA synthesis; GAT1 re...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41210134",
+   "title": "A comprehensive review of GABA in autism spectrum disorders: associations, mechanisms, and therapeutic implications.",
+   "abstract": "The etiology and pathogenesis of Autism Spectrum Disorder (ASD) are not yet clear. Gamma-aminobutyric acid (GABA), as an inhibitory neurotransmitter in the brain, is closely related to the pathogenesis of ASD. Animal models and clinical studies of ASD suggest that abnormalities in GABAergic neurons, signaling pathways, and related genes may play an important role in the pathogenesis of ASD, leading to abnormal levels of GABA in the blood and brain tissue of individuals with ASD. Additionally, GABAergic drugs have shown potential to improve ASD symptoms in animal models, but their efficacy and safety in clinical use still need further research. Therefore, this article reviews the relationship between GABA and ASD, as well as the related research on GABA levels and drug treatment, to further explore the pathogenesis of ASD and provide a theoretical basis for the diagnosis and treatment. [full text, passages naming GABRA1] ...revealed that GABA levels in the cerebellum decreased by 50% overall, with a reduction in the number of GABAergic Purkinje cells in the cerebellar cortex. Significant decreases were observed in GABBR1, GABBR2, GABRA1, and GABRB3. In the parietal cortex, GABRA1, GABRA2, GABAR3, and GABRB3 were significantly reduced, and in the frontal cortex, GABRA1 was significantly decreased ( 122 \u2013 124 ). In the hippocampal region,... ...decreased by 50% overall, with a reduction in the number of GABAergic Purkinje cells in the cerebellar cortex. Significant decreases were observed in GABBR1, GABBR2, GABRA1, and GABRB3. In the parietal cortex, GABRA1, GABRA2, GABAR3, and GABRB3 were significantly reduced, and in the frontal cortex, GABRA1 was significantly decreased ( 122 \u2013 124 ). In the hippocampal region, the density of GABAA receptors is also decr... ...e cerebellar cortex. Significant decreases were observed in GABBR1, GABBR2, GABRA1, and GABRB3. In the parietal cortex, GABRA1, GABRA2, GABAR3, and GABRB3 were significantly reduced, and in the frontal cortex, GABRA1 was significantly decreased ( 122 \u2013 124 ). In the hippocampal region, the density of GABAA receptors is also decreased. The cingulate cortex, a region crucial for social interaction and communication, ex...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38256266",
+   "title": "Reanalysis of Trio Whole-Genome Sequencing Data Doubles the Yield in Autism Spectrum Disorder: De Novo Variants Present in Half.",
+   "abstract": "Autism spectrum disorder (ASD) is a common condition with lifelong implications. The last decade has seen dramatic improvements in DNA sequencing and related bioinformatics and databases. We analyzed the raw DNA sequencing files on the Variantyx\u00ae bioinformatics platform for the last 50 ASD patients evaluated with trio whole-genome sequencing (trio-WGS). \"Qualified\" variants were defined as coding, rare, and evolutionarily conserved. Primary Diagnostic Variants (PDV), additionally, were present in genes directly linked to ASD and matched clinical correlation. A PDV was identified in 34/50 (68%) of cases, including 25 (50%) cases with heterozygous de novo and 10 (20%) with inherited variants. De novo variants in genes directly associated with ASD were far more likely to be Qualifying than non-Qualifying versus a control group of genes (p = 0.0002), validating that most are indeed disease related. Sequence reanalysis increased diagnostic yield from 28% to 68%, mostly through inclusion of de novo PDVs in genes not yet reported as ASD associated. Thirty-three subjects (66%) had treatment recommendation(s) based on DNA analyses. Our results demonstrate a high yield of trio-WGS for revealing molecular diagnoses in ASD, which is greatly enhanced by reanalyzing DNA sequencing files. In contrast to previous reports, de novo variants dominate the findings, mostly representing novel conditions. This has implications to the cause and rising prevalence of autism. [full text, passages naming GABRA1] ...ing an A1 gene (UBE3A in subject #9), an in-frame amino acid deletion (SPEN), one frameshift (ANKRD11), and one truncating (ANKFN1). Six variants qualified for the A2 category, including three missense (GRB10, GABRA1, AGO3), two deletions including A2 genes (OTUD7A, FAN1, TRPM1, ARHGAP11B, CHRNA7 in #7; GGNBP2 in #32), and one frameshift (RIF1). Sixteen variants qualified for the A3 category, with thirteen missense (... ...| | KCNB1 | MT-TW | yes | 16 | essentially negative X-linked, mother carrier | | | , USP9X (XL-Mat) CIC no | | 17 | essentially negative de novo | | GRIK1 | no | | 18 brother LD; father possible autism | | | | GABRA1 , tetrasomy at 14q32q33 with 26 genes | N/A | 19 | essentially negative | | | , CACNA1A RIMS1 | N/A | 20 | essentially negative | | | | N/A | 21 sister ADHD | de novo | | OCM | SCN10A no | | 22 sister AD... ...o | | YTHDF1 | CUX2 , 148-kb del with IMMP2L no | | 40 | essentially negative de novo | | , GRB10 STAT1 | RYR2 no | | 41 | essentially negative de novo | | GOLGB1 | no | | 42 | essentially negative de novo | | GABRA1 | 16q23.1q23.1, 736.50-kb with ADAMTS18 | yes | 43 | essentially negative de novo | | SP8 | MT-CYB no | | 44 mother and sister ADHD | | | | | N/A | 45 | essentially negative | | | SHROOM4 (XL) | N/A | 46...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41625255",
+   "title": "Endoplasmic reticulum protein retention and disturbed proteostasis is a common pathology for a subset of autism: evidence from mutations in GABA&lt;sub&gt;A&lt;/sub&gt; receptors and GABA transporter 1.",
+   "abstract": "Autism is a common childhood disorder, often comorbid with epilepsy. Both autism and epilepsy are highly heterogeneous in terms of disease etiology and frequently co-occur with other neuropsychiatric phenotypes. Advances in genetic sequencing technologies have significantly improved our understanding of the biological pathways involved in these disorders, particularly in genetic epilepsy (GE). One critical pathway involves gamma-aminobutyric acid (GABA), a key neurotrophic signal during early brain development. GABA plays a central role in maintaining neural excitatory-inhibitory balance, and its dysfunction has been implicated in both autism and epilepsy. GABA acts through its receptors and transporters to regulate neuronal signaling, and disruptions in this system can lead to neural circuit abnormalities. Recent studies have identified that mutations in GABAA receptors and the GABA transporter 1(GAT-1) encoding SLC6A1 result in defective protein folding and retention in the endoplasmic reticulum (ER), leading to impaired proteostasis. This common cellular defect has been observed in a subset of patients with autism and epilepsy, suggesting a shared pathogenic mechanism. We propose that ER retention of mutated proteins and impaired trafficking contribute to disease phenotypes associated with monogenic de novo mutations. Consequently, therapeutic strategies aimed at enhancing protein folding and trafficking, such as the use of chemical or pharmacological chaperones like 4-phenylbutyrate, may provide cross-cutting benefits for both disorders. Our hypothesis highlights the potential for a unified therapeutic approach targeting cellular protein homeostasis in genetically defined subsets of autism and epilepsy. [full text, passages naming GABRA1] ...3% of ASD cases | 22 rare exonic/regulatory variants \u2265 2 de novo coding (LoF/missense) CNVs (Dup15q) | Very High | CNVs among most common genetic events in ASD; missense and promoter variants directly linked | GABRA1 | ~8\u201310 | De novo missense (e.g., R214C/H, T292S/I) | High | Strong co-occurrence of ASD with epilepsy and intellectual disability; electrophysiologically confirmed | GABRG2 | ~9\u201310 | De novo missense (e... ...e deletion knock-out animals usually do not adequately mirror human loss of function epilepsy mutations and display no or a much milder phenotype than expected ( DeLorey et al., 2008 ). For example, homozygous GABRA1 gene deletion knockout mice only manifest tremors while heterozygous mice are behaviorally normal ( Sur et al., 2001 ). Similarly, GABRG2 heterozygous knockout mice display hyper-anxiety and are seizure-... ...ween the loss of function knockout and knock in mice and hypothesize at least two possible contributing factors. First, there is possible compensation by other functionally overlapping subunits for the loss of GABRA1 and GABRG2 subunits. Second, there are additional molecular risk factors involved in the pathogenesis of these mutations such as the disturbed signaling inside ER, which exacerbates disease phenotype. Th...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "36633502": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36970514": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16029191": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17197852": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30949046": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18625330": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18660823": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20946417": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22072270": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15282283": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9247395": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39801227": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29032150": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38014242": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23372267": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16554408": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36628952": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28361821": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17520076": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16256272": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34214584": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34665958": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17442679": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40137847": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29391390": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23934111": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31368118": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31993582": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37434477": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "31653223": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31947619": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24249596": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "27614006": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41726570": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37924773": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18821008": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16080114": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38950841": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25124326": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41892602": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16530959": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24623842": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35605087": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30851244": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30977854": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38193537": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29655203": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39637130": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31618474": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25209930": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23756480": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "21704126": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35718920": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30324621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26060908": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "15017002": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39032529": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35520951": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "24623837": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37993639": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "15660664": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28540321": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32047208": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39642202": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35850019": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11992121": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37715891": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31568673": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "27080428": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35770130": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "16990398": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42652084": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42470181": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42218111": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42577364": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41977462": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41918509": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42511660": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39897951": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41523331": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41912502": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41210134": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41838920": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42733558": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39766886": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38256266": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41625255": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40919211": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41096762": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40171233": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41585885": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42534475": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 10.0,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 100.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 1.8,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "29 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4523,
+   "output_tokens": 180,
+   "usd": 0.005423,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 87.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.5,
+   "note": "",
+   "input_tokens": 40728,
+   "output_tokens": 1576,
+   "usd": 0.048608,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 18.0,
+   "note": "",
+   "input_tokens": 18359,
+   "output_tokens": 1414,
+   "usd": 0.127145,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>20</established>\n    <existing>62</existing>\n    <hypothesized>16</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Human evidence directly linking GABRA1 variants to ASD exists but is limited: PMID 37434477 describes a single patient with a de novo loss-of-function GABRA1 variant (p.Arg112Gln) presenting with autism spectrum disorder plus refractory epilepsy, and PMID 38256266 reports de novo/qualifying GABRA1 variants in ASD probands from trio whole-genome sequencing (though classified as a second-tier, not primary, ASD gene). Reviews (PMIDs 41625255, 35718920) note GABRA1 de novo missense variants in patients with ASD co-occurring with epilepsy/ID, but these largely restate the association as background rather than provide new primary proband data. Candidate-gene association studies that explicitly tested GABRA1 SNPs were negative for GABRA1 itself (PMIDs 16080114, 24249596), with signals attributed to GABRA4/GABRB3/GABRD. GABRA1 is, however, firmly established in epileptic encephalopathy/Dravet-spectrum neurodevelopmental disorders (PMIDs 24623842, 23934111, 31618474), phenotypes strongly linked to ASD, supporting \"Existing\" rather than \"Established\", since independent, well-powered ASD-specific proband replication isolating GABRA1 is not yet demonstrated.</justification>\n  <pmids>\n    <pmid>37434477</pmid>\n    <pmid>38256266</pmid>\n    <pmid>41625255</pmid>\n    <pmid>35718920</pmid>\n    <pmid>24623842</pmid>\n    <pmid>23934111</pmid>\n    <pmid>31618474</pmid>\n    <pmid>16080114</pmid>\n    <pmid>24249596</pmid>\n    <pmid>41210134</pmid>\n  </pmids>\n</response>"
+}

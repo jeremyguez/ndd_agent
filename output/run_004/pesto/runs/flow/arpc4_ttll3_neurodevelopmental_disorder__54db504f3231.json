@@ -1,0 +1,278 @@
+{
+ "gene": "ARPC4-TTLL3",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental delay",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "developmental brain disorder",
+   "disorder of neurological development",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "ARPC4-TTLL3 readthrough"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 2,
+  "titlekicksparingfulltext": 1,
+  "read": 1
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 2,
+   "Hypothesized": 12,
+   "Novel": 85
+  },
+  "justification": "The single provided article concerns CUL4B-based E3 ubiquitin ligase complexes, their phosphorylation-dependent recruitment of LIS1 and WDR1, and forebrain organoid development in the context of X-linked intellectual disability. It contains no data on ARPC4-TTLL3 (or the ARPC4/TTLL3 readthrough locus), no patient variants in this gene, and no functional link beyond a general mention of actin regulators. There is therefore no evidence\u2014genetic or biological\u2014connecting ARPC4-TTLL3 variation to neurodevelopmental disorder in this literature set. A small residual probability is allotted to \"Hypothesized\" because Arp2/3 complex subunits and tubulin tyrosine ligase-like proteins have general relevance to neuronal cytoskeletal development, but no such argument is made in the provided paper.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 2,
+   "Hypothesized": 12,
+   "Novel": 85
+  }
+ },
+ "articles": [
+  {
+   "pmid": "37365982",
+   "title": "The CUL4B-based E3 ubiquitin ligase regulates mitosis and brain development by recruiting phospho-specific DCAFs.",
+   "abstract": "The paralogs CUL4A and CUL4B assemble cullin-RING E3 ubiquitin ligase (CRL) complexes regulating multiple chromatin-associated cellular functions. Although they are structurally similar, we found that the unique N-terminal extension of CUL4B is heavily phosphorylated during mitosis, and the phosphorylation pattern is perturbed in the CUL4B-P50L mutation causing X-linked intellectual disability (XLID). Phenotypic characterization and mutational analysis revealed that CUL4B phosphorylation is required for efficient progression through mitosis, controlling spindle positioning and cortical tension. While CUL4B phosphorylation triggers chromatin exclusion, it promotes binding to actin regulators and to two previously unrecognized CUL4B-specific substrate receptors (DCAFs), LIS1 and WDR1. Indeed, co-immunoprecipitation experiments and biochemical analysis revealed that LIS1 and WDR1 interact with DDB1, and their binding is enhanced by the phosphorylated N-terminal domain of CUL4B. Finally, a human forebrain organoid model demonstrated that CUL4B is required to develop stable ventricular structures that correlate with onset of forebrain differentiation. Together, our study uncovers previously unrecognized DCAFs relevant for mitosis and brain development that specifically bind CUL4B, but not the CUL4B-P50L patient mutant, by a phosphorylation-dependent mechanism.",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35457215": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37365982": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.8,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 12.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 333,
+   "output_tokens": 14,
+   "usd": 0.000403,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 38.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 1119,
+   "output_tokens": 32,
+   "usd": 0.001279,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 6.6,
+   "note": "",
+   "input_tokens": 1763,
+   "output_tokens": 477,
+   "usd": 0.02074,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>2</existing>\n    <hypothesized>12</hypothesized>\n    <novel>85</novel>\n  </probabilities>\n  <justification>The single provided article concerns CUL4B-based E3 ubiquitin ligase complexes, their phosphorylation-dependent recruitment of LIS1 and WDR1, and forebrain organoid development in the context of X-linked intellectual disability. It contains no data on ARPC4-TTLL3 (or the ARPC4/TTLL3 readthrough locus), no patient variants in this gene, and no functional link beyond a general mention of actin regulators. There is therefore no evidence\u2014genetic or biological\u2014connecting ARPC4-TTLL3 variation to neurodevelopmental disorder in this literature set. A small residual probability is allotted to \"Hypothesized\" because Arp2/3 complex subunits and tubulin tyrosine ligase-like proteins have general relevance to neuronal cytoskeletal development, but no such argument is made in the provided paper.</justification>\n  <pmids>\n    <pmid>37365982</pmid>\n  </pmids>\n</response>"
+}

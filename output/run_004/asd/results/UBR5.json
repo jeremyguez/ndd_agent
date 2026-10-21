@@ -1,0 +1,343 @@
+{
+  "articles_found": {
+    "clinical": 7,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Genetic factors contributing to autism spectrum disorder in Williams-Beuren syndrome (PMID: 31413120)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo nonsense variant in UBR5 (exact notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "Williams-Beuren syndrome (7q11.23 deletion)",
+              "autism spectrum disorder (confirmed by ADI-R)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo nonsense mutation identified by exome sequencing; considered a possible additive contributor to the ASD phenotype in WBS",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "UBR5 loss-of-function variants in autism spectrum disorder and intellectual disability: case series and review of the literature (PMID: 41318701)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "de novo loss-of-function variants in UBR5 (three unrelated individuals; exact notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo predicted LoF variants; supports UBR5 haploinsufficiency as a cause of ASD and neurodevelopmental disorders",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Heterozygous UBR5 variants result in a neurodevelopmental syndrome with developmental delay, autism, and intellectual disability (PMID: 39721588)",
+        "num_patients": 29,
+        "variants": [
+          {
+            "description": "heterozygous UBR5 variants (LoF and missense; individual notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "autism",
+              "intellectual disability",
+              "epilepsy",
+              "movement disorder",
+              "genital anomalies"
+            ]
+          },
+          {
+            "description": "heterozygous UBR5 missense variants (several tested functionally)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay",
+              "autism",
+              "intellectual disability",
+              "epilepsy",
+              "movement disorder",
+              "genital anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variants in 29 individuals with a shared neurodevelopmental syndrome. Several variants showed decreased autoubiquitination activity and altered cellular localization in vitro. C. elegans ubr-5 knockout showed reduced movement.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Genomic analysis of 116 autism families strengthens known risk genes and highlights promising candidates (PMID: 38519481)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_015902.6:c.7441del, p.His2481Metfs*7",
+            "type": "LoF",
+            "phenotypes": [
+              "autism (ADOS-2 autism, score 6)",
+              "CARS2-ST 37",
+              "atypical language",
+              "borderline IQ (Leiter-R B-IQ 74)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Classified likely pathogenic by ACMG (PVS1, PS2, PM2, BS4); de novo frameshift",
+        "center_country": "Italy",
+        "cohort": null
+      },
+      {
+        "citation": "Exome sequencing in severe non-syndromic specific learning and language disorders in a French cohort (PMID: 41168819)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_015902.6:c.3614T>C, p.Leu1205Pro (g.102,296,944 A>G, GRCh38)",
+            "type": "missense",
+            "phenotypes": [
+              "severe specific learning/language disorder",
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "de novo, CADD 30, PolyPhen-2 0.997; ACMG PS2, PM2, PP3, reported as a variant of uncertain significance in a candidate gene",
+        "center_country": "France",
+        "cohort": null
+      },
+      {
+        "citation": "Functional convergence of histone methyltransferases EHMT1 and KMT2C involved in intellectual disability and autism spectrum disorder (PMID: 29069077)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.5720G>A, p.Arg1907His (de novo; co-occurring with mosaic KMT2C p.Ser2517* and C11orf35 p.Pro602Leu)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability/ASD phenotype overlapping Kleefstra syndrome (attributed mainly to the KMT2C variant)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "additional de novo missense variant in a patient with a mosaic KMT2C LoF variant; contribution to the phenotype is uncertain",
+        "center_country": null,
+        "cohort": "RUMC"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "UBR5 promotes antiviral immunity by disengaging the transcriptional brake on RIG-I like receptors (PMID: 38278841)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Ubr5 knockout mice more susceptible to lethal RNA virus infection than wild-type littermates",
+          "Reduced antiviral immune responses to RNA viruses",
+          "Increased viral replication in primary cells and mice",
+          "Reduced RLR transcription"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ubiquitin-protein ligase Ubr5 cooperates with hedgehog signalling to promote skeletal tissue homeostasis (PMID: 33819267)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Limb bud mesenchyme-specific Ubr5 loss",
+          "Progressive, dramatic articular cartilage degradation",
+          "Enlarged, abnormally shaped sesamoid bones",
+          "Extensive heterotopic tissue metaplasia",
+          "Calcification of tendons and ossification of synovium",
+          "Smo genetic suppression dramatically enhanced the mutant phenotype",
+          "Increased canonical HH signalling and PKA activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish models of candidate human epilepsy-associated genes provide evidence of hyperexcitability (PMID: 38370728)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "CRISPR/Cas9 stable loss-of-function ubr5 mutant line",
+          "Seizure-like swim patterns in primary F2 behavioral screen",
+          "ubr5 among 5 of 48 mutant lines showing seizure-like behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish models of candidate human epilepsy-associated genes provide evidence of hyperexcitability (PMID: 39021799)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Stable loss-of-function ubr5 mutant",
+          "Seizure-like behavior in swim pattern screen"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "In-organoid single-cell CRISPR screening reveals determinants of hepatocyte differentiation and maturation (PMID: 37907970)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Ubr5 identified as a top-ranked regulator in liver organoid CRISPR screen",
+          "Conditional knockout of Ubr5 in mouse liver delays hepatocyte maturation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "E3 Ubiquitin Ligase UBR5 Drives the Growth and Metastasis of Triple-Negative Breast Cancer (PMID: 28330927)",
+        "organism": "mouse",
+        "knockout_type": "other (CRISPR/Cas9 deletion of ubr5 in murine mammary carcinoma cells, tumor transplant model)",
+        "phenotypes": [
+          "Abrogated tumor growth and metastasis in vivo",
+          "Impaired intratumoral angiogenesis",
+          "Increased apoptosis, necrosis and growth arrest",
+          "Aberrant EMT with reduced E-cadherin",
+          "Reversed by wild-type UBR5 but not catalytically inactive mutant",
+          "Tumor growth dependent on immune cells (NOD/SCID comparison)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tumor derived UBR5 promotes ovarian cancer growth and metastasis through inducing immunosuppressive macrophages (PMID: 33293516)",
+        "organism": "mouse",
+        "knockout_type": "other (tumor-specific UBR5 targeting in ovarian cancer cells in syngeneic mouse model)",
+        "phenotypes": [
+          "Reduced ovarian tumor progression",
+          "Reduced tumor-associated macrophage recruitment and activation",
+          "Improved survival benefit with chemotherapy and immunotherapy"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of the Arg/N-degron Pathway Sensitizes Cancer Cells to Chemotherapy In Vivo (PMID: 32087767)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "siRNA lipid nanoparticle knockdown of UBR1/2/4/5 in liver without significant toxicity",
+          "Engaged immune system and caused inflammation at higher dose",
+          "Combined with chemotherapy reduced tumor load in hepatocellular carcinoma model"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UBR-box containing protein, UBR5, is over-expressed in human lung adenocarcinoma and is a potential therapeutic target (PMID: 32867711)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "shRNA UBR5 loss in human lung adenocarcinoma xenografts in nude mice significantly reduced tumor volume"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Orphan quality control shapes network dynamics and gene expression (PMID: 37478862)",
+        "evidence_subtype": "pathway",
+        "summary": "UBR5 is a signaling hub E3 ligase in the c-Myc-centered transcriptional network. It degrades unpaired (orphan) subunits of multiple transcriptional regulators by binding motifs exposed only after complex dissociation, which sets dynamic interactions between regulators. Supported by biochemical and structural analyses.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hyd/UBR5 defines a tumor suppressor pathway that links Polycomb repressive complex to regulated protein degradation in tissue growth control and tumorigenesis (PMID: 39137945)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In Drosophila, Hyd (the UBR5 ortholog) forms a Hyd-Lin complex that ubiquitinates and degrades the oncoprotein Bowl. The complex is inhibited by the micropeptide Drm, and PRC1 represses drm transcription. Loss of Hyd, Lin or PRC1 causes Bowl-dependent tissue overgrowth. The mammalian UBR5-LINS1-OSR1/2 axis appears conserved in human cells, and OSR2 promotes prostate cancer tumorigenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UBR5 promotes antiviral immunity by disengaging the transcriptional brake on RIG-I like receptors (PMID: 38278841)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A screen of 375 ubiquitin ligase knockout cell lines identified UBR5 as a positive regulator of RLR transcription. UBR5 catalyzes K63-linked ubiquitination of TRIM28, which prevents TRIM28 SUMOylation and relieves its repression of RLRs. Ubr5 knockout mice are more susceptible to lethal RNA virus infection.",
+        "sample_size": "375 ubiquitin ligase KO cell lines screened",
+        "significance": null
+      },
+      {
+        "citation": "UBR5 interacts with the replication fork and protects DNA replication from DNA polymerase \u03b7 toxicity (PMID: 31586398)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "UBR5 interacts with replication fork components, including the translesion synthesis polymerase pol\u03b7. UBR5 depletion slows S-phase and causes ssDNA accumulation through dysregulated H2A ubiquitylation, and pol\u03b7 drives the replication defects and cell death. The authors also report a pol\u03b7-H2A interaction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Structure of the human UBR5 E3 ubiquitin ligase (PMID: 37040767)",
+        "evidence_subtype": "function",
+        "summary": "Cryo-EM shows UBR5, a HECT-type E3 ligase essential for mammalian embryonic development, forms head-to-tail dimers and cage-like tetramers with the HECT domains facing the central cavity. An intermolecular jaw formed by the N-terminal region of one subunit and the HECT domain of the other likely recruits ubiquitin-loaded E2, and the jaw-lining residues are functionally important.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UBR5 Acts as an Antiviral Host Factor against MERS-CoV via Promoting Ubiquitination and Degradation of ORF4b (PMID: 35980206)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "UBR5 specifically ubiquitinates the MERS-CoV ORF4b protein at Lys36 and targets it for proteasomal degradation. UBR5 has a nuclear localization signal and acts in both nucleus and cytoplasm. UBR5 knockdown enhances ORF4b suppression of innate immunity and increases MERS-CoV replication.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nuclear ubiquitination permits Hippo-YAP signal for liver development and tumorigenesis (PMID: 40379800)",
+        "evidence_subtype": "pathway",
+        "summary": "Nuclear UBR5 polyubiquitinates VGLL4 at Lys61 for degradation, which permits Hippo-YAP/TEAD signaling. Ubr5 and Vgll4 show reciprocal spatiotemporal expression in mouse liver. Ubr5 deletion impairs cholangiocyte development and hepatocyte reprogramming, and this is rescued by Vgll4 ablation. The UBR5-VGLL4-YAP axis is linked to human pan-cancer progression, and targeting nuclear E3 ligases suppresses patient-derived tumor organoids.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UBR5 mediates colorectal cancer chemoresistance by attenuating ferroptosis via Lys 11 ubiquitin-dependent stabilization of Smad3-SLC7A11 signaling (PMID: 39260061)",
+        "evidence_subtype": "expression",
+        "summary": "UBR5 is frequently overexpressed in human CRC. It stabilizes oxaliplatin-activated Smad3 through K11-linked polyubiquitination, which represses ATF3, induces SLC7A11 and inhibits ferroptosis, driving chemoresistance. Combining UBR5 targeting with a ferroptosis inducer sensitizes CRC to oxaliplatin.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "UBR5 targets tumor suppressor CDC73 proteolytically to promote aggressive breast cancer (PMID: 35551175)",
+        "evidence_subtype": "cell_culture",
+        "summary": "UBR5 polyubiquitinates and destabilizes CDC73 at Lys243, Lys247 and Lys257, in a non-canonical manner that depends on CDC73 being non-phosphorylated at Ser465. CDC73 loss supports UBR5's tumorigenic and metastatic activity in TNBC through \u03b2-catenin and E-cadherin regulation, apoptosis and CD8+ T cell infiltration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Functional prioritization of Huntington's disease onset modifier genes in the Hdh Q111/+ mouse",
+        "evidence_subtype": "GWAS",
+        "summary": "UBR5 lies at the CHR8 HD age-at-onset GWAS locus together with RRM2B. CRISPR inactivating mutations in Ubr5 did not alter CAG repeat somatic instability in striatum or liver of Hdh Q111/+ mice, whereas Fan1 and Rrm2b mutations did. This implicates RRM2B rather than UBR5 as the likely modifier at CHR8.",
+        "sample_size": "~4000 HD individuals in GWAS; mouse cohorts at 2.5 and 5 months",
+        "significance": null
+      }
+    ]
+  }
+}

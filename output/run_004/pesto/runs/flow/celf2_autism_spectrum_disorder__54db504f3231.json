@@ -1,0 +1,745 @@
+{
+ "gene": "CELF2",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "autistic features",
+   "autistic behavior",
+   "Kanner syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "CUGBP2",
+   "BRUNOL3",
+   "NAPOR-2",
+   "ETR-3",
+   "CUGBP Elav-like family member 2"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 64,
+  "titlekicksparingfulltext": 18,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 25,
+   "Existing": 55,
+   "Hypothesized": 19,
+   "Novel": 1
+  },
+  "justification": "Human genetic evidence exists: Suzuki et al. (PMID 33131106) reported de novo/mosaic-inherited CELF2 variants in five unrelated individuals, one of whom had intellectual disability with autistic features, and a Chinese ASD WGS cohort identified a likely pathogenic de novo frameshift CELF2 variant (c.1500delT) in a child diagnosed with ASD (PMID 42036727); CELF2 is also listed in SFARI as a syndromic/high-confidence gene (PMID 37891789). However, the dominant clinical phenotype in the larger CELF2 variant cohorts is developmental and epileptic encephalopathy, intellectual disability, and cortical malformation (PMIDs 40666314, 42275152, 34107259), with ASD appearing as a variable associated feature rather than a replicated primary outcome. Supportive but non-human evidence includes Celf2 conditional knockout mice showing autism-like social impairment and synaptic deficits (PMID 38829512) and iPSC organoid work linking CELF2 dysfunction to autism-spectrum neurocognitive phenotypes in DM1 (PMID 35767654). Because the two human reports describe ASD/autistic features as secondary findings within DEE/NDD cohorts rather than independent replicated ASD-causal studies, \"Existing\" is the most defensible category, with some weight retained for \"Established.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 25,
+   "Existing": 55,
+   "Hypothesized": 19,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38729272",
+   "title": "The role of CELF family in neurodevelopment and neurodevelopmental disorders.",
+   "abstract": "RNA-binding proteins (RBPs) bind to RNAs and are crucial for regulating RNA splicing, stability, translation, and transport. Among these proteins, the CUGBP Elav-like family (CELF) is a highly conserved group crucial for posttranscriptional regulation by binding to CUG repeats. Comprising CELF1-6, this family exhibits diverse expression patterns and functions. Dysregulation of CELF has been implicated in various neural disorders, encompassing both neurodegenerative and neurodevelopmental conditions, such as Alzheimer's disease and autism. This article aims to provide a comprehensive summary of the CELF family's role in neurodevelopment and neurodevelopmental disorders. Understanding CELF's mechanisms may offer clues for potential therapeutic strategies by regulating their targets in neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2024 Jul",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "35767654",
+   "title": "MECP2-related pathways are dysregulated in a cortical organoid model of myotonic dystrophy.",
+   "abstract": "Myotonic dystrophy type 1 (DM1) is a multisystem, autosomal-dominant inherited disorder caused by CTG microsatellite repeat expansions (MREs) in the 3' untranslated region of the dystrophia myotonica-protein kinase (DMPK) gene. Despite its prominence as the most common adult-onset muscular dystrophy, patients with congenital to juvenile-onset forms of DM1 can present with debilitating neurocognitive symptoms along the autism spectrum, characteristic of possible in utero cortical defects. However, the molecular mechanism by which CTG MREs lead to these developmental central nervous system (CNS) manifestations is unknown. Here, we showed that CUG foci found early in the maturation of three-dimensional (3D) cortical organoids from DM1 patient-derived induced pluripotent stem cells (iPSCs) cause hyperphosphorylation of CUGBP Elav-like family member 2 (CELF2) protein. Integrative single-cell RNA sequencing and enhanced cross-linking and immunoprecipitation (eCLIP) analysis revealed that reduced CELF2 protein-RNA substrate interactions results in misregulation of genes critical for excitatory synaptic signaling in glutamatergic neurons, including key components of the methyl-CpG binding protein 2 (MECP2) pathway. Comparisons to MECP2(y/-) cortical organoids revealed convergent molecular and cellular defects such as glutamate toxicity and neuronal loss. Our findings provide evidence suggesting that early-onset DM1 might involve neurodevelopmental disorder-associated pathways and identify N-methyl-d-aspartic acid (NMDA) antagonists as potential treatment avenues for neuronal defects in DM1.",
+   "found_by": [],
+   "pubdate": "2022 Jun 29",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "33131106",
+   "title": "De novo variants in CELF2 that disrupt the nuclear localization signal cause developmental and epileptic encephalopathy.",
+   "abstract": "We report heterozygous CELF2 (NM_006561.3) variants in five unrelated individuals: Individuals 1-4 exhibited developmental and epileptic encephalopathy (DEE) and Individual 5 had intellectual disability and autistic features. CELF2 encodes a nucleocytoplasmic shuttling RNA-binding protein that has multiple roles in RNA processing and is involved in the embryonic development of the central nervous system and heart. Whole-exome sequencing identified the following CELF2 variants: two missense variants [c.1558C>T:p.(Pro520Ser) in unrelated Individuals 1 and 2, and c.1516C>G:p.(Arg506Gly) in Individual 3], one frameshift variant in Individual 4 that removed the last amino acid of CELF2 c.1562dup:p.(Tyr521Ter), possibly resulting in escape from nonsense-mediated mRNA decay (NMD), and one canonical splice site variant, c.272-1G>C in Individual 5, also probably leading to NMD. The identified variants in Individuals 1, 2, 4, and 5 were de novo, while the variant in Individual 3 was inherited from her mosaic mother. Notably, all identified variants, except for c.272-1G>C, were clustered within 20 amino acid residues of the C-terminus, which might be a nuclear localization signal. We demonstrated the extranuclear mislocalization of mutant CELF2 protein in cells transfected with mutant CELF2 complementary DNA plasmids. Our findings indicate that CELF2 variants that disrupt its nuclear localization are associated with DEE.",
+   "found_by": [],
+   "pubdate": "2021 Jan",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38829512",
+   "title": "CELF2 Deficiency Demonstrates Autism-Like Behaviors and Interferes with Late Development of Cortical Neurons in Mice.",
+   "abstract": "CELF2 variants have been linked to neurodevelopmental disorders (NDD), including autism spectrum disorder (ASD). However, the molecular mechanisms remain unclear. We generated Celf2 Nestin-Cre knockout mice.Our findings revealed that Celf2 Nestin-Cre heterozygous knockout mice exhibited social impairment and anxiety, an autism-like behavior, though no manifestations of repetitive stereotyped behavior, learning cognitive impairment, or depression were observed. Immunofluorescence assay showed an underdeveloped cerebral cortex with significantly reduced cortical thickness, albeit without abnormal cell density. Further in vitro neuronal culture demonstrated a significant reduction in dendritic spine density and affected synaptic maturation in Celf2 deficient mice, with no notable abnormalities in total neurite and axon length. RNA-seq and RIP-seq analysis of the cerebral cortex revealed differentially expressed genes post Celf2 gene knockout compared with the control group. Enrichment analysis highlighted significant enrichment in dendrite and synapse-related biological processes and pathways. Our study delineated the behavioral and neurodevelopmental phenotypes of Celf2, suggesting its potential involvement in autism through the regulation of target genes associated with dendritic spines and synapse development. Further research is needed to elucidate the specific mechanisms involved.",
+   "found_by": [],
+   "pubdate": "2025 Jan",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34107259",
+   "title": "Nucleocytoplasmic transport of the RNA-binding protein CELF2 regulates neural stem cell fates.",
+   "abstract": "The development of the cerebral cortex requires balanced expansion and differentiation of neural stem/progenitor cells (NPCs), which rely on precise regulation of gene expression. Because NPCs often exhibit transcriptional priming of cell-fate-determination genes, the ultimate output of these genes for fate decisions must be carefully controlled in a timely fashion at the post-transcriptional level, but how that is achieved is poorly understood. Here, we report that de novo missense variants in an RNA-binding protein CELF2 cause human cortical malformations and perturb NPC fate decisions in mice by disrupting CELF2 nucleocytoplasmic transport. In self-renewing NPCs, CELF2 resides in the cytoplasm, where it represses mRNAs encoding cell fate regulators and neurodevelopmental disorder-related factors. The translocation of CELF2 into the nucleus releases mRNA for translation and thereby triggers NPC differentiation. Our results reveal that CELF2 translocation between subcellular compartments orchestrates mRNA at the translational level to instruct cell fates in cortical development.",
+   "found_by": [],
+   "pubdate": "2021 Jun 8",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30606728",
+   "title": "The MBNL/CELF Splicing Factors Regulate Cytosolic Sulfotransferase 4A1 Protein Expression during Cell Differentiation.",
+   "abstract": "Sulfotransferase 4A1 (SULT4A1) is a sulfotransferase-like protein that is highly conserved between species. In human tissues, there are two transcripts, one that produces a full-length protein and one that produces an unstable truncated protein. The second transcript, which includes a pseudo-exon between exons 6 and 7 (6p), is widely expressed, whereas the first is more restricted. Differentiation of neuronal cells results in the removal of the pseudo-exon and subsequent SULT4A1 protein expression. Recent studies with SULT4A1 knockout mice showed that the protein is essential for normal development and that its absence leads to a severe neurologic phenotype. Here, the regulation of SULT4A1 6p splicing was investigated during neuronal differentiation using SH-SY5Y cells, human induced pluripotent stem cells, and mouse embryonic tissue. In all three models, pseudo-exon 6p was removed during differentiation, resulting in stable SULT4A1 protein expression. Using a minigene splicing assay, a region upstream of pseudo-exon 6p was identified that is essential for correct splicing of SULT4A1 mRNA. Within this region, there were binding motifs for four RNA processing factors (MBNL-1, MBNL-2, CELF-1, and CELF-2). Time-dependent changes in SULT4A1 protein and MBNL/CELF protein during differentiation supported their role in correctly splicing the SULT4A1 mRNA. Furthermore, ectopic expression of each factor produced efficient splicing in the minigene assay as well as correct splicing of the endogenous SULT4A1 mRNA. These results show that SULT4A1 mRNA is a target for MBNL/CELF-dependent splicing, which may be essential in producing stable, functional SULT4A1.",
+   "found_by": [],
+   "pubdate": "2019 Mar",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33093587",
+   "title": "CELF2 regulates the species-specific alternative splicing of TREM2.",
+   "abstract": "Genetic variations of TREM2 have been implicated as a risk factor of Alzheimer's disease (AD). Recent studies suggest that the loss of TREM2 function compromises microglial responses to the accumulation of amyloid beta. Previously, we found that exon 3 of TREM2 is an alternative exon whose skipping leads to a reduction in full-length TREM2 protein by inducing nonsense-mediated mRNA decay. Here, we aimed to identify factors regulating TREM2 splicing. Using a panel of RNA-binding proteins, we found that exon 3 skipping of TREM2 was promoted by two paralogous proteins, CELF1 and CELF2, which were both linked previously with risk loci of AD. Although the overexpression of both CELF1 and CELF2 enhanced exon 3 skipping, only CELF2 reduced the expression of full-length TREM2 protein. Notably, the TREM2 ortholog in the green monkey, but not in the mouse, showed alternative splicing of exon 3 like human TREM2. Similarly, splicing regulation of exon 3 by CELF1/2 was found to be common to humans and monkeys. Using chimeric minigenes of human and mouse TREM2, we mapped a CELF-responsive sequence within intron 3 of human TREM2. Collectively, our results revealed a novel regulatory factor of TREM2 expression and highlighted a species-dependent difference of its regulation.",
+   "found_by": [],
+   "pubdate": "2020 Oct 22",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12763013",
+   "title": "Isolation and expression of Napor/CUG-BP2 in embryo development.",
+   "abstract": "The human neuroblastoma apoptosis-related RNA-binding protein NAPOR is an ELAV-like RNA-binding protein with three characteristic RNA recognition motifs (RRMs). We report here the cloning and characterization of a zebrafish Napor that has a high sequence homology to human NAPOR protein. Whole-mount in situ hybridization analysis revealed that zebrafish napor is dynamically expressed in early development. In addition to its maternal expression, napor transcripts were detected in adaxial mesoderm cells and lateral neural plate cells at early somite stages. By 10-somite stage, napor expression was restricted to the central nervous system, having a specific expression domain of rhombomere 5 in the hindbrain. In 24 hpf embryo, napor was expressed in subsets of differentiating neural cells in the forebrain and hindbrain as well as somitic muscle cells. The number of napor-expressing neural cells was greatly increased in the mind bomb mutant that has neurogenic phenotype resulting from deficits in the Notch signaling pathway. Furthermore, overexpression of napor by RNA microinjection resulted in severe defects in nervous system and gastrulation, suggesting the need for tight control of napor gene regulation during embryo development.",
+   "found_by": [],
+   "pubdate": "2003 Jun 6",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "15482955",
+   "title": "Expression profiling in spinal muscular atrophy reveals an RNA binding protein deficit.",
+   "abstract": "Spinal muscular atrophy is a common neuromuscular disorder caused by deletions or mutations within the survival motor neuron gene. The reason for specific motor neuron loss within the disease is still unclear. Expression profiling has been carried out in two models of spinal muscular atrophy; the heterozygote mouse model and human primary muscle cultures from a spinal muscular atrophy patient. A group of RNA binding proteins are up-regulated in spinal muscular atrophy motor neurons. One such protein, BRUNOL3, is highly expressed within spinal cord and muscle and also at the same developmental stage as survival motor neuron. The differential expression of Brunol3 has been confirmed with real-time RT-PCR in spinal cord and muscle of three different models of spinal muscular atrophy. BRUNOL3 has been shown to co-localise with survival motor neuron in the nuclei of neuronal cells and to co-immunoprecipitate with Smn in mouse brain. This is the first time that a link has been established between RNA binding proteins and survival motor neuron within motor neurons.",
+   "found_by": [],
+   "pubdate": "2004 Nov",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "11414768",
+   "title": "Genomic organization and isoform-specific tissue expression of human NAPOR (CUGBP2) as a candidate gene for familial arrhythmogenic right ventricular dysplasia.",
+   "abstract": "Neuroblastoma apoptosis-related RNA-binding protein (NAPOR; HGMW-approved symbol CUGBP2) is a newly discovered gene prominently induced during apoptosis, suggesting that it plays a role during apoptosis. We have found that it is encoded by a gene located on chromosome 10p13-p14 between G\u00e9n\u00e9thon markers D10S547 and D10S223, a region to which we have recently localized a gene responsible for arrhythmogenic right ventricular dysplasia (ARVD). To examine its possible role in the pathogenesis of ARVD, we determined the genomic organization of the human NAPOR gene including its exon-intron boundaries and the putative promoter sequence, which provide a plausible mechanism for its alternative mRNA splicing. We also demonstrated that three isoforms of the NAPOR transcript were differently expressed, with NAPOR-3 being nearly neuron specific while the other two forms were ubiquitously expressed. The expression of NAPOR is differentially regulated during development. Finally, we screened the members of the ARVD family for mutations and identified two DNA sequence variants in the protein-coding exons of NAPOR, neither of which was responsible for ARVD. While the function of NAPOR remains to be elucidated, our current characterization of the NAPOR gene will be valuable for further clinical and functional study.",
+   "found_by": [],
+   "pubdate": "2001 Jun 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "12110949",
+   "title": "Expression and mutation analysis of BRUNOL3, a candidate gene for heart and thymus developmental defects associated with partial monosomy 10p.",
+   "abstract": "Partial monosomy 10p is a rare chromosomal aberration. Patients often show symptoms of the DiGeorge/velocardiofacial syndrome spectrum. The phenotype is the result of haploinsufficiency of at least two regions on 10p, the HDR1 region associated with hypoparathyroidism, sensorineural deafness, and renal defects (HDR syndrome) and the more proximal region DGCR2 responsible for heart defects and thymus hypoplasia/aplasia. While GATA3 was identified as the disease causing gene for HDR syndrome, no genes have been identified thus far for the symptoms associated with DGCR2 haploinsufficiency. We constructed a deletion map of partial monosomy 10p patients and narrowed the critical region DGCR2 to about 300 kb. The genomic draft sequence of this region contains only one known gene, BRUNOL3 ( NAPOR, CUGBP2, ETR3). In situ hybridization of human embryos and fetuses revealed as well as in other tissues a strong expression of BRUNOL3 in thymus during different developmental stages. BRUNOL3 appears to be an important factor for thymus development and is therefore a candidate gene for the thymus hypoplasia/aplasia seen in partial monosomy 10p patients. We did not find BRUNOL3 mutations in 92 DiGeorge syndrome-like patients without chromosomal deletions and in 8 parents with congenital heart defect children.",
+   "found_by": [],
+   "pubdate": "2002 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40666314",
+   "title": "Genetic variants disrupting activity-dependent CELF2 shuttling cause neuronal hyperexcitability, learning deficits, and seizures.",
+   "abstract": "UNLABELLED: De novo heterozygous variants in the CELF2 gene have recently been associated with a rare neurodevelopmental disorder. However, the mechanisms linking specific variants to distinct clinical phenotypes remain poorly understood. Here, we report a new cohort of 14 individuals with de novo CELF2 variants, providing evidence that variants causing CELF2 cytoplasmic mislocalization, but not its loss-of-function, are associated with seizures. Using proband induced pluripotent stem cell-derived neurons and transgenic mouse models, we show that CELF2 undergoes activity-dependent nucleocytoplasmic shuttling in excitatory neurons, and its cytoplasmic retention causes neuronal hyperexcitability, leading to learning and memory deficits. In the cytoplasm, CELF2 regulates mRNAs critical for synaptic functions and neuronal excitability implicated in epileptic seizures and intellectual disability. Through drug screening, we identify AKT signaling as a key regulator of CELF2 shuttling and a target for treating CELF2-associated hyperexcitability. Our findings expand the clinical and genetic spectrum of CELF2-related neurodevelopmental disorders and reveal variant-specific mechanisms that link CELF2 mislocalization to neuronal hyperexcitability, learning deficits, and epileptic seizures. ONE SENTENCE SUMMARY: CELF2 variants link protein mislocalization to neuronal hyperexcitability, learning deficits, and epileptic seizures.",
+   "found_by": [],
+   "pubdate": "2025 Jun 23",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42275152",
+   "title": "Pathological disruption of CELF2 shuttling causes neuronal hyperactivity, learning deficits, and seizures.",
+   "abstract": "De novo heterozygous variants in CUGBP Elav-like family member 2 (CELF2) have recently been associated with a rare neurodevelopmental disorder, yet the mechanisms linking specific variants to distinct clinical phenotypes remain poorly understood. Here, we reported a cohort of 18 individuals and provided evidence that variants causing CELF2 mislocalization, but not protein-null variants, were associated with seizures. Using proband-derived human cortical neurons and transgenic mouse models, we demonstrated that CELF2 underwent activity-dependent nucleocytoplasmic shuttling in excitatory neurons and that its cytoplasmic retention caused neuronal hyperactivity, elevated seizure susceptibility, and learning and memory deficits. We further found that cytoplasmic CELF2 regulated mRNAs critical for synaptic function and neuronal excitability and implicated in epileptic seizures and intellectual disability. Drug screening further identified AKT signaling as a key regulator of CELF2 nucleocytoplasmic shuttling and a candidate target for reversing neuronal hyperactivity. Together, our findings expand the clinical and genetic spectrum of CELF2-related neurodevelopmental disorders and establish a variant-specific mechanism that links CELF2 mislocalization to neuronal hyperactivity, seizures, and cognitive impairment.",
+   "found_by": [],
+   "pubdate": "2026 Jul 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40066778",
+   "title": "Modeling epilepsy by loss-of-function of the CUG-binding protein Elav-like family member 2 in zebrafish with multi-omics analysis.",
+   "abstract": "BACKGROUND: The CUG-binding protein Elav-like family member 2 ( CELF2 )\u00a0gene has been linked to the pathogenesis of epilepsy, but its precise role remains unclear. This study aimed to investigate the pathogenic mechanisms of CELF2 \u00a0mutation in epilepsy, utilizing zebrafish models to explore its molecular pathways and biological impact. METHODS: Whole-exome sequencing was performed to identify CELF2 \u00a0mutations associated with epilepsy. CELF2 zebrafish model was generated using clustered regularly interspaced short palindromic repeats (CRISPR)/CRISPR-related protein 9 technology and morpholinos, followed by behavioral and electroencephalographic analyses to confirm epileptic phenotypes. Proteomic and metabolomic analyses were conducted to examine the impact of CELF2 \u00a0deficiency on metabolic pathways, and single-cell sequencing was used to assess alterations in neuronal cell populations. RESULTS: An infant with infantile epileptic spasms syndrome associated with a CELF2 (p.Pro520Arg)\u00a0gene mutation was reported. We established zebrafish models with celf2 \u00a0gene knockout and knockdown and found that zebrafish with celf2 \u00a0mutations exhibited epilepsy-like behaviors, which could be rescued by injection of CELF2 wild-type mRNA. Significant changes were observed in crucial marker genes associated with the nervous system in the celf2+/- \u00a0group, including FOS , BDNF , NPAS4 , GABRA1 , GABRG2 , and PYYA . Disruptions in lipid metabolism, heat shock protein 90 beta1 (Hsp90b1), were identified in proteomic and metabolomic analyses. Single-cell sequencing showed changes in nucleosome localization, nucleosome DNA binding, arginine and proline metabolic pathways, gonadotropin-releasing hormone signaling pathway, and nucleotide-binding oligomerization domain receptor signaling pathway. CONCLUSIONS: Our study has revealed a promising association between defects in the CELF2 \u00a0gene and epilepsy using a zebrafish model, suggesting that CLEF2 is a causative gene in epilepsy. These findings not only indicate the potential impact on the biological process influenced by the CELF2 \u00a0gene defect but also offer hopeful insights into the pathogenesis of epilepsy and potential therapeutic targets.",
+   "found_by": [],
+   "pubdate": "2026 Feb 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42526765",
+   "title": "USP15 mutation associated with autism spectrum disorder alters progenitor fate and neuronal maturation in human brain organoids.",
+   "abstract": "De novo variants in the ubiquitin-proteasome pathway are linked to autism spectrum disorder (ASD), yet their functional impact on neurodevelopment remains poorly understood. We investigated USP15, a deubiquitinating enzyme with rare damaging variants identified in individuals with ASD, using isogenic human iPSC-derived brain organoids and single-cell transcriptomics. USP15 mutant organoids showed genotype-dependent, progenitor-centered alterations during corticogenesis. Heterozygous organoids modeling haploinsufficiency displayed a shift toward later pseudotime states together with altered maturation and synaptic organization of deep-layer neurons. In contrast, homozygous organoids showed broader phenotypes, including mitotic suppression, aberrant HOX gene expression, and stress-response activation. Regulon analysis showed reduced activity of progenitor-associated regulons, including SOX2, NR2F1, and NR2F2, in heterozygous organoids, whereas homozygous organoids exhibited broader changes in transcriptional regulatory networks. Furthermore, USP15 mutant-associated gene expression patterns were significantly enriched for established ASD risk genes. Comparison with the mouse brain perturbation atlas showed that the transcriptional signature of the USP15 mutant showed notable overlap with those of Fezf2 and Foxp1 mutants, key regulators of deep-layer projection neuron identity. These findings characterize genotype-dependent neurodevelopmental phenotypes associated with reduced USP15 dosage and provide a human neural framework for investigating ASD-relevant developmental mechanisms in the context of a rare ubiquitin-pathway variant. [full text, passages naming CELF2] ...ulated sets and deep-layer neuron-downregulated sets (only ELAVL4 and BCL11A ). Still, substantial sharing with downregulated DEGs in cortical interneurons ( CSNK2A1 , DPYSL2 , PBX1 , ARID1A , CSNK1E , WDR48 , CELF2 , and CTNNA2 ) indicates that USP15 insufficiency engages common developmental axes across distinct neuronal lineages while producing directionally different outcomes by cell type and genotype. To place U...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42320469",
+   "title": "Single-cell profiling of DNA methylation in autism spectrum disorder prefrontal cortex reveals distinct regulatory and aging signatures.",
+   "abstract": "Autism spectrum disorder (ASD) is a heterogeneous neurodevelopmental condition. Studies of postmortem ASD brain tissue have revealed convergent molecular changes across the cortex. Whether these features are reflected in cell-type-specific epigenetic signatures is unknown. Here, we present a single-cell analysis of DNA methylation (DNAm) coupled with transcriptomics in ASD. Using snmCT-seq, we profiled DNAm and transcript levels from over 60,000 nuclei derived from the prefrontal cortex of 49 donors. We identified over 30,000 differentially methylated regions (DMRs) in ASD that were enriched in promoters and cell-type-specific regulatory elements active across the lifespan. ASD-related methylation changes were uncorrelated with transcript levels and were small in magnitude compared with age-associated effects. Age-DMRs were concentrated in excitatory neurons and revealed distinct roles for CG and non-CG methylation. Age-varying methylation signatures of ASD identified neuron projection development as a key process perturbed in ASD, highlighting the heterogeneous impact of ASD across the lifespan. [full text, passages naming CELF2] ...axonogenesis that decrease in transcript levels with age while accumulating methylation within the gene body (e.g., GRM3 , MCTP1 ,and RELN ). This module also includes TFs active in development (e.g., MEF2C , CELF2 , and CUX2 ) that exhibit high inverse correlations between methylation and RNA over age ( Figure 4 F). Age-dependent ASD effects on the methylome We next leveraged the broad age range of donors in this d...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42036727",
+   "title": "Genetic variants identification through whole-genome sequencing based on dried blood spots in 92 Chinese children with Autism.",
+   "abstract": "Autism spectrum disorder (ASD) is a group of neurodevelopmental disorder with high heterogeneity. We hence to investigate the genetic etiology of ASD and the potential of whole-genome sequencing (WGS) from dried blood spots for the presymptomatic risk assessment. Total 92 individuals diagnosed with ASD were recruited to identify the genetic etiologies of ASD using WGS of newborn dried blood spots. Variants were verified with a minigene splicing assay and the construction of three-dimensional protein models. Overall, a positive molecular diagnosis was obtained for 10 cases, a rate of 10.87%. Among the 10 cases, five cases (50.0%, 5/10) were identified with likely pathogenic exon-level CNVs, two cases (20.0%, 2/10) were identified with pathogenic large CNVs, one case (10%, 1/10) was identified with the chromosomal translocation t(8;9)(q13.3;q21.13), and 2 cases (20.0%, 2/10) were identified with likely pathogenic SNVs/Indels. Total 245 variants of 173 genes were classified as \"VUS\". Further functional analysis showed that one splicing variant were predicted to generate a truncated protein. Our study demonstrated the utility of WGS derived from dried blood spots for identifying ASD-associated risk genes and variants. The introduction of ASD to the newborn genetic screening should be considered, which may facilitate presymptomatic risk identification and enable earlier, more personalized interventions for high-risk infants. [full text, passages naming CELF2] ...hr15:22839492 \u2212 3,255,392 | 9714.4 Kb | Large CNV | - | P | 29 | Male | Autism spectrum disorder | t(8;9)(q13.3;q21.13) | | chr8:73794035; chr9:77173969 - | SV | - | P | 1 | Male | Autism spectrum disorder | | CELF2 NM_006561.3 :c.1500delT (p.Gln501Argfs*4) chr10:11370948 | - | Indel | Het/AD | LP | 3 | Male | Autism spectrum disorder | | DEPDC5 NM_001242896.1 :EX20 Del chr22:32206506\u201332,206,627 | 122 bp | Exon-level... ...ved in the breakpoint region. SNVs/Indels identified in ASD individuals Among 92 children with ASD, total two cases (7.61%, 7/92) were identified with likely pathogenic SNVs/Indels. One case was the frameshift CELF2 c.1500delT, while another was the missense GBA1 c.1174 C > T which was novel. A total 245 variants of 173 genes were classified as \u201cvariant of uncertain significance\u201d (VUS) (Supplementary Table S2), and 1...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39398347",
+   "title": "Immune signature of gene expression pattern shared by autism spectrum disorder and Huntington's disease.",
+   "abstract": "Autism spectrum disorder (ASD) and Huntington's disease (HD) are complex neurological conditions with unclear causes and limited treatments, affecting individuals, families, and society. Despite ASD and HD representing two opposing stages of neuronal development and degeneration, they share similar clinical-pathological features in motor function. In this study, we leveraged transcriptomic data from the prefrontal cortex available in public databases to identify shared transcriptional characteristics of ASD and HD. Differential expression analysis revealed that the majority of differentially expressed genes (DEGs) were up-regulated in ASD carriers, whereas most DEGs were down-regulated in HD carriers. Among the DEGs shared between both diseases, three out of seven protein-coding genes were related to the immune system. Furthermore, we identified two enriched pathways shared between ASD and HD DEGs. The gene interaction network analysis unveiled four hub genes shared by both diseases, all of which are associated with immune functions. The findings suggest a shared gene expression pattern in the prefrontal cortex of people with ASD and HD, closely linked to the immune system. These findings will contribute to exploring the biological mechanisms underlying the shared phenotypes of these two diseases from an immunological perspective. [full text, passages naming CELF2] ...in-coding gene (GPR183, SLC4A1, ESRP2, CEACAM8, C1QTNF8, MUC6, PBOV1), while the rest were pseudogenes (RPL7AP60, LOC100418874, LOC100418723, LOC100419562, LOC100421094, RN7SL471P), lincRNA (GSN-AS1, RAI1-AS1, CELF2-AS2, LINC02688, PPP1R13B-DT, LCMT1-AS2), miRNA (MIR3151), and SRP RNA (RN7SL3). Meanwhile, clustering analyses of the most significant 50 DEGs in two diseases were performed, and the results were displaye...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37891789",
+   "title": "Differential DNA Methylation from Autistic Children Enriches Evidence for Genes Associated with ASD and New Candidate Genes.",
+   "abstract": "The etiology of Autism Spectrum Disorders (ASD) is a result of the interaction between genes and the environment. The study of epigenetic factors that affect gene expression, such as DNA methylation, has become an important area of research in ASD. In recent years, there has been an increasing body of evidence pointing to epigenetic mechanisms that influence brain development, as in the case of ASD, when gene methylation dysregulation is present. Our analysis revealed 853 differentially methylated CpG in ASD patients, affecting 509 genes across the genome. Enrichment analysis showed five related diseases, including autistic disorder and mental disorders, which are particularly significant. In this work, we identified 64 genes that were previously reported in the SFARI gene database, classified according to their impact index. Additionally, we identified new genes that have not been previously reported as candidates with differences in the methylation patterns of Mexican children with ASD. [full text, passages naming CELF2] ...n four categories, four were syndromic, sixteen had a high confidence level, forty were strong candidates, four had suggestive evidence and one was found in two categories, syndromic and high confidence level, CELF2 ( Figure 3 b). The four syndromic ones and their associations with ASD are confirmed in several papers ( DMD , SLC1A2 , TBX1 and CELF2 ) [ 24 ]. On the other hand, Leblond compared multiple data repositor... ...and one was found in two categories, syndromic and high confidence level, CELF2 ( Figure 3 b). The four syndromic ones and their associations with ASD are confirmed in several papers ( DMD , SLC1A2 , TBX1 and CELF2 ) [ 24 ]. On the other hand, Leblond compared multiple data repositories with genes related to neurodevelopmental disorders (NDD), classifying them into different categories, including high-confidence-lev... ...lso compared our gene set list with high-confidence-level NDD and SFARI genes, and 30 genes were common among three data sets: IGF1 , ARHGEF9 , TRAPPC9 , CNOT1 , ZBTB20 , SHANK3 , NRXN1 , DPP6 , RERE , MYT1L , CELF2 , CSNK1G1 , SHANK2 , DMD , KCND2 , ATRX , TRIO , SETD2 , CEP135 , SLC1A2 , ANKRD11 , EBF3 , TBX1 , KCNQ2 , BRSK2 , DEAF1 , FOXP1 , CUX1 , ANK3 and KAT6B ( Figure 4 ). Four genes previously classified in t...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33970367",
+   "title": "Cross-Disorder Analysis of De Novo Mutations in Neuropsychiatric Disorders.",
+   "abstract": "The clinical similarity among different neuropsychiatric disorders (NPDs) suggested a shared genetic basis. We catalogued 23,109 coding de novo mutations (DNMs) from 6511 patients with autism spectrum disorder (ASD), 4,293 undiagnosed developmental disorder (UDD), 933 epileptic encephalopathy (EE), 1022 intellectual disability (ID), 1094 schizophrenia (SCZ), and 3391 controls. We evaluated that putative functional DNMs contribute to 38.11%, 34.40%, 33.31%, 10.98% and 6.91% of patients with ID, EE, UDD, ASD and SCZ, respectively. Consistent with phenotype similarity and heterogeneity in different NPDs, they show different degree of genetic association. Cross-disorder analysis of DNMs prioritized 321 candidate genes (FDR\u2009<\u20090.05) and showed that genes shared in more disorders were more likely to exhibited specific expression pattern, functional pathway, genetic convergence, and genetic intolerance. [full text, passages naming CELF2] ...1B1 a , SGCE u , NUDT17 a , SNRPB2 i , ACTC1 u , GABRP u , GNB1 u , ILF2 a , LRRC3C i , NR6A1 u , STK33 a ANO3, G3BP1, CLCN4, DCX, MAP2K1, VEZF1, ASH1L, SMARCD1, KCNQ5, ENO1, STXBP3, LZTR1, AGO3, RPL26, GRIK1, CELF2, EYA1, PDK2, TFAP2C, COL4A1, LMTK3, PRR14L, TCTE3, NUDT4, GLRA2, ARIH1, GNAS, MEIS2, BIRC5, DOCK1, TIFA, DPF2, H2AFV, ABI2, MECOM, CFAP45, TFAP4 | ARHGAP15, SMAD6, DEAF1, NR4A2, TANC2, GNB2, SMARCC2, TAF1...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "27596159": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22124156": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21216937": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36230572": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17656006": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20631008": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26314850": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19720736": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39920810": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38030819": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36843266": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18258790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26811534": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21135184": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34288370": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33256577": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30204531": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22115364": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38729272": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35767654": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33131106": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38829512": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34107259": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32324763": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39550869": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30606728": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33093587": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34267819": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "12763013": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15482955": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31409895": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26796035": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11414768": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12110949": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40666314": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42275152": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40066778": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38364506": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37537886": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29687899": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42526765": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42320469": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40472970": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42036727": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39398347": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37891789": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38898502": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36474209": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39808658": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33970367": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37889749": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33338084": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39737487": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39823338": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28076348": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34469739": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31585809": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25682262": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33997709": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22819011": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "21522181": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33224013": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24098394": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23468662": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.3,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 188,
+   "usd": 0.00643,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "15 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "30 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 2527,
+   "output_tokens": 112,
+   "usd": 0.003087,
+   "calls": 4
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 61.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 26661,
+   "output_tokens": 1062,
+   "usd": 0.031971,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.6,
+   "note": "",
+   "input_tokens": 13973,
+   "output_tokens": 1060,
+   "usd": 0.096365,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>25</established>\n    <existing>55</existing>\n    <hypothesized>19</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Human genetic evidence exists: Suzuki et al. (PMID 33131106) reported de novo/mosaic-inherited CELF2 variants in five unrelated individuals, one of whom had intellectual disability with autistic features, and a Chinese ASD WGS cohort identified a likely pathogenic de novo frameshift CELF2 variant (c.1500delT) in a child diagnosed with ASD (PMID 42036727); CELF2 is also listed in SFARI as a syndromic/high-confidence gene (PMID 37891789). However, the dominant clinical phenotype in the larger CELF2 variant cohorts is developmental and epileptic encephalopathy, intellectual disability, and cortical malformation (PMIDs 40666314, 42275152, 34107259), with ASD appearing as a variable associated feature rather than a replicated primary outcome. Supportive but non-human evidence includes Celf2 conditional knockout mice showing autism-like social impairment and synaptic deficits (PMID 38829512) and iPSC organoid work linking CELF2 dysfunction to autism-spectrum neurocognitive phenotypes in DM1 (PMID 35767654). Because the two human reports describe ASD/autistic features as secondary findings within DEE/NDD cohorts rather than independent replicated ASD-causal studies, \"Existing\" is the most defensible category, with some weight retained for \"Established.\"</justification>\n  <pmids>\n    <pmid>33131106</pmid>\n    <pmid>42036727</pmid>\n    <pmid>37891789</pmid>\n    <pmid>38829512</pmid>\n    <pmid>40666314</pmid>\n    <pmid>42275152</pmid>\n    <pmid>34107259</pmid>\n    <pmid>35767654</pmid>\n    <pmid>38729272</pmid>\n    <pmid>33970367</pmid>\n  </pmids>\n</response>"
+}

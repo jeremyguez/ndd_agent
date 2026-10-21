@@ -1,0 +1,341 @@
+{
+ "gene": "MIDEAS",
+ "phenotype": "epileptic encephalopathy",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "developmental and epileptic encephalopathy",
+   "DEE",
+   "epileptic encephalopathies",
+   "early infantile epileptic encephalopathy",
+   "EIEE",
+   "early-onset epileptic encephalopathy",
+   "encephalopathy with epilepsy",
+   "epilepsy with encephalopathy",
+   "epileptiform encephalopathy"
+  ],
+  "broad": "",
+  "words": [
+   "epileptic",
+   "encephalopathy"
+  ],
+  "gene_names": [
+   "C14ORF117",
+   "ELMSAN1",
+   "C14ORF43",
+   "LSR68",
+   "mitotic deacetylase associated SANT domain protein"
+  ],
+  "anchors": [
+   "epileptic encephalopathy",
+   "developmental encephalopathy",
+   "seizure encephalopathy"
+  ]
+ },
+ "counts": {
+  "found": 9,
+  "titlekicksparingfulltext": 5,
+  "read": 4
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 2,
+   "Existing": 25,
+   "Hypothesized": 53,
+   "Novel": 20
+  },
+  "justification": "The only human genetic evidence is a single report of two unrelated individuals sharing the same de novo MIDEAS p.Tyr654Ser variant (PMID: 41290615), but the described phenotype is a multisystem neurodevelopmental syndrome with speech delay, joint contractures, dysmorphism and gut dysmotility \u2014 seizures or epileptic encephalopathy are not reported. The remaining papers (PMIDs 35820704, 40966515, 38781120) are purely molecular/structural studies of the MiDAC complex (HDAC1/2, DNTTIP1, MLL3/4, HIV transcription), with mouse data showing MiDAC is essential for embryonic development and neurite outgrowth, which supports only a biologically plausible, indirect link to neurodevelopmental/epileptic phenotypes. No article in this list demonstrates MIDEAS variants in patients with epileptic encephalopathy, so Established is not supportable, and Existing is only weakly supported by the neurodevelopmental overlap. The strongest justified category is Hypothesized, based on chromatin-regulatory biology and neurodevelopmental animal model data, with residual probability for Existing (neurodevelopmental syndrome as a related phenotype) and Novel (no seizure phenotype described at all).",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 25,
+   "Hypothesized": 53,
+   "Novel": 20
+  }
+ },
+ "articles": [
+  {
+   "pmid": "41290615",
+   "title": "A de novo missense variant in MIDEAS results in increased deacetylase activity of the MiDAC HDAC complex causing a neurodevelopmental syndrome.",
+   "abstract": "MIDEAS is a scaffold protein that, together with DNTTIP1, mediates assembly of the MiDAC histone deacetylase complex. Mice lacking MiDAC die before birth suggesting a key developmental function. Here, we report two unrelated individuals, with a multisystem disorder characterised by delayed speech development, joint contractures, dysmorphic features and dysmotility of the gut. Both individuals have the same de novo heterozygous missense variant in MIDEAS (p.Tyr654Ser). A cryoEM structure of the MiDAC complex reveals that this amino acid is located in a conserved auto-inhibitory loop that covers the active site of the deacetylase enzyme. We suggest that the variant results in loop displacement leading to elevated deacetylase activity. In support, we observe reciprocal gene expression changes in patient fibroblasts compared with a cell line following rapid MiDAC degradation. Our results establish MIDEAS as a dominant monogenic disease gene and that hyperactivity of the MiDAC complex results in a characteristic multisystem disorder.",
+   "found_by": [],
+   "pubdate": "2025 Nov 25",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "35820704",
+   "title": "The MLL3/4 complexes and MiDAC co-regulate H4K20ac to control a specific gene expression program.",
+   "abstract": "The mitotic deacetylase complex MiDAC has recently been shown to play a vital physiological role in embryonic development and neurite outgrowth. However, how MiDAC functionally intersects with other chromatin-modifying regulators is poorly understood. Here, we describe a physical interaction between the histone H3K27 demethylase UTX, a complex-specific subunit of the enhancer-associated MLL3/4 complexes, and MiDAC. We demonstrate that UTX bridges the association of the MLL3/4 complexes and MiDAC by interacting with ELMSAN1, a scaffolding subunit of MiDAC. Our data suggest that MiDAC constitutes a negative genome-wide regulator of H4K20ac, an activity which is counteracted by the MLL3/4 complexes. MiDAC and the MLL3/4 complexes co-localize at many genomic regions, which are enriched for H4K20ac and the enhancer marks H3K4me1, H3K4me2, and H3K27ac. We find that MiDAC antagonizes the recruitment of UTX and MLL4 and negatively regulates H4K20ac, and to a lesser extent H3K4me2 and H3K27ac, resulting in transcriptional attenuation of associated genes. In summary, our findings provide a paradigm how the opposing roles of chromatin-modifying components, such as MiDAC and the MLL3/4 complexes, balance the transcriptional output of specific gene expression programs.",
+   "found_by": [],
+   "pubdate": "2022 Nov",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40966515",
+   "title": "Mutations on the surface of HDAC1 reveal molecular determinants of specific complex assembly and their requirement for gene regulation.",
+   "abstract": "Histone deacetylase 1 and 2 (HDAC1/2) regulate histone acetylation as catalytic and structural components of six unique multiprotein complex families: SIN3, NuRD, CoREST, MIDAC, MIER, and RERE. Co-immunoprecipitation of HDAC1-Flag followed by mass spectrometry revealed that 92% of HDAC1 in mouse embryonic stem cells resides in three\u00a0complexes, NuRD (49%), CoREST (28%), and SIN3 (15%). We compared the structures of MTA1:HDAC1 and MIDEAS:HDAC1 to identify critical binding residues on the surface of HDAC1. Surprisingly, a single mutation, Y48E, disrupts binding to all complexes except SIN3. Rescue experiments performed with HDAC1-Y48E in HDAC1/2 double-knockout cells showed that retention of SIN3 binding alone is sufficient for cell viability. Gene expression and histone acetylation patterns were perturbed in both Y48E and a second mutant cell line, HDAC1-E63R, indicating that cells require a full repertoire of the HDAC1/2 complexes to regulate their transcriptome appropriately. Comparative analysis of MTA1/HDAC1 and SIN3B/HDAC2 structures confirmed the differential modes of HDAC1 recruitment, with Y48 interacting with ELM2/SANT domain-containing proteins, but not SIN3. The E63R mutation shows markedly reduced binding to NuRD and MiDAC complexes but retains some CoREST binding. We provide novel molecular insights into the abundance, co-factors and assemblies of this crucial family of chromatin modifying machines.",
+   "found_by": [],
+   "pubdate": "2025 Sep 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38781120",
+   "title": "Mitotic deacetylase complex (MiDAC) recognizes the HIV-1 core promoter to control activated viral gene expression.",
+   "abstract": "The human immunodeficiency virus (HIV) integrates into the host genome forming latent cellular reservoirs that are an obstacle for cure or remission strategies. Viral transcription is the first step in the control of latency and depends upon the hijacking of the host cell RNA polymerase II (Pol II) machinery by the 5' HIV LTR. Consequently, \"block and lock\" or \"shock and kill\" strategies for an HIV cure depend upon a full understanding of HIV transcriptional control. The HIV trans-activating protein, Tat, controls HIV latency as part of a positive feed-forward loop that strongly activates HIV transcription. The recognition of the TATA box and adjacent sequences of HIV essential for Tat trans-activation (TASHET) of the core promoter by host cell pre-initiation complexes of HIV (PICH) has been shown to be necessary for Tat trans-activation, yet the protein composition of PICH has remained obscure. Here, DNA-affinity chromatography was employed to identify the mitotic deacetylase complex (MiDAC) as selectively recognizing TASHET. Using biophysical techniques, we show that the MiDAC subunit DNTTIP1 binds directly to TASHET, in part via its CTGC DNA motifs. Using co-immunoprecipitation assays, we show that DNTTIP1 interacts with MiDAC subunits MIDEAS and HDAC1/2. The Tat-interacting protein, NAT10, is also present in HIV-bound MiDAC. Gene silencing revealed a functional role for DNTTIP1, MIDEAS, and NAT10 in HIV expression in cellulo. Furthermore, point mutations in TASHET that prevent DNTTIP1 binding block the reactivation of HIV by latency reversing agents (LRA) that act via the P-TEFb/7SK axis. Our data reveal a key role for MiDAC subunits DNTTIP1, MIDEAS, as well as NAT10, in Tat-activated HIV transcription and latency. DNTTIP1, MIDEAS and NAT10 emerge as cell cycle-regulated host cell transcription factors that can control activated HIV gene expression, and as new drug targets for HIV cure strategies.",
+   "found_by": [],
+   "pubdate": "2024 May",
+   "query_tier": "variant"
+  }
+ ],
+ "labels": {
+  "40343304": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28454334": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40588350": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34662402": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37770991": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41290615": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35820704": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40966515": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38781120": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 5.1,
+   "note": "",
+   "input_tokens": 347,
+   "output_tokens": 449,
+   "usd": 0.01296,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 403,
+   "output_tokens": 24,
+   "usd": 0.000523,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 382,
+   "output_tokens": 59,
+   "usd": 0.000677,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 21.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 596,
+   "output_tokens": 30,
+   "usd": 0.000746,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 3.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 1.3,
+   "note": "",
+   "input_tokens": 2462,
+   "output_tokens": 98,
+   "usd": 0.002952,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.8,
+   "note": "",
+   "input_tokens": 3616,
+   "output_tokens": 888,
+   "usd": 0.04028,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>25</existing>\n    <hypothesized>53</hypothesized>\n    <novel>20</novel>\n  </probabilities>\n  <justification>The only human genetic evidence is a single report of two unrelated individuals sharing the same de novo MIDEAS p.Tyr654Ser variant (PMID: 41290615), but the described phenotype is a multisystem neurodevelopmental syndrome with speech delay, joint contractures, dysmorphism and gut dysmotility \u2014 seizures or epileptic encephalopathy are not reported. The remaining papers (PMIDs 35820704, 40966515, 38781120) are purely molecular/structural studies of the MiDAC complex (HDAC1/2, DNTTIP1, MLL3/4, HIV transcription), with mouse data showing MiDAC is essential for embryonic development and neurite outgrowth, which supports only a biologically plausible, indirect link to neurodevelopmental/epileptic phenotypes. No article in this list demonstrates MIDEAS variants in patients with epileptic encephalopathy, so Established is not supportable, and Existing is only weakly supported by the neurodevelopmental overlap. The strongest justified category is Hypothesized, based on chromatin-regulatory biology and neurodevelopmental animal model data, with residual probability for Existing (neurodevelopmental syndrome as a related phenotype) and Novel (no seizure phenotype described at all).</justification>\n  <pmids>\n    <pmid>41290615</pmid>\n    <pmid>35820704</pmid>\n    <pmid>40966515</pmid>\n    <pmid>38781120</pmid>\n  </pmids>\n</response>"
+}

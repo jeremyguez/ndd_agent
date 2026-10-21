@@ -1,0 +1,831 @@
+{
+ "gene": "H2AX",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental brain disorder",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental disorder of the nervous system"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "H2AFX",
+   "H2A.X variant histone"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 82,
+  "titlekicksparingfulltext": 18,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 2,
+   "Existing": 32,
+   "Hypothesized": 51,
+   "Novel": 15
+  },
+  "justification": "The great majority of the retrieved articles use \u03b3-H2AX only as a generic biomarker of DNA double-strand breaks (PMIDs 18765297, 18772227, 24780228, 15279782, 38688170, 31267421, 33594057, 41123210), or report it as a downstream readout in models of other neurodevelopmental genes (MCM3, CECR2, MECP2) \u2014 these are citations of a marker, not evidence that H2AX variants cause disease. Functional/animal data (H2A.X knockout mESCs, Drosophila H2AV, Zscan5b) support only biological plausibility, consistent with \"Hypothesized,\" since genome-stability/DDR failure is a recognized mechanism in microcephaly and intellectual disability syndromes. The only human genetic datum is a de novo H2AFX variant listed among 89 de novo genes in a Chinese ASD/ID trio cohort (PMID 36320054), with no functional follow-up or independent replication; this is suggestive but far short of established, and could support at most a weak \"Existing.\" No article reports two or more independent probands/families with single-gene H2AX variants demonstrating causation, so Established is effectively excluded.",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 32,
+   "Hypothesized": 51,
+   "Novel": 15
+  }
+ },
+ "articles": [
+  {
+   "pmid": "42629508",
+   "title": "MCM3 Safeguards Neural Progenitor Maintenance and Cortical Development Against Replication-Associated Stress.",
+   "abstract": "Faithful genome duplication during neurogenesis relies on the licensing of surplus replication origins, and hypomorphic variants in MCM3 have been associated with microcephaly and related growth disorders. Using in utero electroporation in embryonic mouse cortex, we show that acute partial depletion of MCM3 disrupts cortical progenitor development. MCM3 knockdown reduced EdU incorporation and PCNA positivity among GFP-positive cells in the VZ, indicating decreased S-phase engagement or impaired cell-cycle progression. It also increased replication-stress-associated signals, including \u03b3-H2AX and p-RPA2(T21), but did not induce detectable cleaved caspase-3 activation. These changes were accompanied by a reduction in the population of electroporated neural progenitors, leading to decreased neuronal output. In addition, MCM3-depleted neuronal progeny showed altered radial distribution and reduced callosal axon extension. Together, these findings support a role for MCM3 in maintaining progenitor proliferative capacity and genome-stress tolerance during cortical development, and provide mechanistic insight into how partial MCM3 deficiency may contribute to microcephaly-related neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2026 Aug 21",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "39145143",
+   "title": "Modifications on histone tails in Parkinson's disease.",
+   "abstract": "This study investigates the role of histone tail modifications in Parkinson's disease (PD), emphasizing the epigenetic regulation of genes associated with the disease. PD primarily manifests in individuals over 60, suggesting that PD-causal genes remain dormant until later in life, influenced by environmental factors and epigenetic modifications. Histone modifications such as methylation, acetylation, phosphorylation, and ubiquitylation play crucial roles in gene expression regulation by altering chromatin structure or interacting with gene regulatory regions. Specifically, modifications on histones H2A, H2AX, H3, and H4 have been linked to PD. For instance, \u03b1-synuclein (\u03b1-SYN) aggregation, a hallmark of PD, is regulated by histone modifications like H3K27ac and H3K4me3, which enhance \u03b1-SYN expression and contribute to PD progression. Conversely, repressive marks like H3K9ac and H3K27me3 can mitigate PD risk by reducing \u03b1-SYN levels. Therapeutic strategies targeting these histone modifications, such as the use of GSK-J4 or vitamin C-treated neural stem cells, show potential in alleviating PD symptoms by modulating histone marks and gene expression. Understanding these epigenetic mechanisms offers promising avenues for developing novel treatments for PD.",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "31155506",
+   "title": "Zscan5b Deficiency Impairs DNA Damage Response and Causes Chromosomal Aberrations during Mitosis.",
+   "abstract": "Zygotic genome activation (ZGA) begins after fertilization and is essential for establishing pluripotency and genome stability. However, it is unclear how ZGA genes prevent mitotic errors. Here we show that knockout of the ZGA gene Zscan5b, which encodes a SCAN domain with C2H2 zinc fingers, causes a high incidence of chromosomal abnormalities in embryonic stem cells (ESCs), and leads to the development of early-stage cancers. After irradiation, Zscan5b-deficient ESCs displayed significantly increased levels of \u03b3-H2AX despite increased expression of the DNA repair genes Rad51l3 and Bard. Re-expression of Zscan5b reduced \u03b3-H2AX content, implying a role for Zscan5b in DNA damage repair processes. A co-immunoprecipitation analysis showed that Zscan5b bound to the linker histone H1, suggesting that Zscan5b may protect chromosomal architecture. Our report demonstrates that the ZGA gene Zscan5b is involved in genomic integrity and acts to promote DNA damage repair and regulate chromatin dynamics during mitosis.",
+   "found_by": [],
+   "pubdate": "2019 Jun 11",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34393157",
+   "title": "Cleavage-embryo genes and transposable elements are regulated by histone variant H2A.X.",
+   "abstract": "During mammalian preimplantation development, stimulation of zygotic genome activation (ZGA) and transposable elements (TEs) shapes totipotency profiling. A rare mouse embryonic stem cells (mESCs) subpopulation is capable of transiently entering a state resembling 2-cell stage embryos, with subtypes of TEs expressed and ZGA genes transiently activated. In this study, we found that deletion of H2A.X in mESCs led to a significant upregulation of ZGA genes and misregulated TEs. ChIP-seq analysis indicated a direct association of H2A.X at the Dux locus for silencing the Dux gene and its downstream ZGA genes in mESCs. We also demonstrated that histone variant H2A.X is highly enriched in human cleavage embryos when ZGA genes and TEs are active. Therefore, we propose that H2A.X plays an important role in regulating ZGA genes and TEs to establish totipotency.",
+   "found_by": [],
+   "pubdate": "2021 Oct 29",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31267421",
+   "title": "DNA Damage Focus Formation Assay.",
+   "abstract": "Advanced techniques allow investigating cellular DNA damage measurements. Ionizing radiation produces multiple DNA damages. Among them, DNA double strand breaks are most toxic to cells. DSBs can form mutations, chromosome aberrations, and cell killing. Although DSBs in cells can be detected directly by neutral elution, pulse field gel electrophoresis, and premature chromosome condensation, recent technologies like cellular immunocytochemistry-based fluorescence detection allow us to visualize the DSBs in cells. Here, we describe gamma-H2AX\u00a0and\u00a0Rad51 focus formation assay, which play an important role in DNA damage responses.",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33594057",
+   "title": "Positioning of nucleosomes containing \u03b3-H2AX precedes active DNA demethylation and transcription initiation.",
+   "abstract": "In addition to nucleosomes, chromatin contains non-histone chromatin-associated proteins, of which the high-mobility group proteins are the most abundant. Chromatin-mediated regulation of transcription involves DNA methylation and histone modifications. However, the order of events and the precise function of high-mobility group proteins during transcription initiation remain unclear. Here we show that high-mobility group AT-hook 2 protein (HMGA2) induces DNA nicks at the transcription start site, which are required by the histone chaperone FACT complex to incorporate nucleosomes containing the histone variant H2A.X. Further, phosphorylation of H2A.X at S139 (\u03b3-H2AX) is required for repair-mediated DNA demethylation and transcription activation. The relevance of these findings is demonstrated within the context of TGFB1 signaling and idiopathic pulmonary fibrosis, suggesting therapies against this lethal disease. Our data support the concept that chromatin opening during transcriptional initiation involves intermediates with DNA breaks that subsequently require DNA repair mechanisms to ensure genome integrity.",
+   "found_by": [],
+   "pubdate": "2021 Feb 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18765297",
+   "title": "Heat induces gammaH2AX foci formation in mammalian cells.",
+   "abstract": "H2AX is a histone variant which is present and ubiquitously distributed throughout the genome. An immunocytochemical assay using antibodies capable of recognizing histone H2AX phosphorylated at serine 139 (gammaH2AX) is very sensitive and is a specific indicator for the existence of a DNA double strand break. Although heat stress has been reported to induce the formation of gammaH2AX foci, no gammaH2AX foci formation was observed in several mammalian cell lines after heat shock. Since this was in contrast to earlier reports, the work described here was intended to verify that heat-induced gammaH2AX foci do form in mammalian cell lines other than the cell lines used in earlier reports concerning gammaH2AX foci formation. The cell lines used in this work includes cell lines with differing p53-gene status (H1299, H1299/neo, H1299/mp53 and H1299/wtp53 cells), various cancer cell lines (HeLa, HepG2, U2-OS cells), normal human cells (HEK-293 and AG1522), and cell lines established from other species (MEF normal mouse cells and CHL normal Chinese hamster cells). Exponentially growing cells were exposed to heat shock (42 degrees C for 6 h or 45.5 degrees C for 20 min) or to X-rays (3Gy). The presence of gammaH2AX was examined with immunocytochemistry and flow cytometry. Induction of gammaH2AX foci formation was observed in all of the mammalian cell lines used here after heat-treatment as well as after X-irradiation. However, the intensity of gammaH2AX was different in the different cell lines used. These results confirm that heat can induce gammaH2AX foci formation in many mammalian cell lines.",
+   "found_by": [],
+   "pubdate": "2008 Oct 30",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "24780228",
+   "title": "\u03b3-H2AX as a biomarker for DNA double-strand breaks in ecotoxicology.",
+   "abstract": "The visualisation of DNA damage response proteins enables the indirect measurement of DNA damage. Soon after the occurrence of a DNA double-strand break (DSB), the formation of \u03b3-H2AX histone variants is to be expected. This review is focused on the potential use of the \u03b3-H2AX foci assay in assessing the genotoxicity of environmental contaminants including cytostatic pharmaceuticals, since standard methods may not be sensitive enough to detect the damaging effect of low environmental concentrations of such drugs. These compounds are constantly released into the environment, potentially representing a threat to water quality, aquatic organisms, and, ultimately, human health. Our review of the literature revealed that this method could be used in the biomonitoring and risk assessment of aquatic systems affected by wastewater from the production, usage, and disposal of cytostatic pharmaceuticals.",
+   "found_by": [],
+   "pubdate": "2014 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "15279782",
+   "title": "H2AX: the histone guardian of the genome.",
+   "abstract": "At close hand to one's genomic material are the histones that make up the nucleosome. Standing guard, one variant stays hidden doubling as one of the core histones. But, thanks to its prime positioning, a variation in the tail of H2AX enables rapid modification of the histone code in response to DNA damage. A role for H2AX phosphorylation has been demonstrated in DNA repair, cell cycle checkpoints, regulated gene recombination events, and tumor suppression. In this review, we summarize what we have learned about this marker of DNA breaks, and highlight some of the questions that remain to be elucidated about the physiological role of H2AX. We also suggest a model in which chromatin restructuring mediated by H2AX phosphorylation serves to concentrate DNA repair/signaling factors and/or tether DNA ends together, which could explain the pleotropic phenotypes observed in its absence.",
+   "found_by": [],
+   "pubdate": "2004 Aug-Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18772227",
+   "title": "Gamma-H2AX in recognition and signaling of DNA double-strand breaks in the context of chromatin.",
+   "abstract": "DNA double-strand breaks (DSBs) are extremely dangerous lesions with severe consequences for cell survival and the maintenance of genomic stability. In higher eukaryotic cells, DSBs in chromatin promptly initiate the phosphorylation of the histone H2A variant, H2AX, at Serine 139 to generate gamma-H2AX. This phosphorylation event requires the activation of the phosphatidylinositol-3-OH-kinase-like family of protein kinases, DNA-PKcs, ATM, and ATR, and serves as a landing pad for the accumulation and retention of the central components of the signaling cascade initiated by DNA damage. Regions in chromatin with gamma-H2AX are conveniently detected by immunofluorescence microscopy and serve as beacons of DSBs. This has allowed the development of an assay that has proved particularly useful in the molecular analysis of the processing of DSBs. Here, we first review the role of gamma-H2AX in DNA damage response in the context of chromatin and discuss subsequently the use of this modification as a surrogate marker for mechanistic studies of DSB induction and processing. We conclude with a critical analysis of the strengths and weaknesses of the approach and present some interesting applications of the resulting methodology.",
+   "found_by": [],
+   "pubdate": "2008 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41123210",
+   "title": "Structural insights into \u03b3H2Ax containing nucleosomes.",
+   "abstract": "The phosphorylation of the histone variant H2AX on the nucleosome, yielding \u03b3H2AX, acts as a 'master control switch',\u00a0signaling the recruitment of DNA repair factors at DNA double-stranded break sites. This phosphorylation is recognized by BRCA1 carboxy-terminal (BRCT) domains of specific repair proteins. Using cryogenic electron microscopy (cryo-EM), we provide structural insights into diverse mononucleosome architectures and inter-nucleosomal interactions in the presence of H2AX, mimicking nucleosomes during DNA repair. We resolved three distinct stacked structures where the nucleosomal dyad axes and disk planes align parallel. The inter-nucleosomal interactions involve unique contacts mediated by the H4 N-terminal tail, exposed H2B elements, and DNA. Geometric analysis of stacking constraints, including published structures, reveals a tight distribution of rotational parameters around 0o, with the greatest variability in the translational parameter 'slide'. Our studies indicate that phosphorylation-dependent binding of BRCT domains with \u03b3H2AX nucleosomes disrupts stacking. However, no clear densities for BRCT proteins were observed, indicative of dynamic interactions. Molecular simulations replicate the stability of BRCT binding to \u03b3H2AX but do not indicate stable docked conformations of BRCT to nucleosome. We propose that BRCT recognition of \u03b3H2AX nucleosomes could contribute to chromatin decondensation during DNA damage signaling, exposing the nucleosomal acidic patch for repair factor recognition.",
+   "found_by": [],
+   "pubdate": "2025 Oct 14",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38688170",
+   "title": "H2AX: A key player in DNA damage response and a promising target for cancer therapy.",
+   "abstract": "Cancer is caused by a complex interaction of factors that interrupt the normal growth and division of cells. At the center of this process is the intricate relationship between DNA damage and the cellular mechanisms responsible for maintaining genomic stability. When DNA damage is not repaired, it can cause genetic mutations that contribute to the initiation and progression of cancer. On the other hand, the DNA damage response system, which involves the phosphorylation of the histone variant H2AX (\u03b3H2AX), is crucial in preserving genomic integrity by signaling and facilitating the repair of DNA double-strand breaks. This review provides an explanation of the molecular dynamics of H2AX in the context of DNA damage response. It emphasizes the crucial role of H2AX in recruiting and localizing repair machinery at sites of chromatin damage. The review explains how H2AX phosphorylation, facilitated by the master kinases ATM and ATR, acts as a signal for DNA damage, triggering downstream pathways that govern cell cycle checkpoints, apoptosis, and the cellular fate decision between repair and cell death. The phosphorylation of H2AX is a critical regulatory point, ensuring cell survival by promoting repair or steering cells towards apoptosis in cases of catastrophic genomic damage. Moreover, we explore the therapeutic potential of targeting H2AX in cancer treatment, leveraging its dual function as a biomarker of DNA integrity and a therapeutic target. By delineating the pathways that lead to H2AX phosphorylation and its roles in apoptosis and cell cycle control, we highlight the significance of H2AX as both a prognostic tool and a focal point for therapeutic intervention, offering insights into its utility in enhancing the efficacy of cancer treatments.",
+   "found_by": [],
+   "pubdate": "2024 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "28242611",
+   "title": "The role of variant histone H2AV in Drosophila melanogaster larval hematopoiesis.",
+   "abstract": "Replication-independent histone variants can replace the canonical replication-dependent histones. Vertebrates have multiple H2A variant histones, including H2AZ and H2AX that are present in most eukaryotes. H2AZ regulates transcriptional activation as well as the maintenance of gene silencing, while H2AX is important in DNA damage repair. The fruit fly Drosophila melanogaster has only one histone H2A variant (H2AV), which is a chimera of H2AZ and H2AX. In this study we found that lack of H2AV led to the formation of black melanotic masses in Drosophila third instar larvae. The formation of these masses was found in conjunction with a loss of the majority of the primary lymph gland lobes. Interestingly, the cells of the posterior signaling center were preserved in these mutants. Reduction of H2AV levels by RNAi knockdown caused a milder phenotype that preserved the lymph gland structure but that included precocious differentiation of the prohemocytes located within the medullary zone and the secondary lobes of the lymph gland. Mutant rescue experiments suggest that the H2AZ-like rather than the H2AX-like function of H2AV is primarily required for normal hematopoiesis.",
+   "found_by": [],
+   "pubdate": "2017 Apr 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16808619",
+   "title": "gamma-H2AX foci after low-dose-rate irradiation reveal atm haploinsufficiency in mice.",
+   "abstract": "We have investigated the use of the gamma-H2AX assay, reflecting the presence of DNA double-strand breaks (DSBs), as a possible means for identifying individuals who may be intermediate with respect to the extremes of hyper-radiosensitivity phenotypes. In this case, cells were studied from mice that were normal (Atm+/+), heterozygous (Atm+/-), or homozygous recessive (Atm-/-) for a truncating mutation in the Atm gene. After single acute (high-dose-rate) exposures, differences in mean numbers of gamma-H2AX foci per cell between samples from Atm+/+ and Atm-/- mice were clear at nearly all sampling times, but at no sampling time was there a clear distinction for cells from Atm+/+ and Atm+/- mice. In contrast, under conditions of low-dose-rate irradiation at 10 cGy/h, appreciable differences in the levels of gamma-H2AX foci per cell were observed in synchronized G1 cells derived from Atm+/- mice relative to cells from Atm+/+ mice. The levels were intermediate between those for cells from Atm+/+ and Atm-/- mice. After 24 h exposure at this dose rate, measurements in cells from four different mice for each genotype yielded mean frequencies of foci per cell of 1.77 +/- 0.13 (SEM) for Atm+/+ cells, 4.75 +/- 0.20 for the Atm+/- cells, and 11.10 +/- 0.33 for the Atm-/-cells. The distributions of foci per G1 cell were not significantly different from Poisson. To the extent that variations in sensitivity with respect to gamma-H2AX focus formation reflect variations in radiosensitivity for biological effects of concern, such as carcinogenesis, and that similar differences are seen for other genetic DNA DSB processing defects in general, this assay may provide a relatively straightforward means for distinguishing individuals who may be mildly hypersensitive to radiation such as we observed for Atm heterozygous mice.",
+   "found_by": [],
+   "pubdate": "2006 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41964217",
+   "title": "Heterozygous CECR2 variants support a distinct neurodevelopmental syndrome with features overlapping cat eye syndrome.",
+   "abstract": "The CECR2 histone acetyl-lysine reader facilitates chromatin remodeling and plays a significant role in neurodevelopment. It resides within the cat eye syndrome (CES) critical region at 22q11.1q11.21. An increased copy number of this region, often as tetrasomy or a supernumerary chromosome, results in CES. The complex chromosomal arrangements and phenotypic variability have hampered the identification of the true cause(s) of CES. Patients and their clinical data were collected from multiple diagnostic and research laboratories. Exome or genome sequencing was performed in affected individuals and, when available, their relatives. Here, we describe six patients with a heterozygous single-nucleotide or small insertion/deletion variant in CECR2 and their clinical features. Variants were either loss-of-function [c.1734dupC:p.(Thr580Hisfs\u221798), c.1819C>T:p.(Arg607\u2217), and c.2281C>T:p.(Arg761\u2217)] or missense in an intrinsically disordered and potentially critical region at the C terminus of the protein [c.4153C>G:p.(Gln1385Glu), c.4254C>G:p.(Phe1418Leu), and c.4283A>G:p.(Gln1428Arg)]. The main clinical features were delayed growth, relatively small head circumference, developmental delay, and speech issues/delay. Other clinical findings were variable and included intellectual disability; feeding problems; facial dysmorphism; cleft lip/palate; brain, ear, heart, or other organ abnormalities; behavioral abnormalities; and epilepsy. There was significant overlap with common CES features, including ear, heart, and brain abnormalities, intellectual disability, and growth restriction. In conclusion, we characterize a CECR2-associated neurodevelopmental disorder. The consistent molecular and clinical overlap with CES supports CECR2's role in the CES phenotype. These findings implicate diverse variant types in related neurodevelopmental disorders, underscoring CECR2's dosage sensitivity and essential function in epigenetic regulation during development. [full text, passages naming H2AX] ...enitor expansion and specification of callosal projections in the corpus callosum. 3 4 CECR2 participates in DNA repair pathways, particularly with respect to cancer cell line double-strand breaks (DSBs) via \u03b3-H2AX formation. 5 , However, more recent research shows that it is not required for DSB repair in neurospheres, i.e., three-dimensional cultures derived from embryonic neural stem cells, and therefore CECR2 may...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42199960",
+   "title": "New insights into Rett syndrome pathogenesis: defining the role of MEPC2 in DNA damage.",
+   "abstract": "Rett Syndrome (RTT), a severe neurodevelopmental disorder, is caused by mutations in the X-linked MECP2 gene, which encodes a key chromatin-modifying protein. Originally described as a transcriptional repressor due to its ability to bind methylated DNA, RTT pathology was first to the misregulation of target genes. However, we present a synthesis of recent research that could re-frame the etiology of the disease. This model proposes that MECP2 deficiency triggers a cellular stress response that is one of the direct and primary causes of RTT pathology. The central hypothesis emerging from this body of work is that the loss of MECP2 function directly impairs cellular machinery for DNA repair. This failure in genomic maintenance results in an accumulation of DNA damage, which acts as a primary trigger for a senescence response triggered by the p53 pathway. This senescent state initiates a cascade of downstream physiological deficits, including severe metabolic dysfunction, reduced dendritic branching, and impaired synaptic activity. This model represents a repositioning of RTT from a disorder of simple transcriptional misregulation to a complex pathology rooted in a fundamental failure of genomic integrity and cellular homeostasis. The findings open new, targeted therapeutic avenues and offer not only a potential mechanistic understanding of RTT, and potentially other Intellectual Disability syndromes caused by mutations in genes that act in the same pathways. [full text, passages naming H2AX] ...Direct evidence of elevated DNA damage The core pathological event triggering senescence and subsequent physiological decline in RTT appears to be an accumulation of DNA damage. Specifically, an increase in \u03b3 -H2AX foci is observed in human iPSC-derived neurons, which indicates the presence of DNA breaks. Staining for activated ATR, a protein involved in DNA break repair, is also elevated, suggesting a specific repai... ...f MECP2, providing direct evidence of physical DNA damage in these cells. More recently, we showed that neurons isolated from patients with Rett Syndrome show elevated DNA damage as measured by COMET assay and H2AX staining ( 43 ). In addition, these same neurons showed evidence of senescence detectable by snRNA-seq, consistent with in vitro -derived neurons. Furthermore, DNA repair assays demonstrate that while wild... ...tent with in vitro -derived neurons. Furthermore, DNA repair assays demonstrate that while wild-type neurons can repair DNA damage induced by UV irradiation within 4 h, MECP2-null neurons fail to do so, with \u03b3-H2AX and P53BP1 foci remaining elevated ( 44 ). This finding was important, as it suggests that the pathology is not merely an increase in damage, but a fundamental defect in the cell\u2019s ability to maintain geno...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41662332",
+   "title": "Ultrarare Variants in DNA Damage Repair and Mitochondrial Genes in Pediatric Acute-Onset Neuropsychiatric Syndrome and Acute Behavioral Regression in Neurodevelopmental Disorders.",
+   "abstract": "INTRODUCTION: We recently identified variants in 10 genes that are members of either the p53 pathway or Fanconi Anemia Complex (FAC), regulators of DNA repair (DNA damage response [DDR]) in 17 cases with pediatric acute-onset neuropsychiatric syndrome (PANS) or regression in autism spectrum disorder and other neurodevelopmental disorders (NDD). We aimed to identify additional cases with genetic vulnerabilities in DDR and related pathways. METHODS: Whole-exome sequencing (WES) and whole-genome sequencing (WGS) data from 32 individuals were filtered and analyzed to identify ultrarare pathogenic or likely pathogenic variants. RESULTS: Variants affecting DDR were found in 14 cases diagnosed with PANS or regression (CUX1, USP45, PARP14, UVSSA, EP300, TREX1, SAMHD1, STK19, MYTl1, TEP1, PIDD1, ADNP, FANCD2, and RAD54L). The CUX1 variant is de novo, as are two cases that had mutations in genes that affect mitochondrial functions that are connected directly or indirectly to mitophagy (PRKN and POLG), which can trigger the same innate immune pathways when disrupted as abnormal DDR. We also found pathogenic or likely pathogenic secondary mutations in several genes that are primarily expressed in the gut that have been implicated in gut microbiome homeostasis (e.g., LGALS4, DUOX2, CCR9). CONCLUSION: These findings align with previous genetic findings and strengthen the hypothesis that abnormal DDR and mitochondrial dysfunction underlie pathogenic processes in at least some cases of neuropsychiatric decompensation. The potential involvement of genetic variants in gut microbiome homeostasis is a novel aspect of our study. Functional characterization of the downstream impact of DDR deficits may point to novel treatment strategies. [full text, passages naming H2AX] ...aused by truncating mutations in PPM1D exons 5 or 6 that cause a gain-of-function (GOF) effect by suppressing p53 and other proteins involved in DNA damage response (DDR) (e.g., MDM2, ATM, CHK1, CHK2, ATR, and H2AX) through an increase in phosphatase activity caused by the loss of a degradation signal located in exon 6 [ 32 \u2013 36 ]. The CHK2 variant we identified in the study is a frameshift mutation that disrupts the...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39396515",
+   "title": "Ultrarare Variants in DNA Damage Repair Genes in Pediatric Acute-Onset Neuropsychiatric Syndrome or Acute Behavioral Regression in Neurodevelopmental Disorders.",
+   "abstract": "UNLABELLED: <p>Introduction: Acute onset of severe psychiatric symptoms or regression may occur in children with premorbid neurodevelopmental disorders, although typically developing children can also be affected. Infections or other stressors are likely triggers. The underlying causes are unclear, but a current hypothesis suggests the convergence of genes that influence neuronal and immunological function. We previously identified 11 genes in pediatric acute-onset neuropsychiatric syndrome (PANS), in which two classes of genes related to either synaptic function or the immune system were found. Among the latter, three affect the DNA damage response (DDR): PPM1D, CHK2, and RAG1. We now report an additional 17 cases with mutations in PPM1D and other DDR genes in patients with acute onset of psychiatric symptoms and/or regression that their clinicians classified as PANS or another inflammatory brain condition. METHODS: We analyzed genetic findings obtained from parents and carried out whole-exome sequencing on a total of 17 cases, which included 3 sibling pairs and a family with 4 affected children. RESULTS: The DDR genes include clusters affecting p53 DNA repair (PPM1D, ATM, ATR, 53BP1, and RMRP), and the Fanconi Anemia Complex (FANCE, SLX4/FANCP, FANCA, FANCI, and FANCC). We hypothesize that defects in DNA repair genes, in the context of infection or other stressors, could contribute to decompensated states through an increase in genomic instability with a concomitant accumulation of cytosolic DNA in immune cells triggering DNA sensors, such as cGAS-STING and AIM2 inflammasomes, as well as central deficits on neuroplasticity. In addition, increased senescence and defective apoptosis affecting immunological responses could be playing a role. CONCLUSION: These compelling preliminary findings motivate further genetic and functional characterization as the downstream impact of DDR deficits may point to novel treatment strategies. </p>. [full text, passages naming H2AX] ...by truncating mutations in PPM1D exons 5 or 6 that cause a gain-of-function effect by suppressing p53 and other proteins involved in the DNA damage repair response (DDR) (e.g., MDM2, ATM, CHK1, CHK2, ATR, and H2AX) [ 2 \u2013 6 ]. The high prevalence of PANS superimposed on pre-existing NDD is consistent with the observations of other groups [ 7 , 8 ]. PANS is thought to be an inflammatory disorder that primarily affects...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40324316",
+   "title": "Oxidative stress response and NRF2 signaling pathway in autism spectrum disorder.",
+   "abstract": "The prevalence of autism spectrum disorder (ASD), a neurodevelopmental disorder characterized by impairments in social communication and restricted/repetitive behavioral patterns, has increased significantly over the past few decades. The etiology of ASD involves a highly complex interplay of genetic, neurobiological, and environmental factors, contributing to significant heterogeneity in its clinical phenotype. In the evolving landscape of ASD research, increasing evidence suggests that oxidative stress, resulting from both intrinsic and extrinsic factors, may be a crucial pathophysiological driver in ASD, influencing neurodevelopmental processes that underlie behavioral abnormalities. Elevated levels of oxidative stress biomarkers, including lipid peroxides, protein oxidation products, and DNA damage markers, alongside deficient antioxidant enzyme activity, have been consistently linked to ASD. This may be attributed to dysregulated activity of nuclear factor erythroid 2-related factor 2 (NRF2), a pivotal transcription factor that maintains cellular redox homeostasis by orchestrating the expression of genes involved in antioxidant defenses. Here, we summarize the converging evidence that redox imbalance in ASD may result from NRF2 dysregulation, leading to reduced expression of its target genes. We also highlight the most promising antioxidant compounds under investigation, which may restore NRF2 activity and ameliorate ASD behavioral symptoms. [full text, passages naming H2AX] ...genotypes, indicating that this genetic variation influences NRF2 pathway activation by pharmacological agents. Additionally, the CC genotype was associated with increased DNA damage, demonstrated by elevated H2AX levels, but lower plasma 8-oxodG levels, which may reflect differences in DNA repair mechanisms. Consistent with these findings, CC carriers also exhibited a higher cfDNA-to-nuclease activity ratio, sugges... ...hese findings, CC carriers also exhibited a higher cfDNA-to-nuclease activity ratio, suggesting impaired clearance of damaged DNA. Moreover, a correlation between adaptive genotoxic responses, assessed through H2AX, and NRF2-mediated cytoprotection was observed in T+ carriers but not in CC carriers, indicating a disruption in oxidative stress responses in individuals with the CC genotype. These findings suggest that...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36320054",
+   "title": "De novo mutations within metabolism networks of amino acid/protein/energy in Chinese autistic children with intellectual disability.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is often accompanied by intellectual disability (ID). Despite extensive studies, however, the genetic basis for this comorbidity is still not clear. In this study, we tried to develop an analyzing pipeline for de novo mutations and possible pathways related to ID phenotype in ASD. Whole-exome sequencing (WES) was performed to screen de novo mutations and candidate genes in 79 ASD children together with their parents (trios). The de novo altering genes and relative pathways which were associated with ID phenotype were analyzed. The connection nodes (genes) of above pathways were selected, and the diagnostic value of these selected genes for ID phenotype in the study population was also evaluated. RESULTS: We identified 89 de novo mutant genes, of which 34 genes were previously reported to be associated with ASD, including double hits in the EGF repeats of NOTCH1 gene (p.V999M and p.S1027L). Interestingly, of these 34 genes, 22 may directly affect intelligence quotient (IQ). Further analyses revealed that these IQ-related genes were enriched in protein synthesis, energy metabolism, and amino acid metabolism, and at least 9 genes (CACNA1A, ALG9, PALM2, MGAT4A, PCK2, PLEKHA1, PSME3, ADI1, and TLE3) were involved in all these three pathways. Seven patients who harbored these gene mutations showed a high prevalence of a low IQ score (&lt;\u200970), a non-verbal language, and an early diagnostic age (&lt;\u20094\u00a0years). Furthermore, our panel of these 9 genes reached a 10.2% diagnostic rate (5/49) in early diagnostic patients with a low IQ score and also reached a 10% diagnostic yield in those with both a low IQ score and non-verbal language (4/40). CONCLUSION: We found some new genetic disposition for ASD accompanied with intellectual disability in this study. Our results may be helpful for etiologic research and early diagnoses of intellectual disability in ASD. Larger population studies and further mechanism studies are warranted. [full text, passages naming H2AX] ...https://www.ncbi.nlm.nih.gov/gap/ OMIM: Online Mendelian Inheritance in Man https://www.ncbi.nlm.nih.gov/omim Additionally, there were other eight de novo altering genes reported in mental diseases ( KCNJ13 , H2AFX , ZYX , MAST2 , MARK2 , ADI1 , PLEKHA1 , and PCK2 ) [ 61 \u2013 64 ], and four ones associated with developmental diseases ( PDE3B , PIEZO1 , HEYL , and CELSR1 ) [ 65 \u2013 67 ]. We then further compared de novo m... ...ing CB, CBC, HIP, STR, AMY, and PIT) were defined by RPKM > 5 (BrainSpan: CB, CBC, HIP, STR, AMY) or top 25% expression (BrainStars: PIT). We found that the genes involved in protein synthesis, such as YWHAQ , H2AFX , CDH2 , and KIF1A/KIF5C , were highly expressed in different brain regions at all periods (Additional file 1 : Figure S3). As for the genes were involved in energy metabolism, such as PSMES , SEC31A , an... ...ism, such as PSMES , SEC31A , and WDTC1 , their expressions were not significantly varied in different brain regions at various periods (Additional file 1 : Figure S4). Neither the genes involved in pressure ( H2AFX , CDH2 , KIF5C , PSMES , and PTPRM , Additional file 1 : Figure S5), nor those involved in amino acid metabolism ( PTPRM , Additional file 1 : Figure S6), or development ( YWHAQ , CDH2 , and KIF1A/KIF5C ,...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "31445935": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36434400": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32052850": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36233258": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35887093": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26848527": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25288776": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31073151": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33508628": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26756218": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17263595": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19820456": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32380123": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32714044": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24374569": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29684114": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29086685": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25815686": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42629508": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32840768": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39145143": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35137086": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31155506": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20130602": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28914798": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31029541": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18610740": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34393157": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31267421": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33594057": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18765297": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24780228": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15279782": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18772227": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41123210": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38688170": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28242611": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16808619": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20150765": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35163494": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39229096": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18066089": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23772364": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28192606": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33264433": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26096928": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28898696": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16940359": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28242625": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25179679": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18604166": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19707781": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35331626": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38644217": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14718568": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20493860": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16772334": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25150594": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14530383": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41964217": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42199960": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41662332": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41751513": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42439223": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41601423": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42131344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41714361": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37087635": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36724785": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39396515": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39396010": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38331934": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40938932": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34601997": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36041817": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42315748": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39500888": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37916443": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40324316": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36320054": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37467750": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36884289": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "23 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3346,
+   "output_tokens": 132,
+   "usd": 0.004006,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 56.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.5,
+   "note": "",
+   "input_tokens": 33619,
+   "output_tokens": 1478,
+   "usd": 0.041009,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.9,
+   "note": "",
+   "input_tokens": 14074,
+   "output_tokens": 1118,
+   "usd": 0.09832,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>32</existing>\n    <hypothesized>51</hypothesized>\n    <novel>15</novel>\n  </probabilities>\n  <justification>The great majority of the retrieved articles use \u03b3-H2AX only as a generic biomarker of DNA double-strand breaks (PMIDs 18765297, 18772227, 24780228, 15279782, 38688170, 31267421, 33594057, 41123210), or report it as a downstream readout in models of other neurodevelopmental genes (MCM3, CECR2, MECP2) \u2014 these are citations of a marker, not evidence that H2AX variants cause disease. Functional/animal data (H2A.X knockout mESCs, Drosophila H2AV, Zscan5b) support only biological plausibility, consistent with \"Hypothesized,\" since genome-stability/DDR failure is a recognized mechanism in microcephaly and intellectual disability syndromes. The only human genetic datum is a de novo H2AFX variant listed among 89 de novo genes in a Chinese ASD/ID trio cohort (PMID 36320054), with no functional follow-up or independent replication; this is suggestive but far short of established, and could support at most a weak \"Existing.\" No article reports two or more independent probands/families with single-gene H2AX variants demonstrating causation, so Established is effectively excluded.</justification>\n  <pmids>\n    <pmid>36320054</pmid>\n    <pmid>34393157</pmid>\n    <pmid>42629508</pmid>\n    <pmid>42199960</pmid>\n    <pmid>41964217</pmid>\n    <pmid>28242611</pmid>\n    <pmid>38688170</pmid>\n    <pmid>15279782</pmid>\n    <pmid>41662332</pmid>\n    <pmid>39396515</pmid>\n  </pmids>\n</response>"
+}

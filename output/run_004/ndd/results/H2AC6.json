@@ -1,0 +1,72 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 1,
+    "biological": 6
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Wang et al. 2020 - Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders (PMID: 33004838)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified; de novo missense variants (dnMIS) enriched in H2AC6 in the NDD cohort. No individual variant notations provided in the available text.",
+            "type": "missense",
+            "phenotypes": [
+              "Neurodevelopmental disorder (NDD)/autism cohort; no per-patient phenotypes reported"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Statistical excess of de novo missense mutations in H2AC6 (dnMIS q = 0.053, FDR 5%) in a large NDD trio cohort; gene was also selected as a CNV candidate. No per-patient clinical evaluation was provided.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Tribulus terrestris L. protects glomerular endothelial cells via the miR155-H2AC6 interaction network in hypertensive renal injury (PMID: 34926670)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In an AngII-induced hypertensive renal injury model in glomerular endothelial cells, integrated miRNA/mRNA profiling and qRT-PCR showed that miR-155-5p expression was negatively correlated with H2AC6. TrT treatment raised miR-155-5p, which negatively regulates H2AC6 expression, so H2AC6 is proposed as a candidate therapeutic target.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unveiling the Therapeutic Potential of Baicalin in Intervertebral Disc Degeneration: Integrative Bulk and Single-Cell Transcriptome Analysis with Experimental Validation of PANoptosis Inhibition (PMID: 40463856)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was one of five core PANoptosis-related genes (with FOS, CASP1, H1-2, BCL2L11) significantly upregulated in degenerated discs. This was validated in clinical samples, an IL-1\u03b2-induced NPC model and a rat puncture IVDD model. Baicalin downregulated H2AC6 at the mRNA and protein levels.",
+        "sample_size": null,
+        "significance": "significantly upregulated (exact p-value not given in abstract)"
+      },
+      {
+        "citation": "Inhibition of lactylation by LRP1 expression increases the risk of intervertebral disc degeneration: A multi-omics summary-based Mendelian randomization analysis (PMID: 40988222)",
+        "evidence_subtype": "GWAS",
+        "summary": "In SMR analysis using eQTL and IVDD GWAS data, higher genetically predicted H2AC6 expression was positively associated with IVDD risk. H2AC6 is a lactylation-related gene. It did not remain among the final mQTL-eQTL-integrated genes (KAT5, CEACAM6, LRP1).",
+        "sample_size": null,
+        "significance": "p_SMR < 0.05 and p_HEIDI > 0.01"
+      },
+      {
+        "citation": "Global comparative transcriptomes uncover novel and population-specific gene expression in esophageal squamous cell carcinoma (PMID: 37641095)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 was identified as a novel differentially expressed gene in ESCC across populations. TCGA survival analysis marked it as one of three genes (with CHRM3 and CREG2) critical for ESCC survival, making it a potential diagnostic or prognostic biomarker.",
+        "sample_size": "six global populations (microarray datasets); TCGA for survival",
+        "significance": null
+      },
+      {
+        "citation": "Mitochondrial metabolism and succinylation-related gene signatures for predicting prognosis and drug resistance in colon adenocarcinoma (PMID: 42176930)",
+        "evidence_subtype": "expression",
+        "summary": "H2AC6 is one of two hub genes (with MC1R) in a prognostic model for COAD. It was an independent prognostic factor, and its expression pattern was consistent across single-cell sequencing and qRT-PCR. The model's gene set was enriched for protein heterodimerization and neutrophil extracellular trap formation.",
+        "sample_size": "TCGA-COAD 524 samples; GSE38832 external validation",
+        "significance": "3-year ROC AUC 0.665"
+      },
+      {
+        "citation": "Serum extracellular vesicle RNA profiles in long COVID: insights from exercise-induced gene modulation (PMID: 41588020)",
+        "evidence_subtype": "expression",
+        "summary": "After exercise training, H2AC6 transcript in serum extracellular vesicles was among the top 5 downregulated genes at peak exercise compared with rest in long COVID patients. The downregulated genes were linked to inflammation and metabolism.",
+        "sample_size": "14 adults with long COVID",
+        "significance": "q < 0.05"
+      }
+    ]
+  }
+}

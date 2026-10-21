@@ -1,0 +1,162 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Germ Cell-Specific Retinoic Acid Receptor \u03b1 Functions in Germ Cell Organization, Meiotic Integrity, and Spermatogonia (PMID: 30099545)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "germ cell-specific Rara deletion",
+          "reduced epididymal sperm counts",
+          "disorganized germ cell layers in seminiferous tubules, worsening with age",
+          "abnormal tubules lacking lumen, with vacuoles and massive germ cell sloughing, similar to Rara-null tubules",
+          "impaired synaptonemal complex integrity and meiotic progression",
+          "decreased initiation of spermatogenesis from spermatogonial stem cells after busulfan treatment (reduced spermatogonial proliferation)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Retinoic acid induces Sertoli cell paracrine signals for spermatogonia differentiation but cell autonomously drives spermatocyte meiosis (PMID: 23012458)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "somatic genetic ablations of RA synthesis and signaling in Sertoli cells, including Rara",
+          "RARA in Sertoli cells mediates RA effects on differentiation of A aligned into A1 spermatogonia, possibly via Mafb expression",
+          "RA-dependent control of Stra8 expression and meiotic initiation in spermatocytes",
+          "RA of Sertoli cell origin is essential for spermiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Retinoic acid receptor antagonists for male contraception: current status (PMID: 32671394)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "review noting that global Rara knockout validates RARA as a male contraceptive target",
+          "RARA activity is indispensable for spermatogenesis",
+          "pan-RAR and RARA-selective antagonists (BMS-189453, BMS-189532, BMS-189614) cause reversible spermatogenic disruption in mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The bile acid-activated retinoic acid response in dendritic cells is involved in food allergen sensitization (PMID: 34365653)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "DC-specific Rara knockout (DC KO Rara)",
+          "RA signaling in DCs is required for food allergen-specific IgE and IgG1 production",
+          "bile acid-activated RA signaling promotes DC interferon I signature, OX40L and PDL2 upregulation, and Th2 differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Bacterial Quorum Sensing Molecules Promote Allergic Airway Inflammation by Activating the Retinoic Acid Response (PMID: 32622265)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "DC-specific Rara knockout diminished the AHL-stimulated type 2 immune response (IgE and IgG1 production)",
+          "reduced AHL-driven allergic airway inflammation and Th2 differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zhang et al. 2015 - MicroRNA-27a Contributes to Rhabdomyosarcoma Cell Proliferation by Suppressing RARA and RXRA (PMID: 25915942)",
+        "evidence_subtype": "cell_culture",
+        "summary": "miR-27a is up-regulated in translocation-positive alveolar RMS cell lines and targets RARA and RXRA. Overexpressing miR-27a increased proliferation and reduced the fraction of cells in G1. This links RARA suppression to cell cycle control.",
+        "sample_size": "8 RMS cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Clearance of PML/RARA-bound promoters suffice to initiate APL differentiation (PMID: 25258343)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RXRA is a coreceptor of the PML/RARA fusion and promotes its efficient DNA binding. Ablating retinoid X receptors loosens PML/RARA DNA binding and induces terminal differentiation of APL cells ex vivo and in vivo. RXRA sumoylation contributes to PML/RARA-dependent transformation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FTO Plays an Oncogenic Role in Acute Myeloid Leukemia as a N(6)-Methyladenosine RNA Demethylase (PMID: 28017614)",
+        "evidence_subtype": "cell_culture",
+        "summary": "FTO is an m6A demethylase that regulates RARA and ASB2 mRNA by reducing m6A levels in the transcripts. Through this, FTO inhibits ATRA-induced differentiation of AML cells. FTO is highly expressed in t(15;17)/PML-RARA AMLs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional multiomics reveals genetic and pharmacologic regulation of surface CD38 in multiple myeloma (PMID: 40453054)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Genome-wide CRISPRi screens in myeloma cells confirmed RARA as a known regulator of surface CD38. All-trans retinoic acid specifically upregulated CD38 in the integrated transcriptome and surface proteome data.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting ALDH1A1 to enhance the efficacy of KRAS-targeted therapy through ferroptosis (PMID: 39317105)",
+        "evidence_subtype": "pathway",
+        "summary": "ALDH1A1 boosts retinoic acid synthesis and improves RARA function. This contributes to resistance to KRAS inhibitors by counteracting ferroptosis, together with activation of the CREB1/GPX4 pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Dysregulation of the ALDH1A3/PML-RAR\u03b1 axis promotes the progression of acute promyelocytic leukemia (PMID: 41580016)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ALDH1A3 cooperates with MAZ to transcriptionally repress PML-RAR\u03b1 expression, shown by ChIP, luciferase reporter assays and EMSA. PML-RAR\u03b1 in turn increases methylation of the ALDH1A3 promoter and suppresses its expression in APL patients. This reciprocal repression correlates with clinical remission.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression and function of PML-RARA in the hematopoietic progenitor cells of Ctsg-PML-RARA mice (PMID: 23056333)",
+        "evidence_subtype": "expression",
+        "summary": "In Ctsg-PML-RARA mice, PML-RARA is expressed in KLS hematopoietic stem/progenitor cells as well as in CMPs, GMPs and promyelocytes. It alters the transcriptional signature of these cells and affects multilineage repopulation, but does not induce promyelocyte self-renewal.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Function of PML-RARA in Acute Promyelocytic Leukemia (PMID: 39017850)",
+        "evidence_subtype": "function",
+        "summary": "The PML-RARA fusion deregulates transcriptional control of RAR targets involved in self-renewal and myeloid differentiation and disrupts PML nuclear bodies. Its target genes are not uniformly repressed; some are upregulated or unchanged. RA and arsenic target the fusion's transcriptional deregulation and its protein stability.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Novel treatment of acute promyelocytic leukemia: As2O3, retinoic acid and retinoid pharmacology (PMID: 24433507)",
+        "evidence_subtype": "function",
+        "summary": "PML/RARa acts as a strong transcriptional repressor of the RAR complex at RAREs by recruiting N-CoR, SMRT and HDACs. High-dose RA relieves this repression and promotes degradation of the fusion. Wild-type RARa is upregulated and PML nuclear bodies relocalize.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Indeno[1,2,3-cd]pyrene and picene mediate actions via estrogen receptor \u03b1 signaling pathway in in vitro cell systems, altering gene expression (PMID: 32251684)",
+        "evidence_subtype": "expression",
+        "summary": "In MCF-7 cells, the PAHs indeno[1,2,3-cd]pyrene and picene downregulated RARA among 14 ESR1-regulated genes, as shown by RNA sequencing.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

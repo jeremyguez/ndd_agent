@@ -1,0 +1,762 @@
+{
+ "gene": "ATRN",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental brain disorder",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "MGCA",
+   "DPPT-L",
+   "attractin"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 68,
+  "titlekicksparingfulltext": 20,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 10,
+   "Existing": 62,
+   "Hypothesized": 26,
+   "Novel": 2
+  },
+  "justification": "The only direct human genetic evidence linking ATRN variants to a neurodevelopmental phenotype is a single consanguineous family in which two sibs with hypomyelinating leukodystrophy (developmental delay, hypotonia, spasticity, intellectual disability) carried a homozygous splice variant (PMID 28493104); this is one family, not independent replication, so Established cannot be supported. A second human report describes ATRN mutations and reduced expression in psychiatric (schizophrenia) subjects, but the mechanistic work is in zebrafish and the phenotype is not classic NDD (PMID 34869343). Remaining support is strong but non-human or functional: mouse mahogany and rat zitter/mv attractin mutants show CNS hypomyelination, vacuolation and neurodegeneration (PMIDs 11209055, 19931230, 17196964, 10086356), and in vitro neurite assays (PMID 12230323). Several cited CNV/array papers only include ATRN within multigene 20p13 deletions/duplications or mention it incidentally, which cannot single out the gene. Hence Existing is most probable, with substantial residual weight on Hypothesized given the predominance of animal data.",
+  "pmids": [],
+  "detail": {
+   "Established": 10,
+   "Existing": 62,
+   "Hypothesized": 26,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "28493104",
+   "title": "Hypomyelinating leukodystrophy associated with a deleterious mutation in the ATRN gene.",
+   "abstract": "Hypomyelinating leukodystrophies are a group of neurodevelopmental disorders that affect proper formation of the myelin sheath in the central nervous system. They are characterized by developmental delay, hypotonia, spasticity, and variable intellectual disability. We used whole exome analysis to study the molecular basis of hypomyelinating leukodystrophy in two sibs from a consanguineous family. A homozygous mutation, c.3068+5G>A, was identified in the ATRN gene, with the consequent insertion of an intronic sequence into the patients' cDNA and a predicted premature termination of the ATRN polypeptide. ATRN encodes Attractin, which was previously shown to play a critical role in central myelination. Several spontaneous ATRN rodent mutants exhibited impaired myelination which was attributed to oxidative stress and accelerated apoptosis. ATRN can now be added to the growing list of genes associated with hypomyelinating leukodystrophy. The disease seems to be confined to the CNS; however, given the young age of our patients, longer follow-up may be required.",
+   "found_by": [],
+   "pubdate": "2017 Jul",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "36898611",
+   "title": "The use of data independent acquisition based proteomic analysis and machine learning to reveal potential biomarkers for autism spectrum disorder.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurological developmental disorder in children, and is associated with social isolation and restricted interests. The etiology of this disorder is still unknown. There is neither any confirmed laboratory test nor any effective therapeutic strategy to diagnose or cure it. We performed data independent acquisition (DIA) and multiple reaction monitoring (MRM) analysis of plasma from children with ASD and controls. The result showed that 45 differentially expressed proteins (DEPs) were identified between autistic subjects and controls. Among these, only one DEP was down-regulated in ASD; other DEPs were up-regulated in ASD children's plasma. These proteins are found associated with complement and coagulation cascades, vitamin digestion and absorption, cholesterol metabolism, platelet degranulation, selenium micronutrient network, extracellular matrix organization and inflammatory pathway, which have been reported to be related to ASD. After MRM verification, five key proteins in complement pathway (PLG, SERPINC1, and A2M) and inflammatory pathway (CD5L, ATRN, SERPINC1, and A2M) were confirmed to be significantly up-regulated in ASD group. Through the screening of machine learning model and MRM verification, we found that two proteins (biotinidase and carbonic anhydrase 1) can be used as early diagnostic markers of ASD (AUC\u00a0=\u00a00.8, p\u00a0=\u00a00.0001). SIGNIFICANCE: ASD is the fastest growing neurodevelopmental disorder in the world and has become a major public health problem worldwide. Its prevalence has been steadily increasing, with a global prevalence rate of 1%. Early diagnosis and intervention can achieve better prognosis. In this study, data independent acquisition (DIA) and multiple reaction monitoring (MRM) analysis was applied to analyze the plasma proteome of ASD patients (31 (\u00b15) months old), and 378 proteins were quantified. 45 differentially expressed proteins (DEPs) were identified between the ASD group and the control group. They mainly were associated with platelet degranulation, ECM proteoglycar, complement and coagulation cascades, selenium micronutrient network, regulation of insulin-like growth factor (IGF) transport and uptake by insulin-like growth factor binding proteins (IGFBPs), cholesterol metabolism, vitamin metabolism, and inflammatory pathway. Through the integrated machine learning methods and the MRM verification of independent samples, it is considered that biotinidase and carbon anhydrase 1 have the potential to become biomarkers for the early diagnosis of ASD. These results complement proteomics database of the ASD patients, broaden our understanding of ASD, and provide a panel of biomarkers for the early diagnosis of ASD.",
+   "found_by": [],
+   "pubdate": "2023 Apr 30",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "11150734",
+   "title": "Mahogany/attractin: en route from phenotype to function.",
+   "abstract": "The mouse mahogany mutation affects melanocortin signaling pathways that regulate energy homeostasis and hair color. The gene mutated in mahogany mice encodes attractin, a large transmembrane protein that is broadly expressed and conserved among multicellular animals. Mouse attractin is likely to have additional roles outside melanocortin signaling, and cloning of the gene provides information that can be used to form testable hypotheses about its biochemical function.",
+   "found_by": [],
+   "pubdate": "2000 Feb",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12230323",
+   "title": "Human secreted attractin disrupts neurite formation in differentiating cortical neural cells in vitro.",
+   "abstract": "Mutations at the Atrn locus that encodes a transmembrane protein with a large ectodomain are responsible for a juvenile-onset neurodegeneration manifest as hypomyelination and cerebral vacuole development in several rodent species. In addition to a membrane isoform, the human Atm locus generates by alternative splicing a secreted form corresponding to the entire ectodomain that then circulates at high concentration in the periphery, released in part by activated T lymphocytes. We report here that the secreted form mRNA is downregulated throughout representative discrete regions of the human brain while membrane attractin mRNA is well represented, resulting in the apparent absence of secreted attractin protein in cerebrospinal fluid (CSF). Transcription of attractin secreted form mRNA is strongly downregulated upon differentiation of a human cortical neuron-derived cell line (HCN-1A) to a mature neuron phenotype in response to nerve growth factor. Recombinant secreted attractin disrupts neurite formation by differentiated HCN-1A cells, resulting in higher levels of branching with shorter processes. This effect is duplicated by anti-attractin and by human serum but not by human serum depleted of attractin or by CSF We propose that inappropriate expression of secreted attractin in the CNS blocks membrane attractin function and that its presence, either by leakage from the periphery, aberrant transcription, or release from inflammatory foci may affect neuron extracellular interactions leading to neurodegeneration in the human.",
+   "found_by": [],
+   "pubdate": "2002 Sep",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12851328",
+   "title": "Accessory proteins for melanocortin signaling: attractin and mahogunin.",
+   "abstract": "Switching from eumelanin to pheomelanin synthesis during hair growth is accomplished by transient synthesis of Agouti protein, an inverse agonist for the melanocortin-1 receptor (Mc1r). The coat color mutations mahogany and mahoganoid prevent hair follicle melanocytes from responding to Agouti protein. The gene mutated in mahogany, which is also known as Attractin (Atrn), encodes a type I transmembrane protein that functions as an accessory receptor for Agouti protein. We have recently determined that the gene mutated in mahoganoid, which is also known as Mahogunin (Mgrn1), encodes an E3 ubiquitin ligase. Like Attractin, Mahogunin is conserved in invertebrate genomes, and its absence causes a pleiotropic phenotype that includes spongiform neurodegeneration.",
+   "found_by": [],
+   "pubdate": "2003 Jun",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12560552",
+   "title": "Spongiform degeneration in mahoganoid mutant mice.",
+   "abstract": "mahoganoid is a mouse coat-color mutation whose pigmentary phenotype and genetic interactions resemble those of Attractin (Atrn). Atrn mutations also cause spongiform neurodegeneration. Here, we show that a null mutation for mahoganoid causes a similar age-dependent neuropathology that includes many features of prion diseases but without accumulation of protease-resistant prion protein. The gene mutated in mahoganoid encodes a RING-containing protein with E3 ubiquitin ligase activity in vitro. Similarities in phenotype, expression, and genetic interactions suggest that mahoganoid and Atrn genes are part of a conserved pathway for regulated protein turnover whose function is essential for neuronal viability.",
+   "found_by": [],
+   "pubdate": "2003 Jan 31",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "11209055",
+   "title": "Attractin/mahogany/zitter plays a critical role in myelination of the central nervous system.",
+   "abstract": "The rat zitter (zi) mutation induces hypomyelination and vacuolation in the central nervous system (CNS), which result in early-onset tremor and progressive flaccid paresis. By positional cloning, we found a marked decrease in Attractin (Atrn) mRNA in the brain of the zi/zi rat and identified zi as an 8-bp deletion at a splice donor site of Atrn. Atrn has been known to play multiple roles in regulating physiological processes that are involved in monocyte-T cell interaction, agouti-related hair pigmentation, and control of energy homeostasis. Rat Atrn gene encoded two isoforms, a secreted and a membrane form, as a result of alternative splicing. The zi mutation at the Atrn locus darkened coat color when introduced into agouti rats, as also described in mahogany (mg) mice, carrying the homozygous mutation at the Atrn locus. Transgenic rescue experiments showed that the membrane-type Atrn complemented both neurological alteration and abnormal pigmentation in zi/zi rats, but that the secreted-type Atrn complemented neither mutant phenotype. Furthermore, we discovered that mg mice exhibited hypomyelination and vacuolation in the CNS associated with body tremor. We conclude from these results that the membrane Atrn has a critical role in normal myelination in the CNS and would provide insights into the physiology of myelination as well as the etiology of myelin diseases.",
+   "found_by": [],
+   "pubdate": "2001 Jan 16",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "17261078",
+   "title": "Does human attractin have DP4 activity?",
+   "abstract": "Mutations in the mouse ATRN gene, which encodes attractin, offer links between this protein and pigmentation, metabolism, immune status and neurodegeneration. However, the mechanisms of attractin action are not understood. The protein was first identified in humans in a circulating form in serum. A protease activity was postulated similar to the membrane-bound ectoenzyme DP4/CD26. In the last decade, both DP4/CD26 and attractin were controversially described to be the major source of human serum DP4 activity. We purified attractin from human plasma, and found that the DP4-like activity of the preparation shows nearly identical kinetic properties to that of recombinant human DP4. In contrast, the native electrophoretic behavior of this activity is clearly different from human and porcine DP4, but co-migrates with the protein band identified as attractin by Western blotting and N-terminal sequencing. Nevertheless, a DP4 impurity could be demonstrated in purified plasma attractin and the activity could be removed by ADA affinity chromatography, resulting in a homogenous attractin preparation without DP4 activity. These results are substantiated by expression of different attractin isoforms, in which no DP4 activity was found either. This indicates that the multidomain protein attractin acts as a receptor or adhesion protein rather than a protease.",
+   "found_by": [],
+   "pubdate": "2007 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "12438443",
+   "title": "The mouse mahoganoid coat color mutation disrupts a novel C3HC4 RING domain protein.",
+   "abstract": "The mouse coat color mutant mahoganoid (md) darkens coat color and decreases the obesity of A(y) mice that ectopically overexpress agouti-signaling protein. The phenotypic effects of md are similar to those of the recently identified coat color mutant mahogany (Atrn(mg)). We report the positional cloning of mahoganoid, encoding a novel 494-amino acid protein containing a C3HC4 RING (really interesting new gene) domain that may function as an E3 ubiquitin ligase. The mutations in the mahoganoid allelic series (md, md(2J), md(5J)) are all due to large retroviral insertions. In md and md(2J), the result is minimal expression of the normal size transcripts in all tissues examined. Unlike Atrn(mg/)Atrn(mg) animals, we observe no evidence of neurological deficit or neuropathology in md/md mice. Body weight and body mass index (a surrogate for adiposity) measurements of B6.C3H-md-A md/+ and md/md animals on 9% and 45% kcal fat diets indicate that mahoganoid does not suppress body weight in B6.C3H animals in a gene dose-dependent fashion. Mahoganoid effects on energy homeostasis are, therefore, most evident in the circumstances of epistasis to hypothalamic overexpression of ASP in A(y) and possible other obesity-causing mutations.",
+   "found_by": [],
+   "pubdate": "2002 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17196964",
+   "title": "Juvenile-onset loss of lipid-raft domains in attractin-deficient mice.",
+   "abstract": "Mutations at the attractin (Atrn) locus in mice result in altered pigmentation on an agouti background, higher basal metabolic rate and juvenile-onset hypomyelination leading to neurodegeneration, while studies on human immune cells indicate a chemotaxis regulatory function. The underlying biochemical defect remains elusive. In this report we identify a role for attractin in plasma membrane maintenance. In attractin's absence there is a decline in plasma membrane glycolipid-enriched rafts from normal levels at 8 weeks to a complete absence by 24 weeks. The structural integrity of lipid rafts depends upon cholesterol and sphingomyelin, and can be identified by partitioning within of ganglioside GM(1). Despite a significant fall in cellular cholesterol with maturity, and a lesser fall in both membrane and total cellular GM(1), these parameters lag behind raft loss, and are normal when hypomyelination/neurodegeneration has already begun thus supporting consequence rather than cause. These findings can be recapitulated in Atrn-deficient cell lines propagated in vitro. Further, signal transduction through complex membrane receptor assemblies is not grossly disturbed despite the complete absence of lipid rafts. We find these results compatible with a role for attractin in plasma membrane maintenance and consistent with the proposal that the juvenile-onset hypomyelination and neurodegeneration represent a defect in attractin-mediated raft-dependent myelin biogenesis.",
+   "found_by": [],
+   "pubdate": "2007 Feb 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "10086356",
+   "title": "The mouse mahogany locus encodes a transmembrane form of human attractin.",
+   "abstract": "Agouti protein and agouti-related protein are homologous paracrine signalling molecules that normally regulate hair colour and body weight, respectively, by antagonizing signalling through melanocortin receptors. Expression of Agouti is normally limited to the skin, but rare alleles from which Agouti is expressed ubiquitously, such as lethal yellow, have pleiotropic effects that include a yellow coat, obesity, increased linear growth, and immune defects. The mahogany (mg) mutation suppresses the effects of lethal yellow on pigmentation and body weight, and results of our previous genetic studies place mg downstream of transcription of Agouti but upstream of melanocortin receptors. Here we use positional cloning to identify a candidate gene for mahogany, Mgca. The predicted protein encoded by Mgca is a 1,428-amino-acid, single-transmembrane-domain protein that is expressed in many tissues, including pigment cells and the hypothalamus. The extracellular domain of the Mgca protein is the orthologue of human attractin, a circulating molecule produced by activated T cells that has been implicated in immune-cell interactions. These observations provide new insight into the regulation of energy metabolism and indicate a molecular basis for crosstalk between melanocortin-receptor signalling and immune function.",
+   "found_by": [],
+   "pubdate": "1999 Mar 11",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19931230",
+   "title": "Abnormal myelinogenesis both in the white and gray matter of the attractin-deficient mv rat.",
+   "abstract": "The myelin vacuolation (mv) rat exhibits hypomyelination and vacuole formation in the myelin throughout the CNS, caused by a null mutation in the attractin gene. Myelin alterations in the spinal cord of mv rats progress during postnatal development and are more prominent in the white matter. In contrast, microglial activation is confined to the gray matter of mv rats. We here investigate the distribution and expression patterns of major CNS myelin proteins in the spinal cord of mv rats during the development of the myelin lesions. Immunohistochemical and Western blot analyses demonstrated a considerable reduction in the expression of major CNS myelin proteins both in the white and gray matter of mv rats, which was consistent with the morphological alterations of myelin sheaths. Real-time PCR analysis revealed a significant decrease in expression of proteolipid protein (PLP) mRNA both in the white and gray matter of mv rats. However, there was no significant difference between control and mv rats in the cell number of PLP mRNA-positive oligodendrocytes either in the white or gray matter, suggesting an impairment of myelin protein production by oligodendrocytes. Our results indicate that myelinogenesis but not oligodendrogenesis is severely altered both in the white and gray matter of mv rats.",
+   "found_by": [],
+   "pubdate": "2010 Feb 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34869343",
+   "title": "Attractin Participates in Schizophrenia by Affecting Testosterone Levels.",
+   "abstract": "Attractin (ATRN) is a widely expressed glycoprotein that is involved in energy homeostasis, neurodevelopment, and immune response. It is encoded by a gene spanning 180 kb on chromosome 20p13, a region previously implicated in schizophrenia by linkage studies. To address a possible role of ATRN in disorders of the central nervous system, we created an atrn knockout zebrafish line and performed behavioral tests. Adult atrn-/- zebrafish exhibited more pronounced attack behavior relative to wild-type control zebrafish in a tracking analysis. Biochemical analysis revealed elevated testosterone levels in atrn-/- zebrafish. At the gene expression level, we noted an upregulation of cyp51 and hsd17b7, key proteins in testosterone synthesis in the brains of both adult and larvae of atrn-/- zebrafish. In order to further elucidate the relationship between testosterone and behavioral syndromes, we then compared testosterone levels of 9,008 psychiatric patients and 247 healthy controls from the same catchment area. Of all subjects examined, male subjects with schizophrenia exhibited lower testosterone levels compared with controls. In contrast, female subjects with a diagnosis of schizophrenia or bipolar disorder featured higher testosterone levels than did same sex controls. Purposeful sampling of extreme groups showed reduced ATRN expression in a subset of these subjects. Finally, we identified 14 subjects with ATRN mutations. All of whom displayed abnormal testosterone levels. In summary, the interplay of ATRN and testosterone may help to explain sexual dimorphisms in selected behavioral phenotypes.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "20670697",
+   "title": "De novo 325 kb microdeletion in chromosome band 10q25.3 including ATRNL1 in a boy with cognitive impairment, autism and dysmorphic features.",
+   "abstract": "We provide the first description of a patient with a heterozygous deletion of the Attractin-like (ATRNL1) gene. The patient presented with a novel and distinctive phenotype comprising dysmorphic facial appearance, ventricular septal defect, toe syndactyly, radioulnar synostosis, postnatal growth retardation, cognitive impairment with autistic features, and ataxia. A 325\u00a0kb de novo deletion in ATRNL1 was demonstrated using SNP microarray and confirmed by FISH analysis using BAC probes. Sequence analysis of the undeleted allele did not identify any alterations, suggesting that the phenotype was the result of haploinusfficiency. ATRNL1 and its paralog ATRN are highly conserved transmembrane proteins thought to be involved in cell adhesion and signalling events. The phenotype of mice with homozygous Atrn mutations overlaps considerably with the features observed in our patient. We therefore postulate that our patient's phenotype is caused by the deletion of ATRNL1, and provide further insight into the role of ATRNL1 in human development.",
+   "found_by": [],
+   "pubdate": "2010 Sep-Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38539105",
+   "title": "Genetic determinants of global developmental delay and intellectual disability in Ukrainian children.",
+   "abstract": "BACKGROUND: Global developmental delay or intellectual disability usually accompanies various genetic disorders as a part of the syndrome, which may include seizures, autism spectrum disorder and multiple congenital abnormalities. Next-generation sequencing (NGS) techniques have improved the identification of pathogenic variants and genes related to developmental delay. This study aimed to evaluate the yield of whole exome sequencing (WES) and neurodevelopmental disorder gene panel sequencing in a pediatric cohort from Ukraine. Additionally, the study computationally predicted the effect of variants of uncertain significance (VUS) based on recently published genetic data from the country's healthy population. METHODS: The study retrospectively analyzed WES or gene panel sequencing findings of 417 children with global developmental delay, intellectual disability, and/or other symptoms. Variants of uncertain significance were annotated using CADD-Phred and SIFT prediction scores, and their frequency in the healthy population of Ukraine was estimated. RESULTS: A definitive molecular diagnosis was established in 66 (15.8%) of the individuals. WES diagnosed 22 out of 37 cases (59.4%), while the neurodevelopmental gene panel identified 44 definitive diagnoses among the 380 tested patients (12.1%). Non-diagnostic findings (VUS and carrier) were reported in 350 (83.2%) individuals. The most frequently diagnosed conditions were developmental and epileptic encephalopathies associated with severe epilepsy and GDD/ID (associated genes ARX, CDKL5, STXBP1, KCNQ2, SCN2A, KCNT1, KCNA2). Additionally, we annotated 221 VUS classified as potentially damaging, AD or X-linked, potentially increasing the diagnostic yield by 30%, but 18 of these variants were present in the healthy population of Ukraine. CONCLUSIONS: This is the first comprehensive study on genetic causes of GDD/ID conducted in Ukraine. This study provides the first comprehensive investigation of the genetic causes of GDD/ID in Ukraine. It presents a substantial dataset of diagnosed genetic conditions associated with GDD/ID. The results support the utilization of NGS gene panels and WES as first-line diagnostic tools for GDD/ID cases, particularly in resource-limited settings. A comprehensive approach to resolving VUS, including computational effect prediction, population frequency analysis, and phenotype assessment, can aid in further reclassification of deleterious VUS and guide further testing in families. [full text, passages naming ATRN] ...E3A; GABRB3 3 | Chromosome 15q11-q13 duplication syndrome | 608,636 | PVS1 | | 8 371 | 17p11.2 deletion | | ALDH3A2; TOP3A; ATPAF2 1 | 17p11.2 deletion syndrome | 182,290 | PVS1 | | 9 353 | 20P duplication | | ATRN; ITPA; NDUFAF5; PANK2; PDYN; PLCB1; PRNP; SNRPB; TBC1D20 3 | Trisomy 20p | ORPHA:261,318 | PVS1 | | 10 66 | X28 duplication | | FLNA; NAA10; MECP2 2 | Intellectual developmental disorder, X-linked syndromi...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36249514",
+   "title": "Array-Based Comparative Genomic Hybridization Analysis in Children with Developmental Delay/Intellectual Disability.",
+   "abstract": "Developmental delay (DD) is a condition wherein developmental milestones and learning skills do not occur at the expected age range for patients under 5 years of age. Intellectual disability (ID) is characterized by limited or insufficient development of mental abilities, including intellectual functioning impairments, such as learning and cause-effect relationships. Isolated and syndromic DD/ID cases show extreme genetic heterogeneity. Array-based comparative genomic hybridization aCGH) can detect copy number variations (CNVs) on the whole genome at higher resolution than conventional cytogenetic methods. The diagnostic yield of aCGH was 15.0-20.0% in DD/ID cases. The aim of this study was to discuss the clinical findings and aCGH analysis results of isolated and syndromic DD/ID cases in the context of genotype-phenotype correlation. The study included 139 cases (77 females, 62 males). Data analysis revealed 38 different CNVs in 35 cases. In this study, 19 cases with pathogenic CNVs (13.6%) and five cases with likely pathogenic CNVs (3.5%) were found in a total of 139 cases diagnosed with DD/ID. When all pathogenic and likely pathogenic cases were evaluated, the diagnosis rate was 17.1%. The use of aCGH analysis as a first-tier test in DD/ID cases contributes significantly to the diagnosis rates and enables the detection of rare microdeletion/microduplication syndromes. The clear determination of genetic etiology contributes to the literature in terms of genotype-phenotype correlation. [full text, passages naming ATRN] ...O3 | de novo pathogenic | \u2013 | 29 | F-7 | >30 | | DLK1 , MIR134 , MIR541 , CCDC85C , EVL , YY1 , BEGAIN | de novo pathogenic | \u2013 | 30 | F-4 | 29 | | PTPRA , GNRH2 , MRPS26 , OXT , AVP , LZTS3 , ITPA , SLC4111 , ATRN , ADAM33 , SIGLEC1 , HSPA12B | de novo VUS, no subclassification | \u2013 | 31 | M-14 | >30 | | PIAS4 , ATCAY , EEF2 , MAP2K2 | de novo pathogenic | \u2013 | 32 | M-25 | 19 | | MKRN3 , MAGEL2 , NDN , SNRPN , UBE3A ,...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32398668",
+   "title": "A brief report: de novo copy number variants in children with attention deficit hyperactivity disorder.",
+   "abstract": "Recent case-control genetic studies of attention deficit hyperactivity disorder (ADHD) have implicated common and rare genetic risk alleles, highlighting the polygenic and complex aetiology of this neurodevelopmental disorder. Studies of other neurodevelopmental disorders, such as autism spectrum disorder (ASD), Tourette disorder, developmental delay/intellectual disability and schizophrenia indicate that identification of specific risk alleles and additional insights into disorder biology can be gained by studying non-inherited de novo variation. In this study, we aimed to identify large de novo copy number variants (CNVs) in children with ADHD. Children with a confirmed diagnosis of ADHD and their parents were genotyped and included in this sample. We used PennCNV to call large (>200\u2009kb) CNVs and identified those calls that were present in the proband and absent in both biological parents. In 305 parent-offspring trios, we detected 14 de novo CNVs in 13 probands, giving a mutation rate of 4.6% and a per individual rate of 4.3%. This rate is higher than published reports in controls and similar to those observed for ASD, schizophrenia and Tourette disorder. We also identified de novo mutations at four genomic loci (15q13.1-13.2 duplication, 16p13.11 duplication, 16p12.2 deletion and 22q11.21 duplication) that have previously been implicated in other neurodevelopmental disorders, two of which (16p13.11 and 22q11.21) have also been implicated in case-control ADHD studies. Our study complements ADHD case-control genomic analyses and demonstrates the need for larger parent-offspring trio genetic studies to gain further insights into the complex aetiology of ADHD. [full text, passages naming ATRN] ...| 426036 | 7 | UQCRC2, PDZD9, C16orf52, VWA3A, EEF2K, POLR3E, CDR2 | 20 | 3090124 | 3891896 | 20p13 | DEL | 1115.83 | 407 | 801772 | 20 | UBOX5, UBOX5-AS1, FASTKD5, PROSAPIP1, DDRGK1, ITPA, SLC4A11, C20orf194, ATRN, GFRA4, ADAM33, SIGLEC1, HSPA12B, C20orf27, SPEF1, CENPB, CDC25B, AP5S1, MAVS, PANK2 | 22 | 18892575 | 21460220 | 22q11.21 | DUP | 129.788 | 824 | 2567645 | 67 | DGCR6, PRODH, DGCR5, DGCR9, DGCR10, DGCR2,...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40634532",
+   "title": "Comprehensive characterization of chronic midazolam exposure on neonates and long-term neurodevelopment.",
+   "abstract": "Approximately 1 in 10 U.S. newborns are born preterm (<37 weeks of gestation), facing risks of low birth weight, respiratory and birth deficits often requiring surgery, mechanical ventilation, and prolonged sedation. Such long-term exposure to sedatives in these babies can potentially pose neurodevelopmental risks and can further impact changes later in life. The present study focused on midazolam (MDZ), a benzodiazepine class drug commonly used as sedative in the neonatal intensive care unit (NICU). Using a robust preclinical rodent model mimicking chronic MDZ exposure, we did a comprehensive characterization on the phenotypic, molecular, biochemical, and behavioral outcomes in these exposed neonates across key developmental milestones. Our findings indicate that long-term MDZ exposure during the neonatal period negatively affects physical attributes in early childhood. While adult bodyweights between control and MDZ-exposed rats remain comparable, the MDZ rats exhibit accelerated and robust weight gain, potentially indicating a predisposition for binge eating behavior. Additionally, dopamine release in MDZ-exposed rats is markedly reduced in adulthood. Elevated levels of pro-inflammatory cytokines and growth factors in the brain during adulthood suggest a shift in development due to early MDZ exposure. Further, trends of heightened anxiety-like behavior and reduced social interaction during early adolescence compared to other stages were observed. Collectively, our study provides a comprehensive assessment of how long-term MDZ exposure during neonatal stages impacts outcomes throughout life, laying the foundation for understanding mechanisms that contribute to neurodevelopmental complications associated with long-term MDZ use in neonates. [full text, passages naming ATRN] ...es like proliferation, differentiation, and survival [ 27 , 28 ]. Compared to their respective saline animals, P21 MDZ animals exhibited a trend towards a reduction in the expression of notable growth factors, Atrn, Bdnf, Cadm1, Fgf2, Igf-1, Ngf, Tgfb-1, and Vegf-a , while in MDZ P60 animals exhibited significantly increased levels of these growth factor expressions (Fig. 2A ). For the adolescent timepoints (P28 and...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36470953",
+   "title": "Pirenperone relieves the symptoms of fragile X syndrome in Fmr1 knockout mice.",
+   "abstract": "Fragile X syndrome (FXS) is a neurodevelopmental disorder that is caused by the loss of Fragile X-linked mental retardation protein (FMRP), an RNA binding protein that can bind and recognize different RNA structures and regulate the target mRNAs' translation involved in neuronal synaptic plasticity. Perturbations of this gene expression network have been related to abnormal behavioral symptoms such as hyperactivity, and impulsivity. Considering the roles of FMRP in the modulation of mRNA translation, we investigated the differentially expressed genes which might be targeted to revert to normal and ameliorate behavioral symptoms. Gene expression data was analyzed and used the connectivity map (CMap) to understand the changes in gene expression in FXS and predict the effective drug candidates. We analyzed the GSE7329 dataset that had 15 control and 8 FXS patients' lymphoblastoid samples. Among 924 genes, 42 genes were selected as signatures for CMap analysis, and 24 associated drugs were found. Pirenperone was selected as a potential drug candidate for FXS for its possible antipsychotic effect. Treatment of pirenperone increased the expression level of Fmr1 gene. Moreover, pirenperone rescued the behavioral deficits in Fmr1 KO mice including hyperactivity, spatial memory, and impulsivity. These results suggest that pirenperone is a new drug candidate for FXS, which should be verified in future studies. [full text, passages naming ATRN] ...various congenital malformations 30 . A truncating point mutation in 29 the SETBP1 gene was also identified in a simplex ASD case, as reported by O\u2019Roak and his colleagues . Highly conserved among species, the Attractin-like gene ( 31 ATRNL1 ) encodes for a single-pass transmembrane glycoprotein associated with cell adhesion and signaling events. De novo deletion of this gene was observed in a male patient with cogni...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "21981781",
+   "title": "Assessment of 2q23.1 microdeletion syndrome implicates MBD5 as a single causal locus of intellectual disability, epilepsy, and autism spectrum disorder.",
+   "abstract": "Persons with neurodevelopmental disorders or autism spectrum disorder (ASD) often harbor chromosomal microdeletions, yet the individual genetic contributors within these regions have not been systematically evaluated. We established a consortium of clinical diagnostic and research laboratories to accumulate a large cohort with genetic alterations of chromosomal region 2q23.1 and acquired 65 subjects with microdeletion or translocation. We sequenced translocation breakpoints; aligned microdeletions to determine the critical region; assessed effects on mRNA expression; and examined medical records, photos, and clinical evaluations. We identified a single gene, methyl-CpG-binding domain 5 (MBD5), as the only locus that defined the critical region. Partial or complete deletion of MBD5 was associated with haploinsufficiency of mRNA expression, intellectual disability, epilepsy, and autistic features. Fourteen alterations, including partial deletions of noncoding regions not typically captured or considered pathogenic by current diagnostic screening, disrupted MBD5 alone. Expression profiles and clinical characteristics were largely indistinguishable between MBD5-specific alteration and deletion of the entire 2q23.1 interval. No copy-number alterations of MBD5 were observed in 7878 controls, suggesting MBD5 alterations are highly penetrant. We surveyed MBD5 coding variations among 747 ASD subjects compared to 2043 non-ASD subjects analyzed by whole-exome sequencing and detected an association with a highly conserved methyl-CpG-binding domain missense variant, p.79Gly>Glu (c.236G>A) (p = 0.012). These results suggest that genetic alterations of MBD5 cause features of 2q23.1 microdeletion syndrome and that this epigenetic regulator significantly contributes to ASD risk, warranting further consideration in research and clinical diagnostic screening and highlighting the importance of chromatin remodeling in the etiology of these complex disorders.",
+   "found_by": [],
+   "pubdate": "2011",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "23331525": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35888178": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37167549": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22751117": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32040351": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23192925": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23673631": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39948634": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18955113": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41978884": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10086355": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19320733": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19384953": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21899794": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41142151": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39210813": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38836960": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31602881": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21708667": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42589347": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28493104": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36898611": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11150734": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12230323": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12851328": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12560552": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11209055": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17261078": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12438443": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17196964": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10086356": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19931230": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18206135": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16860906": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34000322": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34869343": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "12379762": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18064672": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11514456": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14994991": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11444801": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23583561": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36621889": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10580100": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11773967": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15362530": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12503608": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11041357": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17460362": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17991156": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21460229": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14993747": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20670697": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38539105": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36249514": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32398668": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39634244": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40634532": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40632900": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36470953": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34158620": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22319436": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21981781": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "30740406": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24749080": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24410907": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23227143": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23468869": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "15 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3119,
+   "output_tokens": 140,
+   "usd": 0.003819,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 38.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.9,
+   "note": "",
+   "input_tokens": 25531,
+   "output_tokens": 1106,
+   "usd": 0.031061,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.2,
+   "note": "",
+   "input_tokens": 13521,
+   "output_tokens": 863,
+   "usd": 0.08918,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>10</established>\n    <existing>62</existing>\n    <hypothesized>26</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>The only direct human genetic evidence linking ATRN variants to a neurodevelopmental phenotype is a single consanguineous family in which two sibs with hypomyelinating leukodystrophy (developmental delay, hypotonia, spasticity, intellectual disability) carried a homozygous splice variant (PMID 28493104); this is one family, not independent replication, so Established cannot be supported. A second human report describes ATRN mutations and reduced expression in psychiatric (schizophrenia) subjects, but the mechanistic work is in zebrafish and the phenotype is not classic NDD (PMID 34869343). Remaining support is strong but non-human or functional: mouse mahogany and rat zitter/mv attractin mutants show CNS hypomyelination, vacuolation and neurodegeneration (PMIDs 11209055, 19931230, 17196964, 10086356), and in vitro neurite assays (PMID 12230323). Several cited CNV/array papers only include ATRN within multigene 20p13 deletions/duplications or mention it incidentally, which cannot single out the gene. Hence Existing is most probable, with substantial residual weight on Hypothesized given the predominance of animal data.</justification>\n  <pmids>\n    <pmid>28493104</pmid>\n    <pmid>34869343</pmid>\n    <pmid>11209055</pmid>\n    <pmid>19931230</pmid>\n    <pmid>17196964</pmid>\n    <pmid>10086356</pmid>\n    <pmid>12230323</pmid>\n    <pmid>12560552</pmid>\n    <pmid>20670697</pmid>\n  </pmids>\n</response>"
+}

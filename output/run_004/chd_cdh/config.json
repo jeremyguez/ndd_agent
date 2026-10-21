@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-10-21T02:55:52.733954",
+  "model": "claude-sonnet-5-5",
+  "total_genes": 19,
+  "genes": [
+    "LHX2",
+    "KLK4",
+    "CHAMP1",
+    "NALCN",
+    "WT1",
+    "SEC23A",
+    "FGF12",
+    "KLF2",
+    "RHOBTB2",
+    "H2BC8",
+    "PCBP2",
+    "ALYREF",
+    "EPS8L1",
+    "DSCAML1",
+    "H1-4",
+    "SOX10",
+    "DNM1L",
+    "NR6A1",
+    "SEPTIN2"
+  ],
+  "retmax": 20,
+  "clinical_keywords": null,
+  "clinical_subtypes": {
+    "CHD": {
+      "label": "congenital heart disease",
+      "clinical_keywords": [
+        "septal",
+        "ventricular",
+        "Transposition of the great arteries",
+        "congenital heart disease",
+        "cardiac anomaly",
+        "Endocardial cushion defect",
+        "Hypoplastic left heart syndrome",
+        "aorta valve",
+        "pulmonary valve",
+        "Tetralogy of Fallot",
+        "Mitral valve anomaly",
+        "Valve dysplasia",
+        "cardiogenesis"
+      ]
+    },
+    "CDH": {
+      "label": "congenital diaphragmatic hernia",
+      "clinical_keywords": [
+        "Diaphragmatic hernia",
+        "diaphragmatic defect",
+        "eventration of the diaphragm",
+        "Bochdalek hernia",
+        "Morgagni hernia"
+      ]
+    }
+  },
+  "disorder": "chd_cdh",
+  "disease_label": "congenital heart disease (CHD) and congenital diaphragmatic hernia (CDH)",
+  "mouse_phenotypes": "general developmental delay, cardiac / lipid / blood vessel phenotypes, diaphragm / lung development phenotypes",
+  "fulltext": true
+}

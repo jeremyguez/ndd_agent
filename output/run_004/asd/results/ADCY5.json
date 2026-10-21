@@ -1,0 +1,281 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "The Genetic Landscape of Complex Childhood-Onset Hyperkinetic Movement Disorders (PMID: 36054588)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Specific variants not given in abstract; patients with pathogenic ADCY5 variants among 140 patients across 17 genes",
+            "type": "other",
+            "phenotypes": [
+              "childhood-onset hyperkinetic movement disorder",
+              "chorea predominant in ADCY5-related disorder",
+              "combined motor semiologies / generalized hyperkinetic movements"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Pathogenic variants in ADCY5 reported by participating clinicians; individual variant details not in abstract",
+        "center_country": "14 international centers",
+        "cohort": null
+      },
+      {
+        "citation": "Monogenic disorders associated with motor speech phenotypes in children and adolescents undergoing clinical exome sequencing (PMID: 39931922)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified in abstract; P/LP ADCY5 variants in pediatric patients with motor speech disorders",
+            "type": "other",
+            "phenotypes": [
+              "motor speech disorder",
+              "neurodevelopmental comorbidity"
+            ]
+          }
+        ],
+        "diagnostic_reason": "P/LP classification on clinical exome sequencing; ADCY5 survived exome-wide correction in gene-based case-referent burden testing against a comparison clinical ES cohort",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2014 - Diagnostic exome sequencing of patients with Autism Spectrum Disorder overwhelmingly detects mutations in newly characterized genes, which supports a de novo paradigm and the convergence of disrupted pathways in neurodevelopmental disease",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Not specified; ADCY5 variant of uncertain significance",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "additional features such as seizures, intellectual disability, dysmorphic features or other organ involvement (cohort-level)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reported as uncertain result; 6 of 7 uncertain cases were inherited",
+        "center_country": "Ambry Genetics, Aliso Viejo, CA, USA",
+        "cohort": null
+      },
+      {
+        "citation": "Low-level brain somatic mutations in exonic regions are collectively implicated in autism with germline mutations in autism risk genes (PMID: 39085355)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_001199642.1:c.2101G>A, p.His701Tyr (brain somatic, VAF 1.0%; mosaic, not germline heterozygous)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Low-level brain somatic SNV validated by ultradeep targeted sequencing; CADD >20, absent from gnomAD; ADCY5 linked to dyskinesia in null mouse model",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - Insights into the genetic architecture of autism by whole genome sequencing analyses of >3000 families",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Likely gene-disrupting de novo mutation in ADCY5 (details not specified, often in first exon)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo likely gene-disrupting mutation in a known autism-associated gene; identified in Simons Simplex Collection / MSSNG families",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Requirement of Zebrafish Adcy3a and Adcy5 in Melanosome Dispersion and Melanocyte Stripe Formation (PMID: 36430661)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (single and adcy3a/adcy5 double mutants)",
+        "phenotypes": [
+          "adcy3a-/-;adcy5-/- double mutants show defective melanosome dispersion",
+          "melanoblast differentiation and melanocyte regeneration are not impaired in embryos and larvae",
+          "PKA activation ameliorates the melanosome dispersion defect",
+          "kinesin-1 is not activated and cytoplasmic dynein-1 is not inhibited",
+          "adults show reduced mitfa, tyr, dct and trp1b expression",
+          "adults show reduced melanin production and fewer pigmented melanocytes",
+          "adult melanocyte stripes are defective",
+          "Adcy3a and Adcy5 act redundantly"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of Adenylyl Cyclase Type-5 in the Dorsal Striatum Produces Autistic-Like Behaviors (PMID: 27878759)",
+        "organism": "mouse",
+        "knockout_type": "full knockout; siRNA knockdown in dorsal striatum",
+        "phenotypes": [
+          "increased repetitive behaviors",
+          "sociability deficits",
+          "impaired social and object novelty preference",
+          "siRNA knockdown of AC5 in the dorsal striatum replicates the autistic-like behaviors",
+          "behaviors rescued by blocking mGluR5 in the dorsal striatum",
+          "behaviors rescued by optogenetic inhibition of prelimbic cortex-to-dorsal striatum projections",
+          "upregulated mGluR5 function in the dorsal striatum"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Effects of Whole-Body Adenylyl Cyclase 5 (Adcy5) Deficiency on Systemic Insulin Sensitivity and Adipose Tissue (PMID: 33919448)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "no physiological or biochemical metabolic benefits, contrary to earlier reports",
+          "no protection from obesity, glucose intolerance or insulin resistance",
+          "increased number of smaller adipocytes",
+          "lower mean adipocyte size",
+          "distinct adipose tissue gene expression pattern, with Mid1 the most downregulated gene"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Adenylate Cyclase 5 (Adcy5) Deficiency Impairs Pigment Granule Dispersion in Melanophores and Erythrophores in Nile Tilapia (PMID: 42587757)",
+        "organism": "Nile tilapia (Oreochromis niloticus)",
+        "knockout_type": "full knockout (CRISPR/Cas9)",
+        "phenotypes": [
+          "absence of vertical black bars",
+          "global reduction in pigmentation",
+          "chromatophore number largely unaffected",
+          "pigment granules in melanophores and erythrophores remain constitutively aggregated",
+          "reduced expression of mitfa, tyrb, tyrp1a and tyrp1b",
+          "decreased melanin content",
+          "pharmacological cAMP activation partially rescues pigment dispersion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Modulation of striatal cAMP levels: A key pathway in the treatment of hyperkinetic movement disorders (PMID: 41660259)",
+        "organism": "mouse",
+        "knockout_type": "knock-in (Adcy5 R419W)",
+        "phenotypes": [
+          "motor symptoms resembling hyperkinetic movement disorder (dystonia/dyskinesia)",
+          "increased cAMP signaling in striatal projection neurons",
+          "caffeine improves motor symptoms via adenosine A2A receptor blockade",
+          "A2A antagonism selectively corrects the cAMP increase in indirect pathway neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutation of mpv17 results in loss of iridophores due to mitochondrial dysfunction in tilapia (PMID: 38946032)",
+        "organism": "Nile tilapia",
+        "knockout_type": "full knockout (adcy5 mutant used in mutational analysis alongside the mpv17 mutant)",
+        "phenotypes": [
+          "adcy5 mutational analysis was used to test whether insufficient ATP and cAMP signaling explain the melanophore pigment aggregation in mpv17 mutants",
+          "adcy5 mutant phenotypes are not described in detail in the abstract"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Hodson et al. 2014 - ADCY5 couples glucose to insulin secretion in human islets (PMID: 24740569)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ADCY5 mRNA in human islets is lower in carriers of the rs11708067 risk allele. ADCY5 silencing in human islets impaired glucose-induced cAMP increases, glucose metabolism to ATP, calcium transients and \u03b2-cell connectivity. GLP-1-induced calcium rises were unaffected, so ADCY5 couples glucose but not GLP-1 to insulin secretion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - A functional regulatory variant associated with type 2 diabetes and fasting glucose levels at the ADCY5 locus (Roman et al.)",
+        "evidence_subtype": "expression",
+        "summary": "rs11708067 lies in an islet enhancer (FAIRE/DNase peaks, enhancer chromatin state). The G allele shows higher enhancer activity in 832/13 rat insulinoma reporter assays, allelic H3K27ac imbalance and differential protein binding in EMSA. Islet RNA-seq shows decreased ADCY5 expression for the risk A allele.",
+        "sample_size": "82 published + 32 new islet RNA-seq samples",
+        "significance": "P=6.5x10-13 (eQTL); P=0.0017 and 0.03 (reporter); P=7.4x10-6 (H3K27ac imbalance)"
+      },
+      {
+        "citation": "ASHG 2017 - An epigenetic switch confers pleiotropic risk for bone mineral density and hyperglycaemia (Sinnott-Armstrong et al.)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The 3q21.1 variant rs56371916 disrupts an SREBF motif and prevents Polycomb de-repression, causing ADCY5 downregulation in osteoblasts and adipocytes. ADCY5 downregulation impairs fatty acid oxidation and osteoblast differentiation and reduces adrenergic lipolysis. CRISPR C-to-T editing restored ADCY5 activation by SREBF1 and rescued differentiation and lipolysis.",
+        "sample_size": null,
+        "significance": "ADCY5 down 2.7-fold in osteoblasts (p=0.0007) and 2.6-fold in adipocytes (p=0.0007); fatty acid oxidation p=0.003; ALP activity p=0.0014; lipolysis p=0.0012"
+      },
+      {
+        "citation": "ASHG 2017 - Physical interaction in human beta-cells between islet eQTL sites and target gene promoters at loci associated with type 2 diabetes risk and glycaemic traits (Torres et al.)",
+        "evidence_subtype": "other",
+        "summary": "NG Capture-C in EndoC-\u03b2H1 \u03b2-cells showed the islet cis-eQTL co-localizing with T2D and glycemic-trait variants at ADCY5 maps within the interaction domain of the ADCY5 promoter. This supports enhancer-promoter regulation of ADCY5 as the effector gene.",
+        "sample_size": "9 islet cis eQTLs (including ADCY5) tested in EndoC-\u03b2H1 cells",
+        "significance": "peakC rank-product test"
+      },
+      {
+        "citation": "ASHG 2015 - The impact of known type 2 diabetes associated variants on circulating levels of GLP-1, GIP and glucagon during an oral glucose tolerance test (Jonsson et al.)",
+        "evidence_subtype": "GWAS",
+        "summary": "The ADCY5 T2D risk allele rs11708067 was associated with increased 0-30 min glucagon iAUC during an OGTT, indicating reduced glucagon repression. No association with GLP-1 or GIP survived multiple-testing correction.",
+        "sample_size": "1,547 individuals (ADDITION-PRO)",
+        "significance": "Beta 0.130 (SE 0.043), P=0.0025"
+      },
+      {
+        "citation": "Common genetic variants in ADCY5 and gestational glycemic traits (PMID: 32163478)",
+        "evidence_subtype": "GWAS",
+        "summary": "In Chinese Han pregnant women, ADCY5 SNPs (rs6797915, rs9856662, rs9875803) were associated with 1-hour glucose after a 50 g challenge. rs6777397 was associated with HOMA1-\u03b2 and rs6762009 with HOMA1-IR.",
+        "sample_size": "929 women, 35 SNPs",
+        "significance": "P=0.014-0.042"
+      },
+      {
+        "citation": "ADCY5, CAPN10 and JAZF1 Gene Polymorphisms and Placental Expression in Women with Gestational Diabetes (PMID: 34440550)",
+        "evidence_subtype": "expression",
+        "summary": "ADCY5 SNPs rs11708067 and rs2877716 were not associated with GDM. ADCY5 expression was significantly increased in placentas from women with GDM compared with healthy women.",
+        "sample_size": "272 GDM and 348 control women",
+        "significance": "p<0.05 for expression (association of SNPs not significant)"
+      },
+      {
+        "citation": "Requirement of Zebrafish Adcy3a and Adcy5 in Melanosome Dispersion and Melanocyte Stripe Formation (PMID: 36430661)",
+        "evidence_subtype": "other",
+        "summary": "In zebrafish, adcy3a-/-;adcy5-/- double mutants show defective melanosome dispersion, which PKA activation rescues. Adcy3a and Adcy5 act redundantly in \u03b1-MSH-MC1R/cAMP-PKA signaling, activating kinesin-1 and inhibiting dynein-1. They also regulate Mitfa, Tyr, Dct and Trp1b expression and melanin synthesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "By inhibiting ADCY5, miR-18a-3p promotes osteoporosis and possibly contributes to spinal fracture (PMID: 33684620)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ADCY5 is a direct target of miR-18a-3p (dual luciferase and RNA pull-down). ADCY5 is downregulated in osteoporosis patient tissue and rises during hBMSC osteogenic differentiation. ADCY5 overexpression promoted calcium deposition, ALP activity and OSX/RUNX2 expression, and miR-18a-3p mimic reversed this.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Linkage and single exome analyses identify ADCY5 as the gene for Familial Dyskinesia with Facial Myokymia (Raskind et al.)",
+        "evidence_subtype": "function",
+        "summary": "The ADCY5 A726T missense variant co-segregated perfectly with familial dyskinesia with facial myokymia, affects a highly conserved residue and is absent from 1200 control exomes. ADCY5 is highly expressed in striatum, and Adcy5-deficient mice develop a stress-worsened movement disorder.",
+        "sample_size": "5-generation family; 9 affected and 3 unaffected relatives; 1200 control exomes",
+        "significance": null
+      },
+      {
+        "citation": "Heroin Regulates Orbitofrontal Circular RNAs (PMID: 35163373)",
+        "evidence_subtype": "expression",
+        "summary": "circAdcy5 and linear Adcy5 mRNA were regulated in rat orbitofrontal cortex after heroin self-administration. circAdcy5 was among five heroin-responsive circRNAs, and Adcy5 was one of only two linear transcripts (with Grin2b) that also changed.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

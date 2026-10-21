@@ -1,0 +1,365 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 20,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Expanding the Phenotypic Spectrum of SPG4: Autism Spectrum Disorder in Early-Onset and Complex SPAST-HSP and Case Study (PMID: 40870017)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Two novel de novo heterozygous missense variants in cis in SPAST (specific notation not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "early-onset complex hereditary spastic paraplegia",
+              "subtle pyramidal signs",
+              "early motor delay",
+              "global developmental delay",
+              "severe autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel de novo heterozygous missense variants in cis identified by WES, with typical early-onset complex HSP phenotype",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A de novo mosaic mutation in SPAST with two novel alternative alleles and chromosomal copy number variant in a boy with spastic paraplegia and autism spectrum disorder (PMID: 28778789)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo mosaic pair of missense variants at the same SPAST position with two different alternate alleles (specific notation not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "extreme/severe spastic paraplegia",
+              "autism spectrum disorder",
+              "dysmorphisms",
+              "blended phenotype with 1q21.1 microduplication syndrome (paternally inherited 1.73 Mb gain at 1q21.1q21.2)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo mosaic variants predicted pathogenic; mosaicism across tissues thought to explain the extreme phenotype and viability",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2011 - A novel nucleotide change in the intron 12 of the SPAST gene might produce an aberrant protein transcript",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1493+18G>T (intron 12)",
+            "type": "other",
+            "phenotypes": [
+              "adult-onset progressive spastic paraparesis (onset at 50 years)",
+              "lower limb hyperreflexia",
+              "spontaneous clonus in legs",
+              "mild lower limb hypoesthesia",
+              "urinary incontinence",
+              "normal brain and spinal cord MRI and electrophysiology",
+              "family history of autism-like behavior (brother and two second-degree cousins)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel variant absent from SNP databases; in silico prediction of a novel cryptic donor splice site; mRNA study pending",
+        "center_country": "Italy (Magna Graecia University of Catanzaro / Reggio Calabria)",
+        "cohort": null
+      },
+      {
+        "citation": "Childhood-Onset Hereditary Spastic Paraplegia (HSP): A Case Series and Review of Literature (PMID: 35303589)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "SPAST variants in 3 patients (specific variants not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "childhood-onset hereditary spastic paraplegia",
+              "gait difficulty",
+              "cohort comorbidities included developmental delay, autism, epilepsy, ADHD, and polyneuropathy (not attributed per patient)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Genetically confirmed by inherited neuropathy panel or whole-exome sequencing",
+        "center_country": "Children's Healthcare of Atlanta and Emory, USA",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic etiology of progressive pediatric neurological disorders (PMID: 37563452)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Novel SPAST variant (specific notation and type not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "childhood-onset progressive neurological disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel variant in a known disease gene identified by whole-exome sequencing",
+        "center_country": "Finland (largest pediatric neurology clinic)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - Whole genome sequencing of neurodevelopmental disorders in Japanese",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1496G>A, p.Arg499His",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder with intellectual disability/developmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variant previously reported in autosomal dominant spastic paraplegia; identified by trio WGS and confirmed by Sanger sequencing; autosomal dominant inheritance",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "Whole Exome Sequencing and Panel-Based Analysis in 176 Spanish Children with Neurodevelopmental Disorders (PMID: 39457434)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1321+1G>A (splice donor)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder (ID/GDD and/or ASD)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous canonical splice-site variant in an autosomal dominant gene (OMIM #604277); parental inheritance not available",
+        "center_country": "University Hospital in Madrid, Spain",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Spast knockout male germline study - Spastin is an essential regulator of male meiosis, acrosome formation, manchette structure and nuclear integrity (PMID: 36971361)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Complete loss of functional germ cells",
+          "Failure of male meiotic spindle assembly and function",
+          "Enlarged round spermatid nuclei, indicating aneuploidy",
+          "Abnormal manchette structure (ectopic, dense, elongated, detached from nuclei)",
+          "Abnormal acrosome biogenesis",
+          "Catastrophic loss of nuclear integrity in spermatids"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Modeling gain-of-function and loss-of-function components of SPAST-based hereditary spastic paraplegia using transgenic mice (PMID: 34935948)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Spast-KO mice show axonal swellings but no corticospinal dieback or gait deficits",
+          "Spast-KO crossed with hSPAST-C448Y mice produced axonal swellings, earlier onset and worsened gait deficits, and more corticospinal dieback than hSPAST-C448Y alone",
+          "Changes in HDAC6 and tubulin modifications in axons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hereditary spastic paraplegia: gain-of-function mechanisms revealed by new transgenic mouse (PMID: 30520996)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "hSPAST-C448Y transgenic mouse (not haploinsufficient) shows adult-onset gait defects, which are not seen in spastin knockout mice",
+          "Progressive dying back of corticospinal axons",
+          "Organelle transport deficits in cultured neurons, worsened by depletion of endogenous mouse spastin"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spastin regulates VAMP7-containing vesicles trafficking in cortical neurons (PMID: 28392418)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Enhanced anterograde velocity of VAMP7 vesicles in SPG4-KO cortical neurons (VAMP2 unaffected)",
+          "Slight increase in acetylated tubulin",
+          "Increased kinesin-1 activity",
+          "Axonal swellings in SPG4-KO neurons, rescued by taxol"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spastin Contributes to Neural Development through the Regulation of Microtubule Dynamics in the Primary Cilia of Neural Stem Cells (PMID: 31150727)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Spast shRNA decreased NSC proliferation",
+          "Reduced neuronal lineage differentiation in NSCs and perinatal mouse brain",
+          "Altered microtubule dynamics in primary cilia"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Genetic and chemical modulation of spastin-dependent axon outgrowth in zebrafish embryos indicates a role for impaired microtubule dynamics in hereditary spastic paraplegia (PMID: 20829563)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Spast morpholino knockdown impaired axon outgrowth",
+          "Altered axonal microtubule dynamics and growth cone motility",
+          "Combined spastin and katanin knockdown gave a more severe phenotype than either alone",
+          "Nocodazole enhanced phenotypic severity in spast knockdown embryos"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spastin accumulation and motor neuron defects caused by a novel SPAST splice site mutation (PMID: 39334479)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Axon pathfinding defects, impaired outgrowth and axon loss of spinal motor neurons in Tg(hb9:GFP) larvae (gRNA and spast-MO)",
+          "spast-MO larvae showed unusual behavioral preferences and increased acceleration in swimming"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Conserved pharmacological rescue of hereditary spastic paraplegia-related phenotypes across model organisms (PMID: 26744324)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Locomotor defects in spastin-null/knockdown zebrafish (with C. elegans and Drosophila models)",
+          "Partial rescue by phenazine, methylene blue, N-acetyl-cysteine, guanabenz and salubrinal",
+          "ER stress biomarkers correlated with improved locomotion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tubulin glutamylation regulates axon guidance via the selective tuning of microtubule-severing enzymes (PMID: 39613968)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Spastin morpholino caused spinal motor neuron axon guidance/pathfinding defects",
+          "Spastin and p60-katanin play specific roles, regulated by TTLL6 and TTLL11 polyglutamylation",
+          "TTLL11 prevents axonal degeneration triggered by spastin haploinsufficiency (mouse cortical neurons)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Intracerebroventricular SPAST-AAV9 gene therapy prevents manifestation of symptoms in a mouse model of SPG4 hereditary spastic paraplegia (PMID: 41311060)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "AAV9 microRNA silencing of endogenous SPAST plus replacement with human M1 and M87 in SPAST-C448Y mice",
+          "Prevented onset and progression of corticospinal degeneration and gait defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Store-operated calcium entry is reduced in spastin-linked hereditary spastic paraplegia (PMID: 36103408)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Loss of spastin enlarges the ER and reduces store-operated calcium entry (SOCE). Elevated spastin variants cluster STIM1 in the ER and impair its transport to the plasma membrane. SPAST-HSP patient iPSC-derived neurons show reduced SOCE and axonal swellings, and CRISPR/Cas9 correction of the SPAST variants rescues both.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Conserved pharmacological rescue of hereditary spastic paraplegia-related phenotypes across model organisms (PMID: 26744324)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Null SPAST homologues in C. elegans, Drosophila and zebrafish show locomotor defects linked to ER stress. These defects were partially rescued by phenazine, methylene blue, N-acetyl-cysteine, guanabenz and salubrinal, and ER stress biomarkers correlated with the improvement.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spastin binds to lipid droplets and affects lipid metabolism (PMID: 25875445)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Spastin-M1 sorts from the ER to lipid droplets via a hydrophobic motif (aa 57-86, with R65 required). It acts as a conserved positive regulator of lipid droplet metabolism. Dspastin overexpression or knockdown in Drosophila, and spas-1 depletion in C. elegans, altered lipid droplet number and size, triacylglycerol levels and fat stores.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hereditary spastic paraplegia: gain-of-function mechanisms revealed by new transgenic mouse (PMID: 30520996)",
+        "evidence_subtype": "other",
+        "summary": "SPAST-C448Y transgenic mice expressing human mutant spastin show adult-onset gait defects and dying-back of corticospinal axons without haploinsufficiency. The mutant alters microtubule stability opposite to haploinsufficiency predictions. Cultured neurons show organelle transport deficits that are worsened by depletion of endogenous spastin, supporting a gain-of-function mechanism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Modeling gain-of-function and loss-of-function components of SPAST-based hereditary spastic paraplegia using transgenic mice (PMID: 34935948)",
+        "evidence_subtype": "other",
+        "summary": "Crossing Spast-KO mice with hSPAST-C448Y mice produced axonal swellings, earlier onset, worse gait deficits and more corticospinal dieback than C448Y alone. Changes in HDAC6 and tubulin modifications were also seen in the axon. Loss of function exacerbates mutant toxicity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spastin MIT Domain Disease-Associated Mutations Disrupt Lysosomal Function (PMID: 31787869)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Three disease-associated MIT-domain spastin mutants failed to promote endosomal tubule fission, lysosomal enzyme receptor trafficking or normal lysosomal morphology. One mutant impaired recruitment to endosomes, which depends on MIT binding to ESCRT-III proteins. The others did not, suggesting non-canonical MIT roles. Microtubule-severing capacity was unaffected.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Missense mutation of SPAST protein (I344K) results in loss of ATPase activity and prolonged the half-life (PMID: 30006150)",
+        "evidence_subtype": "function",
+        "summary": "I344K-SPAST has defective ATPase and microtubule-severing activity but a prolonged protein half-life through altered post-translational modification for proteasomal degradation. It causes microtubule accumulation and inhibits neurite growth in neuroblastoma, neural progenitor cells and mouse cortical neurons. Wild-type M1 SPAST interacts with the mutant and reduces these effects dose-dependently.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Alu-mediated SPAST deletion impairs golgi zinc transport and reveals a druggable vulnerability (PMID: 42521669)",
+        "evidence_subtype": "cell_culture",
+        "summary": "An Alu-mediated SPAST exon 17 deletion in hPSC-derived cortical organoids and xenografts creates SPAST-SLC30A6 fusion transcripts and reduces ZnT6 expression. This causes cytosolic zinc accumulation, Golgi fragmentation and A\u03b2/ubiquitin aggregation. TPEN or a GRASP55-blocking antibody rescued Golgi integrity and reduced A\u03b2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CRISPR activation to characterize splice-altering variants in easily accessible cells (PMID: 38272032)",
+        "evidence_subtype": "expression",
+        "summary": "SPAST is predominantly expressed in the CNS and is not readily expressed in skin fibroblasts. dCas9-VPR CRISPRa strongly upregulated SPAST transcription in fibroblasts, enabling profiling of splice-altering variants by RT-PCR, NGS and long-read sequencing.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A novel truncated variant in SPAST results in spastin accumulation and defects in microtubule dynamics (PMID: 38066582)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The frameshift variant c.483_484delinsC (p.Val162Leufs*2) produced truncated M1 and M87 mutants that accumulated at higher levels with increased stability and likely lost microtubule-severing activity. This suggests toxic accumulation rather than pure haploinsufficiency in a five-generation family.",
+        "sample_size": "49 family members (9 affected)",
+        "significance": null
+      }
+    ]
+  }
+}

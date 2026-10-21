@@ -1,0 +1,325 @@
+{
+  "gene": "ZNF207",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000010244",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.564873999932041
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.46308355791993133
+    },
+    {
+      "disease_id": "MONDO_0002561",
+      "name": "lysosomal storage disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "EFO_0803536",
+      "name": "multiple sclerosis symptom measurement",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0002423",
+      "name": "rectosigmoid junction neoplasm",
+      "score": 0.14810513270159956
+    },
+    {
+      "disease_id": "OBA_2041656",
+      "name": "level of galactokinase in blood serum",
+      "score": 0.11204102904888363
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "name": "hepatocellular carcinoma",
+      "score": 0.10294238361281165
+    },
+    {
+      "disease_id": "EFO_0005670",
+      "name": "smoking initiation",
+      "score": 0.09287967439612747
+    },
+    {
+      "disease_id": "EFO_1001255",
+      "name": "spontaneous abortion",
+      "score": 0.08793399157529481
+    },
+    {
+      "disease_id": "EFO_0009578",
+      "name": "placental retention",
+      "score": 0.08793399157529481
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.08539871901116462
+    },
+    {
+      "disease_id": "EFO_0006527",
+      "name": "smoking status measurement",
+      "score": 0.07846584360965417
+    },
+    {
+      "disease_id": "EFO_0004617",
+      "name": "cystatin C measurement",
+      "score": 0.07275471937108828
+    },
+    {
+      "disease_id": "MONDO_0005090",
+      "name": "schizophrenia",
+      "score": 0.06273920561891168
+    },
+    {
+      "disease_id": "OBA_2041130",
+      "name": "level of DNA-directed RNA polymerase III subunit RPC9 in blood serum",
+      "score": 0.0590016690093033
+    },
+    {
+      "disease_id": "MONDO_0005131",
+      "name": "cervical carcinoma",
+      "score": 0.052936064824444615
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.564873999932041
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.46308355791993133
+    },
+    {
+      "disease_id": "MONDO_0002561",
+      "name": "lysosomal storage disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "EFO_0803536",
+      "name": "multiple sclerosis symptom measurement",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.4619748183558772
+    },
+    {
+      "disease_id": "MONDO_0002423",
+      "name": "rectosigmoid junction neoplasm",
+      "score": 0.14810513270159956
+    },
+    {
+      "disease_id": "OBA_2041656",
+      "name": "level of galactokinase in blood serum",
+      "score": 0.11204102904888363
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "name": "hepatocellular carcinoma",
+      "score": 0.10294238361281165
+    },
+    {
+      "disease_id": "EFO_0005670",
+      "name": "smoking initiation",
+      "score": 0.09287967439612747
+    },
+    {
+      "disease_id": "EFO_1001255",
+      "name": "spontaneous abortion",
+      "score": 0.08793399157529481
+    },
+    {
+      "disease_id": "EFO_0009578",
+      "name": "placental retention",
+      "score": 0.08793399157529481
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.08539871901116462
+    },
+    {
+      "disease_id": "EFO_0006527",
+      "name": "smoking status measurement",
+      "score": 0.07846584360965417
+    },
+    {
+      "disease_id": "EFO_0004617",
+      "name": "cystatin C measurement",
+      "score": 0.07275471937108828
+    },
+    {
+      "disease_id": "MONDO_0005090",
+      "name": "schizophrenia",
+      "score": 0.06273920561891168
+    },
+    {
+      "disease_id": "OBA_2041130",
+      "name": "level of DNA-directed RNA polymerase III subunit RPC9 in blood serum",
+      "score": 0.0590016690093033
+    },
+    {
+      "disease_id": "MONDO_0005131",
+      "name": "cervical carcinoma",
+      "score": 0.052936064824444615
+    }
+  ],
+  "gate_text": "DROP: 7, 12, 16",
+  "gate_dropped_ids": [
+    "OBA_2041656",
+    "MONDO_0005070",
+    "OBA_2041130"
+  ],
+  "tag_text": "1 | CLOSE_VAGUE\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT\n12 | DIFFERENT\n13 | DIFFERENT\n14 | DIFFERENT\n15 | CLOSE_MODERATE\n16 | DIFFERENT\n17 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0005559",
+      "name": "neurodegenerative disease",
+      "score": 0.564873999932041,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004975",
+      "name": "Alzheimer disease",
+      "score": 0.46308355791993133,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0002561",
+      "name": "lysosomal storage disease",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0803536",
+      "name": "multiple sclerosis symptom measurement",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005180",
+      "name": "Parkinson disease",
+      "score": 0.4619748183558772,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0002423",
+      "name": "rectosigmoid junction neoplasm",
+      "score": 0.14810513270159956,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_2041656",
+      "name": "level of galactokinase in blood serum",
+      "score": 0.11204102904888363,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0007256",
+      "name": "hepatocellular carcinoma",
+      "score": 0.10294238361281165,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0005670",
+      "name": "smoking initiation",
+      "score": 0.09287967439612747,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_1001255",
+      "name": "spontaneous abortion",
+      "score": 0.08793399157529481,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0009578",
+      "name": "placental retention",
+      "score": 0.08793399157529481,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.08539871901116462,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0006527",
+      "name": "smoking status measurement",
+      "score": 0.07846584360965417,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004617",
+      "name": "cystatin C measurement",
+      "score": 0.07275471937108828,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005090",
+      "name": "schizophrenia",
+      "score": 0.06273920561891168,
+      "tag": "CLOSE_MODERATE",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_2041130",
+      "name": "level of DNA-directed RNA polymerase III subunit RPC9 in blood serum",
+      "score": 0.0590016690093033,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005131",
+      "name": "cervical carcinoma",
+      "score": 0.052936064824444615,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 17,
+  "tokens": {
+    "gate_in": 494,
+    "gate_out": 13,
+    "read_in": 2380,
+    "read_out": 801
+  },
+  "articles": [
+    {
+      "pmid": "33169155",
+      "title": "Genome-Wide Association Studies of Schizophrenia and Bipolar Disorder in a Diverse Cohort of US Veterans.",
+      "abstract": "",
+      "year": "2021 Mar 16",
+      "source": "gwas_credible_sets"
+    }
+  ]
+}

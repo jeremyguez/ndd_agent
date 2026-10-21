@@ -1,0 +1,249 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 9,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Further evidence for de novo variants in SYNCRIP as the cause of a neurodevelopmental disorder (PMID: 34157790)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "Frameshift variant (de novo; exact notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "more severely affected",
+              "autistic features (in two of the three individuals)",
+              "periventricular nodular heterotopia / widening of subarachnoid spaces (neuroradiological features in the cohort)"
+            ]
+          },
+          {
+            "description": "Frameshift variant (de novo; exact notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "more severely affected",
+              "autistic features (in two of the three individuals)",
+              "myoclonic-atonic epilepsy (in one individual of the cohort)"
+            ]
+          },
+          {
+            "description": "Missense variant in RRM2 domain (de novo; exact notation not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "intellectual disability",
+              "less severely affected"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants; frameshifts likely cause haploinsufficiency; missense lies in the conserved RRM2 domain and likely affects RNA binding",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Genome sequencing identifies multiple deleterious variants in autism patients with more severe phenotypes (PMID: 30504930)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Two de novo missense variants in SYNCRIP (notation not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo missense variants identified by genome sequencing in ASD patients, considered evidence of disease risk and a new candidate gene",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Rare deleterious mutations of HNRNP genes result in shared neurodevelopmental disorders (PMID: 33874999)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Gene-disruptive SNVs/indels and de novo variants in SYNCRIP among 235 HNRNP-family cases (per-patient details not in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "intellectual disability/developmental delay",
+              "autism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Enrichment of de novo variants in NDD cohorts; SYNCRIP showed significant enrichment in a prior meta-analysis",
+        "center_country": "International collaboration",
+        "cohort": null
+      },
+      {
+        "citation": "Integrated gene analyses of de novo variants from 46,612 trios with autism and developmental disorders (PMID: 36350923)",
+        "num_patients": 5,
+        "variants": [
+          {
+            "description": "One de novo missense variant in a DD patient",
+            "type": "missense",
+            "phenotypes": [
+              "developmental disorder"
+            ]
+          },
+          {
+            "description": "Two de novo likely gene-disrupting variants in DD patients and two in ASD patients",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental disorder",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant enrichment reaching significance in the combined NDD analysis; SYNCRIP is already strongly implicated in NDDs",
+        "center_country": null,
+        "cohort": "DDD"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Posttranscriptional Control of Neural Progenitors Temporal Dynamics During Neocortical Development by Syncrip (PMID: 39776340)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Syncrip knockout in radial glial cells disrupts neuronal differentiation",
+          "Abnormal neuronal localization",
+          "Superficial cortical layer defects",
+          "Learning and memory impairments",
+          "Late-stage neurogenesis disrupted; transcriptional progression of RGCs stalled (scRNA-seq)",
+          "Notch signaling pathway dysregulated"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA binding protein SYNCRIP maintains proteostasis and self-renewal of hematopoietic stem and progenitor cells (PMID: 37085479)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Defects in HSCs and progenitors, especially after regenerative stress",
+          "Impaired long-term repopulation after secondary transplantation",
+          "Increased protein synthesis",
+          "Dysregulated epichaperome and accumulation of misfolded proteins",
+          "ER stress",
+          "Reduced CDC42 translation with defects in polarity and asymmetric segregation",
+          "Rescue of polarity and replating by forced CDC42 expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functional screen of MSI2 interactors identifies an essential role for SYNCRIP in myeloid leukemia stem cells (PMID: 28436985)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "shRNA depletion of Syncrip delayed leukemogenesis in vivo",
+          "Increased apoptosis and differentiation of leukemia cells",
+          "Loss of MLL and HOXA9 leukemia stem cell program",
+          "Reduced HOXA9 translation",
+          "Syncrip was the most differentially required gene between normal and myeloid leukemia cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion 6q Drives T-cell Leukemia Progression by Ribosome Modulation (PMID: 30266814)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Combined silencing of Syncrip and Snhg5, but not either alone, accelerated leukemogenesis in a Tal1/Lmo1/Notch1-driven mouse model",
+          "Decreased ribosome and mitochondrial activities",
+          "Increased leukemia-initiating cell activity in xenografts of primary human leukemic cells upon co-silencing"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zhang et al. 2023 - RNA binding protein SYNCRIP maintains proteostasis and self-renewal of hematopoietic stem and progenitor cells (PMID: 37085479)",
+        "evidence_subtype": "function",
+        "summary": "In a conditional knockout mouse, SYNCRIP loss impaired HSC maintenance, especially after regenerative stress. Loss increased protein synthesis, dysregulated the epichaperome, caused misfolded protein accumulation and ER stress. SYNCRIP is required for CDC42 translation, and forced CDC42 expression rescued HSC polarity and replating activity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zhang et al. 2025 - Posttranscriptional Control of Neural Progenitors Temporal Dynamics During Neocortical Development by Syncrip (PMID: 39776340)",
+        "evidence_subtype": "function",
+        "summary": "Syncrip knockout in radial glial cells caused superficial cortical layer defects and learning and memory impairment in mice. scRNA-seq showed stalled late-stage neurogenesis. Syncrip stabilizes temporal transcription factor mRNAs via phase-separated complexes and regulates Notch signaling. Pathogenic human variants weaken its phase separation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of SYNCRIP unleashes APOBEC-driven mutagenesis, tumor heterogeneity, and AR-targeted therapy resistance in prostate cancer (PMID: 37478850)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In prostate cancer cells, SYNCRIP acts as a brake on APOBEC3B-driven mutagenesis. SYNCRIP deficiency activates APOBEC3B, which mutates drivers such as FOXA1, EP300 and AR and promotes resistance to AR-targeted therapy. A functional screen identified eight APOBEC3B-mutated resistance drivers.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA-binding protein syncrip regulates starvation-induced hyperactivity in adult Drosophila (PMID: 33617535)",
+        "evidence_subtype": "fly_worm",
+        "summary": "A GWAS in the DGRP (Drosophila Genetic Reference Panel) with RNAi validation identified syp as a starvation-induced hyperactivity gene. Neuron-specific syp knockdown decreased SIH, while ubiquitous knockdown caused semi-lethality. syp is alternatively spliced under starvation without a change in expression level, and an alternative-exon-specific KO reduced SIH.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Syncrip/hnRNP Q influences synaptic transmission and regulates BMP signaling at the Drosophila neuromuscular synapse (PMID: 25171887)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Syncrip is detected in muscle but not in the motoneuron at the Drosophila NMJ. It is required for normal vesicle release and synapse structure. It modulates retrograde BMP signaling by influencing levels of the BMP ligand Glass bottom boat.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SYNCRIP, a new player in pri-let-7a processing (PMID: 31907208)",
+        "evidence_subtype": "function",
+        "summary": "SYNCRIP binds pri-let-7a, mainly through its terminal loop, and associates with the microprocessor complex. It promotes pri-let-7a processing through its RRM2-3 domain. Knockdown reduces let-7a and overexpression increases it, and SYNCRIP silencing changes a broader set of miRNAs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The cytoplasmic SYNCRIP mRNA interactome of mammalian neurons (PMID: 33030396)",
+        "evidence_subtype": "cell_culture",
+        "summary": "iCLIP in primary rat cortical neurons identified hundreds of SYNCRIP target mRNAs, enriched for neurogenesis, migration and neurite outgrowth genes. These include microtubule-related mRNAs such as Dcx, which SYNCRIP stabilizes. SYNCRIP synergizes with miR-9 and neuronal miRISC to promote early neuronal differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SYNCRIP (hnRNP Q1/NSAP1) is a component of mRNA granule transported with IP3R1 mRNA in neuronal dendrites (PMID: 15475564)",
+        "evidence_subtype": "expression",
+        "summary": "SYNCRIP is mainly in the cell bodies of rat hippocampal neurons, with punctate expression in proximal dendrites. GFP-SYNCRIP granules move bidirectionally in a microtubule-dependent manner (nocodazole-sensitive). They co-transport with Staufen1 and the IP3R1 3'UTR, and overlap with dendritic RNA and EF1\u03b1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SYNCRIP, a cytoplasmic counterpart of hnRNP R, interacts with ubiquitous synaptotagmin isoforms (PMID: 10734137)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "SYNCRIP binds the C2B domains of Syt-VII, -VIII and -IX, shown by in vitro binding and co-IP in COS cells. It binds RNA with a preference for poly(A). It is ubiquitously expressed across mouse tissues and is predominantly cytoplasmic, unlike nuclear hnRNP R.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SYNCRIP is a host factor involved in hepatitis C virus RNA replication (PMID: 19232660)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SYNCRIP associates with detergent-resistant membrane fractions and colocalizes with newly synthesized HCV RNA. siRNA knockdown reduced HCV RNA in replicon and full-length RNA systems. Immunodepletion in an in vitro replication assay showed SYNCRIP is directly involved in HCV RNA replication.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

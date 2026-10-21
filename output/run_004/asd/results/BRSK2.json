@@ -1,0 +1,351 @@
+{
+  "articles_found": {
+    "clinical": 15,
+    "model_organism": 8,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Hiatt et al. 2019 - Deleterious Variation in BRSK2 Associates with a Neurodevelopmental Disorder (PMID: 30879638)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "Six variants predicted LoF (nonsense/frameshift/splice; individual notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "speech delay",
+              "developmental delay",
+              "intellectual disability",
+              "motor delay",
+              "behavioral issues",
+              "autism"
+            ]
+          },
+          {
+            "description": "Three missense variants (individual notations not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "speech delay",
+              "developmental delay",
+              "intellectual disability",
+              "motor delay",
+              "behavioral issues",
+              "autism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous, absent from large variant databases, de novo in all 6 probands with parental data, BRSK2 intolerant to protein-altering variation, missense predicted damaging by computational modeling, de novo enrichment p=2.46e-6 across cohorts",
+        "center_country": "USA (University of Washington / HudsonAlpha; GeneMatcher collaboration)",
+        "cohort": null
+      },
+      {
+        "citation": "Deleterious Variation in BR Serine/Threonine Kinase 2 Classified a Subtype of Autism (PMID: 35754711)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "p.R222X (de novo nonsense)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder behaviors",
+              "language delay",
+              "motor delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo nonsense variant; phenotype similar to other BRSK2 patients; brsk2b-deficient zebrafish showed ASD-like behaviors",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Catatonia and regression in an autism spectrum disorder patient harbouring a BRSK2 frameshift mutation (PMID: 41423339)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo BRSK2 frameshift variant (notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "catatonia",
+              "developmental regression",
+              "cognitive decline in early adolescence"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo; patient iPSC/neural organoids showed reduced BRSK2 transcript and protein, with exclusive wild-type allele expression consistent with nonsense-mediated decay",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Case report: A novel frameshift mutation in BRSK2 causes autism in a 16-year old Chinese boy (PMID: 37671287)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.442del, p.L148Cfs*39 (de novo)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "attention deficit",
+              "auditory hallucinations",
+              "limb tremor",
+              "abnormal brain electrical activity mapping"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel de novo frameshift identified by exome sequencing",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Genomic analysis of 116 autism families strengthens known risk genes and highlights promising candidates (PMID: 38519481)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "De novo stop-gain in BRSK2 (notation not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "De novo missense in BRSK2 (notation not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo potentially damaging SNVs; two independent de novo variants in the same gene in ASD families, interpreted by ACMG",
+        "center_country": "Italy",
+        "cohort": null
+      },
+      {
+        "citation": "Exome sequencing of 457 autism families recruited online provides evidence for autism risk genes (PMID: 31452935)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Two de novo likely gene-damaging variants in BRSK2 (notations not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo LGD variants; TADA meta-analysis showed genome-wide significance for BRSK2 as an ASD risk gene (p=2.3e-6)",
+        "center_country": "USA (SPARK)",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic insights into male autism spectrum disorder in a small cohort of Indian simplex families (PMID: 39534727)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "BRSK2 c.978G>C (de novo)",
+            "type": "LoF",
+            "phenotypes": [
+              "social impairment",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant in a high-risk ASD gene in a simplex family with no family history",
+        "center_country": "India",
+        "cohort": null
+      },
+      {
+        "citation": "Genomic landscape of autism spectrum disorder in Brazil (PMID: 42721435)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_001256627:c.954_955insT",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Frameshift in BRSK2 reported among P/LP variants contributing to the molecular diagnosis; BRSK2 is a recently described syndrome gene",
+        "center_country": "Brazil",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2018 - Pilot study results from SPARK: A scalable approach for genomic research in autism spectrum disorder",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Two de novo likely gene-damaging variants in BRSK2 (notations not given)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo LGD variants in a constrained gene; TADA q-value=0.002 supporting BRSK2 as a candidate ASD gene",
+        "center_country": "USA (SPARK)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2017 - SPARK: A large-scale genomic resource of over 20,000 individuals with autism spectrum disorder",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Two de novo loss-of-function variants in BRSK2 (notations not given)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo LoF variants in 500 exome-sequenced trios supporting BRSK2 as a candidate ASD gene",
+        "center_country": "USA (SPARK)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Deleterious Variation in BR Serine/Threonine Kinase 2 Classified a Subtype of Autism (PMID: 35754711)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "brsk2b-/- (CRISPR/Cas9) larvae had higher embryonic mortality",
+          "increased rate of pericardium edema",
+          "severe developmental delay",
+          "depigmentation",
+          "growth retardation in the early developmental stage",
+          "decreased activity in open field tests",
+          "enhanced anxiety-like behavior in light/dark tests and thigmotaxis analysis",
+          "reduced social interaction with peers",
+          "disrupted social cohesion among homogeneous groups",
+          "increased brain mRNA expression of homer1b, mbpa, mpz and plp1b in adults",
+          "decreased brain expression of isl1a (motor neuron marker)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "described as significant; specific p-values not given in abstract"
+      },
+      {
+        "citation": "Dynamic Regulation of brsk2 in the Social and Motor Development of Zebrafish: A Developmental Behavior Analysis (PMID: 38003696)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "brsk2ab-/- (CRISPR/Cas9) zebrafish showed a catch-up growth pattern of body length",
+          "gradually improved locomotor activity during development",
+          "escalating social deficiency over time from larval to adult stages",
+          "escalating anxiety-like behaviors over time"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Role and Impact of the brsk2 Gene in Zebrafish Retinal Development and Visual Function Characterized by Behavioral, Histological, and Transcriptomic Analyses (PMID: 41596506)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "brsk2ab-/- larvae had significantly enhanced light perception",
+          "disrupted layered organization of the retina",
+          "up-regulated rhodopsin expression in retinal cells",
+          "up-regulated key opsins and genes in visual development and phototransduction pathways"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "described as significant; specific p-values not given in abstract"
+      },
+      {
+        "citation": "BRSK2 in pancreatic \u03b2 cells promotes hyperinsulinemia-coupled insulin resistance and its genetic variants are associated with human type 2 diabetes (PMID: 37188647)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "inducible \u03b2-cell-specific Brsk2 knockout (\u03b2KO) mice had normal metabolism on chow diet, with high potential for insulin secretion",
+          "\u03b2KO mice were protected from HFD-induced hyperinsulinemia",
+          "protected from HFD-induced obesity",
+          "protected from HFD-induced insulin resistance",
+          "protected from HFD-induced glucose intolerance"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Chen et al. 2022 - Deleterious Variation in BR Serine/Threonine Kinase 2 Classified a Subtype of Autism (PMID: 35754711)",
+        "evidence_subtype": "other",
+        "summary": "CRISPR/Cas9 brsk2b-deficient zebrafish showed higher embryonic mortality, developmental delay, reduced activity, increased anxiety and reduced social interaction (ASD-like behaviors). Brain mRNA for homer1b, mbpa, mpz and plp1b was increased and isl1a was decreased. A proband with a de novo BRSK2 p.R222X nonsense variant had typical ASD behaviors.",
+        "sample_size": "1 proband; brsk2b-/- zebrafish line",
+        "significance": null
+      },
+      {
+        "citation": "Hiatt et al. 2019 - Deleterious Variation in BRSK2 Associates with a Neurodevelopmental Disorder (PMID: 30879638)",
+        "evidence_subtype": "GWAS",
+        "summary": "Nine DD/ID probands carried rare heterozygous BRSK2 variants (six predicted loss-of-function, three damaging missense), all absent from variant databases and de novo in all six probands with parental data. De novo variation was enriched over background mutation rate, and BRSK2 is intolerant to protein-altering variation.",
+        "sample_size": "9 probands; cohorts spanning 3,429 probands",
+        "significance": "p = 2.46 \u00d7 10-6"
+      },
+      {
+        "citation": "Further characterization of the BRSK2-associated neurodevelopmental disorder (PMID: 42509346)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In Drosophila, pan-neuronal knockdown of the BRSK2 orthologue sff caused impaired locomotion and seizure susceptibility. Overexpressing human wild-type BRSK2 was toxic (lethal or locomotor impairment). Most kinase-domain and KA1 missense variants showed partial loss of function, while a few variants showed possible gain of function. The study also describes 52 patients with heterozygous BRSK2 variants.",
+        "sample_size": "52 cases; Drosophila models",
+        "significance": null
+      },
+      {
+        "citation": "Jab1 interacts with brain-specific kinase 2 (BRSK2) and promotes its degradation in the ubiquitin-proteasome pathway (PMID: 22609399)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Jab1 directly interacts with BRSK2 (GST pull-down and immunoprecipitation) and co-localizes with it in the perinuclear region. Jab1 promotes BRSK2 ubiquitination and proteasomal degradation, and Jab1 silencing raises BRSK2 levels. Exogenous Jab1 reverses BRSK2-induced G2/M arrest.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "APC/C(Cdh1) targets brain-specific kinase 2 (BRSK2) for degradation via the ubiquitin-proteasome pathway (PMID: 23029325)",
+        "evidence_subtype": "pathway",
+        "summary": "BRSK2 localizes to centrosomes in mitosis, and its levels peak in mitosis and fall in G1. APC/C-Cdh1 degrades BRSK2 through its KEN box. BRSK2 overexpression increases the G2/M fraction, placing BRSK2 in cell-cycle control.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRSK2 induced by nutrient deprivation promotes Akt activity in pancreatic cancer via downregulation of mTOR activity (PMID: 28591720)",
+        "evidence_subtype": "pathway",
+        "summary": "Nutrient deprivation induces BRSK2 in PDAC cells. BRSK2 phosphorylates TSC2 and suppresses mTORC1, which relieves mTORC1 feedback inhibition of Akt and enhances cell survival.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Gain-of-function genetic screen of the kinome reveals BRSK2 as an inhibitor of the NRF2 transcription factor (PMID: 32546533)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A kinome gain-of-function screen found that BRSK2 and BRSK1 suppress NRF2 transcription and protein levels in a kinase-activity-dependent manner. Phosphoproteomics and RNAseq showed BRSK2 drives AMPK\u03b12 signaling and suppresses mTOR, reducing global protein synthesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRSK2 in pancreatic \u03b2 cells promotes hyperinsulinemia-coupled insulin resistance and its genetic variants are associated with human type 2 diabetes (PMID: 37188647)",
+        "evidence_subtype": "GWAS",
+        "summary": "BRSK2 genetic variants are associated with worse glucose metabolism, hyperinsulinemia and insulin resistance in a Chinese population. BRSK2 protein is elevated in \u03b2 cells of T2DM patients and HFD-fed mice. \u03b2-cell Brsk2 knockout protects against HFD-induced hyperinsulinemia, obesity and insulin resistance, whereas gain of function causes hyperglycemia. BRSK2 senses lipid signals and drives basal insulin secretion in a kinase-dependent manner.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Brain-selective kinase 2 (BRSK2) phosphorylation on PCTAIRE1 negatively regulates glucose-stimulated insulin secretion in pancreatic \u03b2-cells (PMID: 22798068)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "BRSK2 is abundant in pancreatic islets and MIN6 cells. It interacts with PCTAIRE1 (yeast two-hybrid, pull-down, co-IP) and phosphorylates it at Ser-12, which reduces glucose-stimulated insulin secretion. BRSK2 siRNA raises serum insulin in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRSK2 plays a role in autophagy and cancer cell growth and survival under nutrient deprivation stress via the PIK3C3 pathway (PMID: 41258112)",
+        "evidence_subtype": "pathway",
+        "summary": "BRSK2 is overexpressed in aggressive breast cancer and associated with reduced disease-specific survival. It regulates basal autophagy, activates AKT, STAT3 and NF-\u03baB, and associates with the Vps34-PI3K class III-Beclin-1-ATG14 complexes. BRSK2 knockdown or inhibition with GW296115 reduced autophagy, growth and metastatic potential, and increased apoptosis.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

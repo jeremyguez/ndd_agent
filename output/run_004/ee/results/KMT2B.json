@@ -1,0 +1,301 @@
+{
+  "articles_found": {
+    "clinical": 12,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Aicardi Syndrome Is a Genetically Heterogeneous Disorder (PMID: 37628618)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Unique de novo variant in KMT2B (specific notation not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "Aicardi syndrome or suspected Aicardi syndrome (female)",
+              "Agenesis of corpus callosum / chorioretinal lacunae / infantile epileptic spasms syndrome (classical triad; patient-specific features not given in abstract)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant identified by exome/genome sequencing in a female with AIC or suspected AIC; one of five candidate autosomal genes identified.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A New Pathologic KMT2B Variant Associated with Childhood Onset Dystonia Presenting as Variable Phenotypes among Family Members (PMID: 35415007)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "Novel heterozygous pathogenic KMT2B variant (notation not given in abstract); found in proband, sister and mother",
+            "type": "other",
+            "phenotypes": [
+              "Childhood-onset dystonia progressing to generalized dystonia",
+              "Mild developmental delay",
+              "Laryngeal dystonia",
+              "Patellar hyperreflexia",
+              "Postural tremor",
+              "Everted gait",
+              "Milder presentations in sister and mother (intrafamilial variable expressivity)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Heterozygous variant classified as pathogenic by whole exome sequencing; inherited, segregating in three affected family members with variable expressivity.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Clinical Presentation of KMT2B-Related Dystonia: A Case Report (PMID: 40303543)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Not specified in abstract",
+            "type": "other",
+            "phenotypes": [
+              "Worsening gait",
+              "Dystonic movements",
+              "Asymmetric spasticity in all extremities (right > left)",
+              "Prominent involuntary hand movements",
+              "Difficulties with fine motor function"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Clinical diagnosis of KMT2B-related dystonia in an 8-year-old boy.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Diagnostic Yield and Genotype-Phenotype Correlations of Clinical Exome Sequencing in Hereditary Spastic Paraparesis: Experience From Eastern Spain (PMID: 41560358)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_014727 c.439C>T, p.(Arg147*)",
+            "type": "LoF",
+            "phenotypes": [
+              "Complicated (plus) hereditary spastic paraparesis",
+              "Onset at age 25 with gait disturbance",
+              "Cognitive impairment",
+              "Urinary symptoms",
+              "Teeth anomalies",
+              "Wheelchair use"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Nonsense variant classified pathogenic/likely pathogenic (PVS1, PM2); autosomal dominant gene in an HSP cohort.",
+        "center_country": "Eastern Spain",
+        "cohort": null
+      },
+      {
+        "citation": "Genetic Etiologies of Dystonia with Anarthria/Aphonia (PMID: 42817183)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Not specified (KMT2B-related dystonia, case 38)",
+            "type": "other",
+            "phenotypes": [
+              "Dystonia with anarthria/aphonia",
+              "Underwent deep brain stimulation with stable dystonia course afterwards"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Established genetic cause of KMT2B-related dystonia in a retrospective cohort.",
+        "center_country": "The Hospital for Sick Children and Toronto Western Hospital, Toronto, Canada",
+        "cohort": null
+      },
+      {
+        "citation": "Deciphering Spastic Ataxia: Clinical and Genetic Profiles (PMID: 41357347)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Not specified (KMT2B-related ataxia, autosomal dominant)",
+            "type": "other",
+            "phenotypes": [
+              "Spastic ataxia",
+              "Hereditary cerebellar ataxia cohort"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Definite genetic diagnosis of autosomal dominant KMT2B-related spastic ataxia in a prospective HCA cohort.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Motor coordination and behavioural deficits in a mouse model of KMT2B-related dystonia (PMID: 42727616)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Viable but significantly smaller and lighter than littermate controls",
+          "Hyperlocomotion in the open field",
+          "About two-fold larger acoustic startle responses",
+          "Enhanced prepulse inhibition at all prepulse intensities",
+          "Slower balance beam crossing with more pauses",
+          "Female knockouts paused more on the ladder rung task",
+          "Claw-like hindpaw posture with abnormal inward flexion of the digits (dystonic-like)",
+          "Reduced investigation of a novel conspecific (reduced sociability) with intact social recognition memory",
+          "Striatal Kmt2b transcript reduced to about half of control levels",
+          "177 differentially expressed genes in striatum, including Maob, implicating neurodevelopmental, glial and mitochondrial processes",
+          "Nociception, vision, body-weight-adjusted grip strength, clinical chemistry and haematology largely unaffected"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kerimoglu et al. 2013 - Histone-methyltransferase MLL2 (KMT2B) is required for memory formation in mice (PMID: 23426673)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Kmt2b deletion in adult forebrain excitatory neurons",
+          "Impaired hippocampus-dependent memory",
+          "152 genes downregulated in the dentate gyrus",
+          "Deficit in H3K4 di- and trimethylation at downregulated plasticity genes, with H3K4me1 unaffected"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Essential Functions of MLL1 and MLL2 in Retinal Development and Cone Cell Maintenance (PMID: 35223853)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Mll2 CKO in Chx10+ retinal progenitors gave a phenotype similar to Mll1 CKO",
+          "Mll1/Mll2 double CKO was much more severe: null electroretinogram light responses at 1 month",
+          "Thin retinal layers and shorter photoreceptor outer segments with impaired phototransduction gene expression",
+          "Reduced numbers of M-cones, horizontal cells and amacrine neurons, followed by fast retinal degeneration",
+          "Moderately reduced progenitor proliferation at P0",
+          "Increased apoptosis and reactive gliosis postnatally",
+          "Removal of both MLLs in rods gave a normal phenotype, while the M-cone CKO impaired M-cone function and survival"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Epigenomic analysis of gastrulation identifies a unique chromatin state for primed pluripotency (PMID: 31844322)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "KMT2B is essential for establishing bivalent H3K4me3 in E6.5 epiblast but becomes partially dispensable later",
+          "Kmt2b deficiency impairs activation of developmental genes",
+          "Embryonic lethality"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KMT2B drives inflammation in endothelial cells and promotes atherosclerosis via histone H3 lysine 4 trimethylation-mediated autophagy (PMID: 42481927)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Lentivirus sgKmt2b knockdown in ApoE-/- mice improved atherosclerosis",
+          "Reduced plaque formation, lipid accumulation and inflammatory cytokines",
+          "siRNA knockdown of KMT2B in rat and human aortic endothelial cells altered autophagy and inflammation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aicardi Syndrome Is a Genetically Heterogeneous Disorder (PMID: 37628618)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Morpholino knockdown was used in zebrafish embryos to assess pathogenicity of candidate de novo variants, including KMT2B, in Aicardi syndrome patients",
+          "No KMT2B-specific zebrafish phenotype is given in the abstract"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Structure, Activity and Function of the MLL2 (KMT2B) Protein Lysine Methyltransferase (PMID: 34440566)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Review describing KMT2B (MLL2) as a 2715-aa H3K4 methyltransferase with a C-terminal SET domain. It forms a complex with WRAD (WDR5, RbBP5, ASH2L, DPY30), HCF1/2 and Menin, and the complex deposits H3K4me3 at promoters and cis-regulatory sites of bivalent developmental genes. The review also notes wide expression in adult human tissues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulation, functions and transmission of bivalent chromatin during mammalian development (PMID: 36028557)",
+        "evidence_subtype": "pathway",
+        "summary": "Review identifying KMT2B, together with PRC2, as a key factor establishing bivalent chromatin (H3K4me3/H3K27me3) at developmental gene promoters. Bivalency is a feature of germline and embryonic stem cells and is relevant to development and cancer.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "H3K4me1 facilitates promoter-enhancer interactions and gene activation during embryonic stem cell differentiation (PMID: 38513661)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In mouse ESCs undergoing neural differentiation, H3K4me1 at KMT2C/D-independent enhancers was reduced after acute KMT2B depletion, which aggravated transcriptional defects. This implicates KMT2B in catalyzing H3K4me1 at enhancers and supports a role for H3K4me1 in enhancer-promoter interactions.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KMT2A and KMT2B Mediate Memory Function by Affecting Distinct Genomic Regions (PMID: 28723559)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Knockdown of Kmt2b in mouse hippocampal neurons decreased H3K4 methylation and deregulated gene expression, and it impaired memory. Kmt2b and Kmt2a control largely distinct genomic regions and molecular pathways linked to neuronal plasticity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Tsga8 is required for spermatid morphogenesis and male fertility in mice (PMID: 33766931)",
+        "evidence_subtype": "other",
+        "summary": "KMT2B deposits H3K4me3 at bivalent and monovalent promoters in undifferentiated spermatogonia and programs genes for later expression. Tsga8 is one such KMT2B target, and its loss in mice causes male infertility through defective spermatid morphogenesis and histone-to-protamine transition.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "KMT2B promotes the growth of renal cell carcinoma via upregulation of SNHG12 expression and promotion of CEP55 transcription (PMID: 35597996)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In RCC cells, KMT2B upregulated lncRNA SNHG12 by increasing H3K4me3 at its promoter (ChIP). SNHG12 then recruited E2F1 to drive CEP55 transcription, promoting proliferation, migration, invasion and angiogenesis in vitro and tumor growth in nude mouse xenografts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Haploinsufficiency of KMT2B, Encoding the Lysine-Specific Histone Methyltransferase 2B, Results in Early-Onset Generalized Dystonia (PMID: 27839873)",
+        "evidence_subtype": "function",
+        "summary": "Four loss-of-function KMT2B mutations (three de novo, one inherited) were identified in early-onset generalized dystonia. Mutant patient fibroblasts showed significantly decreased KMT2B mRNA, consistent with haploinsufficiency and disordered histone modification as a disease mechanism.",
+        "sample_size": "1 trio plus 30 German-Austrian individuals; 4 mutations",
+        "significance": "significantly decreased mRNA levels in mutant fibroblasts"
+      },
+      {
+        "citation": "Genetic landscape of non-UV-induced cutaneous squamous cell carcinomas (PMID: 41132030)",
+        "evidence_subtype": "cell_culture",
+        "summary": "KMT2B carried high-impact loss-of-function mutations in 11/31 non-UV-induced cSCC, a significantly higher proportion than in UV-induced cSCC. siRNA knockdown of KMT2B in SCC-13 and A-431 cells did not change proliferation but significantly increased migration.",
+        "sample_size": "31 patients",
+        "significance": "significantly higher mutation frequency than UV-induced cSCC; significantly increased migration"
+      },
+      {
+        "citation": "Adult-onset KMT2B-related dystonia (PMID: 36483457)",
+        "evidence_subtype": "other",
+        "summary": "Rare heterozygous KMT2B missense variants were found in adult-onset dystonia, hearing loss or intellectual disability. Genome-wide DNA methylation profiling separated these cases from controls and from early-onset DYT-KMT2B patients, indicating a distinct epigenetic signature.",
+        "sample_size": "12 cases from 5 families, 4 missense variants",
+        "significance": null
+      },
+      {
+        "citation": "Phenotype variability and allelic heterogeneity in KMT2B-Associated disease (PMID: 29653907)",
+        "evidence_subtype": "function",
+        "summary": "Four novel de novo KMT2B frameshift/insertion mutations were identified in Japanese dystonia patients, and the mutant transcripts showed reduced mRNA expression. This supports haploinsufficiency as a pathomechanism, with cerebellar involvement noted.",
+        "sample_size": "4 patients",
+        "significance": null
+      }
+    ]
+  }
+}

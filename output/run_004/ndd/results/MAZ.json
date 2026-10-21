@@ -1,0 +1,212 @@
+{
+  "articles_found": {
+    "clinical": 18,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Improved Diagnostic Yield in Recessive Intellectual Disability Utilizing Systematic Whole Exome Sequencing Data Reanalysis (PMID: 39748273)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified in abstract; MAZ listed as a novel candidate gene identified in a consanguineous family with recessive ID (co-segregating variant; likely homozygous rather than heterozygous)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel candidate gene supported by segregation analysis and bioinformatic functional annotation (recessive inheritance in the family)",
+        "center_country": "Iran (Genetics Research Center, University of Social Welfare and Rehabilitation Sciences, Tehran)",
+        "cohort": null
+      },
+      {
+        "citation": "The transcription factor Maz is essential for normal eye development (PMID: 32571845)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Copy-number variations of MAZ (16p11.2 CNVs) identified in humans with abnormal ocular development",
+            "type": "other",
+            "phenotypes": [
+              "abnormal ocular development",
+              "eye malformations"
+            ]
+          },
+          {
+            "description": "Single-nucleotide variants of MAZ (specific variants not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "abnormal ocular development",
+              "eye malformations"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Mouse Maz knockout produced eye defects; human MAZ CNVs and SNVs associated with ocular phenotypes; supports MAZ as a contributor to eye comorbidities of 16p11.2 CNVs",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2022 - The benefits and yields of whole exome sequencing data reanalysis in Iranian undiagnosed patients with intellectual disability",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified; MAZ listed as a novel candidate gene in the ARID cohort (likely recessive)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel candidate gene identified on WES reanalysis in consanguineous families",
+        "center_country": "Iran (Genetics Research Center, University of Social Welfare and Rehabilitation Sciences, Tehran)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2014 - The role of MAZ in the regulation of genitourinary development via modulation of WNT signaling",
+        "num_patients": 15,
+        "variants": [
+          {
+            "description": "MAZ copy-number variants (deletions/duplications within 16p11.2) detected by qPCR in about 6% of 258 GU-abnormal patients (0% of 57 controls)",
+            "type": "other",
+            "phenotypes": [
+              "genitourinary malformations",
+              "cryptorchidism",
+              "hypospadias",
+              "bladder exstrophy-epispadias complex",
+              "ambiguous genitalia",
+              "congenital anomalies of the kidney and urinary tract"
+            ]
+          }
+        ],
+        "diagnostic_reason": "MAZ was the only gene covered by all mapped 16p11.2 CNVs in GU-defect patients; MAZ CNVs were enriched in patients versus controls; MAZ knockdown/overexpression altered WNT pathway genes",
+        "center_country": "Baylor College of Medicine, USA",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Maz is essential for normal eye development (PMID: 32571845)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Developmental eye defects with abnormal peripheral eye / ciliary margin formation",
+          "Reduced proliferation of progenitor cells in the peripheral eye region",
+          "Increased expression of Wnt pathway genes Sfrp2, Wnt2b and Fzd4",
+          "Downregulation of the Wnt reporter TCF-Lef1 in Maz-deficient eyes",
+          "Disrupted ciliary margin patterning",
+          "Human MAZ CNVs and SNVs associated with abnormal ocular development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Maz is a dosage-sensitive regulator of genitourinary development: 16p11.2 transcription factor MAZ (PMID: 29432158)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (CRISPR-Cas9 deletion; homozygous and heterozygous)",
+        "phenotypes": [
+          "Perinatal lethality with survival dependent on Maz copy number",
+          "High penetrance of congenital anomalies of the kidney and urinary tract (CAKUT) in homozygous mutants",
+          "Haploinsufficiency for normal bladder development",
+          "Ubiquitous Maz expression"
+        ],
+        "mendelian_ratio": "sub-Mendelian (survival dependent on Maz copy number)",
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CRISPR and biochemical screens identify MAZ as a cofactor in CTCF-mediated insulation at Hox clusters (PMID: 35145304)",
+        "organism": "mouse",
+        "knockout_type": "other (MAZ motif deletions at the Hox cluster in mouse; MAZ KO in cell lines)",
+        "phenotypes": [
+          "MAZ KO disrupts gene expression and local contacts within topologically associating domains (cell lines)",
+          "MAZ motif deletions derepress posterior Hox genes immediately after CTCF boundaries upon differentiation",
+          "Homeotic transformations in mouse"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Kyriacou et al. 1992 (original MAZ cloning) - MAZ, a zinc finger protein, binds to c-MYC and C2 gene sequences regulating transcriptional initiation and termination (PMID: 1502157)",
+        "evidence_subtype": "function",
+        "summary": "MAZ was cloned as a 477-aa Cys2His2 zinc finger protein that binds the ME1a1 site and GA-box (GGGAGGG) elements in the c-MYC P2 promoter, the P2 attenuator and the C2 gene termination site, so it may act in both transcription initiation and termination. Its mRNA was present in all human tissues tested except kidney, as ~2.5 and 2.7 kb transcripts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of the transcription factor MAZ as a regulator of erythropoiesis (PMID: 34351390)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DNA affinity purification with mass spectrometry identified MAZ as binding the \u03b1-globin promoter. In primary human erythroid cells MAZ occupies active promoters and GATA1-bound enhancers. MAZ knockdown reduced \u03b1-globin expression in K562 cells and impaired differentiation of primary erythroid cells. MAZ locus variants are associated with erythroid traits.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAZ regulates fetal hemoglobin repression by activating MYB transcription (PMID: 41331317)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MAZ depletion in HUDEP-2 and \u03b2-thalassemia patient-derived cells induced \u03b3-globin mRNA and protein and raised HbF. MAZ occupies the MYB promoter, and MAZ loss reduced MYB. Restoring MYB re-silenced HBG, defining a MAZ-MYB axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MAZ promotes tumor proliferation and immune evasion in lung adenocarcinoma (PMID: 39424990)",
+        "evidence_subtype": "pathway",
+        "summary": "MAZ is upregulated in LUAD tissue and its expression inversely correlates with patient survival. MAZ transcriptionally regulates KRAS and activates AKT-NF-\u03baB signaling. Silencing MAZ reduced proliferation, pro-tumorigenic chemokines and Galectin-9, and enhanced immune checkpoint blockade efficacy in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Akt phosphorylates myc-associated zinc finger protein (MAZ), releases P-MAZ from the p53 promoter, and activates p53 transcription (PMID: 26902421)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MAZ is a transcriptional repressor of the p53 promoter. Akt phosphorylates MAZ at Thr385, which releases it from the p53 promoter and activates p53 transcription during oncogene activation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "TUG1/MAZ/FTH1 Axis Attenuates the Antiglioma Effect of Dihydroartemisinin by Inhibiting Ferroptosis (PMID: 36164395)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ChIP showed MAZ binds the FTH1 promoter and activates FTH1, a negative regulator of ferroptosis. Luciferase assays identified MAZ as a direct target of lncRNA TUG1. In dihydroartemisinin-treated glioma cells TUG1 was down and MAZ up, and TUG1 overexpression enhanced the drug's antiglioma effect in vitro and in vivo.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phenylethanolamine N-methyltransferase gene expression. Sp1 and MAZ potential for tissue-specific expression (PMID: 10085109)",
+        "evidence_subtype": "function",
+        "summary": "In Neuro2A cells MAZ competes with Sp1 for DNA sequences 3' to the -48 Sp1 site on the PNMT promoter, preventing Sp1 binding and induction. This Sp1-MAZ competition may add tissue-specific control of PNMT expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - The role of MAZ in the regulation of genitourinary development via modulation of WNT signaling",
+        "evidence_subtype": "expression",
+        "summary": "MAZ was the only gene covered by all 16p11.2 CNVs in patients with genitourinary defects. Maz is expressed in mouse kidneys, ureters, testes, bladder and genital tubercle. MAZ CNVs were found in 6% of GU-abnormal patients versus 0% of controls. MAZ knockdown or overexpression in HEK293 cells altered WNT pathway genes (DKK1/2/4, LRP5/6, FZD, WNT4, WNT11, GSK3A).",
+        "sample_size": "258 GU-abnormal patients, 57 controls",
+        "significance": "6% vs 0% CNV frequency (no p-value given)"
+      },
+      {
+        "citation": "ASHG 2018 - An exome-wide association study identifies candidate susceptibility genes for congenital obstructive uropathy",
+        "evidence_subtype": "GWAS",
+        "summary": "Exome collapsing analysis found a rare-variant burden of dominant missense variants in MAZ in congenital obstructive uropathy. Common variants in the GWAS cross-annotation supported the association.",
+        "sample_size": "292 COU cases and 8,541 controls (WES); 398 cases and 8,197 controls (GWAS)",
+        "significance": "rare P=3.58x10-5; common P=7.06x10-3 to 6.96x10-4; joint P=4.6x10-7"
+      },
+      {
+        "citation": "ASHG 2018 - Genome-wide analysis of G4 sequences overlapped with SP1/MAZ binding sites in the human genome and their roles in gene regulation of the proto-oncogene Bcl3",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MAZ and SP1 bind a G-quadruplex (PU24WT) in the Bcl3 promoter by ChIP. The G4 ligand TMPyP4 reduced MAZ/SP1 binding, Bcl3 promoter activity and Bcl3 RNA in breast cancer cells.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

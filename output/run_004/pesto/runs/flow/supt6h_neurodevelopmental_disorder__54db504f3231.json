@@ -1,0 +1,471 @@
+{
+ "gene": "SUPT6H",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental disability",
+   "neurodevelopmental abnormality",
+   "abnormal neurodevelopment",
+   "neurodevelopmental impairment",
+   "neurodevelopmental delay",
+   "disorder of neurodevelopment",
+   "neurodevelopmental anomaly",
+   "neurodevelopmental defect",
+   "developmental disorder of the nervous system"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "KIAA0162",
+   "SPT6H",
+   "SPT6 homolog, histone chaperone and transcription elongation factor"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 21,
+  "titlekicksparingfulltext": 8,
+  "read": 13
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 10,
+   "Existing": 65,
+   "Hypothesized": 23,
+   "Novel": 2
+  },
+  "justification": "The strongest evidence comes from PMID 41864309, which compiles 18 previously reported sporadic de novo SNVs in SUPT6H from individuals with developmental disorders, models them as likely loss-of-function, and supports this with Supt6 null/conditional knockout mice showing embryonic lethality, seizures, motor deficits and interneuron loss. However, that paper's own human component is a reanalysis of published variants rather than an independent clinical cohort with newly ascertained probands, and the mouse work is animal-based, so replication across independent clinical studies is not demonstrated. PMID 38850022 implicates SUPT6H as a dosage-sensitive driver within the 17q11.2 CNV locus, but a multigene CNV cannot single out this gene. The remaining papers describe SPT6/SUPT6H biology (RNAPII elongation, histone chaperone, chromatin regulation, differentiation) or incidental proteomic co-mentions, which support biological plausibility but not variant-level causation. Overall this fits \"Existing\" with meaningful residual weight on \"Hypothesized.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 10,
+   "Existing": 65,
+   "Hypothesized": 23,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "34526721",
+   "title": "Structural basis of human transcription-DNA repair coupling.",
+   "abstract": "Transcription-coupled DNA repair removes bulky DNA lesions from the genome1,2 and protects cells against ultraviolet (UV)\u00a0irradiation3. Transcription-coupled DNA repair begins when RNA polymerase II (Pol II) stalls at a DNA lesion and recruits the Cockayne syndrome protein CSB, the E3 ubiquitin ligase, CRL4CSA and UV-stimulated scaffold protein A (UVSSA)3. Here we provide five high-resolution structures of Pol II transcription complexes containing human transcription-coupled DNA repair factors and the elongation factors PAF1 complex (PAF) and SPT6. Together with biochemical and published3,4 data, the structures provide a model for transcription-repair coupling. Stalling of Pol II at a DNA lesion triggers replacement of the elongation factor DSIF by CSB, which binds to PAF and moves upstream DNA to SPT6. The resulting elongation complex, ECTCR, uses the CSA-stimulated translocase activity of CSB to pull on upstream DNA and push Pol\u00a0II forward. If the lesion cannot be bypassed, CRL4CSA spans over the Pol II clamp and ubiquitylates the RPB1 residue K1268, enabling recruitment of TFIIH to UVSSA and DNA repair. Conformational changes in CRL4CSA lead to ubiquitylation of CSB and to release of transcription-coupled DNA repair factors before transcription may continue over repaired DNA.",
+   "found_by": [],
+   "pubdate": "2021 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32522980",
+   "title": "Spt6 is a maintenance factor for centromeric CENP-A.",
+   "abstract": "Replication and transcription of genomic DNA requires partial disassembly of nucleosomes to allow progression of polymerases. This presents both an opportunity to remodel the underlying chromatin and a danger of losing epigenetic information. Centromeric transcription is required for stable incorporation of the centromere-specific histone dCENP-A in M/G1 phase, which depends on the eviction of previously deposited H3/H3.3-placeholder nucleosomes. Here we demonstrate that the histone chaperone and transcription elongation factor Spt6 spatially and temporarily coincides with centromeric transcription and prevents the loss of old CENP-A nucleosomes in both Drosophila and human cells. Spt6 binds directly to dCENP-A and dCENP-A mutants carrying phosphomimetic residues alleviate this association. Retention of phosphomimetic dCENP-A mutants is reduced relative to wildtype, while non-phosphorylatable dCENP-A retention is increased and accumulates at the centromere. We conclude that Spt6 acts as a conserved CENP-A maintenance factor that ensures long-term stability of epigenetic centromere identity during transcription-mediated chromatin remodeling.",
+   "found_by": [],
+   "pubdate": "2020 Jun 10",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "33542242",
+   "title": "SPT6 promotes epidermal differentiation and blockade of an intestinal-like phenotype through control of transcriptional elongation.",
+   "abstract": "In adult tissue, stem and progenitor cells must tightly regulate the balance between proliferation and differentiation to sustain homeostasis. How this exquisite balance is achieved is an area of active investigation. Here, we show that epidermal genes, including ~30% of induced differentiation genes already contain stalled Pol II at the promoters in epidermal stem and progenitor cells which is then released into productive transcription elongation upon differentiation. Central to this process are SPT6 and PAF1 which are necessary for the elongation of these differentiation genes. Upon SPT6 or PAF1 depletion there is a loss of human skin differentiation and stratification. Unexpectedly, loss of SPT6 also causes the spontaneous transdifferentiation of epidermal cells into an intestinal-like phenotype due to the stalled transcription of the master regulator of epidermal fate P63. Our findings suggest that control of transcription elongation through SPT6 plays a prominent role in adult somatic tissue differentiation and the inhibition of alternative cell fate choices.",
+   "found_by": [],
+   "pubdate": "2021 Feb 4",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34233157",
+   "title": "Targeted protein degradation reveals a direct role of SPT6 in RNAPII elongation and termination.",
+   "abstract": "SPT6 is a histone chaperone that tightly binds RNA polymerase II (RNAPII) during transcription elongation. However, its primary role in transcription is uncertain. We used targeted protein degradation to rapidly deplete SPT6 in human cells and analyzed defects in RNAPII behavior by a multi-omics approach and mathematical modeling. Our data indicate that SPT6 is a crucial factor for RNAPII processivity and is therefore required for the productive transcription of protein-coding genes. Unexpectedly, SPT6 also has a vital role in RNAPII termination, as acute depletion induced readthrough transcription for thousands of genes. Long-term depletion of SPT6 induced cryptic intragenic transcription, as observed earlier in yeast. However, this phenotype was not observed upon acute SPT6 depletion and therefore can be attributed to accumulated epigenetic perturbations in the prolonged absence of SPT6. In conclusion, targeted degradation of SPT6 allowed the temporal discrimination of its function as an epigenetic safeguard and RNAPII elongation factor.",
+   "found_by": [],
+   "pubdate": "2021 Aug 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "22171252",
+   "title": "The cellular protein SPT6 is required for efficient replication of human cytomegalovirus.",
+   "abstract": "The human cytomegalovirus tegument protein UL69 has been shown to be required for efficient viral replication at low multiplicities of infection. Several functions have been associated with UL69, including its ability to regulate cell cycle progression, translation, and the export of viral transcripts from the nucleus to the cytoplasm. However, it remains unclear which, if any, of these activities contribute to the phenotype observed with the UL69 deletion mutant. UL69 has been shown to interact with the cellular protein SPT6. The functional significance of this interaction has never been examined in the context of an infection. To address this, we generated UL69 mutant viruses that were unable to interact with SPT6 and determined what effect these mutations had on virus replication. Abolishing UL69's ability to interact with the SPT6 protein inhibited virus replication to levels indistinguishable from those observed following infection with the UL69 deletion mutant. Surprisingly, abolishing UL69's interaction with SPT6 also resulted in the impairment of UL69 shuttling activity. Finally, we demonstrate that inhibition of SPT6 expression by short hairpin RNA (shRNA) knockdown inhibits wild-type virus replication. Taken together, our results demonstrate that UL69's ability to interact with SPT6 plays a critical role in viral replication.",
+   "found_by": [],
+   "pubdate": "2012 Feb",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "24441044",
+   "title": "SUPT6H controls estrogen receptor activity and cellular differentiation by multiple epigenomic mechanisms.",
+   "abstract": "The estrogen receptor alpha (ER\u03b1) is the central transcriptional regulator of ductal mammary epithelial lineage specification and is an important prognostic marker in human breast cancer. Although antiestrogen therapies are initially highly effective at treating ER\u03b1-positive tumors, a large number of tumors progress to a refractory, more poorly differentiated phenotype accompanied by reduced survival. A better understanding of the molecular mechanisms involved in the progression from estrogen-dependent to hormone-resistant breast cancer may uncover new targets for treatment and the discovery of new predictive markers. Recent studies have uncovered an important role for transcriptional elongation and chromatin modifications in controlling ER\u03b1 activity and estrogen responsiveness. The human Suppressor of Ty Homologue-6 (SUPT6H) is a histone chaperone that links transcriptional elongation to changes in chromatin structure. We show that SUPT6H is required for estrogen-regulated transcription and the maintenance of chromatin structure in breast cancer cells, possibly in part through interaction with RNF40 and regulation of histone H2B monoubiquitination (H2Bub1). Moreover, we demonstrate that SUPT6H protein levels decrease with malignancy in breast cancer. Consistently, SUPT6H, similar to H2Bub1, is required for cellular differentiation and suppression of the repressive histone mark H3K27me3 on lineage-specific genes. Together, these data identify SUPT6H as a new epigenetic regulator of ER\u03b1 activity and cellular differentiation.",
+   "found_by": [],
+   "pubdate": "2015 Jan 22",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30449723",
+   "title": "Deregulated Expression of Mammalian lncRNA through Loss of SPT6 Induces R-Loop Formation, Replication Stress, and Cellular Senescence.",
+   "abstract": "Extensive tracts of the mammalian genome that lack protein-coding function are still transcribed into long noncoding RNA. While these lncRNAs are generally short lived, length restricted, and non-polyadenylated, how their expression is distinguished from protein-coding genes remains enigmatic. Surprisingly, depletion of the ubiquitous Pol-II-associated transcription elongation factor SPT6 promotes a redistribution of H3K36me3 histone marks from active protein coding to lncRNA genes, which correlates with increased lncRNA transcription. SPT6 knockdown also impairs the recruitment of the Integrator complex to chromatin, which results in a transcriptional termination defect for lncRNA genes. This leads to the formation of extended, polyadenylated lncRNAs that are both chromatin restricted and form increased levels of RNA:DNA hybrid (R-loops) that are associated with DNA damage. Additionally, these deregulated lncRNAs overlap with DNA replication origins leading to localized DNA replication stress and a cellular senescence phenotype. Overall, our results underline the importance of restricting lncRNA expression.",
+   "found_by": [],
+   "pubdate": "2018 Dec 20",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "22843687",
+   "title": "The histone chaperone Spt6 is required for activation-induced cytidine deaminase target determination through H3K4me3 regulation.",
+   "abstract": "H3K4me3 plays a critical role in the activation-induced cytidine deaminase (AID)-induced DNA cleavage of switch (S) regions in the immunoglobulin heavy chain (IgH) locus during class-switch recombination (CSR). The histone chaperone complex facilitates chromatin transcription (FACT) is responsible for forming H3K4me3 at AID target loci. Here we show that the histone chaperone suppressor of Ty6 (Spt6) also participates in regulating H3K4me3 for CSR and for somatic hypermutation in AID target loci. We found that H3K4me3 loss was correlated with defects in AID-induced DNA breakage and reduced mutation frequencies in IgH loci in both S and variable regions and in non-IgH loci such as metastasis-associated lung adenocarcinoma transcript 1 (MALAT1) and small nucleolar RNA host gene 3 (SNHG3). Global gene expression analysis revealed that Spt6 can act as both a positive and negative transcriptional regulator in B cells, affecting \u223c5% of the genes that includes suppressor of Ty4 (Spt4) and AID. Interestingly, Spt6 regulates CSR and AID expression through two distinct histone modification pathways, H3K4me3 and H3K36me3, respectively. Tandem SH2 domain of Spt6 plays a critical role in CSR and H3K4me3 regulation involving Set1 histone methyltransferase. We conclude that Spt6 is a unique histone chaperone capable of regulating the histone epigenetic state of both AID targets and the AID locus.",
+   "found_by": [],
+   "pubdate": "2012 Sep 21",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41864309",
+   "title": "Genetic alterations in SUPT6H are associated with neurodevelopmental disorders.",
+   "abstract": "Genetic variants affecting the RNA polymerase II complex have been associated with various neurodevelopmental disorders (NDDs). SUPT6H, an RNA polymerase II-associated elongation factor and a histone chaperone, plays a critical role in transcriptional regulation. However, the contribution of SUPT6H variants to human NDDs and the phenotypic consequences of its loss-of-function in vivo remain unexplored. Here, we analyzed 18 published sporadic single-nucleotide variants (SNVs) of SUPT6H associated with human developmental disorders. Molecular modeling suggests that these variants are likely deleterious, leading to loss of function. Consistent with this, homozygous or heterozygous Supt6 null mice exhibit embryonic lethality, underscoring its essential role during development. To investigate the postnatal consequences of Supt6 deficiency, we generated conditional Supt6 knockout (KO) mice with targeted deletion in parvalbumin-expressing GABAergic interneurons (cKOPV). Homozygous Supt6 cKOPV mice displayed motor defects and behavioral seizures, whereas heterozygous counterparts exhibited behavioral phenotypes relevant to neuropsychiatric disorders despite normal motor activity. Notably, both heterozygous and homozygous Supt6 cKOPV mice showed a significant reduction in parvalbumin-expressing neurons compared to wild-type controls. These findings establish a direct link between Supt6 loss-of-function and neurodevelopmental phenotypes, highlighting its critical role in maintaining interneuron populations and neural circuit integrity. Altogether, our results suggest that deleterious SUPT6H variants may contribute to the etiology of NDDs, providing valuable insights into its function and potential as a therapeutic target.",
+   "found_by": [],
+   "pubdate": "2026 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming SUPT6H] ...ation | 17 | 17p13.3 (novel) | | PRPF8\u2217+, CLUH\u2217+ | NXN\u2217+, ABR\u2217+, YWHAE\u2217+, PITPNA\u2217+, MNT\u2217+, PAFAH1B1\u2217\u2217+, CRK\u2217+, RTN4RL1\u2217+, METTL16+, RAP1GAP2\u2217+, SMG6\u2217+ N/A | deletion-duplication | 17 | 17q11.2 | | NLK\u2217, GIT1\u2217, SUPT6H\u2217, NF1\u2217\u2217+ | TRAF4\u2217, SSH2\u2217, PHF12\u2217\u2217, NUFIP2\u2217, ATAD5\u2217, RHOT1 , PSMD11\u2217, MYO18A\u2217, TAOK1\u2217\u2217 N/A | deletion-duplication | 17 | 17q12 | | ACACA\u2217+, PIP4K2B\u2217 | AP2B1\u2217, GGNBP2\u2217+, MLLT6\u2217, PCGF2\u2217\u2217, SYNRG\u2217+, SRCIN1\u2217,...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38132127",
+   "title": "The Identification of Nuclear FMRP Isoform Iso6 Partners.",
+   "abstract": "A deficiency of FMRP, a canonical RNA-binding protein, causes the development of Fragile X Syndrome (FXS), which is characterised by multiple phenotypes, including neurodevelopmental disorders, intellectual disability, and autism. Due to the alternative splicing of the encoding FMR1 gene, multiple FMRP isoforms are produced consisting of full-length predominantly cytoplasmic (i.e., iso1) isoforms involved in translation and truncated nuclear (i.e., iso6) isoforms with orphan functions. However, we recently implicated nuclear FMRP isoforms in DNA damage response, showing that they negatively regulate the accumulation of anaphase DNA genomic instability bridges. This finding provided evidence that the cytoplasmic and nuclear functions of FMRP are uncoupled played by respective cytoplasmic and nuclear isoforms, potentially involving specific interactions. While interaction partners of cytoplasmic FMRP have been reported, the identity of nuclear FMRP isoform partners remains to be established. Using affinity purification coupled with mass spectrometry, we mapped the nuclear interactome of the FMRP isoform iso6 in U2OS. In doing so, we found FMRP nuclear interaction partners to be involved in RNA processing, pre-mRNA splicing, ribosome biogenesis, DNA replication and damage response, chromatin remodeling and chromosome segregation. By comparing interactions between nuclear iso6 and cytoplasmic iso1, we report a set of partners that bind specifically to the nuclear isoforms, mainly proteins involved in DNA-associated processes and proteasomal proteins, which is consistent with our finding that proteasome targets the nuclear FMRP iso6. The specific interactions with the nuclear isoform 6 are regulated by replication stress, while those with the cytoplasmic isoform 1 are largely insensitive to such stress, further supporting a specific role of nuclear isoforms in DNA damage response induced by replicative stress, potentially regulated by the proteasome. [full text, passages naming SUPT6H] ...RNA splicing and processing (i.e., SRSF, PRP, CPSF1), RNA modification and RNA structure (i.e., YTHDF2, DDX, TRMTL1), ribosome biogenesis and maturation (i.e., WDR, MRT, NOP), RNA synthesis (i.e., POLR, CEBPZ, SUPT6H), DNA replication and DNA repair (i.e., BRCA2, TOP2A/B, SMARCA), and chromatin remodeling and chromosome condensation and segregation (i.e., H2A, AURKB, RCC1). Our data also revealed regulators and compo... ...0 | 0 | MRTO4 | 7.5 | 75 | 0 | NOP9 | 2.5 | 25 | 0 | NOP16 | 7 | 7 | 0.01 | RNA synthesis | POLR2B | 8.5 | 85 | 0 | POLR1A | 6.5 | 65 | 0 | POLR1E | 3.5 | 35 | 0 | CEBPZ | 17 | 170 | 0 | SUPT16H | 7 | 70 | 0 | SUPT6H | 3 | 30 | 0 | DNA replication and DNA repair | BRCA2 | 7 | 70 | 0 | TOP2A | 25 | 250 | 0 | TOP2B | 10 | 100 | 0 | SMARCA5 | 8.5 | 85 | 0 | SMARCD2 | 2.5 | 25 | 0 | SMARCE1 | 2 | 20 | 0 | Chromatin remod... ...ovel role of the protein in regulating the activity of a nuclear proteasome. Our finding that iso6 pulled down with nuclear RNA-binding proteins, such as SRSF, CPSF1, YTHDF2, DDX, TRMTL1, WDR, POLR, CEBPZ, and SUPT6H ( Supplementary Table S1 and Table 1 ), is consistent with the possibility that the protein plays nuclear RNA functions, including splicing (i.e., via SRSF1 interaction), processing (i.e., via CPSF1 inte...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41622464",
+   "title": "Proteomic analyses in early brain development and neuropathological implications of fetal growth restriction.",
+   "abstract": "Proteins are the primary functional units within cells, driving complex biological processes essential for stem cell differentiation into specific neural lineages and for the structural and functional maturation of the central nervous system. Advances in high-throughput proteomic technologies allow comprehensive profiling of molecular landscape of the brain, revealing dynamic, region- and time-specific changes in protein expression. During early embryonic development, pluripotency-associated proteins are highly expressed but gradually decline as lineage-specific markers and pathways governing DNA regulation and cytoskeletal organization become predominant. In fetal and postnatal stages, synaptic and metabolic proteins are enriched in a region-specific manner, reflecting functional compartmentalization and specialization in the central nervous system. Fetal growth restriction is an obstetric complication caused by sustained periods of inadequate oxygen and nutrient supply, preventing the fetus from achieving its genetic growth potential. Proteomic analysis of fetal tissues and biofluids has deepened our understanding of the molecular mechanisms associated with fetal growth restriction, highlighting metabolic and vascular adaptations, inflammatory responses and redox imbalances. These analyses have also uncovered molecular signatures with potential value as biomarkers for clinical diagnosis (e.g., complement proteins in maternal blood in fetal growth restriction), and prognosis (e.g., neurogenic locus notch homolog protein 1 as a modulator of fetal growth restriction response). Despite such advances, animal models remain indispensable for elucidating the multifactorial nature of fetal growth restriction-related neuropathology, pinpointing region-specific alterations. They also offer a controlled setting to explore how factors such as sex, gestational age at birth, and birth weight influence the impact of fetal growth restriction on brain development. A deeper understanding of neurodevelopmental processes and the pathological mechanisms involved in fetal growth restriction is critical for the development of effective diagnostic strategies and targeted therapeutic interventions. The purpose of this review is to provide synthesis of neuroproteomic alterations across developmental stages, highlighting how chronic intrauterine oxygen and nutrient deprivation, in humans and animals, shapes the proteomic landscape. [full text, passages naming SUPT6H] ...points within 3 wk | 1185 | | Embryoid bodies: SPTBN5, NARF, GAA, RPL11, NUCKS1, MRPL18, and EPB41L2 | Embryonic stem cells: FABP5, DSP, PYGL, GARS, TRAP1, RPSA, SLC3A2, SLC7A5, SERPINB9, and LMCD1 Astrocytes: SUPT6H, FN1, HBA1, TNC, DIXDC1, PLS3, and DLST Early stages of motor neuron differentiation: HIST1H1E, KPNA4, HIST1H1C, CRABP2, LOC732081, HIST2H2AB, YWHAQ, TUBA1B, KRT8, UPF1, KRT18, FDPS, and HSPB1 Progressiv...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34158620",
+   "title": "Neurodevelopmental signatures of narcotic and neuropsychiatric risk factors in 3D human-derived forebrain organoids.",
+   "abstract": "It is widely accepted that narcotic use during pregnancy and specific environmental factors (e.g., maternal immune activation and chronic stress) may increase risk of neuropsychiatric illness in offspring. However, little progress has been made in defining human-specific in utero neurodevelopmental pathology due to ethical and technical challenges associated with accessing human prenatal brain tissue. Here we utilized human induced pluripotent stem cells (hiPSCs) to generate reproducible organoids that recapitulate dorsal forebrain development including early corticogenesis. We systemically exposed organoid samples to chemically defined \"enviromimetic\" compounds to examine the developmental effects of various narcotic and neuropsychiatric-related risk factors within tissue of human origin. In tandem experiments conducted in parallel, we modeled exposure to opiates (\u03bc-opioid agonist endomorphin), cannabinoids (WIN 55,212-2), alcohol (ethanol), smoking (nicotine), chronic stress (human cortisol), and maternal immune activation (human Interleukin-17a; IL17a). Human-derived dorsal forebrain organoids were consequently analyzed via an array of unbiased and high-throughput analytical approaches, including state-of-the-art TMT-16plex liquid chromatography/mass-spectrometry (LC/MS) proteomics, hybrid MS metabolomics, and flow cytometry panels to determine cell-cycle dynamics and rates of cell death. This pipeline subsequently revealed both common and unique proteome, reactome, and metabolome alterations as a consequence of enviromimetic modeling of narcotic use and neuropsychiatric-related risk factors in tissue of human origin. However, of our 6 treatment groups, human-derived organoids treated with the cannabinoid agonist WIN 55,212-2 exhibited the least convergence of all groups. Single-cell analysis revealed that WIN 55,212-2 increased DNA fragmentation, an indicator of apoptosis, in human-derived dorsal forebrain organoids. We subsequently confirmed induction of DNA damage and apoptosis by WIN 55,212-2 within 3D human-derived dorsal forebrain organoids. Lastly, in a BrdU pulse-chase neocortical neurogenesis paradigm, we identified that WIN 55,212-2 was the only enviromimetic treatment to disrupt newborn neuron numbers within human-derived dorsal forebrain organoids. Cumulatively this study serves as both a resource and foundation from which human 3D biologics can be used to resolve the non-genomic effects of neuropsychiatric risk factors under controlled laboratory conditions. While synthetic cannabinoids can differ from naturally occurring compounds in their effects, our data nonetheless suggests that exposure to WIN 55,212-2 elicits neurotoxicity within human-derived developing forebrain tissue. These human-derived data therefore support the long-standing belief that maternal use of cannabinoids may require caution so to avoid any potential neurodevelopmental effects upon developing offspring in utero. [full text, passages naming SUPT6H] ...CDC47 | Coiled-Coil domain-Containing Protein 47 | | Q96A33 0.028644274 | ALG2 | Alpha-1,3/1,6-Mannosyltransferase ALG2 | | Q9H553 0.030668953 | APP | Amyloid-Beta Precursor Protein | P05067-11 | 0.031024857 | SUPT6H | Transcription Elongation Factor SPT6 | | Q7KZ85 0.033263913 | RRP12 | RRP12-Like Protein | Q5JTH9-2 | 0.033924326 | MLF2 | Myeloid Leukemia Factor 2 | | Q15773 0.043882525 | RPS13 | 40 s Ribosomal Prot... ...| \u2191 KPNA6 | | O60684 | \u2191 | | | | | \u2191 MTX2 | | Q75431 | \u2191 | | | | | \u2191 CLPTM1 | | Q96005 | \u2191 | | | | | \u2191 APP | | P05067 | \u2191 | | | | | \u2191 FXR2 | | P51116 | \u2191 | | | \u2191 | \u2191 | \u2191 TFCP2 | | Q12800 | \u2191 | \u2191 | | \u2191 | \u2191 | \u2191 SUPT6H | | Q7KZ85 | \u2191 | | | | | \u2191 APLP2 | | Q06481 | \u2191 | | \u2191 | | | \u2191 USP7 | | Q93009 | \u2191 | | | \u2191 | \u2191 | \u2191 TIMM21 | | Q9BVV7 | \u2191 | | | | | \u2191 APMAP | | Q9HDC9 | \u2191 | | | \u2191 | \u2191 | \u2191 SRP19 | | P09132 | \u2191 | \u2193 | | | | R...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "39838298": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30794281": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32636717": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36818472": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25748235": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32636668": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10631140": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39901543": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34526721": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32522980": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33542242": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34233157": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22171252": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24441044": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30449723": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22843687": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41864309": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38132127": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41622464": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34158620": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.8,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 399,
+   "usd": 0.011715,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "9 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "5 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 2.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 1079,
+   "output_tokens": 52,
+   "usd": 0.001339,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 29.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 8645,
+   "output_tokens": 306,
+   "usd": 0.010175,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.0,
+   "note": "",
+   "input_tokens": 11230,
+   "output_tokens": 794,
+   "usd": 0.076,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>10</established>\n    <existing>65</existing>\n    <hypothesized>23</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>The strongest evidence comes from PMID 41864309, which compiles 18 previously reported sporadic de novo SNVs in SUPT6H from individuals with developmental disorders, models them as likely loss-of-function, and supports this with Supt6 null/conditional knockout mice showing embryonic lethality, seizures, motor deficits and interneuron loss. However, that paper's own human component is a reanalysis of published variants rather than an independent clinical cohort with newly ascertained probands, and the mouse work is animal-based, so replication across independent clinical studies is not demonstrated. PMID 38850022 implicates SUPT6H as a dosage-sensitive driver within the 17q11.2 CNV locus, but a multigene CNV cannot single out this gene. The remaining papers describe SPT6/SUPT6H biology (RNAPII elongation, histone chaperone, chromatin regulation, differentiation) or incidental proteomic co-mentions, which support biological plausibility but not variant-level causation. Overall this fits \"Existing\" with meaningful residual weight on \"Hypothesized.\"</justification>\n  <pmids>\n    <pmid>41864309</pmid>\n    <pmid>38850022</pmid>\n    <pmid>34233157</pmid>\n    <pmid>33542242</pmid>\n    <pmid>24441044</pmid>\n    <pmid>32522980</pmid>\n    <pmid>30449723</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,583 @@
+{
+ "gene": "IGLL5",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "immunoglobulin lambda like polypeptide 5"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 58,
+  "titlekicksparingfulltext": 51,
+  "read": 4
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 10,
+   "Hypothesized": 22,
+   "Novel": 67
+  },
+  "justification": "Most of the retrieved articles use \"ASD\" as a homonym unrelated to autism (atrial septal defect in the congenital heart disease proteomics paper, PMID 37840432; alveolar surface density in the lung fibrosis study, PMID 31600171) and should be dismissed. The Mendelian randomization paper on atopic dermatitis and psychiatric disorders (PMID 38172785) mentions IGLL5 only incidentally within a canine atopic dermatitis gene list, with no human genetic link to autism. The only autism-specific paper (PMID 23275889) lists IGLL5 within a large maternally inherited 22q11.23 multigene gain, which cannot single out IGLL5 from neighboring genes (e.g., BCR, GNAZ) and is explicitly discounted as evidence. No study reports IGLL5-specific variants in independent probands or families, nor any functional/expression data tying IGLL5 biology to autism pathophysiology, so the relationship is best described as Novel with a small allowance for weak hypothesis-generating CNV co-mention.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 10,
+   "Hypothesized": 22,
+   "Novel": 67
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38172785",
+   "title": "Causal relationships between atopic dermatitis and psychiatric disorders: a bidirectional two-sample Mendelian randomization study.",
+   "abstract": "BACKGROUND: Observational studies have suggested the potential associations between atopic dermatitis (AD) and psychiatric disorders. However, the causal relationship between them remains uncertain. This study aimed to evaluate the potential bidirectional causal relationship between AD and psychiatric disorders, including autism spectrum disorder (ASD), major depressive disorder (MDD), attention deficit hyperactivity disorder (ADHD), bipolar disorder (BD), anorexia nervosa (AN), Tourette syndrome (TS), schizophrenia, and anxiety. METHODS: Bidirectional two-sample Mendelian randomization (MR) was employed to elucidate the causality between AD and psychiatric disorders, using summary statistics from the most comprehensive genome-wide association studies conducted on AD (Ncases\u2009=\u200960,653, Ncontrols\u2009=\u2009804,329). Psychiatric disorders were derived from the Psychiatric Genomics Consortium and were independent of AD data sources. The MR analysis entailed the implementation of multiple methods, including the inverse variance weighted method, MR-Egger regression method, weighted median method, simple mode method, and weighted mode method. RESULTS: Bidirectional two-sample MR analysis uncovered significant causal associations between AD and severe psychiatric disorders. Specifically, liability to AD was associated with increased risk of ADHD (OR\u2009=\u20091.116; 95% CI: [1.009, 1.234]; P\u2009=\u20090.033) and ASD (OR\u2009=\u20091.131; 95% CI: [1.023, 1.251]; P\u2009=\u20090.016). Additionally, evidence suggested that liability to ADHD (OR\u2009=\u20091.112; 95% CI: [1.094, 1.130]; P\u2009=\u20099.20e-40), liability to AN (OR\u2009=\u20091.1; 95% CI: [1.068, 1.134]; P\u2009=\u20094.45e-10) and liability to BD (OR\u2009=\u20091.067; 95% CI: [1.009, 1.128]; P\u2009=\u20090.023) were associated with an increased risk of AD. Only the causal association between AD and ASD was independent of the reverse effect bias. These causal associations were robust and not affected by biases of heterogeneity and horizontal pleiotropy. CONCLUSIONS: Our study emphasizes the significant causal association between AD and an increased risk of ASD, and also identifying BD and AN as risk factors for AD. [full text, passages naming IGLL5] ...erations and disturbances in the skin barrier, leading to the development of atopic skin allergy [ 39 ]. In Canine AD research, a study examining its mechanism revealed the up-regulation of genes such as IGHM, IGLL5, CD79B, PIGR, CBS, ASS1, SLPI, and MRRF in the raw food feeding group. These up-regulations enhance innate immunity and reduce oxidative stress in dogs, potentially preventing early onset allergies and im...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37840432",
+   "title": "Proteome profiling of early gestational plasma reveals novel biomarkers of congenital heart disease.",
+   "abstract": "Prenatal diagnosis of congenital heart disease (CHD) relies primarily on fetal echocardiography conducted at mid-gestational age-the sensitivity of which varies among centers and practitioners. An\u00a0objective method for early diagnosis is needed. Here, we conducted a case-control study recruiting 103 pregnant women with healthy offspring and 104 cases with CHD offspring, including VSD (42/104), ASD (20/104), and other CHD phenotypes. Plasma was collected during the first trimester and proteomic analysis was performed. Principal component analysis revealed considerable differences between the controls and the CHDs. Among the significantly altered proteins, 25 upregulated proteins in CHDs were enriched in amino acid metabolism, extracellular matrix receptor, and actin skeleton regulation, whereas 49 downregulated proteins were enriched in carbohydrate metabolism, cardiac muscle contraction, and cardiomyopathy. The machine learning model reached an area under the curve of 0.964 and was highly accurate in recognizing CHDs. This study provides a highly valuable proteomics resource to better recognize the cause of CHD and has developed a reliable objective method for the early recognition of CHD, facilitating early intervention and better prognosis. [full text, passages naming IGLL5] ...disease occurrence, we analyzed the PPI network for pathways (Fig 4B ; Table EV4 ). The data revealed key molecules in each pathway, such as amylase alpha 2A (AMY2A), immunoglobulin lambda\u2010like polypeptide 5 (IGLL5), MYL9, integrin subunit alpha 1 (ITGA1), RAB6A, member RAS oncogene family (RAB6A), and catenin beta 1 (CTNNB1) (Fig 4C ). These hub genes may differentiate CHD from control groups. Figure 4 Relationship...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "23275889",
+   "title": "A discovery resource of rare copy number variations in individuals with autism spectrum disorder.",
+   "abstract": "The identification of rare inherited and de novo copy number variations (CNVs) in human subjects has proven a productive approach to highlight risk genes for autism spectrum disorder (ASD). A variety of microarrays are available to detect CNVs, including single-nucleotide polymorphism (SNP) arrays and comparative genomic hybridization (CGH) arrays. Here, we examine a cohort of 696 unrelated ASD cases using a high-resolution one-million feature CGH microarray, the majority of which were previously genotyped with SNP arrays. Our objective was to discover new CNVs in ASD cases that were not detected by SNP microarray analysis and to delineate novel ASD risk loci via combined analysis of CGH and SNP array data sets on the ASD cohort and CGH data on an additional 1000 control samples. Of the 615 ASD cases analyzed on both SNP and CGH arrays, we found that 13,572 of 21,346 (64%) of the CNVs were exclusively detected by the CGH array. Several of the CGH-specific CNVs are rare in population frequency and impact previously reported ASD genes (e.g., NRXN1, GRM8, DPYD), as well as novel ASD candidate genes (e.g., CIB2, DAPP1, SAE1), and all were inherited except for a de novo CNV in the GPHN gene. A functional enrichment test of gene-sets in ASD cases over controls revealed nucleotide metabolism as a potential novel pathway involved in ASD, which includes several candidate genes for follow-up (e.g., DPYD, UPB1, UPP1, TYMP). Finally, this extensively phenotyped and genotyped ASD clinical cohort serves as an invaluable resource for the next step of genome sequencing for complete genetic variation detection. [full text, passages naming IGLL5] ...| Loss | Unknown | d | CECR2 exonic 7q22.2 (12.4 kb) gain not in any gene;10q21.3 (8.1 kb) loss | CTNNA3 22q11.22-q11.23 | MM0177-3 | M | 656,280 | Gain | Maternal | | RAB36 , FBXW4P1 , RTDR1 , GNAZ , MIR650 , IGLL5 , BCR \u2212 | 22q11.23 | 154266L | M | 6784 | Loss | Maternal | | UPB1 11p14.3 (138.6 kb) loss not in any gene | Xq28 | 100676L | M | 123,871 | Gain | Maternal | | ZNF185 , CETN2 , NSDHL 3q22.3 (11.5 kb) loss...",
+   "found_by": [],
+   "pubdate": "2012",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31600171",
+   "title": "Transcriptional regulatory model of fibrosis progression in the human lung.",
+   "abstract": "To develop a systems biology model of fibrosis progression within the human lung we performed RNA sequencing and microRNA analysis on 95 samples obtained from 10 idiopathic pulmonary fibrosis (IPF) and 6 control lungs. Extent of fibrosis in each sample was assessed by microCT-measured alveolar surface density (ASD) and confirmed by histology. Regulatory gene expression networks were identified using linear mixed-effect models and dynamic regulatory events miner (DREM). Differential gene expression analysis identified a core set of genes increased or decreased before fibrosis was histologically evident that continued to change with advanced fibrosis. DREM generated a systems biology model (www.sb.cs.cmu.edu/IPFReg) that identified progressively divergent gene expression tracks with microRNAs and transcription factors that specifically regulate mild or advanced fibrosis. We confirmed model predictions by demonstrating that expression of POU2AF1, previously unassociated with lung fibrosis but proposed by the model as regulator, is increased in B lymphocytes in IPF lungs and that POU2AF1-knockout mice were protected from bleomycin-induced lung fibrosis. Our results reveal distinct regulation of gene expression changes in IPF tissue that remained structurally normal compared with moderate or advanced fibrosis and suggest distinct regulatory mechanisms for each stage.",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35359413": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32534425": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36243813": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42480213": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38049331": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37705050": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33503299": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33945543": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31522287": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32720348": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35845190": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36471741": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33554123": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28185911": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40393874": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36054329": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34605949": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41852323": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31806993": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33959502": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32565964": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39357512": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30606723": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35205758": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42732362": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33479306": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32616499": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37551448": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38744975": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35968590": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26638776": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40087669": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40915157": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34448823": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39991571": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34925435": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31558468": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38841798": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37563306": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38909978": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29921943": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34312841": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34172091": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36333410": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35646048": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37975847": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33604823": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34873486": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37493986": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38443094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35255429": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29563506": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23113889": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42118140": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38172785": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37840432": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23275889": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31600171": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 13.0,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 101.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "5 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3497,
+   "output_tokens": 264,
+   "usd": 0.004817,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 20.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 1.8,
+   "note": "",
+   "input_tokens": 4150,
+   "output_tokens": 164,
+   "usd": 0.00497,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 9.4,
+   "note": "",
+   "input_tokens": 4346,
+   "output_tokens": 734,
+   "usd": 0.04008,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>10</existing>\n    <hypothesized>22</hypothesized>\n    <novel>67</novel>\n  </probabilities>\n  <justification>Most of the retrieved articles use \"ASD\" as a homonym unrelated to autism (atrial septal defect in the congenital heart disease proteomics paper, PMID 37840432; alveolar surface density in the lung fibrosis study, PMID 31600171) and should be dismissed. The Mendelian randomization paper on atopic dermatitis and psychiatric disorders (PMID 38172785) mentions IGLL5 only incidentally within a canine atopic dermatitis gene list, with no human genetic link to autism. The only autism-specific paper (PMID 23275889) lists IGLL5 within a large maternally inherited 22q11.23 multigene gain, which cannot single out IGLL5 from neighboring genes (e.g., BCR, GNAZ) and is explicitly discounted as evidence. No study reports IGLL5-specific variants in independent probands or families, nor any functional/expression data tying IGLL5 biology to autism pathophysiology, so the relationship is best described as Novel with a small allowance for weak hypothesis-generating CNV co-mention.</justification>\n  <pmids>\n    <pmid>23275889</pmid>\n    <pmid>38172785</pmid>\n  </pmids>\n</response>"
+}

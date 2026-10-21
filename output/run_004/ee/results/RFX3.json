@@ -1,0 +1,277 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 17,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A case of infantile epileptic spasms syndrome and autism spectrum disorder with an RFX3 mutation (PMID: 37717291)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "RFX3 variant (exact nucleotide/protein change not available from the provided text)",
+            "type": "other",
+            "phenotypes": [
+              "Infantile epileptic spasms syndrome",
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Not stated in the available text; the report presents the RFX3 mutation as the likely cause of IESS and ASD.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Impact of rapid genomic testing on clinical outcomes of acutely unwell children presenting with severe epilepsy (PMID: 40399560)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Complex 9p24 deletion/9p24 duplication/12q24 duplication CNV; the deleted region encompasses SMARCA2 and RFX3 (the duplicated region includes SETD1B)",
+            "type": "other",
+            "phenotypes": [
+              "Severe childhood epilepsy (referred for rapid whole-exome sequencing)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reported as a diagnostic CNV in a rapid genomic testing cohort. The deletion is heterozygous and spans several genes, so RFX3-specific causality is not established.",
+        "center_country": "Birmingham and Oxford, United Kingdom",
+        "cohort": null
+      },
+      {
+        "citation": "Copy number variant analysis from exome data in 349 patients with epileptic encephalopathy (PMID: 26068938)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo CNV region including RFX3, with an additional de novo sequence variant in RFX3 found by trio exome sequencing (specific variant details are in the supplementary tables and not available here)",
+            "type": "other",
+            "phenotypes": [
+              "Epileptic encephalopathy (infantile spasms or Lennox-Gastaut syndrome)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo CNV and de novo sequence variant identified by trio exome sequencing. RFX3 is listed as a candidate gene for IS/LGS.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Bonnafe et al. 2004 - The transcription factor RFX3 directs nodal cilium development and left-right asymmetry specification (PMID: 15121860)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "left-right asymmetry defects",
+          "situs inversus in surviving adults",
+          "high rate of embryonic lethality",
+          "stunted nodal cilia",
+          "reduced expression of D2lic (IFT gene)"
+        ],
+        "mendelian_ratio": "sub-Mendelian",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Baas et al. 2006 - A deficiency in RFX3 causes hydrocephalus associated with abnormal differentiation of ependymal cells (PMID: 16930429)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "hydrocephalus without aqueduct stenosis",
+          "defective choroid plexus differentiation",
+          "severe agenesis of subcommissural organ",
+          "altered epithelial organization of choroid plexus",
+          "changes in the number of cilia on ependymal cells",
+          "downregulation of SCO-spondin from E14.5"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Benadiba et al. 2012 - The ciliogenic transcription factor RFX3 regulates early midline distribution of guidepost neurons required for corpus callosum development (PMID: 22479201)",
+        "organism": "mouse",
+        "knockout_type": "full knockout and conditional knockout",
+        "phenotypes": [
+          "corpus callosum agenesis",
+          "disorganised midline guidepost neurons",
+          "abnormal cortical septal boundary patterning (before E12.5)",
+          "ectopic Fgf8 expression at rostral commissural plate",
+          "reduced GLI3 repressor to activator ratio",
+          "hydrocephalus and left-right asymmetry defects noted as ciliopathy hallmarks",
+          "RFX3 not required in guidepost cells (conditional knockout)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ait-Lounis et al. 2007 - Novel function of the ciliogenic transcription factor RFX3 in development of the endocrine pancreas (PMID: 17229940)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "reduced number and severely stunted primary cilia on islet cells",
+          "fewer insulin-, glucagon- and ghrelin-producing cells at birth",
+          "increased pancreatic polypeptide cells",
+          "small, disorganized islets in adults",
+          "reduced insulin production",
+          "impaired glucose tolerance"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ait-Lounis et al. 2010 - The transcription factor Rfx3 regulates beta-cell differentiation, function, and glucokinase expression (PMID: 20413507)",
+        "organism": "mouse",
+        "knockout_type": "full knockout and conditional (pancreas-specific) knockout; siRNA knockdown in Min6 cells",
+        "phenotypes": [
+          "marked reduction in insulin-producing beta-cells",
+          "accumulation of insulin-positive beta-cell precursors",
+          "reduced insulin, Glut-2 and glucokinase expression",
+          "glucose intolerance in adults",
+          "impaired glucose-stimulated insulin secretion in Min6 knockdown cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Bonnafe/Durand et al. 2009 - RFX3 governs growth and beating efficiency of motile cilia in mouse and controls the expression of genes involved in human ciliopathies (PMID: 19671664)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "impaired growth of motile cilia in multiciliated cells",
+          "reduced ciliary beating efficiency",
+          "reduced FOXJ1 expression",
+          "reduced expression of axonemal dyneins"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Magnani et al. 2015 - The role of primary cilia in corpus callosum formation is mediated by production of the Gli3 repressor (PMID: 26071364)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "agenesis of the corpus callosum in Rfx3-/- embryos",
+          "AgCC rescued by Gli3\u0394699 (GLI3 repressor) allele"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Li et al. 2019 - Histone H2B monoubiquitination regulates heart development via epigenetic control of cilia motility (PMID: 31235600)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown (rnf20/rnf40 knockdown with rfx3 rescue; Rfx3 downstream)",
+        "phenotypes": [
+          "rnf20 knockdown decreased rfx3 mRNA",
+          "abnormal heart looping",
+          "defective left-right asymmetry",
+          "impaired cilia motility",
+          "exogenous rfx3 rescued the Rnf20 depletion phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Harris et al. 2021 - Disruption of RFX family transcription factors causes autism, attention-deficit/hyperactivity disorder, intellectual disability, and dysregulated behavior (PMID: 33658631)",
+        "evidence_subtype": "expression",
+        "summary": "De novo RFX3, RFX4 and RFX7 variants were found in individuals with ASD, ID and/or ADHD. RFX3 is strongly expressed in developing and adult human brain. X-box motifs and RFX ChIP-seq peaks are enriched in the cis-regulatory regions of known ASD risk genes, which positions RFX3 as a regulator of neurodevelopmental disease pathways.",
+        "sample_size": "38 individuals from 33 families (RFX3, RFX4, RFX7)",
+        "significance": null
+      },
+      {
+        "citation": "Nakayama et al. ASHG 2019 - Mutations in RFX family members are a common cause of autism and ADHD (PgmNr 557)",
+        "evidence_subtype": "function",
+        "summary": "Heterozygous de novo or inherited RFX3 mutations were found in 17 patients with ASD, ADHD and mild ID. Functional analysis is consistent with loss of function. Human RFX3 is brain-specific in expression and under haploinsufficiency constraint.",
+        "sample_size": "31 patients (28 probands); 17 with RFX3 mutations",
+        "significance": null
+      },
+      {
+        "citation": "Mu\u00f1oz-Ram\u00edrez et al. 2025 - Multi-omic analysis of the ciliogenic transcription factor RFX3 reveals a role in promoting activity-dependent responses via enhancing CREB binding in human neurons (PMID: 40060598)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In iPSC-derived neurons and forebrain organoids, biallelic RFX3 loss disrupted ciliary gene expression and delayed neuronal differentiation. Monoallelic loss instead disrupted synaptic gene expression and activity-dependent gene induction. RFX3 binding sites co-localized with CREB sites, and RFX3 deficiency reduced CREB binding and induction of CREB targets after depolarization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ait-Lounis et al. 2010 - The transcription factor Rfx3 regulates beta-cell differentiation, function, and glucokinase expression (PMID: 20413507)",
+        "evidence_subtype": "function",
+        "summary": "Rfx3-/- and pancreas-specific knockout mice show immature beta-cells with reduced insulin, Glut-2 and Gck expression, and adults are glucose intolerant. Rfx3 knockdown in Min6 cells impairs glucose-stimulated insulin secretion. Rfx3 binds the Pal-1 and Pal-2 elements of the glucokinase neuroendocrine promoter in Min6 cells and human islets.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - RFX3 is essential for the generation of functional human pancreatic islets from stem cells (PMID: 40263183)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RFX3 is highly expressed in endocrine populations during iPSC islet differentiation. CRISPR RFX3 KO iPSC islet organoids had fewer hormone-secreting cells, impaired insulin secretion, increased enterochromaffin cells, elevated TXNIP and more apoptosis. RFX3 overexpression rescued the dysregulated genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Baas et al. 2006 - A deficiency in RFX3 causes hydrocephalus associated with abnormal differentiation of ependymal cells (PMID: 16930429)",
+        "evidence_subtype": "function",
+        "summary": "Rfx3-deficient mice develop hydrocephalus. RFX3 is strongly expressed in ependymal cells of the subcommissural organ, choroid plexus and ventricular walls. Loss of RFX3 causes choroid plexus differentiation defects, agenesis of the subcommissural organ, altered cilia number and downregulated SCO-spondin.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chen et al. 2018 - Auto-fatty acylation of transcription factor RFX3 regulates ciliogenesis (PMID: 30127002)",
+        "evidence_subtype": "pathway",
+        "summary": "RFX3 undergoes enzyme-independent auto S-fatty acylation at a conserved cysteine in its dimerization domain, preferring stearic and oleic acid. A fatty acylation-deficient mutant shows reduced homodimerization and fails to promote ciliary gene expression and ciliogenesis. It also impairs Hedgehog signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Didon et al. 2013 - RFX3 modulation of FOXJ1 regulation of cilia genes in the human airway epithelium (PMID: 23822649)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "In primary human airway basal cells, FOXJ1 and RFX3 interact by immunoprecipitation. RFX3 alone did not induce cilia genes, but combined with FOXJ1 it enhanced ciliated gene promoter activity and mRNA expression beyond FOXJ1 alone, which makes RFX3 a co-activator of FOXJ1 in ciliated cell differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2002 - Role for RFX transcription factors in non-neuronal cell-specific inactivation of the microtubule-associated protein MAP1A promoter (PMID: 12411430)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RFX1 and RFX3 bind RFX sites in exon 1 of the MAP1A 5' promoter in vitro. RFX3, which is abundant in neuronal cells, down-regulated MAP1A promoter activity when expressed in non-neuronal cells but not in neuronal cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2019 - Evidence that 6q25.1 variant rs6931104 confers susceptibility to chronic myeloid leukemia through RMND1 regulation (PMID: 31237926)",
+        "evidence_subtype": "GWAS",
+        "summary": "The CML-associated 6q25.1 SNP rs6931104 acts as an eQTL for RMND1. In ChIP assays the A allele changed RFX3 binding affinity compared with the G allele. RFX3 binding affects RMND1 expression in BCR-ABL1+ cell lines.",
+        "sample_size": "83 healthy donors (eQTL)",
+        "significance": null
+      },
+      {
+        "citation": "2022 - CircRFX3 Up-regulates Its Host Gene RFX3 to Facilitate Tumorigenesis and Progression of Glioma (PMID: 35416616)",
+        "evidence_subtype": "pathway",
+        "summary": "CircRFX3 recruits HNRNPK to stabilize RFX3 mRNA in glioma cells. RFX3 in turn promotes PROX1 transcription, which drives glioma cell malignant behavior and tumor growth.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

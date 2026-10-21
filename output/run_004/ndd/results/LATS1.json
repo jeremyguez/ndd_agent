@@ -1,0 +1,183 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Identification of a novel LATS1 variant associated with familial cerebral cavernous malformations in a Chinese family (PMID: 35986120)",
+        "num_patients": 9,
+        "variants": [
+          {
+            "description": "c.821C>T, p.Thr274Ile",
+            "type": "missense",
+            "phenotypes": [
+              "Familial cerebral cavernous malformations (CCMs) on MRI",
+              "Five-generation Chinese Han family with nine members affected",
+              "No CCM1-3 variants detected"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by WES after exclusion of CCM1-3 variants. Co-segregated with the CCM phenotype in the family (Sanger sequencing). Predicted damaging in silico. Impaired angiogenesis in HUVEC assays supported a functional effect.",
+        "center_country": "China",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Hippo pathway links adipocyte plasticity to adipose tissue fibrosis (PMID: 36229481)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Lats1/2-knockout adipocytes dedifferentiated into DPP4+ progenitor cells",
+          "Lats1/2-knockout adipocytes converted to DPP4- myofibroblasts upon TGF\u03b2 stimulation",
+          "Hippo pathway inhibition impaired adipocyte identity and promoted ECM remodeling",
+          "Adipose tissue fibrosis, which was relieved by YAP/TAZ inhibition in obese mice with improved metabolic homeostasis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hippo-Yap Signaling Maintains Sinoatrial Node Homeostasis (PMID: 36317529)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Lats1/2 inactivation in the cardiac conduction system (Hcn4CreERT2) caused severe sinus node dysfunction",
+          "Dysregulated calcium handling",
+          "Increased SAN fibrosis",
+          "Decreased Ryr2 expression",
+          "Increased Tgfb1 and Tgfb3 expression",
+          "Phenotype rescued by Yap/Taz deletion, with normal sinus rhythm and reduced fibrosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "YAP-Induced Glycolysis Drives Fibroinflammation and Disrupts Fibroblast Fidelity (PMID: 41165345)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Lats1/2 inactivation in cardiac fibroblasts activated glycolysis and drove fibroinflammation and fibrosis",
+          "Increased fibroblast proliferation",
+          "Fibroblasts shifted to a SOX9+ osteochondroprogenitor state",
+          "CSF1-mediated macrophage expansion",
+          "Macrophage IGF1 signaling enhanced fibroblast proliferation",
+          "Fibrosis reduced by glycolysis inhibition or blocking macrophage expansion"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "YAP/TAZ-CDC42 signaling regulates vascular tip cell migration (PMID: 28973878)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Endothelial Lats1/2 deletion caused nuclear YAP/TAZ translocation",
+          "Blocked endothelial migration during retinal angiogenesis",
+          "Phenocopied Yap/Taz-deficient mutants"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wnt and Src signals converge on YAP-TEAD to drive intestinal regeneration (PMID: 33950519)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Lats1/2 conditional knockout (YAP gain of activity) was sufficient to drive crypt hyperproliferation in the intestine"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Regulation of the Hippo-YAP pathway by G-protein-coupled receptor signaling (PMID: 22863277)",
+        "evidence_subtype": "pathway",
+        "summary": "LPA and S1P act through G12/13-coupled receptors to inhibit the Hippo kinases Lats1/2, which activates YAP/TAZ. Gs-coupled receptor stimulation by glucagon or epinephrine instead activates Lats1/2 kinase activity and inhibits YAP. This places LATS1/2 downstream of GPCR signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Liquid-Liquid Phase Separation of DDR1 Counteracts the Hippo Pathway to Orchestrate Arterial Stiffening (PMID: 36475898)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "DDR1 undergoes stiffness/collagen-induced liquid-liquid phase separation and co-condenses with LATS1 through its C-terminus. This competitively blocks MOB1 binding to LATS1 and prevents LATS1 phosphorylation, inactivating LATS1 and activating YAP. In mice, LATS1 inhibition reactivated YAP in Ddr1-deficient vessels and abrogated the arterial softening.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Hippo pathway mediates Semaphorin signaling (PMID: 35613278)",
+        "evidence_subtype": "pathway",
+        "summary": "Class 3 Semaphorins activate the core Hippo kinases LATS1/2 through PlexinA and p190RhoGAP. This suppresses lung cancer cell growth (SEMA3B restoration) and inhibits angiogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RIPK4 promotes epidermal differentiation through phase separation and activation of LATS1/2 (PMID: 40570855)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A kinome library screen identified RIPK4 as an alternative upstream kinase of LATS1/2. RIPK4 recruits LATS1/2 into liquid condensates and directly phosphorylates them. Ripk4 knockout mice show Yap/Taz activation in the epidermal granular layer, and disease-derived RIPK4 mutants fail to activate LATS1/2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LATS1/2 loss promote tumor immune evasion in endometrial cancer through downregulating MHC-I expression (PMID: 38383447)",
+        "evidence_subtype": "cell_culture",
+        "summary": "LATS1/2 are frequently mutated and downregulated in endometrial cancer. In CRISPR knockout cells, LATS1/2 loss lowered MHC-I independently of YAP. LATS1/2 directly bind and phosphorylate STAT1 at Ser727, promoting its nuclear accumulation and IRF1/NLRC5-driven MHC-I transcription, so loss of LATS1/2 confers resistance to immune-cell killing.",
+        "sample_size": "TCGA cohort plus in-house EC sample cohort",
+        "significance": null
+      },
+      {
+        "citation": "Methylation-associated inactivation of LATS1 and its effect on demethylation or overexpression on YAP and cell biological function in human renal cell carcinoma (PMID: 25270913)",
+        "evidence_subtype": "expression",
+        "summary": "LATS1 expression is reduced in RCC tissue (46.7% positive vs 76.7% in normal kidney) and correlates with grade and stage. The promoter is hypermethylated (97.5%) in 786-O cells. 5-Aza demethylation or LATS1 overexpression restored LATS1, reduced YAP, inhibited proliferation, and induced apoptosis and G1 arrest.",
+        "sample_size": "30 paired RCC/normal tissues",
+        "significance": null
+      },
+      {
+        "citation": "Lats1/2 Sustain Intestinal Stem Cells and Wnt Activation through TEAD-Dependent and Independent Transcription (PMID: 32259481)",
+        "evidence_subtype": "function",
+        "summary": "In mouse intestine, Lats1/2 deletion causes loss of intestinal stem cells and Wnt-uncoupled crypt expansion. The Wnt inhibition is YAP/TAZ dependent but TEAD independent, because nuclear YAP/TAZ interact with TLE to block TCF-mediated transcription.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hippo-Yap Signaling Maintains Sinoatrial Node Homeostasis (PMID: 36317529)",
+        "evidence_subtype": "function",
+        "summary": "Conditional Lats1/2 inactivation in the sinoatrial node (Hcn4CreERT2) caused severe sinus node dysfunction, disrupted calcium handling with reduced Ryr2, and increased fibrosis with higher Tgfb1/3. Deleting Yap/Taz rescued the phenotype, so Lats1/2 act through Yap/Taz.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression of LATS1 in head and neck squamous cell carcinoma and its effect on tumor cell proliferation and invasion (PMID: 36029506)",
+        "evidence_subtype": "expression",
+        "summary": "LATS1 protein expression fell from 59.3% in normal epithelium to 11.3% in HNSCC on tissue microarray. LATS1 overexpression in B88 cells inhibited proliferation, migration, invasion and EMT, consistent with tumor suppressor activity.",
+        "sample_size": "tissue chip (normal, dysplasia, HNSCC)",
+        "significance": null
+      },
+      {
+        "citation": "LATS1-Beclin1 mediates a non-canonical connection between the Hippo pathway and autophagy (PMID: 32944618)",
+        "evidence_subtype": "function",
+        "summary": "LATS1, but not LATS2, regulates sorafenib-induced lethal autophagy in HCC independently of its kinase activity, through a LATS1-specific domain. This is coupled to K27-linked ubiquitination and self-dimerization of Beclin-1 (BECN1).",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 5,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Improved neuron protection following cortical injury in the absence of Semaphorin4B (PMID: 36531136)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Reduced neuronal cell death after cortical injury",
+          "More surviving neurons near the injury site",
+          "Wild-type neurons survive better on glial cultures from Sema4B knockout mice than on heterozygous cultures",
+          "Conditioned medium from Sema4B knockout glia increases neuronal survival, indicating a glia-dependent secreted factor",
+          "Altered astrocyte activation after injury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Astrocyte-to-microglia communication via Sema4B-Plexin-B2 modulates injury-induced reactivity of microglia (PMID: 38781210)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Sema4B-/-), heterozygous (Sema4B/Plexin-B2 double heterozygous), and microglia/macrophage-specific conditional Plexin-B2 knockout",
+        "phenotypes": [
+          "Attenuated cytokine expression after cortical stab wound injury in Sema4B-/- mice",
+          "Altered microglia/macrophage reactivity after injury",
+          "Sema4B-/- astrocytes attenuate injury-induced microglia reactivity compared with Sema4B+/- astrocytes",
+          "Microglia-specific Plexin-B2-/- mice show reduced microglial/macrophage reactivity and neuronal cell death after injury, similar to Sema4B-/- mice",
+          "Sema4B/Plexin-B2 double heterozygous mice show reduced microglial/macrophage reactivity after injury"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nakagawa et al. 2011 - Identification of semaphorin 4B as a negative regulator of basophil-mediated immune responses (PMID: 21270411)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Markedly increased serum IgE levels",
+          "Normal lymphocyte and dendritic cell functions",
+          "Enhanced basophil-mediated memory IgE production, abolished by anti-Fc\u03b5RI\u03b1 antibody treatment",
+          "Loss of T cell-derived Sema4B removes suppression of basophil-mediated Th2 skewing"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Enhanced Protein Synthesis and Hippocampus-Dependent Memory via Inhibition of YTHDF2-Mediated m(6)A mRNA Degradation (PMID: 40959883)",
+        "organism": "mouse",
+        "knockout_type": "knockdown of Sema4B in hippocampus (in forebrain-specific YTHDF2 conditional knockout mice)",
+        "phenotypes": [
+          "Reducing the YTHDF2 target Sema4B in the hippocampus reversed the enhanced hippocampus-dependent memory seen in YTHDF2 conditional knockout mice",
+          "YTHDF2 loss produced enhanced synaptic transmission, improved learning and memory, and increased activity-dependent protein synthesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Sema4B-Plexin-B2 - Astrocyte-to-microglia communication via Sema4B-Plexin-B2 modulates injury-induced reactivity of microglia (PMID: 38781210)",
+        "evidence_subtype": "pathway",
+        "summary": "Astrocytic Sema4B acts as a ligand for Plexin-B2 on microglia/macrophages and enhances their reactivity after cortical injury. Sema4B-/-, microglia-specific Plexin-B2-/- and Sema4B/Plexin-B2 double-heterozygous mice all show attenuated reactivity, placing both genes in the same signaling pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Improved neuron protection following cortical injury in the absence of Semaphorin4B (PMID: 36531136)",
+        "evidence_subtype": "function",
+        "summary": "Sema4B is mostly expressed by astrocytes in cortex. Sema4B knockout mice show reduced neuronal death after cortical injury. Wild-type neurons survive better on Sema4B-null glia or in their conditioned medium, indicating a glia-dependent, secreted-factor mechanism. Sema4B protein applied directly to neurons has no effect.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Astrogliosis Induced by Brain Injury Is Regulated by Sema4B Phosphorylation (PMID: 26464987)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Sema4B-deficient mice and cultured Sema4B-/- astrocytes show reduced astrocyte proliferation and altered activation after injury. The Sema4B ectodomain acts as an antagonist rather than a rescuing ligand. Its effects depend on phosphorylation of the intracellular domain at Ser825, so Sema4B functions as an astrocyte receptor.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Enhanced Protein Synthesis and Hippocampus-Dependent Memory via Inhibition of YTHDF2-Mediated m(6)A mRNA Degradation (PMID: 40959883)",
+        "evidence_subtype": "pathway",
+        "summary": "SEMA4B is a downstream target of YTHDF2-mediated m6A mRNA decay in hippocampal neurons. Forebrain YTHDF2 loss stabilizes m6A mRNAs and enhances memory. Reducing SEMA4B in the hippocampus reverses the enhanced memory in the conditional knockout mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of semaphorin 4B as a negative regulator of basophil-mediated immune responses (PMID: 21270411)",
+        "evidence_subtype": "expression",
+        "summary": "Sema4B is expressed in T and B cells. Sema4B-/- mice have elevated serum IgE and enhanced basophil-mediated memory IgE production. Recombinant Sema4B inhibits basophil IL-4 and IL-6 production, and T cell-derived Sema4B at T cell-basophil contact sites suppresses Th2 skewing.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Semaphorin 4B is an ADAM17-cleaved adipokine that inhibits adipocyte differentiation and thermogenesis (PMID: 37121509)",
+        "evidence_subtype": "function",
+        "summary": "Proteomics identified SEMA4B as an ADAM17-shed adipokine whose expression is regulated by thermogenic cues. Cleaved SEMA4B acts in an autocrine manner in brown adipocytes to repress adipogenesis, thermogenesis and lipid catabolism genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Semaphorin4B is elevated in rheumatoid arthritis and enhances the inflammatory phenotype of macrophages and fibroblast-like synoviocytes (PMID: 40598553)",
+        "evidence_subtype": "expression",
+        "summary": "Sema4B is higher in RA synovial tissue and RA FLS than in OA FLS, and inflammatory stimuli induce its expression. Sema4B promotes FLS migration and invasion, and enhances TNF-\u03b1/LPS-induced IL-6, IL-8, TNF-\u03b1, CCL-2, MMP-1 and MMP-3 production. In FLS this effect is mediated by PlexinB2, as shown by siRNA knockdown.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CLCP1 interacts with semaphorin 4B and regulates motility of lung cancer cells (PMID: 17213806)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A phage display screen and immunoprecipitation showed that SEMA4B (Sema domain) physically interacts with CLCP1. SEMA4B enhances ubiquitination and proteasomal degradation of CLCP1, which regulates lung cancer cell motility.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SEMA4B inhibits growth of non-small cell lung cancer in vitro and in vivo (PMID: 25746385)",
+        "evidence_subtype": "pathway",
+        "summary": "SEMA4B overexpression decreased NSCLC (A549, Calu-3) growth in vitro and in xenografts, while inhibition increased growth. SEMA4B suppresses PI3K/Akt signaling, causing FoxO1 nuclear retention and p21 induction, which changes proliferation but not apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hypoxia and hypoxia-inducible factor 1 repress SEMA4B expression to promote non-small cell lung cancer invasion (PMID: 24474252)",
+        "evidence_subtype": "function",
+        "summary": "Hypoxia downregulates SEMA4B in NSCLC lines. SEMA4B is a direct HIF-1 target: HIF-1\u03b1 binds a hypoxia-responsive element in the SEMA4B gene (luciferase reporter) and represses it. Ectopic SEMA4B abolishes hypoxia-induced invasion.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

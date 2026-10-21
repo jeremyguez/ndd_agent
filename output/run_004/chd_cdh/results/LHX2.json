@@ -1,0 +1,253 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 17,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Jin et al. 2025 - Genomic analysis of 11,555 probands identifies 60 dominant congenital heart disease genes (PMID: 40127276)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Damaging de novo mutations in LHX2 (specific variant notation not provided in the text)",
+            "type": "other",
+            "phenotypes": [
+              "Congenital heart disease",
+              "Aortic atresia",
+              "Mitral atresia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Significant burden of damaging de novo variants in LHX2 among CHD probands; gene pLI = 0.99; mouse knockouts produce CHD. Both probands with damaging DNMs had aortic and mitral atresia.",
+        "center_country": "Pediatric Cardiac Genomics Consortium (PCGC); multicenter, likely USA",
+        "cohort": null,
+        "disease": "CHD"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Shi et al. 1997 (Porter et al.) - Lhx2, a LIM homeobox gene, is required for eye, forebrain, and definitive erythrocyte development (PMID: 9247336)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "anophthalmia: optic vesicle specified but eye development arrests before optic cup formation",
+          "cerebral cortex malformation with neocortical hypoplasia due to deficient forebrain proliferation",
+          "aplasia of hippocampal anlagen",
+          "severe anemia from a cell non-autonomous defect in definitive erythropoiesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Monuki et al. 2001 - LIM-homeodomain gene Lhx2 regulates the formation of the cortical hem (PMID: 11165475)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "expanded cortical hem covering almost the entire dorsal telencephalon at E12.5",
+          "no hippocampal differentiation adjacent to the mutant hem",
+          "overall dorsoventral patterning not perturbed",
+          "defective early telencephalic patterning"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chou & Tole 2009 (Chou et al.) - Lhx2 specifies regional fate in Emx1 lineage of telencephalic progenitors generating cerebral cortex (PMID: 19820705)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Emx1-cre deletion at E10.5 altered progenitor fate",
+          "progenitors generated three-layer cortex resembling olfactory cortex instead of lateral neocortex",
+          "no ectopic olfactory cortex after deletion at E11.5, indicating a critical period"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hsu et al. 2015 - Lhx2 regulates the timing of \u03b2-catenin-dependent cortical neurogenesis (PMID: 26371318)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Nestin-cre deletion produced a dramatically smaller cortex",
+          "reduced cortical progenitor proliferation",
+          "precocious radial glia differentiation and temporal shift of neurogenesis",
+          "Wnt/\u03b2-catenin pathway failed to maintain progenitor proliferation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "de Melo et al. 2016 - Lhx2 Is an Essential Factor for Retinal Gliogenesis and Notch Signaling (PMID: 26911688)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "failure of M\u00fcller glia development at all stages: reduced proliferation of gliocompetent progenitors, loss of M\u00fcller-specific gene expression, and impaired terminal differentiation",
+          "rapid downregulation of Notch pathway genes (Notch1, Dll1, Dll3, Hes1, Hes5, Sox8, Rax) and loss of Notch signaling",
+          "Hes5-induced gliogenesis requires Lhx2"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Subramanian et al. 2011 - Transcription factor Lhx2 is necessary and sufficient to suppress astrogliogenesis and promote neurogenesis in the developing hippocampus (PMID: 21690374)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Lhx2 disruption by in utero electroporation and in organotypic slice culture caused premature astrocyte production in the hippocampus during the neurogenic period",
+          "loss of Lhx2 in neocortex did not cause premature astrogliogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wang et al. 2017 - Lhx2 Expression in Postmitotic Cortical Neurons Initiates Assembly of the Thalamocortical Somatosensory Circuit (PMID: 28122236)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "layer 4 barrel cortex neurons initially specified but failed to form cellular barrels or polarized dendrites",
+          "thalamocortical axons reached barrel cortex but failed to arborize into barrels",
+          "downregulation of activity-regulated and barrel-formation genes including Btbd3 (direct Lhx2 target)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Marcos-Mond\u00e9jar et al. 2012 - The lhx2 transcription factor controls thalamocortical axonal guidance by specific regulation of robo1 and robo2 receptors (PMID: 22457488)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "thalamus-specific Lhx2 deletion produced topographic thalamocortical axon defects, particularly in projections from the medial geniculate nucleus and caudal ventrobasal nucleus",
+          "altered Robo1 and Robo2 expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kim et al. 2014 - Lhx2 regulates bone remodeling in mice by modulating RANKL signaling in osteoclasts (PMID: 24902903)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "osteoporotic bone phenotype",
+          "increased osteoclast formation in vivo"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mardaryev et al. 2006 (Rhee et al.) - Lhx2 maintains stem cell character in hair follicles (PMID: 16809539)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "loss-of-function showed Lhx2 maintains growth and undifferentiated properties of hair follicle progenitors",
+          "hair follicle stem cell specification and maintenance defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Lhx2 specifically expressed in HSCs promotes liver regeneration and inhibits liver fibrosis (PMID: 39693275)",
+        "evidence_subtype": "function",
+        "summary": "Lhx2 is a hepatic stellate cell (HSC)-specific transcription factor that is higher in healthy than fibrotic liver in mouse and human. Knockdown impaired regeneration after acute injury. HSC-specific overexpression promoted hepatocyte proliferation and reduced fibrosis, upregulated SMAD6 to block TGF-\u03b2 signaling, and acted upstream of pro-regenerative factors such as HGF.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LHX2 Rewires the Metabolic and Epigenetic Landscape to Drive Tumor Progression in Prostate Cancer (PMID: 40899980)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In neuroendocrine prostate cancer models, glycolysis-derived lactate and histone lactylation increase LHX2 expression. LHX2 then transcriptionally activates LDHA, forming a positive feedback loop, and upregulates DNMT1 to drive neuroendocrine gene expression and tumor growth. Paritaprevir binds LHX2 directly and suppresses neuroendocrine markers and tumor progression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lhx2 regulates the timing of \u03b2-catenin-dependent cortical neurogenesis (PMID: 26371318)",
+        "evidence_subtype": "pathway",
+        "summary": "Nestin-Cre deletion of Lhx2 in cortical progenitors produced a much smaller cortex through precocious radial glia differentiation and a temporal shift in neurogenesis. Without Lhx2, Wnt/\u03b2-catenin signaling could not maintain progenitor proliferation, so Lhx2 is required for \u03b2-catenin function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lhx2 regulates the development of the forebrain hem system (PMID: 23307637)",
+        "evidence_subtype": "function",
+        "summary": "Lhx2 limits the extent of the cortical hem, septum and thalamic eminence. Loss of Lhx2 greatly expands all three structures and dramatically increases the Cajal-Retzius cell population. Lhx2 therefore acts as a central regulator of telencephalic midline patterning.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mapping the expression of epithelial hair follicle stem cell-related transcription factors LHX2 and SOX9 in the human hair follicle (PMID: 25808706)",
+        "evidence_subtype": "expression",
+        "summary": "In human anagen hair follicles, LHX2 protein is found throughout the outer root sheath, including the bulge. LHX2+ cells are mostly in the sub-bulge and proximal bulb ORS rather than restricted to the bulge. Expression increases in proximal follicle epithelium during catagen, and most SOX9+ cells do not co-express LHX2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LHX2 Mediates the FGF-to-SHH Regulatory Loop during Limb Development (PMID: 29914077)",
+        "evidence_subtype": "pathway",
+        "summary": "Transcriptome analysis of FGF-treated chick limb buds identified LHX2 as an intermediate in FGF-mediated regulation of SHH. LHX2 acts as a competency factor maintaining distal posterior SHH expression beneath the AER.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lhx2 regulates bone remodeling in mice by modulating RANKL signaling in osteoclasts (PMID: 24902903)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Lhx2 is highly expressed in osteoclast precursors and falls during RANKL-induced osteoclastogenesis. Its overexpression inhibits NFATc1 induction. Lhx2 interacts with c-Fos, reducing c-Fos DNA binding and NFATc1 transactivation. Lhx2 conditional knockout mice show an osteoporotic phenotype with increased osteoclast formation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lhx2 mediates the activity of Six3 in zebrafish forebrain growth (PMID: 16226737)",
+        "evidence_subtype": "fly_worm",
+        "summary": "In zebrafish, the telencephalon reduction in six3a/six3b morphants was fully rescued by head-specific lhx2 overexpression (caged mRNA), whereas Six3b could not rescue lhx2 knockdown. Lhx2 acts downstream of or parallel to Six3 in controlling forebrain progenitor proliferation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MRG1 binds to the LIM domain of Lhx2 and may function as a coactivator to stimulate glycoprotein hormone alpha-subunit gene expression (PMID: 10593900)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A yeast two-hybrid screen identified MRG1 as an Lhx2 LIM-domain interactor, confirmed by in vitro binding and co-immunoprecipitation in alphaT3-1 cells. The Lhx2 LIM domain has intrinsic transactivation activity, and MRG1 enhances alpha-subunit reporter activity. MRG1 also binds TBP and p300, suggesting recruitment of p300/CBP and TBP.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LHX2- and LDB1-mediated trans interactions regulate olfactory receptor choice (PMID: 30626972)",
+        "evidence_subtype": "function",
+        "summary": "LHX2 binds the Greek-island enhancers in mouse olfactory sensory neurons and works with the adaptor LDB1. Together they regulate interchromosomal olfactory receptor compartments, Greek island hubs, and olfactory receptor transcription.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

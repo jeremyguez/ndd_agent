@@ -1,0 +1,355 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 18,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Genetic investigation of sudden unexpected death in epilepsy cohort by panel target resequencing (PMID: 26423924)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Rare FBN1 variant, not specified in abstract (segregated completely in the family)",
+            "type": "other",
+            "phenotypes": [
+              "Sudden unexpected death in epilepsy (SUDEP)",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare variant with complete familial segregation. Proposed as a candidate SUDEP gene, so the evidence is weak.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A Rare Case of Dual De Novo Mutations Presenting With Infantile Spasms, Congenital Contractures, and Axial Hypotonia (PMID: 41492575)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Likely pathogenic FBN1 variant, not specified in abstract (likely de novo, autosomal dominant); co-occurs with a pathogenic CACNA1E variant",
+            "type": "other",
+            "phenotypes": [
+              "Congenital hand and foot deformities",
+              "axial hypotonia",
+              "treatment-resistant infantile spasms",
+              "FBN1 variant reported as an incidental finding with cardiovascular implications"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Likely de novo, autosomal dominant variant identified by WES and classified as likely pathogenic. Reported as an incidental finding.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Genetic diagnosis for adult patients at a genetic clinic (PMID: 36265913)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Known pathogenic FBN1 variant, not specified in abstract",
+            "type": "other",
+            "phenotypes": [
+              "Phenotype not detailed in abstract; presumed Marfan syndrome or related FBN1 disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Known pathogenic variant identified by exome sequencing in an adult referred to a genetic clinic, giving a definitive diagnosis.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A Wide Spectrum of Genetic Disorders Causing Severe Childhood Epilepsy in Taiwan: A Case Series of Ultrarare Genetic Cause and Novel Mutation Analysis in a Pilot Study (PMID: 33333793)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "FBN1 variant, not specified in abstract",
+            "type": "other",
+            "phenotypes": [
+              "Severe neurological or neuromuscular disorder in the non-seizure group"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by WES in a pediatric patient with an unexplained severe neurological disorder and counted as a genetic diagnosis.",
+        "center_country": "Taiwan",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2019 - PgmNr 2056: Drug metabolism anomalies co-segregating with familial prostate cancers and aortic aneurysms",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "FBN1 nonsense mutation (details not specified)",
+            "type": "LoF",
+            "phenotypes": [
+              "Ascending aortic aneurysm diagnosed at age 71",
+              "family history of aortic aneurysm in the father and all brothers",
+              "staring spells and syncope",
+              "adverse drug reactions",
+              "secondary porphyria diagnosis"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Nonsense mutation found on earlier sequencing, but a 23-gene connective tissue panel did not identify any pathogenic variants despite the reported FBN1 mutation. Whole exome sequencing showed no clinically relevant alterations, so causality is uncertain.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Systematic Disruption of Zebrafish Fibrillin Genes Identifies a Translational Zebrafish Model for Marfan Syndrome (PMID: 42025244)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Zebrafish mutants lacking various fibrillin genes (including fbn1) were generated",
+          "Only fibrillin-3-deficient zebrafish showed cardiovascular phenotypes mimicking human disease",
+          "fbn3 mutants had early cardiac defects, bulbus arteriosus dilation and valve abnormalities",
+          "fbn3 mutants showed altered ECM homeostasis and immune activation pathways in transcriptomics",
+          "The fbn1 mutant did not show a comparable cardiovascular phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phenotyping Zebrafish Mutant Models to Assess Candidate Genes Associated with Aortic Aneurysm (PMID: 35052463)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "CRISPR/Cas9 fbn1 loss-of-function 'positive control' mutant",
+          "Peri-aortic and cranial hemorrhage",
+          "Cardiomegaly",
+          "Reduced diameter of the aorta and intersegmental vessels",
+          "Lower aortic cell counts",
+          "Severe scoliosis",
+          "Cardiac, cerebral, aortic and skeletal abnormalities by 6 dpf"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Novel Aortic Dissection Model Links Endothelial Dysfunction and Immune Infiltration (PMID: 40365676)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Fbn1 G234D/G234D CRISPR knock-in missense mice (loss-of-function: FBN1 G234D lost binding to LTBP-1, -2 and -4)",
+          "Premature death within 5 weeks from aortic rupture",
+          "Multiple intimomedial tears that expanded longitudinally",
+          "Massive immune cell infiltration",
+          "Endothelial cells lost alignment to blood flow, with upregulated VCAM-1 and ICAM-1 by 1 week",
+          "Monocyte/macrophage clusters (CCR2+) in the intima",
+          "Upregulated MMP2/9",
+          "Downregulated TGF\u03b2 signaling in the aortic wall"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Extracellular Tuning of Mitochondrial Respiration Leads to Aortic Aneurysm (PMID: 33709773)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Fbn1 C1039G/+ MFS mice showed mitochondrial dysfunction and mtDNA depletion in the aorta",
+          "Reduced mitochondrial complexes in young mutant aortas",
+          "Fbn1-silenced VSMCs had increased lactate production and decreased oxygen consumption",
+          "Matrices from Fbn1-deficient VSMCs caused mitochondrial dysfunction in seeded VSMCs",
+          "Nicotinamide riboside reversed aortic aneurysm in mutant mice",
+          "Conditional VSMC Tfam knockout mice lost contractile capacity, developed aortic aneurysm and died prematurely"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Versican accumulation drives Nos2 induction and aortic disease in Marfan syndrome via Akt activation (PMID: 38177536)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Fbn1 C1041G/+ aortic dilation",
+          "Versican accumulation in the aorta, with Nos2 induction and Akt activation",
+          "Vcan haploinsufficiency protected against aortic dilation",
+          "Vcan silencing reverted aortic disease",
+          "Akt inhibition regressed aortic dilation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PIEZO1 attenuates Marfan syndrome aneurysm development through TGF-\u03b2 signaling pathway inhibition via TGFBR2 (PMID: 39585648)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Fbn1 C1041G/+ MFS mice had reduced aortic PIEZO1 expression",
+          "VSMC-specific Piezo1 CKO on the MFS background aggravated thoracic aortic aneurysm",
+          "Increased inflammation and ECM remodelling",
+          "Increased TGF-\u03b2 pathway activation via reduced TGFBR2 endocytosis and autophagy",
+          "Yoda1 activation of PIEZO1 reversed TAA"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The mg\u0394(lpn) mouse model for Marfan syndrome recapitulates the ocular phenotypes of the disease (PMID: 33516761)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "Heterozygous dominant-negative Fbn1 mg\u0394lpn mutation",
+          "Ectopia lentis",
+          "Increased distance between ciliary body and lens at 3 and 6 months",
+          "Disorganized microfibril mesh on the ciliary body",
+          "Larger anterior chamber volume",
+          "Limited efficacy of losartan on ocular phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "significantly larger ciliary body-lens distance vs WT (p-value not given)"
+      },
+      {
+        "citation": "ASHG 2023 - Atropine treatment rescues myopia in a mouse model of Marfan syndrome",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Fbn1 C1039G/+ mice had increased axial length (60 \u00b5m) and high myopia (9 D) at 2 months",
+          "Increased Smad2/3 and Erk1/2 activation in the retina",
+          "Losartan did not prevent eye growth",
+          "Low-dose or less frequent atropine selectively inhibited eye growth in MFS mice",
+          "Atropine normalized retinal Smad2/3 activation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p<0.0001 (axial length and myopia vs WT)"
+      },
+      {
+        "citation": "ASHG 2017 - Functional characterization of modifier loci for Marfan syndrome reveals novel therapeutic strategies",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Fbn1 C1039G/+ strain-dependent aneurysm severity and survival (129S6 worse than C57BL/6J)",
+          "QTLs on chromosomes 5 and 11 linked to aortic size",
+          "Mmp17 and Map2k6 variants modified aortic growth",
+          "Double null alleles at both loci made the mice behave like BL6",
+          "Aneurysm prevented by AngII receptor blocker, ERK inhibitor or erlotinib"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p=0.008 for QTLs; p=0.0006 for epistasis"
+      },
+      {
+        "citation": "Chronic mTOR activation induces a degradative smooth muscle cell phenotype (PMID: 32039915)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "Mild TAAD model with Fbn1 mutation",
+          "Combined with SMC Tsc1 disruption (mTOR activation), disease was greatly worsened with near-uniform lethality",
+          "Induction of a degradative SMC phenotype"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Wang et al. 2020 - FBN1 promotes DLBCL cell migration by activating the Wnt/\u03b2-catenin signaling pathway and regulating TIMP1 (PMID: 33312371)",
+        "evidence_subtype": "cell_culture",
+        "summary": "FBN1 is highly expressed in DLBCL tissues, and higher expression is associated with advanced stage, higher IPI score and non-GCB subtype. FBN1 siRNA decreased TIMP1 expression, DLBCL cell migration and Wnt target gene expression. TIMP1 knockdown did not change FBN1, so FBN1 acts upstream of TIMP1 in Wnt/\u03b2-catenin signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Shen et al. 2022 - The Fibrillin-1/VEGFR2/STAT2 signaling axis promotes chemoresistance via modulating glycolysis and angiogenesis in ovarian cancer organoids and cells (PMID: 35234370)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FBN1 expression is elevated in cisplatin-resistant ovarian cancer organoids and tissues. FBN1 knockout reduced glycolysis and angiogenesis and increased cisplatin sensitivity in organoids, cell lines, nude mice and zebrafish. FBN1 mediates VEGFR2 Tyr1054 phosphorylation, which activates FAK/AKT and STAT2 Tyr690 phosphorylation and nuclear translocation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Doyle et al. ASHG 2023 - Atropine treatment rescues myopia in a mouse model of Marfan syndrome",
+        "evidence_subtype": "other",
+        "summary": "Fbn1 C1039G/+ mice show increased axial length and high myopia, with increased retinal Smad2/3 and Erk1/2 activation. Losartan had no effect on eye growth. Low-dose atropine selectively inhibited eye growth and normalized Smad2/3 activation in the MFS retina.",
+        "sample_size": null,
+        "significance": "p<0.0001 (axial length, myopia, Smad2/3 normalization); p<0.01 (selective low-dose atropine effect)"
+      },
+      {
+        "citation": "Shimizu et al. ASHG 2023 - A novel FBN1 intron variant causing isolated ectopia lentis via an in-frame exon skipping",
+        "evidence_subtype": "function",
+        "summary": "The FBN1 intron 11 variant c.1327+3A>C causes in-frame skipping of exon 11 in patient PBMC RT-PCR and in minigene assays. Exon 11 encodes the 60-amino-acid proline-rich region, and its loss is linked to isolated ectopia lentis without systemic Marfan features.",
+        "sample_size": "4 affected individuals in a 3-generation family",
+        "significance": null
+      },
+      {
+        "citation": "Cano-Jorge/Oller et al. 2021 - Extracellular Tuning of Mitochondrial Respiration Leads to Aortic Aneurysm (PMID: 33709773)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Aortas from Fbn1c1039g/+ mice and MFS patients show mitochondrial dysfunction and mtDNA depletion. Fbn1-silenced VSMCs have increased lactate production and decreased oxygen consumption. VSMCs grown on matrix made by Fbn1-deficient VSMCs also develop mitochondrial dysfunction, and nicotinamide riboside reverses aneurysm in Fbn1c1039g/+ mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Microenvironmental regulation by fibrillin-1 (PMID: 22242013)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A novel FBN1 mutation deleting three domains abolishes the fibrillin-1 binding site for ADAMTSL2, ADAMTSL3, ADAMTSL6 and papilin. In mice this causes a Weill-Marchesani-like phenotype (thick skin, short stature, brachydactyly) distinct from MFS. The results place the ADAMTSL proteins in a pathway with fibrillin-1 and ADAMTS10 that maintains tissue microenvironments.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Fibrillin-1 Orchestrates a Pro-senescent Niche Driving Peritubular Endothelial Senescence via ZEB1/endothelin-1/\u03b2-catenin Signaling (PMID: 42328432)",
+        "evidence_subtype": "pathway",
+        "summary": "FBN1 in the fibrogenic niche of CKD kidneys upregulates ZEB1, which binds the EDN1 promoter to increase ET-1 and activate \u03b2-catenin signaling, driving endothelial senescence. Tubule-specific Fbn1 deletion reduced endothelial senescence and capillary rarefaction and improved renal function across CKD models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Single-Cell Transcriptomic Profiling of Vascular Smooth Muscle Cell Phenotype Modulation in Marfan Syndrome Aortic Aneurysm (PMID: 32698686)",
+        "evidence_subtype": "expression",
+        "summary": "scRNA-seq of Fbn1C1041G/+ mouse aortic root tissue and human MFS aneurysm identified a modulated SMC cluster with an MFS-specific signature (Serpine1, Klf4) and 481 differentially expressed genes. Enhanced TGF-\u03b2-responsive gene expression correlated with SMC modulation, implicating TGF-\u03b2 signaling and Klf4 as drivers.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PIEZO1 attenuates Marfan syndrome aneurysm development through TGF-\u03b2 signaling pathway inhibition via TGFBR2 (PMID: 39585648)",
+        "evidence_subtype": "pathway",
+        "summary": "PIEZO1 expression is decreased in aortas of Fbn1C1041G/+ MFS mice and patients. VSMC-specific Piezo1 knockout in MFS mice worsened thoracic aortic aneurysm and TGF-\u03b2 pathway activation through impaired Rab GTPase 3C-mediated TGFBR2 endocytosis and autophagy. The PIEZO1 activator Yoda1 reversed aneurysm in MFS mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FGF12 induces aberrant mechanosignaling in aortic smooth muscle cells during thoracic aortic aneurysm formation in Marfan syndrome mice (PMID: 41540272)",
+        "evidence_subtype": "pathway",
+        "summary": "FGF12 is upregulated in aortic SMCs of Fbn1C1039G/+ mice and MFS patients, induced by TGF-\u03b2/SMAD signaling and cyclic stretch. It activates AngII/AT1R and RhoA mechanosignaling. Fgf12 haploinsufficiency reduced aneurysm progression and arterial stiffening in Fbn1C1039G/+ mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Asprosin and type 2 diabetes mellitus: a novel potential therapeutic implication (PMID: 32080995)",
+        "evidence_subtype": "function",
+        "summary": "Asprosin is a fasting-induced hormone encoded by FBN1 (the C-terminal fibrillin-1 cleavage product) and secreted by white adipose tissue. It acts on the liver through the cAMP-PKA pathway to raise glucose. Levels are higher in T2DM, and deficiency causes leanness and poor appetite.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

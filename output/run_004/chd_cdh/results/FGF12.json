@@ -1,0 +1,236 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 11,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "FGF12 is a candidate Brugada syndrome locus (PMID: 24096171)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Q7R-FGF12 (p.Gln7Arg in FGF12-B isoform)",
+            "type": "missense",
+            "phenotypes": [
+              "Brugada syndrome",
+              "Reduced Na+ channel current density and availability in rat cardiomyocytes (functional)",
+              "Reduced binding to NaV1.5 C terminus (functional)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Single missense variant found in 102 phenotype-positive, genotype-negative BrS individuals; the mutant reduced NaV1.5 C-terminus binding, Na+ current density and availability, and action potential amplitude (loss of Na+ channel function) compared with wild-type FGF12.",
+        "center_country": "USA (BrS biorepository; Mayo Clinic / Vanderbilt-affiliated investigators, not explicitly stated in abstract)",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "De Novo FGF12 (Fibroblast Growth Factor 12) Functional Variation Is Potentially Associated With Idiopathic Ventricular Tachycardia (PMID: 28775062)",
+        "num_patients": 5,
+        "variants": [
+          {
+            "description": "p.P211Q (de novo; 1.84% of 163 patients with right ventricular outflow tract VT)",
+            "type": "missense",
+            "phenotypes": [
+              "Idiopathic ventricular tachycardia",
+              "Right ventricular outflow tract VT",
+              "Downregulated FGF12 expression on western blot (functional)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variant; significantly downregulated FGF12 expression by western blotting; identified among 5 rare variants on resequencing of 320 unrelated idiopathic VT patients. The common SNP rs1460922 was also associated with VT. Only p.P211Q is described as functional.",
+        "center_country": "China",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "Copy number variants in Ebstein anomaly (PMID: 29216221)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "CNV overlapping or near FGF12 (details not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "Ebstein anomaly"
+            ]
+          }
+        ],
+        "diagnostic_reason": "CNV overlapped or was close to FGF12, a gene involved in early myocardial development, in a population-based cohort of 60 EA cases; prioritized as a candidate on the basis of gene content.",
+        "center_country": "USA (California)",
+        "cohort": null,
+        "disease": "CHD"
+      },
+      {
+        "citation": "ASHG 2017 - Copy number reanalysis: The hidden contribution of MED13L to intellectual disability",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Likely pathogenic duplication of FGF12 (CNV detected by exome sequencing and array)",
+            "type": "other",
+            "phenotypes": [
+              "Phenotype not specified (patient from an exome sequencing cohort of 160 probands, likely neurodevelopmental/intellectual disability)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Classified as a likely pathogenic duplication of FGF12 in an exome sequencing CNV-calling validation against clinical SNP microarray.",
+        "center_country": "USA (Children's Hospital of Philadelphia)",
+        "cohort": null,
+        "disease": "CHD"
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Fgf12 knockout mouse - Fibroblast growth factor 12 is expressed in spiral and vestibular ganglia and necessary for auditory and equilibrium function (PMID: 30065296)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Increased hearing threshold measured by auditory brainstem response",
+          "Impaired rotarod performance",
+          "Impaired balance beam performance (equilibrium deficit)",
+          "Inner ear morphology not significantly different from wild-type"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Macrophage-specific FGF12 promotes liver fibrosis progression in mice (PMID: 35753047)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Myeloid-specific Fgf12 deletion protected against BDL-induced and CCl4-induced liver fibrosis",
+          "Decreased Ly6C-high macrophage population in fibrotic liver",
+          "Reduced expression of proinflammatory cytokines and chemokines",
+          "Reduced hepatic stellate cell activation via MCP-1/CCR2 axis; JAK-STAT-mediated macrophage activation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of macrophage fibroblast growth factor 12 attenuates cardiac fibrosis in pressure-overloaded myocardium (PMID: 40188526)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Myeloid-specific Fgf12 knockout markedly attenuated pressure overload-induced myocardial fibrosis",
+          "Altered IL-4-stimulated M2 polarization of BMDMs via SOCS/STAT pathway",
+          "Reduced ROS accumulation and activation of cardiac fibroblasts by conditioned medium from FGF12-knockdown macrophages"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phenotyping of FGF12A(V52H) mutation in mouse implies a complex FGF12 network (PMID: 39142611)",
+        "organism": "mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Seizure susceptibility without spontaneous seizures",
+          "Increased excitability of dorsal hippocampal CA3 neurons",
+          "Perturbed excitatory/inhibitory neuron balance in hippocampus (increased SOM+ and CaMKII+ neurons)",
+          "Cognitive deficit",
+          "Impaired risk assessment behavior",
+          "Altered social behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Depletion of Fibroblast Growth Factor 12 Restrains the Viability, Stemness, and Motility of Colorectal Cancer (PMID: 35860801)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "shFGF12 in colorectal cancer cells (LoVo, SW480) inhibited tumor growth in xenograft mouse model",
+          "Reduced EMT, cancer stemness and PI3K/AKT pathway activity in xenografts"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Macrophage-specific FGF12 promotes liver fibrosis progression in mice (PMID: 35753047)",
+        "evidence_subtype": "pathway",
+        "summary": "FGF12 is up-regulated in hepatic macrophages in BDL- and CCl4-induced fibrosis, and its levels correlate with fibrosis severity in human liver. Myeloid-specific Fgf12 knockout protected against fibrosis and reduced Ly6C-high macrophages and proinflammatory cytokines. FGF12 promotes macrophage proinflammatory activation via the JAK-STAT pathway and drives HSC activation through the MCP-1/CCR2 axis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FGF12 Positively Regulates Keratinocyte Proliferation by Stabilizing MDM2 and Inhibiting p53 Activity in Psoriasis (PMID: 39234815)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FGF12 is highly expressed in psoriatic epidermis and in IMQ-induced psoriasis-like skin. FGF12 binds the RING domain of MDM2, partially blocking \u03b2-Trcp binding and K48 ubiquitination, which stabilizes MDM2 and suppresses p53 signaling. Keratinocyte-specific FGF12 loss reduced proliferation and psoriasis-like symptoms, and p53 knockdown reversed this effect.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FGF12 is a novel component of the nucleolar NOLC1/TCOF1 ribosome biogenesis complex (PMID: 36411431)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FGF12 localizes to the nucleolus and interacts with NOLC1 and TCOF1. The NOLC1 interaction is unique to FGF12, while other FHFs bind only TCOF1. Complex formation is phosphorylation-dependent and requires the FGF12 C-terminus. NOLC1 and TCOF1 cannot interact without FGF12, suggesting a role in ribosome biogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hair Growth Regulation by Fibroblast Growth Factor 12 (FGF12) (PMID: 36012732)",
+        "evidence_subtype": "cell_culture",
+        "summary": "FGF12 is mainly expressed in outer root sheath cells, with high expression in the anagen phase. siRNA knockdown delayed telogen-to-anagen transition in mice and reduced ORS cell proliferation and migration. Overexpression promoted migration and anagen induction, and altered expression of PDGF-CC, MDK and HB-EGF.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Biallelic structural variations within FGF12 detected by long-read sequencing in epilepsy (PMID: 37286232)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Biallelic intragenic SVs and a homozygous SNV in FGF12 were found in DEE patients. Expression analysis in patient lymphoblastoid cells and Drosophila in vivo functional assays of the SNV confirmed loss-of-function. This contrasts with the known heterozygous gain-of-function missense variants and duplications.",
+        "sample_size": "2 DEE patients",
+        "significance": null
+      },
+      {
+        "citation": "Exome sequencing identified FGF12 as a novel candidate gene for Kashin-Beck disease (PMID: 26290467)",
+        "evidence_subtype": "GWAS",
+        "summary": "Exome sequencing of a KBD sib pair found a novel 3'UTR +106T>C variant in FGF12. In a GWAS, nine FGF12 SNPs showed association with KBD, the strongest being rs1847340.",
+        "sample_size": "90 KBD patients, 1627 controls (plus 1 sib pair for exome sequencing)",
+        "significance": "rs1847340 P=1.90e-5"
+      },
+      {
+        "citation": "FGF12 is a candidate Brugada syndrome locus (PMID: 24096171)",
+        "evidence_subtype": "function",
+        "summary": "FGF12 is the major FHF expressed in human ventricle. The BrS-associated Q7R-FGF12 mutant reduced binding to the NaV1.5 C-terminus but not to junctophilin-2. In rat cardiomyocytes it reduced Na+ current density and action potential amplitude without affecting Ca2+ channels, showing that FHF effects on Na+ and Ca2+ channels are separable.",
+        "sample_size": "102 BrS biorepository individuals; 1 missense variant",
+        "significance": null
+      },
+      {
+        "citation": "Early onset epilepsy and SUDEP with cardiac arrhythmia in mice carrying the EIEE47 gain-of-function FHF1(FGF12) missense mutation (PMID: 33982289)",
+        "evidence_subtype": "other",
+        "summary": "Fhf1 R52H/+ knock-in mice show fully penetrant seizures and SUDEP with bradycardia between 12 and 26 days of age. The mutant FHF1B protein shifted cardiac sodium channel steady-state inactivation by about 15 mV depolarizing and slowed inactivation. The authors propose an FHF1/Nav1.6 functional axis in epileptic encephalopathy.",
+        "sample_size": "Fhf1 R52H/+ mice (all mice affected)",
+        "significance": null
+      },
+      {
+        "citation": "FGF12 restrains mitochondria-dependent ferroptosis in doxorubicin-induced cardiomyocytes through the activation of FGFR1/AMPK/NRF2 signaling (PMID: 38349269)",
+        "evidence_subtype": "pathway",
+        "summary": "FGF12 is down-regulated in DOX-injured mouse myocardium. Overexpression reduced injury markers, ROS and ferroptosis markers (ACSL4, PTGS2) and increased GPX4 and FTH1. FGF12 activates FGFR1/AMPK/NRF2 signaling, and FGFR1 silencing reversed its protective effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FGF12 Alleviates Cardiac Hypertrophy by Inhibiting Phosphorylation of CaM/CaMKII/CREB1 Axis (PMID: 41979475)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "FGF12 expression is reduced, and its subcellular localization altered, in HCM patient myocardium. FGF12 binds calmodulin and suppresses CaMKII/ERK1/2/CREB1/MCU phosphorylation and expression. Nuclear FGF12 binds the CREB1 promoter, lowering mitochondrial Ca2+ and ROS. AAV9-FGF12 reduced hypertrophy in HCM mouse and iPSC-cardiomyocyte models.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

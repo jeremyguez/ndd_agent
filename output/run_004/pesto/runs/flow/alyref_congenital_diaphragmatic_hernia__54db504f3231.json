@@ -1,0 +1,838 @@
+{
+ "gene": "ALYREF",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "diaphragmatic hernia, congenital",
+   "congenital hernia of the diaphragm",
+   "congenital diaphragmatic defect",
+   "Bochdalek hernia",
+   "posterolateral diaphragmatic hernia",
+   "congenital defect of the diaphragm",
+   "herniation of abdominal viscera into the thorax through a diaphragmatic defect"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "BEF",
+   "ALY",
+   "REF",
+   "ALY/REF",
+   "THOC4",
+   "Aly/REF export factor"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 83,
+  "titlekicksparingfulltext": 29,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 10,
+   "Existing": 70,
+   "Hypothesized": 17,
+   "Novel": 3
+  },
+  "justification": "The only primary human genetic evidence comes from Qiao et al. (PMID 34547244), which identified ALYREF as a candidate CDH-associated gene based on de novo coding variant enrichment reaching FDR &lt; 0.05 in 827 CDH trios; notably, that study's functional follow-up focused on LONP1, not ALYREF. Subsequent mentions in reviews (PMIDs 35186825, 34573387, 42125881) restate this single finding as background rather than providing independent replication in new probands or families. The remaining ALYREF literature concerns mRNA export/TREX biology, ALS/FTD, or THOC6 intellectual disability syndrome, and a TREX-spectrum neurodevelopmental cohort (PMID 42781784) that does not report CDH. With only one primary human study and no replication or functional CDH model, the evidence supports \"Existing\" rather than \"Established.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 10,
+   "Existing": 70,
+   "Hypothesized": 17,
+   "Novel": 3
+  }
+ },
+ "articles": [
+  {
+   "pmid": "34547244",
+   "title": "Rare and de novo variants in 827 congenital diaphragmatic hernia probands implicate LONP1 as candidate risk gene.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) is a severe congenital anomaly that is often accompanied by other anomalies. Although the role of genetics in the pathogenesis of CDH has been established, only a small number of disease-associated genes have been identified. To further investigate the genetics of CDH, we analyzed de novo coding variants in 827 proband-parent trios and confirmed an overall significant enrichment of damaging de novo variants, especially in constrained genes. We identified LONP1 (lon peptidase 1, mitochondrial) and ALYREF (Aly/REF export factor) as candidate CDH-associated genes on the basis of de novo variants at a false discovery rate below 0.05. We also performed ultra-rare variant association analyses in 748 affected individuals and 11,220 ancestry-matched population control individuals and identified LONP1 as a risk gene contributing to CDH through both de novo and ultra-rare inherited largely heterozygous variants clustered in the core of the domains and segregating with CDH in affected familial individuals. Approximately 3% of our CDH cohort who are heterozygous with ultra-rare predicted damaging variants in LONP1 have a range of clinical phenotypes, including other anomalies in some individuals and higher mortality and requirement for extracorporeal membrane oxygenation. Mice with lung epithelium-specific deletion of Lonp1 die immediately after birth, most likely because of the observed severe reduction of lung growth, a known contributor to the high mortality in humans. Our findings of both de novo and inherited rare variants in the same gene may have implications in the design and analysis for other genetic studies of congenital anomalies.",
+   "found_by": [],
+   "pubdate": "2021 Oct 7",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "31036086",
+   "title": "Drosophila Ref1/ALYREF regulates transcription and toxicity associated with ALS/FTD disease etiologies.",
+   "abstract": "RNA-binding proteins (RBPs) are associated with amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD), but the underlying disease mechanisms remain unclear. In an unbiased screen in Drosophila for RBPs that genetically interact with TDP-43, we found that downregulation of the mRNA export factor Ref1 (fly orthologue to human ALYREF) mitigated TDP-43 induced toxicity. Further, Ref1 depletion also reduced toxicity caused by expression of the C9orf72 GGGGCC repeat expansion. Ref1 knockdown lowered the mRNA levels for these related disease genes and reduced the encoded proteins with no effect on a wild-type Tau disease transgene or a control transgene. Interestingly, expression of TDP-43 or the GGGGCC repeat expansion increased endogenous Ref1 mRNA levels in the fly brain. Further, the human orthologue ALYREF was upregulated by immunohistochemistry in ALS motor neurons, with the strongest upregulation occurring in ALS cases harboring the GGGGCC expansion in C9orf72. These data support ALYREF as a contributor to ALS/FTD and highlight its downregulation as a potential therapeutic target that may affect co-existing disease etiologies.",
+   "found_by": [],
+   "pubdate": "2019 Apr 29",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "20074066",
+   "title": "Structure and function of mRNA export adaptors.",
+   "abstract": "The mRNA export adaptors provide an important link between multiple nuclear mRNA processing events and the mRNA export receptor TAP/NXF1/Mex67p. They are recruited to mRNA through transcriptional and post-transcriptional events, integrating this information to licence mRNA for export. Subsequently they hand mRNA over to TAP and switch TAP to a higher-affinity RNA-binding state, ensuring its stable association with mRNA destined for export. Here we discuss the structure and function of adaptors and how they are recruited to mRNA.",
+   "found_by": [],
+   "pubdate": "2010 Feb",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "19586903",
+   "title": "The RNA-binding motif protein 15B (RBM15B/OTT3) acts as cofactor of the nuclear export receptor NXF1.",
+   "abstract": "The human SPEN family proteins SHARP, RBM15/OTT1, and RBM15B/OTT3 share the structural domain architecture but show distinct functional properties. Here, we examined the function of OTT3 and compared it with its paralogues RBM15 and SHARP. We found that OTT3, like RBM15, has post-transcriptional regulatory activity, whereas SHARP does not, supporting a divergent role of RBM15 and OTT3. OTT3 shares with RBM15 the association with the splicing factor compartment and the nuclear envelope as well as the binding to mRNA export factors NXF1 and Aly/REF. Mutational analysis revealed direct interaction of OTT3 and RBM15 with NXF1 via their C-terminal regions. Biochemical and subcellular localization studies showed that OTT3 and RBM15 also interact with each other in vivo, further supporting a shared function. Genetic knockdown of RBM15 in mouse is embryonically lethal, indicating that OTT3 cannot compensate for the RBM15 loss, which supports the notion that these proteins, in addition to sharing similar activities, likely have distinct biological roles.",
+   "found_by": [],
+   "pubdate": "2009 Sep 18",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "38388531",
+   "title": "TREX tetramer disruption alters RNA processing necessary for corticogenesis in THOC6 Intellectual Disability Syndrome.",
+   "abstract": "THOC6 variants are the genetic basis of autosomal recessive THOC6 Intellectual Disability Syndrome (TIDS). THOC6 is critical for mammalian Transcription Export complex (TREX) tetramer formation, which is composed of four six-subunit THO monomers. The TREX tetramer facilitates mammalian RNA processing, in addition to the nuclear mRNA export functions of the TREX dimer conserved through yeast. Human and mouse TIDS model systems revealed novel THOC6-dependent, species-specific TREX tetramer functions. Germline biallelic Thoc6 loss-of-function (LOF) variants result in mouse embryonic lethality. Biallelic THOC6 LOF variants reduce the binding affinity of ALYREF to THOC5 without affecting the protein expression of TREX members, implicating impaired TREX tetramer formation. Defects in RNA nuclear export functions were not detected in biallelic THOC6 LOF human neural cells. Instead, mis-splicing was detected in human and mouse neural tissue, revealing novel THOC6-mediated TREX coordination of mRNA processing. We demonstrate that THOC6 is required for key signaling pathways known to regulate the transition from proliferative to neurogenic divisions during human corticogenesis. Together, these findings implicate altered RNA processing in the developmental biology of TIDS neuropathology.",
+   "found_by": [],
+   "pubdate": "2024 Feb 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29728564",
+   "title": "Nuclear egress of TDP-43 and FUS occurs independently of Exportin-1/CRM1.",
+   "abstract": "TDP-43 and FUS are nuclear proteins with multiple functions in mRNA processing. They play key roles in ALS (amyotrophic lateral sclerosis) and FTD (frontotemporal dementia), where they are partially lost from the nucleus and aggregate in the cytoplasm of neurons and glial cells. Defects in nucleocytoplasmic transport contribute to this pathology, hence nuclear import of both proteins has been studied in detail. However, their nuclear export routes remain poorly characterized and it is unclear whether aberrant nuclear export contributes to TDP-43 or FUS pathology. Here we show that predicted nuclear export signals in TDP-43 and FUS are non-functional and that both proteins are exported independently of the export receptor CRM1/Exportin-1. Silencing of Exportin-5 or the mRNA export factor Aly/REF, as well as mutations that abrogate RNA-binding do not impair export of TDP-43 and FUS. However, artificially enlarging TDP-43 or FUS impairs their nuclear egress, suggesting that they could leave the nucleus by passive diffusion. Finally, we found that inhibition of transcription causes accelerated nuclear egress of TDP-43, suggesting that newly synthesized RNA retains TDP-43 in the nucleus, limiting its egress into the cytoplasm. Our findings implicate reduced nuclear retention as a possible factor contributing to mislocalization of TDP-43 in ALS/FTD.",
+   "found_by": [],
+   "pubdate": "2018 May 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11675789",
+   "title": "Pre-mRNA splicing and mRNA export linked by direct interactions between UAP56 and Aly.",
+   "abstract": "Recent studies indicate that splicing of pre-messenger RNA and export of mRNA are normally coupled in vivo. During splicing, the conserved mRNA export factor Aly is recruited to the spliced mRNA-protein complex (mRNP), which targets the mRNA for export. At present, it is not known how Aly is recruited to the spliced mRNP. Here we show that the conserved DEAD-box helicase UAP56, which functions during spliceosome assembly, interacts directly and highly specifically with Aly. Moreover, UAP56 is present together with Aly in the spliced mRNP. Significantly, excess UAP56 is a potent dominant negative inhibitor of mRNA export. Excess UAP56 also inhibits the recruitment of Aly to the spliced mRNP. Furthermore, a mutation in Aly that blocks its interaction with UAP56 prevents recruitment of Aly to the spliced mRNP. These data suggest that the splicing factor UAP56 functions in coupling the splicing and export machineries by recruiting Aly to the spliced mRNP.",
+   "found_by": [],
+   "pubdate": "2001 Oct 11",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "26773052",
+   "title": "A short conserved motif in ALYREF directs cap- and EJC-dependent assembly of export complexes on spliced mRNAs.",
+   "abstract": "The export of messenger RNAs (mRNAs) is the final of several nuclear posttranscriptional steps of gene expression. The formation of export-competent mRNPs involves the recruitment of export factors that are assumed to facilitate transport of the mature mRNAs. Using in vitro splicing assays, we show that a core set of export factors, including ALYREF, UAP56 and DDX39, readily associate with the spliced RNAs in an EJC (exon junction complex)- and cap-dependent manner. In order to elucidate how ALYREF and other export adaptors mediate mRNA export, we conducted a computational analysis and discovered four short, conserved, linear motifs present in RNA-binding proteins. We show that mutation in one of the new motifs (WxHD) in an unstructured region of ALYREF reduced RNA binding and abolished the interaction with eIF4A3 and CBP80. Additionally, the mutation impaired proper localization to nuclear speckles and export of a spliced reporter mRNA. Our results reveal important details of the orchestrated recruitment of export factors during the formation of export competent mRNPs.",
+   "found_by": [],
+   "pubdate": "2016 Mar 18",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37720017",
+   "title": "Mechanisms of mRNA processing defects in inherited THOC6 intellectual disability syndrome.",
+   "abstract": "THOC6 is the genetic basis of autosomal recessive THOC6 Intellectual Disability Syndrome (TIDS). THOC6 facilitates the formation of the Transcription Export complex (TREX) tetramer, composed of four THO monomers. The TREX tetramer supports mammalian mRNA processing that is distinct from yeast TREX dimer functions. Human and mouse TIDS model systems allow novel THOC6-dependent TREX tetramer functions to be investigated. Biallelic loss-of-functon(LOF) THOC6 variants do not influence the expression and localization of TREX members in human cells, but our data suggests reduced binding affinity of ALYREF. Impairment of TREX nuclear export functions were not detected in cells with biallelic THOC6 LOF. Instead, mRNA mis-splicing was observed in human and mouse neural tissue, revealing novel insights into THOC6-mediated TREX coordination of mRNA processing. We demonstrate that THOC6 is required for regulation of key signaling pathways in human corticogenesis that dictate the transition from proliferative to neurogenic divisions that may inform TIDS neuropathology.",
+   "found_by": [],
+   "pubdate": "2023 Sep 6",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33191911",
+   "title": "Structure of the human core transcription-export complex reveals a hub for multivalent interactions.",
+   "abstract": "The export of mRNA from nucleus to cytoplasm requires the conserved and essential transcription and export (TREX) complex (THO-UAP56/DDX39B-ALYREF). TREX selectively binds mRNA maturation marks and licenses mRNA for nuclear export by loading the export factor NXF1-NXT1. How TREX integrates these marks and achieves high selectivity for mature mRNA is poorly understood. Here, we report the cryo-electron microscopy structure of the human THO-UAP56/DDX39B complex at 3.3 \u00c5 resolution. The seven-subunit THO-UAP56/DDX39B complex multimerizes into a 28-subunit tetrameric assembly, suggesting that selective recognition of mature mRNA is facilitated by the simultaneous sensing of multiple, spatially distant mRNA regions and maturation marks. Two UAP56/DDX39B RNA helicases are juxtaposed at each end of the tetramer, which would allow one bivalent ALYREF protein to bridge adjacent helicases and regulate the TREX-mRNA interaction. Our structural and biochemical results suggest a conserved model for TREX complex function that depends on multivalent interactions between proteins and mRNA.",
+   "found_by": [],
+   "pubdate": "2020 Nov 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42781784",
+   "title": "Variants in TREX complex subunits (THOC2, ALYREF, THOC6, THOC7) define a neurodevelopmental disability spectrum.",
+   "abstract": "PURPOSE: TRranscription EXport (TREX) is an evolutionarily conserved multifunctional complex with essential roles in regulating transcription, mRNA export, genome stability, cell differentiation and survival. We aimed to determine if variation in the TREX subunits, in addition to THOC2 and THOC6 genes, caused Neurodevelopmental Disorders. METHODS: Through international collaboration we aggregated and assessed 40 individuals with high impact variants across four TREX subunit coding genes: THOC2 and THOC6 (known disease genes), and THOC7 and ALYREF (THOC4) (candidate disease genes). RESULTS: On the background of considerable heterogeneity of neurodevelopmental and clinical outcomes, we noted that all TREX subunit variants impact cognitive functioning and development, speech and the respiratory systems as well as result in recognisable facial dysmorphism. We identified and studied five recurrent THOC2 variants, which give overlapping yet variable clinical presentations, including severe perinatal lethal arthrogryposis multiplex congenita (AMC). Using cells from 13 affected individuals, we show that their TREX subunit variants are generally partial loss of function (LoF), which alter protein localisation, protein stability, protein-protein interactions or delete internal or C-terminal protein functional domains. Cells from affected individuals from across all four TREX subunits studied show consistent, yet variable accumulation of DNA damage. CONCLUSION: The molecular, cellular and in silico data with the clinical presentations define a TREX spectrum disorder due to functional variation across multiple TREX subunits.",
+   "found_by": [],
+   "pubdate": "2026 Sep 24",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18974867",
+   "title": "Recruitment of the complete hTREX complex is required for Kaposi's sarcoma-associated herpesvirus intronless mRNA nuclear export and virus replication.",
+   "abstract": "A cellular pre-mRNA undergoes various post-transcriptional processing events, including capping, splicing and polyadenylation prior to nuclear export. Splicing is particularly important for mRNA nuclear export as two distinct multi-protein complexes, known as human TREX (hTREX) and the exon-junction complex (EJC), are recruited to the mRNA in a splicing-dependent manner. In contrast, a number of Kaposi's sarcoma-associated herpesvirus (KSHV) lytic mRNAs lack introns and are exported by the virus-encoded ORF57 protein. Herein we show that ORF57 binds to intronless viral mRNAs and functions to recruit the complete hTREX complex, but not the EJC, in order assemble an export component viral ribonucleoprotein particle (vRNP). The formation of this vRNP is mediated by a direct interaction between ORF57 and the hTREX export adapter protein, Aly. Aly in turn interacts directly with the DEAD-box protein UAP56, which functions as a bridge to recruit the remaining hTREX proteins to the complex. Moreover, we show that a point mutation in ORF57 which disrupts the ORF57-Aly interaction leads to a failure in the ORF57-mediated recruitment of the entire hTREX complex to the intronless viral mRNA and inhibits the mRNAs subsequent nuclear export and virus replication. Furthermore, we have utilised a trans-dominant Aly mutant to prevent the assembly of the complete ORF57-hTREX complex; this results in a vRNP consisting of viral mRNA bound to ORF57, Aly and the nuclear export factor, TAP. Strikingly, although both the export adapter Aly and the export factor TAP were present on the viral mRNP, a dramatic decrease in intronless viral mRNA export and virus replication was observed in the absence of the remaining hTREX components (UAP56 and hTHO-complex). Together, these data provide the first direct evidence that the complete hTREX complex is essential for the export of KSHV intronless mRNAs and infectious virus production.",
+   "found_by": [],
+   "pubdate": "2008 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22203037",
+   "title": "Proteins associated with the exon junction complex also control the alternative splicing of apoptotic regulators.",
+   "abstract": "Several apoptotic regulators, including Bcl-x, are alternatively spliced to produce isoforms with opposite functions. We have used an RNA interference strategy to map the regulatory landscape controlling the expression of the Bcl-x splice variants in human cells. Depleting proteins known as core (Y14 and eIF4A3) or auxiliary (RNPS1, Acinus, and SAP18) components of the exon junction complex (EJC) improved the production of the proapoptotic Bcl-x(S) splice variant. This effect was not seen when we depleted EJC proteins that typically participate in mRNA export (UAP56, Aly/Ref, and TAP) or that associate with the EJC to enforce nonsense-mediated RNA decay (MNL51, Upf1, Upf2, and Upf3b). Core and auxiliary EJC components modulated Bcl-x splicing through different cis-acting elements, further suggesting that this activity is distinct from the established EJC function. In support of a direct role in splicing control, recombinant eIF4A3, Y14, and Magoh proteins associated preferentially with the endogenous Bcl-x pre-mRNA, interacted with a model Bcl-x pre-mRNA in early splicing complexes, and specifically shifted Bcl-x alternative splicing in nuclear extracts. Finally, the depletion of Y14, eIF4A3, RNPS1, SAP18, and Acinus also encouraged the production of other proapoptotic splice variants, suggesting that EJC-associated components are important regulators of apoptosis acting at the alternative splicing level.",
+   "found_by": [],
+   "pubdate": "2012 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16024770",
+   "title": "Binding of hnRNP L to the pre-mRNA processing enhancer of the herpes simplex virus thymidine kinase gene enhances both polyadenylation and nucleocytoplasmic export of intronless mRNAs.",
+   "abstract": "Liu and Mertz (Genes Dev. 9:1766-1780, 1995) previously identified a 119-nt pre-mRNA processing enhancer (PPE) element within the herpes simplex virus type 1 thymidine kinase gene that enables intron-independent gene expression in higher eukaryotes by binding heterogeneous nuclear ribonucleoprotein L (hnRNP L). Here, we identify a 49-nt subelement within this PPE that enhanced stability, polyadenylation, and cytoplasmic accumulation of transcripts synthesized in CV-1 cells from an intronless variant of the human beta-globin gene when present in two or more tandem copies. This 2xTK49 PPE also enhanced (i) the efficiency of polyadenylation of intronless beta-globin RNA in a cell-free polyadenylation system and (ii) the kinetics of nucleocytoplasmic export of an intronless variant of adenovirus major late leader region RNA in Xenopus oocytes. This 2xTK49 PPE bound only hnRNP L. Analysis of 2xTK49 PPE mutants showed a strong positive correlation existed between binding hnRNP L and enhancement of intronless beta-globin gene expression. hnRNP L was found to associate with both the mRNA export factor TAP and the exon-exon junction complex protein Aly/REF. Thus, we conclude that hnRNP L plays roles in enhancing stability, polyadenylation, and nucleocytoplasmic export; it does so, at least in part, by directly recruiting to intronless PPE-containing RNAs cofactors normally recruited to intron-containing RNAs.",
+   "found_by": [],
+   "pubdate": "2005 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42125881",
+   "title": "How Epigenetics Bridges Genes and Environment: A Multiomics Evidence Chain in Congenital Diaphragmatic Hernia.",
+   "abstract": "BACKGROUND/OBJECTIVES: Congenital diaphragmatic hernia (CDH) is a severe developmental anomaly with high etiological heterogeneity. Although numerous susceptibility genes have been identified, genetic factors alone fail to explain the full disease risk. Epidemiological data highlight the contribution of environmental exposures. Epigenetic regulation provides a crucial link bridging genetic predisposition and environmental influence. This review aims to summarize recent multiomics evidence elucidating how epigenetic mechanisms mediate gene-environment interactions in CDH. METHODS: This narrative review summarizes studies published over the past decade on epigenetic mechanisms in congenital diaphragmatic hernia (CDH), including DNA methylation, histone modifications, noncoding RNAs, and integrative genomic and transcriptomic analyses in human samples, animal models, and iPSC-derived organoids. Relevant literature was identified through targeted searches of the biomedical literature and screening of reference lists from key articles. Relevant studies were considered according to their relevance to epigenetic regulation, gene-environment interactions, and translational implications in CDH. RESULTS: Aberrant DNA methylation, histone acetylation imbalance, and dysregulated miRNAs converge on key developmental pathways, including retinoic acid, TGF-\u03b2, and NF-\u03baB signaling. Experimental evidence shows that miR-200b supplementation or pharmacological restoration of histone acetylation can partially rescue pulmonary hypoplasia in nitrofen-induced CDH models. iPSC and organoid systems further demonstrate synergistic effects between genetic susceptibility and mechanical stress, supporting epigenetic regulation as a mechanistic bridge. CONCLUSIONS: Epigenetic mechanisms serve as core mediators linking genetic and environmental factors in CDH pathogenesis. Future directions include large-scale EWAS/WGBS and multiomics integration, establishment of standardized epigenetic databases, and ethically guided development of prenatal epigenetic diagnostics and targeted interventions. [full text, passages naming ALYREF] ...t clearly defined | CDH (frequently accompanied by other anomalies, such as cardiac or skeletal defects), high mortality, and requirement for extracorporeal membrane oxygenation (ECMO) | Qiao et al. ( | 2021 ) ALYREF | Enrichment of de novo variants; candidate gene (FDR < 0.05) | RNA export and transcriptional regulation; specific pathway not defined | CDH (isolated or complex forms) | Qiao et al. ( | 2021 ) MYRF | D... ...00 , SIN3A ) Scott et al. ( | 2022 ) Large trio cohorts/meta\u2010analyses | WES/WGS, gene enrichment, functional annotation | De novo/rare variants enriched in chromatin/epigenetic regulators; genes like | LONP1 , ALYREF implicated; epigenetic factors recurrently flagged in CDH gene sets Genetic evidence suggests involvement; most variants lack functional validation | Gap between genetic hits and direct epigenetic readou...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42723598",
+   "title": "Dysregulated circRNA expression profile and associated miRNA sponging in abnormal lung development in congenital diaphragmatic hernia.",
+   "abstract": "RATIONALE: Circular RNAs (circRNAs) are stable, tissue- and developmental-stage-specific regulators of gene expression and candidate disease biomarkers. Their expression profile in abnormal lung development in congenital diaphragmatic hernia (CDH) is unknown. OBJECTIVE: To evaluate circRNA expression profile in CDH-associated abnormal lung development. METHODS: We profiled circRNAs in rat CDH and control lungs at embryonic day (E)15 and E21 by microarray. We validated identified circRNAs using back\u2012splice junction amplicon sequencing, RT-qPCR and in situ hybridisation. We modified a circRNA function prediction tool to predict circRNA::micro(mi)RNA::messenger(m)RNA interactions and compared these with Oxford Nanopore RNA sequencing and existing human CDH datasets. MEASUREMENTS AND MAIN RESULTS: Microarrays revealed a unique circRNA biosignature during CDH lung development. CircAnp32e was expressed in a sex-specific and spatiotemporal expression pattern in the epithelium at E15. The predicted mature sequence of circAnp32e overlapped 90% with its human orthologue. circRNA::miRNA::mRNA interaction networks at E15 and E21 revealed enrichment in inflammation/infection, smooth muscle cell function, cell proliferation/cell cycle regulation and response to hypoxia pathways. Parental genes of differentially expressed circRNAs at E15 enriched pathways linked to cell proliferation/cell cycle/cancer, while at end-gestation, inflammation and cardiovascular processes were also overrepresented. Rat and human CDH lungs showed overlapping pathways with additional enrichment for RNA processing and protein binding/modification in humans. In a human bronchial epithelial (BEAS-2B) nitrofen-injury model, ANP32E and circANP32E were downregulated, and the predicted let-7 target was significantly\u00a0dysregulated. CONCLUSION: A unique circRNA signature during abnormal lung development in CDH may mediate inflammatory responses, smooth muscle cell function and cell proliferation regulation via miRNA sponging. Overlap of downstream pathways in rat and human CDH suggests conserved functions across species. This circRNA biosignature defines strong candidate biomarkers for CDH and a basis for future prospective prenatal investigation.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39332409",
+   "title": "Common variants increase risk for congenital diaphragmatic hernia within the context of de novo variants.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) is a severe congenital anomaly often accompanied by other structural anomalies and/or neurobehavioral manifestations. Rare de novo protein-coding variants and copy-number variations contribute to CDH in the population. However, most individuals with CDH remain genetically undiagnosed. Here, we perform integrated de novo and common-variant analyses using 1,469 CDH individuals, including 1,064 child-parent trios and 6,133 ancestry-matched, unaffected controls for the genome-wide association study. We identify candidate CDH variants in 15 genes, including eight novel genes, through deleterious de novo variants. We further identify two genomic loci contributing to CDH risk through common variants with similar effect sizes among Europeans and Latinx. Both loci are in putative transcriptional regulatory regions of developmental patterning genes. Estimated heritability in common variants is \u223c19%. Strikingly, there is no significant difference in estimated polygenic risk scores between isolated and complex CDH or between individuals harboring deleterious de novo variants and individuals without these variants. The data support a polygenic model as part of the CDH genetic architecture.",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39965074",
+   "title": "Prenatal VEGF Nanodelivery Reverses Congenital Diaphragmatic Hernia-associated Pulmonary Abnormalities.",
+   "abstract": "Rationale: Congenital diaphragmatic hernia (CDH) results in lung hypoplasia. In severe cases, tracheal occlusion (TO) can be offered to promote lung growth. However, the benefit is limited, and novel treatments are required to supplement TO. VEGF (vascular endothelial growth factor) is downregulated in animal models of CDH and could be a therapeutic target, but its role in human CDH is not known. Objectives: To investigate whether VEGF supplementation could be a suitable treatment for CDH-associated lung pathology. Methods: Fetal lungs from patients with CDH were used to determine pulmonary morphology and VEGF expression. A novel human ex vivo model of fetal lung compression recapitulating CDH features was developed and used to determine the effect of exogenous VEGF supplementation. A nanoparticle-based approach for intrapulmonary delivery of VEGF was developed by conjugating it on functionalized nanodiamonds, which was tested in experimental CDH in\u00a0vivo. Measurements and Main Results: VEGF expression was downregulated in the distal pulmonary epithelium of human CDH fetuses in conjunction with attenuated cell proliferation. The compression model resulted in impaired branching morphogenesis similar to CDH and downregulation of VEGF expression in conjunction with reduced proliferation of terminal bud epithelial progenitors; these could be reversed by exogenous supplementation of VEGF. Prenatal delivery of VEGF with the functionalized nanodiamond VEGF platform in CDH fetal rats resulted in lung growth and pulmonary arterial remodeling that was complementary to that achieved by TO alone with appearances comparable to healthy controls. Conclusions: This innovative approach could have a significant impact on the treatment of CDH.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35186825",
+   "title": "Unraveling the Genetics of Congenital Diaphragmatic Hernia: An Ongoing Challenge.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) is a congenital structural anomaly in which the diaphragm has not developed properly. It may occur either as an isolated anomaly or with additional anomalies. It is thought to be a multifactorial disease in which genetic factors could either substantially contribute to or directly result in the developmental defect. Patients with aneuploidies, pathogenic variants or de novo Copy Number Variations (CNVs) impacting specific genes and loci develop CDH typically in the form of a monogenetic syndrome. These patients often have other associated anatomical malformations. In patients without a known monogenetic syndrome, an increased genetic burden of de novo coding variants contributes to disease development. In early years, genetic evaluation was based on karyotyping and SNP-array. Today, genomes are commonly analyzed with next generation sequencing (NGS) based approaches. While more potential pathogenic variants are being detected, analysis of the data presents a bottleneck-largely due to the lack of full appreciation of the functional consequence and/or relevance of the detected variant. The exact heritability of CDH is still unknown. Damaging de novo alterations are associated with the more severe and complex phenotypes and worse clinical outcome. Phenotypic, genetic-and likely mechanistic-variability hampers individual patient diagnosis, short and long-term morbidity prediction and subsequent care strategies. Detailed phenotyping, clinical follow-up at regular intervals and detailed registries are needed to find associations between long-term morbidity, genetic alterations, and clinical parameters. Since CDH is a relatively rare disorder with only a few recurrent changes large cohorts of patients are needed to identify genetic associations. Retrospective whole genome sequencing of historical patient cohorts using will yield valuable data from which today's patients and parents will profit Trio whole genome sequencing has an excellent potential for future re-analysis and data-sharing increasing the chance to provide a genetic diagnosis and predict clinical prognosis. In this review, we explore the pitfalls and challenges in the analysis and interpretation of genetic information, present what is currently known and what still needs further study, and propose strategies to reap the benefits of genetic screening. [full text, passages naming ALYREF] ...of these large de novo deletions are likely to be related to the patient's phenotype. Ten genes were enriched for de novo variants, of which mitochondrial lon peptidase 1 ( LONP1 ) and Aly/REF export factor ( ALYREF ) were the most promising candidate disease genes. LONP1, MYRF as well as ZFPM2 reached or approached genome wide significance when a variant burden test was performed for all deleterious changes (i.e.,...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34573387",
+   "title": "The Role of <i>De Novo</i> Variants in Patients with Congenital Diaphragmatic Hernia.",
+   "abstract": "The genetic etiology of congenital diaphragmatic hernia (CDH), a common and severe birth defect, is still incompletely understood. Chromosomal aneuploidies, copy number variations (CNVs), and variants in a large panel of CDH-associated genes, both de novo and inherited, have been described. Due to impaired reproductive fitness, especially of syndromic CDH patients, and still significant mortality rates, the contribution of de novo variants to the genetic background of CDH is assumed to be high. This assumption is supported by the relatively low recurrence rate among siblings. Advantages in high-throughput genome-wide genotyping and sequencing methods have recently facilitated the detection of de novo variants in CDH. This review gives an overview of the known de novo disease-causing variants in CDH patients. [full text, passages naming ALYREF] ...q11.2 | chr17: 28,042,677\u201328,196,381 | 1 | [ | 17 ] trio WGS | | FZD2 17q21.31 | chr17: 44,557,484\u201344,561,262 | 1 | [ | 32 ] aCGH | | ATXN7L3 17q21.31 | chr17: 44,191,805\u201344,198,070 | 1 | [ | 17 ] trio WGS | | ALYREF 17q25.3 | chr17: 81,887,835\u201381,891,586 | 1 | [ | 12 ] trio WES/WGS | | GATA6 18q11.2 | chr18: 22,169,589\u201322,202,528 | 1 | [ | 67 ] trio WES | | NACC1 19p13.13 | chr19: 13,118,264\u201313,141,147 | 1 | [ | 12...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "36545327": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7882059": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16341202": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28111258": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25628355": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18243119": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27509854": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33531709": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28186491": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17229714": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7753170": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32269723": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12781131": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22761374": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37905873": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33790762": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9052785": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15286787": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33400376": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33194076": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39190372": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12068296": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14737177": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34759074": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37956700": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24866055": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37523897": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38762037": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10470083": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34547244": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38729260": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31036086": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42524522": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20074066": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19586903": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38388531": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29728564": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11675789": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26773052": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37720017": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41326692": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33191911": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37155024": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38361753": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42781784": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40131294": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18974867": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25943887": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22203037": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16024770": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20015986": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30538201": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15235604": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26350084": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32317635": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11182545": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11029008": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10080184": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11455389": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42125881": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42723598": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41773639": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39332409": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39965074": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40422190": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39737080": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39425191": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38715680": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42326023": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37474200": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35186825": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36403094": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35757961": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34573387": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36474729": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35755002": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36998614": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35601428": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37827157": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32086437": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33671521": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40743284": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40769535": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.2,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 357,
+   "usd": 0.010675,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3560,
+   "output_tokens": 176,
+   "usd": 0.00444,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 49.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 27867,
+   "output_tokens": 1248,
+   "usd": 0.034107,
+   "calls": 6
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 7.5,
+   "note": "",
+   "input_tokens": 13345,
+   "output_tokens": 637,
+   "usd": 0.08265,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>10</established>\n    <existing>70</existing>\n    <hypothesized>17</hypothesized>\n    <novel>3</novel>\n  </probabilities>\n  <justification>The only primary human genetic evidence comes from Qiao et al. (PMID 34547244), which identified ALYREF as a candidate CDH-associated gene based on de novo coding variant enrichment reaching FDR &lt; 0.05 in 827 CDH trios; notably, that study's functional follow-up focused on LONP1, not ALYREF. Subsequent mentions in reviews (PMIDs 35186825, 34573387, 42125881) restate this single finding as background rather than providing independent replication in new probands or families. The remaining ALYREF literature concerns mRNA export/TREX biology, ALS/FTD, or THOC6 intellectual disability syndrome, and a TREX-spectrum neurodevelopmental cohort (PMID 42781784) that does not report CDH. With only one primary human study and no replication or functional CDH model, the evidence supports \"Existing\" rather than \"Established.\"</justification>\n  <pmids>\n    <pmid>34547244</pmid>\n    <pmid>35186825</pmid>\n    <pmid>34573387</pmid>\n    <pmid>42125881</pmid>\n    <pmid>42781784</pmid>\n    <pmid>39332409</pmid>\n  </pmids>\n</response>"
+}

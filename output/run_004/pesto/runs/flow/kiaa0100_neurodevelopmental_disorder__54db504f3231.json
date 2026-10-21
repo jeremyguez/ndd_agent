@@ -1,0 +1,526 @@
+{
+ "gene": "KIAA0100",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "BCOX1",
+   "CT101",
+   "DKFZP686M0843",
+   "FMP27",
+   "BCOX",
+   "MGC111488",
+   "KIAA0100",
+   "HOB",
+   "bridge-like lipid transfer protein family member 2"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 42,
+  "titlekicksparingfulltext": 29,
+  "read": 6
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 7,
+   "Existing": 63,
+   "Hypothesized": 15,
+   "Novel": 15
+  },
+  "justification": "The strongest evidence comes from large-scale human de novo variant studies: PMID 35468861 lists KIAA0100 (BLTP2) among candidate NDD genes harboring recurrent damaging missense de novo mutations, PMID 32066658 prioritizes KIAA0100 among ASD candidate genes at 0.05 &lt; FDR &lt; 0.1, and PMID 31616000 reports a validated stop-gain de novo variant in KIAA0100 in a patient cohort table. These are statistical/candidate-level findings from cohort screens rather than clinically delineated, replicated patient series with functional confirmation, so causality is not established. No paper reports a defined KIAA0100-related syndrome in independent probands or families, which excludes the Established category. The Vps13-like/GPI anchor paper (PMID 35015055) concerns KIAA1109, not KIAA0100, and the THC paper is incidental, so neither supports the association.",
+  "pmids": [],
+  "detail": {
+   "Established": 7,
+   "Existing": 63,
+   "Hypothesized": 15,
+   "Novel": 15
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35468861",
+   "title": "Large-scale discovery of novel neurodevelopmental disorder-related genes through a unified analysis of single-nucleotide and copy number variants.",
+   "abstract": "BACKGROUND: Previous large-scale studies of de novo variants identified a number of genes associated with neurodevelopmental disorders (NDDs); however, it was also predicted that many NDD-associated genes await discovery. Such genes can be discovered by integrating copy number variants (CNVs), which have not been fully considered in previous studies, and increasing the sample size. METHODS: We first constructed a model estimating the rates of de novo CNVs per gene from several factors such as gene length and number of exons. Second, we compiled a comprehensive list of de novo single-nucleotide variants (SNVs) in 41,165 individuals and de novo CNVs in 3675 individuals with NDDs by aggregating our own and publicly available datasets, including denovo-db and the Deciphering Developmental Disorders study data. Third, summing up the de novo CNV rates that we estimated and SNV rates previously established, gene-based enrichment of de novo deleterious SNVs and CNVs were assessed in the 41,165 cases. Significantly enriched genes were further prioritized according to their similarity to known NDD genes using a deep learning model that considers functional characteristics (e.g., gene ontology and expression patterns). RESULTS: We identified a total of 380 genes achieving statistical significance (5% false discovery rate), including 31 genes affected by de novo CNVs. Of the 380 genes, 52 have not previously been reported as NDD genes, and the data of de novo CNVs contributed to the significance of three genes (GLTSCR1, MARK2, and UBR3). Among the 52 genes, we reasonably excluded 18 genes [a number almost identical to the theoretically expected false positives (i.e., 380 \u00d7 0.05 = 19)] given their constraints against deleterious variants and extracted 34 \"plausible\" candidate genes. Their validity as NDD genes was consistently supported by their similarity in function and gene expression patterns to known NDD genes. Quantifying the overall similarity using deep learning, we identified 11 high-confidence (> 90% true-positive probabilities) candidate genes: HDAC2, SUPT16H, HECTD4, CHD5, XPO1, GSK3B, NLGN2, ADGRB1, CTR9, BRD3, and MARK2. CONCLUSIONS: We identified dozens of new candidates for NDD genes. Both the methods and the resources developed here will contribute to the further identification of novel NDD-associated genes. [full text, passages naming KIAA0100] ...candidate genes (Additional file 2 : Table S9). Notably, 7 of these 26 candidates harbor recurrent (affecting the same amino acids) d-MIS DNMs (Additional file 2 : Tables S8 and S9), that is, PSMC3 , PIP5K1C , KIAA0100 , SEPT2 , KBTBD7 , REST , and MAST3 . This observation strongly indicates the pathogenicity of these specific variants as well as the association of these genes with NDDs, considering the very low prob...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35015055",
+   "title": "Vps13-like proteins provide phosphatidylethanolamine for GPI anchor synthesis in the ER.",
+   "abstract": "Glycosylphosphatidylinositol (GPI) is a glycolipid membrane anchor found on surface proteins in all eukaryotes. It is synthesized in the ER membrane. Each GPI anchor requires three molecules of ethanolamine phosphate (P-Etn), which are derived from phosphatidylethanolamine (PE). We found that efficient GPI anchor synthesis in Saccharomyces cerevisiae requires Csf1; cells lacking Csf1 accumulate GPI precursors lacking P-Etn. Structure predictions suggest Csf1 is a tube-forming lipid transport protein like Vps13. Csf1 is found at contact sites between the ER and other organelles. It interacts with the ER protein Mcd4, an enzyme that adds P-Etn to nascent GPI anchors, suggesting Csf1 channels PE to Mcd4 in the ER at contact sites to support GPI anchor biosynthesis. CSF1 has orthologues in Caenorhabditis elegans (lpd-3) and humans (KIAA1109/TWEEK); mutations in KIAA1109 cause the autosomal recessive neurodevelopmental disorder Alkuraya-Ku\u010dinskas syndrome. Knockout of lpd-3 and knockdown of KIAA1109 reduced GPI-anchored proteins on the surface of cells, suggesting Csf1 orthologues in human cells support GPI anchor biosynthesis. [full text, passages naming KIAA0100] ...lehmainen et al., 2003 ; Lesage et al., 2016 ; Rampoldi et al., 2001 ; Seong et al., 2018 ). In this study, we show that S. cerevisiae has three proteins predicted to be structurally like Vps13 and Atg2: Csf1, Fmp27, and Hob2 (Ypr117w). The functions of Csf1, Fmp27, and Hob2 are not well understood. Fmp27 was recently shown to localize to MCSs between the ER and plasma membrane (PM) and bind phosphoinositides ( Neuma... ...poldi et al., 2001 ; Seong et al., 2018 ). In this study, we show that S. cerevisiae has three proteins predicted to be structurally like Vps13 and Atg2: Csf1, Fmp27, and Hob2 (Ypr117w). The functions of Csf1, Fmp27, and Hob2 are not well understood. Fmp27 was recently shown to localize to MCSs between the ER and plasma membrane (PM) and bind phosphoinositides ( Neuman et al., 2022 ). Cells lacking Csf1 have also bee... .... In this study, we show that S. cerevisiae has three proteins predicted to be structurally like Vps13 and Atg2: Csf1, Fmp27, and Hob2 (Ypr117w). The functions of Csf1, Fmp27, and Hob2 are not well understood. Fmp27 was recently shown to localize to MCSs between the ER and plasma membrane (PM) and bind phosphoinositides ( Neuman et al., 2022 ). Cells lacking Csf1 have also been shown to have defects in vesicular traf...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "32066658",
+   "title": "Genetic evidence of gender difference in autism spectrum disorder supports the female-protective effect.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurodevelopmental disorder with a male-to-female prevalence of 4:1. However, the genetic mechanisms underlying this gender difference remain unclear. Mutation burden analysis, a TADA model, and co-expression and functional network analyses were performed on de novo mutations (DNMs) and corresponding candidate genes. We found that the prevalence of putative functional DNMs (loss-of-function and predicted deleterious missense mutations) in females was significantly higher than that in males, suggesting that a higher genetic load was required in females to reach the threshold for a diagnosis. We then prioritized 174 candidate genes, including 60 shared genes, 91 male-specific genes, and 23 female-specific genes. All of the three subclasses of candidate genes were significantly more frequently co-expressed in female brains than male brains, suggesting that compensation effects of the deficiency of ASD candidate genes may be more likely in females. Nevertheless, the three subclasses of candidate genes were co-expressed with each other, suggesting a convergent functional network of male and female-specific genes. Our analysis of different aspects of genetic components provides suggestive evidence supporting the female-protective effect in ASD. Moreover, further study is needed to integrate neuronal and hormonal data to elucidate the underlying gender difference in ASD. [full text, passages naming KIAA0100] ..., PPAN, PPAN-P2RY11, FOXP1, ZNF213, KMT2A, KDM6B, STXBP5L, LMTK3, CACNA2D3, SLC12A6, UBN2 | NFE2L3, KATNAL2, SCN1A, TCF7L2, CNOT3, NCKAP1, KMT2C, RELN | 0.05 | < FDR < 0.1 ( n = 42) TCF4, DUS1L, GALNT18, RFX7, KIAA0100, PLXNB1, SRRM2 | PHF2, DHX57, GIGYF1, PM20D1, RAI1, CSAD, TNC, SETBP1, KMT2E, OR10Z1, LRRK2, RIMS1, TNRC6B, RNF146, SHANK2, ZC3H4, PYHIN1, NXPE4, SLC4A9, LAMA3, TMEM39B, GLTSCR2 | MYO1E, TRRAP, BCL11A,...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31616000",
+   "title": "Disruptive mutations in TANC2 define a neurodevelopmental syndrome associated with psychiatric disorders.",
+   "abstract": "Postsynaptic density (PSD) proteins have been implicated in the pathophysiology of neurodevelopmental and psychiatric disorders. Here, we present detailed clinical and genetic data for 20 patients with likely gene-disrupting mutations in TANC2-whose protein product interacts with multiple PSD proteins. Pediatric patients with disruptive mutations present with autism, intellectual disability, and delayed language and motor development. In addition to a variable degree of epilepsy and facial dysmorphism, we observe a pattern of more complex psychiatric dysfunction or behavioral problems in adult probands or carrier parents. Although this observation requires replication to establish statistical significance, it also suggests that mutations in this gene are associated with a variety of neuropsychiatric disorders consistent with its postsynaptic function. We find that TANC2 is expressed broadly in the human developing brain, especially in excitatory neurons and glial cells, but shows a more restricted pattern in Drosophila glial cells where its disruption affects behavioral outcomes. [full text, passages naming KIAA0100] ...validated | \u2013 | \u2013 | \u2013 | F | 8.68 | 1.00 | DIP2C | 1FS | validated | \u2013 | \u2013 | \u2013 | F | 0.61 | 1.00 | DOT1L | 1SG | validated | \u2013 | \u2013 | \u2013 | F | 2.18 | 1.00 | KDM4B | 1SG | highConf | \u2013 | \u2013 | \u2013 | F | 13.00 | 1.00 | KIAA0100 | 1SG | validated | \u2013 | \u2013 | \u2013 | F | 2.12 | 0.92 | KIAA2018 | 1SG | highConf | \u2013 | \u2013 | \u2013 | F | \u2013 | 1.00 | NF1 | 1SG | validated | \u2013 | Y(LGD) | \u2013 | F | 0.39 | 1.00 | RALGAPB | 1FS | highConf | \u2013 | \u2013 | \u2013...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39237719",
+   "title": "Uncovering convergence and divergence between autism and schizophrenia using genomic tools and patients' neurons.",
+   "abstract": "Autism spectrum disorders (ASDs) are highly heritable and result in abnormal repetitive behaviors and impairment in communication and cognitive skills. Previous studies have focused on the genetic correlation between ASDs and other neuropsychiatric disorders, but an in-depth understanding of the correlation to other disorders is required. We conducted an extensive meta-analysis of common variants identified in ASDs by genome-wide association studies (GWAS) and compared it to the consensus genes and single nucleotide polymorphisms (SNPs) of Schizophrenia (SCZ). We found approximately 75% of the GWAS genes that are associated with ASD are also associated with SCZ. We further investigated the cellular phenotypes of neurons derived from induced pluripotent stem cell (iPSC) models in ASD and SCZ. Our findings revealed that ASD and SCZ neurons initially follow divergent developmental trajectories compared to control neurons. However, despite these early diametrical\u00a0differences, both ASD and SCZ neurons ultimately display similar deficits in synaptic activity as they mature. This significant genetic overlap between ASD and SCZ, coupled with the convergence towards similar synaptic deficits, highlights the intricate interplay of genetic and developmental factors in shaping the shared underlying mechanisms of these complex neurodevelopmental and neuropsychiatric disorders. [full text, passages naming KIAA0100] ...S, the identifier LINC02163 was replaced by the approved symbol NIHCOLE . Similarly, for ASD genes of DBD, the identifier C12ORF57 was not located in either the HGNC nor the Biomart symbols, and the identifier KIAA0100 was substituted by the approved symbol BLTP2 . The gene symbols of SCZ were already standardized by Choudhary et al. [ 7 ]. Data analyses All statistical analyses were performed by using R (version 4.1...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31982904",
+   "title": "Long-term hippocampal interneuronopathy drives sex-dimorphic spatial memory impairment induced by prenatal THC exposure.",
+   "abstract": "Prenatal exposure to \u03949-tetrahydrocannabinol (THC), the most prominent active constituent of cannabis, alters neurodevelopmental plasticity with a long-term functional impact on adult offspring. Specifically, THC affects the development of pyramidal neurons and GABAergic interneurons via cannabinoid CB1 receptors (CB1R). However, the particular contribution of these two neuronal lineages to the behavioral alterations and functional deficits induced by THC is still unclear. Here, by using conditional CB1R knockout mice, we investigated the neurodevelopmental consequences of prenatal THC exposure in adulthood, as well as their potential sex differences. Adult mice that had been exposed to THC during embryonic development showed altered hippocampal oscillations, brain hyperexcitability, and spatial memory impairment. Remarkably, we found a clear sexual dimorphism in these effects, with males being selectively affected. At the neuronal level, we found a striking interneuronopathy of CCK-containing interneurons in the hippocampus, which was restricted to male progeny. This THC-induced CCK-interneuron reduction was not evident in mice lacking CB1R selectively in GABAergic interneurons, thus pointing to a cell-autonomous THC action. In vivo electrophysiological recordings of hippocampal LFPs revealed alterations in hippocampal oscillations confined to the stratum pyramidale of CA1 in male offspring. In addition, sharp-wave ripples, a major high-frequency oscillation crucial for learning and memory consolidation, were also altered, pointing to aberrant circuitries caused by persistent reduction of CCK+ basket cells. Taken together, these findings provide a mechanistic explanation for the long-term interneuronopathy responsible for the sex-dimorphic cognitive impairment induced by prenatal THC. [full text, passages naming KIAA0100] ...ompetitiveness (BES-2013-064171). JP-L and JA were supported by FPI and FPU program fellowships, respectively (Ministerio de Educaci\u00f3n, Cultura y Deporte) and S. S-S. was supported by Fondo Social Europeo-YEI (CT101/18-CT102/18PEJD-2018-PRE/BMD-7933). CM is recipient of a Marie Curie program fellowship (747487). Supplementary information Supp Material Fig legends Supplemental Material 1 Supplemental Material 2 Supple...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "37145128": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23258778": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34856533": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26505372": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28571751": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38953459": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39227704": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38192023": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29847670": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30399530": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35850267": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17394361": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20818597": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23587957": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26945684": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26156999": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30609150": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9545018": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7639114": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18448811": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28250775": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40359410": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39379857": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37317107": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35586379": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34825457": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39724502": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26187041": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24956260": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20923979": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19654370": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "14993736": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15010202": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29936144": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11241464": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35468861": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35015055": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32066658": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31616000": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39237719": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31982904": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26817790": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "26 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "7 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 7.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 2352,
+   "output_tokens": 156,
+   "usd": 0.003132,
+   "calls": 4
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 31.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 9104,
+   "output_tokens": 306,
+   "usd": 0.010634,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.1,
+   "note": "",
+   "input_tokens": 6551,
+   "output_tokens": 816,
+   "usd": 0.053155,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>7</established>\n    <existing>63</existing>\n    <hypothesized>15</hypothesized>\n    <novel>15</novel>\n  </probabilities>\n  <justification>The strongest evidence comes from large-scale human de novo variant studies: PMID 35468861 lists KIAA0100 (BLTP2) among candidate NDD genes harboring recurrent damaging missense de novo mutations, PMID 32066658 prioritizes KIAA0100 among ASD candidate genes at 0.05 &lt; FDR &lt; 0.1, and PMID 31616000 reports a validated stop-gain de novo variant in KIAA0100 in a patient cohort table. These are statistical/candidate-level findings from cohort screens rather than clinically delineated, replicated patient series with functional confirmation, so causality is not established. No paper reports a defined KIAA0100-related syndrome in independent probands or families, which excludes the Established category. The Vps13-like/GPI anchor paper (PMID 35015055) concerns KIAA1109, not KIAA0100, and the THC paper is incidental, so neither supports the association.</justification>\n  <pmids>\n    <pmid>35468861</pmid>\n    <pmid>32066658</pmid>\n    <pmid>31616000</pmid>\n    <pmid>39237719</pmid>\n  </pmids>\n</response>"
+}

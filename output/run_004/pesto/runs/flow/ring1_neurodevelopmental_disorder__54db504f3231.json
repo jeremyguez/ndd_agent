@@ -1,0 +1,797 @@
+{
+ "gene": "RING1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "disorder of neurological development",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "RNF1",
+   "ring finger protein 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 80,
+  "titlekicksparingfulltext": 42,
+  "read": 17
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 35,
+   "Existing": 55,
+   "Hypothesized": 9,
+   "Novel": 1
+  },
+  "justification": "Direct human genetic evidence exists: Pierce et al. (PMID 29386386) reported a de novo RING1 p.R95Q missense variant in a single girl with a syndromic neurodevelopmental disorder, supported by functional assays showing loss of H2A monoubiquitination and C. elegans modeling. A second primary study (PMID 41653922) reports identification of heterozygous mutations in RING1 (and RNF2) in individuals with NDDs, though its mechanistic results center on Rnf2/Ring1b mouse and cellular models. PMID 39256363 extends functional characterization of RING1 missense variants (hypomorphic effects on H2AK119ub and DNA damage repair in neural progenitors) but is largely in vitro and builds on the same patient allele. Other listed papers (PRC1 biology, limb development, Drosophila, CBX1, AUTS2, RNF2) cite RING1 as background or reflect paralog/complex biology rather than independent RING1 proband evidence. Because clearly documented, independent human probands are few (essentially one well-described case plus a newer cohort report), the evidence is best described as Existing, with meaningful probability that it now meets Established.",
+  "pmids": [],
+  "detail": {
+   "Established": 35,
+   "Existing": 55,
+   "Hypothesized": 9,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "29386386",
+   "title": "De novo mutation in RING1 with epigenetic effects on neurodevelopment.",
+   "abstract": "RING1 is an E3-ubiquitin ligase that is involved in epigenetic control of transcription during development. It is a component of the polycomb repressive complex 1, and its role in that complex is to ubiquitylate histone H2A. In a 13-year-old girl with syndromic neurodevelopmental disabilities, we identified a de novo mutation, RING1 p.R95Q, which alters a conserved arginine residue in the catalytic RING domain. In vitro assays demonstrated that the mutant RING1 retains capacity to catalyze ubiquitin chain formation, but is defective in its ability to ubiquitylate histone H2A in nucleosomes. Consistent with this in vitro effect, cells of the patient showed decreased monoubiquitylation of histone H2A. We modeled the mutant RING1 in Caenorhabditis elegans by editing the comparable amino acid change into spat-3, the suggested RING1 ortholog. Animals with either the missense mutation or complete knockout of spat-3 were defective in monoubiquitylation of histone H2A and had defects in neuronal migration and axon guidance. Relevant to our patient, animals heterozygous for either the missense or knockout allele also showed neuronal defects. Our results support three conclusions: mutation of RING1 is the likely cause of a human neurodevelopmental syndrome, mutation of RING1 can disrupt histone H2A ubiquitylation without disrupting RING1 catalytic activity, and the comparable mutation in C. elegans spat-3 both recapitulates the effects on histone H2A ubiquitylation and leads to neurodevelopmental abnormalities. This role for RING1 adds to our understanding of the importance of aberrant epigenetic effects as causes of human neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2018 Feb 13",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41653922",
+   "title": "Unbalanced chromatin binding of Polycomb complexes drives neurodevelopmental disorders.",
+   "abstract": "The prevalence of neurodevelopmental disorders (NDDs) in children is increasing, yet their underlying causes remain largely unknown. We identified heterozygous mutations in the Polycomb repressive complex 1 (PRC1) E3 ligases RING1 and RNF2 in individuals with NDDs and revealed distinct mechanisms by which they compromise PRC1 activity. We developed cellular and mouse models carrying the Ring1bR70H variant, which disrupts PRC1/PRC2 recruitment balance and mis-regulates Polycomb target genes. Allele-specific profiling showed that Ring1bR70H preferentially assembles into canonical PRC1 (cPRC1) via the intrinsically disordered region (IDR) of Pcgf2, reducing variant PRC1 (vPRC1) and PRC2.1 binding to chromatin. In Rnf2WT/R70H neuroprecursors, Polycomb complexes aberrantly suppress Wnt signaling, diverting neuroprecursors to non-neuronal lineages and halting neurogenesis. Rnf2R70H/R70H mice are perinatally lethal, while heterozygotes exhibit altered axonal organization, hippocampal and medial prefrontal cortex (mPFC) neuronal imbalances, reduced sociability, and increased anxiety. Our findings reveal an epigenetic mechanism essential for neurodevelopmental integrity and brain function and demonstrate how mutations in Rnf2 disrupt PRC1 occupancy at chromatin, contributing to NDDs.",
+   "found_by": [],
+   "pubdate": "2026 Feb 19",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "32395866",
+   "title": "SUMOylated PRC1 controls histone H3.3 deposition and genome integrity of embryonic heterochromatin.",
+   "abstract": "Chromatin integrity is essential for cellular homeostasis. Polycomb group proteins modulate chromatin states and transcriptionally repress developmental genes to maintain cell identity. They also repress repetitive sequences such as major satellites and constitute an alternative state of pericentromeric constitutive heterochromatin at paternal chromosomes (pat-PCH) in mouse pre-implantation embryos. Remarkably, pat-PCH contains the histone H3.3 variant, which is absent from canonical PCH at maternal chromosomes, which is marked by histone H3 lysine 9 trimethylation (H3K9me3), HP1, and ATRX proteins. Here, we show that SUMO2-modified CBX2-containing Polycomb Repressive Complex 1 (PRC1) recruits the H3.3-specific chaperone DAXX to pat-PCH, enabling H3.3 incorporation at these loci. Deficiency of Daxx or PRC1 components Ring1 and Rnf2 abrogates H3.3 incorporation, induces chromatin decompaction and breakage at PCH of exclusively paternal chromosomes, and causes their mis-segregation. Complementation assays show that DAXX-mediated H3.3 deposition is required for chromosome stability in early embryos. DAXX also regulates repression of PRC1 target genes during oogenesis and early embryogenesis. The study identifies a novel critical role for Polycomb in ensuring heterochromatin integrity and chromosome stability in mouse early development.",
+   "found_by": [],
+   "pubdate": "2020 Jul 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34994686",
+   "title": "PRC1 sustains the integrity of neural fate in the absence of PRC2 function.",
+   "abstract": "Polycomb repressive complexes (PRCs) 1 and 2 maintain stable cellular memories of early fate decisions by establishing heritable patterns of gene repression. PRCs repress transcription through histone modifications and chromatin compaction, but their roles in neuronal subtype diversification are poorly defined. We found that PRC1 is essential for the specification of segmentally restricted spinal motor neuron (MN) subtypes, while PRC2 activity is dispensable to maintain MN positional identities during terminal differentiation. Mutation of the core PRC1 component Ring1 in mice leads to increased chromatin accessibility and ectopic expression of a broad variety of fates determinants, including Hox transcription factors, while neuronal class-specific features are maintained. Loss of MN subtype identities in Ring1 mutants is due to the suppression of Hox-dependent specification programs by derepressed Hox13 paralogs (Hoxa13, Hoxb13, Hoxc13, Hoxd13). These results indicate that PRC1 can function in the absence of de novo PRC2-dependent histone methylation to maintain chromatin topology and postmitotic neuronal fate.",
+   "found_by": [],
+   "pubdate": "2022 Jan 7",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30190278",
+   "title": "Variant PRC1 competes with retinoic acid-related signals to repress Meis2 in the mouse distal forelimb bud.",
+   "abstract": "Suppression of Meis genes in the distal limb bud is required for proximal-distal (PD) specification of the forelimb. Polycomb group (PcG) factors play a role in downregulation of retinoic acid (RA)-related signals in the distal forelimb bud, causing Meis repression. It is, however, not known whether downregulation of RA-related signals and PcG-mediated proximal gene repression are functionally linked. Here, we reveal that PcG factors and RA-related signals antagonize each other to polarize Meis2 expression along the PD axis in mouse. Supported by mathematical modeling and simulation, we propose that PcG factors are required to adjust the threshold for RA-related signaling to regulate Meis2 expression. Finally, we show that a variant Polycomb repressive complex 1 (PRC1), incorporating PCGF3 and PCGF5, represses Meis2 expression in the distal limb bud. Taken together, we reveal a previously unknown link between PcG proteins and downregulation of RA-related signals to mediate the phase transition of Meis2 transcriptional status during forelimb patterning.",
+   "found_by": [],
+   "pubdate": "2018 Oct 11",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11060235",
+   "title": "Loss- and gain-of-function mutations show a polycomb group function for Ring1A in mice.",
+   "abstract": "The products of the Polycomb group (PcG) of genes act as transcriptional repressors involved in the maintenance of homeotic gene expression patterns throughout development, from flies to mice. Biochemical and molecular evidence suggests that the mouse Ring1A gene is a member of the PcG of genes. However, genetic evidence is needed to establish PcG function for Ring1A, since contrary to all other murine PcG genes, there is no known Drosophila PcG gene encoding a homolog of the Ring1A protein. To study Ring1A function we have generated a mouse line lacking Ring1A and mouse lines overexpressing Ring1A. Both Ring1A(-/-)and Ring1A(+/-) mice show anterior transformations and other abnormalities of the axial skeleton, which indicates an unusual sensitivity of axial skeleton patterning to Ring1A gene dosage. Ectopic expression of Ring1A also results in dose-dependent anterior transformations of vertebral identity, many of which, interestingly, are shared by Ring1A(-/-) mice. In contrast, the alterations of Hox gene expression observed in both type of mutant mice are subtle and involve a reduced number of Hox genes. Taken together, these results provide genetic evidence for a PcG function of the mouse Ring1A gene.",
+   "found_by": [],
+   "pubdate": "2000 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16943429",
+   "title": "Polycomb group and SCF ubiquitin ligases are found in a novel BCOR complex that is recruited to BCL6 targets.",
+   "abstract": "The corepressor BCOR potentiates transcriptional repression by the proto-oncoprotein BCL6 and suppresses the transcriptional activity of a common mixed-lineage leukemia fusion partner, AF9. Mutations in human BCOR cause male lethal, X-linked oculofaciocardiodental syndrome. We identified a BCOR complex containing Polycomb group (PcG) and Skp-Cullin-F-box subcomplexes. The PcG proteins include RING1, RYBP, NSPC1, a Posterior Sex Combs homolog, and RNF2, an E3 ligase for the mono-ubiquitylation of H2A. BCOR complex components and mono-ubiquitylated H2A localize to BCL6 targets, indicating that the BCOR complex employs PcG proteins to expand the repertoire of enzymatic activities that can be recruited by BCL6. This also suggests that BCL6 can target PcG proteins to DNA. In addition, the BCOR complex contains components of a second ubiquitin E3 ligase, namely, SKP1 and FBXL10 (JHDM1B). We show that BCOR coimmunoprecipitates isoforms of FBXL10 which contain a JmjC domain that recently has been determined to have histone H3K36 demethylase activity. The recruitment of two distinct classes of E3 ubiquitin ligases and a histone demethylase by BCOR suggests that BCOR uses a unique combination of epigenetic modifications to direct gene silencing.",
+   "found_by": [],
+   "pubdate": "2006 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41790891",
+   "title": "Polycomb repression works without Siesta, the Drosophila ortholog of mammalian PCGF3.",
+   "abstract": "Polycomb group proteins mediate epigenetic repression via multisubunit complexes, including canonical Polycomb Repressive Complex 1 (PRC1), which monoubiquitylates histone H2A and binds histone H3 trimethylated at lysine-27 (H3K27me3). The RING1 subunit of PRC1, critical for H2A ubiquitylation, forms other complexes. These variant RING1 complexes also ubiquitylate H2A but cannot bind H3K27me3, and their role in epigenetic repression is debated. Using Drosophila genetics, we found that canonical PRC1 and variant RING1 complexes ubiquitylate H2A at distinct genomic regions. We established that the Drosophila PCGF protein specific for variant RING1 complexes, which we named Siesta, is not required for epigenetic repression of developmental genes but controls larval locomotion independently of H2A ubiquitylation. Leveraging a massively parallel transgenic approach, we demonstrated that H2A ubiquitylation has minimal impact on transcriptional repression. Our findings imply that Siesta-RING1 complexes operate outside the Polycomb regulatory system and that the popular PRC1 classification will benefit from revision.",
+   "found_by": [],
+   "pubdate": "2026 Mar 6",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39256363",
+   "title": "RING1 missense variants reveal sensitivity of DNA damage repair to H2A monoubiquitination dosage during neurogenesis.",
+   "abstract": "Polycomb repressive complex 1 (PRC1) modifies chromatin through catalysis of histone H2A lysine 119 monoubiquitination (H2AK119ub1). RING1 and RNF2 interchangeably serve as the catalytic subunit within PRC1. Pathogenic missense variants in PRC1 core components reveal functions of these proteins that are obscured in knockout models. While Ring1a knockout models remain healthy, the microcephaly and neuropsychiatric phenotypes associated with a pathogenic RING1 missense variant implicate unappreciated functions. Using an in vitro model of neurodevelopment, we observe that RING1 contributes to the broad placement of H2AK119ub1, and that its targets overlap with those of RNF2. PRC1 complexes harboring hypomorphic RING1 bind target loci but do not catalyze H2AK119ub1, reducing H2AK119ub1 by preventing catalytically active complexes from accessing the locus. This results in delayed DNA damage repair and cell cycle progression in neural progenitor cells (NPCs). Conversely, reduced H2AK119ub1 due to hypomorphic RING1 does not generate differential expression that impacts NPC differentiation. In contrast, hypomorphic RNF2 generates a greater reduction in H2AK119ub1 that results in both delayed DNA repair and widespread transcriptional changes. These findings suggest that the DNA damage response is more sensitive to H2AK119ub1 dosage change than is regulation of gene expression.",
+   "found_by": [],
+   "pubdate": "2024 Sep 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "24485159",
+   "title": "Genome-wide co-localization of Polycomb orthologs and their effects on gene expression in human fibroblasts.",
+   "abstract": "BACKGROUND: Polycomb group proteins form multicomponent complexes that are important for establishing lineage-specific patterns of gene expression. Mammalian cells encode multiple permutations of the prototypic Polycomb repressive complex 1 (PRC1) with little evidence for functional specialization. An aim of this study is to determine whether the multiple orthologs that are co-expressed in human fibroblasts act on different target genes and whether their genomic location changes during cellular senescence. RESULTS: Deep sequencing of chromatin immunoprecipitated with antibodies against CBX6, CBX7, CBX8, RING1 and RING2 reveals that the orthologs co-localize at multiple sites. PCR-based validation at representative loci suggests that a further six PRC1 proteins have similar binding patterns. Importantly, sequential chromatin immunoprecipitation with antibodies against different orthologs implies that multiple variants of PRC1 associate with the same DNA. At many loci, the binding profiles have a distinctive architecture that is preserved in two different types of fibroblast. Conversely, there are several hundred loci at which PRC1 binding is cell type-specific and, contrary to expectations, the presence of PRC1 does not necessarily equate with transcriptional silencing. Interestingly, the PRC1 binding profiles are preserved in senescent cells despite changes in gene expression. CONCLUSIONS: The multiple permutations of PRC1 in human fibroblasts congregate at common rather than specific sites in the genome and with overlapping but distinctive binding profiles in different fibroblasts. The data imply that the effects of PRC1 complexes on gene expression are more subtle than simply repressing the loci at which they bind.",
+   "found_by": [],
+   "pubdate": "2014 Feb 3",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42224584",
+   "title": "Canonical and variant PRC1 functionally converge on PRC2 targets to regulate transcriptional programs during mouse limb development.",
+   "abstract": "The developing limb is a classical model system for studying genetic aspects of pattern formation and mechanisms underlying tissue differentiation. The transition from early to differentiated cell fates during limb bud development requires the precise spatial and temporal regulation of gene activation and silencing programs. However, how transcriptional silencing of early genes is achieved remains poorly understood. Here, we investigate the role of the Polycomb Repressive Complexes (PRC1 and PRC2) in this transcriptional transition in the developing mouse forelimb. We show that the progression from early (E10) to late (E12.5 distal) forelimb stages is associated with shifts in promoter-proximal SUZ12 occupancy at early developmental genes. Conditional inactivation of Eed results in derepression and ectopic distal expression of early genes, which occurs despite the persistence of RING1B and H2AK119Ub. We further identified that SUZ12/RING1B co-occupied targets were also bound by RYBP-containing variant PRC1, indicating parallel recruitment of canonical and variant PRC1. Functional analyses of the combined inactivation of EED and RING1B reveal severe limb malformations and significant gene derepression, exceeding the effects of single EED or RING1B inactivation. Together, our findings demonstrate that the functional convergence of canonical and variant PRC1 at key developmental loci is required to maintain robust transcriptional silencing and regulate transitions in gene expression programs required for proper limb morphogenesis.",
+   "found_by": [],
+   "pubdate": "2026 Jun 9",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42782803",
+   "title": "E3 Ubiquitin Ligases in Neurodevelopmental Disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) comprise a heterogeneous group of conditions that may present with developmental delay, intellectual disability, language impairment, epilepsy, autism-like features, motor abnormalities, or syndromic manifestations. Ubiquitination is an essential post-translational mechanism that regulates protein stability, localization, trafficking, and signaling. Because E3 ubiquitin ligases determine substrate specificity in this process, abnormalities in E3 ligases or E3-associated complexes can selectively affect proteins required for brain development and neuronal function. This review summarizes genetic and functional evidence linking E3 ubiquitin ligases, E3-complex components, substrate-recognition factors, and related ubiquitination regulators to NDDs. Gene Ontology enrichment analysis and mechanistic studies suggest that these genes converge on several major biological themes, including early neurodevelopment, neuronal migration, synaptic and circuit maturation, proteostasis, metabolism, and intracellular trafficking. However, the strength and translational relevance of the available evidence vary across genes. UBE3A-related Angelman syndrome currently provides the clearest example of mechanism-guided therapeutic development through UBE3A restoration and paternal allele reactivation. In contrast, many non-UBE3A mechanisms remain at the stage of pathway analysis, preclinical modulation, or candidate substrate validation. Future studies should clarify variant-specific functional effects, define direct disease-relevant substrates, and establish reproducible readouts that can support mechanism-based therapeutic development. [full text, passages naming RING1] ...15 ]. HUWE1 , CUL3 , CUL4B , HECW2 , TRIP12 , UBE3B , and UBR5 illustrate the recurrent involvement of E3 dysfunction across different NDD phenotypes. The inclusion of NEDD4L , RHOBTB2 , FBXO11 , FBXW7 , RNF2/RING1 , and IRF2BPL further expands this disease spectrum beyond a small number of classic syndromic genes, suggesting that ubiquitination-related pathways may contribute to NDD pathogenesis through multiple le... ...the genetic and clinical scope of E3-related NDDs and provide a transition to the subsequent discussion of specific mechanisms organized by neurodevelopmental process. 2.4. NEDD4L, RHOBTB2, FBXO11, FBXW7, RNF2/RING1, and IRF2BPL NEDD4L encodes a HECT-type E3 ubiquitin ligase, and pathogenic variants in this gene have been linked to periventricular nodular heterotopia 7 (PVNH7; OMIM #617201) and related neurodevelopme... ...hese disease associations indicate that E3-related NDDs can arise not only from abnormalities in catalytic cores or scaffold components, but also from disruption at the level of substrate recognition. RNF2 and RING1 encode Polycomb-associated RING-type E3 ligases and are components of PRC1, participating in chromatin-state and gene-expression regulation through histone H2A monoubiquitination [ 73 ]. De novo or pathog...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42195010",
+   "title": "Possible Involvement of Differential Ubiquitination as a Molecular Basis of Phenotypic Heterogeneity in Neurodevelopmental Disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) are characterized by remarkable phenotypic heterogeneity, in which individuals harboring mutations in the same gene display divergent clinical manifestations, ranging from mild cognitive impairment to severe neurodevelopmental deficits. Advances in neurogenetics and neurogenomics have rapidly expanded the catalog of genes associated with NDDs and have provided unprecedented insight into the genetic architecture of these conditions. However, how identical or similar genetic variants give rise to such diverse phenotypic outcomes remains largely unknown. Ubiquitin-mediated protein regulation is a central mechanism controlling diverse processes essential for neural development, including chromatin regulation, transcriptional dynamics, protein turnover, and synaptic function. Importantly, ubiquitination is a multilayered regulatory process governed by multiple determinants, including the availability of ubiquitination sites on substrates, the activity of ubiquitin ligases, the opposing actions of deubiquitinases, and priming post-translational modifications such as phosphorylation or acetylation. These regulatory layers create a dynamic ubiquitination landscape that may vary across individuals, cell types, developmental stages, and environmental contexts. In this review, we discuss how insights from neurogenetics and neurogenomics can be integrated with knowledge of ubiquitin signaling to better understand the molecular basis of phenotypic heterogeneity in NDDs. We propose that differential ubiquitination represents an important mechanistic framework through which genetic variation is translated into diverse molecular and cellular outcomes. Understanding the interplay between neurogenetic variation and ubiquitin-dependent regulatory networks may provide new perspectives on disease mechanisms and inform future therapeutic strategies for neurodevelopmental disorders. [full text, passages naming RING1] ...f ubiquitin from E2 to the substrate. In contrast, HECT- and RBR-type ligases employ a catalytic cysteine residue to form an E3\u2013ubiquitin thioester intermediate prior to ubiquitin transfer. In RBR ligases, the RING1 domain recruits the ubiquitin-loaded E2 enzyme, whereas the RING2 domain contains the catalytic cysteine responsible for ubiquitin transfer to the substrate. Recent comprehensive annotations estimate that... ...in Development and Disease Epigenomes 2022 6 42 10.3390/epigenomes6040042 36547251 PMC9778336 83. Pierce S.B. Stewart M.D. Gulsuner S. Walsh T. Dhall A. McClellan J.M. Klevit R.E. King M.C. De novo mutation in RING1 with epigenetic effects on neurodevelopment Proc. Natl. Acad. Sci. USA 2018 115 1558 1563 10.1073/pnas.1721290115 29386386 PMC5816211 84. Ryan C.W. Regan S.L. Mills E.F. McGrath B.T. Gong E. Lai Y.T. Shei... ...lopment Proc. Natl. Acad. Sci. USA 2018 115 1558 1563 10.1073/pnas.1721290115 29386386 PMC5816211 84. Ryan C.W. Regan S.L. Mills E.F. McGrath B.T. Gong E. Lai Y.T. Sheingold J.B. Patel K. Horowitz T. Moccia A. RING1 missense variants reveal sensitivity of DNA damage repair to H2A monoubiquitination dosage during neurogenesis Nat. Commun. 2024 15 7931 10.1038/s41467-024-52292-8 39256363 PMC11387726 85. Srivastava A. R...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42392895",
+   "title": "From chromatin dynamics to brain disease: Polycomb-Trithorax mechanisms in neurodevelopment.",
+   "abstract": "Neurogenesis requires precise coordination of gene expression, a process governed by the Polycomb (PcG) and Trithorax (TrxG) group proteins. In this review, we discuss how these proteins balance stem cell maintenance with neuronal differentiation and how the disruption of these processes may contribute to neurodevelopmental disorders and pediatric brain tumors. Recent studies have uncovered how PcG-TrxG dynamics and poised/bivalent chromatin states regulate developmental timing and lineage choice. Dysregulation of these epigenetic dynamics perturbs neuronal maturation and can drive aberrant developmental programs in pediatric brain disorders. These insights reveal how PcG-TrxG imbalance alters developmental trajectories and links chromatin dysregulation to disease. These epigenetic pathways are promising therapeutic targets for neurodevelopmental disorders and pediatric brain tumors. [full text, passages naming RING1] ...tal timing. Biomarkers based on DNA methylation can complement genetic diagnosis and provide molecular prognostic readouts. A DNA methylome signature has been identified for disorders linked to PRC1 components RING1 and RYBP [ 142 ]. Candidate biomarkers, including non-coding RNAs, histone modifications including bivalency, and chromatin accessibility patterns [ 143 \u2013 145 ], are being evaluated as molecular fingerpri... ...comb associates genome-wide with a specific RNA polymerase II variant, and regulates metabolic genes in ESCs . Cell Stem Cell 10 , 157 \u2013 170 22305566 10.1016/j.stem.2011.12.017 PMC3682187 45. Stock JK ( 2007 ) Ring1-mediated ubiquitination of H2A restrains poised RNA polymerase II at bivalent genes in mouse ES cells . Nat Cell Biol 9 , 1428 \u2013 1435 18037880 10.1038/ncb1663 46. Min IM ( 2011 ) Regulating RNA polymerase... ...drome stem cell models reveal locus specificity of histone methyltransferase 2D (KMT2D/MLL4) . Hum Mol Genet 31 , 3715 \u2013 3728 35640156 10.1093/hmg/ddac121 PMC9616574 128. Pierce SB ( 2018 ) De novo mutation in RING1 with epigenetic effects on neurodevelopment . Proc Natl Acad Sci U S A 115 , 1558 \u2013 1563 29386386 10.1073/pnas.1721290115 PMC5816211 129. Turnpenny PD ( 2018 ) Missense Mutations of the Pro65 Residue of P...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40317680",
+   "title": "Further Delineation of the AUTS2 HX Repeat Domain-Related Phenotype.",
+   "abstract": "Haploinsufficiency of AUTS2 is associated with a neurodevelopmental disorder characterized by intellectual disability, autistic features, and spasticity. AUTS2 protein interacts with p300, encoded by EP300, through the HX repeat domain of AUTS2, thereby activating transcription. We previously reported two de novo variants in the HX repeat domain of AUTS2. These variants disrupt the AUTS2-P300 interaction, resulting in a phenotype resembling Rubinstein-Taybi Syndrome (RSTS) associated with variants in EP300/CREBBP. Here, we expand beyond the initial clinical description to delineate the HX domain-associated phenotype and compare it to the AUTS2-haploinsufficient phenotype. We reviewed clinical data, photographs, and neuroimaging studies to examine genotype-phenotype relationships. Our review of 80 individuals included 14 individuals we present here and 66 individuals with AUTS2 variants presented in the literature. The clinical features for individuals with variants in the HX repeat domain include severe intellectual disability, severe language disability, distinct craniofacial and skeletal dysmorphic features, and neuroimaging findings. Facial dysmorphisms include wide and prominent nasal bridges with complex nasal shapes and dysmorphic eyebrows. Dysmorphisms include digit anomalies: Symphalangism and hypoplasia of distal phalanges, exclusive to the HX domain variant group. Cerebellar anomalies not seen with other AUTS2 variants are seen within this group. Our report delineates a distinct and severe clinical phenotype associated with variants in the AUTS2 HX domain, including an in-depth comparison with the AUTS2 haploinsufficiency phenotype features. [full text, passages naming RING1] ...amino acid ( X ). The specific HX repeat domain of 9 AUTS2 encodes a HQHQHQHQHTHQHTHQHT amino acid sequence at positions 525 to 542. 9 Several PRC1 subunits, including AUTS2, CK2 components CSNK2A1 and CSNK2B, RING1, and YAF2, are reported as causative or strong candidates for neurodevelopmental disorders. FBRSL1, which shares high sequence homology with AUTS2, interacts with PRC1.3 and PRC1.5 and causes a neurodevel...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37087635",
+   "title": "Dominant-negative variants in CBX1 cause a neurodevelopmental disorder.",
+   "abstract": "PURPOSE: This study aimed to establish variants in CBX1, encoding heterochromatin protein 1\u03b2 (HP1\u03b2), as a cause of a novel syndromic neurodevelopmental disorder. METHODS: Patients with CBX1 variants were identified, and clinician researchers were connected using GeneMatcher and physician referrals. Clinical histories were collected from each patient. To investigate the pathogenicity of identified variants, we performed in\u00a0vitro cellular assays and neurobehavioral and cytological analyses of neuronal cells obtained from newly generated Cbx1 mutant mouse lines. RESULTS: In 3 unrelated individuals with developmental delay, hypotonia, and autistic features, we identified heterozygous de novo variants in CBX1. The identified variants were in the chromodomain, the functional domain of HP1\u03b2, which mediates interactions with chromatin. Cbx1 chromodomain mutant mice displayed increased latency-to-peak response, suggesting the possibility of synaptic delay or myelination deficits. Cytological and chromatin immunoprecipitation experiments confirmed the reduction of mutant HP1\u03b2 binding to heterochromatin, whereas HP1\u03b2 interactome analysis demonstrated that the majority of HP1\u03b2-interacting proteins remained unchanged between the wild-type and mutant HP1\u03b2. CONCLUSION: These collective findings confirm the role of CBX1 in developmental disabilities through the disruption of HP1\u03b2 chromatin binding during neurocognitive development. Because HP1\u03b2 forms homodimers and heterodimers, mutant HP1\u03b2 likely sequesters wild-type HP1\u03b2 and other HP1 proteins, exerting dominant-negative effects. [full text, passages naming RING1] ...tant HP1\u03b2 revealed that the p.(Val23Met) and p.(Asn57Asp) mutants demonstrated impaired binding to the GLP/G9a complex (EHMT1, EHMT2, WIZ, ZNF462, and ZNF644) and the PRC1.6 complex (E2F6, L3MBTL2, MGA, PCGF6, RING1, RNF2, TFDP1, and WDR5) 31 \u2013 33 ( 34 Fig 4f , Supplemental Table 1 ). In contrast, the abundance of other HP1\u03b2 interacting molecules was higher in the CD mutant than in the WT ( Fig 4f ). Consistent with... ...the G9a complex (red) and PRC1.6 (green). W52L samples demonstrated a mild reduction of binding to the G9a complex and PRC1.6. G9a complex: EHMT1, EHMT2, WIZ, ZNF462, ZNF644. PRC1.6: E2F6, L3MBTL2, MGA, PCGF6, RING1, RNF2, TFDP1, WDR5. 31 \u2013 33 CD, chromodomain; CSD, chromo shadow-domain; IP, immunoprecipitation; IP-MS, immunoprecipitation mass spectrometry; N.S, not significant; WT, wild-type. 34 Fig 5: Evaluation of...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33864376",
+   "title": "Rare deleterious de novo missense variants in Rnf2/Ring2 are associated with a neurodevelopmental disorder with unique clinical features.",
+   "abstract": "The Polycomb group (PcG) gene RNF2 (RING2) encodes a catalytic subunit of the Polycomb repressive complex 1 (PRC1), an evolutionarily conserved machinery that post-translationally modifies chromatin to maintain epigenetic transcriptional repressive states of target genes including Hox genes. Here, we describe two individuals, each with rare de novo missense variants in RNF2. Their phenotypes include intrauterine growth retardation, severe intellectual disabilities, behavioral problems, seizures, feeding difficulties and dysmorphic features. Population genomics data suggest that RNF2 is highly constrained for loss-of-function (LoF) and missense variants, and both p.R70H and p.S82R variants have not been reported to date. Structural analyses of the two alleles indicate that these changes likely impact the interaction between RNF2 and BMI1, another PRC1 subunit or its substrate Histone H2A, respectively. Finally, we provide functional data in Drosophila that these two missense variants behave as LoF alleles in vivo. The evidence provide support for deleterious alleles in RNF2 being associated with a new and recognizable genetic disorder. This tentative gene-disease association in addition to the 12 previously identified disorders caused by PcG genes attests to the importance of these chromatin regulators in Mendelian disorders.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "31839203": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30446597": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15737990": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27713507": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37890334": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17456438": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42236713": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11746048": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24328108": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27284007": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28765939": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11278816": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9627119": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26631732": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35077766": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19801972": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35491809": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29475881": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33446692": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36413948": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39368463": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26260794": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38556171": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26254305": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34753965": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31931872": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26216882": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28334807": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15126332": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23661642": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36941054": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26443607": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40074903": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14647293": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31551439": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27989698": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11722579": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11193755": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23727886": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21148756": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33471285": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29847796": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29386386": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41653922": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32395866": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34994686": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30190278": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "11060235": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16943429": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41790891": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40369166": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27312108": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42387064": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39256363": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "24485159": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31647998": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42224584": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42782803": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42195010": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39891528": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42392895": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40496139": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39862434": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40317680": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37087635": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33967843": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35011572": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41296858": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33864376": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38982159": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41191133": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40271197": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41021627": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36547251": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28669576": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36980871": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39887636": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34440890": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37332674": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32007289": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3507,
+   "output_tokens": 228,
+   "usd": 0.004647,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 69.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.0,
+   "note": "",
+   "input_tokens": 24322,
+   "output_tokens": 876,
+   "usd": 0.028702,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.8,
+   "note": "",
+   "input_tokens": 13169,
+   "output_tokens": 1010,
+   "usd": 0.091095,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>35</established>\n    <existing>55</existing>\n    <hypothesized>9</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Direct human genetic evidence exists: Pierce et al. (PMID 29386386) reported a de novo RING1 p.R95Q missense variant in a single girl with a syndromic neurodevelopmental disorder, supported by functional assays showing loss of H2A monoubiquitination and C. elegans modeling. A second primary study (PMID 41653922) reports identification of heterozygous mutations in RING1 (and RNF2) in individuals with NDDs, though its mechanistic results center on Rnf2/Ring1b mouse and cellular models. PMID 39256363 extends functional characterization of RING1 missense variants (hypomorphic effects on H2AK119ub and DNA damage repair in neural progenitors) but is largely in vitro and builds on the same patient allele. Other listed papers (PRC1 biology, limb development, Drosophila, CBX1, AUTS2, RNF2) cite RING1 as background or reflect paralog/complex biology rather than independent RING1 proband evidence. Because clearly documented, independent human probands are few (essentially one well-described case plus a newer cohort report), the evidence is best described as Existing, with meaningful probability that it now meets Established.</justification>\n  <pmids>\n    <pmid>29386386</pmid>\n    <pmid>41653922</pmid>\n    <pmid>39256363</pmid>\n    <pmid>42392895</pmid>\n    <pmid>42782803</pmid>\n    <pmid>33864376</pmid>\n    <pmid>42195010</pmid>\n  </pmids>\n</response>"
+}

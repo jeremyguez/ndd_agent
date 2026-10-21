@@ -1,0 +1,198 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 16,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "De Novo Deletion in the 12q24.23q24.31 Chromosomal Region Causing a Neurodevelopmental Syndrome in a Female Saudi Patient: A Case Report (PMID: 40018479)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo heterozygous ~6.6 Mb deletion at 12q24.23q24.31 spanning 122 genes, including MSI1. This is a contiguous-gene deletion, and MSI1 is not singled out as causal.",
+            "type": "other",
+            "phenotypes": [
+              "refractory epilepsy",
+              "spasticity in all limbs",
+              "global developmental delay",
+              "intellectual disability",
+              "widely separated eyes (hypertelorism)",
+              "small nasal tip",
+              "congenital heart defects (tricuspid atresia, single ventricle)",
+              "clubbing of fingers and toes",
+              "overlapping toes"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo 6.6 Mb deletion in 12q24.23q24.31, a region previously associated with neurodevelopmental abnormalities. The deletion was attributed to the whole region, not to MSI1 specifically.",
+        "center_country": "Saudi Arabia",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Msi1 and Msi2 conditional KO study - The Musashi proteins MSI1 and MSI2 are required for photoreceptor morphogenesis and vision in mice (PMID: 33168629)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Pan-retinal and rod-specific double Msi1/Msi2 deletion abolished the light response",
+          "Severely disrupted photoreceptor outer segment morphology",
+          "Ciliary defects",
+          "Retinal neuronal degeneration with complete photoreceptor loss within 6 months",
+          "Loss of photoreceptor-specific exon usage in transcripts needed for outer segment morphogenesis, ciliogenesis and synaptic transmission"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kawahara et al. 2010 - Neural RNA-binding protein Musashi1 controls midline crossing of precerebellar neurons through posttranscriptional regulation of Robo3/Rig-1 expression (PMID: 20696379)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Robo3 protein dramatically reduced in precerebellar neurons, with Robo3 mRNA unchanged",
+          "Severely impaired axonal midline crossing of precerebellar neurons",
+          "Impaired neuronal migration of precerebellar neurons",
+          "Phenocopies Robo3-deficient mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Musashi-1-type 2 deiodinase pathway regulates astrocyte proliferation (PMID: 38879014)",
+        "organism": "mouse",
+        "knockout_type": "full knockout and knockdown",
+        "phenotypes": [
+          "Increased D2 (Dio2) expression in the cortex of mice lacking MSI1 protein",
+          "MSI1 knockdown in primary mouse cortical astrocytes increased D2 expression and slowed cell proliferation by 56%"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Characterization of the RNA-binding protein Musashi1 in zebrafish (PMID: 22429745)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Morpholino knockdown of zmsi1 in one-cell stage embryos frequently caused aberrant formation of the central nervous system"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Musashi-1, an RNA-binding protein, is indispensable for survival of photoreceptors (PMID: 18662689)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Photoreceptor degeneration",
+          "Lack of the visual cycle protein RPE65 in the microvilli of RPE cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Musashi-dependent mRNA translational activation is mediated through association with the Scd6/Like-sm family member, LSM14B (PMID: 40211036)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Antisense knockdown of MSI1/2 in Xenopus oocytes abolished oocyte maturation (no GVBD)",
+          "LSM14B knockdown likewise blocked oocyte maturation",
+          "LSM14B mediates Musashi1-dependent translational activation required for maturation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Vaidyanathan et al. ASHG 2012 - Simplified sample preparation and streamlined library preparation method for deep sequencing Ribosome Protected mRNA Fragments",
+        "evidence_subtype": "cell_culture",
+        "summary": "Msi1 is a conserved RNA-binding protein highly expressed in cancers including glioblastoma. shRNA knockdown of Msi1 in U251 glioblastoma cells, followed by ribosome profiling, was used to identify direct mRNA targets and the translational control Msi1 exerts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MSI1, a negative regulator of the RAS-cAMP pathway in Saccharomyces cerevisiae (PMID: 2554329)",
+        "evidence_subtype": "yeast",
+        "summary": "Yeast MSI1 was isolated as a high-copy suppressor of ira1 heat-shock sensitivity and encodes a WD-repeat protein homologous to G-protein beta subunits. Overexpression suppressed ira1 and RAS2Val19 phenotypes (heat-shock sensitivity, sporulation defect) and lowered elevated cAMP, but did not suppress bcy1, indicating MSI1 is a negative regulator of RAS-cAMP signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CAC3(MSI1) suppression of RAS2(G19V) is independent of chromatin assembly factor I and mediated by NPR1 (PMID: 11238915)",
+        "evidence_subtype": "yeast",
+        "summary": "Yeast Cac3p/Msi1p, an RbAp48 homolog and CAF-I component, suppresses RAS/cAMP signaling independently of CAC1/CAC2 and chromatin assembly. It localizes to nucleus and cytoplasm, associates with the kinase Npr1p, and suppresses RAS by sequestering Npr1p, possibly through increased ubiquitination of an Npr1p substrate.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MSI1 and HDA6 function interdependently to control flowering time via chromatin modifications (PMID: 34807487)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Arabidopsis MSI1, a PRC2 subunit, interacts with histone deacetylase HDA6 in vitro and in vivo. They bind FLC, MAF4 and MAF5 chromatin interdependently, repressing these genes through H3K9 deacetylation and H3K27me3 to control flowering time.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Arabidopsis MSI1 is required for negative regulation of the response to drought stress (PMID: 19825648)",
+        "evidence_subtype": "function",
+        "summary": "Transcriptional profiling of MSI1-depleted (msi1-cs) Arabidopsis showed up-regulation of ABA-responsive drought/salt-stress genes. MSI1 binds chromatin of the drought-inducible target RD20, suggesting a role in negatively regulating drought response.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PcG Proteins MSI1 and BMI1 Function Upstream of miR156 to Regulate Aerial Tuber Formation in Potato (PMID: 31427464)",
+        "evidence_subtype": "pathway",
+        "summary": "In potato, StMSI1 (PRC2) overexpression raised miR156 and caused aerial tubers and reduced below-ground tuber yield. StMSI1-OE repressed StBMI1-1/3 through H3K27me3 and activated miR156 through H3K4me3, and altered auxin, brassinosteroid and cytokinin gene expression. StMSI1 levels increased in stolons under short days.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The Msi1-mTOR pathway drives the pathogenesis of mammary and extramammary Paget's disease (PMID: 32457396)",
+        "evidence_subtype": "expression",
+        "summary": "MSI1 is ectopically overexpressed in basal epithelial cells of human Paget's disease skin. Msi1 overexpression in mouse epidermal basal layer phenocopies the disease through mTOR-driven keratinocyte-to-Paget-like cell conversion, which rapamycin rescued.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cycling Stem Cells Are Radioresistant and Regenerate the Intestine (PMID: 32726617)",
+        "evidence_subtype": "expression",
+        "summary": "Lineage tracing with an Msi1 reporter marks cells just above Lgr5-high cells in intestinal crypts that are DNA damage resistant. Most are heterogeneous cycling ISCs with low Lgr5 expression that regenerate the epithelium after radiation and preferentially produce Paneth cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Alternative splicing of ALDOA confers tamoxifen resistance in breast cancer (PMID: 39164523)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MSI1 directly interacts with ALDOA mRNA and mediates inclusion of exon 7.2 in its 5'UTR, increasing translation, ALDOA protein, mTOR activity and tamoxifen resistance. High MSI1 expression is associated with poor prognosis in patients on endocrine therapy.",
+        "sample_size": "9 pairs of primary and relapse breast tumors",
+        "significance": null
+      },
+      {
+        "citation": "Musashi-1 and miR-147 Precursor Interaction Mediates Synergistic Oncogenicity Induced by Co-Infection of Two Avian Retroviruses (PMID: 36291177)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ALV-J and REV structural proteins synergistically induce MSI1, which binds pri-miR-147 through its RNA-binding site and blocks miR-147 maturation. This relieves inhibition of NF-\u03baB/KIAA1199/EGFR signaling, suppressing senescence and activating EMT.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

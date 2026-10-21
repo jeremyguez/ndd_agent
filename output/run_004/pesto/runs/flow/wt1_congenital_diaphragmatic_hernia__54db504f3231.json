@@ -1,0 +1,926 @@
+{
+ "gene": "WT1",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "congenital hernia of the diaphragm",
+   "diaphragmatic hernia, congenital",
+   "congenital diaphragm defect",
+   "congenital defect of the diaphragm",
+   "diaphragmatic hernia",
+   "herniation of abdominal viscera into the thorax",
+   "Bochdalek hernia",
+   "Morgagni hernia",
+   "congenital diaphragmatic defect with visceral herniation"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "WAGR",
+   "GUD",
+   "NPHS4",
+   "WIT-2",
+   "AWT1",
+   "WT-1",
+   "WT1 transcription factor"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 100,
+  "titlekicksparingfulltext": 31,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 68,
+   "Existing": 27,
+   "Hypothesized": 5,
+   "Novel": 0
+  },
+  "justification": "Multiple independent human probands carry point (non-CNV) WT1 variants together with diaphragmatic defects: PMID 7645607 (Denys-Drash newborn with large diaphragmatic hernia and WT1 p.Arg366His), PMID 18203154 (a third independent DDS case with CDH and the same Arg366His mutation), PMID 16932893 (DDS infant with Arg366His and a diaphragmatic defect), and PMID 10792605 (intron 9 splice-site mutation in a boy with FSGS plus diaphragmatic hernia). These are complemented by trio exome sequencing of CDH fetuses reporting likely damaging de novo WT1 variants (PMID 34315577) and by WT1 mutations described in Meacham syndrome, which includes CDH. WAGR 11p13 deletion cases (PMIDs 15779010, 17194330) are supportive but multigenic and do not isolate WT1. The main caveat is PMID 8811558, which found no WT1 mutations in isolated CDH, suggesting WT1 mainly causes syndromic CDH; nonetheless, replicated human sequence-variant evidence supports an Established relationship, with residual probability on Existing.",
+  "pmids": [],
+  "detail": {
+   "Established": 68,
+   "Existing": 27,
+   "Hypothesized": 5,
+   "Novel": 0
+  }
+ },
+ "articles": [
+  {
+   "pmid": "32352694",
+   "title": "WT1 Disorder.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "1993",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34315577",
+   "title": "Exome sequencing of fetuses with congenital diaphragmatic hernia supports a causal role for NR2F2, PTPN11, and WT1 variants.",
+   "abstract": "BACKGROUND: To identify genes associated with congenital diaphragmatic hernia (CDH) to help understand the etiology and inform prognosis. METHODS: We performed exome sequencing on fetuses with CDH and their parents to identify rare genetic variants likely to mediate risk. We reviewed prenatal characteristics and neonatal outcomes. RESULTS: Data were generated for 22 parent-offspring trios. Six Likely Damaging (LD) variants were identified in five families (23\u00a0%). Three LD variants were in genes that contain variants in other CDH cohorts (NR2F2, PTPN11, WT1), while three were in genes that do not (CTR9, HDAC6, TP53). Integrating these data bolsters the evidence of association of NR2F2, PTPN11, and WT1 with CDH in humans. Of the five fetuses with a genetic diagnosis, one was terminated, two underwent perinatal demise, while two survived until repair. CONCLUSIONS: Exome sequencing expands the diagnostic yield of genetic testing in CDH. Correlating CDH patients' exomes with clinical outcomes may enable personalized counseling and therapies.",
+   "found_by": [],
+   "pubdate": "2022 Jan",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "20301533",
+   "title": "Congenital Diaphragmatic Hernia Overview \u2013 RETIRED CHAPTER, FOR HISTORICAL REFERENCE ONLY.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "1993",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "28768736",
+   "title": "Congenital diaphragmatic hernias: from genes to mechanisms to therapies.",
+   "abstract": "Congenital diaphragmatic hernias (CDHs) and structural anomalies of the diaphragm are a common class of congenital birth defects that are associated with significant morbidity and mortality due to associated pulmonary hypoplasia, pulmonary hypertension and heart failure. In \u223c30% of CDH patients, genomic analyses have identified a range of genetic defects, including chromosomal anomalies, copy number variants and sequence variants. The affected genes identified in CDH patients include transcription factors, such as GATA4, ZFPM2, NR2F2 and WT1, and signaling pathway components, including members of the retinoic acid pathway. Mutations in these genes affect diaphragm development and can have pleiotropic effects on pulmonary and cardiac development. New therapies, including fetal endoscopic tracheal occlusion and prenatal transplacental fetal treatments, aim to normalize lung development and pulmonary vascular tone to prevent and treat lung hypoplasia and pulmonary hypertension, respectively. Studies of the association between particular genetic mutations and clinical outcomes should allow us to better understand the origin of this birth defect and to improve our ability to predict and identify patients most likely to benefit from specialized treatment strategies.",
+   "found_by": [],
+   "pubdate": "2017 Aug 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "15779010",
+   "title": "Congenital diaphragmatic hernia in WAGR syndrome.",
+   "abstract": "Wilms tumor, aniridia, genitourinary anomalies, and mental retardation (WAGR) syndrome is a contiguous gene deletion syndrome involving the Wilms tumor 1 gene (WT1), the paired box gene 6 (PAX6), and possibly other genes on chromosome 11p13. WT1 is required for normal formation of the genitourinary system and the high incidence of Wilms tumor and genitourinary anomalies found in patients with WAGR are attributed to haploinsufficiency of this gene. It has been hypothesized that WT1 also plays an important role in the development of the diaphragm. During mammalian embryonic development, WT1 is expressed in the pleural and abdominal mesothelium that forms part of the diaphragm. Furthermore, mice that are homozygous for a deletion in the mouse homolog of WT1 have diaphragmatic hernias. Case reports describing congenital diaphragmatic hernias in infants with Denys-Drash and Frasier syndromes, both of which can be caused by mutations in WT1, provide additional support for this hypothesis. We report an infant with aniridia, bilateral cryptorchidism, vesicoureteral reflux, and a right-sided Morgagni-type diaphragmatic hernia. G-banded chromosome analysis revealed a deletion of 11p12-p15.1. Breakpoint regions were refined by fluorescence in situ hybridization (FISH) and deletion of the WAGR critical region, including WT1, was confirmed. A review of the medical literature identified a second patient with a deletion of 11p13, a left-sided Bochdalek-type diaphragmatic hernia, and anomalies that suggest a diagnosis of WAGR including bilateral microphthalmia, a small penis, bilateral cryptorchidism, and a hypoplastic scrotum. These cases demonstrate that congenital diaphragmatic hernia can be associated with WAGR syndrome and suggest that deletions of WT1 may predispose individuals to develop congenital diaphragmatic hernia.",
+   "found_by": [],
+   "pubdate": "2005 May 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "10792605",
+   "title": "WT1 splice-site mutations are rarely associated with primary steroid-resistant focal and segmental glomerulosclerosis.",
+   "abstract": "BACKGROUND: Donor splice-site de novo heterozygous mutations in intron 9 of the Wilms' tumor gene (WT1) have been reported in Frasier syndrome, which is defined by the association of focal and segmental glomerulosclerosis (FSGS), male pseudohermaphroditism, and gonadoblastoma. These splice-site mutations alter the WT1 alternative splicing leading to two WT1 isoforms, with (+) or without (-) three amino acids, lysine-threonine-serine (KTS), between zinc fingers 3 and 4. The aim of this work was to investigate the possibility that some cases of primary steroid-resistant nephrotic syndrome associated with FSGS may be caused by WT1 splice-site mutations. METHODS: We analyzed WT1 exons 8 and 9 and the surrounding exon/intron boundary DNA sequences in 37 children with nonfamilial primary steroid-resistant nephrotic syndrome. Semiquantitative reverse transcription-polymerase chain reaction (RT-PCR) was used to determine the relative ratio of +KTS/-KTS transcripts from immortalized lymphocyte RNA. RESULTS: One boy with FSGS and associated pathologies (diaphragmatic hernia, proximal hypospadias, and unilateral testicular ectopia) was found to carry the heterozygous 1228 +4 C-->T splice-site mutation. RT-PCR quantitation of the +KTS/-KTS transcripts from immortalized lymphocyte RNA of this patient showed a diminution of the +KTS/-KTS isoform ratio (0.43), which is identical to that reported in patients with Frasier syndrome. Using the same approach, healthy control subjects have +KTS/-KTS ratios ranging from 1.50 to 2.00. CONCLUSIONS: This study expands the range of the phenotypic presentation of the intron 9 splice-site WT1 mutations and adds to the already reported heterogeneity of primary steroid-resistant nephrotic syndromes. We suggest that these mutations are not likely to be a common cause of isolated steroid-resistant nephrotic syndrome, and recommend a WT1 exon 9/intron 9 splice-site study in children with primary steroid-resistant nephrotic syndrome if genital or diaphragmatic anomalies are associated. The identification of such WT1 mutations has practical implications for the management of these patients.",
+   "found_by": [],
+   "pubdate": "2000 May",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "7645607",
+   "title": "Diaphragmatic hernia in Denys-Drash syndrome.",
+   "abstract": "We report on a newborn infant with male pseudohermaphroditism and glomerular lesions (Denys-Drash syndrome) but without Wilms tumor. A constitutional heterozygous mutation in the WT1 gene (366Arg to His) was identified. In addition the child had a large diaphragmatic hernia, so far not described in Denys-Drash syndrome. The expression of the WT1 gene in pleural and abdominal mesothelium and the occurrence of diaphragmatic hernia in transgenic mice with a homozygous WT1 deletion strongly suggests that the diaphragmatic hernia in this patient is part of the malformation pattern caused by WT1 mutations.",
+   "found_by": [],
+   "pubdate": "1995 May 22",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "16932893",
+   "title": "Hydrothorax in a patient with Denys-Drash syndrome associated with a diaphragmatic defect.",
+   "abstract": "The Wilms tumor suppressor gene, WT1, plays an important role in the development of the urogenital system and the gonads, and clinical syndromes associated with WT1 mutations, such as WAGR syndrome, Denys-Drash syndrome and Frasier syndrome, typically manifest as renal and genitourinary abnormalities. WT1 may also play an important role in the development of the diaphragm, and recently several papers have reported an association between WT1 mutations and diaphragmatic hernias. In addition, WT1 mutations were also detected in some patients with Meacham syndrome, a rare malformation syndrome comprising congenital diaphragmatic hernia, double vagina, sex reversal, and cardiac malformations. Here, we report a case of an infant with typical clinical features of Deny-Drash syndrome and a heterozygous missense mutation, Arg366His, in the WT1 gene, in whom a diaphragm defect was detected after starting peritoneal dialysis. Diaphragmatic defects are rare but may be considered as clinical manifestations of WT1 mutation syndromes. In addition, we suggest that WT1 abnormalities should be suspected in patients with chronic renal failure who develop hydrothorax after peritoneal dialysis, especially in those with genitourinary abnormalities.",
+   "found_by": [],
+   "pubdate": "2006 Dec",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "8811558",
+   "title": "No evidence of WT1 gene mutations in children with congenital diaphragmatic hernia.",
+   "abstract": "Children with congenital diaphragmatic hernia are born with a defect of the diaphragm that usually leads to a herniation of abdominal organs up into the thoracic cavity on the same side. The condition is often fatal, usually because of concomitant lung hypoplasia. The cause of this condition is unknown. The majority of cases are sporadic, but familial aggregation has been observed, indicating a genetic background. The tumor suppressor gene WT1 is involved in normal early urogenital development, and it is expressed in the mesothelium in the early human fetus. Recently, knockout mice homozygous for WT1 gene mutations were constructed. The embryos died between days 13 and 15 of gestation. Besides serious urogenital and thoracic malformations, the mice had defects in the diaphragm that caused herniation of lung tissue into the abdomen. These findings prompted the authors to screen for WT1 gene mutations in 27 children who had congenital diaphragmatic hernia. Using exon-per-exon polymerase chain reaction (PCR) amplifications and denaturing gradient gel electrophoresis, no WT1 mutations were detected. Southern blot analysis did not show any large rearrangements in the WT1 gene. These results exclude WT1 gene mutations as a major etiological factor for the isolated diaphragmatic defect. However, it is possible that other genes in the WT1 pathway are involved in this defect.",
+   "found_by": [],
+   "pubdate": "1996 Jul",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "17194330",
+   "title": "[Association between WAGR syndrome and diaphragmatic hernia].",
+   "abstract": "Anomalies in WT-1 (Wilms' tumor gene), mapped to 11p13, cause Denys-Drash, Frasier and WAGR syndromes. WAGR syndrome is characterized by Wilms' tumor (W), aniridia (A), genitourinary anomalies (G) and mental retardation (R). In the early human fetus, WT-1 is expressed in the pleural and abdominal mesothelium, and consequently this gene may play a role in diaphragm development. The first report of an association between WAGR syndrome and congenital diaphragmatic hernia has recently been published. We present another infant with aniridia, left cryptorchidism with testicular dysgenesis, right-sided posterolateral diaphragmatic hernia and moderate psychomotor retardation, in whom genetic study showed a deletion of 11p13 and PAX-6, confirming the diagnosis of WAGR syndrome.",
+   "found_by": [],
+   "pubdate": "2006 Dec",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41495530",
+   "title": "Congenital nephrotic syndrome in a newborn with glycogen storage disease and Wilms tumor 1 (WT1) mutation.",
+   "abstract": "Genetic disorders in neonates often present with overlapping clinical features, posing significant diagnostic challenges. Glycogen storage diseases (GSD) disrupt glycogen metabolism, leading to energy deficits. Pathogenic variants in the Wilms tumor 1 (WT1) gene represent a rare but significant cause of early-onset steroid-resistant nephrotic syndrome (SRNS), associated with a broad range of both kidney and extrakidney phenotypic manifestations. The coexistence of these genetic diseases in a single patient has not been previously reported. Herein, we present a case of a newborn with symptomatic hypoglycemia and metabolic acidosis that was transferred to the Neonatal Intensive Care Unit. During hospitalization, he developed hyponatremia and nephrotic-range proteinuria, a genetic test was performed, and he was transferred to the nephrology unit. Genetic analysis identified a compound homozygous mutation (c.247 C\u2009>\u2009T) in the G6PC gene, confirming glycogen storage disease type 1a (GSD-1a) and a pathogenic WT1 mutation (c.1400G\u2009>\u2009A) associated with Denys-Drash syndrome. This case highlights the importance of a multidisciplinary approach in the evaluation and management of neonates with a complex combination of genetically-determined conditions.",
+   "found_by": [],
+   "pubdate": "2026 Jan 7",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "15758579",
+   "title": "Denys-Drash syndrome.",
+   "abstract": "Constitutional missense mutations in the WT1 gene are usually associated with Denys-Drash syndrome. This rare syndrome is characterized by a rapid progressive nephropathy, male pseudohermaphroditism, and an increased risk for Wilms tumor. We report on a patient with incomplete Denys-Drash syndrome, which was evident by the clinical data and proved by molecular genetics methods. The patient has the mutation p.R394W in the WT1 gene and clinical symptoms of Denys-Drash syndrome.",
+   "found_by": [],
+   "pubdate": "2005",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "18203154",
+   "title": "Denys-Drash syndrome and congenital diaphragmatic hernia: another case with the 1097G > A(Arg366His) mutation.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) is a disorder of the development of the lung and diaphragm and is associated with pulmonary hypoplasia and pulmonary hypertension. Denys-Drash syndrome (DDS) is a well-known syndrome caused by several different germline mutations in the WT1-gene. CDH in DDS is rare. We present the third case of CDH with clinical features of DDS and the same, rare Arg366His mutation in the WT1-gene, as reported in the other two known cases. This report provides additional evidence that WT1 mutations can result in diaphragmatic hernia.",
+   "found_by": [],
+   "pubdate": "2008 Feb 15",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "35211794",
+   "title": "WT1 complete gonadal dysgenesis with membranoproliferative glomerulonephritis: case series and literature review.",
+   "abstract": "BACKGROUND: Intronic WT1 mutations are usually causative of Frasier syndrome with focal segmental glomerulosclerosis as the characteristic nephropathy. Membranoproliferative glomerulonephritis is not commonly associated with disorders of sex development but has been recently identified as a WT1-associated nephropathy, but usually in cases of exonic mutations in either isolated Wilms tumor or Denys-Drash syndrome. METHODS: The clinical and genetic data from 3 individuals are reported. RESULTS: This report describes the kidney manifestations in 3 individuals from 2 unrelated families with Frasier syndrome intronic WT1 mutations, noting that 2 of the 3 individuals have histologically confirmed membranoproliferative glomerulonephritis. CONCLUSIONS: These case reports support expansion of the clinical spectrum of the kidney phenotypes associated with Frasier syndrome providing evidence of an association between WT1 mutation and an immune complex-related membranoproliferative glomerulonephritis. A higher resolution version of the Graphical abstract is available as Supplementary information.",
+   "found_by": [],
+   "pubdate": "2022 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42125881",
+   "title": "How Epigenetics Bridges Genes and Environment: A Multiomics Evidence Chain in Congenital Diaphragmatic Hernia.",
+   "abstract": "BACKGROUND/OBJECTIVES: Congenital diaphragmatic hernia (CDH) is a severe developmental anomaly with high etiological heterogeneity. Although numerous susceptibility genes have been identified, genetic factors alone fail to explain the full disease risk. Epidemiological data highlight the contribution of environmental exposures. Epigenetic regulation provides a crucial link bridging genetic predisposition and environmental influence. This review aims to summarize recent multiomics evidence elucidating how epigenetic mechanisms mediate gene-environment interactions in CDH. METHODS: This narrative review summarizes studies published over the past decade on epigenetic mechanisms in congenital diaphragmatic hernia (CDH), including DNA methylation, histone modifications, noncoding RNAs, and integrative genomic and transcriptomic analyses in human samples, animal models, and iPSC-derived organoids. Relevant literature was identified through targeted searches of the biomedical literature and screening of reference lists from key articles. Relevant studies were considered according to their relevance to epigenetic regulation, gene-environment interactions, and translational implications in CDH. RESULTS: Aberrant DNA methylation, histone acetylation imbalance, and dysregulated miRNAs converge on key developmental pathways, including retinoic acid, TGF-\u03b2, and NF-\u03baB signaling. Experimental evidence shows that miR-200b supplementation or pharmacological restoration of histone acetylation can partially rescue pulmonary hypoplasia in nitrofen-induced CDH models. iPSC and organoid systems further demonstrate synergistic effects between genetic susceptibility and mechanical stress, supporting epigenetic regulation as a mechanistic bridge. CONCLUSIONS: Epigenetic mechanisms serve as core mediators linking genetic and environmental factors in CDH pathogenesis. Future directions include large-scale EWAS/WGBS and multiomics integration, establishment of standardized epigenetic databases, and ethically guided development of prenatal epigenetic diagnostics and targeted interventions. [full text, passages naming WT1] ...t defined | CDH (isolated or complex forms) | Qiao et al. ( | 2021 ) MYRF | De novo variants; associated with Cardiac\u2010Urogenital Syndrome (CUGS) | Retinoic acid (RA) signaling pathway (via modulation of GATA4, WT1, NR2F2, etc.) | Complex CDH (including cardiac and urogenital anomalies), diaphragmatic and pulmonary developmental defects | Qi et al. ( | 2018 ) GATA4 | Rare variants (familial and sporadic); candidate ge... ...1B | CNV associations (patient\u2010specific or enriched); array CGH studies | Transcriptional regulation; DNA binding and embryonic development | CDH (often with other structural anomalies) | Zhu et al. ( | 2018 ) WT1 | Conditional knockout mouse models; linked to retinoic acid | Retinoic acid signaling pathway | Bochdalek\u2010type CDH, diaphragmatic developmental defects | Carmona et al. ( | 2016 ) Common variant: SNP rs557... ...linical Immunology 152 , no. 3 : 582 \u2013 590 . 10.1016/j.jaci.2023.05.020 . 37295475 PMC10564109 , Carmona , R. , A. Ca\u00f1ete , E. Cano , L. Ariza , and A. Rojas . R. Mu\u00f1oz\u2010Ch\u00e1puli 2016 . \u201c Conditional Deletion of WT1 in the Septum Transversum Mesenchyme Causes Congenital Diaphragmatic Hernia in Mice .\u201d eLife 5 : e16009 . 10.7554/eLife.16009 . 27642710 PMC5028188 , Chater\u2010Diehl , E. , S. J. Goodman , C. Cytrynbaum , A. L...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41142893",
+   "title": "Congenital Diaphragmatic Hernia and Congenital Nephrotic Syndrome in a Low-Birth-Weight Infant: A Case Report.",
+   "abstract": "We encountered a case of congenital diaphragmatic hernia (CDH) and congenital nephrotic syndrome (CNS) in a low-birth-weight infant weighing < 2\u2009kg. Dialysis was required due to progressive acute kidney injury in the early postnatal period, and a peritoneal dialysis (PD) catheter was placed during CDH repair surgery. During the postoperative acute phase, continuous hemodialysis (CHD) was performed to minimize stress on the surgical site; however, owing to PD-related peritonitis and sutural insufficiency of the diaphragm, the transition to PD was not feasible, necessitating prolonged CHD. During the course of the illness, the patient developed vascular occlusion in the vessels suitable for blood access and superior vena cava syndrome, ultimately rendering continued CHD and PD impossible, leading to death at 74\u2009days of age. Respiratory and circulatory management are required during the perioperative period of CDH repair, necessitating multiple supportive therapies and careful nutritional management. This leads to a complex vicious cycle of complications, including protein loss due to CNS, coagulation disorders, circulatory failure, delayed wound healing because of malnutrition, increased susceptibility to infection, thrombosis, and infections associated with CHD and PD. Optimization of supportive therapies, including systemic anticoagulation management, infection control, and early establishment of nutrition, is considered crucial for the safe implementation of CHD or PD in such diseases. [full text, passages naming WT1] ...along with elevated maternal \u03b1 -fetoprotein at 755 ng/mL, led to the diagnosis of CNS [ 3 ]. Subsequent genetic testing confirmed the presence of a missense mutation c.1316G > A , p.Arg439His in exon 8 of the WT1 gene. Abdominal ultrasound ( Figure 2 ) revealed ascites, a right kidney measuring 49 mm, and a left kidney measuring 43 mm with no obvious hypoplasia. Owing to the rapid worsening of edema and lack of impr... ...s of anticoagulant factors, growth disorders involving multiple factors, and progressive renal failure, among other complications [ 3 ]. More than 70 syndromes associated with CDH have been reported, including WT1 syndrome; however, no single genetic cause accounting for > 3% of CDH cases has been documented [ 2 ]. Multiple gene mutations have been reported to cause CNS. The WT1 mutation, which exhibits a wide range... ...ed with CDH have been reported, including WT1 syndrome; however, no single genetic cause accounting for > 3% of CDH cases has been documented [ 2 ]. Multiple gene mutations have been reported to cause CNS. The WT1 mutation, which exhibits a wide range of phenotypes, leads to end-stage renal failure in early infancy [ 1 , 6 ]. The association between CDH and CNS is uncommon, with only a few reported cases, including a...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40229783",
+   "title": "Prevalence and perinatal risk factors of growth retardation in congenital diaphragmatic hernia survivors.",
+   "abstract": "BACKGROUND: Growth retardation (GR) is one of the major morbidities in congenital diaphragmatic hernia (CDH). This study aimed to investigate the prevalence and perinatal risk factors of growth failure in CDH survivors. METHODS: We retrospectively reviewed the medical records of isolated CDH patients with gestational age\u2009\u2265\u200935 weeks who survived to 3 years of age. Weight and length(height) were measured at 1 year, 2 and 3 years of age. GR was defined when the Z-score of weight or height was below -\u20092.0. We analyzed and compared the prenatal and clinical characteristics, including anthropometric data, fetal lung volume measurement, and treatment modalities during initial hospitalization, between the GR group and the non-GR group. RESULTS: Of the 116 patients with isolated CDH, 86 patients survived to NICU discharge (74.1%). A total of 77 patients who survived 3 years of age with follow-up growth parameters available were included in the study analysis. The rates of GR at 1 year, 2 and 3 years of age was 15.6% (12/77), 14.3% (11/77), and 23.4% (18/77) respectively. Patients with GR at any of the three time points were classified into the GR group (20/77, 26%). Compared with the non-GR group, GR group had lower weight at birth. The incidence of systemic corticosteroid use, mostly with hydrocortisone, were greater in the GR group than the non-GR group. The parameters that indicate disease severity, including observed-expected lung-to-head ratio, liver herniation, inhaled nitric oxide use, ECMO, patch repair did not differ between the two groups. Multivariate analysis revealed that low birthweight and systemic corticosteroid use were associated with increased odds of GR. Cumulative corticosteroid exposure was associated with impaired height growth, particularly during the first two years. CONCLUSION: For the first 3 years of age, GR was observed a significant portion of CDH survivors. Early identification of high-risk patients and targeted interventions, including minimizing corticosteroid exposure and optimizing nutritional support, may improve growth outcomes in this vulnerable population. [full text, passages naming WT1] ...16. Schwab ME Dong S Lianoglou BR Aguilar Lucero AF Schwartz GB Norton ME MacKenzie TC Sanders SJ Exome sequencing of fetuses with congenital diaphragmatic hernia supports a causal role for NR2F2, PTPN11, and WT1 variants Am J Surg 2022 223 1 182 6 10.1016/j.amjsurg.2021.07.016 34315577 Schwab ME, Dong S, Lianoglou BR, Aguilar Lucero AF, Schwartz GB, Norton ME, MacKenzie TC, Sanders SJ. Exome sequencing of fetuses w... ...wab ME, Dong S, Lianoglou BR, Aguilar Lucero AF, Schwartz GB, Norton ME, MacKenzie TC, Sanders SJ. Exome sequencing of fetuses with congenital diaphragmatic hernia supports a causal role for NR2F2, PTPN11, and WT1 variants. Am J Surg. 2022;223(1):182\u20136. 34315577 10.1016/j.amjsurg.2021.07.016 17. Cooke RJ Ainsworth SB Fenton AC Postnatal growth retardation: a universal problem in preterm infants Arch Dis Child Fetal N...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38419323",
+   "title": "Review of the Evaluation of Pulmonary Hypoplasia as an Important Determinant of Clinical Outcomes in Infants with Congenital Diaphragmatic Hernia.",
+   "abstract": "Pulmonary hypoplasia is one of main causes of neonatal mortality and morbidity in patients with congenital diaphragmatic hernia. With most cases diagnosed prenatally, the emphasis is put on prediction of the severity of this defect. Several attempts are made to reduce the mortality and provide optimal prenatal and postnatal care. Appropriate estimation of risk of pulmonary hypoplasia also provides an important inclusion criterion for prenatal intervention. The main tool used for the detection and prediction of pulmonary hypoplasia is ultrasound, with an increasing number of available formulas to estimate the risk of occurrence of this phenomenon and complication associated with it. For most of the formulas used in this measurement method, the main limitations are either gestational-age dependency or limited research. Other imaging methods used to assess the risk of pulmonary hypoplasia involve magnetic resonance imaging and vascular assessment of affected lungs. The limitation in these remains the limited accessibility. Currently, the most widely used indexes are observed-to-expected lungs-to-head ratio and presence of liver herniation. These are the 2 most commonly used measurement methods, as they are the basis for patient qualification for fetoscopic endoluminal tracheal occlusion. This article aims to review the evaluation of pulmonary hypoplasia or hypoplastic lung disease as an important determinant of clinical outcomes in infants with congenital diaphragmatic hernia. In this review, we emphasize the importance of early prenatal diagnosis of congenital diaphragmatic hernia and present a summary of different methods of prenatal risk assessment of lung hypoplasia in congenital diaphragmatic hernia. [full text, passages naming WT1] ...are often accompanied by aneuploidies, such as trisomy 21, 18, or 13, cytogenic rearrangements, or single gene mutations [ 17 , 19 ]. The aforementioned single gene mutations involving GATA4, ZFPM2, NR2F2, and WT1, as well as the retinoid acid pathway, affect not only the development of the diaphragm but also show effect in the development of the heart and lung, independently of the herniation [ 1 ]. Pathophysiology...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35904974",
+   "title": "Identifying phenotypic expansions for congenital diaphragmatic hernia plus (CDH+) using DECIPHER data.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) can occur in isolation or in conjunction with other birth defects (CDH+). A molecular etiology can only be identified in a subset of CDH cases. This is due, in part, to an incomplete understanding of the genes that contribute to diaphragm development. Here, we used clinical and molecular data from 36 individuals with CDH+ who are cataloged in the DECIPHER database to identify genes that may play a role in diaphragm development and to discover new phenotypic expansions. Among this group, we identified individuals who carried putatively deleterious sequence or copy number variants affecting CREBBP, SMARCA4, UBA2, and USP9X. The role of these genes in diaphragm development was supported by their expression in the developing mouse diaphragm, their similarity to known CDH genes using data from a previously published and validated machine learning algorithm, and/or the presence of CDH in other individuals with their associated genetic disorders. Our results demonstrate how data from DECIPHER, and other public databases, can be used to identify new phenotypic expansions and suggest that CREBBP, SMARCA4, UBA2, and USP9X play a role in diaphragm development. [full text, passages naming WT1] ...causes CDH in mice, ( CHAT, DNASE2, EFEMP2, EFNB1, FBN1, FGFRL1, FREM1, FZD2, GATA4, GLI2, GLI3, HLX, HOXB4, LOX, LRP2, MET, MSC, NIPBL, NR2F2, PAX3, PBX1, PDGFRA, RARA, RARB, ROBO1, SLIT3, SOX7, STRA6, TCF21, WT1, and ZFPM2 ) which acted as our CDH training gene set ( Callaway et al., 2018 ). Briefly, our machine learning algorithm integrated data from corresponding large-scale genomic knowledge including 1) Gene On... ...8 ; Vaisfeld et al., 2017 ). Five individuals in the cohort carried sequence changes in genes that have already been associated with CDH including CHRNG (n = 1) , GATA4 (n = 1), RARB (n = 1), STAG2 (n = 1) and WT1 (n =1) ( Aoi et al., 2020 ; Devriendt et al., 1995 ; Jordan et al., 2018 ; Morgan et al., 2006 ; Srour et al., 2013 ; Yu et al., 2015 ; Yu et al., 2013 ). The remaining 31 individuals carried sequence or CN...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34573387",
+   "title": "The Role of <i>De Novo</i> Variants in Patients with Congenital Diaphragmatic Hernia.",
+   "abstract": "The genetic etiology of congenital diaphragmatic hernia (CDH), a common and severe birth defect, is still incompletely understood. Chromosomal aneuploidies, copy number variations (CNVs), and variants in a large panel of CDH-associated genes, both de novo and inherited, have been described. Due to impaired reproductive fitness, especially of syndromic CDH patients, and still significant mortality rates, the contribution of de novo variants to the genetic background of CDH is assumed to be high. This assumption is supported by the relatively low recurrence rate among siblings. Advantages in high-throughput genome-wide genotyping and sequencing methods have recently facilitated the detection of de novo variants in CDH. This review gives an overview of the known de novo disease-causing variants in CDH patients. [full text, passages naming WT1] ...| 14 , 49 ] Apert syndrome | #101200 | | FGFR2 10q26.13 | chr10: 121,479,857\u2013121,598,403 | Acrocephaly, micrognathia, limb malformations | [ | 50 ] Denys-Drash syndrome, Meacham syndrome | #194080, #608978 | | WT1 11p13 | chr11: 32,389,058\u201332,435,360 | Male pseudohermaphroditism, cardiac abnormalities | [ | 51 , 52 ] Kabuki syndrome | #147920 | | KMT2D 12q13.12 | chr12: 49,018,978\u201349,060,794 | Mental retardation, sho... ...encing | | ZFPM2 8q23.1 | chr8: 105,318,438\u2013105,804,539 | 3 | [ | 12 , 23 , 68 ] WES, trio WES/WGS, targeted sanger sequencing | | EMX2 10q26.11 | chr10: 117,542,746\u2013117,549,546 | 1 | [ | 12 ] trio WES/WGS | | WT1 11p13 | chr11: 32,389,058\u201332,435,360 | 3 | [ | 12 , 16 ] trio WES/WGS | | PTPN11 12q24.13 | chr12: 112,419,112\u2013112,504,764 | 3 | [ | 12 , 16 , 17 ] trio WES/WGS | | MEIS2 15q14 | chr15: 36,889,204\u201337,100,54... ...S., Lianoglou B.R., Aguilar Lucero A.F., Schwartz G.B., Norton M.E., MacKenzie T.C., Sanders S.J. Exome sequencing of fetuses with congenital diaphragmatic hernia supports a causal role for NR2F2, PTPN11, and WT1 variants. Am. J. Surg. 2021;20 doi: 10.1016/j.amjsurg.2021.07.016. 17. Qiao L., Wynn J., Yu L., Hernan R., Zhou X., Duron V., Aspelund G., Farkouh-Karoleski C., Zygumunt A., Krishnan U.S., et al. Likely dam...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "37603350": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11372753": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28534317": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27417955": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41102401": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33379206": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29407184": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26265759": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12681485": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39425191": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28498419": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29016617": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23871158": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9001425": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25699704": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36074531": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28334862": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19847202": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35406427": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29668472": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21256590": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10529509": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24451388": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23699597": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24009315": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41171469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35407481": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8324644": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17454584": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10460515": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31876779": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32352694": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33735101": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21072664": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34315577": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "20301533": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28768736": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26278035": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15779010": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "27642710": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10792605": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34015093": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17071579": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23812634": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7645607": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "16932893": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "30382378": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "8811558": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "17194330": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41495530": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35507148": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15758579": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28878596": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28811308": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18203154": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37917714": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20885852": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35211794": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "12367587": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15653840": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35244683": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17361230": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39177649": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15357247": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "9090524": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38265486": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "8353414": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9810227": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38326647": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "12855602": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23835858": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "7504520": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29773598": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41894552": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33392118": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24619359": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "1327525": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42125881": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41785017": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41142893": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41246903": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41007834": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39183805": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40229783": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37990078": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38419323": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35892611": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41049046": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36749917": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35904974": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34917566": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39921473": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35633948": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34198563": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35037267": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34573387": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34621023": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34547244": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32591848": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39058789": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 5.3,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 458,
+   "usd": 0.0132,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "31 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4579,
+   "output_tokens": 204,
+   "usd": 0.005599,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 56.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.6,
+   "note": "",
+   "input_tokens": 35730,
+   "output_tokens": 1603,
+   "usd": 0.043745,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.0,
+   "note": "",
+   "input_tokens": 13556,
+   "output_tokens": 905,
+   "usd": 0.090405,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>68</established>\n    <existing>27</existing>\n    <hypothesized>5</hypothesized>\n    <novel>0</novel>\n  </probabilities>\n  <justification>Multiple independent human probands carry point (non-CNV) WT1 variants together with diaphragmatic defects: PMID 7645607 (Denys-Drash newborn with large diaphragmatic hernia and WT1 p.Arg366His), PMID 18203154 (a third independent DDS case with CDH and the same Arg366His mutation), PMID 16932893 (DDS infant with Arg366His and a diaphragmatic defect), and PMID 10792605 (intron 9 splice-site mutation in a boy with FSGS plus diaphragmatic hernia). These are complemented by trio exome sequencing of CDH fetuses reporting likely damaging de novo WT1 variants (PMID 34315577) and by WT1 mutations described in Meacham syndrome, which includes CDH. WAGR 11p13 deletion cases (PMIDs 15779010, 17194330) are supportive but multigenic and do not isolate WT1. The main caveat is PMID 8811558, which found no WT1 mutations in isolated CDH, suggesting WT1 mainly causes syndromic CDH; nonetheless, replicated human sequence-variant evidence supports an Established relationship, with residual probability on Existing.</justification>\n  <pmids>\n    <pmid>7645607</pmid>\n    <pmid>18203154</pmid>\n    <pmid>16932893</pmid>\n    <pmid>10792605</pmid>\n    <pmid>34315577</pmid>\n    <pmid>15779010</pmid>\n    <pmid>17194330</pmid>\n    <pmid>8811558</pmid>\n    <pmid>28768736</pmid>\n    <pmid>34573387</pmid>\n  </pmids>\n</response>"
+}

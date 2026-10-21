@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 2,
+    "model_organism": 3,
+    "biological": 12
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Association between SET expression and glioblastoma cell apoptosis and proliferation (PMID: 27698810)",
+        "evidence_subtype": "cell_culture",
+        "summary": "siRNA knockdown of SET in U87MG and U251 glioblastoma cells increased apoptosis and reduced proliferation and migration. It also lowered Bcl-2 and raised Bax and caspase-3 mRNA and protein. SET protein is nuclear and higher in glioma tissue than in normal brain, and higher expression tracks with WHO grade.",
+        "sample_size": "32 tissue samples (18 glioma, 2 meningioma, 12 normal brain); U251 and U87MG cell lines",
+        "significance": "Glioma vs normal brain P=0.001; apoptosis P=0.001 and P<0.001; proliferation P=0.002 and P=0.015; migration P=0.001"
+      },
+      {
+        "citation": "Up-regulation of I-2(PP2A)/SET gene expression in rat primary hepatomas and regenerating livers (PMID: 11078917)",
+        "evidence_subtype": "expression",
+        "summary": "SET/I-2(PP2A) is expressed ubiquitously across rat tissues but at low levels in liver. Expression is elevated in primary hepatomas and hyperplastic nodules. In regenerating liver it rises 12-24 h after partial hepatectomy, at the mid-G1 to S transition, which links SET to hepatocyte proliferation.",
+        "sample_size": null,
+        "significance": "Reported as significantly elevated (no p-value given)"
+      },
+      {
+        "citation": "Expression level of SET gene in acute myeloid leukemia and its clinical significance (PMID: 24857208)",
+        "evidence_subtype": "expression",
+        "summary": "High SET transcript level in de novo AML was associated with higher WBC counts, lower complete remission rate, and shorter overall and event-free survival. SET overexpression was an independent prognostic factor for overall survival.",
+        "sample_size": "141 AML patients",
+        "significance": "OS P=0.001; EFS P=0.005; CR rate P=0.005"
+      },
+      {
+        "citation": "Study on relationship between Set gene expression and clinical manifestations in bone marrow of patients with acute myelogenous leukemia (PMID: 29534404)",
+        "evidence_subtype": "expression",
+        "summary": "SET expression was significantly higher in AML bone marrow than in healthy controls. High expression correlated with marrow blast percentage and lower complete remission rate (32.1% vs 83.9%), and with poor OS and EFS. SET is proposed as an independent poor prognostic marker.",
+        "sample_size": "59 AML patients, 20 healthy controls",
+        "significance": "CR rate P=0.01; OS P=0.021; EFS P=0.017"
+      },
+      {
+        "citation": "The set gene is a potential oncogene in human colorectal adenocarcinoma and oral squamous cell carcinoma (PMID: 21725597)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SET mRNA was upregulated in 70% of colorectal adenocarcinoma samples compared with matched normal tissue. siRNA knockdown in Ls174 colon and HSC3 oral squamous carcinoma cells reduced proliferation (about 20%) and increased apoptosis (about 18%), consistent with an oncogenic role.",
+        "sample_size": "30 paired colorectal tumor/normal tissues; Ls174 and HSC3 cell lines",
+        "significance": "Apoptosis significantly higher than controls (p-value not given in abstract)"
+      },
+      {
+        "citation": "Regulation of SET Gene Expression by NFkB (PMID: 27351675)",
+        "evidence_subtype": "pathway",
+        "summary": "The human SET promoter contains a functional NFkB-responsive element, shown by luciferase and EMSA assays. NFkB overexpression or activation upregulates SET isoform 1 but not isoform 2. SET is elevated and mislocalized to the cytoplasm in Alzheimer's disease and Down syndrome brain, where it inhibits PP2A and contributes to tau pathology. The findings link oxidative stress and inflammation to abnormal SET expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cellular localization and expression of template-activating factor I in different cell types (PMID: 9597000)",
+        "evidence_subtype": "expression",
+        "summary": "TAF-I beta is the protein encoded by SET and acts as a chromatin remodeling factor. It is ubiquitously expressed in mouse tissues and conserved from yeast to human. Levels are stable through the cell cycle, and the protein is predominantly nuclear. Loss of the acidic region, which is essential for activity, leads to both nuclear and cytoplasmic localization.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MiR-502-3P suppresses cell proliferation, migration, and invasion in hepatocellular carcinoma by targeting SET (PMID: 27330307)",
+        "evidence_subtype": "pathway",
+        "summary": "SET is a direct target of miR-502-3P in HCC. miR-502-3P is downregulated in HCC cell lines and patient samples. Overexpressing it inhibits HCC proliferation, metastasis, invasion and adhesion, which implicates SET in HCC malignant behavior.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SET oncogene is upregulated in pediatric acute lymphoblastic leukemia (PMID: 22677993)",
+        "evidence_subtype": "expression",
+        "summary": "SET was overexpressed in 96.5% of B-ALL samples (16.6-fold) and 93% of T-ALL samples (47.6-fold) from BCR-ABL-negative pediatric patients. The upregulation was not associated with clinical features or survival.",
+        "sample_size": "59 pediatric ALL patients (29 B-ALL, 30 T-ALL)",
+        "significance": "Reported as significantly upregulated"
+      },
+      {
+        "citation": "Identification and characterization of a SET/NAP protein encoded by a brain-specific gene, MB20 (PMID: 11161794)",
+        "evidence_subtype": "function",
+        "summary": "MB20 is a brain-specific member of the NAP/SET family with a C-terminus homologous to SET proteins. It binds histones and is found in both cytoplasm and nucleus, and the N-terminal region controls its nuclear localization. These properties suggest a role in modulating nucleosome structure and gene expression during brain development.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

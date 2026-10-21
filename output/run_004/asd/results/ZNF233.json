@@ -1,0 +1,34 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 0,
+    "biological": 2
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Knockdown of ZNF233 suppresses hepatocellular carcinoma cell proliferation and tumorigenesis (PMID: 30179682)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF233 (19q13.31; 670-aa Kr\u00fcppel C2H2-type zinc finger protein) mRNA was markedly up-regulated in HCC tissues compared with matched non-tumorous liver. Its expression correlated with tumor grade, tumor stage and patient prognosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Knockdown of ZNF233 suppresses hepatocellular carcinoma cell proliferation and tumorigenesis (PMID: 30179682)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Overexpressing ZNF233 in SMMC-7721 cells promoted G1/S transition and accelerated cell growth. Knockdown in QGY-7701 cells suppressed proliferation in vitro and in xenograft tumors in vivo, where Ki-67-positive cells were reduced. This indicates a positive role in HCC cell growth and suggests ZNF233 as a possible biomarker and therapeutic target.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Integrative transcriptomic and CRISPR dependency analysis identifies hepatoblastoma-specific essential genes and actionable vulnerabilities (PMID: 42385356)",
+        "evidence_subtype": "expression",
+        "summary": "ZNF233 was among the genes overexpressed in hepatoblastoma tumors versus normal liver. In a single-cell deep-learning classifier separating tumor cells from hepatocytes, SHAP analysis identified it as a major contributor, so it is part of an HB-essential/tumor-identity signature. The abstract does not state whether ZNF233 itself was among the 6 genes confirmed absent or lowly expressed in the liver microenvironment.",
+        "sample_size": null,
+        "significance": "Classifier AUC = 0.99, F1 = 0.97 (signature-level, not ZNF233-specific)"
+      }
+    ]
+  }
+}

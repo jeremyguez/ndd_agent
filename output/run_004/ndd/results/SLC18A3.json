@@ -1,0 +1,129 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 4,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Recurrent deletions and reciprocal duplications of 10q11.21q11.23 including CHAT and SLC18A3 are likely mediated by complex low-copy repeats (PMID: 21948486)",
+        "num_patients": 24,
+        "variants": [
+          {
+            "description": "Heterozygous 10q11.21q11.23 (10q11.21q21.1) deletions, 0.3\u201312 Mb, encompassing CHAT and SLC18A3 (SLC18A3 lies in the first intron of CHAT). 24 unrelated individuals with deletions, 20 clinically evaluated; 19 deletions flanked by directly oriented segmental duplications (NAHR). 9 individuals also had additional copy number changes. A separate group of 17 individuals had reciprocal duplications.",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay",
+              "intellectual disability",
+              "hypotonia",
+              "sleep apnea",
+              "chronic constipation",
+              "gastroesophageal reflux",
+              "vesicoureteral reflux",
+              "epilepsy",
+              "ataxia",
+              "dysphagia",
+              "nystagmus",
+              "ptosis",
+              "variable expressivity and incomplete penetrance (deletion also found in apparently normal carrier parents)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Recurrent NAHR-mediated deletions detected by chromosomal microarray that include CHAT and SLC18A3. The authors suggest that hypotonia, ptosis, dysphagia and related features may result from deletion of these cholinergic genes. Penetrance is incomplete and expressivity variable, so causality is not established for SLC18A3 specifically.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Epilepsy phenotype and gene ontology analysis of the 129 genes in a large neurodevelopmental disorders cohort (PMID: 37645600)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified. SLC18A3 is named only in the full text, as one of 13 genes in the 'NDD-genes' group without definite reports of seizure-related phenotypes. These are genes with causative variants identified by exome sequencing in NDD patients with epilepsy. Zygosity and variant details are not given.",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Variant classified as causative by exome sequencing in a pediatric NDD cohort. Per-patient details are not provided.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Vesicular acetylcholine transporter defect underlies devastating congenital myasthenia syndrome (PMID: 28188302)",
+        "evidence_subtype": "function",
+        "summary": "Homozygous SLC18A3 p.Gly360Arg was found by exome sequencing in two brothers with severe hypotonia, arthrogryposis and respiratory failure, a presynaptic congenital myasthenic syndrome. In stably transfected PC12A123.7 cells the mutant VAChT had normal mRNA but undetectable protein, consistent with post-translational degradation and loss of function.",
+        "sample_size": "2 affected brothers; carrier frequency 1:30 in Yemeni Jews",
+        "significance": null
+      },
+      {
+        "citation": "SLC18A3 promoted renal cancer development through acetylcholine/cAMP signaling (PMID: 36225635)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SLC18A3 is upregulated in renal cancer patients. It enhances ACh uptake, which activates PKA/CREB signaling and drives cancer cell proliferation and invasive migration. SLC18A3 overexpression increased tumor growth and lung metastases in A489-bearing mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Inhibition of cholinergic signaling causes apoptosis in human bronchioalveolar carcinoma (PMID: 23222296)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Human BACs express VAChT (SLC18A3) along with other cholinergic factors, and nicotine upregulates ChAT and VAChT. The VAChT antagonist vesamicol induced apoptosis in cell culture and nude mouse models, and siRNA knockdown of VAChT reversed this effect. Vesamicol also inhibited Akt phosphorylation, and constitutively active Akt rescued the apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The cholinergic system in rat testis is of non-neuronal origin (PMID: 21482687)",
+        "evidence_subtype": "expression",
+        "summary": "Non-neuronal cells in the rat testis parenchyma express Slc18a3 mRNA, together with Chat, Slc5a7 and Slc22a2, in regions lacking innervation. This points to a non-neuronal cholinergic system, possibly involved in germ cell differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Oxidized/unmodified-polyethylene microplastics neurotoxicity in mice: Perspective from microbiota-gut-brain axis (PMID: 38484610)",
+        "evidence_subtype": "pathway",
+        "summary": "Slc18a3 mRNA and protein in the brain cholinergic synaptic pathway (with Chat and Slc5a7) were significantly down-regulated by LDPE or Ox-LDPE microplastic exposure in mice. This was accompanied by reduced acetylcholine and cognitive dysfunction, and DP189&GOS treatment rescued ACh release.",
+        "sample_size": null,
+        "significance": "significant down-regulation (p-values not given in abstract)"
+      },
+      {
+        "citation": "Arsenic Impairs Differentiation of Human Induced Pluripotent Stem Cells into Cholinergic Motor Neurons (PMID: 37624150)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In human iPSC-derived motor neurons, 0.5 \u03bcM arsenic impaired the cholinergic synapse pathway. SLC18A3 transcripts were downregulated at day 18, together with CHAT, SLC5A7 and ACHE.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spatial transcriptomic profiling of human paravertebral sympathetic chain ganglia reveals diabetes-induced neuroplasticity (PMID: 40667173)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 expression defined the cholinergic neuronal population in human lumbar sympathetic ganglia, distinct from the TH-defined noradrenergic populations. In diabetic ganglia, cholinergic neurons shifted toward a noradrenergic identity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Gene expression profiles in peripheral blood mononuclear cells of Asian obstructive sleep apnea patients (PMID: 24732660)",
+        "evidence_subtype": "expression",
+        "summary": "SLC18A3 was differentially expressed in PBMCs of OSA patients versus controls by microarray. Its expression was a possible marker of severe OSA (RDI>30).",
+        "sample_size": null,
+        "significance": "p=0.0006"
+      },
+      {
+        "citation": "Identifying genetic variants for heart rate variability in the acetylcholine pathway (PMID: 25384021)",
+        "evidence_subtype": "GWAS",
+        "summary": "A candidate gene association study tested 443 variants in eight acetylcholine pathway genes, including SLC18A3, for association with RMSSD heart rate variability. No SNP was significant after multiple testing correction, so SLC18A3 showed no common-variant association.",
+        "sample_size": "n=6740 (3429 discovery + 3311 replication)",
+        "significance": "none significant after multiple-testing correction"
+      },
+      {
+        "citation": "Transcriptome-scale spatial gene expression in rat arcuate nucleus during puberty (PMID: 35063020)",
+        "evidence_subtype": "expression",
+        "summary": "In the rat arcuate nucleus, the Kiss1-expressing neuronal subcluster could be isolated using SLC18A3 as a unique membrane surface biomarker, showing SLC18A3 is enriched in kisspeptin neurons.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

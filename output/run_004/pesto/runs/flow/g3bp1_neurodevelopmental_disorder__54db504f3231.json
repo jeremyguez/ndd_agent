@@ -1,0 +1,826 @@
+{
+ "gene": "G3BP1",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "disorder of neurological development",
+   "neurodevelopmental impairment"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "G3BP",
+   "HDH-VIII",
+   "G3BP stress granule assembly factor 1"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 81,
+  "titlekicksparingfulltext": 16,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 8,
+   "Existing": 63,
+   "Hypothesized": 27,
+   "Novel": 2
+  },
+  "justification": "The primary human genetic evidence comes from a single large de novo variant study (PMID 35977029), which reported a nominally significant excess of de novo variants in core stress-granule genes including G3BP1 among 40,853 individuals with NDDs, with functional validation showing NDD-related variants disrupt the SG interaction network. This is one credible but not definitive human study; the gene-level signal was only nominal and the main established gene in that paper was UBAP2L (and CAPRIN1), not G3BP1. Secondary sources (PMIDs 39995077, 42401939, 34526993) list G3BP1 among NDD/ASD-associated RNA-binding proteins, but these restate the association as background rather than providing independent proband-level evidence, so replication criteria for \"Established\" are not met. Remaining weight goes to Hypothesized, since much supporting data is mechanistic/in vitro (G3BP1 as the central SG nucleator interacting with CAPRIN1, UBAP2L, DDX3X), providing strong biological plausibility without independent patient variant replication.",
+  "pmids": [],
+  "detail": {
+   "Established": 8,
+   "Existing": 63,
+   "Hypothesized": 27,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35977029",
+   "title": "De novo variants in genes regulating stress granule assembly associate with neurodevelopmental disorders.",
+   "abstract": "Stress granules (SGs) are cytoplasmic assemblies in response to a variety of stressors. We report a new neurodevelopmental disorder (NDD) with common features of language problems, intellectual disability, and behavioral issues caused by de novo likely gene-disruptive variants in UBAP2L, which encodes an essential regulator of SG assembly. Ubap2l haploinsufficiency in mouse led to social and cognitive impairments accompanied by disrupted neurogenesis and reduced SG formation during early brain development. On the basis of data from 40,853 individuals with NDDs, we report a nominally significant excess of de novo variants within 29 genes that are not implicated in NDDs, including 3 essential genes (G3BP1, G3BP2, and UBAP2L) in the core SG interaction network. We validated that NDD-related de novo variants in newly implicated and known NDD genes, such as CAPRIN1, disrupt the interaction of the core SG network and interfere with SG formation. Together, our findings suggest the common SG pathology in NDDs.",
+   "found_by": [],
+   "pubdate": "2022 Aug 19",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34526993",
+   "title": "Research Progress on the Structure and Function of G3BP.",
+   "abstract": "Ras-GTPase-activating protein (SH3 domain)-binding protein (G3BP) is an RNA binding protein. G3BP is a key component of stress granules (SGs) and can interact with many host proteins to regulate the expression of SGs. As an antiviral factor, G3BP can interact with viral proteins to regulate the assembly of SGs and thus exert antiviral effects. However, many viruses can also use G3BP as a proximal factor and recruit translation initiation factors to promote viral proliferation. G3BP regulates mRNA translation and attenuation to regulate gene expression; therefore, it is closely related to diseases, such as cancer, embryonic death, arteriosclerosis, and neurodevelopmental disorders. This review discusses the important discoveries and developments related G3BP in the biological field over the past 20 years, which includes the formation of SGs, interaction with viruses, stability of RNA, and disease progression.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "33619090",
+   "title": "TIA1 potentiates tau phase separation and promotes generation of toxic oligomeric tau.",
+   "abstract": "Tau protein plays an important role in the biology of stress granules and in the stress response of neurons, but the nature of these biochemical interactions is not known. Here we show that the interaction of tau with RNA and the RNA binding protein TIA1 is sufficient to drive phase separation of tau at physiological concentrations, without the requirement for artificial crowding agents such as polyethylene glycol (PEG). We further show that phase separation of tau in the presence of RNA and TIA1 generates abundant tau oligomers. Prior studies indicate that recombinant tau readily forms oligomers and fibrils in vitro in the presence of polyanionic agents, including RNA, but the resulting tau aggregates are not particularly toxic. We discover that tau oligomers generated during copartitioning with TIA1 are significantly more toxic than tau aggregates generated by incubation with RNA alone or phase-separated tau complexes generated by incubation with artificial crowding agents. This pathway identifies a potentially important source for generation of toxic tau oligomers in tau-related neurodegenerative diseases. Our results also reveal a general principle that phase-separated RBP droplets provide a vehicle for coassortment of selected proteins. Tau selectively copartitions with TIA1 under physiological conditions, emphasizing the importance of TIA1 for tau biology. Other RBPs, such as G3BP1, are able to copartition with tau, but this happens only in the presence of crowding agents. This type of selective mixing might provide a basis through which membraneless organelles bring together functionally relevant proteins to promote particular biological activities.",
+   "found_by": [],
+   "pubdate": "2021 Mar 2",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39007803",
+   "title": "UBAP2L contributes to formation of P-bodies and modulates their association with stress granules.",
+   "abstract": "Stress triggers the formation of two distinct cytoplasmic biomolecular condensates: stress granules (SGs) and processing bodies (PBs), both of which may contribute to stress-responsive translation regulation. Though PBs can be present constitutively, stress can increase their number and size and lead to their interaction with stress-induced SGs. The mechanism of such interaction, however, is largely unknown. Formation of canonical SGs requires the RNA binding protein Ubiquitin-Associated Protein 2-Like (UBAP2L), which is a central SG node protein in the RNA-protein interaction network of SGs and PBs. UBAP2L binds to the essential SG and PB proteins G3BP and DDX6, respectively. Research on UBAP2L has mostly focused on its role in SGs, but not its connection to PBs. We find that UBAP2L is not solely an SG protein but also localizes to PBs in certain conditions, contributes to PB biogenesis and SG-PB interactions, and can nucleate hybrid granules containing SG and PB components in cells. These findings inform a new model for SG and PB formation in the context of UBAP2L's role.",
+   "found_by": [],
+   "pubdate": "2024 Oct 7",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39729994",
+   "title": "G3BP-driven RNP granules promote inhibitory RNA-RNA interactions resolved by DDX3X to regulate mRNA translatability.",
+   "abstract": "Ribonucleoprotein (RNP) granules have been linked to translation regulation and disease, but their assembly and regulatory mechanisms are not well understood. Here, we show that the RNA-binding protein G3BP1 preferentially interacts with unfolded RNA, driving the assembly of RNP granule-like condensates that establish RNA-RNA interactions. These RNA-RNA interactions limit the mobility and translatability of sequestered mRNAs and stabilize the condensates. The DEAD-box RNA helicase DDX3X attenuates RNA-RNA interactions inside RNP granule-like condensates, rendering the condensates dynamic and enabling mRNA translation. Importantly, disease-associated and catalytically inactive DDX3X variants fail to resolve such RNA-RNA interactions. Inhibiting DDX3X in cultured cells accelerates RNP granule assembly and delays their disassembly, indicating that RNA-RNA interactions contribute to RNP granule stability in cells. Our findings reveal how RNP granules generate inhibitory RNA-RNA interactions that are modulated by DEAD-box RNA helicases to ensure RNA availability and translatability.",
+   "found_by": [],
+   "pubdate": "2025 Feb 6",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "30185525",
+   "title": "Chronic starvation induces noncanonical pro-death stress granules.",
+   "abstract": "Stress granules (SGs) assemble under stress-induced conditions that inhibit protein synthesis, including phosphorylation of eIF2\u03b1, inhibition of the RNA helicase eIF4a proteins or inactivation of mTORC1. Classically defined SGs are composed of translation initiation factors, 40S ribosomes, RNA-binding proteins and poly(A)+ mRNAs. As such, they represent an important compartment for storage of mRNAs and regulation of their translation. Emerging work on SGs indicates that these structures might promote cellular survival in diverse disease states. Yet, much work on SG formation and function employs acute stress conditions, which might not accurately reflect the chronic stresses that manifest in human disease. Here, we used prolonged nutrient starvation to model and investigate SG formation and function during chronic stress in a human cell line and mouse embryonic fibroblasts. Surprisingly, we found that SGs that form under chronic nutrient starvation lack 40S ribosomes, do not actively exchange their constituent components with cytoplasmic pools and promote cell death. We named these SGs starvation-induced SGs (stSGs). Our results on stSGs imply that SG assembly and function in the context of prolonged nutrient starvation stress differ significantly from what has been described for acute stress conditions.",
+   "found_by": [],
+   "pubdate": "2018 Oct 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39951026",
+   "title": "Perillaldehyde Improves Parkinson-Like Deficits by Targeting G3BP Mediated Stress Granule Assembly in Preclinical Models.",
+   "abstract": "Stress granules (SGs) fulfill a pivotal role in host defense mechanisms, by sequestering both mRNA and protein via the process of liquid-liquid phase separation (LLPS). In this study, we showed that perillaldehyde (PAE), a natural occurring compound, bound directly to the core protein of SGs, Ras GTPase-activating protein-binding protein 1/2 (G3BP1/2), thereby inducing the assembly of SGs through the LLPS of G3BP/RNA complexes in vitro. Moreover, in Parkinson's disease (PD) models using Caenorhabditis elegans (C. elegans) and mice, PAE administration prompted SG formation, enhanced eIF2\u03b1 phosphorylation, shielded dopaminergic neurons from toxic insults, mitigated \u03b1-synuclein (\u03b1-syn) aggregation, and improved PD-like motor disorders. In addition, these findings revealed that the interaction between G3BP1 and histone deacetylase 6 (HDAC6) inhibited the functions of cytoplasmic HDAC6 and reduced \u03b1-syn aggregation in cells and worms. Notably, the inhibition of SG assembly via gtbp-1 and tiar-1 RNAi effectively counteracted the beneficial effects of PAE in C. elegans. Collectively, these results imply that PAE may exert neuroprotective effects by targeting G3BP-mediated SG formation, thereby safeguarding dopaminergic neurons from toxic damage.",
+   "found_by": [],
+   "pubdate": "2025 Apr",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "39106168",
+   "title": "Stress granule formation helps to mitigate neurodegeneration.",
+   "abstract": "Cellular stress pathways that inhibit translation initiation lead to transient formation of cytoplasmic RNA/protein complexes known as stress granules. Many of the proteins found within stress granules and the dynamics of stress granule formation and dissolution are implicated in neurodegenerative disease. Whether stress granule formation is protective or harmful in neurodegenerative conditions is not known. To address this, we took advantage of the alphavirus protein nsP3, which selectively binds dimers of the central stress granule nucleator protein G3BP and markedly reduces stress granule formation without directly impacting the protein translational inhibitory pathways that trigger stress granule formation. In Drosophila and rodent neurons, reducing stress granule formation with nsP3 had modest impacts on lifespan even in the setting of serial stress pathway induction. In contrast, reducing stress granule formation in models of ataxia, amyotrophic lateral sclerosis and frontotemporal dementia largely exacerbated disease phenotypes. These data support a model whereby stress granules mitigate, rather than promote, neurodegenerative cascades.",
+   "found_by": [],
+   "pubdate": "2024 Sep 9",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40745099",
+   "title": "Stress granule clearance mediated by V-ATPase-interacting protein NCOA7 mitigates ovarian aging.",
+   "abstract": "Reproductive longevity is essential for female fertility and healthy aging; however, the role of stress response, especially stress granule accumulation, in ovarian aging remains elusive and interventions are lacking. Here, we identified deleterious mutations and decreased expression of NCOA7, a stress-response protein related to granulosa cell senescence in women with physiological and pathological ovarian aging. NCOA7 deletion accelerates oxidative stress-related cellular senescence, ovarian aging and fecundity decline in mice. Mechanistically, NCOA7 partitions into the stress granule containing G3BP1-V-ATPase and facilitates autophagic degradation of stress granules to relieve stress. Boosting granulophagy with rapamycin or lipid nanoparticle-based mRNA delivery of NCOA7 accelerates stress granule clearance, alleviating cellular senescence in human granulosa cells and delaying ovarian aging in mice. This study depicts a mechanism for ovarian resilience to stress and provides potential targets for therapeutic strategies to alleviate ovarian aging.",
+   "found_by": [],
+   "pubdate": "2025 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35252555",
+   "title": "G3BP1 modulates SPOP to promote prostate tumorigenesis.",
+   "abstract": "Speckle-type POZ protein (SPOP), a Cullin 3-based ubiquitin ligase (CUL3SPOP), acts as a prostate-specific tumor suppressor. Loss-of-function mutations in SPOP occur in 10% of primary prostate cancer with a high Gleason grade and poor prognosis. However, it is unclear how the ubiquitin ligase activity of SPOP is controlled and how dysregulation of SPOP contributes to malignant transformation. Here, we identified GTPase Activating Protein (SH3 Domain) Binding Protein 1 (G3BP1) as an interactor and upstream regulator of CUL3SPOP, and it functions as an inhibitor of CUL3SPOP ubiquitin ligase, suggesting a distinctive mode of CUL3SPOP inactivation that aggravates prostate cancer.",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40848858",
+   "title": "Multifunctional regulation and treatment of ubiquitin specific protease 10.",
+   "abstract": "USP10 is a critical deubiquitinating enzyme within the ubiquitin-specific protease family, playing multifaceted roles in cellular physiology and disease pathogenesis. Structurally composed of a G3BP1-interacting motif, a N-terminal domain (mediating most protein interactions), and a catalytic USP domain (residues 415-795, catalytic triad C424-H736-D751), USP10 regulates diverse cellular pathways by stabilizing key proteins through deubiquitination. It exhibits context-dependent functional duality, particularly in cancer: USP10 promotes tumorigenesis in various cancers (e.g., glioblastoma, esophageal, pancreatic, breast cancers) by stabilizing oncoproteins like CCND1, YAP1, HDAC7, and RUNX1, enhancing proliferation, metastasis, and immune evasion. Conversely, it suppresses tumors (e.g., NSCLC, CRC, thyroid cancer) by stabilizing tumor suppressors like p53, PTEN, and Axin1, inhibiting pathways such as Wnt/\u03b2-catenin. Beyond oncology, USP10 contributes to neurodegenerative diseases (neuroprotective in PD/ALS, neurotoxic in AD via Tau stabilization), viral immunity (inhibits SARS-CoV-2 infection), inflammatory responses, male reproduction, and metabolic/cardiovascular disorders. Its regulatory mechanisms include phosphorylation (e.g., by AMPK, AKT, ATM) controlling subcellular localization and activity, and ubiquitination via USP13. USP10's therapeutic significance drives inhibitor development (Spautin-1, D1, Wu-5, P22077, Parthenolide), though cross-reactivity within the USP family due to conserved catalytic domains remains a challenge. Novel strategies like PROTACs and engineered ubiquitin variants (UbVs) offer promise for future selective targeting of USP10 dysregulation in diverse diseases. A comprehensive understanding of its structure and context-specific functions is essential for exploiting its full therapeutic potential.",
+   "found_by": [],
+   "pubdate": "2025 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40064891",
+   "title": "Suppression of stress granule formation is a vulnerability imposed by mutant p53.",
+   "abstract": "Missense mutations in the TP53 (p53) gene have been linked to malignant progression. However, our in-silico analyses reveal that hepatocellular carcinoma (HCC) patients with mutant p53 (mutp53) have better overall survival compared to those with p53-null (p53null) HCC, unlike other cancer types. Given the historical use of sorafenib (SOR) monotherapy for advanced HCC, we hypothesize that mutp53 increases sensitivity to SOR, a multikinase inhibitor that induces endoplasmic reticulum (ER) stress. Here we show that mutp53 inhibits stress granule (SG) formation by binding to an ER stress sensor, PKR-like ER kinase (PERK), and a key SG component, GAP SH3 domain-binding protein 1 (G3BP1), contributing to increased sensitivity of SG-competent cells and xenografts to ER stress inducers including SOR. Our study identifies a unique vulnerability imposed by mutp53, suggesting mutp53 as a biomarker for ER stress-inducing agents and highlighting the importance of SG inhibition for cancer treatment.",
+   "found_by": [],
+   "pubdate": "2025 Mar 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40473629",
+   "title": "\u03b2-propeller protein-associated neurodegeneration protein WDR45 regulates stress granule disassembly via phase separation with Caprin-1.",
+   "abstract": "\u03b2-propeller protein-associated neurodegeneration (BPAN) is a rare X-linked neurodegenerative disorder caused by mutations in the WDR45 gene, yet its molecular mechanisms remain poorly understood. Here, we identify a role for WDR45 in stress granule (SG) disassembly, mediated through its phase separation with Caprin-1. We demonstrate that WDR45 forms gel-like condensates via its WD5 domain, which competitively displaces G3BP1 from Caprin-1 to promote SG disassembly. BPAN-associated WDR45 mutations impair condensate formation and Caprin-1 interaction, leading to delayed SG disassembly, which correlates with earlier disease onset. WDR45 depletion also exacerbates amyotrophic lateral sclerosis-associated pathological SGs, highlighting its broader relevance to neurodegenerative diseases. Using iPSC-derived midbrain neurons from a BPAN patient, we demonstrate delayed SG recovery, directly linking WDR45 dysfunction to neurodegeneration. These findings establish WDR45 as a critical regulator of SG dynamics, uncover a potential molecular basis of BPAN pathogenesis, and identify therapeutic targets for neurodegenerative diseases associated with SG dysregulation.",
+   "found_by": [],
+   "pubdate": "2025 Jun 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41061052",
+   "title": "ASPL couples the assembly of stress granules with their VCP-mediated disassembly.",
+   "abstract": "Stress granules (SGs) are dynamic RNA-protein assemblies that form in response to cellular stress and must be efficiently disassembled to restore normal cell function. Valosin-containing protein (VCP), an enzyme implicated in neurodegenerative diseases, is essential for SG disassembly, but whether and how this process is coordinated with SG assembly remains unclear. Here, we identify the VCP cofactor, Alveolar soft part sarcoma locus (ASPL) as a key regulator linking SG assembly and disassembly. ASPL promotes SG assembly by facilitating biomolecular condensation of Ras guanosine triphosphatase-activating protein-binding protein (G3BP) and stabilizing its interactions with other SG proteins. ASPL also facilitates phosphorylation and activation of VCP by UNC-51-like kinases 1 and 2 (ULK1/2), enabling G3BP extraction and efficient SG disassembly. Pathogenic VCP mutations that disrupt ASPL binding impair SG disassembly, a defect rescued by phosphomimetic mutations or ASPL depletion. Our findings suggest that disruptions in the ASPL-VCP interaction uncouple SG assembly and disassembly, representing a potential mechanism underlying VCP-associated neurodegenerative diseases.",
+   "found_by": [],
+   "pubdate": "2025 Oct 10",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41859620",
+   "title": "CAPRIN1 (Cell Cycle-Associated Protein 1)-Related Neurodevelopmental Disorder: A Novel Mutation With Ataxia.",
+   "abstract": "Mutations in the cell cycle-associated protein 1 (CAPRIN1) gene have been shown to present with language impairment, speech delay, intellectual disability, attention deficit hyperactivity disorder (ADHD), autism spectrum disorder (ASD), respiratory problems, limb and skeletal anomalies, developmental delay, feeding difficulties, seizures, ophthalmologic problems, cerebellar ataxia, dysmorphic features, and hearing loss. CAPRIN1 is involved in regulating the transport and translation of neuronal mRNAs, which encode for cell proliferation and migration proteins, and has been identified as a core component of stress granules. The majority of reported pathogenic mutations in the CAPRIN1 gene result in decreased protein levels and haploinsufficiency; however, they can also result in protein expansion. We present the case of a patient with ASD, gross motor delay, fine motor delay, speech delay, mixed receptive-expressive language disorder, incontinence, and ADHD. Whole exome sequencing was significant for a likely pathogenic variant in the maternally inherited CAPRIN1 gene, c. 1045 C > T, p. (Q349*), with clinical correlation supporting a diagnosis of CAPRIN1-related neurodevelopmental disorder. Further analysis demonstrated that the patient's likely pathogenic variant in the CAPRIN1 gene, c. 1045 C > T, p. (Q349*), was a nonsense mutation, de novo and heterozygous, likely resulting in loss of function of the CAPRIN1 protein. This novel mutation in the CAPRIN1 gene has not been previously described in the literature. This novel variant is consistent with the most common identified CAPRIN1 mutations, and his phenotypic presentation included the most common symptoms reported with CAPRIN1 mutations, including language impairment and speech delay, ADHD, ASD, respiratory symptoms, as well as ataxia. [full text, passages naming G3BP1] ...on in this patient was located at residue 349, immediately adjacent to residues 352 to 380 [ 8 ]. Previous studies have demonstrated that CAPRIN1 interacts with Ras-GTPase-activating protein binding protein 1 (G3BP1), nuclear transport factor 2-like (NTF2L) at this domain [ 8 ]. The 29-amino acid sequence 352-380 has previously been identified as sufficient for recognition by G3BP-1 [ 8 ]. This is significant because... ...ch mediates the reversible assembly of stress granules [ 8 ]. The site of presumed truncation in this patient, its location relative to other known CAPRIN1 pathogenic variants, and its location relative to the G3BP1 interaction domain are demonstrated in Figure 1 (adapted from Pavinato et al.) [ 11 ]. Figure 1 CAPRIN1 neurodevelopmental disorder genetic variants Adapted from Pavinato et al. [ 11 ]. Schematic represen... ...created with BioRender.com ). The CAPRIN1 presumed loss-of-function, likely pathogenic variant described in this report ( NM_005898.4 ) was added to the figure, demonstrated in the red box, p. (Gln349Ter). The G3BP1 interaction domain, composed of the 29 amino acid sequence 352-380, is highlighted in purple (bottom of figure) Of the 12 previously reported cases, the neurodevelopmental phenotype consisted of language...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41384038",
+   "title": "Biogenesis and function of circular RNAs and their implications in the Down syndrome brain.",
+   "abstract": "Circular RNAs (circRNAs), a class of covalently closed, non-coding RNAs, have recently emerged as crucial regulators of gene expression. They exert their roles through microRNA (miRNA) sponging, transcriptional regulation, and interactions with RNA-binding proteins (RBPs). Increasing evidence suggests that circRNAs play important roles in neurodevelopmental disorders, including Down syndrome (DS). DS is a condition caused by trisomy of chromosome 21 and characterised by intellectual disability (ID), neuroinflammation, and increased risk of early-onset Alzheimer's disease (AD). Aberrant circRNA expression in DS may contribute to pathogenesis by disrupting competing endogenous RNA (ceRNA) networks, modulating synaptic plasticity, and influencing key molecular pathways, including EZH2-mediated chromatin remodelling, immune response regulation, and neuronal differentiation. Despite these emerging insights, the role of circRNAs in DS remains largely underexplored compared to their well-recognised functions in cancer and other neurological disorders. Most current studies have focused on transcriptomic analyses, identifying differentially expressed circRNAs and predicting their interactions with miRNAs and mRNAs. However, these findings require further experimental validation to uncover the precise mechanisms through which circRNAs contribute to DS pathophysiology. This review highlights the association of circRNAs with DS, emphasising their dysregulation and mechanistic interactions with miRNAs and mRNAs. It further explores how these circRNA-mediated mechanisms may contribute to intellectual disability and impaired neurodevelopment, based on current evidence. [full text, passages naming G3BP1] ...elective circRNA decay. (iii) RBP complex\u2013mediated degradation: Several RBP complexes participate in circRNA turnover. For instance, RNase H1 can degrade circRNAs that form DNA\u2013RNA hybrids; UPF1, together with G3BP1, recognises specific circRNA structures to promote their clearance; and RNase L is activated during viral infection, leading to circRNA cleavage and the subsequent release of PKR, which enhances antiviral... ...ver, circRNAs are also susceptible to degradation mediated by RBP complexes. For example, the RNA helicase UPF1 can unwind circRNA secondary structures, thereby enabling subsequent cleavage by the endonuclease G3BP1 (G3BP Stress Granule Assembly Factor 1) ( Fischer et al., 2020 ). In some cases, circRNAs such as ci-ankrd52 form stable RNA\u2013DNA hybrids at their transcription sites, giving rise to R-loops that are speci... ...and GABAergic signaling in Down syndrome . Cureus 17 ( 2 ), e79623 . 10.7759/cureus.79623 40151699 PMC11949090 ( Fischer J. W. Busa V. F. Shao Y. Leung A. K. L. 2020 ). Structure-mediated RNA decay by UPF1 and G3BP1 . Mol. Cell 78 ( 1 ), 70 \u2013 84.e6 . 10.1016/j.molcel.2020.01.021 32017897 PMC8055448 ( Gallie D. R. 1991 ). The cap and poly(A) tail function synergistically to regulate mRNA translational efficiency . Gen...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40965981",
+   "title": "PTBP1 variants displaying altered nucleocytoplasmic distribution are responsible for a neurodevelopmental disorder with skeletal dysplasia.",
+   "abstract": "Polypyrimidine tract-binding protein 1 (PTBP1) is a heterogeneous nuclear ribonucleoprotein primarily known for its alternative splicing activity. It shuttles between the nucleus and cytoplasm via partially overlapping N-terminal nuclear localization (NLS) and export (NES) signals. Despite its fundamental role in cell growth and differentiation, its involvement in human disease remains poorly understood. We identified 27 individuals from 25 families harboring de novo or inherited pathogenic variants - predominantly start-loss (89%) and, to a lesser extent, missense (11%) - affecting NES/NLS motifs. Affected individuals presented with a syndromic neurodevelopmental disorder and variable skeletal dysplasia with disproportionate short stature with short limbs. Intellectual functioning ranged from normal to moderately delayed. Start-loss variants led to translation initiation from an alternative downstream in-frame methionine, resulting in loss of the NES and the first half of the bipartite NLS, and increased cytoplasmic stability. Start-loss and missense variants shared a DNA methylation episignature in peripheral blood and altered nucleocytoplasmic distribution in vitro and in vivo with preferential accumulation in processing bodies, causing aberrant gene expression but normal RNA splicing. Transcriptomic analysis of patient-derived fibroblasts revealed dysregulated pathways involved in osteochondrogenesis and neurodevelopment. Overall, our findings highlight a cytoplasmic role for PTBP1 in RNA stability and disease pathogenesis. [full text, passages naming G3BP1] ...zed that its subcellular localization could be linked to cytoplasmic structures related to RNA metabolism and gene expression. We performed coimmunostaining for PTBP1 and G3BP stress granule assembly factor 1 (G3BP1) (MIM 608431), which is implicated in stress granule nucleation, and decapping mRNA 1A (DCP1A) (MIM 607010), an enzyme that is part of an RNA degrading complex associated with NMD in processing bodies (P-... ...king, and the Golgi-associated protein GOPC/PIST (MIM 606845) ( 64 , 65 ). Confocal imaging of NIH-3T3 cells transfected with the PTBP1-4-tGFP start-loss construct revealed no colocalization with the 3 markers G3BP1, EEA1, and GOPC/PIST ( Supplemental Figure 8A ). However, PTBP1-4-tGFP containing pathogenic start-loss and missense variants showed colocalization with DCP1A, with a Pearson\u2019s coefficient calculated for... ...Pearson\u2019s coefficient calculated for the above PTBP1-4 mutants close to 0.9 ( Figure 4, A and B ), significantly higher than in cells transfected with the WT or p.Lys46Arg plasmid or compared with the markers G3BP1, EEA1, and GOPC/PIST (below 0.5, Supplemental Figure 8B ). To test whether PTBP1 and DCP1A were in close vicinity, we performed a proximity ligation assay in primary fibroblasts derived from start-loss an...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41757349",
+   "title": "Liquid-liquid phase separation couples MKRN2-mediated ubiquitination of CSDE1 with neurodevelopmental disorders.",
+   "abstract": "BACKGROUND: Makorin-2 (MKRN2) is an E3 ubiquitin ligase involved in multiple biological processes, yet its role in neurological disorders remains poorly understood. This study aims to elucidate how MKRN2 regulates the RNA-binding protein CSDE1-a molecule linked to autism-related genes-and to explore the functional implications of this interaction in neurodevelopment. METHODS: Using mass-spectrometry screening, we identified CSDE1 as a direct substrate of MKRN2. Ubiquitination sites were validated through mutagenesis of conserved lysine residues. Liquid-liquid phase separation (LLPS) assays were performed in HEK293 and SH-SY5Y cells, and behavioral phenotypes were assessed in Mkrn2-knockout mice. Statistical analyses included appropriate tests for comparing ubiquitination levels, condensate formation, and social behavior outcomes. RESULTS: MKRN2 mediates CSDE1 ubiquitination at four lysine residues (K81, K91, K208, K727). Deletion of MKRN2 or mutation of these sites abolished ubiquitination. MKRN2 and CSDE1 formed co-localized condensates via LLPS, which was disrupted by functional impairment of either protein. Mkrn2-knockout mice exhibited sex-specific social abnormalities-increased sociability in males and social withdrawal in females-recapitulating autism-spectrum disorder (ASD) heterogeneity. We further identified MARK1 and HNRNPUL2, ASD-associated mRNAs, as ubiquitination-dependent targets of CSDE1, linking aberrant condensate dynamics to synaptic plasticity deficits. CONCLUSION: Our study reveals an LLPS-coupled ubiquitination mechanism by which MKRN2 regulates CSDE1, providing a novel molecular pathway underlying neurodevelopmental disorders. These findings offer new insights for understanding and treating neurological diseases such as ASD. [full text, passages naming G3BP1] ...enomes to established the stably transfected cell lines. 2.3 CSDE1 and MKRN2 intracellular phase diagrams HEK293 or SHSY5Y control and MKRN2 KO cells were transfected with EGFP -MKRN2 or mCherry -CSDE1 or GFP -G3BP1 plasmids. After 24 h of expression, cells were digested and then spread on a 29 mm dish with 20 mm glass-bottom well. 48 h after transfection, cells were stressed with 100 mM sodium arsenite for 20\u201330 min... ...Olympus SpinSR and Zeiss LSM900 confocal laser-scanning microscope with a 60x objective. Phase diagrams were constructed by measuring fluorescence intensity in each cell and assessing the presence of SGs using G3BP1 as a marker ( Yang et al., 2020 ), using Fiji software. 2.4 Liquid\u2013liquid phase separation In vitro LLPS experiments were performed at room temperature unless otherwise indicated. Purified EGFP-MKRN2 and... ...intensity over time under various conditions, indicating differences in protein behavior between control and knockout cells. To verify that these structures are bona fide LLPS assemblies we co-transfected GFP\u2013G3BP1, the archetypal SG nucleator ( Yang et al., 2020 ). G3BP1 colocalized almost completely with CSDE1 puncta ( Supplementary Figure 2 F). Time-lapse imaging showed fusion events and relaxation into rounded d...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39995077",
+   "title": "Stress granules: Guardians of cellular health and triggers of disease.",
+   "abstract": "Stress granules are membraneless organelles that serve as a protective cellular response to external stressors by sequestering non-translating messenger RNAs (mRNAs) and regulating protein synthesis. Stress granules formation mechanism is conserved across species, from yeast to mammals, and they play a critical role in minimizing cellular damage during stress. Composed of heterogeneous ribonucleoprotein complexes, stress granules are enriched not only in mRNAs but also in noncoding RNAs and various proteins, including translation initiation factors and RNA-binding proteins. Genetic mutations affecting stress granule assembly and disassembly can lead to abnormal stress granule accumulation, contributing to the progression of several diseases. Recent research indicates that stress granule dynamics are pivotal in determining their physiological and pathological functions, with acute stress granule formation offering protection and chronic stress granule accumulation being detrimental. This review focuses on the multifaceted roles of stress granules under diverse physiological conditions, such as regulation of mRNA transport, mRNA translation, apoptosis, germ cell development, phase separation processes that govern stress granule formation, and their emerging implications in pathophysiological scenarios, such as viral infections, cancer, neurodevelopmental disorders, neurodegeneration, and neuronal trauma. [full text, passages naming G3BP1] ...)/Disorder(s) | Associated RBP(s) | References | Intellectual disabilities and neurodevelopmental disorders - autism spectrum disorders, schizophrenia, fragile X syndrome | EIF4E, FMR1, UPF3B, EIF2S3, CAPRIN1, G3BP1, G3BP2, UBAP2L, AGO2, CYFIP2, EIF4A3, QKI | Aberg et al., 2006; Neves-Pereira et al., 2009; Nguyen et al., 2012; Abekhoukh and Bardoni, 2014; Favaro et al., 2014; Mao et al., 2016; Skopkova et al., 2017;... ...g stress responses and maintaining cellular functions. Figure 1 Figure 1 Formation of stress granules under physiological and pathophysiological conditions. mRNAs associate with RNA-binding proteins, including G3BP1 and G3BP2, to form ribonucleoprotein clusters, which are membrane-less organelles. These clusters phase separate and aggregate into molecular condensates called stress granules (SGs) that exhibit a dynami... ...a central role in coordinating cellular responses to stress, including the formation of SGs. Certain RBPs, such as T-cell intracellular antigen 1 (TIA1), Ras GTPase-activating protein-binding protein 1 and 2 (G3BP1 and G3BP2), and Ataxin-2 (ATXN2), exhibit prion-like domains that facilitate self-assembly via oligomerization, serving as nucleation sites for SG formation (Harrison and Shorter, 2017; Wolozin and Ivanov...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming G3BP1] ...MWD , DNAH14 , DNMT3A , DOC2A , DPP6 , DPYD , DPYSL2 , DSCAM , DYNC1H1 , DYRK1A , DZANK1 , EBF3 , EEF1A2 , EFCAB12 , EHMT1 , EIF3G , EIF3H , EIF4E , ELAVL3 , ENC1 , EPOR , ERI1 , FBN1 , FOXP1 , FOXP2 , FUBP3 , G3BP1 , GABRA1 , GABRB2 , GABRB3 , GABRG1 , GABRR2 , GFAP , GIGYF1 , GMIP , GML , GNAI1 , GPR179 , GRIA2 , GRIN2B , GTF2I , HAX1 , HCN1 , HCN2 , HCN4 , HDLBP , HECTD4 , HIRIP3 , HMGXB4 , HNRNPD , HNRNPUL2 , HYD...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "38492217": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15259015": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39364777": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37327205": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26156430": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18627790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35842440": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38246410": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32560429": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34732726": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35859736": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42635121": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40411416": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30561330": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40936503": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41920932": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35977029": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "34526993": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33619090": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39007803": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39729994": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30185525": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39951026": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39106168": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35858300": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35007297": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40745099": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35252555": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40848858": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40064891": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40473629": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41061052": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26728149": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29763601": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42864310": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34795264": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38363675": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39760726": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41917183": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23163895": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40891053": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20180778": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36806943": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37607209": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36611004": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36256816": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37889852": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17297477": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42239455": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40548888": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40674274": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31171631": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37873085": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36067236": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37071594": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28172957": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28011284": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40536321": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41859620": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41384038": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40965981": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41757349": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41009632": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42274981": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41061044": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41790295": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39995077": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37141984": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40176294": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40233738": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42376186": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39819844": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41581867": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39333504": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36200388": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37463454": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40271197": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37739344": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38132127": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41415912": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.3,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 210,
+   "usd": 0.00699,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3611,
+   "output_tokens": 124,
+   "usd": 0.004231,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 47.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 5.0,
+   "note": "",
+   "input_tokens": 37831,
+   "output_tokens": 1500,
+   "usd": 0.045331,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.5,
+   "note": "",
+   "input_tokens": 15194,
+   "output_tokens": 751,
+   "usd": 0.094745,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>8</established>\n    <existing>63</existing>\n    <hypothesized>27</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>The primary human genetic evidence comes from a single large de novo variant study (PMID 35977029), which reported a nominally significant excess of de novo variants in core stress-granule genes including G3BP1 among 40,853 individuals with NDDs, with functional validation showing NDD-related variants disrupt the SG interaction network. This is one credible but not definitive human study; the gene-level signal was only nominal and the main established gene in that paper was UBAP2L (and CAPRIN1), not G3BP1. Secondary sources (PMIDs 39995077, 42401939, 34526993) list G3BP1 among NDD/ASD-associated RNA-binding proteins, but these restate the association as background rather than providing independent proband-level evidence, so replication criteria for \"Established\" are not met. Remaining weight goes to Hypothesized, since much supporting data is mechanistic/in vitro (G3BP1 as the central SG nucleator interacting with CAPRIN1, UBAP2L, DDX3X), providing strong biological plausibility without independent patient variant replication.</justification>\n  <pmids>\n    <pmid>35977029</pmid>\n    <pmid>34526993</pmid>\n    <pmid>39995077</pmid>\n    <pmid>42401939</pmid>\n    <pmid>41859620</pmid>\n    <pmid>39729994</pmid>\n    <pmid>39007803</pmid>\n  </pmids>\n</response>"
+}

@@ -198,9 +198,34 @@ def subtype_instructions(subtypes: dict | None) -> str:
     )
 
 
-def run_clinical_by_subtype(gene_name: str, subtypes: dict, model: str, max_papers: int, verbose: bool = False) -> tuple[list[dict], list[dict]]:
+FULLTEXT_CATEGORIES = ("clinical", "model_organism")
+
+
+def fulltext_select(gene_name: str, category: str, articles: list[dict], disease_label: str, known: set) -> list[dict]:
+    """Full-text mode (PESTO-style): add articles naming the gene only in their body,
+    tables or supplement, triage every candidate with a fast model, and keep a
+    fixed reading budget. `known` holds PMIDs already retrieved for this gene."""
+    from services.fulltext_service import add_excerpts, search_body_only
+    from services.pubmed_service import CATEGORY_CONFIG
+    from services.triage_service import band_articles, select
+
+    pool = list(articles)
+    known.update(str(a["pmid"]) for a in pool if a.get("pmid"))
+    if category in FULLTEXT_CATEGORIES:
+        hits = search_body_only(gene_name, CATEGORY_CONFIG[category]["keywords"], exclude_pmids=known)
+        add_excerpts(hits, gene_name)
+        hits = [a for a in hits if a.get("n_excerpts")]
+        known.update(a["pmid"] for a in hits)
+        pool += hits
+    band_articles(gene_name, category, disease_label, pool)
+    return select(pool)
+
+
+def run_clinical_by_subtype(gene_name: str, subtypes: dict, model: str, max_papers: int, verbose: bool = False,
+                            fulltext: bool = False, known: set | None = None) -> tuple[list[dict], list[dict]]:
     """One clinical search and agent per subtype; an article found by several searches is read once."""
     articles, entries, seen = [], [], set()
+    known = set() if known is None else known
     for name, sub in subtypes.items():
         apply_search_overrides(sub["clinical_keywords"], None)
         found = []
@@ -208,8 +233,12 @@ def run_clinical_by_subtype(gene_name: str, subtypes: dict, model: str, max_pape
             key = str(a.get("pmid") or (a.get("title") or "").lower())
             if key not in seen:
                 seen.add(key)
-                a["disease"] = name
                 found.append(a)
+        if fulltext:
+            found = fulltext_select(gene_name, "clinical", found, sub["label"], known)
+            seen.update(str(a["pmid"]) for a in found if a.get("pmid"))
+        for a in found:
+            a["disease"] = name
         sub_entries = run_agent(gene_name, "clinical", found, model, max_papers=max_papers, verbose=verbose)
         for e in sub_entries:
             e["disease"] = name
@@ -389,17 +418,22 @@ def process_gene(payload: dict) -> dict:
     mouse_phenotypes = payload.get("mouse_phenotypes", "")
     disease_label = payload.get("disease_label", "neurodevelopmental disorder")
     subtypes = payload.get("clinical_subtypes")
+    fulltext = payload.get("fulltext", False)
     apply_search_overrides(payload.get("clinical_keywords"), payload.get("retmax"))
     gene_start = _time.time()
 
     try:
         all_articles = {}
         all_agent_results = {}
+        known_pmids = set()
         for cat in CATEGORIES:
             if cat == "clinical" and subtypes:
-                articles, entries = run_clinical_by_subtype(gene_name, subtypes, model, max_papers, verbose=verbose)
+                articles, entries = run_clinical_by_subtype(gene_name, subtypes, model, max_papers, verbose=verbose,
+                                                            fulltext=fulltext, known=known_pmids)
             else:
                 articles = gather_articles(gene_name, cat, verbose=verbose)
+                if fulltext:
+                    articles = fulltext_select(gene_name, cat, articles, disease_label, known_pmids)
                 entries = run_agent(gene_name, cat, articles, model, max_papers=max_papers, verbose=verbose, mouse_phenotypes=mouse_phenotypes)
             all_articles[cat] = articles
             all_agent_results[cat] = entries
@@ -517,7 +551,9 @@ def save_gene_result(run_path: str, result: dict):
     if result.get("articles") is not None:
         slim = {
             cat: [{"title": a.get("title"), "pmid": a.get("pmid"),
-                   **({"disease": a["disease"]} if a.get("disease") else {})} for a in articles]
+                   **({"disease": a["disease"]} if a.get("disease") else {}),
+                   **({"found_by": a.get("found_by", "search"), "band": a["band"]} if "band" in a else {})}
+                  for a in articles]
             for cat, articles in result["articles"].items()
         }
         articles_path = os.path.join(run_path, "results", f"{gene}_articles.json")
@@ -646,6 +682,7 @@ def run_pipeline(args):
             "disorder": getattr(args, "disorder", None),
             "disease_label": disease_label,
             "mouse_phenotypes": mouse_phenotypes,
+            "fulltext": args.fulltext,
         }, f, indent=2)
 
     model = args.model
@@ -660,7 +697,7 @@ def run_pipeline(args):
     payloads = [{"gene_name": g, "model": model, "max_papers": max_papers, "verbose": verbose,
                  "mouse_phenotypes": mouse_phenotypes, "disease_label": disease_label,
                  "clinical_keywords": args.clinical_keywords, "retmax": retmax_override,
-                 "clinical_subtypes": clinical_subtypes} for g in todo]
+                 "clinical_subtypes": clinical_subtypes, "fulltext": args.fulltext} for g in todo]
 
     total_input_tokens = 0
     total_output_tokens = 0
@@ -737,6 +774,9 @@ def parse_args():
                         help="Process only the first N genes from the list")
     parser.add_argument("--model", type=str, default=DEFAULT_MODEL,
                         help=f"LLM model to use (default: {DEFAULT_MODEL})")
+    parser.add_argument("--fulltext", action="store_true",
+                        help="PESTO-style full-text mode: add Europe PMC articles naming the gene only in their "
+                             "body/tables/supplement, triage candidates with a fast model, read a fixed budget")
     parser.add_argument("--n_core", type=int, default=1,
                         help="Number of parallel workers (default: 1)")
     parser.add_argument("--max_papers", type=int, default=DEFAULT_MAX_PAPERS,

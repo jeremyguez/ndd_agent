@@ -1,0 +1,162 @@
+{
+  "articles_found": {
+    "clinical": 4,
+    "model_organism": 7,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Mutations of the histone linker H1-4 in neurodevelopmental disorders and functional characterization of neurons expressing C-terminus frameshift mutant H1.4 (PMID: 34788807)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Novel C-terminal frameshift indels in H1-4 (specific notations not given in abstract); the abstract states they create the shared frameshift and truncated H1.4 with an abnormal C-terminal frameshifted tail (H1.4 CFT)",
+            "type": "LoF",
+            "phenotypes": [
+              "intellectual disability",
+              "hypotonia",
+              "anxiety",
+              "autism spectrum disorder",
+              "vision problems",
+              "bone abnormalities",
+              "dysmorphic facies",
+              "features consistent with Rahman syndrome"
+            ]
+          },
+          {
+            "description": "Novel N-terminus H1-4 variant(s) (details not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder (details not given in abstract)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "C-terminal frameshift variants had clinical features consistent with prior Rahman syndrome reports, which strengthens support for the pathogenicity of H1.4 CFT. Neuronal expression of H1.4 CFT altered about 400 genes and reduced neuronal activity.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Epigenetics and autism spectrum disorder: A report of an autism case with mutation in H1 linker histone HIST1H1E and literature review (PMID: 29704315)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "HIST1H1E (H1-4) c.435dupC, p.Thr146Hisfs*50",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder",
+              "intellectual disability"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo frameshift at the 3' end of the gene, found on clinical whole exome sequencing. It truncates the positively charged C-terminus, and expression studies showed reduced protein expression, supporting haploinsufficiency/loss of function. Other published HIST1H1E cases support causality.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Journal article 2025/2026 - The linker histone H1.4 condenses chromatin in maturing postmitotic neurons (PMID: 42619895)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (H1f2/H1f4 double knockout); also epitope-tagged H1f4 knock-in",
+        "phenotypes": [
+          "Developmental maturation of chromatin compaction in cerebellar granule neurons is disrupted in H1f2/H1f4 double knockout mice",
+          "H1.4 accumulates in heterochromatin over the course of neuronal maturation",
+          "Epitope-tagged H1f4 knock-in mice show robust H1.4 expression throughout the brain, including in mature post-mitotic neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spermatogenesis proceeds normally in mice without linker histone H1t (PMID: 10933220)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (of H1t, a different H1 gene; H1-4 was not knocked out but its expression was measured in the H1t-null mice)",
+        "phenotypes": [
+          "H1t-null mice developed normally with no anatomic abnormalities",
+          "Spermatogenesis and testicular morphology were unchanged",
+          "H1.1, H1.2 and H1.4 gene expression was enhanced during spermatogenesis in H1t-deficient mice (compensatory upregulation)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": false,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Yusufova et al. 2021 - Histone H1 loss drives lymphoma by disrupting 3D chromatin architecture (PMID: 33299181)",
+        "evidence_subtype": "function",
+        "summary": "H1-4 (H1E) is one of the B-cell lymphoma-recurrently mutated H1 isoforms, and the lymphoma-associated H1 alleles act as driver mutations. Combined loss of H1c and H1e in mice decompacts chromatin, shifts H3K36me2/H3K27me3 states and derepresses stem cell genes. This gave germinal centre B cells enhanced fitness and drove aggressive lymphomas, establishing H1 as a tumour suppressor.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sarg/Medrzycki-type study: Sancho et al. 2008 - Depletion of human histone H1 variants uncovers specific roles in gene expression and cell growth (PMID: 18927631)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Inducible shRNA knockdown of H1.4 in T47D breast cancer cells caused cell death. This was the first evidence that an H1 variant is essential for survival in a human cell type. Microarrays showed that each H1 variant knockdown alters a distinct gene subset, without compensation by other variants.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Kuo et al. 2017 - Mutations in Epigenetic Regulation Genes Are a Major Cause of Overgrowth with Intellectual Disability (PMID: 28475857)",
+        "evidence_subtype": "other",
+        "summary": "Pathogenic HIST1H1E (H1.4) mutations were identified in individuals with overgrowth and intellectual disability. The mutations are predicted to truncate the C-terminal domain and reduce net charge, impairing neutralisation of linker DNA and DNA/protein binding. HIST1H1E was one of six epigenetic regulator genes accounting for 44% of cases.",
+        "sample_size": "710 individuals with OGID (353 with a causal mutation)",
+        "significance": "overlap with height GWAS genes p=6.84e-8; overlap with cancer driver genes p=1.75e-14"
+      },
+      {
+        "citation": "Linker histone H1.4 phosphorylation study - K-Ras(G12V/Y40C)-PI3K/AKT pathway regulates H1.4(S35ph) through PKA in osteosarcoma (PMID: 31126199)",
+        "evidence_subtype": "pathway",
+        "summary": "In MG-63 osteosarcoma cells, RasG12V/Y40C-PI3K/AKT signalling lowers H1.4 S35 phosphorylation by downregulating PKA and upregulating MDM2. Overexpressing the phosphomimetic H1.4S35E reduced viability, colony formation and migration, opposing Ras effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ras-ERK signalling represses H1.4 phosphorylation at serine 36 to promote NSCLC cell growth and migration (PMID: 31184227)",
+        "evidence_subtype": "pathway",
+        "summary": "Ras-ERK signalling represses H1.4 S36 phosphorylation through MDM2-dependent degradation of PKA in NSCLC cells (NCI-H2126, A549). H1.4S36ph acts as a tumour suppressor: its overexpression reduced viability, colony formation, migration and invasion, caused S-phase arrest, and modulated transcription of Ras downstream genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Linker histone H1.2 and H1.4 affect the neutrophil lineage determination (PMID: 32391789)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A genome-wide CRISPR/Cas9 screen in PLB-985 cells and H1 subtype knockouts showed that loss of H1.2 and H1.4 induces an eosinophil-like transcriptional program. H1.4 therefore negatively regulates eosinophil-biased differentiation and supports neutrophil lineage commitment. H1 subtypes also affected the eosinophil bias of murine bone marrow stem cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Linker Histone H1.4 Inhibits the Growth, Migration and EMT Process of NSCLC by Regulating ERK1/2 Expression (PMID: 38472566)",
+        "evidence_subtype": "cell_culture",
+        "summary": "H1.4 overexpression in A549 and H1299 cells inhibited viability, migration, invasion and EMT, while shRNA knockdown promoted them. H1.4 binds the ERK1/2 promoter and acts as a transcriptional repressor. ERK re-expression largely rescued the H1.4 effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CYP1B1 promotes PARPi-resistance via histone H1.4 interaction and increased chromatin accessibility in ovarian cancer (PMID: 39395328)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "LC-MS identified H1.4 as an interactor of CYP1B1 in PARPi-resistant A2780-OlaR ovarian cancer cells. H1.4 downregulation was associated with increased chromatin accessibility (ATAC-seq) and higher viability after Olaparib treatment.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Rahman Syndrome mutation in histone H1.4 disrupts chromatin compaction and phase separation (PMID: 42173878)",
+        "evidence_subtype": "function",
+        "summary": "A Rahman syndrome frameshift mutation truncates the H1.4 C-terminal domain and reduces its positive charge. Mutant H1.4-bound hexanucleosome arrays are more extended, with greater linker DNA accessibility and reduced liquid-liquid and liquid-solid phase separation, resembling arrays without linker histone. The mutant also shows increased mobility in cell nuclei, indicating weaker chromatin association.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CMAHP promotes metastasis by reducing ubiquitination of Snail and inducing angiogenesis via GM-CSF overexpression in gastric cancer (PMID: 34716430)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The pseudogene CMAHP interacts with histone H1.4 and promotes histone acetylation, which enhances c-Jun and RelA (p65) expression in gastric cancer cells. This drives GM-CSF transactivation, angiogenesis and metastasis.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

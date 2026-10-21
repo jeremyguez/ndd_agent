@@ -1,0 +1,148 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 13,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Kuo et al. 2005 - Dosage-dependent requirement for mouse Vezf1 in vascular system development (PMID: 15882861)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (homozygous) and heterozygous knockout (targeted inactivation)",
+        "phenotypes": [
+          "Homozygous mutants: vascular remodeling defects",
+          "Homozygous mutants: loss of vascular integrity with localized hemorrhaging",
+          "Homozygous mutants: defective endothelial cell adhesion and tight junction formation in vessels",
+          "Heterozygous mutants: haploinsufficiency with lymphatic hypervascularization",
+          "Heterozygous mutants: hemorrhaging and edema in the jugular region, reminiscent of cystic hygroma"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Vezf1 regulates cardiac structure and contractile function (PMID: 31911272)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced cardiac growth",
+          "Impaired ventricular contractile response to \u03b2-adrenergic stimuli",
+          "No dysregulation of cardiomyocyte Ca2+ transient kinetics",
+          "Dysregulation of cardiac muscle contraction and dilated cardiomyopathy related genes",
+          "Myh7/\u03b2-MHC identified as a key target"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ETV2 and VEZF1 interaction and regulation of the hematoendothelial lineage during embryogenesis (PMID: 36923254)",
+        "organism": "mouse (Vezf1 knockout embryonic stem cells, in vitro embryoid body differentiation)",
+        "knockout_type": "full knockout (ESC)",
+        "phenotypes": [
+          "Downregulation of hematoendothelial marker genes during embryoid body mesodermal differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The transcription factor Vezf1 represses the expression of the antiangiogenic factor Cited2 in endothelial cells (PMID: 29794136)",
+        "organism": "mouse (Vezf1-/- embryonic stem cells, in vitro)",
+        "knockout_type": "full knockout (ESC)",
+        "phenotypes": [
+          "Increased Cited2 expression",
+          "Inefficient differentiation into endothelial cells",
+          "Defective tube formation",
+          "Reduced activation of EC-specific genes with lower H3K27 acetylation at their promoters",
+          "Cited2 shRNA depletion reduced the angiogenic defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zhao et al. 2023 - VEZF1 loss-of-function mutation underlying familial dilated cardiomyopathy (PMID: 36657711)",
+        "evidence_subtype": "other",
+        "summary": "Whole-exome sequencing of a DCM family identified a heterozygous VEZF1 nonsense mutation, p.(Lys164*), that segregated with autosomal dominant DCM with complete penetrance. The mutation was absent from 200 unrelated DCM patients, 400 controls and population databases. In dual-luciferase assays the mutant failed to transactivate the MYH7 and ET1 promoters, indicating loss of function.",
+        "sample_size": "1 family; 200 unrelated DCM patients; 400 controls",
+        "significance": null
+      },
+      {
+        "citation": "Vezf1 regulates cardiac structure and contractile function (PMID: 31911272)",
+        "evidence_subtype": "function",
+        "summary": "Vezf1 expression is decreased in diseased human myocardium and mouse hearts. Zebrafish Vezf1 knockdown reduced cardiac growth and impaired the ventricular contractile response to \u03b2-adrenergic stimulation. Myh7/\u03b2-MHC is a key target, acting through an MCAT site in its promoter, and TEAD-1 is a Vezf1 binding partner.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ETV2 and VEZF1 interaction and regulation of the hematoendothelial lineage during embryogenesis (PMID: 36923254)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A yeast two-hybrid screen identified VEZF1 as an ETV2 binding partner, confirmed by co-IP and GST pull-down. VEZF1 is expressed specifically in endothelium and binds the Flt1 promoter, where it co-activates transcription with ETV2. Vezf1 knockout ESCs showed reduced hematoendothelial marker expression, while VEZF1 overexpression induced these genes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "VEZF1-guanine quadruplex DNA interaction regulates alternative polyadenylation and detyrosinase activity of VASH1 (PMID: 33231681)",
+        "evidence_subtype": "function",
+        "summary": "VEZF1 binds DNA G-quadruplex structures in vitro and in cells, which sets the ratio of the VASH1 long and short mRNA isoforms. Loss of VEZF1 or G4 stabilization increased the long VASH1 isoform and tubulin detyrosinase activity, and diminished angiogenesis in HUVECs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Vezf1 regulates genomic DNA methylation through its effects on expression of DNA methyltransferase Dnmt3b (PMID: 18676812)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Vezf1-/- mouse ESCs lose DNA methylation at widespread sites, including Line1 elements, minor satellites, imprinted genes and CpG islands. The loss is attributed to a substantial decrease in Dnmt3b abundance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Vezf1 protein binding sites genome-wide are associated with pausing of elongating RNA polymerase II (PMID: 22308494)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "In HeLaS3 cells, Vezf1 binding correlates genome-wide with peaks of elongating Ser2-P Pol II, reflecting Vezf1-dependent slowing of elongation. Loss of Vezf1 in mES cells reduces Pol II accumulation at its sites and alters alternative splicing. Vezf1 interacts with Mrg15/Mrgbp, a reader of H3K36me3.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The transcription factor Vezf1 represses the expression of the antiangiogenic factor Cited2 in endothelial cells (PMID: 29794136)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Vezf1-/- mouse ESCs had increased Cited2 expression and differentiated inefficiently into endothelial cells, with tube-formation defects and reduced H3K27ac at EC gene promoters. Cited2 shRNA knockdown rescued the angiogenic defects. The results support Vezf1 acting as an insulator-like repressor of Cited2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RhoB controls coordination of adult angiogenesis and lymphangiogenesis following injury by regulating VEZF1-mediated transcription (PMID: 24280686)",
+        "evidence_subtype": "pathway",
+        "summary": "Nuclear RhoB-GTP controls distinct gene sets in blood versus lymphatic endothelial cells by regulating VEZF1-mediated transcription. A small-molecule inhibitor of the VEZF1-DNA interaction recapitulated RhoB loss in ischaemic retinopathy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Vezf1/DB1 is an endothelial cell-specific transcription factor that regulates expression of the endothelin-1 promoter (PMID: 11504723)",
+        "evidence_subtype": "function",
+        "summary": "Vezf1/DB1 is a nuclear, endothelial-specific zinc finger protein that activates the human endothelin-1 promoter. It acts through an ACCCCC element 47 bp upstream of the transcription start site, and a 2-bp mutation in this element abolished responsiveness.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GFAT1 promotes the progression of hepatocellular carcinoma via enhancing the O-GlcNAcylation of VEZF1 (PMID: 40858565)",
+        "evidence_subtype": "pathway",
+        "summary": "VEZF1 is heavily O-GlcNAcylated in GFAT1-overexpressing hepatoma cells. Modification at Ser123 and Ser124 reduces its proteasomal degradation and promotes TNS1 transcription. A VEZF1-derived competing peptide reduced TNS1 expression and suppressed HCC progression in mice.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

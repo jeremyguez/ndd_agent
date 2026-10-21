@@ -1,0 +1,337 @@
+{
+  "articles_found": {
+    "clinical": 18,
+    "model_organism": 16,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Clinical, molecular and glycophenotype insights in SLC39A8-CDG (PMID: 34246313)",
+        "num_patients": 3,
+        "variants": [
+          {
+            "description": "c.1048G>A, p.Gly350Arg (compound heterozygous with p.Ser44Trp in two affected siblings)",
+            "type": "missense",
+            "phenotypes": [
+              "severe developmental disability",
+              "dystonic postural pattern and dyskinesia",
+              "Leigh syndrome-like neuroimaging (basal ganglia, thalami, white matter)",
+              "cerebral and cerebellar atrophy",
+              "variable or near-normal transferrin IEF (slight increase of trisialotransferrin)",
+              "hypogalactosylated transferrin N-glycans on MALDI-MS in one sibling, spontaneously decreasing over time",
+              "undergalactosylated and undersialylated serum N-glycans (increased A2G1S1)"
+            ]
+          },
+          {
+            "description": "c.131C>G, p.Ser44Trp (compound heterozygous with p.Gly350Arg in two affected siblings)",
+            "type": "missense",
+            "phenotypes": [
+              "severe developmental disability",
+              "dystonic postural pattern and dyskinesia",
+              "Leigh syndrome-like neuroimaging (basal ganglia, thalami, white matter)",
+              "cerebral and cerebellar atrophy",
+              "variable or near-normal transferrin IEF",
+              "undergalactosylated and undersialylated serum N-glycans"
+            ]
+          },
+          {
+            "description": "p.Ala391Thr (homozygous in a third, unrelated patient; not heterozygous)",
+            "type": "missense",
+            "phenotypes": [
+              "severe developmental disability",
+              "dystonic postural pattern and dyskinesia",
+              "Leigh syndrome-like neuroimaging",
+              "distinct serum N-glycome pattern"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Novel biallelic SLC39A8 variants in two siblings with a phenotype consistent with SLC39A8-CDG (clinical, MRI and glycomic features). Homozygous A391T in a third patient with overlapping features.",
+        "center_country": "Italy",
+        "cohort": null
+      },
+      {
+        "citation": "The schizophrenia risk locus in SLC39A8 alters brain metal transport and plasma glycosylation (PMID: 32753748)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "p.Ala391Thr (rs13107325), common missense allele; human carriers (dose-dependent, including heterozygotes)",
+            "type": "missense",
+            "phenotypes": [
+              "dose-dependent change in brain MRI T2w/T1w signal ratio in several regions",
+              "specific reduction of serum manganese",
+              "reduced complexity and branching of plasma N-glycans",
+              "schizophrenia risk allele"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Common schizophrenia-associated missense variant shown to be hypofunctional: lower serum Mn, altered plasma N-glycome and brain MRI changes in carriers. Two individuals with SLC39A8-CDG were also profiled and had more severe glycosylation changes that improved with Mn supplementation.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "A missense variant in SLC39A8 is associated with severe idiopathic scoliosis (PMID: 30301978)",
+        "num_patients": 1298,
+        "variants": [
+          {
+            "description": "p.Ala391Thr (rs13107325), minor allele carriers (largely heterozygous)",
+            "type": "missense",
+            "phenotypes": [
+              "severe adolescent idiopathic scoliosis",
+              "greater spinal curvature",
+              "decreased height",
+              "increased BMI",
+              "lower plasma manganese"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Exome-wide association in 457 severe AIS cases (discovery) plus 841 cases (replication) versus controls (combined P = 7.02e-14, OR 1.94); reduced Mn influx by the variant in functional studies; slc39a8 mutant zebrafish show vertebral abnormalities.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Lin et al. 2018 - Zinc transporter Slc39a8 is essential for cardiac ventricular compaction (PMID: 29337306)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Homozygous null embryos do not survive embryogenesis",
+          "Cardiac phenotype similar to human left ventricular noncompaction (excessive trabeculation, impaired compaction)",
+          "Slc39a8 expressed in endothelial cells of the developing heart, where it maintains cellular Zn levels",
+          "Marked ECM accumulation in null hearts",
+          "Reduced expression of several Adamts metalloproteinases",
+          "SLC39A8 knockdown in HUVECs decreased ADAMTS1 transcription via reduced Zn uptake and MTF1 activity"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "In utero gene expression in the Slc39a8(neo/neo) knockdown mouse (PMID: 30013175)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "ZIP8 mRNA and protein at 10-15% of wild-type",
+          "Stunted growth",
+          "Neonatal lethality",
+          "Multi-organ dysmorphogenesis",
+          "Dysregulated hematopoiesis with severe anemia",
+          "RNA-seq of GD13.5 yolk sac/placenta and GD16.5 tissues showed 29 unique DEGs enriched for hematopoiesis, hypoxia, complement and coagulation categories",
+          "Altered zinc-finger/GATA-related transcription factor targets, predominantly in yolk sac"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Generation of a Slc39a8 hypomorph mouse: markedly decreased ZIP8 Zn2+/(HCO3-)2 transporter expression (PMID: 21658371)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Slc39a8(neo) hypomorphic allele",
+          "Slc39a8(neo/neo) homozygotes show dramatically decreased ZIP8 expression in embryo, fetus and visceral yolk sac",
+          "Cre recombinase did not function in the intact mouse"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Metal-ion transporter SLC39A8 is required for brain manganese uptake and accumulation (PMID: 37482277)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "Inducible global Slc39a8 KO crossed with Slc39a14 KO",
+          "Markedly decreased brain Mn loading despite systemic hypermanganesemia and increased bone and kidney Mn",
+          "Other divalent metals in brain unaffected",
+          "54Mn uptake impaired in brain but not most other tissues",
+          "Slc39a8 inactivation efficient in brain microvessels but not choroid plexus, suggesting blood-brain barrier uptake"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Neuronal SLC39A8 deficiency impairs cerebellar development by altering manganese homeostasis (PMID: 39435657)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Neuron-specific KO (Slc39a8-NSKO) with markedly decreased Mn in whole brain, especially cerebellum",
+          "Impaired brain 54Mn uptake",
+          "Cerebellar morphological defects",
+          "Abnormal Purkinje cell dendritic arborization",
+          "Reduced neurogenesis and increased apoptosis in the external granular layer",
+          "Motor dysfunction",
+          "Downregulation of neurodevelopment, synaptic plasticity and cAMP signaling pathway genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The manganese transporter SLC39A8 links alkaline ceramidase 1 to inflammatory bowel disease (PMID: 38839750)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Intestinal epithelial cell-specific KO with markedly decreased Mn in blood and most organs",
+          "Impaired intestinal absorption of dietary Mn",
+          "Barrier dysfunction",
+          "Upregulated alkaline ceramidase 1 (ACER1)",
+          "ACER1 inhibitor attenuated colitis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A missense variant in SLC39A8 is associated with severe idiopathic scoliosis (PMID: 30301978)",
+        "organism": "zebrafish",
+        "knockout_type": "other",
+        "phenotypes": [
+          "slc39a8 mutant zebrafish show vertebral abnormalities",
+          "Impaired growth",
+          "Decreased motor activity"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A mouse model characterizes the roles of ZIP8 in systemic iron recycling and lung inflammation and infection (PMID: 36260707)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Global inducible ZIP8 KO",
+          "Elevated spleen iron and decreased serum iron, suggesting a role in iron recycling",
+          "ZIP8 expressed on lung distal airspace epithelial cells and transports iron from airway into lung tissue",
+          "No effect on severity of LPS-induced acute lung injury",
+          "No effect on outcome of Klebsiella pneumoniae infection"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Intestinal ZIP8 Regulates Tissue Manganese Distribution and Modifies Manganese Overload in ZIP14 Deficiency (PMID: 41394108)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Intestine-specific Zip8 KO did not change basal blood Mn",
+          "Reduced liver and bone Mn",
+          "In Zip14-/- background, reduced blood and brain Mn in female double KO mice only (sex-specific)",
+          "Bone Mn remained elevated in all groups"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SLC39A8-mediated zinc dyshomeostasis potentiates kidney disease (PMID: 40956895)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Kidney-specific Slc39a8 KO (and A391T knock-in) showed reduced renal zinc accumulation",
+          "Reduced susceptibility to kidney injury and disease progression",
+          "Activation of zinc-AKT-FOXO1-G6PC axis",
+          "EDTA zinc chelation recapitulated protection"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Wang et al. 2025 - SLC39A8-mediated zinc dyshomeostasis potentiates kidney disease (PMID: 40956895)",
+        "evidence_subtype": "other",
+        "summary": "Large-cohort screening identified the SLC39A8 A391T variant (rs13107325) as a shared modifier of multiple kidney diseases. A391T knock-in and kidney-specific Slc39a8 knockout mice had reduced renal zinc and were protected from kidney injury, acting through the zinc-AKT-FOXO1-G6PC axis. EDTA zinc chelation reproduced the protection in acute and chronic kidney disease models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The ZIP8/SIRT1 axis regulates alveolar progenitor cell renewal in aging and idiopathic pulmonary fibrosis (PMID: 35389887)",
+        "evidence_subtype": "expression",
+        "summary": "ZIP8 expression was reduced in AEC2s from IPF lungs and aged mouse lungs. AEC2-specific Zip8 deletion impaired renewal, increased bleomycin sensitivity and caused spontaneous fibrosis. ZIP8 acts through SIRT1, and zinc plus SIRT1 activation restored AEC2 self-renewal in cells from IPF patients and old mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SLC39A8 deficiency: biochemical correction and major clinical improvement by manganese therapy (PMID: 28749473)",
+        "evidence_subtype": "function",
+        "summary": "SLC39A8 deficiency causes manganese deficiency and a congenital disorder of glycosylation because Mn-dependent \u03b2-1,4-galactosyltransferases fail. High-dose MnSO4 in two patients normalized the glycosylation enzyme defects and improved motor, hearing and neurological function.",
+        "sample_size": "2 patients",
+        "significance": null
+      },
+      {
+        "citation": "The schizophrenia-associated variant in SLC39A8 alters protein glycosylation in the mouse brain (PMID: 35260802)",
+        "evidence_subtype": "other",
+        "summary": "In A391T homozygous knock-in mice, brain N-glycosylation was impaired in a region-dependent manner, and about one-third of detected cortical glycoproteins were differentially N-glycosylated. These included cell adhesion molecules and neurotransmitter receptors. RNAseq showed little regional change, pointing to altered glycosylation enzyme activity rather than altered gene expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The schizophrenia risk locus in SLC39A8 alters brain metal transport and plasma glycosylation (PMID: 32753748)",
+        "evidence_subtype": "GWAS",
+        "summary": "Carriers of the common SLC39A8 missense allele (A391T) showed a dose-dependent change in brain MRI T2w/T1w signal ratio, a specific reduction in serum Mn, and reduced complexity and branching of plasma N-glycans. Two SLC39A8-CDG patients had similar but more severe glycan changes that improved with Mn supplementation, suggesting a spectrum of hypofunction.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Co-expression analysis reveals interpretable gene modules controlled by trans-acting genetic variants (PMID: 32880574)",
+        "evidence_subtype": "expression",
+        "summary": "A trans-eQTL near SLC39A8 regulates a metallothionein gene module in LPS-stimulated monocytes. The effect is mediated by a transient cis-eQTL present only in early LPS response.",
+        "sample_size": "226-710 individuals across six blood cell types",
+        "significance": null
+      },
+      {
+        "citation": "Identification of mouse SLC39A8 as the transporter responsible for cadmium-induced toxicity in the testis (PMID: 15722412)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ZIP8 expression in mouse fetal fibroblasts increased Cd influx more than 10-fold and Cd-induced cell death sensitivity 30-fold. In situ hybridization showed ZIP8 mRNA in testicular vascular endothelial cells of Cd-sensitive mouse strains but not resistant strains, identifying Slc39a8 as the Cdm locus.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Generation of a Slc39a8 hypomorph mouse: markedly decreased ZIP8 Zn\u00b2\u207a/(HCO\u2083\u207b)\u2082 transporter expression (PMID: 21658371)",
+        "evidence_subtype": "function",
+        "summary": "ZIP8 functions as an electroneutral Zn2+/(HCO3-)2 symporter. The Slc39a8(neo) hypomorphic allele greatly reduced ZIP8 expression in embryo, fetus and visceral yolk sac of homozygous mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MicroRNA-488 regulates zinc transporter SLC39A8/ZIP8 during pathogenesis of osteoarthritis (PMID: 23688035)",
+        "evidence_subtype": "pathway",
+        "summary": "miR-488 targets ZIP8 and is decreased in OA chondrocytes. IL-1\u03b2 suppresses miR-488 while TGF-\u03b23 induces it. Suppressing ZIP8 in an OA animal model reduced cartilage degradation, and miR-488 inhibits MMP-13 activity through ZIP8.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Calcium and the Ca-ATPase SPCA1 modulate plasma membrane abundance of ZIP8 and ZIP14 to regulate Mn(II) uptake in brain microvascular endothelial cells (PMID: 35787370)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "In human brain microvascular endothelial cells, SPCA1 knockdown raised cytoplasmic Ca2+, which increased plasma membrane localization of ZIP8 and ZIP14 and 54Mn uptake. SPCA1 overexpression and Ca2+ chelation had the opposite effect, showing that Ca2+ and SPCA1 regulate ZIP8 membrane cycling.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

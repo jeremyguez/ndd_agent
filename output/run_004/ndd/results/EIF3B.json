@@ -1,0 +1,176 @@
+{
+  "articles_found": {
+    "clinical": 8,
+    "model_organism": 8,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B (PMID: 41033306)",
+        "num_patients": 14,
+        "variants": [
+          {
+            "description": "Loss-of-function variants in EIF3B (individual variants not given in the abstract); 14 individuals with EIF3B variants, which may include microdeletions involving EIF3B",
+            "type": "LoF",
+            "phenotypes": [
+              "congenital cardiac defects",
+              "craniofacial dysmorphisms",
+              "mild developmental delay",
+              "behavioral abnormalities"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo or loss-of-function variants. Gene highly constrained against LoF. EIF3B lies within the minimal 7p22.3 microdeletion region for cardiac anomalies. Zebrafish eif3ba mutants show thin heart tubes, absent craniofacial cartilage and embryonic lethality.",
+        "center_country": "International matchmaking collaboration (specific centers not stated in abstract)",
+        "cohort": null
+      },
+      {
+        "citation": "A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B (PMID: 41679311)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not available (no abstract; likely same report as PMID 41033306)",
+            "type": "LoF",
+            "phenotypes": [
+              "cardiac defects",
+              "craniofacial dysmorphisms",
+              "neurodevelopmental delay"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Not stated in the available text. Title indicates loss-of-function variants in EIF3B.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Delineation of a less than 200 kb minimal deleted region for cardiac malformations on chromosome 7p22 (PMID: 21671376)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo interstitial deletion of less than 400 kb at 7p22 (CNV). It spans MAD1L1, FTSJ2, NUDT1 and SNX8 and may include upstream regulatory elements of EIF3B; EIF3B itself is not clearly deleted.",
+            "type": "other",
+            "phenotypes": [
+              "tetralogy of Fallot",
+              "bilateral second branchial arch remnants",
+              "mild dysmorphic features"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo deletion confirmed by array CGH, qPCR and FISH, absent in parents. It defines a minimal deleted region for cardiac malformations. EIF3B involvement is only possible, via regulatory elements.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "7p22.3 microdeletion: a case study of a patient with congenital heart defect, neurodevelopmental delay and epilepsy (PMID: 39152504)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "7p22.3 microdeletion (CNV) in a region including candidate cardiac genes SNX8 and EIF3B (exact coordinates not given in the abstract)",
+            "type": "other",
+            "phenotypes": [
+              "congenital heart defect",
+              "epilepsy",
+              "moderate mental and motor developmental delay",
+              "hypotonia",
+              "apraxia/dyspraxia"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Microdeletion at 7p22.3 overlapping the minimal region for heart malformations. EIF3B and SNX8 are proposed candidate genes, but the evidence is described as controversial.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B (PMID: 41033306)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout (mutations in orthologous eif3s10 [EIF3A] and eif3ba [EIF3B] genes)",
+        "phenotypes": [
+          "developmental abnormalities",
+          "thin heart tubes",
+          "lack of craniofacial cartilage",
+          "embryonic lethality"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "PMID 41033306 - A cardiovascular, craniofacial, and neurodevelopmental disorder caused by loss-of-function variants in the eIF3 complex component genes EIF3A and EIF3B (PMID: 41033306)",
+        "evidence_subtype": "other",
+        "summary": "Fourteen individuals carried de novo or loss-of-function EIF3B variants, and four carried EIF3A variants. They presented with cardiac defects, craniofacial dysmorphism and mild neurodevelopmental delay. EIF3B lies in the 7p22.3 microdeletion cardiac region. Zebrafish eif3ba and eif3s10 mutants had thin heart tubes, absent craniofacial cartilage and embryonic lethality.",
+        "sample_size": "18 individuals (14 EIF3B, 4 EIF3A)",
+        "significance": null
+      },
+      {
+        "citation": "PMID 27373335 - eIF3 Peripheral Subunits Rearrangement after mRNA Binding and Start-Codon Recognition (PMID: 27373335)",
+        "evidence_subtype": "function",
+        "summary": "A cryo-EM structure of the mammalian 48S initiation complex at 5.8 \u00c5 shows that eIF3b relocates to the 40S intersubunit face, below the eIF2-Met-tRNAi ternary complex, after mRNA attachment. eIF3b is a peripheral eIF3 subunit, and this rearrangement underlies eIF3 function in mRNA scanning and the timing of subunit joining.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 39247811 - FOXA1-dependent PUS1 regulates EIF3b stability in a non-enzymatic pathway mediating prostate cancer bone metastasis (PMID: 39247811)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "PUS1 protects EIF3b from ubiquitin-mediated degradation, independently of its enzymatic activity, in prostate cancer. EIF3b overexpression rescued the loss of metastasis caused by PUS1 knockdown, and FOXA1 drives PUS1 expression by binding its promoter.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 36050601 - EIF3B stabilizes PTGS2 expression by counteracting MDM2-mediated ubiquitination to promote the development and progression of malignant melanoma (PMID: 36050601)",
+        "evidence_subtype": "cell_culture",
+        "summary": "EIF3B is highly expressed in melanoma and correlates with lymphatic metastasis and pathological stage. Its depletion blocked melanoma progression in vitro and in vivo, and its overexpression increased proliferation and migration. EIF3B stabilizes PTGS2 by inhibiting MDM2-mediated ubiquitination, and PTGS2 silencing reversed the effect of EIF3B overexpression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 33459066 - EIF3B promotes cancer progression in pancreatic cancer (PMID: 33459066)",
+        "evidence_subtype": "expression",
+        "summary": "EIF3B is aberrantly highly expressed in pancreatic cancer and associated with poor prognosis. Knockdown in SW1990 and PANC-1 cells reduced viability and proliferation, caused cell cycle arrest and apoptosis, and suppressed xenograft growth. It also lowered CDH1 and IRS1 and raised DDIT3, PTEN and CDKN1B.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 40576144 - EIF3B-METTL3 complex promotes cell proliferation, invasion and EGFR/AKT signaling in cervical cancer (PMID: 40576144)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3B and METTL3 form a complex, shown by co-immunoprecipitation, in cervical cancer cells (HeLa, SiHa). EIF3B overexpression promoted proliferation and invasion and activated EGFR/AKT signaling. METTL3 knockdown abolished these effects, so the complex rather than EIF3B alone drives the phenotype.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 38247171 - YTHDF2 Is a Therapeutic Target for HCC by Suppressing Immune Evasion and Angiogenesis Through ETV5/PD-L1/VEGFA Axis (PMID: 38247171)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "YTHDF2 binds the m6A site in the 5'UTR of ETV5 mRNA and recruits EIF3B to promote ETV5 translation. This drives PD-L1 and VEGFA transcription, immune evasion and angiogenesis in HCC.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 39547463 - New TIPARP inhibitor rescues mitochondrial function and brain injury in ischemic stroke (PMID: 39547463)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "EIF3B is a direct target of TIPARP, and the two interact through nucleoplasmic redistribution, leading to mitochondrial dysfunction in ischemic stroke. Tiparp knockdown or inhibition with XG-04-B1 restored mitochondrial homeostasis in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PMID 40592131 - Shared molecular biomarkers and therapeutic targets in rheumatoid arthritis and osteoarthritis: Focus on EIF3B, KHSRP, NCL, PDCD1LG2, and SLC25A37 (PMID: 40592131)",
+        "evidence_subtype": "expression",
+        "summary": "EIF3B is a hub gene differentially expressed in RA and OA synovium (GEO datasets) and shows diagnostic potential (AUC 0.795\u20130.958). It was downregulated in both RA and OA mouse models versus controls, with higher expression in RA than in OA.",
+        "sample_size": "117 synovial samples (33 healthy, 50 OA, 34 RA)",
+        "significance": "p<0.01 (mouse validation); p<0.05 (DEGs)"
+      },
+      {
+        "citation": "PMID 28360085 - Silencing of translation initiation factor eIF3b promotes apoptosis in osteosarcoma cells (PMID: 28360085)",
+        "evidence_subtype": "cell_culture",
+        "summary": "eIF3b silencing decreased viability and induced apoptosis in U2OS and other osteosarcoma lines, but did not fully suppress growth of normal fibroblasts. Silencing upregulated TNFRSF21, whose overexpression itself induced cell death.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

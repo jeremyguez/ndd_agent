@@ -1,0 +1,116 @@
+{
+  "articles_found": {
+    "clinical": 13,
+    "model_organism": 7,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Aurora kinase B-phosphorylated HP1\u03b1 functions in chromosomal instability (PMID: 31130069)",
+        "organism": "mouse (mouse embryonic fibroblasts)",
+        "knockout_type": "full knockout (HP1\u03b1-null MEFs, with reconstitution of S92A, S92D or wild-type HP1\u03b1)",
+        "phenotypes": [
+          "HP1\u03b1 knockout MEFs show mitotic chromosomal instability",
+          "Anaphase/telophase chromatin bridges",
+          "Micronuclei formation",
+          "The same defects occur when the non-phosphorylatable S92A mutant is reconstituted",
+          "Defects are rescued by wild-type HP1\u03b1 or the phosphomimetic S92D variant"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Somervaille et al. 2009 - Hierarchical maintenance of MLL myeloid leukemia stem cells employs a transcriptional program shared with embryonic rather than adult stem cells (PMID: 19200802)",
+        "organism": "mouse (MLL-AML leukemia stem cell model)",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Cbx5, together with Myb and Hmgb3, is a critical component of the ESC-like leukemia stem cell maintenance program",
+          "Coexpression of Myb, Hmgb3 and Cbx5 is sufficient for Hoxa/Meis-independent immortalization of myeloid progenitors",
+          "Cbx5 is essential for maintaining self-renewing leukemia stem cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Hoffmann/Ma et al. - HP1\u03b1 is a chromatin crosslinker that controls nuclear and mitotic chromosome mechanics (PMID: 34106828)",
+        "evidence_subtype": "function",
+        "summary": "Rapid auxin-inducible degradation of HP1\u03b1 (CBX5) in human cells did not change transcription, local chromatin compaction or histone methylation, but it reduced chromatin and nuclear stiffness. HP1\u03b1 acts as a chromatin crosslinker through dimerization (the dimerization-deficient I165E mutant fails to do this), and it supports mitotic chromosome stiffness, alignment and segregation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CBX5/G9a/H3K9me-mediated gene repression is essential to fibroblast activation during lung fibrosis (PMID: 31095524)",
+        "evidence_subtype": "pathway",
+        "summary": "CBX5 (HP1\u03b1) acts with the histone methyltransferase G9a and H3K9me marks to epigenetically repress PPARGC1A (PGC1\u03b1) in lung fibroblasts. TGF\u03b2 and matrix stiffness engage this pathway. Inhibiting it raises PGC1\u03b1 and reduces collagen accumulation after bleomycin injury.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting the Epigenetic Regulator CBX5 Promotes Fibroblast Metabolic Reprogramming and Inhibits Lung Fibrosis (PMID: 39642371)",
+        "evidence_subtype": "expression",
+        "summary": "CBX5 expression is enriched in pathogenic fibroblasts and fibroblastic foci of IPF lungs (scRNA-seq and IHC). Mesenchymal CBX5 loss attenuated bleomycin-induced fibrosis and downregulated Cthrc1, Col1a1 and Spp1, while upregulating Ppara and Pparg. CBX5 silencing in IPF fibroblasts reduced TGF-stimulated glycolysis and enhanced AMPK signaling and mitochondrial metabolism.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cell division cycle 7 kinase is a negative regulator of cell-mediated collagen degradation (PMID: 29792348)",
+        "evidence_subtype": "fly_worm",
+        "summary": "A Drosophila phagocyte screen identified CDC7 as a suppressor of collagen uptake. CBX5 is a putative CDC7 target, and genetic silencing of CBX5 increased expression of the collagen receptor Endo180 and increased collagen uptake.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Network biology of tumor stem-like cells identified a regulatory role of CBX5 in lung cancer (PMID: 22900142)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Network analysis of tumor stem-like cells versus parental tumor cells and hESCs identified CBX5 as a regulator of lung cancer stem-like properties and a predictor of prognosis. sh-CBX5 knockdown in vitro and in vivo validated the finding, along with a Taiwanese lung cancer cohort.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Transcriptional control of CBX5 by the RNA binding proteins RBMX and RBMXL1 maintains chromatin state in myeloid leukemia (PMID: 34458856)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RBMX/RBMXL1 control nascent transcription of the CBX5 (HP1\u03b1) locus in myeloid leukemia cells. Their loss changed chromatin accessibility and caused chromosomal breaks, and forced CBX5 expression rescued the growth and apoptosis defects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Regulatory dissection of the CBX5 and hnRNPA1 bi-directional promoter in human breast cancer cells (PMID: 26791953)",
+        "evidence_subtype": "expression",
+        "summary": "CBX5 shares a bi-directional promoter with hnRNPA1 and is down-regulated in metastatic breast cancer cells. Novel CBX5 transcripts were found in intron 1, including autonomous-promoter HP1\u03b1-coding isoforms and the non-coding STET isoform. STET is inversely correlated with HP1\u03b1-coding mRNA in breast cancer cell lines and patient tissues.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Blood transcriptomics of drug-na\u00efve sporadic Parkinson's disease patients (PMID: 26510930)",
+        "evidence_subtype": "expression",
+        "summary": "CBX5 was differentially expressed in the blood of drug-na\u00efve sporadic PD patients and was validated by RT-qPCR in an independent cohort. This is part of a chromatin remodeling and methylation signature.",
+        "sample_size": "40 PD and 20 controls (discovery); 12 in validation set",
+        "significance": null
+      },
+      {
+        "citation": "Porphyromonas gingivalis Outer Membrane Vesicles Promote Apoptosis via msRNA-Regulated DNA Methylation in Periodontitis (PMID: 36629433)",
+        "evidence_subtype": "cell_culture",
+        "summary": "A bacterial msRNA, sRNA45033, in P. gingivalis OMVs targets CBX5 in human periodontal ligament cells, confirmed by dual-luciferase assay and overexpression/knockdown. CUT&Tag showed CBX5 regulates apoptosis through methylation of p53 DNA.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRD4 facilitates DNA damage response and represses CBX5/Heterochromatin protein 1 (HP1) (PMID: 28881656)",
+        "evidence_subtype": "pathway",
+        "summary": "BRD4 inhibition (siRNA or JQ1) increased CBX5 (HP1\u03b1) levels in ovarian cancer cells. Nuclear CBX5 and \u03b3-H2AX were mutually exclusive in BRD4- and CHK1-inhibited cells, suggesting BRD4 promotes the DNA damage response by repressing CBX5.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

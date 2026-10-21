@@ -1,0 +1,194 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 6,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Molecular characterisation of a 15 Mb constitutional de novo interstitial deletion of chromosome 3p in a boy with developmental delay and congenital anomalies (PMID: 12836054)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "de novo ~15 Mb interstitial deletion del(3)(p13p11) (D3S3551 to centromere), paternal origin, encompassing PROK2, GPR27, RYBP, PPP4R2, ROBO1, GBE1 and others",
+            "type": "other",
+            "phenotypes": [
+              "developmental delay",
+              "psychomotor retardation",
+              "craniofacial dysmorphism",
+              "cleft lip"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo large interstitial deletion confirmed by G-banding, FISH with BAC clones and polymorphic marker analysis. GPR27 is only one of several deleted genes and is not itself implicated as causal.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Copy Number Variants in 30 Saudi Pediatric Patients with Neurodevelopmental Disorders: From Unknown Significance to Diagnosis (PMID: 39539796)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "3p13p12.3 (70411134_75249376) x1 heterozygous deletion, 4838 kb, spanning 19 genes including FOXP1, GPR27, PROK2, SHQ1",
+            "type": "other",
+            "phenotypes": [
+              "intellectual developmental disorder",
+              "language impairment",
+              "possible autistic features",
+              "psychomotor impairment",
+              "developmental regression",
+              "epilepsy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "CNV reclassified as pathogenic using the ClinGen CNV Pathogenicity Calculator (ACMG criteria). The pathogenicity is attributed mainly to FOXP1 deletion, with PROK2 and SHQ1 also noted as morbid genes. GPR27 is a passenger gene in the deletion.",
+        "center_country": "King Saud Medical City, Riyadh, Saudi Arabia",
+        "cohort": null
+      },
+      {
+        "citation": "The distinct and overlapping phenotypic spectra of FOXP1 and FOXP2 in cognitive disorders (PMID: 22736078)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "785 kb heterozygous deletion at 3p14.1 involving FOXP1, EIF4E3, PROK2 and GPR27 (patient from Pariani et al. 2009)",
+            "type": "other",
+            "phenotypes": [
+              "gross motor delay",
+              "contractures",
+              "blepharophimosis",
+              "hypertonia",
+              "speech delay (vowel sounds but no words at 23 months)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Deletion including FOXP1 was reported as an early hint of FOXP1 involvement in neurodevelopmental disorders. GPR27 is only a co-deleted gene, and the phenotype is attributed mainly to FOXP1.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Genetic deletion of gpr27 alters acylcarnitine metabolism, insulin sensitivity, and glucose homeostasis in zebrafish (PMID: 31914600)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Potentiated elevation of glucose levels after pharmacological or nutritional perturbation",
+          "Elevated medium-chain acylcarnitines (C6-hexanoyl-, C8-octanoyl-, C9-nonanoyl-, C10-decanoylcarnitine)",
+          "Abrogated insulin-dependent Akt phosphorylation",
+          "Reduced glucose utilization (insulin resistance)",
+          "Increased expression of carnitine shuttle enzymes, including the CPT1C homolog"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion of Gpr27 in vivo reduces insulin mRNA but does not result in diabetes (PMID: 32221326)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "No gross abnormalities",
+          "Insulin and Pdx1 mRNA reduced by about 30% in islets",
+          "No reduction in islet insulin content or beta cell mass",
+          "Slightly worsened glucose tolerance with lower plasma insulin",
+          "Similar insulin tolerance to controls",
+          "Reduced expression of the neighboring gene Eif4e3, likely from deletion of antisense transcription start sites"
+        ],
+        "mendelian_ratio": "Mendelian",
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Surface Electrical Impedance Myography Detects Skeletal Muscle Atrophy in Aged Wildtype Zebrafish and Aged gpr27 Knockout Zebrafish (PMID: 37509577)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Exacerbated skeletal muscle atrophy in aged gpr27 knockout animals, shown by both sEIM and histology",
+          "Reduced myofiber cross-sectional area"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "Significance values are reported for young vs aged wildtype sEIM comparisons (e.g., p < 0.000001); no values are given in the abstract for the gpr27 knockout effect"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zebrafish gpr27 knockout - Genetic deletion of gpr27 alters acylcarnitine metabolism, insulin sensitivity, and glucose homeostasis in zebrafish (PMID: 31914600)",
+        "evidence_subtype": "function",
+        "summary": "Whole-body gpr27 knockout zebrafish showed potentiated glucose elevation after pharmacological or nutritional challenge. They also had elevated medium-chain acylcarnitines (C6-C10), abrogated insulin-dependent Akt phosphorylation and glucose utilization, and increased expression of carnitine shuttle enzymes including the CPT1C homolog. This implicates Gpr27 in lipid metabolism, insulin signaling and glucose homeostasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Deletion of Gpr27 in vivo reduces insulin mRNA but does not result in diabetes (PMID: 32221326)",
+        "evidence_subtype": "function",
+        "summary": "Whole-body Gpr27 knockout mice were born at Mendelian ratios with no gross abnormalities. Islet insulin and Pdx1 mRNA fell by about 30%, but islet insulin content and beta cell mass were unchanged. Glucose tolerance was slightly worse with lower plasma insulin and normal insulin tolerance. Gpr27 deletion also reduced expression of the neighboring gene Eif4e3, likely by removing antisense transcription start sites.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "An siRNA screen in pancreatic beta cells reveals a role for Gpr27 in insulin production (PMID: 22253604)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In an siRNA screen of mouse GPCRs in MIN6 beta cells, Gpr27 was a top positive regulator of insulin promoter activity. Knockdown reduced insulin promoter activity and glucose-stimulated insulin secretion, and the effect depended on Pdx1. Gpr27 overexpression in 293T cells increased inositol phosphates and knockdown in MIN6 reduced them, suggesting Gq/11 coupling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Activation of the Orphan GPCR GPR27 by Surrogate Ligands Promotes \u03b2-Arrestin 2 Recruitment (PMID: 28314853)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A screen identified N-phenyl-2,4-dichlorobenzamide-scaffold surrogate agonists selective for GPR27 over GPR85 and GPR173. They drive \u03b2-arrestin 2 recruitment, confirmed in several orthogonal assays. GPR27 showed no ligand-independent activity and no G protein activation, indicating an atypical, arrestin-biased signaling profile.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Development of Ligands for the Super Conserved Orphan GPCR GPR27 with Improved Efficacy and Potency (PMID: 38060818)",
+        "evidence_subtype": "function",
+        "summary": "Benzamide derivatives (e.g., PT-91/7p, pEC50 6.15; 7ab, pEC50 6.56) were developed as GPR27-specific \u03b2-arrestin 2 recruiting agonists with no G protein activation. Compound 7p is metabolically stable with brain exposure in mice. GPR27 is linked to insulin production and secretion, lipid metabolism, neuronal plasticity and L-lactate homeostasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Whole-genome sequencing reveals an association between small genomic deletions and an increased risk of developing Parkinson's disease (PMID: 36869069)",
+        "evidence_subtype": "GWAS",
+        "summary": "Clustered small genomic deletions in the GPR27 region, which has high enhancer signals, were most closely associated with Parkinson's disease in Korean cohorts. GPR27 is brain-specifically expressed, and GPR27 copy number loss was associated with upregulated SNCA and downregulated dopamine neurotransmitter pathways.",
+        "sample_size": "310 PD and 100 controls (primary); 100 PD and 100 controls (independent)",
+        "significance": null
+      },
+      {
+        "citation": "Discovery of three novel G-protein-coupled receptor genes (PMID: 9479505)",
+        "evidence_subtype": "expression",
+        "summary": "GPR27 was cloned as an intronless ORF encoding a 379-aa GPCR. Its transcripts were detected in several areas of human and rat CNS.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Integrative Brain Transcriptome Analysis Reveals Region-Specific and Broad Molecular Changes in Shank3-Overexpressing Mice (PMID: 30233305)",
+        "evidence_subtype": "expression",
+        "summary": "Gpr27 mRNA decreased in the cortex and striatum of Shank3-overexpressing mice. In cultured neurons, Gpr27 mRNA levels were modulated by neuronal activity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GPR27 Regulates Hepatocellular Carcinoma Progression via MAPK/ERK Pathway (PMID: 35330739)",
+        "evidence_subtype": "pathway",
+        "summary": "GPR27 knockdown in HCC cells inhibited proliferation, colony formation and viability and induced S-phase arrest. Overexpression had the opposite effects. GPR27 acts via the MAPK/ERK pathway, as shown by RNA-seq and a mouse xenograft model.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GPR27 expression correlates with prognosis and tumor progression in gliomas (PMID: 38638156)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In TCGA data, GPR27 expression was negatively correlated with glioma WHO grade and higher in IDH-mutant and 1p/19q co-deleted tumors. Lower expression correlated with poorer survival, and GPR27 inhibited glioma cell growth in cellular experiments.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,481 @@
+{
+ "gene": "PPP6R3",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "developmental disorder of the nervous system",
+   "abnormal neurodevelopment",
+   "impaired neurodevelopment",
+   "disorder of neurological development",
+   "neurodevelopmental impairment",
+   "neurodevelopmental anomaly"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "MGC125712",
+   "FLJ43065",
+   "C11ORF23",
+   "DKFZP781O2362",
+   "DKFZP781E2374",
+   "PP6R3",
+   "SAPLA",
+   "SAPL",
+   "KIAA1558",
+   "SAPS3",
+   "MGC125711",
+   "DKFZP781E17107",
+   "FLJ11058",
+   "SAP190",
+   "protein phosphatase 6 regulatory subunit 3"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 27,
+  "titlekicksparingfulltext": 15,
+  "read": 9
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 3,
+   "Existing": 38,
+   "Hypothesized": 37,
+   "Novel": 22
+  },
+  "justification": "No article reports PPP6R3 variants as a validated cause of neurodevelopmental disorder in independent probands or families, so Established is effectively excluded. The strongest human genetic hint is a de novo missense variant in PPP6R3 listed among 40 genes with DNVs in a small Chinese schizophrenia trio-exome study (PMID 26666178), where PPP6R3 was not among the prioritized genes, and inclusion of PPP6R3 within a large multigenic chromosome 11 duplication in an ADHD/ASD CNV pathway analysis (PMID 24954825), which cannot implicate the gene individually. Supporting biological plausibility comes from non-human and indirect work: a zebrafish ppp6r3 microexon mutant examined in an arousal/sleep study (where most microexon mutants showed mild or no phenotype, PMID 42319930) and PPP6R3 appearing as a predicted miR-135 target in a brain-disease review (PMID 39805813). The remaining papers concern PP6 holoenzyme biology in immunity, virology, glaucoma, and skeletal aging, which are incidental to neurodevelopment, leaving substantial probability on Hypothesized/Novel.",
+  "pmids": [],
+  "detail": {
+   "Established": 3,
+   "Existing": 38,
+   "Hypothesized": 37,
+   "Novel": 22
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38807188",
+   "title": "The protein phosphatase PP6 promotes RIPK1-dependent PANoptosis.",
+   "abstract": "BACKGROUND: The innate immune system serves as the first line of host defense. Transforming growth factor-\u03b2-activated kinase 1 (TAK1) is a key regulator of innate immunity, cell survival, and cellular homeostasis. Because of its importance in immunity, several pathogens have evolved to carry TAK1 inhibitors. In response, hosts have evolved to sense TAK1 inhibition and induce robust lytic cell death, PANoptosis, mediated by the RIPK1-PANoptosome. PANoptosis is a unique innate immune inflammatory lytic cell death pathway\u00a0initiated by an innate immune sensor and driven by caspases and RIPKs. While PANoptosis can be beneficial to clear pathogens, excess activation is linked to pathology. Therefore, understanding the molecular mechanisms regulating TAK1 inhibitor (TAK1i)-induced PANoptosis is central to our understanding of RIPK1 in health and disease. RESULTS: In this study, by analyzing results from a cell death-based CRISPR screen, we identified protein phosphatase 6 (PP6) holoenzyme components as regulators of TAK1i-induced PANoptosis. Loss of the PP6 enzymatic component, PPP6C, significantly reduced TAK1i-induced PANoptosis. Additionally, the PP6 regulatory subunits PPP6R1, PPP6R2, and PPP6R3 had redundant roles in regulating TAK1i-induced PANoptosis, and their combined depletion was required to block TAK1i-induced cell death. Mechanistically, PPP6C and its regulatory subunits promoted the pro-death S166 auto-phosphorylation of RIPK1 and led to a reduction in the pro-survival S321 phosphorylation. CONCLUSIONS: Overall, our findings demonstrate a key requirement for the phosphatase PP6 complex in the activation of TAK1i-induced, RIPK1-dependent PANoptosis, suggesting this complex could be therapeutically targeted in inflammatory conditions.",
+   "found_by": [],
+   "pubdate": "2024 May 29",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "41185046",
+   "title": "Genomic structural equation modeling decodes skeletal aging: novel loci discovery and multisystem genetic crosstalk.",
+   "abstract": "OBJECTIVE: Skeletal aging, a core determinant of systemic aging, poses a global public health challenge due to its association with chronic diseases and functional decline. This study aimed to decode the genetic architecture of skeletal aging by identifying novel loci and multi-system crosstalk using genomic structural equation modeling (Genomic SEM). METHODS: We integrated genome-wide association study (GWAS) data from five musculoskeletal-related traits (osteoporosis [OP], osteoarthritis [OA], lumbar spinal stenosis [LSS], telomere length [TL], and low back pain [LBP]) across 462,933 to 472,174 European individuals. Genomic SEM, FUMA, FUSION, and fine-mapping tools (SuSIE/FINEMAP) were applied to model latent skeletal aging (\"mvSAge\") and identify causal variants, enriched pathways, and tissue-specific gene expression. RESULTS: The latent factor model (CFI\u2009=\u20090.993, SRMR\u2009=\u20090.065) revealed shared genetic architecture among OP, OA, LSS, TL, and LBP. We identified 514 lead SNPs (P\u2009<\u20095\u2009\u00d7\u200910\u207b12), including 136 novel loci enriched in regulatory regions (e.g., brain putamen, frontal cortex). Fine-mapping prioritized causal variants (posterior probability\u2009>\u20090.95) near MTPAP, GRAMD4, and DPP8, implicating mitochondrial function and immune regulation. Transcriptome-wide analyses highlighted PPP6R3 (bone mineral density) and SLC33A1 (anticancer target) as key genes. Enrichment analyses linked mvSAge to Wnt signaling, ER stress, and Mendelian disorders (e.g., ALS). Chromosomes 1, 2, and 4 showed elevated heritability contributions, driven by conserved regulatory elements (RUNX2, SP7) and chromatin accessibility hotspots. CONCLUSION: This study establishes mvSAge as a genetically cohesive construct and uncovers novel loci, pathways, and multi-system interactions underlying skeletal aging. These findings advance precision medicine strategies for aging-related musculoskeletal disorders.",
+   "found_by": [],
+   "pubdate": "2025 Nov 3",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25187537",
+   "title": "Interactome analysis of the influenza A virus transcription/replication machinery identifies protein phosphatase 6 as a cellular factor required for efficient virus replication.",
+   "abstract": "UNLABELLED: The negative-sense RNA genome of influenza A virus is transcribed and replicated by the viral RNA-dependent RNA polymerase (RdRP). The viral RdRP is an important host range determinant, indicating that its function is affected by interactions with cellular factors. However, the identities and the roles of most of these factors remain unknown. Here, we employed affinity purification followed by mass spectrometry to identify cellular proteins that interact with the influenza A virus RdRP in infected human cells. We purified RdRPs using a recombinant influenza virus in which the PB2 subunit of the RdRP is fused to a Strep-tag. When this tagged subunit was purified from infected cells, copurifying proteins included the other RdRP subunits (PB1 and PA) and the viral nucleoprotein and neuraminidase, as well as 171 cellular proteins. Label-free quantitative mass spectrometry revealed that the most abundant of these host proteins were chaperones, cytoskeletal proteins, importins, proteins involved in ubiquitination, kinases and phosphatases, and mitochondrial and ribosomal proteins. Among the phosphatases, we identified three subunits of the cellular serine/threonine protein phosphatase 6 (PP6), including the catalytic subunit PPP6C and regulatory subunits PPP6R1 and PPP6R3. PP6 was found to interact directly with the PB1 and PB2 subunits of the viral RdRP, and small interfering RNA (siRNA)-mediated knockdown of the catalytic subunit of PP6 in infected cells resulted in the reduction of viral RNA accumulation and the attenuation of virus growth. These results suggest that PP6 interacts with and positively regulates the activity of the influenza virus RdRP. IMPORTANCE: Influenza A viruses are serious clinical and veterinary pathogens, causing substantial health and economic impacts. In addition to annual seasonal epidemics, occasional global pandemics occur when viral strains adapt to humans from other species. To replicate efficiently and cause disease, influenza viruses must interact with a large number of host factors. The reliance of the viral RNA-dependent RNA polymerase (RdRP) on host factors makes it a major host range determinant. This study describes and quantifies host proteins that interact, directly or indirectly, with a subunit of the RdRP. It increases our understanding of the role of host proteins in viral replication and identifies a large number of potential barriers to pandemic emergence. Identifying host factors allows their importance for viral replication to be tested. Here, we demonstrate a role for the cellular phosphatase PP6 in promoting viral replication, contributing to our emerging knowledge of regulatory phosphorylation in influenza virus biology.",
+   "found_by": [],
+   "pubdate": "2014 Nov",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "39568137",
+   "title": "Identification of regulatory genes associated with POAG by integrating expression and sequencing data.",
+   "abstract": "BACKGROUND: Primary open-angle glaucoma (POAG) is a subtype of glaucoma that accounts for 60%~70% of all cases. Its pathogenic mechanism is intricate and its pathogenic process is concealed. Numerous significant biological processes associated with POAG continue to be elucidated. METHODS: In this study, by exploring the expression data of POAG tissues and normal tissues, we mined the regulatory lncRNAs and mRNAs closely associated with the pathogenesis and progression of POAG by exploring a regulatory network of competing endogenous RNA (ceRNA), established by integrating gene expression data with the known lncRNA-miRNA and miRNA-mRNA-regulatory interactions. The key regulatory pathways and regulatory elements of POAG were identified by topological analysis. Simultaneously, the exome data of 28 cases with POAG and healthy controls were analyzed to identify high-frequency mutations and genes. RESULTS: A total of 2712 differentially expressed genes were identified, including 1828 mRNAs and 884 lncRNAs. Network analysis suggested that lncRNAs such as HAGLR, HOTAIR and MIR29B2CHG, and mRNAs such as PPP6R3, BMPR2 and CFL2, may be involved in the onset and progression of POAG. In addition, 55 mutations with potential pathogenicity were identified. CONCLUSION: These genes and mutations provide novel potential genetic heterogeneity and genetic susceptibility of POAG, as well as fresh suggestions for elucidating the molecular mechanism underlying the pathogenesis of POAG.",
+   "found_by": [],
+   "pubdate": "2025 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19835610",
+   "title": "Mapping of protein phosphatase-6 association with its SAPS domain regulatory subunit using a model of helical repeats.",
+   "abstract": "BACKGROUND: Helical repeat motifs are common among regulatory subunits for type-1 and type-2A protein Ser/Thr phosphatases. Yeast Sit4 is a distinctive type-2A phosphatase that has dedicated regulatory subunits named Sit4-Associated Proteins (SAPS). These subunits are conserved, and three human SAPS-related proteins are known to associate with PP6 phosphatase, the Sit4 human homologue. RESULTS: Here we show that endogenous SAPS subunit PP6R3 co-precipitates half of PP6 in cell extracts, and the SAPS region of PP6R3 is sufficient for binding PP6. The SAPS domain of recombinant GST-PP6R3 is relatively resistant to trypsin despite having many K and R residues, and the purified SAPS domain (residues 1-513) has a circular dichroic spectrum indicative of mostly alpha helical structure. We used sequence alignments and 3D-jury methods to develop alternative models for the SAPS domain, based on available structures of other helical repeat proteins. The models were used to select sites for charge-reversal substitutions in the SAPS domain of PP6R3 that were tested by co-precipitation of endogenous PP6c with FLAG-tagged PP6R3 from mammalian cells. Mutations that reduced binding with PP6 suggest that SAPS adopts a helical repeat similar to the structure of p115 golgin, but distinct from the PP2A-A subunit. These mutations did not cause perturbations in overall PP6R3 conformation, evidenced by no change in kinetics or preferential cleavage by chymotrypsin. CONCLUSION: The conserved SAPS domain in PP6R3 forms helical repeats similar to those in golgin p115 and negatively charged residues in interhelical loops are used to associate specifically with PP6. The results advance understanding of how distinctive helical repeat subunits uniquely distribute and differentially regulate closely related Ser/Thr phosphatases.",
+   "found_by": [],
+   "pubdate": "2009 Oct 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42319930",
+   "title": "Neuronal microexons modulate arousal via the cAMP-PKA-CREB pathway in zebrafish.",
+   "abstract": "Proper regulation of arousal maintains the balance of rest and activity and enables appropriate responses to stimuli; its disruption is a hallmark of many neurodevelopmental disorders. Although transcriptional mechanisms of arousal control are well defined, the contribution of posttranscriptional processes such as alternative splicing remains unclear. Here, we identify a critical role for the microexon splicing regulator srrm3 in maintaining arousal homeostasis in zebrafish. srrm3 mutants exhibit persistent hyperarousal characterized by sleep loss, sensory hypersensitivity, and elevated behavioral and neuronal activity. We identify the cyclic adenosine monophosphate (cAMP)-cAMP-dependent protein kinase (PKA)-cAMP response element-binding protein (CREB) signaling axis as a central driver of mutant hyperarousal. Specifically, pharmacological inhibition of cAMP signaling rescues mutant hyperactivity and associated transcriptional changes whereas wild-type cAMP activation phenocopies the mutant. Down-regulation of immediate early genes and reduced CREB phosphorylation further suggest adaptation to sustained neuronal activation. These findings establish srrm3-dependent microexon splicing as a key molecular layer of arousal regulation linking RNA-processing defects to neuromodulatory imbalance. [full text, passages naming PPP6R3] ...be excluded as contributors to the hyperarousal phenotype. We next examined previously generated microexon mutants of shank3 , vti1a , vav2 , and madd ( ), as well as published behavioral data for 29 ppfia4 , ppp6r3 , rapgef2 , and ptprd microexon mutants ( ) ( 55 Fig. 4, I and J ). Whereas most microexon mutants displayed mild or no sleep-wake phenotypes, deletion of a microexon in rapgef2 recapitulated multiple as... ...T1, with the exception of vav2 and vti1a microexon mutant lines for which water was topped up at ZT4. To compare srrm3 \u2206eMIC to published microexon mutants [(common) gene name + VastID]: ppfia4 (DreEX0057348), ppp6r3 (DreEX0057914), ptprd-1 (DreEX0002174, MeB), ptprd -2 (DreEX1003032, MeA6), and rapgef2-1 (DreEX0060838), raw data from nights 4 to 5 and 6 to 7 dpf and days 5 to 6 dpf were reanalyzed ( ). In-house data...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39805813",
+   "title": "MiRNAs as major players in brain health and disease: current knowledge and future perspectives.",
+   "abstract": "MicroRNAs are regulators of gene expression and their dysregulation can lead to various diseases. MicroRNA-135 (MiR-135) exhibits brain-specific expression, and performs various functions such as neuronal morphology, neural induction, and synaptic function in the human brain. Dysfunction of miR-135 has been reported in brain tumors, and neurodegenerative and neurodevelopmental disorders. Several reports show downregulation of miR-135 in glioblastoma, indicating its tumor suppressor role in the pathogenesis of brain tumors. In this review, by performing in silico analysis of molecular targets of miR-135, we reveal the significant pathways and processes modulated by miR-135. We summarize the biological significance, roles, and signaling pathways of miRNAs in general, with a focus on miR-135 in different neurological diseases including brain tumors, and neurodegenerative and neurodevelopmental disorders. We also discuss methods, limitations, and potential of glioblastoma organoids in recapitulating disease initiation and progression. We highlight the promising therapeutic potential of miRNAs as antitumor agents for aggressive human brain tumors including glioblastoma. [full text, passages naming PPP6R3] ...r database analysis. Table 1 List of 280 conserved targets of miR-135 among eight species. FOXN3 | ST6GAL2 | CALN1 | BBX | ARHGEF4 | POU2F3 | AHCYL1 | RIMS2 | SPOCK1 | VCAN | SLC24A2 | PDE8B | DYRK1B | MEF2A | PPP6R3 | PDE7B | WAPAL | SHISA6 | GPM6B | ATG14 | SMIM13 | C7orf41 | DNAJC16 | YBX2 | CASZ1 | TEX2 | KCTD1 | PTPRD | CRAMP1L | BMPR2 | KCNB1 | MFHAS1 | TAF4 | PCNXL2 | BMPER | BMPR1A | AREL1 | BTAF1 | CUX2 | YT...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "26666178",
+   "title": "Increased co-expression of genes harboring the damaging de novo mutations in Chinese schizophrenic patients during prenatal development.",
+   "abstract": "Schizophrenia is a heritable, heterogeneous common psychiatric disorder. In this study, we evaluated the hypothesis that de novo variants (DNVs) contribute to the pathogenesis of schizophrenia. We performed exome sequencing in Chinese patients (N\u2009=\u200945) with schizophrenia and their unaffected parents (N\u2009=\u200990). Forty genes were found to contain DNVs. These genes had enriched transcriptional co-expression profile in prenatal frontal cortex (Bonferroni corrected p\u2009<\u20099.1\u2009\u00d7\u200910(-3)), and in prenatal temporal and parietal regions (Bonferroni corrected p\u2009<\u20090.03). Also, four prenatal anatomical subregions (VCF, MFC, OFC and ITC) have shown significant enrichment of connectedness in co-expression networks. Moreover, four genes (LRP1, MACF1, DICER1 and ABCA2) harboring the damaging de novo mutations are strongly prioritized as susceptibility genes by multiple evidences. Our findings in Chinese schizophrenic patients indicate the pathogenic role of DNVs, supporting the hypothesis that schizophrenia is a neurodevelopmental disease. [full text, passages naming PPP6R3] ...D | . | T | 11 | 20119268 | C/T | | NAV2 . | missense | . | P;P;P;D | P;B;P;B | D | D | N | T;T;T;T;T;T;T;T | 11 | 61277216 | C/T | | LRRC10B . | missense | T | B | B | U | N | N | T | 11 | 68370926 | G/C | | PPP6R3 . | missense | T | D;B;P;D;D;D;D;P | D;B;P;P;P;P;D;P | D | D | L | T;T;T;T;T;T;T;T;T;T;T | 11 | 71943335 | G/A | | INPPL1 . | missense | T | D | D | D | D | M | T;T;T | 11 | 73103282 | G/A | | RELT . | m...",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "24954825",
+   "title": "Biological overlap of attention-deficit/hyperactivity disorder and autism spectrum disorder: evidence from copy number variants.",
+   "abstract": "OBJECTIVE: Attention-deficit/hyperactivity disorder (ADHD) and autism spectrum disorder (ASD) often co-occur and share genetic risks. The aim of this analysis was to determine more broadly whether ADHD and ASD share biological underpinnings. METHOD: We compared copy number variant (CNV) data from 727 children with ADHD and 5,081 population controls to data from 996 individuals with ASD and an independent set of 1,287 controls. Using pathway analyses, we investigated whether CNVs observed in individuals with ADHD have an impact on genes in the same biological pathways as on those observed in individuals with ASD. RESULTS: The results suggest that the biological pathways affected by CNVs in ADHD overlap with those affected by CNVs in ASD more than would be expected by chance. Moreover, this was true even when specific CNV regions common to both disorders were excluded from the analysis. After correction for multiple testing, genes involved in 3 biological processes (nicotinic acetylcholine receptor signalling pathway, cell division, and response to drug) showed significant enrichment for case CNV hits in the combined ADHD and ASD sample. CONCLUSION: The results of this study indicate the presence of significant overlap of shared biological processes disrupted by large rare CNVs in children with these 2 neurodevelopmental conditions. [full text, passages naming PPP6R3] ...MS4A12, MS4A13, | ADHD | 11 | 67841909 | 69060612 | Dup | Unknown | No | No | GO:5794, GO:42493, GO:6461, GO:9154, GO:9205, GO:6195, GO:9143, GO:9144, GO:9261, GO:9199, GO:9166, GO:9141, | GAL, CPT1A, | LRP5, PPP6R3, GAL, MTL5, CPT1A, MRPL21, IGHMBP2, MRGPRD, TPCN2, MYEOV, | ADHD | 11 | 102605727 | 106728114 | Del | Unknown | No | No | GO:5794, GO:9154, GO:9205, GO:6195, GO:9143, GO:9144, GO:9261, GO:9199, GO:9166,...",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "19749176": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8202358": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8668149": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31075840": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40188333": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42260878": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38452031": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11401438": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28743860": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28357221": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11779790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23044509": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36416764": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32348859": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30888730": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38807188": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41185046": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39912885": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31538390": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25187537": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39568137": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "19835610": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21346221": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42319930": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39805813": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26666178": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "24954825": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 233,
+   "usd": 0.007565,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "15 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "4 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 5.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 1627,
+   "output_tokens": 90,
+   "usd": 0.002077,
+   "calls": 3
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 40.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 8137,
+   "output_tokens": 284,
+   "usd": 0.009557,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.4,
+   "note": "",
+   "input_tokens": 8380,
+   "output_tokens": 976,
+   "usd": 0.0663,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>3</established>\n    <existing>38</existing>\n    <hypothesized>37</hypothesized>\n    <novel>22</novel>\n  </probabilities>\n  <justification>No article reports PPP6R3 variants as a validated cause of neurodevelopmental disorder in independent probands or families, so Established is effectively excluded. The strongest human genetic hint is a de novo missense variant in PPP6R3 listed among 40 genes with DNVs in a small Chinese schizophrenia trio-exome study (PMID 26666178), where PPP6R3 was not among the prioritized genes, and inclusion of PPP6R3 within a large multigenic chromosome 11 duplication in an ADHD/ASD CNV pathway analysis (PMID 24954825), which cannot implicate the gene individually. Supporting biological plausibility comes from non-human and indirect work: a zebrafish ppp6r3 microexon mutant examined in an arousal/sleep study (where most microexon mutants showed mild or no phenotype, PMID 42319930) and PPP6R3 appearing as a predicted miR-135 target in a brain-disease review (PMID 39805813). The remaining papers concern PP6 holoenzyme biology in immunity, virology, glaucoma, and skeletal aging, which are incidental to neurodevelopment, leaving substantial probability on Hypothesized/Novel.</justification>\n  <pmids>\n    <pmid>26666178</pmid>\n    <pmid>24954825</pmid>\n    <pmid>42319930</pmid>\n    <pmid>39805813</pmid>\n    <pmid>19835610</pmid>\n  </pmids>\n</response>"
+}

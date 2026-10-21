@@ -1,0 +1,76 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 1,
+    "biological": 9
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Molecular characterization of centerin, a germinal centre cell serpin (PMID: 17447896)",
+        "evidence_subtype": "function",
+        "summary": "Recombinant bacterial centerin (SERPINA9/GCET1) undergoes the stressed-to-relaxed conformational change required for protease inhibition. It rapidly inhibits trypsin (ka=1.9x10^5 M-1 s-1) and weakly inhibits thrombin and plasmin. It also binds DNA and heparin, although these interactions did not change the inhibition rate. This suggests it acts in germinal centres as an inhibitor of a trypsin-like protease.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression of the serpin centerin defines a germinal center phenotype in B-cell lymphomas (PMID: 18550480)",
+        "evidence_subtype": "expression",
+        "summary": "A monoclonal antibody showed centerin protein in Burkitt lymphoma Raji cells and in germinal center B cells of tonsil, lymph node and GI lymphoid tissue. It was strongly expressed in most follicular lymphomas, and 47% (14/30) of DLBCLs were positive, correlating most closely with CD10.",
+        "sample_size": "30 DLBCL cases plus follicular lymphomas and normal tissues",
+        "significance": null
+      },
+      {
+        "citation": "Oligonucleotide-based analysis of differentially expressed genes in hippocampus of transgenic mice expressing NSE-controlled APPsw (PMID: 16933151)",
+        "evidence_subtype": "expression",
+        "summary": "Serpina9 was up-regulated in the hippocampus of 12-month-old APPsw-transgenic AD model mice. Microarray results were confirmed by RT-PCR, suggesting a link to AD neuropathology.",
+        "sample_size": "12-month-old APPsw transgenic vs control mice; 116 DEGs total",
+        "significance": null
+      },
+      {
+        "citation": "Genome-Wide Analyses Suggest Mechanisms Involving Early B-Cell Development in Canine IgA Deficiency (PMID: 26225558)",
+        "evidence_subtype": "GWAS",
+        "summary": "In German shepherds, a genome-wide significant locus for IgA levels contained SERPINA9 (with KIRREL3) as a candidate gene. SERPINA9 expression is restricted to B cells and peaks when B cells proliferate into plasma cells.",
+        "sample_size": "GWAS in four dog breeds (German shepherd, Golden retriever, Labrador retriever, Shar-Pei)",
+        "significance": "p<0.0002 (genome-wide significant in German shepherd)"
+      },
+      {
+        "citation": "Molecular subtyping of CD5+ diffuse large B-cell lymphoma based on DNA-targeted sequencing and Lymph2Cx (PMID: 36081566)",
+        "evidence_subtype": "expression",
+        "summary": "High SERPINA9 mRNA expression correlated with better overall survival in CD5+ DLBCL, and was an independent prognostic predictor together with MME.",
+        "sample_size": "24 CD5+ and 23 CD5- DLBCL cases",
+        "significance": "significant correlation with OS (p<0.05)"
+      },
+      {
+        "citation": "Tumor gene expression signatures associated with outcome in large B-cell lymphoma treated with CD19-directed CAR T-cell therapy (axicabtagene ciloleucel) (PMID: 40083872)",
+        "evidence_subtype": "expression",
+        "summary": "SERPINA9 is one of 17 genes in a tumor expression signature (17-GES) associated with progression after axi-cel therapy in LBCL (HR 6.12 for EFS). The signature was elevated at progression.",
+        "sample_size": "134 axi-cel patients (RNA-seq validation: 124 axi-cel, 125 SOC)",
+        "significance": "HR 6.12, 95% CI 3.57-10.50 (for the signature)"
+      },
+      {
+        "citation": "Potential biomarkers screening to predict side effects of dexamethasone in different cancers (PMID: 32048780)",
+        "evidence_subtype": "expression",
+        "summary": "SERPINA9 was among the dexamethasone-specific differentially expressed genes in lymphoma cell samples, indicating that its expression responds to dexamethasone treatment in lymphoma cells.",
+        "sample_size": "GEO lymphoma datasets; 180 DEGs in lymphoma",
+        "significance": null
+      },
+      {
+        "citation": "Genomic analysis reveals molecular characterization of CD30(+) and CD30(-) extranodal natural killer/T-cell lymphomas (ENKTLs) (PMID: 39187207)",
+        "evidence_subtype": "other",
+        "summary": "Whole exome sequencing identified somatic SERPINA9 mutations shared between CD30+ and CD30- ENKTL samples.",
+        "sample_size": "10 paired CD30+ and CD30- ENKTL samples",
+        "significance": null
+      },
+      {
+        "citation": "Identification of Prognostic Genes Relevant With the Nuclear Factors of Activated T Cells Based on Transcriptomics in Oral Squamous Cell Carcinoma (PMID: 42471772)",
+        "evidence_subtype": "pathway",
+        "summary": "SERPINA9 was identified as one of seven NFAT-related prognostic genes in OSCC (with ALB, PDK4, SERPINA5, SPINK6, CGNL1 and IL17F) and was used in a risk model predicting survival. RT-qPCR validation showed significant changes for ALB, PDK4, SERPINA5, CGNL1 and IL17F, but SERPINA9 is not listed among them.",
+        "sample_size": "TCGA-OSCC and GSE41613 datasets",
+        "significance": null
+      }
+    ]
+  }
+}

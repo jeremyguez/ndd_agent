@@ -1,0 +1,730 @@
+{
+ "gene": "LHX2",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "congenital heart malformation",
+   "congenital heart anomaly",
+   "congenital cardiac defect",
+   "congenital cardiac anomaly",
+   "congenital cardiovascular malformation",
+   "CHD",
+   "cardiac malformation, congenital",
+   "heart defect, congenital",
+   "congenital anomaly of the heart"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "HLHX2",
+   "LH-2",
+   "LIM homeobox 2"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 62,
+  "titlekicksparingfulltext": 32,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 10,
+   "Existing": 62,
+   "Hypothesized": 26,
+   "Novel": 2
+  },
+  "justification": "Human evidence exists but is limited: the large CHD cohort study of 11,555 probands (PMID 40127276) reports damaging de novo mutations in LHX2 in two probands with aortic and mitral atresia, citing mouse knockout CHD as supporting rationale, and a Chinese Han LVOTO whole-exome study (PMID 38164514) lists LHX2 among 32 burden-enriched candidate genes with a recurrent missense variant (though its presence in 22 individuals raises concern it is a common variant rather than a causal allele). An ENU mouse screen combined with human probands also lists LHX2 among neuronal/transcription-factor candidates (PMID 39135118), and mouse knockout data (pharyngeal mesoderm, outflow tract/DiGeorge-like phenotypes) provide a strong biological mechanism. Human LHX2 variant studies otherwise focus on neurodevelopmental disorder, micro/anophthalmia and schizencephaly (PMIDs 37057675, 21203406, 20949537), with no cardiac phenotype, so no replicated clinical causal demonstration of CHD exists. Therefore Existing is most appropriate, with substantial residual weight on Hypothesized given the reliance on candidate-gene/burden signals and animal models.",
+  "pmids": [],
+  "detail": {
+   "Established": 10,
+   "Existing": 62,
+   "Hypothesized": 26,
+   "Novel": 2
+  }
+ },
+ "articles": [
+  {
+   "pmid": "40475661",
+   "title": "Interaction between long-range chromatin regulators Nipbl & Isl1 synergistically drives heart defects in mice.",
+   "abstract": "Congenital heart defects (CHDs) are frequently observed in the most common form of Cornelia de Lange Syndrome (CdLS), which is caused by haploinsufficiency for NIPBL , a gene involved in chromatin looping and cis-regulatory control of gene expression. Here, we surveyed cardiac defects in mice made Nipbl -haploinsufficient in the second heart field using two Cre drivers: Mef2c-Cre and Isl1-Cre . Only Isl1-Cre -driven Nipbl -haploinsufficiency resulted in CHDs - a finding we traced to the additional contribution of Isl1 -haploinsufficiency caused by the Isl1-Cre allele. To test whether combined reduction of Nipbl and Isl1 cause CHDs, we made mice globally haploinsufficient for both genes. Indeed, Nipbl +/- ; Isl1 +/- mice exhibited a substantially higher frequency and severity of CHDs than mice haploinsufficient for either gene alone. As a member of the LIM-homeodomain transcription factor family, Isl1 is involved in chromatin looping and enhancer-promoter communication via a mechanism distinct from that of Nipbl . Nevertheless, when we performed RNA sequencing on E10.5 hearts from wildtype, Nipbl +/- , Isl1 +/- , and Nipbl +/- ; Isl1 +/- embryos, we observed that combined haploinsufficiency resulted in largely additive gene expression changes, including dysregulation of known cardiac regulators ( Irx4, Tbx1, Foxo6, Heyl, Bnc1, Sox17 ) and novel candidates ( Gbx1, Csdc2, Myrf, Pou6f1, Zfp579, ad Zfp763 ). A subset of additive changes arose from opposing regulatory influences in single mutants that restored gene expression to WT levels in Nipbl\u207a / \u207b; Isl1\u207a / \u207b hearts. For example, Hoxc4, Pitx2, Isl1 itself, and Pax6 (a known target of Isl1 ), were upregulated in Nipbl +/- hearts, downregulated in Isl1 +/- hearts, but expressed at WT levels in Nipbl\u207a / \u207b; Isl1\u207a / \u207b hearts. Since loss of Isl1 upregulation from Nipbl +/- to Nipbl +/- ; Isl1 +/- hearts coincided with a marked increase in CHDs, we propose that Isl1 upregulation compensates for the loss of cis- regulatory interactions due to Nipbl -haploinsufficiency, and protects hearts from severe CHD risk. Supporting this model, other LIM-homeodomain transcription factors ( Lhx2, Lhx3, Lhx9 ) were also upregulated in Nipbl +/- hearts, with Lhx3 and Lhx9 showing even greater upregulation in Nipbl +/- ; Isl1 +/- hearts. Despite this, CHDs resulting from the combined loss of Nipbl and Isl1 were particularly severe. These findings suggest that heart development is exquisitely sensitive to small changes in gene expression, leading to synergistic phenotypic interactions when relatively modest gene expression changes are combined.",
+   "found_by": [],
+   "pubdate": "2025 May 19",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "16436624",
+   "title": "belladonna/(Ihx2) is required for neural patterning and midline axon guidance in the zebrafish forebrain.",
+   "abstract": "Some of the earliest axon pathways to form in the vertebrate forebrain are established as commissural and retinal axons cross the midline of the diencephalon and telencephalon. To better understand axon guidance in the forebrain, we characterized the zebrafish belladonna (bel) mutation, which disrupts commissural and retinal axon guidance in the forebrain. Using a positional cloning strategy, we determined that the bel locus encodes zebrafish Lhx2, a lim-homeodomain transcription factor expressed in the brain, eye and fin buds. We show that bel(Ihx2) function is required for patterning in the ventral forebrain and eye, and that loss of bel function leads to alterations in regulatory gene expression, perturbations in axon guidance factors, and the absence of an optic chiasm and forebrain commissures. Our analysis reveals new roles for Ihx2 in midline axon guidance, forebrain patterning and eye morphogenesis.",
+   "found_by": [],
+   "pubdate": "2006 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "20949537",
+   "title": "Candidate gene sequencing of LHX2, HESX1, and SOX2 in a large schizencephaly cohort.",
+   "abstract": "Schizencephaly is a malformation of cortical development characterized by gray matter-lined clefts in the cerebral cortex and a range of neurological presentations. In some cases, there are features of septo-optic dysplasia concurrently with schizencephaly. The etiologies of both schizencephaly and septo-optic dysplasia are thought to be heterogeneous, but there is evidence that at least some cases have genetic origin. We hypothesized that these disorders may be caused by mutations in three candidate genes: LHX2, a gene with an important cortical patterning role, and HESX1 and SOX2, genes that have been associated with septo-optic dysplasia. We sequenced a large cohort of patients with schizencephaly, some with features of septo-optic dysplasia, for mutations in these genes. No pathogenic mutations were observed, suggesting that other genes or non-genetic factors influencing genes critical to brain development must be responsible for schizencephaly.",
+   "found_by": [],
+   "pubdate": "2010 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31149275",
+   "title": "SCREENING OF PROP-1, LHX2 AND POU1F1 MUTATIONS IN PATIENTS WITH ECTOPIC POSTERIOR PITUITARY GLAND.",
+   "abstract": "OBJECTIVE: Ectopic posterior pituitary gland (EPP) is usually characterized by an abnormal pituitary stalk and hypoplasia of the anterior hypophysis. The genetic mechanisms involved in the development of EPP remain uncertain. The aim of this study is to determine whether mutations in the three genes, PROP-1, LHX2, and POU1F1, are associated with the risk for and the characteristics of EPP. METHODS: In the Endocrinology Outpatient Clinic of \"Dr. Behcet Uz\" Children's Hospital, 27 patients with EPP were submitted to sequencing analyses of the PROP-1, LHX2, and POU1F1 genes. RESULTS: Growth hormone, thyrotropin, corticotropin, gonadotropin, and vasopressin deficiency were observed in 22 (81.5%), 23 (85.2%), 17 (63%), 14 (51.9%), and two (7.4%) patients. Thirteen patients (48.1%) presented with hyperprolactinemia. Fourteen patients (51%) had a history of birth dystocia, and 12 cases (42.1%) had a history of breech presentation. Central nervous system abnormalities included five cases with corpus callosum agenesis, one case with schizencephaly, and one case with Chiari type 1 malformation. We identified a homozygous p.S109* mutation in exon 2 in one male patient with EPP and two different PROP1 gene polymorphisms (A142T or c.109+3 G>A polymorphism) in thirteen patients. CONCLUSIONS: Our results suggest that PROP1 gene abnormalities might explain the genetic mechanisms involved in the development of EPP.",
+   "found_by": [],
+   "pubdate": "2018 Jul-Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31814023",
+   "title": "The master transcription factor SOX2, mutated in anophthalmia/microphthalmia, is post-transcriptionally regulated by the conserved RNA-binding protein RBM24 in vertebrate eye development.",
+   "abstract": "Mutations in the key transcription factor, SOX2, alone account for 20% of anophthalmia (no eye) and microphthalmia (small eye) birth defects in humans-yet its regulation is not well understood, especially on the post-transcription level. We report the unprecedented finding that the conserved RNA-binding motif protein, RBM24, positively controls Sox2 mRNA stability and is necessary for optimal SOX2 mRNA and protein levels in development, perturbation of which causes ocular defects, including microphthalmia and anophthalmia. RNA immunoprecipitation assay indicates that RBM24 protein interacts with Sox2 mRNA in mouse embryonic eye tissue. and electrophoretic mobility shift assay shows that RBM24 directly binds to the Sox2 mRNA 3'UTR, which is dependent on AU-rich elements (ARE) present in the Sox2 mRNA 3'UTR. Further, we demonstrate that Sox2 3'UTR AREs are necessary for RBM24-based elevation of Sox2 mRNA half-life. We find that this novel RBM24-Sox2 regulatory module is essential for early eye development in vertebrates. We show that Rbm24-targeted deletion using a constitutive CMV-driven Cre in mouse, and rbm24a-CRISPR/Cas9-targeted mutation or morpholino knockdown in zebrafish, results in Sox2 downregulation and causes the developmental defects anophthalmia or microphthalmia, similar to human SOX2-deficiency defects. We further show that Rbm24 deficiency leads to apoptotic defects in mouse ocular tissue and downregulation of eye development markers Lhx2, Pax6, Jag1, E-cadherin and gamma-crystallins. These data highlight the exquisite specificity that conserved RNA-binding proteins like RBM24 mediate in the post-transcriptional control of key transcription factors, namely, SOX2, associated with organogenesis and human developmental defects.",
+   "found_by": [],
+   "pubdate": "2020 Mar 13",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22865636",
+   "title": "TBX3 promotes human embryonic stem cell proliferation and neuroepithelial differentiation in a differentiation stage-dependent manner.",
+   "abstract": "T-box 3 (Tbx3) is a member of the T-box family of genes. Mutations that result in the haploinsufficiency of TBX3 cause ulnar mammary syndrome in humans characterized by mammary gland hypoplasia as well as other congenital defects. In mice, homozygous mutations are embryonic lethal, suggesting that Tbx3 is essential for embryo development. Studies in mice have shown that Tbx3 is essential in the maintenance of mouse embryonic stem cell (ESC) self-renewal and in their differentiation into extraembryonic endoderm (ExEn). The role TBX3 plays in regulating human ESCs (hESCs) has not been explored. Since mouse and hESCs are known to represent distinct pluripotent states, it is important to address the role of TBX3 in hESC self-renewal and differentiation. Using overexpression and knockdown strategies, we found that TBX3 overexpression promotes hESC proliferation possibly by repressing the expression of both NF\u03baBIB and p14(ARF) , known cell cycle regulators. During differentiation, TBX3 knockdown resulted in decreased neural rosette formation and in decreased expression of neuroepithelial and neuroectoderm markers (PAX6, LHX2, FOXG1, and RAX). Taken together, our data suggest a role for TBX3 in hESC proliferation and reveal an unrecognized novel role of TBX3 in promoting neuroepithelial differentiation. Our results suggest that TBX3 plays distinct roles in regulating self-renewal and differentiation in both hESCs and mouse ESCs.",
+   "found_by": [],
+   "pubdate": "2012 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37057675",
+   "title": "LHX2 haploinsufficiency causes a variable neurodevelopmental disorder.",
+   "abstract": "PURPOSE: LHX2 encodes the LIM homeobox 2 transcription factor (LHX2), which is highly expressed in brain and well conserved across species, but it has not been clearly linked to neurodevelopmental disorders (NDDs) to date. METHODS: Through international collaboration, we identified 19 individuals from 18 families with variable neurodevelopmental phenotypes, carrying a small chromosomal deletion, likely gene-disrupting or missense variants in LHX2. Functional consequences of missense variants were investigated in cellular systems. RESULTS: Affected individuals presented with developmental and/or behavioral abnormalities, autism spectrum disorder, variable intellectual disability, and microcephaly. We observed nucleolar accumulation for 2 missense variants located within the DNA-binding HOX domain, impaired interaction with co-factor LDB1 for another variant located in the protein-protein interaction-mediating LIM domain, and impaired transcriptional activation by luciferase assay for 4 missense variants. CONCLUSION: We implicate LHX2 haploinsufficiency by deletion and likely gene-disrupting variants as causative for a variable NDD. Our findings suggest a loss-of-function mechanism also for likely pathogenic LHX2 missense variants. Together, our observations underscore the importance of LHX2 in the nervous system and for variable neurodevelopmental phenotypes.",
+   "found_by": [],
+   "pubdate": "2023 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35247020",
+   "title": "Alternative LIM homeodomain splice variants are dynamically regulated at key developmental steps in vertebrates.",
+   "abstract": "BACKGROUND: Alternative splicing provides a broad strategy to amplify the genome. Yet how alternative splicing influences neurodevelopment or indeed which variants are translated at developmental choice points remains poorly explored. Here we focused on a gene important for neurodevelopment, the Lim homeodomain transcription factor, Lhx9. Lhx9 has two noncanonical splice variants, Lhx9a and Lhx9b which compared with the canonical variant Lhx9c have a truncated homeodomain and an alternative C-terminal sequence, suggesting that, if translated, these variants could differently impact on cellular function. RESULTS: We created a unique antibody tool designed to selectively detect noncanonical Lhx9 variants (Lhx9ab) and used this to examine the protein expression dynamics in embryos. Lhx9ab variants were translated and dynamically expressed similarly between mouse and chicken at key developmental choice points in the spinal cord, limbs and urogenital ridge. Within the spinal cord, enrichment of Lhx9c vs Lhx9ab expression was observed during key migration and axonal projection choice points. CONCLUSIONS: These data support the notion that the expression dynamics between canonical and noncanonical Lhx9 variants could play an important role in spinal neuron maturation. More broadly, determining the temporal dynamics of alternative protein variants is a key entry point to understand how splicing influences developmental processes.",
+   "found_by": [],
+   "pubdate": "2022 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38595939",
+   "title": "PRDM16 co-operates with LHX2 to shape the human brain.",
+   "abstract": "PRDM16 is a dynamic transcriptional regulator of various stem cell niches, including adipocytic, hematopoietic, cardiac progenitors, and neural stem cells. PRDM16 has been suggested to contribute to 1p36 deletion syndrome, one of the most prevalent subtelomeric microdeletion syndromes. We report a patient with a de novo nonsense mutation in the PRDM16 coding sequence, accompanied by lissencephaly and microcephaly features. Human stem cells were genetically modified to mimic this mutation, generating cortical organoids that exhibited altered cell cycle dynamics. RNA sequencing of cortical organoids at day 32 unveiled changes in cell adhesion and WNT-signaling pathways. ChIP-seq of PRDM16 identified binding sites in postmortem human fetal cortex, indicating the conservation of PRDM16 binding to developmental genes in mice and humans, potentially at enhancer sites. A shared motif between PRDM16 and LHX2 was identified and further examined through comparison with LHX2 ChIP-seq data from mice. These results suggested a collaborative partnership between PRDM16 and LHX2 in regulating a common set of genes and pathways in cortical radial glia cells, possibly via their synergistic involvement in cortical development.",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39362030",
+   "title": "A role of Lhx2 in the migration and axonal projection of cortical postmitotic neurons in the cortical upper layer of the mouse neocortex.",
+   "abstract": "The transcription factor LHX2 contains a LIM domain and plays an important role in the development of the vertebrate nervous system. Although much research has been conducted on the function of Lhx2 during cerebral development, its role in postmitotic neuron differentiation in the cerebral cortex remains unknown. Therefore, this study was conducted to determine the function of Lhx2 in dynamic and elaborate developmental processes, including neurogenesis. We first created and confirmed an Lhx2-BAC Gfp transgenic model to three-dimensionally confirm the spatiotemporal expression pattern of Lhx2 during brain development. On this basis, we used the bilateral in utero electroporation technique to express the dominant-negative form of LHX2. LHX2 was confirmed to be important for the migration and callosal projection of postmitotic neurons that form the upper layer of the cerebral cortex during neurogenesis. Additionally, transcriptome analysis confirmed that LHX2 affected the genes involved in neuronal migration and axonal projection. We demonstrated that Lhx2 is important for postmitotic neurons in the cerebral cortex, which migrate to normal positions and extend nerve axons. Taken together, our findings can provide important clues to understanding the relationship between human Lhx2 gene mutations and brain developmental diseases.",
+   "found_by": [],
+   "pubdate": "2024 Nov 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "21203406",
+   "title": "Mutations in the LHX2 gene are not a frequent cause of micro/anophthalmia.",
+   "abstract": "PURPOSE: Microphthalmia and anophthalmia are at the severe end of the spectrum of abnormalities in ocular development. A few genes (orthodenticle homeobox 2 [OTX2], retina and anterior neural fold homeobox [RAX], SRY-box 2 [SOX2], CEH10 homeodomain-containing homolog [CHX10], and growth differentiation factor 6 [GDF6]) have been implicated mainly in isolated micro/anophthalmia but causative mutations of these genes explain less than a quarter of these developmental defects. The essential role of the LIM homeobox 2 (LHX2) transcription factor in early eye development has recently been documented. We postulated that mutations in this gene could lead to micro/anophthalmia, and thus performed molecular screening of its sequence in patients having micro/anophthalmia. METHODS: Seventy patients having non-syndromic forms of colobomatous microphthalmia (n=25), isolated microphthalmia (n=18), or anophthalmia (n=17), and syndromic forms of micro/anophthalmia (n=10) were included in this study after negative molecular screening for OTX2, RAX, SOX2, and CHX10 mutations. Mutation screening of LHX2 was performed by direct sequencing of the coding sequences and intron/exon boundaries. RESULTS: Two heterozygous variants of unknown significance (c.128C>G [p.Pro43Arg]; c.776C>A [p.Pro259Gln]) were identified in LHX2 among the 70 patients. These variations were not identified in a panel of 100 control patients of mixed origins. The variation c.776C>A (p.Pro259Gln) was considered as non pathogenic by in silico analysis, while the variation c.128C>G (p.Pro43Arg) considered as deleterious by in silico analysis and was inherited from the asymptomatic father. CONCLUSIONS: Mutations in LHX2 do not represent a frequent cause of micro/anophthalmia.",
+   "found_by": [],
+   "pubdate": "2010 Dec 18",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36649236",
+   "title": "The LHX2-OTX2 transcriptional regulatory module controls retinal pigmented epithelium differentiation and underlies genetic risk for age-related macular degeneration.",
+   "abstract": "Tissue-specific transcription factors (TFs) control the transcriptome through an association with noncoding regulatory regions (cistromes). Identifying the combination of TFs that dictate specific cell fate, their specific cistromes and examining their involvement in complex human traits remain a major challenge. Here, we focus on the retinal pigmented epithelium (RPE), an essential lineage for retinal development and function and the primary tissue affected in age-related macular degeneration (AMD), a leading cause of blindness. By combining mechanistic findings in stem-cell-derived human RPE, in vivo functional studies in mice and global transcriptomic and proteomic analyses, we revealed that the key developmental TFs LHX2 and OTX2 function together in transcriptional module containing LDB1 and SWI/SNF (BAF) to regulate the RPE transcriptome. Importantly, the intersection between the identified LHX2-OTX2 cistrome with published expression quantitative trait loci, ATAC-seq data from human RPE, and AMD genome-wide association study (GWAS) data, followed by functional validation using a reporter assay, revealed a causal genetic variant that affects AMD risk by altering TRPM1 expression in the RPE through modulation of LHX2 transcriptional activity on its promoter. Taken together, the reported cistrome of LHX2 and OTX2, the identified downstream genes and interacting co-factors reveal the RPE transcription module and uncover a causal regulatory risk single-nucleotide polymorphism (SNP) in the multifactorial common blinding disease AMD.",
+   "found_by": [],
+   "pubdate": "2023 Jan",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17350283",
+   "title": "Differential impact of Lhx2 deficiency on expression of class I and class II odorant receptor genes in mouse.",
+   "abstract": "Odorant receptor (OR) genes can be classified into two types: fish-like class I OR genes and mammalian-specific class II OR genes. We have previously shown that Lhx2, a LIM-homeodomain protein, binds to the homeodomain site in the promoter region of mouse M71, a class II OR, and that a knockout mutation in Lhx2 precludes expression of all tested class II OR genes including M71. Here, we report that most class I OR genes, which are expressed in a dorsal region of the olfactory epithelium, are still expressed in Lhx2-deficient embryos. There are two exceptions: two class I OR genes, which are normally expressed in a more ventral region, are no longer expressed in Lhx2 mutant mice. Lhx2 is transcribed in olfactory sensory neurons irrespective of expression of class I or class II OR genes. Thus, a deficiency of Lhx2 has a differential impact on class I and class II OR gene expression.",
+   "found_by": [],
+   "pubdate": "2007 Apr",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17209341",
+   "title": "[Schizencephaly--clinical and radiological presentation of pediatric patients].",
+   "abstract": "UNLABELLED: Schizencephaly is a rare central nervous system malformation. The anomaly is characterized by uni- or bilateral clefts in the brain's cerebral hemispheres. There are 2 types of the anomaly distinguished: type I (\"closed lips\") if there are fused clefts in cerebral mantle and type II (\"open lips\") if the clefts are separated. The etiology of this malformation is not clear; both environmental (intrauterine cytomegaloviral infection) and genetic risk factors are considered (mutations in EMX2, Lhx2 genes). The aim of the study was the analysis of clinical presentation, neurodevelopment progress and seizures in children with schizencephaly. MATERIAL AND METHODS: We examined 9 children (4 girls, 5 boys) at the age of 3 months to 11 years at the time of schizencephaly diagnosis. The neuroimaging (computed tomography--CT or/and magnetic resonance imaging--MRI) was performed in all of the patients. We found bilateral schizencephaly in 7 patients and unilateral in 2 of them; in 5 patients the brain anomalies other than schizencephaly were found. Epileptic seizures are present in 7 patients; in 2 of them the epilepsy is drug resistant. The development is delayed in all our patients, in spite of one. CONCLUSIONS: Schizencephaly is a severe brain malformation almost always leading to developmental delay and epilepsy. We did not found the correlation between the type of anomaly and clinical course, the degree of developmental delay and the severity of epilepsy in our group patients.",
+   "found_by": [],
+   "pubdate": "2006",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40127276",
+   "title": "Genomic analysis of 11,555 probands identifies 60 dominant congenital heart disease genes.",
+   "abstract": "Congenital heart disease (CHD) is a leading cause of infant mortality. We analyzed de novo mutations (DNMs) and very rare transmitted/unphased damaging variants in 248 prespecified genes in 11,555 CHD probands. The results identified 60 genes with a significant burden of heterozygous damaging variants. Variants in these genes accounted for CHD in 10.1% of probands with similar contributions from de novo and transmitted variants in parent-offspring trios that showed incomplete penetrance. DNMs in these genes accounted for 58% of the signal from DNMs. Thirty-three genes were linked to a single CHD subtype while 12 genes were associated with 2 to 4 subtypes. Seven genes were only associated with isolated CHD, while 37 were associated with 1 or more extracardiac abnormalities. Genes selectively expressed in the cardiomyocyte lineage were associated with isolated CHD, while those widely expressed in the brain were also associated with neurodevelopmental delay (NDD). Missense variants introducing or removing cysteines in epidermal growth factor (EGF)-like domains of NOTCH1 were enriched in tetralogy of Fallot and conotruncal defects, unlike the broader CHD spectrum seen with loss of function variants. Transmitted damaging missense variants in MYH6 were enriched in multiple CHD phenotypes and account for ~1% of all probands. Probands with characteristic mutations causing syndromic CHD were frequently not diagnosed clinically, often due to missing cardinal phenotypes. CHD genes that were positively or negatively associated with development of NDD suggest clinical value of genetic testing. These findings expand the understanding of CHD genetics and support the use of molecular diagnostics in CHD. [full text, passages naming LHX2] ...s with many proteins that target specific proteins for ubiquitylation and degradation ( 50 ). One of these is LZTR1 , a known RASopathy gene that targets proteins in the RAS pathway for degradation, Similarly, LHX2 (pLI = 0.99), encodes a transcriptional activator; mouse knockouts produce CHD ( 51 ). Both probands with damaging DNMs had aortic and mitral atresia. AHNAK encodes a heart scaffolding protein that regulat...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39135118",
+   "title": "ENU-based dominant genetic screen identifies contractile and neuronal gene mutations in congenital heart disease.",
+   "abstract": "BACKGROUND: Congenital heart disease (CHD) is the most prevalent congenital anomaly, but its underlying causes are still not fully understood. It is believed that multiple rare genetic mutations may contribute to the development of CHD. METHODS: In this study, we aimed to identify novel genetic risk factors for CHD using an ENU-based dominant genetic screen in mice. We analyzed fetuses with malformed hearts and compared them to control littermates by whole exome or whole genome sequencing (WES/WGS). The differences in mutation rates between observed and expected values were tested using the Poisson and Binomial distribution. Additionally, we compared WES data from human CHD probands obtained from the Pediatric Cardiac Genomics Consortium with control subjects from the 1000 Genomes Project using Fisher's exact test to evaluate the burden of rare inherited damaging mutations in patients. RESULTS: By screening 10,285 fetuses, we identified 1109 cases with various heart defects, with ventricular septal defects and bicuspid aortic valves being the most common types. WES/WGS analysis of 598 cases and 532 control littermates revealed a higher number of ENU-induced damaging mutations in cases compared to controls. GO term and KEGG pathway enrichment analysis showed that pathways related to cardiac contraction and neuronal development and functions were enriched in cases. Further analysis of 1457 human CHD probands and 2675 control subjects also revealed an enrichment of genes associated with muscle and nervous system development in patients. By combining the mice and human data, we identified a list of 101 candidate digenic genesets, from which each geneset was co-mutated in at least one mouse and two human probands with CHD but not in control mouse and control human subjects. CONCLUSIONS: Our findings suggest that gene mutations affecting early hemodynamic perturbations in the developing heart may play a significant role as a genetic risk factor for CHD. Further validation of the candidate gene set identified in this study could enhance our understanding of the complex genetics underlying CHD and potentially lead to the development of new diagnostic and therapeutic approaches. [full text, passages naming LHX2] ...). These included genes involved in axon growth and guidance ( PLXND1 , SEMA3B , SEMA3D , SEMA6A , ULK2 ), neurotrophic factors, and transcription factors critical for neuron differentiation ( ATOH1 , NOTCH1 , LHX2 , NTF4 ) and synaptogenesis and neurotransmission ( SLITRK1 , LRTM2 , CLSTN2 ). Genes involved in muscle contraction and development, such as the calcium voltage-gated channel subunit CACNA1S and genes req...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41295244",
+   "title": "CITED Proteins in Cardiac Development and Lifelong Heart Function.",
+   "abstract": "The CITED proteins function as transcriptional modulators that are essential for vertebrate development. These proteins interact with numerous partners, notably transcription factors and co-activators. The hallmark of the CITED family is their conserved carboxy-terminal domain, which interacts strongly with the CBP/p300 co-activators. The expression of CITED genes is detected early during embryogenesis within embryonic and foetal regions critical for cardiac morphogenesis, among other developmental processes. Notably, CITED2 loss of function is strongly associated with congenital heart malformations in mice and zebrafish embryos, as well as congenital heart disease (CHD) in humans, whereas other CITED family members are not critical for cardiogenesis. Emerging evidence implicates CITED2 and CITED4 in regulating heart physiological adaptations and protective responses to pathological stress. This review provides a detailed analysis of CITED proteins and their interactors, focusing on CITED-target genes relevant for cardiogenesis and heart disease. We also highlight recent findings indicating that CITED2 and CITED4 may be instrumental for the development of novel therapeutic strategies to mitigate CHD and preserve adult cardiac function. [full text, passages naming LHX2] ...8 , 71 , 72 , 73 , 74 , 75 , 76 ]. Conversely, CITED2 functions as a co-activator for numerous transcription factors that depend on CBP/p300 cooperation for transcriptional efficiency, including TFAP2 members, LHX2/3, SMAD2/3, PPAR\u03b1/\u03b3, HNF4\u03b1, WT1, GCN5, and ISL1 [ 5 , 9 , 22 , 77 , 78 , 79 , 80 , 81 , 82 , 83 , 84 , 85 ]. CITED2 also promotes PGC-1a activation of the hepatic gluconeogenic programme upon glucagon stim... ...teractions among AP-2 Transcription Factors, p300/CREB-binding Protein, and CITED2. J. Biol. Chem. 2003;278:16021\u201316029. doi: 10.1074/jbc.M208144200. 78. Glenn D.J., Maurer R.A. MRG1 binds to the LIM domain of Lhx2 and may function as a coactivator to stimulate glycoprotein hormone \u03b1-subunit gene expression. J. Biol. Chem. 1999;274:36159\u201336167. doi: 10.1074/jbc.274.51.36159. 79. Qu X., Lam E., Doughman Y.Q., Chen Y.,...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41827883",
+   "title": "Acute Depletion of Cited2 in Embryonic Stem Cells Disrupts Gene Networks Controlling Self-Renewal, Homeostasis, and Early Cell Fate Commitment.",
+   "abstract": "Cited2 is a transcriptional regulator essential for embryonic development and cellular homeostasis. Studies in vertebrate models highlight its critical roles in heart, placental, neural tube, and hematopoietic development. In humans, CITED2 variants are associated with congenital heart disease. Functionally, Cited2 interacts with the transcriptional co-regulators p300/CBP and modulates the activity of multiple transcription factors. In embryonic stem cells (ESC), Cited2 supports pluripotency, self-renewal, and differentiation potential. Here, we performed comparative transcriptomic analysis after acute Cited2 depletion in mouse ESC to define its role in maintaining self-renewal, lineage competence, and cell survival. Loss of Cited2 rapidly destabilized the pluripotency network and induced aberrant activation of developmental gene programs. Nodal/Activin pathway targets, including key regulators of mesoderm, cardiac, and neural development, were markedly downregulated, consistent with Cited2-null embryonic phenotypes. Cited2 depletion also altered the expression of genes involved in DNA damage response, immune signaling, and apoptosis, correlating with the increased \u03b3H2AX accumulation and decreased cell viability at least in part involving p53. Comparison with p300-, CBP-, and Cited2-depletion datasets revealed only partial overlap between affected gene sets. These results position Cited2 as a core regulator preserving ESC identity, genomic stability, and proper lineage engagement during early differentiation. [full text, passages naming LHX2] ...GCN5 and under fasting conditions, it promotes PGC-1\u03b1 activation in response to glucagon by inhibiting its acetylation by GCN5 [ 28 ]. Conversely, CITED2 act as a co-activator for TFAP2 transcription factors, LHX2/3, SMAD2/3, PPAR\u03b1/\u03b3, Estrogen receptors, HNF4\u03b1, WT1 and ISL1, which are critical for embryonic development and are involved in some pathologies when dysfunctional [ 29 ]. In mouse ESC, Cited2 and p300/CBP...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38164514",
+   "title": "Whole exome sequencing reveals genetic landscape associated with left ventricular outflow tract obstruction in Chinese Han population.",
+   "abstract": "Left ventricular outflow tract obstruction (LVOTO), a major form of outflow tract malformation, accounts for a substantial portion of congenital heart defects (CHDs). Unlike its prevalence, the genetic architecture of LVOTO remains largely unknown. To unveil the genetic mutations and risk genes potentially associated with LVOTO, we enrolled a cohort of 106 LVOTO patients and 100 healthy controls and performed a whole-exome sequencing (WES). 71,430 rare deleterious mutations were found in LVOTO patients. By using gene-based burden testing, we further found 32 candidate genes enriched in LVOTO patient including known pathological genes such as GATA5 and GATA6. Most variants of 32 risk genes occur simultaneously rather exclusively suggesting polygenic inherence of LVOTO and 14 genes out of 32 risk genes interact with previously discovered CHD genes. Single cell RNA-seq further revealed dynamic expressions of GATA5, GATA6, FOXD3 and MYO6 in endocardium and neural crest lineage indicating the mutations of these genes lead to LVOTO possibly through different lineages. These findings uncover the genetic architecture of LVOTO which advances the current understanding of LVOTO genetics. [full text, passages naming LHX2] ...e to glycine substitution at position 268 (p.Ala268Gly). Importantly, this mutation was not observed in our control group. This evidence suggested that FOXD3 might be a LVOTO-causal gene in Chinese population. LHX2 is another gene in our 32 candidates gene list interacting with known CHD genes. LHX2 is a LIM domain-containing transcription factor specifically involving in pharyngeal mesoderm development. Knockout of... ...s not observed in our control group. This evidence suggested that FOXD3 might be a LVOTO-causal gene in Chinese population. LHX2 is another gene in our 32 candidates gene list interacting with known CHD genes. LHX2 is a LIM domain-containing transcription factor specifically involving in pharyngeal mesoderm development. Knockout of this gene in mouse results in pharyngeal muscle defects, as well as DiGeorge syndrome-... ...defects, as well as DiGeorge syndrome-like phenotypes such as variety of outflow tract malformations and tetralogy of Fallot ( Harel et al., 2012 ). In our cohort, we discovered a missense mutation c.92C>T in LHX2 in 22 individuals. This mutation results in an amino acid substitution from serine to phenylalanine at position 31 (p.Ser31Phe). The candidate genes may have two distinct modes of action in pathogenesis: t...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "18440989",
+   "title": "Epiblastic Cited2 deficiency results in cardiac phenotypic heterogeneity and provides a mechanism for haploinsufficiency.",
+   "abstract": "AIMS: Deletion of the transcription factor Cited2 causes penetrant and phenotypically heterogenous cardiovascular and laterality defects and adrenal agenesis. Heterozygous human CITED2 mutation is associated with congenital heart disease, suggesting haploinsufficiency. Cited2 functions partly via a Nodal-->Pitx2c pathway controlling left-right patterning. In this present study we investigated the primary site of Cited2 function and mechanisms of haploinsufficiency. METHODS AND RESULTS: A Cited2 conditional allele enabled its deletion in particular cell lineages in mouse development. A lacZ reporter cassette allowed indication of deletion. Congenic Cited2 heterozygous mice were used to investigate haploinsufficiency. Embryos were examined by magnetic resonance imaging, by sectioning and by quantitative real-time polymerase chain reaction (qRT-PCR). Epiblast-specific deletion of Cited2 using Sox2Cre recapitulated penetrant and phenotypically heterogenous cardiovascular and laterality defects. Neural crest-specific deletion using Wnt1Cre affected cranial ganglia but not cardiac development. Mesodermal deletion with Mesp1Cre resulted in low penetrance of septal defect. Mesodermal deletion with T-Cre resulted in adrenal agenesis, but infrequent cardiac septal and laterality defects. beta-Galatactosidase staining and qRT-PCR demonstrated the efficiency and location of Cited2 deletion. Murine Cited2 heterozygosity is itself associated with cardiac malformation, with three of 45 embryos showing ventricular septal defect. Cited2 gene expression in E13.5 hearts was reduced 2.13-fold in Cited2(+/-) compared with wild-type (P = 2.62 x 10(-6)). The Cited2 target gene Pitx2c was reduced 1.5-fold in Cited2(+/-) (P = 0.038) hearts compared with wild-type, and reduced 4.9-fold in Cited2(-/-) hearts (P = 0.00031). Pitx2c levels were reduced two-fold (P = 0.009) in Cited2(+/-) embryos, in comparison with wild-type. Cited2 and Pitx2c expression were strongly correlated in wild-type and Cited2(+/-) hearts (Pearson rank correlation = 0.68, P = 0.0009). Cited2 expression was reduced 7474-fold in Sox2Cre deleted hearts compared with controls (P = 0.00017) and Pitx2c was reduced 3.1-fold (P = 0.013). Deletion of Cited2 with Mesp1Cre resulted in a 130-fold reduction in cardiac Cited2 expression compared with control (P = 0.0002), but Pitx2c expression was not affected. CONCLUSION: These results indicate that phenotypically heterogenous and penetrant cardiac malformations in Cited2 deficiency arise from a primary requirement in epiblast derivatives for left-right patterning, with a secondary cell-autonomous role in the mesoderm. Cardiac malformation associated with Cited2 haploinsufficiency may occur by reducing expression of key Cited2 targets such as Pitx2c. [full text, passages naming LHX2] ...5; Issue date 2008 Aug 1. 1. Introduction The transcription factor CITED2 binds the histone acetyltransferase CREBBP/EP300 with high affinity, acting as a co-activator for transcription factors, such as TFAP2, LHX2, PPARA, and SMAD2/3. 1 It also acts as a repressor of hypoxia-activated transcription. 2\u20135 Genetic evidence indicates that 1 Cited2 is essential for cardiac, adrenal, neural, and placental development, and... ...nal interactions among AP-2 transcription factors, p300/CREB-binding protein, and CITED2. J Biol Chem. 2003;278:16021\u201316029. doi: 10.1074/jbc.M208144200. 3. Glenn DJ, Maurer RA. MRG1 binds to the LIM domain of Lhx2 and may function as a coactivator to stimulate glycoprotein hormone alpha-subunit gene expression. J Biol Chem. 1999;274:36159\u201336167. doi: 10.1074/jbc.274.51.36159. 4. Tien ES, Davis JW, Vanden Heuvel JP....",
+   "found_by": [],
+   "pubdate": "2008",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "24133624": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18021935": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40899980": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23696871": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27384060": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38729157": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35634422": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26992132": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35416052": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36393832": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11493992": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36011368": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28463873": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34301870": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33262834": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22098240": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16473406": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11114295": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36159187": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41633496": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38107513": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19762917": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36968607": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11161020": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33113455": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20798832": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19672291": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25324171": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27664237": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26877820": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31715508": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28836069": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40475661": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "7513049": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "16436624": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20949537": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31149275": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31814023": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22865636": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37057675": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "17446187": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35247020": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38595939": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39362030": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21203406": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36649236": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17350283": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14687986": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42320471": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21629789": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17209341": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25224223": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40127276": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39135118": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41295244": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41827883": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38164514": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "28346832": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25165856": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31201182": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18440989": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12149478": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 222,
+   "usd": 0.00727,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "46 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 3489,
+   "output_tokens": 188,
+   "usd": 0.004429,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 45.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 17529,
+   "output_tokens": 690,
+   "usd": 0.020979,
+   "calls": 3
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.8,
+   "note": "",
+   "input_tokens": 15710,
+   "output_tokens": 1087,
+   "usd": 0.105725,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>10</established>\n    <existing>62</existing>\n    <hypothesized>26</hypothesized>\n    <novel>2</novel>\n  </probabilities>\n  <justification>Human evidence exists but is limited: the large CHD cohort study of 11,555 probands (PMID 40127276) reports damaging de novo mutations in LHX2 in two probands with aortic and mitral atresia, citing mouse knockout CHD as supporting rationale, and a Chinese Han LVOTO whole-exome study (PMID 38164514) lists LHX2 among 32 burden-enriched candidate genes with a recurrent missense variant (though its presence in 22 individuals raises concern it is a common variant rather than a causal allele). An ENU mouse screen combined with human probands also lists LHX2 among neuronal/transcription-factor candidates (PMID 39135118), and mouse knockout data (pharyngeal mesoderm, outflow tract/DiGeorge-like phenotypes) provide a strong biological mechanism. Human LHX2 variant studies otherwise focus on neurodevelopmental disorder, micro/anophthalmia and schizencephaly (PMIDs 37057675, 21203406, 20949537), with no cardiac phenotype, so no replicated clinical causal demonstration of CHD exists. Therefore Existing is most appropriate, with substantial residual weight on Hypothesized given the reliance on candidate-gene/burden signals and animal models.</justification>\n  <pmids>\n    <pmid>40127276</pmid>\n    <pmid>38164514</pmid>\n    <pmid>39135118</pmid>\n    <pmid>37057675</pmid>\n    <pmid>21203406</pmid>\n    <pmid>20949537</pmid>\n    <pmid>40475661</pmid>\n  </pmids>\n</response>"
+}

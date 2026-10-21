@@ -1,0 +1,236 @@
+{
+  "articles_found": {
+    "clinical": 5,
+    "model_organism": 13,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2022 - Autism Spectrum Disorder (ASD) in Qatar: Whole genome sequencing of 100 affected families highlights Dominant and Recessive risk genes of ASD",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Not specified in the abstract. De novo deleterious (LoF or predicted damaging missense) variant in MOV10, listed among 12 de novo variants in candidate ASD genes.",
+            "type": "other",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo, deleterious (LoF or predicted damaging missense) variant in a candidate ASD gene identified by WGS",
+        "center_country": "Sidra Medicine (pediatric tertiary academic center), Qatar",
+        "cohort": null
+      },
+      {
+        "citation": "Genomic architecture of autism spectrum disorder in Qatar: The BARAKA-Qatar Study (PMID: 37805537)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo predicted LoF variant in MOV10 (specific change not given in the available text). pLI > 0.99.",
+            "type": "LoF",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo predicted LoF variant in a novel candidate ASD gene with pLI > 0.99. Recurrent hits in the MSSNG and SSC cohorts were reported for most candidate genes.",
+        "center_country": "Qatar (Sidra Medicine / BARAKA-Qatar Study)",
+        "cohort": null
+      },
+      {
+        "citation": "Gene Variants Involved in Nonsense-Mediated mRNA Decay Suggest a Role in Autism Spectrum Disorder (PMID: 35327467)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Three SNVs located in the CH and helicase domains of MOV10 (specific changes not given). The paper reports 13 SNVs across MOV10, PPP2R1A, PPP2CA, DCP1A and DCP2 in 41 ASD patients.",
+            "type": "missense",
+            "phenotypes": [
+              "Autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Predicted damaging in silico, located in functional protein domains. Variant type is inferred, as the text does not state it.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Mov10 suppresses retroelements and regulates neuronal development and function in the developing brain (PMID: 28662698)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Homozygous loss of Mov10 caused early embryonic lethality (no knockout mice obtained)",
+          "Mov10 heterozygotes showed reduced dendritic arborization in cultured hippocampal neurons",
+          "Reduced Mov10 in brain caused anxiety-like behavior",
+          "Reduced Mov10 caused increased activity in a novel environment",
+          "Mov10 knockout Neuro2A cells had shortened neurites",
+          "Mov10 bound retroelement RNAs and cytoskeletal mRNAs in brain"
+        ],
+        "mendelian_ratio": "lethal",
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA helicase Mov10 is essential for gastrulation and central nervous system development (PMID: 29266590)",
+        "organism": "Xenopus laevis",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Maternal Mov10 knockdown (translation-blocking morpholino) caused gastrulation defects",
+          "Defective notochord and paraxial mesoderm development",
+          "Failure to neurulate",
+          "Upregulation of many mRNAs (cytoskeleton, adhesion, ECM) at stage 10.5",
+          "Delayed degradation of the miR-427 target cyclin A1",
+          "Zygotic Mov10 knockdown caused abnormal head, eye and brain development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RNA helicase MOV10 suppresses fear memory and dendritic arborization and regulates microtubule dynamics in hippocampal neurons (PMID: 39915816)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Brain-specific Mov10 deletion greatly reduced MOV10 in cortex and hippocampus",
+          "Enhanced fear memory",
+          "Elongated distal dendrites in cultured hippocampal neurons",
+          "Decreased Numa1 mRNA in hippocampus",
+          "Phenotypes rescued by NUMA1 restoration or HAUS knockdown"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Reduced MOV10 reveals novel functional cortical connections in an increased fear response (PMID: 42239320)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Brain-specific Mov10 deletion mice had a thickened cortex",
+          "Abnormal dendritic arborization",
+          "Enhanced fear learning and memory",
+          "Impaired structural connectivity of canonical fear circuits on DTI",
+          "Increased cortical fMRI activity during fear memory retrieval",
+          "Increased GABRA2 expression in hippocampus"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting age-related LINE-1 activation alleviates cardiac aging (PMID: 41571992)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Cardiomyocyte-specific Mov10 knockout failed to suppress LINE-1",
+          "LINE-1 derepression",
+          "Cardiac dysfunction",
+          "Premature cardiac aging by 3 months of age",
+          "cGAS-STING activation",
+          "Mov10-knockout H9C2 rat cardiomyocyte cells showed senescence, attenuated by 3TC or H-151"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Multiple and Consecutive Genome Editing Using i-GONAD and Breeding Enrichment Facilitates the Production of Genetically Modified Mice (PMID: 37174743)",
+        "organism": "mouse",
+        "knockout_type": "other (exon 12-14 deletion, partial loss of helicase motifs)",
+        "phenotypes": [
+          "Exon 12-14 deletion of Mov10 disrupted helicase Motif I and removed Motifs II and III",
+          "Loss of helicase activity was not essential for embryo and brain development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Targeting age-related LINE-1 activation alleviates cardiac aging (PMID: 41571992)",
+        "evidence_subtype": "other",
+        "summary": "Cardiomyocyte-specific Mov10-knockout mice failed to suppress LINE-1. They developed LINE-1 derepression, cGAS-STING activation, cardiac dysfunction and premature cardiac aging by 3 months. Inhibiting LINE-1 reverse transcription (3TC) or STING (H-151) rescued senescence in Mov10-KO H9C2 cells and improved cardiac function in aged mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MOV10 Helicase Interacts with Coronavirus Nucleocapsid Protein and Has Antiviral Activity (PMID: 34517762)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MOV10 relocalizes to cytoplasmic structures with the MERS-CoV nucleocapsid (N) protein and co-immunoprecipitates with N. This interaction is conserved across human CoVs, including SARS-CoV-2. MOV10 silencing increased virus titer and N accumulation, while overexpression lowered titers about 10-fold. The antiviral effect required helicase activity (tested in CRISPR MOV10-KO cells) and was seen only with highly pathogenic CoVs. Viral RNAs were found in MOV10 complexes, suggesting RNA sequestration.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MOV10 Provides Antiviral Activity against RNA Viruses by Enhancing RIG-I-MAVS-Independent IFN Induction (PMID: 27016603)",
+        "evidence_subtype": "pathway",
+        "summary": "MOV10 is an IFN-inducible helicase with antiviral activity against several RNA viruses that does not depend on helicase function. It enhances IRF3-mediated type I IFN induction through IKK\u03b5 (not TBK1), independently of the RIG-I/MAVS pathway. Picornaviral proteases target MOV10 for degradation as an immune evasion mechanism. Shown in genome-edited knockout human cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "FMRP and MOV10 regulate Dicer1 expression and dendrite development (PMID: 34847178)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Reduced MOV10 in neurons and tissues lowers DICER expression, and Dicer1 mRNA is a CLIP target of MOV10, FMRP and AGO2. The MOV10-FMRP-AGO2 complex regulates DICER1 through its 3'UTR. A DICER1 transgene rescued neurite outgrowth in Mov10-KO Neuro2A cells and branching in Mov10 heterozygote neurons.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "MOV10 sequesters the RNP of influenza A virus in the cytoplasm and is antagonized by viral NS1 protein (PMID: 30617221)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MOV10 interacts with influenza A nucleoprotein (NP), sequesters viral RNP in the cytoplasm and promotes vRNA degradation. This depends on intact P-bodies. Viral NS1 disrupts the MOV10-NP interaction and drives lysosomal degradation of MOV10.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Perturbation of the P-body component Mov10 inhibits HIV-1 infectivity (PMID: 20140200)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Mov10 is a P-body-associated protein. Overexpression inhibits infectious HIV-1, other lentiviruses and MLV, acting at the pre-reverse transcription stage. siRNA knockdown modestly reduces HIV infectivity. The N-terminal half is required for activity, while helicase mutation or C-terminal truncation largely preserves it.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Biological and RNA regulatory function of MOV10 in mammalian germ cells (PMID: 31088452)",
+        "evidence_subtype": "expression",
+        "summary": "MOV10 is a nucleocytoplasmic protein mainly expressed in spermatogonia. Knockdown impairs spermatogonial progenitor cell proliferation and in vivo repopulation, disturbs RNA homeostasis and impairs miRNA biogenesis. MOV10 binds mRNAs with long 3'UTRs and non-coding RNAs, and nuclear MOV10 associates with splicing factors such as SRSF1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mov10 suppresses retroelements and regulates neuronal development and function in the developing brain (PMID: 28662698)",
+        "evidence_subtype": "function",
+        "summary": "Homozygous Mov10 loss causes early embryonic lethality in mice. Mov10 is elevated in postnatal brain, where it binds retroelement RNAs and cytoskeletal mRNAs. Nuclear Mov10 suppresses retroelements by inhibiting cDNA synthesis. Heterozygotes show reduced dendritic arborization and anxiety-like behavior, and Mov10-KO Neuro2A cells have shortened neurites. Mov10, Fmrp and Ago2 bind a common set of mRNAs.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Interplay between RNASEH2 and MOV10 controls LINE-1 retrotransposition (PMID: 29315404)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Proteomics identified RNASEH2 as a MOV10 binding partner. The two co-localize in the nucleus, and RNASEH2 binds L1 RNA in a MOV10-dependent manner. Depleting either protein causes accumulation of L1 RNA-DNA hybrids and increased L1 retrotransposition. This loss of restriction raises expression of rheumatoid arthritis-associated cytokines and proteinases in synovial cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2012 - Mapping the L1 interactome reveals RISC-associated helicase MOV10 as a potent inhibitor of retrotransposition",
+        "evidence_subtype": "protein_interaction",
+        "summary": "MOV10 was identified in an L1 RNP proteomic screen (IP and MS). It associates with L1 RNP alongside DDX5, DHX9, DDX17, DDX21 and DDX39A. It co-localizes with L1 ORF1p in stress granules and P-bodies. MOV10 strongly restricts L1, Alu and SVA retrotransposition in cell culture, dependent on intact helicase domains, and reduces endogenous and ectopic L1 expression. The other helicases do not strongly inhibit retrotransposition.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

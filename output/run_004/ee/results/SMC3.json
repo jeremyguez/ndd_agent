@@ -1,0 +1,216 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "New-Onset Refractory Status Epilepticus: More Investigations, More Questions (PMID: 27462243)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "c.1280A>G, p.Lys427Arg (heterozygous, inherited)",
+            "type": "missense",
+            "phenotypes": [
+              "new-onset refractory status epilepticus (cryptogenic)",
+              "recurrent seizures",
+              "status epilepticus refractory to third-line therapy, lasting 47 days"
+            ]
+          }
+        ],
+        "diagnostic_reason": "The authors stated that the inherited heterozygous variant was insufficient to explain the seizures, so it was not considered diagnostic. It is likely a VUS or incidental finding.",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "Exome sequencing in 90 children with developmental delay: a single-center experience (PMID: 39678379)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "SMC3 variant (not specified in the available text), heterozygous with autosomal dominant inheritance. The child also carried an MT-TL1 mitochondrial variant.",
+            "type": "other",
+            "phenotypes": [
+              "Cornelia de Lange syndrome 3 features",
+              "developmental delay",
+              "MELAS features (from the co-occurring MT-TL1 variant)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Reported as a pathogenic or likely pathogenic variant from exome sequencing, associated with Cornelia de Lange syndrome 3. The child's symptoms matched the syndrome.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Zhang et al. 2024 - SMC3 contributes to heart development by regulating super-enhancer associated genes (PMID: 39085358)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Heart-specific Smc3 knockout (SMC3-cKO) mice show varying degrees of outflow tract (OFT) abnormalities",
+          "Smc3 deletion downregulates key genes including Ets2 in OFT cardiac muscle cells",
+          "Decreased super-enhancer\u2013promoter interactions",
+          "Ets2-SE-null mice show delayed OFT development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cohesin protein Smc3 influences kinocilial structure and function (PMID: 41263044)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Reduced kinociliary length in posterior lateral line neuromast hair cells",
+          "Neomycin resistance of neuromasts, suggesting impaired kinocilium function",
+          "Normal FM1-43X uptake (mechanotransduction not affected)",
+          "Reduced hair cell number within neuromasts",
+          "Previously reported abnormal otolith development with reduced Smc3"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Horsfield et al. 2007 - Cohesin-dependent regulation of Runx genes (PMID: 17567667)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Embryos lacking Smc3 (or Rad21) fail to express runx3",
+          "Loss of hematopoietic runx1 expression in early embryonic development",
+          "Gene expression changes occurred while cell division could still proceed, suggesting a transcriptional role of cohesin separable from its mitotic role"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Smc3 dosage regulates B cell transit through germinal centers and restricts their malignant transformation (PMID: 33432228)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (homozygous deletion and heterozygous/haploinsufficient)",
+        "phenotypes": [
+          "Homozygous Smc3 deletion abrogated germinal center formation",
+          "Smc3 haploinsufficiency caused GC hyperplasia, skewed GC polarity, and impaired plasma cell differentiation",
+          "Impaired enhancer connectivity at lymphoma tumor suppressor genes (Tet2, Kmt2d)",
+          "Smc3 haploinsufficiency accelerated lymphomagenesis in mice with constitutive Bcl6 expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cohesin Core Complex Gene Dosage Contributes to Germinal Center Derived Lymphoma Phenotypes and Outcomes (PMID: 34621263)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Smc3 haploinsufficient GC B-cell lymphomas show downregulation of Tet2/Kmt2d-repressed genes",
+          "Impaired enhancer-promoter interactions with aberrant Tet2 downregulation",
+          "Defect in commitment to final steps of plasma cell differentiation",
+          "Structural abnormalities in GC B-cells without increased somatic mutations or structural variants",
+          "Smc3 acts as a tumor suppressor for lymphoma via non-genetic mechanisms"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - Deciphering the genetic basis of intellectual disability using 1000 knockouts",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Smc3 knockout identified among genes with brain structural abnormalities in a neuroanatomy screen of MGP/IMPC knockout lines",
+          "Listed as a well-known intellectual disability gene"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "SMC3 contributes to heart development by regulating super-enhancer associated genes (PMID: 39085358)",
+        "evidence_subtype": "function",
+        "summary": "Heart-specific Smc3 knockout mice show outflow tract abnormalities. Smc3 deletion reduces super-enhancer\u2013promoter interactions and downregulates key genes such as Ets2 in OFT cardiac muscle cells. CdLS patients with SMC3 mutations have high rates of CHD, and 16 rare potentially pathogenic SMC3 variants were found in isolated CHD.",
+        "sample_size": "16 rare SMC3 variants in isolated CHD cases; SMC3-cKO mice",
+        "significance": null
+      },
+      {
+        "citation": "Heterozygous loss-of-function SMC3 variants are associated with variable growth and developmental features (PMID: 38297832)",
+        "evidence_subtype": "other",
+        "summary": "SMC3 is highly constrained against pLoF variants and depleted for missense variants, behaving as a haploinsufficient gene. Fourteen pLoF carriers show a milder, variable atypical CdLS-like phenotype with incomplete penetrance. pLoF variants reduce SMC3 expression but do not cluster with the CdLS epigenetic signature.",
+        "sample_size": "14 individuals with SMC3 pLoF variants",
+        "significance": null
+      },
+      {
+        "citation": "Smc3 dosage regulates B cell transit through germinal centers and restricts their malignant transformation (PMID: 33432228)",
+        "evidence_subtype": "function",
+        "summary": "Homozygous Smc3 deletion abolishes germinal center formation, whereas haploinsufficiency causes GC hyperplasia and impaired plasma cell differentiation. Haploinsufficiency impairs enhancer connectivity at lymphoma tumor suppressor genes (Tet2, Kmt2d) and accelerates Bcl6-driven lymphomagenesis in mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2012 - Dysregulated pathways in Cornelia de Lange syndrome cells mutated in core cohesin genes",
+        "evidence_subtype": "cell_culture",
+        "summary": "Proteomic profiling of CdLS patient cell lines with SMC1A or SMC3 mutations showed dysregulated proteins in metabolism, cytoskeleton organization, antioxidant response and RNA processing. c-MYC lies at the hub of these pathways and is down-regulated in the mutant lines.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cohesin-dependent regulation of Runx genes (PMID: 17567667)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Zebrafish embryos lacking Smc3 or Rad21 fail to express runx3 and lose hematopoietic runx1 expression. This supports a transcriptional role for cohesin that is separable from its mitotic role.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cohesin complex-associated holoprosencephaly (PMID: 31334757)",
+        "evidence_subtype": "other",
+        "summary": "Variants in SMC3 and RAD21 were found in four individuals with holoprosencephaly. Cohesin as a whole is implicated in midline forebrain development, and knockdown of STAG2 and SMC1A dysregulates HPE genes in human neural stem cells.",
+        "sample_size": "4 individuals with SMC3/RAD21 variants",
+        "significance": null
+      },
+      {
+        "citation": "Genetic determinants of micronucleus formation in vivo (PMID: 38355793)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In a CRISPR screen of DSCC1 loss in human cells, SIRT1 loss rescued the micronucleus and cohesinopathy-like phenotypes. The rescue paralleled restoration of SMC3 acetylation, linking SMC3 acetylation status to genomic stability.",
+        "sample_size": "997 mouse mutant lines screened",
+        "significance": null
+      },
+      {
+        "citation": "Sororin actively maintains sister chromatid cohesion (PMID: 26903600)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ESCO1 and ESCO2 stabilize cohesin on chromatin solely by acetylating SMC3. Sororin acts through this acetylation by inhibiting WAPL and interacts dynamically with the cohesin it stabilizes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cell cycle control of cohesion establishment (PMID: 41694619)",
+        "evidence_subtype": "pathway",
+        "summary": "Cohesion establishment requires SMC3 modification by the ESCO2 acetyltransferase. CDK phosphorylation of ESCO2 at serine 75 controls its interaction with the replication machinery and its ability to ensure cohesion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Cohesin reconstitution and homologous recombination repair of DNA double-strand breaks in late mitosis (PMID: 41216968)",
+        "evidence_subtype": "yeast",
+        "summary": "In yeast, after an HO-induced DSB in telophase, Scc1 returns and partially reconstitutes a chromatin-bound cohesin complex with Smc1 and an acetylated pool of Smc3. This new cohesin is not required for HR-driven MAT switching.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

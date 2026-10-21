@@ -1,0 +1,824 @@
+{
+  "gene": "ATP2B4",
+  "phenotype": "autism spectrum disorder",
+  "ensembl_id": "ENSG00000058668",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "OBA_VT0000217",
+      "name": "leukocyte quantity",
+      "score": 0.4946611764073888
+    },
+    {
+      "disease_id": "EFO_0004509",
+      "name": "hemoglobin measurement",
+      "score": 0.4919301845205689
+    },
+    {
+      "disease_id": "EFO_0004305",
+      "name": "erythrocyte count",
+      "score": 0.49000491977873
+    },
+    {
+      "disease_id": "EFO_0004528",
+      "name": "mean corpuscular hemoglobin concentration",
+      "score": 0.48561962703744443
+    },
+    {
+      "disease_id": "EFO_0009188",
+      "name": "Red cell distribution width",
+      "score": 0.4773247423898457
+    },
+    {
+      "disease_id": "OBA_0003460",
+      "name": "erythrocyte volume",
+      "score": 0.4502333938645364
+    },
+    {
+      "disease_id": "EFO_0004587",
+      "name": "lymphocyte count",
+      "score": 0.44677857447465213
+    },
+    {
+      "disease_id": "EFO_0004348",
+      "name": "hematocrit",
+      "score": 0.4449646718628402
+    },
+    {
+      "disease_id": "EFO_0005091",
+      "name": "monocyte count",
+      "score": 0.4355479253510728
+    },
+    {
+      "disease_id": "EFO_0004541",
+      "name": "HbA1c measurement",
+      "score": 0.42842653040602746
+    },
+    {
+      "disease_id": "EFO_0007986",
+      "name": "reticulocyte count",
+      "score": 0.42425921637393954
+    },
+    {
+      "disease_id": "EFO_0004309",
+      "name": "platelet count",
+      "score": 0.40968042515668773
+    },
+    {
+      "disease_id": "EFO_0004995",
+      "name": "lean body mass",
+      "score": 0.4034589797891247
+    },
+    {
+      "disease_id": "EFO_0004570",
+      "name": "bilirubin measurement",
+      "score": 0.3989958867417278
+    },
+    {
+      "disease_id": "OBA_0002272",
+      "name": "reticulocyte amount",
+      "score": 0.3982337294324348
+    },
+    {
+      "disease_id": "HP_0000924",
+      "name": "Abnormality of the skeletal system",
+      "score": 0.3929540424200198
+    },
+    {
+      "disease_id": "EFO_0007745",
+      "name": "lactate measurement",
+      "score": 0.39124167547240596
+    },
+    {
+      "disease_id": "EFO_0005106",
+      "name": "body composition measurement",
+      "score": 0.3849776111214492
+    },
+    {
+      "disease_id": "EFO_0007985",
+      "name": "platelet crit",
+      "score": 0.37275594306476256
+    },
+    {
+      "disease_id": "EFO_0004503",
+      "name": "hematological measurement",
+      "score": 0.3673016826723964
+    },
+    {
+      "disease_id": "MONDO_0005136",
+      "name": "malaria",
+      "score": 0.36707375220405747
+    },
+    {
+      "disease_id": "EFO_0006336",
+      "name": "diastolic blood pressure",
+      "score": 0.35988377873334226
+    },
+    {
+      "disease_id": "OBA_2045223",
+      "name": "myeloid leukocyte count",
+      "score": 0.3518486154428422
+    },
+    {
+      "disease_id": "OBA_1000032",
+      "name": "hip circumference",
+      "score": 0.34791812701870356
+    },
+    {
+      "disease_id": "OBA_2045260",
+      "name": "red blood cell density",
+      "score": 0.3349726340377518
+    },
+    {
+      "disease_id": "EFO_0010701",
+      "name": "mean reticulocyte volume",
+      "score": 0.33031228590297484
+    },
+    {
+      "disease_id": "EFO_0803548",
+      "name": "neutrophil measurement",
+      "score": 0.2928668851388623
+    },
+    {
+      "disease_id": "EFO_0007788",
+      "name": "BMI-adjusted waist-hip ratio",
+      "score": 0.29028630468686717
+    },
+    {
+      "disease_id": "EFO_0007800",
+      "name": "body fat percentage",
+      "score": 0.28198125499925936
+    },
+    {
+      "disease_id": "EFO_0008591",
+      "name": "free cholesterol measurement",
+      "score": 0.2783487320502369
+    },
+    {
+      "disease_id": "EFO_0007629",
+      "name": "hemoglobin A1 measurement",
+      "score": 0.2756087172202972
+    },
+    {
+      "disease_id": "EFO_0004833",
+      "name": "neutrophil count",
+      "score": 0.2756087172202972
+    },
+    {
+      "disease_id": "EFO_0004842",
+      "name": "eosinophil count",
+      "score": 0.2756087172202972
+    },
+    {
+      "disease_id": "OBA_2045276",
+      "name": "erythrocyte attribute",
+      "score": 0.2748257079334901
+    },
+    {
+      "disease_id": "EFO_0004468",
+      "name": "glucose measurement",
+      "score": 0.2745896224829077
+    },
+    {
+      "disease_id": "EFO_0010523",
+      "name": "phosphoglyceric acid measurement",
+      "score": 0.2732070408243445
+    },
+    {
+      "disease_id": "EFO_0009805",
+      "name": "whole body water mass",
+      "score": 0.2682422618950437
+    },
+    {
+      "disease_id": "EFO_0008039",
+      "name": "BMI-adjusted hip circumference",
+      "score": 0.26476400142462897
+    },
+    {
+      "disease_id": "OBA_2045000",
+      "name": "level of prolargin in blood serum",
+      "score": 0.24871091084736918
+    },
+    {
+      "disease_id": "EFO_0011011",
+      "name": "sitting height measurement",
+      "score": 0.23819303314004744
+    },
+    {
+      "disease_id": "OBA_2041005",
+      "name": "level of chitinase-3-like protein 1 in blood serum",
+      "score": 0.23693823570032024
+    },
+    {
+      "disease_id": "OBA_0004528",
+      "name": "fat pad mass",
+      "score": 0.22900105317768088
+    },
+    {
+      "disease_id": "EFO_0022314",
+      "name": "total lipids in VLDL measurement",
+      "score": 0.2245010875717761
+    },
+    {
+      "disease_id": "EFO_0004980",
+      "name": "appendicular lean mass",
+      "score": 0.22175530122873627
+    },
+    {
+      "disease_id": "EFO_0010675",
+      "name": "chronic venous hypertension",
+      "score": 0.22163738172635114
+    },
+    {
+      "disease_id": "OBA_VT0005416",
+      "name": "blood protein amount",
+      "score": 0.2128426531382278
+    },
+    {
+      "disease_id": "EFO_0004612",
+      "name": "high density lipoprotein cholesterol measurement",
+      "score": 0.21206973234025664
+    },
+    {
+      "disease_id": "EFO_0006945",
+      "name": "diastolic blood pressure change measurement",
+      "score": 0.2110712171613369
+    },
+    {
+      "disease_id": "EFO_0020833",
+      "name": "tyrosine-protein kinase ZAP-70 measurement",
+      "score": 0.21061791106754266
+    },
+    {
+      "disease_id": "MONDO_0005372",
+      "name": "male infertility",
+      "score": 0.20828575663138818
+    },
+    {
+      "disease_id": "EFO_0920030",
+      "name": "concentration of very large VLDL particles measurement",
+      "score": 0.20651447539674353
+    },
+    {
+      "disease_id": "EFO_0004696",
+      "name": "sex hormone-binding globulin measurement",
+      "score": 0.1957316195651365
+    },
+    {
+      "disease_id": "OBA_2050062",
+      "name": "serum alanine aminotransferase amount",
+      "score": 0.19549486223993742
+    },
+    {
+      "disease_id": "EFO_0010967",
+      "name": "urinary microalbumin measurement",
+      "score": 0.18773031500877385
+    },
+    {
+      "disease_id": "EFO_0009946",
+      "name": "low density lipoprotein triglyceride measurement",
+      "score": 0.18565702008527674
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.18565702008527674
+    },
+    {
+      "disease_id": "EFO_0020947",
+      "name": "triglycerides:total lipids ratio",
+      "score": 0.1726953361392391
+    },
+    {
+      "disease_id": "EFO_0007817",
+      "name": "sleep apnea measurement",
+      "score": 0.16942749220475067
+    },
+    {
+      "disease_id": "EFO_0022239",
+      "name": "cholesterol to total lipids in medium VLDL percentage",
+      "score": 0.11390948344505547
+    },
+    {
+      "disease_id": "Orphanet_1331",
+      "name": "Familial prostate cancer",
+      "score": 0.11378439776105256
+    },
+    {
+      "disease_id": "MONDO_0008315",
+      "name": "prostate cancer",
+      "score": 0.11378439776105256
+    },
+    {
+      "disease_id": "EFO_0022253",
+      "name": "cholesteryl esters to total lipids in medium VLDL percentage",
+      "score": 0.1133776299767683
+    },
+    {
+      "disease_id": "EFO_0022339",
+      "name": "triglycerides to total lipids in very large HDL percentage",
+      "score": 0.11009940020996341
+    },
+    {
+      "disease_id": "EFO_0022260",
+      "name": "concentration of chylomicrons and extremely large VLDL particles measurement",
+      "score": 0.10596926509551113
+    },
+    {
+      "disease_id": "EFO_0022145",
+      "name": "triglycerides in small VLDL measurement",
+      "score": 0.103617329449864
+    },
+    {
+      "disease_id": "EFO_0022306",
+      "name": "total lipids in chylomicrons and extremely large VLDL measurement",
+      "score": 0.09911300491970464
+    },
+    {
+      "disease_id": "MONDO_0005105",
+      "name": "melanoma",
+      "score": 0.09784203485523217
+    },
+    {
+      "disease_id": "OBA_VT0010046",
+      "name": "fatty acid amount",
+      "score": 0.09669217459000944
+    },
+    {
+      "disease_id": "EFO_0700067",
+      "name": "non-syndromic male infertility due to sperm motility disorder",
+      "score": 0.09642225481546049
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.09073598897871202
+    },
+    {
+      "disease_id": "MONDO_0007254",
+      "name": "breast cancer",
+      "score": 0.08963904103381692
+    },
+    {
+      "disease_id": "EFO_0022170",
+      "name": "cholesteryl esters in large VLDL measurement",
+      "score": 0.08469030208399063
+    },
+    {
+      "disease_id": "EFO_0920024",
+      "name": "cholesteryl esters in very large VLDL measurement",
+      "score": 0.08469030208399063
+    },
+    {
+      "disease_id": "MONDO_0005015",
+      "name": "diabetes mellitus",
+      "score": 0.0837946068621246
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.08272627816064146
+    },
+    {
+      "disease_id": "EFO_0004530",
+      "name": "triglyceride measurement",
+      "score": 0.08269650902591119
+    },
+    {
+      "disease_id": "MONDO_0005068",
+      "name": "myocardial infarction",
+      "score": 0.07592812792355706
+    },
+    {
+      "disease_id": "MONDO_0005184",
+      "name": "pancreatic ductal adenocarcinoma",
+      "score": 0.07577361044134134
+    },
+    {
+      "disease_id": "MONDO_0030307",
+      "name": "spermatogenic failure 55",
+      "score": 0.07253374228041957
+    },
+    {
+      "disease_id": "MONDO_0011720",
+      "name": "spermatogenic failure 3",
+      "score": 0.07253374228041957
+    },
+    {
+      "disease_id": "MONDO_0013070",
+      "name": "spermatogenic failure 7",
+      "score": 0.0699503790961735
+    },
+    {
+      "disease_id": "MONDO_0014961",
+      "name": "spermatogenic failure 16",
+      "score": 0.06914839081150771
+    },
+    {
+      "disease_id": "MONDO_0054725",
+      "name": "spermatogenic failure 21",
+      "score": 0.06914839081150771
+    },
+    {
+      "disease_id": "MONDO_0030733",
+      "name": "spermatogenic failure 70",
+      "score": 0.0668218856262675
+    },
+    {
+      "disease_id": "MONDO_0957250",
+      "name": "spermatogenic failure 83",
+      "score": 0.06571129816293998
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.06477237969075333
+    },
+    {
+      "disease_id": "EFO_0022273",
+      "name": "free cholesterol in very large HDL measurement",
+      "score": 0.06416530561521937
+    },
+    {
+      "disease_id": "EFO_0022234",
+      "name": "cholesterol to total lipids in large HDL percentage",
+      "score": 0.06206543515937136
+    },
+    {
+      "disease_id": "EFO_0022325",
+      "name": "triglycerides in very large VLDL measurement",
+      "score": 0.0619329615861415
+    },
+    {
+      "disease_id": "EFO_0803316",
+      "name": "abdominal adipose tissue measurement",
+      "score": 0.06191955162965412
+    },
+    {
+      "disease_id": "EFO_0021900",
+      "name": "cholesterol in large HDL measurement",
+      "score": 0.0613797712608818
+    },
+    {
+      "disease_id": "EFO_0020946",
+      "name": "phospholipids:total lipids ratio",
+      "score": 0.06054686168796758
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.06007999167072751
+    },
+    {
+      "disease_id": "EFO_0022312",
+      "name": "total lipids in very large HDL measurement",
+      "score": 0.059986680547095994
+    },
+    {
+      "disease_id": "EFO_0010351",
+      "name": "cholesteryl ester measurement",
+      "score": 0.059350762809552524
+    },
+    {
+      "disease_id": "OBA_2050114",
+      "name": "VLDL particle size",
+      "score": 0.05850867565516926
+    },
+    {
+      "disease_id": "MONDO_0859352",
+      "name": "spermatogenic failure 79",
+      "score": 0.05777272288431259
+    },
+    {
+      "disease_id": "MONDO_0013901",
+      "name": "spermatogenic failure 10",
+      "score": 0.057580541359876544
+    },
+    {
+      "disease_id": "MONDO_0014037",
+      "name": "spermatogenic failure 11",
+      "score": 0.057580541359876544
+    },
+    {
+      "disease_id": "MONDO_0970952",
+      "name": "spermatogenic failure 91",
+      "score": 0.05657528415513416
+    },
+    {
+      "disease_id": "MONDO_0054733",
+      "name": "spermatogenic failure 29",
+      "score": 0.054853042032303435
+    },
+    {
+      "disease_id": "OBA_2050115",
+      "name": "HDL particle size",
+      "score": 0.05485059716812533
+    },
+    {
+      "disease_id": "EFO_0022298",
+      "name": "phospholipids in very large HDL measurement",
+      "score": 0.05485059716812533
+    },
+    {
+      "disease_id": "EFO_0022157",
+      "name": "free cholesterol in large HDL measurement",
+      "score": 0.05485059716812533
+    },
+    {
+      "disease_id": "EFO_0022188",
+      "name": "concentration of large HDL particles measurement",
+      "score": 0.05485059716812533
+    },
+    {
+      "disease_id": "EFO_0022189",
+      "name": "total lipids in large HDL",
+      "score": 0.05485059716812533
+    },
+    {
+      "disease_id": "EFO_0022229",
+      "name": "cholesterol in very large HDL measurement",
+      "score": 0.05485059716812533
+    },
+    {
+      "disease_id": "EFO_0920031",
+      "name": "concentration of very large HDL particles measurement",
+      "score": 0.05471907618215358
+    },
+    {
+      "disease_id": "MONDO_0975958",
+      "name": "spermatogenic failure 97",
+      "score": 0.05354472934671959
+    },
+    {
+      "disease_id": "EFO_0022279",
+      "name": "free cholesterol to total lipids in large HDL percentage",
+      "score": 0.05037299739929876
+    },
+    {
+      "disease_id": "EFO_0801227",
+      "name": "body shape measurement",
+      "score": 0.0501837986086935
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "MONDO_0014961",
+      "name": "spermatogenic failure 16",
+      "score": 0.06914839081150771
+    },
+    {
+      "disease_id": "MONDO_0054725",
+      "name": "spermatogenic failure 21",
+      "score": 0.06914839081150771
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.18565702008527674
+    },
+    {
+      "disease_id": "MONDO_0014037",
+      "name": "spermatogenic failure 11",
+      "score": 0.057580541359876544
+    },
+    {
+      "disease_id": "HP_0000924",
+      "name": "Abnormality of the skeletal system",
+      "score": 0.3929540424200198
+    },
+    {
+      "disease_id": "MONDO_0054733",
+      "name": "spermatogenic failure 29",
+      "score": 0.054853042032303435
+    },
+    {
+      "disease_id": "Orphanet_1331",
+      "name": "Familial prostate cancer",
+      "score": 0.11378439776105256
+    },
+    {
+      "disease_id": "MONDO_0005015",
+      "name": "diabetes mellitus",
+      "score": 0.0837946068621246
+    },
+    {
+      "disease_id": "OBA_2050062",
+      "name": "serum alanine aminotransferase amount",
+      "score": 0.19549486223993742
+    },
+    {
+      "disease_id": "MONDO_0013070",
+      "name": "spermatogenic failure 7",
+      "score": 0.0699503790961735
+    },
+    {
+      "disease_id": "MONDO_0030307",
+      "name": "spermatogenic failure 55",
+      "score": 0.07253374228041957
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.08272627816064146
+    },
+    {
+      "disease_id": "EFO_0007817",
+      "name": "sleep apnea measurement",
+      "score": 0.16942749220475067
+    },
+    {
+      "disease_id": "EFO_0004980",
+      "name": "appendicular lean mass",
+      "score": 0.22175530122873627
+    },
+    {
+      "disease_id": "EFO_0700067",
+      "name": "non-syndromic male infertility due to sperm motility disorder",
+      "score": 0.09642225481546049
+    },
+    {
+      "disease_id": "MONDO_0859352",
+      "name": "spermatogenic failure 79",
+      "score": 0.05777272288431259
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.06007999167072751
+    },
+    {
+      "disease_id": "MONDO_0013901",
+      "name": "spermatogenic failure 10",
+      "score": 0.057580541359876544
+    },
+    {
+      "disease_id": "EFO_0801227",
+      "name": "body shape measurement",
+      "score": 0.0501837986086935
+    },
+    {
+      "disease_id": "MONDO_0975958",
+      "name": "spermatogenic failure 97",
+      "score": 0.05354472934671959
+    }
+  ],
+  "gate_text": "DROP: 3, 9, 13, 19",
+  "gate_dropped_ids": [
+    "EFO_0004736",
+    "OBA_2050062",
+    "EFO_0007817",
+    "EFO_0801227"
+  ],
+  "tag_text": "1 | DIFFERENT\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | DIFFERENT\n11 | DIFFERENT\n12 | DIFFERENT\n13 | DIFFERENT\n14 | DIFFERENT\n15 | DIFFERENT\n16 | DIFFERENT\n17 | DIFFERENT\n18 | DIFFERENT\n19 | DIFFERENT\n20 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "MONDO_0014961",
+      "name": "spermatogenic failure 16",
+      "score": 0.06914839081150771,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0054725",
+      "name": "spermatogenic failure 21",
+      "score": 0.06914839081150771,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004736",
+      "name": "aspartate aminotransferase measurement",
+      "score": 0.18565702008527674,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0014037",
+      "name": "spermatogenic failure 11",
+      "score": 0.057580541359876544,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "HP_0000924",
+      "name": "Abnormality of the skeletal system",
+      "score": 0.3929540424200198,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0054733",
+      "name": "spermatogenic failure 29",
+      "score": 0.054853042032303435,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "Orphanet_1331",
+      "name": "Familial prostate cancer",
+      "score": 0.11378439776105256,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005015",
+      "name": "diabetes mellitus",
+      "score": 0.0837946068621246,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_2050062",
+      "name": "serum alanine aminotransferase amount",
+      "score": 0.19549486223993742,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0013070",
+      "name": "spermatogenic failure 7",
+      "score": 0.0699503790961735,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0030307",
+      "name": "spermatogenic failure 55",
+      "score": 0.07253374228041957,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005147",
+      "name": "type 1 diabetes mellitus",
+      "score": 0.08272627816064146,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0007817",
+      "name": "sleep apnea measurement",
+      "score": 0.16942749220475067,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004980",
+      "name": "appendicular lean mass",
+      "score": 0.22175530122873627,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0700067",
+      "name": "non-syndromic male infertility due to sperm motility disorder",
+      "score": 0.09642225481546049,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0859352",
+      "name": "spermatogenic failure 79",
+      "score": 0.05777272288431259,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005148",
+      "name": "type 2 diabetes mellitus",
+      "score": 0.06007999167072751,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0013901",
+      "name": "spermatogenic failure 10",
+      "score": 0.057580541359876544,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0801227",
+      "name": "body shape measurement",
+      "score": 0.0501837986086935,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0975958",
+      "name": "spermatogenic failure 97",
+      "score": 0.05354472934671959,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 111,
+  "tokens": {
+    "gate_in": 540,
+    "gate_out": 16,
+    "read_in": 2437,
+    "read_out": 221
+  },
+  "articles": []
+}

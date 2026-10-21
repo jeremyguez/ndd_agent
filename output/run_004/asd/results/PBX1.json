@@ -1,0 +1,199 @@
+{
+  "articles_found": {
+    "clinical": 3,
+    "model_organism": 16,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Pbx/Meis deficiencies demonstrate multigenetic origins of congenital heart disease (PMID: 18723445)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Pbx1 null, compound Pbx1/Pbx2/Pbx3 and Meis1 mutant alleles)",
+        "phenotypes": [
+          "Pbx1 inactivation causes persistent truncus arteriosus",
+          "Reduced or absent Pbx2 or Pbx3 on a Pbx1-deficient background leads to Pbx1 haploinsufficiency",
+          "Tetralogy of Fallot-like malformations: overriding aorta with ventricular septal defect",
+          "Bicuspid aortic valves",
+          "Meis1 disruption causes cardiac outflow tract anomalies resembling Pbx mutants"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Essential role for Pbx1 in corneal morphogenesis (PMID: 19797217)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (K14-Cre; Pbx1 f/f)",
+        "phenotypes": [
+          "Corneal dystrophy and clouding apparent in newborns and worsening with age",
+          "Thickened corneal epithelium",
+          "Stromal infiltration by atypical basal cells",
+          "Severely disorganized stromal collagen matrix",
+          "Loss of corneal barrier function",
+          "High epithelial cell turnover with perturbed expression of developmental regulators and aberrant differentiation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of PBX1 function in Leydig cells causes testicular dysgenesis and male sterility (PMID: 38724675)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (Leydig cell-specific Pbx1 deletion)",
+        "phenotypes": [
+          "Spermatogenic defects",
+          "Complete male sterility",
+          "Impaired testicular structure with disorganized seminiferous tubules",
+          "Altered fate decisions of progenitor Leydig cells",
+          "Altered transcription of steroidogenesis genes (Prlr, Nr2f2, Nedd4)",
+          "Decreased testosterone",
+          "Increased pregnenolone, androstenedione and luteinizing hormone"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PBX1 acts as terminal selector for olfactory bulb dopaminergic neurons (PMID: 32156753)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (Pbx1 deletion in olfactory bulb neurogenesis)",
+        "phenotypes": [
+          "Loss of dopaminergic neuron identity (terminal selector function)",
+          "Impaired morphological maturation of dopaminergic neurons",
+          "Derepression of alternative interneuron fates",
+          "Dysregulated alternative splicing"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PBX1 promotes development of natural killer cells by binding directly to the Nfil3 promoter (PMID: 32190943)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (hematopoietic-specific Pbx1 deletion) and Nfil3 promoter PBX1-binding-site knockout",
+        "phenotypes": [
+          "Significantly reduced pre-NKP and rNKP NK-committed progenitors",
+          "Decreased Nfil3 expression in NK cells",
+          "Fewer NK precursors and NK cells, similar to Nfil3 knockout mice, with deletion of the PBX1 binding site in the Nfil3 promoter"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spleen hypoplasia leads to abnormal stress hematopoiesis in mice with loss of Pbx homeoproteins in splenic mesenchyme (PMID: 27075259)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout (splenic mesenchyme-specific Pbx1 deletion, alone or with Pbx2/Pbx3 deficiency)",
+        "phenotypes": [
+          "Dysmorphic, severely hypoplastic spleen in compound Pbx deficiency",
+          "Reduced numbers of HSPCs in fetal and adult spleen",
+          "Impaired hematopoietic regeneration after sublethal and lethal irradiation",
+          "Downregulation of cytokine genes including KitL/SCF and Cxcl12/SDF-1"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A PBX1-IL7R axis mediates liver fibrosis in non-alcoholic fatty liver disease (PMID: 40885520)",
+        "organism": "mouse",
+        "knockout_type": "knockdown (AAV6-shRNA myofibroblast-specific PBX1 depletion)",
+        "phenotypes": [
+          "Significantly attenuated CDAA-HFD-induced liver fibrosis",
+          "Liver injury and steatosis not affected"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Zhang et al. 2020 - PBX1 promotes development of natural killer cells by binding directly to the Nfil3 promoter (PMID: 32190943)",
+        "evidence_subtype": "function",
+        "summary": "In hematopoietic-specific Pbx1 conditional knockout mice, pre-NKP and rNKP progenitors and NFIL3 expression were reduced. PBX1 binds the Nfil3 promoter directly and drives transcription, and homeodomain residue N286 controls this binding. Deleting the PBX1 binding site in the Nfil3 promoter reduced NK precursors and NK cells, as seen in Nfil3 knockout mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Lupus susceptibility gene Pbx1 controls the development, stability, and function of regulatory T cells via Rtkn2 expression (PMID: 38536923)",
+        "evidence_subtype": "function",
+        "summary": "Pbx1 is highly expressed in human and murine Treg cells and is decreased in lupus patients and mice. Pbx1 deficiency or overexpression of the dominant-negative Pbx1-d isoform reduced Treg number, stability and suppressive function, and altered cell cycle and apoptosis genes. Pbx1 directly transactivates Rtkn2.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Oligomeric self-association contributes to E2A-PBX1-mediated oncogenesis (PMID: 30894657)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The E2A-PBX1 fusion oncoprotein from t(1;19) leukemia self-associates into higher-order oligomers through the PBX1 PBC-B domain, and this facilitates DNA binding and is required for transformation. Mutants that cannot self-associate are transformation-defective, but are rescued by the FKBP oligomerization domain. HOX-interaction domains of PBX1 are dispensable.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Pre-B-cell leukemia transcription factor 1 contributes to liver fibrosis by enabling IL-7 signaling in HSC (PMID: 40080840)",
+        "evidence_subtype": "pathway",
+        "summary": "PBX1 is the most strongly upregulated transcription factor during hepatic stellate cell activation, and Notch3 drives its transcription. PBX1 knockdown reduced HSC-myofibroblast transition in vitro and liver fibrosis in mice. PBX1 activates IL7R, and IL-7/IL7R signaling interacts with TGF-\u03b2 receptors to promote fibrogenesis. PBX1 correlates with IL7R and HSC activation in cirrhosis patients.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "PBX1 and MEIS1 up-regulate SOX3 gene expression by direct interaction with a consensus binding site within the basal promoter region (PMID: 19799567)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In NT2/D1 cells, PBX1 and MEIS1 bind a conserved PBX/MEIS site in the SOX3 promoter. PBX1 is in the complex in uninduced cells, and both PBX1 and MEIS1 are in the complex after retinoic acid induction. Mutating the sites reduced RA responsiveness, and overexpression of PBX1 and MEIS1 increased endogenous SOX3 protein.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Spindle function and Wnt pathway inhibition by PBX1 to suppress tumor progression via downregulating DCDC2 in colorectal cancer (PMID: 36739270)",
+        "evidence_subtype": "pathway",
+        "summary": "PBX1 is downregulated in colorectal cancer. Overexpressing it suppresses tumor growth and metastasis in vitro and in vivo. It acts as a transcription factor that represses DCDC2, which impairs spindle function and inhibits Wnt signaling. DCDC2 overexpression rescued the phenotypes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Expression of Pbx1b during mammalian organogenesis (PMID: 11118899)",
+        "evidence_subtype": "expression",
+        "summary": "Pbx1b protein is broadly expressed throughout mouse post-implantation development, peaking in early to mid-gestation. It is initially found in condensing mesoderm and later at sites of mesenchymal-epithelial interaction in lung, kidney, tooth buds and vibrissae follicles. Its domains partially overlap with regions of proliferation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - De novo, deleterious sequence variants that alter the transcriptional activity of the homeoprotein PBX1 are associated with intellectual disability and pleiotropic developmental defects",
+        "evidence_subtype": "other",
+        "summary": "Seven patients carried de novo heterozygous PBX1 missense or truncating variants. They had a syndrome of intellectual disability, ear anomalies, heart defects, diaphragmatic hernia with lung hypoplasia, renal hypoplasia and cryptorchidism, resembling Pbx mutant mice. Functional tests of five variants showed impaired transactivation, altered nuclear translocation and abnormal interactions with TALE/HOX cofactors.",
+        "sample_size": "7 patients",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2013 - Interrogating the PBX-WNT-TP63 pathway in human nonsyndromic cleft lip/palate",
+        "evidence_subtype": "GWAS",
+        "summary": "Family-based association testing found PBX1 rs1044263 associated with nonsyndromic cleft lip/palate in Hispanic multiplex families. PBX2 and WNT3 were also associated, and TP63 and WNT3A showed gene-gene interaction. This supports a role for the Pbx-Wnt-p63 module in human craniofacial development.",
+        "sample_size": "513 white non-Hispanic families and 316 Hispanic families",
+        "significance": "PBX1 rs1044263 p=0.002"
+      },
+      {
+        "citation": "Polymorphism in the PBX1 gene is related to cystinuria in Brazilian families (PMID: 30450686)",
+        "evidence_subtype": "GWAS",
+        "summary": "The homozygous polymorphic genotype of PBX1 SNP rs17383719 was more frequent in cystinuria patients and conferred about a 3-fold increased risk. PBX1 was overexpressed 3.3-fold in patients overall, but underexpressed in those with the polymorphic homozygous genotype.",
+        "sample_size": "6 patients and 6 controls",
+        "significance": "p=0.015 (genotype frequency); p=0.036 (3.0-fold risk)"
+      }
+    ]
+  }
+}

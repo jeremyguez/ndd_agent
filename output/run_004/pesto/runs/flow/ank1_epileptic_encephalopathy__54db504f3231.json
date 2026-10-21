@@ -1,0 +1,722 @@
+{
+ "gene": "ANK1",
+ "phenotype": "epileptic encephalopathy",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "developmental and epileptic encephalopathy",
+   "DEE",
+   "epileptic encephalopathies",
+   "early infantile epileptic encephalopathy",
+   "EIEE",
+   "early-onset epileptic encephalopathy",
+   "epileptiform encephalopathy",
+   "encephalopathy with epilepsy",
+   "epilepsy with developmental regression",
+   "seizure-related encephalopathy"
+  ],
+  "broad": "",
+  "words": [
+   "epileptic",
+   "encephalopathy"
+  ],
+  "gene_names": [
+   "SPH1",
+   "ANK",
+   "ankyrin 1"
+  ],
+  "anchors": [
+   "epileptic encephalopathy",
+   "developmental encephalopathy",
+   "seizure encephalopathy"
+  ]
+ },
+ "counts": {
+  "found": 71,
+  "titlekicksparingfulltext": 29,
+  "read": 13
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 7,
+   "Hypothesized": 37,
+   "Novel": 55
+  },
+  "justification": "No article in this set reports ANK1 variants in patients with epileptic encephalopathy; the epilepsy-specific papers concern KCNQ2 (PMIDs 27905566, 28100740) and SHANK1 (PMID 34912368), and the rare-variant burden study (PMID 37369202) highlights other genes (HSPG2, FLNA, TNC), so Established and Existing are essentially unsupported. Human ANK1 evidence relates to hereditary spherocytosis and erythrocyte cytoskeleton biology (PMIDs 33410423, 23934996, 27848995, 30279439), not seizures. The only neurologically relevant data are from mice: nb/nb erythroid ankyrin deficiency causes Purkinje cell loss and a psychomotor syndrome (PMID 1716634), and Ank1 transcripts are expressed in cerebellum \u2014 a plausible but indirect, non-epileptic CNS link that provides only weak support for a \"Hypothesized\" relationship. Overall the gene\u2013phenotype co-mention appears largely incidental, favoring Novel with secondary weight on Hypothesized.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 7,
+   "Hypothesized": 37,
+   "Novel": 55
+  }
+ },
+ "articles": [
+  {
+   "pmid": "8471772",
+   "title": "Distinct fetal Ank-1 and Ank-2 related proteins and mRNAs in normal and nb/nb mice.",
+   "abstract": "Mice homozygous for the mutation normoblastosis (gene symbol nb on chromosome 8) are deficient in erythroid ankyrin (ANK-1) and have a severe hemolytic anemia throughout life. Characteristic of the disease is a dramatic decrease in the level of expression of the Ank-1 gene (chromosome 8). The other major ankyrin transcript, brain ankyrin (Ank-2 on chromosome 3) is expressed at normal levels in nb/nb mice. Surprisingly, nb/nb fetuses have normal erythrocyte counts despite the decreased levels of Ank-1 transcripts. We previously hypothesized that fetal-specific ankyrin-related proteins could exist in nb/nb fetuses to account for the lack of detrimental effects of ANK-1 deficiency. In the present report, Western and Northern blot analyses were performed on hematopoietic cells isolated from nb/nb and +/+ fetuses. An ANK-1-related protein (165 Kd) in fetal reticulocytes persisted in adult nb/nb but not in +/+ reticulocytes. An Ank-1-related transcript of 5.5 kb was found in fetal reticulocytes. This transcript appeared to be upregulated in nb/nb but not in +/+ adult reticulocytes. A fetal-specific ANK-2-related protein (155 Kd) was present in nb/nb and in +/+ fetal reticulocytes. Ank-2-related fetal liver mRNAs were present during the time the liver was actively generating erythrocytes. Neither the Ank-2-related transcripts nor the 155-Kd ANK-2-related protein were found in +/+ or mutant adult reticulocytes. The data indicate that (1) unique ankyrin-related proteins and mRNAs present in fetal erythrocytes may stabilize the ankyrin-deficient nb/nb erythrocytes and (2) adult nb/nb mice may upregulate fetal gene transcripts to compensate for the ANK-1 deficiency.",
+   "found_by": [],
+   "pubdate": "1993 Apr 15",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "1716634",
+   "title": "Purkinje cell degeneration associated with erythroid ankyrin deficiency in nb/nb mice.",
+   "abstract": "Mice homozygous for the nb mutation (Chromosome 8) have a severe hemolytic anemia and develop a psychomotor disorder at 6 mo of age. The nb/nb mice are deficient in erythroid ankyrin (Ank-1) but, until the present study, the role of Ank-1 and of Ank-2 (brain ankyrin) in disease genesis was unknown. In normal erythroid tissues, we show that two major transcripts are expressed from Ank-1, and one of these is also present at high levels in the cerebellum. By in situ hybridization and immunocytochemistry, Ank-1 localizes to the cerebellar Purkinje cells and, to a lesser extent, the granule cells. In nb/nb mice, Ank-1 transcripts are markedly reduced in both erythroid and neural tissue, and nb/nb Purkinje cells and granule cells are nearly devoid of Ank-1. The neurological syndrome appears concurrently with a dramatic loss of Purkinje cells. Ank-2 maps to Chromosome 3 and its expression is unaffected by the nb mutation. We conclude that Ank-1 is specifically required for Purkinje cell stability and, in its absence, Purkinje cell loss and neurological symptoms appear.",
+   "found_by": [],
+   "pubdate": "1991 Sep",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "33410423",
+   "title": "Human ankyrins and their contribution to disease biology: An update.",
+   "abstract": "Ankyrins (Ank)are ubiquitously expressed proteins that play a critical role in the integrity of cytoskeleton and cellular signalling. Their presence in metazoans and evolutionary conserved protein primary sequence indicates their functional significance. Tissue-specific isoforms and an array of transcript variants make this protein one of the indispensable cellular components. Membrane-binding domains consist of ankyrin repeats that bind with several functional membrane proteins that enable maintaining cellular integrity. Cytosolic ankyrins help in cellular signal transduction. Linkage studies and recent genome-wide association studies uncovered the pathogenic roles of ankyrins (ankyrin-R, ankyrin-B and ankyrin-G) in several diseases, such as hereditary spherocytosis, long QT syndrome, intellectual disability, and CRASH syndrome, among several others. Identification of Ank3 in celiac disease may potentially explain the link between neuronal health and immunity. It is thus warranted to investigate the role of neuronal factors in immune diseases and vice versa. In this review, we briefly discussed the contribution of ankyrin genes to human diseases.",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "17720975",
+   "title": "Mapping the binding site on small ankyrin 1 for obscurin.",
+   "abstract": "Small ankyrin 1 (sAnk1), an integral protein of the sarcoplasmic reticulum encoded by the ANK1 gene, binds with nanomolar affinity to the C terminus of obscurin, a giant protein surrounding the contractile apparatus in striated muscle. We used site-directed mutagenesis to characterize the binding site on sAnk1, specifically addressing the role of two putative amphipathic, positively charged helices. We measured binding qualitatively by blot overlay assays and quantitatively by surface plasmon resonance and showed that both positively charged sequences are required for activity. We showed further that substitution of a lysine or arginine with an alanine or glutamate located at the same position along either of the two putative helices has similar inhibitory or stimulatory effects on binding and that the effects of a particular mutation depended on the position of the mutated amino acid in each helix. We modeled the structure of the binding region of sAnk1 by homology with ankyrin repeats of human Notch1, which have a similar pattern of charged and hydrophobic residues. Our modeling suggested that each of the two positively charged sequences forms pairs of amphipathic, anti-parallel alpha-helices flanked by beta-hairpin-like turns. Most of the residues in homologous positions along each helical unit have similar, though not identical, orientations. CD spectroscopy confirmed the alpha-helical content of sAnk1, approximately 33%, predicted by the model. Thus, structural and mutational studies of the binding region on sAnk1 for obscurin suggest that it consists of two ankyrin repeats with very similar structures.",
+   "found_by": [],
+   "pubdate": "2007 Nov 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22411828",
+   "title": "Structure of the ZU5-ZU5-UPA-DD tandem of ankyrin-B reveals interaction surfaces necessary for ankyrin function.",
+   "abstract": "Ankyrin-R/B/G (encoded by ANK1/2/3, respectively) are a family of very large scaffold proteins capable of anchoring numerous receptors and ion channels to specific, spectrin-containing membrane micro-domains. Hereditary mutations of ankyrins are known to be associated with diseases including spherocytosis, cardiac arrhythmia, and bipolar disorder in humans, although the underlying molecular bases are poorly understood. The middle spectrin-binding domain of ankyrins contains highly conserved ZU5-ZU5-UPA-DD domains arranged into the ZZUD tandem. Curiously, most of the disease-causing mutations in the tandem have no apparent impact on the spectrin binding of ankyrins. The high resolution structure of the ankyrin-B ZZUD tandem determined here reveals that the ZU5-ZU5-UPA domains form a tightly packed structural supramodule, whereas DD is freely accessible. Although the formation of the ZZU supramodule does not influence the spectrin binding of ankyrins, mutations altering the interdomain interfaces of ZZU impair the functions of ankyrin-B&G. Our structural analysis further indicates that the ZZU supramodule of ankyrins has two additional surfaces that may bind to targets other than spectrin. Finally, the structure of the ankyrin ZZUD provides mechanistic explanations to many disease-causing mutations identified in ankyrin-B&R.",
+   "found_by": [],
+   "pubdate": "2012 Mar 27",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "21177872",
+   "title": "Asparagine and aspartate hydroxylation of the cytoskeletal ankyrin family is catalyzed by factor-inhibiting hypoxia-inducible factor.",
+   "abstract": "Factor-inhibiting hypoxia-inducible factor (FIH) catalyzes the \u03b2-hydroxylation of an asparagine residue in the C-terminal transcriptional activation domain of the hypoxia inducible factor (HIF), a modification that negatively regulates HIF transcriptional activity. FIH also catalyzes the hydroxylation of highly conserved Asn residues within the ubiquitous ankyrin repeat domain (ARD)-containing proteins. Hydroxylation has been shown to stabilize localized regions of the ARD fold in the case of a three-repeat consensus ankyrin protein, but this phenomenon has not been demonstrated for the extensive naturally occurring ARDs. Here we report that the cytoskeletal ankyrin family are substrates for FIH-catalyzed hydroxylations. We show that the ARD of ankyrinR is multiply hydroxylated by FIH both in vitro and in endogenous proteins purified from human and mouse erythrocytes. Hydroxylation of the D34 region of ankyrinR ARD (ankyrin repeats 13-24) increases its conformational stability and leads to a reduction in its interaction with the cytoplasmic domain of band 3 (CDB3), demonstrating the potential for FIH-catalyzed hydroxylation to modulate protein-protein interactions. Unexpectedly we found that aspartate residues in ankyrinR and ankyrinB are hydroxylated and that FIH-catalyzed aspartate hydroxylation also occurs in other naturally occurring AR sequences. The crystal structure of an FIH variant in complex with an Asp-substrate peptide together with NMR analyses of the hydroxylation product identifies the 3S regio- and stereoselectivity of the FIH-catalyzed Asp hydroxylation, revealing a previously unprecedented posttranslational modification.",
+   "found_by": [],
+   "pubdate": "2011 Mar 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "23934996",
+   "title": "A deep intronic mutation in the ankyrin-1 gene causes diminished protein expression resulting in hemolytic anemia in mice.",
+   "abstract": "Linkage between transmembrane proteins and the spectrin-based cytoskeleton is necessary for membrane elasticity of red blood cells. Mutations of the proteins that mediate this linkage result in various types of hemolytic anemia. Here we report a novel N-ethyl-N-nitrosourea-induced mutation of ankyrin-1, named hema6, which causes hereditary spherocytosis in mice through a mild reduction of protein expression. The causal mutation was traced to a single nucleotide transition located deep into intron 13 of gene Ank1. In vitro minigene splicing assay revealed two abnormally spliced transcripts containing cryptic exons from fragments of Ank1 intron 13. The inclusion of cryptic exons introduced a premature termination codon, which leads to nonsense-mediated decay of the mutant transcripts in vivo. Hence, in homozygous mice, only wild-type ankyrin-1 is expressed, albeit at 70% of the level in wild-type mice. Heterozygotes display a similar hereditary spherocytosis phenotype stemming from intermediate protein expression level, indicating the haploinsufficiency of the mutation. Weakened linkage between integral transmembrane protein, band 3, and underlying cytoskeleton was observed in mutant mice as the result of reduced high-affinity binding sites provided by ankyrin-1. Hema6 is the only known mouse mutant of Ank1 allelic series that expresses full-length canonical ankyrin-1 at a reduced level, a fact that makes it particularly useful to study the functional impact of ankyrin-1 quantitative deficiency.",
+   "found_by": [],
+   "pubdate": "2013 Oct 3",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27848995",
+   "title": "A novel ENU-induced ankyrin-1 mutation impairs parasite invasion and increases erythrocyte clearance during malaria infection in mice.",
+   "abstract": "Genetic defects in various red blood cell (RBC) cytoskeletal proteins have been long associated with changes in susceptibility towards malaria infection. In particular, while ankyrin (Ank-1) mutations account for approximately 50% of hereditary spherocytosis (HS) cases, an association with malaria is not well-established, and conflicting evidence has been reported. We describe a novel N-ethyl-N-nitrosourea (ENU)-induced ankyrin mutation MRI61689 that gives rise to two different ankyrin transcripts: one with an introduced splice acceptor site resulting a frameshift, the other with a skipped exon. Ank-1(MRI61689/+) mice exhibit an HS-like phenotype including reduction in mean corpuscular volume (MCV), increased osmotic fragility and reduced RBC deformability. They were also found to be resistant to rodent malaria Plasmodium chabaudi infection. Parasites in Ank-1(MRI61689/+) erythrocytes grew normally, but red cells showed resistance to merozoite invasion. Uninfected Ank-1(MRI61689/+) erythrocytes were also more likely to be cleared from circulation during infection; the \"bystander effect\". This increased clearance is a novel resistance mechanism which was not observed in previous ankyrin mouse models. We propose that this bystander effect is due to reduced deformability of Ank-1(MRI61689/+) erythrocytes. This paper highlights the complex roles ankyrin plays in mediating malaria resistance.",
+   "found_by": [],
+   "pubdate": "2016 Nov 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30279439",
+   "title": "Genetic conflicts with Plasmodium parasites and functional constraints shape the evolution of erythrocyte cytoskeletal proteins.",
+   "abstract": "Plasmodium parasites exerted a strong selective pressure on primate genomes and mutations in genes encoding erythrocyte cytoskeleton proteins (ECP) determine protective effects against Plasmodium infection/pathogenesis. We thus hypothesized that ECP-encoding genes have evolved in response to Plasmodium-driven selection. We analyzed the evolutionary history of 15 ECP-encoding genes in primates, as well as of their Plasmodium-encoded ligands (KAHRP, MESA and EMP3). Results indicated that EPB42, SLC4A1, and SPTA1 evolved under pervasive positive selection and that episodes of positive selection tended to occur more frequently in primate species that host a larger number of Plasmodium parasites. Conversely, several genes, including ANK1 and SPTB, displayed extensive signatures of purifying selection in primate phylogenies, Homininae lineages, and human populations, suggesting strong functional constraints. Analysis of Plasmodium genes indicated adaptive evolution in MESA and KAHRP; in the latter, different positively selected sites were located in the spectrin-binding domains. Because most of the positively selected sites in alpha-spectrin localized to the domains involved in the interaction with KAHRP, we suggest that the two proteins are engaged in an arms-race scenario. This observation is relevant because KAHRP is essential for the formation of \"knobs\", which represent a major virulence determinant for P. falciparum.",
+   "found_by": [],
+   "pubdate": "2018 Oct 2",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37369202",
+   "title": "Epilepsies of presumed genetic etiology show enrichment of rare variants that occur in the general population.",
+   "abstract": "Previous studies suggested that severe epilepsies, e.g., developmental and epileptic encephalopathies (DEEs), are mainly caused by ultra-rare de novo genetic variants. For milder disease, rare genetic variants could contribute to the phenotype. To determine the importance of rare variants for different epilepsy types, we analyzed a whole-exome sequencing cohort of 9,170 epilepsy-affected individuals and 8,436 control individuals. Here, we separately analyzed three different groups of epilepsies: severe DEEs, genetic generalized epilepsy (GGE), and non-acquired focal epilepsy (NAFE). We required qualifying rare variants (QRVs) to occur in control individuals with an allele count\u00a0\u2265 1 and a minor allele frequency \u2264 1:1,000, to be predicted as deleterious (CADD \u2265 20), and to have an odds ratio in individuals with epilepsy \u2265 2. We identified genes enriched with QRVs primarily in NAFE (n\u00a0= 72), followed by GGE (n\u00a0= 32) and DEE (n\u00a0= 21). This suggests that rare variants may play a more important role for causality of NAFE than for DEE. Moreover, we found that genes harboring QRVs, e.g., HSGP2, FLNA, or TNC, encode proteins that are involved in structuring the brain extracellular matrix. The present study confirms an involvement of rare variants for NAFE that occur also in the general population, while in DEE and GGE, the contribution of such variants appears more limited.",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "27905566",
+   "title": "Early-onset epileptic encephalopathy caused by a reduced sensitivity of Kv7.2 potassium channels to phosphatidylinositol 4,5-bisphosphate.",
+   "abstract": "Kv7.2 and Kv7.3 subunits underlie the M-current, a neuronal K+ current characterized by an absolute functional requirement for phosphatidylinositol 4,5-bisphosphate (PIP2). Kv7.2 gene mutations cause early-onset neonatal seizures with heterogeneous clinical outcomes, ranging from self-limiting benign familial neonatal seizures to severe early-onset epileptic encephalopathy (Kv7.2-EE). In this study, the biochemical and functional consequences prompted by a recurrent variant (R325G) found independently in four individuals with severe forms of neonatal-onset EE have been investigated. Upon heterologous expression, homomeric Kv7.2 R325G channels were non-functional, despite biotin-capture in Western blots revealed normal plasma membrane subunit expression. Mutant subunits exerted dominant-negative effects when incorporated into heteromeric channels with Kv7.2 and/or Kv7.3 subunits. Increasing cellular PIP2 levels by co-expression of type 1\u03b3 PI(4)P5-kinase (PIP5K) partially recovered homomeric Kv7.2 R325G channel function. Currents carried by heteromeric channels incorporating Kv7.2 R325G subunits were more readily inhibited than wild-type channels upon activation of a voltage-sensitive phosphatase (VSP), and recovered more slowly upon VSP switch-off. These results reveal for the first time that a mutation-induced decrease in current sensitivity to PIP2 is the primary molecular defect responsible for Kv7.2-EE in individuals carrying the R325G variant, further expanding the range of pathogenetic mechanisms exploitable for personalized treatment of Kv7.2-related epilepsies.",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34912368",
+   "title": "Case Report: Lennox-Gastaut Epileptic Encephalopathy Responsive to Cannabidiol Treatment Associated With a Novel <i>de novo</i> Mosaic <i>SHANK1</i> Variant.",
+   "abstract": "The SH3 and multiple ankyrin repeat domains (SHANKs) are a family of scaffolding proteins located in excitatory synapses required for their development and function. Molecular defects of SHANK3 are a well-known cause of several neurodevelopmental entities, in particular autism spectrum disorders and epilepsy, whereas relatively little is known about disease associations of SHANK1. Here, we propose a novel de novo mosaic p.(Gly126Arg) SHANK1 variant as the monogenic cause of disease in a patient who presented, from the age of 2\u00a0years, moderate intellectual disability, autism, and refractory epilepsy of the Lennox-Gastaut type. The epilepsy responded remarkably well to cannabidiol add-on therapy. In silico analyses including homology modeling and molecular dynamics simulations indicated the deleterious effect of SHANK1 p.(Gly126Arg) on the protein structure and the related function associated with protein-protein interactions. In particular, the variant was predicted to disrupt a hitherto unknown conserved region of SHANK1 protein with high homology to a recently recognized functionally relevant domain in SHANK3 implicated in ligand binding, including the \"non-canonical\" binding of Rap1.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "28100740",
+   "title": "Epilepsy-Associated KCNQ2 Channels Regulate Multiple Intrinsic Properties of Layer 2/3 Pyramidal Neurons.",
+   "abstract": "UNLABELLED: KCNQ2 potassium channels are critical for normal brain function, as both loss-of-function and gain-of-function KCNQ2 variants can lead to various forms of neonatal epilepsy. Despite recent progress, the full spectrum of consequences as a result of KCNQ2 dysfunction in neocortical pyramidal neurons is still unknown. Here, we report that conditional ablation of Kcnq2 from mouse neocortex leads to hyperexcitability of layer 2/3 (L2/3) pyramidal neurons, exhibiting an increased input resistance and action potential frequency, as well as a reduced medium afterhyperpolarization (mAHP), a conductance partly mediated by KCNQ2 channels. Importantly, we show that introducing the KCNQ2 loss-of-function variant KCNQ2I205V into L2/3 pyramidal neurons using in utero electroporation also results in a hyperexcitable phenotype similar to the conditional knock-out. KCNQ2I205V has a right-shifted conductance-to-voltage relationship, suggesting loss of KCNQ2 channel activity at subthreshold membrane potentials is sufficient to drive large changes in L2/3 pyramidal neuronal excitability even in the presence of an intact mAHP. We also found that the changes in excitability following Kcnq2 ablation are accompanied by alterations at action potential properties, including action potential amplitude in Kcnq2-null neurons. Importantly, partial inhibition of Nav1.6 channels was sufficient to counteract the hyperexcitability of Kcnq2-null neurons. Therefore, our work shows that loss of KCNQ2 channels alters the intrinsic neuronal excitability and action potential properties of L2/3 pyramidal neurons, and identifies Nav1.6 as a new potential molecular target to reduce excitability in patients with KCNQ2 encephalopathy. SIGNIFICANCE STATEMENT: KCNQ2 channels are critical for the development of normal brain function, as KCNQ2 variants could lead to epileptic encephalopathy. However, the role of KCNQ2 channels in regulating the properties of neocortical neurons is largely unexplored. Here, we find that Kcnq2 ablation or loss-of-function at subthreshold membrane potentials leads to increased neuronal excitability of neocortical layer 2/3 (L2/3) pyramidal neurons. We also demonstrate that Kcnq2 ablation unexpectedly leads to a larger action potential amplitude. Importantly, we propose the Nav1.6 channel as a new molecular target for patients with KCNQ2 encephalopathy, as partial inhibition of these channels counteracts the increased L2/3 pyramidal neuron hyperexcitability of Kcnq2-null neurons.",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "40963580": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27353450": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8325642": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27055500": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35022413": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7873752": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7798219": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10618115": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42653134": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14692233": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32133777": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40724960": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29483669": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36899741": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25533034": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37169739": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7829057": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9989816": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3126812": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10819025": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32855695": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41920036": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8365666": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1783394": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22968456": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33154479": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32499647": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32436265": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41398767": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25129077": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38680511": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25157507": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32233750": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25129075": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "8471772": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "1716634": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33410423": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "9470011": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29402830": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33187473": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "17720975": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37399314": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19179303": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22411828": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22723917": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21099109": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21177872": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28751503": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37210436": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40002721": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38655052": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35817016": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30777044": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23934996": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35560067": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27848995": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26107955": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30279439": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9067504": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34014839": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11102985": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "22573887": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26829732": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "16918266": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33653793": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20479128": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24903897": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "37369202": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27905566": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34912368": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28100740": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 5.3,
+   "note": "",
+   "input_tokens": 347,
+   "output_tokens": 467,
+   "usd": 0.01341,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 403,
+   "output_tokens": 24,
+   "usd": 0.000523,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 382,
+   "output_tokens": 59,
+   "usd": 0.000677,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "22 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "2 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 4047,
+   "output_tokens": 186,
+   "usd": 0.004977,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 20.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 18758,
+   "output_tokens": 974,
+   "usd": 0.023628,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.2,
+   "note": "",
+   "input_tokens": 9295,
+   "output_tokens": 899,
+   "usd": 0.06895,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>7</existing>\n    <hypothesized>37</hypothesized>\n    <novel>55</novel>\n  </probabilities>\n  <justification>No article in this set reports ANK1 variants in patients with epileptic encephalopathy; the epilepsy-specific papers concern KCNQ2 (PMIDs 27905566, 28100740) and SHANK1 (PMID 34912368), and the rare-variant burden study (PMID 37369202) highlights other genes (HSPG2, FLNA, TNC), so Established and Existing are essentially unsupported. Human ANK1 evidence relates to hereditary spherocytosis and erythrocyte cytoskeleton biology (PMIDs 33410423, 23934996, 27848995, 30279439), not seizures. The only neurologically relevant data are from mice: nb/nb erythroid ankyrin deficiency causes Purkinje cell loss and a psychomotor syndrome (PMID 1716634), and Ank1 transcripts are expressed in cerebellum \u2014 a plausible but indirect, non-epileptic CNS link that provides only weak support for a \"Hypothesized\" relationship. Overall the gene\u2013phenotype co-mention appears largely incidental, favoring Novel with secondary weight on Hypothesized.</justification>\n  <pmids>\n    <pmid>1716634</pmid>\n    <pmid>8471772</pmid>\n    <pmid>33410423</pmid>\n    <pmid>23934996</pmid>\n    <pmid>37369202</pmid>\n    <pmid>27905566</pmid>\n    <pmid>28100740</pmid>\n    <pmid>34912368</pmid>\n    <pmid>22411828</pmid>\n  </pmids>\n</response>"
+}

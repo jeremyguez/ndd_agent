@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 16,
+    "model_organism": 14,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "H2AX promotes replication fork degradation and chemosensitivity in BRCA-deficient tumours (PMID: 38789420)",
+        "evidence_subtype": "function",
+        "summary": "\u03b3H2AX drives drug-induced replication fork degradation in BRCA1/2-deficient mammary tumours by suppressing CtIP-mediated fork protection. H2AX loss restores fork stability and PARPi chemoresistance without restoring RAD51 foci or homology-directed repair. ATM inhibition, but not ATR inhibition, resensitizes H2AX-deficient tumours. This is a role separable from classical DSB signalling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "H2AX mRNA expression reflects DNA repair, cell proliferation, metastasis, and worse survival in breast cancer (PMID: 35261802)",
+        "evidence_subtype": "expression",
+        "summary": "High H2AX mRNA in breast tumours is associated with worse disease-free, disease-specific and overall survival, upregulated DNA repair, DNA replication and MYC-target gene sets, and higher MKI67. H2AX is higher in metastatic clones and metastatic tumours, and is downregulated after effective chemotherapy. H2AX knockdown reduced cell proliferation.",
+        "sample_size": "3594 breast cancer patients",
+        "significance": "Associated with survival in two independent cohorts (p-values not given in abstract)"
+      },
+      {
+        "citation": "Histone H2AX and Fanconi anemia FANCD2 function in the same pathway to maintain chromosome stability (PMID: 17304220)",
+        "evidence_subtype": "pathway",
+        "summary": "H2AX is a component of the FA/BRCA pathway. \u03b3H2AX is required to recruit FANCD2 to chromatin at stalled replication forks, and FANCD2 binding to \u03b3H2AX is BRCA1-dependent. H2AX-deficient cells (knockout or S136A/S139A mutant) show an FA-like phenotype with excess chromatid aberrations and MMC hypersensitivity. This sensitivity is not further increased by FANCD2 depletion, which places the two in the same pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "H2AX deficiency is associated with erythroid dysplasia and compromised haematopoietic stem cell function (PMID: 26791933)",
+        "evidence_subtype": "function",
+        "summary": "H2AX knockout mice show cell-autonomous anaemia and erythroid dysplasia with decreased enucleation. H2AX-deficient hematopoietic stem and progenitor cells lose quiescence and engraft poorly. MDS patients with 11q23 deletion, where H2AX is located, show increased dyserythropoiesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone H2AX promotes neuronal health by controlling mitochondrial homeostasis (PMID: 30910969)",
+        "evidence_subtype": "cell_culture",
+        "summary": "H2AX loss in MEFs and mouse striatum reduces mitochondrial respiratory complex subunits, disrupts mitochondrial shape, and represses PGC-1\u03b1. Ectopic PGC-1\u03b1 rescues the complexes and reduces cell death. H2AX knockout mice show increased neuronal death after 3-nitropropionic acid, which supports a neuroprotective role in mitochondrial homeostasis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Acetylation-Dependent Histone H2AX Exchange Suppresses Pathological Senescence via MDC1 Degradation (PMID: 41494686)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "TIP60, in complex with the chaperone FACT, acetylates H2AX at K5 and drives its dynamic exchange on chromatin. This exchange promotes MDC1 degradation via a DNA-PKcs-p97 axis. Disrupting it causes MDC1 accumulation, a shift to error-prone NHEJ and a pathological senescent state.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "High expression of H2AX/\u03b3-H2AX is associated with distinct biological pathway alterations and shorter survival in oropharyngeal squamous cell carcinoma (PMID: 39756240)",
+        "evidence_subtype": "expression",
+        "summary": "High H2AX mRNA in TCGA OPSCC is associated with shorter overall survival and upregulation of DNA repair and cell cycle genes (CDK1, CCNB1, ZWINT). High \u03b3-H2AX protein by IHC is associated with HPV-negative disease and is an independent predictor of poor survival.",
+        "sample_size": "76 TCGA OPSCC; 209 OPSCC IHC cohort",
+        "significance": "mRNA HR 4.77, p=0.04; protein HR 2.24, p=0.03 (HPV-negative HR 3.67, p=0.007)"
+      },
+      {
+        "citation": "Evolved histone tail regulates 53BP1 recruitment at damaged chromatin (PMID: 38821984)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The H2AX C-terminal linker region with S139 phosphorylation recruits 53BP1 independently of the MDC1-RNF8-RNF168 pathway. The recruitment is mediated by the interaction of the H2AX C-terminal tail with the 53BP1 oligomerization-Tudor domains. This \u03b3H2AX-linker-mediated recruitment confers camptothecin resistance in H2AX knockout cells.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - \u03b3H2AX in pluripotent stem cells: more than a DNA damage response signal?",
+        "evidence_subtype": "expression",
+        "summary": "Mouse ESCs, mouse iPSCs and blastocyst inner cell masses have high basal \u03b3H2AX without genotoxic exposure. Human ESCs have low basal \u03b3H2AX. In mESCs, \u03b3H2AX decreases with differentiation, which suggests a role beyond DNA damage signalling in pluripotency.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Merkel Cell Polyomavirus Small T Antigen Induces DNA Damage Response (PMID: 31401636)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MCPyV-positive human MCC cells show H2AX hyperphosphorylation. Overexpression of MCPyV sT antigen induces H2AX phosphorylation together with ATM activation and phosphorylation of 53BP1 and CHK2. This links viral sT to ATM-H2AX DDR signalling.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

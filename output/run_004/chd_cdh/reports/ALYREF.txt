@@ -1,0 +1,84 @@
+ALYREF GENE–DISEASE EVIDENCE REPORT: CONGENITAL HEART DISEASE (CHD) AND CONGENITAL DIAPHRAGMATIC HERNIA (CDH)
+
+1. GENE SUMMARY
+ALYREF (THOC4) is an RNA-binding component of the TREX (transcription-export) complex. It acts as an mRNA export adaptor that links the TREX complex to NXF1, and it also functions as an m5C RNA reader and an R-loop co-regulator. It is nuclear-speckle localized and is involved in RNA processing and genome stability.
+
+2. CLINICAL EVIDENCE SUMMARY
+
+Overview
+- Three clinical entries were found. They are not clearly independent. All relate to CDH and trace back to the same Columbia-led CDH sequencing effort.
+- The primary source is Qiao et al. 2021, a trio sequencing study of 827 CDH probands (PMID: 34547244). It reported enrichment of de novo damaging variants in ALYREF, significant at FDR < 0.05, which nominates ALYREF as a candidate CDH risk gene.
+- The ASHG 2022 abstract ("Integrated genetic analysis of transcriptome sequencing data in congenital diaphragmatic hernia", Qiao et al.) reports RNA-seq of diaphragm cells. It suggests a functional effect of a putative pathogenic ALYREF variant on RNA processing.
+- A review (PMID: 34573387) cites a single de novo ALYREF variant in a CDH patient. It restates previously published data and is not independent.
+- The number of ALYREF carriers is not specified; the only explicit count is 1 patient in the review. Individual variant details (type, consequence, zygosity) are not given. The variants are described as "damaging" de novo, which suggests predicted LoF or damaging missense, but this cannot be confirmed.
+- The cohort is a multicenter CDH consortium (Columbia University). None of the patients are from UDN, GREGoR, DDD, RUMC or GEL.
+
+Congenital diaphragmatic hernia (CDH)
+- Phenotype: CDH only. No associated anomalies are described in the available data.
+- The evidence is a statistical gene-level enrichment of de novo variants (FDR < 0.05) in a large trio cohort, with supportive RNA-seq data in abstract form. However, no variant-level details, no segregation or functional studies of individual alleles, and no independent replication are available.
+- Strength of clinical evidence for CDH: LIMITED
+
+Congenital heart disease (CHD)
+- No patients with CHD phenotypes and ALYREF variants were reported in the evidence provided. The CDH-related entries do not describe cardiac anomalies.
+- Strength of clinical evidence for CHD: NONE
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Only mouse studies are available.
+- Full Alyref knockout (CRISPR/Cas9) in embryos causes preimplantation arrest with improper inner cell mass formation via Nanog dysregulation. This is consistent with embryonic lethality. Alyref mRNA supplementation rescued cloned embryo development (PMID: 37640449).
+- Conditional deletion in NaV1.8+ nociceptive neurons is viable, and the animals show exacerbated inflammatory pain with impaired Ccn3 mRNA nuclear export (PMID: 42242915).
+- Knockdown studies are disease-context models, not developmental models. They cover heart failure/atrial fibrillation (PMID: 42249105), sepsis liver injury (PMID: 42425434), alcoholic hepatic fibrosis (PMID: 42715837) and tumor xenografts (PMID: 40369958).
+- No heterozygous knockout phenotype has been described. No diaphragm or heart developmental defects have been reported, and Mendelian ratios are not reported. The early lethality of full loss of function suggests the gene is essential, but it does not directly model CDH or CHD.
+- Strength of model organism evidence: LIMITED
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Function: ALYREF is a core TREX component for mRNA export and promotes R-loop resolution with UAP56. Its depletion causes R-loop accumulation and genome instability (PMID: 39547511). It is also an m5C reader that stabilizes or exports target mRNAs, including PKM2 (PMID: 33991457), CDC42 (PMID: 38876383) and HBV transcripts (PMID: 38216565). It participates in miRNA sorting into extracellular vesicles (PMID: 34937935).
+- Expression and regulation: ALYREF is localized mainly to nuclear speckles (PMID: 38579085). Its decline in aged hematopoietic stem cells causes R-loops, replication stress and DNA damage, and restoring it rescues function (PMID: 40605703).
+- Developmental relevance: Disease-associated TREX dysfunction is established. Biallelic THOC6 loss-of-function variants reduce ALYREF–THOC5 binding and impair corticogenesis through mis-splicing (PMID: 38388531). This supports the idea that TREX/RNA processing perturbation can cause developmental disorders, although a direct link to diaphragm or heart development is lacking.
+- Much of the literature is oncology-focused and only indirectly relevant.
+- Strength of biological evidence: MODERATE
+
+5. OVERALL ASSESSMENT
+Overall evidence level for congenital heart disease (CHD): INSUFFICIENT
+Overall evidence level for congenital diaphragmatic hernia (CDH): LIMITED
+Overall evidence level: LIMITED
+
+Syndrome: The evidence does not point to a syndrome affecting several of these conditions. The only phenotype linked to ALYREF is isolated CDH, with no reported cardiac involvement.
+
+Key strengths:
+- Statistically significant enrichment of de novo damaging variants in a large CDH trio cohort (827 probands; FDR < 0.05) (PMID: 34547244).
+- Supportive preliminary RNA-seq evidence of an RNA-processing effect (ASHG 2022 - Integrated genetic analysis of transcriptome sequencing data in congenital diaphragmatic hernia).
+- Essential and well-characterized molecular function, with embryonic lethality in mouse.
+
+Key gaps:
+- No variant-level data (carrier number, consequence, inheritance) are available.
+- There is no independent replication, and the clinical entries are non-independent.
+- No CHD cases have been reported.
+- Mouse models do not model heterozygous variants or diaphragm and heart development.
+- Haploinsufficiency or dominant-negative mechanism is unestablished.
+
+Conclusion: ALYREF is a candidate CDH risk gene, based mainly on a single statistical de novo enrichment signal that still needs variant-level detail and replication. There is currently no evidence linking heterozygous ALYREF variants to CHD, and no evidence for a multi-system syndrome. Biological plausibility is reasonable, but the clinical evidence is limited.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. Qiao et al. 2021 - Rare and de novo variants in 827 congenital diaphragmatic hernia probands implicate LONP1 as candidate risk gene (PMID: 34547244)
+2. The Role of De Novo Variants in Patients with Congenital Diaphragmatic Hernia (PMID: 34573387)
+
+### Model Organism Evidence
+1. Incomplete activation of Alyref and Gabpb1 leads to preimplantation arrest in cloned mouse embryos (PMID: 37640449)
+2. Alyref Deficiency Exacerbates Chronic Inflammatory Pain by Impairing Nuclear Export of Ccn3 MRNA (PMID: 42242915)
+3. ALYREF stabilizes MZF1 via m5C modification to exacerbate cardiac remodeling and atrial fibrillation in heart failure (PMID: 42249105)
+4. ALYREF drives NLRP3 inflammasome-dependent macrophage pyroptosis to promote sepsis-associated acute liver injury by enhancing GADD45A mRNA stability (PMID: 42425434)
+5. NEDD4L-mediated ALYREF ubiquitination degradation suppresses RUBCNL expression to impair autophagy and promote lipogenesis in alcoholic hepatic fibrosis (PMID: 42715837)
+6. ALYREF Promotes Progression of Intrahepatic Cholangiocarcinoma through Increasing the Level of Isocitrate Dehydrogenase 1 in an m5C-Dependent Manner (PMID: 40369958)
+
+### Biological Evidence
+1. Wang et al. 2024 - The molecular chaperone ALYREF promotes R-loop resolution and maintains genome stability (PMID: 39547511)
+2. The role of the HIF-1α/ALYREF/PKM2 axis in glycolysis and tumorigenesis of bladder cancer (PMID: 33991457)
+3. NSUN4 mediated RNA 5-methylcytosine promotes the malignant progression of glioma through improving the CDC42 mRNA stabilization (PMID: 38876383)
+4. Epigenetic addition of m(5)C to HBV transcripts promotes viral replication and evasion of innate antiviral responses (PMID: 38216565)
+5. MicroRNA sequence codes for small extracellular vesicle release and cellular retention (PMID: 34937935)
+6. ALYREF m5C RNA methylation reader predicts bladder cancer prognosis by regulating the tumor immune microenvironment (PMID: 38579085)
+7. Aging-declined RNA exportation impairs hematopoietic stem cells by inducing R-loop (PMID: 40605703)
+8. TREX tetramer disruption alters RNA processing necessary for corticogenesis in THOC6 Intellectual Disability Syndrome (PMID: 38388531)

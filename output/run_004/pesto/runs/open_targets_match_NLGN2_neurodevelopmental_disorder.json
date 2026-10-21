@@ -1,0 +1,342 @@
+{
+  "gene": "NLGN2",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000169992",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "EFO_0004696",
+      "name": "sex hormone-binding globulin measurement",
+      "score": 0.5114839756839341
+    },
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.20933432214834277
+    },
+    {
+      "disease_id": "MONDO_0005260",
+      "name": "autism",
+      "score": 0.1301917253394303
+    },
+    {
+      "disease_id": "MONDO_0011918",
+      "name": "anxiety",
+      "score": 0.09824484681252924
+    },
+    {
+      "disease_id": "MONDO_0005090",
+      "name": "schizophrenia",
+      "score": 0.08281120291943567
+    },
+    {
+      "disease_id": "MONDO_0007254",
+      "name": "breast cancer",
+      "score": 0.07926461272279396
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.07926461272279396
+    },
+    {
+      "disease_id": "MONDO_0005412",
+      "name": "duodenal ulcer",
+      "score": 0.06293690747843543
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.05991134573934471
+    },
+    {
+      "disease_id": "MONDO_0002009",
+      "name": "major depressive disorder",
+      "score": 0.05577842892400563
+    },
+    {
+      "disease_id": "MONDO_0005184",
+      "name": "pancreatic ductal adenocarcinoma",
+      "score": 0.05469781849333586
+    },
+    {
+      "disease_id": "EFO_0004329",
+      "name": "alcohol drinking",
+      "score": 0.05439130669385189
+    },
+    {
+      "disease_id": "MONDO_0005324",
+      "name": "seasonal allergic rhinitis",
+      "score": 0.05439130669385189
+    },
+    {
+      "disease_id": "MONDO_0002050",
+      "name": "depressive disorder",
+      "score": 0.050049941176392755
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "EFO_0004696",
+      "name": "sex hormone-binding globulin measurement",
+      "score": 0.5114839756839341
+    },
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.20933432214834277
+    },
+    {
+      "disease_id": "MONDO_0005260",
+      "name": "autism",
+      "score": 0.1301917253394303
+    },
+    {
+      "disease_id": "MONDO_0011918",
+      "name": "anxiety",
+      "score": 0.09824484681252924
+    },
+    {
+      "disease_id": "MONDO_0005090",
+      "name": "schizophrenia",
+      "score": 0.08281120291943567
+    },
+    {
+      "disease_id": "MONDO_0007254",
+      "name": "breast cancer",
+      "score": 0.07926461272279396
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.07926461272279396
+    },
+    {
+      "disease_id": "MONDO_0005412",
+      "name": "duodenal ulcer",
+      "score": 0.06293690747843543
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.05991134573934471
+    },
+    {
+      "disease_id": "MONDO_0002009",
+      "name": "major depressive disorder",
+      "score": 0.05577842892400563
+    },
+    {
+      "disease_id": "MONDO_0005184",
+      "name": "pancreatic ductal adenocarcinoma",
+      "score": 0.05469781849333586
+    },
+    {
+      "disease_id": "EFO_0004329",
+      "name": "alcohol drinking",
+      "score": 0.05439130669385189
+    },
+    {
+      "disease_id": "MONDO_0005324",
+      "name": "seasonal allergic rhinitis",
+      "score": 0.05439130669385189
+    },
+    {
+      "disease_id": "MONDO_0002050",
+      "name": "depressive disorder",
+      "score": 0.050049941176392755
+    }
+  ],
+  "gate_text": "DROP: 1, 2, 6, 7, 8, 9, 11, 13",
+  "gate_dropped_ids": [
+    "EFO_0004696",
+    "OBA_0003277",
+    "MONDO_0007254",
+    "MONDO_0004989",
+    "MONDO_0005412",
+    "MONDO_0005070",
+    "MONDO_0005184",
+    "MONDO_0005324"
+  ],
+  "tag_text": "1 | DIFFERENT\n2 | DIFFERENT\n3 | CHILD_FIRST\n4 | CLOSE_VAGUE\n5 | CLOSE_MODERATE\n6 | DIFFERENT\n7 | DIFFERENT\n8 | DIFFERENT\n9 | DIFFERENT\n10 | CLOSE_VAGUE\n11 | DIFFERENT\n12 | DIFFERENT\n13 | DIFFERENT\n14 | CLOSE_VAGUE",
+  "graded": [
+    {
+      "disease_id": "EFO_0004696",
+      "name": "sex hormone-binding globulin measurement",
+      "score": 0.5114839756839341,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.20933432214834277,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005260",
+      "name": "autism",
+      "score": 0.1301917253394303,
+      "tag": "CHILD_FIRST",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0011918",
+      "name": "anxiety",
+      "score": 0.09824484681252924,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005090",
+      "name": "schizophrenia",
+      "score": 0.08281120291943567,
+      "tag": "CLOSE_MODERATE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0007254",
+      "name": "breast cancer",
+      "score": 0.07926461272279396,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0004989",
+      "name": "breast carcinoma",
+      "score": 0.07926461272279396,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005412",
+      "name": "duodenal ulcer",
+      "score": 0.06293690747843543,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005070",
+      "name": "neoplasm",
+      "score": 0.05991134573934471,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0002009",
+      "name": "major depressive disorder",
+      "score": 0.05577842892400563,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005184",
+      "name": "pancreatic ductal adenocarcinoma",
+      "score": 0.05469781849333586,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0004329",
+      "name": "alcohol drinking",
+      "score": 0.05439130669385189,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005324",
+      "name": "seasonal allergic rhinitis",
+      "score": 0.05439130669385189,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0002050",
+      "name": "depressive disorder",
+      "score": 0.050049941176392755,
+      "tag": "CLOSE_VAGUE",
+      "why": ""
+    }
+  ],
+  "of": 14,
+  "tokens": {
+    "gate_in": 440,
+    "gate_out": 28,
+    "read_in": 2310,
+    "read_out": 579
+  },
+  "articles": [
+    {
+      "pmid": "27805570",
+      "title": "Distinct roles for extracellular and intracellular domains in neuroligin function at inhibitory synapses.",
+      "abstract": "",
+      "year": "2016 Nov 2",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "27865048",
+      "title": "Neuroligin 2 nonsense variant associated with anxiety, autism, intellectual disability, hyperphagia, and obesity.",
+      "abstract": "",
+      "year": "2017 Jan",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "22820233",
+      "title": "Developmental delays and reduced pup ultrasonic vocalizations but normal sociability in mice lacking the postsynaptic cell adhesion protein neuroligin2.",
+      "abstract": "",
+      "year": "2013 Aug 15",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "40956789",
+      "title": "Genetic variation influences food-sharing sociability in honey bees.",
+      "abstract": "",
+      "year": "2025 Sep",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "35501678",
+      "title": "Characterization of cell-cell communication in autistic brains with single-cell transcriptomes.",
+      "abstract": "",
+      "year": "2022 May 2",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "39624824",
+      "title": "Alterations in Neuroligin-2 and BDNF proteins associated with anxiety-like behavior in salicylate-induced tinnitus rats.",
+      "abstract": "",
+      "year": "2024 Dec",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "33262327",
+      "title": "Autism-associated miR-873 regulates ARID1B, SHANK3 and NRXN2 involved in neurodevelopment.",
+      "abstract": "",
+      "year": "2020 Dec 1",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "39029777",
+      "title": "Transthyretin Orchestrates Vitamin B12-Induced Stress Resilience.",
+      "abstract": "",
+      "year": "2025 Jan 1",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "39284869",
+      "title": "Functional Neuroligin-2-MDGA1 interactions differentially regulate synaptic GABA(A)Rs and cytosolic gephyrin aggregation.",
+      "abstract": "",
+      "year": "2024 Sep 17",
+      "source": "europepmc"
+    },
+    {
+      "pmid": "38201218",
+      "title": "Brain Region Differences in \u03b11- and \u03b15-Subunit-Containing GABA(A) Receptor Proteomes Revealed with Affinity Purification and Blue Native PAGE Proteomics.",
+      "abstract": "",
+      "year": "2023 Dec 20",
+      "source": "europepmc"
+    }
+  ]
+}

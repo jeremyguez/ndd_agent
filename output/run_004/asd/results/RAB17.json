@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 4,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Chen et al. 2024 - RAB17 promotes endometrial cancer progression by inhibiting TFRC-dependent ferroptosis (PMID: 39242574)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RAB17 is more highly expressed in endometrial cancer tissue than in peritumoral tissue. It suppresses ferroptosis by reducing TFRC protein via ubiquitin-proteasome-dependent degradation. Low glucose raises RAB17 expression, and the RAB17-TFRC axis supports EC cell survival under glucose deprivation. Findings were corroborated in vivo and in clinical data.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Single-cell RNA-seq and bulk-seq identify RAB17 as a potential regulator of angiogenesis by human dermal microvascular endothelial cells in diabetic foot ulcers (PMID: 37605780)",
+        "evidence_subtype": "expression",
+        "summary": "RAB17 was identified by scRNA-seq, bulk-seq, WGCNA and LASSO as a marker whose expression is significantly reduced in DFU-derived HDMECs. Overexpressing RAB17 enhanced angiogenesis, HIF-1\u03b1 and VEGFA expression, and diabetic wound healing, partly via MAPK/ERK signalling.",
+        "sample_size": null,
+        "significance": "significantly reduced in DFU-HDMECs"
+      },
+      {
+        "citation": "Down-regulation of Rab17 promotes tumourigenic properties of hepatocellular carcinoma cells via Erk pathway (PMID: 26191189)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rab17 was present in 75% of paraneoplastic tissues but only 35% of HCC samples. Knockdown in Hep3B and Huh-7 cells increased proliferation, invasion, migration, xenograft growth and angiogenesis. These effects were reversed by an Erk pathway inhibitor, suggesting Rab17 acts as a tumor suppressor.",
+        "sample_size": "20 paired clinical specimens",
+        "significance": "P=0.0248"
+      },
+      {
+        "citation": "ALS2, the small GTPase Rab17-interacting protein, regulates maturation and sorting of Rab17-associated endosomes (PMID: 31959474)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Rab17 localizes to recycling endosomes in a Rab11-dependent manner and interacts with ALS2 and RABGEF1. RABGEF1 acts as a Rab17 GEF, whereas ALS2 only binds Rab17 and acts downstream of RABGEF1 to mature Rab17-positive nascent endosomes into EEA1-positive early endosomes. These endosomes arise via clathrin-independent endocytosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab17 regulates apical delivery of hepatic transcytotic vesicles (PMID: 30256711)",
+        "evidence_subtype": "function",
+        "summary": "Rab17 is monosumoylated (K68), which likely mediates interaction with apical syntaxin 2. In polarized WIF-B hepatic cells, Rab17 regulates basolateral-to-apical transcytotic vesicle docking and fusion. GTP-bound and sumoylated Rab17 are needed for apical docking, and GTP hydrolysis is needed for vesicle delivery.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of Rab17 promotes cell proliferation and invasion in non-small cell lung cancer through STAT3/HIF-1\u03b1/VEGF signaling (PMID: 31841274)",
+        "evidence_subtype": "pathway",
+        "summary": "Low Rab17 expression correlates with poor overall survival in NSCLC. Knockdown promotes proliferation, invasion, angiogenesis, xenograft growth, EMT (decreased E-cadherin, increased Vimentin and \u03b2-catenin) and reduced apoptosis, partly through STAT3/HIF-1\u03b1/VEGF signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A proteomic approach to identify endosomal cargoes controlling cancer invasiveness (PMID: 28062852)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Rab17 is suppressed by ERK2 signalling. Rab17 knockdown selectively reduces the v-SNARE Vamp8, which associates with Rab17 at late endosomes. Loss of Rab17 or Vamp8 increases mobilisation of NRP2-containing late endosomes and NRP2 surface expression, promoting DCIS invasiveness.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "LMO4 promotes OSCC progression by inducing RAB17 degradation and ferroptosis resistance (PMID: 41213908)",
+        "evidence_subtype": "cell_culture",
+        "summary": "LMO4 promotes ubiquitin-proteasome-dependent degradation of RAB17, a tumor suppressor in OSCC, thereby increasing ferroptosis resistance, proliferation and migration. Restoring RAB17 reduced these behaviors, and high-LMO4 xenografts had lower RAB17 protein.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The recycling endosome protein Rab17 regulates melanocytic filopodia formation and melanosome trafficking (PMID: 21291502)",
+        "evidence_subtype": "function",
+        "summary": "GFP-Rab17 localizes to recycling endosomes and melanosomes, and Rab17 mRNA is regulated by MITF. Rab17 knockdown causes melanosome accumulation at the periphery, intracellular melanin accumulation and reduced filopodia formation. Rab17 acts downstream of Rab27a.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rab17 localizes to recycling endosomes and regulates receptor-mediated transcytosis in epithelial cells (PMID: 9624171)",
+        "evidence_subtype": "expression",
+        "summary": "Rab17 is restricted to epithelial cells and its expression is induced during polarization. In MDCK cells it localizes to apical recycling endosomes, and its overexpression impairs basolateral-to-apical transcytosis of dimeric IgA via pIgR.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

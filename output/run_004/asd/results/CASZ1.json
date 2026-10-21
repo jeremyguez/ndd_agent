@@ -1,0 +1,195 @@
+{
+  "articles_found": {
+    "clinical": 7,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Wang et al. 2020 - Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders (PMID: 33004838)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "De novo mutations in CASZ1 (specific variants not given in the abstract); CASZ1 reached family-wise error rate significance for DNM excess (p < 3.64E-07) in 17,426 NDD trios",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Significant excess of de novo mutations in CASZ1 in NDD trios (FWER significant), supporting CASZ1 as an NDD risk gene",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Essential role of the zinc finger transcription factor Casz1 for mammalian cardiac morphogenesis and development (PMID: 25190801)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Hypoplasia of myocardium",
+          "Ventricular septal defect",
+          "Disorganized cardiac morphology / cardiac noncompaction",
+          "Decreased cardiomyocyte proliferation",
+          "Abnormal expression of muscle contraction genes (Tnni2, Tnnt1, Ckm), Acta1, and ion channel genes (Abcc9, Cacna1d)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "embryonic lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Casz1 is required for both inner hair cell fate stabilization and outer hair cell survival (PMID: 39883789)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Transdifferentiation of inner hair cells into outer hair cells",
+          "OHC production unaffected",
+          "Progressive loss of outer hair cells (impaired long-term OHC survival)",
+          "Gata3 down-regulation in Casz1-deleted IHCs",
+          "Hearing impairment, partially rescued by Gata3 overexpression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A single-cell time-series atlas of endothelial cell embryonic development (PMID: 41702400)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Impaired vascular growth",
+          "Disturbed pulmonary endothelial organotypic differentiation",
+          "Deficient epithelial-endothelial crosstalk in lung"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CASZ1 promotes vascular assembly and morphogenesis through the direct regulation of an EGFL7/RhoA-mediated pathway (PMID: 23639441)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Failure to develop a branched and lumenized vascular system",
+          "Defective blood vessel assembly and morphogenesis",
+          "Reduced Egfl7 and RhoA expression (in human endothelial cells)"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Casz1-NuRD complex regulates temporal identity transitions in neural progenitors (PMID: 33594190)",
+        "organism": "mouse",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Altered transition between neurogenesis and gliogenesis in retina",
+          "Reduced rod fate and increased gliogenesis upon Casz1 loss"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Congenital heart disease protein 5 associates with CASZ1 to maintain myocardial tissue integrity (PMID: 24993940)",
+        "organism": "Xenopus",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "CASZ1 depletion produced cardiac phenotypes similar to, but milder than, CHD5 depletion",
+          "CHD5 loss caused compromised myocardial integrity, improper basement membrane deposition, and failure of cardiac cell movements and tube formation",
+          "CHD5-CASZ1 interaction necessary for cardiac morphogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mouse endothelial atlas study 2026 - A single-cell time-series atlas of endothelial cell embryonic development (PMID: 41702400)",
+        "evidence_subtype": "function",
+        "summary": "Casz1 was identified as a pulmonary EC-enriched transcription factor in a mouse embryonic endothelial scRNA-seq atlas. Endothelial-specific Casz1 knockout impaired vascular growth, disturbed pulmonary endothelial organotypic differentiation, and weakened epithelial-EC crosstalk.",
+        "sample_size": "26 embryonic time points, 8 organs",
+        "significance": null
+      },
+      {
+        "citation": "CASZ1 upregulates PI3K-AKT-mTOR signaling and promotes T-cell acute lymphoblastic leukemia (PMID: 38058200)",
+        "evidence_subtype": "pathway",
+        "summary": "TAL1 directly and positively regulates CASZ1. T-ALL samples overexpress the CASZ1b isoform, and its expression correlates with PI3K-AKT-mTOR activation. CASZ1b overexpression activates PI3K signaling, which is required for transformation of Ba/F3 cells. CASZ1b cooperates with activated NOTCH1 in zebrafish T-ALL and confers chemoresistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A Casz1-NuRD complex regulates temporal identity transitions in neural progenitors (PMID: 33594190)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "BioID proteomics showed Casz1 interacts with the NuRD complex in retinal cells. Casz1 controls the neurogenesis-to-gliogenesis transition. NuRD and polycomb are both required for Casz1 to promote rod fate and suppress gliogenesis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CASZ1 loss-of-function mutation contributes to familial dilated cardiomyopathy (PMID: 28099117)",
+        "evidence_subtype": "other",
+        "summary": "A heterozygous nonsense CASZ1 variant, p.K351X, was found in a DCM family and co-segregated with disease in an autosomal dominant pattern with complete penetrance. The mutant protein had no transcriptional activity in luciferase reporter assays.",
+        "sample_size": "138 DCM patients, 200 controls, 1 family",
+        "significance": "Absent in 400 control chromosomes; co-segregation with disease"
+      },
+      {
+        "citation": "CASZ1 regulates the maturation of outer hair cells and is required for hearing in mice (PMID: 42707066)",
+        "evidence_subtype": "function",
+        "summary": "Casz1 is an ATOH1 target gene. Its deletion during cochlear development caused hearing loss, disorganized OHC stereocilia, reduced cuticular plate F-actin, and progressive OHC loss. Casz1 loss delayed downregulation of immature OHC genes such as Coro2a, and deleting Coro2a partially rescued F-actin density.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of CASZ1 tumor suppressor linked to oncogenic subversion of neuroblastoma core regulatory circuitry (PMID: 36243768)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CASZ1 is highly expressed in developing chromaffin cells but silenced in neuroblastoma cells. HAND2 directly represses CASZ1. Restoring CASZ1 upregulates noradrenergic neuronal genes and represses core regulatory circuit components by remodeling enhancers, inducing differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CASZ1 induces skeletal muscle and rhabdomyosarcoma differentiation through a feed-forward loop with MYOD and MYOG (PMID: 32060262)",
+        "evidence_subtype": "pathway",
+        "summary": "CASZ1 upregulates MYOD signature genes and drives skeletal muscle differentiation in myoblasts and ERMS cells. RAS-MEK signaling suppresses CASZ1 expression. ChIP-seq, ATAC-seq and RNA-seq show CASZ1 directly activates muscle genes and represses non-muscle genes by altering chromatin accessibility and super-enhancers. A CASZ1 coding SNV was found in a primary RMS tumor.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Casz1 controls higher-order nuclear organization in rod photoreceptors (PMID: 30072429)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Conditional Casz1 deletion disrupts the inverted chromatin organization of rods and their survival. Casz1 interacts with polycomb repressor complex in a splice variant-specific manner, and both suppress lamin A/C expression. Casz1 is sufficient to expand and centralize heterochromatin in fibroblasts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CASZ1 promotes migration, invasion, and metastasis of lung cancer cells by controlling expression of ITGAV (PMID: 36777515)",
+        "evidence_subtype": "cell_culture",
+        "summary": "CASZ1 expression in lung cancer is positively associated with metastasis and poor prognosis. CASZ1b overexpression promotes migration, invasion and EMT, while knockdown suppresses them and reduces metastasis in vivo. CASZ1 binds the ITGAV promoter and transcriptionally regulates ITGAV.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CASZ1b is a novel transcriptional corepressor of mineralocorticoid receptor (PMID: 33077905)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "CASZ1b was identified by mass spectrometry as an MR-interacting factor, interacting in an aldosterone-dependent manner and colocalizing with MR in kidney. It recruits the Mi-2/NuRD complex to suppress ENaC\u03b1 and SGK1. Overexpression reduced MR activity by about 50%, and knockdown raised ENaC\u03b1 and SGK1 expression about 2-fold and 2.3-fold.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

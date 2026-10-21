@@ -1,0 +1,132 @@
+{
+  "gene": "SERPINA9",
+  "phenotype": "neurodevelopmental disorder",
+  "ensembl_id": "ENSG00000170054",
+  "agent_version": "tagged_shortlist:biolord:20:v7",
+  "ot_match_version": "tagged_shortlist:biolord:20:v7:gate",
+  "traits": [
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.27041759609319327
+    },
+    {
+      "disease_id": "MONDO_0005045",
+      "name": "hypertrophic cardiomyopathy",
+      "score": 0.25796826365921555
+    },
+    {
+      "disease_id": "EFO_0802062",
+      "name": "serpin A9 measurement",
+      "score": 0.19827317323462815
+    },
+    {
+      "disease_id": "MONDO_0018076",
+      "name": "tuberculosis",
+      "score": 0.16584201679167254
+    },
+    {
+      "disease_id": "MONDO_0020686",
+      "name": "acute tonsillitis",
+      "score": 0.07840741530026903
+    },
+    {
+      "disease_id": "EFO_0020428",
+      "name": "growth/differentiation factor 2 measurement",
+      "score": 0.05595798612774462
+    }
+  ],
+  "shortlist": [
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.27041759609319327
+    },
+    {
+      "disease_id": "MONDO_0005045",
+      "name": "hypertrophic cardiomyopathy",
+      "score": 0.25796826365921555
+    },
+    {
+      "disease_id": "EFO_0802062",
+      "name": "serpin A9 measurement",
+      "score": 0.19827317323462815
+    },
+    {
+      "disease_id": "MONDO_0018076",
+      "name": "tuberculosis",
+      "score": 0.16584201679167254
+    },
+    {
+      "disease_id": "MONDO_0020686",
+      "name": "acute tonsillitis",
+      "score": 0.07840741530026903
+    },
+    {
+      "disease_id": "EFO_0020428",
+      "name": "growth/differentiation factor 2 measurement",
+      "score": 0.05595798612774462
+    }
+  ],
+  "gate_text": "DROP: 1, 2, 4, 5, 6",
+  "gate_dropped_ids": [
+    "OBA_0003277",
+    "MONDO_0005045",
+    "MONDO_0018076",
+    "MONDO_0020686",
+    "EFO_0020428"
+  ],
+  "tag_text": "1 | DIFFERENT\n2 | DIFFERENT\n3 | DIFFERENT\n4 | DIFFERENT\n5 | DIFFERENT\n6 | DIFFERENT",
+  "graded": [
+    {
+      "disease_id": "OBA_0003277",
+      "name": "platelet volume",
+      "score": 0.27041759609319327,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0005045",
+      "name": "hypertrophic cardiomyopathy",
+      "score": 0.25796826365921555,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0802062",
+      "name": "serpin A9 measurement",
+      "score": 0.19827317323462815,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0018076",
+      "name": "tuberculosis",
+      "score": 0.16584201679167254,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "MONDO_0020686",
+      "name": "acute tonsillitis",
+      "score": 0.07840741530026903,
+      "tag": "DIFFERENT",
+      "why": ""
+    },
+    {
+      "disease_id": "EFO_0020428",
+      "name": "growth/differentiation factor 2 measurement",
+      "score": 0.05595798612774462,
+      "tag": "DIFFERENT",
+      "why": ""
+    }
+  ],
+  "of": 6,
+  "tokens": {
+    "gate_in": 392,
+    "gate_out": 19,
+    "read_in": 2242,
+    "read_out": 190
+  },
+  "articles": []
+}

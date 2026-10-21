@@ -1,0 +1,205 @@
+{
+  "articles_found": {
+    "clinical": 9,
+    "model_organism": 4,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "ASHG 2017 - ARID4A de novo variants identified by exome sequencing among individuals with neurodevelopmental disorders (Monaghan et al.)",
+        "num_patients": 6,
+        "variants": [
+          {
+            "description": "One frameshift variant (specific notation not provided); de novo",
+            "type": "LoF",
+            "phenotypes": [
+              "developmental delay",
+              "behavior abnormalities",
+              "variable features across cohort: autism, developmental regression, tone abnormalities, intellectual disability, brain anomalies, facial dysmorphism"
+            ]
+          },
+          {
+            "description": "Five missense variants (specific notation not provided); four confirmed de novo, one possibly paternally mosaic (not confirmed de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "developmental delay (6/6)",
+              "behavior abnormalities (6/6)",
+              "developmental regression (3/6)",
+              "autism (4/6)",
+              "tone abnormalities (4/6)",
+              "intellectual disability",
+              "brain anomalies on MRI (thin corpus callosum, absent septum pellucidum, holoprosencephaly in one; pontocerebellar atrophy in another)",
+              "facial dysmorphism (2 patients)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo on trio-based exome sequencing (one possible paternal mosaic); missense variants had damaging in-silico predictions and affected evolutionarily conserved residues",
+        "center_country": "GeneDx, USA (Monaghan, Juusola et al.)",
+        "cohort": null
+      },
+      {
+        "citation": "Zhang et al. 2022 - A novel heterozygous missense variant of the ARID4A gene identified in Han Chinese families with schizophrenia-diagnosed siblings that interferes with DNA-binding activity (PMID: 35365808)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "c.1231C>G, p.His411Asp",
+            "type": "missense",
+            "phenotypes": [
+              "schizophrenia (affected siblings in Han Chinese families)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Identified by WES in families with schizophrenia-diagnosed siblings; functional studies showed a less compact ARID domain conformation, weaker dsDNA binding, and disrupted G1 cell cycle arrest with increased proliferation",
+        "center_country": "China",
+        "cohort": null
+      },
+      {
+        "citation": "Deciphering the genetic basis of developmental language disorder in children without intellectual disability, autism or apraxia of speech (PMID: 39948625)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "NM_002892.4 c.1539dup, p.(Glu514ArgfsTer3)",
+            "type": "LoF",
+            "phenotypes": [
+              "severe developmental language disorder (without ID, ASD or CAS)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Frameshift variant in a gene intolerant to LoF variation, with no established Mendelian disorder yet; listed as a candidate variant and not classified as pathogenic",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "The genetic landscape of autism spectrum disorder in an ancestrally diverse cohort (PMID: 39632905)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "chr14:58353693 A>C, p.E564A (de novo)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo nonsynonymous variant in a candidate ASD gene (family MC_172_3)",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Wu et al. 2013 - ARID4A and ARID4B regulate male fertility, a functional link to the AR and RB pathways (PMID: 23487765)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Arid4a-/- combined with Arid4b heterozygous knockout; Arid4a-/-Arid4b+/-)",
+        "phenotypes": [
+          "progressive loss of male fertility",
+          "hypogonadism",
+          "seminal vesicle agenesis/hypodysplasia",
+          "spermatogenic arrest at meiotic spermatocyte and postmeiotic haploid spermatid stages",
+          "increased permeability of the blood-testis barrier (seminiferous tubules)",
+          "Sertoli cell dysfunction recapitulating Sertoli-specific AR and RB knockout phenotypes",
+          "altered expression of AR- and RB-responsive genes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wu et al. 2008 - Identification of chromatin remodeling genes Arid4a and Arid4b as leukemia suppressor genes (PMID: 18728284)",
+        "organism": "mouse",
+        "knockout_type": "full knockout (Arid4a-/-; also Arid4a-/-Arid4b+/-)",
+        "phenotypes": [
+          "ineffective hematopoiesis in all lineages in young mice",
+          "monocytosis, severe anemia and thrombocytopenia after 5 months of age",
+          "bone marrow failure with myelofibrosis",
+          "splenomegaly and hepatomegaly",
+          "CMML-like myelodysplastic/myeloproliferative disorder",
+          "progression to acute myeloid leukemia (5 of 42 Arid4a-/- mice; 10 of 12 Arid4a-/-Arid4b+/- mice)",
+          "decreased Hoxb3, Hoxb5, Hoxb6 and Hoxb8 expression in bone marrow",
+          "reduced FoxP3 expression in Arid4a-/-Arid4b+/- bone marrow",
+          "increased histone trimethylation of H3K4, H3K9 and H4K20"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": "42 Arid4a-/- mice; 12 Arid4a-/-Arid4b+/- mice",
+        "significance": "Histone trimethylation fold increases: H3K4 32-fold (95% CI 27-32), H3K9 45-fold (95% CI 41-49), H4K20 2.2-fold (95% CI 1.7-2.7); statistical tests two-sided"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Hu et al. 2017 - miR-376c promotes carcinogenesis and serves as a plasma marker for gastric carcinoma (PMID: 28486502)",
+        "evidence_subtype": "cell_culture",
+        "summary": "ARID4A is a direct target of miR-376c in gastric carcinoma cells. ARID4A knockdown increased proliferation, migration and anchorage-independent growth, and ARID4A was strongly downregulated in tumor tissue, opposite to miR-376c. This supports a tumor-suppressor role.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of ARID4A and ARID4B promote tumor progression and directly regulated by microRNA-30d in patient with prostate cancer (PMID: 29797600)",
+        "evidence_subtype": "expression",
+        "summary": "ARID4A is a miR-30d target and its mRNA is negatively correlated with miR-30d in prostate cancer tissue. It is downregulated in tumors with high Gleason score, PSA failure and short recurrence-free survival. ARID4A knockout promoted PCa cell proliferation, migration and invasion in vitro.",
+        "sample_size": null,
+        "significance": "r=-0.313, P=0.001 (miR-30d vs ARID4A); P=0.005 (Gleason); P=0.012 (PSA failure); P=0.033 (recurrence-free survival)"
+      },
+      {
+        "citation": "Structural basis for tunable affinity and specificity of LxCxE-dependent protein interactions with the retinoblastoma protein family (PMID: 35716663)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Crystal structures and binding data show that an ARID4A LxCxE peptide binds the p107 pocket domain, alongside HDAC1 and EID1 peptides. This confirms ARID4A as a direct Rb-family-binding transcriptional co-repressor with defined affinity and specificity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Wu et al. 2006 - Deficiency of Rbbp1/Arid4a and Rbbp1l1/Arid4b alters epigenetic modifications and suppresses an imprinting defect in the PWS/AS domain (PMID: 17043311)",
+        "evidence_subtype": "pathway",
+        "summary": "Arid4a was recovered in a gene-trap screen for regulators of Snrpn-EGFP imprinting. It interacts with Arid4b and the Snrpn promoter. In mice, Arid4a-/- with Arid4b+/- reduced H4K20me3, H3K9me3 and DNA methylation at the PWS-IC and suppressed an AS imprinting defect, placing ARID4A in epigenetic complexes regulating PWS/AS imprinting.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "AlphaFold-guided structural analyses of nucleosome binding proteins (PMID: 40794873)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "An AlphaFold-based screen of more than 7600 human nuclear proteins identified ARID4A and ARID4B as novel nucleosome-binding proteins.",
+        "sample_size": "~7600 human nuclear proteins screened",
+        "significance": null
+      },
+      {
+        "citation": "A novel heterozygous missense variant of the ARID4A gene identified in Han Chinese families with schizophrenia-diagnosed siblings that interferes with DNA-binding activity (PMID: 35365808)",
+        "evidence_subtype": "function",
+        "summary": "Whole-exome sequencing found ARID4A p.His411Asp in schizophrenia families. The crystal structure of the PWWP-ARID tandem shows a structural supramodule. The mutant ARID domain is less compact and binds dsDNA more weakly, reduces G0-G1 arrest and increases HEK293T proliferation.",
+        "sample_size": "Han Chinese families with schizophrenia-diagnosed siblings",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - ARID4A de novo variants identified by exome sequencing among individuals with neurodevelopmental disorders",
+        "evidence_subtype": "other",
+        "summary": "Trio exome sequencing of 11,649 NDD probands found de novo ARID4A variants (one frameshift, five missense) in 6 individuals. All had developmental delay and behavioral abnormalities, and many had autism, tone abnormalities, regression or brain anomalies. A prior 14q23 deletion including ARID4A suggests haploinsufficiency.",
+        "sample_size": "11,649 probands; 6 individuals with ARID4A variants",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2014 - Position effects modify gene expression in a ring chromosome 14?",
+        "evidence_subtype": "expression",
+        "summary": "ARID4A was significantly downregulated in blood from a patient with ring chromosome 14 compared with 7 controls, possibly through position effects or nuclear repositioning of the ring chromosome. GeneMania indicated ARID4A is co-expressed with the other studied genes.",
+        "sample_size": "1 patient, 7 controls",
+        "significance": "significantly downregulated (qPCR)"
+      },
+      {
+        "citation": "Structural basis for the DNA-binding activity of human ARID4B Tudor domain (PMID: 33675746)",
+        "evidence_subtype": "function",
+        "summary": "The ARID4A N-terminal domain is an interdigitated double Tudor domain with DNA-binding activity. It has higher DNA affinity than the ARID4B Tudor domain, largely because of Leu50 (Glu50 in ARID4B), despite more than 80% sequence identity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ARID4A and ARID4B regulate male fertility, a functional link to the AR and RB pathways (PMID: 23487765)",
+        "evidence_subtype": "pathway",
+        "summary": "Arid4a-/-Arid4b+/- mice show progressive loss of male fertility, hypogonadism, spermatogenic arrest and an impaired blood-testis barrier. Arid4a is expressed mainly in Sertoli cells. ARID4A and ARID4B act as transcriptional coactivators in the AR and RB pathways, regulating AR- and RB-responsive genes.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

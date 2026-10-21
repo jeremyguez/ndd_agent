@@ -1,0 +1,349 @@
+{
+ "gene": "EPS8L1",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "diaphragmatic hernia",
+   "congenital hernia of the diaphragm",
+   "congenital diaphragmatic defect",
+   "diaphragm defect, congenital",
+   "herniation of abdominal viscera into the thorax",
+   "congenital diaphragmatic eventration/hernia"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "MGC23164",
+   "MGC4642",
+   "DRC3",
+   "FLJ20258",
+   "EPS8 signaling adaptor L1"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 16,
+  "titlekicksparingfulltext": 11,
+  "read": 1
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 0,
+   "Existing": 2,
+   "Hypothesized": 13,
+   "Novel": 85
+  },
+  "justification": "The only provided article (PMID 14565974) characterizes the eps8 family, including EPS8L1, as regulators of Rac-mediated actin cytoskeletal remodeling in fibroblasts and mice; it makes no mention of congenital diaphragmatic hernia or any diaphragm/lung developmental phenotype. There are no human genetic studies, no patient variants, and no probands or families linking EPS8L1 to CDH, so Established and Existing are not supportable. A small amount of weight is given to Hypothesized because actin cytoskeletal/Rac signaling is broadly relevant to mesenchymal cell migration during diaphragm development, but this is a generic pathway link rather than a specific, phenotype-relevant biological argument. Overall the evidence base is essentially an incidental co-mention, consistent with a Novel gene\u2013disease relationship.",
+  "pmids": [],
+  "detail": {
+   "Established": 0,
+   "Existing": 2,
+   "Hypothesized": 13,
+   "Novel": 85
+  }
+ },
+ "articles": [
+  {
+   "pmid": "14565974",
+   "title": "The eps8 family of proteins links growth factor stimulation to actin reorganization generating functional redundancy in the Ras/Rac pathway.",
+   "abstract": "Sos-1, a guanine nucleotide exchange factor (GEF), eps8 and Abi1, two signaling proteins, and the lipid kinase phosphoinositide 3-kinase (PI3-K), assemble in a multimolecular complex required for Rac activation leading to actin cytoskeletal remodeling. Consistently, eps8 -/- fibroblasts fail to form membrane ruffles in response to growth factor stimulation. Surprisingly, eps8 null mice are healthy, fertile, and display no overt phenotype, suggesting the existence of functional redundancy within this pathway. Here, we describe the identification and characterization of a family of eps8-related proteins, comprising three novel gene products, named eps8L1, eps8L2, and eps8L3. Eps8Ls display collinear topology and 27-42% identity to eps8. Similarly to eps8, eps8Ls interact with Abi1 and Sos-1; however, only eps8L1 and eps8L2 activate the Rac-GEF activity of Sos-1, and bind to actin in vivo. Consistently, eps8L1 and eps8L2, but not eps8L3, localize to PDGF-induced, F-actin-rich ruffles and restore receptor tyrosine kinase (RTK)-mediated actin remodeling when expressed in eps8 -/- fibroblasts. Thus, the eps8Ls define a novel family of proteins responsible for functional redundancy in the RTK-activated signaling pathway leading to actin remodeling. Finally, the patterns of expression of eps8 and eps8L2 in mice are remarkably overlapping, thus providing a likely explanation for the lack of overt phenotype in eps8 null mice.",
+   "found_by": [],
+   "pubdate": "2004 Jan",
+   "query_tier": "secondary"
+  }
+ ],
+ "labels": {
+  "8534099": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30018765": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34122391": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38650655": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24913449": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37936615": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36627902": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39733410": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37889708": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "6421231": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36835202": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14565974": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27120127": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26063732": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38769386": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27261005": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.1,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 336,
+   "usd": 0.01015,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "10 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 3.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 1183,
+   "output_tokens": 64,
+   "usd": 0.001503,
+   "calls": 2
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 0.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 1.5,
+   "note": "",
+   "input_tokens": 2907,
+   "output_tokens": 120,
+   "usd": 0.003507,
+   "calls": 1
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 5.8,
+   "note": "",
+   "input_tokens": 1809,
+   "output_tokens": 467,
+   "usd": 0.02072,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>0</established>\n    <existing>2</existing>\n    <hypothesized>13</hypothesized>\n    <novel>85</novel>\n  </probabilities>\n  <justification>The only provided article (PMID 14565974) characterizes the eps8 family, including EPS8L1, as regulators of Rac-mediated actin cytoskeletal remodeling in fibroblasts and mice; it makes no mention of congenital diaphragmatic hernia or any diaphragm/lung developmental phenotype. There are no human genetic studies, no patient variants, and no probands or families linking EPS8L1 to CDH, so Established and Existing are not supportable. A small amount of weight is given to Hypothesized because actin cytoskeletal/Rac signaling is broadly relevant to mesenchymal cell migration during diaphragm development, but this is a generic pathway link rather than a specific, phenotype-relevant biological argument. Overall the evidence base is essentially an incidental co-mention, consistent with a Novel gene\u2013disease relationship.</justification>\n  <pmids>\n    <pmid>14565974</pmid>\n  </pmids>\n</response>"
+}

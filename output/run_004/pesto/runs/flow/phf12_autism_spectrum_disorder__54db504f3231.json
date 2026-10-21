@@ -1,0 +1,685 @@
+{
+ "gene": "PHF12",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "autistic features",
+   "autistic behavior",
+   "Kanner syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "PF1",
+   "KIAA1523",
+   "PHD finger protein 12"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 70,
+  "titlekicksparingfulltext": 39,
+  "read": 9
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 35,
+   "Existing": 52,
+   "Hypothesized": 10,
+   "Novel": 3
+  },
+  "justification": "Two large human sequencing studies report their own variant-level findings implicating PHF12: Coe et al. (PMID 30559488) identified PHF12 among genes with an excess of de novo mutations across 10,927 developmental delay/autism probands, and Wang et al. (PMID 33004838) found 6 ultra-rare LGD mutations in 16,321 NDD cases plus de novo enrichment reaching family-wise error significance, with PHF12 listed among genes newly attaining FWER significance. These are human, variant-based data, but the cohorts are mixed neurodevelopmental (DD/ID/ASD) rather than ASD-specific, and the two datasets partially overlap, limiting true independent replication for the autism phenotype specifically. Supporting but non-decisive mentions include PHF12 being cited as a high-confidence autism gene in the ASD-megalencephaly network analysis (PMID 39887636) and ASD gene lists (PMID 42401939); CNV-based reports at 17q11.2 (PMIDs 27247625, 38850022, 37686052) span many genes and cannot isolate PHF12. Therefore Existing is most probable, with substantial residual probability for Established.",
+  "pmids": [],
+  "detail": {
+   "Established": 35,
+   "Existing": 52,
+   "Hypothesized": 10,
+   "Novel": 3
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38041506",
+   "title": "Comparison of first-tier whole-exome sequencing with a multi-step traditional approach for diagnosing paediatric outpatients: An Italian prospective study.",
+   "abstract": "BACKGROUND: The recent guidelines suggest the use of genome-wide analyses, such as whole exome sequencing (WES), at the beginning of the diagnostic approach for cases with suspected genetic conditions. However, in many realities it still provides for the execution of a multi-step pathway, thus requiring several genetic tests to end the so-called 'diagnostic odyssey'. METHODS: We reported the results of GENE Project (Genomic analysis Evaluation NEtwork): a multicentre prospective cohort study on 125 paediatric outpatients with a suspected genetic disease in which we performed first-tier trio-WES, including exome-based copy number variation analysis, in parallel to a 'traditional approach' of two/three sequential genetic tests. RESULTS: First-tier trio-WES detected a conclusive diagnosis in 41.6% of patients, way above what was found with routine genetic testing (25%), with a time-to-result of about 50\u2009days. Notably, the study showed that 44% of WES-reached diagnoses would be missed with the traditional approach. The diagnostic rate (DR) of the two approaches varied in relation to the phenotypic class of referral and to the proportion of cases with a defined diagnostic suspect, proving the major difference for neurodevelopmental disorders. Moreover, trio-WES analysis detected variants in candidate genes of unknown significance (EPHA4, DTNA, SYNCRIP, NCOR1, TFDP1, SPRED3, EDA2R, PHF12, PPP1R12A, WDR91, CDC42BPG, CSNK1D, EIF3H, TMEM63B, RIPPLY3) in 19.4% of undiagnosed cases. CONCLUSION: Our findings represent real-practice evidence of how first-tier genome-wide sequencing tests significantly improve the DR for paediatric outpatients with a suspected underlying genetic aetiology, thereby allowing a time-saving setting of the correct management, follow-up and family planning.",
+   "found_by": [],
+   "pubdate": "2024 Jan",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "27247625",
+   "title": "A novel de novo microdeletion at 17q11.2 adjacent to NF1 gene associated with developmental delay, short stature, microcephaly and dysmorphic features.",
+   "abstract": "BACKGROUND: Microdeletions at 17q11.2 often encompass NF1 gene, is the cause for NF1 microdeletion syndrome. Microdeletion at 17q11.2 without the involvement of NF1 gene is rarely reported. CASE PRESENTATION: Here we reported a patient carrying a novel de novo deletion at 17q11.2 adjacent to NF1 gene, who presented with developmental delay, short stature, postnatal microcephaly, underweight and dysmorphic features including flat facial profile, dolicocephaly, hypertelorism, short philtrum, flat nasal bridge and posteriorly rotated and low set ears. Chromosomal microarray analysis revealed a 1.69\u00a0Mb de novo deletion at 17q11.2 adjacent to NF1 gene, which involves 43 RefSeq genes. We compared this with four overlapping deletions at this interval. CONCLUSIONS: A rare de novo microdeletion at 17q11.2 not involving NF1 gene is associated with developmental delay and dysmorphic features. Seven genes, TAOK1, PHF12, NUFIP2, SLC26A4, SEZ6, GIT1 and TRAF4 are possible candidates for the clinical features of our patient. The delineation of this rare deletion and description of associated clinical phenotypes will help to understand the genotype-phenotype correlation of genomic imbalances at this locus.",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "11390640",
+   "title": "Pf1, a novel PHD zinc finger protein that links the TLE corepressor to the mSin3A-histone deacetylase complex.",
+   "abstract": "The mSin3A-histone deacetylase corepressor is a multiprotein complex that is recruited by DNA binding transcriptional repressors. Sin3 has four paired amphipathic alpha helices (PAH1 to -4) that are protein-protein interaction motifs and is the scaffold upon which the complex assembles. We identified a novel mSin3A-interacting protein that has two plant homeodomain (PHD) zinc fingers we term Pf1, for PHD factor one. Pf1 associates with mSin3A in vivo and recruits the mSin3A complex to repress transcription when fused to the DNA binding domain of Gal4. Pf1 interacts with Sin3 through two independent Sin3 interaction domains (SIDs), Pf1SID1 and Pf1SID2. Pf1SID1 binds PAH2, while Pf1SID2 binds PAH1. Pf1SID1 has sequence and structural similarity to the well-characterized 13-amino-acid SID of the Mad bHLHZip repressor. Pf1SID2 does not have sequence similarity with either Mad SID or Pf1SID1 and therefore represents a novel Sin3 binding domain. Mutations in a minimal fragment of Pf1 that encompasses Pf1SID1 inhibited mSin3A binding yet only slightly impaired repression when targeted to DNA, implying that Pf1 might interact with other corepressors. We show that Pf1 interacts with a mammalian homolog of the Drosophila Groucho corepressor, transducin-like enhancer (TLE). Pf1 binds TLE in an mSin3A-independent manner and recruits functional TLE complexes to repress transcription. These findings suggest that Pf1 may serve to bridge two global transcription networks, mSin3A and TLE.",
+   "found_by": [],
+   "pubdate": "2001 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming PHF12] ...NL2 , NEDD4 , NEK1 , NEUROG1 , NF1 , NFKB1 , NIPBL , NKX2-2 , NLGN1 , NLGN3 , NLGN4/NLGN4X , NR2F1 , NR3C2 , NR4A2 , NRG2 , NRXN1 , NRXN3 , NSD1 , NUP155 , OBSCN , OCA2 , P2RX7 , PAPOLG , PAX5 , PBX1 , PDZD4 , PHF12 , PHF2 , PHF21A , PHF3 , PIEZO1 , PIK3R2 , PINX1 , PLXNB1 , POGZ , POLA2 , POLR3G , PPP1R16B , PPP1R9B , PPP2R5D , PPP5C , PRKG2 , PRR12 , PRR14L , PRSS12 , PSMD6 , PSMD11 , PTCHD1/PTCHD1-AS , PTEN , PTK7...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37686052",
+   "title": "Structural Variations Contribute to the Genetic Etiology of Autism Spectrum Disorder and Language Impairments.",
+   "abstract": "Autism spectrum disorder (ASD) is a neurodevelopmental disorder characterized by restrictive interests and/or repetitive behaviors and deficits in social interaction and communication. ASD is a multifactorial disease with a complex polygenic genetic architecture. Its genetic contributing factors are not yet fully understood, especially large structural variations (SVs). In this study, we aimed to assess the contribution of SVs, including copy number variants (CNVs), insertions, deletions, duplications, and mobile element insertions, to ASD and related language impairments in the New Jersey Language and Autism Genetics Study (NJLAGS) cohort. Within the cohort, ~77% of the families contain SVs that followed expected segregation or de novo patterns and passed our filtering criteria. These SVs affected 344 brain-expressed genes and can potentially contribute to the genetic etiology of the disorders. Gene Ontology and protein-protein interaction network analysis suggested several clusters of genes in different functional categories, such as neuronal development and histone modification machinery. Genes and biological processes identified in this study contribute to the understanding of ASD and related neurodevelopment disorders. [full text, passages naming PHF12] ...757 | 90,950,358 | CN3 | FAM27 | | CIB1|GABARAPL3|IQGAP1|NGRN|TTLL13P|ZNF774 | 0.561 | 1.2 | 17 | 27,187,789 | 27,434,490 | CN3 | FAM21 | | DHRS13|ERAL1|FLOT2|LOC101927018|MIR144|MIR451A|MIR451B|MIR4732|MYO18A|PHF12|PIPOX|SEZ6|TIAF1 | 0.725 | 1.6 | 17 | 29,107,588 | 29,262,773 | CN3 | FAM21 | | ADAP2|ATAD5|CRLF3|SUZ12P1|TEFM | 0.529 | 1.2 | 17 | 56,584,205 | 57,229,716 | CN3 | FAM21 | | MIR301A|MIR454|MTMR4|PPM1E|RAD...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39887636",
+   "title": "m&lt;sup&gt;6&lt;/sup&gt;A-mRNA Reader YTHDF2 Identified as a Potential Risk Gene in Autism With Disproportionate Megalencephaly.",
+   "abstract": "Among autistic individuals, a subphenotype of disproportionate megalencephaly (ASD-DM) seen at three years of age is associated with co-occurring intellectual disability and poorer prognoses later in life. However, many of the genes contributing to ASD-DM have yet to be delineated. In this study, we identified additional ASD-DM candidate genes with the aim to better define the genetic etiology of this subphenotype of autism. We expanded the previously studied sample size of ASD-DM individuals ten fold by including probands from the Autism Phenome Project and Simons Simplex Collection, totaling 766 autistic individuals meeting the criteria for megalencephaly or macrocephaly and revealing 154 candidate ASD-DM genes harboring de novo protein-impacting variants. Our findings include 14 high confidence autism genes and seven genes previously associated with DM. Five impacted genes have previously been associated with both autism and DM, including CHD8 and PTEN. By performing functional network analysis, we expanded to additional candidate genes, including one previously implicated in ASD-DM (PIK3CA) as well as 184 additional genes connected with\u00a0ASD or DM alone. Using zebrafish, we modeled a de novo tandem duplication impacting YTHDF2, encoding an N6-methyladenosine (m6A)-mRNA reader, in an ASD-DM proband. Testing zebrafish CRISPR knockdown led to reduced head/brain size, while overexpressing YTHDF2 resulted in increased head/brain size matching that of the proband. Single-cell transcriptomes of YTHDF2 gain-of-function larvae point to reduced expression of Fragile-X-syndrome-associated FMRP-target genes globally and in the developing brain, providing insight into the mechanism underlying autistic phenotypes. We additionally discovered a variant impacting a different gene encoding an m6A reader, YTHDC1, in our ASD-DM cohort. Though we highlight only two cases to date, our study provides support for the m6A-RNA modification pathway as potentially contributing to this severe form of autism. [full text, passages naming PHF12] ...D\u2010DM interactor set, 21 genes are high\u2010confidence autism genes not previously associated with DM ( ANK2 , ASXL3 , CTNNB1 , CUL3 , DLG4 , DYRK1A , GNAI1 , GRIN2B , KCNMA1, KMT2A , NCOA1 , NIPBL , NLGN1, NRXN1 , PHF12 , POGZ , PPP1R9B , SIN3A, SMARCC2 , TBL1XR1 , UBR1 ). Eighteen additional genes from this interactor set have been implicated in DM and as SFARI putative autism candidate genes ( ANK3 , CHD2 , CHD3 , FRMP...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38850022",
+   "title": "Identification of novel driver risk genes in CNV loci associated with neurodevelopmental disorders.",
+   "abstract": "Copy-number variants (CNVs) are genome-wide structural variations involving the duplication or deletion of large nucleotide sequences. While these types of variations can be commonly found in humans, large and rare CNVs are known to contribute to the development of various neurodevelopmental disorders (NDDs), including autism spectrum disorder (ASD). Nevertheless, given that these NDD-risk CNVs cover broad regions of the genome, it is particularly challenging to pinpoint the critical gene(s) responsible for the manifestation of the phenotype. In this study, we performed a meta-analysis of CNV data from 11,614 affected individuals with NDDs and 4,031 control individuals from SFARI database to identify 41 NDD-risk CNV loci, including 24 novel regions. We also found evidence for dosage-sensitive genes within these regions being significantly enriched for known NDD-risk genes and pathways. In addition, a significant proportion of these genes was found to (1) converge in protein-protein interaction networks, (2) be among most expressed genes in the brain across all developmental stages, and (3) be hit by deletions that are significantly over-transmitted to individuals with ASD within multiplex ASD families from the iHART cohort. Finally, we conducted a burden analysis using 4,281 NDD cases from Decipher and iHART cohorts, and 2,504 neurotypical control individuals from 1000 Genomes and iHART, which resulted in the validation of the association of 162 dosage-sensitive genes driving risk for NDDs, including 22 novel NDD-risk genes. Importantly, most NDD-risk CNV loci entail multiple NDD-risk genes in agreement with a polygenic model associated with the majority of NDD cases. [full text, passages naming PHF12] ...PRPF8\u2217+, CLUH\u2217+ | NXN\u2217+, ABR\u2217+, YWHAE\u2217+, PITPNA\u2217+, MNT\u2217+, PAFAH1B1\u2217\u2217+, CRK\u2217+, RTN4RL1\u2217+, METTL16+, RAP1GAP2\u2217+, SMG6\u2217+ N/A | deletion-duplication | 17 | 17q11.2 | | NLK\u2217, GIT1\u2217, SUPT6H\u2217, NF1\u2217\u2217+ | TRAF4\u2217, SSH2\u2217, PHF12\u2217\u2217, NUFIP2\u2217, ATAD5\u2217, RHOT1 , PSMD11\u2217, MYO18A\u2217, TAOK1\u2217\u2217 N/A | deletion-duplication | 17 | 17q12 | | ACACA\u2217+, PIP4K2B\u2217 | AP2B1\u2217, GGNBP2\u2217+, MLLT6\u2217, PCGF2\u2217\u2217, SYNRG\u2217+, SRCIN1\u2217, MED1\u2217, CDK12\u2217, SOCS7\u2217, FBXL20\u2217 N/...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33004838",
+   "title": "Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders.",
+   "abstract": "Most genes associated with neurodevelopmental disorders (NDDs) were identified with an excess of de novo mutations (DNMs) but the significance in case-control mutation burden analysis is unestablished. Here, we sequence 63 genes in 16,294 NDD cases and an additional 62 genes in 6,211 NDD cases. By combining these with published data, we assess a total of 125 genes in over 16,000 NDD cases and compare the mutation burden to nonpsychiatric controls from ExAC. We identify 48 genes (25 newly reported) showing significant burden of ultra-rare (MAF\u2009<\u20090.01%) gene-disruptive mutations (FDR 5%), six of which reach family-wise error rate (FWER) significance (p\u2009<\u20091.25E-06). Among these 125 targeted genes, we also reevaluate DNM excess in 17,426 NDD trios with 6,499 new autism trios. We identify 90 genes enriched for DNMs (FDR 5%; e.g., GABRG2 and UIMC1); of which, 61 reach FWER significance (p\u2009<\u20093.64E-07; e.g., CASZ1). In addition to doubling the number of patients for many NDD risk genes, we present phenotype-genotype correlations for seven risk genes (CTCF, HNRNPU, KCNQ3, ZBTB18, TCF12, SPEN, and LEO1) based on this large-scale targeted sequencing effort. [full text, passages naming PHF12] ...17 (3|16) | 3 | 18 | 4.73E\u221203 | 1.84E\u221202 | LGD | | | NEXMIF* 16,321 | 6 (6|-) | 3 (3|-) | 2 | 3 | 5.71E\u221203 | 1.93E\u221201 | LGD | | | BRPF1* 16,321 | 5 (5|-) | 13 (13|-) | 2 | 27 | 1.65E\u221202 | 2.40E\u221201 | LGD | | | PHF12* 16,321 | 6 (6|-) | 8 (8|-) | 2 | 17 | 5.71E\u221203 | 3.32E\u221201 | LGD | | | SATB2* 16,321 | 5 (5|-) | 4 (4|-) | 1 | 7 | 6.02E\u221203 | 3.26E\u221201 | LGD | | | SPEN* 16,321 | 9 (9|-) | 31 (31|-) | 6 | 57 | 6.25E\u221203 |... ..., DNM count > 1) identifies 61 union genes and 39 intersect genes (Fig. 2 , Supplementary Data 10 ). This includes two genes ( UIMC1 and GABRG2 ) firstly significant at a 5% FDR and seven genes ( ANK2 , TBR1 , PHF12 , TCF7L2 , SETD2 , CASZ1 , and NSD2 ), which were significant at 5% FDR previously, that firstly reach FWER significance in this larger NDD cohort (Table 2 , Supplementary Data 10 ). Table 2 Genes reachin... ...01 | 1.22E\u221204 | dnLGD dnALT | dnLGD | Yes | Yes | No | | TBR1 4 (3|1) | 3 (2|1) | 1 (0|1) | 1.93E\u221207 | 9.30E\u221203 | 2.60E\u221202 | 6.81E\u221207 | 2.01E\u221206 | 6.88E\u221202 | 9.41E\u221205 | dnLGD dnALT | dnLGD | Yes | Yes | No | | PHF12 4 (3|1) | 1 (1|0) | 0 (0|0) | 1.06E\u221207 | 3.02E\u221201 | 1 | 6.08E\u221205 | 4.00E\u221206 | 6.83E\u221201 | 9.15E\u221203 | dnLGD dnALT | dnLGD | Yes | Yes | No | | TCF7L2 4 (3|1) | 5 (3|2) | 3 (3|0) | 7.36E\u221206 | 2.30E\u221203 | 3.70...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30559488",
+   "title": "Neurodevelopmental disease genes implicated by de novo mutation and copy number variation morbidity.",
+   "abstract": "We combined de novo mutation (DNM) data from 10,927 individuals with developmental delay and autism to identify 253 candidate neurodevelopmental disease genes with an excess of missense and/or likely gene-disruptive (LGD) mutations. Of these genes, 124 reach exome-wide significance (P\u2009<\u20095\u2009\u00d7\u200910-7) for DNM. Intersecting these results with copy number variation (CNV) morbidity data shows an enrichment for genomic disorder regions (30/253, likelihood ratio (LR)\u2009+1.85, P\u2009=\u20090.0017). We identify genes with an excess of missense DNMs overlapping deletion syndromes (for example, KIF1A and the 2q37 deletion) as well as duplication syndromes, such as recurrent MAPK3 missense mutations within the chromosome 16p11.2 duplication, recurrent CHD4 missense DNMs in the 12p13 duplication region, and recurrent WDFY4 missense DNMs in the 10q11.23 duplication region. Network analyses of genes showing an excess of DNMs highlights functional networks, including cell-specific enrichments in the D1+\u2009and D2+\u2009spiny neurons of the striatum. [full text, passages naming PHF12] ...KCNS3 \u2020 , KDM5B * \u2020 , KDM6A \u2020 , KDM6B \u2020 , KIAA2022 * \u2020 , KIF11 \u2020 , KMT2A * \u2020 , KMT2C \u2020 , LARP4B \u2020 , LEO1 * \u2020 , MBD5 * \u2020 , MEIS2 * \u2020 , MSL3 * \u2020 , NAA15 * \u2020 , NFE2L3 \u2020 , NONO * \u2020 , NSD1 * \u2020 , ODC1 \u2020 , PDHA1 \u2020 , PHF12 \u2020 , PHF21A \u2020 , PHF3 \u2020 , PHIP \u2020 , POU3F3 \u2020 , PPM1D * \u2020 , PRR12 \u2020 , PTCHD1 \u2020 , QRICH1 * \u2020 , RAI1 \u2020 , RPL26 \u2020 , SET * \u2020 , SETBP1 * \u2020 , SETD2 \u2020 , SETD5 * \u2020 , SHANK3 * \u2020 , SIN3A \u2020 , SKIDA1 \u2020 , SMC1A * \u2020 , SON...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "19028889": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10684790": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27014207": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7650604": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7372708": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34968869": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9528985": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9185776": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1662666": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42382566": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11114029": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39154608": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26725946": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41870204": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32246154": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26460951": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27208285": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11150848": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22802584": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34235983": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3027555": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2906025": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "3309343": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25525164": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25238402": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19165203": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "17526836": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1336179": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1668339": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35513233": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7639786": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11351021": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15388440": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27217590": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15547279": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7204490": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26548780": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2480810": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32759987": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39002525": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38041506": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "27247625": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11390640": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "8148649": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18358021": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "12626672": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "1311769": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37807632": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37686052": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39887636": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38850022": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40498903": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34768579": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39034229": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31220745": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40622660": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40460132": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33338084": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37818613": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34428977": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32269107": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33362469": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31398277": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33841079": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33004838": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37779705": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34469739": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30559488": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "25114109": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 188,
+   "usd": 0.00643,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 9.5,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 101.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 2.0,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "12 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "39 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 3109,
+   "output_tokens": 206,
+   "usd": 0.004139,
+   "calls": 5
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 80.7,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 21628,
+   "output_tokens": 722,
+   "usd": 0.025238,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 14.6,
+   "note": "",
+   "input_tokens": 9429,
+   "output_tokens": 1114,
+   "usd": 0.074995,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>35</established>\n    <existing>52</existing>\n    <hypothesized>10</hypothesized>\n    <novel>3</novel>\n  </probabilities>\n  <justification>Two large human sequencing studies report their own variant-level findings implicating PHF12: Coe et al. (PMID 30559488) identified PHF12 among genes with an excess of de novo mutations across 10,927 developmental delay/autism probands, and Wang et al. (PMID 33004838) found 6 ultra-rare LGD mutations in 16,321 NDD cases plus de novo enrichment reaching family-wise error significance, with PHF12 listed among genes newly attaining FWER significance. These are human, variant-based data, but the cohorts are mixed neurodevelopmental (DD/ID/ASD) rather than ASD-specific, and the two datasets partially overlap, limiting true independent replication for the autism phenotype specifically. Supporting but non-decisive mentions include PHF12 being cited as a high-confidence autism gene in the ASD-megalencephaly network analysis (PMID 39887636) and ASD gene lists (PMID 42401939); CNV-based reports at 17q11.2 (PMIDs 27247625, 38850022, 37686052) span many genes and cannot isolate PHF12. Therefore Existing is most probable, with substantial residual probability for Established.</justification>\n  <pmids>\n    <pmid>30559488</pmid>\n    <pmid>33004838</pmid>\n    <pmid>39887636</pmid>\n    <pmid>42401939</pmid>\n    <pmid>38850022</pmid>\n    <pmid>37686052</pmid>\n    <pmid>27247625</pmid>\n  </pmids>\n</response>"
+}

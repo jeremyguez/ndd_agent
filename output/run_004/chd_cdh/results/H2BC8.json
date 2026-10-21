@@ -1,0 +1,27 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 1,
+    "biological": 2
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Identification of key genes and immune infiltration modulated by CPAP in obstructive sleep apnea by integrated bioinformatics analysis (PMID: 34529670)",
+        "evidence_subtype": "expression",
+        "summary": "In a WGCNA of PBMC transcriptomes (GSE133601) from OSA patients before and after CPAP treatment, H2BC8 fell in the black module, which correlated significantly with CPAP treatment. It was one of eleven hub genes (with TRAV10, RPL10, CD22, DNASE1L3 and others) used in a random forest model predicting CPAP efficacy (AUC 0.92). The hub genes partly correlated with monocyte infiltration, which was associated with OSA remission.",
+        "sample_size": "PBMC transcriptomes from OSA patients before and after CPAP (GEO GSE133601); exact n not stated in abstract",
+        "significance": "Module-trait correlation described as significant (no value given); random forest AUC 0.92"
+      },
+      {
+        "citation": "Elucidating the role of Pyroptosis in papillary thyroid cancer: prognostic, immunological, and therapeutic perspectives (PMID: 38287330)",
+        "evidence_subtype": "pathway",
+        "summary": "H2BC8 was one of nine pyroptosis-related genes (with CXCL8, GJA1, IFI27, PRDM1, PYCARD, SEZ6L2, SIGLEC15 and TRAF6) selected for the PyroScore prognostic model of thyroid cancer-free interval in papillary thyroid cancer (TCGA). The PyroScore was linked to tumor immune microenvironment remodeling and to predicted responses to immunotherapy, chemotherapy, RAI and targeted therapy. Expression of the prognostic genes was validated in six external datasets, 16 cell lines and 20 paired clinical samples.",
+        "sample_size": "TCGA PTC cohort; 6 external datasets, 16 cell lines, 20 paired clinical samples",
+        "significance": "Nomogram outperformed four clinical staging systems (no specific p-value given for H2BC8)"
+      }
+    ]
+  }
+}

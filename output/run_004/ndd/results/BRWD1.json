@@ -1,0 +1,173 @@
+{
+  "articles_found": {
+    "clinical": 13,
+    "model_organism": 5,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Whole-exome sequencing in individuals with obsessive-compulsive disorder and chronic tic disorders identifies 36 large-effect risk genes (PMID: 42680906)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Not specified in the abstract. BRWD1 is reported as a high-confidence risk gene (FDR < 0.1) on the basis of an excess of de novo and rare protein-damaging variants in cases.",
+            "type": "other",
+            "phenotypes": [
+              "obsessive-compulsive disorder",
+              "chronic tic disorders"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Gene-level statistical evidence: excess of de novo and rare protein-damaging variants in cases (FDR < 0.1). BRWD1 also overlaps an OCD GWAS locus. No per-patient variant data are given in the abstract.",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Mouse BRWD1 is critical for spermatid postmeiotic transcription and female meiotic chromosome stability (PMID: 25547156)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Male and female infertility",
+          "Down-regulation of ~300 mostly spermatid-specific transcripts in testis",
+          "Near-complete loss of protamine and transition protein transcripts",
+          "No global epigenetic chromatin changes in testis",
+          "Oocytes: severe chromosome condensation and structural defects",
+          "Oocytes: abnormal telomere structure",
+          "Oocytes: >2-fold overexpression of MLL5 and LINE-1 elements at the germinal vesicle stage",
+          "Failure to complete oogenesis and spermatogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": true,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rescue of deficits by Brwd1 copy number restoration in the Ts65Dn mouse model of Down syndrome (PMID: 36289231)",
+        "organism": "mouse",
+        "knockout_type": "other",
+        "phenotypes": [
+          "Brwd1 upregulated in the brain of trisomic mice",
+          "Selective restoration of Brwd1 to two copies (removal of the extra copy) in Ts65Dn mice rescued hippocampal LTP deficits",
+          "Rescued cognitive deficits",
+          "Rescued gene expression changes",
+          "Rescued aberrant BAF complex localization, chromatin accessibility and gene expression"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRWD1 orchestrates epigenetic landscape of late B lymphopoiesis (PMID: 30250168)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Brwd1-/- small pre-B cells: altered enhancer accessibility, with early development enhancers not closed and late B lymphopoiesis enhancers not opened",
+          "Dysregulation of >7000 genes, with failure to repress proliferative programs and to induce differentiation programs",
+          "Expression of B-cell TFs unaffected",
+          "Transcriptional and enhancer profiles resemble those of human patients with BRWD1 mutations (hypogammaglobulinemia)",
+          "Block in late B-cell development"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRWD1 directs B cell epigenetic states required for germinal center initiation, maintenance and function (PMID: 42864370)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Cd23Cre;Brwd1fl/fl: diminished germinal center B cell responses and class switch recombination after immunization",
+          "AicdaCre;Brwd1fl/fl: increased GC B cell proliferation",
+          "AicdaCre;Brwd1fl/fl: defective affinity maturation and tolerance",
+          "Somatic hypermutation and memory/plasma cell differentiation intact",
+          "Altered transcriptional and epigenetic identities of LZ, DZp and DZd GC states"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Mouse BRWD1 is critical for spermatid postmeiotic transcription and female meiotic chromosome stability (PMID: 25547156)",
+        "evidence_subtype": "function",
+        "summary": "Brwd1 knockout mice show down-regulation of ~300 mostly spermatid-specific transcripts in testis, including near-complete loss of protamine and transition protein transcripts, without global chromatin changes. In oocytes, Brwd1 loss causes chromosome condensation and structural defects, abnormal telomeres, and >2-fold overexpression of MLL5 and LINE-1 elements. BRWD1 is essential for fertility in both sexes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Histone reader BRWD1 targets and restricts recombination to the Igk locus (PMID: 26301565)",
+        "evidence_subtype": "pathway",
+        "summary": "Downregulation of IL-7 receptor signaling in small pre-B cells induces BRWD1 expression. BRWD1 is recruited to the Igk epigenetic landscape set by pre-BCR-dependent Erk activation. It enhances RAG recruitment, gene accessibility and nucleosome positioning 5' of each J\u03ba recombination signal sequence, which targets recombination to Igk.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRWD1 orchestrates epigenetic landscape of late B lymphopoiesis (PMID: 30250168)",
+        "evidence_subtype": "function",
+        "summary": "In small pre-B cells BRWD1 closes early-development enhancers and opens late B-lymphopoiesis enhancers to TF binding. It regulates >7000 genes, repressing proliferative programs and inducing differentiation programs, without regulating the expression of the TFs themselves. Hypogammaglobulinemia patients with BRWD1 mutations show B-cell transcriptional and enhancer profiles similar to those of Brwd1-/- mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRWD1 orchestrates small pre-B cell chromatin topology by converting static to dynamic cohesin (PMID: 37985858)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "BRWD1 converts chromatin-bound static cohesin into dynamic cohesin that can mediate long-range looping. This switches poised to active enhancer-promoter interactions and coordinates Igk locus contraction. ATP depletion showed cohesin conversion to be the main energetic mechanism behind dynamic looping.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Rescue of deficits by Brwd1 copy number restoration in the Ts65Dn mouse model of Down syndrome (PMID: 36289231)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "BRWD1 (HSA21-encoded) is upregulated in Down syndrome iPSC-derived neurons and trisomic mouse brain. It binds the BAF chromatin remodeling complex tightly, and increased Brwd1 causes BAF genomic mistargeting. Restoring Brwd1 to normal copy number in Ts65Dn mice rescued hippocampal LTP, cognition, BAF localization, chromatin accessibility and gene expression.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "BRWD1 establishes epigenetic states for germinal center initiation, maintenance, and function (PMID: 38712068)",
+        "evidence_subtype": "function",
+        "summary": "Brwd1 loss in follicular B cells inhibits GC initiation and class switch recombination. In GC B cells it causes admixing of chromatin accessibility across GC subsets, induction of inflammatory pathways, and defects in proliferation, affinity maturation and tolerance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The dual bromodomain and WD repeat-containing mouse protein BRWD1 is required for normal spermiogenesis and the oocyte-embryo transition (PMID: 18353305)",
+        "evidence_subtype": "function",
+        "summary": "The ENU-induced repro5 mutation, mapped to Brwd1, causes infertility in both sexes. Males show defective spermiogenesis with oligoasthenoteratospermia. Mutant oocytes have maturation defects, with reduced progression to MII and arrest before or at the two-pronuclei stage after IVF. Brwd1 is broadly expressed and is believed to act through the Brg1-dependent SWI/SNF pathway.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Analysis of transcriptional profiles in schizophrenia (Duan et al.)",
+        "evidence_subtype": "expression",
+        "summary": "In LCL expression profiling, BRWD1 was one of eight transcripts differentially expressed by schizophrenia status that survived Bonferroni correction. It is brain-expressed and has a proposed function in neurotransmitter or intercellular communication.",
+        "sample_size": "446 cases, 457 controls",
+        "significance": "Bonferroni-corrected significance (FDR<0.05 overall)"
+      },
+      {
+        "citation": "Excess of rare variants in genes that are key epigenetic regulators of spermatogenesis in the patients with non-obstructive azoospermia (PMID: 25739334)",
+        "evidence_subtype": "GWAS",
+        "summary": "Targeted sequencing found an excess of rare non-silent variants in epigenetic regulators of spermatogenesis, including BRWD1, in non-obstructive azoospermia patients. The burden was 22.5% carrier frequency in patients versus 13.7% in controls.",
+        "sample_size": "757 NOA patients, 709 fertile controls",
+        "significance": "P=5.5\u00d710^-7 (gene set burden); P=1.4\u00d710^-5 (carrier frequency)"
+      },
+      {
+        "citation": "MALAT1 promotes cisplatin resistance in cervical cancer by activating the PI3K/AKT pathway (PMID: 30536307)",
+        "evidence_subtype": "cell_culture",
+        "summary": "MALAT1 overexpression up-regulated BRWD1 mRNA in HeLa and C-33A cervical cancer cells. BRWD1 knockdown increased cisplatin sensitivity by reducing proliferation and promoting apoptosis and cleaved caspase-3. This links BRWD1 to cisplatin resistance via the MALAT1/PI3K-AKT axis.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,704 @@
+{
+ "gene": "MOV10",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autistic spectrum disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic behavior",
+   "autistic features",
+   "infantile autism",
+   "Kanner syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "MGC2948",
+   "FSAP113",
+   "GB110",
+   "Mov10 RNA helicase"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 56,
+  "titlekicksparingfulltext": 19,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 7,
+   "Existing": 60,
+   "Hypothesized": 30,
+   "Novel": 3
+  },
+  "justification": "Human genetic data link MOV10 to ASD but fall short of replicated causal proof: the BARAKA-Qatar WGS study (PMID 37805537) reports a de novo predicted loss-of-function variant in MOV10 (pLI > 0.99) in an ASD proband as a novel candidate gene, the NMD-pathway study (PMID 35327467) identified three damaging SNVs in MOV10 helicase/CH domains in ASD patients, and the cross-disorder gene-prioritization work (PMID 26817790) ranks MOV10 in tier 2 with two de novo pLOF variants across developmental brain disorders including ASD. However, these are candidate-level or aggregate analyses rather than independent clinical confirmations of causation, and the CNV-based overlap study (PMID 24954825) involves a multigene duplication that cannot implicate MOV10 specifically. Strong supporting biology comes from mouse/cell work showing Mov10 regulates neurite outgrowth, dendritic arborization, retroelement suppression, and interacts with FMRP/AGO2 (PMIDs 28662698, 31740951, 27338369), which would alone support only \"Hypothesized.\" Taken together, the limited but credible human variant evidence places this at \"Existing,\" with residual probability on \"Hypothesized.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 7,
+   "Existing": 60,
+   "Hypothesized": 30,
+   "Novel": 3
+  }
+ },
+ "articles": [
+  {
+   "pmid": "28662698",
+   "title": "Mov10 suppresses retroelements and regulates neuronal development and function in the developing brain.",
+   "abstract": "BACKGROUND: Moloney leukemia virus 10 (Mov10) is an RNA helicase that mediates access of the RNA-induced silencing complex to messenger RNAs (mRNAs). Until now, its role as an RNA helicase and as a regulator of retrotransposons has been characterized exclusively in cell lines. We investigated the role of Mov10 in the mouse brain by examining its expression over development and attempting to create a Mov10 knockout mouse. Loss of both Mov10 copies led to early embryonic lethality. RESULTS: Mov10 was significantly elevated in postnatal murine brain, where it bound retroelement RNAs and mRNAs. Mov10 suppressed retroelements in the nucleus by directly inhibiting complementary DNA synthesis, while cytosolic Mov10 regulated cytoskeletal mRNAs to influence neurite outgrowth. We verified this important function by observing reduced dendritic arborization in hippocampal neurons from the Mov10 heterozygote mouse and shortened neurites in the Mov10 knockout Neuro2A cells. Knockdown of Fmrp also resulted in shortened neurites. Mov10, Fmrp, and Ago2 bound a common set of mRNAs in the brain. Reduced Mov10 in murine brain resulted in anxiety and increased activity in a novel environment, supporting its important role in the development of normal brain circuitry. CONCLUSIONS: Mov10 is essential for normal neuronal development and brain function. Mov10 preferentially binds RNAs involved in actin binding, neuronal projection, and cytoskeleton. This is a completely new and critically important function for Mov10 in neuronal development and establishes a precedent for Mov10 being an important candidate in neurological disorders that have underlying cytoarchitectural causes like autism and Alzheimer's disease.",
+   "found_by": [],
+   "pubdate": "2017 Jun 29",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "31740951",
+   "title": "The FMRP-MOV10 complex: a translational regulatory switch modulated by G-Quadruplexes.",
+   "abstract": "The Fragile X Mental Retardation Protein (FMRP) is an RNA binding protein that regulates translation and is required for normal cognition. FMRP upregulates and downregulates the activity of microRNA (miRNA)-mediated silencing in the 3' UTR of a subset of mRNAs through its interaction with RNA helicase Moloney leukemia virus 10 (MOV10). This bi-functional role is modulated through RNA secondary structures known as G-Quadruplexes. We elucidated the mechanism of FMRP's role in suppressing Argonaute (AGO) family members' association with mRNAs by mapping the interacting domains of FMRP, MOV10 and AGO and then showed that the RGG box of FMRP protects a subset of co-bound mRNAs from AGO association. The N-terminus of MOV10 is required for this protection: its over-expression leads to increased levels of the endogenous proteins encoded by this co-bound subset of mRNAs. The N-terminus of MOV10 also leads to increased RGG box-dependent binding to the SC1 RNA G-Quadruplex and is required for outgrowth of neurites. Lastly, we showed that FMRP has a global role in miRNA-mediated translational regulation by recruiting AGO2 to a large subset of RNAs in mouse brain.",
+   "found_by": [],
+   "pubdate": "2020 Jan 24",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25483047",
+   "title": "Trim65: a cofactor for regulation of the microRNA pathway.",
+   "abstract": "MicroRNA (miRNA) comprise a large family of non-protein coding transcripts which regulate gene expression in diverse biological pathways of both plants and animals. We recently used a systematic proteomic approach to generate a protein interactome map of the human miRNA pathway involved in miRNA biogenesis and processing. The interactome expands the number of candidate proteins in the miRNA pathway and connects the network to other cellular processes. Functional analyses identified TRIM65 and at least 3 other proteins as novel regulators of the miRNA pathway. Biochemical studies established that TRIM65 forms stable complexes with TNRC6 proteins and these molecules co-localize in P-body-like structures. Gain of function and RNAi analyses reveal that TRIM65 negatively regulates miRNA-driven suppression of mRNA translation by targeting TNRC6 proteins for ubiquitination and degradation. The potential molecular mechanisms which regulate TRIM65 catalytic activity are discussed.",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "17507929",
+   "title": "MicroRNA silencing through RISC recruitment of eIF6.",
+   "abstract": "MicroRNAs (miRNAs) are a class of small RNAs that act post-transcriptionally to regulate messenger RNA stability and translation. To elucidate how miRNAs mediate their repressive effects, we performed biochemical and functional assays to identify new factors in the miRNA pathway. Here we show that human RISC (RNA-induced silencing complex) associates with a multiprotein complex containing MOV10--which is the homologue of Drosophila translational repressor Armitage--and proteins of the 60S ribosome subunit. Notably, this complex contains the anti-association factor eIF6 (also called ITGB4BP or p27BBP), a ribosome inhibitory protein known to prevent productive assembly of the 80S ribosome. Depletion of eIF6 in human cells specifically abrogates miRNA-mediated regulation of target protein and mRNA levels. Similarly, depletion of eIF6 in Caenorhabditis elegans diminishes lin-4 miRNA-mediated repression of the endogenous LIN-14 and LIN-28 target protein and mRNA levels. These results uncover an evolutionarily conserved function of the ribosome anti-association factor eIF6 in miRNA-mediated post-transcriptional silencing.",
+   "found_by": [],
+   "pubdate": "2007 Jun 14",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "35856394",
+   "title": "Sequestration of LINE-1 in cytosolic aggregates by MOV10 restricts retrotransposition.",
+   "abstract": "LINE-1 (L1) retroelements have retained their ability to mobilize. Mechanisms regulating L1 mobility include DNA methylation in somatic cells and the piRNA pathway in the germline. During preimplantation stages of mouse embryonic development, however, both pathways are inactivated leading to a window necessitating alternate means of L1 regulation. We previously reported an increase in L1 levels in Dicer_KO mouse embryonic stem cells (mESCs), which was accompanied by only a marginal increase in retrotransposition, suggesting additional mechanisms suppressing L1 mobility. Here, we demonstrate that L1 ribonucleoprotein complexes (L1 RNP) accumulate as aggregates in the cytoplasm of Dicer_KO mESCs along with the RNA helicase MOV10. The combined overexpression of L1 ORF1p and MOV10 is sufficient to create L1 RNP aggregates. In Dicer_KO mESCs, MOV10 is upregulated due to the loss of its direct regulation by miRNAs. The newly discovered posttranscriptional regulation of Mov10, and its role in preventing L1 retrotransposition by driving cytosolic aggregation, provides routes to explore for therapy in disease conditions where L1s are upregulated.",
+   "found_by": [],
+   "pubdate": "2022 Sep 5",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "27338369",
+   "title": "RNA Secondary Structure Modulates FMRP's Bi-Functional Role in the MicroRNA Pathway.",
+   "abstract": "MicroRNAs act by post-transcriptionally regulating the gene expression of 30%-60% of mammalian genomes. MicroRNAs are key regulators in all cellular processes, though the mechanism by which the cell activates or represses microRNA-mediated translational regulation is poorly understood. In this review, we discuss the RNA binding protein Fragile X Mental Retardation Protein (FMRP) and its role in microRNA-mediated translational regulation. Historically, FMRP is known to function as a translational suppressor. However, emerging data suggests that FMRP has both an agonistic and antagonistic role in regulating microRNA-mediated translational suppression. This bi-functional role is dependent on FMRP's interaction with the RNA helicase Moloney leukemia virus 10 (MOV10), which modifies the structural landscape of bound mRNA, therefore facilitating or inhibiting its association with the RNA-Induced Silencing Complex.",
+   "found_by": [],
+   "pubdate": "2016 Jun 22",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "22102828",
+   "title": "The ERI-6/7 helicase acts at the first stage of an siRNA amplification pathway that targets recent gene duplications.",
+   "abstract": "Endogenous small interfering RNAs (siRNAs) are a class of naturally occuring regulatory RNAs found in fungi, plants, and animals. Some endogenous siRNAs are required to silence transposons or function in chromosome segregation; however, the specific roles of most endogenous siRNAs are unclear. The helicase gene eri-6/7 was identified in the nematode Caenorhabditis elegans by the enhanced response to exogenous double-stranded RNAs (dsRNAs) of the null mutant. eri-6/7 encodes a helicase homologous to small RNA factors Armitage in Drosophila, SDE3 in Arabidopsis, and Mov10 in humans. Here we show that eri-6/7 mutations cause the loss of 26-nucleotide (nt) endogenous siRNAs derived from genes and pseudogenes in oocytes and embryos, as well as deficiencies in somatic 22-nucleotide secondary siRNAs corresponding to the same loci. About 80 genes are eri-6/7 targets that generate the embryonic endogenous siRNAs that silence the corresponding mRNAs. These 80 genes share extensive nucleotide sequence homology and are poorly conserved, suggesting a role for these endogenous siRNAs in silencing of and thereby directing the fate of recently acquired, duplicated genes. Unlike most endogenous siRNAs in C. elegans, eri-6/7-dependent siRNAs require Dicer. We identify that the eri-6/7-dependent siRNAs have a passenger strand that is \u223c19 nt and is inset by \u223c3-4 nts from both ends of the 26 nt guide siRNA, suggesting non-canonical Dicer processing. Mutations in the Argonaute ERGO-1, which associates with eri-6/7-dependent 26 nt siRNAs, cause passenger strand stabilization, indicating that ERGO-1 is required to separate the siRNA duplex, presumably through endonucleolytic cleavage of the passenger strand. Thus, like several other siRNA-associated Argonautes with a conserved RNaseH motif, ERGO-1 appears to be required for siRNA maturation.",
+   "found_by": [],
+   "pubdate": "2011 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "20140200",
+   "title": "Perturbation of the P-body component Mov10 inhibits HIV-1 infectivity.",
+   "abstract": "Exogenous retroviruses are obligate cellular parasites that co-opt a number of host proteins and functions to enable their replication and spread. Several host factors that restrict HIV and other retroviral infections have also recently been described. Here we demonstrate that Mov10, a protein associated with P-bodies that has a putative RNA-helicase domain, when overexpressed in cells can inhibit the production of infectious retroviruses. Interestingly, reducing the endogenous Mov10 levels in virus-producing cells through siRNA treatment also modestly suppresses HIV infectivity. The actions of Mov10 are not limited to HIV, however, as ectopic expression of Mov10 restricts the production of other lentiviruses as well as the gammaretrovirus, murine leukemia virus. We found that HIV produced in the presence of high levels of Mov10 is restricted at the pre-reverse transcription stage in target cells. Finally, we show that either helicase mutation or truncation of the C-terminal half of Mov10, where a putative RNA-helicase domain is located, maintained most of its HIV inhibition; whereas removing the N-terminal half of Mov10 completely abolished its activity on HIV. Together these results suggest that Mov10 could be required during the lentiviral lifecycle and that its perturbation disrupts generation of infectious viral particles. Because Mov10 is implicated as part of the P-body complex, these findings point to the potential role of cytoplasmic RNA processing machinery in infectious retroviral production.",
+   "found_by": [],
+   "pubdate": "2010 Feb 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "18690212",
+   "title": "Prolyl 4-hydroxylation regulates Argonaute 2 stability.",
+   "abstract": "Human Argonaute (Ago) proteins are essential components of the RNA-induced silencing complexes (RISCs). Argonaute 2 (Ago2) has a P-element-induced wimpy testis (PIWI) domain, which folds like RNase H and is responsible for target RNA cleavage in RNA interference. Proteins such as Dicer, TRBP, MOV10, RHA, RCK/p54 and KIAA1093 associate with Ago proteins and participate in small RNA processing, RISC loading and localization of Ago proteins in the cytoplasmic messenger RNA processing bodies. However, mechanisms that regulate RNA interference remain obscure. Here we report physical interactions between Ago2 and the alpha-(P4H-alpha(I)) and beta-(P4H-beta) subunits of the type I collagen prolyl-4-hydroxylase (C-P4H(I)). Mass spectrometric analysis identified hydroxylation of the endogenous Ago2 at proline 700. In vitro, both Ago2 and Ago4 seem to be more efficiently hydroxylated than Ago1 and Ago3 by recombinant human C-P4H(I). Importantly, human cells depleted of P4H-alpha(I) or P4H-beta by short hairpin RNA and P4H-alpha(I) null mouse embryonic fibroblast cells showed reduced stability of Ago2 and impaired short interfering RNA programmed RISC activity. Furthermore, mutation of proline 700 to alanine also resulted in destabilization of Ago2, thus linking Ago2 P700 and hydroxylation at this residue to its stability regulation. These findings identify hydroxylation as a post-translational modification important for Ago2 stability and effective RNA interference.",
+   "found_by": [],
+   "pubdate": "2008 Sep 18",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "23754279",
+   "title": "The MOV10 helicase inhibits LINE-1 mobility.",
+   "abstract": "LINE-1 (long interspersed element 1) is an autonomous non-long terminal repeat retrotransposon. Its replication often causes mutation and rearrangement of host genomic DNA. Accordingly, host cells have evolved mechanisms to control LINE-1 mobility. Here, we report that a helicase named MOV10 effectively suppresses LINE-1 transposition. Mutating the helicase motifs impairs this function of MOV10, suggesting that MOV10 requires its helicase activity to suppress LINE-1 replication. Further studies show that MOV10 post-transcriptionally diminishes the level of LINE-1 RNA. The association of MOV10 with both LINE-1 RNA and ORF1 suggests that MOV10 interacts with LINE-1 RNP and consequently causes its RNA degradation. These data demonstrate collectively that MOV10 contributes to the cellular control of LINE-1 replication.",
+   "found_by": [],
+   "pubdate": "2013 Jul 19",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "39190491",
+   "title": "FMRP cooperates with miRISC components to repress translation and regulate neurite morphogenesis in Drosophila.",
+   "abstract": "Fragile X Syndrome (FXS) is the most common inherited form of intellectual disability and is caused by mutations in the gene encoding the Fragile X messenger ribonucleoprotein (FMRP). FMRP is an evolutionarily conserved and neuronally enriched RNA-binding protein (RBP) with functions in RNA editing, RNA transport, and protein translation. Specific target RNAs play critical roles in neurodevelopment, including the regulation of neurite morphogenesis, synaptic plasticity, and cognitive function. The different biological functions of FMRP are modulated by its cooperative interaction with distinct sets of neuronal RNA and protein-binding partners. Here, we focus on interactions between FMRP and components of the microRNA (miRNA) pathway. Using the Drosophila S2 cell model system, we show that the Drosophila ortholog of FMRP (dFMRP) can repress translation when directly tethered to a reporter mRNA. This repression requires the activity of AGO1, GW182, and MOV10/Armitage, conserved proteins associated with the miRNA-containing RNA-induced silencing complex (miRISC). Additionally, we find that untagged dFMRP can interact with a short stem-loop sequence in the translational reporter, a prerequisite for repression by exogenous miR-958. Finally, we demonstrate that dFmr1 interacts genetically with GW182 to control neurite morphogenesis. These data suggest that dFMRP may recruit the miRISC to nearby miRNA binding sites and repress translation via its cooperative interactions with evolutionarily conserved components of the miRNA pathway.",
+   "found_by": [],
+   "pubdate": "2024 Jan",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "22105071",
+   "title": "Identification of molecular determinants from Moloney leukemia virus 10 homolog (MOV10) protein for virion packaging and anti-HIV-1 activity.",
+   "abstract": "Discovery of novel antiretroviral mechanism is essential for the design of innovative antiretroviral therapy. Recently, we and others reported that ectopic expression of Moloney leukemia virus 10 (MOV10) protein strongly inhibits retrovirus replication. MOV10, a putative RNA helicase, can be packaged into HIV-1 virions by binding to the nucleocapsid (NC) region of Gag and inhibit viral replication at a postentry step. Here, we report critical determinants for MOV10 virion packaging and antiviral activity. MOV10 has 1,003 amino acids and seven helicase motifs. We found that MOV10 packaging requires the NC basic linker, and Gag binds to the N-terminal amino acids 261-305 region of MOV10. Our predicted MOV10 three-dimensional structure model indicates that the Gag binding region is located in a structurally exposed domain, which spans amino acids 93-305 and is Cys-His-rich. Simultaneous mutation of residues Cys-188, Cys-195, His-199, His-201, and His-202 in this domain significantly compromised MOV10 anti-HIV-1 activity. Notably, although MOV10-Gag interaction is required, it is not sufficient for MOV10 packaging, which also requires its C-terminal all but one of seven helicase motifs. Moreover, we have mapped the minimal MOV10 antiviral region to amino acids 99-949, indicating that nearly all MOV10 residues are required for its antiviral activity. Mutations of residues Cys-947, Pro-948, and Phe-949 at the C terminus of this region completely disrupted MOV10 anti-HIV-1 activity. Taken together, we have identified two critical MOV10 packaging determinants and eight other critical residues for anti-HIV-1 activity. These results provide a molecular basis for further understanding the MOV10 antiretroviral mechanism.",
+   "found_by": [],
+   "pubdate": "2012 Jan 6",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42808732",
+   "title": "MOV10 inhibits SADS-CoV replication by enhancing TRIM24-mediated K63-linked TRAF3 ubiquitination, and this inhibition is antagonized by viral N protein.",
+   "abstract": "UNLABELLED: The global outbreak of SARS-CoV-2 has resulted in a renewed focus on coronaviruses with the potential for cross-species transmission and mutation risks. In particular, swine acute diarrhea syndrome coronavirus (SADS-CoV), potentially originating from the intermediate horseshoe bat (Rhinolophus affinis), is a novel coronavirus that causes acute diarrhea, vomiting, and high mortality in suckling piglets. Innate immunity plays a crucial role in defending the host against invading pathogens. Previous studies have identified several host factors that inhibit SADS-CoV replication through innate immunity; however, research on SADS-CoV remains insufficient compared to that on other coronaviruses. This study demonstrates that Moloney leukemia virus 10 protein (MOV10) exerts anti-SADS-CoV activity via its N-terminal domain in a helicase activity-independent manner. Mechanistic analysis reveals that MOV10 induces translocation of tripartite motif-containing 24 (TRIM24) from the nucleus to the cytoplasm. The cytoplasmically localized TRIM24 binds to MOV10 and TNF receptor-associated factor 3 (TRAF3) to form a ternary complex. Functional studies demonstrate that MOV10 strengthens the interaction between TRIM24 and TRAF3 in a dose-dependent manner and facilitates TRIM24-mediated K63-linked ubiquitination of TRAF3, thereby activating interferon immune responses. Furthermore, we identify the strategies by which SADS-CoV evades innate immunity. The viral N protein inhibits the antiviral effect of MOV10 by disrupting the interaction between MOV10 and TRAF3 and by promoting K48-linked polyubiquitination of TRAF3, leading to TRAF3 degradation via the ubiquitin-proteasome pathway. Collectively, our findings reveal the role of MOV10 in antiviral immunity and how SADS-CoV evades host immune defense. IMPORTANCE: Moloney leukemia virus 10 protein (MOV10), a DExD-box RNA helicase, is a known component of cytoplasmic RNA processing centers known as P bodies. As an interferon-stimulated gene (ISG), MOV10 exhibits broad-spectrum antiviral activity against multiple viruses, including SARS-CoV-2, HIV, HSV-1, IAV, and PRRSV. Here, we identify a novel helicase-independent antiviral mechanism of MOV10 against SADS-CoV. In this study, we show that MOV10 bridges TRIM24 and TRAF3 and facilitates K63-linked ubiquitination of TRAF3 independent of its helicase activity. This process strongly amplifies downstream interferon antiviral responses and suppresses viral replication. Furthermore, the SADS-CoV N protein efficiently antagonizes MOV10-mediated immune defense by disrupting the MOV10-TRAF3 interaction and inducing K48-linked ubiquitination and proteasomal degradation of TRAF3. Collectively, this study establishes a previously uncharacterized MOV10-TRIM24-TRAF3 antiviral regulatory axis, which offers new mechanistic insights into how coronaviruses evade host immune defenses.",
+   "found_by": [],
+   "pubdate": "2026 Oct 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "23785196",
+   "title": "UPF1 is crucial for the infectivity of human immunodeficiency virus type 1 progeny virions.",
+   "abstract": "The SF1 helicase MOV10 is an antiviral factor that is incorporated into human immunodeficiency virus type 1 (HIV-1) virions. We now report that HIV-1 virions also incorporate UPF1, which belongs to the same SF1 helicase subfamily as MOV10 and functions in the nonsense-mediated decay (NMD) pathway. Unlike ectopic MOV10, the overexpression of UPF1 does not impair the infectivity of HIV-1 progeny virions. However, UPF1 becomes a potent inhibitor of HIV-1 progeny virion infectivity when residues required for its helicase activity are mutated. In contrast, equivalent mutations abolish the antiviral activity of MOV10. Importantly, cells depleted of endogenous UPF1, but not of another NMD core component, produce HIV-1 virions of substantially lower specific infectivity. The defect is at the level of reverse transcription, the same stage of the HIV-1 life cycle inhibited by ectopic MOV10. Thus, whereas ectopic MOV10 restricts HIV-1 replication, the related UPF1 helicase functions as a cofactor at an early postentry step.",
+   "found_by": [],
+   "pubdate": "2013 Aug",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "35327467",
+   "title": "Gene Variants Involved in Nonsense-Mediated mRNA Decay Suggest a Role in Autism Spectrum Disorder.",
+   "abstract": "Autism Spectrum Disorder (ASD) is a heterogeneous neurodevelopmental condition with unclear etiology. Many genes have been associated with ASD risk, but the underlying mechanisms are still poorly understood. An important post-transcriptional regulatory mechanism that plays an essential role during neurodevelopment, the Nonsense-Mediated mRNA Decay (NMD) pathway, may contribute to ASD risk. In this study, we gathered a list of 46 NMD factors and regulators and investigated the role of genetic variants in these genes in ASD. By conducting a comprehensive search for Single Nucleotide Variants (SNVs) in NMD genes using Whole Exome Sequencing data from 1828 ASD patients, we identified 270 SNVs predicted to be damaging in 28.7% of the population. We also analyzed Copy Number Variants (CNVs) from two cohorts of ASD patients (N = 3570) and discovered 38 CNVs in 1% of cases. Importantly, we discovered 136 genetic variants (125 SNVs and 11 CNVs) in 258 ASD patients that were located within protein domains required for NMD. These gene variants are classified as damaging using in silico prediction tools, and therefore may interfere with proper NMD function in ASD. The discovery of NMD genes as candidates for ASD in large patient genomic datasets provides evidence supporting the involvement of the NMD pathway in ASD pathophysiology. [full text, passages naming MOV10] ...ned genes with pLI \u2264 0.5, and some of these genes are extremely intolerant to LoF (pLI > 0.9) and missense variants (mis_Z > 3.09) [ 39 , 40 ]. For some genes, namely, DCP1A , DCP2 , DIS3L , DIS3L2 , EXOSC10 , MOV10 , PARN , PPP2R1A , PPP2CA and XRN1 , we were not able to identify the SNVs that could influence NMD function because the protein domains necessary for NMD are not described. 3.2.1. EJC Components and Regu... .... We also found eight LoF variants in these genes: 3 nonsense ( DIS3L2 , EXOSC10 and PARN ), 3 frameshift ( EXOSC10 , DIS3L2 and XRN1 ) and 2 splicing ( PARN , EXOSC10 ). Moreover, we identified 13 SNVs within MOV10 , PPP2R1A , PPP2CA , DCP1A and DCP2 genes in 41 ASD patients, of which two were located on HEAT and PP2A subunit C binding domains ( PPP2R1A ) and three were located on CH and helicase domains ( MOV10 ).... ...s within MOV10 , PPP2R1A , PPP2CA , DCP1A and DCP2 genes in 41 ASD patients, of which two were located on HEAT and PP2A subunit C binding domains ( PPP2R1A ) and three were located on CH and helicase domains ( MOV10 ). Although these genes are involved in the degradation of NMD targets [ 74 ], the required domains to exert their function in NMD are not defined. 3.2.4. NMD Regulators This group includes the genes enco...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37805537",
+   "title": "Genomic architecture of autism spectrum disorder in Qatar: The BARAKA-Qatar Study.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition characterized by impaired social and communication skills, restricted interests, and repetitive behaviors. The prevalence of ASD among children in Qatar was recently estimated to be 1.1%, though the genetic architecture underlying ASD both in Qatar and the greater Middle East has been largely unexplored. Here, we describe the first genomic data release from the BARAKA-Qatar Study-a nationwide program building a broadly consented biorepository of individuals with ASD and their families available for sample and data sharing and multi-omics research. METHODS: In this first release, we present a comprehensive analysis of whole-genome sequencing (WGS) data of the first 100 families (372 individuals), investigating the genetic architecture, including single-nucleotide variants (SNVs), copy number variants (CNVs), tandem repeat expansions (TREs), as well as mitochondrial DNA variants (mtDNA) segregating with ASD in local families. RESULTS: Overall, we identify potentially pathogenic variants in known genes or regions in 27 out of 100 families (27%), of which 11 variants (40.7%) were classified as pathogenic or likely-pathogenic based on American College of Medical Genetics (ACMG) guidelines. Dominant variants, including de novo and inherited, contributed to 15 (55.6%) of these families, consisting of SNVs/indels (66.7%), CNVs (13.3%), TREs (13.3%), and mtDNA variants (6.7%). Moreover, homozygous variants were found in 7 families (25.9%), with a sixfold increase in homozygous burden in consanguineous versus non-consanguineous families (13.6% and 1.8%, respectively). Furthermore, 28 novel ASD candidate genes were identified in 20 families, 23 of which had recurrent hits in MSSNG and SSC cohorts. CONCLUSIONS: This study illustrates the value of ASD studies in under-represented populations and the importance of WGS as a comprehensive tool for establishing a molecular diagnosis for families with ASD. Moreover, it uncovers a significant role for recessive variation in ASD architecture in consanguineous settings and provides a unique resource of Middle Eastern genomes for future research to the global ASD community. [full text, passages naming MOV10] ...searched genome-wide for damaging DN and homozygous variants (LoF, Dmiss) in novel candidate genes that could explain ASD in the remaining families. For DN variants, we found 17 in as many genes ( CHD9, STAB2, MOV10, HDAC7, DNAJC10, SYNE3, COPS5, B4GALT1, DCAF17, FCHO2, INCENP, ING5, PTOV1, PRRC2C, TLN1, RRN3, and STRIP2) in 14 families. Four were predicted LoF, all in genes, with pLI > 0.99 ( MOV10, HDAC7, TLN1, and... ...y genes ( CHD9, STAB2, MOV10, HDAC7, DNAJC10, SYNE3, COPS5, B4GALT1, DCAF17, FCHO2, INCENP, ING5, PTOV1, PRRC2C, TLN1, RRN3, and STRIP2) in 14 families. Four were predicted LoF, all in genes, with pLI > 0.99 ( MOV10, HDAC7, TLN1, and CHD9) and 13 were Dmiss variants. Three families had two damaging DN variants in two different genes each. All damaging DN variants in novel genes had additional carriers from ASD cohort...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "28948974",
+   "title": "A Upf3b-mutant mouse model with behavioral and neurogenesis defects.",
+   "abstract": "Nonsense-mediated RNA decay (NMD) is a highly conserved and selective RNA degradation pathway that acts on RNAs terminating their reading frames in specific contexts. NMD is regulated in a tissue-specific and developmentally controlled manner, raising the possibility that it influences developmental events. Indeed, loss or depletion of NMD factors have been shown to disrupt developmental events in organisms spanning the phylogenetic scale. In humans, mutations in the NMD factor gene, UPF3B, cause intellectual disability (ID) and are strongly associated with autism spectrum disorder (ASD), attention deficit hyperactivity disorder (ADHD) and schizophrenia (SCZ). Here, we report the generation and characterization of mice harboring a null Upf3b allele. These Upf3b-null mice exhibit deficits in fear-conditioned learning, but not spatial learning. Upf3b-null mice also have a profound defect in prepulse inhibition (PPI), a measure of sensorimotor gating commonly deficient in individuals with SCZ and other brain disorders. Consistent with both their PPI and learning defects, cortical pyramidal neurons from Upf3b-null mice display deficient dendritic spine maturation in vivo. In addition, neural stem cells from Upf3b-null mice have impaired ability to undergo differentiation and require prolonged culture to give rise to functional neurons with electrical activity. RNA sequencing (RNAseq) analysis of the frontal cortex identified UPF3B-regulated RNAs, including direct NMD target transcripts encoding proteins with known functions in neural differentiation, maturation and disease. We suggest Upf3b-null mice serve as a novel model system to decipher cellular and molecular defects underlying ID and neurodevelopmental disorders. [full text, passages naming MOV10] ...uman embryonic stem cells (upregulated in response to depletion of UPF1 and identified 10 genes in common with those upregulated in 54 Upf3b -null mouse frontal cortex ( AGO4, CDH24, ERCC8, FBN2, HIVEP3, RMST, MOV10, PVT1, TNC , and WDR83 ). Given that different types of cells were compared, we regard this as an underestimate of conserved NMD targets. As described in the Introduction, the most reliable feature that t... ...human neural diseases. For example, many UPF3B KO-upregulated candidate NMD target mRNAs that we identified in Upf3b -null cerebral cortex correspond to recently defined SCZ disease risk genes ( DSCAM, HIVEP3, MOV10, NIN, SPEN, AKR1C2, ARL5C, CD59, and VWA5B1 ) . Among these disease risk genes is 103 DSCAM , which encodes Down syndrome cell adhesion molecule, a transmembrane protein that is highly expressed in the de... ...Yes | | Cdh24 No | No | Yes | | Col18a1 No | Yes | No | | Dscam No | Yes | Yes | | Dscaml1 Yes | Yes | Yes | | Fbn2 No | Yes | No | | Hivep3 No | Yes | Yes | | Itga8 Yes | Yes | No | | Kcnh4 Yes | No | Yes | | Mov10 No | No | Yes | | Nin No | No | Yes | | Pcdh15 Yes | Yes | Yes | | Ptch1 Yes | Yes | Yes | | Sdk2 No | Yes | No | | Sem4g Yes | Yes | Yes | | Spen No | Yes | Yes | | Tnc No | No | Yes | | Vwa5b1 Yes | Yes...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "24954825",
+   "title": "Biological overlap of attention-deficit/hyperactivity disorder and autism spectrum disorder: evidence from copy number variants.",
+   "abstract": "OBJECTIVE: Attention-deficit/hyperactivity disorder (ADHD) and autism spectrum disorder (ASD) often co-occur and share genetic risks. The aim of this analysis was to determine more broadly whether ADHD and ASD share biological underpinnings. METHOD: We compared copy number variant (CNV) data from 727 children with ADHD and 5,081 population controls to data from 996 individuals with ASD and an independent set of 1,287 controls. Using pathway analyses, we investigated whether CNVs observed in individuals with ADHD have an impact on genes in the same biological pathways as on those observed in individuals with ASD. RESULTS: The results suggest that the biological pathways affected by CNVs in ADHD overlap with those affected by CNVs in ASD more than would be expected by chance. Moreover, this was true even when specific CNV regions common to both disorders were excluded from the analysis. After correction for multiple testing, genes involved in 3 biological processes (nicotinic acetylcholine receptor signalling pathway, cell division, and response to drug) showed significant enrichment for case CNV hits in the combined ADHD and ASD sample. CONCLUSION: The results of this study indicate the presence of significant overlap of shared biological processes disrupted by large rare CNVs in children with these 2 neurodevelopmental conditions. [full text, passages naming MOV10] ...DAB1, | ASD | 1 | 112992330 | 113553163 | Dup | Inherited | No | No | GO:6461, GO:42493, GO:9154, GO:9205, GO:6195, GO:9143, GO:9144, GO:9261, GO:9199, GO:9166, GO:9141, GO:51301, PAN-PW:16, | RHOC, | CAPZA1, MOV10, RHOC, PPM1J, FAM19A3, LOC128322, SLC16A1, LRIG2, | ASD | 1 | 144099494 | 144627859 | Del | Inherited | No | No | GO:42493, MGI:5620, GO:48285, GO:5794, | TXNIP, PDZK1, | HFE2, TXNIP, POLR3GL, ANKRD34A, L...",
+   "found_by": [],
+   "pubdate": "2014",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "28191889",
+   "title": "Targeted sequencing identifies 91 neurodevelopmental-disorder risk genes with autism and developmental-disability biases.",
+   "abstract": "Gene-disruptive mutations contribute to the biology of neurodevelopmental disorders (NDDs), but most of the related pathogenic genes are not known. We sequenced 208 candidate genes from >11,730 cases and >2,867 controls. We identified 91 genes, including 38 new NDD genes, with an excess of de novo mutations or private disruptive mutations in 5.7% of cases. Drosophila functional assays revealed a subset with increased involvement in NDDs. We identified 25 genes showing a bias for autism versus intellectual disability and highlighted a network associated with high-functioning autism (full-scale IQ >100). Clinical follow-up for NAA15, KMT5B, and ASH1L highlighted new syndromic and nonsyndromic forms of disease. [full text, passages naming MOV10] ...he single-gene level to detect specific genes, several showed an elevated number of maternal transmissions (\u22653:1 ratio; i.e., AHNAK , DSCAM , NRXN1 , NISCH , UIMC1 , PLXNB1 , PROX2 , CHD1 , TNRC18 , PTK7 , and MOV10 ; Supplementary Fig. 7 ). We also estimated the burden of private LGD and MIS30 variants at the single-gene level regardless of inheritance status by comparison with controls from the ExAC database where...",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "26817790",
+   "title": "A Cross-Disorder Method to Identify Novel Candidate Genes for Developmental Brain Disorders.",
+   "abstract": "IMPORTANCE: Developmental brain disorders are a group of clinically and genetically heterogeneous disorders characterized by high heritability. Specific highly penetrant genetic causes can often be shared by a subset of individuals with different phenotypic features, and recent advances in genome sequencing have allowed the rapid and cost-effective identification of many of these pathogenic variants. OBJECTIVES: To identify novel candidate genes for developmental brain disorders and provide additional evidence of previously implicated genes. DATA SOURCES: The PubMed database was searched for studies published from March 28, 2003, through May 7, 2015, with large cohorts of individuals with developmental brain disorders. DATA EXTRACTION AND SYNTHESIS: A tiered, multilevel data-integration approach was used, which intersects (1) whole-genome data from structural and sequence pathogenic loss-of-function (pLOF) variants, (2) phenotype data from 6 apparently distinct disorders (intellectual disability, autism, attention-deficit/hyperactivity disorder, schizophrenia, bipolar disorder, and epilepsy), and (3) additional data from large-scale studies, smaller cohorts, and case reports focusing on specific candidate genes. All candidate genes were ranked into 4 tiers based on the strength of evidence as follows: tier 1, genes with 3 or more de novo pathogenic loss-of-function variants; tier 2, genes with 2 de novo pathogenic loss-of-function variants; tier 3, genes with 1 de novo pathogenic loss-of-function variant; and tier 4, genes with only inherited (or unknown inheritance) pathogenic loss-of-function variants. MAIN OUTCOMES AND MEASURES: Development of a comprehensive knowledge base of candidate genes related to developmental brain disorders. Genes were prioritized based on the inheritance pattern and total number of pathogenic loss-of-function variants identified amongst unrelated individuals with any one of six developmental brain disorders. STUDY SELECTION: A combination of phenotype-based and genotype-based literature review yielded 384 studies that used whole-genome or exome sequencing, chromosomal microarray analysis, and/or targeted sequencing to evaluate 1960 individuals with developmental brain disorders. RESULTS: Our initial phenotype-based literature review yielded 1911 individuals with pLOF variants involving 1034 genes from 118 studies. Filtering our results to genes with 2 or more pLOF variants identified in at least 2 unrelated individuals resulted in 241 genes from 1110 individuals. Of the 241 genes involved in brain disorders, 7 were novel high-confidence genes and 10 were novel putative candidate genes. Fifty-nine genes were ranked in tier 1, 44 in tier 2, 68 in tier 3, and 70 in tier 4. By transcending clinical diagnostic boundaries, the evidence level for 18 additional genes that were ranked 1 tier higher because of this cross-disorder approach was increased. CONCLUSIONS AND RELEVANCE: This approach increased the yield of gene discovery over what would be obtained if each disorder, type of genomic variant, and study design were analyzed independently. These results provide further support for shared genomic causes among apparently different disorders and demonstrate the clinical and genetic heterogeneity of developmental brain disorders. [full text, passages naming MOV10] ...[HGNC 15225]) came from individuals with different disorders with different types of genomic variants (structural and sequence) reported by different studies, whereas 10 additional genes ( HIVEP3 [HGNC 13561], MOV10 [HGNC 7200], NEDD9 [ HGNC 7733], RALGAPB [HGNC 29221], YTHDC1 [HGNC 30626], CCDC91 [HGNC 24855], EDA2R [HGNC 17756], MSRA [HGNC 7377], ARHGEF38 [HGNC 25968],and EYS [HGNC 21555]) were identified by the cr... ...UBE3A , WDR45 , ZMYND11 b Tier 2 | 2 | 44 | | CBL , CSMD1 , b CTNNA3 , CUL3 , DDX3X , DIP2A , DLG2 , b , ELAVL2 FHIT , GATAD2B , HIST1H1E , HIVEP3 , ITSN1 KATNAL2 , KDM5C , b KDM6B , KMT2C , LAMA2 , LRP2 , b , MOV10 MYH10 , , NBEA NCKAP1 , , NEDD9 NFIA , PHF2 , , PHF21A , RALGAPB RIMS1 , SETD2 , b SLC6A8 , b SMC1A , SPAST , TAF13 , TBR1 , TCF7L2 , TNRC6B , TRIO , b , TTN UPF3B , b , WAC WDFY3 , , YTHDC1 ZWILCH Tier 3... ...D | ASD | ADHD | SCZ | BD | EP | De Novo | Inherited | NA | WGS | WES | CMA | | ELAVL2 2 | 0 | 1 | 0 | 0 | 1 | 0 | 2 | 0 | 0 | 0 | 1 | 1 | 2 | | HIVEP3 2 | 0 | 1 | 0 | 1 | 0 | 0 | 2 | 0 | 0 | 0 | 2 | 0 | 2 | | MOV10 2 | 1 | 1 | 0 | 1 | 0 | 0 | 2 | 0 | 0 | 0 | 2 | 0 | 2 | | NEDD9 2 | 1 | 1 | 0 | 0 | 0 | 1 | 2 | 0 | 0 | 0 | 2 | 0 | 2 | | RALGAPB 2 | 0 | 1 | 0 | 0 | 0 | 1 | 2 | 0 | 0 | 0 | 2 | 0 | 2 | | YTHDC1 2 | 0 | 1...",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35709984": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35413094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1569946": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30809099": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27993717": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25249183": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2579397": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30770900": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24817005": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34480478": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34031419": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1569945": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25724627": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28575488": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34517762": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "6281733": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11296239": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31722967": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24338417": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28662698": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31740951": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25483047": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17507929": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35856394": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27338369": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22102828": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20140200": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "6834466": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18690212": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23754279": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39190491": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22105071": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42808732": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23785196": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42332800": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "35327467": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37805537": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36768153": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36761165": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42274981": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41111688": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36875672": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28948974": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "24954825": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "32878499": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25803107": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30881383": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38132127": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28191889": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "26817790": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35760976": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29191242": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "27239350": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30618607": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26350240": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25986746": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 190,
+   "usd": 0.00648,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "24 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "23 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 2245,
+   "output_tokens": 116,
+   "usd": 0.002825,
+   "calls": 4
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 64.5,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 23994,
+   "output_tokens": 854,
+   "usd": 0.028264,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.8,
+   "note": "",
+   "input_tokens": 16730,
+   "output_tokens": 975,
+   "usd": 0.108025,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>7</established>\n    <existing>60</existing>\n    <hypothesized>30</hypothesized>\n    <novel>3</novel>\n  </probabilities>\n  <justification>Human genetic data link MOV10 to ASD but fall short of replicated causal proof: the BARAKA-Qatar WGS study (PMID 37805537) reports a de novo predicted loss-of-function variant in MOV10 (pLI > 0.99) in an ASD proband as a novel candidate gene, the NMD-pathway study (PMID 35327467) identified three damaging SNVs in MOV10 helicase/CH domains in ASD patients, and the cross-disorder gene-prioritization work (PMID 26817790) ranks MOV10 in tier 2 with two de novo pLOF variants across developmental brain disorders including ASD. However, these are candidate-level or aggregate analyses rather than independent clinical confirmations of causation, and the CNV-based overlap study (PMID 24954825) involves a multigene duplication that cannot implicate MOV10 specifically. Strong supporting biology comes from mouse/cell work showing Mov10 regulates neurite outgrowth, dendritic arborization, retroelement suppression, and interacts with FMRP/AGO2 (PMIDs 28662698, 31740951, 27338369), which would alone support only \"Hypothesized.\" Taken together, the limited but credible human variant evidence places this at \"Existing,\" with residual probability on \"Hypothesized.\"</justification>\n  <pmids>\n    <pmid>37805537</pmid>\n    <pmid>35327467</pmid>\n    <pmid>26817790</pmid>\n    <pmid>28191889</pmid>\n    <pmid>24954825</pmid>\n    <pmid>28662698</pmid>\n    <pmid>31740951</pmid>\n    <pmid>27338369</pmid>\n    <pmid>28948974</pmid>\n  </pmids>\n</response>"
+}

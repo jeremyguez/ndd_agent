@@ -1,0 +1,145 @@
+{
+  "articles_found": {
+    "clinical": 6,
+    "model_organism": 16,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Loss of hepatic DRP1 exacerbates alcoholic hepatitis by inducing megamitochondria and mitochondrial maladaptation (PMID: 35698731)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Liver-specific Drp1 KO (L-DRP1 KO) mice had increased megamitochondria",
+          "Decreased mitophagy",
+          "Increased liver injury and inflammation, further exacerbated by chronic-plus-binge alcohol feeding",
+          "Attenuated alcohol-induced increases in mitochondrial oxygen consumption, hepatic NAD+, acylcarnitine and ketones, indicating metabolic maladaptation",
+          "Increased cGAS-STING-interferon pathway gene expression regardless of alcohol",
+          "Increased cytosolic mtDNA and mitochondrial dysfunction with alcohol"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mitochondrial division prevents neurodegeneration (PMID: 22732519)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Loss of Drp1 (DNM1L) in postmitotic neurons (cre-loxP) caused increased mitochondrial oxidative damage",
+          "Impaired respiration",
+          "Neurodegeneration",
+          "Accumulation of LC3, SQSTM1/p62 and ubiquitin on division-defective mitochondria, suggesting decreased mitochondrial turnover"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mitochondrial dynamics and quality control regulate proteostasis in neuronal ischemia-reperfusion (PMID: 40016670)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Neuronal mitochondrial proteostasis response to in vitro ischemia-reperfusion (OGD/R) was influenced by fusion and fission machinery, including DNM1L/DRP1 cKO in neurons"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Peroxisomes control mitochondrial dynamics and the mitochondrion-dependent apoptosis pathway (PMID: 31076512)",
+        "organism": "mouse (MEFs)",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "In Pex3- or Pex5-knockout MEFs, mitochondrial fragmentation was dependent on Drp1 (DNM1L)",
+          "Peroxisome deficiency increased cytosolic cytochrome c and caspase activity and enhanced etoposide-induced apoptosis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Drp1 splice variants regulate ovarian cancer mitochondrial dynamics and tumor progression (PMID: 39191946)",
+        "evidence_subtype": "function",
+        "summary": "The Drp1 (DNM1L) splice variant lacking exon 16 localizes to microtubules and associates less with mitochondrial fission sites. This produces fused mitochondrial networks, enhanced respiration, pro-tumorigenic phenotypes, impaired fission in response to apoptotic stimuli, and reduced chemosensitivity. High expression of this variant relative to other transcripts predicts poor outcome in ovarian cancer patients, and variant-specific siRNAs reverse the effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Obesity causes mitochondrial fragmentation and dysfunction in white adipocytes due to RalA activation (PMID: 38286821)",
+        "evidence_subtype": "expression",
+        "summary": "RalA activation in white adipocytes after high-fat diet reverses the inhibitory Ser637 phosphorylation of Drp1, increasing fission and mitochondrial fragmentation. Adipose tissue DNM1L expression correlates positively with obesity and insulin resistance in humans.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Aberrant mitochondrial morphology and function associated with impaired mitophagy and DNM1L-MAPK/ERK signaling in aged LRRK2(R1441G) mice (PMID: 33300446)",
+        "evidence_subtype": "cell_culture",
+        "summary": "DNM1L/Drp1 knockdown in MEFs slowed mitochondrial clearance, so DNM1L is required for mitophagy, and it disrupted the mitochondrial network. FCCP-induced DNM1L-Ser616 and ERK phosphorylation occurred in WT but not LRRK2 R1441G mutant MEFs, despite similar total DNM1L levels, indicating impaired DNM1L activation in the mutant.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ERK1/2-mediated activation of DRP1 regulates mitochondrial dynamics and apoptosis in chondrocytes (PMID: 34767958)",
+        "evidence_subtype": "pathway",
+        "summary": "DRP1 expression is elevated in human OA cartilage and in mouse DMM joints. IL-1\u03b2 induces DRP1 expression and activity through ERK1/2, causing mitochondrial fragmentation and Bax-mediated cytochrome c release with apoptosis. Mdivi-1 or ERK1/2 inhibition blocks these effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Targeting DNM1L/DRP1-FIS1 axis inhibits high-grade glioma progression by impeding mitochondrial respiratory cristae remodeling (PMID: 39350223)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "DNM1L/DRP1 positively regulates FIS1, while MFF competitively inhibits FIS1 interaction. DNM1L/DRP1-FIS1 axis knockdown impaired mitophagy, cristae remodeling and OXPHOS, and reduced proliferation and xenograft growth of glioma cells and stem cells.",
+        "sample_size": "54 resected glioma patients; 7141 mitochondria analyzed by TEM",
+        "significance": null
+      },
+      {
+        "citation": "Cancer-associated SNRPD3 mutation confers resistance to hypoxia, which is attenuated by DRP1 inhibition (PMID: 38241813)",
+        "evidence_subtype": "cell_culture",
+        "summary": "The SNRPD3 G96V spliceosome mutation causes differential splicing of DNM1L mRNA under hypoxia and excessive mitochondrial fragmentation. The DRP1 inhibitor Mdivi-1 restores mitochondrial morphology and attenuates hypoxia resistance.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Loss of hepatic DRP1 exacerbates alcoholic hepatitis by inducing megamitochondria and mitochondrial maladaptation (PMID: 35698731)",
+        "evidence_subtype": "expression",
+        "summary": "Hepatic DRP1 is decreased in human alcoholic hepatitis and in alcohol-fed mice, because alcohol impairs TFEB-mediated induction of DNM1L. Liver-specific DRP1 knockout causes megamitochondria, reduced mitophagy, cytosolic mtDNA and cGAS-STING-interferon activation, with increased liver injury and inflammation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2015 - Missense mutations in the middle domain of DNM1L cause infantile encephalopathy in humans and peroxisomal and mitochondrial defects in Drosophila and humans",
+        "evidence_subtype": "fly_worm",
+        "summary": "Human wild-type DNM1L rescues Drosophila drp1 mutants. The p.G350R and p.A395D middle-domain variants instead produce aggregated mitochondria with trafficking defects in fly neurons, supporting their pathogenicity in patients with encephalopathy.",
+        "sample_size": "2 patients",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - DNM1L-related mitochondrial fission defect presenting as spastic paraparesis and optic atrophy",
+        "evidence_subtype": "other",
+        "summary": "A de novo heterozygous DNM1L p.Thr59Ile variant in the GTPase domain was found in a patient with spastic paraparesis, cerebellar syndrome and optic atrophy. Patient myoblasts showed mega-mitochondria along an elongated mitochondrial network, and muscle biopsy showed mild CI+III and COX defects.",
+        "sample_size": "1 patient",
+        "significance": null
+      },
+      {
+        "citation": "Reversibility and therapeutic feasibility of DNM1L-associated neurodevelopmental disorders (PMID: 41786974)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Expressing DNM1L variants in developing mouse brain caused severe neuronal loss at the early postnatal stage. In a human stem-cell model with chemogenetic control of DNM1L, over 75% of the pathological transcriptional changes were reversible even in differentiated neurons. Targeting mitochondrial biogenesis prevented neurodegeneration.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

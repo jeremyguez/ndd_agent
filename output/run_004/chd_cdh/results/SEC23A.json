@@ -1,0 +1,197 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Lang et al. 2006 - Cranio-lenticulo-sutural dysplasia is caused by a SEC23A mutation leading to abnormal endoplasmic-reticulum-to-Golgi trafficking (PMID: 16980979)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "sec23a morpholino-injected embryos show a phenotype reminiscent of CLSD",
+          "craniofacial/skeletal morphogenesis defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Sarmah et al. 2010 - Secretory COPII coat component Sec23a is essential for craniofacial chondrocyte maturation (PMID: 16980978)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "crusher mutant (sec23a L402X nonsense) with malformed craniofacial skeleton",
+          "kinked pectoral fins",
+          "short body length",
+          "normal development until onset of craniofacial chondrogenesis",
+          "chondrocytes accumulate protein in a distended ER",
+          "severe reduction of cartilage ECM including type II collagen",
+          "sec23b also required for ECM secretion in chondrocytes",
+          "COPI knockdown does not impair craniofacial morphogenesis"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish sec23a mutant lymphangiogenesis study - Localised Collagen2a1 secretion supports lymphatic endothelial cell migration in the zebrafish embryo (PMID: 32839180)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "sec23a mutant LECs leave the cardinal vein but fail to continue migrating",
+          "failed developmental lymphangiogenesis",
+          "Col2a1 (type II collagen) secretion from notochord sheath cells fails in the mutant",
+          "blood vessel/lymphatic vascular defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish CLSD model O-GlcNAcylation study - Dynamic Glycosylation Governs the Vertebrate COPII Protein Trafficking Pathway (PMID: 29161034)",
+        "organism": "zebrafish",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "sec23a loss in the zebrafish CLSD model impairs collagen trafficking and skeletogenesis",
+          "rescue with wild-type SEC23A, but not with SEC23A O-GlcNAc site mutants",
+          "craniofacial/skeletal defects"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functions of the COPII gene paralogs SEC23A and SEC23B are interchangeable in vivo (PMID: 30065114)",
+        "organism": "zebrafish and mouse",
+        "knockout_type": "knock-in",
+        "phenotypes": [
+          "Sec23a coding sequence inserted into the murine Sec23b locus fully rescues the lethal SEC23B-deficient pancreatic phenotype",
+          "a sec23a-expressing transgene rescues the lethality of zebrafish sec23b deficiency"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Saito et al. 2009 - Regulation of endoplasmic reticulum stress response by a BBF2H7-mediated Sec23a pathway is essential for chondrogenesis (PMID: 19767744)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Bbf2h7-/- (upstream regulator of Sec23a) mice show severe chondrodysplasia",
+          "death by suffocation shortly after birth due to an immature chest cavity",
+          "loss of columnar structure in the proliferating zone",
+          "reduced hypertrophic zone",
+          "expanded ER in chondrocytes with aggregated Col2 and COMP",
+          "restored matrix protein secretion when Sec23a was reintroduced"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zebrafish feelgood mutant study - The feelgood mutation in zebrafish dysregulates COPII-dependent secretion of select extracellular matrix proteins in skeletal morphogenesis (PMID: 21729877)",
+        "organism": "zebrafish",
+        "knockout_type": "other",
+        "phenotypes": [
+          "creb3l2 hypomorphic mutant (regulator of sec23a/sec23b/sec24d expression) with malformed head skeleton",
+          "shortened body length",
+          "collagen II and IV backlog in rough ER",
+          "impaired collagen deposition in the ECM"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Lu et al. 2006 - Secretory COPII coat component Sec23a is essential for craniofacial chondrocyte maturation (PMID: 16980978)",
+        "evidence_subtype": "other",
+        "summary": "Zebrafish crusher mutant carries a sec23a nonsense mutation (L402X). Mutant chondrocytes accumulate proteins in a distended ER, with severely reduced cartilage ECM and type II collagen. sec23b is also needed for ECM secretion in chondrocytes. This is a vertebrate model of the human SEC23A-linked cranio-lenticulo-sutural dysplasia.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Functions of the COPII gene paralogs SEC23A and SEC23B are interchangeable in vivo (PMID: 30065114)",
+        "evidence_subtype": "yeast",
+        "summary": "Human SEC23A and SEC23B have indistinguishable interactomes. Both human and murine SEC23A/B complement yeast Sec23. A sec23a transgene rescues sec23b-deficient zebrafish, and Sec23a inserted into the murine Sec23b locus rescues the SEC23B-deficient pancreatic phenotype. SEC23A is the predominant paralog in mouse bone marrow's reciprocal pattern, i.e. SEC23B is dominant in human marrow but not mouse, while the pancreas shows the reverse. Phenotypic differences are therefore attributed to expression shifts.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SEC23A rescues SEC23B-deficient congenital dyserythropoietic anemia type II (PMID: 34818036)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SEC23A expressed from the Sec23b locus rescues the SEC23B-deficient mouse phenotype. Erythroid deletion of all four Sec23 alleles is embryonic lethal with CDAII features. In SEC23B-deficient HUDEP-2 cells, features of CDAII were rescued by increased SEC23A expression, suggesting a therapeutic strategy.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Zhou et al. 2017 - ULK1 phosphorylates Sec23A and mediates autophagy-induced inhibition of ER-to-Golgi traffic (PMID: 28486929)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ULK1 phosphorylates Sec23A at S207, S312 and T405. Phosphorylation reduces Sec23A-Sec31A interaction, causes ERES aggregation and inhibits ER-to-Golgi cargo transport during autophagy induction. S207 phospho-mutants best recapitulate these effects.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Identification of Cysteine Ubiquitylation Sites on the Sec23A Protein of the COPII Complex Required for Vesicle Formation from the ER (PMID: 28553408)",
+        "evidence_subtype": "function",
+        "summary": "Sec23a is mono-ubiquitylated on cysteines 432 and 449 rather than lysines, and this does not drive its degradation. Ubiquitylation appears to modulate Sec23a interaction with the ER membrane and thereby COPII formation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "CREB3L2-mediated expression of Sec23A/Sec24D is involved in hepatic stellate cell activation through ER-Golgi transport (PMID: 28801610)",
+        "evidence_subtype": "expression",
+        "summary": "Sec23A and Sec24D are specifically upregulated during hepatic stellate cell activation, driven by the transcription factor CREB3L2/BBF2H7. Knockdown of these components abrogated HSC activation, so Sec23A-mediated ER-to-Golgi trafficking is required.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Downregulation of Sec23A protein by miRNA-375 in prostate carcinoma (PMID: 21593139)",
+        "evidence_subtype": "expression",
+        "summary": "The SEC23A 3'-UTR is a target of miR-375 and miR-200c, and both downregulate Sec23A in 293T cells. SEC23A mRNA correlates inversely with miR-375 in primary prostate cancer, and Sec23A protein is decreased in tumor tissue and in LNCaP/DU145 cells. Sec23A overexpression reduced growth without inducing apoptosis, while its inhibition stimulated proliferation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Korpal et al. 2011 - Direct targeting of Sec23a by miR-200s influences cancer cell secretome and promotes metastatic colonization (PMID: 21822286)",
+        "evidence_subtype": "cell_culture",
+        "summary": "miR-200s directly target Sec23a in breast cancer cells. This reduces secretion of metastasis-suppressive proteins (Igfbp4, Tinagl1) and promotes metastatic colonization in mouse models.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Conserved exchange of paralog proteins during neuronal differentiation (PMID: 35273078)",
+        "evidence_subtype": "expression",
+        "summary": "A SEC23A-to-SEC23B paralog substitution occurs during neuronal differentiation and is conserved across fish, rodents and humans. RNAi altering the SEC23A/SEC23B ratio is sufficient to influence neuron differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2010 - A novel SEC23A missense mutation causing Cranio-Lenticulo-Sutural Dysplasia is involved in the MAPK signaling pathway",
+        "evidence_subtype": "pathway",
+        "summary": "Patient fibroblasts with SEC23A M702V showed a collagen secretion defect and enlarged ER. They also had decreased MAPK/Erk phosphorylation and cyclin D1, increased AKT phosphorylation, and G0/G1 arrest. Transfection of wild-type fibroblasts with the 702V plasmid reproduced the reduced Erk and cyclin D1.",
+        "sample_size": "1 patient",
+        "significance": "significant (per abstract)"
+      }
+    ]
+  }
+}

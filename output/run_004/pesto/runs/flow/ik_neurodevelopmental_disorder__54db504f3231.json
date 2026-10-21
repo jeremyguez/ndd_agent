@@ -1,0 +1,963 @@
+{
+ "gene": "IK",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "RER",
+   "RED",
+   "IK cytokine"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 121,
+  "titlekicksparingfulltext": 59,
+  "read": 12
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 4,
+   "Existing": 44,
+   "Hypothesized": 20,
+   "Novel": 32
+  },
+  "justification": "Most of the provided articles use \"IK\" as a homonym acronym for the intermediate-conductance Ca2+-activated K+ channel (KCNN4/KCa3.1) and must be dismissed (PMIDs 35715699, 36503451, 39637180, 2002364, 30973325), as must the NDD papers that concern entirely different genes (FBXW7, HUWE1, TMX2, ZNF711/SRCAP, RNU2-2) and never implicate the IK gene. The only item referencing the actual IK gene is a human eQTL-based Mendelian randomization/SMR and colocalization study that listed IK among six druggable genes significantly associated with schizophrenia (PMID 40685484) \u2014 a neurodevelopment-related psychiatric phenotype, but this is expression-level association rather than patient variant evidence, and it is a single, non-replicated statistical study whose focus is FGFR1. No article here reports pathogenic IK variants in independent probands or families, so Established cannot be supported. The balance therefore sits between Existing (one limited human association with a neurodevelopmentally linked disorder) and Novel (if schizophrenia MR evidence is deemed insufficient/incidental), with some weight for Hypothesized given no direct mechanistic brain-biology data for IK is presented.",
+  "pmids": [],
+  "detail": {
+   "Established": 4,
+   "Existing": 44,
+   "Hypothesized": 20,
+   "Novel": 32
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35715699",
+   "title": "Channelopathy of small- and intermediate-conductance Ca(2+)-activated K(+) channels.",
+   "abstract": "Small- and intermediate-conductance Ca2+-activated K+ (KCa2.x/KCa3.1 also called SK/IK) channels are gated exclusively by intracellular Ca2+. The Ca2+ binding protein calmodulin confers sub-micromolar Ca2+ sensitivity to the channel-calmodulin complex. The calmodulin C-lobe is constitutively associated with the proximal C-terminus of the channel. Interactions between calmodulin N-lobe and the channel S4-S5 linker are Ca2+-dependent, which subsequently trigger conformational changes in the channel pore and open the gate. KCNN genes encode four subtypes, including KCNN1 for KCa2.1 (SK1), KCNN2 for KCa2.2 (SK2), KCNN3 for KCa2.3 (SK3), and KCNN4 for KCa3.1 (IK). The three KCa2.x channel subtypes are expressed in the central nervous system and the heart. The KCa3.1 subtype is expressed in the erythrocytes and the lymphocytes, among other peripheral tissues. The impact of dysfunctional KCa2.x/KCa3.1 channels on human health has not been well documented. Human loss-of-function KCa2.2 mutations have been linked with neurodevelopmental disorders. Human gain-of-function mutations that increase the apparent Ca2+ sensitivity of KCa2.3 and KCa3.1 channels have been associated with Zimmermann-Laband syndrome and hereditary xerocytosis, respectively. This review article discusses the physiological significance of KCa2.x/KCa3.1 channels, the pathophysiology of the diseases linked with KCa2.x/KCa3.1 mutations, the structure-function relationship of the mutant KCa2.x/KCa3.1 channels, and potential pharmacological therapeutics for the KCa2.x/KCa3.1 channelopathy.",
+   "found_by": [],
+   "pubdate": "2023 Feb",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "39637180",
+   "title": "Potassium Channels in Genetic Epilepsy: A Functional Perspective.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30973325",
+   "title": "Dual separable feedback systems govern firing rate homeostasis.",
+   "abstract": "Firing rate homeostasis (FRH) stabilizes neural activity. A pervasive and intuitive theory argues that a single variable, calcium, is detected and stabilized through regulatory feedback. A prediction is that ion channel gene mutations with equivalent effects on neuronal excitability should invoke the same homeostatic response. In agreement, we demonstrate robust FRH following either elimination of Kv4/Shal protein or elimination of the Kv4/Shal conductance. However, the underlying homeostatic signaling mechanisms are distinct. Eliminating Shal protein invokes Kr\u00fcppel-dependent rebalancing of ion channel gene expression including enhanced slo, Shab, and Shaker. By contrast, expression of these genes remains unchanged in animals harboring a CRISPR-engineered, Shal pore-blocking mutation where compensation is achieved by enhanced IKDR. These different homeostatic processes have distinct effects on homeostatic synaptic plasticity and animal behavior. We propose that FRH includes mechanisms of proteostatic feedback that act in parallel with activity-driven feedback, with implications for the pathophysiology of human channelopathies.",
+   "found_by": [],
+   "pubdate": "2019 Apr 11",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40685484",
+   "title": "Novel Insights into Schizophrenia Treatment: Comprehensive Analysis Unveiling FGFR1 as a Promising Druggable Gene.",
+   "abstract": "Schizophrenia (SCZ) is a chronic, relapsing mental disorder with a complex and poorly understood etiology. Identifying novel therapeutic targets is essential for advancing treatment options. Druggable genes were sourced from the eQTLGen consortium and integrated with SCZ-related GWAS data. Two-sample Mendelian randomization (MR) and co-localization analyses assessed the likelihood of shared pathogenic variants between the expression quantitative trait loci (eQTL) of these genes and SCZ. Positive results were further validated using Summary-based MR (SMR). Phenome-wide association studies, drug prediction, and molecular docking analyses were also conducted to identify potential therapeutic targets among these genes. SMR analysis revealed six druggable genes significantly associated with SCZ: NMB, IK, FGFR1, SERPING1, EDEM2, and CTSS. Molecular docking studies demonstrated favorable binding energies for PD 173074-FGFR1 (-\u20098.1407\u00a0kcal/mol), WZ-7043-FGFR1 (-\u20097.8027\u00a0kcal/mol), and lenvatinib-FGFR1 (-\u20097.3075\u00a0kcal/mol). Single-cell expression analysis further indicated that FGFR1 is predominantly expressed in mural cells, suggesting its potential role in SCZ pathogenesis. This study identifies six druggable genes as potential therapeutic targets for SCZ, with FGFR1 emerging as a particularly promising candidate. These findings provide valuable insights for SCZ treatment development and position FGFR1 as a viable target for future therapeutic strategies.",
+   "found_by": [],
+   "pubdate": "2025 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "2002364",
+   "title": "A mouse brain homolog of the Drosophila Shab K+ channel with conserved delayed-rectifier properties.",
+   "abstract": "We have cloned and expressed a mouse brain K+ channel that is the homolog of the Drosophila Shab K+ channel. Mouse and Drosophila Shab K+ channels (mShab and fShab, respectively) represent an instance of K+ channels and structurally related species that are both functionally and structurally conserved; most kinetic, voltage-sensitive, and pharmacological properties are similar for the 2 channels. The greatest functional difference between the currents is recovery from inactivation, which is several times slower for mShab than for fShab currents. In addition to conserved structure, the mShab polypeptide has an unusually long nonconserved region at the carboxyl end of the protein. Truncation of 293 residues from the carboxyl end produced no noticeable change in voltage-sensitive, kinetic, or pharmacological properties. Thus, the measured functional properties of mShab are determined by the remaining 564 residues, most of which are conserved. The mShab and fShab channels are naturally occurring structural variants having substitutions in conserved portions that appear relatively neutral with respect to all measured properties except for, possibly, the rate of recovery from inactivation. The mShab current closely resembles a native delayed-rectifier-type potassium current, IK, in hippocampal neurons.",
+   "found_by": [],
+   "pubdate": "1991 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36503451",
+   "title": "K(Ca)-Related Neurological Disorders: Phenotypic Spectrum and Therapeutic Indications.",
+   "abstract": "Although potassium channelopathies have been linked to a wide range of neurological conditions, the underlying pathogenic mechanism is not always clear, and a systematic summary of clinical manifestation is absent. Several neurological disorders have been associated with alterations of calcium-activated potassium channels (KCa channels), such as loss- or gain-of-function mutations, post-transcriptional modification, etc. Here, we outlined the current understanding of the molecular and cellular properties of three subtypes of KCa channels, including big conductance KCa channels (BK), small conductance KCa channels (SK), and the intermediate conductance KCa channels (IK). Next, we comprehensively reviewed the loss- or gain-of-function mutations of each KCa channel and described the corresponding mutation sites in specific diseases to broaden the phenotypic-genotypic spectrum of KCa-related neurological disorders. Moreover, we reviewed the current pharmaceutical strategies targeting KCa channels in KCa-related neurological disorders to provide new directions for drug discovery in anti-seizure medication.",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42746363",
+   "title": "Identification of Novel Co-Occurring &lt;i&gt;ZNF711&lt;/i&gt; and &lt;i&gt;SRCAP&lt;/i&gt; Variants in a Child with Neurodevelopmental Disorders Through Exome Sequencing.",
+   "abstract": "BACKGROUND: Global developmental delay (GDD)/intellectual disability (ID) represent a group of neurodevelopmental disorders (NDDs) with onset in childhood with a global prevalence of 1-3%. The etiology of GDD/ID is complex, with genetic factors accounting for about half of cases. Exome sequencing (ES) has proven to be an effective diagnostic tool for genetically heterogeneous disorders such as GDD/ID. This study aims to identify the genetic etiologies using ES in a Chinese patient with NDD. METHODS: Clinical data were collected through physical examination. Trio-ES was conducted to investigate the potential genetic causes, followed by Sanger sequencing for validation. RESULTS: The proband exhibited facial dysmorphisms, motor and language development delay, ID, autism spectrum disorder, and attention-deficit hyperactivity disorder symptoms. Trio-ES identified a novel maternal inherited hemizygous nonsense variant c.205G>T (p.E69*) in ZNF711, and a novel de novo missense variant c.673C>T (p.R225C) in SRCAP. Both of variants were classified as likely pathogenic. Phenotype dissection revealed ZNF711 dominated neurodevelopmental abnormalities (Intellectual developmental disorder, X-linked 97, XLID97) and SRCAP contributed to multisystemic manifestations (developmental delay, hypotonia, musculoskeletal defects, and behavioral abnormalities, DEHMBA). CONCLUSION: To our knowledge, this study reports the first case of concurrent ZNF711 and SRCAP variants in China, expanding variant spectrum of both genes. It highlights the critical value of ES for detecting multi-gene variants in probands with complex phenotypes.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42432493",
+   "title": "Expanding clinical variability in FBXW7-related neurodevelopmental disorder: a multicenter case series.",
+   "abstract": "BACKGROUND: Heterozygous variants in FBXW7 have recently been recognized as a cause of a rare neurodevelopmental disorder with variable developmental delay, neurological manifestations, and multisystem involvement. The breadth of clinical variability and penetrance remains incompletely defined. CASES PRESENTATION: We report a retrospective multicenter case series of seven previously unreported individuals (five males, two females) with heterozygous FBXW7 variants identified through clinical genetic testing, aged 5-9 years at last evaluation (median 6 years). Six variants occurred de novo and one was inherited. Neurodevelopmental involvement was present in six individuals and was characterized by global developmental delay and language impairment; hypotonia was observed in all seven. Formal intellectual disability was documented in four cases, while one individual showed preserved cognitive functioning with predominant behavioral difficulties. Epileptic seizures occurred in four individuals, whereas three had no history of epilepsy. Brain MRI was available for six individuals and was normal in four, whereas two showed structural anomalies involving the corpus callosum. Extracerebral features were variably reported, most commonly constipation and recurrent respiratory/otolaryngological infections. Comparison with previously reported individuals confirmed the core neurodevelopmental phenotype and further refined the spectrum. CONCLUSIONS: This case series expands the phenotypic spectrum associated with FBXW7-related neurodevelopmental disorder and highlights variable expressivity and incomplete penetrance, including clinically relevant variants presenting with mild or atypical phenotypes. These findings support considering FBXW7 across a broad range of neurodevelopmental presentations and inform genetic counseling.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42782803",
+   "title": "E3 Ubiquitin Ligases in Neurodevelopmental Disorders.",
+   "abstract": "Neurodevelopmental disorders (NDDs) comprise a heterogeneous group of conditions that may present with developmental delay, intellectual disability, language impairment, epilepsy, autism-like features, motor abnormalities, or syndromic manifestations. Ubiquitination is an essential post-translational mechanism that regulates protein stability, localization, trafficking, and signaling. Because E3 ubiquitin ligases determine substrate specificity in this process, abnormalities in E3 ligases or E3-associated complexes can selectively affect proteins required for brain development and neuronal function. This review summarizes genetic and functional evidence linking E3 ubiquitin ligases, E3-complex components, substrate-recognition factors, and related ubiquitination regulators to NDDs. Gene Ontology enrichment analysis and mechanistic studies suggest that these genes converge on several major biological themes, including early neurodevelopment, neuronal migration, synaptic and circuit maturation, proteostasis, metabolism, and intracellular trafficking. However, the strength and translational relevance of the available evidence vary across genes. UBE3A-related Angelman syndrome currently provides the clearest example of mechanism-guided therapeutic development through UBE3A restoration and paternal allele reactivation. In contrast, many non-UBE3A mechanisms remain at the stage of pathway analysis, preclinical modulation, or candidate substrate validation. Future studies should clarify variant-specific functional effects, define direct disease-relevant substrates, and establish reproducible readouts that can support mechanism-based therapeutic development.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42473490",
+   "title": "TMX2-Related Neurodevelopmental Disorder With Bilateral Polymicrogyria and Syndactyly: A Case Report From Morocco.",
+   "abstract": "Thioredoxin-related transmembrane protein 2 (TMX2)-related neurodevelopmental disorder (OMIM #618730) is an exceedingly rare autosomal recessive condition caused by biallelic pathogenic variants in TMX2, a gene encoding an endoplasmic reticulum (ER)-resident oxidoreductase involved in neuronal survival and cortical development. The condition is characterized by severe intellectual disability, microcephaly, spasticity, epilepsy, and cortical malformations, primarily polymicrogyria. We report a 13-month-old Moroccan male infant born to second-cousin consanguineous parents, presenting with severe global developmental delay, profound axial hypotonia, absent head control, and progressive microcephaly (head circumference 41 cm, < -3 standard deviation (SD)). Epilepsy was diagnosed at seven months of age and managed with valproic acid. Clinical examination revealed characteristic dysmorphic features, including microcephaly, a sloping forehead, bilateral strabismus, retrognathism, low-set ears and hairline, and bilateral second-third toe syndactyly - a feature not previously described in association with TMX2-related disorder. Brain MRI demonstrated bilateral frontoparietal polymicrogyria. Electroencephalography showed right hemispheric dysfunction with focal epileptic activity. Whole-exome sequencing identified a homozygous pathogenic missense variant in TMX2 (NM_015959.4:c.614G>A; p.Arg205Gln), classified as pathogenic in ClinVar (VCV000804370), confirming the diagnosis. This case expands the phenotypic spectrum of TMX2-related disorder by documenting bilateral second-third toe syndactyly and highlights the diagnostic value of whole-exome sequencing in consanguineous families presenting with cortical malformations and severe neurodevelopmental delay. Early molecular diagnosis is essential for appropriate genetic counseling and multidisciplinary management.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41975654",
+   "title": "35 Individuals With HUWE1-Related Neurodevelopmental Disorder and Suggested Clinical Evaluations.",
+   "abstract": "HUWE1 (HECT, UBA, and WWE Domain Containing E3 Ubiquitin Protein Ligase1, OMIM 300697), located at Xp11.22, encodes a ubiquitin ligase that is highly conserved across species. Genetic variants in HUWE1 described in multiple independent studies cause X-linked intellectual disability, including in the patients identified by Juberg, Marsidi, and Brooks. This report describes 35 additional cases of individuals with variants in HUWE1 and suggested guidelines for clinical management. Our study includes several female cases, which have not been widely reported previously. Our findings confirm earlier reported clinical features including developmental delay, autism, hypotonia, short stature, and dysmorphic facial features as well as additional multisystemic findings. Intrauterine growth restriction (IUGR) and feeding difficulties were common in the neonatal period. It is notable that nearly all females had de novo variants, and males had de novo or inherited variants from clinically unaffected carrier mothers. Three genetic hotspots were identified in evolutionarily conserved regions of HUWE1 that have clinical impact. This report provides additional characterization of the spectrum of HUWE1-related neurodevelopmental disorder (HNDD).",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41912932",
+   "title": "Biallelic variants in RNU2-2 cause the most prevalent known recessive neurodevelopmental disorder.",
+   "abstract": "We recently showed that mutations in the snRNA genes RNU4-2 and RNU2-2 are prevalent causes of dominant neurodevelopmental disorders (NDDs). Here, by genetic association, we demonstrate the existence of a recessive form of RNU2-2 syndrome. We inferred a log Bayes factor for a recessive model of association of 18.2. Conditional on that model, 17 rare variants had a posterior probability of pathogenicity >0.8. This conservative threshold identified 18 probands and 5 affected siblings, each carrying two alleles in trans at these variants. A relaxed threshold of >0.6 identified a further 13 candidate probands. We identified nine further cases in replication collections. Affected individuals have intellectual disability, global developmental delay and seizures. Recessive RNU2-2 syndrome accounts for ~10% of families with a recessive NDD presently diagnosable by sequencing and affects ~60% as many families as the dominant RNU4-2-related NDD ReNU syndrome. The variants are predicted to destabilize stem loops and binding domains of U2-2 snRNA. Whole-blood RNA sequencing data showed a >90% reduction in the expression of pathogenic U2-2 alleles in biallelic cases and monoallelic carriers, albeit with wild-type compensation in carriers, pointing to a loss-of-expression mechanism.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "24453417": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16968900": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28252613": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40382142": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26452647": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28351993": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40184496": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18948115": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8930976": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33382931": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42069927": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37258497": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37894977": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15946523": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15243300": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24901797": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10463586": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7839945": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35422749": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33893005": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10640318": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35676308": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27079855": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32115516": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32124397": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25274816": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "16446543": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41464203": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9126858": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21660912": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15322692": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39477716": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33245826": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38574210": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31623590": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24606795": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31644163": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40004556": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40308026": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10079511": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11854131": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40934457": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "8105481": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21821768": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30570998": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12445743": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41409310": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15243742": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10945610": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15637125": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33913637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39891996": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41660724": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27473021": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10931811": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36203267": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32298430": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36763906": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28063007": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35715699": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "39637180": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23703525": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42395011": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41248901": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30966861": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26040005": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34162668": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "14973782": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34694367": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35711470": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30778173": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40413757": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41901019": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41714299": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33186543": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35883096": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34363551": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28184409": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23313911": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "12406904": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30973325": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40685484": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28089740": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "16914890": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31208990": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11448722": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34281161": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21951272": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26890139": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "6327157": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "2002364": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32531462": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "14527939": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "16437162": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36503451": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "12557053": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42746363": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42432493": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42782803": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42473490": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41975654": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41912932": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41606215": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42125344": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42604269": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42028696": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42496649": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42633081": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41413819": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41978590": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41918168": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39708122": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42271442": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42181738": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42726852": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41951624": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41286434": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42392841": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42732216": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42293335": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42111496": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.6,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "30 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.3,
+   "note": "",
+   "input_tokens": 5858,
+   "output_tokens": 336,
+   "usd": 0.007538,
+   "calls": 10
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 43.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 3.6,
+   "note": "",
+   "input_tokens": 30686,
+   "output_tokens": 1434,
+   "usd": 0.037856,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 15.6,
+   "note": "",
+   "input_tokens": 7615,
+   "output_tokens": 1141,
+   "usd": 0.0666,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>4</established>\n    <existing>44</existing>\n    <hypothesized>20</hypothesized>\n    <novel>32</novel>\n  </probabilities>\n  <justification>Most of the provided articles use \"IK\" as a homonym acronym for the intermediate-conductance Ca2+-activated K+ channel (KCNN4/KCa3.1) and must be dismissed (PMIDs 35715699, 36503451, 39637180, 2002364, 30973325), as must the NDD papers that concern entirely different genes (FBXW7, HUWE1, TMX2, ZNF711/SRCAP, RNU2-2) and never implicate the IK gene. The only item referencing the actual IK gene is a human eQTL-based Mendelian randomization/SMR and colocalization study that listed IK among six druggable genes significantly associated with schizophrenia (PMID 40685484) \u2014 a neurodevelopment-related psychiatric phenotype, but this is expression-level association rather than patient variant evidence, and it is a single, non-replicated statistical study whose focus is FGFR1. No article here reports pathogenic IK variants in independent probands or families, so Established cannot be supported. The balance therefore sits between Existing (one limited human association with a neurodevelopmentally linked disorder) and Novel (if schizophrenia MR evidence is deemed insufficient/incidental), with some weight for Hypothesized given no direct mechanistic brain-biology data for IK is presented.</justification>\n  <pmids>\n    <pmid>40685484</pmid>\n    <pmid>35715699</pmid>\n    <pmid>36503451</pmid>\n    <pmid>39637180</pmid>\n    <pmid>2002364</pmid>\n    <pmid>30973325</pmid>\n  </pmids>\n</response>"
+}

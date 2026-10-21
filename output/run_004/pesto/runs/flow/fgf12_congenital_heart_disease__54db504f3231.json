@@ -1,0 +1,820 @@
+{
+ "gene": "FGF12",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "congenital heart malformation",
+   "congenital heart anomaly",
+   "congenital cardiac defect",
+   "congenital cardiac anomaly",
+   "congenital cardiovascular malformation",
+   "CHD",
+   "cardiac malformation, congenital",
+   "heart defect, congenital",
+   "congenital anomaly of heart"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "FHF1",
+   "FGF12B",
+   "fibroblast growth factor 12"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 80,
+  "titlekicksparingfulltext": 31,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 2,
+   "Existing": 58,
+   "Hypothesized": 34,
+   "Novel": 6
+  },
+  "justification": "No article reports a single-gene (sequence-level) FGF12 variant causing congenital heart disease; all FGF12 point mutations in this set (p.Arg52His, p.Gly112Ser, p.Glu153Gly) cause epileptic encephalopathy, not CHD. Human CHD evidence is limited to multigenic copy-number variants: an FGF12-containing CNV in classic heterotaxy (PMID 27637763), a CNV near FGF12 in Ebstein anomaly (PMID 29216221), and FGF12 within a large 3q26-29 gain in VSD cases (PMID 26742958), plus an epigenetic DMR association in Down-syndrome CHD (PMID 37803336). Because these CNVs span many genes and cannot isolate FGF12, they support \"Existing\" (credible but non-definitive human association) rather than \"Established.\" Additional support is largely biological/pathway-based (atrial Fgf12 expression, Xenopus modeling of candidate CHD genes), which justifies substantial weight on \"Hypothesized.\"",
+  "pmids": [],
+  "detail": {
+   "Established": 2,
+   "Existing": 58,
+   "Hypothesized": 34,
+   "Novel": 6
+  }
+ },
+ "articles": [
+  {
+   "pmid": "34086756",
+   "title": "Identification of 3'-UTR single nucleotide variants and prediction of select protein imbalance in mesial temporal lobe epilepsy patients.",
+   "abstract": "The genetic influence in epilepsy, characterized by unprovoked and recurrent seizures, is through variants in genes critical to brain development and function. We have carried out variant calling in Mesial Temporal Lobe Epilepsy (MTLE) patients by mapping the RNA-Seq data available at SRA, NCBI, USA onto human genome assembly hg-19. We have identified 1,75,641 SNVs in patient samples. These SNVs are distributed over 14700 genes of which 655 are already known to be associated with epilepsy. Large number of variants occur in the 3'-UTR, which is one of the regions involved in the regulation of protein translation through binding of miRNAs and RNA-binding proteins (RBP). We have focused on studying the structure-function relationship of the 3'-UTR SNVs that are common to at-least 10 of the 35 patient samples. For the first time we find SNVs exclusively in the 3'-UTR of FGF12, FAR1, NAPB, SLC1A3, SLC12A6, GRIN2A, CACNB4 and FBXO28 genes. Structural modelling reveals that the variant 3'-UTR segments possess altered secondary and tertiary structures which could affect mRNA stability and binding of RBPs to form proper ribonucleoprotein (RNP) complexes. Secondly, these SNVs have either created or destroyed miRNA-binding sites, and molecular modeling reveals that, where binding sites are created, the additional miRNAs bind strongly to 3'-UTR of only variant mRNAs. These two factors affect protein production thereby creating an imbalance in the amounts of select proteins in the cell. We suggest that in the absence of missense and nonsense variants, protein-activity imbalances associated with MTLE patients can be caused through 3'-UTR variants in relevant genes by the mechanisms mentioned above. 3'-UTR SNV has already been identified as causative variant in the neurological disorder, Tourette syndrome. Inhibition of these miRNA-mRNA bindings could be a novel way of treating drug-resistant MTLE patients. We also suggest that joint occurrence of these SNVs could serve as markers for MTLE. We find, in the present study, SNV-mediated destruction of miRNA binding site in the 3'-UTR of the gene encoding glutamate receptor subunit, and, interestingly, overexpression of one of this receptor subunit is also associated with Febrile Seizures.",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "21319277",
+   "title": "Fetal genetic risk of isolated cleft lip only versus isolated cleft lip and palate: a subphenotype analysis using two population-based studies of orofacial clefts in Scandinavia.",
+   "abstract": "BACKGROUND: Cleft lip only (CLO) and cleft lip and palate (CLP) are commonly regarded as variants of the same defect and traditionally combined to form the single group of cleft lip with or without cleft palate (CL/P) prior to analysis. However, recent data have suggested that at least a subgroup of isolated CLO may be etiologically distinct from isolated CLP. METHODS: To explore fetal genetic risk of isolated CLO separately from isolated CLP, we performed a sub-phenotype analysis using two population-based studies of clefts in Scandinavia. One hundred and twenty-one isolated CLO, 190 isolated CLP, and 592 control triads were available from Norway(1996\u20132001), and a further 76 isolated CLO and 107 isolated CLP triads were available from Denmark (1991\u20132001). Genotypes for 1315 SNPs in 334 autosomal cleft candidate genes were analyzed using two complementary statistical methods, TRIMM and HAPLIN, to look for genetic associations across the two national samples. RESULTS: Both TRIMM and HAPLIN identified strong associations between FGF12 and isolated CLO in both populations. In addition, only TRIMM identified associations with IRF6 and VCL, and only HAPLIN found an association with CX43. When analyses were repeated on the larger sample of isolated CLP, no significant associations were found with FGF12, IRF6, VCL or CX43. CONCLUSIONS: Despite some inconsistency in the pattern of associations across the two populations, the associations themselves were phenotype-specific. While both IRF6 and FGF12 have previously shown strong associations with isolated CL/P, the associations with VCL and CX43 are novel and warrant further investigation in other isolated CLO samples.",
+   "found_by": [],
+   "pubdate": "2011 Feb",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "19401770",
+   "title": "Genetic determinants of facial clefting: analysis of 357 candidate genes using two national cleft studies from Scandinavia.",
+   "abstract": "BACKGROUND: Facial clefts are common birth defects with a strong genetic component. To identify fetal genetic risk factors for clefting, 1536 SNPs in 357 candidate genes were genotyped in two population-based samples from Scandinavia (Norway: 562 case-parent and 592 control-parent triads; Denmark: 235 case-parent triads). METHODOLOGY/PRINCIPAL FINDINGS: We used two complementary statistical methods, TRIMM and HAPLIN, to look for associations across these two national samples. TRIMM tests for association in each gene by using multi-SNP genotypes from case-parent triads directly without the need to infer haplotypes. HAPLIN on the other hand estimates the full haplotype distribution over a set of SNPs and estimates relative risks associated with each haplotype. For isolated cleft lip with or without cleft palate (I-CL/P), TRIMM and HAPLIN both identified significant associations with IRF6 and ADH1C in both populations, but only HAPLIN found an association with FGF12. For isolated cleft palate (I-CP), TRIMM found associations with ALX3, MKX, and PDGFC in both populations, but only the association with PDGFC was identified by HAPLIN. In addition, HAPLIN identified an association with ETV5 that was not detected by TRIMM. CONCLUSION/SIGNIFICANCE: Strong associations with seven genes were replicated in the Scandinavian samples and our approach effectively replicated the strongest previously known association in clefting--with IRF6. Based on two national cleft cohorts of similar ancestry, two robust statistical methods and a large panel of SNPs in the most promising cleft candidate genes to date, this study identified a previously unknown association with clefting for ADH1C and provides additional candidates and analytic approaches to advance the field.",
+   "found_by": [],
+   "pubdate": "2009",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "31311986",
+   "title": "Entire FGF12 duplication by complex chromosomal rearrangements associated with West syndrome.",
+   "abstract": "Complex rearrangements of chromosomes 3 and 9 were found in a patient presenting with severe epilepsy, developmental delay, dysmorphic facial features, and skeletal abnormalities. Molecular cytogenetic analysis revealed 46,XX.ish der(9)(3qter\u21923q28::9p21.1\u21929p22.3::9p22.3\u21929qter)(RP11-368G14+,RP11-299O8-,RP11-905L2++,RP11-775E6++). Her dysmorphic features are consistent with 3q29 microduplication syndrome and inv dup del(9p). Trio-based WES of the patient revealed no pathogenic single nucleotide variants causing epilepsy, but confirmed a 3q28q29 duplication involving FGF12, which encodes fibroblast growth factor 12. FGF12 positively regulates the activity of voltage-gated sodium channels. Recently, only one recurrent gain-of-function variant [NM_021032.4:c.341G>A:p.(Arg114His)] in FGF12 was found in a total of 10 patients with severe early-onset epilepsy. We propose that the patient's entire FGF12 duplication may be analogous to the gain-of-function variant in FGF12 in the epileptic phenotype of this patient.",
+   "found_by": [],
+   "pubdate": "2019 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38715525",
+   "title": "FGF12 copy number variant associated with epileptic encephalopathy.",
+   "abstract": "FGF12 related epilepsy presents with variable phenotypes. We report another patient with a duplication involving the FGF12 gene who presented similar to other published cases having normal early development and responded to phenytoin.",
+   "found_by": [],
+   "pubdate": "2024 Jul",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27637763",
+   "title": "Copy-number variant analysis of classic heterotaxy highlights the importance of body patterning pathways.",
+   "abstract": "Classic heterotaxy consists of congenital heart defects with abnormally positioned thoracic and abdominal organs. We aimed to uncover novel, genomic copy-number variants (CNVs) in classic heterotaxy cases. A microarray containing 2.5 million single-nucleotide polymorphisms (SNPs) was used to genotype 69 infants (cases) with classic heterotaxy identified from California live births from 1998 to 2009. CNVs were identified using the PennCNV software. We identified 56 rare CNVs encompassing genes in the NODAL (NIPBL, TBX6), BMP (PPP4C), and WNT (FZD3)\u00a0signaling pathways, not previously linked to classic heterotaxy. We also identified a CNV involving FGF12, a gene previously noted in a classic heterotaxy case. CNVs involving RBFOX1 and near MIR302F were detected in multiple cases. Our findings illustrate the importance of body patterning pathways for cardiac development and left/right axes determination. FGF12, RBFOX1, and MIR302F could be important in human heterotaxy, because they were noted in multiple cases. Further investigation into genes involved in the NODAL, BMP, and WNT body patterning pathways and into the dosage effects of FGF12, RBFOX1, and MIR302F is warranted.",
+   "found_by": [],
+   "pubdate": "2016 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36029553",
+   "title": "Modulating effects of FGF12 variants on Na(V)1.2 and Na(V)1.6 being associated with developmental and epileptic encephalopathy and Autism spectrum disorder: A case series.",
+   "abstract": "OBJECTIVE: Fibroblast Growth Factor 12 (FGF12) may represent an important modulator of neuronal network activity and has been associated with developmental and epileptic encephalopathy (DEE). We sought to identify the underlying pathomechanism of FGF12-related disorders. METHODS: Patients with pathogenic variants in FGF12 were identified through published case reports, GeneMatcher and whole exome sequencing of own case collections. The functional consequences of two missense and two copy number variants (CNVs) were studied by co-expression of wildtype and mutant FGF12 in neuronal-like cells (ND7/23) with the sodium channels NaV1.2 or NaV1.6, including their beta-1 and beta-2 sodium channel subunits (SCN1B and SCN2B). RESULTS: Four variants in FGF12 were identified for functional analysis: one novel FGF12 variant in a patient with autism spectrum disorder and three variants from previously published patients affected by DEE. We demonstrate the differential regulating effects of wildtype and mutant FGF12 on NaV1.2 and NaV1.6 channels. Here, FGF12 variants lead to a complex kinetic influence on NaV1.2 and NaV1.6, including loss- as well as gain-of function changes in fast and slow inactivation. INTERPRETATION: We could demonstrate the detailed regulating effect of FGF12 on NaV1.2 and NaV1.6 and confirmed the complex effect of FGF12 on neuronal network activity. Our findings expand the phenotypic spectrum related to FGF12 variants and elucidate the underlying pathomechanism. Specific variants in FGF12-associated disorders may be amenable to precision treatment with sodium channel blockers. FUNDING: DFG, BMBF, Hartwell Foundation, National Institute for Neurological Disorders and Stroke, IDDRC, ENGIN, NIH, ITMAT, ILAE, RES and GRIN.",
+   "found_by": [],
+   "pubdate": "2022 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "32524056",
+   "title": "Epilepsy phenotype in individuals with chromosomal duplication encompassing FGF12.",
+   "abstract": "Intragenic mutations in FGF12 are associated with intractable seizures, developmental regression, intellectual disability, ataxia, hypotonia, and feeding difficulties. FGF12 duplications are rarely reported, but it was suggested that those might have a similar gain-of-function effect and lead to a more or less comparable phenotype. A favorable response to the sodium blocker phenytoin was reported in several cases, both in patients with an intragenic mutation and in patients with a duplication of FGF12. We report three individuals from two families with FGF12 duplications. The duplications are flanked and probably mediated by two long interspersed nuclear elements (LINEs). The duplication cases show phenotypic overlap with the cases with intragenic mutations. Though the onset of epilepsy might be later, after the onset of seizures both groups show developmental stagnation and regression in several cases. This illustrates and further confirms that chromosomal FGF12 duplications and intragenic gain-of-function mutations yield overlapping phenotypes.",
+   "found_by": [],
+   "pubdate": "2020 Jun",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "27872899",
+   "title": "De novo FGF12 mutation in 2 patients with neonatal-onset epilepsy.",
+   "abstract": "OBJECTIVE: We describe 2 additional patients with early-onset epilepsy with a de novo FGF12 mutation. METHODS: Whole-exome sequencing was performed in 2 unrelated patients with early-onset epilepsy and their unaffected parents. Genetic variants were assessed by comparative trio analysis. Clinical evolution, EEG, and neuroimaging are described. The phenotype and response to treatment was reviewed and compared to affected siblings in the original report. RESULTS: We identified the same FGF12 de novo mutation reported previously (c.G155A, p.R52H) in 2 additional patients with early-onset epilepsy. Similar to the original brothers described, both presented with tonic seizures in the first month of life. In the first patient, seizures responded to sodium channel blockers and her development was normal at 11 months. Patient 2 is a 15-year-old girl with treatment-resistant focal epilepsy, moderate intellectual disability, and autism. Carbamazepine (sodium channel blocker) was tried later in her course but not continued due to an allergic reaction. CONCLUSIONS: The identification of a recurrent de novo mutation in 2 additional unrelated probands with early-onset epilepsy supports the role of FGF12 p.R52H in disease pathogenesis. Affected carriers presented with similar early clinical phenotypes; however, this report expands the phenotype associated with this mutation which contrasts with the progressive course and early mortality of the siblings in the original report.",
+   "found_by": [],
+   "pubdate": "2016 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42185328",
+   "title": "Expanding the phenotypic spectrum of FGF12-epilepsy-does prompt precision therapy affect outcomes?",
+   "abstract": "Fibroblast growth factor-12 (FGF12) variants have been associated with developmental and epileptic encephalopathy (DEE) with evidence of modulation of voltage-gated sodium channels Nav1.2 and Nav1.6. We aim to expand the phenotypic spectrum of FGF12-related epilepsy with emphasis on precision therapy. We describe 12 patients: eight with neonatal onset seizures with the recurrent p.Arg52His (c.155\u2009G\u2009>\u2009A) variant, two with a previously unreported p.Glu153Gly (c.458\u2009A\u2009>\u2009G) variant, one with a p.Gly50Ser (c.148\u2009G\u2009>\u2009A) variant, and one with a de novo whole-gene duplication. Atypical absence seizures were present in 5/12 patients. Brain MRI was normal in 10/12; one patient's MRIs showed progressive cerebellar atrophy, and one patient's MRI showed a hemispheric infarct. 8 patients promptly started on sodium channel blockers became seizure-free with good developmental outcomes while 4 developed DEE. In summary, we expand the phenotypic spectrum of FGF12-related epilepsy and discuss the role of early precision therapy in developmental and epilepsy outcomes.",
+   "found_by": [],
+   "pubdate": "2026 May 25",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29216221",
+   "title": "Copy number variants in Ebstein anomaly.",
+   "abstract": "BACKGROUND: Ebstein anomaly (EA) is a rare congenital defect characterized by apical displacement of the septal tricuspid leaflets and atrialization of the right ventricle. The etiology of EA is unclear; however, recurrence in families and the association of EA with genetic syndromes and copy number variants (CNVs) suggest a genetic component. OBJECTIVE: We performed a population-based study to search for recurrent and novel CNVs in a previously unreported set of EA cases. METHODS: We genotyped 60 EA cases identified from all live births (2,891,076) from selected California counties (1991-2010) using the Illumina HumanOmni2.5-8 array. We identified 38 candidate CNVs in 28 (46%) cases and prioritized and validated 11 CNVs based on the genes included. RESULTS: Five CNVs (41%) overlapped or were close to genes involved in early myocardial development, including NODAL, PDLIM5, SIX1, ASF1A and FGF12. We also replicated a previous association of EA with CNVs at 1p34.1 and AKAP12. Finally, we identified four CNVs overlapping or in close proximity to the transcription factors HES3, TRIM71, CUX1 and EIF4EBP2. CONCLUSIONS: This study supports the relationship of genetic factors to EA and demonstrates that defects in cardiomyocytes and myocardium differentiation may play a role. Abnormal differentiation of cardiomyocytes and how genetic factors contribute should be examined for their association with EA.",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31292943",
+   "title": "FGF12p.Gly112Ser variant as a cause of phenytoin/phenobarbital responsive epilepsy.",
+   "abstract": "A patient harboring a novel p.Gly112Ser variant in FGF12 gene had a positive response to phenytoin/phenobarbital treatment. All the 11 previously reported FGF12-associated epilepsy cases had a single neighboring p.(Arg114His) variant and presented similar phenotype.",
+   "found_by": [],
+   "pubdate": "2019 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34020858",
+   "title": "Effective treatments for FGF12-related early-onset epileptic encephalopathies patients.",
+   "abstract": "BACKGROUND: FGF12 (FHF1) gene encodes voltage-gated sodium channel (Nav)-binding protein fibroblast growth factor homologous factor 1, which could cause seizures by regulating voltage dependence of Nav fast inactivation and neuron excitability. The most common pathogenic variant FGF12 c.341G\u00a0>\u00a0A related early-onset epileptic encephalopathies (EOEE) was characterized by intractable seizures and developmental disabilities. RESULTS: Using whole exome sequencing, a de novo hotspot variant c.341G\u00a0>\u00a0A (NM_021032.4) of FGF12 was identified in three unrelated EOEE probands. All probands were seizure free after a combination treatment of valproic acid (VPA) and topiramate (TPM). The motor and cognitive skills in two probands were improved due to the early and effective treatment. In order to compare the effectiveness of different treatment strategies for the disease, a review of treatments for FGF12-related epilepsy was made. CONCLUSION: We reported three FGF12 c.341G\u00a0>\u00a0A related EOEE patients responded well to a combination antiepileptic therapy of VPA and TPM. The current study is the first to describe the combination therapy of VPA and TPM in FGF12 c.341G\u00a0>\u00a0A related EOEE patients. This study may contribute to future medication consultation for intractable epilepsy with FGF12 hotspot variants.",
+   "found_by": [],
+   "pubdate": "2021 Sep",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41655495",
+   "title": "Characterization of an induced pluripotent stem cell line (SDCHi010-A) from a young patient with epilepsy.",
+   "abstract": "Epilepsy is a group of chronic brain disorders characterized by recurrent, episodic, and transient dysfunction of the central nervous system caused by abnormal, excessive neuronal discharges. In this study, peripheral blood mononuclear cells (PBMCs) were isolated from a young patient bearing an FGF12 gene mutation and suffering from clinically and genetically diagnosed epilepsy. Induced pluripotent stem cells (iPSCs) were established using a non-integrative method involving plasmids carrying OCT4, SOX2, KLF4, BCL-XL, and C-MYC. The resulting iPSCs exhibited typical pluripotent cell morphology, a normal karyotype, and the potential to differentiate into all three germ layers.",
+   "found_by": [],
+   "pubdate": "2026 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "37803336",
+   "title": "Epigenomic signature of major congenital heart defects in newborns with Down syndrome.",
+   "abstract": "BACKGROUND: Congenital heart defects (CHDs) affect approximately half of individuals with Down syndrome (DS), but the molecular reasons for incomplete penetrance are unknown. Previous studies have largely focused on identifying genetic risk factors associated with CHDs in individuals with DS, but comprehensive studies of the contribution of epigenetic marks are lacking. We aimed to identify and characterize DNA methylation differences from newborn dried blood spots (NDBS) of DS individuals with major CHDs compared to DS individuals without CHDs. METHODS: We used the Illumina EPIC array and whole-genome bisulfite sequencing (WGBS) to quantitate DNA methylation for 86 NDBS samples from the California Biobank Program: (1) 45 DS-CHD (27 female, 18 male) and (2) 41 DS non-CHD (27 female, 14 male). We analyzed global CpG methylation and identified differentially methylated regions (DMRs) in DS-CHD versus DS non-CHD comparisons (both sex-combined and sex-stratified) corrected for sex, age of blood collection, and cell-type proportions. CHD DMRs were analyzed for enrichment in CpG and genic contexts, chromatin states, and histone modifications by genomic coordinates and for gene ontology enrichment by gene mapping. DMRs were also tested in a replication dataset and compared to methylation levels in DS versus typical development (TD) WGBS NDBS samples. RESULTS: We found global CpG hypomethylation in DS-CHD males compared to DS non-CHD males, which was attributable to elevated levels of nucleated red blood cells and not seen in females. At a regional level, we identified 58, 341, and 3938 CHD-associated DMRs in the Sex Combined, Females Only, and Males Only groups, respectively, and used machine learning algorithms to select 19 Males Only loci that could distinguish CHD from non-CHD. DMRs in all comparisons were enriched for gene exons, CpG islands, and bivalent chromatin and mapped to genes enriched for terms related to cardiac and immune functions. Lastly, a greater percentage of CHD-associated DMRs than background regions were differentially methylated in DS versus TD samples. CONCLUSIONS: A sex-specific signature of DNA methylation was detected in NDBS of DS-CHD compared to DS non-CHD individuals. This supports the hypothesis that epigenetics can reflect the variability of phenotypes in DS, particularly CHDs. [full text, passages naming FGF12] ...es the heart atrium into left and right and whose developmental failure can lead to AVSD (Males Only) (Additional files 1 : Tables S18\u2013S20, 2 : Fig. S17). Genes contributing to the heart-related terms included FGF12, PIK3CA, TNNI3, PDE4D , ACVR1, GATA4, and others (Table 2 ). Enriched terms also included immune-related biological processes, such as platelet activation and innate immune response (Sex Combined) (Fig. 5... ...versus DS non-CHD DMRs from the Sex Combined comparison Table 2 Heart-related biological processes identified from DMR Gene Ontology Comparison | GO Term | Genes | Sex combined | Cardiac muscle contraction | | FGF12,PIK3CA,TNNI3 | Striated muscle contraction | | FGF12,PIK3CA,TNNI3 | Heart contraction | | FGF12,PIK3CA,TNNI3 | Heart process | | FGF12,PIK3CA,TNNI3 | Ductus arteriosus closure | | TFAP2B | Determination o... ...on Table 2 Heart-related biological processes identified from DMR Gene Ontology Comparison | GO Term | Genes | Sex combined | Cardiac muscle contraction | | FGF12,PIK3CA,TNNI3 | Striated muscle contraction | | FGF12,PIK3CA,TNNI3 | Heart contraction | | FGF12,PIK3CA,TNNI3 | Heart process | | FGF12,PIK3CA,TNNI3 | Ductus arteriosus closure | | TFAP2B | Determination of dorsal/ventral asymmetry | | NBL1 | Cellular respon...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "26742958",
+   "title": "Genome-wide copy number variant analysis for congenital ventricular septal defects in Chinese Han population.",
+   "abstract": "BACKGROUND: Ventricular septal defects (VSDs) constitute the most prevalent congenital heart disease (CHD), occurs either in isolation (isolated VSD) or in combination with other cardiac defects (complex VSD). Copy number variation (CNV) has been highlighted as a possible contributing factor to the etiology of many congenital diseases. However, little is known concerning the involvement of CNVs in either isolated or complex VSDs. METHODS: We analyzed 154 unrelated Chinese individuals with VSD by chromosomal microarray analysis. The subjects were recruited from four hospitals across China. Each case underwent clinical assessment to define the type of VSD, either isolated or complex VSD. CNVs detected were categorized into syndrom related CNVs, recurrent CNVs and rare CNVs. Genes encompassed by the CNVs were analyzed using enrichment and pathway analysis. RESULTS: Among 154 probands, we identified 29 rare CNVs in 26 VSD patients (16.9 %, 26/154) and 8 syndrome-related CNVs in 8 VSD patients (5.2 %, 8/154). 12 of the detected 29 rare CNVs (41.3 %) were recurrently reported in DECIPHER or ISCA database as associated with either VSD or general heart disease. Fifteen genes (5 %, 15/285) within CNVs were associated with a broad spectrum of complicated CHD. Among these15 genes, 7 genes were in \"abnormal interventricular septum morphology\" derived from the MGI (mouse genome informatics) database, and nine genes were associated with cardiovascular system development (GO:0072538).We also found that these VSD-related candidate genes are enriched in chromatin binding and transcription regulation, which are the biological processes underlying heart development. CONCLUSIONS: Our study demonstrates the potential clinical diagnostic utility of genomic imbalance profiling in VSD patients. Additionally, gene enrichment and pathway analysis helped us to implicate VSD related candidate genes. [full text, passages naming FGF12] ...SD | / | NA082 | F | 3y1m | 3p22.2 | Chr3:37377757-37577933 | Gain | 201 | 3 | | GOLGA4, C3ORF35, ITGA9 ASD | / | | | | 3q26.33-29 | Chr3:180469228-198475603 | Gain | 18006 | 234 | | SOX2, MAP3K13, BCL6, TP63, FGF12 ASD | / | | | | 4q34.3-q35.2 | Chr4:181,026,511-190,784,769 | Loss | 9694 | 76 | | CASP3, ING2, PDLIM3, SLC25A4, F11 ASD | VSD (5) | NA084 | F | 1y2m | 2q36.1 | Chr2:222,835,872-223,511,548 | Gain | 676 |... ...nes) in our study | Gene list for loss (113 genes) in our study | MGI database | 147 | | 7/285 | PAX3, LBX1 | CRKL b , GP1BB b , PDLIM3 , TBX1 b , TXNRD2 b Candidate genes\u00a7 | 202 | | 9/285 | PAX3, LBX1, MYH11, FGF12 | CASP3, CRKL b , PDLIM3, TBX1 b , TXNRD2 b Genes derived from GO:0072538 | ( cardiovascular system development ) 1957 | | 9/285 | PAX3, LBX1, MYH11, PRKCB, IGFBP7 | CYSLTR1, LPAR4, CRKL b , TBX1 b , TXNR... ...071 | nucleic acid binding transcription factor activity | | HIRA, EN1, SOX2, PAX3, TBX1, TP63, LBX1, BCL6 8 | 1053 | 8.41E-03 | Biological Process | 1 | GO:0007507 | heart development | | MYH11, TXNRD2, CRKL, FGF12, PDLIM3, TBX1, LBX1,CASP3,PAX3 9 | 466 | 9.36E-06 | 2 | GO:0072358 | cardiovascular system development | | MYH11,TXNRD2,CRKL,FGF12,PDLIM3,TBX1,LBX1,CASP3, PRKCB,PAX3 10 | 889 | 1.85E-04 | 3 | GO:0072359 |...",
+   "found_by": [],
+   "pubdate": "2016",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "37181659",
+   "title": "Single-cell and spatial transcriptomics: Advances in heart development and disease applications.",
+   "abstract": "Current transcriptomics technologies, including bulk RNA-seq, single-cell RNA sequencing (scRNA-seq), single-nucleus RNA-sequencing (snRNA-seq), and spatial transcriptomics (ST), provide novel insights into the spatial and temporal dynamics of gene expression during cardiac development and disease processes. Cardiac development is a highly sophisticated process involving the regulation of numerous key genes and signaling pathways at specific anatomical sites and developmental stages. Exploring the cell biological mechanisms involved in cardiogenesis also contributes to congenital heart disease research. Meanwhile, the severity of distinct heart diseases, such as coronary heart disease, valvular disease, cardiomyopathy, and heart failure, is associated with cellular transcriptional heterogeneity and phenotypic alteration. Integrating transcriptomic technologies in the clinical diagnosis and treatment of heart diseases will aid in advancing precision medicine. In this review, we summarize applications of scRNA-seq and ST in the cardiac field, including organogenesis and clinical diseases, and provide insights into the promise of single-cell and spatial transcriptomics in translational research and precision medicine. [full text, passages naming FGF12] ...ilar to the developing human heart, ST analysis indicated that the transcriptional profiles differ between the ventricle and atrium [40] . For example, the Myl2 gene is enriched in the ventricle, whereas Nppa, Fgf12, and Sln are highly expressed in the atrium. Significant gene expression differences have also been found between the left and right atrium [43] . 2.1.3 Chicken heart Previous single-cell analyses have sh...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36759911",
+   "title": "New insights on partial trisomy 3q syndrome: de novo 3q27.1-q29 duplication in a newborn with pre and postnatal overgrowth and assisted reproductive conception.",
+   "abstract": "BACKGROUND: Duplications of the long arm of chromosome 3 are rare, and associated to a well-defined contiguous gene syndrome known as partial trisomy 3q syndrome. It has been first described in 1966 by Falek et al., and since then around 100 patients have been reported. Clinical manifestations include characteristic facial dysmorphic features, microcephaly, hirsutism, congenital heart disease, genitourinary anomalies, hand and feet abnormalities, growth disturbances and intellectual disability. Most of cases are due to unbalanced translocations, inherited from a parent carrying a balanced aberration (reciprocal translocation or inversion), and rarely the genomic anomaly arises de novo. Very few studies report on the prenatal identification of such rearrangements. CASE PRESENTATION: Hereby, we report on a newborn with a rare pure duplication of the long arm of chromosome 3. Noninvasive prenatal test (cell free fetal DNA analysis on maternal blood), performed for advanced parental age and use of assisted reproductive technique, evidenced a partial 3q trisomy. Then, invasive cytogenetic (standard and molecular) investigations, carried out through amniocentesis, confirmed and defined a 3q27.1-q29 duplication spanning 10.9\u00a0Mb, and including about 80 genes. Our patient showed clinical findings (typical facial dysmorphic features, esotropia, short neck, atrial septal defect, hepatomegaly, mild motor delay) compatible with partial trisomy 3q syndrome diagnosis, in addition to pre- and postnatal overgrowth. CONCLUSIONS: Advanced parental age increases the probability of chromosomal and/or genomic anomalies, while ART that of epigenomic defects. Both conditions, thus, deserve more careful prenatal monitoring and screening/diagnostic investigations. Among the latter, cell free fetal DNA testing can detect large segmental aneuploidies, along with chromosomal abnormalities. It identified in our patient a wide 3q rearrangement, then confirmed and defined through invasive molecular cytogenetic analysis. Neonatologists and pediatricians must be aware of the potential risks associated to duplication syndromes. Therefore, they should offer to affected subjects an adequate management and early and careful follow-up. These may be able to guarantee to patients satisfactory growth and development profiles, prevent and/or limit neurodevelopmental disorders, and timely recognition of complications. [full text, passages naming FGF12] ...some disease causing ones, including DVL3 (MIM #601,368), EPHB3 (MIM #601,839), IGF2BP2 (MIM #608,289), AHSG (MIM #138,680), ADIPOQ (MIM #605,441), LPP (MIM #600,700), TP63 (MIM #603,273), P3H2 (MIM #610,341), FGF12 (MIM #601,513), and OPA1 (MIM #605,290) (Fig. 1 ) [ 28 ]. Two ( DVL3 and EPHB3 ) are those comprised within the partial trisomy 3q syndrome critical region [ 5 ], while the others are involved in many pro...",
+   "found_by": [],
+   "pubdate": "2023",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34074532",
+   "title": "Xenopus as a platform for discovery of genes relevant to human disease.",
+   "abstract": "Congenital birth defects result from an abnormal development of an embryo and have detrimental effects on children's health. Specifically, congenital heart malformations are a leading cause of death among pediatric patients and often require surgical interventions within the first year of life. Increased efforts to navigate the human genome provide an opportunity to discover multiple candidate genes in patients suffering from birth defects. These efforts, however, fail to provide an explanation regarding the mechanisms of disease pathogenesis and emphasize the need for an efficient platform to screen candidate genes. Xenopus is a rapid, cost effective, high-throughput vertebrate organism to model the mechanisms behind human disease. This review provides numerous examples describing the successful use of Xenopus to investigate the contribution of patient mutations to complex phenotypes including congenital heart disease and heterotaxy. Moreover, we describe a variety of unique methods that allow us to rapidly recapitulate patients' phenotypes in frogs: gene knockout and knockdown strategies, the use of fate maps for targeted manipulations, and novel imaging modalities. The combination of patient genomics data and the functional studies in Xenopus will provide necessary answers to the patients suffering from birth defects. Furthermore, it will allow for the development of better diagnostic methods to ensure early detection and intervention. Finally, with better understanding of disease pathogenesis, new treatment methods can be tailored specifically to address patient's phenotype and genotype. [full text, passages naming FGF12] ...various developmental pathways. Particularly, CNVs were identified in several members of the transforming growth factor-\u03b2 superfamily, including bone morphogenic protein 2 (BMP2), fibroblast growth factor 12 (FGF12), and growth differentiation factor 7 (GDF7). Furthermore, two heterozygous deletions were identified in the gene encoding myeloid cell nuclear differentiation antigen ( MNDA ). Additionally, similar 20kb...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30101106",
+   "title": "Emerging insights into the genetic basis of canine hip dysplasia.",
+   "abstract": "Canine hip dysplasia (CHD) is the most common inherited polygenic orthopedic trait in dogs with the phenotype influenced also by environmental factors. This trait was described in the dog in 1935 and leads to a debilitating secondary hip osteoarthritis. The diagnosis is confirmed radiographically by evaluating signs of degenerative joint disease, incongruence, and/or passive hip joint laxity. There is no ideal medical or surgical treatment so prevention based on controlled breeding is the optimal approach. The definitive CHD diagnosis based on radiographic examination involves the exposure to ionizing radiation under general anesthesia or heavy sedation but the image does not reveal the underlying genetic quality of the dog. Phenotypic expression of CHD is modified by environmental factors and dogs with a normal phenotype can be carriers of some mutations and transmit these genes to their offspring. Programs based on selection of dogs with better individual phenotypes for breeding are effective when strictly applied but remain inferior to the selection of dogs based on estimation of breeding values. Molecular studies for dissecting the genetic basis of CHD are ongoing, but progress has been slow. In the future, the recommended method to improve hip quality in controlled breeding schemes, which will allow higher selection pressure, would be based on the estimation of the genomic breeding value. Since 2012, a commercial DNA test has been available for Labrador Retrievers using a blood sample and provides a probability for development of CHD but we await evidence that this test reduces the incidence or severity of CHD. [full text, passages naming FGF12] ...>G/CHD | 33 | 3975 | T | NA | | EPHA3 , EPHA6 , PCNP | G:4052195T>C/CHD | 33 | 7022 | T | NA | | | G:7967386T>C/CHD | 33 | 10983 | C | NA | | | G:414871G[A/CHD | 34 | 3422 | A | NA | | TRIO , SEMA5A , SLC6A3 , FGF12 | G:4846215A>G/CHD | 34 | 7851 | G | NA | | | G:11239992A>G/CHD | 34 | 14246 | A | NA | | | G:11547417T>G/CHD | 34 | 27034 | G | NA | | | TIGRP2P265674/CHD | 19 | 35.533 | C | NA | NA | Fels and Distl | /...",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "38144278": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41449082": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38927731": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21518765": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12584245": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23528308": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33233562": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26663319": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28506426": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23679094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37654020": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41367933": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26290467": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35461751": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12483295": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33349918": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12197469": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25326864": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28814763": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18069126": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23097049": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40452844": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30873760": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20083228": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42555659": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33778967": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27164707": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29042943": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25843910": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35592651": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35092367": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27830185": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "20301690": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31559137": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39234815": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34086756": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41294881": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "21319277": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "19401770": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "12401812": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37286232": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41540272": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31311986": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38715525": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "27637763": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33639159": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32950810": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36029553": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41979475": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32524056": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26392562": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17678857": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27872899": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39142611": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42185328": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29216221": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "31292943": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "24096171": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34020858": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33982289": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41655495": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40838839": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29699863": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21566136": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12815063": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33186347": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31957018": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "37803336": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26742958": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37181659": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36759911": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34074532": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30101106": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36646705": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40188526": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38349269": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35304156": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20674996": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "9232594": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20683934": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 221,
+   "usd": 0.007245,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "20 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4756,
+   "output_tokens": 204,
+   "usd": 0.005776,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 40.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 27022,
+   "output_tokens": 1128,
+   "usd": 0.032662,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.9,
+   "note": "",
+   "input_tokens": 14760,
+   "output_tokens": 928,
+   "usd": 0.097,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>2</established>\n    <existing>58</existing>\n    <hypothesized>34</hypothesized>\n    <novel>6</novel>\n  </probabilities>\n  <justification>No article reports a single-gene (sequence-level) FGF12 variant causing congenital heart disease; all FGF12 point mutations in this set (p.Arg52His, p.Gly112Ser, p.Glu153Gly) cause epileptic encephalopathy, not CHD. Human CHD evidence is limited to multigenic copy-number variants: an FGF12-containing CNV in classic heterotaxy (PMID 27637763), a CNV near FGF12 in Ebstein anomaly (PMID 29216221), and FGF12 within a large 3q26-29 gain in VSD cases (PMID 26742958), plus an epigenetic DMR association in Down-syndrome CHD (PMID 37803336). Because these CNVs span many genes and cannot isolate FGF12, they support \"Existing\" (credible but non-definitive human association) rather than \"Established.\" Additional support is largely biological/pathway-based (atrial Fgf12 expression, Xenopus modeling of candidate CHD genes), which justifies substantial weight on \"Hypothesized.\"</justification>\n  <pmids>\n    <pmid>27637763</pmid>\n    <pmid>29216221</pmid>\n    <pmid>26742958</pmid>\n    <pmid>37803336</pmid>\n    <pmid>34074532</pmid>\n    <pmid>37181659</pmid>\n    <pmid>36759911</pmid>\n  </pmids>\n</response>"
+}

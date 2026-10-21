@@ -1,0 +1,300 @@
+{
+  "articles_found": {
+    "clinical": 19,
+    "model_organism": 17,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "EPI4K Consortium & Epilepsy Phenome/Genome Project 2013 - De novo mutations in epileptic encephalopathies (PMID: 23934111)",
+        "num_patients": 4,
+        "variants": [
+          {
+            "description": "De novo GABRB3 variants in four patients (specific variants not given in the abstract; reported as de novo mutations, predominantly missense)",
+            "type": "missense",
+            "phenotypes": [
+              "infantile spasms",
+              "Lennox-Gastaut syndrome",
+              "epileptic encephalopathy"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo mutations confirmed by trio exome sequencing. GABRB3 showed significant statistical excess of de novo mutations (P = 4.1 \u00d7 10^-10) given site-specific mutation rates, and the gene is intolerant to variation.",
+        "center_country": "EPI4K Consortium / Epilepsy Phenome/Genome Project (multi-center; USA, Australia, Europe)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2016 - Whole-genome sequencing provides additional insight into the genetic architecture of autism (Turner et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "De novo missense variant in GABRB3 (specific change not given in the abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Proband-specific de novo missense mutation in a dosage-sensitive autism risk gene, found in simplex autism families (enrichment of de novo missense in probands vs. unaffected siblings).",
+        "center_country": "USA (University of Washington / Eichler lab; Simons Simplex Collection)",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2009 - A High Resolution CNV Survey of the GABA Gene Family Candidate Genes in Autism (Whitehead et al.)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "Heterozygous intragenic deletion removing 3 exons of GABRB3",
+            "type": "other",
+            "phenotypes": [
+              "autism"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Intragenic exonic deletion detected by high-density CGH in one autism case and none of 250 controls; considered supportive of a role for GABA genes in autism.",
+        "center_country": "USA (Hussman Institute for Human Genomics, University of Miami, and collaborators)",
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Gabrb3 endothelial cell-specific knockout mice display abnormal blood flow, hypertension, and behavioral dysfunction (PMID: 35318369)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Endothelial-specific Gabrb3 deletion (Gabrb3ECKO)",
+          "Increased red blood cell velocity and blood flow in cortical microcirculation",
+          "Reduced vessel density in the heart and brain",
+          "Wavy myocardial fibers with elongated 'worm-like' nuclei",
+          "Hypertension",
+          "Increased spontaneous exploratory activity and rearing in open field",
+          "Reduced short-term memory",
+          "Decreased ambulatory activity in CLAMS",
+          "Altered prepulse inhibition",
+          "Previously reported social, communication, anxiety and depression-like deficits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Endothelial cell-derived GABA signaling modulates neuronal migration and postnatal behavior (PMID: 29086765)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Gabrb3 \u0394Tie2-Cre endothelial conditional knockout",
+          "Embryonic forebrain vascular defects",
+          "Impaired long-distance migration and positioning of cortical interneurons",
+          "Lasting changes to cortical circuits",
+          "Persistent behavioral deficits"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "NAD(+)-mediated rescue of prenatal forebrain angiogenesis restores postnatal behavior (PMID: 33036972)",
+        "organism": "mouse",
+        "knockout_type": "conditional knockout",
+        "phenotypes": [
+          "Endothelial Gabrb3 knockout with impaired prenatal forebrain angiogenesis",
+          "Abnormal forebrain morphology and GABAergic neuron development",
+          "Abnormal behavioral symptoms",
+          "Prenatal NAD+ treatment rescued angiogenesis, brain development and behavior"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Altered ultrasonic vocalization and impaired learning and memory in Angelman syndrome mouse model with a large maternal deletion from Ube3a to Gabrb3 (PMID: 20808828)",
+        "organism": "mouse",
+        "knockout_type": "other (1.6-Mb chromosomal deletion from Ube3a to Gabrb3, also deleting Atp10a; homozygous and parent-of-origin heterozygous)",
+        "phenotypes": [
+          "Homozygous deletion mice died perinatally due to cleft palate from Gabrb3 null mutation",
+          "Maternal deletion mice viable without obvious developmental defects",
+          "Increased spontaneous seizures and abnormal EEG in maternal deletion",
+          "Impaired motor function, learning and memory",
+          "Altered anxiety-related measures in light-dark box",
+          "Increased neonatal ultrasonic vocalizations",
+          "Paternal deletion mice lacked these phenotypes"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "perinatal lethal",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "GABA and epileptogenesis: comparing gabrb3 gene-deficient mice with Angelman syndrome in man (PMID: 10515160)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Increased mortality",
+          "Spontaneous seizures",
+          "EEG abnormalities",
+          "Behavioral characteristics resembling Angelman syndrome"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Gabrb3 gene deficient mice exhibit increased risk assessment behavior, hypotonia and expansion of the plexus of locus coeruleus dendrites (PMID: 17156762)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Enlarged pericoerulear dendritic zone of locus coeruleus",
+          "Hypotonia (poor wire hang performance)",
+          "Increased stretch-attend posturing (risk assessment)",
+          "Reduced marble burying",
+          "No difference in plus maze anxiety measures"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": "significant differences reported (specific p-values not given in abstract)"
+      },
+      {
+        "citation": "Somatosensory and sensorimotor consequences associated with the heterozygous disruption of the autism candidate gene, Gabrb3 (PMID: 20699105)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Increased seizure susceptibility",
+          "Reduced Gabrb3 expression in DRG, spinal cord, brain and amygdala",
+          "Tactile and heat hypersensitivity",
+          "Altered sensorimotor competence (rotarod)",
+          "Altered prepulse inhibition",
+          "Effects dependent on sex and parent of origin of the disrupted allele"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Phenotypic analysis of catastrophic childhood epilepsy genes (PMID: 34083748)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "CRISPR-Cas9 gabrb3 mutant larvae showed unprovoked electrographic seizure activity (epilepsy) on local field potential recordings"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": "~3300 larvae screened across 40 lines",
+        "significance": null
+      },
+      {
+        "citation": "Synaptic clustering differences due to different GABRB3 mutations cause variable epilepsy syndromes (PMID: 31435640)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Wild-type \u03b32 subunits reduced and less clustered at inhibitory synapses in Gabrb3+/- mice"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Glabridin Hypnosis in Zebrafish Larvae Is Associated With Effects on Multiple Anesthetic Target Receptors (PMID: 39773742)",
+        "organism": "zebrafish",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Transgenic larvae lacking functional \u03b23 subunits (\u03b23 0/0) are resistant to etomidate and propofol",
+          "R-glabridin still inhibited photomotor responses in \u03b23 0/0 larvae (IC50 7.5 \u00b5M vs 4.4 \u00b5M in wild-type), indicating partial dependence on \u03b23-containing GABAA receptors"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "M\u00f8ller et al. 2017 - Mutations in GABRB3: From febrile seizures to epileptic encephalopathies (PMID: 28053010)",
+        "evidence_subtype": "function",
+        "summary": "Heterozygous GABRB3 mutations were found in 22 epilepsy patients, with phenotypes ranging from febrile seizures to epileptic encephalopathy. Voltage-clamp recordings in Xenopus oocytes (\u03b23 with \u03b15\u03b32s) showed that 5 of 7 mutations reduced GABA-induced current amplitude or GABA sensitivity, consistent with loss of function and GABAergic disinhibition.",
+        "sample_size": "416 patients sequenced; 22 mutation carriers; 7 mutations tested in oocytes",
+        "significance": null
+      },
+      {
+        "citation": "Orefice et al. 2016 - Peripheral Mechanosensory Neuron Dysfunction Underlies Tactile and Behavioral Deficits in Mouse Models of ASDs (PMID: 27293187)",
+        "evidence_subtype": "other",
+        "summary": "Gabrb3 mutant mice show altered tactile discrimination and hypersensitivity to gentle touch. Deleting Gabrb3 in peripheral somatosensory neurons removes GABAA receptor-mediated presynaptic inhibition. Deletion during development, but not in adulthood, produced social interaction deficits and anxiety-like behavior.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Understanding paralogous epilepsy-associated GABA(A) receptor variants: Clinical implications, mechanisms, and potential pitfalls (PMID: 39642202)",
+        "evidence_subtype": "function",
+        "summary": "\u03b23 P253L and P253S in the conserved M1 proline, tested in \u03b11\u03b23\u03b32 receptors, caused gain of function by increasing GABA sensitivity 3- to 23-fold. Some variants also showed reduced maximal current or enhanced desensitization. Carriers had developmental and epileptic encephalopathy.",
+        "sample_size": "11 individuals in cohort; 7 variants studied electrophysiologically",
+        "significance": null
+      },
+      {
+        "citation": "Gabrb3 is required for the functional integration of pyramidal neuron subtypes in the somatosensory cortex (PMID: 36446382)",
+        "evidence_subtype": "expression",
+        "summary": "Gabrb3 is enriched in contralaterally projecting pyramidal neurons. Its ablation reduces GABAergic synapses, increases local network synchrony, and enhances contralateral functional connectivity and the response to tactile stimulation. In human ASD datasets, the spatial distribution of GABRB3 expression correlates with atypical connectivity.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Gabrb3 endothelial cell-specific knockout mice display abnormal blood flow, hypertension, and behavioral dysfunction (PMID: 35318369)",
+        "evidence_subtype": "function",
+        "summary": "Endothelial-specific deletion of Gabrb3 reduces vessel density in brain and heart and increases cortical red blood cell velocity and blood flow. It also causes hypertension, abnormal cardiac histology, and behavioral deficits including altered prepulse inhibition and reduced short-term memory. This indicates a role for endothelial GABAA receptor \u03b23 signaling in vascular and cardiac function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Meta-analysis of GABRB3 Gene Polymorphisms and Susceptibility to Autism Spectrum Disorder (PMID: 30074174)",
+        "evidence_subtype": "GWAS",
+        "summary": "A meta-analysis of two GABRB3 promoter SNPs (rs4906902 and rs20317) found no significant association with ASD risk.",
+        "sample_size": null,
+        "significance": "not significant"
+      },
+      {
+        "citation": "Genetic analysis of GABRB3 as a candidate gene of autism spectrum disorders (PMID: 24999380)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Rare GABRB3 variants, especially at the 5' regulatory region, were enriched in ASD patients. Reporter gene assays showed that four 5' regulatory variants and one exon 1a UTR variant raised reporter activity, suggesting increased GABRB3 expression may contribute to ASD in some patients.",
+        "sample_size": "356 ASD patients, 386 controls",
+        "significance": "rare variants OR=3.37, P=0.007; 5' regulatory variants P=0.006"
+      },
+      {
+        "citation": "Structure and organization of GABRB3 and GABRA5 (PMID: 9126483)",
+        "evidence_subtype": "other",
+        "summary": "GABRB3 spans about 250 kb and has 9 exons. It lies in the 15q11-q13 Prader-Willi/Angelman imprinted region in a cluster with GABRA5 and GABRG3.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2017 - Multi-system contributions to Gabrb3-related neurodevelopmental risk in utero",
+        "evidence_subtype": "other",
+        "summary": "In Gabrb3 heterozygous mice, LPS-induced maternal immune activation raised maternal cytokines and chemokines, increased placental necrosis, impaired neocortical progenitor proliferation, and altered neuronal subtype specification in the fetal brain. GABAA receptor agonist and antagonist treatment altered cytokine production in macrophages in vitro, suggesting GABRB3 modulates immune signaling.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Neuron-specific impairment of inter-chromosomal pairing and transcription in a novel model of human 15q-duplication syndrome",
+        "evidence_subtype": "cell_culture",
+        "summary": "In a SH-SY5Y neuronal model with a maternal 15q duplication, GABRB3 transcript levels were lower than expected without changes in promoter methylation. Homologous pairing of 15q11-q13 was disrupted and mapped to a ~500 kb region at the 3' end of GABRB3. MeCP2 and CTCF were required for this pairing, shown by RNAi.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

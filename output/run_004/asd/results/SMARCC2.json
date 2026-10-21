@@ -1,0 +1,177 @@
+{
+  "articles_found": {
+    "clinical": 15,
+    "model_organism": 6,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Long-read sequencing identifies a novel de novo inversion in SMARCC2 in a pediatric patient with Coffin-siris syndrome 8: a case report (PMID: 41291750)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "233 kb de novo inversion on chromosome 12 with breakpoint 1 disrupting SMARCC2 between exons 16 and 17",
+            "type": "other",
+            "phenotypes": [
+              "speech difficulties",
+              "behavioral issues",
+              "autism spectrum disorder",
+              "obsessive-compulsive disorder",
+              "attention-deficit/hyperactivity disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo structural variant disrupting SMARCC2, confirmed by Sanger sequencing; predicted loss of function/haploinsufficiency; consistent with CSS8",
+        "center_country": "Arab descent patient; center not stated in abstract (likely Middle East)",
+        "cohort": null
+      },
+      {
+        "citation": "Exome sequencing in severe non-syndromic specific learning and language disorders in a French cohort (PMID: 41168819)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "Pathogenic/likely pathogenic SMARCC2 variants in 2 patients (specific variants not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "severe specific learning disorder",
+              "language disorder",
+              "without intellectual disability or ASD"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Classified as pathogenic/likely pathogenic on exome sequencing",
+        "center_country": "France",
+        "cohort": null
+      },
+      {
+        "citation": "Sequencing of selected chromatin remodelling genes reveals increased burden of rare missense variants in ASD patients from the Japanese population (PMID: 35699097)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "One frame-shift variant in SMARCC2 (details not given in abstract)",
+            "type": "LoF",
+            "phenotypes": [
+              "ASD or schizophrenia (case cohort)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Rare frameshift variant identified in case-control targeted sequencing of BAF genes; not formally classified as pathogenic",
+        "center_country": "Japan",
+        "cohort": null
+      },
+      {
+        "citation": "Genomic landscape of autism spectrum disorder in Brazil (PMID: 42721435)",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "NM_001330288.2:c.415C>T (chr12:56184921G>A), stopgain; proband P_5, classified VUS; inherited status noted in table",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          },
+          {
+            "description": "P/LP SMARCC2 variant in a male proband with dual diagnosis along with SCN1A (specific variant not given)",
+            "type": "other",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Part of WES diagnostic analysis; one P/LP variant in dual molecular diagnosis; carrier-parent inheritance suggests incomplete penetrance or mild phenotype",
+        "center_country": "Brazil",
+        "cohort": null
+      },
+      {
+        "citation": "Clinical utility of genome sequencing in autism: illustrative examples from a genomic research study (PMID: 40169255)",
+        "num_patients": 1,
+        "variants": [
+          {
+            "description": "SMARCC2 de novo LoF variant (details not given)",
+            "type": "LoF",
+            "phenotypes": [
+              "autism spectrum disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo LoF variant in an autosomal dominant gene, returned as a genetic diagnosis",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Lattier et al. 2019? / Garcia-Alonso et al. 2019 - The functional landscape of the human phosphoproteome (PMID: 31819260)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Among the prioritized regulatory phosphosites that were experimentally validated, phosphosites in SMARCC2, a SWI/SNF chromatin-remodeling subunit, were found to have a role in neuronal differentiation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nuclear RIPK1 promotes chromatin remodeling to mediate inflammatory response (PMID: 35661830)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Nuclear RIPK1 physically associates with the BAF complex. Activated RIPK1 phosphorylates SMARCC2 to promote chromatin remodeling and transcription of specific proinflammatory genes. This was linked to enhancer/promoter occupancy in ALS models and human samples.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Chromatin remodeler BAF maintains HBV cccDNA transcriptional competence and represents a therapeutic target (PMID: 41665011)",
+        "evidence_subtype": "function",
+        "summary": "TurboID-dCas9 proximity labeling, ChIP-seq and DNA pull-down identified SMARCC2 bound to HBV cccDNA enhancer-promoter regions. There it sustains nucleosome-depleted regions and recruits RNA Pol II. BAF inhibition (FHT-2344) compacted cccDNA chromatin and reduced HBV RNA by 70% and serum DNA by 50%.",
+        "sample_size": null,
+        "significance": "P<.05 (serum HBV DNA); P<.01 (intrahepatic HBV RNA)"
+      },
+      {
+        "citation": "SMARCC2 mediates the regulation of DKK1 by the transcription factor EGR1 through chromatin remodeling to reduce the proliferative capacity of glioblastoma (PMID: 36418306)",
+        "evidence_subtype": "cell_culture",
+        "summary": "SMARCC2 expression is low in GBM compared with low-grade glioma. Knockout increased glioblastoma cell proliferation and overexpression decreased it, including in intracranial nude mouse xenografts. SMARCC2 closes chromatin at the DKK1 promoter (an EGR1 target), which dampens PI3K-AKT signaling. The SWIRM domain was more important than SANT for chromatin remodeling function.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SMARCC2 combined with c-Myc inhibits the migration and invasion of glioma cells via modulation of the Wnt/\u03b2-catenin signaling pathway (PMID: 34080022)",
+        "evidence_subtype": "expression",
+        "summary": "SMARCC2 mRNA and protein are higher in low-grade than high-grade glioma tissue, and higher expression is associated with better prognosis. Co-IP showed SMARCC2 binds c-Myc and downregulates it. SMARCC2 overexpression reduced migration and invasion and decreased N-cadherin, vimentin, SNAI1 and \u03b2-catenin, whereas knockdown increased migration.",
+        "sample_size": null,
+        "significance": "significant (p-values not given in abstract)"
+      },
+      {
+        "citation": "SMARCC2 silencing suppresses oncogenic activation through modulation of chromatin accessibility in breast cancer (PMID: 38852505)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In breast cancer cells, SMARCC2 silencing suppressed tumorigenesis, mammosphere formation and xenograft growth, and reduced cancer stem cell features, indicating a pro-tumorigenic role. ATAC-seq, RNA-seq and ChIP showed it downregulates Ras-PI3K signaling by controlling chromatin accessibility at enhancers of genes such as PIK3CB.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "HSP110 Regulates the Assembly of the SWI/SNF Complex (PMID: 40498025)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "The nuclear interactome of HSP110 is enriched for SWI/SNF components. HSP110 directly interacts with the core subunit SMARCC2 and facilitates SWI/SNF assembly, with chromatin association increased after temozolomide or oxaliplatin treatment.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "A novel SWI/SNF complex promotes triple-negative breast cancer progression (PMID: 40890601)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "ARID1B forms a novel SWI/SNF complex with SMARCC2 and SMARCB1 that transcriptionally represses ZNF382 and promotes TNBC proliferation and migration. ZNF382 knockdown rescue experiments tested the effects of inhibiting ARID1B, SMARCC2 and SMARCB1.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Machol et al. 2019 - Expanding the Spectrum of BAF-Related Disorders: De Novo Variants in SMARCC2 Cause a Syndrome with Intellectual Disability and Developmental Delay (PMID: 30580808)",
+        "evidence_subtype": "function",
+        "summary": "SMARCC2 (BAF170) is an invariable core BAF subunit important in embryogenesis and corticogenesis. De novo heterozygous variants cause a neurodevelopmental syndrome, with SANT/SWIRM domain variants giving more severe phenotypes. Fibroblast transcriptomics of affected individuals showed differential expression of H19, SCRG1, RELN and CACNB4.",
+        "sample_size": "15 individuals, 13 variants",
+        "significance": null
+      },
+      {
+        "citation": "Elucidating the clinical and molecular spectrum of SMARCC2-associated NDD in a cohort of 65 affected individuals (PMID: 37551667)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Co-immunoprecipitation, proximity-ligation assays and 3D modeling of missense variants showed decreased protein expression for N-terminal missense variants, similar to loss-of-gene-function variants. Non-truncating variants cluster in functional domains and are associated with more severe developmental delay than truncating variants.",
+        "sample_size": "65 individuals",
+        "significance": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,71 @@
+HDAC2 LITERATURE EVIDENCE REPORT: NEURODEVELOPMENTAL DISORDER, HETEROZYGOUS (AUTOSOMAL DOMINANT) VARIANTS
+
+1. GENE SUMMARY
+HDAC2 encodes histone deacetylase 2, a class I histone deacetylase. It removes acetyl groups from histones and other proteins and acts as a transcriptional corepressor, often together with HDAC1 in complexes such as NuRD, CoREST and Sin3. It regulates chromatin state, cell proliferation, differentiation and survival.
+
+2. CLINICAL EVIDENCE SUMMARY
+- Independent reports: Two, both conference abstracts from GeneDx (USA). No peer-reviewed case reports or case series were found.
+- Total patients: About 2 are explicitly counted. These are the two patients with de novo NMD-escaping protein-truncating variants (PTVs) in the 3' end of HDAC2 (ASHG 2022 - Systematic analysis of nonsense-mediated decay escaping protein-truncating variants in 97,728 clinical exomes identifies new Mendelian disease genes). The 2015 abstract (ASHG 2015 - Aggregated analysis of developmental disorders reveals novel risk genes and improves genetic diagnosis) reports no patient count. Its stated criterion was ≥2 de novo likely gene-disrupting (LGD) or damaging missense variants, which implies at least 2 individuals. These may overlap with the 2022 cases, which cannot be determined.
+- Phenotypes: The reports give only "syndromic neurodevelopmental disorder" (2022) and "undiagnosed developmental disorder / neurodevelopmental disorder" (2015). No detailed HPO terms, dysmorphology, growth or brain imaging findings are given. The 2022 abstract noted high phenotypic similarity among patients (phenopy).
+- Variant type: The 2022 variants are de novo PTVs in the NMD-escape region. Because these transcripts escape NMD, they may produce truncated protein with a gain-of-function or dominant-negative effect rather than simple haploinsufficiency. The 2015 abstract describes de novo LGD or damaging missense variants. No specific variant notation (HGVS) is given in either.
+- Cohorts: Both are GeneDx clinical cohorts (the 2022 study covered 97,728 exomes and 29,031 trios). None are from UDN, GREGoR, DDD, RUMC or GEL.
+- Statistical support: HDAC2 was described as significantly enriched for PTVesc de novo mutations in the 2022 abstract. The binomial p<0.001 cited applies to enriched genes in general, and no gene-specific statistics are given.
+- Strength of clinical evidence: LIMITED. The evidence consists of two abstracts, a very small number of cases, no variant-level or phenotype-level detail and no peer-reviewed publication.
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Organism: Mouse only, in the studies provided.
+- Studies:
+  - Full Hdac2 knockout affects neutrophil extracellular trap formation and sepsis outcomes (PMID: 40850685).
+  - Conditional Hdac1/2 codeletion in adult epidermis reduces proliferation and increases apoptosis (PMID: 34284046).
+  - Hdac1/2 depletion causes apoptosis of JAK2V617F myeloproliferative neoplasm cells while sparing normal hematopoietic stem cells (PMID: 40877230).
+  - Rack1 deletion destabilizes HDAC1/HDAC2 and impairs cerebellar development, and HDAC1/2 inhibition phenocopies this (PMID: 30765517).
+  - HDAC2 knockdown impairs pancreatic cancer metastasis (PMID: 34903606).
+- Neurological relevance: The only neurodevelopmental data are indirect. In the Rack1 study, reduced HDAC1/2 activity phenocopied the cerebellar morphogenesis defects (PMID: 30765517). This is not a direct Hdac2 knockout or heterozygous model, and HDAC1 and HDAC2 are not distinguished.
+- Lethality, Mendelian ratios, fertility and heterozygous phenotypes: None are reported. The relevant brain-specific Hdac2 phenotypes are not captured in the provided data.
+- Consistency with human phenotype: Largely unassessable. The cerebellar finding is compatible with a neurodevelopmental role, but the other studies concern immune, epidermal, hematologic and cancer biology.
+- Strength of model organism evidence: LIMITED. Most data come from cancer, immune or epidermal contexts, often with HDAC1 redundancy, and heterozygous or neurodevelopmental phenotypes are not directly modeled.
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Pathways and function: HDAC2 acts as a transcriptional repressor. It participates in Wnt/β-catenin signaling (PMID: 30958531; PMID: 36267089), Hedgehog/GLI signaling (PMID: 33629464), and AKT/mTOR and EGFR signaling (PMID: 38822351). It also acts in a YY1/HDAC2 repressor complex (PMID: 35974388). Its protein levels are controlled post-translationally by the E3 ligase RCHY1 (PMID: 31630802), ARHGAP4-mediated ubiquitination (PMID: 30958531), and SENP1-mediated de-SUMOylation (PMID: 38822351).
+- Neural relevance: In neural stem cells, HDAC2 and HDAC3 have overlapping and distinct promoter occupancy at neuronal and oligodendrocyte genes. HDAC2 directly represses Sox8 and Sox10, and HDAC2 loss with T3 increased oligodendrocyte gene expression, whereas HDAC3 loss, but not HDAC2 loss, initiated neuronal differentiation (PMID: 25241747). This supports a role in neural lineage specification. Cerebellar Hedgehog signaling also depends on HDAC1/2 (PMID: 30765517).
+- Expression: The provided data do not include brain or developmental expression profiles. Expression findings relate to upregulation in tumors (e.g., breast cancer, 30 tumor/30 normal pairs, PMID: 32777446).
+- Other findings: HDAC2 or HDAC1 knockdown induces gamma globin without affecting proliferation (PMID: 25808664).
+- Limitations: Most experiments are in cancer cell lines. None test the patient variants functionally.
+- Strength of biological evidence: MODERATE for HDAC2 as a chromatin regulator with plausible relevance to neurodevelopment. LIMITED for direct evidence linking it to the proposed disease mechanism.
+
+5. OVERALL ASSESSMENT
+- Overall evidence level: LIMITED
+- Key strengths:
+  - Two independent GeneDx abstracts nominate HDAC2 as a candidate gene based on de novo variants.
+  - The 2022 analysis found enrichment of de novo NMD-escaping PTVs and phenotypic similarity among patients.
+  - HDAC2 is a well-characterized chromatin regulator with a role in neural stem cell fate (PMID: 25241747) and cerebellar development (PMID: 30765517).
+  - Other histone modifiers are established NDD genes.
+- Key gaps and limitations:
+  - There is no peer-reviewed clinical report.
+  - Only about 2 patients are documented, with no variant details, inheritance confirmation or phenotypic characterization.
+  - Mechanism is unclear (loss vs gain of function, given the NMD-escape PTVs).
+  - There are no functional studies of patient variants.
+  - Model organism data lack direct neurodevelopmental Hdac2 phenotypes or heterozygous models.
+  - The overlap between the two abstracts is unknown.
+- Conclusion: HDAC2 is a plausible candidate gene for a dominant neurodevelopmental disorder. This rests on a small number of de novo variants in two abstracts and on its biological role in chromatin regulation and neural development. The available evidence is limited and does not support a definitive gene-disease association. Publication of detailed case series, variant-level functional studies and neuron-specific or heterozygous animal models are needed to establish the association.
+
+## REFERENCES
+
+
+### Model Organism Evidence
+1. 2025 - HDAC2 enhances the antimicrobial activity of neutrophils by promoting the formation of neutrophil extracellular traps (NETs) in sepsis (PMID: 40850685)
+2. 2021 - HDAC1/2 Control Proliferation and Survival in Adult Epidermis and Pre-Basal Cell Carcinoma through p16 and p53 (PMID: 34284046)
+3. 2025 - The deacetylases HDAC1/HDAC2 control JAK2(V617F)-STAT signaling through the ubiquitin ligase SIAH2 (PMID: 40877230)
+4. 2019 - Opposite regulation of Wnt/β-catenin and Shh signaling pathways by Rack1 controls mammalian cerebellar development (PMID: 30765517)
+5. 2021 - HDAC2 Facilitates Pancreatic Cancer Metastasis (PMID: 34903606)
+
+### Biological Evidence
+1. ARHGAP4 regulates the cell migration and invasion of pancreatic cancer by the HDAC2/β-catenin signaling pathway (PMID: 30958531)
+2. HDAC2 Induces DNA Methyltransferase DNMT3B Expression to Regulate the Wnt Signaling Pathway and Thus Promotes Glioma Development and Progression (PMID: 36267089)
+3. GPR126 regulates colorectal cancer cell proliferation by mediating HDAC2 and GLI2 expression (PMID: 33629464)
+4. N6-methyladenosine-modified SENP1, identified by IGF2BP3, ... activating AKT signal via de-SUMOylating HDAC2 (PMID: 38822351)
+5. YTHDC1 is downregulated by the YY1/HDAC2 complex and controls the sensitivity of ccRCC to sunitinib by targeting the ANXA1-MAPK pathway (PMID: 35974388)
+6. E3 ligase RCHY1 negatively regulates HDAC2 (PMID: 31630802)
+7. Neural stem cell differentiation is dictated by distinct actions of nuclear receptor corepressors and histone deacetylases (PMID: 25241747)
+8. MiR-646 prevents proliferation and progression of human breast cancer cell lines by suppressing HDAC2 expression (PMID: 32777446)
+9. Inactivation of HDAC1 or HDAC2 induces gamma globin expression without altering cell cycle or proliferation (PMID: 25808664)

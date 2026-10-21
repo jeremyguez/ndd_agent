@@ -1,0 +1,83 @@
+{
+  "articles_found": {
+    "clinical": 0,
+    "model_organism": 3,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [],
+    "biological": [
+      {
+        "citation": "Straub et al. 2018 - Missense Variants in RHOBTB2 Cause a Developmental and Epileptic Encephalopathy in Humans, and Altered Levels Cause Neurological Defects in Drosophila (PMID: 29276004)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Elevated levels of the Drosophila ortholog RhoBTB in vivo caused seizure susceptibility and severe locomotor defects. RhoBTB knockdown in dendritic arborization neurons reduced dendrite number, suggesting a role in dendritic development. In HEK293 cells, BTB-domain missense mutants of RHOBTB2 were more abundant than wild-type, probably because of impaired proteasomal degradation.",
+        "sample_size": "10 individuals with de novo BTB-domain missense variants",
+        "significance": null
+      },
+      {
+        "citation": "Belal et al. 2018 - De novo variants in RHOBTB2, an atypical Rho GTPase gene, cause epileptic encephalopathy (PMID: 29768694)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In Neuro-2a cells, three de novo RHOBTB2 mutants were more abundant than wild-type. CUL3 coexpression reduced wild-type RHOBTB2 but not the mutants, indicating impaired CUL3-dependent degradation. Precise regulation of RHOBTB2 levels appears essential for normal brain function.",
+        "sample_size": "3 patients",
+        "significance": null
+      },
+      {
+        "citation": "Mutant-specific dysfunction of RHOBTB2 impairs mitochondrial function and Na(+)/K(+)-ATPase levels in a cell model (PMID: 41478322)",
+        "evidence_subtype": "cell_culture",
+        "summary": "In a doxycycline-inducible cell model, hotspot mutants (R461H, R485C, R489Q) raised RHOBTB2 protein levels with nuclear and mitochondrial accumulation. R489Q downregulated ion channel genes in RNA-seq. Mutants reduced Na+/K+-ATPase via lysosomal degradation, and R489Q and W217C impaired mitochondrial respiration. The cancer-associated Y284D mutant did not share these phenotypes.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Berthold et al. 2004 - RhoBTB2 is a substrate of the mammalian Cul3 ubiquitin ligase complex (PMID: 15107402)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "RhoBTB2 binds Cul3 through its first BTB domain and is a substrate of a Cul3-based ubiquitin ligase in vitro and in vivo. A lung cancer missense mutant cannot bind Cul3 and escapes proteasomal regulation, so its protein levels rise. Rhobtb2 is homozygously deleted in 3.5% of primary breast cancers, and its expression is lost in about 50% of breast and lung cancer cell lines.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Hsp90-dependent assembly of the DBC2/RhoBTB2-Cullin3 E3-ligase complex (PMID: 24608665)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "DBC2/RhoBTB2 is an Hsp90 client protein that associates with Hsp90 and its co-chaperones in reticulocyte lysate and MCF7 cells. It retains GTP binding, which is modulated by the Hsp90 ATPase cycle. Assembly of the DBC2-Cullin3-COP9 E3 ligase complex depends on Hsp90.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "DBC2/RhoBTB2 functions as a tumor suppressor protein via Musashi-2 ubiquitination in breast cancer (PMID: 27941885)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "A cDNA-library in vitro ubiquitination screen identified Musashi-2 (MSI2) as a DBC2 substrate. DBC2 binds MSI2 directly and promotes its polyubiquitination and proteasomal degradation, suppressing MSI2-linked oncogenic functions and inducing apoptosis. DBC2 and MSI2 protein levels are inversely correlated in breast tissue microarrays.",
+        "sample_size": "breast cancer tissue microarray",
+        "significance": null
+      },
+      {
+        "citation": "RhoBTB Proteins Regulate the Hippo Pathway by Antagonizing Ubiquitination of LKB1 (PMID: 32111652)",
+        "evidence_subtype": "pathway",
+        "summary": "RhoBTB depletion in the Drosophila wing disc cooperated with Yki to drive neoplasia. RhoBTB2 depletion in human cells raised YAP activity and increased anchorage-independent colony formation. It also reduced LKB1 protein and increased LKB1 ubiquitination, and restoring LKB1 rescued RhoBTB loss in Drosophila.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RHOBTB2 enhances cell proliferation of acute myeloid leukemia by modulating Hippo-YAP1 signaling and dependent of KLHL13 (PMID: 41107424)",
+        "evidence_subtype": "cell_culture",
+        "summary": "RHOBTB2 is upregulated in AML and tracks with poor prognosis. In KG-1 and MOLM-13 cells, overexpression increased proliferation and migration and suppressed apoptosis, while silencing had the opposite effects. RHOBTB2 binds KLHL13 (co-IP) and stabilizes it by blocking proteasomal degradation, acting through Hippo-YAP1 signaling.",
+        "sample_size": "KG-1 and MOLM-13 AML cell lines",
+        "significance": null
+      },
+      {
+        "citation": "Freeman et al. 2007 - RhoBTB2 (DBC2) is a mitotic E2F1 target gene with a novel role in apoptosis (PMID: 18039672)",
+        "evidence_subtype": "pathway",
+        "summary": "RHOBTB2 is a direct transcriptional target of E2F1: E2F1 overexpression raised its mRNA and protein, and E2F1 knockdown lowered its protein. Expression is strongly upregulated in mitosis and during drug-induced apoptosis, partly depending on E2F1. RHOBTB2 knockdown delayed drug-induced apoptosis.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "RhoBTB2 gene in breast cancer is silenced by promoter methylation (PMID: 24356943)",
+        "evidence_subtype": "expression",
+        "summary": "RhoBTB2 promoter methylation and mRNA downregulation were found in breast tumor tissue compared with matched normal tissue. Methylated samples had lower mRNA, and methylation was enriched in progesterone receptor-negative tumors.",
+        "sample_size": "50 paired breast cancer and normal tissues",
+        "significance": "p<0.001"
+      }
+    ]
+  }
+}

@@ -1,0 +1,410 @@
+{
+ "gene": "H2AC6",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "neurodevelopmental disorders",
+   "NDD",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurological development",
+   "developmental disorder of the nervous system",
+   "impaired neurodevelopment",
+   "neurodevelopmental impairment",
+   "developmental brain disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "H2AFL",
+   "HIST1H2AC",
+   "H2A clustered histone 6"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 20,
+  "titlekicksparingfulltext": 8,
+  "read": 6
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 17,
+   "Existing": 63,
+   "Hypothesized": 15,
+   "Novel": 5
+  },
+  "justification": "Two large human de novo mutation studies implicate H2AC6 (HIST1H2AC) in NDD: Coe et al. (PMID 30559488) lists HIST1H2AC among genes with an excess of severe missense DNMs in developmental delay/autism cohorts, and Wang et al. (PMID 33004838) reports H2AC6 reaching FDR-level (not family-wise) significance for de novo missense enrichment across >17,000 NDD trios, noting it was initially selected as a CNV candidate gene. This constitutes credible human genetic evidence of association but falls short of replicated, clinically characterized probands with gene-level causal proof, and the cohorts substantially overlap. The RNU4-2 paper (PMID 38991538) merely cites H2AC6 as a previously NDD-associated gene (background citation, not new evidence), and the SMARCB1 and DNAJC6 papers mention H2AC6 only incidentally as a structural partner or differentially expressed histone. Therefore \"Existing\" is the most appropriate category, with some residual probability for \"Established\".",
+  "pmids": [],
+  "detail": {
+   "Established": 17,
+   "Existing": 63,
+   "Hypothesized": 15,
+   "Novel": 5
+  }
+ },
+ "articles": [
+  {
+   "pmid": "39563460",
+   "title": "A novel mutation in SMARCB1 associated with adult Coffin-Siris syndrome and meningioma.",
+   "abstract": "SMARCB1 encodes a core subunit of the SWI/SNF chromatin remodeling complex, which plays a crucial role in the regulation of gene expression. Germline mutations in the SMARCB1 gene have been linked to early childhood Coffin-Siris syndrome type 3 (CSS3), a rare congenital malformation syndrome characterized by severe developmental delay and intellectual disability. In this study, we report a family of two adult CSS3 patients with a novel missense SMARCB1 mutation (c.1091A>C, p.Lys364Thr) identified through whole-exome sequencing (WES). Both patients exhibit selective difficulties in verbal learning and experience language delays. Additionally, the development of meningioma is confirmed in one of the patients. Mechanistic studies suggest that this missense mutation may abnormally activate the MAPK signaling pathway, which is implicated in the pathogenesis of tumor progression and neurodevelopmental disorders. This is the first reported case of a germline mutation in the SMARCB1 gene associated with both CSS3 and meningioma, thereby expanding the phenotypic spectrum of SMARCB1-related disorders. [full text, passages naming H2AC6] ...occurred in the C-terminal domain (CTD) of the SMARCB1 protein and were specifically concentrated at amino acids 352--377. These amino acids are crucial for the interaction of SMARCB1 with histones, including H2AC6 and H2BC4, facilitating the chromatin remodeling and gene expression mediated by the SWI/SNF complex ( Figure 4 B). These findings suggest that mutations in the CTD of the SMARCB1 protein may impair the f... ...distribution of reported pathogenic SMARCB1 variants with base changes in green and amino acid changes in red. (B) Representative images of the crystal structure, including the interactions between SMARCB1 and H2AC6 or H2BC4. Additionally, we identified four germline mutations associated with meningiomas, primarily located in the N-terminal region of the SMARCB1 protein ( Figure 4 A and Supplementary Table S1 )[ 46 \u2013...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38991538",
+   "title": "De novo variants in the RNU4-2 snRNA cause a frequent neurodevelopmental syndrome.",
+   "abstract": "Around 60% of individuals with neurodevelopmental disorders (NDD) remain undiagnosed after comprehensive genetic testing, primarily of protein-coding genes1. Large genome-sequenced cohorts are improving our ability to discover new diagnoses in the non-coding genome. Here we identify the non-coding RNA RNU4-2 as a syndromic NDD gene. RNU4-2 encodes the U4 small nuclear RNA (snRNA), which is a critical component of the U4/U6.U5 tri-snRNP complex of the major spliceosome2. We identify an 18\u2009base pair region of RNU4-2 mapping to two structural elements in the U4/U6 snRNA duplex (the T-loop and stem III) that is severely depleted of variation in the general population, but in which we identify heterozygous variants in 115 individuals with NDD. Most individuals (77.4%) have the same highly recurrent single base insertion (n.64_65insT). In 54 individuals in whom it could be determined, the de novo variants were all on the maternal allele. We demonstrate that RNU4-2 is highly expressed in the developing human brain, in contrast to RNU4-1 and other U4 homologues. Using RNA sequencing, we show how 5' splice-site use is systematically disrupted in individuals with RNU4-2 variants, consistent with the known role of this region during spliceosome activation. Finally, we estimate that variants in this 18\u2009base pair region explain 0.4% of individuals with NDD. This work underscores the importance of non-coding genes in rare disorders and will provide a diagnosis to thousands of individuals with NDD worldwide. [full text, passages naming H2AC6] ...ive of the genes implicated in the 12 shared events are in the Developmental Disorders Genotype-to-Phenotype (DDG2P) database and/or were associated with NDD in a previous large-scale analysis 21 ( 22 NDUFV1 , H2AC6 , JMJD1C , MAP4K4 and SF1 ). Ten of the 12 shared events affect the protein-coding sequence, with four predicted to cause a frameshift (Extended Data Table 3 ). Collectively, these results indicate a syst...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "33004838",
+   "title": "Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders.",
+   "abstract": "Most genes associated with neurodevelopmental disorders (NDDs) were identified with an excess of de novo mutations (DNMs) but the significance in case-control mutation burden analysis is unestablished. Here, we sequence 63 genes in 16,294 NDD cases and an additional 62 genes in 6,211 NDD cases. By combining these with published data, we assess a total of 125 genes in over 16,000 NDD cases and compare the mutation burden to nonpsychiatric controls from ExAC. We identify 48 genes (25 newly reported) showing significant burden of ultra-rare (MAF\u2009<\u20090.01%) gene-disruptive mutations (FDR 5%), six of which reach family-wise error rate (FWER) significance (p\u2009<\u20091.25E-06). Among these 125 targeted genes, we also reevaluate DNM excess in 17,426 NDD trios with 6,499 new autism trios. We identify 90 genes enriched for DNMs (FDR 5%; e.g., GABRG2 and UIMC1); of which, 61 reach FWER significance (p\u2009<\u20093.64E-07; e.g., CASZ1). In addition to doubling the number of patients for many NDD risk genes, we present phenotype-genotype correlations for seven risk genes (CTCF, HNRNPU, KCNQ3, ZBTB18, TCF12, SPEN, and LEO1) based on this large-scale targeted sequencing effort. [full text, passages naming H2AC6] .... One gene, NCKAP1 , shows evidence of increased mutational burden for LGD variants ( q mutBurden = 0.07), while six genes show excess DNM, namely SF3B1 (dnMIS q dnEnrich = 0.068 and dnALT q dnEnrich = 0.074), H2AC6 (dnMIS q dnEnrich = 0.053), and NFIA (dnALT q dnEnrich = 0.086) in the CH model and ARID2 (dnLGD q dnEnrich = 0.094), TNRC6B (dnLGD q dnEnrich = 0.097), and DNM1 (dnLGD q dnEnrich = 0.071) under the denov... ...s (excluding sample overlap and redundancy). Across those samples, four of the seven candidate genes reach some level of significance: 31 ARID2 and DNM1 are significant for excess DNM at FWER significance, and H2AC6 and SF3B1 show excess DNM (FDR 5%). Overall, in this expanded de novo enrichment analysis, we estimate that at least 102 of the 125 genes in this study show a significant excess of DNM after adding the SP... ...g with: (i) 43 genes showing excess DNM ; (ii) 14 genes with evidence of autism sex bias 25 ; (iii) six genes from a network analysis of high-functioning autism indicated previously 40 ; (iv) and two genes ( 3 H2AC6 and H1-4 ) that were considered within a CNV candidate. In panel hcNDD, we continually reselected 62 top candidate genes from our previous smMIP panels , mainly ranked by the reported number of DNMs from...",
+   "found_by": [],
+   "pubdate": "2020",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38242634",
+   "title": "Neurodevelopmental and synaptic defects in DNAJC6 parkinsonism, amenable to gene therapy.",
+   "abstract": "DNAJC6 encodes auxilin, a co-chaperone protein involved in clathrin-mediated endocytosis (CME) at the presynaptic terminal. Biallelic mutations in DNAJC6 cause a complex, early-onset neurodegenerative disorder characterized by rapidly progressive parkinsonism-dystonia in childhood. The disease is commonly associated with additional neurodevelopmental, neurological and neuropsychiatric features. Currently, there are no disease-modifying treatments for this condition, resulting in significant morbidity and risk of premature mortality. To investigate the underlying disease mechanisms in childhood-onset DNAJC6 parkinsonism, we generated induced pluripotent stem cells (iPSC) from three patients harbouring pathogenic loss-of-function DNAJC6 mutations and subsequently developed a midbrain dopaminergic neuronal model of disease. When compared to age-matched and CRISPR-corrected isogenic controls, the neuronal cell model revealed disease-specific auxilin deficiency as well as disturbance of synaptic vesicle recycling and homeostasis. We also observed neurodevelopmental dysregulation affecting ventral midbrain patterning and neuronal maturation. To explore the feasibility of a viral vector-mediated gene therapy approach, iPSC-derived neuronal cultures were treated with lentiviral DNAJC6 gene transfer, which restored auxilin expression and rescued CME. Our patient-derived neuronal model provides deeper insights into the molecular mechanisms of auxilin deficiency as well as a robust platform for the development of targeted precision therapy approaches. [full text, passages naming H2AC6] ...pplementary Table 3 ). In Patient 1 versus CRISPR Patient P1, downregulated DEGs showed a strong enrichment in histones that are involved in \u2018Wnt signalling\u2019 ( H2BC8 , H2BC6 , H2BC7 , H2BC5 , H2BC21 , H2BC11 , H2AC6 , H2BC4 , H4C5 , H2AC8 , H2AJ , H2BC12 , H2BC15 , H3-3B ). In all patients versus Control 1, a large number of genes (total 50 genes) are involved in \u2018extracellular matrix organization\u2019 ( COL2A1 , COL3A1...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38943682",
+   "title": "Ash1l loss-of-function results in structural birth defects and altered cortical development.",
+   "abstract": "The histone methyltransferase ASH1L plays a crucial role in regulating gene expression across various organ systems during development, yet its role in brain development remains largely unexplored. Over 130 individuals with autism harbour heterozygous loss-of-function ASH1L variants, and population studies confirm it as a high-risk autism gene. Previous studies on Ash1l deficient mice have reported autistic-like behaviours and provided insights into the underlying neuropathophysiology. In this study, we used mice with a cre-inducible deletion of Ash1l exon 4, which results in a frame shift and premature stop codon (p.V1693Afs*2). Our investigation evaluated the impact of Ash1l loss-of-function on survival and craniofacial skeletal development. Using a tamoxifen-inducible cre strain, we targeted Ash1l knockout early in cortical development [Emx1-Cre-ERT2; embryonic Day (e) 10.5]. Immunohistochemistry was utilized to assess cortical lamination, while EdU incorporation aided in birthdating cortical neurons. Additionally, single-cell RNA sequencing was employed to compare cortical cell populations and identify genes with differential expression. At e18.5, the proportion of homozygous Ash1l germline knockout embryos appeared normal; however, no live Ash1l null pups were present at birth (e18.5: n = 77, P = 0.90; p0: n = 41, P = 0.00095). Notably, Ash1l-/- exhibited shortened nasal bones (n = 31, P = 0.017). In the cortical-specific knockout model, SATB2 neurons showed increased numbers (n = 6/genotype, P = 0.0001) and were distributed through the cortical plate. Birthdating revealed generation of ectopically placed deep layer neurons that express SATB2 (e13.5 injection: n = 4/genotype, P = 0.0126). Single cell RNA sequencing revealed significant differences in gene expression between control and mutant upper layer neurons, leading to distinct clustering. Pseudotime analysis indicated that the mutant cluster followed an altered cell differentiation trajectory. This study underscores the essential role of Ash1l in postnatal survival and normal craniofacial development. In the cortex, ASH1L exerts broad effects on gene expression and is indispensable for determining the fate of upper layer cortical neurons. These findings provide valuable insights into the potential mechanisms of ASH1L neuropathology, shedding light on its significance in neurodevelopmental disorders like autism.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30559488",
+   "title": "Neurodevelopmental disease genes implicated by de novo mutation and copy number variation morbidity.",
+   "abstract": "We combined de novo mutation (DNM) data from 10,927 individuals with developmental delay and autism to identify 253 candidate neurodevelopmental disease genes with an excess of missense and/or likely gene-disruptive (LGD) mutations. Of these genes, 124 reach exome-wide significance (P\u2009<\u20095\u2009\u00d7\u200910-7) for DNM. Intersecting these results with copy number variation (CNV) morbidity data shows an enrichment for genomic disorder regions (30/253, likelihood ratio (LR)\u2009+1.85, P\u2009=\u20090.0017). We identify genes with an excess of missense DNMs overlapping deletion syndromes (for example, KIF1A and the 2q37 deletion) as well as duplication syndromes, such as recurrent MAPK3 missense mutations within the chromosome 16p11.2 duplication, recurrent CHD4 missense DNMs in the 12p13 duplication region, and recurrent WDFY4 missense DNMs in the 10q11.23 duplication region. Network analyses of genes showing an excess of DNMs highlights functional networks, including cell-specific enrichments in the D1+\u2009and D2+\u2009spiny neurons of the striatum. [full text, passages naming H2AC6] ...SMC3 \u2020 , SNAPC5 * \u2020 , SNX5 * \u2020 , SUSD4 \u2020 , SYT1 \u2020 , TAOK1 \u2020 , TMEM178A * \u2020 , TMEM42 \u2020 , TNPO3 \u2020 , TRAF7 \u2020 , TRRAP \u2020 , UNC80 \u2020 , VAMP2 \u2020 , WDFY4 \u2020 , YWHAG \u2020 MIS30 | | ACTC1 \u2020 , AGO3 \u2020 , CACNA1E \u2020 , FAM104A \u2020 , HIST1H2AC \u2020 , KIF5C \u2020 , PACS2 * \u2020 , PAPOLG \u2020 , PDK2 \u2020 , SEPT10 \u2020 , STC1 \u2020 , TAF1 * \u2020 , TNPO2 * \u2020 , U2AF2 \u2020 Missense & MIS30 | | CDK13 * \u2020 , CHD3 * \u2020 , COL4A3BP * \u2020 , CSNK2A1 * \u2020 , CTCF * \u2020 , DNMT3A * \u2020 , DYNC1H...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "37641095": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40988222": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36358254": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28178938": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19253275": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31097152": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34565095": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30782612": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32457836": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39563460": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38991538": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33004838": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38242634": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38943682": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42448663": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33257673": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30559488": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29745895": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30453621": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20071532": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.7,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 229,
+   "usd": 0.007465,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "3 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 17.4,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 590,
+   "output_tokens": 42,
+   "usd": 0.0008,
+   "calls": 1
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 39.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 8842,
+   "output_tokens": 284,
+   "usd": 0.010262,
+   "calls": 2
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 9.4,
+   "note": "",
+   "input_tokens": 6397,
+   "output_tokens": 755,
+   "usd": 0.05086,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>17</established>\n    <existing>63</existing>\n    <hypothesized>15</hypothesized>\n    <novel>5</novel>\n  </probabilities>\n  <justification>Two large human de novo mutation studies implicate H2AC6 (HIST1H2AC) in NDD: Coe et al. (PMID 30559488) lists HIST1H2AC among genes with an excess of severe missense DNMs in developmental delay/autism cohorts, and Wang et al. (PMID 33004838) reports H2AC6 reaching FDR-level (not family-wise) significance for de novo missense enrichment across >17,000 NDD trios, noting it was initially selected as a CNV candidate gene. This constitutes credible human genetic evidence of association but falls short of replicated, clinically characterized probands with gene-level causal proof, and the cohorts substantially overlap. The RNU4-2 paper (PMID 38991538) merely cites H2AC6 as a previously NDD-associated gene (background citation, not new evidence), and the SMARCB1 and DNAJC6 papers mention H2AC6 only incidentally as a structural partner or differentially expressed histone. Therefore \"Existing\" is the most appropriate category, with some residual probability for \"Established\".</justification>\n  <pmids>\n    <pmid>33004838</pmid>\n    <pmid>30559488</pmid>\n    <pmid>38991538</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,686 @@
+{
+ "gene": "RFX3",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "pervasive developmental disorder",
+   "PDD",
+   "autistic features",
+   "autistic behavior",
+   "infantile autism",
+   "Kanner syndrome",
+   "autistic traits"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "regulatory factor X3"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 53,
+  "titlekicksparingfulltext": 16,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 82,
+   "Existing": 15,
+   "Hypothesized": 3,
+   "Novel": 0
+  },
+  "justification": "PMID 33658631 reports its own cohort of individuals (15 with RFX3 variants, mostly de novo frameshift, splice-site, and missense changes) presenting ASD, intellectual disability, and ADHD, providing multi-proband human genetic evidence that singles out RFX3. Independent case reports add replication: PMID 40200712 documents RFX3 haploinsufficiency identified by long-read genome sequencing in an adolescent with autism and intellectual disability, and PMID 37717291 describes a patient with infantile epileptic spasms syndrome and ASD carrying an RFX3 mutation (with PMID 42653242 reporting a second IESS case via a 9p24.2 deletion involving RFX3, which is supportive though CNV-based). Functional human stem cell/organoid work (PMIDs 40060598, 38827400, 40552535) mechanistically corroborates that RFX3 loss-of-function disrupts neuronal differentiation, synaptic and activity-dependent gene programs, and ciliogenesis, and RFX3 is a SFARI category 1 gene. Together these constitute replicated human variant-level evidence plus mechanism, supporting an Established classification, with residual probability on Existing given the modest number of fully independent SNV-level probands outside the original cohort.",
+  "pmids": [],
+  "detail": {
+   "Established": 82,
+   "Existing": 15,
+   "Hypothesized": 3,
+   "Novel": 0
+  }
+ },
+ "articles": [
+  {
+   "pmid": "38827400",
+   "title": "Defining cis-regulatory elements and transcription factors that control human cortical interneuron development.",
+   "abstract": "Although human cortical interneurons (cINs) are a minority population in the cerebral cortex, disruption of interneuron development is a frequent contributor to neurodevelopmental disorders. Here, we utilized a model for deriving cINs from human embryonic stem cells to profile chromatin state changes and generate an atlas of cis-regulatory elements (CREs) controlling human cIN development. We used these data to define candidate transcription factors (TFs) that may bind these CREs to regulate interneuron progenitor specification. Among these were RFX3 and RFX4, risk genes for autism spectrum disorder (ASD) with uncharacterized roles in human neuronal development. Using RFX3 and RFX4 knockdown models, we demonstrated new requirements for both genes in interneuron progenitor specification, with RFX3 deficiency causing precocious neuronal differentiation while RFX4 deficiency instead resulted in cessation of progenitor cell proliferation. Together, this work both defined central features of cis-regulatory control and identified new TF requirements for human interneuron development.",
+   "found_by": [],
+   "pubdate": "2024 Jun 21",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40200712",
+   "title": "Long-Read Genome Sequencing in Clinical Psychiatry: RFX3 Haploinsufficiency in a Hospitalized Adolescent With Autism, Intellectual Disability, and Behavioral Decompensation.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2025 Aug 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "33658631",
+   "title": "Disruption of RFX family transcription factors causes autism, attention-deficit/hyperactivity disorder, intellectual disability, and dysregulated behavior.",
+   "abstract": "PURPOSE: We describe a novel neurobehavioral phenotype of autism spectrum disorder (ASD), intellectual disability, and/or attention-deficit/hyperactivity disorder (ADHD) associated with de novo or inherited deleterious variants in members of the RFX family of genes. RFX genes are evolutionarily conserved transcription factors that act as master regulators of central nervous system development and ciliogenesis. METHODS: We assembled a cohort of 38 individuals (from 33 unrelated families) with de novo variants in RFX3, RFX4, and RFX7. We describe their common clinical phenotypes and present bioinformatic analyses of expression patterns and downstream targets of these genes as they relate to other neurodevelopmental risk genes. RESULTS: These individuals share neurobehavioral features including ASD, intellectual disability, and/or ADHD; other frequent features include hypersensitivity to sensory stimuli and sleep problems. RFX3, RFX4, and RFX7 are strongly expressed in developing and adult human brain, and X-box binding motifs as well as RFX ChIP-seq peaks are enriched in the cis-regulatory regions of known ASD risk genes. CONCLUSION: These results establish a likely role of deleterious variation in RFX3, RFX4, and RFX7 in cases of monogenic intellectual disability, ADHD and ASD, and position these genes as potentially critical transcriptional regulators of neurobiological pathways associated with neurodevelopmental disease pathogenesis.",
+   "found_by": [],
+   "pubdate": "2021 Jun",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40060598",
+   "title": "Multi-omic analysis of the ciliogenic transcription factor RFX3 reveals a role in promoting activity-dependent responses via enhancing CREB binding in human neurons.",
+   "abstract": "Heterozygous loss-of-function (LoF) variants in RFX3, a transcription factor known to play key roles in ciliogenesis, result in autism spectrum disorder (ASD) and neurodevelopmental delay. RFX binding motifs are also enriched upstream of genes found to be commonly dysregulated in transcriptomic analyses of brain tissue from individuals with idiopathic ASD. Still, the precise functions of RFX3 in the human brain is unknown. Here, we studied the impact of RFX3 deficiency using human iPSC-derived neurons and forebrain organoids. Biallelic loss of RFX3 disrupted ciliary gene expression and delayed neuronal differentiation, while monoallelic loss of RFX3 did not. Instead, transcriptomic and DNA binding analyses demonstrated that monoallelic RFX3 loss disrupted synaptic target gene expression and diminished neuronal activity-dependent gene expression. RFX3 binding sites co-localized with CREB binding sites near activity-dependent genes, and RFX3 deficiency led to decreased CREB binding and impaired induction of CREB targets in response to neuronal depolarization. This study demonstrates a novel role of the ASD-associated gene RFX3 in shaping neuronal synaptic development and plasticity.",
+   "found_by": [],
+   "pubdate": "2025 Mar 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "40552535",
+   "title": "Ciliary biology intersects autism and congenital heart disease.",
+   "abstract": "Autism spectrum disorder (ASD) and congenital heart disease (CHD) frequently co-occur, yet the underlying molecular mechanisms of this comorbidity remain unknown. Given that children with CHD are identified as newborns, understanding which CHD variants are associated with autism could help select individuals for early intervention. Autism gene perturbations commonly dysregulate neural progenitor cell (NPC) biology, so we hypothesized that CHD genes disrupting neurogenesis are more likely to increase ASD risk. Therefore, we performed an in vitro pooled CRISPR interference screen to identify CHD genes disrupting NPC biology and identified 45 CHD genes. A cluster of ASD and CHD genes are enriched for ciliary biology, and perturbing any one of seven such genes (CEP290, CHD4, KMT2E, NSD1, OFD1, RFX3 and TAOK1) impairs primary cilia formation in vitro. In vivo investigation of TAOK1 in Xenopus tropicalis reveals a role in motile cilia formation and heart development, supporting its prediction as a CHD gene. Together, our findings highlight a set of CHD genes that may carry risk for ASD and underscore the role of cilia in shared ASD and CHD biology.",
+   "found_by": [],
+   "pubdate": "2025 Jun 15",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42653242",
+   "title": "RFX3 Pathogenic Variants as a Rare Cause of Infantile Epileptic Spasms Syndrome.",
+   "abstract": "Regulatory Factor X3 (RFX3-OMIM#601337) encodes a transcription factor that is highly expressed in the human brain, particularly during neurodevelopment. It has been previously associated with neurodevelopmental disorders, including autism spectrum disorder (ASD), intellectual developmental disorder, and attention-deficit/hyperactivity disorder. However, the neurological and epileptic features remain poorly characterized, and no phenotype has yet been formally annotated in OMIM. Here, we report the second known case of Infantile Epileptic Spasms Syndrome (IESS) associated with RFX3 variants. The patient developed clusters of extensor spasms associated with eye deviation and achieved complete remission within two weeks following vigabatrin and ACTH therapy, remaining seizure-free thereafter. During follow-up, he presented with global developmental delay, ASD, and facial dysmorphisms. Genetic analysis by array comparative genomic hybridization identified a de novo heterozygous microdeletion of approximately 147 kb at 9p24.2, involving the initial exons of RFX3 (NM_134428). This case expands the clinical spectrum associated with RFX3 variants, supporting a potential role in IESS and early neurodevelopmental disruption. It highlights the relevance of including RFX3 in the genetic evaluation of patients with IESS and co-occurring neurodevelopmental disorders.",
+   "found_by": [],
+   "pubdate": "2026 Aug 13",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "37717291",
+   "title": "A case of infantile epileptic spasms syndrome and autism spectrum disorder with an RFX3 mutation.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2023 Nov",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "25844147",
+   "title": "Complex nature of apparently balanced chromosomal rearrangements in patients with autism spectrum disorder.",
+   "abstract": "BACKGROUND: Apparently balanced chromosomal rearrangements can be associated with an abnormal phenotype, including intellectual disability and autism spectrum disorder (ASD). Genome-wide microarrays reveal cryptic genomic imbalances, related or not to the breakpoints, in 25% to 50% of patients with an abnormal phenotype carrying a microscopically balanced chromosomal rearrangement. Here we performed microarray analysis of 18 patients with ASD carrying balanced chromosomal abnormalities to identify submicroscopic imbalances implicated in abnormal neurodevelopment. METHODS: Eighteen patients with ASD carrying apparently balanced chromosomal abnormalities were screened using single nucleotide polymorphism (SNP) arrays. Nine rearrangements were de novo, seven inherited, and two of unknown inheritance. Genomic imbalances were confirmed by fluorescence in situ hybridization and quantitative PCR. RESULTS: We detected clinically significant de novo copy number variants in four patients (22%), including three with de novo rearrangements and one with an inherited abnormality. The sizes ranged from 3.3 to 4.9\u00a0Mb; three were related to the breakpoint regions and one occurred elsewhere. We report a patient with a duplication of the Wolf-Hirschhorn syndrome critical region, contributing to the delineation of this rare genomic disorder. The patient has a chromosome 4p inverted duplication deletion, with a 0.5\u00a0Mb deletion of terminal 4p and a 4.2\u00a0Mb duplication of 4p16.2p16.3. The other cases included an apparently balanced de novo translocation t(5;18)(q12;p11.2) with a 4.2\u00a0Mb deletion at the 18p breakpoint, a subject with de novo pericentric inversion inv(11)(p14q23.2) in whom the array revealed a de novo 4.9\u00a0Mb deletion in 7q21.3q22.1, and a patient with a maternal inv(2)(q14.2q37.3) with a de novo 3.3\u00a0Mb terminal 2q deletion and a 4.2\u00a0Mb duplication at the proximal breakpoint. In addition, we identified a rare de novo deletion of unknown significance on a chromosome unrelated to the initial rearrangement, disrupting a single gene, RFX3. CONCLUSIONS: These findings underscore the utility of SNP arrays for investigating apparently balanced chromosomal abnormalities in subjects with ASD or related neurodevelopmental disorders in both clinical and research settings.",
+   "found_by": [],
+   "pubdate": "2015",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41137173",
+   "title": "Whole-genome sequencing reveals individual and cohort level insights into chromosome 9p syndromes.",
+   "abstract": "BACKGROUND: Previous genomic efforts on chromosome 9p deletion and duplication syndromes have utilized low-resolution strategies (i.e., karyotypes, chromosome microarrays). These studies have provided important initial insights into these syndromes. This current study is the first large-scale whole-genome sequencing (WGS) study of 100 individuals from families with chromosome 9p syndromes. METHODS: Through the newly formed 9P-ARCH (Advanced Research in Chromosomal Health: Genomic, Phenotypic, and Functional Aspects of 9p-Related syndromes) research network, we assembled a cohort of individuals from families with chromosome 9p syndromes. WGS was applied to 100 individuals, and other genomic technologies were applied to a subset of individuals. To prioritize genes on 9p, we utilized two independent approaches: statistical analyses of genomic data and spatial transcriptomic profiling of embryonic mouse tissue. To assess the enrichment of DNVs within genomic regions, we developed a computational tool, DiamondsDenovo ( https://github.com/TNTurnerLab/DiamondsDenovo ). RESULTS: Unlike previous low-resolution studies, we analyzed the genomic architecture of chromosome 9p syndromes, highlighting fundamental features and their commonalities and differences across individuals. A machine-learning model was developed to predict 9p deletion syndrome based on gene copy number estimates using WGS data. We identified two late-replicating regions containing most structural variant breakpoints in 9p deletion syndrome, pointing to replication-based issues as a potential cause of structural variant formation in most individuals and structural rearrangements in some individuals. Genes on 9p were prioritized based on statistical assessment of human genomic variation and through spatial transcriptomics, with 24 genes (AK3, BRD10, CD274, CDC37L1, DMRT1, DMRT2, DMRT3, DOCK8, GLIS3, JAK2, KANK1, KDM4C, PLPP6, PTPRD, PUM3, RANBP6, RCL1, RFX3, RIC1, SLC1A1, SMARCA2, UHRF2, VLDLR, and ZNG1A) identified as important for the majority (83%) of individuals with 9p deletion syndrome. Testing of the mitochondrial genome revealed excess copy number in individuals with 9p deletion syndrome. CONCLUSIONS: This study introduces the 9P-ARCH research network that is actively pursuing genomic, phenotypic, and functional aspects of 9p-related syndromes. We advanced the study of 9p-related syndromes both at the individual level and across the cohort through the largest, most comprehensive genomic analysis of 9p-related syndromes to date.",
+   "found_by": [],
+   "pubdate": "2025 Oct 24",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "12411430",
+   "title": "Role for RFX transcription factors in non-neuronal cell-specific inactivation of the microtubule-associated protein MAP1A promoter.",
+   "abstract": "Microtubule-associated protein MAP1A is expressed abundantly in mature neurons and is necessary for maintenance of neuronal morphology and localization of some molecules in association with the microtubule-based cytoskeleton. Previous studies indicated that its complementary expression together with MAP1B during nervous system development is regulated at the transcriptional level and that the mouse Map1A gene is transcribed under the control of 5' and intronic promoters. In this study, we investigated the regulatory mechanisms that govern the neuronal cell-specific activation of the MAP1A 5' promoter. We found that two regulatory factor for X box (RFX) binding sites in exon1 of both the mouse and human genes are important for effective transcriptional repression observed only in non-neuronal cells by reporter assays. Among RFX transcription factor family members, RFX1 and 3 mainly interact with repressive elements in vitro. Cotransfection studies indicated that RFX1, which is expressed ubiquitously, down-regulated the MAP1A 5' promoter activity in non-neuronal cells. Unexpectedly, RFX3, which is abundantly expressed in neuronal cells, down-regulated the transactivity as well, when it was expressed in non-neuronal cells. Both RFX1 and 3 did not down-regulate the transactivity in neuronal cells. These results suggest that RFX1 and 3 are pivotal factors in down-regulation of the MAP1A 5' promoter in non-neuronal cells. The cell type-specific down-regulation, however, does not depend simply on which RFX interacts with the elements, but seems to depend on underlying profound mechanisms.",
+   "found_by": [],
+   "pubdate": "2003 Jan 3",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "26071364",
+   "title": "The role of primary cilia in corpus callosum formation is mediated by production of the Gli3 repressor.",
+   "abstract": "Agenesis of the corpus callosum (AgCC) is a frequent brain disorder found in over 80 human congenital syndromes including ciliopathies. Here, we report a severe AgCC in Ftm/Rpgrip1l knockout mouse, which provides a valuable model for Meckel-Gr\u00fcber syndrome. Rpgrip1l encodes a protein of the ciliary transition zone, which is essential for ciliogenesis in several cell types in mouse including neuroepithelial cells in the developing forebrain. We show that AgCC in Rpgrip1l(-/-) mouse is associated with a disturbed location of guidepost cells in the dorsomedial telencephalon. This mislocalization results from early patterning defects and abnormal cortico-septal boundary (CSB) formation in the medial telencephalon. We demonstrate that all these defects primarily result from altered GLI3 processing. Indeed, AgCC, together with patterning defects and mispositioning of guidepost cells, is rescued by overexpressing in Rpgrip1l(-/-) embryos, the short repressor form of the GLI3 transcription factor (GLI3R), provided by the Gli3(\u0394699) allele. Furthermore, Gli3(\u0394699) also rescues AgCC in Rfx3(-/-) embryos deficient for the ciliogenic RFX3 transcription factor that regulates the expression of several ciliary genes. These data demonstrate that GLI3 processing is a major outcome of primary cilia function in dorsal telencephalon morphogenesis. Rescuing CC formation in two independent ciliary mutants by GLI3(\u0394699) highlights the crucial role of primary cilia in maintaining the proper level of GLI3R required for morphogenesis of the CC.",
+   "found_by": [],
+   "pubdate": "2015 Sep 1",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "28877752",
+   "title": "SPEN, a new player in primary cilia formation and cell migration in breast cancer.",
+   "abstract": "BACKGROUND: The primary cilium is a microtubule-based and nonmotile organelle functioning as a cellular antenna that is involved in the regulation of cell proliferation, differentiation, and migration. In breast cancer cells, the primary cilium is a structure that decreases in incidence with increasing degrees of transformation and may be biologically more important in estrogen receptor (ER\u03b1)-negative breast cancer cells. Split ends (SPEN) is an ER\u03b1 corepressor that we have identified as a tumor suppressor protein in ER\u03b1-positive breast cancer cells whose hormone-independent roles in breast cancer have never been explored. METHODS: We determined the hormone-independent transcriptional program regulated by the ER\u03b1 cofactor SPEN in breast cancer using DNA microarrays. The biological functions regulated by SPEN independently of hormones were studied in vitro in ER\u03b1-positive and ER\u03b1-negative breast cancer cells. Finally, we examined the clinical relevance of SPEN expression in cohorts of breast cancer samples with outcome data. RESULTS: We found that SPEN is coexpressed with a number of genes involved in ciliary biology, including the ciliogenic transcription factor RFX3, in a hormone-independent manner. SPEN reexpression in T47D cells containing a nonsense mutation in SPEN restored the primary cilium, whereas its knockdown in MCF10A and Hs578T cells considerably decreased primary cilia levels. We also report that SPEN regulates migration in breast cells, but only in those harboring primary cilia, and that KIF3A silencing, a critical factor in primary cilia, partially reverses SPEN's effects, suggesting that SPEN may coordinate cellular movement through primary cilia-dependent mechanisms. Finally, we found that high SPEN RNA levels were predictive of early metastasis in two independent cohorts of 77 (HR 2.25, P\u2009=\u20090.03) and 170 (HR\u2009=\u20092.23, P\u2009=\u20090.004) patients with ER\u03b1-negative breast cancer. CONCLUSIONS: Together, our data demonstrate a role for SPEN in the regulation of primary cilia formation and cell migration in breast cancer cells, which may collectively explain why its expression is associated with time to metastasis in cohorts of patients with ER\u03b1-negative breast cancers.",
+   "found_by": [],
+   "pubdate": "2017 Sep 6",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "29740017",
+   "title": "ATOH1/RFX1/RFX3 transcription factors facilitate the differentiation and characterisation of inner ear hair cell-like cells from patient-specific induced pluripotent stem cells harbouring A8344G mutation of mitochondrial DNA.",
+   "abstract": "Degeneration or loss of inner ear hair cells (HCs) is irreversible and results in sensorineural hearing loss (SHL). Human-induced pluripotent stem cells (hiPSCs) have been employed in disease modelling and cell therapy. Here, we propose a transcription factor (TF)-driven approach using ATOH1 and regulatory factor of x-box (RFX) genes to generate HC-like cells from hiPSCs. Our results suggest that ATOH1/RFX1/RFX3 could significantly increase the differentiation capacity of iPSCs into MYO7AmCherry-positive cells, upregulate the mRNA expression levels of HC-related genes and promote the differentiation of HCs with more mature stereociliary bundles. To model the molecular and stereociliary structural changes involved in HC dysfunction in SHL, we further used ATOH1/RFX1/RFX3 to differentiate HC-like cells from the iPSCs from patients with myoclonus epilepsy associated with ragged-red fibres (MERRF) syndrome, which is caused by A8344G mutation of mitochondrial DNA (mtDNA), and characterised by myoclonus epilepsy, ataxia and SHL. Compared with isogenic iPSCs, MERRF-iPSCs possessed ~42-44% mtDNA with A8344G mutation and exhibited significantly elevated reactive oxygen species (ROS) production and CAT gene expression. Furthermore, MERRF-iPSC-differentiated HC-like cells exhibited significantly elevated ROS levels and MnSOD and CAT gene expression. These MERRF-HCs that had more single cilia with a shorter length could be observed only by using a non-TF method, but those with fewer stereociliary bundle-like protrusions than isogenic iPSCs-differentiated-HC-like cells could be further observed using ATOH1/RFX1/RFX3 TFs. We further analysed and compared the whole transcriptome of M1ctrl-HCs and M1-HCs after treatment with ATOH1 or ATOH1/RFX1/RFX3. We revealed that the HC-related gene transcripts in M1ctrl-iPSCs had a significantly higher tendency to be activated by ATOH1/RFX1/RFX3 than M1-iPSCs. The ATOH1/RFX1/RFX3 TF-driven approach for the differentiation of HC-like cells from iPSCs is an efficient and promising strategy for the disease modelling of SHL and can be employed in future therapeutic strategies to treat SHL patients.",
+   "found_by": [],
+   "pubdate": "2018 Apr 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41726886",
+   "title": "Intellectual disability risk gene RFX4 regulates cortical neurogenesis by restraining neuronal differentiation.",
+   "abstract": "Despite the recent identification of RFX4 as a neurodevelopmental disorder risk gene, its role in cortical development remained unclear. Here, we identified both shared and lineage-specific RFX4 requirements for human cortical development using new human stem cell models of deficiency and pathogenic mutation. We found that RFX4 restrains neurogenesis by acting cooperatively with NOTCH signaling, specifically repressing pro-neuronal and synaptic gene expression in neural progenitors. We also determined that genome-wide binding of RFX3, another neurodevelopmental disorder risk gene, depends upon RFX4 to regulate synaptic gene expression. Furthermore, we identified lineage-specific functions for RFX4 in regulating proliferation during cortical inhibitory neuron development. Ultimately, we demonstrated that RFX4 deficiency persistently dysregulates neuronal gene expression through neuronal differentiation and disrupts cortical neuron stratification in organoid models. These consequences were absent in neurons generated by direct differentiation, confirming that neuronal phenotypes resulted from unconstrained neurogenesis. Finally, we modeled pathogenic missense mutation of the RFX4 DNA-binding domain. While this mutation strongly reduced DNA binding, it dysregulated synaptic gene expression distinctly from our deficiency models, supporting pathogenic mechanisms distinct from haploinsufficiency. Together, this work identified both shared and lineage-specific requirements for RFX4 during cortical development, building a necessary foundation for elucidating the etiology of RFX4-associated disorders.",
+   "found_by": [],
+   "pubdate": "2026 Feb 17",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming RFX3] ...B1 , POGZ , POLA2 , POLR3G , PPP1R16B , PPP1R9B , PPP2R5D , PPP5C , PRKG2 , PRR12 , PRR14L , PRSS12 , PSMD6 , PSMD11 , PTCHD1/PTCHD1-AS , PTEN , PTK7 , PTPN11 , PTPRE , QRICH1 , RAI1 , RASGRP1 , RBM27 , RELN , RFX3 , RNF114 , RNH1 , RORB , RUFY1 , RUNX1T1 , RYR2 , RYR3 , SATB1 , SATB2 , SCG5 , SCN1A , SCN2A , SCN3A , SCN7A , SCN8A , SCN10A , SETD1A , SETD5 , SEZ6L2 , SFMBT2 , SHANK1 , SHANK2 , SHANK3 , SHARPIN , SIN3...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40440618",
+   "title": "Deep-embedded clustering by relevant scales and genome-wide association study in autism.",
+   "abstract": "Autism spectrum disorder (ASD) presents with heterogeneous phenotypic and genetic characteristics. Despite investigation into the molecular mechanisms underlying ASD, its etiology remains elusive. In our previous investigation within the Simons Simplex Collection (SSC), we noted increased signals through a genome-wide association study (GWAS) by clustering patients with ASD and reducing the sample size. This study seeks to validate our previous study in a different population, the Simons Foundation Powering Autism Research for Knowledge (SPARK) population, while probing further into the genetic architecture of ASD. We examined data from 2,079 white male subjects and 875 unaffected SPARK siblings. Our methodology encompassed cluster analyses, followed by traditional GWAS and cluster-based GWAS (cGWAS). No significant associations were observed in the conventional GWAS when comparing all patients with all controls. However, in the cGWAS, by comparing patients clustered by phenotypes with controls, we identified 27 chromosomal loci meeting the criteria of p\u2009<\u20095.0\u2009\u00d7\u200910\u2009\u207b\u20098. Remarkably, several of these loci were situated within or in proximity to genes previously implicated as candidates for ASD. Nonetheless, our previous study of the SSC population did not fully replicate the SPARK population. The absence of reproducibility suggests the possibility of false positives within the cGWAS results due to potential technical factors. However, the emergence of multiple signals post-clustering and the association of numerous identified gene regions with ASD and related disorders provide supporting evidence for the validity of cGWAS outcomes. [full text, passages naming RFX3] ...f more than nine cases following clustering are shown in Table 2 . Several loci were identified either within or near the genes linked to the Human Gene module of the SFARI Gene scoring system [ 6 ], including RFX3 (score 1, Rare Single Gene Mutation, Syndromic) in Cluster 15; HCN1 (score S, Rare Single Gene Mutation, Genetic Association) in Cluster 18; CSMD1 (score 3, Rare Single Gene Mutation, Genetic Association)... ...NCOR2, SCARB1 | 14 | 14 | 83919384 | A | C | 1.76% | 13.53 | (5.31\u201334.44) | 4.72 \u00d7 10 | 8 intergenic | LINC02301, SNORD3P3 | 16 | 9 | 3529465 | C | G | 2.67% | 8.53 | (4.05\u201317.96) | 1.71 \u00d7 10 | 8 intergenic | RFX3, RFX3-AS1 | 17 | 7 | 7702162 | C | G | 2.30% | 7.43 | (3.64\u201315.18) | 3.68 \u00d7 10 | 8 intronic | RPA3, UMAD1 | 19 | 5 | 44729840 | C | T | 1.84% | 38.83 | (10.91\u2013138.2) | 1.61 \u00d7 10 | 8 intergenic | LINC02224,... ..., SCARB1 | 14 | 14 | 83919384 | A | C | 1.76% | 13.53 | (5.31\u201334.44) | 4.72 \u00d7 10 | 8 intergenic | LINC02301, SNORD3P3 | 16 | 9 | 3529465 | C | G | 2.67% | 8.53 | (4.05\u201317.96) | 1.71 \u00d7 10 | 8 intergenic | RFX3, RFX3-AS1 | 17 | 7 | 7702162 | C | G | 2.30% | 7.43 | (3.64\u201315.18) | 3.68 \u00d7 10 | 8 intronic | RPA3, UMAD1 | 19 | 5 | 44729840 | C | T | 1.84% | 38.83 | (10.91\u2013138.2) | 1.61 \u00d7 10 | 8 intergenic | LINC02224, MRPS3...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38751214",
+   "title": "Short tandem repeat expansions in cortical layer-specific genes implicate in phenotypic severity and adaptability of autism spectrum disorder.",
+   "abstract": "AIM: Short tandem repeats (STRs) are repetitive DNA sequences and highly mutable in various human disorders. While the involvement of STRs in various genetic disorders has been extensively studied, their role in autism spectrum disorder (ASD) remains largely unexplored. In this study, we aimed to investigate genetic association of STR expansions with ASD using whole genome sequencing (WGS) and identify risk loci associated with ASD phenotypes. METHODS: We analyzed WGS data of 634 ASD families and performed genome-wide evaluation for 12,929 STR loci. We found rare STR expansions that exceeded normal repeat lengths in autism cases compared to unaffected controls. By integrating single cell RNA and ATAC sequencing datasets of human postmortem brains, we prioritized STR loci in genes specifically expressed in cortical development stages. A deep learning method was used to predict functionality of ASD-associated STR loci. RESULTS: In ASD cases, rare STR expansions predominantly occurred in early cortical layer-specific genes involved in neurodevelopment, highlighting the cellular specificity of STR-associated genes in ASD risk. Leveraging deep learning prediction models, we demonstrated that these STR expansions disrupted the regulatory activity of enhancers and promoters, suggesting a potential mechanism through which they contribute to ASD pathogenesis. We found that individuals with ASD-associated STR expansions exhibited more severe ASD phenotypes and diminished adaptability compared to non-carriers. CONCLUSION: Short tandem repeat expansions in cortical layer-specific genes are associated with ASD and could potentially be a risk genetic factor for ASD. Our study is the first to show evidence of STR expansion associated with ASD in an under-investigated population. [full text, passages naming RFX3] ...cific genes associated with the \u2018microtubule\u2010based process\u2019 GO term (GO:0007017) (Supplementary Table 6 ) include ASD\u2010related risk genes, such as STAG1 (harboring nine intronic STR expansions in ASD cases) and RFX3 (harboring one intronic STR expansion in an ASD\u2010affected subject). , 43 44 To evaluate whether rare STRs disrupt CREs with distal gene regulation, we examined the cell type\u2010specific effects of STR expansio...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42553683",
+   "title": "Epidemiological characteristics of comorbidities in childhood Attention-Deficit/Hyperactivity Disorder and common comorbidity patterns.",
+   "abstract": "OBJECTIVE: This study aims to explore the epidemiological features of medical and psychological comorbidities among children with Attention-Deficit/Hyperactivity Disorder (ADHD) and analyze the comorbidity profiles. The findings are expected to enhance clinical recognition of comorbid conditions and provide evidence for early screening and intervention. METHODS: A retrospective analysis was performed on children diagnosed with ADHD at Children's Hospital of Nanjing Medical University between December 2015 and January 2025. Comorbidity was operationalized as ADHD accompanied by at least one other chronic condition or health problem in this study. The 10 most prevalent chronic conditions and health problems were defined based on parental medical history, on-site physical examinations, and blood sample testing. Systematic cluster analysis and principal component analysis (PCA) were employed to explore the comorbidity patterns in children with ADHD. RESULTS: A total of 52,098 children diagnosed withs ADHD were enrolled in this study, including 41,124 males, accounting for 78.9% of the total study population. The age distribution showed that 92.6% of the children were aged 6-11 years. Among all enrolled subjects, 10,797 children (20.7%) had comorbid chronic conditions or health problems. Tic disorder was the most common comorbid condition. Regarding comorbidity combinations, the most frequent one was the co-occurrence of intellectual disability and autism spectrum disorder (ASD), with a total of 189 cases (n = 189, 25.7%). PCA identified a core comorbidity pattern for ADHD: tic disorders, intellectual disabilities, epilepsy, sleep problems, and obesity. CONCLUSION: Comorbid conditions are not rare among pediatric ADHD populations. The burden imposed by comorbidity in children with ADHD is substantial and thus cannot be neglected in clinical management. Based on the comorbidity patterns identified in this study, comprehensive clinical assessment covering both ADHD and its potential comorbidities, as well as integrated, individualized intervention strategies, are essential to optimize the long-term outcomes and quality of life for children with ADHD. [full text, passages naming RFX3] ...s with both intellectual disability and ASD exhibits clinically significant inattention, hyperactivity, and/or impulsive behaviors ( 23 ). Additionally, Holly K. et al. identified potential harmful variants in RFX3, RFX4, and RFX7 genes across patients with intellectual disability, ADHD, and ASD, providing preliminary insights into the genetic basis of their comorbidity ( 24 ). The comorbidity of epilepsy and ADHD re...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40169255",
+   "title": "Clinical utility of genome sequencing in autism: illustrative examples from a genomic research study.",
+   "abstract": "BACKGROUND: Genetics is an important contributor to autism spectrum disorder (ASD). Clinical guidelines endorse genetic testing in the medical workup of ASD, particularly tests that use whole genome sequencing (WGS) technology. While the clinical utility of genetic testing in ASD is demonstrated, the breadth of impact of results can depend on the variant and/or gene being reported. METHODS: We reviewed research results returned to families enrolled in our ASD WGS study between 2012 and 2023. For significant results, we grouped the outcome of each genetic finding into three outcome categories: (1) genetic diagnosis, (2) counselling benefits and (3) support to family. RESULTS: Out of 202 families who received genome sequencing results, 100 had at least one clinically relevant finding related to ASD. With detailed examples, we show that all significant results led to a genetic diagnosis and counselling benefits. CONCLUSION: Our findings show the relevance of genome sequencing in ASD and provide illustrative examples of how the information can be used. [full text, passages naming RFX3] ...Y | Y | | | TMLHE 67 | | ADNP AD | De novo | LoF | Y | Y | | NA | 68 | | MECP2 XL | De novo | LoF | Y | Y | | NA | 69 | | POGZ AD | Unknown | LoF | Y | Y | | NA | 70 | | NEXMIF XL | De novo | LoF | Y | Y | | | RFX3 71 | | KMT2A AD | De novo | LoF | Y | Y | Y | NA | 72 | | CNOT3 AD | De novo | LoF | Y | Y | Y | | KDM6B 73 | | SHANK2 AD | De novo | LoF | Y | Y | Y | | ATP1A3 74 | | SET AD | De novo | LoF | Y | Y | | NA...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "34768579",
+   "title": "Genotype-Phenotype Correlations in Relation to Newly Emerging Monogenic Forms of Autism Spectrum Disorder and Associated Neurodevelopmental Disorders: The Importance of Phenotype Reevaluation after Pangenomic Results.",
+   "abstract": "ASD genetic diagnosis has dramatically improved due to NGS technologies, and many new causative genes have been discovered. Consequently, new ASD phenotypes have emerged. An extensive exome sequencing study carried out by the Autism Sequencing Consortium (ASC) was published in February 2020. The study identified 102 genes which are de novo mutated in subjects affected by autism spectrum disorder (ASD) or similar neurodevelopmental disorders (NDDs). The majority of these genes was already known to be implicated in ASD or NDDs, whereas approximately 30 genes were considered \"novel\" as either they were not previously associated with ASD/NDDs or very little information about them was present in the literature. The aim of this work is to review the current literature since the publication of the ASC paper to see if new data mainly concerning genotype-phenotype correlations of the novel genes have been added to the existing one. We found new important clinical and molecular data for 6 of the 30 novel genes. Though the broad and overlapping neurodevelopmental phenotypes observed in most monogenic forms of NDDs make it difficult for the clinical geneticist to address gene-specific tests, knowledge of these new data can at least help to prioritize and interpret results of pangenomic tests to some extent. Indeed, for some of the new emerging genes analyzed in the present work, specific clinical features emerged that may help the clinical geneticist to make the final diagnosis by associating the genetic test results with the phenotype. The importance of this relatively new approach known as \"reverse phenotyping\" will be discussed. [full text, passages naming RFX3] ...| VEZF1 | Gene expression regulation | - | ZMYND8 | Gene expression regulation | - | | SATB1 Gene expression regulation | Severe ID and epilepsy (patients with missense variants), eye and dental anomalies | | RFX3 Gene expression regulation | Distinct behavioral issues | PPP5C | Other | | TRIM23 | Other | | ELAVL3 | Gene expression regulation | | | GRIA2 Neuronal communication | Rett-like features/hyperventilation |... ...lso different between the two NDD groups. Commonly reported anomalies: eye and dental abnormalities, dysmorphic facial features | RFX gene family | Gene expression regulation | [ | 8 ] Fifteen individuals with RFX3 variants | Two frameshift variants, two splice donor variants, eight missense variants, one in-frame deletion, one 42 Kb deletion involving the last two exons of | RFX3 , and one 227 Kb deletion involving... ...ation | [ | 8 ] Fifteen individuals with RFX3 variants | Two frameshift variants, two splice donor variants, eight missense variants, one in-frame deletion, one 42 Kb deletion involving the last two exons of | RFX3 , and one 227 Kb deletion involving only RFX3 de novo (14) and inherited (1) | 100% developmental delay: 72% ASD and ID of varying severity or global developmental delay in young children (78%) and ADHD (5...",
+   "found_by": [],
+   "pubdate": "2021",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "32832699": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27103454": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41959023": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36045400": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42484714": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29396371": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31235600": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31338326": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29520036": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29879923": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31237926": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24585447": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30123371": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19930592": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34352411": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42837462": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38827400": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40200712": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "33658631": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40060598": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40552535": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42653242": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "37717291": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "25844147": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41137173": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12411430": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26071364": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28877752": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29740017": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41726886": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41766387": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25631876": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42026014": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41824641": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27451412": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42499009": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40440618": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "41220606": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38751214": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "42553683": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40169255": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38409172": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42082754": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34768579": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "38850535": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42479105": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42231312": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41729076": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33679889": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39056758": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33338084": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34827633": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 185,
+   "usd": 0.006355,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 9.0,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 92.6,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 8.7,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "19 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "7 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "31 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "22 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 3.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 2290,
+   "output_tokens": 104,
+   "usd": 0.00281,
+   "calls": 4
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 70.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 24779,
+   "output_tokens": 859,
+   "usd": 0.029074,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.9,
+   "note": "",
+   "input_tokens": 15760,
+   "output_tokens": 969,
+   "usd": 0.103025,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>82</established>\n    <existing>15</existing>\n    <hypothesized>3</hypothesized>\n    <novel>0</novel>\n  </probabilities>\n  <justification>PMID 33658631 reports its own cohort of individuals (15 with RFX3 variants, mostly de novo frameshift, splice-site, and missense changes) presenting ASD, intellectual disability, and ADHD, providing multi-proband human genetic evidence that singles out RFX3. Independent case reports add replication: PMID 40200712 documents RFX3 haploinsufficiency identified by long-read genome sequencing in an adolescent with autism and intellectual disability, and PMID 37717291 describes a patient with infantile epileptic spasms syndrome and ASD carrying an RFX3 mutation (with PMID 42653242 reporting a second IESS case via a 9p24.2 deletion involving RFX3, which is supportive though CNV-based). Functional human stem cell/organoid work (PMIDs 40060598, 38827400, 40552535) mechanistically corroborates that RFX3 loss-of-function disrupts neuronal differentiation, synaptic and activity-dependent gene programs, and ciliogenesis, and RFX3 is a SFARI category 1 gene. Together these constitute replicated human variant-level evidence plus mechanism, supporting an Established classification, with residual probability on Existing given the modest number of fully independent SNV-level probands outside the original cohort.</justification>\n  <pmids>\n    <pmid>33658631</pmid>\n    <pmid>40200712</pmid>\n    <pmid>37717291</pmid>\n    <pmid>42653242</pmid>\n    <pmid>40060598</pmid>\n    <pmid>38827400</pmid>\n    <pmid>40552535</pmid>\n    <pmid>34768579</pmid>\n    <pmid>40169255</pmid>\n    <pmid>40440618</pmid>\n  </pmids>\n</response>"
+}

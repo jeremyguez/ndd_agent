@@ -1,0 +1,690 @@
+{
+ "gene": "H1-4",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "diaphragmatic hernia, congenital",
+   "congenital hernia of the diaphragm",
+   "congenital diaphragmatic defect",
+   "hernia diaphragmatica congenita",
+   "Bochdalek hernia",
+   "posterolateral diaphragmatic hernia",
+   "Morgagni hernia",
+   "retrosternal diaphragmatic hernia",
+   "congenital herniation of abdominal viscera into the thorax"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "H1.4",
+   "H1F4",
+   "HIST1H1E",
+   "H1E",
+   "H1S-4",
+   "H1.4 linker histone, cluster member"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 61,
+  "titlekicksparingfulltext": 20,
+  "read": 15
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 5,
+   "Hypothesized": 19,
+   "Novel": 75
+  },
+  "justification": "The H1-4 (HIST1H1E) literature is dominated by Rahman syndrome \u2014 frameshift variants in the C-terminal tail causing intellectual disability, distinctive facies, overgrowth, premature aging, and occasional skeletal/cardiac anomalies (PMIDs 28475857, 31400068, 31447100, 33270410) \u2014 with no report of congenital diaphragmatic hernia in any proband. The only article co-mentioning diaphragmatic hernia is a UK Biobank adult height Mendelian randomisation study (PMID 30355295), where HIST1H1E merely appears within a large \"protein kinase A signalling\" pathway gene list for adult (acquired/hiatal-type) diaphragmatic hernia, not a congenital malformation, and no variant-level association to CDH is reported. Other papers are purely mechanistic/in vitro (chromatin compaction, phase separation; PMIDs 34788807, 42173878) or involve unrelated phenotypes (ovarian cancer, craniosynostosis, spontaneous abortion CNVs spanning the histone cluster), the latter being multigene CNVs that cannot implicate H1-4 specifically. There is therefore no human genetic evidence linking H1-4 variants to CDH, and only a very weak, pathway-level biological rationale, so Novel is most likely with a modest allowance for Hypothesized.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 5,
+   "Hypothesized": 19,
+   "Novel": 75
+  }
+ },
+ "articles": [
+  {
+   "pmid": "33270410",
+   "title": "HIST1H1E Syndrome.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "1993",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "31910894",
+   "title": "Frameshift mutations at the C-terminus of HIST1H1E result in a specific DNA hypomethylation signature.",
+   "abstract": "BACKGROUND: We previously associated HIST1H1E mutations causing Rahman syndrome with a specific genome-wide methylation pattern. RESULTS: Methylome analysis from peripheral blood samples of six affected subjects led us to identify a specific hypomethylated profile. This \"episignature\" was enriched for genes involved in neuronal system development and function. A computational classifier yielded full sensitivity and specificity in detecting subjects with Rahman syndrome. Applying this model to a cohort of undiagnosed probands allowed us to reach diagnosis in one subject. CONCLUSIONS: We demonstrate an epigenetic signature in subjects with Rahman syndrome that can be used to reach molecular diagnosis.",
+   "found_by": [],
+   "pubdate": "2020 Jan 7",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "28475857",
+   "title": "Mutations in Epigenetic Regulation Genes Are a Major Cause of Overgrowth with Intellectual Disability.",
+   "abstract": "To explore the genetic architecture of human overgrowth syndromes and human growth control, we performed experimental and bioinformatic analyses of 710 individuals with overgrowth (height and/or head circumference \u2265+2 SD) and intellectual disability (OGID). We identified a causal mutation in 1 of 14 genes in 50% (353/710). This includes HIST1H1E, encoding histone H1.4, which has not been associated with a developmental disorder previously. The pathogenic HIST1H1E mutations are predicted to result in a product that is less effective in neutralizing negatively charged linker DNA because it has a reduced net charge, and in DNA binding and protein-protein interactions because key residues are truncated. Functional network analyses demonstrated that epigenetic regulation is a prominent biological process dysregulated in individuals with OGID. Mutations in six epigenetic regulation genes-NSD1, EZH2, DNMT3A, CHD8, HIST1H1E, and EED-accounted for 44% of individuals (311/710). There was significant overlap between the 14 genes involved in OGID and 611 genes in regions identified in GWASs to be associated with height (p = 6.84\u00a0\u00d7 10-8), suggesting that a common variation impacting function of genes involved in OGID influences height at a population level. Increased cellular growth is a hallmark\u00a0of cancer and there was striking overlap between the genes involved in OGID and 260 somatically mutated cancer driver genes (p = 1.75\u00a0\u00d7 10-14). However, the mutation spectra of genes involved in OGID and cancer differ, suggesting complex genotype-phenotype relationships. These data reveal insights into the genetic control of human growth and demonstrate that exome sequencing in OGID has a high diagnostic yield.",
+   "found_by": [],
+   "pubdate": "2017 May 4",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36118902",
+   "title": "An additional whole-exome sequencing study in 102 panel-undiagnosed patients: A retrospective study in a Chinese craniosynostosis cohort.",
+   "abstract": "Craniosynostosis (CRS) is a disease with prematurely fused cranial sutures. In the last decade, the whole-exome sequencing (WES) was widely used in Caucasian populations. The WES largely contributed in genetic diagnosis and exploration on new genetic mechanisms of CRS. In this study, we enrolled 264 CRS patients in China. After a 17-gene-panel sequencing designed in the previous study, 139 patients were identified with pathogenic/likely pathogenic (P/LP) variants according to the ACMG guideline as positive genetic diagnosis. WES was then performed on 102 patients with negative genetic diagnosis by panel. Ten P/LP variants were additionally identified in ten patients, increasing the genetic diagnostic yield by 3.8% (10/264). The novel variants in ANKH, H1-4, EIF5A, SOX6, and ARID1B expanded the mutation spectra of CRS. Then we designed a compatible research pipeline (RP) for further exploration. The RP could detect all seven P/LP SNVs and InDels identified above, in addition to 15 candidate variants found in 13 patients with worthy of further study. In sum, the 17-gene panel and WES identified positive genetic diagnosis for 56.4% patients (149/264) in 16 genes. At last, in our estimation, the genetic testing strategy of \"Panel-first\" saves 24.3% of the cost compared with \"WES only\", suggesting the \"Panel-first\" is an economical strategy.",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "40444808",
+   "title": "A Rare Presentation of HIST1H1E Syndrome with Short Stature and Multiple Pituitary Hormone Deficiencies.",
+   "abstract": "Histone Gene Cluster 1 Member E (HIST1H1E) syndrome is a rare autosomal dominant disorder resulting from a heterozygous variation in the H1-4 gene located on chromosome 6p22.2. Mental retardation, recognizable facial features, skeletal abnormalities and overgrowth are the main clinical manifestations of this syndrome. A 17-year-old male presented to the pediatric endocrinology clinic due to short stature. He had a characteristic facial appearance with neurodevelopmental delay. Genetic analysis revealed a heterozygous pathogenic variation in the H1-4 gene located on chromosome 6p22.2 which confirmed his diagnosis of HIST1H1E syndrome. This presentation was distinguished by the co-occurrence of short stature and obesity accompanying central hypothyroidism and growth hormone deficiency due to a hypoplastic pituitary gland, which is in marked contrast to the somatic overgrowth characterizing this syndrome. Furthermore, the presented case is the second patient reported with HIST1H1E syndrome with hyposecretion of multiple pituitary hormones caused by hypoplasia of the pituitary gland.",
+   "found_by": [],
+   "pubdate": "2026 Sep 8",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32111972",
+   "title": "Rett syndrome-causing mutations compromise MeCP2-mediated liquid-liquid phase separation of chromatin.",
+   "abstract": "Rett syndrome (RTT), a severe postnatal neurodevelopmental disorder, is caused by mutations in the X-linked gene encoding methyl-CpG-binding protein 2 (MeCP2). MeCP2 is a chromatin organizer regulating gene expression. RTT-causing mutations have been shown to affect this function. However, the mechanism by which MeCP2 organizes chromatin is unclear. In this study, we found that MeCP2 can induce compaction and liquid-liquid phase separation of nucleosomal arrays in vitro, and DNA methylation further enhances formation of chromatin condensates by MeCP2. Interestingly, RTT-causing mutations compromise MeCP2-mediated chromatin phase separation, while benign variants have little effect on this process. Moreover, MeCP2 competes with linker histone H1 to form mutually exclusive chromatin condensates in vitro and distinct heterochromatin foci in vivo. RTT-causing mutations reduce or even abolish the ability of MeCP2 to compete with histone H1 and to form chromatin condensates. Together, our results identify a novel mechanism by which phase separation underlies MeCP2-mediated heterochromatin formation and reveal the potential link between this process and the pathology of RTT.",
+   "found_by": [],
+   "pubdate": "2020 May",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29704315",
+   "title": "Epigenetics and autism spectrum disorder: A report of an autism case with mutation in H1 linker histone HIST1H1E and literature review.",
+   "abstract": "Genetic mutations in genes encoding proteins involved in epigenetic machinery have been reported in individuals with autism spectrum disorder (ASD), intellectual disability, congenital heart disease, and other disorders. H1 histone linker protein, the basic component in nucleosome packaging and chromatin organization, has not been implicated in human disease until recently. We report a de novo deleterious mutation of histone cluster 1 H1 family member e (HIST1H1E; c.435dupC; p.Thr146Hisfs*50), encoding H1 histone linker protein H1.4, in a 10-year-old boy with autism and intellectual disability diagnosed through clinical whole exome sequencing. The c.435dupC at the 3' end of the mRNA leads to a frameshift and truncation of the positive charge in the carboxy-terminus of the protein. An expression study demonstrates the mutation leads to reduced protein expression, supporting haploinsufficiency of HIST1H1E protein and loss of function as an underlying mechanism of dysfunction in the brain. Taken together with other recent cases with mutations of HIST1H1E in intellectual disability, the evidence supporting the link to causality in disease is strong. Our finding implicates the deficiency of H1 linker histone protein in autism. The systematic review of candidate genes implicated in ASD revealed that 42 of 215 (19.5%) genes are directly involved in epigenetic regulations and the majority of these genes belong to histone writers, readers, and erasers. While the mechanism of how haploinsufficiency of HIST1H1E causes autism is entirely unknown, our report underscores the importance of further study of the function of this protein and other histone linker proteins in brain development.",
+   "found_by": [],
+   "pubdate": "2018 Jun",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "22201751",
+   "title": "Profiling of linker histone variants in ovarian cancer.",
+   "abstract": "H1 linker histones play a key role in facilitating higher order chromatin folding. Emerging evidence suggests that H1 and its multiple variants are important epigenetic factors in modulating chromatin function and gene expression. Ovarian cancer is a devastating disease, ranking the fifth leading cause of all women cancer death due to its poor prognosis and difficulty in early diagnosis. Although epigenetic alterations in ovarian cancers are being appreciated in general, the role of H1 has not been explored. Here, using quantitative RT-PCR assays, we systematically examined the expression of 7 H1 genes in 33 human epithelial ovarian tumors. Whereas the expression of H1.3 was markedly increased, the expression of H10, H1.1, H1.4 and H1x were significantly reduced in malignant adenocarcinomas compared with benign adenomas. Strikingly, ovarian adenocarcinomas and adenomas exhibited characteristic expression patterns, and expression profiling of 7 H1 genes in tumor samples discriminated adenocarcinomas vs. adenomas with high accuracy. These findings indicate that the expression of H1 variants is exquisitely regulated and may serve as potential epigenetic biomarkers for ovarian cancer.",
+   "found_by": [],
+   "pubdate": "2012 Jan 1",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "18408754",
+   "title": "Histone H4 lysine 20 monomethylation promotes transcriptional repression by L3MBTL1.",
+   "abstract": "Lethal 3 malignant brain tumor 1 (L3MBTL1), a homolog of the Drosophila polycomb tumor suppressor l(3)mbt, contains three tandem MBT repeats (3xMBT) that are critical for transcriptional repression. We recently reported that the 3xMBT repeats interact with mono- and dimethylated lysines in the amino termini of histones H4 and H1b to promote methylation-dependent chromatin compaction. Using a series of histone peptides, we now show that the recognition of mono- and dimethylated lysines in histones H3, H4 and H1.4 (but not their trimethylated or unmodified counterparts) by 3xMBT occurs in the context of a basic environment, requiring a conserved aspartic acid (D355) in the second MBT repeat. Despite the broad range of in vitro binding, the chromatin association of L3MBTL1 mirrors the progressive accumulation of H4K20 monomethylation during the cell cycle. Furthermore, transcriptional repression by L3MBTL1 is enhanced by the H4K20 monomethyltransferase PR-SET7 (to which it binds) but not SUV420H1 (an H4K20 trimethylase) or G9a (an H3K9 dimethylase) and knockdown of PR-SET7 decreases H4K20me1 levels and the chromatin association of L3MBTL1. Our studies identify the importance of H4K20 monomethylation and of PR-SET7 for L3MBTL1 function.",
+   "found_by": [],
+   "pubdate": "2008 Jul 17",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "34788807",
+   "title": "Mutations of the histone linker H1-4 in neurodevelopmental disorders and functional characterization of neurons expressing C-terminus frameshift mutant H1.4.",
+   "abstract": "Rahman syndrome (RMNS) is a rare genetic disorder characterized by mild to severe intellectual disability, hypotonia, anxiety, autism spectrum disorder, vision problems, bone abnormalities and dysmorphic facies. RMNS is caused by de novo heterozygous mutations in the histone linker gene H1-4; however, mechanisms underlying impaired neurodevelopment in RMNS are not understood. All reported mutations associated with RMNS in H1-4 are small insertions or deletions that create a shared frameshift, resulting in a H1.4 protein that is both truncated and possessing an abnormal C-terminus frameshifted tail (H1.4 CFT). To expand understanding of mutations and phenotypes associated with mutant H1-4, we identified new variants at both the C- and N-terminus of H1.4. The clinical features of mutations identified at the C-terminus are consistent with other reports and strengthen the support of pathogenicity of H1.4 CFT. To understand how H1.4 CFT may disrupt brain function, we exogenously expressed wild-type or H1.4 CFT protein in rat hippocampal neurons and assessed neuronal structure and function. Genome-wide transcriptome analysis revealed ~\u2009400 genes altered in the presence of H1.4 CFT. Neuronal genes downregulated by H1.4 CFT were enriched for functional categories involved in synaptic communication and neuropeptide signaling. Neurons expressing H1.4 CFT also showed reduced neuronal activity on multielectrode arrays. These data are the first to characterize the transcriptional and functional consequence of H1.4 CFT in neurons. Our data provide insight into causes of neurodevelopmental impairments associated with frameshift mutations in the C-terminus of H1.4 and highlight the need for future studies on the function of histone H1.4 in neurons.",
+   "found_by": [],
+   "pubdate": "2022 May 4",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38764094",
+   "title": "Analysis of copy number variants detected by sequencing in spontaneous abortion.",
+   "abstract": "BACKGROUND: The incidence of spontaneous abortion (SA), which affects approximately 15-20% of pregnancies, is the most common complication of early pregnancy. Pathogenic copy number variations (CNVs) are recognized as potential genetic causes of SA. However, CNVs of variants of uncertain significance (VOUS) have been identified in products of conceptions (POCs), and their correlation with SA remains uncertain. RESULTS: Of 189 spontaneous abortion cases, trisomy 16 was the most common numerical chromosome abnormality, followed by monosomy X. CNVs most often occurred on chromosomes 4 and 8. Gene Ontology and signaling pathway analysis revealed significant enrichment of genes related to nervous system development, transmembrane transport, cell adhesion, and structural components of chromatin. Furthermore, genes within the VOUS CNVs were screened by integrating human placental expression profiles, PhyloP scores, and Residual Variance Intolerance Score (RVIS) percentiles to identify potential candidate genes associated with spontaneous abortion. Fourteen potential candidate genes (LZTR1, TSHZ1, AMIGO2, H1-4, H2BC4, H2AC7, H3C8, H4C3, H3C6, PHKG2, PRR14, RNF40, SRCAP, ZNF629) were identified. Variations in LZTR1, TSHZ1, and H4C3 may contribute to embryonic lethality. CONCLUSIONS: CNV sequencing (CNV-seq) analysis is an effective technique for detecting chromosomal abnormalities in POCs and identifying potential candidate genes for SA.",
+   "found_by": [],
+   "pubdate": "2024 May 20",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42173878",
+   "title": "A Rahman Syndrome mutation in histone H1.4 disrupts chromatin compaction and phase separation.",
+   "abstract": "Rahman syndrome is a rare developmental disorder caused by frameshift mutations in linker histone H1.4 that produce a truncated carboxy-terminal domain with reduced positive charge. We investigated the effects of a disease-associated mutation on chromatin structure and dynamics, focusing on H1.4-bound nucleosomes and hexanucleosomal arrays. We report that this mutation induces a more extended and flexible array conformation, characterized by enhanced linker DNA accessibility and an inability to form compact, regularly stacked nucleosome structures. Notably, mutant H1.4-bound arrays show a reduced capacity to undergo liquid-liquid and liquid-solid phase separation, closely resembling linker histone-free arrays. Molecular dynamics simulations corroborated by fluorescence resonance energy transfer measurements indicate that the mutated carboxy-terminal domain interacts with a shorter linker DNA segment, resulting in a more open nucleosome conformation. Consistent with these structural changes, the mutation significantly enhances H1.4 mobility within cell nuclei, reflecting a weaker chromatin association. The combined data suggest that Rahman syndrome-associated mutations promote an aberrantly relaxed chromatin state, potentially leading to the dysregulation of gene expression that may drive disease pathology. These findings underscore the essential role of the carboxy-terminal domain in chromatin compaction and provide mechanistic insights into the molecular etiology of Rahman syndrome.",
+   "found_by": [],
+   "pubdate": "2026 May 22",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31400068",
+   "title": "HIST1H1E heterozygous protein-truncating variants cause a recognizable syndrome with intellectual disability and distinctive facial gestalt: A study to clarify the HIST1H1E syndrome phenotype in 30 individuals.",
+   "abstract": "Histone Gene Cluster 1 Member E, HIST1H1E, encodes Histone H1.4, is one of a family of epigenetic regulator genes, acts as a linker histone protein, and is responsible for higher order chromatin structure. HIST1H1E syndrome (also known as Rahman syndrome, OMIM #617537) is a recently described intellectual disability (ID) syndrome. Since the initial description of five unrelated individuals with three different heterozygous protein-truncating variants (PTVs) in the HIST1H1E gene in 2017, we have recruited 30 patients, all with HIST1H1E PTVs that result in the same shift in frame and that cluster to a 94-base pair region in the HIST1H1E carboxy terminal domain. The identification of 30 patients with HIST1H1E variants has allowed the clarification of the HIST1H1E syndrome phenotype. Major findings include an ID and a recognizable facial appearance. ID was reported in all patients and is most frequently of moderate severity. The facial gestalt consists of a high frontal hairline and full lower cheeks in early childhood and, in later childhood and adulthood, affected individuals have a strikingly high frontal hairline, frontal bossing, and deep-set eyes. Other associated clinical features include hypothyroidism, abnormal dentition, behavioral issues, cryptorchidism, skeletal anomalies, and cardiac anomalies. Brain magnetic resonance imaging (MRI) is frequently abnormal with a slender corpus callosum a frequent finding.",
+   "found_by": [],
+   "pubdate": "2019 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "31447100",
+   "title": "Aberrant Function of the C-Terminal Tail of HIST1H1E Accelerates Cellular Senescence and Causes Premature Aging.",
+   "abstract": "Histones mediate dynamic packaging of nuclear DNA in chromatin, a process that is precisely controlled to guarantee efficient compaction of the genome and proper chromosomal segregation during cell division and to accomplish DNA replication, transcription, and repair. Due to the important structural and regulatory roles played by histones, it is not surprising that histone functional dysregulation or aberrant levels of histones can have severe consequences for multiple cellular processes and ultimately might affect development or contribute to cell transformation. Recently, germline frameshift mutations involving the C-terminal tail of HIST1H1E, which is a widely expressed member of the linker histone family and facilitates higher-order chromatin folding, have been causally linked to an as-yet poorly defined syndrome that includes intellectual disability. We report that these mutations result in stable proteins that reside in the nucleus, bind to chromatin, disrupt proper compaction of DNA, and are associated with a specific methylation pattern. Cells expressing these mutant proteins have a dramatically reduced proliferation rate and competence, hardly enter into the S phase, and undergo accelerated senescence. Remarkably, clinical assessment of a relatively large cohort of subjects sharing these mutations revealed a premature aging phenotype as a previously unrecognized feature of the disorder. Our findings identify a direct link between aberrant chromatin remodeling, cellular senescence, and accelerated aging.",
+   "found_by": [],
+   "pubdate": "2019 Sep 5",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30355295",
+   "title": "Adult height and risk of 50 diseases: a combined epidemiological and genetic analysis.",
+   "abstract": "BACKGROUND: Adult height is associated with risk of several diseases, but the breadth of such associations and whether these associations are primary or due to confounding are unclear. We examined the association of adult height with 50 diseases spanning multiple body systems using both epidemiological and genetic approaches, the latter to identify un-confounded associations and possible underlying mechanisms. METHODS: We examined the associations for adult height (using logistic regression adjusted for potential confounders) and genetically determined height (using a two-sample Mendelian randomisation approach with height-associated genetic variants as instrumental variables) in 417,434 individuals of white ethnic background participating in the UK Biobank. We undertook pathway analysis of height-associated genes to identify biological processes that could link height and specific diseases. RESULTS: Height was associated with 32 diseases and genetically determined height associated with 12 diseases. Of these, 11 diseases showed a concordant association in both analyses, with taller height associated with reduced risks of coronary artery disease (odds ratio per standard deviation (SD) increase in height ORepi\u2009=\u20090.80, 95% CI 0.78-0.81; OR per SD increase in genetically determined height ORgen\u2009=\u20090.86, 95% CI 0.82-0.90), hypertension (ORepi\u2009=\u20090.83, 95% CI 0.82-0.84; ORgen\u2009=\u20090.88, 95% CI 0.85-0.91), gastro-oesophageal reflux disease (ORepi\u2009=\u20090.85, 95% CI 0.84-0.86; ORgen\u2009=\u20090.94, 95% CI 0.92-0.97), diaphragmatic hernia (ORepi\u2009=\u20090.81, 95% CI 0.79-0.82; ORgen\u2009=\u20090.91, 95% CI 0.88-0.94), but increased risks of atrial fibrillation (ORepi\u2009=\u20091.42, 95% CI 1.38-1.45; ORgen\u2009=\u20091.33, 95% CI 1.26-1.40), venous thromboembolism (ORepi\u2009=\u20091.18, 95% CI 1.16-1.21; ORgen\u2009=\u20091.15, 95% CI 1.11-1.19), intervertebral disc disorder (ORepi\u2009=\u20091.15, 95% CI 1.13-1.18; ORgen\u2009=\u20091.14, 95% CI 1.09-1.20), hip fracture (ORepi\u2009=\u20091.19, 95% CI 1.12-1.26; ORgen\u2009=\u20091.27, 95% CI 1.17-1.39), vasculitis (ORepi\u2009=\u20091.15, 95% CI 1.11-1.19; ORgen\u2009=\u20091.20, 95% CI 1.14-1.28), cancer overall (ORepi\u2009=\u20091.09, 95% CI 1.08-1.11; ORgen\u2009=\u20091.06, 95% CI 1.04-1.08) and breast cancer (ORepi\u2009=\u20091.08, 95% CI 1.06-1.10; ORgen\u2009=\u20091.07, 95% CI 1.03-1.11). Pathway analysis showed multiple height-associated pathways associating with individual diseases. CONCLUSIONS: Adult height is associated with risk of a range of diseases. We confirmed previously reported height associations for coronary artery disease, atrial fibrillation, venous thromboembolism, intervertebral disc disorder, hip fracture and cancer and identified potential novel associations for gastro-oesophageal reflux disease, diaphragmatic hernia and vasculitis. Multiple biological mechanisms affecting height may affect the risks of these diseases. [full text, passages naming H1-4] ..., GNA12, PIK3R1, NFATC1, NFKBIA, MEF2C, NFATC3, GNAS, ITPR3, FRS2, GRB2, ITPR1, FGFR4, ZAP70 | 18 | 1.51 | < 0.001 | 41 | Intervertebral disc disorder (IDD) | Protein kinase A signalling | FLNB, AKAP13, PTCH1, HIST1H1E, NFKBIA, PDE11A, SMAD3, ITPR1, PDE3A, CREBBP, PTPDC1, PRKCZ, NFATC4, PTPN14, IHH, CTNNB1, RAF1, TGFB2, NFATC1, ANAPC10, NFATC3, GNAS, ITPR3, CREB5, PTPRG, CDC16, ADCY9, PDE1A | 28 | 1.31 | 0.005 | 42 |... ...1 | 0.003 | 141 | Diaphragmatic hernia | ERK5 signalling | CREB5, GNA12, CREBBP, PRKCZ, MAP3K3, MEF2C, FOXO3 | 7 | 0.78 | 0.013 | 154 | Diaphragmatic hernia | Protein kinase A signalling | FLNB, AKAP13, PTCH1, HIST1H1E, NFKBIA, PDE11A, SMAD3, ITPR1, PDE3A, CREBBP, PTPDC1, PRKCZ, NFATC4, PTPN14, IHH, CTNNB1, RAF1, TGFB2, NFATC1, ANAPC10, NFATC3, GNAS, ITPR3, CREB5, PTPRG, CDC16, ADCY9, PDE1A | 28 | 0.85 | 0.015 | 42 |...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "34175335": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30615103": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31635489": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30804420": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18450745": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "1334068": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31268352": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26620701": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29494324": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32337329": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31221981": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41052974": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23935094": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28590841": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39206902": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35409074": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "2791590": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37976174": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40803826": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32469082": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33270410": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31910894": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "28475857": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36118902": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40444808": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "32111972": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29704315": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "22201751": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18408754": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "1772400": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38561804": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33299181": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34788807": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38764094": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41054521": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24873882": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42173878": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42384686": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35380694": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20334638": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28000612": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33238524": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28539972": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30007360": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31126199": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16008566": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35743829": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25680570": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18927631": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31184227": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40345010": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31400068": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "20439994": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "8837516": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28977426": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9809440": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31447100": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26209608": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21511733": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21852232": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30355295": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.1,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 395,
+   "usd": 0.011625,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "18 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "1 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 2.2,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.6,
+   "note": "",
+   "input_tokens": 3803,
+   "output_tokens": 140,
+   "usd": 0.004503,
+   "calls": 6
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 18.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.0,
+   "note": "",
+   "input_tokens": 22013,
+   "output_tokens": 1237,
+   "usd": 0.028198,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 11.6,
+   "note": "",
+   "input_tokens": 10339,
+   "output_tokens": 947,
+   "usd": 0.07537,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>5</existing>\n    <hypothesized>19</hypothesized>\n    <novel>75</novel>\n  </probabilities>\n  <justification>The H1-4 (HIST1H1E) literature is dominated by Rahman syndrome \u2014 frameshift variants in the C-terminal tail causing intellectual disability, distinctive facies, overgrowth, premature aging, and occasional skeletal/cardiac anomalies (PMIDs 28475857, 31400068, 31447100, 33270410) \u2014 with no report of congenital diaphragmatic hernia in any proband. The only article co-mentioning diaphragmatic hernia is a UK Biobank adult height Mendelian randomisation study (PMID 30355295), where HIST1H1E merely appears within a large \"protein kinase A signalling\" pathway gene list for adult (acquired/hiatal-type) diaphragmatic hernia, not a congenital malformation, and no variant-level association to CDH is reported. Other papers are purely mechanistic/in vitro (chromatin compaction, phase separation; PMIDs 34788807, 42173878) or involve unrelated phenotypes (ovarian cancer, craniosynostosis, spontaneous abortion CNVs spanning the histone cluster), the latter being multigene CNVs that cannot implicate H1-4 specifically. There is therefore no human genetic evidence linking H1-4 variants to CDH, and only a very weak, pathway-level biological rationale, so Novel is most likely with a modest allowance for Hypothesized.</justification>\n  <pmids>\n    <pmid>30355295</pmid>\n    <pmid>31400068</pmid>\n    <pmid>31447100</pmid>\n    <pmid>28475857</pmid>\n    <pmid>33270410</pmid>\n    <pmid>34788807</pmid>\n    <pmid>38764094</pmid>\n    <pmid>40444808</pmid>\n  </pmids>\n</response>"
+}

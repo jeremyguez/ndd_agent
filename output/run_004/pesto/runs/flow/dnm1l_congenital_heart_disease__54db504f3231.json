@@ -1,0 +1,768 @@
+{
+ "gene": "DNM1L",
+ "phenotype": "congenital heart disease",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "congenital heart defect",
+   "congenital heart malformation",
+   "congenital heart anomaly",
+   "CHD",
+   "congenital cardiac defect",
+   "congenital cardiac malformation",
+   "congenital cardiovascular malformation",
+   "cardiac birth defect",
+   "heart malformation, congenital",
+   "congenital cardiopathy"
+  ],
+  "broad": "",
+  "words": [
+   "heart"
+  ],
+  "gene_names": [
+   "DVLP",
+   "VPS1",
+   "DYMPLE",
+   "HDYNIV",
+   "DRP1",
+   "dynamin 1 like"
+  ],
+  "anchors": [
+   "cardiac malformation"
+  ]
+ },
+ "counts": {
+  "found": 69,
+  "titlekicksparingfulltext": 29,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Hypothesized",
+  "distribution": {
+   "Established": 1,
+   "Existing": 11,
+   "Hypothesized": 78,
+   "Novel": 10
+  },
+  "justification": "Human DNM1L variants are reported only for EMPF1-type encephalopathy with neurological phenotypes (PMIDs 30801875, 33387674, 36763487, 38481935), with no congenital heart malformations attributed to these variants, so Established and Existing cannot be supported by patient genetic data. However, there is strong, directly relevant biology: DRP1/DNM1L-mediated mitochondrial fission was shown to be required for oxygen sensing and ductus arteriosus constriction/closure using human DA tissue from infants undergoing CHD repair (PMID 23334860), which mechanistically links DNM1L to patent ductus arteriosus. Additional supportive but indirect data include altered DRP1 in pressure-overload right ventricular failure modeling tetralogy of Fallot (PMID 33522250), zebrafish cardiac developmental toxicity involving Drp1/Fis1 imbalance (PMID 41687852), and mitophagy/fission interplay in TAMM41-related heart valve development (PMID 30824836). These constitute pathway, expression, and animal/ex vivo functional evidence without causal variant data, placing the relationship firmly in the Hypothesized category, with a small residual possibility that the co-mentions are incidental (Novel).",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 11,
+   "Hypothesized": 78,
+   "Novel": 10
+  }
+ },
+ "articles": [
+  {
+   "pmid": "35859795",
+   "title": "Identification of autophagy-related biomarkers in patients with pulmonary arterial hypertension based on bioinformatics analysis.",
+   "abstract": "Autophagy participates in the regulation of pulmonary arterial hypertension (PAH). However, the role of autophagy-related genes (ARGs) in the pathogenesis of the PAH is still unclear. This study aimed to identify the ARGs in PAH via bioinformatics analysis. A microarray dataset (GSE113439) was downloaded from the Gene Expression Omnibus database to identify differentially expressed ARGs (DEARGs). Protein-protein interactions network, gene ontology, and Kyoto Encyclopedia of Genes and Genomes enrichment analyses were performed to screen hub genes and the underlying molecular mechanisms of PAH. Finally, the mRNA expression of the hub genes was validated using the GSE53408 dataset. Twenty-six DEARGs were identified, all of which were upregulated. Enrichment analyses revealed that these DEARGs were mainly enriched in the nucleotide-binding oligomerization domain (NOD)-like receptor signaling pathway, PI3K-Akt signaling pathway, response to hypoxia, response to nutrient levels, and autophagy. Among these hub genes, the mRNA expression levels of HSP90AA1, HIF1A, MET, IGF1, LRRK2, CLTC, DNM1L, MDM2, RICTOR, and ROCK2 were significantly upregulated in PAH patients than in healthy individuals. Ten hub DEARGs were identified and may participate in the pathogenesis of the PAH via the regulation of autophagy. The present study may provide novel therapeutic targets for PAH prevention and treatment and expand our understanding of PAH.",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "23334860",
+   "title": "Role of dynamin-related protein 1 (Drp1)-mediated mitochondrial fission in oxygen sensing and constriction of the ductus arteriosus.",
+   "abstract": "RATIONALE: Closure of the ductus arteriosus (DA) is essential for the transition from fetal to neonatal patterns of circulation. Initial PO2-dependent vasoconstriction causes functional DA closure within minutes. Within days a fibrogenic, proliferative mechanism causes anatomic closure. Though modulated by endothelial-derived vasodilators and constrictors, O2 sensing is intrinsic to ductal smooth muscle cells and oxygen-induced DA constriction persists in the absence of endothelium, endothelin, and cyclooxygenase mediators. O2 increases mitochondrial-derived H2O2, which constricts ductal smooth muscle cells by raising intracellular calcium and activating rho kinase. However, the mechanism by which oxygen changes mitochondrial function is unknown. OBJECTIVE: The purpose of this study was to determine whether mitochondrial fission is crucial for O2-induced DA constriction and closure. METHODS AND RESULTS: Using DA harvested from 30 term infants during correction of congenital heart disease, as well as DA from term rabbits, we demonstrate that mitochondrial fission is crucial for O2-induced constriction and closure. O2 rapidly (<5 minutes) causes mitochondrial fission by a cyclin-dependent kinase- mediated phosphorylation of dynamin-related protein 1 (Drp1) at serine 616. Fission triggers a metabolic shift in the ductal smooth muscle cells that activates pyruvate dehydrogenase and increases mitochondrial H2O2 production. Subsequently, fission increases complex I activity. Mitochondrial-targeted catalase overexpression eliminates PO2-induced increases in mitochondrial-derived H2O2 and cytosolic calcium. The small molecule Drp1 inhibitor, Mdivi-1, and siDRP1 yield concordant results, inhibiting O2-induced constriction (without altering the response to phenylephrine or KCl) and preventing O2-induced increases in oxidative metabolism, cytosolic calcium, and ductal smooth muscle cells proliferation. Prolonged Drp1 inhibition reduces DA closure in a tissue culture model. CONCLUSIONS: Mitochondrial fission is an obligatory, early step in mammalian O2 sensing and offers a promising target for modulating DA patency.",
+   "found_by": [],
+   "pubdate": "2013 Mar 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "41687852",
+   "title": "HFPO-TA induces cardiac developmental damage in zebrafish by disrupting mitochondrial dynamics through FABP3.",
+   "abstract": "Hexafluoropropylene oxide trimer acid (HFPO-TA), a widely used substitute for perfluorooctanoic acid (PFOA), has raised concerns about potential cardiotoxicity. The study investigated mechanisms underlying HFPO-TA-induced cardiac developmental toxicity. Network toxicology and molecular docking identified the peroxisome proliferator-activated receptor (PPAR) signaling and fatty acid-binding protein-3 (FABP3) as key targets. In zebrafish embryos, HFPO-TA exposure caused pronounced cardiac developmental toxicity, indicated by pericardial edema, increased heart rate, and downregulated cardiac development genes (gata4, nkx2.5, sox9b, vmhc). Mechanistic analyses showed that HFPO-TA upregulated FABP3 while suppressing PPAR\u03b3 and its coactivator PGC-1\u03b1. These changes disrupted mitochondrial dynamics by inhibiting fusion-related factors (Mfn1, Mfn2, Opa1) and enhancing fission-related factors (Drp1, Fis1), which further promoted apoptosis. Notably, CRISPRi-mediated FABP3 knockdown alleviated cardiac malformations, improved cardiac developmental gene expression, restored PPAR pathway activity, rebalanced mitochondrial dynamics, and reduced apoptosis. Collectively, HFPO-TA induces cardiac developmental toxicity via FABP3 activation, suppression of the PPAR\u03b3/PGC-1\u03b1 axis, mitochondrial dynamics imbalance, and apoptosis. FABP3 represents a pivotal regulator in HFPO-TA-induced cardiac developmental toxicity and provides toxicological evidence supporting potential intervention targets for congenital heart disease.",
+   "found_by": [],
+   "pubdate": "2026 Apr 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "33522250",
+   "title": "Transcriptomic and Functional Analyses of Mitochondrial Dysfunction in Pressure Overload-Induced Right Ventricular Failure.",
+   "abstract": "Background In complex congenital heart disease patients such as those with tetralogy of Fallot, the right ventricle (RV) is subject to pressure overload, leading to RV hypertrophy and eventually RV failure. The mechanisms that promote the transition from stable RV hypertrophy to RV failure are unknown. We evaluated the role of mitochondrial bioenergetics in the development of RV failure. Methods and Results We created a murine model of RV pressure overload by pulmonary artery banding and compared with sham-operated controls. Gene expression by RNA-sequencing, oxidative stress, mitochondrial respiration, dynamics, and structure were assessed in pressure overload-induced RV failure. RV failure was characterized by decreased expression of electron transport chain genes and mitochondrial antioxidant genes (aldehyde dehydrogenase 2 and superoxide dismutase 2) and increased expression of oxidant stress markers (heme oxygenase, 4-hydroxynonenal). The activities of all electron transport chain complexes decreased with RV hypertrophy and further with RV failure (oxidative phosphorylation: sham 552.3\u00b143.07 versus RV hypertrophy 334.3\u00b130.65 versus RV failure 165.4\u00b136.72\u00a0pmol/(s\u00d7mL), P<0.0001). Mitochondrial fission protein DRP1 (dynamin 1-like) trended toward an increase, while MFF (mitochondrial fission factor) decreased and fusion protein OPA1 (mitochondrial dynamin like GTPase) decreased. In contrast, transcription of electron transport chain genes increased in the left ventricle of RV failure. Conclusions Pressure overload-induced RV failure is characterized by decreased transcription and activity of electron transport chain complexes and increased oxidative stress which are associated with decreased energy generation. An improved understanding of the complex processes of energy generation could aid in developing novel therapies to mitigate mitochondrial dysfunction and delay the onset of RV failure.",
+   "found_by": [],
+   "pubdate": "2021 Feb 16",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "34085589",
+   "title": "Mitochondrial autophagy and cell survival is regulated by the circadian Clock gene in cardiac myocytes during ischemic stress.",
+   "abstract": "Cardiac function is highly reliant on mitochondrial oxidative metabolism and quality control. The circadian Clock gene is critically linked to vital physiological processes including mitochondrial fission, fusion and bioenergetics; however, little is known of how the Clock gene regulates these vital processes in the heart. Herein, we identified a putative circadian CLOCK-mitochondrial interactome that gates an adaptive survival response during myocardial ischemia. We show by transcriptome and gene ontology mapping in CLOCK \u039419/\u039419 mouse that Clock transcriptionally coordinates the efficient removal of damaged mitochondria during myocardial ischemia by directly controlling transcription of genes required for mitochondrial fission, fusion and macroautophagy/autophagy. Loss of Clock gene activity impaired mitochondrial turnover resulting in the accumulation of damaged reactive oxygen species (ROS)-producing mitochondria from impaired mitophagy. This coincided with ultrastructural defects to mitochondria and impaired cardiac function. Interestingly, wild type CLOCK but not mutations of CLOCK defective for E-Box binding or interaction with its cognate partner ARNTL/BMAL-1 suppressed mitochondrial damage and cell death during acute hypoxia. Interestingly, the autophagy defect and accumulation of damaged mitochondria in CLOCK-deficient cardiac myocytes were abrogated by restoring autophagy/mitophagy. Inhibition of autophagy by ATG7 knockdown abrogated the cytoprotective effects of CLOCK. Collectively, our results demonstrate that CLOCK regulates an adaptive stress response critical for cell survival by transcriptionally coordinating mitochondrial quality control mechanisms in cardiac myocytes. Interdictions that restore CLOCK activity may prove beneficial in reducing cardiac injury in individuals with disrupted circadian CLOCK.Abbreviations: ARNTL/BMAL1: aryl hydrocarbon receptor nuclear translocator-like; ATG14: autophagy related 14; ATG7: autophagy related 7; ATP: adenosine triphosphate; BCA: bovine serum albumin; BECN1: beclin 1, autophagy related; bHLH: basic helix- loop-helix; CLOCK: circadian locomotor output cycles kaput; CMV: cytomegalovirus; COQ5: coenzyme Q5 methyltransferase; CQ: chloroquine; CRY1: cryptochrome 1 (photolyase-like); DNM1L/DRP1: dynamin 1-like; EF: ejection fraction; EM: electron microscopy; FS: fractional shortening; GFP: green fluorescent protein; HPX: hypoxia; i.p.: intraperitoneal; I-R: ischemia-reperfusion; LAD: left anterior descending; LVIDd: left ventricular internal diameter diastolic; LVIDs: left ventricular internal diameter systolic; MAP1LC3/LC3: microtubule-associated protein 1 light chain 3; MFN2: mitofusin 2; MI: myocardial infarction; mPTP: mitochondrial permeability transition pore; NDUFA4: Ndufa4, mitochondrial complex associated; NDUFA8: NADH: ubiquinone oxidoreductase subunit A8; NMX: normoxia; OCR: oxygen consumption rate; OPA1: OPA1, mitochondrial dynamin like GTPase; OXPHOS: oxidative phosphorylation; PBS: phosphate-buffered saline; PER1: period circadian clock 1; PPARGC1A/PGC-1\u03b1: peroxisome proliferative activated receptor, gamma, coactivator 1 alpha; qPCR: quantitative real-time PCR; RAB7A: RAB7, member RAS oncogene family; ROS: reactive oxygen species; RT: room temperature; shRNA: short hairpin RNA; siRNA: small interfering RNA; TFAM: transcription factor A, mitochondrial; TFEB: transcription factor EB; TMRM: tetra-methylrhodamine methyl ester perchlorate; WT: wild -type; ZT: zeitgeber time.",
+   "found_by": [],
+   "pubdate": "2021 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33549528",
+   "title": "Impaired mitochondrial quality control in Rett Syndrome.",
+   "abstract": "Rett Syndrome (RTT) is a rare neurodevelopmental disorder caused in the 95% of cases by mutations in the X-linked MECP2 gene, affecting almost exclusively females. While the genetic basis of RTT is known, the exact pathogenic mechanisms that lead to the broad spectrum of symptoms still remain enigmatic. Alterations in the redox homeostasis have been proposed among the contributing factors to the development and progression of the syndrome. Mitochondria appears to play a central role in RTT oxidative damage and a plethora of mitochondrial defects has already been recognized. However, mitochondrial dynamics and mitophagy, which represent critical pathways in regulating mitochondrial quality control (QC), have not yet been investigated in RTT. The present work showed that RTT fibroblasts have networks of hyperfused mitochondria with morphological abnormalities and increased mitochondrial volume. Moreover, analysis of mitophagic flux revealed an impaired PINK1/Parkin-mediated mitochondrial removal associated with an increase of mitochondrial fusion proteins Mitofusins 1 and 2 (MFN1 and 2) and a decrease of fission mediators including Dynamin related protein 1 (DRP1) and Mitochondrial fission 1 protein (FIS1). Finally, challenging RTT fibroblasts with FCCP and 2,4-DNP did not trigger a proper apoptotic cell death due to a defective caspase 3/7 activation. Altogether, our findings shed light on new aspects of mitochondrial dysfunction in RTT that are represented by defective mitochondrial QC pathways, also providing new potential targets for a therapeutic intervention aimed at slowing down clinical course and manifestations in the affected patients.",
+   "found_by": [],
+   "pubdate": "2021 Mar 30",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "23349293",
+   "title": "An actin-dependent step in mitochondrial fission mediated by the ER-associated formin INF2.",
+   "abstract": "Mitochondrial fission is fundamentally important to cellular physiology. The dynamin-related protein Drp1 mediates fission, and interaction between mitochondrion and endoplasmic reticulum (ER) enhances fission. However, the mechanism for Drp1 recruitment to mitochondria is unclear, although previous results implicate actin involvement. Here, we found that actin polymerization through ER-localized inverted formin 2 (INF2) was required for efficient mitochondrial fission in mammalian cells. INF2 functioned upstream of Drp1. Actin filaments appeared to accumulate between mitochondria and INF2-enriched ER membranes at constriction sites. Thus, INF2-induced actin filaments may drive initial mitochondrial constriction, which allows Drp1-driven secondary constriction. Because INF2 mutations can lead to Charcot-Marie-Tooth disease, our results provide a potential cellular mechanism for this disease state.",
+   "found_by": [],
+   "pubdate": "2013 Jan 25",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "26816379",
+   "title": "Metabolism. AMP-activated protein kinase mediates mitochondrial fission in response to energy stress.",
+   "abstract": "Mitochondria undergo fragmentation in response to electron transport chain (ETC) poisons and mitochondrial DNA-linked disease mutations, yet how these stimuli mechanistically connect to the mitochondrial fission and fusion machinery is poorly understood. We found that the energy-sensing adenosine monophosphate (AMP)-activated protein kinase (AMPK) is genetically required for cells to undergo rapid mitochondrial fragmentation after treatment with ETC inhibitors. Moreover, direct pharmacological activation of AMPK was sufficient to rapidly promote mitochondrial fragmentation even in the absence of mitochondrial stress. A screen for substrates of AMPK identified mitochondrial fission factor (MFF), a mitochondrial outer-membrane receptor for DRP1, the cytoplasmic guanosine triphosphatase that catalyzes mitochondrial fission. Nonphosphorylatable and phosphomimetic alleles of the AMPK sites in MFF revealed that it is a key effector of AMPK-mediated mitochondrial fission.",
+   "found_by": [],
+   "pubdate": "2016 Jan 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33387674",
+   "title": "De novo DNM1L variant presenting with severe muscular atrophy, dystonia and sensory neuropathy.",
+   "abstract": "DNM1L encodes dynamin-related protein 1 (DRP1), a multi-domain GTPase essential for mitochondrial and peroxisomal division. Autosomal dominant and recessive variants in DNM1L cause encephalopathy due to defective mitochondrial and peroxisomal fission 1 (EMPF1), which presents as a complex and clinically heterogeneous neurological disorder of variable severity, often accompanied by seizures. Clinical features are diverse, and no clear phenotype-genotype correlations were drawn to date. DNM1L-related sensory neuropathy has recently been reported as a predominant feature in one case with a de novo variant in the GTPase domain. Herein we present a second case with DNM1L-related sensory neuropathy as the predominant underlying feature without motor neuron involvement, which resulted in severe muscular atrophy and generalized dystonia.",
+   "found_by": [],
+   "pubdate": "2021 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34870686",
+   "title": "MITOL-mediated DRP1 ubiquitylation and degradation promotes mitochondrial hyperfusion in a CMT2A-linked MFN2 mutant.",
+   "abstract": "Mutations in mitofusin 2 (MFN2) that are associated with the pathology of the debilitating neuropathy Charcot-Marie-Tooth type 2A (CMT2A) are known to alter mitochondrial morphology. One such abundant MFN2 mutation, R364W, results in the generation of elongated, interconnected mitochondria. However, the mechanism leading to this mitochondrial aberration remains poorly understood. Here, we show that mitochondrial hyperfusion in the presence of R364W-MFN2 is due to increased degradation of DRP1 (also known as DNM1L). The E3 ubiquitin ligase MITOL (also known as MARCHF5) is known to ubiquitylate both MFN2 and DRP1. Interaction with and subsequent ubiquitylation by MITOL is stronger in the presence of wild-type MFN2 than with R364W-MFN2. This differential interaction of MITOL with MFN2 in the presence of R364W-MFN2 renders the ligase more available for DRP1 ubiquitylation. Multi-monoubiquitylation and proteasomal degradation of DRP1 in R364W-MFN2 cells in the presence of MITOL eventually leads to mitochondrial hyperfusion. Here, we provide a mechanistic insight into mitochondrial hyperfusion, while also reporting that MFN2 can indirectly modulate DRP1 - an effect not shown previously. This article has an associated First Person interview with the first author of the paper.",
+   "found_by": [],
+   "pubdate": "2022 Jan 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "36763487",
+   "title": "DRP1 mutations associated with EMPF1 encephalopathy alter mitochondrial membrane potential and metabolic programs.",
+   "abstract": "Mitochondria and peroxisomes are dynamic signaling organelles that constantly undergo fission, driven by the large GTPase dynamin-related protein 1 (DRP1; encoded by DNM1L). Patients with de novo heterozygous missense mutations in DNM1L present with encephalopathy due to defective mitochondrial and peroxisomal fission (EMPF1) - a devastating neurodevelopmental disease with no effective treatment. To interrogate the mechanisms by which DRP1 mutations cause cellular dysfunction, we used human-derived fibroblasts from patients who present with EMPF1. In addition to elongated mitochondrial morphology and lack of fission, patient cells display lower coupling efficiency, increased proton leak and upregulation of glycolysis. Mitochondrial hyperfusion also results in aberrant cristae structure and hyperpolarized mitochondrial membrane potential. Peroxisomes show a severely elongated morphology in patient cells, which is associated with reduced respiration when cells are reliant on fatty acid oxidation. Metabolomic analyses revealed impaired methionine cycle and synthesis of pyrimidine nucleotides. Our study provides insight into the role of mitochondrial dynamics in cristae maintenance and the metabolic capacity of the cell, as well as the disease mechanism underlying EMPF1.",
+   "found_by": [],
+   "pubdate": "2023 Feb 1",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "38481935",
+   "title": "DNM1L variant presenting as adolescent-onset sensory neuronopathy, spasticity, dystonia, and ataxia.",
+   "abstract": "DMN1L encodes for dynamin-like protein 1 (DLP1) which plays a key role in perixosomal and mitochondrial fission. Individuals with heterozygous variants in DNM1L present with a wide range of neurologic symptoms, including encephalopathy, epilepsy, and motor deficits. Here we report on a woman presenting with adolescence onset of sensory neuronopathy, spasticity, dystonia, and ataxia. Trio genome sequencing identified a heterozygous variant in DNM1L (NM_012062.3 c.121G>A/p.Val41Met) which was thought to be pathogenic. This case describes the latest known symptomatic onset of DMN1L-related disease described in literature. We highlight our approach to a challenging diagnostic workup and interpretation of a specific variant that has not been previously reported. Furthermore, the case highlights the diagnostic importance of utilizing genomic sequencing and research studies for patients with rare disease.",
+   "found_by": [],
+   "pubdate": "2023 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41786974",
+   "title": "Reversibility and therapeutic feasibility of DNM1L-associated neurodevelopmental disorders.",
+   "abstract": "DNM1L-associated encephalopathy is a neurological disorder with a broad spectrum of symptoms associated with mutations in the DNM1L gene. Treatment primarily aims to alleviate symptoms, which is mostly ineffective as the underlying neuropathology is not well understood. Moreover, the progression and reversibility of the molecular pathology across the key developmental and postnatal stages have not been well characterized, which is crucial for identifying the therapeutic window and formulating effective treatment strategies. Here we demonstrated that the expression of DNM1L variants in developing mouse brains caused severe neuronal loss pronounced at the early postnatal stage. Using a human stem cell model with chemogenetic control of DNM1L, we elucidated the neurodevelopmental stage-specific reversibility of transcriptional changes caused by DNM1L dysfunction. Noticeably, more than 75% of the transcriptional landscape associated with pathology can be restored even in differentiated neurons. We validate that a feasible therapeutic strategy targeting one of the reversible pathways, mitochondrial biogenesis, prevents neurodegeneration, suggesting the potential for effective postnatal clinical intervention in DNM1L-associated disorders.",
+   "found_by": [],
+   "pubdate": "2026 Mar",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30801875",
+   "title": "Clinical-genetic features and peculiar muscle histopathology in infantile DNM1L-related mitochondrial epileptic encephalopathy.",
+   "abstract": "Mitochondria are highly dynamic organelles, undergoing continuous fission and fusion. The DNM1L (dynamin-1 like) gene encodes for the DRP1 protein, an evolutionary conserved member of the dynamin family, responsible for fission of mitochondria, and having a role in the division of peroxisomes, as well. DRP1 impairment is implicated in several neurological disorders and associated with either de novo dominant or compound heterozygous mutations. In five patients presenting with severe epileptic encephalopathy, we identified five de novo dominant DNM1L variants, the pathogenicity of which was validated in a yeast model. Fluorescence microscopy revealed abnormally elongated mitochondria and aberrant peroxisomes in mutant fibroblasts, indicating impaired fission of these organelles. Moreover, a very peculiar finding in our cohort of patients was the presence, in muscle biopsy, of core like areas with oxidative enzyme alterations, suggesting an abnormal distribution of mitochondria in the muscle tissue.",
+   "found_by": [],
+   "pubdate": "2019 May",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41683646",
+   "title": "Untargeted Serum Proteomics in the Fontan Circulation Reveals Three Distinct Molecular Signatures of Fontan Physiology with CYB5R3 Among Key Proteins.",
+   "abstract": "The total cavopulmonary anastomosis (Fontan procedure), a palliative procedure for single-ventricle congenital heart disease, improves survival but is associated with progressive multiorgan complications and high long-term morbidity. Prior blood-based proteomic studies in adults have been limited to targeted antibody-based panels or focused on methodological comparisons. Systemic molecular alterations in younger, clinically heterogeneous patients, particularly in untargeted pathways, remain incompletely characterized. Serum samples from 48 Fontan patients and 48 age- and sex-matched healthy controls were analyzed using mass spectrometry with TMT labeling. 2228 proteins were quantified, of which 124 were significantly differentially abundant (fold change > 1.5 or <0.67, FDR-adjusted p < 0.05). Network analysis identified three major functional clusters: extracellular matrix (ECM) organization (predominantly increased), actin cytoskeleton organization, and platelet-related pathways (both predominantly decreased). Stratified analyses showed reduced ECM protein abundance in high-risk patients, suggesting a shift from active remodeling toward a more established fibrotic state, and uniquely elevated cytochrome b5 reductase 3 (CYB5R3), implicating altered redox homeostasis, nitric oxide metabolism, and cellular aging. Overall, our findings extend prior targeted analyses, reveal potential biomarkers such as CYB5R3 and underscore the complexity of the Fontan circulation, with implications for risk stratification and therapeutic targeting. [full text, passages naming DNM1L] ...NN2 | | Q99439 0.57 | WDR1 | | Q75083 0.66 | EMILIN1 | | Q9Y6C2 1.81 | TPM4 | | P67936 0.57 | ARAP1 | | Q96P48 0.60 | FGB | | P02675 1.72 | CAP1 | | Q01518 0.65 | NCK2 | | O43639 0.61 | THBS2 | | P35442 1.80 | DNM1L | | O00429 0.62 | PLEK | | P08567 0.54 | AEBP1 | | Q8IUX7 2.78 | GAPDH | | P04406 0.61 | NCKAP1L | | P55160 0.66 | ANGPT2 | | O15123 1.83 | MYH9 | | P35579 0.64 | PARVB | | Q9HBI1 0.61 | FBLN2 | | P98095...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38726127",
+   "title": "Identification of necroptosis-related diagnostic biomarkers in coronary heart disease.",
+   "abstract": "BACKGROUND: The implication of necroptosis in cardiovascular disease was already recognized. However, the molecular mechanism of necroptosis has not been extensively studied in coronary heart disease (CHD). METHODS: The differentially expressed genes (DEGs) between CHD and control samples were acquired in the GSE20681 dataset downloaded from the GEO database. Key necroptosis-related DEGs were captured and ascertained by bioinformatics analysis techniques, including weighted gene co-expression network analysis (WGCNA) and two machine learning algorithms, while single-gene gene set enrichment analysis (GSEA) revealed their molecular mechanisms. The diagnostic biomarkers were selected via receiver operating characteristic (ROC) analysis. Moreover, an analysis of immune elements infiltration degree was carried out. Authentication of pivotal gene expression at the mRNA level was investigated in vitro utilizing quantitative real-time PCR (qRT-PCR). RESULTS: A total of 94 DE-NRGs were recognized here, among which, FAM166B, NEFL, POLDIP3, PRSS37, and ZNF594 were authenticated as necroptosis-related biomarkers, and the linear regression model based on them presented an acceptable ability to different sample types. Following regulatory analysis, the ascertained biomarkers were markedly abundant in functions pertinent to blood circulation, calcium ion homeostasis, and the MAPK/cAMP/Ras signaling pathway. Single-sample GSEA exhibited that APC co-stimulation and CCR were more abundant, and aDCs and B cells were relatively scarce in CHD patients. Consistent findings from bioinformatics and qRT-PCR analyses confirmed the upregulation of NEFL and the downregulation of FAM166B, POLDIP3, and PRSS37 in CHD. CONCLUSION: Our current investigation identified 5 necroptosis-related genes that could be diagnostic markers for CHD and brought a novel comprehension of the latent molecular mechanisms of necroptosis in CHD. [full text, passages naming DNM1L] ...PPID, VDAC1, VDAC2, VDAC3, GLUD2, GLUD1, GLUL, PYGL, PYGM, PYGB, MAPK8, MAPK10, MAPK9, FTH1, FTL, PLA2G4E, PLA2G4A, JMJD7-PLA2G4B, PLA2G4B, PLA2G4C, PLA2G4D, PLA2G4F, ALOX15, CAPN1, CAPN2, SMPD1, MLKL, PGAM5, DNM1L, NLRP3, PYCARD, CASP1, IL1B, CHMP2A, CHMP2B, CHMP3, RNF103-CHMP3, CHMP4B, CHMP4A, CHMP4C, CHMP6, VPS4B, VPS4A, CHMP1B, CHMP1A, CHMP5, CHMP7, TRPM7, IL1A, IL33, HMGB1, TNFSF10, TNFRSF10A, TNFRSF10B, FASLG,...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40396044",
+   "title": "STX17: an ancient SNARE protein whose roles have not been conserved.",
+   "abstract": "Mammalian STX17 (syntaxin 17) plays different cellular roles, including in mitochondrial fission, lipid droplet expansion and macroautophagy/autophagy, depending on the nutritional status. STX17 has a long C-terminal hydrophobic domain (CHD) with a hairpin-like structure, flanked by a basic amino acid-enriched C-terminal tail (C-tail). STX17 is present in a wide variety of eukaryotes, but has been lost in several lineages during evolution. Moreover, the structure of its C-tail remarkably varies, although the CHD is highly conserved. Recently, we compared the localization and function of fly and nematode Syx17/SYX-17 proteins expressed in mammalian cells with that of human STX17. Fly Syx17 expressed in mammalian cells localizes almost exclusively to the cytosol and translocates to autophagosomes upon starvation, whereas nematode SYX-17 is mainly distributed to mitochondria and promotes mitochondrial fission, but does not participate in autophagy. In vivo experiments showed that fly and nematode STX17 homologs are not involved in mitochondrial fission and autophagy, respectively. These results provide important insights into the localization and function of STX17, which acts as a molecular sensor for different nutritional conditions. [full text, passages naming DNM1L] ...SNARE protein plays roles in mitochondrial fission under nutrient-rich conditions and lipid droplet expansion under conditions of excess nutrients (presence of large amounts of oleic acid), by interacting with DNM1L/DRP1 (dynamin 1 like) and ACSL3 (acyl-CoA synthetase long chain family member 3), respectively. Thus, STX17 can serve as a nutrient sensor and mediate various cellular processes as a scaffold protein as w... ...agosome formation. In contrast, expression of fly Syx17 can compensate for the defect in autophagosome formation, but not in mitochondrial fission. Consistent with these results, nematode SYX-17 interacts with DNM1L, but not ATG14, whereas fly Syx17 binds to ATG14, but not DNM1L. Moreover, both fly and nematode STX17 homologs interact with ACSL3 and rescue the defect in lipid droplet expansion of STX17-depleted mamma... ...ensate for the defect in autophagosome formation, but not in mitochondrial fission. Consistent with these results, nematode SYX-17 interacts with DNM1L, but not ATG14, whereas fly Syx17 binds to ATG14, but not DNM1L. Moreover, both fly and nematode STX17 homologs interact with ACSL3 and rescue the defect in lipid droplet expansion of STX17-depleted mammalian cells. The results of the in vivo studies are largely consi...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "35055137",
+   "title": "The Role of Mitochondrial DNA Mutations in Cardiovascular Diseases.",
+   "abstract": "Cardiovascular diseases (CVD) are one of the leading causes of morbidity and mortality worldwide. mtDNA (mitochondrial DNA) mutations are known to participate in the development and progression of some CVD. Moreover, specific types of mitochondria-mediated CVD have been discovered, such as MIEH (maternally inherited essential hypertension) and maternally inherited CHD (coronary heart disease). Maternally inherited mitochondrial CVD is caused by certain mutations in the mtDNA, which encode structural mitochondrial proteins and mitochondrial tRNA. In this review, we focus on recently identified mtDNA mutations associated with CVD (coronary artery disease and hypertension). Additionally, new data suggest the role of mtDNA mutations in Brugada syndrome and ischemic stroke, which before were considered only as a result of mutations in nuclear genes. Moreover, we discuss the molecular mechanisms of mtDNA involvement in the development of the disease. [full text, passages naming DNM1L] ...f the mitochondria are further degraded via a specialized form of autophagy\u2014mitophagy. Healthy parts of the mitochondria are fused and continue normal functioning as a part of the mitochondrial network [ 20 ]. DNM1L (dynamin 1 like) and FIS1 (fission, mitochondrial 1) are the main genes responsible for mitochondrial fission, and MFN1 , MFN2 (mitofusin 1 and 2) and OPA1 (optic atrophy protein 1) are responsible for fu...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "30824836",
+   "title": "TAMM41 is required for heart valve differentiation via regulation of PINK-PARK2 dependent mitophagy.",
+   "abstract": "TAMM41, located within the congenital heart diseases (CHD) sensitive region of 3p25 deletion syndrome, is a mitochondrial membrane maintenance protein critical for yeast survival, but its function in higher vertebrates remains unknown. Via in vivo zebrafish model, we found that tamm41 is highly expressed in the developing heart and deficiency of which led to heart valve abnormalities. Molecular mechanistic studies revealed that TAMM41 interacts and modulates the PINK1-PARK2 dependent mitophagy pathway, thereby implicating TAMM41 in heart valve development during zebrafish embryonic cardiogenesis. Furthermore, through screening of the congenital heart diseases (CHD) sensitive region of 3p25 deletion syndrome among 118 sporadic atrioventricular septal defect (AVSD) patients, we identified three cases carrying heterozygous pathogenic intronic variants of TAMM41. All three cases lacked normal full-length TAMM41 transcripts, most likely due to specific expression of the mutant allele. Collectively, our studies highlight essential roles for TAMM41-dependent mitophagy in development of the heart and provide novel insights into the etiology of AVSD. [full text, passages naming DNM1L] ...tective mechanism against defective mitophagy. Fig. 7 Enforced mitochondrial fission couldn\u2019t restore heart valve malformation with tamm41 mutant embryos. a qPCR analysis of mitophagy related gene expression ( dnm1l , park2 , fundc1 , mfn1b ) in tamm41 +/+ and tamm41 \u2212/\u2212 zebrafish embryos. b Representative images reveal the failure of MO- mfn1b injection to recover the abnormally expressed heart valve markers in tamm... ...eart valve genes. c , d Representative images of three independent experiments revealed that elevated mitochondrial membrane proteins in tamm41 \u2212/\u2212 embryos could not be restored with MO- mfn1b injection. e , f DNM1L-GFP overexpression failed to decrease the elevated mitochondrial membrane proteins in si- TAMM41 AC16 cells with CCCP treatment (fourth panels). g , h Representative images ( n = 50 cells) show that DNM1L... ..., f DNM1L-GFP overexpression failed to decrease the elevated mitochondrial membrane proteins in si- TAMM41 AC16 cells with CCCP treatment (fourth panels). g , h Representative images ( n = 50 cells) show that DNM1L-GFP overexpression is incapable of restoring defective mitophagy in TAMM41 deficient AC16 cells with CCCP addition. Scale bar: 5 \u03bcm. Black horizontal lines indicate mean \u00b1 SD. Means \u00b1 SD are shown for thr...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "36473865",
+   "title": "The chromatin remodeler CHD6 promotes colorectal cancer development by regulating TMEM65-mediated mitochondrial dynamics via EGF and Wnt signaling.",
+   "abstract": "Chromodomain helicase DNA binding protein (CHD) family plays critical roles in regulating gene transcription. The family is linked to cancer disease, but the family member's role in tumorigenesis remains largely unknown. Here, we report that CHD6 is highly expressed in colorectal cancer (CRC). CHD6 knockdown inhibited cancer cell proliferation, migration, invasion, and tumorigenesis. Consistently, Villin-specific Chd6 knockout in mice attenuates cancer formation in AOM/DSS model. We found that aberrant EGF signals promoted the stability of CHD6 by diminishing ubiquitin-mediated degradation. EGF signal inhibits GSK3\u03b2 activity, which in turn prevents phosphodegron formation of CHD6, thereby hindering E3 ligase FBXW7-mediated CHD6 ubiquitination and degradation. CHD6's chromatin remodeler activity engages in binding Wnt signaling transcription factor TCF4 to facilitate the transcriptional expression of TMEM65, a mitochondrial inner membrane protein involved in ATP production and mitochondrial dynamics. In addition, Wnt signaling is also an upstream regulator of CHD6. CHD6 promoter contains TCF4 and \u03b2-catenin binding site, and CHD6 can be transcriptionally activated by Wnt ligand to facilitate TMEM65 transcription. Thus CHD6-TMEM65 axis can be regulated by both EGF and Wnt signaling pathways through two different mechanisms. We further illustrate that CHD6-TMEM65 axis is deregulated in cancer and that co-administration of Wnt inhibitor LGK974 and the anti-EGFR monoclonal antibody cetuximab largely restricted the growth of patient-derived xenografts of CRC. Targeting CHD6-TMEM65 axis may be effective for cancer intervention. [full text, passages naming DNM1L] ...nd programmed cell death (apoptosis) in the cell. The balance of fission and fusion events manifested mitochondrial dynamics, which is regulated by a number of mitochondria-shaping proteins such as Drp1. Drp1 (DNM1L) has a role in mitochondrial fission via mediating membrane fission through its oligomerization and interacting with membrane-associated tubular structures. We showed that TMEM65 can downregulate p-Drp1,...",
+   "found_by": [],
+   "pubdate": "2022",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "41315309": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25658204": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30048666": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22955947": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21526220": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26318285": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41570771": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38480688": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "23798729": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34815439": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41803635": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39191946": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31030549": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "38981483": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37506502": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27050458": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28790323": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22595283": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29335339": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22228096": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41249792": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41387688": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20660112": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32767829": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27816895": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10749171": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39556341": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "25688136": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41296729": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35859795": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30259997": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23334860": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41687852": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38909407": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33522250": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39737939": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39516219": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38724987": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38763511": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34085589": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33549528": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23349293": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26816379": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33387674": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "34870686": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20585624": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31076512": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34657190": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34433037": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34261790": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38719175": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36763487": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38481935": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41786974": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "25128087": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42461707": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38916953": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30801875": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26059473": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25581164": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "14741701": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28007911": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16172208": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41683646": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38726127": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40396044": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35055137": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30824836": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "36473865": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.4,
+   "note": "",
+   "input_tokens": 344,
+   "output_tokens": 217,
+   "usd": 0.007145,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 77,
+   "usd": 0.000786,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 55,
+   "usd": 0.000655,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "16 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 4068,
+   "output_tokens": 186,
+   "usd": 0.004998,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 19.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 20687,
+   "output_tokens": 920,
+   "usd": 0.025287,
+   "calls": 4
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 13.8,
+   "note": "",
+   "input_tokens": 15438,
+   "output_tokens": 1020,
+   "usd": 0.10269,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>11</existing>\n    <hypothesized>78</hypothesized>\n    <novel>10</novel>\n  </probabilities>\n  <justification>Human DNM1L variants are reported only for EMPF1-type encephalopathy with neurological phenotypes (PMIDs 30801875, 33387674, 36763487, 38481935), with no congenital heart malformations attributed to these variants, so Established and Existing cannot be supported by patient genetic data. However, there is strong, directly relevant biology: DRP1/DNM1L-mediated mitochondrial fission was shown to be required for oxygen sensing and ductus arteriosus constriction/closure using human DA tissue from infants undergoing CHD repair (PMID 23334860), which mechanistically links DNM1L to patent ductus arteriosus. Additional supportive but indirect data include altered DRP1 in pressure-overload right ventricular failure modeling tetralogy of Fallot (PMID 33522250), zebrafish cardiac developmental toxicity involving Drp1/Fis1 imbalance (PMID 41687852), and mitophagy/fission interplay in TAMM41-related heart valve development (PMID 30824836). These constitute pathway, expression, and animal/ex vivo functional evidence without causal variant data, placing the relationship firmly in the Hypothesized category, with a small residual possibility that the co-mentions are incidental (Novel).</justification>\n  <pmids>\n    <pmid>23334860</pmid>\n    <pmid>33522250</pmid>\n    <pmid>41687852</pmid>\n    <pmid>30824836</pmid>\n    <pmid>30801875</pmid>\n    <pmid>36763487</pmid>\n    <pmid>33387674</pmid>\n    <pmid>38481935</pmid>\n  </pmids>\n</response>"
+}

@@ -1,0 +1,918 @@
+{
+ "gene": "CTCF",
+ "phenotype": "autism spectrum disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "ASD",
+   "autism",
+   "autistic disorder",
+   "autism spectrum condition",
+   "pervasive developmental disorder",
+   "PDD",
+   "infantile autism",
+   "autistic behavior",
+   "autistic features",
+   "Kanner syndrome"
+  ],
+  "broad": "",
+  "words": [
+   "autism",
+   "spectrum"
+  ],
+  "gene_names": [
+   "FAP108",
+   "CFAP108",
+   "CCCTC-binding factor"
+  ],
+  "anchors": [
+   "autism",
+   "autistic",
+   "ASD"
+  ]
+ },
+ "counts": {
+  "found": 99,
+  "titlekicksparingfulltext": 26,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Established",
+  "distribution": {
+   "Established": 55,
+   "Existing": 34,
+   "Hypothesized": 10,
+   "Novel": 1
+  },
+  "justification": "Human genetic evidence for intragenic CTCF variants in neurodevelopmental disorders with autistic features comes from several independent sources: the large-scale targeted sequencing study reporting de novo CTCF mutation enrichment in NDD/autism trios with explicit genotype\u2013phenotype correlation for CTCF (PMID 33004838), a cohort of four unrelated Chinese probands with distinct de novo CTCF point/frameshift/intragenic variants presenting developmental delay and autistic-like behavior (PMID 42792888), a clinical ASD cohort reporting a de novo probably pathogenic CTCF missense variant (PMID 38587680), and the clinical synopsis of CTCF-related disorder (PMID 38662876). These are independent probands with single-gene-resolution variants, supporting an Established causal role, though the core phenotype is ID/NDD with autistic features rather than idiopathic ASD, which keeps meaningful weight on Existing. Mouse conditional knockout studies (PMIDs 29133437, 35379308, 30377227) and chromatin/CTCF-binding-site studies in ASD regulatory genomics (PMIDs 38280381, 42281968) provide supportive mechanistic biology but are non-human or indirect.",
+  "pmids": [],
+  "detail": {
+   "Established": 55,
+   "Existing": 34,
+   "Hypothesized": 10,
+   "Novel": 1
+  }
+ },
+ "articles": [
+  {
+   "pmid": "33004838",
+   "title": "Large-scale targeted sequencing identifies risk genes for neurodevelopmental disorders.",
+   "abstract": "Most genes associated with neurodevelopmental disorders (NDDs) were identified with an excess of de novo mutations (DNMs) but the significance in case-control mutation burden analysis is unestablished. Here, we sequence 63 genes in 16,294 NDD cases and an additional 62 genes in 6,211 NDD cases. By combining these with published data, we assess a total of 125 genes in over 16,000 NDD cases and compare the mutation burden to nonpsychiatric controls from ExAC. We identify 48 genes (25 newly reported) showing significant burden of ultra-rare (MAF\u2009<\u20090.01%) gene-disruptive mutations (FDR 5%), six of which reach family-wise error rate (FWER) significance (p\u2009<\u20091.25E-06). Among these 125 targeted genes, we also reevaluate DNM excess in 17,426 NDD trios with 6,499 new autism trios. We identify 90 genes enriched for DNMs (FDR 5%; e.g., GABRG2 and UIMC1); of which, 61 reach FWER significance (p\u2009<\u20093.64E-07; e.g., CASZ1). In addition to doubling the number of patients for many NDD risk genes, we present phenotype-genotype correlations for seven risk genes (CTCF, HNRNPU, KCNQ3, ZBTB18, TCF12, SPEN, and LEO1) based on this large-scale targeted sequencing effort.",
+   "found_by": [],
+   "pubdate": "2020 Oct 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "29133437",
+   "title": "Abnormal Microglia and Enhanced Inflammation-Related Gene Transcription in Mice with Conditional Deletion of Ctcf in Camk2a-Cre-Expressing Neurons.",
+   "abstract": "CCCTC-binding factor (CTCF) is an 11 zinc finger DNA-binding domain protein that regulates gene expression by modifying 3D chromatin structure. Human mutations in CTCF cause intellectual disability and autistic features. Knocking out Ctcf in mouse embryonic neurons is lethal by neonatal age, but the effects of CTCF deficiency in postnatal neurons are less well studied. We knocked out Ctcf postnatally in glutamatergic forebrain neurons under the control of Camk2a-Cre. CtcfloxP/loxP;Camk2a-Cre+ (Ctcf CKO) mice of both sexes were viable and exhibited profound deficits in spatial learning/memory, impaired motor coordination, and decreased sociability by 4 months of age. Ctcf CKO mice also had reduced dendritic spine density in the hippocampus and cerebral cortex. Microarray analysis of mRNA from Ctcf CKO mouse hippocampus identified increased transcription of inflammation-related genes linked to microglia. Separate microarray analysis of mRNA isolated specifically from Ctcf CKO mouse hippocampal neurons by ribosomal affinity purification identified upregulation of chemokine signaling genes, suggesting crosstalk between neurons and microglia in Ctcf CKO hippocampus. Finally, we found that microglia in Ctcf CKO mouse hippocampus had abnormal morphology by Sholl analysis and increased immunostaining for CD68, a marker of microglial activation. Our findings confirm that Ctcf KO in postnatal neurons causes a neurobehavioral phenotype in mice and provide novel evidence that CTCF depletion leads to overexpression of inflammation-related genes and microglial dysfunction.SIGNIFICANCE STATEMENT CCCTC-binding factor (CTCF) is a DNA-binding protein that organizes nuclear chromatin topology. Mutations in CTCF cause intellectual disability and autistic features in humans. CTCF deficiency in embryonic neurons is lethal in mice, but mice with postnatal CTCF depletion are less well studied. We find that mice lacking Ctcf in Camk2a-expressing neurons (Ctcf CKO mice) have spatial learning/memory deficits, impaired fine motor skills, subtly altered social interactions, and decreased dendritic spine density. We demonstrate that Ctcf CKO mice overexpress inflammation-related genes in the brain and have microglia with abnormal morphology that label positive for CD68, a marker of microglial activation. Our findings suggest that inflammation and dysfunctional neuron-microglia interactions are factors in the pathology of CTCF deficiency.",
+   "found_by": [],
+   "pubdate": "2018 Jan 3",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "21725066",
+   "title": "Neuron-specific impairment of inter-chromosomal pairing and transcription in a novel model of human 15q-duplication syndrome.",
+   "abstract": "Although the etiology of autism remains largely unknown, cytogenetic and genetic studies have implicated maternal copy number gains of 15q11-q13 in 1-3% of autism cases. In order to understand how maternal 15q duplication leads to dysregulation of gene expression and altered chromatin interactions, we used microcell-mediated chromosome transfer to generate a novel maternal 15q duplication model in a human neuronal cell line. Our 15q duplication neuronal model revealed that by quantitative RT-PCR, transcript levels of NDN, SNRPN, GABRB3 and CHRNA7 were reduced compared with expected levels despite having no detectable alteration in promoter DNA methylation. Since 15q11-q13 alleles have been previously shown to exhibit homologous pairing in mature human neurons, we assessed homologous pairing of 15q11-q13 by fluorescence in situ hybridization. Homologous pairing of 15q11-q13 was significantly disrupted by 15q duplication. To further understand the extent and mechanism of 15q11-q13 homologous pairing, we mapped the minimal region of homologous pairing to a \u223c500 kb region at the 3' end of GABRB3 which contains multiple binding sites for chromatin regulators MeCP2 and CTCF. Both active transcription and the chromatin factors MeCP2 and CTCF are required for the homologous pairing of 15q11-q13 during neuronal maturational differentiation. These data support a model where 15q11-q13 genes are regulated epigenetically at the level of both inter- and intra-chromosomal associations and that chromosome imbalance disrupts the epigenetic regulation of genes in 15q11-q13.",
+   "found_by": [],
+   "pubdate": "2011 Oct 1",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "19132145",
+   "title": "MECP2 promoter methylation and X chromosome inactivation in autism.",
+   "abstract": "Epigenetic mechanisms have been proposed to play a role in the etiology of autism. This hypothesis is supported by the discovery of increased MECP2 promoter methylation associated with decreased MeCP2 protein expression in autism male brain. To further understand the influence of female X chromosome inactivation (XCI) and neighboring methylation patterns on aberrant MECP2 promoter methylation in autism, multiple methylation analyses were peformed on brain and blood samples from individuals with autism. Bisulfite sequencing analyses of a region 0.6 kb upstream of MECP2 in brain DNA samples revealed an abrupt transition from a highly methylated region in both sexes to a region unmethylated in males and subject to XCI in females. Chromatin immunoprecipitation analysis demonstrated that the CCTC-binding factor (CTCF) bound to this transition region in neuronal cells, consistent with a chromatin boundary at the methylation transition. Male autism brain DNA samples displayed a slight increase in methylation in this transition region, suggesting a possible aberrant spreading of methylation into the MECP2 promoter in autism males across this boundary element. In addition, autistic female brain DNA samples showed evidence for aberrant MECP2 promoter methylation as an increase in the number of bisulfite sequenced clones with undefined XCI status for MECP2 but not androgen receptor (AR). To further investigate the specificity of MECP2 methylation alterations in autism, blood DNA samples from females and mothers of males with autism were also examined for XCI skewing at AR, but no significant increase in XCI skewing was observed compared to controls. These results suggest that the aberrant MECP2 methylation in autism brain DNA samples is due to locus-specific rather than global X chromosome methylation changes.",
+   "found_by": [],
+   "pubdate": "2008 Jun",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38662876",
+   "title": "CTCF-Related Disorder.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "1993",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38062027",
+   "title": "TAD evolutionary and functional characterization reveals diversity in mammalian TAD boundary properties and function.",
+   "abstract": "Topological associating domains (TADs) are self-interacting genomic units crucial for shaping gene regulation patterns. Despite their importance, the extent of their evolutionary conservation and its functional implications remain largely unknown. In this study, we generate Hi-C and ChIP-seq data and compare TAD organization across four primate and four rodent species and characterize the genetic and epigenetic properties of TAD boundaries in correspondence to their evolutionary conservation. We find 14% of all human TAD boundaries to be shared among all eight species (ultraconserved), while 15% are human-specific. Ultraconserved TAD boundaries have stronger insulation strength, CTCF binding, and enrichment of older retrotransposons compared to species-specific boundaries. CRISPR-Cas9 knockouts of an ultraconserved boundary in a mouse model lead to tissue-specific gene expression changes and morphological phenotypes. Deletion of a human-specific boundary near the autism-related AUTS2 gene results in the upregulation of this gene in neurons. Overall, our study provides pertinent TAD boundary evolutionary conservation annotations and showcases the functional importance of TAD evolution.",
+   "found_by": [],
+   "pubdate": "2023 Dec 7",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "35379308",
+   "title": "CTCF in parvalbumin-expressing neurons regulates motor, anxiety and social behavior and neuronal identity.",
+   "abstract": "CCCTC-binding factor (CTCF) is a regulator of chromatin organization and has direct effects on gene transcription. Mutations in CTCF have been identified in individuals with neurodevelopmental conditions. There are wide range of behaviors associated with these mutations, including intellectual disabilities, changes in temperament, and autism. Previous mice-model studies have identified roles for CTCF in excitatory neurons in specific behaviors, particularly in regards to learning and memory. However, the role of CTCF in inhibitory neurons is less well defined. In the current study, specific knockout of CTCF in parvalbumin-expressing neurons, a subset of inhibitory neurons, induced a specific behavioral phenotype, including locomotor abnormalities, anxiolytic behavior, and a decrease in social behavior. The anxiolytic and social abnormalities are detected before the onset of locomotor abnormalities. Immunohistochemical analysis revealed a disbalance in parvalbumin-expressing and somatostatin-expressing cells in these mice. Single nuclei RNA sequencing identified changes in gene expression in parvalbumin-expressing neurons that are specific to inhibitory neuronal identity and function. Electrophysiology analysis revealed an enhanced inhibitory tone in the hippocampal pyramidal neurons in knockout mice. These findings indicate that CTCF in parvalbumin-expressing neurons has a significant role in the overall phenotype of CTCF-associated neurodevelopmental deficits.",
+   "found_by": [],
+   "pubdate": "2022 Apr 4",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30377227",
+   "title": "CTCF Governs the Identity and Migration of MGE-Derived Cortical Interneurons.",
+   "abstract": "The CCCTC-binding factor (CTCF) is a central regulator of chromatin topology recently linked to neurodevelopmental disorders such as intellectual disability, autism, and schizophrenia. The aim of this study was to identify novel roles of CTCF in the developing mouse brain. We provide evidence that CTCF is required for the expression of the LIM homeodomain factor LHX6 involved in fate determination of cortical interneurons (CINs) that originate in the medial ganglionic eminence (MGE). Conditional Ctcf ablation in the MGE of mice of either sex leads to delayed tangential migration, abnormal distribution of CIN in the neocortex, a marked reduction of CINs expressing parvalbumin and somatostatin (Sst), and an increased number of MGE-derived cells expressing Lhx8 and other markers of basal forebrain projection neurons. Likewise, Ctcf-null MGE cells transplanted into the cortex of wild-type hosts generate fewer Sst-expressing CINs and exhibit lamination defects that are efficiently rescued upon reexpression of LHX6. Collectively, these data indicate that CTCF regulates the dichotomy between Lhx6 and Lhx8 to achieve correct specification and migration of MGE-derived CINs.SIGNIFICANCE STATEMENT This work provides evidence that CCCTC-binding factor (CTCF) controls an early fate decision point in the generation of cortical interneurons mediated at least in part by Lhx6. Importantly, the abnormalities described could reflect early molecular and cellular events that contribute to human neurological disorders previously linked to CTCF, including schizophrenia, autism, and intellectual disability.",
+   "found_by": [],
+   "pubdate": "2019 Jan 2",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "26166478",
+   "title": "Symmetrical Dose-Dependent DNA-Methylation Profiles in Children with Deletion or Duplication of 7q11.23.",
+   "abstract": "Epigenetic dysfunction has been implicated in a growing list of disorders that include cancer, neurodevelopmental disorders, and neurodegeneration. Williams syndrome (WS) and 7q11.23 duplication syndrome (Dup7) are rare neurodevelopmental disorders with broad phenotypic spectra caused by deletion and duplication, respectively, of a 1.5-Mb region that includes several genes with a role in epigenetic regulation. We have identified striking differences in DNA methylation across the genome between blood cells from children with WS or Dup7 and blood cells from typically developing (TD) children. Notably, regions that were differentially methylated in both WS and Dup7 displayed a significant and symmetrical gene-dose-dependent effect, such that WS typically showed increased and Dup7 showed decreased DNA methylation. Differentially methylated genes were significantly enriched with genes in pathways involved in neurodevelopment, autism spectrum disorder (ASD) candidate genes, and imprinted genes. Using alignment with ENCODE data, we also found the differentially methylated regions to be enriched with CCCTC-binding factor (CTCF) binding sites. These findings suggest that gene(s) within 7q11.23 alter DNA methylation at specific sites across the genome and result in dose-dependent DNA-methylation profiles in WS and Dup7. Given the extent of DNA-methylation changes and the potential impact on CTCF binding and chromatin regulation, epigenetic mechanisms most likely contribute to the complex neurological phenotypes of WS and Dup7. Our findings highlight the importance of DNA methylation in the pathogenesis of WS and Dup7 and provide molecular mechanisms that are potentially shared by WS, Dup7, and ASD.",
+   "found_by": [],
+   "pubdate": "2015 Aug 6",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "38280381",
+   "title": "Topologically associating domains define the impact of de novo promoter variants on autism spectrum disorder risk.",
+   "abstract": "Whole-genome sequencing (WGS) studies of autism spectrum disorder (ASD) have demonstrated the roles of rare promoter de novo variants (DNVs). However, most promoter DNVs in ASD are not located immediately upstream of known ASD genes. In this study analyzing WGS data of 5,044 ASD probands, 4,095 unaffected siblings, and their parents, we show that promoter DNVs within topologically associating domains (TADs) containing ASD genes are significantly and specifically associated with ASD. An analysis considering TADs as functional units identified specific TADs enriched for promoter DNVs in ASD and indicated that common variants in these regions also confer ASD heritability. Experimental validation using human induced pluripotent stem cells (iPSCs) showed that likely deleterious promoter DNVs in ASD can influence multiple genes within the same TAD, resulting in overall dysregulation of ASD-associated genes. These results highlight the importance of TADs and gene-regulatory mechanisms in better understanding the genetic architecture of ASD.",
+   "found_by": [],
+   "pubdate": "2024 Feb 14",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "36012452",
+   "title": "DNA Methylation Profiles of GAD1 in Human Cerebral Organoids of Autism Indicate Disrupted Epigenetic Regulation during Early Development.",
+   "abstract": "DNA methylation profiling has become a promising approach towards identifying biomarkers of neuropsychiatric disorders including autism spectrum disorder (ASD). Epigenetic markers capture genetic risk factors and diverse exogenous and endogenous factors, including environmental risk factors and complex disease pathologies. We analysed the differential methylation profile of a regulatory region of the GAD1 gene using cerebral organoids generated from induced pluripotent stem cells (iPSCs) from adults with a diagnosis of ASD and from age- and gender-matched healthy individuals. Both groups showed high levels of methylation across the majority of CpG sites within the profiled GAD1 region of interest. The ASD group exhibited a higher number of unique DNA methylation patterns compared to controls and an increased CpG-wise variance. We detected six differentially methylated CpG sites in ASD, three of which reside within a methylation-dependent transcription factor binding site. In ASD, GAD1 is subject to differential methylation patterns that may not only influence its expression, but may also indicate variable epigenetic regulation among cells.",
+   "found_by": [],
+   "pubdate": "2022 Aug 16",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "42281968",
+   "title": "Non-coding Regulatory Variants in ASD (Autism Spectrum Disorders) Disrupt CTCF Domains and Shape Cell-Type-Specific Neurodevelopmental Landscapes Revealed by Single-Cell Analyses and Cortical Organoids.",
+   "abstract": "BACKGROUND: Autism Spectrum Disorder (ASD) is a complex neurodevelopmental disorder with substantial genetic heterogeneity. While coding variants have been extensively studied, non-coding regulatory variants-which constitute approximately 99% of the human genome-remain largely underexplored. Their functional impact, particularly at the single-cell level and in organoid models, requires further characterization to better understand how these variants contribute to ASD pathogenesis. METHODS: We performed targeted sequencing of 85,394 active cis-regulatory elements (cCREs) from ENCODE v2 in 600 samples (200 trios) previously negative for pathogenic coding variants. Using the Sei deep learning framework, we predicted regulatory impact scores for de novo and ultra-rare inherited variants. Gene mapping of regulatory variants was done using the T Gene tool which assigns target genes by integrating expression data. Differential gene expression was assessed using single-nucleus RNA-seq data from ASD and control brains (n = 64 individuals, ~ 600,000) from Wembley et al, 2023 and temporal gene expression dynamics was characterized in human cortical organoids scRNA seq data across four developmental stages (23 days to 6 months) from the Cortical Organoid Atlas (Broad Institute). RESULTS: We identified 164 de novo variants in 103 probands and 53,023 ultra-rare inherited variants in 199 probands. Following Sei-based prioritization, 47 de novo variants in 44 probands and 13,258 inherited variants in 198 probands showed significant regulatory impact score > 1.1. De novo variants were enriched in promoter-like sequences (PLS) (p = 0.02), with 53.19% affecting CTCF-mediated chromatin boundaries. Inherited variants showed significant enrichment for CTCF-binding loss (p = 1.55\u00d710-8) and demonstrated maternal transmission bias (50.85% vs 49.15%, p = 9.97\u00d710-5). Single-cell analysis of the target predicted genes revealed distinct cellular architectures for both gene groups. De novo genes ( POGZ, ROCK2, NFIB ) showed focused dysregulation in oligodendrocytes and specific neuronal populations, while inherited genes ( SYNJ2, UBC, CLU, DLC1 ) exhibited broader effects across multiple cell types. Cortical organoid profiling demonstrated that de novo genes display progressive developmental activation with precise spatiotemporal specificity- POGZ and ROCK2 exhibited bimodal expression peaks at 1 and 6 months in outer radial glia while NFIB showed linear upregulation across progenitor populations. In contrast, inherited genes maintained constitutive expression throughout development, with the exception of CLU, which showed regulated upregulation at later stages. Remarkably, de novo regulatory genes (POGZ, NFIB) are previously identified autism risk genes in large scale sequencing studies, providing validation of dosage sensitivity mechanisms. CONCLUSIONS: Our analysis of regulatory variants in ASD indicates that non-coding mutations significantly contribute to ASD risk by disrupting CTCF domains, leading to alterations in cell type-specific gene regulation. Most de novo regulatory mutations predominantly target genes whose expression is dynamic, varying across different cell types and neurodevelopmental stages, whereas inherited regulatory variants affect constitutively expressed genes across multiple cell types, with stable expression throughout development with the exception of CLU. We also found that genes affected by de novo regulatory variants substantially overlap with those harboring pathogenic coding mutations identified in large-scale sequencing studies. These.",
+   "found_by": [],
+   "pubdate": "2026 Jun 5",
+   "query_tier": "primary"
+  },
+  {
+   "pmid": "30940740",
+   "title": "CTCF: a Swiss-army knife for genome organization and transcription regulation.",
+   "abstract": "Orchestrating vertebrate genomes require a complex interplay between the linear composition of the genome and its 3D organization inside the nucleus. This requires the function of specialized proteins, able to tune various aspects of genome organization and gene regulation. The CCCTC-binding factor (CTCF) is a DNA binding factor capable of regulating not only the 3D genome organization, but also key aspects of gene expression, including transcription activation and repression, RNA splicing, and enhancer/promoter insulation. A growing body of evidence proposes that CTCF, together with cohesin contributes to DNA loop formation and 3D genome organization. CTCF binding sites are mutation hotspots in cancer, while mutations in CTCF itself lead to intellectual disabilities, emphasizing its importance in disease etiology. In this review we cover various aspects of CTCF function, revealing the polyvalence of this factor as a highly diversified tool for vertebrate genome organization and transcription regulation.",
+   "found_by": [],
+   "pubdate": "2019 Apr 23",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32179771",
+   "title": "An epilepsy-associated mutation in the nuclear import receptor KPNA7 reduces nuclear localization signal binding.",
+   "abstract": "KPNA7 is a member of the Importin-\u03b1 family of nuclear import receptors. KPNA7 forms a complex with Importin-\u03b2 and facilitates the translocation of signal-containing proteins from the cytoplasm to the nucleus. Exome sequencing of siblings with severe neurodevelopmental defects and clinical features of epilepsy identified two amino acid-altering mutations in KPNA7. Here, we show that the E344Q substitution reduces KPNA7 binding to nuclear localization signals, and that this limits KPNA7 nuclear import activity. The P339A substitution, by contrast, has little effect on KPNA7 binding to nuclear localization signals. Given the neuronal phenotype described in the two patients, we used SILAC labeling, affinity enrichment, and mass spectrometry to identify KPNA7-interacting proteins in human induced pluripotent stem cell-derived neurons. We identified heterogeneous nuclear ribonucleoproteins hnRNP R and hnRNP U as KPNA7-interacting proteins. The E344Q substitution reduced binding and KPNA7-mediated import of these cargoes. The c.1030G\u00a0>\u00a0C allele which generates E344Q is within a predicted CTCF binding site, and we found that it reduces CTCF binding by approximately 40-fold. Our data support a role for altered neuronal expression and activity of KPNA7 in a rare type of pediatric epilepsy.",
+   "found_by": [],
+   "pubdate": "2020 Mar 16",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42401939",
+   "title": "Genetic architecture of patients with autism spectrum disorder - data analysis based on the literature review.",
+   "abstract": "BACKGROUND: Autism spectrum disorder (ASD) is a neurodevelopmental condition including incorrect functioning in communication, social interaction, and repetitive behavior. Global prevalence is estimated as 1-2%, with a predominance of men. Different pre- and perinatal, environmental, immunological, neurobiological, genetic, and epigenetic factors are involved in the etiology of ASD. The study aims to analyze genetic abnormalities in patients with ASD according to data from the current literature. MATERIALS AND METHODS: Studies available in the PubMed and Google Scholar databases were chosen through a literature search. Only papers published from 2020, available as full-text publications in English, with studies conducted on humans, original papers, or meta-analyses were included. RESULTS AND DISCUSSION: The following types of genetic variation were identified: copy number variants, larger insertions, inversions, uniparental disomies, tandem repeat expansions, common single nucleotide polymorphisms, single nucleotide variants, short insertions/deletions, and mitochondrial variants. Epigenetic factors, like histone modifications, deoxyribonucleic acid (DNA) methylation, and micro ribonucleic acid might play an important role in ASD predisposition. Genes identified in the review were mainly involved in neurodevelopment, synaptic formation, neuronal migration, neurotransmission, glial proliferation, ubiquitination, chromatin remodeling, or transcription. ASD is described as a component of the phenotype in fragile X syndrome, tuberous sclerosis complex, neurofibromatosis type 1, Angelman, Phelan-McDermid, Smith-Lemli-Opitz syndromes, and chromosome trisomies. Current guidelines for genetic diagnosis of ASD recommend performing directed genetic studies in the first line (like multiplex ligation-dependent probe amplification - MLPA, analysis of FMR1 gene), in case of a negative result, chromosomal microarray as a routine method, then next-generation sequencing (NGS) panel testing, WES (whole exome sequencing), or even WGS (whole genome sequencing) as the last test. CONCLUSIONS: Wider access to modern diagnostic methods has increased the number of ASD patients in whom the genetic etiology of the disorder has been uncovered. Knowledge of the genetic background would be applicable in the diagnosis, prevention, prognosis, and individualized treatment. [full text, passages naming CTCF] ..., CDH8 , CDK13 , CDKL5 , CDKN2A , CELF4 , CELSR3 , CHD1 , CHD2 , CHD7 , CHD8 , CHRNA4 , CHRNA7 , CIPC , CLCN2 , CNOT3 , CNTN4 , CNTNAP2 , COL6A2 , CORO1A , CORO2B , CPSF7 , CREBBP , CSNK1E , CSMD2 , CSNK2A1 , CTCF , CTNNB1 , CUL3 , CUX1 , DCHS2 , DDX53 , DEAF1 , DIP2A , DISC1 , DLG4 , DMPK , DMWD , DNAH14 , DNMT3A , DOC2A , DPP6 , DPYD , DPYSL2 , DSCAM , DYNC1H1 , DYRK1A , DZANK1 , EBF3 , EEF1A2 , EFCAB12 , EHMT1 ,...",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "42792888",
+   "title": "A Genotype-Phenotype Analysis of Four Chinese Children Carrying Distinct Pathogenic Variants in the &lt;i&gt;CTCF&lt;/i&gt; Gene.",
+   "abstract": "Objective: The objective of this study was to analyze the clinical phenotypes and genetic variant characteristics of four unrelated Chinese children carrying pathogenic variants in the CTCF gene and to explore the genotype-phenotype heterogeneity of autosomal dominant intellectual disability type 21 (MRD21, OMIM 615,502). Methods: Four pediatric patients admitted to Beijing Children's Hospital, Capital Medical University, from 2020 to 2024 were enrolled in this retrospective study. All patients underwent medical history collection, physical examination, laboratory tests and high-throughput sequencing. Identified variants were verified in the probands and parents via Sanger sequencing or CNV-seq. Results: Four distinct heterozygous CTCF variants were identified: a missense variant c.1117C>T (p.His373Tyr); an 8.92 Mb microdeletion at 16q21-q22.1 (arr[GRCh37] 16q21q22.1(58,986,875-67,907,636)\u00d71), encompassing the entire CTCF gene; a frameshift deletion c.615_618delGAAA (p.Lys206Profs*15); and an intragenic deletion of exons 8-10. Parental testing confirmed that all identified variants were of de novo origin. The missense variant and the frameshift deletion have been reported previously in ClinVar (VCV000521287.19 and VCV001308122.2), but the two deletions were not found in public databases. Three patients presented with global developmental delay consistent with MRD21, with variable additional features including autistic-like behavior and facial dysmorphism. Notably, two of these patients showed somatic overgrowth with height and weight above the 97th percentile, contrasting with the short stature classically emphasized in MRD21. The fourth patient was a preterm infant with neonatal chylothorax, cardiopulmonary failure, and multiple congenital cardiovascular malformations; developmental assessment at a corrected age of 11 months showed only mild lags. Conclusions: This study expands the spectrum of pathogenic CTCF variants in the Chinese population and underscores the marked phenotypic heterogeneity of CTCF-related disorders, ranging from benign developmental outcomes with complete catch-up to severe neonatal multisystem involvement. In neonates presenting with unexplained chylothorax and multisystem abnormalities, especially when accompanied by features suggestive of a neurodevelopmental syndrome, CTCF should be considered in the differential diagnosis. Given this heterogeneity, a broad genomic approach rather than targeted CTCF screening is recommended in patients with complex presentations.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "40728960",
+   "title": "Emerging Epigenetic Therapeutics and Diagnostics for Autism Spectrum Disorder.",
+   "abstract": "Autism spectrum disorder (ASD) is a complex neurological and developmental condition that occurs in approximately 1 in 100 children. ASD is a lifelong condition defined by difficulties with social communication, restricted interests, and repetitive behaviors, among other symptoms. Currently, we understand that there is no cure and the disorder can only be managed with occupational therapy alongside limited medical treatments. Reasons underlying the pathogenesis of ASD are still not well understood, but recent studies point to the influence of epigenetic dysregulation in ASD development, which opens up avenues to novel diagnosis and treatment options. In this review, we summarize recent findings and emerging therapeutics for ASD, with a focus on implications of epigenetic regulatory pathways and factors. We expound the implications of these findings to enable preventive measurements for mothers to reduce the impact of ASD at birth, non-invasive diagnostic tests for early detection, and personalized medicine management. Finally, we discuss several critical issues to be addressed and future directions of this important research field. [full text, passages naming CTCF] ...xpression [ 97 , 98 ]. These genes are observed to be differentially methylated on their DNA in ASD subjects relative to controls [ 99 , 100 , 101 ]. Some of these sites are enriched with CCCTC-binding factor (CTCF) binding motifs that suggest the formation of abnormal higher-order chromosomal conformation to underlie the manifestation of ASD phenotypes [ 99 ]. Studies have uncovered differentially methylated profile...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41155356",
+   "title": "Genetic and Pathogenic Overlaps Between Autism Spectrum Disorder and Alzheimer's Disease: Evolutionary Features and Opportunities for Drug Repurposing.",
+   "abstract": "Autism spectrum disorder (ASD) and Alzheimer's disease (AD) are neurodevelopmental and neurodegenerative disorders, respectively. While exome sequencing is routinely employed during the early stages of ASD diagnosis, it rarely influences therapeutic strategies. To address this gap, we have reconstructed and analyzed the gene networks linking autism spectrum disorders, Alzheimer's disease, and mTOR signaling. In addition, we have performed a phylostratigraphic analysis that reveals similarities and differences in the evolution of both ASD and Alzheimer's disease predisposition genes. We have shown that almost half of the genes predisposing to autism and two-fifths of the genes predisposing to Alzheimer's disease are directly related to the mTOR signaling pathway. Analysis of Phylostratigraphic Age Index (PAI) value distributions revealed a significant enrichment of evolutionarily ancient genes in both ASD- and AD-related gene sets. When studying the distribution of ASD predisposition genes by Divergence Index (DI) values, a significant enrichment with genes having extremely low DI = 0 has been found. Such low DI values indicate that most likely these genes are under stabilizing selection. Using the ANDVisio tool, both pharmacological and natural mTOR regulators with potential for ASD treatment were selected, such as propofol, dexamethasone, celecoxib, statins, berberine, resveratrol, quercetin, myricetin, mio-inositol, and several amino acids. [full text, passages naming CTCF] ...with genes subjected to stabilizing selection has been revealed. An extremely low DI value (=0) has been found for 66 genes, or 6% of the SFARI Gene database (gene set 1), and 14 genes (ACVR2A, AP2S1, CAMK2A, CTCF, CUL3, HNRNPD, MARK2, NACC1, OBSCN, SATB2, SLC6A1, SPAST, TBR1, and TLE3), or 8% of gene set 2. Moreover, not a single gene among the ASD predisposition genes from gene set 2 had a DI > 1 ( Supplementary T...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41210134",
+   "title": "A comprehensive review of GABA in autism spectrum disorders: associations, mechanisms, and therapeutic implications.",
+   "abstract": "The etiology and pathogenesis of Autism Spectrum Disorder (ASD) are not yet clear. Gamma-aminobutyric acid (GABA), as an inhibitory neurotransmitter in the brain, is closely related to the pathogenesis of ASD. Animal models and clinical studies of ASD suggest that abnormalities in GABAergic neurons, signaling pathways, and related genes may play an important role in the pathogenesis of ASD, leading to abnormal levels of GABA in the blood and brain tissue of individuals with ASD. Additionally, GABAergic drugs have shown potential to improve ASD symptoms in animal models, but their efficacy and safety in clinical use still need further research. Therefore, this article reviews the relationship between GABA and ASD, as well as the related research on GABA levels and drug treatment, to further explore the pathogenesis of ASD and provide a theoretical basis for the diagnosis and treatment. [full text, passages naming CTCF] ...red from induced pluripotent stem cells (iPSCs) of autism patients, the methylation level of CpG island in GAD1 promoter region is significantly increased ( 39 ). This methylation affects the region containing CTCF binding sites. CTCF is a transcription factor protein that regulates gene transcription by interacting with enhancers and promoters. Due to the increased methylation in the GAD1 promoter region, the bindin... ...ripotent stem cells (iPSCs) of autism patients, the methylation level of CpG island in GAD1 promoter region is significantly increased ( 39 ). This methylation affects the region containing CTCF binding sites. CTCF is a transcription factor protein that regulates gene transcription by interacting with enhancers and promoters. Due to the increased methylation in the GAD1 promoter region, the binding of the transcripti...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38587680",
+   "title": "Exploring genetic testing requests, genetic alterations and clinical associations in a cohort of children with autism spectrum disorder.",
+   "abstract": "Several studies show great heterogeneity in the type of genetic test requested and in the clinicopathological characteristics of patients with ASD. The following study aims, firstly, to explore the factors that might influence professionals' decisions about the appropriateness of requesting genetic testing for their patients with ASD and, secondly, to determine the prevalence of genetic alterations in a representative sample of children with a diagnosis of ASD. Methods: We studied the clinical factors associated with the request for genetic testing in a sample of 440 children with ASD and the clinical factors of present genetic alterations. Even though the main guidelines recommend genetic testing all children with an ASD diagnosis, only 56% of children with an ASD diagnosis were genetically tested. The prevalence of genetic alterations was 17.5%. These alterations were more often associated with intellectual disability and dysmorphic features. There are no objective data to explicitly justify the request for genetic testing, nor are there objective data to justify requesting one genetic study versus multiple studies. Remarkably, only 28% of males were genetically tested with the recommended tests (fragile X and CMA). Children with dysmorphic features and organic comorbidities were more likely to be genetic tested than those without. Previous diagnosis of ASD (family history of ASD) and attendance at specialist services were also associated with Genetically tested Autism Spectrum Disorder GTASD. Our findings emphasize the importance of establishing algorithms to facilitate targeted genetic consultation for individuals with ASD who are likely to benefit, considering clinical phenotypes, efficiency, ethics, and benefits. [full text, passages naming CTCF] ...Normal | | SCN1A 3 c.2201T > G. | | | de novo Uncertain | Normal | | TCF12 4 c.546dup | Paroxysmal episodes | | de novo Uncertain | Normal | | GNAO1 4 c.563 C > T | | | de novo Probably pathogenic | Normal | | CTCF 5 c.1118 A > T | Microcephaly | | de novo Probably pathogenic | Normal | | FLG 5 c.1501 C > T | | | de novo Pathogenic | Normal | | SOX6 c.949G > C | Normal | Maternal | Uncertain | Normal | | USP9X c.6077...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "35011637": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35589920": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36289335": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39487131": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41937947": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37540596": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27742736": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35013239": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36371401": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34773305": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28775169": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28671688": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33186356": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34830280": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36599988": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27149842": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26700815": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40504688": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31949157": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35421995": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39185186": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28722347": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32313931": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "22395465": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "41042842": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30835260": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33004838": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "29133437": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "21725066": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19132145": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38662876": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38062027": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31516082": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "35379308": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30377227": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41693552": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26166478": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38280381": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36012452": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42281968": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35167425": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42521690": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29467330": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40140405": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30940740": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36911294": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39847329": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32213324": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42386978": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39920158": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36289338": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27026300": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37062615": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17512414": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "17339341": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39879989": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33259986": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18786550": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32034089": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36036457": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34439298": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34585664": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36469784": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32632335": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "30659153": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33675363": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37365294": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38244545": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36958196": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "31636200": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34910225": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32179771": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "31500627": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37781588": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28286735": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24816393": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42680562": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42401939": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "42320469": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42450350": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42217058": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42792888": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40728960": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41514907": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41155356": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41305792": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41425200": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41210134": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40519652": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38751214": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38587680": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40581089": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "39887636": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "36367658": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41685090": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "42479105": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34862305": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38850535": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40943469": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 2.1,
+   "note": "",
+   "input_tokens": 346,
+   "output_tokens": 188,
+   "usd": 0.00643,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.2,
+   "note": "",
+   "input_tokens": 399,
+   "output_tokens": 82,
+   "usd": 0.000809,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 92.1,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 5.9,
+   "note": "",
+   "input_tokens": 378,
+   "output_tokens": 46,
+   "usd": 0.000608,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "30 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "11 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 6.9,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 4329,
+   "output_tokens": 184,
+   "usd": 0.005249,
+   "calls": 8
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 71.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.7,
+   "note": "",
+   "input_tokens": 40499,
+   "output_tokens": 1686,
+   "usd": 0.048929,
+   "calls": 8
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.2,
+   "note": "",
+   "input_tokens": 14671,
+   "output_tokens": 1005,
+   "usd": 0.09848,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>55</established>\n    <existing>34</existing>\n    <hypothesized>10</hypothesized>\n    <novel>1</novel>\n  </probabilities>\n  <justification>Human genetic evidence for intragenic CTCF variants in neurodevelopmental disorders with autistic features comes from several independent sources: the large-scale targeted sequencing study reporting de novo CTCF mutation enrichment in NDD/autism trios with explicit genotype\u2013phenotype correlation for CTCF (PMID 33004838), a cohort of four unrelated Chinese probands with distinct de novo CTCF point/frameshift/intragenic variants presenting developmental delay and autistic-like behavior (PMID 42792888), a clinical ASD cohort reporting a de novo probably pathogenic CTCF missense variant (PMID 38587680), and the clinical synopsis of CTCF-related disorder (PMID 38662876). These are independent probands with single-gene-resolution variants, supporting an Established causal role, though the core phenotype is ID/NDD with autistic features rather than idiopathic ASD, which keeps meaningful weight on Existing. Mouse conditional knockout studies (PMIDs 29133437, 35379308, 30377227) and chromatin/CTCF-binding-site studies in ASD regulatory genomics (PMIDs 38280381, 42281968) provide supportive mechanistic biology but are non-human or indirect.</justification>\n  <pmids>\n    <pmid>33004838</pmid>\n    <pmid>42792888</pmid>\n    <pmid>38587680</pmid>\n    <pmid>38662876</pmid>\n    <pmid>29133437</pmid>\n    <pmid>35379308</pmid>\n    <pmid>30377227</pmid>\n    <pmid>38280381</pmid>\n    <pmid>42281968</pmid>\n  </pmids>\n</response>"
+}

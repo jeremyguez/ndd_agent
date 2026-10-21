@@ -1,0 +1,197 @@
+{
+  "articles_found": {
+    "clinical": 14,
+    "model_organism": 15,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [
+      {
+        "citation": "Pathogenic XPO1 variants cause a dominant neurodevelopmental disorder (PMID: 40819229)",
+        "num_patients": 22,
+        "variants": [
+          {
+            "description": "Putative loss-of-function de novo XPO1 variants (nonsense/frameshift/splice; specific notations not given in abstract); about 11 individuals",
+            "type": "LoF",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "overlapping phenotype across the cohort (details not given in abstract)"
+            ]
+          },
+          {
+            "description": "De novo XPO1 missense variants (10 variants; specific notations not given in abstract)",
+            "type": "missense",
+            "phenotypes": [
+              "neurodevelopmental disorder",
+              "overlapping phenotype across the cohort (details not given in abstract)"
+            ]
+          },
+          {
+            "description": "De novo XPO1 in-frame deletion (1 variant; notation not given in abstract)",
+            "type": "other",
+            "phenotypes": [
+              "neurodevelopmental disorder"
+            ]
+          }
+        ],
+        "diagnostic_reason": "De novo variants in individuals with an overlapping phenotype gathered through matchmaking; Drosophila knockdown showed developmental defects and impaired habituation learning; XPO1 is deleted in 2p15p16.1 microdeletion syndrome",
+        "center_country": null,
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2015 - Molecular and clinical delineation of the 2p15-16.1 microdeletion syndrome",
+        "num_patients": 2,
+        "variants": [
+          {
+            "description": "105 kb 2p15p16.1 microdeletion including only XPO1 and the distal end of USP34 (prenatal case and one postnatal case)",
+            "type": "other",
+            "phenotypes": [
+              "dysmorphic facial features",
+              "brain structural abnormalities",
+              "cognitive impairment"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Small overlapping deletion containing only XPO1 and distal USP34 in patients with a phenotype overlapping 2p15p16.1 deletion syndrome",
+        "center_country": "France",
+        "cohort": null
+      },
+      {
+        "citation": "ASHG 2016 - Driver genes for 2p15p16.1 microdeletion syndrome identified using clinical, genomic and functional analysis",
+        "num_patients": 8,
+        "variants": [
+          {
+            "description": "2p15p16.1 microdeletions of varying size including XPO1 (with USP34, BCL11A, REL in various combinations)",
+            "type": "other",
+            "phenotypes": [
+              "intellectual disability",
+              "microcephaly",
+              "hypotonia",
+              "delayed growth",
+              "craniofacial features",
+              "digital anomalies"
+            ]
+          }
+        ],
+        "diagnostic_reason": "Deletion of XPO1 gave reduced protein expression in patient LCLs and nuclear accumulation of the cargo rpS5; xpo1a knockdown in zebrafish caused microcephaly and developmental abnormalities",
+        "center_country": "Canada (University of British Columbia) and collaborators in USA/UK",
+        "cohort": null
+      },
+      {
+        "citation": "Exome analysis links kidney malformations to developmental disorders and reveals causal genes (PMID: 40774958)",
+        "num_patients": null,
+        "variants": [
+          {
+            "description": "Rare damaging XPO1 variants (not specified in abstract) in CAKUT cases",
+            "type": "other",
+            "phenotypes": [
+              "congenital anomalies of the kidneys and urinary tract (CAKUT)"
+            ]
+          }
+        ],
+        "diagnostic_reason": "XPO1 identified as one of 40 candidate CAKUT genes through enrichment of rare damaging variants in constrained genes",
+        "center_country": null,
+        "cohort": null
+      }
+    ],
+    "model_organism": [
+      {
+        "citation": "Nuclear export inhibitors avert progression in preclinical models of inflammatory demyelination (PMID: 25706475)",
+        "organism": "mouse (cultured neurons; in vivo work used pharmacological CRM1 inhibitors, not genetic knockout)",
+        "knockout_type": "knockdown",
+        "phenotypes": [
+          "Xpo1 knockdown in cultured neurons was neuroprotective, mirroring the effect of pharmacological CRM1 inhibition",
+          "Pharmacological CRM1 inhibitors attenuated disease progression in murine demyelination models, including when started after onset of paralysis",
+          "CRM1 inhibitors decreased immune cell proliferation, with nuclear accumulation of cell cycle inhibitors",
+          "CRM1 inhibitors preserved cytoskeletal integrity in demyelinated axons",
+          "CRM1 inhibitors were neuroprotective in the kainic acid model of axonal damage",
+          "In neurons, CRM1 inhibitors prevented nuclear export of molecules associated with axonal damage and retained neuroprotective transcription factors"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Pathogenic XPO1 variants cause a dominant neurodevelopmental disorder (PMID: 40819229)",
+        "evidence_subtype": "fly_worm",
+        "summary": "Ubiquitous and neuron-specific XPO1 knockdown in Drosophila impaired development. GABAergic neuron-specific knockdown impaired habituation learning. De novo XPO1 variants (half putative LoF, half missense or in-frame deletion) in 22 individuals define a dominant monogenic neurodevelopmental disorder.",
+        "sample_size": "22 individuals with de novo XPO1 variants",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Functional characterization of the 2p15-16 microdeletion",
+        "evidence_subtype": "fly_worm",
+        "summary": "XPO1 RNAi knockdown in C. elegans causes early embryonic lethality. An XPO1::GFP transgene is expressed ubiquitously throughout development and in adults. XPO1 lies in the minimal deleted region of the 2p15-16 microdeletion.",
+        "sample_size": "5 deletion subjects",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2011 - Functional characterization of the 2p15-16 microdeletion",
+        "evidence_subtype": "expression",
+        "summary": "XPO1 is expressed in adult mouse brain, gut and lung. In human fetal brain it shows mild positivity in immature ependyma and Cajal-Retzius cells. Whole-genome expression showed no copy-number-related reduction of XPO1 in patient samples.",
+        "sample_size": "5 deletion subjects",
+        "significance": null
+      },
+      {
+        "citation": "ASHG 2016 - Driver genes for 2p15p16.1 microdeletion syndrome identified using clinical, genomic and functional analysis",
+        "evidence_subtype": "cell_culture",
+        "summary": "XPO1 is dosage sensitive, with reduced protein in patient lymphoblast lines. XPO1 deletion co-segregated with nuclear accumulation of the export cargo rpS5. Zebrafish xpo1a knockdown caused microcephaly, dysmorphic body, growth defects and brain abnormalities, implicating XPO1 as a driver gene.",
+        "sample_size": "8 new cases plus published cases",
+        "significance": null
+      },
+      {
+        "citation": "Exportin-1 functions as an adaptor for transcription factor-mediated docking of chromatin at the nuclear pore complex (PMID: 40068679)",
+        "evidence_subtype": "yeast",
+        "summary": "In yeast, Crm1/Xpo1 binds Gcn4 and Nup2 directly and co-occupies enhancers with Nups. Crm1 inhibition blocks Nup2-genome interaction. The Crm1-Gcn4 interaction needs neither Ran-GTP nor the NES-binding site, and Crm1/Ran-GTP stimulate Gcn4 DNA binding.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Nuclear export of R-loop by the DDX1 and XPO1 complex promotes senescence-associated secretory phenotype and inflammaging (PMID: 42303864)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "An XPO1-DDX1 complex is essential for nuclear export of R-loops into cytoplasmic chromatin fragments in senescent cells, activating cGAS-STING and the SASP. XPO1 inhibition with KPT-330 blocked R-loop export, attenuated the SASP and inflammation, and extended healthspan.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "XPO1-dependency of DEK::NUP214 leukemia (PMID: 40148556)",
+        "evidence_subtype": "cell_culture",
+        "summary": "XPO1 deletion in DEK::NUP214 FKH-1 cells showed strong dependency. XPO1 co-localizes with DEK::NUP214 at chromatin, and eltanexor disrupted this, down-regulating cell-cycle and self-renewal targets. Eltanexor delayed leukemia in a PDX model (median 377 vs 244 days).",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Impaired nucleocytoplasmic transport in SOD1-mediated ALS (PMID: 41691309)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Mutant SOD1 disrupts nuclear import and export and causes cytosolic accumulation of XPO1 and RanGAP1. AAV-mediated reduction of mutant SOD1 restored nuclear XPO1 localization in transgenic mice. Similar changes appeared in patient fibroblasts and postmortem spinal cord.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Function of Nup98 subtypes and their fusion proteins, Nup98-TopII\u03b2 and Nup98-SETBP1 in nuclear-cytoplasmic transport (PMID: 28392395)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Nup98-TopII\u03b2 and Nup98-SETBP1 partially co-localize with XPO1 and full-length Nup98, and negatively regulate XPO1-mediated protein export.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Mutant NPM1 Maintains the Leukemic State through HOX Expression (PMID: 30205049)",
+        "evidence_subtype": "function",
+        "summary": "XPO1 mediates cytoplasmic export of mutant NPM1c. XPO1 inhibition relocalizes NPM1c to the nucleus, down-regulates HOX genes, promotes differentiation of AML cells and prolongs survival of Npm1-mutated leukemic mice.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Exportin 1 (XPO1) Expression and Effectiveness of XPO1 Inhibitor Against Canine Lymphoma Cell Lines (PMID: 40872651)",
+        "evidence_subtype": "expression",
+        "summary": "XPO1 mRNA and protein are highly expressed in 17-71, CLBL-1, CLC, CLGL-90 and UL-1 canine lymphoma lines, and moderately in GL-1, Ema and Nody-1. KPT-335 inhibited growth in all lines (IC50 89.8-418 nM), with no correlation between XPO1 level and drug efficacy.",
+        "sample_size": "8 canine lymphoma cell lines",
+        "significance": null
+      }
+    ]
+  }
+}

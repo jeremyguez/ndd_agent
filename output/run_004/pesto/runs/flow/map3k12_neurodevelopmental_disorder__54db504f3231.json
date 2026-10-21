@@ -1,0 +1,870 @@
+{
+ "gene": "MAP3K12",
+ "phenotype": "neurodevelopmental disorder",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "NDD",
+   "neurodevelopmental disorders",
+   "neurodevelopmental abnormality",
+   "neurodevelopmental disability",
+   "neurodevelopmental impairment",
+   "neurodevelopmental delay",
+   "abnormal neurodevelopment",
+   "disorder of neurodevelopment",
+   "developmental disorder of the nervous system",
+   "neurological developmental disorder"
+  ],
+  "broad": "",
+  "words": [
+   "neurodevelopmental"
+  ],
+  "gene_names": [
+   "ZPKP1",
+   "MEKK12",
+   "DLK",
+   "ZPK",
+   "MUK",
+   "mitogen-activated protein kinase kinase kinase 12"
+  ],
+  "anchors": [
+   "neurodevelopmental",
+   "developmental delay",
+   "intellectual disability"
+  ]
+ },
+ "counts": {
+  "found": 89,
+  "titlekicksparingfulltext": 20,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Existing",
+  "distribution": {
+   "Established": 4,
+   "Existing": 52,
+   "Hypothesized": 36,
+   "Novel": 8
+  },
+  "justification": "No article reports multiple independent probands with pathogenic single-gene MAP3K12 variants, so Established is not supportable; the 12q13.13 microduplication/deletion report (PMID 28649281) spans ~20+ genes and cannot implicate MAP3K12 specifically. The strongest human genetic evidence is the de novo non-canonical splicing variant study (PMID 38113761), which identified MAP3K12 c.436G>A as a de novo variant in a patient with undiagnosed developmental disorder and experimentally validated aberrant splicing (exon 4 91-bp deletion), naming MAP3K12 a novel NDD candidate gene \u2014 a single, limited but credible human report consistent with \"Existing.\" Substantial supporting biology exists but is largely non-human or degeneration-focused: DLK/MAP3K12 governs axon outgrowth, regeneration, synapse remodeling and presynaptic development via the RPM-1/Highwire pathway in C. elegans and mouse models (PMIDs 26051896, 24569480, 19652181, 39360902, 31805042), which would otherwise place the gene in \"Hypothesized.\" Most remaining papers concern DLK inhibitors and neurodegeneration (Alzheimer's, ALS, injury), which are not neurodevelopmental phenotypes. Hence probability mass is concentrated on Existing with a sizeable residual on Hypothesized.",
+  "pmids": [],
+  "detail": {
+   "Established": 4,
+   "Existing": 52,
+   "Hypothesized": 36,
+   "Novel": 8
+  }
+ },
+ "articles": [
+  {
+   "pmid": "40654834",
+   "title": "ATF2 phosphorylation is a core transcriptional driver of neuron apoptosis.",
+   "abstract": "Apoptotic neuron death is a key feature of neurodegenerative disease. Considerable efforts have been made to target this pathway but the molecular mechanisms remain incompletely understood. Here, we conducted an unbiased whole genome CRISPR inhibition screen in human neurons to discover genes required for their death and identified known targets including the kinase MAP3K12 (DLK) and the transcription factor JUN. In addition, this screen revealed a potential role for the transcription factor ATF2. We demonstrate that ATF2 phosphorylation by MAP3 kinases is the core driver of the pro-apoptotic transcriptional response. Surprisingly, JUN phosphorylation is not required for apoptosis. However, the phosphorylation of ATF2 and upregulation of JUN expression are crucial. ATF2 therefore converts the kinase signal into a transcriptional response. Inhibiting ATF2 in cultured human neurons prevents cell death. Notably we show that ATF2 knockdown is neuroprotective in injury models in vivo. Thus, ATF2 provides a promising new target for a wide range of neurodegenerative disorders.",
+   "found_by": [],
+   "pubdate": "2025 May 8",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "34818971",
+   "title": "MiR-191-5p alleviates microglial cell injury by targeting Map3k12 (mitogen-activated protein kinase kinase kinase 12) to inhibit the MAPK (mitogen-activated protein kinase) signaling pathway in Alzheimer's disease.",
+   "abstract": "Alzheimer's disease (AD) is a progressive neurodegenerative disease. Multiple reports have elucidated that microRNAs are promising biomarkers for AD diagnosis and treatment. Herein, the effect of miR-191-5p on microglial cell injury and the underlying mechanism were explored. APP/PS1 transgenic mice were utilized to establish mouse model of AD. Amyloid-\u03b2 protein 1-42 (A\u03b21-42)-treated microglia were applied to establish in vitro cell model of AD. MiR-191-5p expression in hippocampus and microglia was measured by reverse transcription quantitative polymerase chain reaction. The viability and apoptosis of microglia were evaluated by Cell Counting Kit-8 assays and flow cytometry analyses, respectively. The binding relationship between miR-191-5p and its downstream target mitogen-activated protein kinase kinase kinase 12 (Map3k12) was determined by luciferase reporter assays. Pathological degeneration of hippocampus was tested using hematoxylin-eosin staining and Nissl staining. A\u03b2 expression in hippocampus was examined via immunohistochemistry. In this study, miR-191-5p was downregulated in A\u03b21-42-stimulated microglia and hippocampal tissues of APP/PS1 mice. MiR-191-5p overexpression facilitated cell viability and inhibited apoptosis rate of A\u03b21-42-treated microglia. Mechanically, miR-191-5p targeted Map3k12 3'-untranslated region to downregulate Map3k12 expression. MiR-191-5p inhibited A\u03b21-42-induced microglial cell injury and inactivated the MAPK signaling by downregulating Map3k12. Overall, miR-191-5p alleviated A\u03b21-42-induced microglia cell injury by targeting Map3k12 to inhibit the MAPK signaling pathway in microglia.",
+   "found_by": [],
+   "pubdate": "2021 Dec",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "26431428",
+   "title": "Scaffold-Hopping and Structure-Based Discovery of Potent, Selective, And Brain Penetrant N-(1H-Pyrazol-3-yl)pyridin-2-amine Inhibitors of Dual Leucine Zipper Kinase (DLK, MAP3K12).",
+   "abstract": "Recent data suggest that inhibition of dual leucine zipper kinase (DLK, MAP3K12) has therapeutic potential for treatment of a number of indications ranging from acute neuronal injury to chronic neurodegenerative disease. Thus, high demand exists for selective small molecule DLK inhibitors with favorable drug-like properties and good CNS penetration. Herein we describe a shape-based scaffold hopping approach to convert pyrimidine 1 to a pyrazole core with improved physicochemical properties. We also present the first crystal structures of DLK. By utilizing a combination of property and structure-based design, we identified inhibitor 11, a potent, selective, and brain-penetrant inhibitor of DLK with activity in an in vivo nerve injury model.",
+   "found_by": [],
+   "pubdate": "2015 Oct 22",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "36342754",
+   "title": "Promoting regeneration while blocking cell death preserves motor neuron function in a model of ALS.",
+   "abstract": "Amyotrophic lateral sclerosis (ALS) is a devastating and fatal neurodegenerative disease of motor neurons with very few treatment options. We had previously found that motor neuron degeneration in a mouse model of ALS can be delayed by deleting the axon damage sensor MAP3K12 or dual leucine zipper kinase (DLK). However, DLK is also involved in axon regeneration, prompting us to ask whether combining DLK deletion with a way to promote axon regeneration would result in greater motor neuron protection. To achieve this, we used a mouse line that constitutively expresses ATF3, a master regulator of regeneration in neurons. Although there is precedence for each individual strategy in the SOD1G93A mouse model of ALS, these have not previously been combined. By several lines of evidence including motor neuron electrophysiology, histology and behaviour, we observed a powerful synergy when combining DLK deletion with ATF3 expression. The combinatorial strategy resulted in significant protection of motor neurons with fewer undergoing cell death, reduced axon degeneration and preservation of motor function and connectivity to muscle. This study provides a demonstration of the power of combinatorial therapy to treat neurodegenerative disease.",
+   "found_by": [],
+   "pubdate": "2023 May 2",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "25341110",
+   "title": "Discovery of dual leucine zipper kinase (DLK, MAP3K12) inhibitors with activity in neurodegeneration models.",
+   "abstract": "Dual leucine zipper kinase (DLK, MAP3K12) was recently identified as an essential regulator of neuronal degeneration in multiple contexts. Here we describe the generation of potent and selective DLK inhibitors starting from a high-throughput screening hit. Using proposed hinge-binding interactions to infer a binding mode and specific design parameters to optimize for CNS druglike molecules, we came to focus on the di(pyridin-2-yl)amines because of their combination of desirable potency and good brain penetration following oral dosing. Our lead inhibitor GNE-3511 (26) displayed concentration-dependent protection of neurons from degeneration in vitro and demonstrated dose-dependent activity in two different animal models of disease. These results suggest that specific pharmacological inhibition of DLK may have therapeutic potential in multiple indications.",
+   "found_by": [],
+   "pubdate": "2015 Jan 8",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "38528988",
+   "title": "Baricitinib and tofacitinib off-target profile, with a focus on Alzheimer's disease.",
+   "abstract": "INTRODUCTION: Janus kinase (JAK) inhibitors were recently identified as promising drug candidates for repurposing in Alzheimer's disease (AD) due to their capacity to suppress inflammation via modulation of JAK/STAT signaling pathways. Besides interaction with primary therapeutic targets, JAK inhibitor drugs frequently interact with unintended, often unknown, biological off-targets, leading to associated effects. Nevertheless, the relevance of JAK inhibitors' off-target interactions in the context of AD remains unclear. METHODS: Putative off-targets of baricitinib and tofacitinib were predicted using a machine learning (ML) approach. After screening scientific literature, off-targets were filtered based on their relevance to AD. Targets that had not been previously identified as off-targets of baricitinib or tofacitinib were subsequently tested using biochemical or cell-based assays. From those, active concentrations were compared to bioavailable concentrations in the brain predicted by physiologically based pharmacokinetic (PBPK) modeling. RESULTS: With the aid of ML and in vitro activity assays, we identified two enzymes previously unknown to be inhibited by baricitinib, namely casein kinase 2 subunit alpha 2 (CK2-\u03b12) and dual leucine zipper kinase (MAP3K12), both with binding constant (K d) values of 5.8 \u03bcM. Predicted maximum concentrations of baricitinib in brain tissue using PBPK modeling range from 1.3 to 23\u00a0nM, which is two to three orders of magnitude below the corresponding binding constant. CONCLUSION: In this study, we extended the list of baricitinib off-targets that are potentially relevant for AD progression and predicted drug distribution in the brain. The results suggest a low likelihood of successful repurposing in AD due to low brain permeability, even at the maximum recommended daily dose. While additional research is needed to evaluate the potential impact of the off-target interaction on AD, the combined approach of ML-based target prediction, in vitro confirmation, and PBPK modeling may help prioritize drugs with a high likelihood of being effectively repurposed for AD. HIGHLIGHTS: This study explored JAK inhibitors' off-targets in AD using a multidisciplinary approach.We combined machine learning, in vitro tests, and PBPK modelling to predict and validate new off-target interactions of tofacitinib and baricitinib in AD.Previously unknown inhibition of two enzymes (CK2-a2 and MAP3K12) by baricitinib were confirmed using in vitro experiments.Our PBPK model indicates that baricitinib low brain permeability limits AD repurposing.The proposed multidisciplinary approach optimizes drug repurposing efforts in AD research.",
+   "found_by": [],
+   "pubdate": "2024 Jan-Mar",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "32659913",
+   "title": "Dual Leucine Zipper Kinase Is Constitutively Active in the Adult Mouse Brain and Has Both Stress-Induced and Homeostatic Functions.",
+   "abstract": "Dual leucine zipper kinase (DLK, Map3k12) is an axonal protein that governs the balance between degeneration and regeneration through its downstream effectors c-jun N-terminal kinase (JNK) and phosphorylated c-jun (p-c-Jun). In peripheral nerves DLK is generally inactive until induced by injury, after which it transmits signals to the nucleus via retrograde transport. Here we report that in contrast to this mode of regulation, in the uninjured adult mouse cerebellum, DLK constitutively drives nuclear p-c-Jun in cerebellar granule neurons, whereas in the forebrain, DLK is similarly expressed and active, but nuclear p-c-Jun is undetectable. When neurodegeneration results from mutant human tau in the rTg4510 mouse model, p-c-Jun then accumulates in neuronal nuclei in a DLK-dependent manner, and the extent of p-c-Jun correlates with markers of synaptic loss and gliosis. This regional difference in DLK-dependent nuclear p-c-Jun accumulation could relate to differing levels of JNK scaffolding proteins, as the cerebellum preferentially expresses JNK-interacting protein-1 (JIP-1), whereas the forebrain contains more JIP-3 and plenty of SH3 (POSH). To characterize the functional differences between constitutive- versus injury-induced DLK signaling, RNA sequencing was performed after DLK inhibition in the cerebellum and in the non-transgenic and rTg4510 forebrain. In all contexts, DLK inhibition reduced a core set of transcripts that are associated with the JNK pathway. Non-transgenic forebrain showed almost no other transcriptional changes in response to DLK inhibition, whereas the rTg4510 forebrain and the cerebellum exhibited distinct differentially expressed gene signatures. In the cerebellum, but not the rTg4510 forebrain, pathway analysis indicated that DLK regulates insulin growth factor-1 (IGF1) signaling through the transcriptional induction of IGF1 binding protein-5 (IGFBP5), which was confirmed and found to be functionally relevant by measuring signaling through the IGF1 receptor. Together these data illuminate the complex multi-functional nature of DLK signaling in the central nervous system (CNS) and demonstrate its role in homeostasis as well as tau-mediated neurodegeneration.",
+   "found_by": [],
+   "pubdate": "2020 Jul 9",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "28929759",
+   "title": "Selective Inhibitors of Dual Leucine Zipper Kinase (DLK, MAP3K12) with Activity in a Model of Alzheimer's Disease.",
+   "abstract": "Significant data exists to suggest that dual leucine zipper kinase (DLK, MAP3K12) is a conserved regulator of neuronal degeneration following neuronal injury and in chronic neurodegenerative disease. Consequently, there is considerable interest in the identification of DLK inhibitors with a profile compatible with development for these indications. Herein, we use structure-based drug design combined with a focus on CNS drug-like properties to generate compounds with superior kinase selectivity and metabolic stability as compared to previously disclosed DLK inhibitors. These compounds, exemplified by inhibitor 14, retain excellent CNS penetration and are well tolerated following multiple days of dosing at concentrations that exceed those required for DLK inhibition in the brain.",
+   "found_by": [],
+   "pubdate": "2017 Oct 12",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "27043251",
+   "title": "Dual leucine zipper kinase (MAP3K12) modulators: a patent review (2010-2015).",
+   "abstract": "INTRODUCTION: The dual leucine zipper kinase (DLK, MAP3K12) is essential for neuronal development and has been shown to mediate axon regeneration. On the other hand, DLK is involved in the pathogenesis of neurodegenerative disease and diabetes mellitus. Several patents have been published claiming to modulate or inhibit DLK by various approaches including ATP competitive inhibitors. In addition, two publications describe SAR of highly selective DLK inhibitors with efficacy in distinct mouse models of neurodegeneration. AREAS COVERED: This review summarized patents claiming to modulate DLK activity published between 2010 and 2015. Peer-reviewed publications related to the patents and additional peer-reviewed publications are included. This article describes 18 patents from three pharmaceutical companies and three academic research groups. EXPERT OPINION: Several methods are proposed to modulate DLK activity, some of them very experimental and not suitable for easy application in patients. ATP competitive kinase inhibitors exert high affinity, but for the majority, no information about their selectivity is available. To date, two inhibitors have been tested in mice. Given the controversial findings that DLK is required for neurodegeneration and for axon regeneration, more research is needed to further elucidate the regulation and the function of this kinase in diverse organs/tissues and under physiological and pathological conditions.",
+   "found_by": [],
+   "pubdate": "2016 May",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "26051896",
+   "title": "Dynamic microtubules drive circuit rewiring in the absence of neurite remodeling.",
+   "abstract": "A striking neuronal connectivity change in C.\u00a0elegans involves the coordinated elimination of existing synapses and formation of synapses at new locations, without altering neuronal morphology. Here, we investigate the tripartite interaction between dynamic microtubules (MTs), kinesin-1, and vesicular cargo during this synapse remodeling. We find that a reduction in the dynamic MT population in motor neuron axons, resulting from genetic interaction between loss of function in the conserved MAPKKK dlk-1 and an \u03b1-tubulin mutation, specifically blocks synapse remodeling. Using live imaging and pharmacological modulation of the MT cytoskeleton, we show that dynamic MTs are increased at the onset of remodeling and are critical for new synapse formation. DLK-1 acts during synapse remodeling, and its function involves MT catastrophe factors including kinesin-13/KLP-7 and spastin/SPAS-1. Through a forward genetic screen, we identify gain-of-function mutations in kinesin-1 that can compensate for reduced dynamic MTs to promote synaptic vesicle transport during remodeling. Our data provide in\u00a0vivo evidence supporting the requirement of dynamic MTs for kinesin-1-dependent axonal transport and shed light on the role of the MT cytoskeleton in facilitating neural circuit plasticity.",
+   "found_by": [],
+   "pubdate": "2015 Jun 15",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "28114100",
+   "title": "The Genetics of Axon Guidance and Axon Regeneration in Caenorhabditis elegans.",
+   "abstract": "The correct wiring of neuronal circuits depends on outgrowth and guidance of neuronal processes during development. In the past two decades, great progress has been made in understanding the molecular basis of axon outgrowth and guidance. Genetic analysis in Caenorhabditis elegans has played a key role in elucidating conserved pathways regulating axon guidance, including Netrin signaling, the slit Slit/Robo pathway, Wnt signaling, and others. Axon guidance factors were first identified by screens for mutations affecting animal behavior, and by direct visual screens for axon guidance defects. Genetic analysis of these pathways has revealed the complex and combinatorial nature of guidance cues, and has delineated how cues guide growth cones via receptor activity and cytoskeletal rearrangement. Several axon guidance pathways also affect directed migrations of non-neuronal cells in C. elegans, with implications for normal and pathological cell migrations in situations such as tumor metastasis. The small number of neurons and highly stereotyped axonal architecture of the C. elegans nervous system allow analysis of axon guidance at the level of single identified axons, and permit in vivo tests of prevailing models of axon guidance. C. elegans axons also have a robust capacity to undergo regenerative regrowth after precise laser injury (axotomy). Although such axon regrowth shares some similarities with developmental axon outgrowth, screens for regrowth mutants have revealed regeneration-specific pathways and factors that were not identified in developmental screens. Several areas remain poorly understood, including how major axon tracts are formed in the embryo, and the function of axon regeneration in the natural environment.",
+   "found_by": [],
+   "pubdate": "2016 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "24569480",
+   "title": "The Caenorhabditis elegans microtubule minus-end binding homolog PTRN-1 stabilizes synapses and neurites.",
+   "abstract": "Microtubule dynamics facilitate neurite growth and establish morphology, but the role of minus-end binding proteins in these processes is largely unexplored. CAMSAP homologs associate with microtubule minus-ends, and are important for the stability of epithelial cell adhesions. In this study, we report morphological defects in neurons and neuromuscular defects in mutants of the C. elegans CAMSAP, ptrn-1. Mechanosensory neurons initially extend wild-type neurites, and subsequently remodel by overextending neurites and retracting synaptic branches and presynaptic varicosities. This neuronal remodeling can be activated by mutations known to alter microtubules, and depends on a functioning DLK-1 MAP kinase pathway. We found that PTRN-1 localizes to both neurites and synapses, and our results suggest that alterations of microtubule structures caused by loss of PTRN-1 function activates a remodeling program leading to changes in neurite morphology. We propose a model whereby minus-end microtubule stabilization mediated by a functional PTRN-1 is necessary for morphological maintenance of neurons. DOI: http://dx.doi.org/10.7554/eLife.01637.001.",
+   "found_by": [],
+   "pubdate": "2014 Feb 25",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "19652181",
+   "title": "mec-15 encodes an F-box protein required for touch receptor neuron mechanosensation, synapse formation and development.",
+   "abstract": "Selective protein degradation is a key regulator of neuronal development and synaptogenesis. Complexes that target proteins for degradation often contain F-box proteins. Here we characterize MEC-15, an F-box protein with WD repeats, which is required for the development and function of Caenorhabditis elegans touch receptor neurons (TRNs). Mutations in mec-15 produce defects in TRN touch sensitivity, chemical synapse formation, and cell-body morphology. All mec-15 mutant phenotypes are enhanced by mutations in a MAP kinase pathway composed of the MAPKKK DLK-1, the MAPKK MKK-4, and the p38 MAPK PMK-3. A mutation of the rpm-1 gene, which encodes an E3 ubiquitin ligase that negatively regulates this pathway to promote synaptogenesis, suppresses only the mec-15 cell-body defect. Thus, MEC-15 acts in parallel with RPM-1, implicating a second protein degradation pathway in TRN development. In addition, all mec-15 phenotypes can be dominantly suppressed by mutations in mec-7, which encodes a beta-tubulin, and dominantly enhanced by mutations in mec-12, which encodes an alpha-tubulin. Since mec-15 phenotypes depend on the relative levels of these tubulins, MEC-15 may target proteins whose function is affected by these levels.",
+   "found_by": [],
+   "pubdate": "2009 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "30794775",
+   "title": "CCR5 Is a Therapeutic Target for Recovery after Stroke and Traumatic Brain Injury.",
+   "abstract": "We tested a newly described molecular memory system, CCR5 signaling, for its role in recovery after stroke and traumatic brain injury (TBI). CCR5 is uniquely expressed in cortical neurons after stroke. Post-stroke neuronal knockdown of CCR5 in pre-motor cortex leads to early recovery of motor control. Recovery is associated with preservation of dendritic spines, new patterns of cortical projections to contralateral pre-motor cortex, and upregulation of\u00a0CREB and DLK signaling. Administration of a clinically utilized FDA-approved CCR5 antagonist, devised for HIV treatment, produces similar effects on motor recovery post stroke and cognitive decline post TBI. Finally, in a large clinical cohort of stroke patients, carriers for a naturally occurring loss-of-function mutation in CCR5 (CCR5-\u039432) exhibited greater recovery of neurological impairments and cognitive function. In summary, CCR5 is a translational target for neural repair in stroke and TBI and the first reported gene associated with enhanced recovery in human stroke.",
+   "found_by": [],
+   "pubdate": "2019 Feb 21",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "42651835",
+   "title": "Traffic Jams in the Brain: How Kinesin Dysfunction Shapes Neurodevelopmental Disorders.",
+   "abstract": "The development and maintenance of the nervous system depend on a tightly regulated intracellular transport network in which kinesin superfamily (KIF) motor proteins drive microtubule-based delivery of synaptic vesicle precursors, organelles, mRNAs, and signaling components along axons and dendrites. Disruption of this machinery underlies a clinically heterogeneous spectrum of neurodevelopmental disorders (NDDs), including intellectual disability, epilepsy, autism spectrum disorder, microcephaly, malformations of cortical development, spasticity, and axonal neuropathy. Here, we synthesize current knowledge on how kinesin dysfunction shapes neurodevelopment. We outline the physiological roles of kinesins in neuronal polarity, organelle and mitochondrial positioning, synaptogenesis, and progenitor division, and survey principal disease-associated genes, including KIF1A, KIF5A, KIF7, KIF11, KIF2A, KIF5C, and emerging members such as KIF14, KIF15, and KIF16B. We detail how distinct pathogenic mechanisms, such as loss of motility, impaired cargo coupling, motor hyperactivity, mitotic spindle defects, and disrupted ciliary signaling, converge on shared cellular endpoints, and how tubulin isotypes and posttranslational modifications further modulate motor output. In this review, we discuss translational implications, including variant-resolved diagnosis and precision strategies to restore transport, dampen pathological hyperactivity, or stabilize the microtubule track. Collectively, these advances reframe kinesinopathies as mechanistically stratified disorders of neuronal transport.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "41831576",
+   "title": "Cerebellar hypoplasia caused by calcium/calmodulin-dependent serine protein kinase deficiency.",
+   "abstract": "Calcium/calmodulin-dependent serine protein kinase (CASK) is an X-linked multidomain scaffolding protein originally identified as an intracellular binding partner for Neurexins, a family of presynaptic cell-adhesion molecules. Loss-of-function mutations in CASK cause microcephaly with pontine and cerebellar hypoplasia (MICPCH), a severe neurodevelopmental disorder predominantly affecting females. Although CASK has been implicated in synaptic organization and transcriptional regulation, the mechanisms underlying the cerebellar hypoplasia have remained unsolved. Recent studies using genetically engineered mouse models and cerebellar granule cell cultures suggest that CASK is essential for neuronal survival rather than for initial patterning in the\u00a0cerebellum. These works further reveal that X-chromosome inactivation-driven mosaicism influences the pathology of this disorder and that CASK deficiency activates c-Jun N-terminal kinase (JNK) signaling. In this review, we integrate these findings with the synaptic cell-adhesion biology, in relevance to Neurexin-CASK interaction\u00a0and role of CASK in cerebellar neuron survival\u00a0and discuss emerging therapeutic implications for CASK-related disorders.",
+   "found_by": [],
+   "pubdate": "2026",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "38113761",
+   "title": "Prioritizing de novo potential non-canonical splicing variants in neurodevelopmental disorders.",
+   "abstract": "BACKGROUND: Genomic variants outside of the canonical splicing site (\u00b12) may generate abnormal mRNA splicing, which are defined as non-canonical splicing variants (NCSVs). However, the clinical interpretation of NCSVs in neurodevelopmental disorders (NDDs) is largely unknown. METHODS: We investigated the contribution of NCSVs to NDDs from 345,787 de novo variants (DNVs) in 47,574 patients with NDDs. We performed functional enrichment and protein-protein interaction analysis to assess the association between genes carrying prioritised NCSVs and NDDs. Minigene was used to validate the impact of NCSVs on mRNA splicing. FINDINGS: We observed significantly more NCSVs (p\u00a0=\u00a00.02, odds ratio [OR]\u00a0=\u00a02.05) among patients with NDD than in controls. Both canonical splicing variants (CSVs) and NCSVs contributed to an equal proportion of patients with NDD (0.76% vs. 0.82%). The candidate genes carrying NCSVs were associated with glutamatergic synapse and chromatin remodelling. Minigene successfully validated 59 of 79 (74.68%) NCSVs that led to abnormal splicing in 40 candidate genes, and 9 of the genes (ARID1B, KAT6B, TCF4, SMARCA2, SHANK3, PDHA1, WDR45, SCN2A, SYNGAP1) harboured recurrent NCSVs with the same variant present in more than two unrelated patients with NDD. Moreover, 36 of 59 (61.02%) NCSVs are novel clinically relevant variants, including 34 unreported and 2 clinically conflicting interpretations or of uncertain significance NCSVs in the ClinVar database. INTERPRETATION: This study highlights the common pathology and clinical importance of NCSVs in unsolved patients with NDD. FUNDING: The present study was funded by grants from the National Natural Science Foundation of China, China Postdoctoral Science Foundation, the Hunan Youth Science and Technology Innovation Talent Project, the Provincial Natural Science Foundation of Hunan, The Scientific Research Program of FuRong laboratory, and the Natural Science Project of the University of Anhui Province. [full text, passages naming MAP3K12] ...ron 13 99bp insertion | ASD | ASD, ID | | 25922617 , 30623622 , 20670697 11:57578958:G:T | CTNND1: c.2317G > T | Mis | 1 | 11 | 0.29 | 1 | 0.89 | Exon 13 skip | UDD | DD and NDDs | | 32196547 12:53880317:C:T | MAP3K12: c.436G > A | Mis | 90 | 18.79 | 1.77 | 1 | 0.95 | Exon 4 91bp deletion | UDD | Axon growth | | 27511108 15:73862669:G:A | NPTN: c.936C > T | Syn | 96 | 49.76 | 1.56 | 0.99 | 0.97 | Exon 6 180bp loss |... ...TRIM8 , and 55 ATP6AP1 in patients with NDDs; however, the genetic evidence is relatively weak. In addition, the experimental analysis revealed NDD-related functions for other novel candidate genes, such as 56 MAP3K12 , 57 NOTCH2 , and 58 CASKIN2 . In the present study, we provide additional genetic evidence and further confirm the relationship between genes and NDDs ( 59 Table 3 ). Furthermore, we validated the impa...",
+   "found_by": [],
+   "pubdate": "2024",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "39360902",
+   "title": "Ubiquitin ligase signalling networks shape presynaptic development, function and disease.",
+   "abstract": "Ubiquitin ligases are important regulators of nervous system development, function and disease. To date, numerous ubiquitin ligases have been discovered that regulate presynaptic biology. Here, we discuss recent findings on presynaptic ubiquitin ligases that include members from the three major ubiquitin ligase classes: RING, RBR and HECT. Several themes emerge based on findings across a range of model systems. A cadre of ubiquitin ligases is required presynaptically to orchestrate development and transmission at synapses. Multiple ubiquitin ligases deploy both enzymatic and non-enzymatic mechanisms, and act as hubs for signalling networks at the synapse. Both excitatory and inhibitory presynaptic terminals are influenced by ligase activity. Finally, there are several neurodevelopmental disorders and neurodegenerative diseases associated with presynaptic ubiquitin ligases. These findings highlight the growing prominence and biomedical relevance of the presynaptic ubiquitin ligase network.",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "31805042",
+   "title": "An autism-causing calcium channel variant functions with selective autophagy to alter axon targeting and behavior.",
+   "abstract": "Common and rare variants of the CACNA1C voltage-gated calcium channel gene have been associated with autism and other neurodevelopmental disorders including schizophrenia, bipolar disorder and ADHD. However, little is known about how CACNA1C variants affect cellular processes to alter neurodevelopment. The Timothy syndrome mutation is a rare de novo gain-of-function variant in CACNA1C that causes autism with high penetrance, providing a powerful avenue into investigating the role of CACNA1C variants in neurodevelopmental disorders. Here, we use egl-19, the C. elegans homolog of CACNA1C, to investigate the role of voltage-gated calcium channels in autism. We show that an egl-19(gof) mutation that is equivalent to the Timothy syndrome mutation can alter axon targeting and affect behavior in C. elegans. We find that wildtype egl-19 negatively regulates axon termination. The egl-19(gof) mutation represses axon termination to cause axon targeting defects that lead to the misplacement of electrical synapses and alterations in habituation to light touch. Moreover, genetic interactions indicate that the egl-19(gof) mutation functions with genes that promote selective autophagy to cause defects in axon termination and behavior. These results reveal a novel genetic mechanism whereby a de novo mutation in CACNA1C can drive alterations in circuit formation and behavior. [full text, passages naming MAP3K12] ...ation, we conducted genetic analysis with mutations in the genes that encode the RPM-1 (PAM, Highwire) signaling pathway. RPM-1 is an E3 ubiquitin ligase that promotes axon termination by ubiquitinating DLK-1 (MAP3K12), thereby marking it for proteasomal degradation [ 31 \u2013 33 ]. This function of RPM-1 is mediated through an interaction between RPM-1 and a SCF (Skp/Cullin/F-box) complex that includes the FSN-1 (FBXO45...",
+   "found_by": [],
+   "pubdate": "2019",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "28649281",
+   "title": "Chromosome 12q13.13q13.13 microduplication and microdeletion: a case report and literature review.",
+   "abstract": "BACKGROUND: Duplications or deletions in the 12q13.13 region are rare. Only scattered cases with duplications and/or deletions in this region have been reported in the literature or in online databases. Owing to the limited number of patients with genomic alteration within this region and lack of systematic analysis of these patients, the common clinical manifestation of these patients has remained elusive. CASE PRESENTATION: Here we report an 802\u00a0kb duplication in the 12q13.13q13.13 region in a 14\u00a0year-old male who presented with dysmorphic features, developmental delay (DD), mild intellectual disability (ID) and mild deformity of digits. Comparing the phenotype of our patient with those of reported patients, we find that patients with the 12q13.13 duplication or the deletion share similar phenotypes, including dysmorphic facies, abnormal nails, intellectual disability, and deformity of digits or limbs. However, patients with the deletion appear to have more severe deformity of digits or limbs. CONCLUSIONS: Deletion and duplication of the 12q13.13 region may represent novel contiguous gene alteration syndromes. All seven reported 12q13.13 deletions and three of four duplications are de novo and vary in size. Therefore, these genomic alterations are not due to non-allelic homologous recombination. [full text, passages naming MAP3K12] ...encompassing at least 802 kb and containing 21 OMIM genes ( KRT18, EIF4B, LOC283335, TENC1, SPRYD3, IGFBP6, SOAT2, CSAD, ZNF740, ITGB7, RARG, MFSD5, ESPL1, PFDN5, C12orf10, AAAS, SP7, SP1, AMHR2, PRR13, PCBP2, MAP3K12, TARBP, NPFF, ATF7 ). The array findings are shown in the top panel of Fig. 2 . Fig. 2 Chromosome 12q13.13 or 12q13.13q13.2 duplications and deletions found in our patient and previously reported patien... ...,772 | 52,940,974\u201354,166,744 | 53,582,733\u201354,102,733 | 53,627,092\u201354,111,152 | 53,637,649\u201354,007,964 | # of genes | 27 | 57 | 18 | 16 | 17 | | HOXC cluster None | None | None | None | None | | SP1, SP7 , NPFF, MAP3K12, PCBP Yes | Yes | Yes | Yes | Yes | Inheritance | Unknown | De novo | Unknown | De novo | De novo | Developmental Anomalies | ID, ADHD, language difficulty | ID, language difficulty | DD, ID | ID | ID |... ...524\u201354,685,124 | 53,493,442\u201354,118,309 | 53,617,808\u201354,616,234 | # of genes | 61 | 33 | 21 | 81 | 42 | 34 | 44 | | HOXC cluster 9 of 9 | 9 of 9 | 9 of 9 | 9 of 9 | 9 of 9 | 0 of 9 | 9 of 9 | | SP1, SP7 , NPFF, MAP3K12 , PCBP2 Yes | Yes | Yes | Yes | Yes | Yes | Yes | Inheritance | De novo | De novo | De novo | De novo | De novo | De novo | De novo | Developmental anomalies | ID, language difficulty | Global DD, ADHD...",
+   "found_by": [],
+   "pubdate": "2017",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "36048753": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "7711066": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "29947174": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "12568810": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40920156": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10660686": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "11004192": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27905513": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32917927": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "24990181": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "20592265": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36895158": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "27939404": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "14573488": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33306372": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28291684": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34881275": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "19200579": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26784346": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15908951": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40654834": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34818971": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26431428": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36342754": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25341110": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38528988": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32963352": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "32659913": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28929759": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "27043251": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34845378": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26051896": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28114100": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24569480": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "21419176": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "23305818": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40447312": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "11689349": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "19652181": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30794775": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28539870": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28925357": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19289468": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "18237417": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27078101": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26657059": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25726747": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25802931": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10668203": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10602474": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15695824": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "10234807": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33600948": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9070239": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "15611134": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "24198375": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25326385": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "24948796": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "25194163": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16815332": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "19172179": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "18224716": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "26776303": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39854273": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "42651835": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "41831576": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38113761": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "40362295": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "39360902": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31805042": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35361529": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31484070": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40156832": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36613684": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "38825644": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "28649281": {
+   "relevance": 4,
+   "kind": "strong",
+   "dropped": false
+  },
+  "35432739": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "27008623": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "30723573": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "33789876": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36369282": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33484574": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "29574219": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "37185294": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "36980839": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33058331": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "32998477": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28445732": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33317634": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 3.9,
+   "note": "",
+   "input_tokens": 348,
+   "output_tokens": 366,
+   "usd": 0.01089,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 0.5,
+   "note": "",
+   "input_tokens": 401,
+   "output_tokens": 22,
+   "usd": 0.000511,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.8,
+   "note": "",
+   "input_tokens": 380,
+   "output_tokens": 49,
+   "usd": 0.000625,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "15 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "25 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 10.8,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 1.0,
+   "note": "",
+   "input_tokens": 4332,
+   "output_tokens": 150,
+   "usd": 0.005082,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 48.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 4.5,
+   "note": "",
+   "input_tokens": 34248,
+   "output_tokens": 1588,
+   "usd": 0.042188,
+   "calls": 7
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 12.3,
+   "note": "",
+   "input_tokens": 13686,
+   "output_tokens": 1025,
+   "usd": 0.094055,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>4</established>\n    <existing>52</existing>\n    <hypothesized>36</hypothesized>\n    <novel>8</novel>\n  </probabilities>\n  <justification>No article reports multiple independent probands with pathogenic single-gene MAP3K12 variants, so Established is not supportable; the 12q13.13 microduplication/deletion report (PMID 28649281) spans ~20+ genes and cannot implicate MAP3K12 specifically. The strongest human genetic evidence is the de novo non-canonical splicing variant study (PMID 38113761), which identified MAP3K12 c.436G>A as a de novo variant in a patient with undiagnosed developmental disorder and experimentally validated aberrant splicing (exon 4 91-bp deletion), naming MAP3K12 a novel NDD candidate gene \u2014 a single, limited but credible human report consistent with \"Existing.\" Substantial supporting biology exists but is largely non-human or degeneration-focused: DLK/MAP3K12 governs axon outgrowth, regeneration, synapse remodeling and presynaptic development via the RPM-1/Highwire pathway in C. elegans and mouse models (PMIDs 26051896, 24569480, 19652181, 39360902, 31805042), which would otherwise place the gene in \"Hypothesized.\" Most remaining papers concern DLK inhibitors and neurodegeneration (Alzheimer's, ALS, injury), which are not neurodevelopmental phenotypes. Hence probability mass is concentrated on Existing with a sizeable residual on Hypothesized.</justification>\n  <pmids>\n    <pmid>38113761</pmid>\n    <pmid>28649281</pmid>\n    <pmid>26051896</pmid>\n    <pmid>24569480</pmid>\n    <pmid>19652181</pmid>\n    <pmid>39360902</pmid>\n    <pmid>31805042</pmid>\n    <pmid>27043251</pmid>\n    <pmid>28114100</pmid>\n  </pmids>\n</response>"
+}

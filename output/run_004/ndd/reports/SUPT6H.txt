@@ -1,0 +1,77 @@
+SUPT6H LITERATURE EVIDENCE REPORT: NEURODEVELOPMENTAL DISORDERS, HETEROZYGOUS (AUTOSOMAL DOMINANT) VARIANTS
+
+1. GENE SUMMARY
+SUPT6H encodes SPT6, a conserved histone chaperone and RNA polymerase II (RNAPII) elongation factor. It is a homolog of yeast SPT6 and C. elegans emb-5, maps to 17q11.2, and is thought to regulate chromatin structure (PMID: 8786132). SPT6 is required for RNAPII processivity and termination and acts as an epigenetic safeguard that suppresses cryptic intragenic transcription (PMID: 34233157).
+
+2. CLINICAL EVIDENCE SUMMARY
+- Independent reports: only 1 case report was captured in the structured findings, a Japanese trio exome study (PMID: 28588275). That paper was centered on TBL1XR1, and the SUPT6H variant was incidental and not studied further.
+- Patients: 1.
+- Phenotype: sporadic schizophrenia. This is a neuropsychiatric phenotype, not a classical neurodevelopmental syndrome with intellectual disability or epilepsy.
+- Variant: a single de novo missense variant (chr17:27028608 G>A, p.Asp1716Asn). In silico predictions were discordant: PolyPhen-2 probably damaging, SIFT damaging, PROVEAN neutral.
+- Cohorts: no UDN, GREGoR, DDD, RUMC or GEL cohort data were identified in the clinical findings.
+- Other: a more recent paper (PMID: 41864309) reports modeling of 18 published SUPT6H SNVs from developmental disorder patients. The underlying patient-level clinical data are not itemized in the clinical findings provided, so they cannot be independently assessed here.
+- Strength of clinical evidence: LIMITED. This is a single de novo missense case with a non-specific phenotype. The 18-SNV developmental disorder dataset suggests more evidence may exist but is not documented in detail.
+
+3. MODEL ORGANISM EVIDENCE SUMMARY
+- Organism: mouse. A zebrafish expression study also exists (see section 4).
+- Full Supt6 knockout (PMID: 41864309): both homozygous and heterozygous null mice are embryonic lethal, with a lethal Mendelian ratio. Heterozygous lethality is notable because it implies strong haploinsufficiency or dosage sensitivity, which is relevant to an autosomal dominant mechanism.
+- Parvalbumin-interneuron conditional KO (cKOPV) (PMID: 41864309):
+  - Homozygous mice show motor defects and behavioral seizures.
+  - Heterozygous mice show behavior relevant to neuropsychiatric disorders with normal motor activity.
+  - Both genotypes show a significant reduction in parvalbumin-expressing neurons.
+  - No p-values or sample sizes were reported in the abstract.
+- Keratinocyte-specific inducible cKO (PMID: 41922599): psoriasis-like inflammation, epidermal hyperplasia and delayed wound healing with impaired Wnt signaling. This is non-neurological and shows pleiotropic roles.
+- Consistency with humans: the heterozygous cKOPV neuropsychiatric-like phenotype and the seizures in homozygotes broadly fit a neurodevelopmental or neuropsychiatric disorder. The schizophrenia case is loosely compatible with the PV-interneuron dysfunction literature.
+- Strength of model organism evidence: MODERATE. The phenotypes are relevant and dose-dependent, but they come from a single study with limited quantitative detail, and the germline heterozygous null is lethal, which does not model viable human heterozygotes well.
+
+4. BIOLOGICAL EVIDENCE SUMMARY
+- Function and pathways:
+  - SPT6 is required for RNAPII elongation and termination, with acute loss causing readthrough at thousands of genes. Long-term depletion induces cryptic intragenic transcription (PMID: 34233157).
+  - It operates downstream of CDK12 and Ser2 phosphorylation in epidermal differentiation programs (PMID: 35325240).
+  - Keratinocyte loss of SPT6 elevates NF-κB and suppresses Wnt signaling (PMID: 41922599).
+- Expression: SUPT6H is constitutively expressed (a 7.0-kb transcript) with over 98% human-mouse protein identity (PMID: 8786132). Brain-specific expression data were not detailed.
+- Neural relevance: Supt6h binds S100A10 (p11) in mouse brain, linking it to chromatin and transcriptional regulation in depressive-like behavior and antidepressant responses (PMID: 36046712).
+- Convergence with the schizophrenia case: the TBL1XR1 report (PMID: 28588275) links Wnt signaling to the variant paper, and SPT6 loss also impairs Wnt signaling (PMID: 41922599). This is suggestive but indirect.
+- Other findings, which are peripheral to neurodevelopment:
+  - SHPS-1 scaffold binding (PMID: 19299420).
+  - Cardiomyocyte hypertrophy as a miR-423-5p target (PMID: 36517015).
+  - Overexpression in Ewing sarcoma (PMID: 37195579).
+  - Ovarian cancer signature (PMID: 39901543).
+  - Down-regulation in zebrafish after PM2.5 exposure (PMID: 28391149).
+- Strength of biological evidence: MODERATE. The core transcriptional function is well established and plausibly relevant to neurodevelopment. Direct functional testing of patient variants in neural systems is limited, apart from the modeling of 18 SNVs predicting loss of function (PMID: 41864309).
+
+5. OVERALL ASSESSMENT
+- Overall evidence level: LIMITED
+- Key strengths:
+  - A fundamental, highly conserved transcription elongation function.
+  - A mouse model showing dose-sensitive lethality and PV-interneuron-dependent seizures and neuropsychiatric-like behavior (PMID: 41864309).
+  - A de novo missense variant in a patient with a neuropsychiatric phenotype (PMID: 28588275).
+  - Molecular modeling of 18 patient SNVs predicting loss of function, consistent with haploinsufficiency (PMID: 41864309).
+- Key gaps:
+  - Only one clinical case is documented in the clinical findings, with discordant in silico predictions and no functional validation.
+  - No cohort-level data (DDD, UDN, GEL and others), no LoF or de novo enrichment statistics, and no phenotypic delineation.
+  - The mouse data lack sample sizes and statistics.
+  - Heterozygous germline null lethality is hard to reconcile with viable human heterozygotes.
+  - Little brain-specific expression information.
+- Conclusion: SUPT6H is a plausible candidate neurodevelopmental disorder gene with a credible loss-of-function or haploinsufficiency mechanism, supported by recent mouse work and a recent report of patient variants (PMID: 41864309). The documented clinical evidence is currently limited to a single de novo missense variant in schizophrenia (PMID: 28588275). Additional patients with detailed phenotyping, and functional validation of variants, are needed before a definitive gene-disease relationship can be asserted.
+
+## REFERENCES
+
+
+### Clinical Evidence
+1. De novo non-synonymous TBL1XR1 mutation alters Wnt signaling activity (PMID: 28588275)
+
+### Model Organism Evidence
+1. Genetic alterations in SUPT6H are associated with neurodevelopmental disorders (PMID: 41864309)
+2. SPT6 maintains epidermal homeostasis by inhibiting an NF-κB-positive feedback loop to prevent excessive inflammation (PMID: 41922599)
+
+### Biological Evidence
+1. Identification and analysis of the human and murine putative chromatin structure regulator SUPT6H and Supt6h (PMID: 8786132)
+2. Targeted protein degradation reveals a direct role of SPT6 in RNAPII elongation and termination (PMID: 34233157)
+3. CDK12 Is Necessary to Promote Epidermal Differentiation Through Transcription Elongation (PMID: 35325240)
+4. S100A10 and its binding partners in depression and antidepressant actions (PMID: 36046712)
+5. Identification of novel SHPS-1-associated proteins and their roles in regulation of insulin-like growth factor-dependent responses in vascular smooth muscle cells (PMID: 19299420)
+6. MiR-423-5p Inhibition Exerts Protective Effects on Angiotensin II-Induced Cardiomyocyte Hypertrophy (PMID: 36517015)
+7. Transcriptomic and immunophenotypic characterization of two cases of adamantinoma-like Ewing sarcoma of the thyroid gland (PMID: 37195579)
+8. A Novel Platinum-Resistance-related Gene Signature in Ovarian Cancer: Identification and Patient-derived Organoids Verification (PMID: 39901543)
+9. Multi-organ toxicity induced by fine particulate matter PM(2.5) in zebrafish (Danio rerio) model (PMID: 28391149)

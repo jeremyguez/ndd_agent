@@ -1,0 +1,133 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 8,
+    "biological": 14
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Pe\u00f1a-M\u00fcnzenmayer et al. 2015 - Ae4 (Slc4a9) Anion Exchanger Drives Cl- Uptake-dependent Fluid Secretion by Mouse Submandibular Gland Acinar Cells (PMID: 25745107)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Saliva secretion reduced by ~35% in Ae4-/- submandibular glands after muscarinic and \u03b2-adrenergic stimulation",
+          "Reduced HCO3--dependent Cl- uptake in acinar cells, most evident during \u03b2-adrenergic/cAMP signaling",
+          "Nkcc1 and Na+/H+ exchanger activity not changed",
+          "Ae2-/- mice had normal salivation, but reduced HCO3--dependent Cl- uptake",
+          "Cl-/HCO3- exchanger activity nearly abolished in double Ae4/Ae2 knockout acinar cells"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "2025 - SLC4A9 deficiency is involved in Sj\u00f6gren's syndrome and enamel defects through RPS27-triggered ribosomal stress (PMID: 42855468)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Salivary impairment with reduced saliva secretion",
+          "Female-predominant salivary gland inflammation and autoantibody production (Sj\u00f6gren's-like)",
+          "Enamel malformation with delayed ameloblast differentiation",
+          "Disrupted Cl-/pH homeostasis with RPS27 upregulation and ribosomal stress",
+          "p53-dependent cell-cycle arrest and apoptosis in glandular and enamel lineages",
+          "Nutlin-3a (MDM2 antagonist) reduced salivary inflammation"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Singh et al. 2007 - PAT-1 (Slc26a6) is the predominant apical membrane Cl-/HCO3- exchanger in the upper villous epithelium of the murine duodenum (PMID: 17170027)",
+        "organism": "mouse",
+        "knockout_type": "full knockout",
+        "phenotypes": [
+          "Basal apical Cl-/HCO3- exchange activity in the upper villous duodenal epithelium reduced by <5% in AE4(-) (Slc4a9-null) mice vs WT, i.e. negligible contribution",
+          "SO4(2-)/HCO3- exchange not affected in AE4(-) duodenum"
+        ],
+        "mendelian_ratio": null,
+        "lethality": "viable",
+        "infertility": null,
+        "sample_size": null,
+        "significance": null
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Ae4 (Slc4a9) is an electroneutral monovalent cation-dependent Cl-/HCO3- exchanger (PMID: 27114614)",
+        "evidence_subtype": "function",
+        "summary": "Native Ae4 in mouse salivary acinar cells and heterologously expressed mouse Ae4 and human AE4 in CHO-K1 cells mediate Na+-dependent Cl-/HCO3- exchange. Na+ moves with HCO3- and the transport is electroneutral. Ae4 also works with K+, Cs+, Li+ and Rb+, so it is a Cl-/nonselective cation-HCO3- exchanger.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Ae4 (Slc4a9) Anion Exchanger Drives Cl- Uptake-dependent Fluid Secretion by Mouse Submandibular Gland Acinar Cells (PMID: 25745107)",
+        "evidence_subtype": "function",
+        "summary": "Ae4-/- mice had 35% less saliva secretion, with reduced Cl- uptake during \u03b2-adrenergic/cAMP stimulation. Nkcc1 and NHE activity were unchanged. Cl-/HCO3- exchange was nearly abolished in Ae2/Ae4 double knockouts, so Ae4 is needed for cAMP-dependent fluid secretion.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Activation of the Ae4 (Slc4a9) cation-driven Cl-/HCO3- exchanger by the cAMP-dependent protein kinase in salivary gland acinar cells (PMID: 34585968)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Ae4 activity in Ae2-/- submandibular acinar cells increased with \u03b2-adrenergic stimulation, and H89 (a PKA inhibitor) blocked this. In CHO-K1 cells, co-expressing PKAc increased Ae4 activity. The S173A mutant was not activated by PKA, whereas S273A still was, suggesting Ae4 is regulated through S173 phosphorylation.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "The forkhead transcription factor Foxi1 directly activates the AE4 promoter (PMID: 16159312)",
+        "evidence_subtype": "pathway",
+        "summary": "AE4 (Slc4a9) is specifically expressed in type B intercalated cells of the renal collecting duct and is absent in Foxi1-null mice. In reporter assays Foxi1 activated the AE4 promoter about 100-fold through one binding site within about 462 bp upstream of the transcription start. Mutating that site abolished both Foxi1 binding and activation, making Slc4a9 a direct Foxi1 target.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Disrupting Hypoxia-Induced Bicarbonate Transport Acidifies Tumor Cells and Suppresses Tumor Growth (PMID: 27197160)",
+        "evidence_subtype": "cell_culture",
+        "summary": "Hypoxia induced SLC4A9 and SLC4A4 expression in cancer cell lines in a manner dependent on HIF1\u03b1 and HIF2\u03b1. SLC4A9 disruption acidified intracellular pH, reduced spheroid growth and increased apoptosis. SLC4A9 RNAi strongly reduced growth of MDA-MB-231 breast tumor and U87 glioma xenografts in mice.",
+        "sample_size": "10 cancer cell lines",
+        "significance": null
+      },
+      {
+        "citation": "A novel sodium bicarbonate cotransporter-like gene in an ancient duplicated region: SLC4A9 at 5q31 (PMID: 11305939)",
+        "evidence_subtype": "expression",
+        "summary": "SLC4A9 was discovered on chromosome 5q31. It encodes a 990-aa protein with 12 transmembrane domains and a 23-exon gene with 14 mRNA isoforms, produced by extensive alternative splicing. Expression is largely restricted to kidney. It lies in a paralogous EGF-SLC4A-ANK-FGF gene cluster.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "SLC4A9 deficiency is involved in Sj\u00f6gren's syndrome and enamel defects through RPS27-triggered ribosomal stress (PMID: 42855468)",
+        "evidence_subtype": "other",
+        "summary": "SLC4A9 missense variants were found in three amelogenesis imperfecta cases, and copy number variations with reduced SLC4A9 expression in a Sj\u00f6gren's syndrome patient. Slc4a9 knockout mice showed reduced salivary secretion, glandular inflammation, and enamel malformation. Loss of SLC4A9 disrupted Cl-/pH homeostasis, upregulated RPS27, caused ribosomal stress and p53-dependent arrest and apoptosis, and Nutlin-3a reduced the inflammation.",
+        "sample_size": "3 amelogenesis imperfecta cases, 1 Sj\u00f6gren's patient, KO mice",
+        "significance": null
+      },
+      {
+        "citation": "Epigenome-Wide Association Study for All-Cause Mortality in a Cardiovascular Cohort Identifies Differential Methylation in CASZ1 (PMID: 31642367)",
+        "evidence_subtype": "GWAS",
+        "summary": "In the EWAS validation set, the SLC4A9 CpG cg08215811 was differentially methylated in cases with all-cause mortality (log2 FC = -0.14). It remained significant in the meta-analysis (FDR<0.05). The SLC4A9 transcript failed quality control, so its expression could not be assessed.",
+        "sample_size": "Discovery 55 cases/49 controls; validation 108 cases/108 controls",
+        "significance": "FDR-adjusted P<0.10 in validation; FDR<0.05 in meta-analysis"
+      },
+      {
+        "citation": "Effect of heat stress on the gene expression of ion transporters/channels in the uterus of laying hens during eggshell formation (PMID: 29115887)",
+        "evidence_subtype": "expression",
+        "summary": "SLC4A9 is expressed in the uterine lining of laying hens during eggshell formation. Heat stress reduced SLC4A9 transcript by 66.1%, along with ITPR3 and SLC4A4, which may impair Cl-/HCO3-/Na+ transport during eggshell mineralization.",
+        "sample_size": "40 hens (20 control, 20 heat stress)",
+        "significance": "p<0.05"
+      },
+      {
+        "citation": "Integrated compensatory network is activated in the absence of NCC phosphorylation (PMID: 25893600)",
+        "evidence_subtype": "pathway",
+        "summary": "In SPAK kinase-deficient mice, which cannot activate NCC, Slc4a9 was coordinately induced along with Slc26a4 and Slc4a8, carbonic anhydrases and V-ATPase subunits in pendrin-positive intercalated cells. This forms a compensatory NaCl reabsorption transport system.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

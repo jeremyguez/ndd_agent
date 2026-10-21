@@ -1,0 +1,71 @@
+{
+  "articles_found": {
+    "clinical": 1,
+    "model_organism": 1,
+    "biological": 3
+  },
+  "agent_results": {
+    "clinical": [],
+    "model_organism": [
+      {
+        "citation": "Systematic Ocular Phenotyping of Knockout Mouse Lines Identifies Genes Associated With Age-Related Corneal Dystrophies (PMID: 40323269)",
+        "organism": "mouse",
+        "knockout_type": "heterozygous knockout",
+        "phenotypes": [
+          "Abnormal cornea morphology in late-adult mice (49+ weeks)",
+          "Identified from IMPC data as one of 14 genes linked to late-adult corneal phenotypes (Ik, KMPC center)",
+          "Ik expressed in human cornea T/NK cells (66.67%) by single-cell transcriptomics"
+        ],
+        "mendelian_ratio": null,
+        "lethality": null,
+        "infertility": null,
+        "sample_size": null,
+        "significance": "p=6.89E-05 (combined significant)"
+      }
+    ],
+    "biological": [
+      {
+        "citation": "Unknown authors 2021 - Inactivating Mutations of the IK Gene Weaken Ku80/Ku70-Mediated DNA Repair and Sensitize Endometrial Cancer to Chemotherapy (PMID: 34065218)",
+        "evidence_subtype": "protein_interaction",
+        "summary": "Co-IP and mass spectrometry identified an IK interaction with Ku80, linking IK to Ku80/Ku70-mediated DNA repair. IK knockdown in endometrial cancer cells caused G2/M enrichment, inactivated Ku80/Ku70 DNA repair signaling, and sensitized cells to cisplatin. IK is described as a mitotic factor promoting cell cycle progression.",
+        "sample_size": "547 EC patients (expanded TCGA dataset)",
+        "significance": null
+      },
+      {
+        "citation": "Unknown authors 2021 - Inactivating Mutations of the IK Gene Weaken Ku80/Ku70-Mediated DNA Repair and Sensitize Endometrial Cancer to Chemotherapy (PMID: 34065218)",
+        "evidence_subtype": "other",
+        "summary": "Somatic IK-inactivating mutations (mostly frameshift and stop-gain) were associated with decreased IK expression. They were also linked to higher mutation burden, better chemotherapy response, and longer 10-year survival in endometrial cancer. Co-occurring IK/Ku80 mutations were associated with significantly better overall survival.",
+        "sample_size": "547 EC patients (TCGA)",
+        "significance": "Reported as significantly better overall survival; no specific p-value in abstract"
+      },
+      {
+        "citation": "Unknown authors 1997 - Implication of a new molecule IK in CD34+ hematopoietic progenitor cell proliferation and differentiation (PMID: 9160666)",
+        "evidence_subtype": "expression",
+        "summary": "IK transcripts are present in CD34+ cells from human umbilical cord blood. IK expression rose during growth factor-induced proliferation and differentiation, inversely correlating with the loss of HLA-DR.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown authors 1997 - Implication of a new molecule IK in CD34+ hematopoietic progenitor cell proliferation and differentiation (PMID: 9160666)",
+        "evidence_subtype": "cell_culture",
+        "summary": "An antisense oligonucleotide against the IK mRNA initiation site decreased IK transcripts and increased HLA-DR expression. It also inhibited colony formation by multilineage, early erythroid and granulomonocytic CD34+ progenitors, reducing mean colony size by 70%. This supports a role for IK in growth factor-dependent proliferation and differentiation, via modulation of HLA-DR.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown authors 1994 - A new cytokine (IK) down-regulating HLA class II: monoclonal antibodies, cloning and chromosome localization (PMID: 7970704)",
+        "evidence_subtype": "function",
+        "summary": "IK was purified as a 19 kDa cytokine secreted by K562 leukemic cells and other cancer cells. It inhibits IFN-gamma-induced HLA class II expression, and also cycloheximide-induced HLA-DR, in Colo 205 colon carcinoma cells. Blocking mAbs antagonized this effect.",
+        "sample_size": null,
+        "significance": null
+      },
+      {
+        "citation": "Unknown authors 1994 - A new cytokine (IK) down-regulating HLA class II: monoclonal antibodies, cloning and chromosome localization (PMID: 7970704)",
+        "evidence_subtype": "other",
+        "summary": "The IK cDNA was cloned and sequenced. It detects a 2.1 kb mRNA in various cell types, has no homology to known cytokines, and maps to chromosome 2p15-p14. Transient transfection in COS cells produced a secreted, biologically active 19 kDa protein recognized by the blocking mAb 1C5B11.",
+        "sample_size": null,
+        "significance": null
+      }
+    ]
+  }
+}

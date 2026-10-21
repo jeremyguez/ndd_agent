@@ -1,0 +1,798 @@
+{
+ "gene": "SOX10",
+ "phenotype": "congenital diaphragmatic hernia",
+ "arm": "fulltext",
+ "fingerprint": "54db504f3231",
+ "max_date": "",
+ "terms": {
+  "synonyms": [
+   "CDH",
+   "diaphragmatic hernia, congenital",
+   "congenital defect of the diaphragm",
+   "congenital diaphragmatic defect",
+   "hernia of the diaphragm",
+   "diaphragmatic hernia",
+   "Bochdalek hernia",
+   "posterolateral diaphragmatic hernia",
+   "congenital herniation of abdominal viscera into the thorax"
+  ],
+  "broad": "",
+  "words": [
+   "diaphragmatic",
+   "hernia"
+  ],
+  "gene_names": [
+   "WS2E",
+   "SOX-10",
+   "DOM",
+   "WS4",
+   "SRY-box transcription factor 10"
+  ],
+  "anchors": [
+   "diaphragmatic hernia",
+   "diaphragm defect"
+  ]
+ },
+ "counts": {
+  "found": 75,
+  "titlekicksparingfulltext": 32,
+  "read": 20
+ },
+ "verdict": {
+  "call": "Novel",
+  "distribution": {
+   "Established": 1,
+   "Existing": 5,
+   "Hypothesized": 32,
+   "Novel": 62
+  },
+  "justification": "All SOX10-specific articles concern Waardenburg syndrome types 2/4, Hirschsprung disease, PCWH, hypomyelinating leukodystrophy and melanoma\u2014none report SOX10 variants in congenital diaphragmatic hernia patients (PMIDs 34667088, 20127975, 33251892, 40702859). The CDH-related papers mention SOX10 only incidentally as a neural crest marker: in the rat scRNA-seq CDH study it is merely a cell-type annotation marker, and in the mouse diaphragm morphogenesis paper SOX10 is used as a negative control showing no overlap with migrating muscle progenitors (PMIDs 41246903, 29679560). Other CDH papers (FREM1, MYRF) cite SOX10 only as a transcriptional regulator of MYRF in oligodendrocytes, which is background rather than evidence for CDH (PMIDs 23221805, 29446546). Thus there are no human genetic data and essentially no mechanistic argument tying SOX10 to diaphragm defects, so the relationship is best described as Novel, with a modest allowance for Hypothesized given SOX10's role in neural crest derivatives that contribute to structures near the developing diaphragm.",
+  "pmids": [],
+  "detail": {
+   "Established": 1,
+   "Existing": 5,
+   "Hypothesized": 32,
+   "Novel": 62
+  }
+ },
+ "articles": [
+  {
+   "pmid": "10868211",
+   "title": "Waardenburg syndrome.",
+   "abstract": "",
+   "found_by": [],
+   "pubdate": "2000",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "29181082",
+   "title": "SOX10-MITF pathway activity in melanoma cells.",
+   "abstract": "Melanoma is one of the most dangerous and lethal skin cancers, with a considerable metastatic potential and drug resistance. It involves a malignant transformation of melanocytes. The exact course of events in which melanocytes become melanoma cells remains unclear. Nevertheless, this process is said to be dependent on the occurrence of cells with the phenotype of progenitor cells - cells characterized by expression of proteins such as nestin, CD-133 or CD-271. The development of these cells and their survival were found to be potentially dependent on the neural crest stem cell transcription factor SOX10. This is just one of the possible roles of SOX10, which contributes to melanomagenesis by regulating the SOX10-MITF pathway, but also to melanoma cell survival, proliferation and metastasis formation. The aim of this review is to describe the broad influence of the SOX10-MITF pathway on melanoma cells.",
+   "found_by": [],
+   "pubdate": "2017 Oct",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "10917288",
+   "title": "Pathogenesis of Hirschsprung's disease.",
+   "abstract": "Hirschsprung's disease is an inherited disorder showing incomplete penetrance and variable expressivity. Genetic mapping and mutation screening of candidate genes, together with the study of several natural and knockout animal models, clearly have shown the involvement of several different genes in the pathogenesis of Hirschsprung's disease. Among these genes, the RET proto-oncogene accounts for the highest proportion of both familial and sporadic cases, with a wide range of mutations scattered along its entire coding region. The low detection rate of RET mutations in Hirschsprung patients also led to different hypotheses, such as the existence of additional Hirschsprung genes. Different animal and human genetic studies have identified 6 Hirschsprung genes: RET proto-oncogene (RET), endothelin 3 (EDN3), endothelin B receptor gene (EDNRB), glial-cell-line-derived neurotrophic factor (GDNF), endothelin converting enzyme (ECE1), gene encoding the Sry-related transcription factor SOX10 (SOX10). Microenvironmental factors also can play a role in the pathogenesis of aganglionosis. The developmental process of the crest-derived progenitor cells is sensitive to the level of different molecules. The expression deficit of different factors (GDNF, NTN) in the hindgut, in the absence of genetic mutations, could determine a missed activation of the receptor system, causing enteric neuroblast migration arrest.",
+   "found_by": [],
+   "pubdate": "2000 Jul",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "28236341",
+   "title": "EDNRB mutations cause Waardenburg syndrome type II in the heterozygous state.",
+   "abstract": "Waardenburg syndrome (WS) is a genetic disorder characterized by sensorineural hearing loss and pigmentation anomalies. The clinical definition of four WS types is based on additional features due to defects in structures mostly arising from the neural crest, with type I and type II being the most frequent. While type I is tightly associated to PAX3 mutations, WS type II (WS2) remains partly enigmatic with mutations in known genes (MITF, SOX10) accounting for only 30% of the cases. We performed exome sequencing in a WS2 index case and identified a heterozygous missense variation in EDNRB. Interestingly, homozygous (and very rare heterozygous) EDNRB mutations are already described in type IV WS (i.e., in association with Hirschsprung disease [HD]) and heterozygous mutations in isolated HD. Screening of a WS2 cohort led to the identification of an overall of six heterozygous EDNRB variations. Clinical phenotypes, pedigrees and molecular segregation investigations unraveled a dominant mode of inheritance with incomplete penetrance. In parallel, cellular and functional studies showed that each of the mutations impairs the subcellular localization of the receptor or induces a defective downstream signaling pathway. Based on our results, we now estimate EDNRB mutations to be responsible for 5%-6% of WS2.",
+   "found_by": [],
+   "pubdate": "2017 May",
+   "query_tier": "secondary"
+  },
+  {
+   "pmid": "9720918",
+   "title": "Expression of the SOX10 gene during human development.",
+   "abstract": "SOX10, a new member of the SOX gene family, is a transcription factor defective in the Dom (Dominant megacolon) mouse and in the human Shah-Waardenburg syndrome. To help unravel its physiological role during human development, we studied SOX10 gene expression in embryonic, fetal, and adult human tissues by Northern blot and in situ hybridization. As in mice, the human SOX10 gene was essentially expressed in the neural crest derivatives that contribute to the formation of the peripheral nervous system, and in the adult central nervous system. Nevertheless, it was more widely expressed in humans than in rodents. The spatial and temporal pattern of SOX10 expression supports an important function in neural crest development.",
+   "found_by": [],
+   "pubdate": "1998 Aug 7",
+   "query_tier": "oldest"
+  },
+  {
+   "pmid": "20127975",
+   "title": "Review and update of mutations causing Waardenburg syndrome.",
+   "abstract": "Waardenburg syndrome (WS) is characterized by the association of pigmentation abnormalities, including depigmented patches of the skin and hair, vivid blue eyes or heterochromia irides, and sensorineural hearing loss. However, other features such as dystopia canthorum, musculoskeletal abnormalities of the limbs, Hirschsprung disease, or neurological defects are found in subsets of patients and used for the clinical classification of WS. Six genes are involved in this syndrome: PAX3 (encoding the paired box 3 transcription factor), MITF (microphthalmia-associated transcription factor), EDN3 (endothelin 3), EDNRB (endothelin receptor type B), SOX10 (encoding the Sry bOX10 transcription factor), and SNAI2 (snail homolog 2), with different frequencies. In this review we provide an update on all WS genes and set up mutation databases, summarize molecular and functional data available for each of them, and discuss the applications in diagnostics and genetic counseling.",
+   "found_by": [],
+   "pubdate": "2010 Apr",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34782358",
+   "title": "A multi-enhancer RET regulatory code is disrupted in Hirschsprung disease.",
+   "abstract": "The major genetic risk factors for Hirschsprung disease (HSCR) are three common polymorphisms within cis-regulatory elements (CREs) of the receptor tyrosine kinase gene RET, which reduce its expression during enteric nervous system (ENS) development. These risk variants attenuate binding of the transcription factors RARB, GATA2, and SOX10 to their cognate CREs, reduce RET gene expression, and dysregulate other ENS and HSCR genes in the RET-EDNRB gene regulatory network (GRN). Here, we use siRNA, ChIP, and CRISPR-Cas9 deletion analyses in the SK-N-SH cell line to ask how many additional HSCR-associated risk variants reside in RET CREs that affect its gene expression. We identify 22 HSCR-associated variants in candidate RET CREs, of which seven have differential allele-specific in vitro enhancer activity, and four of these seven affect RET gene expression; of these, two enhancers are bound by the transcription factor PAX3. We also show that deleting multiple variant-containing enhancers leads to synergistic effects on RET gene expression. These, coupled with our prior results, show that common sequence variants in at least 10 RET enhancers affect HSCR risk, seven with experimental evidence of affecting RET gene expression, extending the known RET-EDNRB GRN to reveal an extensive regulatory code modulating disease risk at a single gene.",
+   "found_by": [],
+   "pubdate": "2021 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "34667088",
+   "title": "SOX10: 20 years of phenotypic plurality and current understanding of its developmental function.",
+   "abstract": "SOX10 belongs to a family of 20 SRY (sex-determining region Y)-related high mobility group box-containing (SOX) proteins, most of which contribute to cell type specification and differentiation of various lineages. The first clue that SOX10 is essential for development, especially in the neural crest, came with the discovery that heterozygous mutations occurring within and around SOX10 cause Waardenburg syndrome type 4. Since then, heterozygous mutations have been reported in Waardenburg syndrome type 2 (Waardenburg syndrome type without Hirschsprung disease), PCWH or PCW (peripheral demyelinating neuropathy, central dysmyelination, Waardenburg syndrome, with or without Hirschsprung disease), intestinal manifestations beyond Hirschsprung (ie, chronic intestinal pseudo-obstruction), Kallmann syndrome and cancer. All of these diseases are consistent with the regulatory role of SOX10 in various neural crest derivatives (melanocytes, the enteric nervous system, Schwann cells and olfactory ensheathing cells) and extraneural crest tissues (inner ear, oligodendrocytes). The recent evolution of medical practice in constitutional genetics has led to the identification of SOX10 variants in atypical contexts, such as isolated hearing loss or neurodevelopmental disorders, making them more difficult to classify in the absence of both a typical phenotype and specific expertise. Here, we report novel mutations and review those that have already been published and their functional consequences, along with current understanding of SOX10 function in the affected cell types identified through in vivo and in vitro models. We also discuss research options to increase our understanding of the origin of the observed phenotypic variability and improve the diagnosis and medical care of affected patients.",
+   "found_by": [],
+   "pubdate": "2022 Feb",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "16638435",
+   "title": "Waardenburg syndrome type 1.",
+   "abstract": "Waardenburg syndrome (WS) is a rare disease characterized by sensorineural deafness in association with pigmentary anomalies and defects of neural-crest-derived tissues. Depending on additional symptoms, WS is classified into four types, WS1, WS2, WS3 and WS4. WS1 and WS3 are attributed to mutations in PAX3, whereas WS2 is heterogeneous, being caused by mutations in the microphthalmia-associated transcription factor gene in some but not all affected families. WS4 is attributed to mutations in the endothelin-3 or the endothelin-B receptor genes and SOX10 gene. WS1 is an auditory-pigmentary disorder comprising sensorineural hearing loss and pigmentary disturbances of the iris, hair, and skin, along with dystopia canthorum. We report a case with a confirmed diagnosis of WS1 and review the relevant literature for this rare disorder.",
+   "found_by": [],
+   "pubdate": "2006 Mar 30",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "12239580",
+   "title": "Hirschsprung, RET-SOX and beyond: the challenge of examining non-mendelian traits (Review).",
+   "abstract": "Hirschsprung disease (HSCR), or congenital intestinal aganglionosis, is a common hereditary disorder causing intestinal obstruction, thereby showing considerable phenotypic variation in conjunction with complex inheritance. Moreover, phenotypic assessment of the disease has been complicated since a subset of the observed mutations is also associated with several additional syndromic anomalies. Coding sequence mutations in e.g. RET, GDNF, EDNRB, EDN3, and SOX10 lead to long-segment (L-HSCR) as well as syndromic HSCR but fail to explain the transmission of the much more common short-segment form (S-HSCR). Furthermore, mutations in the RET gene are responsible for approximately half of the familial and some sporadic cases, strongly suggesting, on the one hand, the importance of non-coding variations and, on the other hand, that additional genes involved in the development of the enteric nervous system still await their discovery. For almost all of the identified HSCR genes incomplete penetrance of the HSCR phenotype has been reported, probably due to modifier loci. Therefore, HSCR has become a model for a complex oligo-/polygenic disorder in which the relationship between different genes creating a non-mendelian inheritance pattern still remains to be elucidated.",
+   "found_by": [],
+   "pubdate": "2002 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "11106284",
+   "title": "Genetics of Hirschsprung disease.",
+   "abstract": "Hirschsprung disease (HSCR), or congenital intestinal aganglionosis, is a relatively common disorder of neural crest migration. It has a strong genetic basis, although simple Mendelian inheritance is rarely observed. Hirschsprung disease is associated with several other anomalies and syndromes, and animal models for these conditions exist. Mutations in the RET gene are responsible for approximately half of familial cases and a smaller fraction of sporadic cases. Mutations in genes that encode RET ligands (GDNF and NTN); components of another signaling pathway (EDNRB, EDN3, ECE-1); and the transcription factor, SOX10, have been identified in HSCR patients. A subset of these mutations is associated with anomalies of pigmentation and/or hearing loss. For almost every HSCR gene, incomplete penetrance of the HSCR phenotype has been observed, probably due to genetic modifier loci. Thus, HSCR has become a model of a complex polygenic disorder in which the interplay of different genes is currently being elucidated.",
+   "found_by": [],
+   "pubdate": "2000 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "33251892",
+   "title": "Targeted next-generation sequencing identified a novel variant of SOX10 in a Chinese family with Waardenburg syndrome type 2.",
+   "abstract": "OBJECTIVE: Waardenburg syndrome type 2 (WS2) is an autosomal dominant syndrome, characterized by bright blue eyes, hearing loss, and depigmented patches of hair and skin. It exhibits high phenotypic and genetic heterogeneity. We explored the molecular etiology in a Chinese family with WS2. METHODS: We recruited a three-generation family with three affected members. Medical history was obtained from all family members who underwent detailed physical examinations and audiology tests. Genomic DNA was extracted from peripheral blood of each individual, and 139 candidate genes associated with hearing loss were sequenced using Illumina HiSeq 2000 (Illumina Inc., San Diego, CA, USA) and verified by Sanger sequencing. RESULTS: Genetic evaluation revealed a novel nonsense heterozygous variant, NM_006941.4: c.342G>A (p.Trp114Ter) in exon 2 of the SOX10 gene in the three affected patients; no unaffected family member carried the variation. We did not detect the variation in 500 Chinese individuals with normal hearing or in 122 unrelated Chinese families with hearing loss, suggesting that it was specific to our patients. CONCLUSIONS: We identified a novel heterozygous nonsense variation in a family with syndromic hearing loss and WS2. Our findings expand the pathogenic spectrum and strengthen the clinical diagnostic role of SOX10 in patients with WS2.",
+   "found_by": [],
+   "pubdate": "2020 Nov",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40702859",
+   "title": "Waardenburg Syndrome: Review of Genotype-Phenotype Relationships in 30 Patients in Hong Kong.",
+   "abstract": "Waardenburg syndrome (WS) is a genetically heterogeneous auditory-pigmentary disorder with multiple genetic loci. We reported 30 Chinese patients from 19 unrelated families with molecularly confirmed WS, either by single-gene testing, gene panel, or research-based whole-genome sequencing. Their clinical phenotypes were reviewed in comparison with other Chinese cohorts in the literature. The overall diagnostic rate in our cohort was 65%. Novel PAX3 and SOX10 variants were found in seven unrelated families. Our findings were consistent with other Chinese phenotypic studies; however, congenital sensorineural hearing loss was less commonly observed in our cohort. This report highlighted the clinical and genetic heterogeneity among WS patients in our ethnicity.",
+   "found_by": [],
+   "pubdate": "2025 Dec",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "40914049",
+   "title": "Hypomyelinating leukodystrophy: From molecular mechanisms to clinical advances.",
+   "abstract": "Hypomyelinating leukodystrophies (HLDs) are a group of inherited disorders characterized by impaired myelin formation in the central nervous system. Among them, Pelizaeus-Merzbacher disease (PMD) is a well-defined X-linked leukodystrophy caused by mutations in the PLP1 gene, including duplications, missense variants, and null mutations. Recent studies have revealed that different types of PLP1 mutations lead to distinct pathomechanisms: while missense mutations induce endoplasmic reticulum stress and activate the unfolded protein response (UPR), PLP1 duplications cause aberrant intracellular trafficking and cholesterol accumulation without UPR activation. Additionally, mutations in other genes such as GJC2, SOX10, TUBB4A, and POLR3A/B have been implicated in various forms of HLD, each with unique clinical and imaging features. Advances in neuroimaging and next-generation sequencing have enabled more accurate and earlier diagnosis, expanding the clinical spectrum and deepening our understanding of disease mechanisms. This review summarizes the current knowledge on the molecular pathogenesis, genotype-phenotype correlations, and diagnostic approaches in HLDs, with an emphasis on recent biological insights that may inform future therapeutic strategies.",
+   "found_by": [],
+   "pubdate": "2025 Oct",
+   "query_tier": "variant"
+  },
+  {
+   "pmid": "41246903",
+   "title": "Altered Epithelial-Mesenchymal Progenitor States Lead to Matrix Deposition, Tissue Inflammation, and Transitional Epithelial State in Congenital Diaphragmatic Hernia.",
+   "abstract": "INTRODUCTION: Congenital diaphragmatic hernia (CDH) lungs are characterized by pulmonary hypertension and lung hypoplasia. We have used single cell RNA sequencing (scRNA-seq) to show that mesenchyme is perturbed in CDH, leading to disrupted epithelial-mesenchymal transition (EMT) dynamics and inflammatory signaling. METHODS: Normal and CDH fetal rat lungs were harvested at E17, E19 and E21 - which correlate to pseudoglandular, canalicular, and saccular stages, respectively - and dissociated into single cell suspension. Seurat was used for single cell analysis. Cell types were identified by canonical genes and differential expression of genes were then analyzed. Findings were confirmed by staining. Score for mesenchymal versus epithelial-like characteristics in EMT was calculated. RESULTS: During normal development, mesenchymal progenitors surround the developing airway undergoing EMT. At E17 in CDH, these cells downregulate Sox9, a plasticity marker, and upregulate extracellular matrix (ECM) proteins and TGF\u03b2 signaling molecules. CDH mesenchymal progenitors have an increased EMT score (p\u2009<\u20090.001), meaning more mesenchymal characteristics compared to normal lung. At E21, CDH mesenchyme upregulates TGF\u03b2-2, TGF\u03b2R-2, and Smad2/3. CDH alveolar type 1 (AT1) and AT2 cells upregulate Krt8 and Krt18. DISCUSSION: CDH lung mesenchymal progenitors attain mesenchymal-like characteristics prematurely and there is upregulation of ECM proteins when compared to normal lung. Moreover, CDH distal epithelial cells (Krt8/18+) enter a transitional state that is seen in fibrotic lung diseases. These findings represent imbalance of EMT, and thus dysregulation of key molecular pathways, which leads to poorly developed mesenchymal and epithelial structures that we speculate causes the lung hypoplasia found in CDH. [full text, passages naming SOX10] ...ion of lung mesenchymal cells in development and fibrosis . iScience . 2021 ; 24 ( 6 ): 102551 . doi: 10.1016/j.isci.2021.102551 . 34151224 PMC8188567 [37] , Yang L-N , Huang W-K , Li X-L , Bai Y-Z . Zhang S-C Sox10 is a specific biomarker for neural crest stem cells in immunohistochemical staining in Wistar rats . Dis Markers . 2020 ; 2020 : 8893703 \u2013 7 . doi: 10.1155/2020/8893703 . 32908618 PMC7477616 [38] , Khalaj... ...icytes | | Gucy1a1, Gucy2a1 [ | 32 , 33 ] | Mesenchymal Progenitors | | Twist1, Prrx1, Col1a1, Col3a1, Col11a1, Wnt2, Sox9 [ | 27 , 31 , 34 ] | Mesothelial | | Wt1 [ | 35 , 36 ] | Neural Crest Cells (NCCs) | | Sox10 [ | 37 ] | Neuroendocrine Cells (NECs) | | Tlx2, Chga, Ascl [ | 38 ] | Adventitial Fibroblasts | | Vcam1, Ogn, Itga8, Fbln5, Thbd, Pdgfra, Ptn [ | 29 , 39 ] | Smooth Muscle Cells | | Acta2, Myh11 [ | 29 ,...",
+   "found_by": [],
+   "pubdate": "2025",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "29679560",
+   "title": "Developmental origin and morphogenesis of the diaphragm, an essential mammalian muscle.",
+   "abstract": "The diaphragm is a mammalian skeletal muscle essential for respiration and for separating the thoracic and abdominal cavities. Development of the diaphragm requires the coordinated development of muscle, muscle connective tissue, tendon, nerves, and vasculature that derive from different embryonic sources. However, defects in diaphragm development are common and the cause of an often deadly birth defect, Congenital Diaphragmatic Hernia (CDH). Here we comprehensively describe the normal developmental origin and complex spatial-temporal relationship between the different developing tissues to form a functional diaphragm using a developmental series of mouse embryos genetically and immunofluorescently labeled and analyzed in whole mount. We find that the earliest developmental events are the emigration of muscle progenitors from cervical somites followed by the projection of phrenic nerve axons from the cervical neural tube. Muscle progenitors and phrenic nerve target the pleuroperitoneal folds (PPFs), transient pyramidal-shaped structures that form between the thoracic and abdominal cavities. Subsequently, the PPFs expand across the surface of the liver to give rise to the muscle connective tissue and central tendon, and the leading edge of their expansion precedes muscle morphogenesis, formation of the vascular network, and outgrowth and branching of the phrenic nerve. Thus development and morphogenesis of the PPFs is critical for diaphragm formation. In addition, our data indicate that the earliest events in diaphragm development are critical for the etiology of CDH and instrumental to the evolution of the diaphragm. CDH initiates prior to E12.5 in mouse and suggests that defects in the early PPF formation or their ability to recruit muscle are an important source of CDH. Also, the recruitment of muscle progenitors from cervical somites to the nascent PPFs is uniquely mammalian and a key developmental innovation essential for the evolution of the muscularized diaphragm. [full text, passages naming SOX10] ...somite labels myogenic cells as GFP+ ( Hutcheson et al., 2009 ). As the transcription factor Pax3 also labels neural crest cells, we verified that GFP+ cells are indeed muscle progenitors by comparing GFP and SOX10 expression (which labels neural crest; McKeown et al., 2013 ) and found no overlap between SOX10 and GFP in the region and time period of analysis ( Fig. S1 ). In addition, we compared GFP with the expres... ...3 also labels neural crest cells, we verified that GFP+ cells are indeed muscle progenitors by comparing GFP and SOX10 expression (which labels neural crest; McKeown et al., 2013 ) and found no overlap between SOX10 and GFP in the region and time period of analysis ( Fig. S1 ). In addition, we compared GFP with the expression of the receptor tyrosine kinase Met (which labels all migratory muscle progenitors; Bladt et... ...ulating these events will be key for elucidating the evolutionary origin of the diaphragm, a functionally critical and defining feature of mammals. Supplementary Material 1 Figure S1: Pax3 embryos do not label SOX10+ neural crest cells at the time of muscle progenitor migration. (A\u2013C) At E10.5 in Cre/+ ;Rosa26 mTmG/+ Pax3 GFP+ muscle progenitors migrating from the somites to the diaphragm (outlined in yellow) or limb...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "23221805",
+   "title": "Deficiency of FRAS1-related extracellular matrix 1 (FREM1) causes congenital diaphragmatic hernia in humans and mice.",
+   "abstract": "Congenital diaphragmatic hernia (CDH) is a common life-threatening birth defect. Recessive mutations in the FRAS1-related extracellular matrix 1 (FREM1) gene have been shown to cause bifid nose with or without anorectal and renal anomalies (BNAR) syndrome and Manitoba oculotrichoanal (MOTA) syndrome, but have not been previously implicated in the development of CDH. We have identified a female child with an isolated left-sided posterolateral CDH covered by a membranous sac who had no features suggestive of BNAR or MOTA syndromes. This child carries a maternally-inherited ~86 kb FREM1 deletion that affects the expression of FREM1's full-length transcripts and a paternally-inherited splice site mutation that causes activation of a cryptic splice site, leading to a shift in the reading frame and premature termination of all forms of the FREM1 protein. This suggests that recessive FREM1 mutations can cause isolated CDH in humans. Further evidence for the role of FREM1 in the development of CDH comes from an N-ethyl-N-nitrosourea -derived mouse strain, eyes2, which has a homozygous truncating mutation in Frem1. Frem1(eyes2) mice have eye defects, renal agenesis and develop retrosternal diaphragmatic hernias which are covered by a membranous sac. We confirmed that Frem1 is expressed in the anterior portion of the developing diaphragm and found that Frem1(eyes2) embryos had decreased levels of cell proliferation in their developing diaphragms when compared to wild-type embryos. We conclude that FREM1 plays a critical role in the development of the diaphragm and that FREM1 deficiency can cause CDH in both humans and mice.",
+   "found_by": [],
+   "pubdate": "2013",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "29446546",
+   "title": "De novo variants in Myelin regulatory factor (MYRF) as candidates of a new syndrome of cardiac and urogenital anomalies.",
+   "abstract": "Myelin Regulatory Factor (MYRF) is a transcription factor that has previously been associated with the control of the expression of myelin-related genes. However, it is highly expressed in human tissues and mouse embryonic tissues outside the nervous system such as the stomach, lung, and small intestine. It has not previously been reported as a cause of any Mendelian disease. We report here two males with Scimitar syndrome [MIM 106700], and other features including penoscrotal hypospadias, cryptorchidism, pulmonary hypoplasia, tracheal anomalies, congenital diaphragmatic hernia, cleft spleen, thymic involution, and thyroid fibrosis. Gross neurologic functioning appears to be within normal limits. In both individuals a de novo variant in MYRF was identified using exome sequencing. Neither variant is found in gnomAD. Heterozygous variants in MYRF should be considered in patients with variants of Scimitar syndrome and urogenital anomalies. [full text, passages naming SOX10] ...phenotype in heterozygotes is described ( Emery et al., 2009 ). It has also been shown to be essential for synaptic plasticity in C. elegans model systems ( Meng et al., 2017 ). MYRF is known to be a target of SOX10, which causes some forms of Waardenburg syndrome (MIM 609136, 611584, and 613266) ( Hornig et al., 2013 ). According to the Human Protein Atlas (HPA) database with tissue-specific RNA-Seq data, MYRF expre... ...nd antibody-based proteomics Molecular & Cellular Proteomics 13 2 397 406 24309898 10.1074/mcp.M113.035600 PMC3916642 Hornig J Frob F Vogl MR Hermans-Borgmeyer I Tamm ER Wegner M 2013 The transcription factors Sox10 and Myrf define an essential regulatory network module in differentiating oligodendrocytes PLoS Genetics 9 10 e1003907 24204311 10.1371/journal.pgen.1003907 PMC3814293 Kim D Choi JO Fan C Shearer RS Shari...",
+   "found_by": [],
+   "pubdate": "2018",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "15924262",
+   "title": "APC/C regulation of axonal growth and synaptic functions in postmitotic neurons: the Liprin-alpha connection.",
+   "abstract": "Protein ubiquitination has critical roles in neuronal physiology and defects in protein ubiquitination have been implicated in neurodegenerative pathology. The anaphase-promoting complex/cyclosome (APC/C) is one of two key E3 ubiquitin ligase complexes that functions in regulating cell cycle transitions in proliferating cells by acting on cyclins and components of the mitotic/meiotic apparatus. Documentation of APC/C's action beyond cell division is sparse. In the past year, however, novel and surprising roles for APC/C in postmitotic neurons, particularly in the modulation of axonal growth and synaptic functions, have been revealed. APC/C and its activator Cdh-1 are found in good abundance in neurons, and these seem to function at different cellular locations, modulating apparently diverse processes such as axonal growth and synaptic function. Interestingly, there also appears to be a single link to these apparently divergent actions of APC/C in neurons--the multi-domain, multi-functional scaffolding protein Liprin-alpha which is an APC/C substrate.",
+   "found_by": [],
+   "pubdate": "2005",
+   "query_tier": "fulltext"
+  },
+  {
+   "pmid": "2643314",
+   "title": "Spina bifida and hydrocephalus: a population study over a 35-year period.",
+   "abstract": "The records of the B.C. Health Surveillance Registry were used to analyze all live births with spina bifida and hydrocephalus (SBHC) in British Columbia between 1952 and 1986 inclusive. A total of 479 cases (218 males and 261 females) occurred during this period in 1,298,267 consecutive live births, for an incidence of 3.7/10,000. There were more females, with the sex ratio being significantly different from that of the general population born over this period. No significant seasonal differences were observed over the time period. A comparison of life expectancy for individuals born 1962-1970 and 1970-1986 showed significant improvement in the probability of surviving to the age of 1 year for the latter group. There was also a small but statistically significant increased chance of surviving to age 7 years in the latter group but no difference in the probability of surviving from 7 years to 16 years. Life expectancy figures are shown in a format practical for counseling with regard to prognosis for affected individuals. Additional malformations not attributable to SBHC were observed in 6% (27 cases). These included renal anomalies, cleft lip and/or palate, tracheoesophageal fistula, and diaphragmatic hernia. The incidence of each defect was significantly greater than in the general population of births.",
+   "found_by": [],
+   "pubdate": "1989",
+   "query_tier": "fulltext"
+  }
+ ],
+ "labels": {
+  "10231870": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "21434296": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "15629703": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9027483": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32753671": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9462749": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "34287276": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39518110": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "37312417": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42465261": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33793042": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36305747": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32027463": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9722528": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9560246": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "26680571": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "28207737": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "9425902": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10441344": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "33526222": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "31725485": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35016807": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35260397": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "42166089": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "18833191": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "30914325": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "32899175": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "35079345": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10077527": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "40897801": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "39083419": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "36218076": {
+   "relevance": null,
+   "kind": null,
+   "dropped": true
+  },
+  "10868211": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "29181082": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "10917288": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "28236341": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "9720918": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "9760192": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "20127975": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "38653237": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34516843": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "35205371": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "34782358": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "33108355": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29673042": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34667088": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "30838786": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "16638435": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "26823433": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12239580": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "11106284": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "19320733": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "41286185": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "25495036": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "22241841": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "31464029": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "36367707": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39791977": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "33251892": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "40155049": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "12417529": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "34728538": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "38884051": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "26928066": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "15493017": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "39910206": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "40702859": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "24532487": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "40914049": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "41246903": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29679560": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "23221805": {
+   "relevance": 2,
+   "kind": "nonhuman",
+   "dropped": false
+  },
+  "29446546": {
+   "relevance": 3,
+   "kind": "weak",
+   "dropped": false
+  },
+  "15924262": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  },
+  "2643314": {
+   "relevance": 1,
+   "kind": "none",
+   "dropped": false
+  }
+ },
+ "trace": [
+  {
+   "block": "Synonyms",
+   "fingerprint": "cba813bac4dd",
+   "model": "opus5",
+   "seconds": 4.4,
+   "note": "",
+   "input_tokens": 350,
+   "output_tokens": 386,
+   "usd": 0.0114,
+   "calls": 1
+  },
+  {
+   "block": "Broadened",
+   "fingerprint": "300de4c6305b",
+   "model": "haiku",
+   "seconds": 1.1,
+   "note": "",
+   "input_tokens": 405,
+   "output_tokens": 72,
+   "usd": 0.000765,
+   "calls": 1
+  },
+  {
+   "block": "ContentWords",
+   "fingerprint": "5a97f73e3e1c",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "GeneNames",
+   "fingerprint": "5f7a22f857d6",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Anchors",
+   "fingerprint": "c144cee56f95",
+   "model": "haiku",
+   "seconds": 0.7,
+   "note": "",
+   "input_tokens": 384,
+   "output_tokens": 46,
+   "usd": 0.000614,
+   "calls": 1
+  },
+  {
+   "block": "NameSearch",
+   "fingerprint": "32d65c01c4a2",
+   "model": null,
+   "seconds": 0.0,
+   "note": "21 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "GeneticsNameSearch",
+   "fingerprint": "a08ad4d16c40",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "BroadSearch",
+   "fingerprint": "7290a5cdc7bf",
+   "model": null,
+   "seconds": 0.0,
+   "note": "0 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "VariantSearch",
+   "fingerprint": "1fcad6eb8d44",
+   "model": null,
+   "seconds": 0.0,
+   "note": "50 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "FullTextSearch",
+   "fingerprint": "df94cc6bddaa",
+   "model": null,
+   "seconds": 0.0,
+   "note": "6 articles",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "WordSearch",
+   "fingerprint": "c88575c2237f",
+   "model": null,
+   "seconds": 0.0,
+   "note": "not applicable",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0.0,
+   "calls": 0
+  },
+  {
+   "block": "DedupeByTitleNoNotices",
+   "fingerprint": "dfe829d61ad3",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "TitleKickSparingFullText",
+   "fingerprint": "2949041a5ef0",
+   "model": "haiku",
+   "seconds": 0.9,
+   "note": "",
+   "input_tokens": 3899,
+   "output_tokens": 198,
+   "usd": 0.004889,
+   "calls": 7
+  },
+  {
+   "block": "FetchAbstractsAndExcerpts",
+   "fingerprint": "1fb0b2eecad5",
+   "model": null,
+   "seconds": 15.3,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "Bands",
+   "fingerprint": "1820dfc36e20",
+   "model": "haiku",
+   "seconds": 2.5,
+   "note": "",
+   "input_tokens": 19040,
+   "output_tokens": 996,
+   "usd": 0.02402,
+   "calls": 5
+  },
+  {
+   "block": "ByStrengthThenFullText",
+   "fingerprint": "bc0979b92832",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  },
+  {
+   "block": "ProbabilityRead",
+   "fingerprint": "5290f57ef16e",
+   "model": "opus5",
+   "seconds": 10.5,
+   "note": "",
+   "input_tokens": 12025,
+   "output_tokens": 901,
+   "usd": 0.08265,
+   "calls": 1
+  },
+  {
+   "block": "Argmax",
+   "fingerprint": "2409b4c1fe43",
+   "model": null,
+   "seconds": 0.0,
+   "note": "",
+   "input_tokens": 0,
+   "output_tokens": 0,
+   "usd": 0,
+   "calls": 0
+  }
+ ],
+ "raw": "<response>\n  <probabilities>\n    <established>1</established>\n    <existing>5</existing>\n    <hypothesized>32</hypothesized>\n    <novel>62</novel>\n  </probabilities>\n  <justification>All SOX10-specific articles concern Waardenburg syndrome types 2/4, Hirschsprung disease, PCWH, hypomyelinating leukodystrophy and melanoma\u2014none report SOX10 variants in congenital diaphragmatic hernia patients (PMIDs 34667088, 20127975, 33251892, 40702859). The CDH-related papers mention SOX10 only incidentally as a neural crest marker: in the rat scRNA-seq CDH study it is merely a cell-type annotation marker, and in the mouse diaphragm morphogenesis paper SOX10 is used as a negative control showing no overlap with migrating muscle progenitors (PMIDs 41246903, 29679560). Other CDH papers (FREM1, MYRF) cite SOX10 only as a transcriptional regulator of MYRF in oligodendrocytes, which is background rather than evidence for CDH (PMIDs 23221805, 29446546). Thus there are no human genetic data and essentially no mechanistic argument tying SOX10 to diaphragm defects, so the relationship is best described as Novel, with a modest allowance for Hypothesized given SOX10's role in neural crest derivatives that contribute to structures near the developing diaphragm.</justification>\n  <pmids>\n    <pmid>41246903</pmid>\n    <pmid>29679560</pmid>\n    <pmid>34667088</pmid>\n    <pmid>20127975</pmid>\n    <pmid>33251892</pmid>\n    <pmid>40702859</pmid>\n    <pmid>23221805</pmid>\n    <pmid>29446546</pmid>\n    <pmid>9720918</pmid>\n  </pmids>\n</response>"
+}
