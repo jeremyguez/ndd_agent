@@ -68,12 +68,15 @@ Useful flags: `--num_genes N`, `--max_papers N`, `--retmax N`, `--resume`,
 
 | Preset | Disorder | Gene list |
 |--------|----------|-----------|
-| `asd`  | Autism spectrum disorder | `Data/ASD_genes_union.txt` |
-| `chd`  | Congenital heart disease / diaphragmatic hernia | `Data/CHD_genes.txt` |
-| `ee`   | Epileptic encephalopathy | `Data/EE_genes.txt` |
-| `ndd`  | Neurodevelopmental disorder (generic) | `Data/NDD_genes_04_04.txt` |
+| `asd`  | Autism spectrum disorder | `Data/ASD_genes_2026_10.txt` |
+| `chd_cdh` | Congenital heart disease and congenital diaphragmatic hernia | `Data/CHD_genes_2026_10.txt` |
+| `ee`   | Epileptic encephalopathy | `Data/EE_genes_2026_10.txt` |
+| `ndd`  | Neurodevelopmental disorder (generic) | `Data/NDD_genes_2026_10.txt` |
 
-Presets are defined in `config.py` (`DISEASES`).
+Presets are defined in `config.py` (`DISEASES`). `chd_cdh` runs one clinical
+search and clinical agent per condition, shares the model organism and
+biological evidence, and its report gives one verdict per condition; the
+`disease` column of `summary.csv` says which search found each clinical finding.
 
 ## Output
 

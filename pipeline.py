@@ -43,7 +43,7 @@ from config import APP_ROOT, GENES_FILE, OUTPUT_DIR, PROMPTS_DIR, DEFAULT_MODEL,
 CATEGORIES = ["clinical", "model_organism", "biological"]
 
 CSV_COLUMNS = [
-    "gene", "evidence_category", "citation", "pmid", "source",
+    "gene", "evidence_category", "disease", "citation", "pmid", "source",
     "variant_type", "variant_detail", "phenotype",
     "num_patients", "diagnostic_reason", "center_country", "cohort",
     "organism", "knockout_type", "mendelian_ratio", "lethality", "infertility",
@@ -181,7 +181,44 @@ def run_agent(gene_name: str, category: str, articles: list[dict], model: str, m
     return entries
 
 
-def run_synthesis(gene_name: str, clinical_json: str, model_org_json: str, bio_json: str, model: str, verbose: bool = False, disease_label: str = "neurodevelopmental disorder") -> str:
+def subtype_instructions(subtypes: dict | None) -> str:
+    """Extra synthesis instructions when a preset covers several conditions (empty otherwise)."""
+    if not subtypes:
+        return ""
+    names = ", ".join(f"{sub['label']} ({name})" for name, sub in subtypes.items())
+    return (
+        f"\n\nThis gene is assessed for {len(subtypes)} conditions: {names}. Each clinical entry has a "
+        "\"disease\" field naming the condition whose literature search found it; judge each patient by the "
+        "phenotypes actually reported.\n"
+        "- In section 2, summarize the clinical evidence for each condition separately, each ending with its own "
+        "line \"Strength of clinical evidence for <condition>: STRONG / MODERATE / LIMITED / NONE\".\n"
+        "- In section 5, give one line per condition, \"Overall evidence level for <condition>: STRONG / MODERATE "
+        "/ LIMITED / INSUFFICIENT\", then the line \"Overall evidence level: ...\" set to the stronger of them, "
+        "and say whether the evidence points to a syndrome affecting several of these conditions."
+    )
+
+
+def run_clinical_by_subtype(gene_name: str, subtypes: dict, model: str, max_papers: int, verbose: bool = False) -> tuple[list[dict], list[dict]]:
+    """One clinical search and agent per subtype; an article found by several searches is read once."""
+    articles, entries, seen = [], [], set()
+    for name, sub in subtypes.items():
+        apply_search_overrides(sub["clinical_keywords"], None)
+        found = []
+        for a in gather_articles(gene_name, "clinical", verbose=verbose):
+            key = str(a.get("pmid") or (a.get("title") or "").lower())
+            if key not in seen:
+                seen.add(key)
+                a["disease"] = name
+                found.append(a)
+        sub_entries = run_agent(gene_name, "clinical", found, model, max_papers=max_papers, verbose=verbose)
+        for e in sub_entries:
+            e["disease"] = name
+        articles += found
+        entries += sub_entries
+    return articles, entries
+
+
+def run_synthesis(gene_name: str, clinical_json: str, model_org_json: str, bio_json: str, model: str, verbose: bool = False, disease_label: str = "neurodevelopmental disorder", subtypes: dict | None = None) -> str:
     """Run the synthesis agent. Returns the text report."""
     import time
     from services.llm_service import call_llm
@@ -193,6 +230,7 @@ def run_synthesis(gene_name: str, clinical_json: str, model_org_json: str, bio_j
         model_organism_json=model_org_json,
         biological_json=bio_json,
         disease_label=disease_label,
+        subtype_instructions=subtype_instructions(subtypes),
     )
     if verbose:
         print(f"  [{gene_name}] LLM synthesis ({len(prompt)} chars)...", flush=True)
@@ -212,6 +250,7 @@ def flatten_clinical_rows(gene_name: str, entries: list[dict]) -> list[dict]:
             rows.append({
                 "gene": gene_name,
                 "evidence_category": "clinical",
+                "disease": entry.get("disease", ""),
                 "citation": entry.get("citation", ""),
                 "pmid": _extract_pmid(entry.get("citation", "")),
                 "source": "ashg" if "ASHG" in entry.get("citation", "") else "pubmed",
@@ -349,6 +388,7 @@ def process_gene(payload: dict) -> dict:
     verbose = payload.get("verbose", False)
     mouse_phenotypes = payload.get("mouse_phenotypes", "")
     disease_label = payload.get("disease_label", "neurodevelopmental disorder")
+    subtypes = payload.get("clinical_subtypes")
     apply_search_overrides(payload.get("clinical_keywords"), payload.get("retmax"))
     gene_start = _time.time()
 
@@ -356,9 +396,12 @@ def process_gene(payload: dict) -> dict:
         all_articles = {}
         all_agent_results = {}
         for cat in CATEGORIES:
-            articles = gather_articles(gene_name, cat, verbose=verbose)
+            if cat == "clinical" and subtypes:
+                articles, entries = run_clinical_by_subtype(gene_name, subtypes, model, max_papers, verbose=verbose)
+            else:
+                articles = gather_articles(gene_name, cat, verbose=verbose)
+                entries = run_agent(gene_name, cat, articles, model, max_papers=max_papers, verbose=verbose, mouse_phenotypes=mouse_phenotypes)
             all_articles[cat] = articles
-            entries = run_agent(gene_name, cat, articles, model, max_papers=max_papers, verbose=verbose, mouse_phenotypes=mouse_phenotypes)
             all_agent_results[cat] = entries
 
         csv_rows = []
@@ -374,6 +417,7 @@ def process_gene(payload: dict) -> dict:
             model,
             verbose=verbose,
             disease_label=disease_label,
+            subtypes=subtypes,
         )
 
         report = _append_references(report, all_agent_results)
@@ -472,7 +516,8 @@ def save_gene_result(run_path: str, result: dict):
     # Save the articles actually submitted to the LLM (title + PMID only), for traceability
     if result.get("articles") is not None:
         slim = {
-            cat: [{"title": a.get("title"), "pmid": a.get("pmid")} for a in articles]
+            cat: [{"title": a.get("title"), "pmid": a.get("pmid"),
+                   **({"disease": a["disease"]} if a.get("disease") else {})} for a in articles]
             for cat, articles in result["articles"].items()
         }
         articles_path = os.path.join(run_path, "results", f"{gene}_articles.json")
@@ -505,6 +550,7 @@ def run_pipeline(args):
     # phenotypes, synthesis label, and the default run name).
     disease_label = "neurodevelopmental disorder"
     mouse_phenotypes = ""
+    clinical_subtypes = None
     if getattr(args, "disorder", None):
         if args.disorder not in DISEASES:
             raise ValueError(f"Unknown --disorder '{args.disorder}'. Choices: {', '.join(DISEASES)}")
@@ -514,7 +560,11 @@ def run_pipeline(args):
         if not args.genes and not args.genes_file:
             args.genes_file = dcfg["genes_file"]
         if not args.clinical_keywords:
-            args.clinical_keywords = list(dcfg["clinical_keywords"])
+            if dcfg.get("subtypes"):
+                clinical_subtypes = dcfg["subtypes"]
+                print(f"[INFO] Separate clinical searches for: {', '.join(clinical_subtypes)}")
+            else:
+                args.clinical_keywords = list(dcfg["clinical_keywords"])
         print(f"[INFO] Disorder preset: {args.disorder} -> label='{disease_label}', genes_file={args.genes_file}")
 
     # Override clinical keywords / retmax if provided
@@ -591,7 +641,8 @@ def run_pipeline(args):
             "total_genes": len(gene_list),
             "genes": gene_list,
             "retmax": retmax_used,
-            "clinical_keywords": clinical_kw_used,
+            "clinical_keywords": None if clinical_subtypes else clinical_kw_used,
+            "clinical_subtypes": clinical_subtypes,
             "disorder": getattr(args, "disorder", None),
             "disease_label": disease_label,
             "mouse_phenotypes": mouse_phenotypes,
@@ -608,7 +659,8 @@ def run_pipeline(args):
     verbose = getattr(args, 'verbose', False)
     payloads = [{"gene_name": g, "model": model, "max_papers": max_papers, "verbose": verbose,
                  "mouse_phenotypes": mouse_phenotypes, "disease_label": disease_label,
-                 "clinical_keywords": args.clinical_keywords, "retmax": retmax_override} for g in todo]
+                 "clinical_keywords": args.clinical_keywords, "retmax": retmax_override,
+                 "clinical_subtypes": clinical_subtypes} for g in todo]
 
     total_input_tokens = 0
     total_output_tokens = 0

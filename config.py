@@ -19,11 +19,11 @@ BASE_URL_NCBI = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
 DATA_DIR = os.path.join(APP_ROOT, 'Data')
 PROMPTS_DIR = os.path.join(APP_ROOT, 'prompts')
 OUTPUT_DIR = os.path.join(APP_ROOT, 'output')
-GENES_FILE = os.path.join(DATA_DIR, 'NDD_genes_novel.txt')
+GENES_FILE = os.path.join(DATA_DIR, 'NDD_genes_2026_10.txt')
 ASHG_FILE = os.path.join(DATA_DIR, 'ASHG_2009_2023_v2.csv')
 
 # --- LLM Settings ---
-DEFAULT_MODEL = "claude-haiku-4-5"
+DEFAULT_MODEL = "claude-sonnet-5-5"
 LLM_MAX_RETRIES = 5
 LLM_INITIAL_DELAY = 2
 LLM_MAX_TOKENS = 16384
@@ -62,7 +62,7 @@ BIOLOGICAL_RETMAX = 20
 #   - disease_label:     injected into the synthesis prompt in place of "neurodevelopmental disorder"
 DISEASES = {
     "asd": {
-        "genes_file": os.path.join(DATA_DIR, "ASD_genes_union.txt"),
+        "genes_file": os.path.join(DATA_DIR, "ASD_genes_2026_10.txt"),
         "clinical_keywords": [
             "Autism", "Autistic features", "ASD", "repetitive behavior",
             "Asperger syndrome", "Stereotypies", "Rett syndrome", "Rett-like",
@@ -70,21 +70,38 @@ DISEASES = {
         "mouse_phenotypes": "general developmental delay, social/behavioral phenotypes, brain abnormalities",
         "disease_label": "autism spectrum disorder",
     },
-    "chd": {
-        "genes_file": os.path.join(DATA_DIR, "CHD_genes.txt"),
-        "clinical_keywords": [
-            "Diaphragmatic hernia", "septal", "ventricular",
-            "Transposition of the great arteries", "congenital heart disease",
-            "cardiac anomaly", "Endocardial cushion defect",
-            "Hypoplastic left heart syndrome", "aorta valve", "pulmonary valve",
-            "Tetralogy of Fallot", "Mitral valve anomaly", "Valve dysplasia",
-            "cardiogenesis",
-        ],
-        "mouse_phenotypes": "general developmental delay, cardiac / lipid / blood vessel phenotypes",
-        "disease_label": "congenital heart disease / congenital diaphragmatic hernia",
+    # Two conditions sharing one candidate list. Each subtype gets its own
+    # clinical search (own keywords and slots) and clinical agent; model
+    # organism and biological evidence are gathered once; the synthesis gives
+    # one verdict per subtype.
+    "chd_cdh": {
+        "genes_file": os.path.join(DATA_DIR, "CHD_genes_2026_10.txt"),
+        "subtypes": {
+            "CHD": {
+                "label": "congenital heart disease",
+                "clinical_keywords": [
+                    "septal", "ventricular",
+                    "Transposition of the great arteries", "congenital heart disease",
+                    "cardiac anomaly", "Endocardial cushion defect",
+                    "Hypoplastic left heart syndrome", "aorta valve", "pulmonary valve",
+                    "Tetralogy of Fallot", "Mitral valve anomaly", "Valve dysplasia",
+                    "cardiogenesis",
+                ],
+            },
+            "CDH": {
+                "label": "congenital diaphragmatic hernia",
+                "clinical_keywords": [
+                    "Diaphragmatic hernia", "diaphragmatic defect", "eventration of the diaphragm",
+                    "Bochdalek hernia", "Morgagni hernia",
+                ],
+            },
+        },
+        "mouse_phenotypes": ("general developmental delay, cardiac / lipid / blood vessel phenotypes, "
+                             "diaphragm / lung development phenotypes"),
+        "disease_label": "congenital heart disease (CHD) and congenital diaphragmatic hernia (CDH)",
     },
     "ee": {
-        "genes_file": os.path.join(DATA_DIR, "EE_genes.txt"),
+        "genes_file": os.path.join(DATA_DIR, "EE_genes_2026_10.txt"),
         "clinical_keywords": [
             "Encephalopathic epilepsy", "seizures", "EEG abnormalities",
             "encephalopathy", "neonatal seizures", "infantile seizures",
@@ -96,7 +113,7 @@ DISEASES = {
     "ndd": {
         # Original NDD behaviour: generic clinical keywords, no extra mouse
         # phenotypes, generic "neurodevelopmental disorder" synthesis label.
-        "genes_file": os.path.join(DATA_DIR, "NDD_genes_04_04.txt"),
+        "genes_file": os.path.join(DATA_DIR, "NDD_genes_2026_10.txt"),
         "clinical_keywords": list(CLINICAL_KEYWORDS),
         "mouse_phenotypes": "",
         "disease_label": "neurodevelopmental disorder",

@@ -1,0 +1,16 @@
+You are screening articles before an expert extracts {category_label} for the gene {gene_name} in {disease_label}.
+
+{category_definition}
+
+Assign each article one relevance band:
+3 = directly reports {category_label} about {gene_name} itself
+2 = contains some {category_label} about {gene_name}, but partial, indirect, or for a less related phenotype
+1 = mentions {gene_name} only in passing (one gene among many with no specific data, a review restating others' work)
+0 = not about {gene_name} (another gene, a symbol collision, or {gene_name} absent)
+
+Some articles were found because {gene_name} appears only in their full text (tables, supplement); for those, judge from the passages naming {gene_name}, not from the abstract alone.
+
+Articles:
+{articles}
+
+Return only a JSON array, one object per article, in the same order: [{{"id": 1, "band": 3}}, ...]

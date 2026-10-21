@@ -11,6 +11,7 @@ _token_lock = threading.Lock()
 _total_input_tokens = 0
 _total_output_tokens = 0
 _total_calls = 0
+_by_model = {}
 
 
 class LLMOverloadedError(Exception):
@@ -23,6 +24,7 @@ def get_token_usage() -> dict:
             "input_tokens": _total_input_tokens,
             "output_tokens": _total_output_tokens,
             "total_calls": _total_calls,
+            "by_model": {m: dict(u) for m, u in _by_model.items()},
         }
 
 
@@ -32,6 +34,7 @@ def reset_token_usage():
         _total_input_tokens = 0
         _total_output_tokens = 0
         _total_calls = 0
+        _by_model.clear()
 
 
 def call_llm(
@@ -56,6 +59,10 @@ def call_llm(
                     _total_input_tokens += message.usage.input_tokens
                     _total_output_tokens += message.usage.output_tokens
                     _total_calls += 1
+                    u = _by_model.setdefault(model, {"input_tokens": 0, "output_tokens": 0, "calls": 0})
+                    u["input_tokens"] += message.usage.input_tokens
+                    u["output_tokens"] += message.usage.output_tokens
+                    u["calls"] += 1
             return "".join(b.text for b in message.content if b.type == "text")
         except anthropic.APIStatusError as e:
             if e.status_code in (429, 500, 503, 529):
